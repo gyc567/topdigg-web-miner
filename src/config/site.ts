@@ -80,22 +80,22 @@ export const siteConfig = {
     mySites: [
       { 
         label: {
-          "zh-Hans": "我的网站A",
-          "zh-Hant": "我的網站A",
-          "en": "My Site A",
-          "ja": "私のサイトA"
+          "zh-Hans": "聪明钱导航",
+          "zh-Hant": "聪明錢導航",
+          "en": "SmartWallet",
+          "ja": "スマートウォレット"
         }, 
-        href: "https://example.com", 
+        href: "https://www.smartwallex.com/", 
         external: true 
       },
       { 
         label: {
-          "zh-Hans": "我的网站B",
-          "zh-Hant": "我的網站B",
-          "en": "My Site B",
-          "ja": "私のサイトB"
+          "zh-Hans": "KGR工具",
+          "zh-Hant": "KGR工具",
+          "en": "KGR Calculator",
+          "ja": "KGRツール"
         }, 
-        href: "https://example.org", 
+        href: "https://www.kgrcalculator.com/", 
         external: true 
       },
     ] as NavLink[],
