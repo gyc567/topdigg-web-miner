@@ -10,6 +10,8 @@ import Layout from "./components/layout/Layout";
 import BlogIndex from "./pages/BlogIndex";
 import BlogPost from "./pages/BlogPost";
 import ColumnPage from "./pages/ColumnPage";
+import "./i18n";
+import { LanguageInitializer } from "./components/LanguageInitializer";
 
 const queryClient = new QueryClient();
 
@@ -17,6 +19,7 @@ const App = () => (
   <QueryClientProvider client={queryClient}>
     <HelmetProvider>
       <TooltipProvider>
+        <LanguageInitializer />
         <Toaster />
         <Sonner />
         <BrowserRouter>

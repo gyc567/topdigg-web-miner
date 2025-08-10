@@ -1,0 +1,36 @@
+{
+  "common": {
+    "viewAll": "查看全部 →",
+    "visit": "訪問 →"
+  },
+  "home": {
+    "heroTitle": "用內容與數據，系統性挖掘 Web 流量的商業機會",
+    "heroDesc": "聚焦SEO、渠道增長與產品驗證，配套三大專欄：Reddit、YouTube、Twitter，持續追蹤優質創作者與趨勢。",
+    "blogCta": "閱讀博客",
+    "columnsCta": "進入專欄",
+    "latest": "最新博客"
+  },
+  "blog": {
+    "indexTitle": "博客",
+    "indexDesc": "持續更新高質量內容，助力你從流量走向收益。"
+  },
+  "post": {
+    "notFoundTitle": "未找到",
+    "notFoundDesc": "未找到該文章",
+    "notFoundMsg": "文章不存在。"
+  },
+  "column": {
+    "notFoundTitle": "未找到",
+    "notFoundDesc": "未找到該專欄"
+  },
+  "notFound": {
+    "pageTitle": "頁面未找到",
+    "pageDesc": "您訪問的頁面不存在",
+    "oops": "Oops! 頁面不存在",
+    "backHome": "返回首頁"
+  },
+  "footer": {
+    "rights": "© {{year}} {{siteName}}. 保留所有權利。",
+    "builtBy": "由 {{siteName}} 構建 — 專注挖掘 Web 流量與商業機會。"
+  }
+}

@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import { siteConfig } from "@/config/site";
+import { LanguageSwitcher } from "../LanguageSwitcher";
 
 export const SiteHeader = () => {
   return (
@@ -21,7 +22,8 @@ export const SiteHeader = () => {
                 }`
               }
             >
-              {item.label}
+              {/* label may be localized */}
+              {item.labelTranslated}
             </NavLink>
           ))}
         </nav>
@@ -37,6 +39,7 @@ export const SiteHeader = () => {
               {item.label}
             </a>
           ))}
+          <LanguageSwitcher />
         </nav>
       </div>
     </header>

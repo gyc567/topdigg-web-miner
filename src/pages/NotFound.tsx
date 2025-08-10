@@ -1,10 +1,11 @@
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import { SEO } from "@/components/SEO";
+import { useTranslation } from "react-i18next";
 
 const NotFound = () => {
   const location = useLocation();
-
+  const { t } = useTranslation();
   useEffect(() => {
     console.error(
       "404 Error: User attempted to access non-existent route:",
@@ -14,7 +15,7 @@ const NotFound = () => {
 
   return (
     <>
-      <SEO title="页面未找到" description="您访问的页面不存在" path={location.pathname} noIndex />
+      <SEO title={t("notFound.pageTitle")} description={t("notFound.pageDesc")} path={location.pathname} noIndex />
       <div className="min-h-screen flex items-center justify-center bg-background">
         <div className="text-center">
           <h1 className="text-4xl font-bold mb-4">404</h1>

@@ -1,16 +1,19 @@
 import { useParams } from "react-router-dom";
 import { SEO } from "@/components/SEO";
 import { getColumnById, siteConfig } from "@/config/site";
+import { useTranslation } from "react-i18next";
+import { localizeText, SupportedLocale } from "@/lib/locale";
 
 const ColumnPage = () => {
   const { id } = useParams();
+  const { i18n, t } = useTranslation();
   const column = id ? getColumnById(id) : undefined;
 
   if (!column) {
     return (
       <>
-        <SEO title="未找到" description="未找到该专栏" path={`/columns/${id}`} noIndex />
-        <div className="py-20 text-center text-muted-foreground">专栏不存在。</div>
+        <SEO title={t("column.notFoundTitle")} description={t("column.notFoundDesc")} path={`/columns/${id}`} noIndex />
+        <div className="py-20 text-center text-muted-foreground">{t("column.notFoundDesc")}</div>
       </>
     );
   }
@@ -33,36 +36,37 @@ const ColumnPage = () => {
   return (
     <>
       <SEO
-        title={column.title}
-        description={column.description}
+        title={localizeText(column.title as any, i18n.language as SupportedLocale)}
+        description={localizeText(column.description as any, i18n.language as SupportedLocale)}
         path={`/columns/${column.id}`}
         jsonLd={jsonLd}
       />
       <header className="mb-6">
-        <h1 className="text-3xl font-bold">{column.title}</h1>
-        <p className="text-muted-foreground mt-2">{column.description}</p>
+        <h1 className="text-3xl font-bold">{localizeText(column.title as any, i18n.language as SupportedLocale)}</h1>
+        <p className="text-muted-foreground mt-2">{localizeText(column.description as any, i18n.language as SupportedLocale)}</p>
       </header>
 
-      <section className="grid gap-4 md:grid-cols-2">
-        {column.topAccounts.map((acc) => (
-          <article key={acc.url} className="rounded-xl border p-5 flex items-center justify-between hover:shadow-sm transition-shadow">
-            <div>
-              <h2 className="text-lg font-semibold">{acc.name}</h2>
-              {acc.handle && (
-                <p className="text-sm text-muted-foreground">{acc.handle}</p>
-              )}
-            </div>
-            <a
-              href={acc.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm text-brand hover:underline"
-            >
-              访问 →
-            </a>
-          </article>
-        ))}
-      </section>
+    <section className="grid gap-4 md:grid-cols-2">
+      {column.topAccounts.map((acc) => (
+        <article key={acc.url} className="rounded-xl border p-5 flex items-center justify-between hover:shadow-sm transition-shadow">
+          <div>
+            <h2 className="text-lg font-semibold">{acc.name}</h2>
+            {acc.handle && (
+              <p className="text-sm text-muted-foreground">{acc.handle}</p>
+            )}
+          </div>
+          <a
+            href={acc.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm text-brand hover:underline"
+          >
+            {/* i18n common visit */}
+            {t("common.visit")}
+          </a>
+        </article>
+      ))}
+    </section>
     </>
   );
 };

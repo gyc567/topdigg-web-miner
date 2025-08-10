@@ -1,0 +1,36 @@
+{
+  "common": {
+    "viewAll": "すべて見る →",
+    "visit": "訪問 →"
+  },
+  "home": {
+    "heroTitle": "コンテンツとデータでWebトラフィックのビジネス機会を体系的に発掘",
+    "heroDesc": "SEO、チャネル成長、プロダクト検証に注力。Reddit・YouTube・Twitterの3つのコラムで優良クリエイターとトレンドを追跡。",
+    "blogCta": "ブログを読む",
+    "columnsCta": "コラムへ",
+    "latest": "最新ブログ"
+  },
+  "blog": {
+    "indexTitle": "ブログ",
+    "indexDesc": "高品質なコンテンツで、トラフィックから収益へ。"
+  },
+  "post": {
+    "notFoundTitle": "見つかりません",
+    "notFoundDesc": "記事が見つかりません",
+    "notFoundMsg": "記事は存在しません。"
+  },
+  "column": {
+    "notFoundTitle": "見つかりません",
+    "notFoundDesc": "コラムが見つかりません"
+  },
+  "notFound": {
+    "pageTitle": "ページが見つかりません",
+    "pageDesc": "アクセスしたページは存在しません",
+    "oops": "おっと！ ページがありません",
+    "backHome": "ホームに戻る"
+  },
+  "footer": {
+    "rights": "© {{year}} {{siteName}}. 無断転載を禁じます。",
+    "builtBy": "{{siteName}} によって構築 — Webトラフィックとビジネス機会に注力。"
+  }
+}

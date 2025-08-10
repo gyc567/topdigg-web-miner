@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
 import { SEO } from "@/components/SEO";
 import { siteConfig } from "@/config/site";
+import { useTranslation } from "react-i18next";
+import { localizeText, SupportedLocale } from "@/lib/locale";
 
 const Index = () => {
   const latest = siteConfig.blog.posts.slice(0, 3);
-
+  const { t, i18n } = useTranslation();
   return (
     <>
       <SEO
@@ -20,17 +22,17 @@ const Index = () => {
       />
       <section className="relative overflow-hidden rounded-2xl border bg-gradient-to-b from-accent to-background p-10 md:p-16 shadow-sm">
         <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-4">
-          用内容与数据，系统性挖掘 Web 流量的商业机会
+          {t("home.heroTitle")}
         </h1>
         <p className="text-lg text-muted-foreground max-w-2xl">
-          聚焦SEO、渠道增长与产品验证，配套三大专栏：Reddit、YouTube、Twitter，持续追踪优质创作者与趋势。
+          {t("home.heroDesc")}
         </p>
         <div className="mt-8 flex flex-wrap gap-4">
           <Link to="/blog" className="inline-flex items-center rounded-md px-5 py-2.5 bg-brand text-brand-foreground shadow hover:opacity-90 transition-colors">
-            阅读博客
+            {t("home.blogCta")}
           </Link>
           <Link to="/columns/reddit" className="inline-flex items-center rounded-md px-5 py-2.5 border hover:bg-accent transition-colors">
-            进入专栏
+            {t("home.columnsCta")}
           </Link>
         </div>
       </section>
@@ -42,8 +44,8 @@ const Index = () => {
           siteConfig.columns.twitter,
         ].map((col) => (
           <article key={col.id} className="rounded-xl border p-6 hover:shadow-sm transition-shadow">
-            <h2 className="text-xl font-bold mb-2">{col.title}</h2>
-            <p className="text-sm text-muted-foreground mb-4">{col.description}</p>
+            <h2 className="text-xl font-bold mb-2">{localizeText(col.title as any, i18n.language as SupportedLocale)}</h2>
+            <p className="text-sm text-muted-foreground mb-4">{localizeText(col.description as any, i18n.language as SupportedLocale)}</p>
             <ul className="space-y-2 text-sm">
               {col.topAccounts.slice(0, 5).map((acc) => (
                 <li key={acc.url}>
@@ -54,23 +56,23 @@ const Index = () => {
               ))}
             </ul>
             <Link to={`/columns/${col.id}`} className="mt-4 inline-flex text-sm text-brand hover:underline">
-              查看全部 →
+              {t("common.viewAll")}
             </Link>
           </article>
         ))}
       </section>
 
       <section className="mt-12">
-        <h2 className="text-2xl font-bold mb-4">最新博客</h2>
+        <h2 className="text-2xl font-bold mb-4">{t("home.latest")}</h2>
         <div className="grid gap-6 md:grid-cols-2">
           {latest.map((post) => (
             <article key={post.slug} className="rounded-xl border p-6 hover:shadow-sm transition-shadow">
               <h3 className="text-lg font-semibold">
                 <Link to={`/blog/${post.slug}`} className="hover:text-brand transition-colors">
-                  {post.title}
+                  {localizeText(post.title as any, i18n.language as SupportedLocale)}
                 </Link>
               </h3>
-              <p className="text-sm text-muted-foreground mt-2">{post.description}</p>
+              <p className="text-sm text-muted-foreground mt-2">{localizeText(post.description as any, i18n.language as SupportedLocale)}</p>
               <div className="mt-3 text-xs text-muted-foreground">
                 <time dateTime={post.date}>{new Date(post.date).toLocaleDateString()}</time> · {post.author}
               </div>
