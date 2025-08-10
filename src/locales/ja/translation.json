@@ -32,5 +32,11 @@
   "footer": {
     "rights": "© {{year}} {{siteName}}. 無断転載を禁じます。",
     "builtBy": "{{siteName}} によって構築 — Webトラフィックとビジネス機会に注力。"
+  },
+  "languages": {
+    "zh-Hans": "簡体中国語",
+    "zh-Hant": "繁体中国語", 
+    "en": "英語",
+    "ja": "日本語"
   }
 }

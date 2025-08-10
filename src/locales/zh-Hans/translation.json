@@ -32,5 +32,11 @@
   "footer": {
     "rights": "© {{year}} {{siteName}}. 保留所有权利。",
     "builtBy": "由 {{siteName}} 构建 — 专注挖掘 Web 流量与商业机会。"
+  },
+  "languages": {
+    "zh-Hans": "简体中文",
+    "zh-Hant": "繁体中文", 
+    "en": "英语",
+    "ja": "日语"
   }
 }

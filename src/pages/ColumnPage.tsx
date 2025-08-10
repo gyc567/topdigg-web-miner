@@ -21,7 +21,7 @@ const ColumnPage = () => {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: `${column.title} Top 5 账户`,
+    name: `${localizeText(column.title as any, i18n.language as SupportedLocale)} Top 5 账户`,
     itemListElement: column.topAccounts.slice(0, 5).map((acc, idx) => ({
       "@type": "ListItem",
       position: idx + 1,

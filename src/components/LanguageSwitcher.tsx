@@ -1,15 +1,8 @@
 import { useTranslation } from "react-i18next";
 import { supportedLocales } from "@/lib/locale";
 
-const labels: Record<string, string> = {
-  "zh-Hans": "中文(简)",
-  "zh-Hant": "中文(繁)",
-  en: "English",
-  ja: "日本語",
-};
-
 export const LanguageSwitcher = () => {
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
 
   return (
     <select
@@ -24,7 +17,7 @@ export const LanguageSwitcher = () => {
     >
       {supportedLocales.map((l) => (
         <option key={l} value={l}>
-          {labels[l]}
+          {t(`languages.${l}`)}
         </option>
       ))}
     </select>

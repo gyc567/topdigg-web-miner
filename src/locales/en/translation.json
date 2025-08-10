@@ -32,5 +32,11 @@
   "footer": {
     "rights": "© {{year}} {{siteName}}. All rights reserved.",
     "builtBy": "Built by {{siteName}} — Focused on web traffic and business opportunities."
+  },
+  "languages": {
+    "zh-Hans": "Simplified Chinese",
+    "zh-Hant": "Traditional Chinese",
+    "en": "English",
+    "ja": "Japanese"
   }
 }
