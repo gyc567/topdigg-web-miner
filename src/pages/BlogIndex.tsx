@@ -3,9 +3,10 @@ import { SEO } from "@/components/SEO";
 import { siteConfig } from "@/config/site";
 import { useTranslation } from "react-i18next";
 import { localizeText, SupportedLocale } from "@/lib/locale";
+import { blogDataSource } from "@/lib/blog-data";
 
 const BlogIndex = () => {
-  const posts = siteConfig.blog.posts;
+  const posts = blogDataSource.getPosts();
   const { t, i18n } = useTranslation();
   const jsonLd = {
     "@context": "https://schema.org",
