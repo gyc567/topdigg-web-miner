@@ -218,6 +218,30 @@ export const siteConfig = {
           "ja": "この記事では、トピック選択、執筆SOP、構造化データ、品質評価を含む軽量で効果的なSEOコンテンツフレームワークを提供します……"
         }
       },
+      {
+        slug: "easemate-ai-research-report",
+        title: {
+          "zh-Hans": "EaseMate AI深度调研拆解报告：2025年全方位AI助手平台完整分析",
+          "zh-Hant": "EaseMate AI深度調研拆解報告：2025年全方位AI助手平台完整分析",
+          "en": "EaseMate AI In-Depth Research Report: Comprehensive Analysis of All-in-One AI Assistant Platform 2025",
+          "ja": "EaseMate AI詳細調査分析レポート：2025年オールインワンAIアシスタントプラットフォーム完全分析"
+        },
+        description: {
+          "zh-Hans": "EaseMate AI平台完整调研报告，包含功能分析、目标用户画像、SEO策略、流量表现、竞争优势及市场机会分析。",
+          "zh-Hant": "EaseMate AI平台完整調研報告，包含功能分析、目標用戶畫像、SEO策略、流量表現、競爭優勢及市場機會分析。",
+          "en": "Complete research report on EaseMate AI platform, including feature analysis, target user profiling, SEO strategies, traffic performance, competitive advantages, and market opportunity analysis.",
+          "ja": "EaseMate AIプラットフォームの完全調査レポート。機能分析、ターゲットユーザー像、SEO戦略、トラフィック性能、競争優位性、市場機会分析を含む。"
+        },
+        date: "2025-01-14",
+        author: "ERIC",
+        tags: ["AI工具", "产品分析", "市场调研", "EaseMate AI"],
+        content: {
+          "zh-Hans": "EaseMate AI是一个集成多种先进AI模型的全方位智能助手平台，通过整合GPT-4、Claude、Gemini、DeepSeek等主流AI模型，为用户提供免费的学习、工作和创意支持服务。本报告基于深度调研，全面分析其产品功能、市场定位、竞争优势及发展机会。",
+          "zh-Hant": "EaseMate AI是一個集成多種先進AI模型的全方位智慧助手平台，通過整合GPT-4、Claude、Gemini、DeepSeek等主流AI模型，為用戶提供免費的學習、工作和創意支持服務。本報告基於深度調研，全面分析其產品功能、市場定位、競爭優勢及發展機會。",
+          "en": "EaseMate AI is a comprehensive intelligent assistant platform that integrates multiple advanced AI models, providing free learning, work, and creative support services by integrating mainstream AI models such as GPT-4, Claude, Gemini, and DeepSeek. This report provides a comprehensive analysis of its product features, market positioning, competitive advantages, and development opportunities based on in-depth research.",
+          "ja": "EaseMate AIは、GPT-4、Claude、Gemini、DeepSeekなどの主流AIモデルを統合し、学習、仕事、創作を無料でサポートする包括的なインテリジェントアシスタントプラットフォームです。本レポートは深度調査に基づき、製品機能、市場ポジショニング、競争優位性、発展機会を包括的に分析しています。"
+        }
+      },
     ] as BlogPost[],
   },
 };
