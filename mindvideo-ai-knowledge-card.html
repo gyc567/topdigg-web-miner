@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindVideo AI 知识卡片</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background: #f5f5f5;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .card-container {
+            position: relative;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .copy-button {
+            position: absolute;
+            right: -80px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 60px;
+            height: 60px;
+            border: none;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #20BF7A, #1A9B6B);
+            color: white;
+            font-size: 24px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            z-index: 10;
+        }
+
+        .copy-button:hover {
+            transform: translateY(-50%) scale(1.1);
+            box-shadow: 0 5px 15px rgba(32, 191, 122, 0.3);
+        }
+
+        .copy-button.success {
+            background: #4CAF50;
+        }
+
+        .copy-button.error {
+            background: #f44336;
+        }
+
+        .status-message {
+            position: absolute;
+            right: -200px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 12px 16px;
+            border-radius: 8px;
+            font-size: 14px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            white-space: nowrap;
+        }
+
+        .status-message.show {
+            opacity: 1;
+        }
+
+        canvas {
+            display: block;
+            border-radius: 20px;
+        }
+
+        .instructions {
+            margin-top: 20px;
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card-container">
+        <canvas id="knowledgeCard" width="1200" height="600"></canvas>
+        <button class="copy-button" id="copyButton" title="复制图片">📋</button>
+        <div class="status-message" id="statusMessage"></div>
+    </div>
+    
+    <div class="instructions">
+        <p>点击右侧按钮复制知识卡片图片到剪贴板</p>
+    </div>
+
+    <script>
+        // 兼容性圆角矩形绘制函数
+        function drawRoundRect(ctx, x, y, width, height, radius) {
+            ctx.beginPath();
+            ctx.moveTo(x + radius, y);
+            ctx.lineTo(x + width - radius, y);
+            ctx.quadraticCurveTo(x + width, y, x + width, y + radius);
+            ctx.lineTo(x + width, y + height - radius);
+            ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height);
+            ctx.lineTo(x + radius, y + height);
+            ctx.quadraticCurveTo(x, y + height, x, y + height - radius);
+            ctx.lineTo(x, y + radius);
+            ctx.quadraticCurveTo(x, y, x + radius, y);
+            ctx.closePath();
+        }
+
+        // 文本换行处理函数
+        function wrapText(ctx, text, maxWidth) {
+            const words = text.split('');
+            const lines = [];
+            let currentLine = '';
+
+            for (let i = 0; i < words.length; i++) {
+                const testLine = currentLine + words[i];
+                const metrics = ctx.measureText(testLine);
+                
+                if (metrics.width > maxWidth && currentLine !== '') {
+                    lines.push(currentLine);
+                    currentLine = words[i];
+                } else {
+                    currentLine = testLine;
+                }
+            }
+            
+            if (currentLine !== '') {
+                lines.push(currentLine);
+            }
+            
+            return lines;
+        }
+
+        // 绘制知识卡片
+        function drawKnowledgeCard() {
+            const canvas = document.getElementById('knowledgeCard');
+            const ctx = canvas.getContext('2d');
+
+            // 清空画布
+            ctx.clearRect(0, 0, 1200, 600);
+
+            // 绘制背景渐变
+            const backgroundGradient = ctx.createLinearGradient(0, 0, 1200, 600);
+            backgroundGradient.addColorStop(0, '#20BF7A');
+            backgroundGradient.addColorStop(1, '#1A9B6B');
+            
+            ctx.fillStyle = backgroundGradient;
+            drawRoundRect(ctx, 0, 0, 1200, 600, 20);
+            ctx.fill();
+
+            // 绘制右侧白色背景区域
+            ctx.save();
+            ctx.fillStyle = '#FFFFFF';
+            drawRoundRect(ctx, 560, 40, 600, 520, 20);
+            ctx.fill();
+            ctx.restore();
+
+            // 左侧内容区域
+            ctx.save();
+            
+            // 主标题
+            ctx.fillStyle = '#FFFFFF';
+            ctx.font = 'bold 48px Arial, sans-serif';
+            ctx.textAlign = 'left';
+            ctx.textBaseline = 'top';
+            ctx.fillText('MindVideo AI', 40, 80);
+
+            // 副标题
+            ctx.save();
+            ctx.globalAlpha = 0.9;
+            ctx.font = '20px Arial, sans-serif';
+            ctx.fillText('免费AI视频生成平台', 40, 140);
+            ctx.restore();
+
+            // 核心理念框
+            ctx.save();
+            // 绘制玻璃模糊效果背景
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.15)';
+            drawRoundRect(ctx, 40, 200, 480, 120, 16);
+            ctx.fill();
+            
+            // 绘制边框
+            ctx.strokeStyle = 'rgba(255, 255, 255, 0.2)';
+            ctx.lineWidth = 2;
+            drawRoundRect(ctx, 40, 200, 480, 120, 16);
+            ctx.stroke();
+
+            // 核心理念标题
+            ctx.fillStyle = '#FFFFFF';
+            ctx.font = 'bold 18px Arial, sans-serif';
+            ctx.fillText('核心理念', 64, 230);
+
+            // 核心理念内容
+            ctx.font = '16px Arial, sans-serif';
+            const coreText = '通过免费策略和多模型整合技术，为用户提供零门槛的高质量AI视频制作解决方案';
+            const wrappedText = wrapText(ctx, coreText, 420);
+            for (let i = 0; i < wrappedText.length; i++) {
+                ctx.fillText(wrappedText[i], 64, 260 + i * 22);
+            }
+            ctx.restore();
+
+            // 引用区
+            ctx.save();
+            // 左侧装饰线
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.4)';
+            ctx.fillRect(40, 360, 4, 80);
+            
+            ctx.fillStyle = '#FFFFFF';
+            ctx.font = 'italic 16px Arial, sans-serif';
+            ctx.fillText('"让每个人都能轻松创作专业级AI视频"', 60, 380);
+            ctx.restore();
+
+            ctx.restore();
+
+            // 右侧内容区域
+            const dimensions = [
+                { title: '免费策略优势', desc: '零成本使用，降低AI视频制作门槛' },
+                { title: '多模型整合', desc: '集成Kling AI、Runway等顶级AI模型' },
+                { title: '创意特效功能', desc: 'AI Kiss、AI Hug等热门视频特效' },
+                { title: '用户体验设计', desc: '界面简洁，一键生成，操作直观' },
+                { title: '市场发展潜力', desc: 'AI视频市场年增长19.7%，前景广阔' }
+            ];
+
+            for (let i = 0; i < dimensions.length; i++) {
+                const y = 80 + i * 95;
+                const dim = dimensions[i];
+
+                ctx.save();
+
+                // 第一项添加虚线框装饰
+                if (i === 0) {
+                    ctx.strokeStyle = '#20BF7A';
+                    ctx.lineWidth = 2;
+                    ctx.setLineDash([8, 4]);
+                    drawRoundRect(ctx, 580, y - 10, 560, 75, 12);
+                    ctx.stroke();
+                    ctx.setLineDash([]);
+
+                    // 淡绿色背景
+                    ctx.fillStyle = 'rgba(32, 191, 122, 0.05)';
+                    drawRoundRect(ctx, 580, y - 10, 560, 75, 12);
+                    ctx.fill();
+                }
+
+                // 绘制圆形数字标签
+                const circleX = 610;
+                const circleY = y + 15;
+                
+                // 圆形渐变背景
+                const circleGradient = ctx.createRadialGradient(circleX, circleY, 0, circleX, circleY, 16);
+                circleGradient.addColorStop(0, '#20BF7A');
+                circleGradient.addColorStop(1, '#1A9B6B');
+                
+                ctx.fillStyle = circleGradient;
+                ctx.beginPath();
+                ctx.arc(circleX, circleY, 16, 0, 2 * Math.PI);
+                ctx.fill();
+
+                // 数字文字
+                ctx.fillStyle = '#FFFFFF';
+                ctx.font = 'bold 14px Arial, sans-serif';
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                ctx.fillText((i + 1).toString(), circleX, circleY);
+
+                // 维度标题
+                ctx.fillStyle = '#333333';
+                ctx.font = 'bold 16px Arial, sans-serif';
+                ctx.textAlign = 'left';
+                ctx.textBaseline = 'top';
+                ctx.fillText(dim.title, 650, y);
+
+                // 维度描述
+                ctx.fillStyle = '#666666';
+                ctx.font = '14px Arial, sans-serif';
+                ctx.fillText(dim.desc, 650, y + 25);
+
+                ctx.restore();
+            }
+        }
+
+        // 复制图片到剪贴板
+        async function copyImageToClipboard() {
+            const canvas = document.getElementById('knowledgeCard');
+            const copyButton = document.getElementById('copyButton');
+            const statusMessage = document.getElementById('statusMessage');
+
+            try {
+                // 显示加载状态
+                copyButton.innerHTML = '⏳';
+                copyButton.disabled = true;
+
+                // 将canvas转换为blob
+                canvas.toBlob(async (blob) => {
+                    try {
+                        const item = new ClipboardItem({ 'image/png': blob });
+                        await navigator.clipboard.write([item]);
+                        
+                        // 成功状态
+                        copyButton.innerHTML = '✓';
+                        copyButton.className = 'copy-button success';
+                        statusMessage.textContent = '复制成功！';
+                        statusMessage.className = 'status-message show';
+                        
+                        // 2秒后恢复默认状态
+                        setTimeout(() => {
+                            copyButton.innerHTML = '📋';
+                            copyButton.className = 'copy-button';
+                            copyButton.disabled = false;
+                            statusMessage.className = 'status-message';
+                        }, 2000);
+                        
+                    } catch (error) {
+                        console.error('复制失败:', error);
+                        
+                        // 失败状态
+                        copyButton.innerHTML = '✗';
+                        copyButton.className = 'copy-button error';
+                        statusMessage.textContent = '复制失败，请重试';
+                        statusMessage.className = 'status-message show';
+                        
+                        // 2秒后恢复默认状态
+                        setTimeout(() => {
+                            copyButton.innerHTML = '📋';
+                            copyButton.className = 'copy-button';
+                            copyButton.disabled = false;
+                            statusMessage.className = 'status-message';
+                        }, 2000);
+                    }
+                }, 'image/png', 1.0);
+                
+            } catch (error) {
+                console.error('生成图片失败:', error);
+                
+                // 失败状态
+                copyButton.innerHTML = '✗';
+                copyButton.className = 'copy-button error';
+                statusMessage.textContent = '生成图片失败';
+                statusMessage.className = 'status-message show';
+                
+                // 2秒后恢复默认状态
+                setTimeout(() => {
+                    copyButton.innerHTML = '📋';
+                    copyButton.className = 'copy-button';
+                    copyButton.disabled = false;
+                    statusMessage.className = 'status-message';
+                }, 2000);
+            }
+        }
+
+        // 初始化
+        document.addEventListener('DOMContentLoaded', function() {
+            // 绘制知识卡片
+            drawKnowledgeCard();
+            
+            // 绑定复制按钮事件
+            document.getElementById('copyButton').addEventListener('click', copyImageToClipboard);
+            
+            // 检查剪贴板API支持
+            if (!navigator.clipboard || !navigator.clipboard.write) {
+                const copyButton = document.getElementById('copyButton');
+                copyButton.innerHTML = '❌';
+                copyButton.disabled = true;
+                copyButton.title = '您的浏览器不支持剪贴板API';
+                
+                const statusMessage = document.getElementById('statusMessage');
+                statusMessage.textContent = '浏览器不支持复制功能';
+                statusMessage.className = 'status-message show';
+            }
+        });
+
+        // 窗口大小改变时重新绘制
+        window.addEventListener('resize', drawKnowledgeCard);
+    </script>
+</body>
+</html>
