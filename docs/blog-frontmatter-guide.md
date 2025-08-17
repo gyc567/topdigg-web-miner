@@ -1,15 +1,14 @@
-# Blog Frontmatter Format Guide
+# 博客 Frontmatter 规范指南
 
-## 问题总结
+本文档旨在避免博客文章显示问题，确保所有markdown文件都能正确解析和显示。
 
-在添加新的博客文章时遇到的问题：新创建的 `mindvideo-ai-analysis-report.md` 文件没有显示在博客页面上。
+## 🚨 核心问题
 
-## 根本原因
+**问题描述**：当markdown文件使用非标准的frontmatter格式时，构建脚本无法正确解析title和description，导致页面显示为空白或错误。
 
-**Frontmatter格式不匹配**：
-- 新文件使用了 TOML 格式（`+++`开头和结尾）
-- 项目中的其他文件使用 YAML 格式（`---`开头和结尾）
-- `gray-matter` 库默认解析 YAML 格式，无法正确解析 TOML 格式的 frontmatter
+**问题原因**：构建脚本 `scripts/build-blog.js` 使用 `gray-matter` 库解析frontmatter，该库默认只支持 `---` 格式，不支持 `+++` 格式。
+
+**最新案例**：GenColor.ai文章使用了 `+++` 格式导致title和description为空，页面无法正常显示。
 
 ## 正确的 Frontmatter 格式
 
