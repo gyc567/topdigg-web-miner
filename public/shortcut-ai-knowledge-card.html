@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shortcut AI 知识卡片 - 超人类AI Excel智能助手</title>
+    <meta name="description" content="Shortcut AI深度分析知识卡片，涵盖核心功能、用户群体、竞争优势和评分。专业AI工具评测平台topdigg.com出品。">
+    <meta name="keywords" content="Shortcut AI, AI Excel助手, 电子表格自动化, AI办公工具, 知识卡片">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 420px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+        
+        .card-container {
+            padding: 30px 20px;
+            text-align: center;
+        }
+        
+        .card-container svg {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .button-container {
+            padding: 0 20px 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        .copy-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 20px;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+        }
+        
+        .copy-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
+        
+        .copy-btn:active {
+            transform: translateY(0);
+        }
+        
+        .success-msg {
+            text-align: center;
+            color: #10b981;
+            font-weight: 600;
+            margin-top: 15px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .success-msg.show {
+            opacity: 1;
+        }
+        
+        .instructions {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px;
+            font-size: 14px;
+            line-height: 1.6;
+            color: #475569;
+        }
+        
+        .instructions h3 {
+            color: #1e293b;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        
+        .instructions ul {
+            margin-left: 20px;
+        }
+        
+        .instructions li {
+            margin-bottom: 5px;
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                margin: 10px;
+                border-radius: 15px;
+            }
+            
+            .card-container {
+                padding: 20px 15px;
+            }
+            
+            .button-container {
+                padding: 0 15px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">Shortcut AI - 知识卡片</h1>
+            <p class="subtitle">超人类AI Excel智能助手</p>
+        </div>
+        
+        <div class="card-container">
+            <svg width="375" height="667" viewBox="0 0 750 1334" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <!-- Background Gradient -->
+                    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" style="stop-color:#E8F5FF;stop-opacity:1" />
+                        <stop offset="50%" style="stop-color:#F0F8FF;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#E8F8F5;stop-opacity:1" />
+                    </linearGradient>
+                    
+                    <!-- Header Gradient -->
+                    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+                    </linearGradient>
+                    
+                    <!-- Feature Box Gradients -->
+                    <linearGradient id="boxGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:0.1" />
+                        <stop offset="100%" style="stop-color:#4CAF50;stop-opacity:0.2" />
+                    </linearGradient>
+                    
+                    <linearGradient id="boxGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#FF9800;stop-opacity:0.1" />
+                        <stop offset="100%" style="stop-color:#FF9800;stop-opacity:0.2" />
+                    </linearGradient>
+                    
+                    <linearGradient id="boxGradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#2196F3;stop-opacity:0.1" />
+                        <stop offset="100%" style="stop-color:#2196F3;stop-opacity:0.2" />
+                    </linearGradient>
+                    
+                    <linearGradient id="boxGradient4" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#E91E63;stop-opacity:0.1" />
+                        <stop offset="100%" style="stop-color:#E91E63;stop-opacity:0.2" />
+                    </linearGradient>
+                    
+                    <!-- Summary Box Gradient -->
+                    <linearGradient id="summaryGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#F8F9FA;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#E9ECEF;stop-opacity:1" />
+                    </linearGradient>
+                    
+                    <!-- Rating Gradient -->
+                    <linearGradient id="ratingGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#10B981;stop-opacity:0.1" />
+                        <stop offset="100%" style="stop-color:#10B981;stop-opacity:0.2" />
+                    </linearGradient>
+                </defs>
+                
+                <!-- Background -->
+                <rect width="750" height="1334" fill="url(#bgGradient)"/>
+                
+                <!-- Header Section -->
+                <rect x="0" y="0" width="750" height="220" fill="url(#headerGradient)"/>
+                
+                <!-- Header Content -->
+                <text x="375" y="80" text-anchor="middle" font-size="42" font-weight="bold" fill="white">Shortcut AI</text>
+                <text x="375" y="130" text-anchor="middle" font-size="24" font-weight="500" fill="white" opacity="0.95">Excel效率革命</text>
+                <rect x="280" y="150" width="190" height="30" rx="15" fill="rgba(255,255,255,0.2)"/>
+                <text x="375" y="170" text-anchor="middle" font-size="16" font-weight="600" fill="white">超人类AI Excel助手</text>
+                
+                <!-- Quick Summary Section -->
+                <rect x="50" y="260" width="650" height="120" rx="20" fill="url(#summaryGradient)" stroke="#E5E7EB" stroke-width="1"/>
+                <text x="75" y="290" font-size="20" font-weight="bold" fill="#1F2937">🚀 这是什么？一句话解释👇</text>
+                <text x="75" y="320" font-size="18" fill="#374151">超人类AI Excel助手，自动化90%</text>
+                <text x="75" y="345" font-size="18" fill="#374151">电子表格任务，89.1%胜率超越顶级</text>
+                <text x="75" y="370" font-size="18" fill="#374151">公司分析师，Fundamental Research开发</text>
+                
+                <!-- Key Features Grid -->
+                <text x="75" y="430" font-size="26" font-weight="bold" fill="#1F2937">💎 核心功能特色</text>
+                
+                <!-- Feature Box 1 -->
+                <rect x="50" y="450" width="320" height="140" rx="15" fill="url(#boxGradient1)" stroke="#4CAF50" stroke-width="2"/>
+                <circle cx="210" cy="485" r="25" fill="rgba(76, 175, 80, 0.2)"/>
+                <text x="210" y="492" text-anchor="middle" font-size="24" font-weight="bold" fill="#4CAF50">90%</text>
+                <text x="210" y="520" text-anchor="middle" font-size="18" fill="#374151">任务自动化</text>
+                <text x="210" y="545" text-anchor="middle" font-size="16" fill="#6B7280">重复工作解放</text>
+                <text x="210" y="565" text-anchor="middle" font-size="16" fill="#6B7280">效率大幅提升</text>
+                
+                <!-- Feature Box 2 -->
+                <rect x="380" y="450" width="320" height="140" rx="15" fill="url(#boxGradient2)" stroke="#FF9800" stroke-width="2"/>
+                <circle cx="540" cy="485" r="25" fill="rgba(255, 152, 0, 0.2)"/>
+                <text x="540" y="492" text-anchor="middle" font-size="24" font-weight="bold" fill="#FF9800">89.1%</text>
+                <text x="540" y="520" text-anchor="middle" font-size="18" fill="#374151">胜率优势</text>
+                <text x="540" y="545" text-anchor="middle" font-size="16" fill="#6B7280">超越顶级分析师</text>
+                <text x="540" y="565" text-anchor="middle" font-size="16" fill="#6B7280">专业能力认证</text>
+                
+                <!-- Feature Box 3 -->
+                <rect x="50" y="610" width="320" height="140" rx="15" fill="url(#boxGradient3)" stroke="#2196F3" stroke-width="2"/>
+                <circle cx="210" cy="645" r="25" fill="rgba(33, 150, 243, 0.2)"/>
+                <text x="210" y="652" text-anchor="middle" font-size="24" font-weight="bold" fill="#2196F3">NLP</text>
+                <text x="210" y="680" text-anchor="middle" font-size="18" fill="#374151">自然语言</text>
+                <text x="210" y="705" text-anchor="middle" font-size="16" fill="#6B7280">简单英语指令</text>
+                <text x="210" y="725" text-anchor="middle" font-size="16" fill="#6B7280">零学习门槛</text>
+                
+                <!-- Feature Box 4 -->
+                <rect x="380" y="610" width="320" height="140" rx="15" fill="url(#boxGradient4)" stroke="#E91E63" stroke-width="2"/>
+                <circle cx="540" cy="645" r="25" fill="rgba(233, 30, 99, 0.2)"/>
+                <text x="540" y="652" text-anchor="middle" font-size="24" font-weight="bold" fill="#E91E63">AI</text>
+                <text x="540" y="680" text-anchor="middle" font-size="18" fill="#374151">智能分析</text>
+                <text x="540" y="705" text-anchor="middle" font-size="16" fill="#6B7280">错误检测修正</text>
+                <text x="540" y="725" text-anchor="middle" font-size="16" fill="#6B7280">数据可追溯</text>
+                
+                <!-- Target Users Section -->
+                <text x="75" y="800" font-size="26" font-weight="bold" fill="#1F2937">👥 适合谁使用？</text>
+                
+                <rect x="50" y="815" width="650" height="150" rx="15" fill="rgba(255,255,255,0.8)" stroke="#E5E7EB" stroke-width="1"/>
+                <text x="75" y="845" font-size="19" fill="#374151">• 金融分析师 (40%) - 财务建模和投资分析</text>
+                <text x="75" y="875" font-size="19" fill="#374151">• 商业分析师 (25%) - 数据洞察和商业决策</text>
+                <text x="75" y="905" font-size="19" fill="#374151">• 管理咨询师 (20%) - 客户分析和战略规划</text>
+                <text x="75" y="935" font-size="19" fill="#374151">• 中小企业主 (10%) - 财务管理运营优化</text>
+                <text x="75" y="955" font-size="19" fill="#374151">• 学术研究者 (5%) - 数据处理统计分析</text>
+                
+                <!-- Competitive Advantages -->
+                <text x="75" y="1020" font-size="26" font-weight="bold" fill="#1F2937">🏆 核心优势</text>
+                
+                <rect x="50" y="1035" width="650" height="120" rx="15" fill="rgba(16, 185, 129, 0.05)" stroke="#10B981" stroke-width="1"/>
+                <text x="75" y="1065" font-size="19" fill="#374151">✓ 专业性：专门针对Excel和数据分析优化</text>
+                <text x="75" y="1090" font-size="19" fill="#374151">✓ 超人类：89.1%胜率超越顶级公司分析师</text>
+                <text x="75" y="1115" font-size="19" fill="#374151">✓ 易用性：自然语言交互，无需学习公式</text>
+                <text x="75" y="1140" font-size="19" fill="#374151">✓ 效率高：将小时级工作缩短至分钟级</text>
+                
+                <!-- Overall Rating -->
+                <rect x="50" y="1170" width="650" height="60" rx="15" fill="url(#ratingGradient)" stroke="#10B981" stroke-width="2"/>
+                <text x="375" y="1195" text-anchor="middle" font-size="20" font-weight="bold" fill="#1F2937">综合评分</text>
+                <text x="375" y="1220" text-anchor="middle" font-size="32" font-weight="bold" fill="#10B981">8.5/10</text>
+                
+                <!-- Footer Section -->
+                <text x="375" y="1270" text-anchor="middle" font-size="18" fill="#6B7280">🔗 详细评测报告</text>
+                <text x="375" y="1295" text-anchor="middle" font-size="16" fill="#9CA3AF">tryshortcut.ai</text>
+                
+                <!-- Required Brand Attribution -->
+                <text x="375" y="1320" text-anchor="middle" font-size="18" fill="#4F46E5">topdigg.com - 专业AI工具评测平台</text>
+            </svg>
+        </div>
+
+        <div class="button-container">
+            <button class="copy-btn" onclick="copySVGAsImage()">📋 一键复制图片</button>
+            <button class="copy-btn" onclick="copySVGCode()">📄 复制代码</button>
+            <button class="copy-btn" onclick="downloadSVG()">💾 下载图片</button>
+        </div>
+        
+        <div class="success-msg" id="successMsg"></div>
+        
+        <div class="instructions">
+            <h3>使用说明</h3>
+            <ul>
+                <li><strong>复制图片</strong>：直接复制为图片格式，可粘贴到小红书、微信等社交平台</li>
+                <li><strong>复制代码</strong>：复制SVG源代码，适合开发者使用</li>
+                <li><strong>下载图片</strong>：保存为高清PNG图片文件</li>
+                <li><strong>分享建议</strong>：最适合在小红书、朋友圈等平台分享</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        function showSuccessMessage(message) {
+            const successMsg = document.getElementById('successMsg');
+            successMsg.textContent = message;
+            successMsg.classList.add('show');
+            setTimeout(() => {
+                successMsg.classList.remove('show');
+            }, 3000);
+        }
+
+        async function copySVGAsImage() {
+            try {
+                const svg = document.querySelector('svg');
+                const svgData = new XMLSerializer().serializeToString(svg);
+                
+                // Create canvas
+                const canvas = document.createElement('canvas');
+                const ctx = canvas.getContext('2d');
+                
+                // Set high resolution for better quality
+                const scale = 3;
+                const svgWidth = 750;
+                const svgHeight = 1334;
+                
+                canvas.width = svgWidth * scale;
+                canvas.height = svgHeight * scale;
+                
+                // Set white background to ensure proper rendering
+                ctx.fillStyle = 'white';
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+                
+                // Scale context for high resolution
+                ctx.scale(scale, scale);
+                
+                // Create image from SVG
+                const img = new Image();
+                img.width = svgWidth;
+                img.height = svgHeight;
+                
+                const svgBlob = new Blob([svgData], {type: 'image/svg+xml;charset=utf-8'});
+                const url = URL.createObjectURL(svgBlob);
+                
+                img.onload = async function() {
+                    // Draw image with explicit dimensions to ensure proper scaling
+                    ctx.drawImage(img, 0, 0, svgWidth, svgHeight);
+                    URL.revokeObjectURL(url);
+                    
+                    // Convert to blob and copy to clipboard
+                    canvas.toBlob(async function(blob) {
+                        try {
+                            await navigator.clipboard.write([
+                                new ClipboardItem({
+                                    'image/png': blob
+                                })
+                            ]);
+                            showSuccessMessage('✅ 图片已复制到剪贴板，可直接粘贴到社交平台！');
+                        } catch (err) {
+                            console.error('复制失败:', err);
+                            showSuccessMessage('❌ 复制失败，请尝试下载图片');
+                        }
+                    }, 'image/png', 1.0);
+                };
+                
+                img.onerror = function() {
+                    console.error('SVG图片加载失败');
+                    showSuccessMessage('❌ 图片生成失败，请重试');
+                };
+                
+                img.src = url;
+            } catch (err) {
+                console.error('生成图片失败:', err);
+                showSuccessMessage('❌ 生成图片失败，请重试');
+            }
+        }
+
+        function copySVGCode() {
+            try {
+                const svg = document.querySelector('svg');
+                const svgData = new XMLSerializer().serializeToString(svg);
+                
+                navigator.clipboard.writeText(svgData).then(() => {
+                    showSuccessMessage('✅ SVG代码已复制到剪贴板！');
+                }).catch(err => {
+                    console.error('复制失败:', err);
+                    showSuccessMessage('❌ 复制失败，请手动选择代码');
+                });
+            } catch (err) {
+                console.error('复制SVG代码失败:', err);
+                showSuccessMessage('❌ 复制失败，请重试');
+            }
+        }
+
+        function downloadSVG() {
+            try {
+                const svg = document.querySelector('svg');
+                const svgData = new XMLSerializer().serializeToString(svg);
+                
+                // Create canvas for high quality PNG
+                const canvas = document.createElement('canvas');
+                const ctx = canvas.getContext('2d');
+                
+                // Set high resolution
+                const scale = 3;
+                const svgWidth = 750;
+                const svgHeight = 1334;
+                
+                canvas.width = svgWidth * scale;
+                canvas.height = svgHeight * scale;
+                
+                // Set white background to ensure proper rendering
+                ctx.fillStyle = 'white';
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+                
+                // Scale context for high resolution
+                ctx.scale(scale, scale);
+                
+                const img = new Image();
+                img.width = svgWidth;
+                img.height = svgHeight;
+                
+                const svgBlob = new Blob([svgData], {type: 'image/svg+xml;charset=utf-8'});
+                const url = URL.createObjectURL(svgBlob);
+                
+                img.onload = function() {
+                    // Draw image with explicit dimensions to ensure proper scaling
+                    ctx.drawImage(img, 0, 0, svgWidth, svgHeight);
+                    URL.revokeObjectURL(url);
+                    
+                    // Download as PNG
+                    canvas.toBlob(function(blob) {
+                        const downloadUrl = URL.createObjectURL(blob);
+                        const a = document.createElement('a');
+                        a.href = downloadUrl;
+                        a.download = 'shortcut-ai-knowledge-card.png';
+                        document.body.appendChild(a);
+                        a.click();
+                        document.body.removeChild(a);
+                        URL.revokeObjectURL(downloadUrl);
+                        showSuccessMessage('✅ 图片已下载到本地！');
+                    }, 'image/png', 1.0);
+                };
+                
+                img.onerror = function() {
+                    console.error('SVG图片加载失败');
+                    showSuccessMessage('❌ 图片生成失败，请重试');
+                };
+                
+                img.src = url;
+            } catch (err) {
+                console.error('下载失败:', err);
+                showSuccessMessage('❌ 下载失败，请重试');
+            }
+        }
+
+        // Add some interactive effects
+        document.addEventListener('DOMContentLoaded', function() {
+            const buttons = document.querySelectorAll('.copy-btn');
+            buttons.forEach(button => {
+                button.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-2px)';
+                });
+                
+                button.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
