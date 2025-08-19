@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImageToVideoMaker 知识卡片 - AI视频生成器</title>
+    <style>
+        body {
+            font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            padding: 30px;
+            max-width: 800px;
+            text-align: center;
+        }
+        .title {
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .subtitle {
+            color: #666;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+        .card-container {
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+        }
+        .copy-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 25px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 10px 5px;
+            transition: all 0.3s ease;
+            display: inline-block;
+            min-width: 120px;
+        }
+        .copy-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            .copy-btn {
+                font-size: 14px;
+                padding: 10px 20px;
+                min-width: 100px;
+            }
+            .button-container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        .success-msg {
+            color: #4CAF50;
+            margin-top: 10px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .success-msg.show {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">ImageToVideoMaker AI视频生成器 - 知识卡片</h1>
+        <p class="subtitle">适合小红书平台发布的精美设计卡片</p>
+        
+        <div class="card-container">
+            <svg id="knowledgeCard" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 1334" width="375" height="667">
+                <!-- 定义渐变和阴影 -->
+                <defs>
+                    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" style="stop-color:#E8F4FD;stop-opacity:1" />
+                        <stop offset="50%" style="stop-color:#F0F8E8;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#FFE8F1;stop-opacity:1" />
+                    </linearGradient>
+                    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+                        <feGaussianBlur in="SourceAlpha" stdDeviation="5" />
+                        <feOffset dx="0" dy="3" result="offsetblur" />
+                        <feComponentTransfer>
+                            <feFuncA type="linear" slope="0.2" />
+                        </feComponentTransfer>
+                        <feMerge>
+                            <feMergeNode />
+                            <feMergeNode in="SourceGraphic" />
+                        </feMerge>
+                    </filter>
+                    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+                    </linearGradient>
+                </defs>
+
+                <!-- 主背景 -->
+                <rect width="750" height="1334" fill="url(#bgGradient)" />
+
+                <!-- 装饰元素：视频相关图形 -->
+                <circle cx="80" cy="150" r="60" fill="#667eea" opacity="0.3" />
+                <circle cx="670" cy="200" r="90" fill="#764ba2" opacity="0.3" />
+                <circle cx="150" cy="1200" r="70" fill="#f59e0b" opacity="0.3" />
+                <circle cx="600" cy="1100" r="80" fill="#10b981" opacity="0.3" />
+
+                <!-- 内容区域 -->
+                <rect x="75" y="280" width="600" height="920" rx="30" ry="30" fill="white" filter="url(#softShadow)" />
+
+                <!-- ImageToVideoMaker标题区 -->
+                <rect x="75" y="140" width="600" height="180" rx="30" ry="30" fill="url(#headerGradient)" filter="url(#softShadow)" />
+
+                <!-- 标题文本 -->
+                <text x="375" y="190" font-family="'PingFang SC', sans-serif" font-size="36" font-weight="bold" fill="white" text-anchor="middle">ImageToVideoMaker</text>
+                <text x="375" y="230" font-family="'PingFang SC', sans-serif" font-size="22" fill="white" text-anchor="middle">AI视频生成器深度评测</text>
+                <text x="375" y="260" font-family="'PingFang SC', sans-serif" font-size="18" fill="rgba(255,255,255,0.9)" text-anchor="middle">2025年最全面的多模型AI视频平台</text>
+                <text x="375" y="290" font-family="'PingFang SC', sans-serif" font-size="16" fill="rgba(255,255,255,0.8)" text-anchor="middle">五大AI模型集成，专业视频制作</text>
+
+                <!-- 功能解读区域 -->
+                <g font-family="'PingFang SC', sans-serif" fill="#333333">
+                    <text x="105" y="340" font-size="24" font-weight="bold">这是什么？一句话解释👇</text>
+                    <rect x="105" y="355" width="540" height="85" rx="15" ry="15" fill="#F8F4FF" />
+                    <text x="125" y="385" font-size="19" fill="#333">集成Veo3、Kling、Hailuo等五大AI模型的</text>
+                    <text x="125" y="410" font-size="19" fill="#333">专业视频生成平台，支持文本和图片转视频</text>
+                    
+                    <!-- 五大AI模型展示 -->
+                    <text x="105" y="475" font-size="24" font-weight="bold">🎬 五大AI模型集成</text>
+                    
+                    <!-- 模型1: Veo3 -->
+                    <rect x="105" y="500" width="160" height="95" rx="15" ry="15" fill="#E8F5FF" />
+                    <text x="185" y="525" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">Veo3(Google)</text>
+                    <text x="185" y="545" font-size="24" font-weight="bold" fill="#3B82F6" text-anchor="middle">780p</text>
+                    <text x="185" y="565" font-size="14" fill="#666" text-anchor="middle">电影级质量</text>
+                    <text x="185" y="580" font-size="14" fill="#666" text-anchor="middle">原生音频</text>
+                    
+                    <!-- 模型2: Kling -->
+                    <rect x="295" y="500" width="160" height="95" rx="15" ry="15" fill="#FFF0F5" />
+                    <text x="375" y="525" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">Kling 2.1</text>
+                    <text x="375" y="545" font-size="24" font-weight="bold" fill="#EC4899" text-anchor="middle">1080p</text>
+                    <text x="375" y="565" font-size="14" fill="#666" text-anchor="middle">病毒式内容</text>
+                    <text x="375" y="580" font-size="14" fill="#666" text-anchor="middle">娱乐特效</text>
+                    
+                    <!-- 模型3: Hailuo -->
+                    <rect x="485" y="500" width="160" height="95" rx="15" ry="15" fill="#F0FDF4" />
+                    <text x="565" y="525" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">Hailuo 02</text>
+                    <text x="565" y="545" font-size="24" font-weight="bold" fill="#10B981" text-anchor="middle">1080p</text>
+                    <text x="565" y="565" font-size="14" fill="#666" text-anchor="middle">物理准确</text>
+                    <text x="565" y="580" font-size="14" fill="#666" text-anchor="middle">科教内容</text>
+                    
+                    <!-- 模型4: Seedance -->
+                    <rect x="105" y="615" width="160" height="95" rx="15" ry="15" fill="#FFFBEB" />
+                    <text x="185" y="640" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">Seedance</text>
+                    <text x="185" y="660" font-size="24" font-weight="bold" fill="#F59E0B" text-anchor="middle">多镜头</text>
+                    <text x="185" y="680" font-size="14" fill="#666" text-anchor="middle">故事叙述</text>
+                    <text x="185" y="695" font-size="14" fill="#666" text-anchor="middle">广告创意</text>
+                    
+                    <!-- 模型5: Wan -->
+                    <rect x="295" y="615" width="160" height="95" rx="15" ry="15" fill="#F3E8FF" />
+                    <text x="375" y="640" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">Wan 2.2</text>
+                    <text x="375" y="660" font-size="24" font-weight="bold" fill="#8B5CF6" text-anchor="middle">720p</text>
+                    <text x="375" y="680" font-size="14" fill="#666" text-anchor="middle">电影质感</text>
+                    <text x="375" y="695" font-size="14" fill="#666" text-anchor="middle">商业广告</text>
+                    
+                    <!-- 核心优势 -->
+                    <rect x="485" y="615" width="160" height="95" rx="15" ry="15" fill="#FDF2F8" />
+                    <text x="565" y="640" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">快速生成</text>
+                    <text x="565" y="660" font-size="24" font-weight="bold" fill="#EF4444" text-anchor="middle">5分钟</text>
+                    <text x="565" y="680" font-size="14" fill="#666" text-anchor="middle">专业质量</text>
+                    <text x="565" y="695" font-size="14" fill="#666" text-anchor="middle">商业可用</text>
+
+                    <!-- 目标用户群体 -->
+                    <text x="105" y="750" font-size="24" font-weight="bold">👥 适合谁使用？</text>
+                    <rect x="105" y="770" width="540" height="150" rx="15" ry="15" fill="#F8FAFC" />
+                    
+                    <text x="125" y="800" font-size="18" fill="#333">🎥 内容创作者：社交媒体视频，创意内容</text>
+                    <text x="125" y="825" font-size="18" fill="#333">📢 营销人员：产品宣传，品牌故事视频</text>
+                    <text x="125" y="850" font-size="18" fill="#333">🎮 游戏开发者：宣传片，角色动画预览</text>
+                    <text x="125" y="875" font-size="18" fill="#333">🎬 专业制作人：概念验证，客户提案</text>
+                    <text x="125" y="900" font-size="18" fill="#333">⭐ 综合评分：8.6/10 强烈推荐</text>
+
+                    <!-- 定价优势 -->
+                    <text x="105" y="950" font-size="24" font-weight="bold">💰 定价与价值</text>
+                    <rect x="105" y="970" width="540" height="120" rx="15" ry="15" fill="#F0FDF4" />
+                    
+                    <text x="125" y="1000" font-size="18" fill="#333">• 多种计划：免费体验 + 灵活订阅</text>
+                    <text x="125" y="1025" font-size="18" fill="#333">• 成本节约：相比传统制作节省99%</text>
+                    <text x="125" y="1050" font-size="18" fill="#333">• API接口：企业级集成和批量处理</text>
+                    <text x="125" y="1075" font-size="18" fill="#333">• 商业许可：生成内容可商业使用</text>
+
+                    <!-- 竞争优势 -->
+                    <text x="105" y="1125" font-size="24" font-weight="bold">💎 核心竞争优势</text>
+                    <rect x="105" y="1145" width="540" height="95" rx="15" ry="15" fill="#EEF2FF" />
+                    
+                    <text x="125" y="1175" font-size="18" fill="#333">• 五大AI模型集成，技术领先全球</text>
+                    <text x="125" y="1200" font-size="18" fill="#333">• Web端操作，无需专业技能即可上手</text>
+                    <text x="125" y="1225" font-size="18" fill="#333">• 从文本/图片到视频，创作流程简化</text>
+
+                    <!-- 网站链接 -->
+                    <rect x="105" y="1250" width="540" height="50" rx="15" ry="15" fill="#EEF2FF" />
+                    <text x="125" y="1280" font-size="18" fill="#4F46E5">topdigg.com - 专业AI工具评测平台</text>
+                </g>
+            </svg>
+        </div>
+
+        <div class="button-container">
+            <button class="copy-btn" onclick="copySVGAsImage()">📋 一键复制图片</button>
+            <button class="copy-btn" onclick="copySVGCode()" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%);">📄 复制代码</button>
+            <button class="copy-btn" onclick="downloadSVG()" style="background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);">💾 下载图片</button>
+        </div>
+        <div class="success-msg" id="successMsg">✅ SVG图片已复制到剪贴板！可直接粘贴到小红书或其他平台</div>
+    </div>
+
+    <script>
+        // 复制SVG作为图片到剪贴板
+        async function copySVGAsImage() {
+            try {
+                const svg = document.getElementById('knowledgeCard');
+                const svgString = new XMLSerializer().serializeToString(svg);
+                
+                // 创建Canvas并将SVG绘制到Canvas上
+                const canvas = document.createElement('canvas');
+                const ctx = canvas.getContext('2d');
+                
+                // 设置Canvas尺寸（使用2倍尺寸以提高清晰度）
+                const scale = 2;
+                canvas.width = 750 * scale;
+                canvas.height = 1334 * scale;
+                ctx.scale(scale, scale);
+                
+                // 创建Image对象
+                const img = new Image();
+                const svgBlob = new Blob([svgString], { type: 'image/svg+xml' });
+                const url = URL.createObjectURL(svgBlob);
+                
+                img.onload = async function() {
+                    // 绘制SVG到Canvas
+                    ctx.drawImage(img, 0, 0, 750, 1334);
+                    
+                    // 将Canvas转换为Blob
+                    canvas.toBlob(async function(blob) {
+                        try {
+                            // 使用Clipboard API复制图片
+                            await navigator.clipboard.write([
+                                new ClipboardItem({
+                                    'image/png': blob
+                                })
+                            ]);
+                            
+                            showSuccessMessage('✅ SVG图片已复制到剪贴板！可直接粘贴到小红书、微信等平台');
+                        } catch (err) {
+                            console.error('复制图片失败:', err);
+                            // 回退到下载方案
+                            downloadImageFromCanvas(canvas, 'imagetovideomaker-knowledge-card.png');
+                            showSuccessMessage('⚠️ 无法直接复制，已自动下载图片文件');
+                        }
+                    }, 'image/png', 0.9);
+                    
+                    // 清理URL对象
+                    URL.revokeObjectURL(url);
+                };
+                
+                img.onerror = function() {
+                    console.error('SVG加载失败');
+                    showSuccessMessage('❌ 图片生成失败，请尝试复制SVG代码');
+                };
+                
+                img.src = url;
+                
+            } catch (err) {
+                console.error('复制失败:', err);
+                showSuccessMessage('❌ 复制失败，请尝试其他浏览器或复制SVG代码');
+            }
+        }
+
+        // 复制SVG代码到剪贴板
+        async function copySVGCode() {
+            try {
+                const svg = document.getElementById('knowledgeCard');
+                const svgString = new XMLSerializer().serializeToString(svg);
+                
+                await navigator.clipboard.writeText(svgString);
+                showSuccessMessage('✅ SVG代码已复制到剪贴板！');
+                
+            } catch (err) {
+                // 回退到传统方法
+                const textArea = document.createElement('textarea');
+                textArea.value = svgString;
+                document.body.appendChild(textArea);
+                textArea.select();
+                
+                try {
+                    document.execCommand('copy');
+                    document.body.removeChild(textArea);
+                    showSuccessMessage('✅ SVG代码已复制到剪贴板！');
+                } catch (err2) {
+                    console.error('复制失败:', err2);
+                    showSuccessMessage('❌ 复制失败，请手动选择SVG内容');
+                }
+            }
+        }
+
+        // 下载SVG为PNG图片
+        function downloadSVG() {
+            const svg = document.getElementById('knowledgeCard');
+            const svgString = new XMLSerializer().serializeToString(svg);
+            
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
+            
+            // 设置高分辨率
+            const scale = 3;
+            canvas.width = 750 * scale;
+            canvas.height = 1334 * scale;
+            ctx.scale(scale, scale);
+            
+            const img = new Image();
+            const svgBlob = new Blob([svgString], { type: 'image/svg+xml' });
+            const url = URL.createObjectURL(svgBlob);
+            
+            img.onload = function() {
+                ctx.drawImage(img, 0, 0, 750, 1334);
+                downloadImageFromCanvas(canvas, 'imagetovideomaker-knowledge-card.png');
+                URL.revokeObjectURL(url);
+                showSuccessMessage('✅ 图片已下载！文件名：imagetovideomaker-knowledge-card.png');
+            };
+            
+            img.src = url;
+        }
+
+        // 从Canvas下载图片
+        function downloadImageFromCanvas(canvas, filename) {
+            canvas.toBlob(function(blob) {
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = filename;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+            }, 'image/png', 0.9);
+        }
+
+        // 显示成功消息
+        function showSuccessMessage(message) {
+            const successMsg = document.getElementById('successMsg');
+            successMsg.textContent = message;
+            successMsg.classList.add('show');
+            
+            setTimeout(() => {
+                successMsg.classList.remove('show');
+            }, 4000);
+        }
+
+        // 检查浏览器支持
+        window.addEventListener('load', function() {
+            if (!navigator.clipboard) {
+                showSuccessMessage('ℹ️ 当前浏览器可能不支持直接复制图片，建议使用下载功能');
+            }
+        });
+    </script>
+</body>
+</html>
