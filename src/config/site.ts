@@ -184,7 +184,7 @@ export const siteConfig = {
           "en": "From channel analysis to product validation, systematically break down the traffic → users → revenue path.",
           "ja": "チャネル分析から製品検証まで、トラフィック→ユーザー→収益の経路を体系的に分解。"
         },
-        date: new Date().toISOString(),
+        date: "2025-01-16",
         author: "TopDigg",
         tags: ["增长", "SEO", "流量变现"],
         content: {
@@ -208,7 +208,7 @@ export const siteConfig = {
           "en": "Topic clusters, internal link topology, structured data and review mechanisms.",
           "ja": "トピッククラスター、内部リンクトポロジー、構造化データとレビューメカニズム。"
         },
-        date: new Date().toISOString(),
+        date: "2025-01-15",
         author: "TopDigg",
         tags: ["SEO", "内容策略"],
         content: {

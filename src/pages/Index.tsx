@@ -3,9 +3,12 @@ import { SEO } from "@/components/SEO";
 import { siteConfig } from "@/config/site";
 import { useTranslation } from "react-i18next";
 import { localizeText, SupportedLocale } from "@/lib/locale";
+import { blogDataSource } from "@/lib/blog-data";
 
 const Index = () => {
-  const latest = siteConfig.blog.posts.slice(0, 3);
+  const latest = blogDataSource.getPosts()
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+    .slice(0, 3);
   const { t, i18n } = useTranslation();
   return (
     <>
