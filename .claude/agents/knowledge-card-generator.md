@@ -145,7 +145,6 @@ Extract and transform these key elements:
 <body>
     <div class="container">
         <h1 class="title">[Platform Name] - 知识卡片</h1>
-       
         
         <div class="card-container">
             <!-- SVG knowledge card here -->
@@ -242,6 +241,10 @@ Extract and transform these key elements:
 4. **Mobile Optimization**: Perfect display on mobile devices
 5. **Shareability**: Easy to copy and share on social platforms
 6. **Brand Attribution**: MUST include the required footer text: `<text x="125" y="1240" font-size="18" fill="#4F46E5">topdigg.com - 专业AI工具评测平台</text>`
+
+## IMPORTANT RESTRICTIONS
+
+**DO NOT INCLUDE**: Never include the subtitle text "适合小红书平台发布的精美设计卡片" in the HTML output. This text should be completely omitted from all generated knowledge card pages.
 
 ## Example Input Processing
 
