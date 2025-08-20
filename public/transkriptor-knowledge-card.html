@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transkriptor 知识卡片 - AI转录服务</title>
+    <style>
+        body {
+            font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+            padding: 30px;
+            max-width: 800px;
+            text-align: center;
+        }
+        .title {
+            color: #333;
+            font-size: 28px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        .subtitle {
+            color: #666;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+        .card-container {
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+        }
+        .copy-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 25px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 10px 5px;
+            transition: all 0.3s ease;
+            display: inline-block;
+            min-width: 120px;
+        }
+        .copy-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        @media (max-width: 768px) {
+            .copy-btn {
+                font-size: 14px;
+                padding: 10px 20px;
+                min-width: 100px;
+            }
+            .button-container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        .success-msg {
+            color: #4CAF50;
+            margin-top: 10px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .success-msg.show {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Transkriptor AI转录服务 - 知识卡片</h1>
+        <p class="subtitle">适合小红书平台发布的精美设计卡片</p>
+        
+        <div class="card-container">
+            <svg id="knowledgeCard" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 1334" width="375" height="667">
+                <!-- 定义渐变和阴影 -->
+                <defs>
+                    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="0%" style="stop-color:#F8FAFF;stop-opacity:1" />
+                        <stop offset="30%" style="stop-color:#E8F2FF;stop-opacity:1" />
+                        <stop offset="70%" style="stop-color:#F0F8FF;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#F5F9FF;stop-opacity:1" />
+                    </linearGradient>
+                    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+                        <feGaussianBlur in="SourceAlpha" stdDeviation="6" />
+                        <feOffset dx="0" dy="4" result="offsetblur" />
+                        <feComponentTransfer>
+                            <feFuncA type="linear" slope="0.25" />
+                        </feComponentTransfer>
+                        <feMerge>
+                            <feMergeNode />
+                            <feMergeNode in="SourceGraphic" />
+                        </feMerge>
+                    </filter>
+                    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+                        <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+                    </linearGradient>
+                    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#FF6B6B;stop-opacity:0.8" />
+                        <stop offset="100%" style="stop-color:#4ECDC4;stop-opacity:0.8" />
+                    </linearGradient>
+                </defs>
+
+                <!-- 主背景 -->
+                <rect width="750" height="1334" fill="url(#bgGradient)" />
+
+                <!-- 装饰元素：几何形状 -->
+                <circle cx="100" cy="150" r="80" fill="#667eea" opacity="0.15" />
+                <circle cx="650" cy="180" r="100" fill="#764ba2" opacity="0.15" />
+                <circle cx="120" cy="1180" r="90" fill="#4ECDC4" opacity="0.15" />
+                <circle cx="630" cy="1150" r="75" fill="#FF6B6B" opacity="0.15" />
+                
+                <!-- 麦克风图标装饰 -->
+                <g transform="translate(50, 80)" opacity="0.1">
+                    <rect x="0" y="20" width="30" height="50" rx="15" fill="#667eea"/>
+                    <rect x="10" y="75" width="10" height="20" fill="#667eea"/>
+                    <path d="M-5 90 Q 20 95 45 90" stroke="#667eea" stroke-width="3" fill="none"/>
+                </g>
+                <g transform="translate(650, 100)" opacity="0.1">
+                    <rect x="0" y="20" width="30" height="50" rx="15" fill="#764ba2"/>
+                    <rect x="10" y="75" width="10" height="20" fill="#764ba2"/>
+                    <path d="M-5 90 Q 20 95 45 90" stroke="#764ba2" stroke-width="3" fill="none"/>
+                </g>
+
+                <!-- 内容区域 -->
+                <rect x="75" y="280" width="600" height="920" rx="30" ry="30" fill="white" filter="url(#softShadow)" />
+
+                <!-- Transkriptor标题区 -->
+                <rect x="75" y="120" width="600" height="200" rx="30" ry="30" fill="url(#headerGradient)" filter="url(#softShadow)" />
+
+                <!-- 标题文本 -->
+                <text x="375" y="180" font-family="'PingFang SC', sans-serif" font-size="38" font-weight="bold" fill="white" text-anchor="middle">🎙️ Transkriptor</text>
+                <text x="375" y="220" font-family="'PingFang SC', sans-serif" font-size="22" fill="white" text-anchor="middle">AI转录服务深度评测</text>
+                <text x="375" y="250" font-family="'PingFang SC', sans-serif" font-size="18" fill="rgba(255,255,255,0.9)" text-anchor="middle">2025年最全面的语音转文字工具</text>
+                <text x="375" y="280" font-family="'PingFang SC', sans-serif" font-size="16" fill="rgba(255,255,255,0.8)" text-anchor="middle">99%精度 • 100+语言 • 实时转录</text>
+
+                <!-- 产品解读区域 -->
+                <g font-family="'PingFang SC', sans-serif" fill="#333333">
+                    <text x="105" y="340" font-size="24" font-weight="bold">这是什么？一句话解释👇</text>
+                    <rect x="105" y="360" width="540" height="75" rx="15" ry="15" fill="#F8F9FF" />
+                    <text x="125" y="385" font-size="18" fill="#333">领先的AI驱动语音转录平台，支持100+语言</text>
+                    <text x="125" y="410" font-size="18" fill="#333">实时转录和智能分析，99%转录精度</text>
+                    
+                    <!-- 核心功能特色 -->
+                    <text x="105" y="465" font-size="24" font-weight="bold">🚀 核心功能特色</text>
+                    
+                    <!-- 功能点1 -->
+                    <rect x="105" y="485" width="255" height="100" rx="18" ry="18" fill="#E8F4FD" />
+                    <text x="232.5" y="510" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">转录精度</text>
+                    <text x="232.5" y="535" font-size="32" font-weight="bold" fill="#1E88E5" text-anchor="middle">99%</text>
+                    <text x="232.5" y="555" font-size="14" fill="#666" text-anchor="middle">行业领先水平</text>
+                    <text x="232.5" y="572" font-size="14" fill="#666" text-anchor="middle">秒级处理速度</text>
+                    
+                    <!-- 功能点2 -->
+                    <rect x="390" y="485" width="255" height="100" rx="18" ry="18" fill="#FFF0F8" />
+                    <text x="517.5" y="510" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">多语言支持</text>
+                    <text x="517.5" y="535" font-size="32" font-weight="bold" fill="#E91E63" text-anchor="middle">100+</text>
+                    <text x="517.5" y="555" font-size="14" fill="#666" text-anchor="middle">全球语言覆盖</text>
+                    <text x="517.5" y="572" font-size="14" fill="#666" text-anchor="middle">实时翻译功能</text>
+                    
+                    <!-- 功能点3 -->
+                    <rect x="105" y="605" width="255" height="100" rx="18" ry="18" fill="#F0F8E8" />
+                    <text x="232.5" y="630" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">智能分析</text>
+                    <text x="232.5" y="655" font-size="32" font-weight="bold" fill="#4CAF50" text-anchor="middle">AI</text>
+                    <text x="232.5" y="675" font-size="14" fill="#666" text-anchor="middle">情感分析</text>
+                    <text x="232.5" y="692" font-size="14" fill="#666" text-anchor="middle">发言人识别</text>
+                    
+                    <!-- 功能点4 -->
+                    <rect x="390" y="605" width="255" height="100" rx="18" ry="18" fill="#FFF8E1" />
+                    <text x="517.5" y="630" font-size="16" font-weight="bold" fill="#333" text-anchor="middle">价格优势</text>
+                    <text x="517.5" y="655" font-size="32" font-weight="bold" fill="#FF9800" text-anchor="middle">50%</text>
+                    <text x="517.5" y="675" font-size="14" fill="#666" text-anchor="middle">比竞品便宜</text>
+                    <text x="517.5" y="692" font-size="14" fill="#666" text-anchor="middle">$8.33/月起</text>
+
+                    <!-- 目标用户群体 -->
+                    <text x="105" y="745" font-size="24" font-weight="bold">👥 适合谁使用？</text>
+                    <rect x="105" y="765" width="540" height="140" rx="15" ry="15" fill="#F8FAFC" />
+                    
+                    <text x="125" y="790" font-size="18" fill="#333">💼 企业商务：会议记录、客户访谈</text>
+                    <text x="125" y="815" font-size="18" fill="#333">🎓 教育培训：课堂转录、学术研究</text>
+                    <text x="125" y="840" font-size="18" fill="#333">🎬 内容创作：播客转录、字幕制作</text>
+                    <text x="125" y="865" font-size="18" fill="#333">⚕️ 专业服务：医疗法律、专业咨询</text>
+                    <text x="125" y="890" font-size="18" fill="#4CAF50" font-weight="bold">⭐ 综合评分：9.2/10 强烈推荐</text>
+
+                    <!-- 竞争优势 -->
+                    <text x="105" y="935" font-size="24" font-weight="bold">💎 核心竞争优势</text>
+                    <rect x="105" y="955" width="540" height="130" rx="15" ry="15" fill="#F0FDF4" />
+                    
+                    <text x="125" y="980" font-size="18" fill="#333">• 99%转录精度，100+语言支持</text>
+                    <text x="125" y="1005" font-size="18" fill="#333">• 实时处理+AI智能分析功能</text>
+                    <text x="125" y="1030" font-size="18" fill="#333">• 价格比竞品便宜30-50%</text>
+                    <text x="125" y="1055" font-size="18" fill="#333">• 企业级安全与无缝平台集成</text>
+
+                    <!-- 定价信息 -->
+                    <text x="105" y="1110" font-size="24" font-weight="bold">💰 价格方案</text>
+                    <rect x="105" y="1130" width="540" height="60" rx="15" ry="15" fill="#EEF2FF" />
+                    <text x="125" y="1155" font-size="18" fill="#333">免费试用90分钟 • Pro版$8.33/月 • 企业定制</text>
+                    <text x="125" y="1175" font-size="16" fill="#666">比Otter.ai便宜50%，比Rev.com便宜60%</text>
+
+                    <!-- 网站链接 -->
+                    <text x="105" y="1220" font-size="22" font-weight="bold">🔗 详细评测报告</text>
+                    <rect x="105" y="1240" width="540" height="50" rx="15" ry="15" fill="#EEF2FF" />
+                    <text x="125" y="1270" font-size="18" fill="#4F46E5">topdigg.com - 专业AI工具评测平台</text>
+                </g>
+            </svg>
+        </div>
+
+        <div class="button-container">
+            <button class="copy-btn" onclick="copySVGAsImage()">📋 一键复制图片</button>
+            <button class="copy-btn" onclick="copySVGCode()" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%);">📄 复制代码</button>
+            <button class="copy-btn" onclick="downloadSVG()" style="background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);">💾 下载图片</button>
+        </div>
+        <div class="success-msg" id="successMsg">✅ SVG图片已复制到剪贴板！可直接粘贴到小红书或其他平台</div>
+    </div>
+
+    <script>
+        // 复制SVG作为图片到剪贴板
+        async function copySVGAsImage() {
+            try {
+                const svg = document.getElementById('knowledgeCard');
+                const svgString = new XMLSerializer().serializeToString(svg);
+                
+                // 创建Canvas并将SVG绘制到Canvas上
+                const canvas = document.createElement('canvas');
+                const ctx = canvas.getContext('2d');
+                
+                // 设置Canvas尺寸（使用2倍尺寸以提高清晰度）
+                const scale = 2;
+                canvas.width = 750 * scale;
+                canvas.height = 1334 * scale;
+                ctx.scale(scale, scale);
+                
+                // 创建Image对象
+                const img = new Image();
+                const svgBlob = new Blob([svgString], { type: 'image/svg+xml' });
+                const url = URL.createObjectURL(svgBlob);
+                
+                img.onload = async function() {
+                    // 绘制SVG到Canvas
+                    ctx.drawImage(img, 0, 0, 750, 1334);
+                    
+                    // 将Canvas转换为Blob
+                    canvas.toBlob(async function(blob) {
+                        try {
+                            // 使用Clipboard API复制图片
+                            await navigator.clipboard.write([
+                                new ClipboardItem({
+                                    'image/png': blob
+                                })
+                            ]);
+                            
+                            showSuccessMessage('✅ SVG图片已复制到剪贴板！可直接粘贴到小红书、微信等平台');
+                        } catch (err) {
+                            console.error('复制图片失败:', err);
+                            // 回退到下载方案
+                            downloadImageFromCanvas(canvas, 'transkriptor-knowledge-card.png');
+                            showSuccessMessage('⚠️ 无法直接复制，已自动下载图片文件');
+                        }
+                    }, 'image/png', 0.9);
+                    
+                    // 清理URL对象
+                    URL.revokeObjectURL(url);
+                };
+                
+                img.onerror = function() {
+                    console.error('SVG加载失败');
+                    showSuccessMessage('❌ 图片生成失败，请尝试复制SVG代码');
+                };
+                
+                img.src = url;
+                
+            } catch (err) {
+                console.error('复制失败:', err);
+                showSuccessMessage('❌ 复制失败，请尝试其他浏览器或复制SVG代码');
+            }
+        }
+
+        // 复制SVG代码到剪贴板
+        async function copySVGCode() {
+            try {
+                const svg = document.getElementById('knowledgeCard');
+                const svgString = new XMLSerializer().serializeToString(svg);
+                
+                await navigator.clipboard.writeText(svgString);
+                showSuccessMessage('✅ SVG代码已复制到剪贴板！');
+                
+            } catch (err) {
+                // 回退到传统方法
+                const textArea = document.createElement('textarea');
+                textArea.value = svgString;
+                document.body.appendChild(textArea);
+                textArea.select();
+                
+                try {
+                    document.execCommand('copy');
+                    document.body.removeChild(textArea);
+                    showSuccessMessage('✅ SVG代码已复制到剪贴板！');
+                } catch (err2) {
+                    console.error('复制失败:', err2);
+                    showSuccessMessage('❌ 复制失败，请手动选择SVG内容');
+                }
+            }
+        }
+
+        // 下载SVG为PNG图片
+        function downloadSVG() {
+            const svg = document.getElementById('knowledgeCard');
+            const svgString = new XMLSerializer().serializeToString(svg);
+            
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
+            
+            // 设置高分辨率
+            const scale = 3;
+            canvas.width = 750 * scale;
+            canvas.height = 1334 * scale;
+            ctx.scale(scale, scale);
+            
+            const img = new Image();
+            const svgBlob = new Blob([svgString], { type: 'image/svg+xml' });
+            const url = URL.createObjectURL(svgBlob);
+            
+            img.onload = function() {
+                ctx.drawImage(img, 0, 0, 750, 1334);
+                downloadImageFromCanvas(canvas, 'transkriptor-knowledge-card.png');
+                URL.revokeObjectURL(url);
+                showSuccessMessage('✅ 图片已下载！文件名：transkriptor-knowledge-card.png');
+            };
+            
+            img.src = url;
+        }
+
+        // 从Canvas下载图片
+        function downloadImageFromCanvas(canvas, filename) {
+            canvas.toBlob(function(blob) {
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = filename;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+            }, 'image/png', 0.9);
+        }
+
+        // 显示成功消息
+        function showSuccessMessage(message) {
+            const successMsg = document.getElementById('successMsg');
+            successMsg.textContent = message;
+            successMsg.classList.add('show');
+            
+            setTimeout(() => {
+                successMsg.classList.remove('show');
+            }, 4000);
+        }
+
+        // 检查浏览器支持
+        window.addEventListener('load', function() {
+            if (!navigator.clipboard) {
+                showSuccessMessage('ℹ️ 当前浏览器可能不支持直接复制图片，建议使用下载功能');
+            }
+        });
+    </script>
+</body>
+</html>

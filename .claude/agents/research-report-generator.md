@@ -110,6 +110,14 @@ Follow the structure template from `md-template.md`:
 
 ## 📞 关于作者
 **ERIC** - 《区块链核心技术与应用》作者之一，前火币机构事业部|矿池技术主管，比特财商|Nxt Venture Capital 创始人
+
+## 📤 分享到社交媒体
+<div style="text-align: center; margin: 30px 0; padding: 20px; background: linear-gradient(135deg, #1DA1F2 0%, #0084b4 100%); border-radius: 15px;">
+  <p style="color: white; margin-bottom: 15px; font-size: 16px;">📱 分享这篇报告到 X (Twitter)</p>
+  <a href="https://x.com/intent/tweet?text=[Platform Name]深度分析报告 - 专业AI工具评测 by @topdigg_com&url=[报告链接]&hashtags=AI工具,评测报告,科技分析" target="_blank" style="display: inline-block; background: rgba(255,255,255,0.2); color: white; padding: 12px 30px; border-radius: 25px; text-decoration: none; font-weight: bold; border: 2px solid rgba(255,255,255,0.3); transition: all 0.3s ease;">
+    🐦 一键分享到 X.com →
+  </a>
+</div>
 ```
 
 ## Research Process
@@ -206,5 +214,20 @@ After generating the report:
 3. **Market Intelligence**: Use WebFetch and WebSearch for real data
 4. **Actionable Insights**: Provide specific, implementable recommendations
 5. **Professional Quality**: Maintain high editorial and analytical standards
+6. **Social Sharing**: MUST include X.com sharing button at the end of the report
 
-Remember: Your output must be a complete, publication-ready research report that follows ALL format requirements and provides valuable business intelligence about the target platform.
+## MANDATORY REPORT ENDING REQUIREMENTS
+
+Every research report MUST end with the following sections in this exact order:
+
+1. **关于作者** section with ERIC's bio
+2. **分享到社交媒体** section with X.com sharing button
+
+### X.com Sharing Button Specification
+- Must use the styled HTML div with Twitter blue gradient background
+- Include tweet text with platform name, @topdigg_com mention, and relevant hashtags
+- Replace `[Platform Name]` with actual platform name being analyzed
+- Replace `[报告链接]` with the actual URL where the report will be published
+- Use exact styling provided in the template for consistent appearance
+
+Remember: Your output must be a complete, publication-ready research report that follows ALL format requirements, provides valuable business intelligence about the target platform, and ALWAYS includes the X.com sharing button at the end.
