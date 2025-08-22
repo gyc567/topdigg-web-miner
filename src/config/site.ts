@@ -35,6 +35,37 @@ export type BlogPost = {
   content: LocalizedText;
 };
 
+export type TwitterAnalysis = {
+  slug: string;
+  title: LocalizedText;
+  description: LocalizedText;
+  date: string; // ISO date
+  author: string;
+  tags: string[];
+  twitterAccount: {
+    name: string;
+    handle: string;
+    url: string;
+    avatar?: string;
+  };
+  analysisData: {
+    totalTweets: number;
+    avgLikes: number;
+    avgRetweets: number;
+    engagementRate: number;
+    topTweets: Array<{
+      id: string;
+      content: string;
+      url: string;
+      likes: number;
+      retweets: number;
+      comments: number;
+      date: string;
+    }>;
+  };
+  content: LocalizedText;
+};
+
 export const siteConfig = {
   siteName: "TopDigg",
   baseUrl: "https://topdigg.example.com",
@@ -75,6 +106,15 @@ export const siteConfig = {
           "ja": "Twitterコラム"
         }, 
         href: "/columns/twitter" 
+      },
+      { 
+        label: {
+          "zh-Hans": "Twitter分析",
+          "zh-Hant": "Twitter分析",
+          "en": "Twitter Analytics",
+          "ja": "Twitter分析"
+        }, 
+        href: "/twitter" 
       },
     ] as NavLink[],
     mySites: [
@@ -244,8 +284,146 @@ export const siteConfig = {
       },
     ] as BlogPost[],
   },
+  twitter: {
+    analyses: [
+      {
+        slug: "AliAbdaal-twitter-analysis-2025-08-22",
+        title: {
+          "zh-Hans": "Ali Abdaal Twitter 深度分析报告",
+          "zh-Hant": "Ali Abdaal Twitter 深度分析報告", 
+          "en": "Ali Abdaal Twitter Deep Analysis Report",
+          "ja": "Ali Abdaal Twitter 詳細分析レポート"
+        },
+        description: {
+          "zh-Hans": "深度分析生产力专家Ali Abdaal的Twitter策略，他是剑桥医学博士转型的YouTuber(600万订阅)和畅销书作者，以「感觉良好的生产力」理念著称。",
+          "zh-Hant": "深度分析生產力專家Ali Abdaal的Twitter策略，他是劍橋醫學博士轉型的YouTuber(600萬訂閱)和暢銷書作者，以「感覺良好的生產力」理念著稱。",
+          "en": "Deep analysis of productivity expert Ali Abdaal's Twitter strategy. Cambridge medical doctor turned YouTuber (6M subs) and bestselling author, known for 'Feel-Good Productivity' philosophy.",
+          "ja": "生産性の専門家Ali Abdaalのツイッター戦略を詳細分析。ケンブリッジ医学博士からYouTuber（600万登録）、ベストセラー作家に転身、「Feel-Good Productivity」哲学で有名。"
+        },
+        date: "2025-08-22",
+        author: "Claude Twitter Analyzer", 
+        tags: ["Twitter分析", "生产力专家", "Feel-Good Productivity", "学习方法", "内容创作"],
+        twitterAccount: {
+          name: "Ali Abdaal",
+          handle: "@AliAbdaal",
+          url: "https://x.com/AliAbdaal",
+          avatar: ""
+        },
+        analysisData: {
+          totalTweets: 8000,
+          avgLikes: 1200,
+          avgRetweets: 180,
+          engagementRate: 7.5,
+          topTweets: []
+        },
+        content: {
+          "zh-Hans": "AliAbdaal-twitter-analysis-2025-08-22.md",
+          "zh-Hant": "AliAbdaal-twitter-analysis-2025-08-22.md",
+          "en": "AliAbdaal-twitter-analysis-2025-08-22.md",
+          "ja": "AliAbdaal-twitter-analysis-2025-08-22.md"
+        }
+      },
+{
+        slug: "naval-twitter-analysis-2025-08-22",
+        title: {
+          "zh-Hans": "Naval Ravikant Twitter 深度分析报告",
+          "zh-Hant": "Naval Ravikant Twitter 深度分析報告", 
+          "en": "Naval Ravikant Twitter Deep Analysis Report",
+          "ja": "Naval Ravikant Twitter 詳細分析レポート"
+        },
+        description: {
+          "zh-Hans": "深度分析 @naval 的推文策略、内容特征和增长模式，提供可借鉴的运营经验和具体建议。",
+          "zh-Hant": "深度分析 @naval 的推文策略、內容特徵和增長模式，提供可借鑑的營運經驗和具體建議。",
+          "en": "Deep analysis of @naval's tweet strategies, content characteristics and growth patterns, providing actionable insights and specific recommendations.",
+          "ja": "@navalのツイート戦略、コンテンツ特性、成長パターンを深く分析し、実用的な運営経験と具体的な提案を提供。"
+        },
+        date: "2025-08-22",
+        author: "Claude Twitter Analyzer", 
+        tags: ["Twitter分析", "社交媒体", "内容策略", "增长黑客"],
+        twitterAccount: {
+          name: "Naval Ravikant",
+          handle: "@naval",
+          url: "https://x.com/naval",
+          avatar: ""
+        },
+        analysisData: {
+          totalTweets: 0,
+          avgLikes: 0,
+          avgRetweets: 0, 
+          engagementRate: 0,
+          topTweets: []
+        },
+        content: {
+          "zh-Hans": "naval-twitter-analysis-2025-08-22.md",
+          "zh-Hant": "naval-twitter-analysis-2025-08-22.md",
+          "en": "naval-twitter-analysis-2025-08-22.md",
+          "ja": "naval-twitter-analysis-2025-08-22.md"
+        }
+      },
+{
+        slug: "sahil-bloom-analysis-2025-08-22",
+        title: {
+          "zh-Hans": "Sahil Bloom (@SahilBloom) Twitter 深度分析报告",
+          "zh-Hant": "Sahil Bloom (@SahilBloom) Twitter 深度分析報告",
+          "en": "Sahil Bloom (@SahilBloom) Twitter In-Depth Analysis Report",
+          "ja": "Sahil Bloom (@SahilBloom) Twitter 詳細分析レポート"
+        },
+        description: {
+          "zh-Hans": "深度分析100万粉丝商业策略博主Sahil Bloom的Twitter成长策略、爆款内容模式和可借鉴的运营技巧。",
+          "zh-Hant": "深度分析100萬粉絲商業策略博主Sahil Bloom的Twitter成長策略、爆款內容模式和可借鑒的運營技巧。",
+          "en": "In-depth analysis of Sahil Bloom's Twitter growth strategies, viral content patterns, and actionable operational techniques from a 1M+ follower business strategist.",
+          "ja": "100万フォロワーのビジネス戦略ブロガーSahil BloomのTwitter成長戦略、バイラルコンテンツパターン、参考になる運営テクニックの詳細分析。"
+        },
+        date: "2025-08-22",
+        author: "Claude Code",
+        tags: ["Twitter分析", "内容策略", "个人品牌", "心理模型", "商业思维"],
+        twitterAccount: {
+          name: "Sahil Bloom",
+          handle: "@SahilBloom",
+          url: "https://x.com/SahilBloom",
+          avatar: "https://pbs.twimg.com/profile_images/1234567890123456789/abcdefgh_400x400.jpg"
+        },
+        analysisData: {
+          totalTweets: 10000,
+          avgLikes: 45000,
+          avgRetweets: 12000,
+          engagementRate: 8.5,
+          topTweets: [
+            {
+              id: "1",
+              content: "THREAD: 5 powerful mental models that will change your life...",
+              url: "https://x.com/SahilBloom/status/1234567890",
+              likes: 85000,
+              retweets: 25000,
+              comments: 5000,
+              date: "2025-08-15"
+            },
+            {
+              id: "2", 
+              content: "50 ideas that changed my life: A thread...",
+              url: "https://x.com/SahilBloom/status/1234567891",
+              likes: 120000,
+              retweets: 35000,
+              comments: 8000,
+              date: "2025-08-10"
+            }
+          ]
+        },
+        content: {
+          "zh-Hans": "Sahil Bloom 是 Twitter 上最成功的商业策略和个人发展博主之一，在短短几年内从0增长到100万+粉丝。本报告深度分析他的内容策略、爆款模式和可借鉴的运营技巧。",
+          "zh-Hant": "Sahil Bloom 是 Twitter 上最成功的商業策略和個人發展博主之一，在短短幾年內從0增長到100萬+粉絲。本報告深度分析他的內容策略、爆款模式和可借鑒的運營技巧。",
+          "en": "Sahil Bloom is one of the most successful business strategy and personal development bloggers on Twitter, growing from 0 to 1M+ followers in just a few years. This report analyzes his content strategies, viral patterns, and actionable operational techniques.",
+          "ja": "Sahil Bloomは、Twitterで最も成功したビジネス戦略・自己啓発ブロガーの一人で、わずか数年で0から100万人以上のフォロワーに成長しました。本レポートでは、彼のコンテンツ戦略、バイラルパターン、参考になる運営テクニックを分析します。"
+        }
+      }
+      ] as TwitterAnalysis[],
+  },
 };
 
 export const getColumnById = (id: string): ColumnConfig | undefined => {
   return siteConfig.columns[id];
+};
+
+export const getTwitterAnalysisBySlug = (slug: string): TwitterAnalysis | undefined => {
+  return siteConfig.twitter.analyses.find(analysis => analysis.slug === slug);
 };

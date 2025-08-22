@@ -13,26 +13,12 @@ export default defineConfig(({ mode }) => ({
     react(),
     mode === 'development' &&
     componentTagger(),
-    {
-      name: 'markdown-loader',
-      async load(id) {
-        if (id.endsWith('.md')) {
-          const content = await readFile(id, 'utf-8');
-          const { data, content: markdownContent } = matter(content);
-          
-          return `
-            const content = ${JSON.stringify(markdownContent)};
-            const metadata = ${JSON.stringify(data)};
-            export { metadata };
-            export default content;
-          `;
-        }
-      }
-    }
   ].filter(Boolean),
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  publicDir: "public",
+  assetsInclude: ["**/*.md"],
 }));

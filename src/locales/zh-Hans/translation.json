@@ -33,6 +33,15 @@
     "rights": "© {{year}} {{siteName}}. 保留所有权利。",
     "builtBy": "由 {{siteName}} 构建 — 专注挖掘 Web 流量与商业机会。"
   },
+  "pages": {
+    "twitter": {
+      "title": "Twitter 深度分析",
+      "subtitle": "通过数据驱动的方法，深度分析Twitter账号的内容策略，识别爆款推文的成功因素，为您的社交媒体增长提供科学指导",
+      "description": "深度分析 Twitter 账号，解析爆款推文成功要素，提供增长策略建议",
+      "noAnalyses": "暂无分析报告",
+      "noAnalysesDesc": "我们正在准备精彩的 Twitter 分析内容，敬请期待！"
+    }
+  },
   "languages": {
     "zh-Hans": "简体中文",
     "zh-Hant": "繁體中文", 
