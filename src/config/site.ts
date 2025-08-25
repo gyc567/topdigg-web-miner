@@ -120,10 +120,10 @@ export const siteConfig = {
     mySites: [
       { 
         label: {
-          "zh-Hans": "聪明钱导航",
-          "zh-Hant": "聪明錢導航",
-          "en": "SmartWallet",
-          "ja": "スマートウォレット"
+          "zh-Hans": "加密货币资源聚合",
+          "zh-Hant": "加密貨幣資源聚合",
+          "en": "Crypto Resources",
+          "ja": "暗号通貨リソース"
         }, 
         href: "https://www.smartwallex.com/", 
         external: true 
@@ -136,6 +136,16 @@ export const siteConfig = {
           "ja": "KGRツール"
         }, 
         href: "https://www.kgrcalculator.com/", 
+        external: true 
+      },
+      { 
+        label: {
+          "zh-Hans": "Claude Code资源聚合",
+          "zh-Hant": "Claude Code資源聚合",
+          "en": "Claude Code Resources",
+          "ja": "Claude Codeリソース"
+        }, 
+        href: "https://www.supercopycoder.xyz/", 
         external: true 
       },
     ] as NavLink[],
