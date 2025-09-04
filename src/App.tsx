@@ -12,6 +12,7 @@ import BlogPost from "./pages/BlogPost";
 import ColumnPage from "./pages/ColumnPage";
 import TwitterIndex from "./pages/TwitterIndex";
 import TwitterPost from "./pages/TwitterPost";
+import ExternalLinks from "./pages/ExternalLinks";
 import "./i18n";
 import { LanguageInitializer } from "./components/LanguageInitializer";
 
@@ -33,6 +34,7 @@ const App = () => (
               <Route path="/twitter" element={<TwitterIndex />} />
               <Route path="/twitter/:slug" element={<TwitterPost />} />
               <Route path="/columns/:id" element={<ColumnPage />} />
+              <Route path="/external-links" element={<ExternalLinks />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>

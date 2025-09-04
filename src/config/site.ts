@@ -116,6 +116,15 @@ export const siteConfig = {
         }, 
         href: "/twitter" 
       },
+      { 
+        label: {
+          "zh-Hans": "外链导航",
+          "zh-Hant": "外鏈導航",
+          "en": "External Links",
+          "ja": "外部リンク"
+        }, 
+        href: "/external-links" 
+      },
     ] as NavLink[],
     mySites: [
       { 
