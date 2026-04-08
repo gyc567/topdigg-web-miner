@@ -26,14 +26,9 @@ jobs:
           NODE_ENV: production
 
       - name: Deploy to Vercel
-        id: deploy
-        uses: BetaSu/vercel-action@v2
+        uses: vercel/action@latest
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
 
-      - name: Comment deployment URL
-        if: steps.deploy.outputs.url
-        run: |
-          echo "Production deployment: ${{ steps.deploy.outputs.url }}"
