@@ -129,16 +129,6 @@ export const siteConfig = {
     mySites: [
       { 
         label: {
-          "zh-Hans": "加密货币资源聚合",
-          "zh-Hant": "加密貨幣資源聚合",
-          "en": "Crypto Resources",
-          "ja": "暗号通貨リソース"
-        }, 
-        href: "https://www.smartwallex.com/", 
-        external: true 
-      },
-      { 
-        label: {
           "zh-Hans": "KGR工具",
           "zh-Hant": "KGR工具",
           "en": "KGR Calculator",
