@@ -424,6 +424,43 @@ export const siteConfig = {
           "en": "Sahil Bloom is one of the most successful business strategy and personal development bloggers on Twitter, growing from 0 to 1M+ followers in just a few years. This report analyzes his content strategies, viral patterns, and actionable operational techniques.",
           "ja": "Sahil Bloomは、Twitterで最も成功したビジネス戦略・自己啓発ブロガーの一人で、わずか数年で0から100万人以上のフォロワーに成長しました。本レポートでは、彼のコンテンツ戦略、バイラルパターン、参考になる運営テクニックを分析します。"
         }
+      },
+      {
+        slug: "yangyi-twitter-analysis-2026-04-16",
+        title: {
+          "zh-Hans": "@yangyi 完整 Twitter 账号分析报告",
+          "zh-Hant": "@yangyi 完整 Twitter 帳號分析報告",
+          "en": "@yangyi Complete Twitter Account Analysis Report",
+          "ja": "@yangyi Twitter アカウント完全分析レポート"
+        },
+        description: {
+          "zh-Hans": "深度分析 @yangyi 的Twitter运营策略：老账号转型、AI赛道卡位、人设打造与产品闭环的完整方法论。",
+          "zh-Hant": "深度分析 @yangyi 的Twitter運營策略：老帳號轉型、AI賽道卡位、人設打造與產品閉環的完整方法論。",
+          "en": "Deep analysis of @yangyi's Twitter strategy: old account pivot, AI niche positioning, personal branding, and product loop methodology.",
+          "ja": "@yangyiのTwitter運營戦略の深度分析：古いアカウントの转型、AI賽道のポジショニング、パーソナルブランディング、制品クローズループの完整方法論。"
+        },
+        date: "2026-04-16",
+        author: "Claude Twitter Analyzer",
+        tags: ["Twitter分析", "人机协同", "AI工具", "个人IP", "牛马AI", "Reverb Marketing", "内容策略", "产品闭环"],
+        twitterAccount: {
+          name: "Yangyi",
+          handle: "@yangyi",
+          url: "https://x.com/yangyi",
+          avatar: ""
+        },
+        analysisData: {
+          totalTweets: 5000,
+          avgLikes: 500,
+          avgRetweets: 80,
+          engagementRate: 5.5,
+          topTweets: []
+        },
+        content: {
+          "zh-Hans": "yangyi-twitter-analysis-2026-04-16.md",
+          "zh-Hant": "yangyi-twitter-analysis-2026-04-16.md",
+          "en": "yangyi-twitter-analysis-2026-04-16.md",
+          "ja": "yangyi-twitter-analysis-2026-04-16.md"
+        }
       }
       ] as TwitterAnalysis[],
   },
