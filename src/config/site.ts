@@ -268,6 +268,30 @@ export const siteConfig = {
         }
       },
       {
+        slug: "html-hacking-ai-output-bandwidth-2026-05-11",
+        title: {
+          "zh-Hans": "AI输出带宽的「HTML黑客时代」：Karpathy一推，数据把界面瓶颈摊开了",
+          "zh-Hant": "AI輸出帶寬的「HTML黑客時代」：Karpathy一推，數據把界面瓶頸攤開了",
+          "en": "The \"HTML Hacker Era\" of AI Output Bandwidth: Karpathy's Tweet Laid Bare the Interface Bottleneck",
+          "ja": "AI出力帯域幅の「HTMLハッカー時代」：Karpathyの投稿がインターフェース瓶颈を白ocopeyした"
+        },
+        description: {
+          "zh-Hans": "深度分析Karpathy和Thariq的HTML技巧背后的人机接口带宽不对称问题，以及这对AI经济模型的深远影响。",
+          "zh-Hant": "深度分析Karpathy和Thariq的HTML技巧背後的人機接口帶寬不對稱問題，以及這對AI經濟模型的深遠影響。",
+          "en": "A deep dive into the human-machine interface bandwidth asymmetry behind Karpathy and Thariq's HTML trick, and its profound implications for the AI economic model.",
+          "ja": "KarpathyとThariqのHTMLテクニックの背後にある人と機械のインターフェース帯域幅の非対称性、そしてAI経済モデルへの深い影響の分析。"
+        },
+        date: "2026-05-11",
+        author: "TopDigg",
+        tags: ["AI", "人机交互", "HTML", "Karpathy", "多模态AI"],
+        content: {
+          "zh-Hans": "html-hacking-ai-output-bandwidth-2026-05-11.md",
+          "zh-Hant": "html-hacking-ai-output-bandwidth-2026-05-11-zh-Hant.md",
+          "en": "html-hacking-ai-output-bandwidth-2026-05-11-en.md",
+          "ja": "html-hacking-ai-output-bandwidth-2026-05-11-ja.md"
+        }
+      },
+      {
         slug: "easemate-ai-research-report",
         title: {
           "zh-Hans": "EaseMate AI深度调研拆解报告：2025年全方位AI助手平台完整分析",
