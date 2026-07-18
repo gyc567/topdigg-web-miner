@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "skills": {
+    "medium-writer": {
+      "name": "Medium Writer",
+      "zip_url": "http://lightmake.site/api/v1/download?slug=medium-writer",
+      "source": "skillhub",
+      "version": "1.0.2"
+    },
+    "browser-automation-1": {
+      "name": "Browser Automation 1",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=browser-automation-1",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "z-card-image": {
+      "name": "Z Card Image",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=z-card-image",
+      "source": "skillhub",
+      "version": "1.0.5"
+    },
+    "nano-banana-pro-prompts-recommend": {
+      "name": "Nano Banana Pro Prompts Recommend",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=nano-banana-pro-prompts-recommend",
+      "source": "skillhub",
+      "version": "1.5.5"
+    },
+    "baoyu-article-illustrator": {
+      "name": "Baoyu Article Illustrator",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=baoyu-article-illustrator",
+      "source": "skillhub",
+      "version": "1.0.0"
+    },
+    "evolink-image": {
+      "name": "Evolink Image — AI Image Generation (GPT Image, Nano Banana 2, Seedream, GPT-4o)",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=evolink-image",
+      "source": "skillhub",
+      "version": "1.4.0"
+    },
+    "evolink-video": {
+      "name": "Evolink Video — AI Video Generation (Sora, Kling, Veo 3, Seedance)",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=evolink-video",
+      "source": "skillhub",
+      "version": "2.0.1"
+    },
+    "evolink-music": {
+      "name": "Evolink Music — AI Music Generation (Suno v4/v4.5/v5)",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=evolink-music",
+      "source": "skillhub",
+      "version": "2.0.0"
+    },
+    "browserautomation-skill": {
+      "name": "Browser Automation",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=browserautomation-skill",
+      "source": "skillhub",
+      "version": "1.0.2"
+    },
+    "humanizer-zh": {
+      "name": "humanizer-zh",
+      "zip_url": "https://lightmake.site/api/v1/download?slug=humanizer-zh",
+      "source": "skillhub",
+      "version": "1.0.0"
+    }
+  }
+}

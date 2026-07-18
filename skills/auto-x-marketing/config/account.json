@@ -1,0 +1,38 @@
+{
+  "account_handle": "@ericblock2100",
+  "account_name": "EricBlock2100",
+  "display_name": "Eric|蓝鲸会🐋｜AgentBuilder",
+  "account_type": "个人 IP",
+  "stage": "增长期",
+  "bio": "蓝鲸会🐋 member, interested in AI and cryptocurrency",
+  "followers": 0,
+  "following": 0,
+  "tweets": 0,
+  "has_premium": false,
+  "has_ads": false,
+  "target_audience": {
+    "regions": ["美国", "中国"],
+    "languages": ["英语", "中文"],
+    "interests": ["AI", "加密货币", "稳定币", "金融科技"]
+  },
+  "content_pillars": [
+    "加密货币/稳定币",
+    "AI Agents",
+    "金融科技趋势",
+    "蓝鲸会社区"
+  ],
+  "pain_points": [
+    "账号数据获取受限",
+    "账号初期建设"
+  ],
+  "current_metrics": {
+    "follower_growth_30d": 0,
+    "avg_engagement_rate": 0,
+    "top_performing_post_likes": 0
+  },
+  "created_at": "2026-06-08",
+  "analyzed_at": "2026-04-15",
+  "data_source_note": "Browser access unavailable. Data from web search. Manual data collection required.",
+  "pinned_tweet": null,
+  "recent_themes": ["稳定币", "美元化债", "传统金融 vs 加密", "AI Agents"]
+}
