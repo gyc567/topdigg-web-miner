@@ -1,26 +1,29 @@
+import { lazy, Suspense } from "react";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Index from "./pages/Index";
-import NotFound from "./pages/NotFound";
 import { HelmetProvider } from "react-helmet-async";
 import Layout from "./components/layout/Layout";
-import BlogIndex from "./pages/BlogIndex";
-import BlogPost from "./pages/BlogPost";
-import ColumnPage from "./pages/ColumnPage";
-import TwitterIndex from "./pages/TwitterIndex";
-import TwitterPost from "./pages/TwitterPost";
-import ExternalLinks from "./pages/ExternalLinks";
 import "./i18n";
 import { LanguageInitializer } from "./components/LanguageInitializer";
 
+const Index = lazy(() => import("./pages/Index"));
+const BlogIndex = lazy(() => import("./pages/BlogIndex"));
+const BlogPost = lazy(() => import("./pages/BlogPost"));
+const TwitterIndex = lazy(() => import("./pages/TwitterIndex"));
+const TwitterPost = lazy(() => import("./pages/TwitterPost"));
+const ColumnPage = lazy(() => import("./pages/ColumnPage"));
+const ExternalLinks = lazy(() => import("./pages/ExternalLinks"));
+const NotFound = lazy(() => import("./pages/NotFound"));
+
 const App = () => (
-    <HelmetProvider>
-      <TooltipProvider>
-        <LanguageInitializer />
-        <Sonner />
-        <BrowserRouter>
-          <Layout>
+  <HelmetProvider>
+    <TooltipProvider>
+      <LanguageInitializer />
+      <Sonner />
+      <BrowserRouter>
+        <Layout>
+          <Suspense fallback={<div className="container mx-auto px-4 py-16 text-center text-muted-foreground">Loading…</div>}>
             <Routes>
               <Route path="/" element={<Index />} />
               <Route path="/blog" element={<BlogIndex />} />
@@ -32,10 +35,11 @@ const App = () => (
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>
-          </Layout>
-        </BrowserRouter>
-      </TooltipProvider>
-    </HelmetProvider>
+          </Suspense>
+        </Layout>
+      </BrowserRouter>
+    </TooltipProvider>
+  </HelmetProvider>
 );
 
 export default App;
