@@ -6,9 +6,8 @@ import { localizeText, SupportedLocale } from "@/lib/locale";
 import { blogDataSource } from "@/lib/blog-data";
 
 const Index = () => {
-  const latest = blogDataSource.getPosts()
-    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-    .slice(0, 3);
+  // blog-data.json 在构建时已按日期降序排序，直接取前 3 篇，避免原地 sort 修改共享数组
+  const latest = blogDataSource.getPosts().slice(0, 3);
   const { t, i18n } = useTranslation();
   return (
     <>

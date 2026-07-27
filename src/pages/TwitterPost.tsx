@@ -16,20 +16,14 @@ const TwitterPost = () => {
   const { i18n } = useTranslation();
   const [markdownContent, setMarkdownContent] = useState<string>("");
   const [loading, setLoading] = useState(true);
-  
-  if (!slug) {
-    return <NotFound />;
-  }
-  
-  const analysis = getTwitterAnalysisBySlug(slug);
-  
-  if (!analysis) {
-    return <NotFound />;
-  }
 
-  const currentLocale = i18n.language as keyof typeof analysis['title'];
+  const analysis = slug ? getTwitterAnalysisBySlug(slug) : undefined;
 
   useEffect(() => {
+    if (!slug || !analysis) {
+      setLoading(false);
+      return;
+    }
     const loadMarkdownContent = async () => {
       try {
         setLoading(true);
@@ -48,7 +42,13 @@ const TwitterPost = () => {
     };
 
     loadMarkdownContent();
-  }, [slug]);
+  }, [slug, analysis]);
+
+  if (!slug || !analysis) {
+    return <NotFound />;
+  }
+
+  const currentLocale = i18n.language as keyof typeof analysis['title'];
 
   return (
     <>

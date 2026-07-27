@@ -68,7 +68,7 @@ export type TwitterAnalysis = {
 
 export const siteConfig = {
   siteName: "TopDigg",
-  baseUrl: "https://topdigg.example.com",
+  baseUrl: "https://topdigg.com",
   nav: {
     main: [
       { 
