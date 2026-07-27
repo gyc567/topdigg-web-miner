@@ -144,7 +144,7 @@ export const siteConfig = {
           "en": "Claude Code Resources",
           "ja": "Claude Codeリソース"
         }, 
-        href: "https://www.supercopycoder.xyz/", 
+        href: "https://www.githot.xyz/", 
         external: true 
       },
     ] as NavLink[],
