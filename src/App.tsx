@@ -1,7 +1,5 @@
-import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
@@ -16,14 +14,10 @@ import ExternalLinks from "./pages/ExternalLinks";
 import "./i18n";
 import { LanguageInitializer } from "./components/LanguageInitializer";
 
-const queryClient = new QueryClient();
-
 const App = () => (
-  <QueryClientProvider client={queryClient}>
     <HelmetProvider>
       <TooltipProvider>
         <LanguageInitializer />
-        <Toaster />
         <Sonner />
         <BrowserRouter>
           <Layout>
@@ -42,7 +36,6 @@ const App = () => (
         </BrowserRouter>
       </TooltipProvider>
     </HelmetProvider>
-  </QueryClientProvider>
 );
 
 export default App;
