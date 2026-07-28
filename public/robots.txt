@@ -1,3 +1,11 @@
+# ============================================================
+# TopDigg Robots.txt
+# ============================================================
+# 主索引：Googlebot / Bingbot 等传统爬虫
+# AI 爬虫：显式 Allow（公网可见，注意 LLM 训练/引用）
+# ============================================================
+
+# --- 传统搜索引擎 ---
 User-agent: Googlebot
 Allow: /
 
@@ -6,11 +14,46 @@ Allow: /
 
 User-agent: Twitterbot
 Allow: /
-
 User-agent: facebookexternalhit
 Allow: /
 
+# --- AI 爬虫（被 LLM 训练/引用所需） ---
+
+# GPTBot (OpenAI：训练 + ChatGPT 检索)
+User-agent: GPTBot
+Allow: /
+
+# ClaudeBot / Claude-Web (Anthropic：训练 + Claude 引用)
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-Web
+Allow: /
+
+# PerplexityBot (Perplexity AI 检索)
+User-agent: PerplexityBot
+Allow: /
+
+# Google-Extended: 控制 Gemini 训练 + Vertex AI 检索。
+# 注意：不影响普通 Google 搜索索引（那个走 Googlebot）。
+User-agent: Google-Extended
+Allow: /
+
+# Applebot-Extended: 让 Apple Intelligence / Siri 可以引用你。
+# Applebot (基础) 控制 Apple 搜索索引。
+User-agent: Applebot-Extended
+Allow: /
+
+# CCBot: Common Crawl 抓取的数据被 GPT/Claude/Stability 等多个 LLM 训练使用。
+User-agent: CCBot
+Allow: /
+
+# Cohere AI 爬虫
+User-agent: cohere-ai
+Allow: /
+
+# --- 兜底 ---
 User-agent: *
 Allow: /
 
-Sitemap: https://topdigg.com/sitemap.xml
+# --- 站点地图 ---
+Sitemap: https://www.topdigg.com/sitemap.xml
