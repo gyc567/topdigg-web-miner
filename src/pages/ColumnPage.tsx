@@ -2,11 +2,12 @@ import { useParams } from "react-router-dom";
 import { SEO } from "@/components/SEO";
 import { getColumnById, siteConfig } from "@/config/site";
 import { useTranslation } from "react-i18next";
-import { localizeText, SupportedLocale } from "@/lib/locale";
+import { localizeText, normalizeLang } from "@/lib/locale";
 
 const ColumnPage = () => {
   const { id } = useParams();
   const { i18n, t } = useTranslation();
+  const currentLocale = normalizeLang(i18n.language);
   const column = id ? getColumnById(id) : undefined;
 
   if (!column) {
@@ -21,7 +22,7 @@ const ColumnPage = () => {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: `${localizeText(column.title as any, i18n.language as SupportedLocale)} Top 5 账户`,
+    name: `${localizeText(column.title as any, currentLocale)} Top 5 账户`,
     itemListElement: column.topAccounts.slice(0, 5).map((acc, idx) => ({
       "@type": "ListItem",
       position: idx + 1,
@@ -36,14 +37,14 @@ const ColumnPage = () => {
   return (
     <>
       <SEO
-        title={localizeText(column.title as any, i18n.language as SupportedLocale)}
-        description={localizeText(column.description as any, i18n.language as SupportedLocale)}
+        title={localizeText(column.title as any, currentLocale)}
+        description={localizeText(column.description as any, currentLocale)}
         path={`/columns/${column.id}`}
         jsonLd={jsonLd}
       />
       <header className="mb-6">
-        <h1 className="text-3xl font-bold">{localizeText(column.title as any, i18n.language as SupportedLocale)}</h1>
-        <p className="text-muted-foreground mt-2">{localizeText(column.description as any, i18n.language as SupportedLocale)}</p>
+        <h1 className="text-3xl font-bold">{localizeText(column.title as any, currentLocale)}</h1>
+        <p className="text-muted-foreground mt-2">{localizeText(column.description as any, currentLocale)}</p>
       </header>
 
     <section className="grid gap-4 md:grid-cols-2">

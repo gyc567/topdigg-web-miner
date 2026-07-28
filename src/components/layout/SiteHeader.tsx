@@ -1,11 +1,12 @@
 import { Link, NavLink } from "react-router-dom";
 import { siteConfig } from "@/config/site";
 import { LanguageSwitcher } from "../LanguageSwitcher";
-import { localizeText, SupportedLocale } from "@/lib/locale";
+import { localizeText, normalizeLang } from "@/lib/locale";
 import { useTranslation } from "react-i18next";
 
 export const SiteHeader = () => {
   const { i18n } = useTranslation();
+  const currentLocale = normalizeLang(i18n.language);
   return (
     <header className="sticky top-0 z-40 w-full border-b bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container h-16 flex items-center justify-between">
@@ -23,7 +24,7 @@ export const SiteHeader = () => {
                 }`
               }
             >
-              {localizeText(item.label, i18n.language as SupportedLocale)}
+              {localizeText(item.label, currentLocale)}
             </NavLink>
           ))}
         </nav>
@@ -36,7 +37,7 @@ export const SiteHeader = () => {
               rel="noopener noreferrer"
               className="text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
-              {localizeText(item.label, i18n.language as SupportedLocale)}
+              {localizeText(item.label, currentLocale)}
             </a>
           ))}
           <LanguageSwitcher />

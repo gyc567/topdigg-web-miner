@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { localizeText, SupportedLocale } from "@/lib/locale";
+import { localizeText, normalizeLang } from "@/lib/locale";
 import { SEO } from "@/components/SEO";
 import { ExternalLink, Globe } from "lucide-react";
 
@@ -199,7 +199,7 @@ const externalLinksData = [
 
 const ExternalLinks = () => {
   const { i18n } = useTranslation();
-  const currentLocale = i18n.language as SupportedLocale;
+  const currentLocale = normalizeLang(i18n.language);
 
   return (
     <>
