@@ -1,7 +1,14 @@
 import { Helmet } from "react-helmet-async";
 import { siteConfig } from "@/config/site";
 import { useTranslation } from "react-i18next";
-import { supportedLocales, ogLocaleMap, htmlLangMap, withLangParam } from "@/lib/locale";
+import {
+  supportedLocales,
+  ogLocaleMap,
+  htmlLangMap,
+  withLangParam,
+  normalizeLang,
+  type SupportedLocale,
+} from "@/lib/locale";
 
 type SEOProps = {
   title: string;
@@ -22,11 +29,11 @@ export const SEO = ({
   jsonLd,
 }: SEOProps) => {
   const { i18n } = useTranslation();
-  const lang = (i18n.language as any) as keyof typeof htmlLangMap;
+  const lang: SupportedLocale = normalizeLang(i18n.language);
   const fullTitle = `${title} | ${siteConfig.siteName}`;
   const base = siteConfig.baseUrl.replace(/\/$/, "");
   const baseUrl = `${base}${path}`;
-  const canonical = withLangParam(baseUrl, lang as any);
+  const canonical = withLangParam(baseUrl, lang);
 
   return (
     <Helmet htmlAttributes={{ lang: htmlLangMap[lang] }}>
