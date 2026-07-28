@@ -1,5 +1,4 @@
 import { useParams, Link } from "react-router-dom";
-import { useTranslation } from "react-i18next";
 import { useState, useEffect } from "react";
 import { getTwitterAnalysisBySlug } from "@/config/site";
 import { SEO } from "@/components/SEO";
@@ -10,10 +9,11 @@ import { formatDate } from "@/lib/utils";
 import { CalendarIcon, UserIcon, ArrowLeftIcon, ExternalLinkIcon, HeartIcon, RepeatIcon, MessageCircleIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import MarkdownContent from "@/components/MarkdownContent";
+import { useSupportedLocale } from "@/hooks/useSupportedLocale";
 
 const TwitterPost = () => {
   const { slug } = useParams<{ slug: string }>();
-  const { i18n } = useTranslation();
+  const currentLocale = useSupportedLocale();
   const [markdownContent, setMarkdownContent] = useState<string>("");
   const [loading, setLoading] = useState(true);
 
@@ -47,8 +47,6 @@ const TwitterPost = () => {
   if (!slug || !analysis) {
     return <NotFound />;
   }
-
-  const currentLocale = i18n.language as keyof typeof analysis['title'];
 
   return (
     <>

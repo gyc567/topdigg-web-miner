@@ -6,10 +6,11 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { formatDate } from "@/lib/utils";
 import { CalendarIcon, UserIcon, TrendingUpIcon } from "lucide-react";
+import { useSupportedLocale } from "@/hooks/useSupportedLocale";
 
 const TwitterIndex = () => {
-  const { t, i18n } = useTranslation();
-  const currentLocale = i18n.language as keyof typeof siteConfig.twitter.analyses[0]['title'];
+  const { t } = useTranslation();
+  const currentLocale = useSupportedLocale();
   
   return (
     <>
@@ -65,7 +66,7 @@ const TwitterIndex = () => {
                         </Badge>
                         <div className="text-sm text-muted-foreground flex items-center">
                           <TrendingUpIcon className="h-4 w-4 mr-1" />
-                          {analysis.analysisData.engagementRate.toFixed(1)}% 互动率
+                          {analysis.analysisData.engagementRate.toFixed(1)}% {t("pages.twitter.engagementRate")}
                         </div>
                       </div>
                     </div>
@@ -104,7 +105,7 @@ const TwitterIndex = () => {
                           {analysis.analysisData.totalTweets}
                         </div>
                         <div className="text-xs text-muted-foreground">
-                          分析推文数
+                          {t("pages.twitter.totalTweets")}
                         </div>
                       </div>
                       <div className="text-center">
@@ -112,7 +113,7 @@ const TwitterIndex = () => {
                           {analysis.analysisData.avgLikes}
                         </div>
                         <div className="text-xs text-muted-foreground">
-                          平均点赞数
+                          {t("pages.twitter.avgLikes")}
                         </div>
                       </div>
                       <div className="text-center">
@@ -120,7 +121,7 @@ const TwitterIndex = () => {
                           {analysis.analysisData.avgRetweets}
                         </div>
                         <div className="text-xs text-muted-foreground">
-                          平均转发数
+                          {t("pages.twitter.avgRetweets")}
                         </div>
                       </div>
                     </div>

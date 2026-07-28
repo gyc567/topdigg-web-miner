@@ -4,6 +4,8 @@
     "visit": "Visit →"
   },
   "home": {
+    "seoTitle": "Discover Web Traffic & Business Opportunities",
+    "seoDesc": "TopDigg focuses on SEO and growth, providing high-quality blog content and columns covering Reddit, YouTube, Twitter and more.",
     "heroTitle": "Leverage content and data to systematically find web traffic opportunities",
     "heroDesc": "Focus on SEO, channel growth, and product validation. Three columns: Reddit, YouTube, Twitter — tracking creators and trends.",
     "blogCta": "Read blog",
@@ -28,6 +30,19 @@
     "pageDesc": "The page you visited does not exist",
     "oops": "Oops! Page not found",
     "backHome": "Back to home"
+  },
+  "pages": {
+    "twitter": {
+      "title": "Twitter Deep Analysis",
+      "subtitle": "Data-driven deep dives into Twitter accounts' content strategies, identifying what makes viral tweets succeed and providing actionable growth guidance.",
+      "description": "Deep analysis of Twitter accounts, decoding the elements of viral tweets and providing growth strategy recommendations.",
+      "engagementRate": "Engagement Rate",
+      "totalTweets": "Analyzed Tweets",
+      "avgLikes": "Avg Likes",
+      "avgRetweets": "Avg Retweets",
+      "noAnalyses": "No analysis reports yet",
+      "noAnalysesDesc": "We are preparing exciting Twitter analysis content, stay tuned!"
+    }
   },
   "footer": {
     "rights": "© {{year}} {{siteName}}. All rights reserved.",

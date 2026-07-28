@@ -4,6 +4,8 @@
     "visit": "访问 →"
   },
   "home": {
+    "seoTitle": "Discover Web Traffic & Business Opportunities",
+    "seoDesc": "TopDigg focuses on SEO and growth, providing high-quality blog content and columns covering Reddit, YouTube, Twitter and more.",
     "heroTitle": "用内容与数据，系统性挖掘 Web 流量的商业机会",
     "heroDesc": "聚焦SEO、渠道增长与产品验证，配套三大专栏：Reddit、YouTube、Twitter，持续追踪优质创作者与趋势。",
     "blogCta": "阅读博客",
@@ -38,6 +40,10 @@
       "title": "Twitter 深度分析",
       "subtitle": "通过数据驱动的方法，深度分析Twitter账号的内容策略，识别爆款推文的成功因素，为您的社交媒体增长提供科学指导",
       "description": "深度分析 Twitter 账号，解析爆款推文成功要素，提供增长策略建议",
+      "engagementRate": "互动率",
+      "totalTweets": "分析推文数",
+      "avgLikes": "平均点赞数",
+      "avgRetweets": "平均转发数",
       "noAnalyses": "暂无分析报告",
       "noAnalysesDesc": "我们正在准备精彩的 Twitter 分析内容，敬请期待！"
     }

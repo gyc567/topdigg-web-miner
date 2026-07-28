@@ -4,6 +4,8 @@
     "visit": "訪問 →"
   },
   "home": {
+    "seoTitle": "Webトラフィックとビジネス機会を発掘",
+    "seoDesc": "TopDigg は SEO と成長に特化し、高品質なブログコンテンツと Reddit、YouTube、Twitter などのコラムを提供します。",
     "heroTitle": "コンテンツとデータでWebトラフィックのビジネス機会を体系的に発掘",
     "heroDesc": "SEO、チャネル成長、プロダクト検証に注力。Reddit・YouTube・Twitterの3つのコラムで優良クリエイターとトレンドを追跡。",
     "blogCta": "ブログを読む",
@@ -28,6 +30,19 @@
     "pageDesc": "アクセスしたページは存在しません",
     "oops": "おっと！ ページがありません",
     "backHome": "ホームに戻る"
+  },
+  "pages": {
+    "twitter": {
+      "title": "Twitter 詳細分析",
+      "subtitle": "データ駆動型のアプローチで Twitter アカウントのコンテンツ戦略を深く分析し、バイラルツイートの成功要因を特定し、ソーシャルメディアの成長に向けた科学的な指針を提供します。",
+      "description": "Twitter アカウントを深く分析し、バイラルツイートの成功要素を解明し、成長戦略の提案を行います。",
+      "engagementRate": "エンゲージメント率",
+      "totalTweets": "分析ツイート数",
+      "avgLikes": "平均いいね数",
+      "avgRetweets": "平均リツイート数",
+      "noAnalyses": "まだ分析レポートがありません",
+      "noAnalysesDesc": "素晴らしい Twitter 分析コンテンツを準備中です。お楽しみに！"
+    }
   },
   "footer": {
     "rights": "© {{year}} {{siteName}}. 無断転載を禁じます。",

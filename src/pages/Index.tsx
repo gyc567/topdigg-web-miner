@@ -12,8 +12,8 @@ const Index = () => {
   return (
     <>
       <SEO
-        title="挖掘Web流量与商业机会的内容站"
-        description="TopDigg 专注SEO与增长，提供优质博客内容与Reddit/YouTube/Twitter等专栏的Top5账号推荐。"
+        title={t("home.seoTitle")}
+        description={t("home.seoDesc")}
         path="/"
         jsonLd={{
           "@context": "https://schema.org",
