@@ -98,8 +98,8 @@
 |-----|------|-----|------|
 | 1 | 改 baseUrl + 拷贝 3 篇 twitter md（快速修复） | 10 分钟 | 无 | ✅ 已完成（2026-07-27，baseUrl=https://topdigg.com，构建+lint 验证通过） |
 | 2 | 修 TwitterPost hooks 违规 + Index sort 副作用 | 30 分钟 | 低 | ✅ 已完成（2026-07-27，TwitterPost lint 已 clean；Index 残留 4 个 any 为历史问题） |
-| 3 | 删死代码（第 4/5/6 条）+ 双 Toaster | 1 天 | 低（纯删除，删后跑 build 验证） |
-| 4 | React.lazy 路由分割 + sitemap 生成 + robots 加 Sitemap | 半天 | 低 |
+| 3 | 删死代码（第 4/5/6 条）+ 双 Toaster | 1 天 | 低（纯删除，删后跑 build 验证） | ✅ 已完成（2026-07-27：删 3 个 lib 死文件、KnowledgeCard、双 use-toast、use-mobile、43 个未用 ui 组件、radix Toaster、react-query Provider；卸载 12 个运行时依赖 + 24 个 radix 包；构建通过，剩余 lint 错误均为历史 any 类型问题） |
+| 4 | React.lazy 路由分割 + sitemap 生成 + robots 加 Sitemap | 半天 | 低 | ✅ 已完成（2026-07-27：8 个页面全部 lazy，主 bundle 782→353KB（-55%），blog-data 独立 chunk 625KB 按需加载；sitemap.xml 38 个 URL 由 scripts/build-sitemap.js 构建时生成；robots.txt 加 Sitemap 指令；tsc/lint/冒烟全过） |
 | 5 | 统一 i18n（补 locale key、收敛语言检测、ExternalLinks 数据外置）+ 修数据质量 | 1 天 | 中 |
 | 6 | twitter 内容构建管线化 + 长期考虑预渲染 | 1-2 天 | 中 |
 
