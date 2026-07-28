@@ -71,3 +71,23 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+
+---
+
+## Deploying to Vercel with prerendered SEO
+
+This project uses a custom puppeteer-based prerender step (`scripts/prerender.mjs`) that produces a fully-rendered HTML page per route in `dist/`. On Vercel, this step is **automatically skipped** because Chromium downloads don't fit Vercel's build-container time/memory budget.
+
+To deploy with prerendered SEO pages, use the prebuilt workflow:
+
+```sh
+# 1. Build (vite only) + prerender (locally, via puppeteer + Chromium)
+VERCEL=0 npm run build
+
+# 2. Deploy the prebuilt dist/ to Vercel
+npx vercel deploy --prebuilt --prod
+```
+
+If you only `git push` (no `--prebuilt`), Vercel will run `npm run build` itself and skip prerender. The site will deploy as an SPA fallback (rewrites in `vercel.json`), which is fine for users but loses SEO benefit of static HTML pages.
+
+To enable prerender on Vercel: set `CI_SKIP_PRERENDER=0` in the Vercel build env and remove the `VERCEL` check from `scripts/prerender.mjs`. Then add `@sparticuz/chromium` to the deps and replace `puppeteer.launch` with `@sparticuz/chromium`. See `scripts/prerender.mjs` for inline notes.

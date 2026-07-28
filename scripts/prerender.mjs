@@ -18,7 +18,6 @@ import fs from "node:fs";
 import path from "node:path";
 import http from "node:http";
 import { fileURLToPath } from "node:url";
-import puppeteer from "puppeteer";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -30,6 +29,28 @@ const SERVER_HOST = "127.0.0.1";
 const BASE_URL = `http://${SERVER_HOST}:${SERVER_PORT}`;
 const RENDER_EVENT = "render-event";
 const READY_WAIT_MS = 250;
+const IS_VERCEL = process.env.VERCEL === "1";
+
+// Local: full puppeteer + system chromium. Vercel: sparticuz chromium.
+async function loadBrowser() {
+  if (IS_VERCEL) {
+    // Lazy import so local devs do not bundle sparticuz
+    const chromium = (await import("@sparticuz/chromium")).default;
+    const puppeteer = (await import("puppeteer-core")).default;
+    const executablePath = await chromium.executablePath();
+    return puppeteer.launch({
+      args: chromium.args,
+      defaultViewport: { width: 1280, height: 800 },
+      executablePath,
+      headless: chromium.headless,
+    });
+  }
+  const puppeteer = (await import("puppeteer")).default;
+  return puppeteer.launch({
+    headless: "new",
+    args: ["--no-sandbox", "--disable-setuid-sandbox"],
+  });
+}
 
 // 导入路由清单
 const { prerenderRoutes } = await import("./build-routes.mjs");
@@ -132,16 +153,12 @@ async function main() {
   // In either case, we exit 0 so the build does not fail.
   let browser;
   try {
-    browser = await puppeteer.launch({
-      headless: "new",
-      args: ["--no-sandbox", "--disable-setuid-sandbox"],
-    });
+    browser = await loadBrowser();
   } catch (err) {
-    log(`WARN: chromium launch failed (${err.message?.slice(0, 80)}); prerender skipped.`);
-    log(`       Note: Vercel deployments will serve SPA fallback until route pre-renders run locally.`);
+    log(`WARN: chromium launch failed (${err.message?.slice(0, 100)}); prerender skipped.`);
     process.exit(0);
   }
-  log(`chromium launched`);
+  log(`chromium launched${IS_VERCEL ? " (sparticuz)" : ""}`);
 
   // Local: serve static files ourselves; on Vercel this is unnecessary since `dist/` is already mounted
   // but it does not hurt because puppeteer still needs HTTP to evaluate JS.
