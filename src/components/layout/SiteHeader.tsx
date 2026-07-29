@@ -11,7 +11,7 @@ export const SiteHeader = () => {
     <header className="sticky top-0 z-40 w-full border-b bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container h-16 flex items-center justify-between">
         <Link to="/" aria-label={siteConfig.siteName}>
-          <img src="/logo-header.png" alt={siteConfig.siteName} className="h-10 w-auto" />
+          <img src="/logo-header.png" alt={siteConfig.siteName} className="h-10 w-auto" width="702" height="240" />
         </Link>
         <nav className="hidden md:flex items-center gap-6" aria-label="主导航">
           {siteConfig.nav.main.map((item) => (
