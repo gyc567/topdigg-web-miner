@@ -1,7 +1,7 @@
 /**
  * 生成预渲染路由清单
  * 来源：
- *   - src/lib/blog-data.json（28 篇 blog 详情）
+ *   - src/lib/blog-meta.json（28 篇 blog 详情，metadata only）
  *   - src/config/site.ts twitter.analyses（4 篇 twitter 详情）
  *   - 静态路由
  * 仅 default locale 渲染；其他语言由 SPA 端处理
@@ -15,7 +15,7 @@ const __dirname = path.dirname(__filename);
 const projectRoot = path.join(__dirname, "..");
 
 function readBlogSlugs() {
-  const p = path.join(projectRoot, "src/lib/blog-data.json");
+  const p = path.join(projectRoot, "src/lib/blog-meta.json");
   if (!fs.existsSync(p)) return [];
   try {
     const data = JSON.parse(fs.readFileSync(p, "utf8"));
