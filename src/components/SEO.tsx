@@ -10,6 +10,11 @@ import {
   type SupportedLocale,
 } from "@/lib/locale";
 
+export type BreadcrumbItem = {
+  name: string;
+  url: string;
+};
+
 type SEOProps = {
   title: string;
   description: string;
@@ -18,6 +23,8 @@ type SEOProps = {
   image?: string;
   noIndex?: boolean;
   jsonLd?: Record<string, any>;
+  /** Injected automatically as a separate JSON-LD BreadcrumbList block. */
+  breadcrumbs?: BreadcrumbItem[];
 };
 export const SEO = ({
   title,
@@ -27,6 +34,7 @@ export const SEO = ({
   image,
   noIndex = false,
   jsonLd,
+  breadcrumbs,
 }: SEOProps) => {
   const { i18n } = useTranslation();
   const lang: SupportedLocale = normalizeLang(i18n.language);
@@ -60,6 +68,18 @@ export const SEO = ({
 
       {jsonLd && (
         <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+      )}
+      {breadcrumbs && breadcrumbs.length > 0 && (
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: breadcrumbs.map((item, index) => ({
+            "@type": "ListItem",
+            position: index + 1,
+            name: item.name,
+            item: item.url,
+          })),
+        })}</script>
       )}
     </Helmet>
   );

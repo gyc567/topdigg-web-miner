@@ -4,6 +4,7 @@ import { siteConfig } from "@/config/site";
 import { useTranslation } from "react-i18next";
 import { localizeText, normalizeLang } from "@/lib/locale";
 import { blogDataSource } from "@/lib/blog-data";
+import { makeSearchActionSchema, makeWebsiteSchema } from "@/lib/jsonld";
 
 const Index = () => {
   // blog-data.json 在构建时已按日期降序排序，直接取前 3 篇，避免原地 sort 修改共享数组
@@ -16,12 +17,7 @@ const Index = () => {
         title={t("home.seoTitle")}
         description={t("home.seoDesc")}
         path="/"
-        jsonLd={{
-          "@context": "https://schema.org",
-          "@type": "WebSite",
-          name: siteConfig.siteName,
-          url: siteConfig.baseUrl,
-        }}
+        jsonLd={makeSearchActionSchema()}
       />
       <section className="relative overflow-hidden rounded-2xl border bg-gradient-to-b from-accent to-background p-10 md:p-16 shadow-sm">
         <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-4">

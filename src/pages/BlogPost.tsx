@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import { localizeText, normalizeLang } from "@/lib/locale";
 import { blogDataSource } from "@/lib/blog-data";
 import MarkdownContent from "@/components/MarkdownContent";
+import { makeArticleSchema } from "@/lib/jsonld";
 
 const BlogPost = () => {
   const { slug } = useParams();
@@ -21,27 +22,31 @@ const BlogPost = () => {
     );
   }
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    headline: localizeText(post.title as any, currentLocale),
+  const postPath = `/blog/${post.slug}`;
+  const jsonLd = makeArticleSchema({
+    title: localizeText(post.title as any, currentLocale),
     description: localizeText(post.description as any, currentLocale),
+    url: postPath,
     datePublished: post.date,
-    author: {
-      "@type": "Person",
-      name: post.author,
-    },
-    mainEntityOfPage: `${siteConfig.baseUrl}/blog/${post.slug}`,
-  };
+    authorName: post.author,
+    tags: post.tags,
+  });
+
+  const breadcrumbs = [
+    { name: "Home", url: `${siteConfig.baseUrl}/` },
+    { name: "Blog", url: `${siteConfig.baseUrl}/blog` },
+    { name: localizeText(post.title as any, currentLocale), url: `${siteConfig.baseUrl}${postPath}` },
+  ];
 
   return (
     <>
       <SEO
         title={localizeText(post.title as any, currentLocale)}
         description={localizeText(post.description as any, currentLocale)}
-        path={`/blog/${post.slug}`}
+        path={postPath}
         type="article"
         jsonLd={jsonLd}
+        breadcrumbs={breadcrumbs}
       />
       <article className="max-w-none">
         <header className="mb-8">

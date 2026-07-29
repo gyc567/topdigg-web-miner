@@ -7,17 +7,33 @@ import { Badge } from "@/components/ui/badge";
 import { formatDate } from "@/lib/utils";
 import { CalendarIcon, UserIcon, TrendingUpIcon } from "lucide-react";
 import { useSupportedLocale } from "@/hooks/useSupportedLocale";
+import { makeCollectionPageSchema } from "@/lib/jsonld";
 
 const TwitterIndex = () => {
   const { t } = useTranslation();
   const currentLocale = useSupportedLocale();
-  
+
+  const twitterItems = siteConfig.twitter.analyses.map((a, i) => ({
+    name: a.title[currentLocale] ?? a.title.en,
+    url: `${siteConfig.baseUrl}/twitter/${a.slug}`,
+    position: i + 1,
+  }));
+
+  const jsonLd = makeCollectionPageSchema({
+    title: t("pages.twitter.title", "Twitter分析"),
+    description: t("pages.twitter.description", "深度分析 Twitter 账号，解析爆款推文成功要素，提供增长策略建议"),
+    url: "/twitter",
+    items: twitterItems,
+  });
+
   return (
     <>
-      <SEO 
+      <SEO
         title={t("pages.twitter.title", "Twitter分析")}
         description={t("pages.twitter.description", "深度分析 Twitter 账号，解析爆款推文成功要素，提供增长策略建议")}
         type="website"
+        path="/twitter"
+        jsonLd={jsonLd}
       />
       
       <div className="container mx-auto px-4 py-8">

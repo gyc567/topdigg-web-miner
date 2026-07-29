@@ -1,6 +1,6 @@
 import { useParams, Link } from "react-router-dom";
 import { useState, useEffect } from "react";
-import { getTwitterAnalysisBySlug } from "@/config/site";
+import { getTwitterAnalysisBySlug, siteConfig } from "@/config/site";
 import { SEO } from "@/components/SEO";
 import NotFound from "./NotFound";
 import { Badge } from "@/components/ui/badge";
@@ -10,6 +10,7 @@ import { CalendarIcon, UserIcon, ArrowLeftIcon, ExternalLinkIcon, HeartIcon, Rep
 import { Button } from "@/components/ui/button";
 import MarkdownContent from "@/components/MarkdownContent";
 import { useSupportedLocale } from "@/hooks/useSupportedLocale";
+import { makeTwitterArticleSchema } from "@/lib/jsonld";
 
 const TwitterPost = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -48,13 +49,32 @@ const TwitterPost = () => {
     return <NotFound />;
   }
 
+  const postPath = `/twitter/${analysis.slug}`;
+  const jsonLd = makeTwitterArticleSchema({
+    title: analysis.title[currentLocale],
+    description: analysis.description[currentLocale],
+    url: postPath,
+    datePublished: analysis.date,
+    authorName: analysis.author,
+    twitterHandle: analysis.twitterAccount.handle,
+    tags: analysis.tags,
+  });
+
+  const breadcrumbs = [
+    { name: "Home", url: `${siteConfig.baseUrl}/` },
+    { name: "Twitter", url: `${siteConfig.baseUrl}/twitter` },
+    { name: analysis.title[currentLocale], url: `${siteConfig.baseUrl}${postPath}` },
+  ];
+
   return (
     <>
-      <SEO 
+      <SEO
         title={analysis.title[currentLocale]}
         description={analysis.description[currentLocale]}
         type="article"
-        path={`/twitter/${analysis.slug}`}
+        path={postPath}
+        jsonLd={jsonLd}
+        breadcrumbs={breadcrumbs}
       />
       
       <div className="container mx-auto px-4 py-8">
