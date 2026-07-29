@@ -88,10 +88,13 @@
    - ⚠️ WebP/AVIF：系统无 cwebp/sharp，暂无法转换
    - ⚠️ 字体：代码无 Google Fonts，已是系统字体栈，无须改动
 
-4. **PR6 llms.txt + llms-full.txt**：
-   - 写 `public/llms.txt`（站点简介 + 链接）
-   - 写 `public/llms-full.txt`（所有文章全文 markdown，单文件 < 50MB）
-   - 从 `scripts/build-routes.mjs` 派生
+4. **PR6 llms.txt + llms-full.txt ✅**（commit `3c50e4d`）：
+   - ✅ `public/llms.txt`（7.4 KB）：站点索引 + 导航 + 最新10篇 + 栏目 + Twitter 报告
+   - ✅ `public/llms-full.txt`（~500 KB）：全部博客文章英文+中文全文
+   - ✅ `scripts/build-llms.mjs`：pure Node ESM，无依赖
+   - ✅ `package.json`：build:llms 接入 build 管线
+   - ✅ robots.txt 已 Allow 所有 AI bot（GPTBot/ClaudeBot/PerplexityBot 等）
+   - ⚠️ llms-full.txt 不进 git（build artifact）
 
 5. **PR7 E-E-A-T 页面**：
    - About 页（站点介绍 + 作者团队 + 联系方式 + sameAs 社交账号）
