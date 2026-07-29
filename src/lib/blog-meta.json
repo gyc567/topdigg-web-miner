@@ -1,6 +1,32 @@
 {
   "posts": [
     {
+      "slug": "buzz-analysis-report-2026-07-29",
+      "title": {
+        "en": "Buzz Deep Dive: Block's Human-Agent Co-working Workspace Platform",
+        "zh-Hans": "Buzz 深度解析：Block 打造的\"人机共处\"工作空间平台",
+        "zh-Hant": "Buzz 深度解析：Block 打造的「人机共用」工作空間平台",
+        "ja": "Buzz 詳細解析：Block 人とAIエージェントが共に働くワークスペースプラットフォーム"
+      },
+      "description": {
+        "en": "Comprehensive analysis of Buzz — Block's self-hostable workspace platform built on Nostr. Deep dive into unified event log architecture, workflow automation, agent-native design, and the relay-as-workspace paradigm.",
+        "zh-Hans": "全面解析 Buzz — Block 推出的自托管 Nostr 工作空间平台。深入探讨统一事件日志架构、工作流自动化、Agent 原生设计及中继即工作空间的范式革新。",
+        "zh-Hant": "全面解析 Buzz — Block 推出的自托管 Nostr 工作空間平台。深入探討統一事件日誌架構、工作流自動化、Agent 原生設計及中继即工作空間的範式革新。",
+        "ja": "Block の自ホスト型 Nostr ワークスペースプラットフォーム Buzz の包括的分析。統一イベントログアーキテクチャ、ワークフロー自動化、エージェントネイティブ設計、リレー即ワークスペースパラダイムの深掘り。"
+      },
+      "date": "2026-07-29T00:00:00.000Z",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Buzz",
+        "Block",
+        "Nostr",
+        "工作空间",
+        "AI Agent",
+        "自托管",
+        "事件驱动"
+      ]
+    },
+    {
       "slug": "open-design-analysis-report-2026-07-29",
       "title": {
         "en": "Open Design Deep Dive: The Open-Source Claude Design Alternative Reshaping the Future of Design",

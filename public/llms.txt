@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-07-29T08:50:55.174Z
+Generated: 2026-07-29T09:51:01.247Z
 
 ## Site Overview
 
@@ -20,6 +20,12 @@ We cover trending topics and business opportunities across Reddit, YouTube, and 
 | External Links | https://topdigg.com/external-links | Curated external resources |
 
 ## Latest Blog Posts (10 most recent)
+
+### Buzz Deep Dive: Block's Human-Agent Co-working Workspace Platform
+URL: https://topdigg.com/blog/buzz-analysis-report-2026-07-29 | Date: 2026-07-29T00:00:00.000Z | Author: TopDigg Research Team
+Tags: Buzz, Block, Nostr, 工作空间, AI Agent, 自托管, 事件驱动
+
+Comprehensive analysis of Buzz — Block's self-hostable workspace platform built on Nostr. Deep dive into unified event log architecture, workflow automation, agent-native design, and the relay-as-workspace paradigm.
 
 ### Open Design Deep Dive: The Open-Source Claude Design Alternative Reshaping the Future of Design
 URL: https://topdigg.com/blog/open-design-analysis-report-2026-07-29 | Date: 2026-07-29 | Author: TopDigg Research Team
@@ -75,12 +81,6 @@ Tags: AI工具, 角色聊天, AI对话, PolyBuzz, 虚拟角色, AI娱乐, 聊天
 
 PolyBuzz AI角色聊天平台完整评测，包含商业模式分析、技术架构评估、竞争优势分析和市场前景预测。超过2000万AI角色的创新聊天平台，适合娱乐、创作和角色扮演。
 
-### Chub.ai平台深度评测：2025年AI角色聊天领域专业平台全面分析报告
-URL: https://topdigg.com/blog/chub-ai-analysis-report-2025-08-24 | Date: 2025-08-24 | Author: ERIC
-Tags: AI聊天, 角色定制, Chub.ai, AI角色, 聊天机器人, 角色AI, 无审查, AI平台
-
-Chub.ai AI角色聊天平台完整评测，包含AI角色定制、无审查对话、多API支持、分支对话系统、技术架构、商业模式和市场表现分析。专业的AI角色创建平台，为用户提供高度自定义的AI对话体验的详细解析。
-
 ## Twitter Analysis Reports
 
 ###  (@)
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 29 blog posts | 4 Twitter analyses
+End of llms.txt | 30 blog posts | 4 Twitter analyses
