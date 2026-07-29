@@ -103,10 +103,10 @@
    - ⚠️ Author bio 页（可选，下次补）
    - ✅ 所有新页已加入 build-routes.mjs + prerender
 
-6. **PR8 监控**：
-   - 在 Vercel 日志中按 UA 分桶 GPTBot/ClaudeBot/PerplexityBot
-   - 写 `scripts/bot-audit.mjs` 拉取 GSC 的 indexed pages 计数
-   - 配置 GSC + Bing Webmaster
+6. **PR8 监控**（commit `6c9f4c1`）：
+   - ✅ `scripts/bot-audit.mjs`：抓 Vercel logs 按 AI bot UA 分桶 + GSC 索引计数
+   - ⚠️ GSC + Bing Webmaster：需手动在平台配置（Vercel UI 操作）
+   - Env vars: `VERCEL_API_TOKEN` + `VERCEL_PROJECT_ID`（见脚本注释）
 
 ### 中期（可选）
 
