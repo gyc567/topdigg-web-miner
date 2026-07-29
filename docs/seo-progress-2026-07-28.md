@@ -96,12 +96,12 @@
    - ✅ robots.txt 已 Allow 所有 AI bot（GPTBot/ClaudeBot/PerplexityBot 等）
    - ⚠️ llms-full.txt 不进 git（build artifact）
 
-5. **PR7 E-E-A-T 页面**：
-   - About 页（站点介绍 + 作者团队 + 联系方式 + sameAs 社交账号）
-   - Contact 页
-   - Privacy Policy / 版权声明页
-   - Author bio 页
-   - 注意：新增页也要加到 `build-routes.mjs` + prerender
+5. **PR7 E-E-A-T 页面 ✅**（commit `ab8d854` + `a953bb7`）：
+   - ✅ About 页：使命 + 服务说明 + Twitter/Reddit 社交链接（/about）
+   - ✅ Contact 页：社交媒体渠道 + 商务合作说明（/contact）
+   - ✅ Privacy Policy：数据收集、Cookie、第三方链接、联系方式（/privacy）
+   - ⚠️ Author bio 页（可选，下次补）
+   - ✅ 所有新页已加入 build-routes.mjs + prerender
 
 6. **PR8 监控**：
    - 在 Vercel 日志中按 UA 分桶 GPTBot/ClaudeBot/PerplexityBot
