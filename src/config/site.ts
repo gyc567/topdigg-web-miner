@@ -123,7 +123,25 @@ export const siteConfig = {
           "en": "External Links",
           "ja": "外部リンク"
         }, 
-        href: "/external-links" 
+        href: "/external-links"
+      },
+      {
+        label: {
+          "zh-Hans": "关于我们",
+          "zh-Hant": "關於我們",
+          "en": "About",
+          "ja": "私たちについて"
+        },
+        href: "/about"
+      },
+      {
+        label: {
+          "zh-Hans": "联系",
+          "zh-Hant": "聯繫",
+          "en": "Contact",
+          "ja": "お問い合わせ"
+        },
+        href: "/contact"
       },
     ] as NavLink[],
     mySites: [

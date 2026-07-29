@@ -13,6 +13,8 @@ const ColumnPage = lazy(() => import("./pages/ColumnPage"));
 const TwitterIndex = lazy(() => import("./pages/TwitterIndex"));
 const TwitterPost = lazy(() => import("./pages/TwitterPost"));
 const ExternalLinks = lazy(() => import("./pages/ExternalLinks"));
+const About = lazy(() => import("./pages/About"));
+const Contact = lazy(() => import("./pages/Contact"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 const App = () => (
@@ -30,6 +32,8 @@ const App = () => (
               <Route path="/twitter/:slug" element={<TwitterPost />} />
               <Route path="/columns/:id" element={<ColumnPage />} />
               <Route path="/external-links" element={<ExternalLinks />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>

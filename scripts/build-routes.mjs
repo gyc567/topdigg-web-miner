@@ -67,6 +67,8 @@ export function buildRoutes() {
     "/columns/youtube",
     "/columns/twitter",
     "/external-links",
+    "/about",
+    "/contact",
     "/notfound",
   ];
 
