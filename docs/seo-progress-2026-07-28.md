@@ -68,14 +68,15 @@
    - 不是代码改动，是平台 UI 配置
    - 我无法从仓库内完成
 
-2. **PR4 JSON-LD 全量**（`docs/seo-geo-optimization-plan.md` v3 第 2 章 P1.6）：
-   - 全站 `WebSite` + `Organization`
-   - 首页 `SearchAction`
-   - Blog 详情 `Article` + `BreadcrumbList`
-   - Twitter 详情 `Article`（author 用 Person schema）
-   - 栏目页 `CollectionPage` + `ItemList`
-   - 抽 `src/lib/jsonld.ts` 工厂函数
-   - 改动 `src/components/SEO.tsx` 增加 `article`/`breadcrumb`/`faq` 布尔开关
+2. **PR4 JSON-LD 全量 ✅**（commit `cee71c4`）
+   - ✅ 全站 `WebSite` + `Organization`（makeWebsiteSchema / makeOrganization）
+   - ✅ 首页 `SearchAction`（makeSearchActionSchema）
+   - ✅ Blog 详情 `Article` + `BreadcrumbList`（makeArticleSchema）
+   - ✅ Twitter 详情 `Article`（author 用 Person schema，sameAs 链接账号）（makeTwitterArticleSchema）
+   - ✅ 栏目页 `CollectionPage` + `ItemList`（makeCollectionPageSchema）
+   - ✅ 抽 `src/lib/jsonld.ts` 工厂函数（~205 行）
+   - ✅ 改 `src/components/SEO.tsx` 增加 `breadcrumbs` 属性
+   - ⚠️ BlogIndex（博客列表页）尚未加 schema（可选，下次补）
 
 3. **PR5 性能优化**（P2）：
    - `dompurify` / `marked` 改为按需 dynamic import（仅博客详情页加载）
