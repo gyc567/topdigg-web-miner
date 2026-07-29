@@ -26,3 +26,7 @@ dist-ssr
 .env*.local
 .gstack/
 .playwright-mcp/
+
+# AI crawler index — llms.txt is versioned; llms-full.txt is a build artifact
+public/llms-full.txt
+dist/llms-full.txt

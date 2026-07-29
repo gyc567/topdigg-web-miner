@@ -79,10 +79,14 @@
    - ⚠️ BlogIndex（博客列表页）尚未加 schema（可选，下次补）
 
 3. **PR5 性能优化**（P2）：
-   - `dompurify` / `marked` 改为按需 dynamic import（仅博客详情页加载）
-   - 验证主包降到 < 250KB
-   - 图片：所有 `<img>` 用 `<picture>` 或 Astro `<Image>`（如果未迁移 Astro）
-   - 字体：`font-display: swap`，自托管子集化
+   - ✅ `dompurify` / `marked` → dynamic import（MarkdownContent chunk: 60K → 667B）
+   - ✅ `blog-data.json` 拆分为 metadata (13KB) + content (654KB lazy)
+     - BlogIndex/Index: 仅加载 blog-meta.json（~21KB chunk）
+     - BlogPost: 详情页才动态加载完整 content（~631KB chunk）
+   - ✅ logo 加 `width/height` 防 CLS + `preload`（index.html）
+   - ⚠️ 主包 index chunk 355KB（blog-data 仍为独立 chunk，未进主包；主包含 react/router/shadcn 等框架代码）
+   - ⚠️ WebP/AVIF：系统无 cwebp/sharp，暂无法转换
+   - ⚠️ 字体：代码无 Google Fonts，已是系统字体栈，无须改动
 
 4. **PR6 llms.txt + llms-full.txt**：
    - 写 `public/llms.txt`（站点简介 + 链接）

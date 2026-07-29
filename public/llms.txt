@@ -1,0 +1,129 @@
+# TopDigg — AI-Crawler Index
+
+Source: https://topdigg.com
+Generated: 2026-07-29T07:28:55.986Z
+
+## Site Overview
+
+TopDigg 是一个内容聚合平台，追踪 Reddit、YouTube、Twitter 的热门趋势与商业机会。
+We cover trending topics and business opportunities across Reddit, YouTube, and Twitter.
+
+## Navigation
+
+| Section | URL | Description |
+|---|---|---|
+| Home | https://topdigg.com/ | Discover Web Traffic & Business Opportunities |
+| Blog | https://topdigg.com/blog | All articles |
+| Twitter Analytics | https://topdigg.com/twitter | In-depth Twitter account analysis reports |
+| Reddit Column | https://topdigg.com/columns/reddit | Top Reddit communities for business insights |
+| YouTube Column | https://topdigg.com/columns/youtube | Top YouTube channels for content growth |
+| External Links | https://topdigg.com/external-links | Curated external resources |
+
+## Latest Blog Posts (10 most recent)
+
+### Harper Deep Dive: The Open-Source Grammar Checker Automattic Bought to Challenge Grammarly
+URL: https://topdigg.com/blog/harper-analysis-report-2026-07-27 | Date: 2026-07-27 | Author: ERIC
+Tags: Harper, grammar checker, open source, Automattic, Grammarly alternative, privacy
+
+Harper is a free, open-source, fully local English grammar checker written in Rust, acquired by Automattic in late 2024. This report is double-verified against the official repo, the official site, and independent press coverage, analyzing its technology, business logic, and real limitations.
+
+### Qwen3-4B 克劳德幻境5推理踪迹蒸馏：100%自一致性的突破
+URL: https://topdigg.com/blog/qwen3-4b-claude-fable5-distill-2026-07-03 | Date: 2026-06-30 | Author: TopDigg Research Team
+Tags: 人工智能, 大型语言模型, 模型蒸馏, Qwen3-4B, 克劳德幻境5, 自一致性, AI可靠性, 模型优化
+
+深度解析@waterloo_intern团队利用2.3M克劳德幻境5推理轨迹蒸馏Qwen3-4B，实现100%自一致性、零觅语变异的突破性成果。以下全面分析技术细节、业务影响和长远意义。
+
+### CryptoPulse Daily Report - May 12, 2026
+URL: https://topdigg.com/blog/cryptopulse-daily-report-2026-05-12 | Date: 2026-05-12 | Author: CryptoPulse
+Tags: CryptoPulse, BTC, ETH, DeFi, Market Analysis, Bitcoin Cycle, Cryptocurrency
+
+CryptoPulse cryptocurrency market daily report with BTC cycle analysis, on-chain metrics, DeFi market data, and latest news.
+
+### The "HTML Hacker Era" of AI Output Bandwidth: Karpathy's Tweet Laid Bare the Interface Bottleneck
+URL: https://topdigg.com/blog/html-hacking-ai-output-bandwidth-2026-05-11 | Date: 2026-05-11 | Author: TopDigg
+Tags: AI, Human-AI Interaction, HTML, Karpathy, Multimodal AI
+
+A deep dive into the human-machine interface bandwidth asymmetry behind Karpathy and Thariq's HTML trick, and its profound implications for the AI economic model.
+
+### YouWare AI编程社区平台深度分析报告：2025年最火爆的AI编程创作平台完整评测
+URL: https://topdigg.com/blog/youware-analysis-report-2025-08-31 | Date: 2025-08-31 | Author: ERIC
+Tags: AI工具, 编程平台, 代码部署, YouWare, AI编程, 创作社区, 技术创新, Sandbox引擎
+
+YouWare AI编程社区平台完整评测，包含产品功能分析、商业模式研究、技术架构解析、竞争优势评估和市场前景预测。短短两个月估值8000万美元的AI编程平台，颠覆传统编程方式。
+
+### Grammarly AI写作助手平台深度分析报告：2025年4000万用户信赖的智能写作专家完整评测
+URL: https://topdigg.com/blog/grammarly-analysis-report-2025-08-29 | Date: 2025-08-29 | Author: ERIC
+Tags: AI工具, 写作助手, 语法检查, Grammarly, 办公效率, AI写作, 英语学习, 商务写作
+
+Grammarly AI写作助手平台完整评测，包含产品功能分析、商业模式研究、技术架构解析、竞争优势评估和市场前景预测。全球最大AI写作助手平台，适合学生、专业人士和企业团队。
+
+### Otter.ai AI会议助理平台深度分析报告：2025年95%准确率的智能转录专家完整评测
+URL: https://topdigg.com/blog/otter-ai-analysis-report-2025-08-28 | Date: 2025-08-28 | Author: ERIC
+Tags: AI工具, 会议助理, 语音转录, Otter.ai, 办公效率, AI转录, 会议记录, 智能摘要
+
+Otter.ai AI会议助理平台完整评测，包含商业模式分析、技术架构评估、竞争优势分析和市场前景预测。95%转录准确率的实时会议记录专家，适合企业协作和效率提升。
+
+### PolyBuzz AI角色聊天平台深度分析报告：2025年千万级角色库的AI对话创新者完整评测
+URL: https://topdigg.com/blog/polybuzz-ai-analysis-report-2025-08-25 | Date: 2025-08-25 | Author: ERIC
+Tags: AI工具, 角色聊天, AI对话, PolyBuzz, 虚拟角色, AI娱乐, 聊天机器人, 角色扮演
+
+PolyBuzz AI角色聊天平台完整评测，包含商业模式分析、技术架构评估、竞争优势分析和市场前景预测。超过2000万AI角色的创新聊天平台，适合娱乐、创作和角色扮演。
+
+### Chub.ai平台深度评测：2025年AI角色聊天领域专业平台全面分析报告
+URL: https://topdigg.com/blog/chub-ai-analysis-report-2025-08-24 | Date: 2025-08-24 | Author: ERIC
+Tags: AI聊天, 角色定制, Chub.ai, AI角色, 聊天机器人, 角色AI, 无审查, AI平台
+
+Chub.ai AI角色聊天平台完整评测，包含AI角色定制、无审查对话、多API支持、分支对话系统、技术架构、商业模式和市场表现分析。专业的AI角色创建平台，为用户提供高度自定义的AI对话体验的详细解析。
+
+### Prolific AI数据收集平台深度分析报告：2025年高质量人类数据服务领导者完整评测
+URL: https://topdigg.com/blog/prolific-analysis-report-2025-08-24 | Date: 2025-08-24 | Author: ERIC
+Tags: AI工具, 数据收集, 研究平台, Prolific, 人类数据, AI训练, 学术研究, 数据质量
+
+Prolific AI数据收集平台完整评测，包含商业模式分析、技术架构评估、竞争优势分析和市场前景预测。专业的人类数据收集服务，适合学术研究、AI训练和产品开发。
+
+## Twitter Analysis Reports
+
+###  (@)
+URL: https://topdigg.com/twitter/AliAbdaal-twitter-analysis-2025-08-22 | Date: 
+Twitter: https://x.com/
+
+###  (@)
+URL: https://topdigg.com/twitter/naval-twitter-analysis-2025-08-22 | Date: 
+Twitter: https://x.com/
+
+###  (@)
+URL: https://topdigg.com/twitter/sahil-bloom-analysis-2025-08-22 | Date: 
+Twitter: https://x.com/
+
+###  (@)
+URL: https://topdigg.com/twitter/yangyi-twitter-analysis-2026-04-16 | Date: 
+Twitter: https://x.com/
+
+## Columns — Top Accounts
+
+### Reddit
+Top Reddit communities for business insights:
+- r/Entrepreneur: https://www.reddit.com/r/Entrepreneur/
+- r/SideProject: https://www.reddit.com/r/SideProject/
+- r/marketing: https://www.reddit.com/r/marketing/
+- r/startups: https://www.reddit.com/r/startups/
+- r/SEO: https://www.reddit.com/r/SEO/
+
+### YouTube
+Top YouTube channels for content growth:
+- Ali Abdaal: https://www.youtube.com/@aliabdaal
+- HubSpot: https://www.youtube.com/@hubspot
+- Ahrefs: https://www.youtube.com/@AhrefsCom
+- Veritasium: https://www.youtube.com/@veritasium
+- Kurzgesagt: https://www.youtube.com/@kurzgesagt
+
+### Twitter
+Top Twitter accounts for growth and entrepreneurship:
+- Sahil Bloom (@SahilBloom): https://x.com/SahilBloom
+- Julian Shapiro (@Julian): https://x.com/Julian
+- Brian Lovin (@brian_lovin): https://x.com/brian_lovin
+- Lenny Rachitsky (@lennysan): https://x.com/lennysan
+- Andrew Chen (@andrewchen): https://x.com/andrewchen
+
+---
+End of llms.txt | 28 blog posts | 4 Twitter analyses
