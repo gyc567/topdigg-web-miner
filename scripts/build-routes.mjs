@@ -69,6 +69,7 @@ export function buildRoutes() {
     "/external-links",
     "/about",
     "/contact",
+    "/privacy",
     "/notfound",
   ];
 
