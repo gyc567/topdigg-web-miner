@@ -21,6 +21,11 @@ We cover trending topics and business opportunities across Reddit, YouTube, and 
 
 ## Latest Blog Posts (10 most recent)
 
+### Recursive Self Improvement for Coding Agents: From One Prompt to SOTA
+URL: https://topdigg.com/blog/recursive-self-improvement-agents | Date: 2026-07-30 | Author: TopDigg Research Team
+Tags: Recursive Self-Improvement, Coding Agents, Cline, Terminal-Bench, AI Agent, Self-Optimization, SOTA, Hill Climbing
+
+A deep analysis of how the Cline team achieved an 88.8% SOTA score on Terminal-Bench 2.1 using recursive self-improvement, costing only $49.8 — less than a tenth of competing approaches. Includes full tutorial, viewpoints, and design philosophy.
 ### Buzz Deep Dive: Block's Human-Agent Co-working Workspace Platform
 URL: https://topdigg.com/blog/buzz-analysis-report-2026-07-29 | Date: 2026-07-29T00:00:00.000Z | Author: TopDigg Research Team
 Tags: Buzz, Block, Nostr, 工作空间, AI Agent, 自托管, 事件驱动
@@ -126,4 +131,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 30 blog posts | 4 Twitter analyses
+End of llms.txt | 31 blog posts | 4 Twitter analyses

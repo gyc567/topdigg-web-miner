@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "slug": "recursive-self-improvement-agents",
+      "title": {
+        "en": "Recursive Self Improvement for Coding Agents: From One Prompt to SOTA",
+        "zh-Hans": "编程代理的递归自我改进：从一次 Prompt 到 SOTA 结果的完整实践"
+      },
+      "description": {
+        "en": "A deep analysis of how the Cline team achieved an 88.8% SOTA score on Terminal-Bench 2.1 using recursive self-improvement, costing only $49.8 — less than a tenth of competing approaches.",
+        "zh-Hans": "深度解析 Cline 团队如何通过递归自我改进（RSI）技术，仅用一条 Prompt 驱动编程代理连续运行 17 小时，在 Terminal-Bench 2.1 上达到 88.8% 的 SOTA 成绩。"
+      },
+      "date": "2026-07-30",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Recursive Self-Improvement",
+        "Coding Agents",
+        "Cline",
+        "Terminal-Bench",
+        "AI Agent",
+        "Self-Optimization",
+        "SOTA",
+        "Hill Climbing"
+      ]
+    },
+    {
       "slug": "buzz-analysis-report-2026-07-29",
       "title": {
         "en": "Buzz Deep Dive: Block's Human-Agent Co-working Workspace Platform",
