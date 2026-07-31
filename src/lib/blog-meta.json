@@ -1,6 +1,53 @@
 {
   "posts": [
     {
+      "slug": "reasonix-analysis-report",
+      "title": {
+        "zh-Hans": "Reasonix 深度解析：DeepSeek 原生终端编码 Agent 的架构革命",
+        "en": "Reasonix Deep Dive: The Architecture Revolution of DeepSeek-Native Terminal Coding Agent",
+        "zh-Hant": "Reasonix 深度解析：DeepSeek 原生終端編碼 Agent 的架構革命",
+        "ja": "Reasonix 詳細分析：DeepSeekネイティブターミナルコーディングエージェントのアーキテクチャ革命"
+      },
+      "description": {
+        "zh-Hans": "全面分析 Reasonix —— 围绕 DeepSeek 前缀缓存构建的终端编码 Agent。从缓存优先架构到单二进制分发，从子智能体到 ACP 编辑器集成，一文深度解读其设计哲学与技术细节。",
+        "en": "Comprehensive analysis of Reasonix — a terminal coding agent built around DeepSeek prefix cache. From cache-first architecture to single-binary distribution, from subagents to ACP editor integration, an in-depth interpretation of its design philosophy and technical details.",
+        "zh-Hant": "全面分析 Reasonix —— 圍繞 DeepSeek 前缀快取構建的終端編碼 Agent。從快取優先架構到單二進制發行，從子智能體到 ACP 編輯器集成，一文深度解讀其設計哲學與技術細節。",
+        "ja": "Reasonix の包括的分析 —— DeepSeek プレフィックスキャッシュを基盤とするターミナルコーディングエージェント。快取優先アーキテクチャからシングルバイナリ配布、サブエージェントから ACP エディター統合まで、その設計哲学と技術的詳細を深く解説します。"
+      },
+      "date": "2026-07-31",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Reasonix",
+        "DeepSeek",
+        "AI Agent",
+        "终端编码",
+        "前缀缓存",
+        "Coding Agent",
+        "Go",
+        "CLI",
+        "TUI",
+        "MCP",
+        "编码代理"
+      ],
+      "categories": [
+        "深度解析"
+      ],
+      "keywords": [
+        "Reasonix",
+        "DeepSeek",
+        "AI Agent",
+        "终端编码",
+        "前缀缓存",
+        "Coding Agent",
+        "Go",
+        "CLI",
+        "TUI",
+        "MCP",
+        "编码代理",
+        "Prefix Cache"
+      ]
+    },
+    {
       "slug": "trellis2-analysis-report",
       "title": {
         "zh-Hans": "TRELLIS.2 深度解析：微软 4B 参数 3D 生成模型的革命性突破",
