@@ -1,6 +1,50 @@
 {
   "posts": [
     {
+      "slug": "trellis2-analysis-report",
+      "title": {
+        "zh-Hans": "TRELLIS.2 深度解析：微软 4B 参数 3D 生成模型的革命性突破",
+        "en": "TRELLIS.2 Deep Dive: Microsoft's 4B 3D Generation Model Breakthrough",
+        "zh-Hant": "TRELLIS.2 深度解析：微軟 4B 參數 3D 生成模型的革命性突破",
+        "ja": "TRELLIS.2 詳細分析：マイクロソフトの4Bパラメータ3D生成モデルの革命的ブレイクスルー"
+      },
+      "description": {
+        "zh-Hans": "全面分析微软 TRELLIS.2 —— 首个基于原生 3D VAE 和 O-Voxel 稀疏体素表示的 4B 参数图像转 3D 生成模型。从架构设计到使用教程，从核心创新到设计哲学，一文深度解读。",
+        "en": "Comprehensive analysis of Microsoft TRELLIS.2 — the first 4B-parameter image-to-3D generation model based on native 3D VAE and O-Voxel sparse voxel representation. From architecture design to usage tutorial, from core innovations to design philosophy, an in-depth interpretation.",
+        "zh-Hant": "全面分析微軟 TRELLIS.2 —— 首個基於原生 3D VAE 和 O-Voxel 稀疏體素表示的 4B 參數圖像轉 3D 生成模型。從架構設計到使用教程，從核心創新到設計哲學，一文深度解讀。",
+        "ja": "マイクロソフト TRELLIS.2 の包括的分析 —— 原生 3D VAE と O-Voxel 稀疏ボクセル表現に基づく初の 4B パラメータ画像から 3D 生成モデル。アーキテクチャ設計から使用チュートリアル、コアイノベーションから設計哲学まで、深く解説します。"
+      },
+      "date": "2026-07-31",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "TRELLIS.2",
+        "3D生成",
+        "O-Voxel",
+        "图像转3D",
+        "AI生成",
+        "微软",
+        "稀疏体素",
+        "PBR材质",
+        "深度学习",
+        "3D生成模型"
+      ],
+      "categories": [
+        "深度解析"
+      ],
+      "keywords": [
+        "TRELLIS.2",
+        "3D生成",
+        "O-Voxel",
+        "图像转3D",
+        "微软AI",
+        "稀疏体素",
+        "PBR材质",
+        "深度学习",
+        "3D生成模型",
+        "Structured Latents"
+      ]
+    },
+    {
       "slug": "recursive-self-improvement-agents",
       "title": {
         "en": "Recursive Self Improvement for Coding Agents: From One Prompt to SOTA",
