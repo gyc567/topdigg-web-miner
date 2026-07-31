@@ -1,6 +1,51 @@
 {
   "posts": [
     {
+      "slug": "grok43-analysis-report",
+      "title": {
+        "zh-Hans": "Grok 4.3 深度解析：xAI 新一代推理模型的全面评测",
+        "en": "Grok 4.3 Deep Dive: Comprehensive Analysis of xAI's Next-Gen Reasoning Model",
+        "zh-Hant": "Grok 4.3 深度解析：xAI 新一代推理模型的全面評測",
+        "ja": "Grok 4.3 詳細分析：xAI 次世代推論モデルの総合評価"
+      },
+      "description": {
+        "zh-Hans": "全面分析 Grok 4.3 —— xAI 最新推理模型，AA Intelligence Index 得分 53，agentic 性能大幅提升，成本降低 20%。从基准测试到成本分析，从设计哲学到使用教程，一文深度解读。",
+        "en": "Comprehensive analysis of Grok 4.3 — xAI's latest reasoning model with AA Intelligence Index score of 53, significantly improved agentic performance, and 20% cost reduction. From benchmarks to cost analysis, from design philosophy to usage tutorial, an in-depth interpretation.",
+        "zh-Hant": "全面分析 Grok 4.3 —— xAI 最新推理模型，AA Intelligence Index 得分 53，agentic 性能大幅提升，成本降低 20%。從基準測試到成本分析，從設計哲學到使用教程，一文深度解讀。",
+        "ja": "Grok 4.3 の包括的分析 —— xAI 最新の推論モデル、AA Intelligence Index スコア 53、agentic 性能の大幅向上、コスト 20% 削減。ベンチマークからコスト分析、設計哲学から使用チュートリアルまで、深く解説します。"
+      },
+      "date": "2026-07-31",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Grok 4.3",
+        "xAI",
+        "AI模型评测",
+        "Artificial Analysis",
+        "推理模型",
+        "Agent",
+        "GDPval-AA",
+        "基准测试",
+        "成本分析",
+        "编码代理"
+      ],
+      "categories": [
+        "深度解析"
+      ],
+      "keywords": [
+        "Grok 4.3",
+        "xAI",
+        "AI模型",
+        "Artificial Analysis Intelligence Index",
+        "推理模型",
+        "Agent",
+        "GDPval-AA",
+        "基准测试",
+        "成本分析",
+        "编码代理",
+        "GPT-5.5"
+      ]
+    },
+    {
       "slug": "reasonix-analysis-report",
       "title": {
         "zh-Hans": "Reasonix 深度解析：DeepSeek 原生终端编码 Agent 的架构革命",
