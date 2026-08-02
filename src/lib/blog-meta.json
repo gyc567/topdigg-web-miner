@@ -817,6 +817,35 @@
         "SEO",
         "content strategy"
       ]
+    },
+    {
+      "slug": "harness-effect-token-economics",
+      "title": {
+        "en": "The Harness Effect: How Orchestration Design Sets the Token Economics of Enterprise Agentic AI",
+        "ja": "ハーネス効果：オーケストレーション設計が企業エージェントAIのトークン経済学を決定する",
+        "zh-Hans": "Harness效应：编排设计如何决定企业Agentic AI的Token经济学",
+        "zh-Hant": "Harness效應：編排設計如何決定企業Agentic AI的Token經濟學"
+      },
+      "description": {
+        "en": "Deep analysis of arXiv paper 2607.06906 — The Harness Effect. Systematic coverage of Token Maxing, six mechanism families, Harness Leverage, and the design philosophy of enterprise Agent orchestration layers.",
+        "ja": "arXiv論文2607.06906「The Harness Effect」の深層分析。Token Maxing、六つのメカニズムファミリー、Harness Leverage、企業エージェントのオーケストレーション層の設計哲学を体系的に解説。",
+        "zh-Hans": "深度分析 arXiv 论文 2607.06906 —— The Harness Effect。系统梳理 Token Maxing 问题、六大机制族、Harness Leverage 现象，以及企业级 Agent 编排层的设计哲学与经济模型。",
+        "zh-Hant": "深度分析 arXiv 論文 2607.06906 —— The Harness Effect。系統梳理 Token Maxing 問題、六大機制族、Harness Leverage 現象，以及企業級 Agent 編排層的設計哲學與經濟模型。"
+      },
+      "date": "2026-08-02T00:00:00.000Z",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Harness",
+        "Token Economics",
+        "Agentic AI",
+        "Enterprise AI",
+        "Orchestration",
+        "Token Maxing",
+        "Cost Optimization",
+        "Agent Framework",
+        "Writer",
+        "arXiv"
+      ]
     }
   ]
 }
