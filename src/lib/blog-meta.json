@@ -1,48 +1,105 @@
 {
   "posts": [
     {
-      "slug": "grok43-analysis-report",
+      "slug": "deepseek-v4-flash-analysis",
       "title": {
-        "zh-Hans": "Grok 4.3 深度解析：xAI 新一代推理模型的全面评测",
-        "en": "Grok 4.3 Deep Dive: Comprehensive Analysis of xAI's Next-Gen Reasoning Model",
-        "zh-Hant": "Grok 4.3 深度解析：xAI 新一代推理模型的全面評測",
-        "ja": "Grok 4.3 詳細分析：xAI 次世代推論モデルの総合評価"
+        "en": "DeepSeek V4 Flash 0731 Deep Dive: The Reasoning Model Revolution in Cost and Intelligence",
+        "ja": "DeepSeek V4 Flash 0731 詳細解説：コストと知能の革命",
+        "zh-Hans": "DeepSeek V4 Flash 0731 深度解析：推理模型的成本与智能革命",
+        "zh-Hant": "DeepSeek V4 Flash 0731 深度解析：推理模型的成本與智能革命"
       },
       "description": {
-        "zh-Hans": "全面分析 Grok 4.3 —— xAI 最新推理模型，AA Intelligence Index 得分 53，agentic 性能大幅提升，成本降低 20%。从基准测试到成本分析，从设计哲学到使用教程，一文深度解读。",
-        "en": "Comprehensive analysis of Grok 4.3 — xAI's latest reasoning model with AA Intelligence Index score of 53, significantly improved agentic performance, and 20% cost reduction. From benchmarks to cost analysis, from design philosophy to usage tutorial, an in-depth interpretation.",
-        "zh-Hant": "全面分析 Grok 4.3 —— xAI 最新推理模型，AA Intelligence Index 得分 53，agentic 性能大幅提升，成本降低 20%。從基準測試到成本分析，從設計哲學到使用教程，一文深度解讀。",
-        "ja": "Grok 4.3 の包括的分析 —— xAI 最新の推論モデル、AA Intelligence Index スコア 53、agentic 性能の大幅向上、コスト 20% 削減。ベンチマークからコスト分析、設計哲学から使用チュートリアルまで、深く解説します。"
+        "en": "Comprehensive analysis of DeepSeek V4 Flash 0731 — 284B parameter MoE architecture, 1M context window, $0.14/M input token reasoning model.",
+        "ja": "DeepSeek V4 Flash 0731の包括的分析 — 284BパラメータMoEアーキテクチャ、1Mコンテキストウィンドウ、$0.14/M入力トークン推理モデル。",
+        "zh-Hans": "全面分析 DeepSeek V4 Flash 0731 —— 284B 参数 MoE 架构、1M 上下文窗口、$0.14/M 输入 Token 的推理模型。",
+        "zh-Hant": "全面分析 DeepSeek V4 Flash 0731 —— 284B 參數 MoE 架構、1M 上下文窗口、$0.14/M 輸入 Token 的推理模型。"
+      },
+      "date": "2026-08-02T00:00:00.000Z",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "DeepSeek",
+        "V4 Flash",
+        "AI Model",
+        "Reasoning Model",
+        "MoE",
+        "Mixture of Experts",
+        "Open Source",
+        "Cost Analysis",
+        "Intelligence Index",
+        "Token Economics"
+      ]
+    },
+    {
+      "slug": "harness-effect-token-economics",
+      "title": {
+        "en": "The Harness Effect: How Orchestration Design Sets the Token Economics of Enterprise Agentic AI",
+        "ja": "ハーネス効果：オーケストレーション設計が企業エージェントAIのトークン経済学を決定する",
+        "zh-Hans": "Harness效应：编排设计如何决定企业Agentic AI的Token经济学",
+        "zh-Hant": "Harness效應：編排設計如何決定企業Agentic AI的Token經濟學"
+      },
+      "description": {
+        "en": "Deep analysis of arXiv paper 2607.06906 — The Harness Effect. Systematic coverage of Token Maxing, six mechanism families, Harness Leverage, and the design philosophy of enterprise Agent orchestration layers.",
+        "ja": "arXiv論文2607.06906「The Harness Effect」の深層分析。Token Maxing、六つのメカニズムファミリー、Harness Leverage、企業エージェントのオーケストレーション層の設計哲学を体系的に解説。",
+        "zh-Hans": "深度分析 arXiv 论文 2607.06906 —— The Harness Effect。系统梳理 Token Maxing 问题、六大机制族、Harness Leverage 现象，以及企业级 Agent 编排层的设计哲学与经济模型。",
+        "zh-Hant": "深度分析 arXiv 論文 2607.06906 —— The Harness Effect。系統梳理 Token Maxing 問題、六大機制族、Harness Leverage 現象，以及企業級 Agent 編排層的設計哲學與經濟模型。"
+      },
+      "date": "2026-08-02T00:00:00.000Z",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Harness",
+        "Token Economics",
+        "Agentic AI",
+        "Enterprise AI",
+        "Orchestration",
+        "Token Maxing",
+        "Cost Optimization",
+        "Agent Framework",
+        "Writer",
+        "arXiv"
+      ]
+    },
+    {
+      "slug": "trellis2-analysis-report",
+      "title": {
+        "zh-Hans": "TRELLIS.2 深度解析：微软 4B 参数 3D 生成模型的革命性突破",
+        "en": "TRELLIS.2 Deep Dive: Microsoft's 4B 3D Generation Model Breakthrough",
+        "zh-Hant": "TRELLIS.2 深度解析：微軟 4B 參數 3D 生成模型的革命性突破",
+        "ja": "TRELLIS.2 詳細分析：マイクロソフトの4Bパラメータ3D生成モデルの革命的ブレイクスルー"
+      },
+      "description": {
+        "zh-Hans": "全面分析微软 TRELLIS.2 —— 首个基于原生 3D VAE 和 O-Voxel 稀疏体素表示的 4B 参数图像转 3D 生成模型。从架构设计到使用教程，从核心创新到设计哲学，一文深度解读。",
+        "en": "Comprehensive analysis of Microsoft TRELLIS.2 — the first 4B-parameter image-to-3D generation model based on native 3D VAE and O-Voxel sparse voxel representation. From architecture design to usage tutorial, from core innovations to design philosophy, an in-depth interpretation.",
+        "zh-Hant": "全面分析微軟 TRELLIS.2 —— 首個基於原生 3D VAE 和 O-Voxel 稀疏體素表示的 4B 參數圖像轉 3D 生成模型。從架構設計到使用教程，從核心創新到設計哲學，一文深度解讀。",
+        "ja": "マイクロソフト TRELLIS.2 の包括的分析 —— 原生 3D VAE と O-Voxel 稀疏ボクセル表現に基づく初の 4B パラメータ画像から 3D 生成モデル。アーキテクチャ設計から使用チュートリアル、コアイノベーションから設計哲学まで、深く解説します。"
       },
       "date": "2026-07-31",
       "author": "TopDigg Research Team",
       "tags": [
-        "Grok 4.3",
-        "xAI",
-        "AI模型评测",
-        "Artificial Analysis",
-        "推理模型",
-        "Agent",
-        "GDPval-AA",
-        "基准测试",
-        "成本分析",
-        "编码代理"
+        "TRELLIS.2",
+        "3D生成",
+        "O-Voxel",
+        "图像转3D",
+        "AI生成",
+        "微软",
+        "稀疏体素",
+        "PBR材质",
+        "深度学习",
+        "3D生成模型"
       ],
       "categories": [
         "深度解析"
       ],
       "keywords": [
-        "Grok 4.3",
-        "xAI",
-        "AI模型",
-        "Artificial Analysis Intelligence Index",
-        "推理模型",
-        "Agent",
-        "GDPval-AA",
-        "基准测试",
-        "成本分析",
-        "编码代理",
-        "GPT-5.5"
+        "TRELLIS.2",
+        "3D生成",
+        "O-Voxel",
+        "图像转3D",
+        "微软AI",
+        "稀疏体素",
+        "PBR材质",
+        "深度学习",
+        "3D生成模型",
+        "Structured Latents"
       ]
     },
     {
@@ -93,47 +150,48 @@
       ]
     },
     {
-      "slug": "trellis2-analysis-report",
+      "slug": "grok43-analysis-report",
       "title": {
-        "zh-Hans": "TRELLIS.2 深度解析：微软 4B 参数 3D 生成模型的革命性突破",
-        "en": "TRELLIS.2 Deep Dive: Microsoft's 4B 3D Generation Model Breakthrough",
-        "zh-Hant": "TRELLIS.2 深度解析：微軟 4B 參數 3D 生成模型的革命性突破",
-        "ja": "TRELLIS.2 詳細分析：マイクロソフトの4Bパラメータ3D生成モデルの革命的ブレイクスルー"
+        "zh-Hans": "Grok 4.3 深度解析：xAI 新一代推理模型的全面评测",
+        "en": "Grok 4.3 Deep Dive: Comprehensive Analysis of xAI's Next-Gen Reasoning Model",
+        "zh-Hant": "Grok 4.3 深度解析：xAI 新一代推理模型的全面評測",
+        "ja": "Grok 4.3 詳細分析：xAI 次世代推論モデルの総合評価"
       },
       "description": {
-        "zh-Hans": "全面分析微软 TRELLIS.2 —— 首个基于原生 3D VAE 和 O-Voxel 稀疏体素表示的 4B 参数图像转 3D 生成模型。从架构设计到使用教程，从核心创新到设计哲学，一文深度解读。",
-        "en": "Comprehensive analysis of Microsoft TRELLIS.2 — the first 4B-parameter image-to-3D generation model based on native 3D VAE and O-Voxel sparse voxel representation. From architecture design to usage tutorial, from core innovations to design philosophy, an in-depth interpretation.",
-        "zh-Hant": "全面分析微軟 TRELLIS.2 —— 首個基於原生 3D VAE 和 O-Voxel 稀疏體素表示的 4B 參數圖像轉 3D 生成模型。從架構設計到使用教程，從核心創新到設計哲學，一文深度解讀。",
-        "ja": "マイクロソフト TRELLIS.2 の包括的分析 —— 原生 3D VAE と O-Voxel 稀疏ボクセル表現に基づく初の 4B パラメータ画像から 3D 生成モデル。アーキテクチャ設計から使用チュートリアル、コアイノベーションから設計哲学まで、深く解説します。"
+        "zh-Hans": "全面分析 Grok 4.3 —— xAI 最新推理模型，AA Intelligence Index 得分 53，agentic 性能大幅提升，成本降低 20%。从基准测试到成本分析，从设计哲学到使用教程，一文深度解读。",
+        "en": "Comprehensive analysis of Grok 4.3 — xAI's latest reasoning model with AA Intelligence Index score of 53, significantly improved agentic performance, and 20% cost reduction. From benchmarks to cost analysis, from design philosophy to usage tutorial, an in-depth interpretation.",
+        "zh-Hant": "全面分析 Grok 4.3 —— xAI 最新推理模型，AA Intelligence Index 得分 53，agentic 性能大幅提升，成本降低 20%。從基準測試到成本分析，從設計哲學到使用教程，一文深度解讀。",
+        "ja": "Grok 4.3 の包括的分析 —— xAI 最新の推論モデル、AA Intelligence Index スコア 53、agentic 性能の大幅向上、コスト 20% 削減。ベンチマークからコスト分析、設計哲学から使用チュートリアルまで、深く解説します。"
       },
       "date": "2026-07-31",
       "author": "TopDigg Research Team",
       "tags": [
-        "TRELLIS.2",
-        "3D生成",
-        "O-Voxel",
-        "图像转3D",
-        "AI生成",
-        "微软",
-        "稀疏体素",
-        "PBR材质",
-        "深度学习",
-        "3D生成模型"
+        "Grok 4.3",
+        "xAI",
+        "AI模型评测",
+        "Artificial Analysis",
+        "推理模型",
+        "Agent",
+        "GDPval-AA",
+        "基准测试",
+        "成本分析",
+        "编码代理"
       ],
       "categories": [
         "深度解析"
       ],
       "keywords": [
-        "TRELLIS.2",
-        "3D生成",
-        "O-Voxel",
-        "图像转3D",
-        "微软AI",
-        "稀疏体素",
-        "PBR材质",
-        "深度学习",
-        "3D生成模型",
-        "Structured Latents"
+        "Grok 4.3",
+        "xAI",
+        "AI模型",
+        "Artificial Analysis Intelligence Index",
+        "推理模型",
+        "Agent",
+        "GDPval-AA",
+        "基准测试",
+        "成本分析",
+        "编码代理",
+        "GPT-5.5"
       ]
     },
     {
@@ -157,32 +215,6 @@
         "Self-Optimization",
         "SOTA",
         "Hill Climbing"
-      ]
-    },
-    {
-      "slug": "buzz-analysis-report-2026-07-29",
-      "title": {
-        "en": "Buzz Deep Dive: Block's Human-Agent Co-working Workspace Platform",
-        "zh-Hans": "Buzz 深度解析：Block 打造的\"人机共处\"工作空间平台",
-        "zh-Hant": "Buzz 深度解析：Block 打造的「人机共用」工作空間平台",
-        "ja": "Buzz 詳細解析：Block 人とAIエージェントが共に働くワークスペースプラットフォーム"
-      },
-      "description": {
-        "en": "Comprehensive analysis of Buzz — Block's self-hostable workspace platform built on Nostr. Deep dive into unified event log architecture, workflow automation, agent-native design, and the relay-as-workspace paradigm.",
-        "zh-Hans": "全面解析 Buzz — Block 推出的自托管 Nostr 工作空间平台。深入探讨统一事件日志架构、工作流自动化、Agent 原生设计及中继即工作空间的范式革新。",
-        "zh-Hant": "全面解析 Buzz — Block 推出的自托管 Nostr 工作空間平台。深入探討統一事件日誌架構、工作流自動化、Agent 原生設計及中继即工作空間的範式革新。",
-        "ja": "Block の自ホスト型 Nostr ワークスペースプラットフォーム Buzz の包括的分析。統一イベントログアーキテクチャ、ワークフロー自動化、エージェントネイティブ設計、リレー即ワークスペースパラダイムの深掘り。"
-      },
-      "date": "2026-07-29T00:00:00.000Z",
-      "author": "TopDigg Research Team",
-      "tags": [
-        "Buzz",
-        "Block",
-        "Nostr",
-        "工作空间",
-        "AI Agent",
-        "自托管",
-        "事件驱动"
       ]
     },
     {
@@ -212,6 +244,32 @@
         "BYOK",
         "HyperFrames",
         "MCP"
+      ]
+    },
+    {
+      "slug": "buzz-analysis-report-2026-07-29",
+      "title": {
+        "en": "Buzz Deep Dive: Block's Human-Agent Co-working Workspace Platform",
+        "zh-Hans": "Buzz 深度解析：Block 打造的\"人机共处\"工作空间平台",
+        "zh-Hant": "Buzz 深度解析：Block 打造的「人机共用」工作空間平台",
+        "ja": "Buzz 詳細解析：Block 人とAIエージェントが共に働くワークスペースプラットフォーム"
+      },
+      "description": {
+        "en": "Comprehensive analysis of Buzz — Block's self-hostable workspace platform built on Nostr. Deep dive into unified event log architecture, workflow automation, agent-native design, and the relay-as-workspace paradigm.",
+        "zh-Hans": "全面解析 Buzz — Block 推出的自托管 Nostr 工作空间平台。深入探讨统一事件日志架构、工作流自动化、Agent 原生设计及中继即工作空间的范式革新。",
+        "zh-Hant": "全面解析 Buzz — Block 推出的自托管 Nostr 工作空間平台。深入探討統一事件日誌架構、工作流自動化、Agent 原生設計及中继即工作空間的範式革新。",
+        "ja": "Block の自ホスト型 Nostr ワークスペースプラットフォーム Buzz の包括的分析。統一イベントログアーキテクチャ、ワークフロー自動化、エージェントネイティブ設計、リレー即ワークスペースパラダイムの深掘り。"
+      },
+      "date": "2026-07-29T00:00:00.000Z",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Buzz",
+        "Block",
+        "Nostr",
+        "工作空间",
+        "AI Agent",
+        "自托管",
+        "事件驱动"
       ]
     },
     {
@@ -391,27 +449,6 @@
       ]
     },
     {
-      "slug": "chub-ai-analysis-report-2025-08-24",
-      "title": {
-        "zh-Hans": "Chub.ai平台深度评测：2025年AI角色聊天领域专业平台全面分析报告"
-      },
-      "description": {
-        "zh-Hans": "Chub.ai AI角色聊天平台完整评测，包含AI角色定制、无审查对话、多API支持、分支对话系统、技术架构、商业模式和市场表现分析。专业的AI角色创建平台，为用户提供高度自定义的AI对话体验的详细解析。"
-      },
-      "date": "2025-08-24",
-      "author": "ERIC",
-      "tags": [
-        "AI聊天",
-        "角色定制",
-        "Chub.ai",
-        "AI角色",
-        "聊天机器人",
-        "角色AI",
-        "无审查",
-        "AI平台"
-      ]
-    },
-    {
       "slug": "prolific-analysis-report-2025-08-24",
       "title": {
         "zh-Hans": "Prolific AI数据收集平台深度分析报告：2025年高质量人类数据服务领导者完整评测"
@@ -433,24 +470,24 @@
       ]
     },
     {
-      "slug": "crushon-ai-analysis-report-2025-08-23",
+      "slug": "chub-ai-analysis-report-2025-08-24",
       "title": {
-        "zh-Hans": "CrushOn.AI平台深度评测：2025年AI虚拟角色聊天领域头部产品全面分析报告"
+        "zh-Hans": "Chub.ai平台深度评测：2025年AI角色聊天领域专业平台全面分析报告"
       },
       "description": {
-        "zh-Hans": "CrushOn.AI虚拟角色聊天平台完整评测，包含AI聊天功能、角色定制、社区互动、技术架构、商业模式和市场表现分析。专业的AI陪伴产品，为用户提供无限制虚拟角色交流体验的详细解析。"
+        "zh-Hans": "Chub.ai AI角色聊天平台完整评测，包含AI角色定制、无审查对话、多API支持、分支对话系统、技术架构、商业模式和市场表现分析。专业的AI角色创建平台，为用户提供高度自定义的AI对话体验的详细解析。"
       },
-      "date": "2025-08-23",
+      "date": "2025-08-24",
       "author": "ERIC",
       "tags": [
         "AI聊天",
-        "虚拟角色",
-        "CrushOn",
-        "AI陪伴",
+        "角色定制",
+        "Chub.ai",
+        "AI角色",
         "聊天机器人",
         "角色AI",
-        "情感陪伴",
-        "AI娱乐"
+        "无审查",
+        "AI平台"
       ]
     },
     {
@@ -475,6 +512,27 @@
       ]
     },
     {
+      "slug": "crushon-ai-analysis-report-2025-08-23",
+      "title": {
+        "zh-Hans": "CrushOn.AI平台深度评测：2025年AI虚拟角色聊天领域头部产品全面分析报告"
+      },
+      "description": {
+        "zh-Hans": "CrushOn.AI虚拟角色聊天平台完整评测，包含AI聊天功能、角色定制、社区互动、技术架构、商业模式和市场表现分析。专业的AI陪伴产品，为用户提供无限制虚拟角色交流体验的详细解析。"
+      },
+      "date": "2025-08-23",
+      "author": "ERIC",
+      "tags": [
+        "AI聊天",
+        "虚拟角色",
+        "CrushOn",
+        "AI陪伴",
+        "聊天机器人",
+        "角色AI",
+        "情感陪伴",
+        "AI娱乐"
+      ]
+    },
+    {
       "slug": "beacons-ai-analysis-report-2025-08-22",
       "title": {
         "zh-Hans": "Beacons.ai 创作者全能商业平台深度评测：2025年创作者经济必备工具全面分析报告"
@@ -493,27 +551,6 @@
         "邮件营销",
         "创作者商店",
         "社交媒体"
-      ]
-    },
-    {
-      "slug": "framer-analysis-report-2025-08-21",
-      "title": {
-        "zh-Hans": "Framer.com 无代码网站设计平台深度评测：2025年设计师首选建站工具全面分析报告"
-      },
-      "description": {
-        "zh-Hans": "Framer.com 无代码网站设计平台完整评测，包含Figma集成、AI功能、定价策略、竞品对比和市场分析。专业的设计师建站工具，$62.6M融资背景下的行业新星详细解析。"
-      },
-      "date": "2025-08-21",
-      "author": "ERIC",
-      "tags": [
-        "无代码工具",
-        "网站建设",
-        "Framer",
-        "设计工具",
-        "AI建站",
-        "Figma集成",
-        "网页设计",
-        "创业工具"
       ]
     },
     {
@@ -538,24 +575,45 @@
       ]
     },
     {
-      "slug": "fandom-analysis-report-2025-08-20",
+      "slug": "framer-analysis-report-2025-08-21",
       "title": {
-        "zh-Hans": "Fandom.com深度分析报告：全球最大粉丝社区平台的商业模式与发展策略完整解析"
+        "zh-Hans": "Framer.com 无代码网站设计平台深度评测：2025年设计师首选建站工具全面分析报告"
       },
       "description": {
-        "zh-Hans": "Fandom.com完整评测分析，涵盖其wiki平台商业模式、用户增长策略、技术架构、市场竞争地位和未来发展机会。深入解析这个月访问量超3亿的全球最大粉丝知识库平台。"
+        "zh-Hans": "Framer.com 无代码网站设计平台完整评测，包含Figma集成、AI功能、定价策略、竞品对比和市场分析。专业的设计师建站工具，$62.6M融资背景下的行业新星详细解析。"
+      },
+      "date": "2025-08-21",
+      "author": "ERIC",
+      "tags": [
+        "无代码工具",
+        "网站建设",
+        "Framer",
+        "设计工具",
+        "AI建站",
+        "Figma集成",
+        "网页设计",
+        "创业工具"
+      ]
+    },
+    {
+      "slug": "transkriptor-analysis-report-2025-08-20",
+      "title": {
+        "zh-Hans": "Transkriptor AI转录服务深度评测：2025年最全面的智能语音转文字工具分析报告"
+      },
+      "description": {
+        "zh-Hans": "Transkriptor AI转录服务完整评测，包含功能详解、定价分析、竞品对比和使用指南。专业的AI驱动语音转文字平台，支持100+语言，99%准确率，适合商务会议、教育培训和内容创作。"
       },
       "date": "2025-08-20",
       "author": "ERIC",
       "tags": [
-        "Fandom",
-        "粉丝社区",
-        "Wiki平台",
-        "用户生成内容",
-        "娱乐科技",
-        "社区运营",
-        "内容平台",
-        "广告变现"
+        "AI工具",
+        "语音转录",
+        "会议记录",
+        "Transkriptor",
+        "语音识别",
+        "文字转换",
+        "商务工具",
+        "AI转录"
       ]
     },
     {
@@ -580,24 +638,24 @@
       ]
     },
     {
-      "slug": "transkriptor-analysis-report-2025-08-20",
+      "slug": "fandom-analysis-report-2025-08-20",
       "title": {
-        "zh-Hans": "Transkriptor AI转录服务深度评测：2025年最全面的智能语音转文字工具分析报告"
+        "zh-Hans": "Fandom.com深度分析报告：全球最大粉丝社区平台的商业模式与发展策略完整解析"
       },
       "description": {
-        "zh-Hans": "Transkriptor AI转录服务完整评测，包含功能详解、定价分析、竞品对比和使用指南。专业的AI驱动语音转文字平台，支持100+语言，99%准确率，适合商务会议、教育培训和内容创作。"
+        "zh-Hans": "Fandom.com完整评测分析，涵盖其wiki平台商业模式、用户增长策略、技术架构、市场竞争地位和未来发展机会。深入解析这个月访问量超3亿的全球最大粉丝知识库平台。"
       },
       "date": "2025-08-20",
       "author": "ERIC",
       "tags": [
-        "AI工具",
-        "语音转录",
-        "会议记录",
-        "Transkriptor",
-        "语音识别",
-        "文字转换",
-        "商务工具",
-        "AI转录"
+        "Fandom",
+        "粉丝社区",
+        "Wiki平台",
+        "用户生成内容",
+        "娱乐科技",
+        "社区运营",
+        "内容平台",
+        "广告变现"
       ]
     },
     {
@@ -623,6 +681,24 @@
       ]
     },
     {
+      "slug": "shortcut-ai-analysis-report-2025-08-18",
+      "title": {
+        "zh-Hans": "Shortcut AI深度分析报告：2025年AI Excel智能助手全面解析与市场机会探索"
+      },
+      "description": {
+        "zh-Hans": "Shortcut AI平台深度调研报告，包含功能分析、目标用户群体、SEO策略、市场定位、优劣势分析和行业机会挖掘。"
+      },
+      "date": "2025-08-18",
+      "author": "ERIC",
+      "tags": [
+        "AI Excel助手",
+        "人工智能工具",
+        "Shortcut AI",
+        "电子表格自动化",
+        "AI办公工具"
+      ]
+    },
+    {
       "slug": "3dlogolab-analysis-report-2025-08-18",
       "title": {
         "zh-Hans": "3DLogoLab深度分析报告：2025年最专业的2D转3D Logo动画生成器全面解析"
@@ -642,21 +718,21 @@
       ]
     },
     {
-      "slug": "shortcut-ai-analysis-report-2025-08-18",
+      "slug": "hitem3d-analysis-report-2025-08-17",
       "title": {
-        "zh-Hans": "Shortcut AI深度分析报告：2025年AI Excel智能助手全面解析与市场机会探索"
+        "zh-Hans": "Hitem3D深度分析报告：2025年AI 3D模型生成平台全面解析与市场机会探索"
       },
       "description": {
-        "zh-Hans": "Shortcut AI平台深度调研报告，包含功能分析、目标用户群体、SEO策略、市场定位、优劣势分析和行业机会挖掘。"
+        "zh-Hans": "Hitem3D平台深度调研报告，包含功能分析、目标用户群体、SEO策略、市场定位、优劣势分析和行业机会挖掘。"
       },
-      "date": "2025-08-18",
+      "date": "2025-08-17",
       "author": "ERIC",
       "tags": [
-        "AI Excel助手",
+        "AI 3D建模",
         "人工智能工具",
-        "Shortcut AI",
-        "电子表格自动化",
-        "AI办公工具"
+        "Hitem3D",
+        "3D模型生成器",
+        "AI工具"
       ]
     },
     {
@@ -678,24 +754,6 @@
         "艺术治疗",
         "在线工具",
         "免费AI"
-      ]
-    },
-    {
-      "slug": "hitem3d-analysis-report-2025-08-17",
-      "title": {
-        "zh-Hans": "Hitem3D深度分析报告：2025年AI 3D模型生成平台全面解析与市场机会探索"
-      },
-      "description": {
-        "zh-Hans": "Hitem3D平台深度调研报告，包含功能分析、目标用户群体、SEO策略、市场定位、优劣势分析和行业机会挖掘。"
-      },
-      "date": "2025-08-17",
-      "author": "ERIC",
-      "tags": [
-        "AI 3D建模",
-        "人工智能工具",
-        "Hitem3D",
-        "3D模型生成器",
-        "AI工具"
       ]
     },
     {
@@ -816,64 +874,6 @@
       "tags": [
         "SEO",
         "content strategy"
-      ]
-    },
-    {
-      "slug": "harness-effect-token-economics",
-      "title": {
-        "en": "The Harness Effect: How Orchestration Design Sets the Token Economics of Enterprise Agentic AI",
-        "ja": "ハーネス効果：オーケストレーション設計が企業エージェントAIのトークン経済学を決定する",
-        "zh-Hans": "Harness效应：编排设计如何决定企业Agentic AI的Token经济学",
-        "zh-Hant": "Harness效應：編排設計如何決定企業Agentic AI的Token經濟學"
-      },
-      "description": {
-        "en": "Deep analysis of arXiv paper 2607.06906 — The Harness Effect. Systematic coverage of Token Maxing, six mechanism families, Harness Leverage, and the design philosophy of enterprise Agent orchestration layers.",
-        "ja": "arXiv論文2607.06906「The Harness Effect」の深層分析。Token Maxing、六つのメカニズムファミリー、Harness Leverage、企業エージェントのオーケストレーション層の設計哲学を体系的に解説。",
-        "zh-Hans": "深度分析 arXiv 论文 2607.06906 —— The Harness Effect。系统梳理 Token Maxing 问题、六大机制族、Harness Leverage 现象，以及企业级 Agent 编排层的设计哲学与经济模型。",
-        "zh-Hant": "深度分析 arXiv 論文 2607.06906 —— The Harness Effect。系統梳理 Token Maxing 問題、六大機制族、Harness Leverage 現象，以及企業級 Agent 編排層的設計哲學與經濟模型。"
-      },
-      "date": "2026-08-02T00:00:00.000Z",
-      "author": "TopDigg Research Team",
-      "tags": [
-        "Harness",
-        "Token Economics",
-        "Agentic AI",
-        "Enterprise AI",
-        "Orchestration",
-        "Token Maxing",
-        "Cost Optimization",
-        "Agent Framework",
-        "Writer",
-        "arXiv"
-      ]
-    },
-    {
-      "slug": "deepseek-v4-flash-analysis",
-      "title": {
-        "en": "DeepSeek V4 Flash 0731 Deep Dive: The Reasoning Model Revolution in Cost and Intelligence",
-        "ja": "DeepSeek V4 Flash 0731 詳細解説：コストと知能の革命",
-        "zh-Hans": "DeepSeek V4 Flash 0731 深度解析：推理模型的成本与智能革命",
-        "zh-Hant": "DeepSeek V4 Flash 0731 深度解析：推理模型的成本與智能革命"
-      },
-      "description": {
-        "en": "Comprehensive analysis of DeepSeek V4 Flash 0731 — 284B parameter MoE architecture, 1M context window, $0.14/M input token reasoning model.",
-        "ja": "DeepSeek V4 Flash 0731の包括的分析 — 284BパラメータMoEアーキテクチャ、1Mコンテキストウィンドウ、$0.14/M入力トークン推理モデル。",
-        "zh-Hans": "全面分析 DeepSeek V4 Flash 0731 —— 284B 参数 MoE 架构、1M 上下文窗口、$0.14/M 输入 Token 的推理模型。",
-        "zh-Hant": "全面分析 DeepSeek V4 Flash 0731 —— 284B 參數 MoE 架構、1M 上下文窗口、$0.14/M 輸入 Token 的推理模型。"
-      },
-      "date": "2026-08-02T00:00:00.000Z",
-      "author": "TopDigg Research Team",
-      "tags": [
-        "DeepSeek",
-        "V4 Flash",
-        "AI Model",
-        "Reasoning Model",
-        "MoE",
-        "Mixture of Experts",
-        "Open Source",
-        "Cost Analysis",
-        "Intelligence Index",
-        "Token Economics"
       ]
     }
   ]
