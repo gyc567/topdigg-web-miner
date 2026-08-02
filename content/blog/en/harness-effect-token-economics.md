@@ -1,6 +1,6 @@
 ---
 title: "The Harness Effect: How Orchestration Design Sets the Token Economics of Enterprise Agentic AI"
-description: "Deep analysis of arXiv paper 2607.06906 — The Harness Effect. Systematically covering Token Maxing, six mechanism families, Harness Leverage, and the design philosophy of enterprise Agent orchestration layers."
+description: "Deep analysis of arXiv paper 2607.06906 — The Harness Effect. Systematic coverage of Token Maxing, six mechanism families, Harness Leverage, and the design philosophy of enterprise Agent orchestration layers."
 date: "2026-08-02"
 author: "TopDigg Research Team"
 tags: ["Harness", "Token Economics", "Agentic AI", "Enterprise AI", "Orchestration", "Token Maxing", "Cost Optimization", "Agent Framework", "Writer", "arXiv"]

@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-02T00:48:22.377Z
+Generated: 2026-08-02T02:10:28.200Z
 
 ## Site Overview
 
@@ -26,6 +26,12 @@ URL: https://topdigg.com/blog/harness-effect-token-economics | Date: 2026-08-02T
 Tags: Harness, Token Economics, Agentic AI, Enterprise AI, Orchestration, Token Maxing, Cost Optimization, Agent Framework, Writer, arXiv
 
 Deep analysis of arXiv paper 2607.06906 — The Harness Effect. Systematic coverage of Token Maxing, six mechanism families, Harness Leverage, and the design philosophy of enterprise Agent orchestration layers.
+
+### DeepSeek V4 Flash 0731 Deep Dive: The Reasoning Model Revolution in Cost and Intelligence
+URL: https://topdigg.com/blog/deepseek-v4-flash-analysis | Date: 2026-08-02T00:00:00.000Z | Author: TopDigg Research Team
+Tags: DeepSeek, V4 Flash, AI Model, Reasoning Model, MoE, Mixture of Experts, Open Source, Cost Analysis, Intelligence Index, Token Economics
+
+Comprehensive analysis of DeepSeek V4 Flash 0731 — 284B parameter MoE architecture, 1M context window, $0.14/M input token reasoning model.
 
 ### Grok 4.3 Deep Dive: Comprehensive Analysis of xAI's Next-Gen Reasoning Model
 URL: https://topdigg.com/blog/grok43-analysis-report | Date: 2026-07-31 | Author: TopDigg Research Team
@@ -75,12 +81,6 @@ Tags: 人工智能, 大型语言模型, 模型蒸馏, Qwen3-4B, 克劳德幻境5
 
 深度解析@waterloo_intern团队利用2.3M克劳德幻境5推理轨迹蒸馏Qwen3-4B，实现100%自一致性、零觅语变异的突破性成果。以下全面分析技术细节、业务影响和长远意义。
 
-### CryptoPulse Daily Report - May 12, 2026
-URL: https://topdigg.com/blog/cryptopulse-daily-report-2026-05-12 | Date: 2026-05-12 | Author: CryptoPulse
-Tags: CryptoPulse, BTC, ETH, DeFi, Market Analysis, Bitcoin Cycle, Cryptocurrency
-
-CryptoPulse cryptocurrency market daily report with BTC cycle analysis, on-chain metrics, DeFi market data, and latest news.
-
 ## Twitter Analysis Reports
 
 ###  (@)
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 35 blog posts | 4 Twitter analyses
+End of llms.txt | 36 blog posts | 4 Twitter analyses
