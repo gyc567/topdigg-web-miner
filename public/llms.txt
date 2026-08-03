@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-03T12:49:45.620Z
+Generated: 2026-08-03T13:37:04.782Z
 
 ## Site Overview
 
@@ -20,6 +20,12 @@ We cover trending topics and business opportunities across Reddit, YouTube, and 
 | External Links | https://topdigg.com/external-links | Curated external resources |
 
 ## Latest Blog Posts (10 most recent)
+
+### Kimi K3 × AMD MI355X Deep Dive: Is Memory the Moat?
+URL: https://topdigg.com/blog/kimi-k3-mi355x-analysis | Date: 2026-08-03T00:00:00.000Z | Author: TopDigg Research Team
+Tags: Kimi K3, AMD, MI355X, Moonshot, GPU Inference, MoE, Speculative Decoding, ROCm, Wafer AI, Open Source Model, Performance per Dollar
+
+A comprehensive analysis of Wafer AI’s engineering blog on serving the 2.8T open-source model Kimi K3 on AMD MI355X at 952 tok/s/node. From the core “memory is the moat” thesis, to speculative decoding and AITER prefill optimization, to the MI355X crushing B200 with 48 tok/s/$, this article explains
 
 ### AREX Deep Dive: BAAI's Open-Source Recursively Self-Improving Deep Research Agent
 URL: https://topdigg.com/blog/arex-analysis | Date: 2026-08-03T00:00:00.000Z | Author: TopDigg Research Team
@@ -75,12 +81,6 @@ Tags: Recursive Self-Improvement, Coding Agents, Cline, Terminal-Bench, AI Agent
 
 A deep analysis of how the Cline team achieved an 88.8% SOTA score on Terminal-Bench 2.1 using recursive self-improvement, costing only $49.8 — less than a tenth of competing approaches.
 
-### Open Design Deep Dive: The Open-Source Claude Design Alternative Reshaping the Future of Design
-URL: https://topdigg.com/blog/open-design-analysis-report-2026-07-29 | Date: 2026-07-29 | Author: TopDigg Research Team
-Tags: Open Design, Claude Design, 开源, AI设计, 本地优先, Agent原生, 设计系统, BYOK, HyperFrames, MCP
-
-Comprehensive analysis of Open Design — the open-source, local-first Claude Design alternative. Deep dive into its design philosophy, architecture, 25+ CLI support, 151 design systems, and why it matters for the agent era.
-
 ## Twitter Analysis Reports
 
 ###  (@)
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 39 blog posts | 4 Twitter analyses
+End of llms.txt | 40 blog posts | 4 Twitter analyses

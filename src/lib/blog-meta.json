@@ -1,6 +1,36 @@
 {
   "posts": [
     {
+      "slug": "kimi-k3-mi355x-analysis",
+      "title": {
+        "en": "Kimi K3 × AMD MI355X Deep Dive: Is Memory the Moat?",
+        "ja": "Kimi K3 × AMD MI355X 徹底解説：メモリは堀（モート）なのか？",
+        "zh-Hans": "Kimi K3 × AMD MI355X 深度解析：内存是护城河吗？",
+        "zh-Hant": "Kimi K3 × AMD MI355X 深度解析：記憶體是護城河嗎？"
+      },
+      "description": {
+        "en": "A comprehensive analysis of Wafer AI’s engineering blog on serving the 2.8T open-source model Kimi K3 on AMD MI355X at 952 tok/s/node. From the core “memory is the moat” thesis, to speculative decoding and AITER prefill optimization, to the MI355X crushing B200 with 48 tok/s/$, this article explains why memory capacity gave AMD a measurable edge over NVIDIA at the 2.8T model scale.",
+        "ja": "Wafer AI が AMD MI355X 上で 2.8T パラメータのオープンソースモデル Kimi K3 を 952 tok/s/ノード で稼働させた第一級のエンジニアリング記録を徹底分析。核となる論点「メモリは堀なのか」から、投機的デコードと AITER Prefill 最適化、そして MI355X が 48 tok/s/$ で B200 を完全に打ち負かす性能対価格比までを解き明かす。",
+        "zh-Hans": "全面分析 Wafer AI 在 AMD MI355X 上以 952 tok/s/节点 服务 2.8T 开源模型 Kimi K3 的一手工程记录。从「内存是护城河」的核心论点出发，到投机解码与 AITER Prefill 优化、再到 MI355X 以 48 tok/s/$ 全面碾压 B200 的性能价格比，一文讲透为什么内存容量在 2.8T 模型体量上首次转化为对英伟达的可量化优势。",
+        "zh-Hant": "全面分析 Wafer AI 在 AMD MI355X 上以 952 tok/s/節點 服務 2.8T 開源模型 Kimi K3 的第一手工程紀錄。從「記憶體是護城河」的核心論點出發，到投機解碼與 AITER Prefill 優化、再到 MI355X 以 48 tok/s/$ 全面碾壓 B200 的效能價格比，一文講透為什麼記憶體容量在 2.8T 模型體量上首次轉化為對 NVIDIA 的可量化優勢。"
+      },
+      "date": "2026-08-03T00:00:00.000Z",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Kimi K3",
+        "AMD",
+        "MI355X",
+        "Moonshot",
+        "GPU Inference",
+        "MoE",
+        "Speculative Decoding",
+        "ROCm",
+        "Wafer AI",
+        "Open Source Model",
+        "Performance per Dollar"
+      ]
+    },
+    {
       "slug": "arex-analysis",
       "title": {
         "en": "AREX Deep Dive: BAAI's Open-Source Recursively Self-Improving Deep Research Agent",
