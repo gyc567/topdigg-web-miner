@@ -1,6 +1,63 @@
 {
   "posts": [
     {
+      "slug": "arex-analysis",
+      "title": {
+        "en": "AREX Deep Dive: BAAI's Open-Source Recursively Self-Improving Deep Research Agent",
+        "ja": "AREX 徹底解説：BAAIが公開した再帰的自己改善型ディープリサーチエージェント",
+        "zh-Hans": "AREX 深度解析：BAAI 开源的可递归自我改进深度研究 Agent",
+        "zh-Hant": "AREX 深度解析：BAAI 開源的可遞迴自我改進深度研究 Agent"
+      },
+      "description": {
+        "en": "A comprehensive analysis of BAAI's open-source AREX — a recursively self-improving deep research agent. From the core 'discovery-verification asymmetry' insight in arXiv 2607.21461 to the dual-loop framework, from AREX-Turbo / AREX-Base models to a complete usage tutorial.",
+        "ja": "BAAI（北京智源人工知能研究院）が公開したAREXを包括的に分析 —— 再帰的自己改善型ディープリサーチエージェント。arXiv 2607.21461の核となる考え方から二重ループフレームワーク、モデルから完全な使用チュートリアルまで。",
+        "zh-Hans": "全面分析 BAAI（北京智源人工智能研究院）开源的 AREX —— 一个可递归自我改进的深度研究 Agent。从 arXiv 2607.21461 论文核心思想到双循环框架，从模型到完整使用教程。",
+        "zh-Hant": "全面分析 BAAI（北京智源人工智慧研究院）開源的 AREX —— 一個可遞迴自我改進的深度研究 Agent。從論文核心思想到雙迴圈框架，從模型到完整使用教學。"
+      },
+      "date": "2026-08-03T00:00:00.000Z",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "AREX",
+        "BAAI",
+        "Deep Research",
+        "Agent",
+        "Recursive Self-Improvement",
+        "arXiv",
+        "Open Source Model",
+        "MoE",
+        "Qwen3.5"
+      ]
+    },
+    {
+      "slug": "loopx-analysis",
+      "title": {
+        "en": "LoopX Deep Dive: Turning Capable Agents into Manageable, Reviewable, Continuously Improvable Digital Workers",
+        "ja": "LoopX 徹底解説：働けるAgentを、管理可能・振り返り可能・継続改善可能なデジタル従業員につなぐ",
+        "zh-Hans": "LoopX 深度解析：把会干活的 Agent，接成可管理、可复盘、可持续改进的数字员工",
+        "zh-Hant": "LoopX 深度解析：把會幹活的 Agent，接成可管理、可複盤、可持續改進的數位員工"
+      },
+      "description": {
+        "en": "A comprehensive analysis of the open-source LoopX project — a lightweight loop-engineering state kernel and agent-agnostic local control plane for long-running AI agent teams. From installation to CLI usage, from the seven-layer architecture to design philosophy.",
+        "ja": "オープンソースプロジェクト LoopX を包括的に分析 —— 長期実行AIエージェントチーム向けの軽量なループエンジニアリング状態カーネル＆エージェント非依存のローカルコントロールプレーン。",
+        "zh-Hans": "全面分析开源项目 LoopX —— 一个面向长期运行 AI Agent 团队的轻量级「循环工程」状态内核与本地控制平面。从安装教程到 CLI 用法，从七层架构到设计哲学。",
+        "zh-Hant": "全面分析開源專案 LoopX —— 一個面向長期運行 AI Agent 團隊的輕量級「循環工程」狀態內核與本地控制平面。從安裝教學到 CLI 用法，從七層架構到設計哲學。"
+      },
+      "date": "2026-08-03T00:00:00.000Z",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "LoopX",
+        "Agent",
+        "AI Agent",
+        "Loop Engineering",
+        "Control Plane",
+        "State Kernel",
+        "Long-running Agents",
+        "Open Source",
+        "Codex",
+        "Claude Code"
+      ]
+    },
+    {
       "slug": "airllm-analysis",
       "title": {
         "en": "AirLLM Deep Dive: The Layer-Wise Inference Revolution That Runs 70B LLMs on a 4GB GPU",
