@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-03T15:57:08.299Z
+Generated: 2026-08-03T16:14:09.520Z
 
 ## Site Overview
 
@@ -20,6 +20,12 @@ We cover trending topics and business opportunities across Reddit, YouTube, and 
 | External Links | https://topdigg.com/external-links | Curated external resources |
 
 ## Latest Blog Posts (10 most recent)
+
+### shiki-stream Deep Dive: Let LLM-Generated Code Highlight in Real Time, Like a Typewriter
+URL: https://topdigg.com/blog/shiki-stream-analysis | Date: 2026-08-03T00:00:00.000Z | Author: undefined
+Tags: shiki-stream, Shiki, Syntax Highlighting, Streaming, LLM, Web Streams API, antfu, Vue, React, Solid, TypeScript, CodeToTokenTransformStream
+
+A complete analysis of shiki-stream: a Web Streams API-based streaming syntax-highlighting library built for LLM streaming code output — core idea, CodeToTokenTransformStream, recall tokens, and framework renderers.
 
 ### AgentRecall-X Deep Dive: An Agent That Learns From Corrections — and the Honest-Measurement Revolution
 URL: https://topdigg.com/blog/agent-recall-x-analysis | Date: 2026-08-03T00:00:00.000Z | Author: TopDigg Research Team
@@ -75,12 +81,6 @@ Tags: TRELLIS.2, 3D生成, O-Voxel, 图像转3D, AI生成, 微软, 稀疏体素,
 
 Comprehensive analysis of Microsoft TRELLIS.2 — the first 4B-parameter image-to-3D generation model based on native 3D VAE and O-Voxel sparse voxel representation. From architecture design to usage tutorial, from core innovations to design philosophy, an in-depth interpretation.
 
-### Reasonix Deep Dive: The Architecture Revolution of DeepSeek-Native Terminal Coding Agent
-URL: https://topdigg.com/blog/reasonix-analysis-report | Date: 2026-07-31 | Author: TopDigg Research Team
-Tags: Reasonix, DeepSeek, AI Agent, 终端编码, 前缀缓存, Coding Agent, Go, CLI, TUI, MCP, 编码代理
-
-Comprehensive analysis of Reasonix — a terminal coding agent built around DeepSeek prefix cache. From cache-first architecture to single-binary distribution, from subagents to ACP editor integration, an in-depth interpretation of its design philosophy and technical details.
-
 ## Twitter Analysis Reports
 
 ###  (@)
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 42 blog posts | 4 Twitter analyses
+End of llms.txt | 43 blog posts | 4 Twitter analyses

@@ -1,6 +1,53 @@
 {
   "posts": [
     {
+      "slug": "shiki-stream-analysis",
+      "date": "2026-08-03T00:00:00.000Z",
+      "title": {
+        "zh-Hans": "shiki-stream 深度解析：让 LLM 输出的代码像打字一样实时高亮",
+        "zh-Hant": "shiki-stream 深度解析：讓 LLM 輸出的程式碼像打字一樣即時高亮",
+        "en": "shiki-stream Deep Dive: Let LLM-Generated Code Highlight in Real Time, Like a Typewriter",
+        "ja": "shiki-stream 徹底解説: LLMが出力するコードをまるでタイプライターのようにリアルタイムハイライトする"
+      },
+      "description": {
+        "zh-Hans": "全面分析 shiki-stream —— 一个基于 Web Streams API 的流式语法高亮库，专为 LLM 流式输出代码场景设计，讲透核心思想、CodeToTokenTransformStream、recall token 机制与框架渲染器。",
+        "zh-Hant": "全面分析 shiki-stream —— 一個基於 Web Streams API 的串流式語法高亮函式庫，專為 LLM 串流輸出程式碼場景設計，講透核心思想、CodeToTokenTransformStream、recall token 機制與框架渲染器。",
+        "en": "A complete analysis of shiki-stream: a Web Streams API-based streaming syntax-highlighting library built for LLM streaming code output — core idea, CodeToTokenTransformStream, recall tokens, and framework renderers.",
+        "ja": "shiki-stream を徹底分析：Web Streams API を基盤にしたストリーミング構文ハイライトライブラリ — コアの考え方、CodeToTokenTransformStream、recall token 機構、フレームワークレンダラーを網羅。"
+      },
+      "tags": [
+        "shiki-stream",
+        "Shiki",
+        "Syntax Highlighting",
+        "Streaming",
+        "LLM",
+        "Web Streams API",
+        "antfu",
+        "Vue",
+        "React",
+        "Solid",
+        "TypeScript",
+        "CodeToTokenTransformStream"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "keywords": [
+        "shiki-stream",
+        "Shiki 流式高亮",
+        "语法高亮",
+        "流式输出",
+        "LLM 代码高亮",
+        "Web Streams API",
+        "CodeToTokenTransformStream",
+        "Recall Token",
+        "Anthony Fu",
+        "@shikijs/stream",
+        "渐进式渲染",
+        "AI 代码展示"
+      ]
+    },
+    {
       "slug": "agent-recall-x-analysis",
       "title": {
         "zh-Hans": "AgentRecall-X 深度解析：会从纠正中学习的 Agent 记忆，与诚实测量革命",
