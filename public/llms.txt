@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-03T14:01:11.366Z
+Generated: 2026-08-03T15:57:08.299Z
 
 ## Site Overview
 
@@ -21,7 +21,13 @@ We cover trending topics and business opportunities across Reddit, YouTube, and 
 
 ## Latest Blog Posts (10 most recent)
 
-### next-forge Deep Dive: Vercel Production-Grade Next.js Monorepo Template
+### AgentRecall-X Deep Dive: An Agent That Learns From Corrections — and the Honest-Measurement Revolution
+URL: https://topdigg.com/blog/agent-recall-x-analysis | Date: 2026-08-03T00:00:00.000Z | Author: TopDigg Research Team
+Tags: AgentRecall, Agent Memory, Claude Code, MCP, Corrections Ledger, RAG, Mem0, Retrieval, AI Agent, Memory Layers, TypeScript
+
+A complete analysis of AgentRecall-X, open-sourced by Goldentrii — a Claude Code memory system that learns from corrections, and the only open-source project that actually quantifies whether an agent stops repeating a mistake. From the dual core — a governed corrections ledger plus a missing measure
+
+### next-forge Deep Dive: Vercel's Production-Grade Next.js Monorepo Template
 URL: https://topdigg.com/blog/next-forge-analysis | Date: 2026-08-03T00:00:00.000Z | Author: TopDigg Research Team
 Tags: next-forge, Vercel, Turborepo, Next.js, Monorepo, SaaS, Template, Clerk, Stripe, Prisma, Tailwind CSS, shadcn/ui, TypeScript
 
@@ -75,12 +81,6 @@ Tags: Reasonix, DeepSeek, AI Agent, 终端编码, 前缀缓存, Coding Agent, Go
 
 Comprehensive analysis of Reasonix — a terminal coding agent built around DeepSeek prefix cache. From cache-first architecture to single-binary distribution, from subagents to ACP editor integration, an in-depth interpretation of its design philosophy and technical details.
 
-### Grok 4.3 Deep Dive: Comprehensive Analysis of xAI's Next-Gen Reasoning Model
-URL: https://topdigg.com/blog/grok43-analysis-report | Date: 2026-07-31 | Author: TopDigg Research Team
-Tags: Grok 4.3, xAI, AI模型评测, Artificial Analysis, 推理模型, Agent, GDPval-AA, 基准测试, 成本分析, 编码代理
-
-Comprehensive analysis of Grok 4.3 — xAI's latest reasoning model with AA Intelligence Index score of 53, significantly improved agentic performance, and 20% cost reduction. From benchmarks to cost analysis, from design philosophy to usage tutorial, an in-depth interpretation.
-
 ## Twitter Analysis Reports
 
 ###  (@)
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 41 blog posts | 4 Twitter analyses
+End of llms.txt | 42 blog posts | 4 Twitter analyses

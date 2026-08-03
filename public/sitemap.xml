@@ -29,6 +29,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://topdigg.com/blog/agent-recall-x-analysis</loc>
+    <lastmod>2026-08-03</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://topdigg.com/blog/airllm-analysis</loc>
     <lastmod>2026-08-03</lastmod>
     <priority>0.8</priority>

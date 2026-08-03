@@ -1,6 +1,36 @@
 {
   "posts": [
     {
+      "slug": "agent-recall-x-analysis",
+      "title": {
+        "zh-Hans": "AgentRecall-X 深度解析：会从纠正中学习的 Agent 记忆，与诚实测量革命",
+        "zh-Hant": "AgentRecall-X 深度解析：會從糾正中學習的 Agent 記憶，與誠實測量革命",
+        "en": "AgentRecall-X Deep Dive: An Agent That Learns From Corrections — and the Honest-Measurement Revolution",
+        "ja": "AgentRecall-X 徹底解説：訂正から学ぶ Agent メモリと、正直な計測革命"
+      },
+      "description": {
+        "zh-Hans": "全面分析 Goldentrii 开源的 AgentRecall-X —— 一个「从纠正中学习」的 Claude Code 记忆系统，也是唯一把「agent 是否真的不再重复犯错」量化出来的开源项目。从「受治理的纠正账本」与「缺失的测量仪器」双核心定位，到基于认知心理学的五层记忆模型，从 35.3% 的真实捕获率与 0/3 的诚实数据，到 /arstart /arsave /arrecall /arreflect 四步会话循环，再到完整的 MCP 安装教程与「自动化原则」设计哲学。",
+        "zh-Hant": "全面分析 Goldentrii 開源的 AgentRecall-X —— 一個「從糾正中學習」的 Claude Code 記憶系統，也是唯一把「agent 是否真的不再重複犯錯」量化出來的開源專案。從「受治理的糾正帳本」與「缺失的測量儀器」雙核心定位，到基於認知心理學的五層記憶模型，從 35.3% 的真實捕獲率與 0/3 的誠實數據，再到 /arstart /arsave /arrecall /arreflect 四步會話循環，以及完整的 MCP 安裝教學與「自動化原則」設計哲學。",
+        "en": "A complete analysis of AgentRecall-X, open-sourced by Goldentrii — a Claude Code memory system that learns from corrections, and the only open-source project that actually quantifies whether an agent stops repeating a mistake. From the dual core — a governed corrections ledger plus a missing measurement instrument — to the five-layer memory model grounded in cognitive psychology, from the honest 35.3% capture rate and 0/3 heed data, to the /arstart /arsave /arrecall /arreflect session loop, to a full MCP setup tutorial and the Automaticity Principle design philosophy.",
+        "ja": "Goldentrii がオープンソースで公開する AgentRecall-X —— 「訂正から学ぶ」Claude Code メモリシステムであり、agent が本当にミスを繰り返さなくなったかを数値化する唯一のオープンソースプロジェクトを徹底分析。「統治された訂正台帳」と「欠けていた計測器」という二つの核、認知心理学に基づく五層メモリモデル、正直な 35.3% の捕捉率と 0/3 の遵守データ、/arstart /arsave /arrecall /arreflect のセッションループ、完全な MCP 導入チュートリアル、「自動化の原則」という設計哲学までを解説。"
+      },
+      "date": "2026-08-03T00:00:00.000Z",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "AgentRecall",
+        "Agent Memory",
+        "Claude Code",
+        "MCP",
+        "Corrections Ledger",
+        "RAG",
+        "Mem0",
+        "Retrieval",
+        "AI Agent",
+        "Memory Layers",
+        "TypeScript"
+      ]
+    },
+    {
       "slug": "next-forge-analysis",
       "title": {
         "zh-Hans": "next-forge 深度解析：Vercel 出品的生产级 Next.js Monorepo 模板",
