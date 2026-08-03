@@ -1,6 +1,34 @@
 {
   "posts": [
     {
+      "slug": "airllm-analysis",
+      "title": {
+        "en": "AirLLM Deep Dive: The Layer-Wise Inference Revolution That Runs 70B LLMs on a 4GB GPU",
+        "ja": "AirLLM 徹底解説：レイヤーごとの推論で70B大規模言語モデルを4GB GPUで動かす革命",
+        "zh-Hans": "AirLLM 深度解析：让 70B 大模型在 4GB 显卡上跑起来的分层推理革命",
+        "zh-Hant": "AirLLM 深度解析：讓 70B 大模型在 4GB 顯示卡上跑起來的分層推理革命"
+      },
+      "description": {
+        "en": "A comprehensive analysis of the open-source AirLLM project — no quantization, no distillation, no pruning. Through layer-by-layer loading, it runs 70B-parameter LLMs on a single 4GB GPU. From installation to API usage, from how it works to its design philosophy.",
+        "ja": "オープンソースプロジェクト AirLLM を包括的に分析 —— 量子化も蒸留も枝刈りもせず、レイヤーごとのロード技術で70Bパラメータの大規模言語モデルを単一の4GB GPUで推論。",
+        "zh-Hans": "全面分析开源项目 AirLLM —— 不量化、不蒸馏、不剪枝，通过逐层加载技术让 70B 参数大模型在单张 4GB 显卡上完成推理。从安装教程到 API 使用，从工作原理到设计哲学。",
+        "zh-Hant": "全面分析開源專案 AirLLM —— 不量化、不蒸餾、不剪枝，透過逐層載入技術讓 70B 參數大模型在單張 4GB 顯示卡上完成推理。"
+      },
+      "date": "2026-08-03T00:00:00.000Z",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "AirLLM",
+        "LLM Inference",
+        "Large Language Models",
+        "GPU Memory Optimization",
+        "Layer-wise Inference",
+        "Open Source",
+        "Gavin Li",
+        "Deep Learning",
+        "Model Inference"
+      ]
+    },
+    {
       "slug": "deepseek-v4-flash-analysis",
       "title": {
         "en": "DeepSeek V4 Flash 0731 Deep Dive: The Reasoning Model Revolution in Cost and Intelligence",
