@@ -1,6 +1,38 @@
 {
   "posts": [
     {
+      "slug": "next-forge-analysis",
+      "title": {
+        "zh-Hans": "next-forge 深度解析：Vercel 出品的生产级 Next.js Monorepo 模板",
+        "zh-Hant": "next-forge 深度解析：Vercel 出品的生產級 Next.js Monorepo 模板",
+        "en": "next-forge Deep Dive: Vercel's Production-Grade Next.js Monorepo Template",
+        "ja": "next-forge 徹底解説：Vercel が公開した本番グレードの Next.js Monorepo テンプレート"
+      },
+      "description": {
+        "zh-Hans": "全面分析 Vercel 官方开源的 next-forge —— 一个基于 Turborepo 的生产级 Next.js 应用模板，专为快速构建 SaaS 而设计。从「快速、便宜、有主见、现代、安全」五大设计原则，到 apps/ + packages/ 的 monorepo 架构，从 Clerk 认证、Stripe 支付、Prisma 数据库到 AI 集成等 18+ 共享包，再到完整的初始化与部署教程，一文讲透这个 7.5k stars 的模板。",
+        "zh-Hant": "全面分析 Vercel 官方開源的 next-forge —— 一個基於 Turborepo 的生產級 Next.js 應用模板，專為快速建構 SaaS 而設計。從「快速、便宜、有主見、現代、安全」五大設計原則，到 apps/ + packages/ 的 monorepo 架構，從 Clerk 認證、Stripe 支付、Prisma 資料庫到 AI 整合等 18+ 共享套件，再到完整的初始化與部署教學，一文講透這個 7.5k stars 的模板。",
+        "en": "A complete analysis of next-forge, the production-grade Turborepo template for Next.js apps open-sourced by Vercel, purpose-built for shipping SaaS fast. From the five design principles — Fast, Cheap, Opinionated, Modern, Safe — to the apps/ + packages/ monorepo architecture, from Clerk auth, Stripe payments and Prisma database to 18+ shared packages including AI integration, this article covers the full tutorial, project breakdown, and design philosophy of the 7.5k-star template.",
+        "ja": "Vercel 公式がオープンソースで公開する next-forge —— Turborepo ベースの本番グレード Next.js アプリテンプレートを徹底分析。SaaS を素早く立ち上げるために設計されており、「Fast・Cheap・Opinionated・Modern・Safe」の五大設計原則から、apps/ + packages/ の monorepo アーキテクチャ、Clerk 認証・Stripe 決済・Prisma データベースから AI 統合まで 18+ の共有パッケージ、さらに初期化からデプロイまでの完全チュートリアルまで、7.5k stars のテンプレートを 1 記事で解説。"
+      },
+      "date": "2026-08-03T00:00:00.000Z",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "next-forge",
+        "Vercel",
+        "Turborepo",
+        "Next.js",
+        "Monorepo",
+        "SaaS",
+        "Template",
+        "Clerk",
+        "Stripe",
+        "Prisma",
+        "Tailwind CSS",
+        "shadcn/ui",
+        "TypeScript"
+      ]
+    },
+    {
       "slug": "kimi-k3-mi355x-analysis",
       "title": {
         "en": "Kimi K3 × AMD MI355X Deep Dive: Is Memory the Moat?",
