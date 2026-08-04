@@ -1,6 +1,38 @@
 {
   "posts": [
     {
+      "slug": "oneterm-analysis",
+      "title": {
+        "zh": "OneTerm 深度解析：VeOps 开源堡垒机——基于 4A 概念的企业级安全接入与运维审计方案",
+        "zhHant": "OneTerm 深度解析：VeOps 開源堡壘機——基於 4A 概念的企業級安全接入與運維審計方案",
+        "en": "OneTerm Deep Dive: VeOps Open-Source Bastion Host — an Enterprise Security Access & Ops Audit Solution Based on the 4A Concept",
+        "ja": "OneTerm 深度解説：VeOps オープンソース・バスティオンホスト — 4A セキュリティ概念に基づくエンタープライズ級アクセスセキュリティと運用監査ソリューション"
+      },
+      "description": {
+        "zh": "全面解析 VeOps 开源的 OneTerm——一个简洁、轻量、灵活的企业级堡垒机（跳板机）产品。基于 4A 安全概念（认证、授权、账号、审计），用 Go 后端 + Vue.js 前端 + Apache Guacamole 实现 SSH/RDP/VNC/Telnet/数据库等多协议安全接入，支持会话录制回放、命令管控、时间/IP 访问策略、OAuth2/LDAP/CAS 单点登录，以及与 VeOps CMDB 的一键资产同步。从核心思想、架构模块、设计哲学到完整 Docker Compose 部署教程与功能清单，一文讲透。",
+        "zhHant": "全面解析 VeOps 開源的 OneTerm——一個簡潔、輕量、靈活的企業級堡壘機（跳板機）產品。基於 4A 安全概念（認證、授權、帳號、審計），用 Go 後端 + Vue.js 前端 + Apache Guacamole 實現 SSH/RDP/VNC/Telnet/資料庫等多協定安全接入，支援會話錄製回放、命令管控、時間/IP 訪問策略、OAuth2/LDAP/CAS 單點登入，以及與 VeOps CMDB 的一鍵資產同步。從核心思想、架構模組、設計哲學到完整 Docker Compose 部署教學與功能清單，一文講透。",
+        "en": "A complete analysis of OneTerm by VeOps — a simple, lightweight, flexible enterprise bastion host built on the 4A security concept (Authentication, Authorization, Account, Audit). With a Go backend, Vue.js frontend, and Apache Guacamole proxy, it delivers multi-protocol secure access (SSH/RDP/VNC/Telnet/databases), session recording & replay, command control, time/IP access policies, OAuth2/LDAP/CAS SSO, SFTP file transfer, and one-click asset sync with VeOps CMDB. From core ideas and architecture to design philosophy, full Docker Compose deployment tutorial, and feature list.",
+        "ja": "VeOps が開発した OneTerm を完全解析 — 4A セキュリティ概念（認証・認可・アカウント・監査）に基づいた、シンプルで軽量、柔軟なエンタープライズ・バスティオンホスト。Go バックエンド + Vue.js フロントエンド + Apache Guacamole プロキシにより、SSH/RDP/VNC/Telnet/データベースなどマルチプロトコル安全アクセス、セッション録画・再生、コマンドテンプレート制御、時間/IP アクセスポリシー、OAuth2/LDAP/CAS SSO、SFTP ファイル転送、VeOps CMDB 連携によるワンクリック資産同期を提供。コアアイデア、アーキテクチャ、設計哲学、Docker Compose デプロイチュートリアルから機能一覧まで。"
+      },
+      "date": "2026-08-04",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "OneTerm",
+        "Bastion Host",
+        "Jump Server",
+        "4A Security",
+        "SSH",
+        "RDP",
+        "VNC",
+        "DevOps",
+        "Go",
+        "VeOps"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
       "slug": "ds4-analysis",
       "date": "2026-08-04T00:00:00.000Z",
       "title": {
