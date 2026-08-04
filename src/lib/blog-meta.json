@@ -1,6 +1,37 @@
 {
   "posts": [
     {
+      "slug": "loop-engineering-practical-guide",
+      "title": {
+        "en": "Loop Engineering Practical Guide: How to Build AI Agent Loops That Self-Improve",
+        "ja": "Loop Engineering 実践ガイド：自己改善する AI Agent ループシステムの構築法",
+        "zh-Hans": "Loop Engineering 实战指南：如何构建能自我改进的 AI Agent 循环系统",
+        "zh-Hant": "Loop Engineering 實戰指南：如何構建能自我改進的 AI Agent 循環系統"
+      },
+      "description": {
+        "en": "Deep analysis of @elune0x viral X post (373K views) on Loop Engineering. Core idea: you don't need to prompt AI anymore. Design the system that prompts AI automatically. 4 loop types, 5 core components, model routing 60-80% cost reduction, full hands-on tutorial.",
+        "ja": "@elune0x のバイラル X ポスト（373K 閲覧）を深く解析 — Loop Engineering。核心思想：もう AI にプロンプトする必要はない。4 つのループタイプ、5 つのコアコンポーネント、モデルルーティング 60-80% コスト削減、フル実践チュートリアル。",
+        "zh-Hans": "深度解析 @elune0x 的 X 热文（373K 阅读）——Loop Engineering。核心思想：你不需要再手动提示 AI。四种循环类型、五大核心组件、模型路由成本降低 60-80%、完整实战教程。",
+        "zh-Hant": "深度解析 @elune0x 的 X 熱文（373K 閱讀）——Loop Engineering。核心思想：你不需要再手動提示 AI。四種循環類型、五大核心組件、模型路由成本降低 60-80%、完整實戰教程。"
+      },
+      "date": "2026-08-04",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Loop Engineering",
+        "AI Agent",
+        "Automation",
+        "Claude Code",
+        "Codex",
+        "MCP",
+        "Subagents",
+        "DevTools",
+        "Prompt Engineering"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
       "slug": "loop-engineering-analysis",
       "title": {
         "en": "Loop Engineering Deep Dive: Stop Prompting — Design the Loop That Runs Your AI Agent Autonomously",
