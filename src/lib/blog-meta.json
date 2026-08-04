@@ -1,6 +1,37 @@
 {
   "posts": [
     {
+      "slug": "loop-engineering-analysis",
+      "title": {
+        "en": "Loop Engineering Deep Dive: Stop Prompting — Design the Loop That Runs Your AI Agent Autonomously",
+        "ja": "Loop Engineering まとめ：プロンプティングをやめ、AI エージェントを自律稼働させるループを設計せよ",
+        "zh-Hans": "Loop Engineering 深度解析：停止提示词工程，设计让 AI 代理自主运行的循环系统",
+        "zh-Hant": "Loop Engineering 深度解析：停止提示詞工程，設計讓 AI 代理自主運行的循環系統"
+      },
+      "description": {
+        "en": "A complete analysis of Loop Engineering — Cobus Greyling AI agent loop engineering framework. Core idea: you don't need to prompt AI anymore. Design a system that prompts AI automatically. 5 building blocks + Memory/State, 7 production patterns, progressive autonomy L1-L3, full tool ecosystem.",
+        "ja": "Loop Engineering——Cobus Greyling の AI エージェント ループエンジニアリング フレームワークの完全解析。核心思想：もう AI にプロンプトする必要はない。AI に自動でプロンプトするシステムを設計すべきだ。5 つのビルドブロック + メモリ/ステート、7 つの本番パターン、段階的自律 L1-L3、フルツールエコシステム。",
+        "zh-Hans": "全面解析 Loop Engineering——Cobus Greyling 提出的 AI 代理循环工程框架。核心思想：你不需要再手动提示 AI，你需要设计一个自动提示 AI 的系统。五大构建块 + 记忆/状态，7 个生产级模式，渐进自治 L1-L3，完整工具生态。",
+        "zh-Hant": "全面解析 Loop Engineering——Cobus Greyling 提出的 AI 代理循環工程框架。核心思想：你不需要再手動提示 AI，你需要設計一個自動提示 AI 的系統。五大構建塊 + 記憶/狀態，7 個生產級模式，漸進自治 L1-L3，完整工具生態。"
+      },
+      "date": "2026-08-04",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Loop Engineering",
+        "AI Agent",
+        "Automation",
+        "Grok",
+        "Claude Code",
+        "Codex",
+        "MCP",
+        "DevTools",
+        "Prompt Engineering"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
       "slug": "goalmd-tutorial-analysis",
       "title": {
         "en": "GOAL.md Deep Dive: A Minimal Framework for Autonomous AI Code Improvement — Just Give It a Number",
