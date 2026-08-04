@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-04T03:12:02.754Z
+Generated: 2026-08-04T06:58:13.454Z
 
 ## Site Overview
 
@@ -21,11 +21,17 @@ We cover trending topics and business opportunities across Reddit, YouTube, and 
 
 ## Latest Blog Posts (10 most recent)
 
+### sentrux Deep Dive: The AI Agent Architecture Sensor — Closing the Feedback Loop for Recursive Self-Improvement of Code Quality
+URL: https://topdigg.com/blog/sentrux-analysis | Date: 2026-08-04 | Author: TopDigg Research Team
+Tags: sentrux, AI Agent, Code Quality, Architecture, Rust, Static Analysis, MCP, Tree-sitter, DevTools
+
+A complete analysis of sentrux — a real-time architectural sensor that helps AI agents close the feedback loop, enabling recursive self-improvement of code quality. Pure Rust single binary, zero runtime dependencies, 52 languages via tree-sitter plugins. Live treemap visualization, 5 root cause metr
+
 ### OneTerm Deep Dive: VeOps Open-Source Bastion Host — an Enterprise Security Access & Ops Audit Solution Based on the 4A Concept
 URL: https://topdigg.com/blog/oneterm-analysis | Date: 2026-08-04 | Author: TopDigg Research Team
 Tags: OneTerm, Bastion Host, Jump Server, 4A Security, SSH, RDP, VNC, DevOps, Go, VeOps
 
-A complete analysis of OneTerm by VeOps — a simple, lightweight, flexible enterprise bastion host built on the 4A security concept. With a Go backend, Vue.js frontend, and Apache Guacamole proxy, it delivers multi-protocol secure access, session recording & replay, command control, OAuth2/LDAP/CAS S
+A complete analysis of OneTerm by VeOps — a simple, lightweight, flexible enterprise bastion host built on the 4A security concept (Authentication, Authorization, Account, Audit). With a Go backend, Vue.js frontend, and Apache Guacamole proxy, it delivers multi-protocol secure access (SSH/RDP/VNC/Te
 
 ### DwarfStar (ds4) Deep Dive: How antirez (Redis Creator) Built a Native LLM Inference Engine — a Vertically Integrated Solution for DeepSeek V4 Flash
 URL: https://topdigg.com/blog/ds4-analysis | Date: 2026-08-04T00:00:00.000Z | Author: undefined
@@ -75,12 +81,6 @@ Tags: AREX, BAAI, Deep Research, Agent, Recursive Self-Improvement, arXiv, Open 
 
 A comprehensive analysis of BAAI's open-source AREX — a recursively self-improving deep research agent. From the core 'discovery-verification asymmetry' insight in arXiv 2607.21461 to the dual-loop framework, from AREX-Turbo / AREX-Base models to a complete usage tutorial.
 
-### LoopX Deep Dive: Turning Capable Agents into Manageable, Reviewable, Continuously Improvable Digital Workers
-URL: https://topdigg.com/blog/loopx-analysis | Date: 2026-08-03T00:00:00.000Z | Author: TopDigg Research Team
-Tags: LoopX, Agent, AI Agent, Loop Engineering, Control Plane, State Kernel, Long-running Agents, Open Source, Codex, Claude Code
-
-A comprehensive analysis of the open-source LoopX project — a lightweight loop-engineering state kernel and agent-agnostic local control plane for long-running AI agent teams. From installation to CLI usage, from the seven-layer architecture to design philosophy.
-
 ## Twitter Analysis Reports
 
 ###  (@)
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 47 blog posts | 4 Twitter analyses
+End of llms.txt | 48 blog posts | 4 Twitter analyses

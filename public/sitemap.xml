@@ -44,6 +44,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://topdigg.com/blog/sentrux-analysis</loc>
+    <lastmod>2026-08-04</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://topdigg.com/blog/system-design-primer-analysis</loc>
     <lastmod>2026-08-04</lastmod>
     <priority>0.8</priority>

@@ -1,6 +1,37 @@
 {
   "posts": [
     {
+      "slug": "sentrux-analysis",
+      "title": {
+        "zh": "sentrux 深度解析：AI 代理的架构传感器——帮助 AI 关闭反馈回路、实现代码质量递归自改进的纯 Rust 工具",
+        "zhHant": "sentrux 深度解析：AI 代理的架構傳感器——幫助 AI 關閉反饋迴路、實現代碼質量遞歸自改進的純 Rust 工具",
+        "en": "sentrux Deep Dive: The AI Agent Architecture Sensor — Closing the Feedback Loop for Recursive Self-Improvement of Code Quality",
+        "ja": "sentrux 深度解説：AI エージェントのアーキテクチャセンサー — フィードバックループを閉じ、コード品質を再帰的に自己改善する純 Rust ツール"
+      },
+      "description": {
+        "zh": "全面解析 sentrux——一个实时架构传感器，帮助 AI 代理关闭反馈回路，实现代码质量的递归自改进。纯 Rust 单二进制文件，零运行时依赖，通过 tree-sitter 插件支持 52 种语言。提供实时依赖树状图可视化、5 项根因指标的综合质量评分、MCP 服务器集成、基于 TOML 的规则引擎和 CI 质量门。",
+        "zhHant": "全面解析 sentrux——一個實時架構傳感器，幫助 AI 代理關閉反饋迴路，實現代碼質量的遞歸自改進。純 Rust 單二進制文件，零運行時依賴，通過 tree-sitter 插件支持 52 種語言。提供實時依賴樹狀圖可視化、5 項根因指標的綜合質量評分、MCP 服務器集成、基於 TOML 的規則引擎和 CI 質量門。",
+        "en": "A complete analysis of sentrux — a real-time architectural sensor that helps AI agents close the feedback loop, enabling recursive self-improvement of code quality. Pure Rust single binary, zero runtime dependencies, 52 languages via tree-sitter plugins. Live treemap visualization, 5 root cause metrics, MCP server integration, TOML-based rules engine, and CI quality gates.",
+        "ja": "sentrux を完全解析 — AI エージェントがフィードバックループを閉じ、コード品質の再帰的な自己改善を可能にするリアルタイムアーキテクチャセンサー。純 Rust シングルバイナリ、ランタイム依存ゼロ、52 言語を tree-sitter プラグインでサポート。ライブ treemap 可視化、5 つの根本原因指標、MCP サーバー統合、TOML ベースのルールエンジン、CI 品質ゲート。"
+      },
+      "date": "2026-08-04",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "sentrux",
+        "AI Agent",
+        "Code Quality",
+        "Architecture",
+        "Rust",
+        "Static Analysis",
+        "MCP",
+        "Tree-sitter",
+        "DevTools"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
       "slug": "oneterm-analysis",
       "title": {
         "zh": "OneTerm 深度解析：VeOps 开源堡垒机——基于 4A 概念的企业级安全接入与运维审计方案",
