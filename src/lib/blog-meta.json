@@ -1,6 +1,36 @@
 {
   "posts": [
     {
+      "slug": "goalmd-tutorial-analysis",
+      "title": {
+        "zh": "GOAL.md 深度解析：让 AI Agent 自主改进代码的极简框架——只需给它一个数字",
+        "zhHant": "GOAL.md 深度解析：讓 AI Agent 自主改進代碼的極簡框架——只需給它一個數字",
+        "en": "GOAL.md Deep Dive: A Minimal Framework for Autonomous AI Code Improvement — Just Give It a Number",
+        "ja": "GOAL.md 深度解説：AI による自律的コード改善のミニマルフレームワーク — 数字ひとつで可能にする"
+      },
+      "description": {
+        "zh": "全面解析 GOAL.md——AutoHarness 项目提出的让 AI Agent 自主改进代码的文件格式。核心思想极其简单：写一个输出数字的评分脚本，写一个 GOAL.md 文件定义目标和行动目录，让 Agent 自己想办法让分数变高。",
+        "zhHant": "全面解析 GOAL.md——AutoHarness 專案提出的讓 AI Agent 自主改進代碼的文件格式。核心思想極其簡單：寫一個輸出數字的評分腳本，寫一個 GOAL.md 文件定義目標和行動目錄，讓 Agent 自己想辦法讓分數變高。",
+        "en": "A complete analysis of GOAL.md — a file format from AutoHarness that lets AI agents autonomously improve code. The core idea: write a scoring script that outputs a number, write a GOAL.md file, and let the agent figure out how to make the score go up.",
+        "ja": "GOAL.md を完全解析 — AI エージェントが自律的にコードを改善するためのファイル形式。核心思想は驚くほどシンプル：数字を出力するスコアリングスクリプトを書き、GOAL.md ファイルを作成し、エージェントにスコアを上げる方法を考えさせる。"
+      },
+      "date": "2026-08-04",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "GOAL.md",
+        "AutoHarness",
+        "AI Agent",
+        "Fitness Function",
+        "Code Quality",
+        "Autonomous Improvement",
+        "Rust",
+        "LLM"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
       "slug": "sentrux-analysis",
       "title": {
         "zh": "sentrux 深度解析：AI 代理的架构传感器——帮助 AI 关闭反馈回路、实现代码质量递归自改进的纯 Rust 工具",

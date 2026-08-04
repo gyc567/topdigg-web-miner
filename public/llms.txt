@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-04T06:58:13.454Z
+Generated: 2026-08-04T08:44:53.692Z
 
 ## Site Overview
 
@@ -20,6 +20,12 @@ We cover trending topics and business opportunities across Reddit, YouTube, and 
 | External Links | https://topdigg.com/external-links | Curated external resources |
 
 ## Latest Blog Posts (10 most recent)
+
+### GOAL.md Deep Dive: A Minimal Framework for Autonomous AI Code Improvement — Just Give It a Number
+URL: https://topdigg.com/blog/goalmd-tutorial-analysis | Date: 2026-08-04 | Author: TopDigg Research Team
+Tags: GOAL.md, AutoHarness, AI Agent, Fitness Function, Code Quality, Autonomous Improvement, Rust, LLM
+
+A complete analysis of GOAL.md — a file format from AutoHarness that lets AI agents autonomously improve code. The core idea: write a scoring script that outputs a number, write a GOAL.md file, and let the agent figure out how to make the score go up.
 
 ### sentrux Deep Dive: The AI Agent Architecture Sensor — Closing the Feedback Loop for Recursive Self-Improvement of Code Quality
 URL: https://topdigg.com/blog/sentrux-analysis | Date: 2026-08-04 | Author: TopDigg Research Team
@@ -75,12 +81,6 @@ Tags: Kimi K3, AMD, MI355X, Moonshot, GPU Inference, MoE, Speculative Decoding, 
 
 A comprehensive analysis of Wafer AI’s engineering blog on serving the 2.8T open-source model Kimi K3 on AMD MI355X at 952 tok/s/node. From the core “memory is the moat” thesis, to speculative decoding and AITER prefill optimization, to the MI355X crushing B200 with 48 tok/s/$, this article explains
 
-### AREX Deep Dive: BAAI's Open-Source Recursively Self-Improving Deep Research Agent
-URL: https://topdigg.com/blog/arex-analysis | Date: 2026-08-03T00:00:00.000Z | Author: TopDigg Research Team
-Tags: AREX, BAAI, Deep Research, Agent, Recursive Self-Improvement, arXiv, Open Source Model, MoE, Qwen3.5
-
-A comprehensive analysis of BAAI's open-source AREX — a recursively self-improving deep research agent. From the core 'discovery-verification asymmetry' insight in arXiv 2607.21461 to the dual-loop framework, from AREX-Turbo / AREX-Base models to a complete usage tutorial.
-
 ## Twitter Analysis Reports
 
 ###  (@)
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 48 blog posts | 4 Twitter analyses
+End of llms.txt | 49 blog posts | 4 Twitter analyses

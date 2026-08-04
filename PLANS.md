@@ -6,6 +6,8 @@
 
 <!-- 进行中的计划在此登记，完工后删除文件并移除条目 -->
 
+- [GOAL.md 教程深度解析博客文章（4 语言）](plans/goalmd-tutorial-blog.md)
+
 - [sentrux 深度解析博客文章（4 语言）](plans/sentrux-analysis-blog.md)
 
 
