@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-04T02:24:16.469Z
+Generated: 2026-08-04T02:48:42.650Z
 
 ## Site Overview
 
@@ -20,6 +20,12 @@ We cover trending topics and business opportunities across Reddit, YouTube, and 
 | External Links | https://topdigg.com/external-links | Curated external resources |
 
 ## Latest Blog Posts (10 most recent)
+
+### DwarfStar (ds4) Deep Dive: How antirez (Redis Creator) Built a Native LLM Inference Engine — a Vertically Integrated Solution for DeepSeek V4 Flash
+URL: https://topdigg.com/blog/ds4-analysis | Date: 2026-08-04T00:00:00.000Z | Author: undefined
+Tags: DwarfStar, ds4, antirez, DeepSeek V4, LLM Inference, Metal, CUDA, ROCm, Local LLM, Salvatore Sanfilippo
+
+A complete analysis of DwarfStar (ds4) by antirez (Salvatore Sanfilippo, Redis creator) — a small native inference engine purpose-built for DeepSeek V4 Flash/PRO and GLM 5.2. In ~65,000 lines of C it delivers Metal/CUDA/ROCm backends, SSD streaming, pipeline parallelism, DSpark speculative decoding,
 
 ### AutoHarness Deep Dive: How "Small Model + Harness" Beats "Large Model" — an Open-Source Rust Library That Automatically Synthesizes Code Harnesses for LLM Agents
 URL: https://topdigg.com/blog/autoharness-analysis | Date: 2026-08-04T00:00:00.000Z | Author: undefined
@@ -75,12 +81,6 @@ Tags: AirLLM, LLM Inference, Large Language Models, GPU Memory Optimization, Lay
 
 A comprehensive analysis of the open-source AirLLM project — no quantization, no distillation, no pruning. Through layer-by-layer loading, it runs 70B-parameter LLMs on a single 4GB GPU. From installation to API usage, from how it works to its design philosophy.
 
-### DeepSeek V4 Flash 0731 Deep Dive: The Reasoning Model Revolution in Cost and Intelligence
-URL: https://topdigg.com/blog/deepseek-v4-flash-analysis | Date: 2026-08-02T00:00:00.000Z | Author: TopDigg Research Team
-Tags: DeepSeek, V4 Flash, AI Model, Reasoning Model, MoE, Mixture of Experts, Open Source, Cost Analysis, Intelligence Index, Token Economics
-
-Comprehensive analysis of DeepSeek V4 Flash 0731 — 284B parameter MoE architecture, 1M context window, $0.14/M input token reasoning model.
-
 ## Twitter Analysis Reports
 
 ###  (@)
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 45 blog posts | 4 Twitter analyses
+End of llms.txt | 46 blog posts | 4 Twitter analyses

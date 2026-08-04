@@ -1,6 +1,53 @@
 {
   "posts": [
     {
+      "slug": "ds4-analysis",
+      "date": "2026-08-04T00:00:00.000Z",
+      "title": {
+        "zh-Hans": "DwarfStar (ds4) 深度解析：Redis 作者 antirez 的本地 LLM 推理引擎——为 DeepSeek V4 Flash 定制的垂直整合方案",
+        "zh-Hant": "DwarfStar (ds4) 深度解析：Redis 作者 antirez 的本地 LLM 推理引擎——為 DeepSeek V4 Flash 定製的垂直整合方案",
+        "en": "DwarfStar (ds4) Deep Dive: How antirez (Redis Creator) Built a Native LLM Inference Engine — a Vertically Integrated Solution for DeepSeek V4 Flash",
+        "ja": "DwarfStar (ds4) 徹底解説：Redis 作者 antirez が作ったローカル LLM 推論エンジン——DeepSeek V4 Flash に特化した垂直統合ソリューション"
+      },
+      "description": {
+        "zh-Hans": "全面解析 antirez 开源的 DwarfStar（ds4）——一个专为 DeepSeek V4 Flash/PRO 与 GLM 5.2 打造的小型原生推理引擎。antirez（Redis 创始人）用 65,000 行 C 代码实现 Metal/CUDA/ROCm 三后端、SSD 流式加载、流水线并行、DSpark 推测解码、原生编码 Agent 与 OpenAI 兼容 API 的完整垂直栈。M5 Max 上 87 t/s 预填充、34 t/s 生成；双机分布式预填充最高 674 t/s。从核心思想、架构模块、设计哲学到完整教程与性能基准，一文讲透。",
+        "zh-Hant": "全面解析 antirez 開源的 DwarfStar（ds4）——一個專為 DeepSeek V4 Flash/PRO 與 GLM 5.2 打造的小型原生推理引擎。antirez（Redis 創始人）用 65,000 行 C 程式碼實現 Metal/CUDA/ROCm 三後端、SSD 串流載入、管線並行、DSpark 推測解碼、原生編碼 Agent 與 OpenAI 相容 API 的完整垂直棧。M5 Max 上 87 t/s 前置填充、34 t/s 生成；雙機分散式前置填充最高 674 t/s。從核心思想、架構模組、設計哲學到完整教學與效能基準，一文講透。",
+        "en": "A complete analysis of DwarfStar (ds4) by antirez (Salvatore Sanfilippo, Redis creator) — a small native inference engine purpose-built for DeepSeek V4 Flash/PRO and GLM 5.2. In ~65,000 lines of C it delivers Metal/CUDA/ROCm backends, SSD streaming, pipeline parallelism, DSpark speculative decoding, a native coding agent, and an OpenAI-compatible API as a single vertically integrated stack. 87 t/s prefill and 34 t/s generation on M5 Max; distributed prefill up to 674 t/s across two machines. From core ideas and architecture to design philosophy, full tutorial, feature list, and key takeaways.",
+        "ja": "antirez（Redis 創設者 Salvatore Sanfilippo）が公開した DwarfStar（ds4）を徹底解説——DeepSeek V4 Flash/PRO と GLM 5.2 に特化した小型ネイティブ推論エンジン。約 65,000 行の C コードで Metal/CUDA/ROCm 3 バックエンド、SSD ストリーミング、パイプライン並列、DSpark 推測デコーディング、ネイティブコーディングエージェント、OpenAI 互換 API を一つの垂直統合スタックとして実現。M5 Max で 87 t/s プリフィル、34 t/s 生成；分散プリフィルは最大 674 t/s。コア思想、アーキテクチャ、設計哲学からチュートリアル、機能一覧、要点まとめまでを網羅。"
+      },
+      "tags": [
+        "DwarfStar",
+        "ds4",
+        "antirez",
+        "DeepSeek V4",
+        "LLM Inference",
+        "Metal",
+        "CUDA",
+        "ROCm",
+        "Local LLM",
+        "Salvatore Sanfilippo"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "keywords": [
+        "DwarfStar",
+        "ds4",
+        "antirez",
+        "DeepSeek V4 Flash",
+        "本地推理",
+        "LLM",
+        "Metal",
+        "CUDA",
+        "ROCm",
+        "Redis 作者",
+        "推测解码",
+        "SSD 流式加载",
+        "流水线并行",
+        "垂直整合"
+      ]
+    },
+    {
       "slug": "autoharness-analysis",
       "date": "2026-08-04T00:00:00.000Z",
       "title": {
