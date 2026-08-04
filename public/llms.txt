@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-03T16:14:09.520Z
+Generated: 2026-08-04T01:38:55.914Z
 
 ## Site Overview
 
@@ -20,6 +20,12 @@ We cover trending topics and business opportunities across Reddit, YouTube, and 
 | External Links | https://topdigg.com/external-links | Curated external resources |
 
 ## Latest Blog Posts (10 most recent)
+
+### system-design-primer Deep Dive: The "Bible" of System Design Interviews — A Complete Learning Path from Zero to Big Tech
+URL: https://topdigg.com/blog/system-design-primer-analysis | Date: 2026-08-04T00:00:00.000Z | Author: undefined
+Tags: system-design-primer, System Design, Interview, CAP Theorem, Scalability, Distributed Systems, Donne Martin, Architecture, Caching, Database
+
+A complete analysis of Donne Martin's open-source system-design-primer (~360k stars): CAP theorem, all 16 topic sections, 8 fully-solved design problems, 22 real company architectures, Anki flashcards, and the core philosophy — everything is a trade-off.
 
 ### shiki-stream Deep Dive: Let LLM-Generated Code Highlight in Real Time, Like a Typewriter
 URL: https://topdigg.com/blog/shiki-stream-analysis | Date: 2026-08-03T00:00:00.000Z | Author: undefined
@@ -75,12 +81,6 @@ Tags: Harness, Token Economics, Agentic AI, Enterprise AI, Orchestration, Token 
 
 Deep analysis of arXiv paper 2607.06906 — The Harness Effect. Systematic coverage of Token Maxing, six mechanism families, Harness Leverage, and the design philosophy of enterprise Agent orchestration layers.
 
-### TRELLIS.2 Deep Dive: Microsoft's 4B 3D Generation Model Breakthrough
-URL: https://topdigg.com/blog/trellis2-analysis-report | Date: 2026-07-31 | Author: TopDigg Research Team
-Tags: TRELLIS.2, 3D生成, O-Voxel, 图像转3D, AI生成, 微软, 稀疏体素, PBR材质, 深度学习, 3D生成模型
-
-Comprehensive analysis of Microsoft TRELLIS.2 — the first 4B-parameter image-to-3D generation model based on native 3D VAE and O-Voxel sparse voxel representation. From architecture design to usage tutorial, from core innovations to design philosophy, an in-depth interpretation.
-
 ## Twitter Analysis Reports
 
 ###  (@)
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 43 blog posts | 4 Twitter analyses
+End of llms.txt | 44 blog posts | 4 Twitter analyses

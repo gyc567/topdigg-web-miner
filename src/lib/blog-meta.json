@@ -1,6 +1,51 @@
 {
   "posts": [
     {
+      "slug": "system-design-primer-analysis",
+      "date": "2026-08-04T00:00:00.000Z",
+      "title": {
+        "zh-Hans": "system-design-primer 深度解析：系统设计面试的「圣经」——从零到大厂的完整学习路径",
+        "zh-Hant": "system-design-primer 深度解析：系統設計面試的「聖經」——從零到大廠的完整學習路徑",
+        "en": "system-design-primer Deep Dive: The \"Bible\" of System Design Interviews — A Complete Learning Path from Zero to Big Tech",
+        "ja": "system-design-primer 徹底解説: システム設計面接の「バイブル」——ゼロから大手テックまでの完全な学習パス"
+      },
+      "description": {
+        "zh-Hans": "全面分析 Donne Martin 开源的 system-design-primer：约 36 万 stars 的开源系统设计学习资源。讲透 CAP 定理、16 大主题、8 个带完整方案的设计题、22 家公司真实架构、Anki 闪卡与「一切皆是权衡」的核心哲学。",
+        "zh-Hant": "全面分析 Donne Martin 開源的 system-design-primer：約 36 萬 stars 的開源系統設計學習資源。講透 CAP 定理、16 大主題、8 個帶完整方案的設計題、22 家公司真實架構、Anki 閃卡與「一切皆是權衡」的核心哲學。",
+        "en": "A complete analysis of Donne Martin's open-source system-design-primer (~360k stars): CAP theorem, all 16 topic sections, 8 fully-solved design problems, 22 real company architectures, Anki flashcards, and the core philosophy — everything is a trade-off.",
+        "ja": "Donne Martin 氏のオープンソース system-design-primer（約36万スター）を徹底解説：CAP 定理、16 トピック、完全解答付き設計問題 8 問、22 社の実在アーキテクチャ、Anki カード、そして核心哲学「すべてはトレードオフ」。"
+      },
+      "tags": [
+        "system-design-primer",
+        "System Design",
+        "Interview",
+        "CAP Theorem",
+        "Scalability",
+        "Distributed Systems",
+        "Donne Martin",
+        "Architecture",
+        "Caching",
+        "Database"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "keywords": [
+        "system-design-primer",
+        "系统设计",
+        "系统设计面试",
+        "CAP 定理",
+        "可扩展性",
+        "分布式系统",
+        "Donne Martin",
+        "架构设计",
+        "缓存策略",
+        "数据库分片",
+        "Anki 闪卡",
+        "面试准备"
+      ]
+    },
+    {
       "slug": "shiki-stream-analysis",
       "date": "2026-08-03T00:00:00.000Z",
       "title": {
