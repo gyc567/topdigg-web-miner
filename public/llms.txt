@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-04T01:38:55.914Z
+Generated: 2026-08-04T02:24:16.469Z
 
 ## Site Overview
 
@@ -20,6 +20,12 @@ We cover trending topics and business opportunities across Reddit, YouTube, and 
 | External Links | https://topdigg.com/external-links | Curated external resources |
 
 ## Latest Blog Posts (10 most recent)
+
+### AutoHarness Deep Dive: How "Small Model + Harness" Beats "Large Model" — an Open-Source Rust Library That Automatically Synthesizes Code Harnesses for LLM Agents
+URL: https://topdigg.com/blog/autoharness-analysis | Date: 2026-08-04T00:00:00.000Z | Author: undefined
+Tags: AutoHarness, LLM Agents, Code Harness, Tree Search, Thompson Sampling, Rust, AI Safety, TextArena, LLM, Sandbox
+
+A complete analysis of AutoHarness by gyc567 — a Rust library and CLI tool that automatically synthesizes and optimizes code harnesses for LLM agents, implementing the approach from the AutoHarness paper (arXiv:2603.03329). Using tree search with Thompson sampling to iteratively refine harness code,
 
 ### system-design-primer Deep Dive: The "Bible" of System Design Interviews — A Complete Learning Path from Zero to Big Tech
 URL: https://topdigg.com/blog/system-design-primer-analysis | Date: 2026-08-04T00:00:00.000Z | Author: undefined
@@ -75,12 +81,6 @@ Tags: DeepSeek, V4 Flash, AI Model, Reasoning Model, MoE, Mixture of Experts, Op
 
 Comprehensive analysis of DeepSeek V4 Flash 0731 — 284B parameter MoE architecture, 1M context window, $0.14/M input token reasoning model.
 
-### The Harness Effect: How Orchestration Design Sets the Token Economics of Enterprise Agentic AI
-URL: https://topdigg.com/blog/harness-effect-token-economics | Date: 2026-08-02T00:00:00.000Z | Author: TopDigg Research Team
-Tags: Harness, Token Economics, Agentic AI, Enterprise AI, Orchestration, Token Maxing, Cost Optimization, Agent Framework, Writer, arXiv
-
-Deep analysis of arXiv paper 2607.06906 — The Harness Effect. Systematic coverage of Token Maxing, six mechanism families, Harness Leverage, and the design philosophy of enterprise Agent orchestration layers.
-
 ## Twitter Analysis Reports
 
 ###  (@)
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 44 blog posts | 4 Twitter analyses
+End of llms.txt | 45 blog posts | 4 Twitter analyses

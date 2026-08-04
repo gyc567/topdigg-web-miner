@@ -1,6 +1,50 @@
 {
   "posts": [
     {
+      "slug": "autoharness-analysis",
+      "date": "2026-08-04T00:00:00.000Z",
+      "title": {
+        "zh-Hans": "AutoHarness 深度解析：用树搜索让「小模型 + Harness」胜过「大模型」——为 LLM 智能体自动合成代码护栏的开源 Rust 库",
+        "zh-Hant": "AutoHarness 深度解析：用樹狀搜尋讓「小模型 + Harness」勝過「大模型」——為 LLM Agent 自動合成程式碼護欄的開源 Rust 函式庫",
+        "en": "AutoHarness Deep Dive: How \"Small Model + Harness\" Beats \"Large Model\" — an Open-Source Rust Library That Automatically Synthesizes Code Harnesses for LLM Agents",
+        "ja": "AutoHarness 徹底解説：「小モデル + Harness」が「大モデル」を上回る仕組み——LLM エージェント向けコードハーネスを自動合成するオープンソース Rust ライブラリ"
+      },
+      "description": {
+        "zh-Hans": "全面解析 gyc567 开源的 AutoHarness——一个用 Rust 编写的库与 CLI 工具，它自动为 LLM 智能体「合成并优化代码 Harness」，复现 AutoHarness 论文（arXiv:2603.03329）的核心方法。用树搜索 + Thompson 采样迭代精化 Harness 代码，在 145 个 TextArena 游戏上平均 14.5 次迭代达到 100% 合法动作率，实证「小模型 + Harness > 大模型」的观点。从核心思想、架构模块、设计哲学到完整教程、功能清单与归纳结论，一文讲透。",
+        "zh-Hant": "全面解析 gyc567 開源的 AutoHarness——一個用 Rust 撰寫的函式庫與 CLI 工具，它自動為 LLM Agent「合成並最佳化程式碼 Harness」，重現 AutoHarness 論文（arXiv:2603.03329）的核心方法。用樹狀搜尋 + Thompson 取樣迭代精化 Harness 程式碼，在 145 個 TextArena 遊戲上平均 14.5 次迭代達到 100% 合法動作率，實證並落實「小模型 + Harness > 大模型」的觀點。從核心思想、架構模組、設計哲學到完整教學、功能清單與歸納結論，一文講透。",
+        "en": "A complete analysis of AutoHarness by gyc567 — a Rust library and CLI tool that automatically synthesizes and optimizes code harnesses for LLM agents, implementing the approach from the AutoHarness paper (arXiv:2603.03329). Using tree search with Thompson sampling to iteratively refine harness code, it reaches a 100% legal action rate in an average of 14.5 iterations across 145 TextArena games — empirically validating the claim 'small model + harness > large model without harness.' From core ideas and architecture to design philosophy, a full tutorial, feature list, and key takeaways, this article covers it all.",
+        "ja": "gyc567 が公開した AutoHarness を徹底解説——Rust 製のライブラリ兼 CLI ツールで、LLM エージェント向けのコードハーネスを自動的に「合成・最適化」します。AutoHarness 論文（arXiv:2603.03329）の手法を再現し、木探索 + Thompson サンプリングでハーネスコードを反復改良。145 の TextArena ゲームで平均 14.5 イテレーションで 100% の合法アクション率に到達し、「小モデル + Harness > 大モデル」という主張を実証しています。コア思想、アーキテクチャ、設計哲学から、チュートリアル、機能一覧、結論までを 1 記事で網羅。"
+      },
+      "tags": [
+        "AutoHarness",
+        "LLM Agents",
+        "Code Harness",
+        "Tree Search",
+        "Thompson Sampling",
+        "Rust",
+        "AI Safety",
+        "TextArena",
+        "LLM",
+        "Sandbox"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "keywords": [
+        "AutoHarness",
+        "LLM 智能体",
+        "代码 Harness",
+        "树搜索",
+        "Thompson 采样",
+        "Rust",
+        "AI 安全",
+        "TextArena",
+        "代码合成",
+        "沙箱执行",
+        "LLM Agent"
+      ]
+    },
+    {
       "slug": "system-design-primer-analysis",
       "date": "2026-08-04T00:00:00.000Z",
       "title": {
