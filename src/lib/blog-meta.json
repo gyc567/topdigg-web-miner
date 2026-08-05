@@ -1,6 +1,37 @@
 {
   "posts": [
     {
+      "slug": "openai-evals-analysis",
+      "title": {
+        "en": "OpenAI Evals Deep Dive: The 19K Star LLM Evaluation Framework — Build Quality Benchmarks Without Writing Code",
+        "ja": "OpenAI Evals まとめ：19K Star の LLM 評価フレームワーク——コードを書かずに高品質ベンチマークを構築",
+        "zh-Hans": "OpenAI Evals 深度解析：19K Star 的 LLM 评估框架——不写代码也能构建高质量评测",
+        "zh-Hant": "OpenAI Evals 深度解析：19K Star 的 LLM 評估框架——不寫代碼也能構建高質量評測"
+      },
+      "description": {
+        "en": "Complete analysis of OpenAI Evals — OpenAI official LLM evaluation framework, 19,105 Stars. Core idea: building high-quality evaluations is the most impactful thing you can do. Two eval paradigms: basic (Match/Includes/FuzzyMatch/JsonMatch) and model-graded (fact/closedqa/battle). YAML config only, zero eval code.",
+        "ja": "OpenAI Evals——OpenAI 公式の LLM 評価フレームワークの完全解析。19,105 Star。核心思想：高品質な評価を構築することが最もインパクトのある行動。2 つの評価パラダイム、YAML 設定のみで実行可能。",
+        "zh-Hans": "全面解析 OpenAI Evals——OpenAI 官方出品的 LLM 评估框架，19,105 Star。核心思想：构建高质量评估是最有影响力的事。两种评估范式，YAML 配置即可运行，无需编写评估代码。",
+        "zh-Hant": "全面解析 OpenAI Evals——OpenAI 官方出品的 LLM 評估框架，19,105 Star。核心思想：構建高質量評估是最有影響力的事。兩種評估範式，YAML 配置即可運行，無需編寫評估代碼。"
+      },
+      "date": "2026-08-05",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "OpenAI",
+        "Evals",
+        "LLM",
+        "Evaluation",
+        "Benchmark",
+        "Python",
+        "GPT",
+        "Testing",
+        "AI"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
       "slug": "loop-engineering-practical-guide",
       "title": {
         "en": "Loop Engineering Practical Guide: How to Build AI Agent Loops That Self-Improve",
