@@ -1,6 +1,37 @@
 {
   "posts": [
     {
+      "slug": "loop-engineering-orange-book",
+      "title": {
+        "en": "Loop Engineering Orange Book Deep Dive: Stop Asking Me What It Is — From Prompter to System Designer",
+        "ja": "Loop Engineering オレンジブック徹底解説：Loop Engineering って何？もう聞くな——「プロンプター」から「システム設計者」へ",
+        "zh-Hans": "Loop Engineering 橙皮书深度解析：别再问我什么是 Loop Engineering——从「提示者」到「系统设计者」",
+        "zh-Hant": "Loop Engineering 橙皮書深度解析：別再問我什麼是 Loop Engineering——從「提示者」到「系統設計者」"
+      },
+      "description": {
+        "en": "A complete analysis of the Loop Engineering Orange Book (v260615, MIT) by HuaShu (花叔) — a free open-source PDF book explaining loop engineering in plain language. Core idea: stop being the person who prompts the agent — design the system that prompts it for you. Covers the prompt→context→harness→loop stack, the five moves + memory, why an AI can't grade its own code, three real loops (Addy's morning triage / Stripe's Minions / the scheduling reality), four costs (verification debt / comprehension rot / token blowout / cognitive surrender), a full §01–§09 chapter tutorial, and a hands-on guide to building your first loop today.",
+        "ja": "花叔（HuaShu）がオープンソース公開した『Loop Engineering オレンジブック』を完全解説——Loop Engineering を平易に解説する無料 PDF 書籍（v260615、MIT）。核心思想：AI に手動でプロンプトする人であるのをやめ、代わりに AI にプロンプトするシステムを設計せよ。4層スタック、5つの動き + メモリ、AI が自分のコードを採点できない理由、3つの実例ループ、4つのコスト、§01〜§09 の章別チュートリアルと実践ガイド。",
+        "zh-Hans": "全面解析花叔（HuaShu）开源的《Loop Engineering 橙皮书》——用大白话讲透 Loop Engineering 的免费 PDF 书籍（v260615，MIT）。核心思想：别再当那个手动提示 AI 的人，去设计一个替你提示 AI 的系统。涵盖四层栈、五个动作 + 记忆、为什么 AI 不能给自己的代码打分、三个真实循环案例、四种代价，以及从 §01 到 §09 的完整章节教程与「今天构建第一个循环」的实操指南。",
+        "zh-Hant": "全面解析花叔（HuaShu）開源的《Loop Engineering 橙皮書》——用大白話講透 Loop Engineering 的免費 PDF 書籍（v260615，MIT）。核心思想：別再當那個手動提示 AI 的人，去設計一個替你提示 AI 的系統。涵蓋四層棧、五個動作 + 記憶、為什麼 AI 不能給自己的程式碼打分、三個真實循環案例、四種代價，以及從 §01 到 §09 的完整章節教程與「今天構建第一個循環」的實作指南。"
+      },
+      "date": "2026-08-06",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Loop Engineering",
+        "Orange Book",
+        "AI Agent",
+        "Harness",
+        "Claude Code",
+        "Codex",
+        "MCP",
+        "HuaShu",
+        "Automation"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
       "slug": "openai-evals-analysis",
       "title": {
         "en": "OpenAI Evals Deep Dive: The 19K Star LLM Evaluation Framework — Build Quality Benchmarks Without Writing Code",
