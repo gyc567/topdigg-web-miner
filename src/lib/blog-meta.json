@@ -1,6 +1,37 @@
 {
   "posts": [
     {
+      "slug": "loop-engineering-substack-analysis",
+      "title": {
+        "en": "Loop Engineering Deep Dive (Cobus Greyling's Original): Stop Prompting Agents — Design the Loop That Discovers Work, Assigns Tasks, and Verifies Results",
+        "ja": "Loop Engineering 徹底解説（Cobus Greyling 原著）：エージェントへのプロンプトをやめ——仕事を検索し、タスクを割り当て、結果を検証するループを設計せよ",
+        "zh-Hans": "Loop Engineering 深度解析（Cobus Greyling 原作）：别再逐轮提示 AI——设计一个会自己发现工作、派发任务、验证结果的循环系统",
+        "zh-Hant": "Loop Engineering 深度解析（Cobus Greyling 原著）：別再提示詞 AI——設計一個會自己發現、調度、循環的系統"
+      },
+      "description": {
+        "en": "A complete analysis of Cobus Greyling's original Substack post 'Loop Engineering' (2026-06-09). Core idea: the shift from prompting coding agents turn-by-turn to designing a system (the loop) that discovers work, hands tasks to (sub-)agents, verifies results, persists state, and decides the next action — on a schedule or until a goal is met. Covers the concept evolution (Context Engineering → Harness Engineering → Loop Engineering), the harness/loop division of labor, the five building blocks + memory (Automations/Scheduling, Worktrees, Skills, Plugins & Connectors, Sub-agents + Memory), first-hand voices (Boris Cherny, Peter Steinberger, Addy Osmani), the tool-agnostic convergence of Grok/Codex/Claude Code primitives, and the realities not to skip (token costs, comprehension debt, cognitive surrender).",
+        "ja": "Cobus Greyling の Substack 公開記事『Loop Engineering』（2026-06-09）を完全解説。核心思想：コーディングエージェントへの逐ターンプロンプトから、仕事を発見・タスクを割り当て・結果を検証・状態を永続化・次を決めるループの設計へのシフト。概念の進化、ハーネスとループの分業、五大ビルディングブロック＋メモリ、Boris Cherny / Peter Steinberger / Addy Osmani の実践見解、Grok/Codex/Claude Code の収束、飛ばせない現実（token コスト、深検負債、認知的降伏）。",
+        "zh-Hans": "以 Cobus Greyling 在 Substack 发表的原版文章《Loop Engineering》为蓝本，完整解析这一 AI 编码范式的核心。核心思想：从「你逐回合提示编码代理」转向「你设计一个循环系统（the loop）」，让它按调度或直到目标达成为止自动发现工作、派发任务、验证结果、持久化状态、决定下一步。涵盖概念演进、五大构建块 + 记忆、三工具对拍、三位一线观点，以及回避者遗漏的现实代价。",
+        "zh-Hant": "以 Cobus Greyling 在 Substack 發表的原論文《Loop Engineering》為藍本，完整解析這一 AI 編碼範式的核心。核心思想：從「你逐回合提示編碼代理」轉向「你設計一個循環（the loop）」，讓它按調度或直到目標達成為止，自動發現工作、派發任務、驗證結果、持久化狀態、決定下一步。涵蓋概念演進、五大構建塊＋記憶、三工具對拍、三位一線觀點與不可忽略的現實代價。"
+      },
+      "date": "2026-08-06",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Loop Engineering",
+        "Cobus Greyling",
+        "AI Agent",
+        "Harness Engineering",
+        "Context Engineering",
+        "Claude Code",
+        "Grok",
+        "Codex",
+        "MCP"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
       "slug": "loop-engineering-orange-book",
       "title": {
         "en": "Loop Engineering Orange Book Deep Dive: Stop Asking Me What It Is — From Prompter to System Designer",
