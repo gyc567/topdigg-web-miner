@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "slug": "loop-engineering-addy-osmani",
+      "title": {
+        "en": "Loop Engineering Deep Dive (Addy Osmani's Original): Stop Prompting AI Turn-by-Turn — Design a Loop That Finds Work, Hands It Out, and Verifies Results, Then Stay the Engineer",
+        "ja": "Loop Engineering 徹底解説（Addy Osmani 原著）：ターンごとの AI プロンプトをやめよ——仕事を発見し、割り当て、検証するループを設計せよ。そしてエンジニアであり続けよ",
+        "zh-Hans": "Loop Engineering 深度解析（Addy Osmani 原作）：别再逐轮提示 AI——设计一个会自己发现工作、分配任务、验证结果的循环系统，然后留在工程师的位置",
+        "zh-Hant": "Loop Engineering 深度解析（Addy Osmani 原著）：別再逐輪提示 AI——設計一個會自己發現工作、分配任務、驗證結果的循環系統，然後留在工程師的位置"
+      },
+      "description": {
+        "en": "A complete analysis of Addy Osmani's original blog post 'Loop Engineering' (2026-06-07). Core idea: loop engineering is replacing yourself as the person who prompts the agent — a loop is a recursive goal where you define a purpose and the AI iterates until complete. Opens with Peter Steinberger ('designing loops that prompt your agents') and Boris Cherny ('my job is to write loops'). Covers: the loop sitting one floor above the harness, the five building blocks + memory (Automations / Worktrees / Skills / Plugins & Connectors / Sub-agents + Memory), the Codex vs Claude Code primitive mapping, what one complete loop looks like, the tool-agnostic insight, and the three things the loop still does not do for you (verification, comprehension rot, cognitive surrender). Closing maxim: Build the loop. Stay the engineer.",
+        "ja": "Addy Osmani（Google 元幹部、Google Cloud AI エンジニアリングディレクター）のオリジナル記事『Loop Engineering』（2026-06-07）を完全解説。核心思想：loop engineering とは『エージェントにプロンプトを送る自分自身を、あなたが設計したシステムで置き換えること』——ループとは再帰的ゴール。Peter Steinberger と Boris Cherny の二大名言、harness の一階層上に座るループ、5つの構成要素＋記憶、Codex と Claude Code のプリミティブ対比、完全なループの姿、ループが代わりにやってくれない3つのこと（検証、理解の腐敗、認知の降伏）。結びの金言：Build the loop. Stay the engineer.",
+        "zh-Hans": "以 Addy Osmani 在个人博客发表的原版文章《Loop Engineering》（2026-06-07）为蓝本，完整解析这一 AI 编码新范式。核心思想：loop engineering 是「用你设计的系统取代'提示 agent 的那个人'」——loop 是递归目标。开篇引用 Peter Steinberger（设计会提示代理的循环）与 Boris Cherny（我的工作是写循环）。涵盖：loop 站在 harness 之上、五大构建块 + 记忆、Codex 与 Claude Code 原语对拍、完整循环长什么样、工具无关性，以及循环不替你做的三件事（验证、理解腐化、认知投降）。结尾金句：Build the loop. Stay the engineer.",
+        "zh-Hant": "以 Addy Osmani 在個人部落格發表的原版文章《Loop Engineering》（2026-06-07）為藍本，完整解析這一 AI 編碼新典範。核心思想：loop engineering 是「用你設計的系統取代『提示 agent 的那個人』」——loop 是遞迴目標。開篇引用 Peter Steinberger（設計會提示代理的循環）與 Boris Cherny（我的工作是寫循環）。涵蓋：loop 站在 harness 之上、五大建構塊＋記憶、Codex 與 Claude Code 原語對拍、完整循環長什麼樣、工具無關性，以及循環不替你做的三件事（驗證、理解腐化、認知投降）。結尾金句：Build the loop. Stay the engineer."
+      },
+      "date": "2026-08-06",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Loop Engineering",
+        "Addy Osmani",
+        "AI Agent",
+        "Claude Code",
+        "Codex",
+        "Automations",
+        "Worktrees",
+        "Skills",
+        "Sub-agents",
+        "MCP",
+        "Harness Engineering",
+        "Cognitive Surrender"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
       "slug": "loop-engineering-substack-analysis",
       "title": {
         "en": "Loop Engineering Deep Dive (Cobus Greyling's Original): Stop Prompting Agents — Design the Loop That Discovers Work, Assigns Tasks, and Verifies Results",

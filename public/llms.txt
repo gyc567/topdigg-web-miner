@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-06T02:44:02.575Z
+Generated: 2026-08-06T03:32:25.751Z
 
 ## Site Overview
 
@@ -20,6 +20,12 @@ We cover trending topics and business opportunities across Reddit, YouTube, and 
 | External Links | https://topdigg.com/external-links | Curated external resources |
 
 ## Latest Blog Posts (10 most recent)
+
+### Loop Engineering Deep Dive (Addy Osmani's Original): Stop Prompting AI Turn-by-Turn — Design a Loop That Finds Work, Hands It Out, and Verifies Results, Then Stay the Engineer
+URL: https://topdigg.com/blog/loop-engineering-addy-osmani | Date: 2026-08-06 | Author: TopDigg Research Team
+Tags: Loop Engineering, Addy Osmani, AI Agent, Claude Code, Codex, Automations, Worktrees, Skills, Sub-agents, MCP, Harness Engineering, Cognitive Surrender
+
+A complete analysis of Addy Osmani's original blog post 'Loop Engineering' (2026-06-07). Core idea: loop engineering is replacing yourself as the person who prompts the agent — a loop is a recursive goal where you define a purpose and the AI iterates until complete. Opens with Peter Steinberger ('de
 
 ### Loop Engineering Deep Dive (Cobus Greyling's Original): Stop Prompting Agents — Design the Loop That Discovers Work, Assigns Tasks, and Verifies Results
 URL: https://topdigg.com/blog/loop-engineering-substack-analysis | Date: 2026-08-06 | Author: TopDigg Research Team
@@ -75,12 +81,6 @@ Tags: DwarfStar, ds4, antirez, DeepSeek V4, LLM Inference, Metal, CUDA, ROCm, Lo
 
 A complete analysis of DwarfStar (ds4) by antirez (Salvatore Sanfilippo, Redis creator) — a small native inference engine purpose-built for DeepSeek V4 Flash/PRO and GLM 5.2. In ~65,000 lines of C it delivers Metal/CUDA/ROCm backends, SSD streaming, pipeline parallelism, DSpark speculative decoding,
 
-### AutoHarness Deep Dive: How "Small Model + Harness" Beats "Large Model" — an Open-Source Rust Library That Automatically Synthesizes Code Harnesses for LLM Agents
-URL: https://topdigg.com/blog/autoharness-analysis | Date: 2026-08-04T00:00:00.000Z | Author: undefined
-Tags: AutoHarness, LLM Agents, Code Harness, Tree Search, Thompson Sampling, Rust, AI Safety, TextArena, LLM, Sandbox
-
-A complete analysis of AutoHarness by gyc567 — a Rust library and CLI tool that automatically synthesizes and optimizes code harnesses for LLM agents, implementing the approach from the AutoHarness paper (arXiv:2603.03329). Using tree search with Thompson sampling to iteratively refine harness code,
-
 ## Twitter Analysis Reports
 
 ###  (@)
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 54 blog posts | 4 Twitter analyses
+End of llms.txt | 55 blog posts | 4 Twitter analyses
