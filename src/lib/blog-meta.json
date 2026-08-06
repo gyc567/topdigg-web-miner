@@ -1,6 +1,41 @@
 {
   "posts": [
     {
+      "slug": "loop-engineering-langchain",
+      "title": {
+        "en": "The Art of Loop Engineering Deep Dive (Official LangChain): Four Stacked Loops — From the Agent Loop to the Verification, Event-Driven, and Hill-Climbing Loops, with the LangChain Primitive for Each Layer",
+        "ja": "The Art of Loop Engineering 徹底解説（LangChain 公式）：4つのループの積み重ね——Agent ループから検証ループ、イベント駆動ループ、山登り改善ループへ、各層の LangChain プリミティブ",
+        "zh-Hans": "The Art of Loop Engineering 深度解析（LangChain 官方）：四层循环堆叠——从 Agent 循环到验证循环、事件驱动循环与爬山改进循环，以及每层对应的 LangChain 原语",
+        "zh-Hant": "The Art of Loop Engineering 深度解析（LangChain 官方）：四層循環堆疊——從 Agent 循環到驗證循環、事件驅動循環與爬山改進循環，以及每層對應的 LangChain 原語"
+      },
+      "description": {
+        "en": "A complete analysis of LangChain's official blog post 'The Art of Loop Engineering' (Sydney Runkle, 2026-06-16). Core idea: the core agent algorithm is itself a loop — give the LLM context and let it call tools until done — but it's far from the only loop. Borrowing swyx's loopcraft, LangChain proposes four stacked loops: ① Agent loop (create_agent), ② Verification loop (RubricMiddleware / after_agent hook, LLM-as-judge), ③ Event driven loop (LangSmith Deployment cron/webhooks, Fleet channels, OpenClaw heartbeats), ④ Hill climbing loop (LangSmith Engine — traces feed an analysis agent that rewrites the harness config; extendable to RL fine-tuning). Key move: the return arrow reaches inside and updates the agent loop directly. Automation doesn't mean removing humans — every level has natural oversight points. Closes with Satya Nadella on learning loops as a hard-to-replicate advantage.",
+        "ja": "LangChain 公式ブログ『The Art of Loop Engineering』（Sydney Runkle、2026-06-16）を完全解説。核心思想：コアな agent アルゴリズム自体がループだが、それは唯一のループではない。swyx の loopcraft を借用し4層のループを提示：① Agent loop（create_agent）、② Verification loop（RubricMiddleware／after_agent hook、LLM-as-judge）、③ Event driven loop（LangSmith Deployment の cron/webhooks、Fleet channels、OpenClaw heartbeats）、④ Hill climbing loop（LangSmith Engine——trace が分析エージェントに供給され harness 設定を書き換え、RL ファインチューニングにも拡張可能）。要点：戻り矢印が内部に届いて agent ループを直接更新する。自動化は人間の排除を意味せず、各層に自然な監視ポイントがある。結びに Satya Nadella の学習ループ論。",
+        "zh-Hans": "以 LangChain 官方博客《The Art of Loop Engineering》（Sydney Runkle，2026-06-16）为蓝本，完整解析 LangChain 的循环堆叠（loopcraft）世界观。核心思想：核心 agent 算法本身就是循环——给 LLM 上下文循环调用工具直到完成——但远非唯一。四层循环：① Agent loop（create_agent）、② 验证循环（RubricMiddleware/after_agent hook，LLM-as-judge 经典实现）、③ 事件驱动循环（LangSmith Deployment cron/webhooks、Fleet channels、OpenClaw heartbeats）、④ 爬山改进循环（LangSmith Engine——trace 喂给分析 agent 重写 harness 配置，可外推 RL 微调）。关键动作：返回箭头伸进内部直接更新 agent 循环。自动化不等于移除人类，每层都有天然监督点。结尾引用 Satya Nadella 的学习循环护城河论。",
+        "zh-Hant": "以 LangChain 官方部落格《The Art of Loop Engineering》（Sydney Runkle，2026-06-16）為藍本，完整解析 LangChain 的循環堆疊（loopcraft）世界觀。核心思想：核心 agent 演算法本身就是循環——給 LLM 上下文循環呼叫工具直到完成——但遠非唯一。四層循環：① Agent loop（create_agent）、② 驗證循環（RubricMiddleware/after_agent hook，LLM-as-judge 經典實作）、③ 事件驅動循環（LangSmith Deployment cron/webhooks、Fleet channels、OpenClaw heartbeats）、④ 爬山改進循環（LangSmith Engine——trace 餵給分析 agent 重寫 harness 設定，可外推 RL 微調）。關鍵動作：返回箭頭伸進內部直接更新 agent 循環。自動化不等於移除人類，每層都有天然監督點。結尾引用 Satya Nadella 的學習循環護城河論。"
+      },
+      "date": "2026-08-06",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Loop Engineering",
+        "LangChain",
+        "LangSmith",
+        "AI Agent",
+        "loopcraft",
+        "swyx",
+        "create_agent",
+        "RubricMiddleware",
+        "LLM-as-Judge",
+        "Deep Agents",
+        "LangGraph",
+        "Fleet",
+        "Satya Nadella"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
       "slug": "loop-engineering-addy-osmani",
       "title": {
         "en": "Loop Engineering Deep Dive (Addy Osmani's Original): Stop Prompting AI Turn-by-Turn — Design a Loop That Finds Work, Hands It Out, and Verifies Results, Then Stay the Engineer",

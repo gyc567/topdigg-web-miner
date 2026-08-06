@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-06T03:32:25.751Z
+Generated: 2026-08-06T03:35:16.243Z
 
 ## Site Overview
 
@@ -20,6 +20,12 @@ We cover trending topics and business opportunities across Reddit, YouTube, and 
 | External Links | https://topdigg.com/external-links | Curated external resources |
 
 ## Latest Blog Posts (10 most recent)
+
+### The Art of Loop Engineering Deep Dive (Official LangChain): Four Stacked Loops — From the Agent Loop to the Verification, Event-Driven, and Hill-Climbing Loops, with the LangChain Primitive for Each Layer
+URL: https://topdigg.com/blog/loop-engineering-langchain | Date: 2026-08-06 | Author: TopDigg Research Team
+Tags: Loop Engineering, LangChain, LangSmith, AI Agent, loopcraft, swyx, create_agent, RubricMiddleware, LLM-as-Judge, Deep Agents, LangGraph, Fleet, Satya Nadella
+
+A complete analysis of LangChain's official blog post 'The Art of Loop Engineering' (Sydney Runkle, 2026-06-16). Core idea: the core agent algorithm is itself a loop — give the LLM context and let it call tools until done — but it's far from the only loop. Borrowing swyx's loopcraft, LangChain propo
 
 ### Loop Engineering Deep Dive (Addy Osmani's Original): Stop Prompting AI Turn-by-Turn — Design a Loop That Finds Work, Hands It Out, and Verifies Results, Then Stay the Engineer
 URL: https://topdigg.com/blog/loop-engineering-addy-osmani | Date: 2026-08-06 | Author: TopDigg Research Team
@@ -75,12 +81,6 @@ Tags: OneTerm, Bastion Host, Jump Server, 4A Security, SSH, RDP, VNC, DevOps, Go
 
 A complete analysis of OneTerm by VeOps — a simple, lightweight, flexible enterprise bastion host built on the 4A security concept (Authentication, Authorization, Account, Audit). With a Go backend, Vue.js frontend, and Apache Guacamole proxy, it delivers multi-protocol secure access (SSH/RDP/VNC/Te
 
-### DwarfStar (ds4) Deep Dive: How antirez (Redis Creator) Built a Native LLM Inference Engine — a Vertically Integrated Solution for DeepSeek V4 Flash
-URL: https://topdigg.com/blog/ds4-analysis | Date: 2026-08-04T00:00:00.000Z | Author: undefined
-Tags: DwarfStar, ds4, antirez, DeepSeek V4, LLM Inference, Metal, CUDA, ROCm, Local LLM, Salvatore Sanfilippo
-
-A complete analysis of DwarfStar (ds4) by antirez (Salvatore Sanfilippo, Redis creator) — a small native inference engine purpose-built for DeepSeek V4 Flash/PRO and GLM 5.2. In ~65,000 lines of C it delivers Metal/CUDA/ROCm backends, SSD streaming, pipeline parallelism, DSpark speculative decoding,
-
 ## Twitter Analysis Reports
 
 ###  (@)
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 55 blog posts | 4 Twitter analyses
+End of llms.txt | 56 blog posts | 4 Twitter analyses
