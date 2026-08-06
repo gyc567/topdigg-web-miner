@@ -29,6 +29,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://topdigg.com/blog/cloudflare-agent-access-model-analysis</loc>
+    <lastmod>2026-08-06</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://topdigg.com/blog/loop-engineering-addy-osmani</loc>
     <lastmod>2026-08-06</lastmod>
     <priority>0.8</priority>
@@ -45,6 +50,11 @@
   </url>
   <url>
     <loc>https://topdigg.com/blog/loop-engineering-substack-analysis</loc>
+    <lastmod>2026-08-06</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/rtk-rust-token-killer</loc>
     <lastmod>2026-08-06</lastmod>
     <priority>0.8</priority>
   </url>

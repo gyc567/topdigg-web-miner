@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "slug": "rtk-rust-token-killer",
+      "title": {
+        "en": "RTK (Rust Token Killer) Deep Dive: A Single Rust Binary CLI Proxy That Cuts Up to 90% of the Bash Output Your Agent Reads — From the Four Compression Strategies and Auto-Rewrite Hook to the 64-Module Architecture",
+        "ja": "RTK（Rust Token Killer）徹底解説：単一 Rust バイナリの CLI プロキシが、エージェントが読む bash 出力を最大 90% 削減する——4つの圧縮戦略、Auto-Rewrite Hook から 64 モジュール構成まで",
+        "zh-Hans": "RTK（Rust Token Killer）深度解析：单 Rust 二进制 CLI 代理，把 agent 读到的 bash 输出砍掉最多 90%——从四大压缩策略、Auto-Rewrite Hook 到 64 模块架构的完整拆解",
+        "zh-Hant": "RTK（Rust Token Killer）深度解析：單 Rust 二進位 CLI 代理，把 agent 讀到的 bash 輸出砍掉最多 90%——從四大壓縮策略、Auto-Rewrite Hook 到 64 模組架構的完整拆解"
+      },
+      "description": {
+        "en": "A complete analysis of the viral open-source project rtk-ai/rtk (75k+ stars, Rust, Apache-2.0, default branch develop) — an 'LLM-context-aware CLI proxy'. Core idea: RTK intercepts shell commands and filters, groups, truncates, and deduplicates output before it reaches the LLM context — 'it cuts bash output, not your bill'. Single Rust binary, 100+ supported commands, ~5-15ms overhead per command, ~4.1MB in size. This article covers it all: the proxy pattern (Claude → RTK → git output redirection), the four compression strategies, the two hook strategies (Auto-Rewrite vs Suggest, 100% vs ~70-85% adoption), the five design principles (Single Responsibility / Minimal Overhead / Exit Code Preservation / Fail-Safe / Transparent), the six-phase command lifecycle (PARSE→ROUTE→EXECUTE→FILTER→PRINT→TRACK), the 12-strategy filtering taxonomy, SQLite token tracking with rtk gain analytics, the -v/-vv/-vvv and -u global flags, config.toml with failure tee fallback, integration with 15 AI tools (Claude Code/Gemini/Copilot/OpenCode and more), the privacy-first opt-in telemetry design, and the engineering philosophy and architecture decision records behind 75k stars (why Rust/SQLite/anyhow/Clap).",
+        "ja": "GitHub で爆発的に人気のオープンソースプロジェクト rtk-ai/rtk（75k+ stars、Rust、Apache-2.0、default branch develop）を徹底解説する「LLM コンテキスト向け CLI プロキシ」技術解説。核心思想：RTK はシェルコマンドをインターセプトし、出力が LLM コンテキストに届く前にフィルタリング・グループ化・トランケーション・重複排除を行う——「削るのは bash 出力であって、あなたの請求書ではない」。単一 Rust バイナリ、100+ 対応コマンド、1 コマンドあたり約 5〜15ms のオーバーヘッド、約 4.1MB。プロキシパターン（Claude → RTK → git の出力リダイレクト）、4つの圧縮戦略、Auto-Rewrite と Suggest の 2 つの Hook 戦略（100% vs 約 70〜85% の採用率）、5つの設計原則（Single Responsibility / Minimal Overhead / Exit Code Preservation / Fail-Safe / Transparent）、6 フェーズのコマンドライフサイクル（PARSE→ROUTE→EXECUTE→FILTER→PRINT→TRACK）、12 戦略のフィルタリング分類法、SQLite トークントラッキングと rtk gain 分析、-v/-vv/-vvv と -u のグローバルフラグ、config.toml と失敗時 tee フォールバック、15 の AI ツール統合（Claude Code/Gemini/Copilot/OpenCode など）、デフォルト無効のテレメトリ設計、そして 75k stars の背後にあるエンジニアリング哲学とアーキテクチャ決定記録（なぜ Rust/SQLite/anyhow/Clap なのか）までを 1 本の記事にまとめる。",
+        "zh-Hans": "以 GitHub 爆款开源项目 rtk-ai/rtk（75k+ stars、Rust、Apache-2.0、default branch develop）为蓝本，完整解析这一「面向 LLM 上下文的 CLI 代理」技术方案。核心思想：RTK 拦截 shell 命令，在输出到达 LLM 上下文之前先过滤、分组、截断、去重——「削减的是 bash 输出，不是你的账单」。单个 Rust 二进制、100+ 支持命令、每命令 ~5-15ms 开销、4.1MB 体积。一文讲透：代理模式（Claude → RTK → git 的输出重定向）、四种压缩策略、Auto-Rewrite 与 Suggest 两种 Hook 策略（100% vs ~70-85% 采纳率）、五大设计原则（Single Responsibility / Minimal Overhead / Exit Code Preservation / Fail-Safe / Transparent）、六阶段命令生命周期（PARSE→ROUTE→EXECUTE→FILTER→PRINT→TRACK）、12 种过滤策略分类法、SQLite 令牌追踪与 rtk gain 分析、-v/-vv/-vvv 与 -u 全局标志、config.toml 与失败 tee 回退、15 个 AI 工具集成（Claude Code/Gemini/Copilot/OpenCode 等）、telemetry 默认关闭的隐私设计，以及 75k star 背后的工程哲学与架构决策记录（为什么选 Rust/SQLite/anyhow/Clap）。",
+        "zh-Hant": "以 GitHub 爆款開源專案 rtk-ai/rtk（75k+ stars、Rust、Apache-2.0、default branch develop）為藍本，完整解析這一「面向 LLM 上下文的 CLI 代理」技術方案。核心思想：RTK 攔截 shell 命令，在輸出到達 LLM 上下文之前先過濾、分組、截斷、去重——「削減的是 bash 輸出，不是你的帳單」。單一 Rust 二進位、100+ 支援命令、每命令 ~5-15ms 開銷、4.1MB 體積。一文講透：代理模式（Claude → RTK → git 的輸出重定向）、四種壓縮策略、Auto-Rewrite 與 Suggest 兩種 Hook 策略（100% vs ~70-85% 採納率）、五大設計原則（Single Responsibility / Minimal Overhead / Exit Code Preservation / Fail-Safe / Transparent）、六階段命令生命週期（PARSE→ROUTE→EXECUTE→FILTER→PRINT→TRACK）、12 種過濾策略分類法、SQLite 令牌追蹤與 rtk gain 分析、-v/-vv/-vvv 與 -u 全域旗標、config.toml 與失敗 tee 回退、15 個 AI 工具整合（Claude Code/Gemini/Copilot/OpenCode 等）、telemetry 預設關閉的隱私設計，以及 75k star 背後的工程哲學與架構決策紀錄（為什麼選 Rust/SQLite/anyhow/Clap）。"
+      },
+      "date": "2026-08-06",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "RTK",
+        "Rust",
+        "Token Optimization",
+        "LLM",
+        "CLI",
+        "AI Agent",
+        "Claude Code",
+        "Token Killer",
+        "Developer Tools",
+        "SQLite",
+        "Proxy",
+        "Open Source"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
       "slug": "loop-engineering-langchain",
       "title": {
         "en": "The Art of Loop Engineering Deep Dive (Official LangChain): Four Stacked Loops — From the Agent Loop to the Verification, Event-Driven, and Hill-Climbing Loops, with the LangChain Primitive for Each Layer",

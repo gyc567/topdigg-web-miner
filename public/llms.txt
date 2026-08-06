@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-06T03:35:16.243Z
+Generated: 2026-08-06T14:57:22.176Z
 
 ## Site Overview
 
@@ -20,6 +20,12 @@ We cover trending topics and business opportunities across Reddit, YouTube, and 
 | External Links | https://topdigg.com/external-links | Curated external resources |
 
 ## Latest Blog Posts (10 most recent)
+
+### RTK (Rust Token Killer) Deep Dive: A Single Rust Binary CLI Proxy That Cuts Up to 90% of the Bash Output Your Agent Reads — From the Four Compression Strategies and Auto-Rewrite Hook to the 64-Module Architecture
+URL: https://topdigg.com/blog/rtk-rust-token-killer | Date: 2026-08-06 | Author: TopDigg Research Team
+Tags: RTK, Rust, Token Optimization, LLM, CLI, AI Agent, Claude Code, Token Killer, Developer Tools, SQLite, Proxy, Open Source
+
+A complete analysis of the viral open-source project rtk-ai/rtk (75k+ stars, Rust, Apache-2.0, default branch develop) — an 'LLM-context-aware CLI proxy'. Core idea: RTK intercepts shell commands and filters, groups, truncates, and deduplicates output before it reaches the LLM context — 'it cuts bas
 
 ### The Art of Loop Engineering Deep Dive (Official LangChain): Four Stacked Loops — From the Agent Loop to the Verification, Event-Driven, and Hill-Climbing Loops, with the LangChain Primitive for Each Layer
 URL: https://topdigg.com/blog/loop-engineering-langchain | Date: 2026-08-06 | Author: TopDigg Research Team
@@ -75,12 +81,6 @@ Tags: sentrux, AI Agent, Code Quality, Architecture, Rust, Static Analysis, MCP,
 
 A complete analysis of sentrux — a real-time architectural sensor that helps AI agents close the feedback loop, enabling recursive self-improvement of code quality. Pure Rust single binary, zero runtime dependencies, 52 languages via tree-sitter plugins. Live treemap visualization, 5 root cause metr
 
-### OneTerm Deep Dive: VeOps Open-Source Bastion Host — an Enterprise Security Access & Ops Audit Solution Based on the 4A Concept
-URL: https://topdigg.com/blog/oneterm-analysis | Date: 2026-08-04 | Author: TopDigg Research Team
-Tags: OneTerm, Bastion Host, Jump Server, 4A Security, SSH, RDP, VNC, DevOps, Go, VeOps
-
-A complete analysis of OneTerm by VeOps — a simple, lightweight, flexible enterprise bastion host built on the 4A security concept (Authentication, Authorization, Account, Audit). With a Go backend, Vue.js frontend, and Apache Guacamole proxy, it delivers multi-protocol secure access (SSH/RDP/VNC/Te
-
 ## Twitter Analysis Reports
 
 ###  (@)
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 56 blog posts | 4 Twitter analyses
+End of llms.txt | 57 blog posts | 4 Twitter analyses
