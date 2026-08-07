@@ -42,6 +42,45 @@
       "avgRetweets": "平均リツイート数",
       "noAnalyses": "まだ分析レポートがありません",
       "noAnalysesDesc": "素晴らしい Twitter 分析コンテンツを準備中です。お楽しみに！"
+    },
+    "about": {
+      "title": "私たちについて",
+      "seoDesc": "TopDiggはReddit、YouTube、Twitterのトレンドとビジネスチャンスを発掘するコンテンツプラットフォームです。",
+      "h1": "TopDiggについて",
+      "missionTitle": "私たちの使命",
+      "missionDesc": "TopDiggは、コンテンツクリエイター、起業家、マーケティング担当者がReddit、YouTube、Twitterでトレンドとビジネスチャンスを発見するのを支援します。データ駆動のアプローチでトップアカウントのコンテンツ戦略を分析し、実践的なインサイトを提供します。",
+      "whatTitle": "私たちの活動",
+      "item1Label": "Twitter 詳細分析：",
+      "item1Desc": "人気アカウントのTweet戦略、バイラルコンテンツ、成長パターンを分析。",
+      "item2Label": "Redditコラム：",
+      "item2Desc": "Redditコミュニティのトレンドを追跡し、新しいコミュニティとビジネスチャンスを発見。",
+      "item3Label": "YouTubeコラム：",
+      "item3Desc": "YouTube人気チャンネルのコンテンツ成長戦略を追跡。",
+      "connectTitle": "フォローする",
+      "contactTitle": "連絡先・寄稿",
+      "contactDesc": "分析してほしいTwitterアカウントやRedditコミュニティ、または寄稿したい場合は、お問い合わせください。"
+    },
+    "contact": {
+      "title": "お問い合わせ",
+      "seoDesc": "TopDiggチームへのお問い合わせ。",
+      "h1": "お問い合わせ",
+      "intro": "現在私たちは主にソーシャルメディアで読者と交流しています。",
+      "businessTitle": "ビジネス連携",
+      "businessDesc": "分析投稿やブランド連携、取材については、Twitter DMでお問い合わせください。"
+    },
+    "privacy": {
+      "title": "プライバシーポリシー",
+      "seoDesc": "TopDiggのプライバシーポリシー。",
+      "h1": "プライバシーポリシー",
+      "lastUpdated": "最終更新：2026年7月",
+      "collectTitle": "収集する情報",
+      "collectDesc": "TopDiggはコンテンツプラットフォームであり、主に公開情報を表示します。ユーザーの登録を必要とせず、個人情報を能動的に収集することもありません。サイト訪問時にIPアドレス、ブラウザタイプ、訪問ページなどの基本的な閲覧情報を収集する場合がありますが、サイト分析と改善のみに使用します。",
+      "cookieTitle": "Cookieの使用",
+      "cookieDesc": "Cookieを使用して言語設定を記憶します。トラッキングCookieは使用しません。",
+      "thirdTitle": "第三方リンク",
+      "thirdDesc": "サイトにはTwitter、YouTube、Redditなどの第三方サイトへのリンクが含まれています。",
+      "contactTitle": "お問い合わせ",
+      "contactDesc": "プライバシーポリシーに関するご質問は、Twitter @topdigg または Reddit r/topdigg でお問い合わせください。"
     }
   },
   "footer": {
@@ -52,6 +91,7 @@
     "zh-Hans": "简体中文",
     "zh-Hant": "繁體中文", 
     "en": "English",
-    "ja": "日本語"
+    "ja": "日本語",
+    "vi": "Tiếng Việt"
   }
 }

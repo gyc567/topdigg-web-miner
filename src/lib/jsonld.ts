@@ -47,6 +47,7 @@ export function makeWebsiteSchema(lang: SupportedLocale) {
         "zh-Hant": "挖掘 Reddit、YouTube、Twitter 的熱門趨勢與商業機會",
         en: "Discover trending topics and business opportunities across Reddit, YouTube, and Twitter.",
         ja: "Reddit、YouTube、Twitterのトレンドとビジネスチャンスを発掘。",
+        vi: "Khám phá xu hướng và cơ hội kinh doanh trên Reddit, YouTube và Twitter.",
       },
       lang
     ),

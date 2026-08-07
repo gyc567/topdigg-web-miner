@@ -12,8 +12,8 @@ import {
 } from "./locale";
 
 describe("supportedLocales", () => {
-  it("contains all four supported locales", () => {
-    expect(supportedLocales).toEqual(["zh-Hans", "zh-Hant", "en", "ja"]);
+  it("contains all five supported locales", () => {
+    expect(supportedLocales).toEqual(["zh-Hans", "zh-Hant", "en", "ja", "vi"]);
   });
 });
 
@@ -31,6 +31,7 @@ describe("countryToLocale", () => {
     ["HK", "zh-Hant"],
     ["MO", "zh-Hant"],
     ["JP", "ja"],
+    ["VN", "vi"],
     ["US", "en"],
     ["GB", "en"],
     ["", "en"],
@@ -41,6 +42,7 @@ describe("countryToLocale", () => {
   it("handles lowercase country codes", () => {
     expect(countryToLocale("cn")).toBe("zh-Hans");
     expect(countryToLocale("jp")).toBe("ja");
+    expect(countryToLocale("vn")).toBe("vi");
   });
 });
 
@@ -57,6 +59,8 @@ describe("normalizeLang", () => {
     ["en-US", "en"],
     ["ja", "ja"],
     ["ja-JP", "ja"],
+    ["vi", "vi"],
+    ["vi-VN", "vi"],
     ["", "zh-Hans"],
     ["fr", "en"],
   ])("normalizes %s to %s", (input, expected) => {
@@ -70,21 +74,24 @@ describe("localizeText", () => {
     "zh-Hant": "繁體中文",
     en: "English",
     ja: "日本語",
+    vi: "Tiếng Việt",
   };
 
   it("returns the requested locale value", () => {
     expect(localizeText(localized, "en")).toBe("English");
     expect(localizeText(localized, "ja")).toBe("日本語");
+    expect(localizeText(localized, "vi")).toBe("Tiếng Việt");
   });
 
-  it("falls back to default locale when requested locale is missing", () => {
+  it("falls back to English when requested locale is missing", () => {
     const partial = { "zh-Hans": "中文", en: "English" } as Record<SupportedLocale, string>;
-    expect(localizeText(partial, "ja")).toBe("中文");
+    expect(localizeText(partial, "ja")).toBe("English");
+    expect(localizeText(partial, "vi")).toBe("English");
   });
 
-  it("falls back to English if default locale is missing", () => {
-    const partial = { en: "English", ja: "日本語" } as Record<SupportedLocale, string>;
-    expect(localizeText(partial, "zh-Hans")).toBe("English");
+  it("falls back to default locale when both requested locale and English are missing", () => {
+    const partial = { "zh-Hans": "中文", ja: "日本語" } as Record<SupportedLocale, string>;
+    expect(localizeText(partial, "vi")).toBe("中文");
   });
 
   it("returns first available value when no known fallback exists", () => {
@@ -117,6 +124,7 @@ describe("ogLocaleMap", () => {
     expect(ogLocaleMap["zh-Hant"]).toBe("zh_TW");
     expect(ogLocaleMap.en).toBe("en_US");
     expect(ogLocaleMap.ja).toBe("ja_JP");
+    expect(ogLocaleMap.vi).toBe("vi_VN");
   });
 });
 
@@ -126,5 +134,6 @@ describe("htmlLangMap", () => {
     expect(htmlLangMap["zh-Hant"]).toBe("zh-Hant");
     expect(htmlLangMap.en).toBe("en");
     expect(htmlLangMap.ja).toBe("ja");
+    expect(htmlLangMap.vi).toBe("vi");
   });
 });

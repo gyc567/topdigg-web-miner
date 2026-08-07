@@ -24,7 +24,7 @@ This is a React-based content website built with Vite, TypeScript, and shadcn/ui
 - **Vite + React + TypeScript**: Modern build setup with SWC for fast compilation
 - **shadcn/ui**: UI component library based on Radix UI primitives
 - **React Router**: Client-side routing with routes defined in `src/App.tsx:28-34`
-- **Internationalization**: i18next with 4 supported locales (zh-Hans, zh-Hant, en, ja)
+- **Internationalization**: i18next with 5 supported locales (zh-Hans, zh-Hant, en, ja, vi)
 - **SEO**: Structured data and meta tags via react-helmet-async
 
 ### Key Directories
@@ -49,7 +49,7 @@ This is a React-based content website built with Vite, TypeScript, and shadcn/ui
 
 ### Internationalization System
 - **Language Detection**: Automatic detection via browser settings, query params (?lang=), or localStorage
-- **Supported Locales**: zh-Hans, zh-Hant, en, ja with fallback to first supported locale
+- **Supported Locales**: zh-Hans, zh-Hant, en, ja, vi with fallback to first supported locale
 - **Translation Keys**: Structured JSON files in `src/locales/[locale]/translation.json`
 - **Locale Utilities**: `src/lib/locale.ts` provides helper functions for locale handling
 

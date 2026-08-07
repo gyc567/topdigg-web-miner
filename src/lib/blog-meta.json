@@ -1,16 +1,197 @@
 {
   "posts": [
     {
+      "slug": "cloudflare-agent-access-model-analysis",
+      "title": {
+        "en": "Cloudflare's Agent Access Model Deep Dive: Never Trust the Run — Narrowing Zero Trust from the Network Boundary to a Single Action",
+        "ja": "Cloudflare エージェントアクセスモデル（Agent Access Model）徹底解説：ランを信頼するな——ゼロトラストをネットワーク境界から単一アクションへ収斂させる",
+        "vi": "Phân Tích Chuyên Sâu Mô Hình Truy Cập Agent Của Cloudflare: Never Trust the Run — Thu Hẹp Zero Trust Từ Ranh Giới Mạng Đến Một Hành Động Đơn Lẻ",
+        "zh-Hans": "Cloudflare 智能体访问模型（Agent Access Model）深度解析：不信任运行——把零信任从网络边界收敛到单次动作",
+        "zh-Hant": "Cloudflare 智慧代理存取模型（Agent Access Model）深度解析：不信任運行——把零信任從網路邊界收斂到單次動作"
+      },
+      "description": {
+        "en": "A complete analysis of Cloudflare's official blog paper 'The Agent Access Model' (by Matt Silverlock, 2026-08-05) — an access-control model built for AI agents. Core idea: Never Trust the Run. BeyondCorp removed implicit trust in the network; AAM removes implicit trust in the task execution graph. Authorization for one action does not carry over to the next — every action is evaluated in real time against three facts: who the agent is, what task it is authorized to perform, and which policy-relevant resources the graph has already touched. AAM is designed around four agent characteristics (ephemerality, machine speed, prompts-not-a-boundary, and permission composition across hops), argues for shrinking the capability set rather than only making single decisions smarter, and proposes five principles (short-lived bound credentials, enforcement at the harness/network layer, human approval as the exception, evidence-based grant review, and unidirectional capability state via the Trust Ratchet). Covers the six-component reference architecture (Identity Broker / Task-Bound Access Engine / Mediation Layer / Trust Ratchet / Grant Review Loop / Agent Activity Log), the full data-exfiltration walkthrough of a nightly reconciliation agent (t=0 dispatch → t=1 ratchet trigger → t=2 injection denied), human oversight without fatigue (the UAC lesson), and the unsolved multi-agent access-control problem (CI-Work measured 15.8%–50.9% privacy violation rates).",
+        "ja": "Cloudflare 公式ブログ論文『The Agent Access Model』（著者 Matt Silverlock、2026-08-05）を基に、AI エージェント向けアクセス制御モデル AAM を完全解説。核心思想：**ランを信頼するな（Never Trust the Run）**——BeyondCorp がネットワーク内の暗黙の信頼を排除したように、AAM はタスク実行グラフ内の暗黙の信頼を排除する。あるアクションの認可は次のアクションに引き継がれない——すべてのアクションは「エージェントが誰か、どのタスクの実行を認可されているか、グラフがすでに触れたポリシー関連リソースは何か」の3点でリアルタイム評価され、その累積状態はグラフの残存能力を狭めるだけ（広げることはない）。AAM はエージェントの4つの特性（短命性、機械速度、プロンプトは境界ではない、ホップを跨ぐ権限合成）に対応し、単一の意思決定を賢くするのではなく能力セットを小さくすることを主張。5原則（短期バインド付きクレデンシャル、ハーネス/ネットワーク層での強制、人間の承認は例外、証拠に基づく権限レビュー、トラスト・ラチェットによる単方向の能力縮小）を提示。リファレンスアーキテクチャ6コンポーネント（アイデンティティブローカー / タスク限定アクセスエンジン / 仲介層 / トラスト・ラチェット / グラントレビューループ / エージェントアクティビティログ）、夜間照合エージェントによるデータ窃取防止の完全ウォークスルー（t=0 ディスパッチ → t=1 ラチェット発動 → t=2 注入攻撃を拒否）、疲労しない人間による監督（UAC の教訓）、未解決のマルチエージェントアクセス制御問題（CI-Work 実測 15.8%〜50.9% のプライバシー違反率）まで詳説。",
+        "vi": "Một phân tích toàn diện về bài báo blog chính thức của Cloudflare 'The Agent Access Model' (của Matt Silverlock, 2026-08-05) — một mô hình kiểm soát truy cập được xây dựng cho AI agent. Ý tưởng cốt lõi: Never Trust the Run. BeyondCorp đã loại bỏ niềm tin ngầm định vào mạng; AAM loại bỏ niềm tin ngầm định vào đồ thị thực thi tác vụ. Ủy quyền cho một hành động không chuyển tiếp sang hành động tiếp theo — mọi hành động được đánh giá theo thời gian thực dựa trên ba sự thật: agent là ai, nó được ủy quyền thực hiện tác vụ gì, và đồ thị đã chạm vào những tài nguyên liên quan đến chính sách nào. AAM được thiết kế quanh bốn đặc điểm của agent (tính nhất thời, tốc độ máy móc, prompt-không-phải-ranh-giới, và sự kết hợp quyền hạn qua nhiều chặng), lập luận cho việc thu nhỏ tập khả năng thay vì chỉ làm cho các quyết định đơn lẻ thông minh hơn, và đề xuất năm nguyên tắc (thông tin xác thực ngắn hạn có ràng buộc, thực thi tại lớp harness/mạng, phê duyệt con người là ngoại lệ, đánh giá cấp quyền dựa trên bằng chứng, và trạng thái khả năng một chiều qua Trust Ratchet). Bao quát kiến trúc tham chiếu sáu thành phần (Identity Broker / Task-Bound Access Engine / Mediation Layer / Trust Ratchet / Grant Review Loop / Agent Activity Log), toàn bộ quy trình chống đánh cắp dữ liệu của một agent đối soát ban đêm (t=0 dispatch → t=1 ratchet kích hoạt → t=2 từ chối tiêm nhiễm), giám sát con người không mệt mỏi (bài học từ UAC), và vấn đề kiểm soát truy cập đa agent chưa được giải quyết (CI-Work đo tỷ lệ vi phạm quyền riêng tư 15,8%–50,9%).",
+        "zh-Hans": "以 Cloudflare 官方博客论文《The Agent Access Model》（作者 Matt Silverlock，2026-08-05）为蓝本，完整解析面向 AI 智能体的访问控制模型 AAM。核心思想：**不信任运行过程（Never Trust the Run）**——BeyondCorp 消除了网络中的隐式信任，AAM 消除任务执行图中的隐式信任，一个动作的授权不会延续到下一个动作，每个动作都依据三件事实时评估：智能体是谁、它被授权执行什么任务、该图已触达哪些策略相关资源。AAM 针对智能体四大特性（短暂性、机器速度、提示词非边界、跨跳组合权限）设计，主张缩小能力集而非仅优化单次决策，并提出五原则（短期绑定凭证、harness/网络层强制、人工审批为例外、基于证据的授权审查、信任棘轮单向收窄）。一文讲透：参考架构六大组件（身份代理 / 任务限定访问引擎 / 中介层 / 信任棘轮 / 授权审查循环 / 智能体活动日志）、夜间对账智能体阻止数据外泄的完整示例（t=0 调度 → t=1 触发棘轮 → t=2 拒绝注入攻击）、有人类监督却不会疲劳的设计（UAC 教训）、以及未解决的多主体访问控制难题（CI-Work 实测 15.8%-50.9% 隐私违规率）。",
+        "zh-Hant": "以 Cloudflare 官方部落格論文《The Agent Access Model》（作者 Matt Silverlock，2026-08-05）為藍本，完整解析面向 AI 智慧代理的存取控制模型 AAM。核心思想：**不信任運行過程（Never Trust the Run）**——BeyondCorp 消除了網路中的隱式信任，AAM 消除任務執行圖中的隱式信任，一個動作的授權不會延續到下一個動作，每個動作都依據三件事即時評估：智慧代理是誰、它被授權執行什麼任務、該圖已觸達哪些策略相關資源。AAM 針對智慧代理四大特性（短暫性、機器速度、提示詞非邊界、跨跳組合權限）設計，主張縮小能力集而非僅最佳化單次決策，並提出五原則（短期綁定憑證、harness/網路層強制、人工審批為例外、基於證據的授權審查、信任棘輪單向收窄）。一文講透：參考架構六大元件（身分代理 / 任務限定存取引擎 / 中介層 / 信任棘輪 / 授權審查循環 / 智慧代理活動日誌）、夜間對帳智慧代理阻止資料外洩的完整範例（t=0 排程 → t=1 觸發棘輪 → t=2 拒絕注入攻擊）、有人類監督卻不會疲勞的設計（UAC 教訓）、以及未解決的多主體存取控制難題（CI-Work 實測 15.8%-50.9% 隱私違規率）。"
+      },
+      "date": "2026-08-06",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Agent Access Model",
+        "AAM",
+        "Cloudflare",
+        "Zero Trust",
+        "AI Agent",
+        "Access Control",
+        "Trust Ratchet",
+        "MCP",
+        "BeyondCorp",
+        "Agent Security",
+        "Least Privilege",
+        "Zero Trust"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
+      "slug": "loop-engineering-addy-osmani",
+      "title": {
+        "en": "Loop Engineering Deep Dive (Addy Osmani's Original): Stop Prompting AI Turn-by-Turn — Design a Loop That Finds Work, Hands It Out, and Verifies Results, Then Stay the Engineer",
+        "ja": "Loop Engineering 徹底解説（Addy Osmani 原著）：ターンごとの AI プロンプトをやめよ——仕事を発見し、割り当て、検証するループを設計せよ。そしてエンジニアであり続けよ",
+        "vi": "Loop Engineering Đi Sâu (Bài Gốc Của Addy Osmani): Ngừng Nhắc AI Từng Bước — Thiết Kế Một Vòng Lặp Tự Tìm Việc, Phân Việc Và Kiểm Chứng Kết Quả, Rồi Vẫn Giữ Vai Trò Kỹ Sư",
+        "zh-Hans": "Loop Engineering 深度解析（Addy Osmani 原作）：别再逐轮提示 AI——设计一个能自己发现工作、分配任务、验证结果的循环系统，然后留在工程师的位置",
+        "zh-Hant": "Loop Engineering 深度解析（Addy Osmani 原著）：別再逐輪提示 AI——設計一個能自己發現工作、分配任務、驗證結果的循環系統，然後留在工程師的位置"
+      },
+      "description": {
+        "en": "A complete analysis of Addy Osmani's original blog post 'Loop Engineering' (2026-06-07) by the Google Cloud AI engineering director and former Chrome team member. Core idea: loop engineering is replacing yourself as the person who prompts the agent — a loop is a recursive goal where you define a purpose and the AI iterates until complete. Opens with the two quotes that frame the paradigm: Peter Steinberger ('You shouldn't be prompting coding agents anymore. You should be designing loops that prompt your agents.') and Anthropic Claude Code head Boris Cherny ('I don't prompt Claude anymore. I have loops running that prompt Claude and figuring out what to do. My job is to write loops.'). Covers: how loop sits one floor above the harness (runs on a timer, spawns sub-agents, feeds itself), the five building blocks + memory (Automations / Worktrees / Skills / Plugins & Connectors / Sub-agents + Memory), a primitive-by-primitive mapping between Codex app and Claude Code, what one complete loop looks like (morning automation → triage skill → isolated worktree → drafting/review sub-agents → connectors open the PR), the tool-agnostic insight (stop arguing about tools once the shape is the same), and the three things the loop still does NOT do for you (verification is still on you, comprehension rot, cognitive surrender). Closing maxim: Build the loop. Stay the engineer.",
+        "ja": "Addy Osmani（Google 元幹部、Google Cloud AI エンジニアリングディレクター）が個人ブログで公開したオリジナル記事『Loop Engineering』（2026-06-07）を完全解説。核心思想：loop engineering とは「エージェントにプロンプトを送る自分自身を、あなたが設計したシステムで置き換えること」——ループとは再帰的ゴール（recursive goal）であり、目的を定義すれば AI が完了まで反復する。冒頭で Peter Steinberger（「コーディングエージェントにプロンプトを送るのをやめろ。エージェントにプロンプトを送るループを設計すべきだ」）と Anthropic Claude Code 責任者 Boris Cherny（「私はもう Claude にプロンプトを送らない。私の代わりに Claude にプロンプトを送り、何をすべきか判断するループが動いている。私の仕事はループを書くことだ」）の二大名言がパラダイムを定める。収録内容：harness の一階層上に位置するループの概念（タイマーで動作し、サブエージェントを生み出し、自己給餌する）、5つの構成要素＋記憶（Automations/Worktrees/Skills/Plugins & Connectors/Sub-agents＋Memory）、Codex app と Claude Code のプリミティブ対比表、完全なループの姿（朝の自動化→トリアージスキル→worktree 分離→ドラフト/レビューのサブエージェント→コネクタが PR を開く）、ツール非依存の洞察、そしてループが代わりにやってくれない3つのこと（検証は依然あなたの責任、理解の腐敗、認知の降伏）。結びの金言：Build the loop. Stay the engineer.（ループを築け。だがエンジニアであり続けよ）。",
+        "vi": "Bài phân tích toàn diện về bài viết gốc 'Loop Engineering' (2026-06-07) của Addy Osmani — giám đốc kỹ thuật AI của Google Cloud và cựu thành viên nhóm Chrome. Ý tưởng cốt lõi: loop engineering là thay thế chính bạn — người đang nhắc agent — bằng một vòng lặp: một mục tiêu đệ quy nơi bạn xác định mục đích và AI lặp lại cho đến khi hoàn thành. Mở đầu bằng hai trích dẫn định khung cho toàn bộ mô hình: Peter Steinberger ('Bạn không nên nhắc coding agent nữa. Bạn nên thiết kế các vòng lặp nhắc agent của mình.') và trưởng nhóm Claude Code của Anthropic Boris Cherny ('Tôi không nhắc Claude nữa. Tôi có các vòng lặp đang chạy để nhắc Claude và quyết định việc cần làm. Công việc của tôi là viết vòng lặp.'). Bao quát: cách vòng lặp nằm một tầng trên harness (chạy theo timer, sinh sub-agent, tự nạp cho chính nó), năm khối xây dựng + bộ nhớ (Automations / Worktrees / Skills / Plugins & Connectors / Sub-agents + Memory), ánh xạ từng nguyên thủy giữa Codex app và Claude Code, một vòng lặp hoàn chỉnh trông như thế nào (automation buổi sáng → skill phân loại → worktree cô lập → sub-agent soạn thảo/rà soát → connector mở PR), hiểu biết không phụ thuộc công cụ (ngừng tranh cãi về công cụ khi hình dạng giống nhau), và ba điều vòng lặp vẫn KHÔNG làm thay bạn (kiểm chứng vẫn thuộc về bạn, sự mai một hiểu biết, đầu hàng nhận thức). Câu kết: Hãy xây vòng lặp. Vẫn là kỹ sư.",
+        "zh-Hans": "以 Addy Osmani（Google 前高管、Director of Engineering at Google Cloud AI）在个人博客发表的原版文章《Loop Engineering》（2026-06-07）为蓝本，完整解析这一 AI 编码新范式的核心。核心思想：loop engineering 是「用你设计的系统取代'提示 agent 的那个人'」——loop 是一个递归目标，你定义目的，AI 迭代直到完成。文章开篇引用 Peter Steinberger（'别再提示编码代理了，你应该设计会提示代理的循环'）与 Anthropic Claude Code 负责人 Boris Cherny（'我不再提示 Claude 了，我有正在运行的循环替我提示 Claude；我的工作是写循环'）。一文讲透：概念定位（loop 站在 harness 之上、按定时器运行、派生子代理、自我喂食）、五大构建块 + 记忆（Automations/Worktrees/Skills/Plugins & Connectors/Sub-agents + Memory）、Codex app 与 Claude Code 原语逐项对拍、一个完整循环长什么样（早晨自动化 → triage 技能 → worktree 隔离 → 子代理起草/审查 → 连接器开 PR）、以及循环不替你做的三件事（验证仍是你的责任、理解腐化、认知投降）。结尾金句：Build the loop. Stay the engineer.（建造循环，但留在工程师的位置）。",
+        "zh-Hant": "以 Addy Osmani（Google 前高階主管、Director of Engineering at Google Cloud AI）在個人部落格發表的原版文章《Loop Engineering》（2026-06-07）為藍本，完整解析這套 AI 編碼新範式的核心。核心思想：loop engineering 是「用你設計的系統取代『提示 agent 的那個人』」——loop 是一個遞迴目標，你定義目的，AI 迭代直到完成。文章開篇引用 Peter Steinberger（「別再提示編碼代理了，你應該設計會提示代理的循環」）與 Anthropic Claude Code 負責人 Boris Cherny（「我不再提示 Claude 了，我有正在運行的循環替我提示 Claude；我的工作是寫循環」）。一文講透：概念定位（loop 站在 harness 之上、按計時器運行、派生子代理、自我餵食）、五大建構塊 + 記憶（Automations/Worktrees/Skills/Plugins & Connectors/Sub-agents + Memory）、Codex app 與 Claude Code 原語逐項對拍、一個完整循環長什麼樣（早晨自動化 → triage 技能 → worktree 隔離 → 子代理起草/審查 → 連接器開 PR）、以及循環不替你做的三件事（驗證仍是你的責任、理解腐化、認知投降）。結尾金句：Build the loop. Stay the engineer.（建造循環，但留在工程師的位置）。"
+      },
+      "date": "2026-08-06",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Loop Engineering",
+        "Addy Osmani",
+        "AI Agent",
+        "Claude Code",
+        "Codex",
+        "Automations",
+        "Worktrees",
+        "Skills",
+        "Sub-agents",
+        "MCP",
+        "Harness Engineering",
+        "Cognitive Surrender"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
+      "slug": "loop-engineering-langchain",
+      "title": {
+        "en": "The Art of Loop Engineering Deep Dive (Official LangChain): Four Stacked Loops — From the Agent Loop to the Verification, Event-Driven, and Hill-Climbing Loops, with the LangChain Primitive for Each Layer",
+        "ja": "The Art of Loop Engineering 徹底解説（LangChain 公式）：4つのループの積み重ね——Agent ループから検証ループ、イベント駆動ループ、山登り改善ループへ、各層の LangChain プリミティブ",
+        "vi": "Nghệ Thuật Loop Engineering Phân Tích Chuyên Sâu (Bài Gốc LangChain): Bốn Vòng Lặp Xếp Chồng — Từ Agent Loop Đến Verification, Event-Driven và Hill-Climbing Loops, với Primitive LangChain Cho Từng Lớp",
+        "zh-Hans": "The Art of Loop Engineering 深度解析（LangChain 官方）：四层循环堆叠——从 Agent 循环到验证循环、事件驱动循环与爬山改进循环，以及每层对应的 LangChain 原语",
+        "zh-Hant": "The Art of Loop Engineering 深度解析（LangChain 官方）：四層循環堆疊——從 Agent 循環到驗證循環、事件驅動循環與爬山改進循環，以及每層對應的 LangChain 原語"
+      },
+      "description": {
+        "en": "A complete analysis of LangChain's official blog post 'The Art of Loop Engineering' (Sydney Runkle, 2026-06-16, 7 min read). Core idea: the core agent algorithm is itself a loop — give the LLM context and let it call tools in a loop until it's done. But it's far from the only loop that powers agents. Borrowing from swyx's 'loopcraft: the art of stacking loops', LangChain proposes four stacked loops: ① Agent loop (the model calls tools repeatedly until a task is complete — the create_agent primitive); ② Verification loop (a grader checks the agent's output against a rubric and sends it back with feedback when it falls short — RubricMiddleware / after_agent hook; LLM-as-judge is the classic implementation); ③ Event driven loop (events trigger agent runs — a new document lands, a schedule triggers, a webhook arrives — the agent becomes a component running continuously inside a larger system — LangSmith Deployment cron/webhooks, Fleet channels/schedules, OpenClaw heartbeats); ④ Hill climbing loop (every agent run produces a trace; an analysis agent reads those traces and uses the findings to rewrite the harness config — prompt/tool/grader tweaks — LangSmith Engine; extendable to RL fine-tuning and memory/retrieved-skill optimization). Key move: the return arrow of the fourth loop doesn't just loop back to the top — it reaches inside and updates the agent loop directly; each cycle of the outer loop makes the inner loops more effective. Automation does not mean removing humans: every level has natural human oversight points, and sensitive actions (financial transactions, DB operations) require live human review. Closes with Satya Nadella: companies that build learning loops early — where human judgment and token capital compound together — will build an advantage that's hard to replicate.",
+        "ja": "LangChain 公式ブログ『The Art of Loop Engineering』（著者 Sydney Runkle、2026-06-16、7分で読了）を完全解説。核心思想：コアな agent アルゴリズム自体がループ——LLM にコンテキストを与え、完了するまでツールをループで呼び出させる。だがこれは最も基本的なループに過ぎず、agent を動かす唯一のループではない。swyx の loopcraft（ループを積み重ねる技術）の思想を借用し、LangChain は4層のループを提案する：① Agent loop（モデルがタスク完了までツールを繰り返し呼ぶ——create_agent プリミティブ）；② Verification loop（grader が rubric に照らして出力をチェックし、不合格ならフィードバック付きで再試行——RubricMiddleware／after_agent hook。LLM-as-judge が古典的な実装）；③ Event driven loop（イベントが agent 実行をトリガーする——新ドキュメントの到着、cron スケジュール、webhook——agent はより大きなシステム内で継続的に動くコンポーネントになる——LangSmith Deployment の cron/webhooks、Fleet の channels/schedules、OpenClaw の heartbeats）；④ Hill climbing loop（すべての agent 実行が trace を生成し、分析エージェントが trace を読んで harness 設定を書き換える——プロンプト/ツール/grader の調整——LangSmith Engine。RL ファインチューニングやメモリ/スキル最適化にも拡張可能）。要点：第4ループの戻り矢印は頂上に戻るだけでなく、内部に届いて agent ループを直接更新する——外側ループの各サイクルが内側ループをより効果的にする。だが自動化は人間の排除を意味しない：各層に自然な人間監視ポイントがあり、機密性の高い操作（金融取引、DB 操作）にはライブでの人間レビューが必要。結びに Satya Nadella の言葉：学習ループを早期に構築する企業は、人間の判断とトークン資本が共に複利する場所で、再現が難しい優位性を築くだろう。",
+        "vi": "Một bài phân tích toàn diện về bài viết blog chính thức của LangChain 'The Art of Loop Engineering' (Sydney Runkle, 2026-06-16, 7 phút đọc). Ý tưởng cốt lõi: thuật toán agent cốt lõi tự nó là một vòng lặp — đưa ngữ cảnh cho LLM và để nó gọi công cụ trong một vòng lặp cho đến khi hoàn thành. Nhưng nó không phải là vòng lặp duy nhất làm nên sức mạnh của agent. Vay mượn từ 'loopcraft: the art of stacking loops' của swyx, LangChain đề xuất bốn vòng lặp xếp chồng: ① Agent loop (mô hình gọi công cụ lặp đi lặp lại cho đến khi nhiệm vụ hoàn tất — primitive create_agent); ② Verification loop (một bộ chấm điểm kiểm tra đầu ra của agent theo một bảng tiêu chí và gửi lại kèm phản hồi khi chưa đạt — RubricMiddleware / hook after_agent; LLM-as-judge là cách triển khai kinh điển); ③ Event driven loop (các sự kiện kích hoạt các lần chạy agent — một tài liệu mới được đưa vào, một lịch trình kích hoạt, một webhook đến — agent trở thành một thành phần chạy liên tục bên trong một hệ thống lớn hơn — LangSmith Deployment cron/webhooks, Fleet channels/schedules, OpenClaw heartbeats); ④ Hill climbing loop (mỗi lần chạy agent tạo ra một trace; một agent phân tích đọc các trace đó và dùng phát hiện để viết lại cấu hình harness — các tinh chỉnh prompt/tool/grader — LangSmith Engine; mở rộng được đến RL fine-tuning và tối ưu hóa memory/retrieved-skill). Động thái then chốt: mũi tên quay về của vòng lặp thứ tư không chỉ quay lại đỉnh — nó thò vào bên trong và cập nhật trực tiếp agent loop; mỗi chu kỳ của vòng lặp ngoài khiến các vòng lặp trong hiệu quả hơn. Tự động hóa không có nghĩa là loại bỏ con người: mọi cấp độ đều có điểm giám sát con người tự nhiên, và các hành động nhạy cảm (giao dịch tài chính, thao tác cơ sở dữ liệu) cần sự phê duyệt trực tiếp của con người. Kết lại bằng Satya Nadella: các công ty xây dựng learning loops sớm — nơi phán đoán con người và token capital tích lũy cùng nhau — sẽ xây dựng một lợi thế khó sao chép.",
+        "zh-Hans": "以 LangChain 官方博客《The Art of Loop Engineering》（作者 Sydney Runkle，2026-06-16，7 分钟阅读）为蓝本，完整解析 LangChain 眼中的\"循环堆叠\"（loopcraft）世界观。核心思想：核心 agent 算法本身就是一个循环——给 LLM 上下文，让它循环调用工具直到完成。但这只是最基础的循环，远非唯一。借鉴 swyx 的 loopcraft 思想，LangChain 提出四层循环：① Agent loop（模型循环调用工具直到任务完成，对应 create_agent）；② Verification loop（验证循环：grader 对照 rubric 检查输出，不合格则带反馈重试，对应 RubricMiddleware/after_agent hook，LLM-as-judge 是经典实现）；③ Event driven loop（事件驱动循环：事件触发 agent 运行——新文档落地、cron 调度、webhook 到达，agent 成为常驻组件，对应 LangSmith Deployment 的 cron/webhooks、Fleet 的 channels/schedules、OpenClaw 的 heartbeats）；④ Hill climbing loop（爬山循环：每个 agent 运行产生 trace，分析 agent 阅读 trace 并用发现重写 harness 配置——提示词/工具/grader 调整，对应 LangSmith Engine；还可外推至 RL 微调与记忆/技能优化）。文章强调：第四层（也许最重要）自动化的是\"改进本身\"，关键在于返回箭头不是回到顶部，而是直接伸进内部更新 agent 循环——外层循环的每一轮都让内层循环更有效。同时坚持\"自动化不等于移除人类\"：每一层都有天然的人类监督点，敏感动作（金融交易、数据库操作）需要实时人工审查。结尾引用 Satya Nadella：尽早建立学习循环的公司，人类判断与 token 资本复利，将构建难以复制的优势。",
+        "zh-Hant": "以 LangChain 官方部落格《The Art of Loop Engineering》（作者 Sydney Runkle，2026-06-16，7 分鐘閱讀）為藍本，完整解析 LangChain 眼中的「循環堆疊」（loopcraft）世界觀。核心思想：核心 agent 演算法本身就是一個循環——給 LLM 上下文，讓它循環呼叫工具直到完成。但這只是最基礎的循環，遠非唯一。借鑒 swyx 的 loopcraft 思想，LangChain 提出四層循環：① Agent loop（模型循環呼叫工具直到任務完成，對應 create_agent）；② Verification loop（驗證循環：grader 對照 rubric 檢查輸出，不合格則帶回饋重試，對應 RubricMiddleware/after_agent hook，LLM-as-judge 是經典實作）；③ Event driven loop（事件驅動循環：事件觸發 agent 執行——新文件落地、cron 排程、webhook 到達，agent 成為常駐元件，對應 LangSmith Deployment 的 cron/webhooks、Fleet 的 channels/schedules、OpenClaw 的 heartbeats）；④ Hill climbing loop（爬山循環：每個 agent 執行產生 trace，分析 agent 閱讀 trace 並用發現重寫 harness 設定——提示詞/工具/grader 調整，對應 LangSmith Engine；還可外推至 RL 微調與記憶/技能最佳化）。文章強調：第四層（也許最重要）自動化的是「改進本身」，關鍵在於返回箭頭不是回到頂部，而是直接伸進內部更新 agent 循環——外層循環的每一輪都讓內層循環更有效。同時堅持「自動化不等於移除人類」：每一層都有天然的人類監督點，敏感動作（金融交易、資料庫操作）需要即時人工審查。結尾引用 Satya Nadella：儘早建立學習循環的公司，人類判斷與 token 資本複利，將構建難以複製的優勢。"
+      },
+      "date": "2026-08-06",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Loop Engineering",
+        "LangChain",
+        "LangSmith",
+        "AI Agent",
+        "loopcraft",
+        "swyx",
+        "create_agent",
+        "RubricMiddleware",
+        "LLM-as-Judge",
+        "Deep Agents",
+        "LangGraph",
+        "Fleet",
+        "Satya Nadella"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
+      "slug": "loop-engineering-orange-book",
+      "title": {
+        "en": "Loop Engineering Orange Book Deep Dive: Stop Asking Me What It Is — From Prompter to System Designer",
+        "ja": "Loop Engineering オレンジブック徹底解説：Loop Engineering って何？もう聞くな——「プロンプター」から「システム設計者」へ",
+        "vi": "Loop Engineering Orange Book Đi Sâu: Ngừng Hỏi Nó Là Gì — Từ Người Nhắc Đến Người Thiết Kế Hệ Thống",
+        "zh-Hans": "Loop Engineering 橙皮书深度解析：别再问我什么是 Loop Engineering——从「提示者」到「系统设计者」",
+        "zh-Hant": "Loop Engineering 橙皮書深度解析：別再問我什麼是 Loop Engineering——從「提示者」到「系統設計者」"
+      },
+      "description": {
+        "en": "A complete analysis of the Loop Engineering Orange Book (v260615, MIT) by HuaShu (花叔) — a free open-source PDF book that explains loop engineering in plain language. Core idea: stop being the person who prompts the agent — design the system that prompts it for you. Covers the prompt→context→harness→loop stack, the five moves of one loop (Automations/Worktrees/Skills/Plugins/Sub-agents) + Memory, why an AI can't grade its own code, three real loops (Addy's morning triage / Stripe's Minions / the scheduling reality), four costs (verification debt / comprehension rot / token blowout / cognitive surrender), plus a full chapter-by-chapter tutorial from §01 to §09 and a hands-on guide to building your first loop today. Project overview, core ideas, design philosophy, and key takeaways in one read.",
+        "ja": "花叔（HuaShu）がオープンソース公開した『Loop Engineering オレンジブック』を完全解説——Loop Engineering を平易な言葉で解説する無料 PDF 書籍（v260615、MIT ライセンス）。核心思想：AI に手動でプロンプトする人であるのをやめて、代わりに AI にプロンプトするシステムを設計せよ。prompt→context→harness→loop の4層スタック、1つのループの5つの動き（自動化/ワークツリー/スキル/プラグイン/サブエージェント）+ メモリ、AI が自分のコードを採点できない理由、3つの実例ループ（Addy の朝のトリアージ / Stripe の Minions / スケジューリングの現実）、4つのコスト（検証負債/理解腐敗/token 爆発/認知的降伏）、§01〜§09 の章ごとのチュートリアルと「今日最初のループを構築する」実践ガイドまで網羅。プロジェクト概要、核心思想、設計哲学、見解のまとめを一気に解説。",
+        "vi": "Bài phân tích toàn diện về Loop Engineering Orange Book (v260615, MIT) của HuaShu (花叔) — một cuốn sách PDF mã nguồn mở miễn phí giải thích loop engineering bằng ngôn ngữ giản dị. Ý tưởng cốt lõi: ngừng là người nhắc agent — thiết kế hệ thống nhắc nó thay bạn. Bao quát ngăn xếp prompt→context→harness→loop, năm nước đi của một vòng lặp (Automations/Worktrees/Skills/Plugins/Sub-agents) + Memory, vì sao AI không thể tự chấm điểm mã của chính mình, ba vòng lặp thực tế (phân loại buổi sáng của Addy / Minions của Stripe / thực tế lập lịch), bốn cái giá (nợ kiểm chứng / mai một hiểu biết / bùng nổ token / đầu hàng nhận thức), cộng hướng dẫn từng chương đầy đủ từ §01 đến §09 và cẩm nang thực hành xây vòng lặp đầu tiên của bạn ngay hôm nay. Tổng quan dự án, ý tưởng cốt lõi, triết lý thiết kế và bài học chính trong một bài đọc.",
+        "zh-Hans": "全面解析花叔（HuaShu）开源的《Loop Engineering 橙皮书》——一本用大白话讲透 Loop Engineering 的免费 PDF 书籍（v260615，MIT 协议）。核心思想：别再当那个手动提示 AI 的人，去设计一个替你提示 AI 的系统。涵盖 prompt→context→harness→loop 四层栈、一个循环的五个动作（自动化/工作树/技能/插件/子代理）+ 记忆、为什么 AI 不能给自己的代码打分、三个真实循环案例（Addy 早晨分诊 / Stripe Minions / 调度的现实）、四种代价（验证债/理解腐化/token 爆炸/认知投降），以及从 §01 到 §09 的完整章节教程与「今天构建第一个循环」的实操指南。项目说明、核心思想、设计哲学、观点归纳一文讲透。",
+        "zh-Hant": "全面解析花叔（HuaShu）開源的《Loop Engineering 橙皮書》——一本用大白話講透 Loop Engineering 的免費 PDF 書籍（v260615，MIT 協議）。核心思想：別再當那個手動提示 AI 的人，去設計一個替你提示 AI 的系統。涵蓋 prompt→context→harness→loop 四層棧、一個循環的五個動作（自動化/工作樹/技能/插件/子代理）+ 記憶、為什麼 AI 不能給自己的程式碼打分、三個真實循環案例（Addy 早晨分診 / Stripe Minions / 調度的現實）、四種代價（驗證債/理解腐化/token 爆炸/認知投降），以及從 §01 到 §09 的完整章節教程與「今天構建第一個循環」的實作指南。專案說明、核心思想、設計哲學、觀點歸納一文講透。"
+      },
+      "date": "2026-08-06",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Loop Engineering",
+        "Orange Book",
+        "AI Agent",
+        "Harness",
+        "Claude Code",
+        "Codex",
+        "MCP",
+        "HuaShu",
+        "Automation"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
+      "slug": "loop-engineering-substack-analysis",
+      "title": {
+        "en": "Loop Engineering Deep Dive (Cobus Greyling's Original): Stop Prompting Agents — Design the Loop That Discovers Work, Assigns Tasks, and Verifies Results",
+        "ja": "Loop Engineering 徹底解説（Cobus Greyling 原著）：エージェントへの手動プロンプトをやめよ——仕事を発見し、タスクを割り当て、結果を検証するループを設計せよ",
+        "vi": "Loop Engineering Phân Tích Chuyên Sâu (Bản Gốc Cobus Greyling): Ngừng Prompting Agent — Thiết Kế Vòng Lặp Phát Hiện Công Việc, Phân Công Nhiệm Vụ, và Xác Minh Kết Quả",
+        "zh-Hans": "Loop Engineering 深度解析（Cobus Greyling 原作）：别再逐轮提示 AI——设计一个会自己发现工作、派发任务、验证结果的循环系统",
+        "zh-Hant": "Loop Engineering 深度解析（Cobus Greyling 原文）：別再提示詞 AI——設計一個會自己發現工作、派發任務、做循環的系統"
+      },
+      "description": {
+        "en": "A complete analysis of Cobus Greyling's original Substack post 'Loop Engineering' (2026-06-09). Core idea: the shift from prompting coding agents turn-by-turn to designing a system (the loop) that discovers work, hands tasks to (sub-)agents, verifies results, persists state, and decides the next action — on a schedule or until a goal is met. Covers the concept evolution (Context Engineering → Harness Engineering → Loop Engineering), the harness/loop division of labor, the five building blocks + memory (Automations/Scheduling, Worktrees, Skills, Plugins & Connectors, Sub-agents + Memory), first-hand voices (Boris Cherny, Peter Steinberger, Addy Osmani), the tool-agnostic convergence of Grok/Codex/Claude Code primitives, and the realities not to skip (token costs, comprehension debt, cognitive surrender).",
+        "ja": "Cobus Greyling が Substack に公開した原著『Loop Engineering』（2026-06-09）を完全解説。核心思想：コーディングエージェントに逐ターンでプロンプトする立場から、仕事を発見し、エージェントにタスクを渡し、結果を検証し、状態を永続化し、次のアクションを決めるシステム（the loop）を設計する立場へのシフト。スケジュールで動くか、ゴール達成まで動き続ける。概念の進化（Context Engineering→Harness Engineering→Loop Engineering）、ハーネスとループの分業、五大ビルディングブロック＋メモリ（自動化/スケジュール、ワークツリー、スキル、プラグイン/コネクタ、サブエージェント＋記憶）、Boris Cherny / Peter Steinberger / Addy Osmani の実務者の見解、Grok/Codex/Claude Code のツール非依存な収束、そして飛ばせない現実（token コスト、理解負債、認知的降伏）まで一気に解説。",
+        "vi": "Một bài phân tích toàn diện về bài viết gốc trên Substack của Cobus Greyling 'Loop Engineering' (2026-06-09). Ý tưởng cốt lõi: sự chuyển dịch từ việc prompting coding agent từng bước một sang việc thiết kế một hệ thống (vòng lặp) tự phát hiện công việc, giao nhiệm vụ cho các (sub-)agent, xác minh kết quả, duy trì trạng thái, và quyết định hành động tiếp theo — theo lịch trình hoặc cho đến khi đạt mục tiêu. Bao quát sự tiến hóa khái niệm (Context Engineering → Harness Engineering → Loop Engineering), sự phân công lao động harness/loop, năm khối xây dựng + memory (Automations/Scheduling, Worktrees, Skills, Plugins & Connectors, Sub-agents + Memory), các tiếng nói trực tiếp (Boris Cherny, Peter Steinberger, Addy Osmani), sự hội tụ không phụ thuộc công cụ của các primitive Grok/Codex/Claude Code, và những thực tế không nên bỏ qua (chi phí token, nợ hiểu biết, đầu hàng nhận thức).",
+        "zh-Hans": "以 Cobus Greyling 在 Substack 发表的原版文章《Loop Engineering》为蓝本，完整解析这一 AI 编码范式的核心。核心思想：从「你一回合接着一回合提示编码代理」转向「你设计一个循环系统（the loop）」，让它按调度或直到目标达成为止，自动发现工作、把任务交给（子）代理、验证结果、持久化状态、决定下一步。一文讲透概念演进（Context Engineering→Harness Engineering→Loop Engineering）、harness 与 loop 的分工、五大构建块（自动化/调度、工作树、技能、插件/连接器、子代理）+ 记忆、Anthropic Boris Cherny / Peter Steinberger / Addy Osmani 三位一线观点、Grok/Codex/Claude Code 三工具原语对拍，以及「现实的代价」（token 成本、理解债、认知投降）。",
+        "zh-Hant": "以 Cobus Greyling 在 Substack 發表的原論文《Loop Engineering》為藍本，完整解析這一 AI 代理範式的核心。核心思想：從「你逐回合提示編碼代理」轉向「你設計一個循環（the loop）」，讓它按調度或直到目標達成為止，自動發現工作、把任務交給子代理、驗證結果、持久化狀態、決定下一步。文章脈絡：概念演進（Context Engineering→Harness Engineering→Loop Engineering）、harness 與 loop 的分工、五大構建塊（自動化/調度、工作樹、技能、插件/連接器、子代理）+ 記憶、Anthropic Boris Cherny / Peter Steinberger / Addy Osmani 的觀點、Grok/Codex/Claude Code 三工具對拍，以及市場的現實代價。"
+      },
+      "date": "2026-08-06",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Loop Engineering",
+        "Cobus Greyling",
+        "AI Agent",
+        "Substack",
+        "Harness Engineering",
+        "Context Engineering",
+        "Claude Code",
+        "Grok",
+        "Codex",
+        "MCP",
+        "Worktrees",
+        "Skills",
+        "Automation"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
       "slug": "rtk-rust-token-killer",
       "title": {
         "en": "RTK (Rust Token Killer) Deep Dive: A Single Rust Binary CLI Proxy That Cuts Up to 90% of the Bash Output Your Agent Reads — From the Four Compression Strategies and Auto-Rewrite Hook to the 64-Module Architecture",
         "ja": "RTK（Rust Token Killer）徹底解説：単一 Rust バイナリの CLI プロキシが、エージェントが読む bash 出力を最大 90% 削減する——4つの圧縮戦略、Auto-Rewrite Hook から 64 モジュール構成まで",
+        "vi": "RTK (Rust Token Killer) Phân Tích Chuyên Sâu: Một CLI Proxy Nhị Phân Rust Duy Nhất Cắt Tới 90% Đầu Ra Bash Mà Agent Của Bạn Đọc — Từ Bốn Chiến Lược Nén Và Auto-Rewrite Hook Đến Kiến Trúc 64 Module",
         "zh-Hans": "RTK（Rust Token Killer）深度解析：单 Rust 二进制 CLI 代理，把 agent 读到的 bash 输出砍掉最多 90%——从四大压缩策略、Auto-Rewrite Hook 到 64 模块架构的完整拆解",
         "zh-Hant": "RTK（Rust Token Killer）深度解析：單 Rust 二進位 CLI 代理，把 agent 讀到的 bash 輸出砍掉最多 90%——從四大壓縮策略、Auto-Rewrite Hook 到 64 模組架構的完整拆解"
       },
       "description": {
         "en": "A complete analysis of the viral open-source project rtk-ai/rtk (75k+ stars, Rust, Apache-2.0, default branch develop) — an 'LLM-context-aware CLI proxy'. Core idea: RTK intercepts shell commands and filters, groups, truncates, and deduplicates output before it reaches the LLM context — 'it cuts bash output, not your bill'. Single Rust binary, 100+ supported commands, ~5-15ms overhead per command, ~4.1MB in size. This article covers it all: the proxy pattern (Claude → RTK → git output redirection), the four compression strategies, the two hook strategies (Auto-Rewrite vs Suggest, 100% vs ~70-85% adoption), the five design principles (Single Responsibility / Minimal Overhead / Exit Code Preservation / Fail-Safe / Transparent), the six-phase command lifecycle (PARSE→ROUTE→EXECUTE→FILTER→PRINT→TRACK), the 12-strategy filtering taxonomy, SQLite token tracking with rtk gain analytics, the -v/-vv/-vvv and -u global flags, config.toml with failure tee fallback, integration with 15 AI tools (Claude Code/Gemini/Copilot/OpenCode and more), the privacy-first opt-in telemetry design, and the engineering philosophy and architecture decision records behind 75k stars (why Rust/SQLite/anyhow/Clap).",
         "ja": "GitHub で爆発的に人気のオープンソースプロジェクト rtk-ai/rtk（75k+ stars、Rust、Apache-2.0、default branch develop）を徹底解説する「LLM コンテキスト向け CLI プロキシ」技術解説。核心思想：RTK はシェルコマンドをインターセプトし、出力が LLM コンテキストに届く前にフィルタリング・グループ化・トランケーション・重複排除を行う——「削るのは bash 出力であって、あなたの請求書ではない」。単一 Rust バイナリ、100+ 対応コマンド、1 コマンドあたり約 5〜15ms のオーバーヘッド、約 4.1MB。プロキシパターン（Claude → RTK → git の出力リダイレクト）、4つの圧縮戦略、Auto-Rewrite と Suggest の 2 つの Hook 戦略（100% vs 約 70〜85% の採用率）、5つの設計原則（Single Responsibility / Minimal Overhead / Exit Code Preservation / Fail-Safe / Transparent）、6 フェーズのコマンドライフサイクル（PARSE→ROUTE→EXECUTE→FILTER→PRINT→TRACK）、12 戦略のフィルタリング分類法、SQLite トークントラッキングと rtk gain 分析、-v/-vv/-vvv と -u のグローバルフラグ、config.toml と失敗時 tee フォールバック、15 の AI ツール統合（Claude Code/Gemini/Copilot/OpenCode など）、デフォルト無効のテレメトリ設計、そして 75k stars の背後にあるエンジニアリング哲学とアーキテクチャ決定記録（なぜ Rust/SQLite/anyhow/Clap なのか）までを 1 本の記事にまとめる。",
+        "vi": "Bài phân tích toàn diện về dự án mã nguồn mở bùng nổ rtk-ai/rtk (75k+ stars, Rust, Apache-2.0, nhánh mặc định develop) — một 'CLI proxy nhận biết ngữ cảnh LLM'. Ý tưởng cốt lõi: RTK chặn các lệnh shell và lọc, nhóm, cắt ngắn, khử trùng lặp đầu ra trước khi nó đến ngữ cảnh LLM — 'nó cắt đầu ra bash, không phải hóa đơn của bạn'. Một nhị phân Rust duy nhất, 100+ lệnh được hỗ trợ, chi phí ~5-15ms mỗi lệnh, kích thước ~4.1MB. Bài viết này bao quát tất cả: mô hình proxy (Claude → RTK → chuyển hướng đầu ra git), bốn chiến lược nén, hai chiến lược hook (Auto-Rewrite vs Suggest, 100% vs ~70-85% áp dụng), năm nguyên tắc thiết kế (Single Responsibility / Minimal Overhead / Exit Code Preservation / Fail-Safe / Transparent), vòng đời lệnh sáu pha (PARSE→ROUTE→EXECUTE→FILTER→PRINT→TRACK), phân loại 12 chiến lược lọc, theo dõi token SQLite với phân tích rtk gain, các cờ toàn cục -v/-vv/-vvv và -u, config.toml với dự phòng tee khi lỗi, tích hợp 15 công cụ AI (Claude Code/Gemini/Copilot/OpenCode và hơn thế), thiết kế telemetry ưu tiên quyền riêng tư, và triết lý kỹ thuật cùng hồ sơ quyết định kiến trúc đằng sau 75k stars (vì sao Rust/SQLite/anyhow/Clap).",
         "zh-Hans": "以 GitHub 爆款开源项目 rtk-ai/rtk（75k+ stars、Rust、Apache-2.0、default branch develop）为蓝本，完整解析这一「面向 LLM 上下文的 CLI 代理」技术方案。核心思想：RTK 拦截 shell 命令，在输出到达 LLM 上下文之前先过滤、分组、截断、去重——「削减的是 bash 输出，不是你的账单」。单个 Rust 二进制、100+ 支持命令、每命令 ~5-15ms 开销、4.1MB 体积。一文讲透：代理模式（Claude → RTK → git 的输出重定向）、四种压缩策略、Auto-Rewrite 与 Suggest 两种 Hook 策略（100% vs ~70-85% 采纳率）、五大设计原则（Single Responsibility / Minimal Overhead / Exit Code Preservation / Fail-Safe / Transparent）、六阶段命令生命周期（PARSE→ROUTE→EXECUTE→FILTER→PRINT→TRACK）、12 种过滤策略分类法、SQLite 令牌追踪与 rtk gain 分析、-v/-vv/-vvv 与 -u 全局标志、config.toml 与失败 tee 回退、15 个 AI 工具集成（Claude Code/Gemini/Copilot/OpenCode 等）、telemetry 默认关闭的隐私设计，以及 75k star 背后的工程哲学与架构决策记录（为什么选 Rust/SQLite/anyhow/Clap）。",
         "zh-Hant": "以 GitHub 爆款開源專案 rtk-ai/rtk（75k+ stars、Rust、Apache-2.0、default branch develop）為藍本，完整解析這一「面向 LLM 上下文的 CLI 代理」技術方案。核心思想：RTK 攔截 shell 命令，在輸出到達 LLM 上下文之前先過濾、分組、截斷、去重——「削減的是 bash 輸出，不是你的帳單」。單一 Rust 二進位、100+ 支援命令、每命令 ~5-15ms 開銷、4.1MB 體積。一文講透：代理模式（Claude → RTK → git 的輸出重定向）、四種壓縮策略、Auto-Rewrite 與 Suggest 兩種 Hook 策略（100% vs ~70-85% 採納率）、五大設計原則（Single Responsibility / Minimal Overhead / Exit Code Preservation / Fail-Safe / Transparent）、六階段命令生命週期（PARSE→ROUTE→EXECUTE→FILTER→PRINT→TRACK）、12 種過濾策略分類法、SQLite 令牌追蹤與 rtk gain 分析、-v/-vv/-vvv 與 -u 全域旗標、config.toml 與失敗 tee 回退、15 個 AI 工具整合（Claude Code/Gemini/Copilot/OpenCode 等）、telemetry 預設關閉的隱私設計，以及 75k star 背後的工程哲學與架構決策紀錄（為什麼選 Rust/SQLite/anyhow/Clap）。"
       },
@@ -35,149 +216,20 @@
       ]
     },
     {
-      "slug": "loop-engineering-langchain",
-      "title": {
-        "en": "The Art of Loop Engineering Deep Dive (Official LangChain): Four Stacked Loops — From the Agent Loop to the Verification, Event-Driven, and Hill-Climbing Loops, with the LangChain Primitive for Each Layer",
-        "ja": "The Art of Loop Engineering 徹底解説（LangChain 公式）：4つのループの積み重ね——Agent ループから検証ループ、イベント駆動ループ、山登り改善ループへ、各層の LangChain プリミティブ",
-        "zh-Hans": "The Art of Loop Engineering 深度解析（LangChain 官方）：四层循环堆叠——从 Agent 循环到验证循环、事件驱动循环与爬山改进循环，以及每层对应的 LangChain 原语",
-        "zh-Hant": "The Art of Loop Engineering 深度解析（LangChain 官方）：四層循環堆疊——從 Agent 循環到驗證循環、事件驅動循環與爬山改進循環，以及每層對應的 LangChain 原語"
-      },
-      "description": {
-        "en": "A complete analysis of LangChain's official blog post 'The Art of Loop Engineering' (Sydney Runkle, 2026-06-16). Core idea: the core agent algorithm is itself a loop — give the LLM context and let it call tools until done — but it's far from the only loop. Borrowing swyx's loopcraft, LangChain proposes four stacked loops: ① Agent loop (create_agent), ② Verification loop (RubricMiddleware / after_agent hook, LLM-as-judge), ③ Event driven loop (LangSmith Deployment cron/webhooks, Fleet channels, OpenClaw heartbeats), ④ Hill climbing loop (LangSmith Engine — traces feed an analysis agent that rewrites the harness config; extendable to RL fine-tuning). Key move: the return arrow reaches inside and updates the agent loop directly. Automation doesn't mean removing humans — every level has natural oversight points. Closes with Satya Nadella on learning loops as a hard-to-replicate advantage.",
-        "ja": "LangChain 公式ブログ『The Art of Loop Engineering』（Sydney Runkle、2026-06-16）を完全解説。核心思想：コアな agent アルゴリズム自体がループだが、それは唯一のループではない。swyx の loopcraft を借用し4層のループを提示：① Agent loop（create_agent）、② Verification loop（RubricMiddleware／after_agent hook、LLM-as-judge）、③ Event driven loop（LangSmith Deployment の cron/webhooks、Fleet channels、OpenClaw heartbeats）、④ Hill climbing loop（LangSmith Engine——trace が分析エージェントに供給され harness 設定を書き換え、RL ファインチューニングにも拡張可能）。要点：戻り矢印が内部に届いて agent ループを直接更新する。自動化は人間の排除を意味せず、各層に自然な監視ポイントがある。結びに Satya Nadella の学習ループ論。",
-        "zh-Hans": "以 LangChain 官方博客《The Art of Loop Engineering》（Sydney Runkle，2026-06-16）为蓝本，完整解析 LangChain 的循环堆叠（loopcraft）世界观。核心思想：核心 agent 算法本身就是循环——给 LLM 上下文循环调用工具直到完成——但远非唯一。四层循环：① Agent loop（create_agent）、② 验证循环（RubricMiddleware/after_agent hook，LLM-as-judge 经典实现）、③ 事件驱动循环（LangSmith Deployment cron/webhooks、Fleet channels、OpenClaw heartbeats）、④ 爬山改进循环（LangSmith Engine——trace 喂给分析 agent 重写 harness 配置，可外推 RL 微调）。关键动作：返回箭头伸进内部直接更新 agent 循环。自动化不等于移除人类，每层都有天然监督点。结尾引用 Satya Nadella 的学习循环护城河论。",
-        "zh-Hant": "以 LangChain 官方部落格《The Art of Loop Engineering》（Sydney Runkle，2026-06-16）為藍本，完整解析 LangChain 的循環堆疊（loopcraft）世界觀。核心思想：核心 agent 演算法本身就是循環——給 LLM 上下文循環呼叫工具直到完成——但遠非唯一。四層循環：① Agent loop（create_agent）、② 驗證循環（RubricMiddleware/after_agent hook，LLM-as-judge 經典實作）、③ 事件驅動循環（LangSmith Deployment cron/webhooks、Fleet channels、OpenClaw heartbeats）、④ 爬山改進循環（LangSmith Engine——trace 餵給分析 agent 重寫 harness 設定，可外推 RL 微調）。關鍵動作：返回箭頭伸進內部直接更新 agent 循環。自動化不等於移除人類，每層都有天然監督點。結尾引用 Satya Nadella 的學習循環護城河論。"
-      },
-      "date": "2026-08-06",
-      "author": "TopDigg Research Team",
-      "tags": [
-        "Loop Engineering",
-        "LangChain",
-        "LangSmith",
-        "AI Agent",
-        "loopcraft",
-        "swyx",
-        "create_agent",
-        "RubricMiddleware",
-        "LLM-as-Judge",
-        "Deep Agents",
-        "LangGraph",
-        "Fleet",
-        "Satya Nadella"
-      ],
-      "categories": [
-        "Deep Dive"
-      ]
-    },
-    {
-      "slug": "loop-engineering-addy-osmani",
-      "title": {
-        "en": "Loop Engineering Deep Dive (Addy Osmani's Original): Stop Prompting AI Turn-by-Turn — Design a Loop That Finds Work, Hands It Out, and Verifies Results, Then Stay the Engineer",
-        "ja": "Loop Engineering 徹底解説（Addy Osmani 原著）：ターンごとの AI プロンプトをやめよ——仕事を発見し、割り当て、検証するループを設計せよ。そしてエンジニアであり続けよ",
-        "zh-Hans": "Loop Engineering 深度解析（Addy Osmani 原作）：别再逐轮提示 AI——设计一个会自己发现工作、分配任务、验证结果的循环系统，然后留在工程师的位置",
-        "zh-Hant": "Loop Engineering 深度解析（Addy Osmani 原著）：別再逐輪提示 AI——設計一個會自己發現工作、分配任務、驗證結果的循環系統，然後留在工程師的位置"
-      },
-      "description": {
-        "en": "A complete analysis of Addy Osmani's original blog post 'Loop Engineering' (2026-06-07). Core idea: loop engineering is replacing yourself as the person who prompts the agent — a loop is a recursive goal where you define a purpose and the AI iterates until complete. Opens with Peter Steinberger ('designing loops that prompt your agents') and Boris Cherny ('my job is to write loops'). Covers: the loop sitting one floor above the harness, the five building blocks + memory (Automations / Worktrees / Skills / Plugins & Connectors / Sub-agents + Memory), the Codex vs Claude Code primitive mapping, what one complete loop looks like, the tool-agnostic insight, and the three things the loop still does not do for you (verification, comprehension rot, cognitive surrender). Closing maxim: Build the loop. Stay the engineer.",
-        "ja": "Addy Osmani（Google 元幹部、Google Cloud AI エンジニアリングディレクター）のオリジナル記事『Loop Engineering』（2026-06-07）を完全解説。核心思想：loop engineering とは『エージェントにプロンプトを送る自分自身を、あなたが設計したシステムで置き換えること』——ループとは再帰的ゴール。Peter Steinberger と Boris Cherny の二大名言、harness の一階層上に座るループ、5つの構成要素＋記憶、Codex と Claude Code のプリミティブ対比、完全なループの姿、ループが代わりにやってくれない3つのこと（検証、理解の腐敗、認知の降伏）。結びの金言：Build the loop. Stay the engineer.",
-        "zh-Hans": "以 Addy Osmani 在个人博客发表的原版文章《Loop Engineering》（2026-06-07）为蓝本，完整解析这一 AI 编码新范式。核心思想：loop engineering 是「用你设计的系统取代'提示 agent 的那个人'」——loop 是递归目标。开篇引用 Peter Steinberger（设计会提示代理的循环）与 Boris Cherny（我的工作是写循环）。涵盖：loop 站在 harness 之上、五大构建块 + 记忆、Codex 与 Claude Code 原语对拍、完整循环长什么样、工具无关性，以及循环不替你做的三件事（验证、理解腐化、认知投降）。结尾金句：Build the loop. Stay the engineer.",
-        "zh-Hant": "以 Addy Osmani 在個人部落格發表的原版文章《Loop Engineering》（2026-06-07）為藍本，完整解析這一 AI 編碼新典範。核心思想：loop engineering 是「用你設計的系統取代『提示 agent 的那個人』」——loop 是遞迴目標。開篇引用 Peter Steinberger（設計會提示代理的循環）與 Boris Cherny（我的工作是寫循環）。涵蓋：loop 站在 harness 之上、五大建構塊＋記憶、Codex 與 Claude Code 原語對拍、完整循環長什麼樣、工具無關性，以及循環不替你做的三件事（驗證、理解腐化、認知投降）。結尾金句：Build the loop. Stay the engineer."
-      },
-      "date": "2026-08-06",
-      "author": "TopDigg Research Team",
-      "tags": [
-        "Loop Engineering",
-        "Addy Osmani",
-        "AI Agent",
-        "Claude Code",
-        "Codex",
-        "Automations",
-        "Worktrees",
-        "Skills",
-        "Sub-agents",
-        "MCP",
-        "Harness Engineering",
-        "Cognitive Surrender"
-      ],
-      "categories": [
-        "Deep Dive"
-      ]
-    },
-    {
-      "slug": "loop-engineering-substack-analysis",
-      "title": {
-        "en": "Loop Engineering Deep Dive (Cobus Greyling's Original): Stop Prompting Agents — Design the Loop That Discovers Work, Assigns Tasks, and Verifies Results",
-        "ja": "Loop Engineering 徹底解説（Cobus Greyling 原著）：エージェントへのプロンプトをやめ——仕事を検索し、タスクを割り当て、結果を検証するループを設計せよ",
-        "zh-Hans": "Loop Engineering 深度解析（Cobus Greyling 原作）：别再逐轮提示 AI——设计一个会自己发现工作、派发任务、验证结果的循环系统",
-        "zh-Hant": "Loop Engineering 深度解析（Cobus Greyling 原著）：別再提示詞 AI——設計一個會自己發現、調度、循環的系統"
-      },
-      "description": {
-        "en": "A complete analysis of Cobus Greyling's original Substack post 'Loop Engineering' (2026-06-09). Core idea: the shift from prompting coding agents turn-by-turn to designing a system (the loop) that discovers work, hands tasks to (sub-)agents, verifies results, persists state, and decides the next action — on a schedule or until a goal is met. Covers the concept evolution (Context Engineering → Harness Engineering → Loop Engineering), the harness/loop division of labor, the five building blocks + memory (Automations/Scheduling, Worktrees, Skills, Plugins & Connectors, Sub-agents + Memory), first-hand voices (Boris Cherny, Peter Steinberger, Addy Osmani), the tool-agnostic convergence of Grok/Codex/Claude Code primitives, and the realities not to skip (token costs, comprehension debt, cognitive surrender).",
-        "ja": "Cobus Greyling の Substack 公開記事『Loop Engineering』（2026-06-09）を完全解説。核心思想：コーディングエージェントへの逐ターンプロンプトから、仕事を発見・タスクを割り当て・結果を検証・状態を永続化・次を決めるループの設計へのシフト。概念の進化、ハーネスとループの分業、五大ビルディングブロック＋メモリ、Boris Cherny / Peter Steinberger / Addy Osmani の実践見解、Grok/Codex/Claude Code の収束、飛ばせない現実（token コスト、深検負債、認知的降伏）。",
-        "zh-Hans": "以 Cobus Greyling 在 Substack 发表的原版文章《Loop Engineering》为蓝本，完整解析这一 AI 编码范式的核心。核心思想：从「你逐回合提示编码代理」转向「你设计一个循环系统（the loop）」，让它按调度或直到目标达成为止自动发现工作、派发任务、验证结果、持久化状态、决定下一步。涵盖概念演进、五大构建块 + 记忆、三工具对拍、三位一线观点，以及回避者遗漏的现实代价。",
-        "zh-Hant": "以 Cobus Greyling 在 Substack 發表的原論文《Loop Engineering》為藍本，完整解析這一 AI 編碼範式的核心。核心思想：從「你逐回合提示編碼代理」轉向「你設計一個循環（the loop）」，讓它按調度或直到目標達成為止，自動發現工作、派發任務、驗證結果、持久化狀態、決定下一步。涵蓋概念演進、五大構建塊＋記憶、三工具對拍、三位一線觀點與不可忽略的現實代價。"
-      },
-      "date": "2026-08-06",
-      "author": "TopDigg Research Team",
-      "tags": [
-        "Loop Engineering",
-        "Cobus Greyling",
-        "AI Agent",
-        "Harness Engineering",
-        "Context Engineering",
-        "Claude Code",
-        "Grok",
-        "Codex",
-        "MCP"
-      ],
-      "categories": [
-        "Deep Dive"
-      ]
-    },
-    {
-      "slug": "loop-engineering-orange-book",
-      "title": {
-        "en": "Loop Engineering Orange Book Deep Dive: Stop Asking Me What It Is — From Prompter to System Designer",
-        "ja": "Loop Engineering オレンジブック徹底解説：Loop Engineering って何？もう聞くな——「プロンプター」から「システム設計者」へ",
-        "zh-Hans": "Loop Engineering 橙皮书深度解析：别再问我什么是 Loop Engineering——从「提示者」到「系统设计者」",
-        "zh-Hant": "Loop Engineering 橙皮書深度解析：別再問我什麼是 Loop Engineering——從「提示者」到「系統設計者」"
-      },
-      "description": {
-        "en": "A complete analysis of the Loop Engineering Orange Book (v260615, MIT) by HuaShu (花叔) — a free open-source PDF book explaining loop engineering in plain language. Core idea: stop being the person who prompts the agent — design the system that prompts it for you. Covers the prompt→context→harness→loop stack, the five moves + memory, why an AI can't grade its own code, three real loops (Addy's morning triage / Stripe's Minions / the scheduling reality), four costs (verification debt / comprehension rot / token blowout / cognitive surrender), a full §01–§09 chapter tutorial, and a hands-on guide to building your first loop today.",
-        "ja": "花叔（HuaShu）がオープンソース公開した『Loop Engineering オレンジブック』を完全解説——Loop Engineering を平易に解説する無料 PDF 書籍（v260615、MIT）。核心思想：AI に手動でプロンプトする人であるのをやめ、代わりに AI にプロンプトするシステムを設計せよ。4層スタック、5つの動き + メモリ、AI が自分のコードを採点できない理由、3つの実例ループ、4つのコスト、§01〜§09 の章別チュートリアルと実践ガイド。",
-        "zh-Hans": "全面解析花叔（HuaShu）开源的《Loop Engineering 橙皮书》——用大白话讲透 Loop Engineering 的免费 PDF 书籍（v260615，MIT）。核心思想：别再当那个手动提示 AI 的人，去设计一个替你提示 AI 的系统。涵盖四层栈、五个动作 + 记忆、为什么 AI 不能给自己的代码打分、三个真实循环案例、四种代价，以及从 §01 到 §09 的完整章节教程与「今天构建第一个循环」的实操指南。",
-        "zh-Hant": "全面解析花叔（HuaShu）開源的《Loop Engineering 橙皮書》——用大白話講透 Loop Engineering 的免費 PDF 書籍（v260615，MIT）。核心思想：別再當那個手動提示 AI 的人，去設計一個替你提示 AI 的系統。涵蓋四層棧、五個動作 + 記憶、為什麼 AI 不能給自己的程式碼打分、三個真實循環案例、四種代價，以及從 §01 到 §09 的完整章節教程與「今天構建第一個循環」的實作指南。"
-      },
-      "date": "2026-08-06",
-      "author": "TopDigg Research Team",
-      "tags": [
-        "Loop Engineering",
-        "Orange Book",
-        "AI Agent",
-        "Harness",
-        "Claude Code",
-        "Codex",
-        "MCP",
-        "HuaShu",
-        "Automation"
-      ],
-      "categories": [
-        "Deep Dive"
-      ]
-    },
-    {
       "slug": "openai-evals-analysis",
       "title": {
         "en": "OpenAI Evals Deep Dive: The 19K Star LLM Evaluation Framework — Build Quality Benchmarks Without Writing Code",
         "ja": "OpenAI Evals まとめ：19K Star の LLM 評価フレームワーク——コードを書かずに高品質ベンチマークを構築",
+        "vi": "OpenAI Evals Chuyên Sâu: Framework Đánh Giá LLM 19K Sao — Xây Dựng Benchmark Chất Lượng Không Cần Viết Mã",
         "zh-Hans": "OpenAI Evals 深度解析：19K Star 的 LLM 评估框架——不写代码也能构建高质量评测",
         "zh-Hant": "OpenAI Evals 深度解析：19K Star 的 LLM 評估框架——不寫代碼也能構建高質量評測"
       },
       "description": {
-        "en": "Complete analysis of OpenAI Evals — OpenAI official LLM evaluation framework, 19,105 Stars. Core idea: building high-quality evaluations is the most impactful thing you can do. Two eval paradigms: basic (Match/Includes/FuzzyMatch/JsonMatch) and model-graded (fact/closedqa/battle). YAML config only, zero eval code.",
-        "ja": "OpenAI Evals——OpenAI 公式の LLM 評価フレームワークの完全解析。19,105 Star。核心思想：高品質な評価を構築することが最もインパクトのある行動。2 つの評価パラダイム、YAML 設定のみで実行可能。",
-        "zh-Hans": "全面解析 OpenAI Evals——OpenAI 官方出品的 LLM 评估框架，19,105 Star。核心思想：构建高质量评估是最有影响力的事。两种评估范式，YAML 配置即可运行，无需编写评估代码。",
-        "zh-Hant": "全面解析 OpenAI Evals——OpenAI 官方出品的 LLM 評估框架，19,105 Star。核心思想：構建高質量評估是最有影響力的事。兩種評估範式，YAML 配置即可運行，無需編寫評估代碼。"
+        "en": "Complete analysis of OpenAI Evals — OpenAI's official LLM evaluation framework, 19,105 Stars, 3,047 Forks. Core idea: building high-quality evaluations is the most impactful thing you can do in LLM application development. Supports two evaluation paradigms: basic evals (Match/Includes/FuzzyMatch/JsonMatch) and model-graded evals (fact/closedqa/battle), runnable via YAML configuration with zero evaluation code. Covers the eval registry, data format specs, end-to-end tutorial for building evaluations from scratch, and Greg Brockman's core insights on evaluation importance.",
+        "ja": "OpenAI Evals——OpenAI 公式の LLM 評価フレームワークの完全解析。19,105 Star、3,047 Fork。核心思想：LLM アプリケーション開発において、高品質な評価を構築することが最もインパクトのある行動。2 つの評価パラダイム：基本評価（Match/Includes/FuzzyMatch/JsonMatch）とモデル採点評価（fact/closedqa/battle）。YAML 設定だけで実行可能、評価コード不要。評価レジストリ、データフォーマット仕様、ゼロからの評価構築チュートリアル、Greg Brockman の評価重要性に関するコアインサイトを網羅。",
+        "vi": "Phân tích hoàn chỉnh về OpenAI Evals — framework đánh giá LLM chính thức của OpenAI, 19.105 Sao, 3.047 Fork. Ý tưởng cốt lõi: xây dựng các đánh giá chất lượng cao là điều có tác động lớn nhất bạn có thể làm trong phát triển ứng dụng LLM. Hỗ trợ hai mô hình đánh giá: basic evals (Match/Includes/FuzzyMatch/JsonMatch) và model-graded evals (fact/closedqa/battle), chạy được qua cấu hình YAML với không một dòng mã đánh giá nào. Bao gồm eval registry, đặc tả định dạng dữ liệu, hướng dẫn end-to-end xây dựng đánh giá từ đầu, và những hiểu biết cốt lõi của Greg Brockman về tầm quan trọng của đánh giá.",
+        "zh-Hans": "全面解析 OpenAI Evals——OpenAI 官方出品的 LLM 评估框架，19,105 Star，3,047 Fork。核心思想：在 LLM 应用开发中，构建高质量评估是你能做的最有影响力的事。支持两种评估范式：基础评估（Match/Includes/FuzzyMatch/JsonMatch）和模型评分评估（fact/closedqa/battle），通过 YAML 配置即可运行，无需编写评估代码。包含完整的评测注册表、数据格式规范、从零构建评估的端到端教程，以及 Greg Brockman 关于评估重要性的核心观点。",
+        "zh-Hant": "全面解析 OpenAI Evals——OpenAI 官方出品的 LLM 評估框架，19,105 Star，3,047 Fork。核心思想：在 LLM 應用開發中，構建高質量評估是你能做的最有影響力的事。支持兩種評估範式：基礎評估（Match/Includes/FuzzyMatch/JsonMatch）和模型評分評估（fact/closedqa/battle），通過 YAML 配置即可運行，無需編寫評估代碼。包含完整的評測註冊表、數據格式規範、從零構建評估的端到端教程，以及 Greg Brockman 關於評估重要性的核心觀點。"
       },
       "date": "2026-08-05",
       "author": "TopDigg Research Team",
@@ -197,31 +249,100 @@
       ]
     },
     {
-      "slug": "loop-engineering-practical-guide",
+      "slug": "autoharness-analysis",
       "title": {
-        "en": "Loop Engineering Practical Guide: How to Build AI Agent Loops That Self-Improve",
-        "ja": "Loop Engineering 実践ガイド：自己改善する AI Agent ループシステムの構築法",
-        "zh-Hans": "Loop Engineering 实战指南：如何构建能自我改进的 AI Agent 循环系统",
-        "zh-Hant": "Loop Engineering 實戰指南：如何構建能自我改進的 AI Agent 循環系統"
+        "en": "AutoHarness Deep Dive: How \"Small Model + Harness\" Beats \"Large Model\" — an Open-Source Rust Library That Automatically Synthesizes Code Harnesses for LLM Agents",
+        "ja": "AutoHarness 徹底解説：「小モデル + Harness」が「大モデル」を上回る仕組み——LLM エージェント向けコードハーネスを自動合成するオープンソース Rust ライブラリ",
+        "vi": "AutoHarness Phân Tích Chuyên Sâu: Cách 'Mô Hình Nhỏ + Harness' Đánh Bại 'Mô Hình Lớn' — Một Thư Viện Rust Mã Nguồn Mở Tự Động Tổng Hợp Code Harness Cho LLM Agents",
+        "zh-Hans": "AutoHarness 深度解析：用树搜索让「小模型 + Harness」胜过「大模型」——为 LLM 智能体自动合成代码护栏的开源 Rust 库",
+        "zh-Hant": "AutoHarness 深度解析：用樹狀搜尋讓「小模型 + Harness」勝過「大模型」——為 LLM Agent 自動合成程式碼護欄的開源 Rust 函式庫"
       },
       "description": {
-        "en": "Deep analysis of @elune0x viral X post (373K views) on Loop Engineering. Core idea: you don't need to prompt AI anymore. Design the system that prompts AI automatically. 4 loop types, 5 core components, model routing 60-80% cost reduction, full hands-on tutorial.",
-        "ja": "@elune0x のバイラル X ポスト（373K 閲覧）を深く解析 — Loop Engineering。核心思想：もう AI にプロンプトする必要はない。4 つのループタイプ、5 つのコアコンポーネント、モデルルーティング 60-80% コスト削減、フル実践チュートリアル。",
-        "zh-Hans": "深度解析 @elune0x 的 X 热文（373K 阅读）——Loop Engineering。核心思想：你不需要再手动提示 AI。四种循环类型、五大核心组件、模型路由成本降低 60-80%、完整实战教程。",
-        "zh-Hant": "深度解析 @elune0x 的 X 熱文（373K 閱讀）——Loop Engineering。核心思想：你不需要再手動提示 AI。四種循環類型、五大核心組件、模型路由成本降低 60-80%、完整實戰教程。"
+        "en": "A complete analysis of AutoHarness by gyc567 — a Rust library and CLI tool that automatically synthesizes and optimizes code harnesses for LLM agents, implementing the approach from the AutoHarness paper (arXiv:2603.03329). Using tree search with Thompson sampling to iteratively refine harness code, it reaches a 100% legal action rate in an average of 14.5 iterations across 145 TextArena games — empirically validating the claim 'small model + harness > large model without harness.' From core ideas and architecture to design philosophy, a full tutorial, feature list, and key takeaways, this article covers it all.",
+        "ja": "gyc567 が公開した AutoHarness を徹底解説——Rust 製のライブラリ兼 CLI ツールで、LLM エージェント向けのコードハーネスを自動的に「合成・最適化」します。AutoHarness 論文（arXiv:2603.03329）の手法を再現し、木探索 + Thompson サンプリングでハーネスコードを反復改良。145 の TextArena ゲームで平均 14.5 イテレーションで 100% の合法アクション率に到達し、「小モデル + Harness > 大モデル」という主張を実証しています。コア思想、アーキテクチャ、設計哲学から、チュートリアル、機能一覧、結論までを 1 記事で網羅。",
+        "vi": "Một bài phân tích toàn diện về AutoHarness của gyc567 — một thư viện và công cụ CLI Rust tự động tổng hợp và tối ưu hóa code harness cho LLM agents, triển khai phương pháp từ bài báo AutoHarness (arXiv:2603.03329). Dùng tìm kiếm cây với Thompson sampling để tinh chỉnh mã harness lặp đi lặp lại, nó đạt tỷ lệ hành động hợp lệ 100% trung bình sau 14.5 lần lặp trên 145 trò chơi TextArena — xác thực thực nghiệm tuyên bố 'mô hình nhỏ + harness > mô hình lớn không harness.' Từ các ý tưởng cốt lõi và kiến trúc đến triết lý thiết kế, một hướng dẫn đầy đủ, danh sách tính năng, và các bài học then chốt, bài viết này bao quát tất cả.",
+        "zh-Hans": "全面解析 gyc567 开源的 AutoHarness——一个用 Rust 编写的库与 CLI 工具，它自动为 LLM 智能体「合成并优化代码 Harness」，复现 AutoHarness 论文（arXiv:2603.03329）的核心方法。用树搜索 + Thompson 采样迭代精化 Harness 代码，在 145 个 TextArena 游戏上平均 14.5 次迭代达到 100% 合法动作率，实证「小模型 + Harness > 大模型」的观点。从核心思想、架构模块、设计哲学到完整教程、功能清单与归纳结论，一文讲透。",
+        "zh-Hant": "全面解析 gyc567 開源的 AutoHarness——一個用 Rust 撰寫的函式庫與 CLI 工具，它自動為 LLM Agent「合成並最佳化程式碼 Harness」，重現 AutoHarness 論文（arXiv:2603.03329）的核心方法。用樹狀搜尋 + Thompson 取樣迭代精化 Harness 程式碼，在 145 個 TextArena 遊戲上平均 14.5 次迭代達到 100% 合法動作率，實證並落實「小模型 + Harness > 大模型」的觀點。從核心思想、架構模組、設計哲學到完整教學、功能清單與歸納結論，一文講透。"
       },
       "date": "2026-08-04",
       "author": "TopDigg Research Team",
       "tags": [
-        "Loop Engineering",
+        "AutoHarness",
+        "LLM Agents",
+        "Code Harness",
+        "Tree Search",
+        "Thompson Sampling",
+        "Rust",
+        "AI Safety",
+        "TextArena",
+        "LLM",
+        "Sandbox"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
+      "slug": "ds4-analysis",
+      "title": {
+        "en": "DwarfStar (ds4) Deep Dive: How antirez (Redis Creator) Built a Native LLM Inference Engine — a Vertically Integrated Solution for DeepSeek V4 Flash",
+        "ja": "DwarfStar (ds4) 徹底解説：Redis 作者 antirez が作ったローカル LLM 推論エンジン——DeepSeek V4 Flash に特化した垂直統合ソリューション",
+        "vi": "DwarfStar (ds4) Chuyên Sâu: antirez (Người Tạo Redis) Đã Xây Dựng Một Engine Suy Luận LLM Bản Địa Như Thế Nào — Giải Pháp Tích Hợp Dọc Cho DeepSeek V4 Flash",
+        "zh-Hans": "DwarfStar (ds4) 深度解析：Redis 作者 antirez 的本地 LLM 推理引擎——为 DeepSeek V4 Flash 定制的垂直整合方案",
+        "zh-Hant": "DwarfStar (ds4) 深度解析：Redis 作者 antirez 的本地 LLM 推理引擎——為 DeepSeek V4 Flash 定製的垂直整合方案"
+      },
+      "description": {
+        "en": "A complete analysis of DwarfStar (ds4) by antirez (Salvatore Sanfilippo, Redis creator) — a small native inference engine purpose-built for DeepSeek V4 Flash/PRO and GLM 5.2. In ~65,000 lines of C it delivers Metal/CUDA/ROCm backends, SSD streaming, pipeline parallelism, DSpark speculative decoding, a native coding agent, and an OpenAI-compatible API as a single vertically integrated stack. 87 t/s prefill and 34 t/s generation on M5 Max; distributed prefill up to 674 t/s across two machines. From core ideas and architecture to design philosophy, full tutorial, feature list, and key takeaways.",
+        "ja": "antirez（Redis 創設者 Salvatore Sanfilippo）が公開した DwarfStar（ds4）を徹底解説——DeepSeek V4 Flash/PRO と GLM 5.2 に特化した小型ネイティブ推論エンジン。約 65,000 行の C コードで Metal/CUDA/ROCm 3 バックエンド、SSD ストリーミング、パイプライン並列、DSpark 推測デコーディング、ネイティブコーディングエージェント、OpenAI 互換 API を一つの垂直統合スタックとして実現。M5 Max で 87 t/s プリフィル、34 t/s 生成；分散プリフィルは最大 674 t/s。コア思想、アーキテクチャ、設計哲学からチュートリアル、機能一覧、要点まとめまでを網羅。",
+        "vi": "Phân tích hoàn chỉnh về DwarfStar (ds4) của antirez (Salvatore Sanfilippo, người tạo Redis) — một engine suy luận bản địa nhỏ được thiết kế riêng cho DeepSeek V4 Flash/PRO và GLM 5.2. Trong khoảng ~65.000 dòng C, nó mang lại các backend Metal/CUDA/ROCm, streaming SSD, song song pipeline, giải mã suy đoán DSpark, một agent lập trình bản địa, và API tương thích OpenAI như một ngăn xếp tích hợp dọc duy nhất. 87 t/s prefill và 34 t/s sinh mỗi thế hệ trên M5 Max; prefill phân tán lên tới 674 t/s trên hai máy. Từ ý tưởng cốt lõi và kiến trúc đến triết lý thiết kế, hướng dẫn đầy đủ, danh sách tính năng và các điểm chốt chính.",
+        "zh-Hans": "全面解析 antirez 开源的 DwarfStar（ds4）——一个专为 DeepSeek V4 Flash/PRO 与 GLM 5.2 打造的小型原生推理引擎。antirez（Redis 创始人）用 65,000 行 C 代码实现 Metal/CUDA/ROCm 三后端、SSD 流式加载、流水线并行、DSpark 推测解码、原生编码 Agent 与 OpenAI 兼容 API 的完整垂直栈。M5 Max 上 87 t/s 预填充、34 t/s 生成；双机分布式预填充最高 674 t/s。从核心思想、架构模块、设计哲学到完整教程与性能基准，一文讲透。",
+        "zh-Hant": "全面解析 antirez 開源的 DwarfStar（ds4）——一個專為 DeepSeek V4 Flash/PRO 與 GLM 5.2 打造的小型原生推理引擎。antirez（Redis 創始人）用 65,000 行 C 程式碼實現 Metal/CUDA/ROCm 三後端、SSD 串流載入、管線並行、DSpark 推測解碼、原生編碼 Agent 與 OpenAI 相容 API 的完整垂直棧。M5 Max 上 87 t/s 前置填充、34 t/s 生成；雙機分散式前置填充最高 674 t/s。從核心思想、架構模組、設計哲學到完整教學與效能基準，一文講透。"
+      },
+      "date": "2026-08-04",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "DwarfStar",
+        "ds4",
+        "antirez",
+        "DeepSeek V4",
+        "LLM Inference",
+        "Metal",
+        "CUDA",
+        "ROCm",
+        "Local LLM",
+        "Salvatore Sanfilippo"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
+      "slug": "goalmd-tutorial-analysis",
+      "title": {
+        "en": "GOAL.md Deep Dive: A Minimal Framework for Autonomous AI Code Improvement — Just Give It a Number",
+        "ja": "GOAL.md 深度解説：AI による自律的コード改善のミニマルフレームワーク — 数字ひとつで可能にする",
+        "vi": "GOAL.md Đi Sâu: Một Framework Tối Giản Cho Việc Cải Thiện Mã Tự Động Bằng AI — Chỉ Cần Đưa Nó Một Con Số",
+        "zh-Hans": "GOAL.md 深度解析：让 AI Agent 自主改进代码的极简框架——只需给它一个数字",
+        "zh-Hant": "GOAL.md 深度解析：讓 AI Agent 自主改進代碼的極簡框架——只需給它一個數字"
+      },
+      "description": {
+        "en": "A complete analysis of GOAL.md — a file format from AutoHarness that lets AI agents autonomously improve code. The core idea is deceptively simple: write a scoring script that outputs a number (Fitness Function), write a GOAL.md file defining goals and an action catalog, then let the agent figure out how to make the score go up. This article covers core concepts (Fitness Function, Action Catalog, Improvement Loop, Operating Modes), design philosophy, complete tutorial, and practical examples — showing how GOAL.md turns AI agents into autonomous code quality engineers.",
+        "ja": "GOAL.md を完全解析 — AutoHarness プロジェクトが提案した、AI エージェントが自律的にコードを改善するためのファイル形式。核心思想は驚くほどシンプル：数字を出力するスコアリングスクリプト（Fitness Function）を書き、目標とアクションカタログを定義する GOAL.md ファイルを作成し、エージェントにスコアを上げる方法を考えさせる。コア概念（適応度関数、アクションカタログ、改善ループ、動作モード）、設計哲学、完全チュートリアル、実践例を網羅。",
+        "vi": "Bài phân tích toàn diện về GOAL.md — một định dạng file từ AutoHarness cho phép các AI agent tự động cải thiện mã. Ý tưởng cốt lõi đơn giản đến bất ngờ: viết một script chấm điểm xuất ra một con số (Fitness Function), viết một file GOAL.md định nghĩa mục tiêu và danh mục hành động, rồi để agent tự tìm ra cách làm con số tăng lên. Bài viết này bao quát các khái niệm cốt lõi (Fitness Function, Action Catalog, Improvement Loop, Operating Modes), triết lý thiết kế, hướng dẫn hoàn chỉnh và các ví dụ thực tế — cho thấy GOAL.md biến AI agent thành những kỹ sư chất lượng mã tự động.",
+        "zh-Hans": "全面解析 GOAL.md——AutoHarness 项目提出的让 AI Agent 自主改进代码的文件格式。核心思想极其简单：写一个输出数字的评分脚本（Fitness Function），写一个 GOAL.md 文件定义目标和行动目录，让 Agent 自己想办法让分数变高。本文从核心概念（适应度函数、行动目录、改进循环、运行模式）、设计哲学、完整教程到实战示例，一文讲透如何用 GOAL.md 让 AI 代理成为自主的代码质量工程师。",
+        "zh-Hant": "全面解析 GOAL.md——AutoHarness 專案提出的讓 AI Agent 自主改進代碼的文件格式。核心思想極其簡單：寫一個輸出數字的評分腳本（Fitness Function），寫一個 GOAL.md 文件定義目標和行動目錄，讓 Agent 自己想辦法讓分數變高。本文從核心概念（適應度函數、行動目錄、改進迴圈、運行模式）、設計哲學、完整教程到實戰示例，一文講透如何用 GOAL.md 讓 AI 代理成為自主的代碼質量工程師。"
+      },
+      "date": "2026-08-04",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "GOAL.md",
+        "AutoHarness",
         "AI Agent",
-        "Automation",
-        "Claude Code",
-        "Codex",
-        "MCP",
-        "Subagents",
-        "DevTools",
-        "Prompt Engineering"
+        "Fitness Function",
+        "Code Quality",
+        "Autonomous Improvement",
+        "Rust",
+        "LLM"
       ],
       "categories": [
         "Deep Dive"
@@ -232,14 +353,16 @@
       "title": {
         "en": "Loop Engineering Deep Dive: Stop Prompting — Design the Loop That Runs Your AI Agent Autonomously",
         "ja": "Loop Engineering まとめ：プロンプティングをやめ、AI エージェントを自律稼働させるループを設計せよ",
+        "vi": "Loop Engineering Đi Sâu: Ngừng Nhắc — Thiết Kế Vòng Lặp Chạy AI Agent Của Bạn Một Cách Tự Động",
         "zh-Hans": "Loop Engineering 深度解析：停止提示词工程，设计让 AI 代理自主运行的循环系统",
         "zh-Hant": "Loop Engineering 深度解析：停止提示詞工程，設計讓 AI 代理自主運行的循環系統"
       },
       "description": {
-        "en": "A complete analysis of Loop Engineering — Cobus Greyling AI agent loop engineering framework. Core idea: you don't need to prompt AI anymore. Design a system that prompts AI automatically. 5 building blocks + Memory/State, 7 production patterns, progressive autonomy L1-L3, full tool ecosystem.",
-        "ja": "Loop Engineering——Cobus Greyling の AI エージェント ループエンジニアリング フレームワークの完全解析。核心思想：もう AI にプロンプトする必要はない。AI に自動でプロンプトするシステムを設計すべきだ。5 つのビルドブロック + メモリ/ステート、7 つの本番パターン、段階的自律 L1-L3、フルツールエコシステム。",
-        "zh-Hans": "全面解析 Loop Engineering——Cobus Greyling 提出的 AI 代理循环工程框架。核心思想：你不需要再手动提示 AI，你需要设计一个自动提示 AI 的系统。五大构建块 + 记忆/状态，7 个生产级模式，渐进自治 L1-L3，完整工具生态。",
-        "zh-Hant": "全面解析 Loop Engineering——Cobus Greyling 提出的 AI 代理循環工程框架。核心思想：你不需要再手動提示 AI，你需要設計一個自動提示 AI 的系統。五大構建塊 + 記憶/狀態，7 個生產級模式，漸進自治 L1-L3，完整工具生態。"
+        "en": "A complete analysis of Loop Engineering — Cobus Greyling's AI agent loop engineering framework. Core idea: you don't need to prompt AI anymore. You need to design a system that prompts AI automatically. Features 5 building blocks (Automations/Schedule, Worktrees, Skills, Plugins/Connectors, Sub-agents) + Memory/State, 7 production patterns (Daily Triage, PR Babysitter, CI Sweeper, Dependency Sweeper, Changelog Drafter, Post-Merge Cleanup, Issue Triage), progressive autonomy from L1 reporting to L2 assisted fixes to L3 unattended, and a full tool ecosystem (loop-audit/loop-init/loop-cost/loop-sync/loop-context/loop-worktree/loop-gate/loop-sandbox/loop-swarm). Covers core ideas, design philosophy, full tutorial, and feature inventory.",
+        "ja": "Loop Engineering——Cobus Greyling が提唱する AI エージェント ループエンジニアリング フレームワークの完全解析。核心思想：もう AI にプロンプトする必要はない。AI に自動でプロンプトするシステムを設計すべきだ。5 つのビルドブロック（自動化/スケジュール、ワークツリー、スキル、プラグイン/コネクタ、サブエージェント）+ メモリ/ステート、7 つの本番パターン（デイリートリエージュ、PR ベビーシッター、CI スイーパー、依存関係スイーパー、チェンジログドラフター、マージ後クリーンアップ、Issue トリエージュ）、L1 レポートから L2 補助修正から L3 無人運用への段階的自律、そしてフルツールエコシステム。核心思想、設計哲学、フルチュートリアル、機能一覧を網羅。",
+        "vi": "Bài phân tích toàn diện về Loop Engineering — framework kỹ thuật vòng lặp AI agent của Cobus Greyling. Ý tưởng cốt lõi: bạn không cần nhắc AI nữa. Bạn cần thiết kế một hệ thống tự động nhắc AI. Bao gồm 5 khối xây dựng (Automations/Schedule, Worktrees, Skills, Plugins/Connectors, Sub-agents) + Memory/State, 7 khuôn mẫu sản xuất (Daily Triage, PR Babysitter, CI Sweeper, Dependency Sweeper, Changelog Drafter, Post-Merge Cleanup, Issue Triage), sự tự chủ tiến bộ từ L1 chỉ báo cáo đến L2 sửa có hỗ trợ đến L3 không người trông, và một hệ sinh thái công cụ đầy đủ (loop-audit/loop-init/loop-cost/loop-sync/loop-context/loop-worktree/loop-gate/loop-sandbox/loop-swarm). Bao quát ý tưởng cốt lõi, triết lý thiết kế, hướng dẫn đầy đủ và danh mục tính năng.",
+        "zh-Hans": "全面解析 Loop Engineering——Cobus Greyling 提出的 AI 代理循环工程框架。核心思想：你不需要再手动提示 AI，你需要设计一个自动提示 AI 的系统。包含五大构建块（自动化/调度、工作树、技能、插件/连接器、子代理）+ 记忆/状态，7 个生产级模式（每日分诊、PR 看护、CI 清扫、依赖清扫、变更日志起草、合并后清理、Issue 分诊），从 L1 报告到 L2 辅助修复到 L3 无人值守的渐进自治，以及完整的工具生态（loop-audit/loop-init/loop-cost/loop-sync/loop-context/loop-worktree/loop-gate/loop-sandbox/loop-swarm）。从核心思想、设计哲学、完整教程到功能清单，一文讲透。",
+        "zh-Hant": "全面解析 Loop Engineering——Cobus Greyling 提出的 AI 代理循環工程框架。核心思想：你不需要再手動提示 AI，你需要設計一個自動提示 AI 的系統。包含五大構建塊（自動化/排程、工作樹、技能、插件/連接器、子代理）+ 記憶/狀態，7 個生產級模式（每日分診、PR 看護、CI 清掃、依賴清掃、變更日誌起草、合併後清理、Issue 分診），從 L1 報告到 L2 輔助修復到 L3 無人值守的漸進自治，以及完整的工具生態。從核心思想、設計哲學、完整教程到功能清單，一文講透。"
       },
       "date": "2026-08-04",
       "author": "TopDigg Research Team",
@@ -259,61 +382,33 @@
       ]
     },
     {
-      "slug": "goalmd-tutorial-analysis",
+      "slug": "loop-engineering-practical-guide",
       "title": {
-        "en": "GOAL.md Deep Dive: A Minimal Framework for Autonomous AI Code Improvement — Just Give It a Number",
-        "ja": "GOAL.md 深度解説：AI による自律的コード改善のミニマルフレームワーク — 数字ひとつで可能にする",
-        "zh-Hans": "GOAL.md 深度解析：让 AI Agent 自主改进代码的极简框架——只需给它一个数字",
-        "zh-Hant": "GOAL.md 深度解析：讓 AI Agent 自主改進代碼的極簡框架——只需給它一個數字"
+        "en": "Loop Engineering Practical Guide: How to Build AI Agent Loops That Self-Improve",
+        "ja": "Loop Engineering 実践ガイド：自己改善する AI Agent ループシステムの構築法",
+        "vi": "Loop Engineering Hướng Dẫn Thực Hành: Cách Xây Dựng Các Vòng Lặp AI Agent Tự Cải Thiện",
+        "zh-Hans": "Loop Engineering 实战指南：如何构建能自我改进的 AI Agent 循环系统",
+        "zh-Hant": "Loop Engineering 實戰指南：如何構建能自我改進的 AI Agent 循環系統"
       },
       "description": {
-        "en": "A complete analysis of GOAL.md — a file format from AutoHarness that lets AI agents autonomously improve code. The core idea: write a scoring script that outputs a number, write a GOAL.md file, and let the agent figure out how to make the score go up.",
-        "ja": "GOAL.md を完全解析 — AI エージェントが自律的にコードを改善するためのファイル形式。核心思想は驚くほどシンプル：数字を出力するスコアリングスクリプトを書き、GOAL.md ファイルを作成し、エージェントにスコアを上げる方法を考えさせる。",
-        "zh-Hans": "全面解析 GOAL.md——AutoHarness 项目提出的让 AI Agent 自主改进代码的文件格式。核心思想极其简单：写一个输出数字的评分脚本，写一个 GOAL.md 文件定义目标和行动目录，让 Agent 自己想办法让分数变高。",
-        "zh-Hant": "全面解析 GOAL.md——AutoHarness 專案提出的讓 AI Agent 自主改進代碼的文件格式。核心思想極其簡單：寫一個輸出數字的評分腳本，寫一個 GOAL.md 文件定義目標和行動目錄，讓 Agent 自己想辦法讓分數變高。"
+        "en": "Deep analysis of @elune0x's viral X post (373K views) on Loop Engineering — the paradigm shift in 2026 AI Agent development. Core idea: you don't need to prompt AI anymore. Design the system that prompts AI automatically. Covers 4 loop types (Heartbeat/Cron/Hook/Goal), 5 core components (Worktrees/Skills/Connectors/Subagents/State), model routing cost optimization (60-80% reduction), common failure modes, and a full hands-on tutorial. From design philosophy to code examples, everything you need.",
+        "ja": "@elune0x のバイラル X ポスト（373K 閲覧）を深く解析 — 2026 年 AI Agent 開発のパラダイムシフト。核心思想：もう AI にプロンプトする必要はない。AI に自動でプロンプトするシステムを設計すべきだ。4 つのループタイプ（Heartbeat/Cron/Hook/Goal）、5 つのコアコンポーネント（Worktrees/Skills/Connectors/Subagents/State）、モデルルーティングによるコスト最適化（60-80% 削減）、よくある失敗モードと対策、そしてフル実践チュートリアル。設計哲学からコード例まで網羅。",
+        "vi": "Phân tích chuyên sâu bài đăng X lan truyền của @elune0x (373K lượt xem) về Loop Engineering — sự chuyển dịch mô hình trong phát triển AI Agent năm 2026. Ý tưởng cốt lõi: bạn không cần prompt AI nữa. Hãy thiết kế hệ thống tự động prompt AI. Bao quát 4 loại vòng lặp (Heartbeat/Cron/Hook/Goal), 5 thành phần cốt lõi (Worktrees/Skills/Connectors/Subagents/State), tối ưu chi phí model routing (giảm 60-80%), các chế độ lỗi phổ biến, và một hướng dẫn thực hành đầy đủ. Từ triết lý thiết kế đến ví dụ code, mọi thứ bạn cần.",
+        "zh-Hans": "基于 @elune0x 的 X 热文（373K 阅读）深度解析 Loop Engineering——2026 年 AI Agent 开发的范式转移。核心思想：你不需要再手动提示 AI，你需要设计一个自动提示 AI 的系统。包含四种循环类型（Heartbeat/Cron/Hook/Goal）、五大核心组件（Worktrees/Skills/Connectors/Subagents/State）、模型路由成本优化（60-80% 降幅）、常见失败模式与防护，以及完整的实战教程。从设计哲学到代码示例，一文讲透。",
+        "zh-Hant": "基於 @elune0x 的 X 熱文（373K 閱讀）深度解析 Loop Engineering——2026 年 AI Agent 開發的範式轉移。核心思想：你不需要再手動提示 AI，你需要設計一個自動提示 AI 的系統。包含四種循環類型（Heartbeat/Cron/Hook/Goal）、五大核心組件（Worktrees/Skills/Connectors/Subagents/State）、模型路由成本優化（60-80% 降幅）、常見失敗模式與防護，以及完整的實戰教程。從設計哲學到代碼示例，一文講透。"
       },
       "date": "2026-08-04",
       "author": "TopDigg Research Team",
       "tags": [
-        "GOAL.md",
-        "AutoHarness",
+        "Loop Engineering",
         "AI Agent",
-        "Fitness Function",
-        "Code Quality",
-        "Autonomous Improvement",
-        "Rust",
-        "LLM"
-      ],
-      "categories": [
-        "Deep Dive"
-      ]
-    },
-    {
-      "slug": "sentrux-analysis",
-      "title": {
-        "en": "sentrux Deep Dive: The AI Agent Architecture Sensor — Closing the Feedback Loop for Recursive Self-Improvement of Code Quality",
-        "ja": "sentrux 深度解説：AI エージェントのアーキテクチャセンサー — フィードバックループを閉じ、コード品質を再帰的に自己改善する純 Rust ツール",
-        "zh-Hans": "sentrux 深度解析：AI 代理的架构传感器——帮助 AI 关闭反馈回路、实现代码质量递归自改进的纯 Rust 工具",
-        "zh-Hant": "sentrux 深度解析：AI 代理的架構傳感器——幫助 AI 關閉反饋迴路、實現代碼質量遞歸自改進的純 Rust 工具"
-      },
-      "description": {
-        "en": "A complete analysis of sentrux — a real-time architectural sensor that helps AI agents close the feedback loop, enabling recursive self-improvement of code quality. Pure Rust single binary, zero runtime dependencies, 52 languages via tree-sitter plugins. Live treemap visualization, 5 root cause metrics, MCP server integration, TOML-based rules engine, and CI quality gates.",
-        "ja": "sentrux を完全解析 — AI エージェントがフィードバックループを閉じ、コード品質の再帰的な自己改善を可能にするリアルタイムアーキテクチャセンサー。純 Rust シングルバイナリ、ランタイム依存ゼロ、52 言語を tree-sitter プラグインでサポート。ライブ treemap 可視化、5 つの根本原因指標、MCP サーバー統合、TOML ベースのルールエンジン、CI 品質ゲート。",
-        "zh-Hans": "全面解析 sentrux——一个实时架构传感器，帮助 AI 代理关闭反馈回路，实现代码质量的递归自改进。纯 Rust 单二进制文件，零运行时依赖，通过 tree-sitter 插件支持 52 种语言。提供实时依赖树状图可视化、5 项根因指标的综合质量评分、MCP 服务器集成、基于 TOML 的规则引擎和 CI 质量门。",
-        "zh-Hant": "全面解析 sentrux——一個實時架構傳感器，幫助 AI 代理關閉反饋迴路，實現代碼質量的遞歸自改進。純 Rust 單二進制文件，零運行時依賴，通過 tree-sitter 插件支持 52 種語言。提供實時依賴樹狀圖可視化、5 項根因指標的綜合質量評分、MCP 服務器集成、基於 TOML 的規則引擎和 CI 質量門。"
-      },
-      "date": "2026-08-04",
-      "author": "TopDigg Research Team",
-      "tags": [
-        "sentrux",
-        "AI Agent",
-        "Code Quality",
-        "Architecture",
-        "Rust",
-        "Static Analysis",
+        "Automation",
+        "Claude Code",
+        "Codex",
         "MCP",
-        "Tree-sitter",
-        "DevTools"
+        "Subagents",
+        "DevTools",
+        "Prompt Engineering"
       ],
       "categories": [
         "Deep Dive"
@@ -324,12 +419,14 @@
       "title": {
         "en": "OneTerm Deep Dive: VeOps Open-Source Bastion Host — an Enterprise Security Access & Ops Audit Solution Based on the 4A Concept",
         "ja": "OneTerm 深度解説：VeOps オープンソース・バスティオンホスト — 4A セキュリティ概念に基づくエンタープライズ級アクセスセキュリティと運用監査ソリューション",
+        "vi": "OneTerm Phân Tích Chuyên Sâu: Máy Chủ Bastion Mã Nguồn Mở Của VeOps — Giải Pháp Truy Cập Bảo Mật & Kiểm Toán Vận Hành Cấp Doanh Nghiệp Dựa Trên Khái Niệm 4A",
         "zh-Hans": "OneTerm 深度解析：VeOps 开源堡垒机——基于 4A 概念的企业级安全接入与运维审计方案",
         "zh-Hant": "OneTerm 深度解析：VeOps 開源堡壘機——基於 4A 概念的企業級安全接入與運維審計方案"
       },
       "description": {
         "en": "A complete analysis of OneTerm by VeOps — a simple, lightweight, flexible enterprise bastion host built on the 4A security concept (Authentication, Authorization, Account, Audit). With a Go backend, Vue.js frontend, and Apache Guacamole proxy, it delivers multi-protocol secure access (SSH/RDP/VNC/Telnet/databases), session recording & replay, command control, time/IP access policies, OAuth2/LDAP/CAS SSO, SFTP file transfer, and one-click asset sync with VeOps CMDB. From core ideas and architecture to design philosophy, full Docker Compose deployment tutorial, and feature list.",
         "ja": "VeOps が開発した OneTerm を完全解析 — 4A セキュリティ概念（認証・認可・アカウント・監査）に基づいた、シンプルで軽量、柔軟なエンタープライズ・バスティオンホスト。Go バックエンド + Vue.js フロントエンド + Apache Guacamole プロキシにより、SSH/RDP/VNC/Telnet/データベースなどマルチプロトコル安全アクセス、セッション録画・再生、コマンドテンプレート制御、時間/IP アクセスポリシー、OAuth2/LDAP/CAS SSO、SFTP ファイル転送、VeOps CMDB 連携によるワンクリック資産同期を提供。コアアイデア、アーキテクチャ、設計哲学、Docker Compose デプロイチュートリアルから機能一覧まで。",
+        "vi": "Bài phân tích toàn diện về OneTerm của VeOps — một máy chủ bastion doanh nghiệp đơn giản, nhẹ, linh hoạt được xây dựng trên khái niệm bảo mật 4A (Authentication, Authorization, Account, Audit). Với backend Go, frontend Vue.js, và proxy Apache Guacamole, nó mang lại truy cập bảo mật đa giao thức (SSH/RDP/VNC/Telnet/CSDL), ghi & phát lại phiên, kiểm soát lệnh, chính sách truy cập theo thời gian/IP, SSO OAuth2/LDAP/CAS, truyền tệp SFTP, và đồng bộ tài sản một cú nhấp với VeOps CMDB. Từ ý tưởng cốt lõi và kiến trúc đến triết lý thiết kế, hướng dẫn triển khai Docker Compose đầy đủ, và danh sách tính năng.",
         "zh-Hans": "全面解析 VeOps 开源的 OneTerm——一个简洁、轻量、灵活的企业级堡垒机（跳板机）产品。基于 4A 安全概念（认证、授权、账号、审计），用 Go 后端 + Vue.js 前端 + Apache Guacamole 实现 SSH/RDP/VNC/Telnet/数据库等多协议安全接入，支持会话录制回放、命令管控、时间/IP 访问策略、OAuth2/LDAP/CAS 单点登录，以及与 VeOps CMDB 的一键资产同步。从核心思想、架构模块、设计哲学到完整 Docker Compose 部署教程与功能清单，一文讲透。",
         "zh-Hant": "全面解析 VeOps 開源的 OneTerm——一個簡潔、輕量、靈活的企業級堡壘機（跳板機）產品。基於 4A 安全概念（認證、授權、帳號、審計），用 Go 後端 + Vue.js 前端 + Apache Guacamole 實現 SSH/RDP/VNC/Telnet/資料庫等多協定安全接入，支援會話錄製回放、命令管控、時間/IP 訪問策略、OAuth2/LDAP/CAS 單點登入，以及與 VeOps CMDB 的一鍵資產同步。從核心思想、架構模組、設計哲學到完整 Docker Compose 部署教學與功能清單，一文講透。"
       },
@@ -352,111 +449,56 @@
       ]
     },
     {
-      "slug": "ds4-analysis",
-      "date": "2026-08-04T00:00:00.000Z",
+      "slug": "sentrux-analysis",
       "title": {
-        "zh-Hans": "DwarfStar (ds4) 深度解析：Redis 作者 antirez 的本地 LLM 推理引擎——为 DeepSeek V4 Flash 定制的垂直整合方案",
-        "zh-Hant": "DwarfStar (ds4) 深度解析：Redis 作者 antirez 的本地 LLM 推理引擎——為 DeepSeek V4 Flash 定製的垂直整合方案",
-        "en": "DwarfStar (ds4) Deep Dive: How antirez (Redis Creator) Built a Native LLM Inference Engine — a Vertically Integrated Solution for DeepSeek V4 Flash",
-        "ja": "DwarfStar (ds4) 徹底解説：Redis 作者 antirez が作ったローカル LLM 推論エンジン——DeepSeek V4 Flash に特化した垂直統合ソリューション"
+        "en": "sentrux Deep Dive: The AI Agent Architecture Sensor — Closing the Feedback Loop for Recursive Self-Improvement of Code Quality",
+        "ja": "sentrux 深度解説：AI エージェントのアーキテクチャセンサー — フィードバックループを閉じ、コード品質を再帰的に自己改善する純 Rust ツール",
+        "vi": "sentrux Chuyên Sâu: Cảm Biến Kiến Trúc Cho AI Agent — Đóng Vòng Phản Hồi Để Tự Cải Thiện Đệ Quy Chất Lượng Mã",
+        "zh-Hans": "sentrux 深度解析：AI 代理的架构传感器——帮助 AI 关闭反馈回路、实现代码质量递归自改进的纯 Rust 工具",
+        "zh-Hant": "sentrux 深度解析：AI 代理的架構傳感器——幫助 AI 關閉反饋迴路、實現代碼質量遞歸自改進的純 Rust 工具"
       },
       "description": {
-        "zh-Hans": "全面解析 antirez 开源的 DwarfStar（ds4）——一个专为 DeepSeek V4 Flash/PRO 与 GLM 5.2 打造的小型原生推理引擎。antirez（Redis 创始人）用 65,000 行 C 代码实现 Metal/CUDA/ROCm 三后端、SSD 流式加载、流水线并行、DSpark 推测解码、原生编码 Agent 与 OpenAI 兼容 API 的完整垂直栈。M5 Max 上 87 t/s 预填充、34 t/s 生成；双机分布式预填充最高 674 t/s。从核心思想、架构模块、设计哲学到完整教程与性能基准，一文讲透。",
-        "zh-Hant": "全面解析 antirez 開源的 DwarfStar（ds4）——一個專為 DeepSeek V4 Flash/PRO 與 GLM 5.2 打造的小型原生推理引擎。antirez（Redis 創始人）用 65,000 行 C 程式碼實現 Metal/CUDA/ROCm 三後端、SSD 串流載入、管線並行、DSpark 推測解碼、原生編碼 Agent 與 OpenAI 相容 API 的完整垂直棧。M5 Max 上 87 t/s 前置填充、34 t/s 生成；雙機分散式前置填充最高 674 t/s。從核心思想、架構模組、設計哲學到完整教學與效能基準，一文講透。",
-        "en": "A complete analysis of DwarfStar (ds4) by antirez (Salvatore Sanfilippo, Redis creator) — a small native inference engine purpose-built for DeepSeek V4 Flash/PRO and GLM 5.2. In ~65,000 lines of C it delivers Metal/CUDA/ROCm backends, SSD streaming, pipeline parallelism, DSpark speculative decoding, a native coding agent, and an OpenAI-compatible API as a single vertically integrated stack. 87 t/s prefill and 34 t/s generation on M5 Max; distributed prefill up to 674 t/s across two machines. From core ideas and architecture to design philosophy, full tutorial, feature list, and key takeaways.",
-        "ja": "antirez（Redis 創設者 Salvatore Sanfilippo）が公開した DwarfStar（ds4）を徹底解説——DeepSeek V4 Flash/PRO と GLM 5.2 に特化した小型ネイティブ推論エンジン。約 65,000 行の C コードで Metal/CUDA/ROCm 3 バックエンド、SSD ストリーミング、パイプライン並列、DSpark 推測デコーディング、ネイティブコーディングエージェント、OpenAI 互換 API を一つの垂直統合スタックとして実現。M5 Max で 87 t/s プリフィル、34 t/s 生成；分散プリフィルは最大 674 t/s。コア思想、アーキテクチャ、設計哲学からチュートリアル、機能一覧、要点まとめまでを網羅。"
+        "en": "A complete analysis of sentrux — a real-time architectural sensor that helps AI agents close the feedback loop, enabling recursive self-improvement of code quality. Pure Rust single binary with zero runtime dependencies, supporting 52 languages via tree-sitter plugins. Features live dependency treemap visualization, 5 root cause metrics (modularity/acyclicity/depth/equality/redundancy) unified into a single quality score, MCP server integration (Claude Code/Cursor/Windsurf/OpenCode), TOML-based rules engine, and CI quality gates. From core problem and design philosophy to architecture, full installation tutorial, and feature list.",
+        "ja": "sentrux を完全解析 — AI エージェントがフィードバックループを閉じ、コード品質の再帰的な自己改善を可能にするリアルタイムアーキテクチャセンサー。純 Rust シングルバイナリ、ランタイム依存ゼロ、tree-sitter プラグインで 52 言語をサポート。ライブ依存性ツーマップ可視化、5 つの根本原因指標（モジュール性・非巡回性・深さ・平等性・冗長性）の統合品質スコア、MCP サーバー統合（Claude Code/Cursor/Windsurf/OpenCode）、TOML ベースのルールエンジン、CI 品質ゲートを提供。コア問題、設計哲学、アーキテクチャ、完全インストールチュートリアルから機能一覧まで。",
+        "vi": "Phân tích hoàn chỉnh về sentrux — một cảm biến kiến trúc thời gian thực giúp AI agent đóng vòng phản hồi, cho phép tự cải thiện đệ quy chất lượng mã. Nhị phân Rust thuần duy nhất không có phụ thuộc runtime, hỗ trợ 52 ngôn ngữ qua plugin tree-sitter. Có trực quan hóa treemap phụ thuộc trực tiếp, 5 chỉ số nguyên nhân gốc (modularity/acyclicity/depth/equality/redundancy) hợp nhất thành một điểm chất lượng duy nhất, tích hợp máy chủ MCP (Claude Code/Cursor/Windsurf/OpenCode), engine quy tắc dựa trên TOML và cổng chất lượng CI. Từ vấn đề cốt lõi và triết lý thiết kế đến kiến trúc, hướng dẫn cài đặt đầy đủ và danh sách tính năng.",
+        "zh-Hans": "全面解析 sentrux——一个实时架构传感器，帮助 AI 代理关闭反馈回路，实现代码质量的递归自改进。纯 Rust 单二进制文件，零运行时依赖，通过 tree-sitter 插件支持 52 种语言。提供实时依赖树状图可视化、5 项根因指标（模块化/无环性/深度/平等性/冗余性）的综合质量评分、MCP 服务器集成（Claude Code/Cursor/Windsurf/OpenCode）、基于 TOML 的规则引擎和 CI 质量门。从核心问题、设计理念、架构模块、设计哲学到完整安装使用教程与功能清单，一文讲透。",
+        "zh-Hant": "全面解析 sentrux——一個實時架構傳感器，幫助 AI 代理關閉反饋迴路，實現代碼質量的遞歸自改進。純 Rust 單二進制文件，零運行時依賴，通過 tree-sitter 插件支持 52 種語言。提供實時依賴樹狀圖可視化、5 項根因指標（模塊化/無環性/深度/平等性/冗餘性）的綜合質量評分、MCP 服務器集成（Claude Code/Cursor/Windsurf/OpenCode）、基於 TOML 的規則引擎和 CI 質量門。從核心問題、設計理念、架構模組、設計哲學到完整安裝使用教程與功能清單，一文講透。"
       },
+      "date": "2026-08-04",
+      "author": "TopDigg Research Team",
       "tags": [
-        "DwarfStar",
-        "ds4",
-        "antirez",
-        "DeepSeek V4",
-        "LLM Inference",
-        "Metal",
-        "CUDA",
-        "ROCm",
-        "Local LLM",
-        "Salvatore Sanfilippo"
+        "sentrux",
+        "AI Agent",
+        "Code Quality",
+        "Architecture",
+        "Rust",
+        "Static Analysis",
+        "MCP",
+        "Tree-sitter",
+        "DevTools"
       ],
       "categories": [
         "Deep Dive"
-      ],
-      "keywords": [
-        "DwarfStar",
-        "ds4",
-        "antirez",
-        "DeepSeek V4 Flash",
-        "本地推理",
-        "LLM",
-        "Metal",
-        "CUDA",
-        "ROCm",
-        "Redis 作者",
-        "推测解码",
-        "SSD 流式加载",
-        "流水线并行",
-        "垂直整合"
-      ]
-    },
-    {
-      "slug": "autoharness-analysis",
-      "date": "2026-08-04T00:00:00.000Z",
-      "title": {
-        "zh-Hans": "AutoHarness 深度解析：用树搜索让「小模型 + Harness」胜过「大模型」——为 LLM 智能体自动合成代码护栏的开源 Rust 库",
-        "zh-Hant": "AutoHarness 深度解析：用樹狀搜尋讓「小模型 + Harness」勝過「大模型」——為 LLM Agent 自動合成程式碼護欄的開源 Rust 函式庫",
-        "en": "AutoHarness Deep Dive: How \"Small Model + Harness\" Beats \"Large Model\" — an Open-Source Rust Library That Automatically Synthesizes Code Harnesses for LLM Agents",
-        "ja": "AutoHarness 徹底解説：「小モデル + Harness」が「大モデル」を上回る仕組み——LLM エージェント向けコードハーネスを自動合成するオープンソース Rust ライブラリ"
-      },
-      "description": {
-        "zh-Hans": "全面解析 gyc567 开源的 AutoHarness——一个用 Rust 编写的库与 CLI 工具，它自动为 LLM 智能体「合成并优化代码 Harness」，复现 AutoHarness 论文（arXiv:2603.03329）的核心方法。用树搜索 + Thompson 采样迭代精化 Harness 代码，在 145 个 TextArena 游戏上平均 14.5 次迭代达到 100% 合法动作率，实证「小模型 + Harness > 大模型」的观点。从核心思想、架构模块、设计哲学到完整教程、功能清单与归纳结论，一文讲透。",
-        "zh-Hant": "全面解析 gyc567 開源的 AutoHarness——一個用 Rust 撰寫的函式庫與 CLI 工具，它自動為 LLM Agent「合成並最佳化程式碼 Harness」，重現 AutoHarness 論文（arXiv:2603.03329）的核心方法。用樹狀搜尋 + Thompson 取樣迭代精化 Harness 程式碼，在 145 個 TextArena 遊戲上平均 14.5 次迭代達到 100% 合法動作率，實證並落實「小模型 + Harness > 大模型」的觀點。從核心思想、架構模組、設計哲學到完整教學、功能清單與歸納結論，一文講透。",
-        "en": "A complete analysis of AutoHarness by gyc567 — a Rust library and CLI tool that automatically synthesizes and optimizes code harnesses for LLM agents, implementing the approach from the AutoHarness paper (arXiv:2603.03329). Using tree search with Thompson sampling to iteratively refine harness code, it reaches a 100% legal action rate in an average of 14.5 iterations across 145 TextArena games — empirically validating the claim 'small model + harness > large model without harness.' From core ideas and architecture to design philosophy, a full tutorial, feature list, and key takeaways, this article covers it all.",
-        "ja": "gyc567 が公開した AutoHarness を徹底解説——Rust 製のライブラリ兼 CLI ツールで、LLM エージェント向けのコードハーネスを自動的に「合成・最適化」します。AutoHarness 論文（arXiv:2603.03329）の手法を再現し、木探索 + Thompson サンプリングでハーネスコードを反復改良。145 の TextArena ゲームで平均 14.5 イテレーションで 100% の合法アクション率に到達し、「小モデル + Harness > 大モデル」という主張を実証しています。コア思想、アーキテクチャ、設計哲学から、チュートリアル、機能一覧、結論までを 1 記事で網羅。"
-      },
-      "tags": [
-        "AutoHarness",
-        "LLM Agents",
-        "Code Harness",
-        "Tree Search",
-        "Thompson Sampling",
-        "Rust",
-        "AI Safety",
-        "TextArena",
-        "LLM",
-        "Sandbox"
-      ],
-      "categories": [
-        "Deep Dive"
-      ],
-      "keywords": [
-        "AutoHarness",
-        "LLM 智能体",
-        "代码 Harness",
-        "树搜索",
-        "Thompson 采样",
-        "Rust",
-        "AI 安全",
-        "TextArena",
-        "代码合成",
-        "沙箱执行",
-        "LLM Agent"
       ]
     },
     {
       "slug": "system-design-primer-analysis",
-      "date": "2026-08-04T00:00:00.000Z",
       "title": {
-        "zh-Hans": "system-design-primer 深度解析：系统设计面试的「圣经」——从零到大厂的完整学习路径",
-        "zh-Hant": "system-design-primer 深度解析：系統設計面試的「聖經」——從零到大廠的完整學習路徑",
         "en": "system-design-primer Deep Dive: The \"Bible\" of System Design Interviews — A Complete Learning Path from Zero to Big Tech",
-        "ja": "system-design-primer 徹底解説: システム設計面接の「バイブル」——ゼロから大手テックまでの完全な学習パス"
+        "ja": "system-design-primer 徹底解説: システム設計面接の「バイブル」——ゼロから大手テックまでの完全な学習パス",
+        "vi": "system-design-primer Chuyên Sâu: \"Kinh Thánh\" của Phỏng Vấn Thiết Kế Hệ Thống — Lộ Trình Học Tập Hoàn Chỉnh Từ Con Số Không Đến Big Tech",
+        "zh-Hans": "system-design-primer 深度解析：系统设计面试的「圣经」——从零到大厂的完整学习路径",
+        "zh-Hant": "system-design-primer 深度解析：系統設計面試的「聖經」——從零到大廠的完整學習路徑"
       },
       "description": {
-        "zh-Hans": "全面分析 Donne Martin 开源的 system-design-primer：约 36 万 stars 的开源系统设计学习资源。讲透 CAP 定理、16 大主题、8 个带完整方案的设计题、22 家公司真实架构、Anki 闪卡与「一切皆是权衡」的核心哲学。",
-        "zh-Hant": "全面分析 Donne Martin 開源的 system-design-primer：約 36 萬 stars 的開源系統設計學習資源。講透 CAP 定理、16 大主題、8 個帶完整方案的設計題、22 家公司真實架構、Anki 閃卡與「一切皆是權衡」的核心哲學。",
-        "en": "A complete analysis of Donne Martin's open-source system-design-primer (~360k stars): CAP theorem, all 16 topic sections, 8 fully-solved design problems, 22 real company architectures, Anki flashcards, and the core philosophy — everything is a trade-off.",
-        "ja": "Donne Martin 氏のオープンソース system-design-primer（約36万スター）を徹底解説：CAP 定理、16 トピック、完全解答付き設計問題 8 問、22 社の実在アーキテクチャ、Anki カード、そして核心哲学「すべてはトレードオフ」。"
+        "en": "A complete analysis of Donne Martin's open-source system-design-primer — one of the most-starred repos on GitHub with ~360k stars, consistently ranked in the global top 5–8. From the motivation 'learn how to design large-scale systems, prep for the system design interview,' this article covers all 16 topic sections (CAP theorem, consistency/availability patterns, caching strategies, database sharding), the 8 fully-solved design problems, 22 real company architectures, Anki spaced-repetition flashcards, and the core philosophy running through everything: 'everything is a trade-off' — plus the four-step interview method.",
+        "ja": "Donne Martin 氏が公開した system-design-primer を徹底分析——GitHub で約36万スターを獲得し、全サイト上位 5〜8 位に常時ランクインする最も人気のあるオープンソースリポジトリです。「大規模システムの設計を学び、システム設計面接に備える」という動機から、CAP 定理・整合性/可用性パターン・キャッシュ戦略・データベースシャーディングなど 16 のトピック、完全解答付きの設計問題 8 問、22 社の実在アーキテクチャ、Anki 間隔反復フラッシュカード、そして全体を貫く「Everything is a trade-off（すべてはトレードオフ）」という核心哲学と 4 ステップ面接法までを解説します。",
+        "vi": "Phân tích hoàn chỉnh về hệ thống-design-primer mã nguồn mở của Donne Martin — một trong những kho lưu trữ có nhiều sao nhất trên GitHub với ~360k sao, thường xuyên xếp hạng trong top 5–8 toàn cầu. Từ động lực 'học cách thiết kế hệ thống quy mô lớn, chuẩn bị cho phỏng vấn thiết kế hệ thống', bài viết này bao quát toàn bộ 16 mục chủ đề (định lý CAP, các mẫu nhất quán/khả dụng, chiến lược bộ nhớ đệm, phân mảnh cơ sở dữ liệu), 8 bài toán thiết kế được giải đầy đủ, 22 kiến trúc công ty thực tế, thẻ ghi nhớ lặp lại ngắt quãng Anki, và triết lý cốt lõi xuyên suốt mọi thứ: 'mọi thứ đều là sự đánh đổi' — cùng phương pháp phỏng vấn bốn bước.",
+        "zh-Hans": "全面分析 Donne Martin 开源的 system-design-primer——GitHub 上约 36 万 stars、长期位居全站前 10 的最受欢迎开源仓库。从「学会设计大规模系统、备战系统设计面试」的动机出发，讲透 CAP 定理、一致性/可用性模式、缓存策略、数据库分片等 16 大主题，8 个带完整方案的设计题、22 家公司真实架构、Anki 间隔重复闪卡，以及「一切皆是权衡」这一贯穿全文的核心哲学与四步面试法。",
+        "zh-Hant": "全面分析 Donne Martin 開源的 system-design-primer——GitHub 上約 36 萬 stars、長期位居全站前 10 的最受歡迎開源倉庫。從「學會設計大規模系統、備戰系統設計面試」的動機出發，講透 CAP 定理、一致性/可用性模式、快取策略、資料庫分片等 16 大主題，8 個帶完整方案的設計題、22 家公司真實架構、Anki 間隔重複閃卡，以及「一切皆是權衡」這一貫穿全文的核心哲學與四步面試法。"
       },
+      "date": "2026-08-04",
+      "author": "TopDigg Research Team",
       "tags": [
         "system-design-primer",
         "System Design",
@@ -471,84 +513,25 @@
       ],
       "categories": [
         "Deep Dive"
-      ],
-      "keywords": [
-        "system-design-primer",
-        "系统设计",
-        "系统设计面试",
-        "CAP 定理",
-        "可扩展性",
-        "分布式系统",
-        "Donne Martin",
-        "架构设计",
-        "缓存策略",
-        "数据库分片",
-        "Anki 闪卡",
-        "面试准备"
-      ]
-    },
-    {
-      "slug": "shiki-stream-analysis",
-      "date": "2026-08-03T00:00:00.000Z",
-      "title": {
-        "zh-Hans": "shiki-stream 深度解析：让 LLM 输出的代码像打字一样实时高亮",
-        "zh-Hant": "shiki-stream 深度解析：讓 LLM 輸出的程式碼像打字一樣即時高亮",
-        "en": "shiki-stream Deep Dive: Let LLM-Generated Code Highlight in Real Time, Like a Typewriter",
-        "ja": "shiki-stream 徹底解説: LLMが出力するコードをまるでタイプライターのようにリアルタイムハイライトする"
-      },
-      "description": {
-        "zh-Hans": "全面分析 shiki-stream —— 一个基于 Web Streams API 的流式语法高亮库，专为 LLM 流式输出代码场景设计，讲透核心思想、CodeToTokenTransformStream、recall token 机制与框架渲染器。",
-        "zh-Hant": "全面分析 shiki-stream —— 一個基於 Web Streams API 的串流式語法高亮函式庫，專為 LLM 串流輸出程式碼場景設計，講透核心思想、CodeToTokenTransformStream、recall token 機制與框架渲染器。",
-        "en": "A complete analysis of shiki-stream: a Web Streams API-based streaming syntax-highlighting library built for LLM streaming code output — core idea, CodeToTokenTransformStream, recall tokens, and framework renderers.",
-        "ja": "shiki-stream を徹底分析：Web Streams API を基盤にしたストリーミング構文ハイライトライブラリ — コアの考え方、CodeToTokenTransformStream、recall token 機構、フレームワークレンダラーを網羅。"
-      },
-      "tags": [
-        "shiki-stream",
-        "Shiki",
-        "Syntax Highlighting",
-        "Streaming",
-        "LLM",
-        "Web Streams API",
-        "antfu",
-        "Vue",
-        "React",
-        "Solid",
-        "TypeScript",
-        "CodeToTokenTransformStream"
-      ],
-      "categories": [
-        "Deep Dive"
-      ],
-      "keywords": [
-        "shiki-stream",
-        "Shiki 流式高亮",
-        "语法高亮",
-        "流式输出",
-        "LLM 代码高亮",
-        "Web Streams API",
-        "CodeToTokenTransformStream",
-        "Recall Token",
-        "Anthony Fu",
-        "@shikijs/stream",
-        "渐进式渲染",
-        "AI 代码展示"
       ]
     },
     {
       "slug": "agent-recall-x-analysis",
       "title": {
-        "zh-Hans": "AgentRecall-X 深度解析：会从纠正中学习的 Agent 记忆，与诚实测量革命",
-        "zh-Hant": "AgentRecall-X 深度解析：會從糾正中學習的 Agent 記憶，與誠實測量革命",
         "en": "AgentRecall-X Deep Dive: An Agent That Learns From Corrections — and the Honest-Measurement Revolution",
-        "ja": "AgentRecall-X 徹底解説：訂正から学ぶ Agent メモリと、正直な計測革命"
+        "ja": "AgentRecall-X 徹底解説：訂正から学ぶ Agent メモリと、正直な計測革命",
+        "vi": "AgentRecall-X Phân Tích Chuyên Sâu: Một Agent Học Từ Sửa Chữa — và Cuộc Cách Mạng Đo Lường Trung Thực",
+        "zh-Hans": "AgentRecall-X 深度解析：会从纠正中学习的 Agent 记忆，与诚实测量革命",
+        "zh-Hant": "AgentRecall-X 深度解析：會從糾正中學習的 Agent 記憶，與誠實測量革命"
       },
       "description": {
-        "zh-Hans": "全面分析 Goldentrii 开源的 AgentRecall-X —— 一个「从纠正中学习」的 Claude Code 记忆系统，也是唯一把「agent 是否真的不再重复犯错」量化出来的开源项目。从「受治理的纠正账本」与「缺失的测量仪器」双核心定位，到基于认知心理学的五层记忆模型，从 35.3% 的真实捕获率与 0/3 的诚实数据，到 /arstart /arsave /arrecall /arreflect 四步会话循环，再到完整的 MCP 安装教程与「自动化原则」设计哲学。",
-        "zh-Hant": "全面分析 Goldentrii 開源的 AgentRecall-X —— 一個「從糾正中學習」的 Claude Code 記憶系統，也是唯一把「agent 是否真的不再重複犯錯」量化出來的開源專案。從「受治理的糾正帳本」與「缺失的測量儀器」雙核心定位，到基於認知心理學的五層記憶模型，從 35.3% 的真實捕獲率與 0/3 的誠實數據，再到 /arstart /arsave /arrecall /arreflect 四步會話循環，以及完整的 MCP 安裝教學與「自動化原則」設計哲學。",
-        "en": "A complete analysis of AgentRecall-X, open-sourced by Goldentrii — a Claude Code memory system that learns from corrections, and the only open-source project that actually quantifies whether an agent stops repeating a mistake. From the dual core — a governed corrections ledger plus a missing measurement instrument — to the five-layer memory model grounded in cognitive psychology, from the honest 35.3% capture rate and 0/3 heed data, to the /arstart /arsave /arrecall /arreflect session loop, to a full MCP setup tutorial and the Automaticity Principle design philosophy.",
-        "ja": "Goldentrii がオープンソースで公開する AgentRecall-X —— 「訂正から学ぶ」Claude Code メモリシステムであり、agent が本当にミスを繰り返さなくなったかを数値化する唯一のオープンソースプロジェクトを徹底分析。「統治された訂正台帳」と「欠けていた計測器」という二つの核、認知心理学に基づく五層メモリモデル、正直な 35.3% の捕捉率と 0/3 の遵守データ、/arstart /arsave /arrecall /arreflect のセッションループ、完全な MCP 導入チュートリアル、「自動化の原則」という設計哲学までを解説。"
+        "en": "A complete analysis of AgentRecall-X, open-sourced by Goldentrii — a Claude Code memory system that learns from corrections, and the only open-source project that actually quantifies whether an agent stops repeating a mistake. From the dual core — a governed corrections ledger plus the missing measurement instrument — to the five-layer memory model grounded in cognitive psychology, from the honest 35.3% capture rate and 0/3 heed data, to the /arstart /arsave /arrecall /arreflect session loop, to a full MCP setup tutorial and the Automaticity Principle design philosophy, this article explains why a 312-star project is shaking up the entire agent-memory field.",
+        "ja": "Goldentrii がオープンソースで公開する AgentRecall-X —— 「訂正から学ぶ」Claude Code メモリシステムであり、agent が本当にミスを繰り返さなくなったかを数値化する唯一のオープンソースプロジェクトを徹底分析。「統治された訂正台帳」と「欠けていた計測器」という二つの核、認知心理学に基づく五層メモリモデル、正直な 35.3% の捕捉率と 0/3 の遵守データ、/arstart /arsave /arrecall /arreflect のセッションループ、完全な MCP 導入チュートリアル、そして「自動化の原則」という設計哲学まで、312 stars で agent メモリ市場全体を揺るがすプロジェクトを 1 記事で解説します。",
+        "vi": "Một bài phân tích toàn diện về AgentRecall-X, được Goldentrii mở nguồn — một hệ thống bộ nhớ cho Claude Code học từ các sửa chữa, và là dự án mã nguồn mở duy nhất thực sự định lượng được liệu một agent có ngừng lặp lại sai lầm hay không. Từ bộ đôi cốt lõi — một sổ ghi chép sửa chữa có quản trị cùng công cụ đo lường còn thiếu — đến mô hình bộ nhớ năm lớp dựa trên tâm lý học nhận thức, từ tỷ lệ ghi nhận 35.3% trung thực và dữ liệu tuân thủ 0/3, đến vòng lặp phiên /arstart /arsave /arrecall /arreflect, đến một hướng dẫn thiết lập MCP đầy đủ và triết lý thiết kế Nguyên Tắc Tự Động Hóa, bài viết này giải thích vì sao một dự án 312 sao đang làm rung chuyển toàn bộ lĩnh vực bộ nhớ agent.",
+        "zh-Hans": "全面分析 Goldentrii 开源的 AgentRecall-X —— 一个「从纠正中学习」的 Claude Code 记忆系统，也是唯一把「agent 是否真的不再重复犯错」量化出来的开源项目。从「受治理的纠正账本」与「缺失的测量仪器」双核心定位，到基于认知心理学的五层记忆模型，从 35.3% 的真实捕获率与 0/3 的诚实数据，到 /arstart /arsave /arrecall /arreflect 四步会话循环，再到完整的 MCP 安装教程与「自动化原则」设计哲学，一文讲透这个 312 stars 却搅动整个 agent 记忆赛道的项目。",
+        "zh-Hant": "全面分析 Goldentrii 開源的 AgentRecall-X —— 一個「從糾正中學習」的 Claude Code 記憶系統，也是唯一把「agent 是否真的不再重複犯錯」量化出來的開源專案。從「受治理的糾正帳本」與「缺失的測量儀器」雙核心定位，到基於認知心理學的五層記憶模型，從 35.3% 的真實捕獲率與 0/3 的誠實數據，到 /arstart /arsave /arrecall /arreflect 四步會話循環，再到完整的 MCP 安裝教學與「自動化原則」設計哲學，一文講透這個 312 stars 卻攪動整個 agent 記憶賽道的專案。"
       },
-      "date": "2026-08-03T00:00:00.000Z",
+      "date": "2026-08-03",
       "author": "TopDigg Research Team",
       "tags": [
         "AgentRecall",
@@ -562,23 +545,166 @@
         "AI Agent",
         "Memory Layers",
         "TypeScript"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
+      "slug": "airllm-analysis",
+      "title": {
+        "en": "AirLLM Deep Dive: The Layer-Wise Inference Revolution That Runs 70B LLMs on a 4GB GPU",
+        "ja": "AirLLM 徹底解説：層ごとの推論で70B大規模言語モデルを4GB GPUで動かす革命",
+        "vi": "AirLLM Đi Sâu: Cuộc Cách Mạng Suy Luận Từng Lớp Chạy LLM 70B Trên GPU 4GB",
+        "zh-Hans": "AirLLM 深度解析：让 70B 大模型在 4GB 显卡上跑起来的分层推理革命",
+        "zh-Hant": "AirLLM 深度解析：讓 70B 大模型在 4GB 顯示卡上跑起來的分層推理革命"
+      },
+      "description": {
+        "en": "A comprehensive analysis of the open-source AirLLM project — no quantization, no distillation, no pruning. Through layer-by-layer loading, it runs 70B-parameter LLMs on a single 4GB GPU. From installation to API usage, from how it works to its design philosophy, this article covers the core ideas behind a 26k-star project.",
+        "ja": "オープンソースプロジェクト AirLLM を包括的に分析 —— 量子化も蒸留も枝刈りもせず、レイヤーごとのロード技術で70Bパラメータの大規模言語モデルを単一の4GB GPUで推論。インストールからAPIの使い方、動作原理から設計哲学まで、26,000スター超のプロジェクトの核となる考え方を解説。",
+        "vi": "Bài phân tích toàn diện về dự án mã nguồn mở AirLLM — không lượng tử hóa, không chưng cất, không tỉa bớt. Thông qua việc tải từng lớp một, nó chạy được LLM 70B tham số trên một GPU 4GB duy nhất. Từ cài đặt đến sử dụng API, từ cách nó hoạt động đến triết lý thiết kế, bài viết này bao quát các ý tưởng cốt lõi đằng sau một dự án 26k sao.",
+        "zh-Hans": "全面分析开源项目 AirLLM —— 不量化、不蒸馏、不剪枝，通过逐层加载技术让 70B 参数大模型在单张 4GB 显卡上完成推理。从安装教程到 API 使用，从工作原理到设计哲学，一文讲透这个 2.6 万星项目的核心思想。",
+        "zh-Hant": "全面分析開源專案 AirLLM —— 不量化、不蒸餾、不剪枝，透過逐層載入技術讓 70B 參數大模型在單張 4GB 顯示卡上完成推理。從安裝教學到 API 使用，從工作原理到設計哲學，一文講透這個 2.6 萬星專案的核心思想。"
+      },
+      "date": "2026-08-03",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "AirLLM",
+        "LLM Inference",
+        "Large Language Models",
+        "GPU Memory Optimization",
+        "Layer-wise Inference",
+        "Open Source",
+        "Gavin Li",
+        "Deep Learning",
+        "Model Inference",
+        "Low-end Hardware"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
+      "slug": "arex-analysis",
+      "title": {
+        "en": "AREX Deep Dive: BAAI's Open-Source Recursively Self-Improving Deep Research Agent",
+        "ja": "AREX 徹底解説：BAAIが公開した再帰的自己改善型ディープリサーチエージェント",
+        "vi": "AREX Chuyên Sâu: Agent Nghiên Cứu Sâu Tự Cải Thiện Đệ Quy Mã Nguồn Mở của BAAI",
+        "zh-Hans": "AREX 深度解析：BAAI 开源的可递归自我改进深度研究 Agent",
+        "zh-Hant": "AREX 深度解析：BAAI 開源的可遞迴自我改進深度研究 Agent"
+      },
+      "description": {
+        "en": "A comprehensive analysis of BAAI's open-source AREX — a recursively self-improving deep research agent. From the core 'discovery-verification asymmetry' insight in arXiv 2607.21461 to the dual-loop framework, from AREX-Turbo / AREX-Base models to a complete usage tutorial, this article explains the design philosophy of this Apache 2.0 open research model.",
+        "ja": "BAAI（北京智源人工知能研究院）が公開したAREXを包括的に分析 —— 再帰的自己改善型ディープリサーチエージェント。arXiv 2607.21461の核となる考え方「発見と検証の非対称性」から二重ループフレームワーク、AREX-Turbo / AREX-Baseモデルから完全な使用チュートリアルまで、このApache 2.0オープンリサーチモデルの設計哲学を解説。",
+        "vi": "Phân tích toàn diện về AREX mã nguồn mở của BAAI — một agent nghiên cứu sâu tự cải thiện đệ quy. Từ hiểu biết cốt lõi về 'bất đối xứng khám phá-xác minh' trong arXiv 2607.21461 đến khung vòng lặp kép, từ các mô hình AREX-Turbo / AREX-Base đến hướng dẫn sử dụng hoàn chỉnh, bài viết này giải thích triết lý thiết kế của mô hình nghiên cứu mở Apache 2.0 này.",
+        "zh-Hans": "全面分析 BAAI（北京智源人工智能研究院）开源的 AREX —— 一个可递归自我改进的深度研究 Agent。从 arXiv 2607.21461 论文核心思想「发现-验证不对称」到双循环框架，从 AREX-Turbo / AREX-Base 模型到完整使用教程，一文讲透这个 Apache 2.0 开源研究模型的设计哲学。",
+        "zh-Hant": "全面分析 BAAI（北京智源人工智慧研究院）開源的 AREX —— 一個可遞迴自我改進的深度研究 Agent。從 arXiv 2607.21461 論文核心思想「發現-驗證不對稱」到雙迴圈框架，從 AREX-Turbo / AREX-Base 模型到完整使用教學，一文講透這個 Apache 2.0 開源研究模型的設計哲學。"
+      },
+      "date": "2026-08-03",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "AREX",
+        "BAAI",
+        "Deep Research",
+        "Agent",
+        "Recursive Self-Improvement",
+        "arXiv",
+        "Open Source Model",
+        "Deep Research",
+        "MoE",
+        "Qwen3.5"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
+      "slug": "kimi-k3-mi355x-analysis",
+      "title": {
+        "en": "Kimi K3 × AMD MI355X Deep Dive: Is Memory the Moat?",
+        "ja": "Kimi K3 × AMD MI355X 徹底解説：メモリは堀（モート）なのか？",
+        "vi": "Kimi K3 × AMD MI355X Phân Tích Chuyên Sâu: Bộ Nhớ Có Phải Là Con Hào Không?",
+        "zh-Hans": "Kimi K3 × AMD MI355X 深度解析：内存是护城河吗？",
+        "zh-Hant": "Kimi K3 × AMD MI355X 深度解析：記憶體是護城河嗎？"
+      },
+      "description": {
+        "en": "A comprehensive analysis of Wafer AI's engineering blog on serving the 2.8T open-source model Kimi K3 on AMD MI355X at 952 tok/s/node. From the core 'memory is the moat' thesis, to speculative decoding and AITER prefill optimization, to the MI355X crushing B200 with 48 tok/s/$, this article explains why memory capacity gave AMD a measurable edge over NVIDIA at the 2.8T model scale — and whether the CUDA moat is really dying.",
+        "ja": "Wafer AI が AMD MI355X 上で 2.8T パラメータのオープンソースモデル Kimi K3 を 952 tok/s/ノード で稼働させた第一級のエンジニアリング記録を徹底分析。核となる論点「メモリは堀なのか」から、投機的デコードと AITER Prefill 最適化、そして MI355X が 48 tok/s/$ で B200 を完全に打ち負かす性能対価格比まで。メモリ容量が 2.8T モデル規模で初めて NVIDIA に対する定量化可能な優位に変わった理由と、CUDA の堀が本当に終わりを迎えつつあるのかを解き明かす。",
+        "vi": "Bài phân tích toàn diện về bài blog kỹ thuật của Wafer AI về việc phục vụ mô hình mã nguồn mở 2.8T Kimi K3 trên AMD MI355X với tốc độ 952 tok/s/node. Từ luận điểm cốt lõi 'bộ nhớ là con hào', đến speculative decoding và tối ưu prefill AITER, cho đến MI355X đè bẹp B200 với 48 tok/s/$, bài viết giải thích vì sao dung lượng bộ nhớ mang lại cho AMD một lợi thế đo lường được trước NVIDIA ở quy mô mô hình 2.8T — và liệu con hào CUDA có thực sự đang chết hay không.",
+        "zh-Hans": "全面分析 Wafer AI 在 AMD MI355X 上以 952 tok/s/节点 服务 2.8T 开源模型 Kimi K3 的一手工程记录。从「内存是护城河」的核心论点出发，到投机解码与 AITER Prefill 优化、再到 MI355X 以 48 tok/s/$ 全面碾压 B200 的性能价格比，一文讲透为什么内存容量在 2.8T 模型体量上首次转化为对英伟达的可量化优势，以及 CUDA 护城河是否真的走到了尽头。",
+        "zh-Hant": "全面分析 Wafer AI 在 AMD MI355X 上以 952 tok/s/節點 服務 2.8T 開源模型 Kimi K3 的第一手工程紀錄。從「記憶體是護城河」的核心論點出發，到投機解碼與 AITER Prefill 優化、再到 MI355X 以 48 tok/s/$ 全面碾壓 B200 的效能價格比，一文講透為什麼記憶體容量在 2.8T 模型體量上首次轉化為對 NVIDIA 的可量化優勢，以及 CUDA 護城河是否真的走到了盡頭。"
+      },
+      "date": "2026-08-03",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Kimi K3",
+        "AMD",
+        "MI355X",
+        "Moonshot",
+        "GPU Inference",
+        "MoE",
+        "Speculative Decoding",
+        "ROCm",
+        "Wafer AI",
+        "Open Source Model",
+        "Performance per Dollar"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
+      "slug": "loopx-analysis",
+      "title": {
+        "en": "LoopX Deep Dive: Turning Capable Agents into Manageable, Reviewable, Continuously Improvable Digital Workers",
+        "ja": "LoopX 徹底解説：働けるAgentを、管理可能・振り返り可能・継続改善可能なデジタル従業員につなぐ",
+        "vi": "LoopX Phân Tích Chuyên Sâu: Biến Các Agent Có Năng Lực Thành Những Nhân Viên Số Có Thể Quản Lý, Rà Soát Và Cải Tiến Liên Tục",
+        "zh-Hans": "LoopX 深度解析：把会干活的 Agent，接成可管理、可复盘、可持续改进的数字员工",
+        "zh-Hant": "LoopX 深度解析：把會幹活的 Agent，接成可管理、可複盤、可持續改進的數位員工"
+      },
+      "description": {
+        "en": "A comprehensive analysis of the open-source LoopX project — a lightweight loop-engineering state kernel and agent-agnostic local control plane for long-running AI agent teams. From installation to CLI usage, from the seven-layer architecture to design philosophy, this article explains how to make Codex, Claude Code and other agents complete cross-turn, cross-tool long-running tasks.",
+        "ja": "オープンソースプロジェクト LoopX を包括的に分析 —— 長期実行AIエージェントチーム向けの軽量なループエンジニアリング状態カーネル＆エージェント非依存のローカルコントロールプレーン。インストールからCLIの使い方、7層アーキテクチャから設計哲学まで、CodexやClaude Codeなどのエージェントでクロスターン・クロスツールの長期タスクを完遂させる方法を解説。",
+        "vi": "Bài phân tích toàn diện về dự án mã nguồn mở LoopX — một hạt nhân trạng thái loop-engineering nhẹ và mặt phẳng điều khiển cục bộ không phụ thuộc agent cho các nhóm AI agent chạy dài hạn. Từ cài đặt đến sử dụng CLI, từ kiến trúc bảy lớp đến triết lý thiết kế, bài viết giải thích cách biến Codex, Claude Code và các agent khác hoàn thành các tác vụ chạy dài xuyên lượt, xuyên công cụ.",
+        "zh-Hans": "全面分析开源项目 LoopX —— 一个面向长期运行 AI Agent 团队的轻量级「循环工程」状态内核与本地控制平面。从安装教程到 CLI 用法，从七层架构到设计哲学，一文讲透如何让 Codex、Claude Code 等 Agent 完成跨轮次、跨工具的长期任务。",
+        "zh-Hant": "全面分析開源專案 LoopX —— 一個面向長期運行 AI Agent 團隊的輕量級「循環工程」狀態內核與本地控制平面。從安裝教學到 CLI 用法，從七層架構到設計哲學，一文講透如何讓 Codex、Claude Code 等 Agent 完成跨回合、跨工具的長期任務。"
+      },
+      "date": "2026-08-03",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "LoopX",
+        "Agent",
+        "AI Agent",
+        "Loop Engineering",
+        "Control Plane",
+        "State Kernel",
+        "Long-running Tasks",
+        "Open Source",
+        "Codex",
+        "Claude Code",
+        "Local-first"
+      ],
+      "categories": [
+        "Deep Dive"
       ]
     },
     {
       "slug": "next-forge-analysis",
       "title": {
-        "zh-Hans": "next-forge 深度解析：Vercel 出品的生产级 Next.js Monorepo 模板",
-        "zh-Hant": "next-forge 深度解析：Vercel 出品的生產級 Next.js Monorepo 模板",
         "en": "next-forge Deep Dive: Vercel's Production-Grade Next.js Monorepo Template",
-        "ja": "next-forge 徹底解説：Vercel が公開した本番グレードの Next.js Monorepo テンプレート"
+        "ja": "next-forge 徹底解説：Vercel が公開した本番グレードの Next.js Monorepo テンプレート",
+        "vi": "next-forge Phân Tích Chuyên Sâu: Template Monorepo Next.js Đạt Chuẩn Sản Xuất Của Vercel",
+        "zh-Hans": "next-forge 深度解析：Vercel 出品的生产级 Next.js Monorepo 模板",
+        "zh-Hant": "next-forge 深度解析：Vercel 出品的生產級 Next.js Monorepo 模板"
       },
       "description": {
-        "zh-Hans": "全面分析 Vercel 官方开源的 next-forge —— 一个基于 Turborepo 的生产级 Next.js 应用模板，专为快速构建 SaaS 而设计。从「快速、便宜、有主见、现代、安全」五大设计原则，到 apps/ + packages/ 的 monorepo 架构，从 Clerk 认证、Stripe 支付、Prisma 数据库到 AI 集成等 18+ 共享包，再到完整的初始化与部署教程，一文讲透这个 7.5k stars 的模板。",
-        "zh-Hant": "全面分析 Vercel 官方開源的 next-forge —— 一個基於 Turborepo 的生產級 Next.js 應用模板，專為快速建構 SaaS 而設計。從「快速、便宜、有主見、現代、安全」五大設計原則，到 apps/ + packages/ 的 monorepo 架構，從 Clerk 認證、Stripe 支付、Prisma 資料庫到 AI 整合等 18+ 共享套件，再到完整的初始化與部署教學，一文講透這個 7.5k stars 的模板。",
-        "en": "A complete analysis of next-forge, the production-grade Turborepo template for Next.js apps open-sourced by Vercel, purpose-built for shipping SaaS fast. From the five design principles — Fast, Cheap, Opinionated, Modern, Safe — to the apps/ + packages/ monorepo architecture, from Clerk auth, Stripe payments and Prisma database to 18+ shared packages including AI integration, this article covers the full tutorial, project breakdown, and design philosophy of the 7.5k-star template.",
-        "ja": "Vercel 公式がオープンソースで公開する next-forge —— Turborepo ベースの本番グレード Next.js アプリテンプレートを徹底分析。SaaS を素早く立ち上げるために設計されており、「Fast・Cheap・Opinionated・Modern・Safe」の五大設計原則から、apps/ + packages/ の monorepo アーキテクチャ、Clerk 認証・Stripe 決済・Prisma データベースから AI 統合まで 18+ の共有パッケージ、さらに初期化からデプロイまでの完全チュートリアルまで、7.5k stars のテンプレートを 1 記事で解説。"
+        "en": "A complete analysis of next-forge, the production-grade Turborepo template for Next.js apps open-sourced by Vercel, purpose-built for shipping SaaS fast. From the five design principles — Fast, Cheap, Opinionated, Modern, Safe — to the apps/ + packages/ monorepo architecture, from Clerk auth, Stripe payments and Prisma database to 18+ shared packages including AI integration, this article covers everything: full tutorial, project breakdown, viewpoints, and the design philosophy behind the 7.5k-star template often called 'the best starting point for your next SaaS'.",
+        "ja": "Vercel 公式がオープンソースで公開する next-forge —— Turborepo ベースの本番グレード Next.js アプリテンプレートを徹底分析。SaaS を素早く立ち上げるために設計されており、「Fast・Cheap・Opinionated・Modern・Safe」の五大設計原則から、apps/ + packages/ の monorepo アーキテクチャ、Clerk 認証・Stripe 決済・Prisma データベースから AI 統合まで 18+ の共有パッケージ、さらに初期化からデプロイまでの完全チュートリアルまで、7.5k stars を集めるテンプレートが「次の SaaS の最良の出発点」と呼ばれる理由を 1 記事で解説します。",
+        "vi": "Một bài phân tích toàn diện về next-forge, template Turborepo đạt chuẩn sản xuất cho các ứng dụng Next.js được Vercel mở nguồn, được thiết kế riêng cho việc đưa SaaS ra thị trường nhanh. Từ năm nguyên tắc thiết kế — Fast, Cheap, Opinionated, Modern, Safe — đến kiến trúc monorepo apps/ + packages/, từ xác thực Clerk, thanh toán Stripe và cơ sở dữ liệu Prisma đến 18+ package dùng chung bao gồm tích hợp AI, bài viết này bao quát mọi thứ: hướng dẫn đầy đủ, phân tích dự án, các quan điểm, và triết lý thiết kế đằng sau template 7.5k sao thường được gọi là 'điểm khởi đầu tốt nhất cho SaaS tiếp theo của bạn'.",
+        "zh-Hans": "全面分析 Vercel 官方开源的 next-forge —— 一个基于 Turborepo 的生产级 Next.js 应用模板，专为快速构建 SaaS 而设计。从「快速、便宜、有主见、现代、安全」五大设计原则，到 apps/ + packages/ 的 monorepo 架构，从 Clerk 认证、Stripe 支付、Prisma 数据库到 AI 集成等 18+ 共享包，再到完整的初始化与部署教程，一文讲透这个 7.5k stars 的模板为何被称为「下一个 SaaS 的最佳起点」。",
+        "zh-Hant": "全面分析 Vercel 官方開源的 next-forge —— 一個基於 Turborepo 的生產級 Next.js 應用模板，專為快速建構 SaaS 而設計。從「快速、便宜、有主見、現代、安全」五大設計原則，到 apps/ + packages/ 的 monorepo 架構，從 Clerk 認證、Stripe 支付、Prisma 資料庫到 AI 整合等 18+ 共享套件，再到完整的初始化與部署教學，一文講透這個 7.5k stars 的模板為何被稱為「下一個 SaaS 的最佳起點」。"
       },
-      "date": "2026-08-03T00:00:00.000Z",
+      "date": "2026-08-03",
       "author": "TopDigg Research Team",
       "tags": [
         "next-forge",
@@ -594,138 +720,62 @@
         "Tailwind CSS",
         "shadcn/ui",
         "TypeScript"
+      ],
+      "categories": [
+        "Deep Dive"
       ]
     },
     {
-      "slug": "kimi-k3-mi355x-analysis",
+      "slug": "shiki-stream-analysis",
       "title": {
-        "en": "Kimi K3 × AMD MI355X Deep Dive: Is Memory the Moat?",
-        "ja": "Kimi K3 × AMD MI355X 徹底解説：メモリは堀（モート）なのか？",
-        "zh-Hans": "Kimi K3 × AMD MI355X 深度解析：内存是护城河吗？",
-        "zh-Hant": "Kimi K3 × AMD MI355X 深度解析：記憶體是護城河嗎？"
+        "en": "shiki-stream Deep Dive: Let LLM-Generated Code Highlight in Real Time, Like a Typewriter",
+        "ja": "shiki-stream 徹底解説: LLMが出力するコードをまるでタイプライターのようにリアルタイムハイライトする",
+        "vi": "shiki-stream Đi Sâu: Để Mã Do LLM Sinh Ra Được Tô Màu Theo Thời Gian Thực, Giống Như Một Chiếc Máy Đánh Chữ",
+        "zh-Hans": "shiki-stream 深度解析：让 LLM 输出的代码像打字一样实时高亮",
+        "zh-Hant": "shiki-stream 深度解析：讓 LLM 輸出的程式碼像打字一樣即時高亮"
       },
       "description": {
-        "en": "A comprehensive analysis of Wafer AI’s engineering blog on serving the 2.8T open-source model Kimi K3 on AMD MI355X at 952 tok/s/node. From the core “memory is the moat” thesis, to speculative decoding and AITER prefill optimization, to the MI355X crushing B200 with 48 tok/s/$, this article explains why memory capacity gave AMD a measurable edge over NVIDIA at the 2.8T model scale.",
-        "ja": "Wafer AI が AMD MI355X 上で 2.8T パラメータのオープンソースモデル Kimi K3 を 952 tok/s/ノード で稼働させた第一級のエンジニアリング記録を徹底分析。核となる論点「メモリは堀なのか」から、投機的デコードと AITER Prefill 最適化、そして MI355X が 48 tok/s/$ で B200 を完全に打ち負かす性能対価格比までを解き明かす。",
-        "zh-Hans": "全面分析 Wafer AI 在 AMD MI355X 上以 952 tok/s/节点 服务 2.8T 开源模型 Kimi K3 的一手工程记录。从「内存是护城河」的核心论点出发，到投机解码与 AITER Prefill 优化、再到 MI355X 以 48 tok/s/$ 全面碾压 B200 的性能价格比，一文讲透为什么内存容量在 2.8T 模型体量上首次转化为对英伟达的可量化优势。",
-        "zh-Hant": "全面分析 Wafer AI 在 AMD MI355X 上以 952 tok/s/節點 服務 2.8T 開源模型 Kimi K3 的第一手工程紀錄。從「記憶體是護城河」的核心論點出發，到投機解碼與 AITER Prefill 優化、再到 MI355X 以 48 tok/s/$ 全面碾壓 B200 的效能價格比，一文講透為什麼記憶體容量在 2.8T 模型體量上首次轉化為對 NVIDIA 的可量化優勢。"
+        "en": "A complete analysis of shiki-stream, open-sourced by Anthony Fu (antfu) — a streaming syntax-highlighting library built on Web Streams API, purpose-built for the 'LLM-generated code' scenario. From the core insight that code arrives progressively so highlighting must be progressive too, to CodeToTokenTransformStream turning a text stream into a token stream on the fly, from the clever recall-token mechanism that solves the 'syntax depends on context' problem, to out-of-the-box Vue/React/Solid/Svelte renderers and full install/usage tutorials — this article explains why this 594-star project became the official @shikijs/stream.",
+        "ja": "Anthony Fu（antfu）氏が公開した shiki-stream を徹底分析。Web Streams API を基盤とし、“LLM が生成するコード”のユースケースに特化したストリーミング構文ハイライトを実現します。「コードは徐々に届くのだから、ハイライトも徐々に進めるべき」という核となる発想から、テキストストリームをトークンストリームに変換する CodeToTokenTransformStream、文脈によって意味が変わる問題を解決した recall-token 機構、Vue/React/Solid/Svelte 対応レンダラー、充実の導入チュートリアルまで、約594スターのこのプロジェクトが公式の @shikijs/stream になった理由を解説します。",
+        "vi": "Bài phân tích toàn diện về shiki-stream, được Anthony Fu (antfu) mở nguồn — một thư viện tô màu cú pháp theo dòng (streaming) xây dựng trên Web Streams API, được thiết kế riêng cho tình huống 'mã do LLM sinh ra'. Từ hiểu biết cốt lõi rằng mã đến dần dần nên việc tô màu cũng phải dần dần, đến CodeToTokenTransformStream biến một luồng văn bản thành luồng token ngay trên đường đi, từ cơ chế recall-token khéo léo giải quyết vấn đề 'cú pháp phụ thuộc vào ngữ cảnh', đến các renderer Vue/React/Solid/Svelte có sẵn ngay và hướng dẫn cài đặt/sử dụng đầy đủ — bài viết này giải thích vì sao dự án 594 sao này trở thành @shikijs/stream chính thức.",
+        "zh-Hans": "全面分析 Anthony Fu（antfu）开源的 shiki-stream —— 一个基于 Web Streams API 的流式语法高亮库，专为「LLM 流式输出代码」场景设计。从「代码是渐进式到达的，高亮也必须渐进式工作」的核心洞察，到 CodeToTokenTransformStream 把文本流实时转成 token 流，从巧妙的 recall（召回）token 机制解决「语法依赖上下文」的难题，到 Vue/React/Solid/Svelte 四种框架开箱即用的渲染器，再到完整的安装与使用教程，以及它为何被 Shiki 官方接纳为 @shikijs/stream——一文讲透这个 594 stars 的「异步代码高亮」革命。",
+        "zh-Hant": "全面分析 Anthony Fu（antfu）開源的 shiki-stream —— 一個基於 Web Streams API 的串流式語法高亮函式庫，專為「LLM 串流輸出程式碼」場景設計。從「程式碼是漸進式到達的，高亮也必須漸進式工作」的核心洞察，到 CodeToTokenTransformStream 把文字流即時轉成 token 流，從巧妙的 recall（召回）token 機制解決「語法依賴上下文」的難題，到 Vue/React/Solid/Svelte 四種框架開箱即用的渲染器，再到完整的安裝與使用教學，以及它為何被 Shiki 官方接納為 @shikijs/stream——一文講透這個 594 stars 的「非同步程式碼高亮」革命。"
       },
-      "date": "2026-08-03T00:00:00.000Z",
+      "date": "2026-08-03",
       "author": "TopDigg Research Team",
       "tags": [
-        "Kimi K3",
-        "AMD",
-        "MI355X",
-        "Moonshot",
-        "GPU Inference",
-        "MoE",
-        "Speculative Decoding",
-        "ROCm",
-        "Wafer AI",
-        "Open Source Model",
-        "Performance per Dollar"
-      ]
-    },
-    {
-      "slug": "arex-analysis",
-      "title": {
-        "en": "AREX Deep Dive: BAAI's Open-Source Recursively Self-Improving Deep Research Agent",
-        "ja": "AREX 徹底解説：BAAIが公開した再帰的自己改善型ディープリサーチエージェント",
-        "zh-Hans": "AREX 深度解析：BAAI 开源的可递归自我改进深度研究 Agent",
-        "zh-Hant": "AREX 深度解析：BAAI 開源的可遞迴自我改進深度研究 Agent"
-      },
-      "description": {
-        "en": "A comprehensive analysis of BAAI's open-source AREX — a recursively self-improving deep research agent. From the core 'discovery-verification asymmetry' insight in arXiv 2607.21461 to the dual-loop framework, from AREX-Turbo / AREX-Base models to a complete usage tutorial.",
-        "ja": "BAAI（北京智源人工知能研究院）が公開したAREXを包括的に分析 —— 再帰的自己改善型ディープリサーチエージェント。arXiv 2607.21461の核となる考え方から二重ループフレームワーク、モデルから完全な使用チュートリアルまで。",
-        "zh-Hans": "全面分析 BAAI（北京智源人工智能研究院）开源的 AREX —— 一个可递归自我改进的深度研究 Agent。从 arXiv 2607.21461 论文核心思想到双循环框架，从模型到完整使用教程。",
-        "zh-Hant": "全面分析 BAAI（北京智源人工智慧研究院）開源的 AREX —— 一個可遞迴自我改進的深度研究 Agent。從論文核心思想到雙迴圈框架，從模型到完整使用教學。"
-      },
-      "date": "2026-08-03T00:00:00.000Z",
-      "author": "TopDigg Research Team",
-      "tags": [
-        "AREX",
-        "BAAI",
-        "Deep Research",
-        "Agent",
-        "Recursive Self-Improvement",
-        "arXiv",
-        "Open Source Model",
-        "MoE",
-        "Qwen3.5"
-      ]
-    },
-    {
-      "slug": "loopx-analysis",
-      "title": {
-        "en": "LoopX Deep Dive: Turning Capable Agents into Manageable, Reviewable, Continuously Improvable Digital Workers",
-        "ja": "LoopX 徹底解説：働けるAgentを、管理可能・振り返り可能・継続改善可能なデジタル従業員につなぐ",
-        "zh-Hans": "LoopX 深度解析：把会干活的 Agent，接成可管理、可复盘、可持续改进的数字员工",
-        "zh-Hant": "LoopX 深度解析：把會幹活的 Agent，接成可管理、可複盤、可持續改進的數位員工"
-      },
-      "description": {
-        "en": "A comprehensive analysis of the open-source LoopX project — a lightweight loop-engineering state kernel and agent-agnostic local control plane for long-running AI agent teams. From installation to CLI usage, from the seven-layer architecture to design philosophy.",
-        "ja": "オープンソースプロジェクト LoopX を包括的に分析 —— 長期実行AIエージェントチーム向けの軽量なループエンジニアリング状態カーネル＆エージェント非依存のローカルコントロールプレーン。",
-        "zh-Hans": "全面分析开源项目 LoopX —— 一个面向长期运行 AI Agent 团队的轻量级「循环工程」状态内核与本地控制平面。从安装教程到 CLI 用法，从七层架构到设计哲学。",
-        "zh-Hant": "全面分析開源專案 LoopX —— 一個面向長期運行 AI Agent 團隊的輕量級「循環工程」狀態內核與本地控制平面。從安裝教學到 CLI 用法，從七層架構到設計哲學。"
-      },
-      "date": "2026-08-03T00:00:00.000Z",
-      "author": "TopDigg Research Team",
-      "tags": [
-        "LoopX",
-        "Agent",
-        "AI Agent",
-        "Loop Engineering",
-        "Control Plane",
-        "State Kernel",
-        "Long-running Agents",
-        "Open Source",
-        "Codex",
-        "Claude Code"
-      ]
-    },
-    {
-      "slug": "airllm-analysis",
-      "title": {
-        "en": "AirLLM Deep Dive: The Layer-Wise Inference Revolution That Runs 70B LLMs on a 4GB GPU",
-        "ja": "AirLLM 徹底解説：レイヤーごとの推論で70B大規模言語モデルを4GB GPUで動かす革命",
-        "zh-Hans": "AirLLM 深度解析：让 70B 大模型在 4GB 显卡上跑起来的分层推理革命",
-        "zh-Hant": "AirLLM 深度解析：讓 70B 大模型在 4GB 顯示卡上跑起來的分層推理革命"
-      },
-      "description": {
-        "en": "A comprehensive analysis of the open-source AirLLM project — no quantization, no distillation, no pruning. Through layer-by-layer loading, it runs 70B-parameter LLMs on a single 4GB GPU. From installation to API usage, from how it works to its design philosophy.",
-        "ja": "オープンソースプロジェクト AirLLM を包括的に分析 —— 量子化も蒸留も枝刈りもせず、レイヤーごとのロード技術で70Bパラメータの大規模言語モデルを単一の4GB GPUで推論。",
-        "zh-Hans": "全面分析开源项目 AirLLM —— 不量化、不蒸馏、不剪枝，通过逐层加载技术让 70B 参数大模型在单张 4GB 显卡上完成推理。从安装教程到 API 使用，从工作原理到设计哲学。",
-        "zh-Hant": "全面分析開源專案 AirLLM —— 不量化、不蒸餾、不剪枝，透過逐層載入技術讓 70B 參數大模型在單張 4GB 顯示卡上完成推理。"
-      },
-      "date": "2026-08-03T00:00:00.000Z",
-      "author": "TopDigg Research Team",
-      "tags": [
-        "AirLLM",
-        "LLM Inference",
-        "Large Language Models",
-        "GPU Memory Optimization",
-        "Layer-wise Inference",
-        "Open Source",
-        "Gavin Li",
-        "Deep Learning",
-        "Model Inference"
+        "shiki-stream",
+        "Shiki",
+        "Syntax Highlighting",
+        "Streaming",
+        "LLM",
+        "Web Streams API",
+        "anthu",
+        "Vue",
+        "React",
+        "Solid",
+        "TypeScript",
+        "CodeToTokenTransformStream"
+      ],
+      "categories": [
+        "Deep Dive"
       ]
     },
     {
       "slug": "deepseek-v4-flash-analysis",
       "title": {
         "en": "DeepSeek V4 Flash 0731 Deep Dive: The Reasoning Model Revolution in Cost and Intelligence",
-        "ja": "DeepSeek V4 Flash 0731 詳細解説：コストと知能の革命",
-        "zh-Hans": "DeepSeek V4 Flash 0731 深度解析：推理模型的成本与智能革命",
-        "zh-Hant": "DeepSeek V4 Flash 0731 深度解析：推理模型的成本與智能革命"
+        "ja": "DeepSeek V4 Flash 0731 徹底分析：reasoning モデルのコストと知能革命",
+        "vi": "DeepSeek V4 Flash 0731 Phân Tích Chuyên Sâu: Cuộc Cách Mạng về Chi Phí và Trí Tuệ của Dòng Mô Hình Suy Luận",
+        "zh-Hans": "DeepSeek V4 Flash 0731 深度解析： reasoning 模型的成本与智能革命"
       },
       "description": {
-        "en": "Comprehensive analysis of DeepSeek V4 Flash 0731 — 284B parameter MoE architecture, 1M context window, $0.14/M input token reasoning model.",
-        "ja": "DeepSeek V4 Flash 0731の包括的分析 — 284BパラメータMoEアーキテクチャ、1Mコンテキストウィンドウ、$0.14/M入力トークン推理モデル。",
-        "zh-Hans": "全面分析 DeepSeek V4 Flash 0731 —— 284B 参数 MoE 架构、1M 上下文窗口、$0.14/M 输入 Token 的推理模型。",
-        "zh-Hant": "全面分析 DeepSeek V4 Flash 0731 —— 284B 參數 MoE 架構、1M 上下文窗口、$0.14/M 輸入 Token 的推理模型。"
+        "en": "Comprehensive analysis of DeepSeek V4 Flash 0731 — 284B parameter MoE architecture, 1M context window, $0.14/M input token reasoning model. From Intelligence Index scores to cost structure, from Mixture of Experts design to the open-source ecosystem.",
+        "ja": "DeepSeek V4 Flash 0731を包括的に分析——284BパラメータのMoEアーキテクチャ、1Mコンテキストウィンドウ、入力Token $0.14/Mのreasoningモデル。Intelligence Indexスコアからコスト構造、Mixture of Experts設計からオープンソースエコシステムまで、一記事で深く解説。",
+        "vi": "Phân tích toàn diện về DeepSeek V4 Flash 0731 — kiến trúc MoE 284B tham số, cửa sổ ngữ cảnh 1M, mô hình suy luận $0.14/M input token. Từ điểm Intelligence Index đến cấu trúc chi phí, từ thiết kế Mixture of Experts đến hệ sinh thái mã nguồn mở.",
+        "zh-Hans": "全面分析 DeepSeek V4 Flash 0731 —— 284B 参数 MoE 架构、1M 上下文窗口、$0.14/M 输入 Token 的推理模型。从 Intelligence Index 评分到成本结构，从 Mixture of Experts 设计到开源生态，一文深度解读。"
       },
-      "date": "2026-08-02T00:00:00.000Z",
+      "date": "2026-08-02",
       "author": "TopDigg Research Team",
       "tags": [
         "DeepSeek",
@@ -738,23 +788,26 @@
         "Cost Analysis",
         "Intelligence Index",
         "Token Economics"
+      ],
+      "categories": [
+        "Deep Dive"
       ]
     },
     {
       "slug": "harness-effect-token-economics",
       "title": {
         "en": "The Harness Effect: How Orchestration Design Sets the Token Economics of Enterprise Agentic AI",
-        "ja": "ハーネス効果：オーケストレーション設計が企業エージェントAIのトークン経済学を決定する",
-        "zh-Hans": "Harness效应：编排设计如何决定企业Agentic AI的Token经济学",
-        "zh-Hant": "Harness效應：編排設計如何決定企業Agentic AI的Token經濟學"
+        "ja": "Harness 効果：オーケストレーション設計がエンタープライズ Agentic AI の Token 経済学をどう決定するか",
+        "vi": "Hiệu Ứng Harness: Thiết Kế Điều Phối Định Hình Kinh Tế Token Của AI Tác Nhân Cấp Doanh Nghiệp",
+        "zh-Hans": "Harness 效应：编排设计如何决定企业 Agentic AI 的 Token 经济学"
       },
       "description": {
         "en": "Deep analysis of arXiv paper 2607.06906 — The Harness Effect. Systematic coverage of Token Maxing, six mechanism families, Harness Leverage, and the design philosophy of enterprise Agent orchestration layers.",
-        "ja": "arXiv論文2607.06906「The Harness Effect」の深層分析。Token Maxing、六つのメカニズムファミリー、Harness Leverage、企業エージェントのオーケストレーション層の設計哲学を体系的に解説。",
-        "zh-Hans": "深度分析 arXiv 论文 2607.06906 —— The Harness Effect。系统梳理 Token Maxing 问题、六大机制族、Harness Leverage 现象，以及企业级 Agent 编排层的设计哲学与经济模型。",
-        "zh-Hant": "深度分析 arXiv 論文 2607.06906 —— The Harness Effect。系統梳理 Token Maxing 問題、六大機制族、Harness Leverage 現象，以及企業級 Agent 編排層的設計哲學與經濟模型。"
+        "ja": "arXiv 2607.06906 論文を深く分析——The Harness Effect。Token Maxing 問題、6つのメカニズムファミリー、Harness Leverage 現象、エンタープライズ級 Agent オーケストレーション層の設計哲学と経済モデル体系的に整理。",
+        "vi": "Phân tích chuyên sâu bài báo arXiv 2607.06906 — The Harness Effect. Bao quát có hệ thống về Token Maxing, sáu họ cơ chế, Harness Leverage, và triết lý thiết kế của các lớp điều phối tác nhân cấp doanh nghiệp.",
+        "zh-Hans": "深度分析 arXiv 2607.06906 论文 —— The Harness Effect。系统梳理 Token Maxing 问题、六大机制族、Harness Leverage 现象，以及企业级 Agent 编排层的设计哲学与经济模型。"
       },
-      "date": "2026-08-02T00:00:00.000Z",
+      "date": "2026-08-02",
       "author": "TopDigg Research Team",
       "tags": [
         "Harness",
@@ -767,153 +820,120 @@
         "Agent Framework",
         "Writer",
         "arXiv"
-      ]
-    },
-    {
-      "slug": "trellis2-analysis-report",
-      "title": {
-        "zh-Hans": "TRELLIS.2 深度解析：微软 4B 参数 3D 生成模型的革命性突破",
-        "en": "TRELLIS.2 Deep Dive: Microsoft's 4B 3D Generation Model Breakthrough",
-        "zh-Hant": "TRELLIS.2 深度解析：微軟 4B 參數 3D 生成模型的革命性突破",
-        "ja": "TRELLIS.2 詳細分析：マイクロソフトの4Bパラメータ3D生成モデルの革命的ブレイクスルー"
-      },
-      "description": {
-        "zh-Hans": "全面分析微软 TRELLIS.2 —— 首个基于原生 3D VAE 和 O-Voxel 稀疏体素表示的 4B 参数图像转 3D 生成模型。从架构设计到使用教程，从核心创新到设计哲学，一文深度解读。",
-        "en": "Comprehensive analysis of Microsoft TRELLIS.2 — the first 4B-parameter image-to-3D generation model based on native 3D VAE and O-Voxel sparse voxel representation. From architecture design to usage tutorial, from core innovations to design philosophy, an in-depth interpretation.",
-        "zh-Hant": "全面分析微軟 TRELLIS.2 —— 首個基於原生 3D VAE 和 O-Voxel 稀疏體素表示的 4B 參數圖像轉 3D 生成模型。從架構設計到使用教程，從核心創新到設計哲學，一文深度解讀。",
-        "ja": "マイクロソフト TRELLIS.2 の包括的分析 —— 原生 3D VAE と O-Voxel 稀疏ボクセル表現に基づく初の 4B パラメータ画像から 3D 生成モデル。アーキテクチャ設計から使用チュートリアル、コアイノベーションから設計哲学まで、深く解説します。"
-      },
-      "date": "2026-07-31",
-      "author": "TopDigg Research Team",
-      "tags": [
-        "TRELLIS.2",
-        "3D生成",
-        "O-Voxel",
-        "图像转3D",
-        "AI生成",
-        "微软",
-        "稀疏体素",
-        "PBR材质",
-        "深度学习",
-        "3D生成模型"
       ],
       "categories": [
-        "深度解析"
-      ],
-      "keywords": [
-        "TRELLIS.2",
-        "3D生成",
-        "O-Voxel",
-        "图像转3D",
-        "微软AI",
-        "稀疏体素",
-        "PBR材质",
-        "深度学习",
-        "3D生成模型",
-        "Structured Latents"
-      ]
-    },
-    {
-      "slug": "reasonix-analysis-report",
-      "title": {
-        "zh-Hans": "Reasonix 深度解析：DeepSeek 原生终端编码 Agent 的架构革命",
-        "en": "Reasonix Deep Dive: The Architecture Revolution of DeepSeek-Native Terminal Coding Agent",
-        "zh-Hant": "Reasonix 深度解析：DeepSeek 原生終端編碼 Agent 的架構革命",
-        "ja": "Reasonix 詳細分析：DeepSeekネイティブターミナルコーディングエージェントのアーキテクチャ革命"
-      },
-      "description": {
-        "zh-Hans": "全面分析 Reasonix —— 围绕 DeepSeek 前缀缓存构建的终端编码 Agent。从缓存优先架构到单二进制分发，从子智能体到 ACP 编辑器集成，一文深度解读其设计哲学与技术细节。",
-        "en": "Comprehensive analysis of Reasonix — a terminal coding agent built around DeepSeek prefix cache. From cache-first architecture to single-binary distribution, from subagents to ACP editor integration, an in-depth interpretation of its design philosophy and technical details.",
-        "zh-Hant": "全面分析 Reasonix —— 圍繞 DeepSeek 前缀快取構建的終端編碼 Agent。從快取優先架構到單二進制發行，從子智能體到 ACP 編輯器集成，一文深度解讀其設計哲學與技術細節。",
-        "ja": "Reasonix の包括的分析 —— DeepSeek プレフィックスキャッシュを基盤とするターミナルコーディングエージェント。快取優先アーキテクチャからシングルバイナリ配布、サブエージェントから ACP エディター統合まで、その設計哲学と技術的詳細を深く解説します。"
-      },
-      "date": "2026-07-31",
-      "author": "TopDigg Research Team",
-      "tags": [
-        "Reasonix",
-        "DeepSeek",
-        "AI Agent",
-        "终端编码",
-        "前缀缓存",
-        "Coding Agent",
-        "Go",
-        "CLI",
-        "TUI",
-        "MCP",
-        "编码代理"
-      ],
-      "categories": [
-        "深度解析"
-      ],
-      "keywords": [
-        "Reasonix",
-        "DeepSeek",
-        "AI Agent",
-        "终端编码",
-        "前缀缓存",
-        "Coding Agent",
-        "Go",
-        "CLI",
-        "TUI",
-        "MCP",
-        "编码代理",
-        "Prefix Cache"
+        "Deep Dive"
       ]
     },
     {
       "slug": "grok43-analysis-report",
       "title": {
-        "zh-Hans": "Grok 4.3 深度解析：xAI 新一代推理模型的全面评测",
-        "en": "Grok 4.3 Deep Dive: Comprehensive Analysis of xAI's Next-Gen Reasoning Model",
-        "zh-Hant": "Grok 4.3 深度解析：xAI 新一代推理模型的全面評測",
-        "ja": "Grok 4.3 詳細分析：xAI 次世代推論モデルの総合評価"
+        "en": "Grok 4.3 Deep Dive: A Comprehensive Review of xAI's Next-Generation Reasoning Model",
+        "ja": "Grok 4.3 徹底解説：xAI 次世代推論モデルの全方位レビュー",
+        "vi": "Phân Tích Chuyên Sâu Grok 4.3: Đánh Giá Toàn Diện Mô Hình Lý Luận Thế Hệ Mới Của xAI",
+        "zh-Hans": "Grok 4.3 深度解析：xAI 新一代推理模型的全面评测"
       },
       "description": {
-        "zh-Hans": "全面分析 Grok 4.3 —— xAI 最新推理模型，AA Intelligence Index 得分 53，agentic 性能大幅提升，成本降低 20%。从基准测试到成本分析，从设计哲学到使用教程，一文深度解读。",
-        "en": "Comprehensive analysis of Grok 4.3 — xAI's latest reasoning model with AA Intelligence Index score of 53, significantly improved agentic performance, and 20% cost reduction. From benchmarks to cost analysis, from design philosophy to usage tutorial, an in-depth interpretation.",
-        "zh-Hant": "全面分析 Grok 4.3 —— xAI 最新推理模型，AA Intelligence Index 得分 53，agentic 性能大幅提升，成本降低 20%。從基準測試到成本分析，從設計哲學到使用教程，一文深度解讀。",
-        "ja": "Grok 4.3 の包括的分析 —— xAI 最新の推論モデル、AA Intelligence Index スコア 53、agentic 性能の大幅向上、コスト 20% 削減。ベンチマークからコスト分析、設計哲学から使用チュートリアルまで、深く解説します。"
+        "en": "A comprehensive analysis of xAI's Grok 4.3 — achieving 53 on the Artificial Analysis Intelligence Index with improved agentic performance, ~40% lower input price, and ~60% lower output price. From architecture design to benchmark tests, from cost analysis to usage tutorials, a deep dive in one article.",
+        "ja": "xAI がリリースした Grok 4.3 を徹底分析。Artificial Analysis Intelligence Index で 53 点を獲得し、agentic 性能の向上、入力価格 約40% 減、出力価格 約60% 減を実現。アーキテクチャ設計からベンチマーク、コスト分析から利用チュートリアルまでを一気に深掘り解説します。",
+        "vi": "Phân tích toàn diện Grok 4.3 được xAI phát hành — achieving 53 on the Artificial Analysis Intelligence Index with improved agentic performance, ~40% lower input price, and ~60% lower output price. Từ thiết kế kiến trúc đến kiểm thử chuẩn, từ phân tích chi phí đến hướng dẫn sử dụng, tất cả trong một bài viết chuyên sâu.",
+        "zh-Hans": "全面分析 xAI 发布的 Grok 4.3 ——  achieving 53 on the Artificial Analysis Intelligence Index with improved agentic performance, ~40% lower input price, and ~60% lower output price. 从架构设计到基准测试，从成本分析到使用教程，一文深度解读。"
       },
       "date": "2026-07-31",
       "author": "TopDigg Research Team",
       "tags": [
         "Grok 4.3",
         "xAI",
-        "AI模型评测",
+        "AI Model Review",
         "Artificial Analysis",
-        "推理模型",
+        "Reasoning Model",
         "Agent",
         "GDPval-AA",
-        "基准测试",
-        "成本分析",
-        "编码代理"
+        "Benchmark",
+        "Cost Analysis",
+        "Coding Agent"
       ],
       "categories": [
-        "深度解析"
+        "Deep Dive"
+      ]
+    },
+    {
+      "slug": "reasonix-analysis-report",
+      "title": {
+        "en": "Reasonix Deep Dive: The Architectural Revolution of a DeepSeek-Native Terminal Coding Agent",
+        "ja": "Reasonix 徹底分析：DeepSeek ネイティブ ターミナル コーディング Agent のアーキテクチャ革命",
+        "vi": "Phân Tích Chuyên Sâu Reasonix: Cuộc Cách Mạng Kiến Trúc Của Agent Mã Hóa Terminal Thuần DeepSeek",
+        "zh-Hans": "Reasonix 深度解析：DeepSeek 原生终端编码 Agent 的架构革命"
+      },
+      "description": {
+        "en": "A comprehensive analysis of Reasonix — a terminal coding agent built around DeepSeek's prefix cache. From its cache-first architecture to single-binary distribution, from subagents to ACP editor integration, this article takes an in-depth look at its design philosophy and technical details.",
+        "ja": "DeepSeek のプレフィックス キャッシュを中心に構築されたターミナル コーディング Agent である Reasonix の総合分析。キャッシュ優先アーキテクチャから単一バイナリ配布、サブ Agent から ACP エディタ統合まで、その設計哲学と技術詳細を一記事で深く解説。",
+        "vi": "Phân tích toàn diện Reasonix — agent mã hóa terminal được xây dựng xung quanh bộ nhớ đệm tiền tố DeepSeek. Từ kiến trúc ưu tiên bộ nhớ đệm đến phân phối đơn nhị phân, từ agent con đến tích hợp trình soạn thảo ACP, bài viết này phân tích chuyên sâu triết lý thiết kế và chi tiết kỹ thuật của dự án.",
+        "zh-Hans": "全面分析 Reasonix —— 围绕 DeepSeek 前缀缓存构建的终端编码 Agent。从缓存优先架构到单二进制分发，从子智能体到 ACP 编辑器集成，一文深度解读其设计哲学与技术细节。"
+      },
+      "date": "2026-07-31",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Reasonix",
+        "DeepSeek",
+        "AI Agent",
+        "Terminal Coding",
+        "Prefix Cache",
+        "Coding Agent",
+        "Go",
+        "CLI",
+        "TUI",
+        "MCP"
       ],
-      "keywords": [
-        "Grok 4.3",
-        "xAI",
-        "AI模型",
-        "Artificial Analysis Intelligence Index",
-        "推理模型",
-        "Agent",
-        "GDPval-AA",
-        "基准测试",
-        "成本分析",
-        "编码代理",
-        "GPT-5.5"
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
+      "slug": "trellis2-analysis-report",
+      "title": {
+        "en": "TRELLIS.2 Deep Dive: Microsoft's Revolutionary 4B-Parameter 3D Generation Model",
+        "ja": "TRELLIS.2 徹底解説：Microsoft 4Bパラメータ3D生成モデルの革命的ブレークスルー",
+        "vi": "Phân Tích Chuyên Sâu TRELLIS.2: Bước Đột Phá Cách Mạng Của Mô Hình Tạo 3D 4B Tham Số Của Microsoft",
+        "zh-Hans": "TRELLIS.2 深度解析：微软 4B 参数 3D 生成模型的革命性突破"
+      },
+      "description": {
+        "en": "A comprehensive analysis of Microsoft TRELLIS.2 — the first 4B-parameter image-to-3D generation model built on a native 3D VAE and the O-Voxel sparse voxel representation. From architecture design to usage tutorials, from core innovations to design philosophy, this article delivers an in-depth interpretation.",
+        "ja": "Microsoft TRELLIS.2の包括的分析—— ネイティブ3D VAEとO-Voxelスパースボクセル表現に基づく初の4Bパラメータ画像から3D生成モデル。アーキテクチャ設計から使用チュートリアル、核心的イノベーションから設計哲学まで、一記事で深く解説。",
+        "vi": "Phân tích toàn diện về TRELLIS.2 của Microsoft — mô hình tạo 3D 4B tham số đầu tiên dựa trên 3D VAE gốc và biểu diễn voxel thưa O-Voxel. Từ thiết kế kiến trúc đến hướng dẫn sử dụng, từ đổi mới cốt lõi đến triết lý thiết kế, tất cả được phân tích sâu trong một bài viết.",
+        "zh-Hans": "全面分析微软 TRELLIS.2 —— 首个基于原生 3D VAE 和 O-Voxel 稀疏体素表示的 4B 参数图像转 3D 生成模型。从架构设计到使用教程，从核心创新到设计哲学，一文深度解读。"
+      },
+      "date": "2026-07-31",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "TRELLIS.2",
+        "3D Generation",
+        "O-Voxel",
+        "Image-to-3D",
+        "AI Generation",
+        "Microsoft",
+        "Sparse Voxel",
+        "PBR Materials",
+        "Deep Learning",
+        "3D Generation Model"
+      ],
+      "categories": [
+        "Deep Dive"
       ]
     },
     {
       "slug": "recursive-self-improvement-agents",
       "title": {
         "en": "Recursive Self Improvement for Coding Agents: From One Prompt to SOTA",
+        "ja": "コーディングAgentの再帰的自己改善：一つのプロンプトからSOTA結果までの完全な実践",
+        "vi": "Tự Cải Thiện Đệ Quy Cho Coding Agents: Từ Một Prompt Đến Kết Quả SOTA",
         "zh-Hans": "编程代理的递归自我改进：从一次 Prompt 到 SOTA 结果的完整实践"
       },
       "description": {
-        "en": "A deep analysis of how the Cline team achieved an 88.8% SOTA score on Terminal-Bench 2.1 using recursive self-improvement, costing only $49.8 — less than a tenth of competing approaches.",
-        "zh-Hans": "深度解析 Cline 团队如何通过递归自我改进（RSI）技术，仅用一条 Prompt 驱动编程代理连续运行 17 小时，在 Terminal-Bench 2.1 上达到 88.8% 的 SOTA 成绩。"
+        "en": "A deep analysis of how the Cline team achieved an 88.8% SOTA score on Terminal-Bench 2.1 using recursive self-improvement, costing only $49.8 — less than a tenth of competing approaches. Includes full tutorial, viewpoints, and design philosophy.",
+        "ja": "Clineチームが再帰的自己改善（RSI）技術を通じて、たった1つのプロンプトでコーディングAgentを17時間連続実行させ、Terminal-Bench 2.1ベンチマークで88.8%のSOTAスコアを達成し、コストはわずか$49.8で、Fable 5の$552を大幅に下回った方法を深く分析します。プロジェクト背景、ステップバイステップチュートリアル、中核見解の要約、設計哲学の分析を含む。",
+        "vi": "Phân tích chuyên sâu về cách đội ngũ Cline đạt điểm SOTA 88.8% trên Terminal-Bench 2.1 nhờ tự cải thiện đệ quy, chỉ tốn $49.8 — chưa bằng một phần mười chi phí của các phương pháp cạnh tranh. Bao gồm hướng dẫn đầy đủ, các quan điểm, và triết lý thiết kế.",
+        "zh-Hans": "深度解析 Cline 团队如何通过递归自我改进（RSI）技术，仅用一条 Prompt 驱动编程代理连续运行 17 小时，在 Terminal-Bench 2.1 基准测试中达到 88.8% 的 SOTA 成绩，且成本仅 $49.8，远低于 Fable 5 的 $552。文章包含完整的项目背景、逐步教程、核心观点归纳和设计哲学分析。"
       },
       "date": "2026-07-30",
       "author": "TopDigg Research Team",
@@ -925,72 +945,89 @@
         "AI Agent",
         "Self-Optimization",
         "SOTA",
-        "Hill Climbing"
+        "Hill Climbing",
+        "Prompt Engineering"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
+      "slug": "buzz-analysis-report-2026-07-29",
+      "title": {
+        "en": "Buzz Deep Dive: Block's 'Human-Agent Co-working' Workspace Platform",
+        "ja": "Buzz徹底分析：Blockが打造的「人機共處」ワークスペースプラットフォーム",
+        "vi": "Buzz Phân Tích Chuyên Sâu: Nền Tảng Workspace 'Cộng Tác Người – Agent' Của Block",
+        "zh-Hans": "Buzz 深度解析：Block 打造的“人机共处”工作空间平台"
+      },
+      "description": {
+        "en": "Comprehensive analysis of Buzz — Block's open-source, self-hostable workspace platform built on Nostr. Deep dive into architecture, workflow automation, agent-native design, and the design philosophy behind the relay-as-workspace paradigm.",
+        "ja": "Buzzの全面解析 — 自托管のNostrリレー型ワークスペース、人間とAI Agentが同一チャンネル、同一アイデンティティ、同一イベントログを共有。設計哲学、Agent原生理念、ワークフロー自動化、アーキテクチャ設計を深く掘り下げる。",
+        "vi": "Phân tích toàn diện về Buzz — nền tảng workspace mã nguồn mở, tự triển khai của Block, được xây dựng trên Nostr. Đi sâu vào kiến trúc, tự động hóa workflow, thiết kế hướng agent, và triết lý thiết kế đằng sau mô hình relay-như-workspace.",
+        "zh-Hans": "全面解析 Buzz — 自托管的 Nostr 中继工作空间，人与 AI Agent 共享同一个频道、同一个身份、同一个事件日志。深度探讨其架构设计、工作流自动化、Agent 原生理念及设计哲学。"
+      },
+      "date": "2026-07-29",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Buzz",
+        "Block",
+        "Nostr",
+        "Workspace",
+        "AI Agent",
+        "Self-Hosted",
+        "Event-Driven",
+        "Rust",
+        "Workflow Automation",
+        "Human-Agent Collaboration"
+      ],
+      "categories": [
+        "Deep Dive"
       ]
     },
     {
       "slug": "open-design-analysis-report-2026-07-29",
       "title": {
         "en": "Open Design Deep Dive: The Open-Source Claude Design Alternative Reshaping the Future of Design",
-        "zh-Hans": "Open Design 深度解析：重塑设计未来的开源 Claude Design 替代方案",
-        "zh-Hant": "Open Design 深度解析：重塑設計未來的開源 Claude Design 替代方案",
-        "ja": "Open Design 詳細分析：デザインの未来を再形成するオープンソース Claude Design 代替"
+        "ja": "Open Design 徹底分析：設計の未来を再構築するオープンソースのClaude Design代替",
+        "vi": "Open Design Chuyên Sâu: Lựa Chọn Thay Thế Claude Design Mã Nguồn Mở Đang Định Hình Tương Lai Của Ngành Thiết Kế",
+        "zh-Hans": "Open Design 深度解析：重塑设计未来的开源 Claude Design 替代方案"
       },
       "description": {
         "en": "Comprehensive analysis of Open Design — the open-source, local-first Claude Design alternative. Deep dive into its design philosophy, architecture, 25+ CLI support, 151 design systems, and why it matters for the agent era.",
-        "zh-Hans": "全面解析 Open Design — 开源、本地优先的 Claude Design 替代方案。深度探讨其设计哲学、架构、25+ CLI 支持、151 个设计系统，以及它为何在 Agent 时代至关重要。",
-        "zh-Hant": "全面解析 Open Design — 開源、本機優先的 Claude Design 替代方案。深度探討其設計哲學、架構、25+ CLI 支援、151 個設計系統，以及它為何在 Agent 時代至關重要。",
-        "ja": "包括的な分析：Open Design — オープンソースのローカルファースト型 Claude Design 代替。デザイン哲学、アーキテクチャ、25以上のCLI対応、151のデザインシステム、そしてエージェント時代におけるその意義について詳しく解説。"
+        "ja": "Open Design — オープンソース、ローカルファーストのClaude Design代替の包括的分析。設計哲学、アーキテクチャ、25+ CLIサポート、151のデザインベース、そしてなぜAgent時代にとって決定的に重要なのかを深く探求します。",
+        "vi": "Phân tích toàn diện về Open Design — lựa chọn thay thế Claude Design mã nguồn mở, ưu tiên cục bộ. Đi sâu vào triết lý thiết kế, kiến trúc, hỗ trợ 25+ CLI, 151 hệ thống thiết kế, và vì sao nó quan trọng trong kỷ nguyên agent.",
+        "zh-Hans": "全面解析 Open Design — 开源、本地优先的 Claude Design 替代方案。深度探讨其设计哲学、架构、25+ CLI 支持、151 个设计系统，以及它为何在 Agent 时代至关重要。"
       },
       "date": "2026-07-29",
       "author": "TopDigg Research Team",
       "tags": [
         "Open Design",
         "Claude Design",
-        "开源",
-        "AI设计",
-        "本地优先",
-        "Agent原生",
-        "设计系统",
+        "Open Source",
+        "AI Design",
+        "Local-First",
+        "Agent-Native",
+        "Design Systems",
         "BYOK",
         "HyperFrames",
         "MCP"
-      ]
-    },
-    {
-      "slug": "buzz-analysis-report-2026-07-29",
-      "title": {
-        "en": "Buzz Deep Dive: Block's Human-Agent Co-working Workspace Platform",
-        "zh-Hans": "Buzz 深度解析：Block 打造的\"人机共处\"工作空间平台",
-        "zh-Hant": "Buzz 深度解析：Block 打造的「人机共用」工作空間平台",
-        "ja": "Buzz 詳細解析：Block 人とAIエージェントが共に働くワークスペースプラットフォーム"
-      },
-      "description": {
-        "en": "Comprehensive analysis of Buzz — Block's self-hostable workspace platform built on Nostr. Deep dive into unified event log architecture, workflow automation, agent-native design, and the relay-as-workspace paradigm.",
-        "zh-Hans": "全面解析 Buzz — Block 推出的自托管 Nostr 工作空间平台。深入探讨统一事件日志架构、工作流自动化、Agent 原生设计及中继即工作空间的范式革新。",
-        "zh-Hant": "全面解析 Buzz — Block 推出的自托管 Nostr 工作空間平台。深入探討統一事件日誌架構、工作流自動化、Agent 原生設計及中继即工作空間的範式革新。",
-        "ja": "Block の自ホスト型 Nostr ワークスペースプラットフォーム Buzz の包括的分析。統一イベントログアーキテクチャ、ワークフロー自動化、エージェントネイティブ設計、リレー即ワークスペースパラダイムの深掘り。"
-      },
-      "date": "2026-07-29T00:00:00.000Z",
-      "author": "TopDigg Research Team",
-      "tags": [
-        "Buzz",
-        "Block",
-        "Nostr",
-        "工作空间",
-        "AI Agent",
-        "自托管",
-        "事件驱动"
+      ],
+      "categories": [
+        "Deep Dive"
       ]
     },
     {
       "slug": "harper-analysis-report-2026-07-27",
       "title": {
         "en": "Harper Deep Dive: The Open-Source Grammar Checker Automattic Bought to Challenge Grammarly",
+        "ja": "Harper 徹底分析：Automatticが買収したオープンソースの文法チェッカーがGrammarlyに挑戦する理由",
+        "vi": "Harper Phân Tích Chuyên Sâu: Trình Kiểm Tra Ngữ Pháp Mã Nguồn Mở Mà Automattic Mua Để Thách Thức Grammarly",
         "zh-Hans": "Harper 深度解析：Automattic 收购的开源语法检查器，凭什么叫板 Grammarly"
       },
       "description": {
         "en": "Harper is a free, open-source, fully local English grammar checker written in Rust, acquired by Automattic in late 2024. This report is double-verified against the official repo, the official site, and independent press coverage, analyzing its technology, business logic, and real limitations.",
+        "ja": "Harperは無料、オープンソース、完全ローカル動作の英語文法チェッカーで、Rustで書かれ、2024年末にWordPressの親会社Automatticに買収されました。本記事では公式リポジトリ、公式サイト、複数の報道を基に、技術原理、ビジネスロジック、そして現実的な短所を深く分析します。",
+        "vi": "Harper là một trình kiểm tra ngữ pháp tiếng Anh miễn phí, mã nguồn mở, chạy hoàn toàn cục bộ, viết bằng Rust, được Automattic mua lại vào cuối năm 2024. Báo cáo này được xác minh kép đối với repo chính thức, trang web chính thức, và các bài đưa tin độc lập, phân tích công nghệ, logic kinh doanh, và những hạn chế thực tế của nó.",
         "zh-Hans": "Harper 是一款免费、开源、完全本地运行的英文语法检查器，用 Rust 写成，2024 年底被 WordPress 母公司 Automattic 收购。本文基于官方仓库、官网与多方报道双重验证，深度解析其技术原理、商业逻辑与真实短板。"
       },
       "date": "2026-07-27",
@@ -1002,15 +1039,20 @@
         "Automattic",
         "Grammarly alternative",
         "privacy"
+      ],
+      "categories": [
+        "Review"
       ]
     },
     {
       "slug": "qwen3-4b-claude-fable5-distill-2026-07-03",
       "title": {
-        "en": "Qwen3-4B 克劳德幻境5推理踪迹蒸馏：100%自一致性的突破"
+        "en": "Qwen3-4B 克劳德幻境5推理踪迹蒸馏：100%自一致性的突破",
+        "vi": "Qwen3-4B Chưng Cất Dấu Vết Suy Luận Claude Fable 5: Đột Phá 100% Tự Nhất Quán"
       },
       "description": {
-        "en": "深度解析@waterloo_intern团队利用2.3M克劳德幻境5推理轨迹蒸馏Qwen3-4B，实现100%自一致性、零觅语变异的突破性成果。以下全面分析技术细节、业务影响和长远意义。"
+        "en": "深度解析@waterloo_intern团队利用2.3M克劳德幻境5推理轨迹蒸馏Qwen3-4B，实现100%自一致性、零觅语变异的突破性成果。以下全面分析技术细节、业务影响和长远意义。",
+        "vi": "Phân tích chuyên sâu việc nhóm @waterloo_intern sử dụng 2,3M dấu vết suy luận của Claude Fable 5 để chưng cất Qwen3-4B, đạt được thành quả đột phá với 100% tự nhất quán và biến thể phát ngôn bằng không. Dưới đây là phân tích toàn diện về chi tiết kỹ thuật, tác động kinh doanh và ý nghĩa lâu dài."
       },
       "date": "2026-06-30",
       "author": "TopDigg Research Team",
@@ -1023,6 +1065,11 @@
         "自一致性",
         "AI可靠性",
         "模型优化"
+      ],
+      "categories": [
+        "深度分析",
+        "技术突破",
+        "AI前沿"
       ]
     },
     {
@@ -1030,12 +1077,14 @@
       "title": {
         "en": "CryptoPulse Daily Report - May 12, 2026",
         "ja": "CryptoPulse デイリーレポート - 2026年5月12日",
+        "vi": "Báo Cáo Hàng Ngày CryptoPulse - 12 Tháng 5, 2026",
         "zh-Hans": "CryptoPulse 每日报告 - 2026年5月12日",
         "zh-Hant": "CryptoPulse 每日報告 - 2026年5月12日"
       },
       "description": {
         "en": "CryptoPulse cryptocurrency market daily report with BTC cycle analysis, on-chain metrics, DeFi market data, and latest news.",
         "ja": "CryptoPulse暗号化通貨市場デイリーレポート。BTCサイクル分析、オンチェーンメトリクス、DeFi市場データ、最新ニュースを含む。",
+        "vi": "Báo cáo thị trường tiền mã hóa hàng ngày của CryptoPulse với phân tích chu kỳ BTC, các chỉ số on-chain, dữ liệu thị trường DeFi, và tin tức mới nhất.",
         "zh-Hans": "CryptoPulse加密货币市场每日报告，包含BTC周期分析、链上指标、DeFi市场数据及最新资讯。",
         "zh-Hant": "CryptoPulse加密貨幣市場每日報告，包含BTC週期分析、鏈上指標、DeFi市場數據及最新資訊。"
       },
@@ -1049,6 +1098,9 @@
         "Market Analysis",
         "Bitcoin Cycle",
         "Cryptocurrency"
+      ],
+      "categories": [
+        "Daily Report"
       ]
     },
     {
@@ -1056,12 +1108,14 @@
       "title": {
         "en": "The \"HTML Hacker Era\" of AI Output Bandwidth: Karpathy's Tweet Laid Bare the Interface Bottleneck",
         "ja": "AI出力帯域幅の「HTMLハッカー時代」：Karpathyの投稿がインターフェースボトルネックを白ocopeyした",
+        "vi": "\"Kỷ Nguyên HTML Hacker\" Của Băng Thông Đầu Ra AI: Tweet Của Karpathy Vạch Trần Nút Thắt Giao Diện",
         "zh-Hans": "AI输出带宽的「HTML黑客时代」：Karpathy一推，数据把界面瓶颈摊开了",
         "zh-Hant": "AI輸出帶寬的「HTML黑客時代」：Karpathy一推，數據把界面瓶頸攤開了"
       },
       "description": {
         "en": "A deep dive into the human-machine interface bandwidth asymmetry behind Karpathy and Thariq's HTML trick, and its profound implications for the AI economic model.",
         "ja": "KarpathyとThariqのHTMLテクニックの背後にある人と機械のインターフェース帯域幅の非対称性、そしてAI経済モデルへの深い影響の分析。",
+        "vi": "Một bài phân tích sâu về sự bất đối xứng băng thông giao diện người–máy đằng sau mẹo HTML của Karpathy và Thariq, cùng những hàm ý sâu sắc của nó đối với mô hình kinh tế AI.",
         "zh-Hans": "深度分析Karpathy和Thariq的HTML技巧背后的人机接口带宽不对称问题，以及这对AI经济模型的深远影响。",
         "zh-Hant": "深度分析Karpathy和Thariq的HTML技巧背後的人機接口帶寬不對稱問題，以及這對AI經濟模型的深遠影響。"
       },
@@ -1073,398 +1127,572 @@
         "HTML",
         "Karpathy",
         "Multimodal AI"
+      ],
+      "categories": [
+        "Deep Analysis"
       ]
     },
     {
       "slug": "youware-analysis-report-2025-08-31",
       "title": {
+        "en": "YouWare AI Coding Community Platform Deep Analysis Report: A Complete Review of 2025's Hottest AI Coding Creation Platform",
+        "ja": "YouWare AIプログラミングコミュニティプラットフォーム徹底分析レポート：2025年最もホットなAIプログラミング創作プラットフォーム完全レビュー",
+        "vi": "Báo Cáo Phân Tích Chuyên Sâu Về YouWare AI: Đánh Giá Toàn Diện Nền Tảng Lập Trình Sáng Tạo AI Hot Nhất 2025",
         "zh-Hans": "YouWare AI编程社区平台深度分析报告：2025年最火爆的AI编程创作平台完整评测"
       },
       "description": {
+        "en": "A complete review of the YouWare AI coding community platform, covering product feature analysis, business model research, technical architecture breakdown, competitive advantage assessment, and market outlook prediction. An AI coding platform valued at $80 million within just two months, disrupting traditional programming approaches.",
+        "ja": "YouWare AIプログラミングコミュニティプラットフォームの完全レビュー。製品機能分析、ビジネスモデル研究、技術アーキテクチャ解析、競争優位性評価、市場見通し予測を含む。わずか2カ月で8000万ドルの評価額を達成したAIプログラミングプラットフォームが、従来のプログラミング手法を覆す。",
+        "vi": "Đánh giá toàn diện nền tảng cộng đồng lập trình AI YouWare, bao gồm phân tích chức năng sản phẩm, nghiên cứu mô hình kinh doanh, phân tích kiến trúc kỹ thuật, đánh giá lợi thế cạnh tranh và dự báo triển vọng thị trường. Nền tảng lập trình AI được định giá 80 triệu USD chỉ trong hai tháng, cách mạng hóa phương thức lập trình truyền thống.",
         "zh-Hans": "YouWare AI编程社区平台完整评测，包含产品功能分析、商业模式研究、技术架构解析、竞争优势评估和市场前景预测。短短两个月估值8000万美元的AI编程平台，颠覆传统编程方式。"
       },
       "date": "2025-08-31",
       "author": "ERIC",
       "tags": [
-        "AI工具",
-        "编程平台",
-        "代码部署",
+        "AI Tools",
+        "Coding Platform",
+        "Code Deployment",
         "YouWare",
-        "AI编程",
-        "创作社区",
-        "技术创新",
-        "Sandbox引擎"
+        "AI Coding",
+        "Creator Community",
+        "Technology Innovation",
+        "Sandbox Engine"
+      ],
+      "categories": [
+        "Review"
       ]
     },
     {
       "slug": "grammarly-analysis-report-2025-08-29",
       "title": {
+        "en": "Grammarly AI Writing Assistant Platform In-Depth Analysis Report: A Comprehensive Review of the Smart Writing Expert Trusted by 40 Million Users in 2025",
+        "ja": "Grammarly AIライティングアシスタント徹底分析レポート：2025年、4000万ユーザーに信頼されるスマートライティング専門家の完全レビュー",
+        "vi": "Báo Cáo Phân Tích Chuyên Sâu Nền Tảng Grammarly AI: Đánh Giá Toàn Diện 2025 Về Chuyên Gia Viết Thông Minh Được 40 Triệu Người Dùng Tin Tưởng",
         "zh-Hans": "Grammarly AI写作助手平台深度分析报告：2025年4000万用户信赖的智能写作专家完整评测"
       },
       "description": {
+        "en": "A comprehensive review of the Grammarly AI writing assistant platform, covering product feature analysis, business model research, technical architecture breakdown, competitive advantage assessment, and market outlook. The world's largest AI writing assistant platform, suitable for students, professionals, and enterprise teams.",
+        "ja": "Grammarly AIライティングアシスタントプラットフォームの完全レビュー。製品機能分析、ビジネスモデル研究、技術アーキテクチャ解説、競争優位性の評価、市場展望の予測を収録。世界最大のAIライティングアシスタントプラットフォームであり、学生、ビジネスパーソン、企業チームに最適です。",
+        "vi": "Đánh giá toàn diện nền tảng trợ lý viết lách AI Grammarly, bao gồm phân tích tính năng sản phẩm, nghiên cứu mô hình kinh doanh, phân tích kiến trúc kỹ thuật, đánh giá lợi thế cạnh tranh và dự báo triển vọng thị trường. Nền tảng trợ lý viết lách AI lớn nhất thế giới, phù hợp cho sinh viên, chuyên gia và đội ngũ doanh nghiệp.",
         "zh-Hans": "Grammarly AI写作助手平台完整评测，包含产品功能分析、商业模式研究、技术架构解析、竞争优势评估和市场前景预测。全球最大AI写作助手平台，适合学生、专业人士和企业团队。"
       },
       "date": "2025-08-29",
       "author": "ERIC",
       "tags": [
-        "AI工具",
-        "写作助手",
-        "语法检查",
+        "AI Tools",
+        "Writing Assistant",
+        "Grammar Check",
         "Grammarly",
-        "办公效率",
-        "AI写作",
-        "英语学习",
-        "商务写作"
+        "Workplace Productivity",
+        "AI Writing",
+        "English Learning",
+        "Business Writing"
+      ],
+      "categories": [
+        "Review"
       ]
     },
     {
       "slug": "otter-ai-analysis-report-2025-08-28",
       "title": {
+        "en": "Otter.ai AI Meeting Assistant Platform Deep Analysis Report: A Full Review of the 95%-Accuracy Smart Transcription Expert in 2025",
+        "ja": "Otter.ai AI会議アシスタントプラットフォーム徹底分析レポート：2025年95%精度のスマート書き起こし専門家の完全レビュー",
+        "vi": "Báo Cáo Phân Tích Chuyên Sâu Otter.ai Nền Tảng Trợ Lý Họp AI: Đánh Giá Toàn Diện Chuyên Gia Phiên Âm Thông Minh Độ Chính Xác 95% Năm 2025",
         "zh-Hans": "Otter.ai AI会议助理平台深度分析报告：2025年95%准确率的智能转录专家完整评测"
       },
       "description": {
+        "en": "A complete review of the Otter.ai AI meeting assistant platform, covering business model analysis, technical architecture assessment, competitive advantage analysis, and market outlook. The real-time meeting recording expert with 95% transcription accuracy, ideal for enterprise collaboration and productivity.",
+        "ja": "Otter.ai AI会議アシスタントプラットフォームの完全レビュー。ビジネスモデル分析、技術アーキテクチャ評価、競合優位性分析、市場見通し予測を含む。95%の書き起こし精度を持つリアルタイム会議記録の達人。企業コラボレーションと業務効率向上に適しています。",
+        "vi": "Đánh giá toàn diện nền tảng trợ lý họp AI Otter.ai, bao gồm phân tích mô hình kinh doanh, đánh giá kiến trúc công nghệ, phân tích lợi thế cạnh tranh và dự báo triển vọng thị trường. Chuyên gia ghi chép cuộc họp thời gian thực với độ chính xác phiên âm 95%, phù hợp cho cộng tác doanh nghiệp và nâng cao hiệu quả.",
         "zh-Hans": "Otter.ai AI会议助理平台完整评测，包含商业模式分析、技术架构评估、竞争优势分析和市场前景预测。95%转录准确率的实时会议记录专家，适合企业协作和效率提升。"
       },
       "date": "2025-08-28",
       "author": "ERIC",
       "tags": [
-        "AI工具",
-        "会议助理",
-        "语音转录",
+        "AI Tools",
+        "Meeting Assistant",
+        "Speech Transcription",
         "Otter.ai",
-        "办公效率",
-        "AI转录",
-        "会议记录",
-        "智能摘要"
+        "Office Productivity",
+        "AI Transcription",
+        "Meeting Notes",
+        "Smart Summaries"
+      ],
+      "categories": [
+        "Review"
       ]
     },
     {
       "slug": "polybuzz-ai-analysis-report-2025-08-25",
       "title": {
+        "en": "PolyBuzz AI Character Chat Platform Deep Analysis Report: A Complete Review of the 2025 AI Conversation Innovator with a Character Library in the Tens of Millions",
+        "ja": "PolyBuzz AI キャラクター チャット プラットフォーム徹底分析レポート：2025年、2,000万キャラクター ライブラリを誇るAI会話のイノベーター完全レビュー",
+        "vi": "Báo cáo phân tích chuyên sâu nền tảng trò chuyện nhân vật PolyBuzz AI: Đánh giá toàn diện về người đổi mới hội thoại AI với kho nhân vật 20 triệu năm 2025",
         "zh-Hans": "PolyBuzz AI角色聊天平台深度分析报告：2025年千万级角色库的AI对话创新者完整评测"
       },
       "description": {
+        "en": "A complete review of the PolyBuzz AI character chat platform, covering business model analysis, technical architecture assessment, competitive advantage analysis, and market outlook predictions. An innovative chat platform with over 20 million AI characters, suitable for entertainment, creation, and role-playing.",
+        "ja": "PolyBuzz AI キャラクター チャット プラットフォームの完全レビュー。ビジネスモデル分析、技術アーキテクチャ評価、競争優位性分析、市場見通し予測を含む。2,000万を超えるAIキャラクターを擁する革新的なチャット プラットフォーム。娯楽、創作、ロールプレイに最適。",
+        "vi": "Đánh giá toàn diện nền tảng trò chuyện nhân vật PolyBuzz AI, bao gồm phân tích mô hình kinh doanh, đánh giá kiến trúc kỹ thuật, phân tích lợi thế cạnh tranh và dự báo triển vọng thị trường. Nền tảng trò chuyện sáng tạo với hơn 20 triệu nhân vật AI, phù hợp cho giải trí, sáng tạo và nhập vai.",
         "zh-Hans": "PolyBuzz AI角色聊天平台完整评测，包含商业模式分析、技术架构评估、竞争优势分析和市场前景预测。超过2000万AI角色的创新聊天平台，适合娱乐、创作和角色扮演。"
       },
       "date": "2025-08-25",
       "author": "ERIC",
       "tags": [
-        "AI工具",
-        "角色聊天",
-        "AI对话",
+        "AI Tools",
+        "Character Chat",
+        "AI Conversation",
         "PolyBuzz",
-        "虚拟角色",
-        "AI娱乐",
-        "聊天机器人",
-        "角色扮演"
-      ]
-    },
-    {
-      "slug": "prolific-analysis-report-2025-08-24",
-      "title": {
-        "zh-Hans": "Prolific AI数据收集平台深度分析报告：2025年高质量人类数据服务领导者完整评测"
-      },
-      "description": {
-        "zh-Hans": "Prolific AI数据收集平台完整评测，包含商业模式分析、技术架构评估、竞争优势分析和市场前景预测。专业的人类数据收集服务，适合学术研究、AI训练和产品开发。"
-      },
-      "date": "2025-08-24",
-      "author": "ERIC",
-      "tags": [
-        "AI工具",
-        "数据收集",
-        "研究平台",
-        "Prolific",
-        "人类数据",
-        "AI训练",
-        "学术研究",
-        "数据质量"
+        "Virtual Characters",
+        "AI Entertainment",
+        "Chatbot",
+        "Role-Playing"
+      ],
+      "categories": [
+        "Review"
       ]
     },
     {
       "slug": "chub-ai-analysis-report-2025-08-24",
       "title": {
+        "en": "Chub.ai Platform In-Depth Review: A Comprehensive Analysis Report of the Professional AI Character Chat Platform in 2025",
+        "ja": "Chub.ai プラットフォーム徹底レビュー：2025年AIキャラクターチャット領域のプロフェッショナルプラットフォーム完全分析レポート",
+        "vi": "Đánh Giá Chuyên Sâu Nền Tảng Chub.ai: Báo Cáo Phân Tích Toàn Diện Năm 2025 Về Nền Tảng Chat Nhân Vật AI Chuyên Nghiệp",
         "zh-Hans": "Chub.ai平台深度评测：2025年AI角色聊天领域专业平台全面分析报告"
       },
       "description": {
+        "en": "A complete review of Chub.ai, the AI character chat platform, covering AI character customization, uncensored conversations, multi-API support, branching dialogue system, technical architecture, business model, and market performance analysis. A detailed breakdown of this professional AI character creation platform that delivers a highly customizable AI conversation experience.",
+        "ja": "Chub.ai AIキャラクターチャットプラットフォームの完全レビュー。AIキャラクターのカスタマイズ、無検閲対話、マルチAPI対応、分岐対話システム、技術アーキテクチャ、ビジネスモデル、市場パフォーマンスの分析を網羅。高度にカスタマイズ可能なAI対話体験を提供するプロフェッショナルなAIキャラクター作成プラットフォームを詳細に解説。",
+        "vi": "Đánh giá toàn diện nền tảng chat nhân vật AI Chub.ai, bao gồm tùy chỉnh nhân vật AI, hội thoại không kiểm duyệt, hỗ trợ nhiều API, hệ thống hội thoại phân nhánh, kiến trúc kỹ thuật, mô hình kinh doanh và hiệu quả thị trường. Phân tích chi tiết nền tảng tạo nhân vật AI chuyên nghiệp, mang đến trải nghiệm hội thoại AI có khả năng tùy biến cao.",
         "zh-Hans": "Chub.ai AI角色聊天平台完整评测，包含AI角色定制、无审查对话、多API支持、分支对话系统、技术架构、商业模式和市场表现分析。专业的AI角色创建平台，为用户提供高度自定义的AI对话体验的详细解析。"
       },
       "date": "2025-08-24",
       "author": "ERIC",
       "tags": [
-        "AI聊天",
-        "角色定制",
+        "AI Chat",
+        "Character Customization",
         "Chub.ai",
-        "AI角色",
-        "聊天机器人",
-        "角色AI",
-        "无审查",
-        "AI平台"
+        "AI Characters",
+        "Chatbot",
+        "Character AI",
+        "Uncensored",
+        "AI Platform"
+      ],
+      "categories": [
+        "Review"
       ]
     },
     {
-      "slug": "gauthmath-analysis-report-2025-08-23",
+      "slug": "prolific-analysis-report-2025-08-24",
       "title": {
-        "zh-Hans": "Gauth AI在线作业辅导平台深度评测：2025年学生学习必备AI助手全面分析报告"
+        "en": "Prolific AI Data Collection Platform Deep Analysis Report: A Complete Review of the 2025 Leader in High-Quality Human Data Services",
+        "ja": "Prolific AI データ収集プラットフォーム徹底分析レポート：2025年高品質なヒューマン データ サービス リーダーの完全レビュー",
+        "vi": "Báo Cáo Phân Tích Chuyên Sâu Nền Tảng Thu Thập Dữ Liệu AI Prolific: Đánh Giá Toàn Diện Nhà Cung Cấp Dịch Vụ Dữ Liệu Con Người Chất Lượng Cao Năm 2025",
+        "zh-Hans": "Prolific AI数据收集平台深度分析报告：2025年高质量人类数据服务领导者完整评测"
       },
       "description": {
-        "zh-Hans": "Gauth AI在线作业辅导平台完整评测，包含AI智能解题、拍照搜题、多学科覆盖、专家辅导、技术架构、商业模式和市场分析。专业的学习辅导工具，为学生提供即时准确的学习支持详细解析。"
+        "en": "A complete review of the Prolific AI data collection platform, covering business model analysis, technical architecture assessment, competitive advantage analysis, and market outlook forecasts. A professional human data collection service suited for academic research, AI training, and product development.",
+        "ja": "Prolific AI データ収集プラットフォームの完全レビュー。ビジネス モデル分析、技術アーキテクチャ評価、競争優位性分析、市場見通し予測を含む。学術研究、AIトレーニング、製品開発に適したプロフェッショナルなヒューマン データ収集サービス。",
+        "vi": "Đánh giá toàn diện nền tảng thu thập dữ liệu AI Prolific, bao gồm phân tích mô hình kinh doanh, đánh giá kiến trúc kỹ thuật, phân tích lợi thế cạnh tranh và dự báo triển vọng thị trường. Dịch vụ dữ liệu con người chuyên nghiệp, phù hợp cho nghiên cứu học thuật, huấn luyện AI và phát triển sản phẩm.",
+        "zh-Hans": "Prolific AI数据收集平台完整评测，包含商业模式分析、技术架构评估、竞争优势分析和市场前景预测。专业的人类数据收集服务，适合学术研究、AI训练和产品开发。"
       },
-      "date": "2025-08-23",
+      "date": "2025-08-24",
       "author": "ERIC",
       "tags": [
-        "AI教育",
-        "在线辅导",
-        "Gauth",
-        "拍照搜题",
-        "学习工具",
-        "AI解题",
-        "学生辅导",
-        "教育科技"
+        "AI Tools",
+        "Data Collection",
+        "Research Platform",
+        "Prolific",
+        "Human Data",
+        "AI Training",
+        "Academic Research",
+        "Data Quality"
+      ],
+      "categories": [
+        "Review"
       ]
     },
     {
       "slug": "crushon-ai-analysis-report-2025-08-23",
       "title": {
+        "en": "CrushOn.AI Platform Deep Review: A Comprehensive Analysis of the Leading Product in the 2025 AI Virtual Character Chatting Space",
+        "ja": "CrushOn.AIプラットフォーム徹底レビュー：2025年AIバーチャルキャラクターチャット分野のトッププロダクト完全分析レポート",
+        "vi": "Đánh Giá Chuyên Sâu Nền Tảng CrushOn.AI: Báo Cáo Phân Tích Toàn Diện Năm 2025 Về Sản Phẩm Hàng Đầu Trong Lĩnh Vực Chat Nhân Vật Ảo AI",
         "zh-Hans": "CrushOn.AI平台深度评测：2025年AI虚拟角色聊天领域头部产品全面分析报告"
       },
       "description": {
+        "en": "A complete review of the CrushOn.AI virtual character chat platform, covering AI chat features, character customization, community interaction, technical architecture, business model, and market performance. A professional AI companion product that provides users with an in-depth analysis of an unrestricted virtual character conversation experience.",
+        "ja": "CrushOn.AIバーチャルキャラクターチャットプラットフォームの完全レビュー。AIチャット機能、キャラクターカスタマイズ、コミュニティ交流、技術アーキテクチャ、ビジネスモデル、市場パフォーマンスを分析。ユーザーに無制限のバーチャルキャラクター交流体験を提供するプロのAIコンパニオン製品の詳細解説。",
+        "vi": "Đánh giá toàn diện nền tảng chat nhân vật ảo AI CrushOn.AI, bao gồm chức năng chat AI, tùy chỉnh nhân vật, tương tác cộng đồng, kiến trúc kỹ thuật, mô hình kinh doanh và hiệu quả thị trường. Phân tích chi tiết sản phẩm đồng hành AI chuyên nghiệp, mang đến trải nghiệm trò chuyện với nhân vật ảo không giới hạn.",
         "zh-Hans": "CrushOn.AI虚拟角色聊天平台完整评测，包含AI聊天功能、角色定制、社区互动、技术架构、商业模式和市场表现分析。专业的AI陪伴产品，为用户提供无限制虚拟角色交流体验的详细解析。"
       },
       "date": "2025-08-23",
       "author": "ERIC",
       "tags": [
-        "AI聊天",
-        "虚拟角色",
+        "AI Chat",
+        "Virtual Characters",
         "CrushOn",
-        "AI陪伴",
-        "聊天机器人",
-        "角色AI",
-        "情感陪伴",
-        "AI娱乐"
+        "AI Companion",
+        "Chatbot",
+        "Character AI",
+        "Emotional Companionship",
+        "AI Entertainment"
+      ],
+      "categories": [
+        "Review"
+      ]
+    },
+    {
+      "slug": "gauthmath-analysis-report-2025-08-23",
+      "title": {
+        "en": "Gauth AI Online Homework Tutoring Platform Deep Dive: A Comprehensive Analysis Report on the Essential AI Study Assistant for Students in 2025",
+        "ja": "Gauth AIオンライン宿題チュータープラットフォーム徹底レビュー：2025年の学生必携AIアシスタント完全分析レポート",
+        "vi": "Đánh giá chuyên sâu nền tảng hỗ trợ bài tập trực tuyến Gauth AI: Báo cáo phân tích toàn diện trợ lý AI thiết yếu cho học sinh năm 2025",
+        "zh-Hans": "Gauth AI在线作业辅导平台深度评测：2025年学生学习必备AI助手全面分析报告"
+      },
+      "description": {
+        "en": "A complete review of the Gauth AI online homework tutoring platform, covering AI-powered problem solving, photo-based question search, multi-subject coverage, expert tutoring, technical architecture, business model, and market analysis. A professional study assistance tool that provides students with instant, accurate learning support — detailed and in-depth.",
+        "ja": "Gauth AIオンライン宿題チュータープラットフォームの完全レビュー。AIスマート解法、写真問題検索、マルチカバレッジ科目、エキスパートチューター、技術アーキテクチャ、ビジネスモデル、市場分析を含む。学生向け即時・正確な学習サポートを提供するプロフェッショナルな学習補助ツールの詳細分析。",
+        "vi": "Đánh giá đầy đủ nền tảng hỗ trợ bài tập trực tuyến Gauth AI, bao gồm giải bài thông minh bằng AI, tìm kiếm bài tập qua ảnh, phạm vi đa môn học, hướng dẫn từ chuyên gia, kiến trúc công nghệ, mô hình kinh doanh và phân tích thị trường. Phân tích chi tiết công cụ hỗ trợ học tập chuyên nghiệp, cung cấp hỗ trợ học tập tức thời và chính xác cho học sinh.",
+        "zh-Hans": "Gauth AI在线作业辅导平台完整评测，包含AI智能解题、拍照搜题、多学科覆盖、专家辅导、技术架构、商业模式和市场分析。专业的学习辅导工具，为学生提供即时准确的学习支持详细解析。"
+      },
+      "date": "2025-08-23",
+      "author": "ERIC",
+      "tags": [
+        "AI Education",
+        "Online Tutoring",
+        "Gauth",
+        "Photo Question Search",
+        "Study Tools",
+        "AI Problem Solving",
+        "Student Tutoring",
+        "EdTech"
+      ],
+      "categories": [
+        "Review"
       ]
     },
     {
       "slug": "beacons-ai-analysis-report-2025-08-22",
       "title": {
+        "en": "Beacons.ai All-in-One Creator Business Platform Deep Dive: A Comprehensive Analysis Report on the Essential Creator Economy Tool of 2025",
+        "ja": "Beacons.ai クリエイター向けオールインワン・ビジネスプラットフォーム徹底レビュー：2025年クリエイターエコノミー必携ツールの完全分析レポート",
+        "vi": "Báo cáo đánh giá chuyên sâu nền tảng kinh doanh toàn năng cho nhà sáng tạo Beacons.ai: Phân tích toàn diện công cụ thiết yếu cho nền kinh tế sáng tạo năm 2025",
         "zh-Hans": "Beacons.ai 创作者全能商业平台深度评测：2025年创作者经济必备工具全面分析报告"
       },
       "description": {
+        "en": "A complete review of Beacons.ai, the all-in-one creator business platform, covering its AI smart features, Link-in-Bio, creator store, email marketing, pricing strategy, competitor comparison, and market analysis. An in-depth look at this rising star in the creator economy, backed by $29.8M in funding.",
+        "ja": "Beacons.ai クリエイター向けオールインワン・ビジネスプラットフォームの完全レビュー。AI機能、Link-in-Bio、クリエイターストア、メールマーケティング、価格戦略、競合比較、市場分析を網羅。$29.8Mの資金調達を背景に急成長する業界の新星をプロフェッショナルな視点で詳細解説。",
+        "vi": "Đánh giá đầy đủ nền tảng kinh doanh toàn năng Beacons.ai dành cho nhà sáng tạo, bao gồm tính năng AI thông minh, Link-in-Bio, cửa hàng nhà sáng tạo, email marketing, chiến lược giá, so sánh đối thủ và phân tích thị trường. Phân tích chi tiết ngôi sao mới trong ngành công cụ kinh tế sáng tạo với nền tảng đã huy động 29,8 triệu USD.",
         "zh-Hans": "Beacons.ai 创作者全能商业平台完整评测，包含AI智能功能、Link-in-Bio、创作者商店、邮件营销、定价策略、竞品对比和市场分析。专业的创作者经济工具，$29.8M融资背景下的行业新星详细解析。"
       },
       "date": "2025-08-22",
       "author": "ERIC",
       "tags": [
-        "创作者工具",
+        "Creator Tools",
         "Link-in-Bio",
         "Beacons.ai",
-        "AI智能",
-        "创作者经济",
-        "邮件营销",
-        "创作者商店",
-        "社交媒体"
+        "AI",
+        "Creator Economy",
+        "Email Marketing",
+        "Creator Store",
+        "Social Media"
+      ],
+      "categories": [
+        "Review"
+      ]
+    },
+    {
+      "slug": "framer-analysis-report-2025-08-21",
+      "title": {
+        "en": "Framer.com No-Code Website Design Platform In-Depth Review: A Comprehensive Analysis Report of the Go-To Website Builder for Designers in 2025",
+        "ja": "Framer.com ノーコードWebサイトデザインプラットフォーム徹底レビュー：2025年デザイナーが選ぶWebサイト作成ツールの総合分析レポート",
+        "vi": "Đánh Giá Chuyên Sâu Framer.com – Nền Tảng Thiết Kế Website Không Cần Code: Báo Cáo Toàn Diện Về Công Cụ Xây Dựng Website Được Nhà Thiết Kế Ưa Chuộng Năm 2025",
+        "zh-Hans": "Framer.com 无代码网站设计平台深度评测：2025年设计师首选建站工具全面分析报告"
+      },
+      "description": {
+        "en": "A complete review of Framer.com, the no-code website design platform, covering Figma integration, AI features, pricing strategy, competitor comparison, and market analysis. A detailed breakdown of this professional website builder for designers — an emerging industry star backed by $62.6M in funding.",
+        "ja": "Framer.com ノーコードWebサイトデザインプラットフォームの完全レビュー。Figma連携、AI機能、価格戦略、競合比較、市場分析を網羅。プロ向けデザイナーWebサイト作成ツール、$62.6Mの資金調達を背景に台頭する業界の新星を詳細に解説。",
+        "vi": "Đánh giá toàn diện nền tảng thiết kế website không cần code Framer.com, bao gồm tích hợp Figma, tính năng AI, chiến lược giá, so sánh đối thủ và phân tích thị trường. Phân tích chuyên sâu về ngôi sao mới nổi trong ngành với nguồn vốn $62,6M.",
+        "zh-Hans": "Framer.com 无代码网站设计平台完整评测，包含Figma集成、AI功能、定价策略、竞品对比和市场分析。专业的设计师建站工具，$62.6M融资背景下的行业新星详细解析。"
+      },
+      "date": "2025-08-21",
+      "author": "ERIC",
+      "tags": [
+        "No-Code Tools",
+        "Website Building",
+        "Framer",
+        "Design Tools",
+        "AI Website Building",
+        "Figma Integration",
+        "Web Design",
+        "Startup Tools"
+      ],
+      "categories": [
+        "Review"
       ]
     },
     {
       "slug": "klaviyo-analysis-report-2025-08-21",
       "title": {
+        "en": "Klaviyo Platform In-Depth Analysis Report: A Comprehensive Review of the 2025 B2C CRM Marketing Leader",
+        "ja": "Klaviyo プラットフォーム徹底分析レポート：2025年 B2C CRMマーケティング分野のリーダー総合レビュー",
+        "vi": "Báo Cáo Phân Tích Chuyên Sâu Klaviyo: Đánh Giá Toàn Diện Nhà Lãnh Đạo Lĩnh Vực B2C CRM Marketing Năm 2025",
         "zh-Hans": "Klaviyo平台深度分析报告：2025年B2C CRM营销领域的领军者全面评测"
       },
       "description": {
+        "en": "A comprehensive Klaviyo platform review covering business model analysis, core feature breakdown, pricing strategy, market competitiveness, and investment value. A professional B2C CRM and email marketing platform serving 167,000+ brands.",
+        "ja": "Klaviyo プラットフォームの完全レビュー。ビジネスモデル分析、中核機能の詳細解説、価格戦略、市場競争力、投資価値を収録。167,000以上のブランド顧客にサービスを提供するプロフェッショナルなB2C CRM・メールマーケティングプラットフォーム。",
+        "vi": "Đánh giá toàn diện nền tảng Klaviyo, bao gồm phân tích mô hình kinh doanh, giải thích chi tiết tính năng cốt lõi, chiến lược giá, sức cạnh tranh thị trường và giá trị đầu tư. Nền tảng B2C CRM và email marketing chuyên nghiệp, phục vụ hơn 167.000 thương hiệu khách hàng.",
         "zh-Hans": "Klaviyo平台完整评测，包含业务模式分析、核心功能详解、定价策略、市场竞争力和投资价值。专业的B2C CRM和邮件营销平台，服务167,000+品牌客户。"
       },
       "date": "2025-08-21",
       "author": "ERIC",
       "tags": [
         "B2C CRM",
-        "邮件营销",
+        "Email Marketing",
         "Klaviyo",
-        "营销自动化",
-        "电商工具",
-        "SaaS平台",
-        "上市公司",
-        "投资分析"
-      ]
-    },
-    {
-      "slug": "framer-analysis-report-2025-08-21",
-      "title": {
-        "zh-Hans": "Framer.com 无代码网站设计平台深度评测：2025年设计师首选建站工具全面分析报告"
-      },
-      "description": {
-        "zh-Hans": "Framer.com 无代码网站设计平台完整评测，包含Figma集成、AI功能、定价策略、竞品对比和市场分析。专业的设计师建站工具，$62.6M融资背景下的行业新星详细解析。"
-      },
-      "date": "2025-08-21",
-      "author": "ERIC",
-      "tags": [
-        "无代码工具",
-        "网站建设",
-        "Framer",
-        "设计工具",
-        "AI建站",
-        "Figma集成",
-        "网页设计",
-        "创业工具"
-      ]
-    },
-    {
-      "slug": "transkriptor-analysis-report-2025-08-20",
-      "title": {
-        "zh-Hans": "Transkriptor AI转录服务深度评测：2025年最全面的智能语音转文字工具分析报告"
-      },
-      "description": {
-        "zh-Hans": "Transkriptor AI转录服务完整评测，包含功能详解、定价分析、竞品对比和使用指南。专业的AI驱动语音转文字平台，支持100+语言，99%准确率，适合商务会议、教育培训和内容创作。"
-      },
-      "date": "2025-08-20",
-      "author": "ERIC",
-      "tags": [
-        "AI工具",
-        "语音转录",
-        "会议记录",
-        "Transkriptor",
-        "语音识别",
-        "文字转换",
-        "商务工具",
-        "AI转录"
-      ]
-    },
-    {
-      "slug": "picwish-ai-analysis-report-2025-08-20",
-      "title": {
-        "zh-Hans": "PicWish AI照片编辑器深度评测：2025年最全面的智能图片处理工具分析报告"
-      },
-      "description": {
-        "zh-Hans": "PicWish AI照片编辑器完整评测，包含功能详解、使用指南、定价分析和竞品对比。专业的AI驱动图片编辑平台，支持背景移除、图像增强、对象清除等智能功能。"
-      },
-      "date": "2025-08-20",
-      "author": "ERIC",
-      "tags": [
-        "AI工具",
-        "照片编辑器",
-        "背景移除",
-        "PicWish",
-        "图像处理",
-        "AI编辑",
-        "在线工具",
-        "图片美化"
+        "Marketing Automation",
+        "E-commerce Tools",
+        "SaaS Platform",
+        "Public Company",
+        "Investment Analysis"
+      ],
+      "categories": [
+        "Review"
       ]
     },
     {
       "slug": "fandom-analysis-report-2025-08-20",
       "title": {
+        "en": "Fandom.com Deep Dive: A Complete Analysis of the Business Model and Growth Strategy of the World's Largest Fan Community Platform",
+        "ja": "Fandom.com徹底分析レポート：世界最大のファンコミュニティプラットフォームのビジネスモデルと成長戦略を完全解説",
+        "vi": "Báo Cáo Phân Tích Chuyên Sâu Fandom.com: Giải Mã Toàn Diện Mô Hình Kinh Doanh Và Chiến Lược Phát Triển Của Nền Tảng Cộng Đồng Người Hâm Mộ Lớn Nhất Thế Giới",
         "zh-Hans": "Fandom.com深度分析报告：全球最大粉丝社区平台的商业模式与发展策略完整解析"
       },
       "description": {
+        "en": "A complete review and analysis of Fandom.com, covering its wiki platform business model, user growth strategy, technical architecture, market competitive position, and future development opportunities. An in-depth look at the world's largest fan knowledge base platform with more than 300 million monthly visits.",
+        "ja": "Fandom.com完全レビュー分析。wikiプラットフォームのビジネスモデル、ユーザー成長戦略、技術アーキテクチャ、市場における競争上の地位、将来の発展機会を網羅。月間アクセス数3億超の世界最大のファン向けナレッジベースプラットフォームを深く解説します。",
+        "vi": "Đánh giá và phân tích toàn diện Fandom.com, bao quát mô hình kinh doanh nền tảng wiki, chiến lược tăng trưởng người dùng, kiến trúc kỹ thuật, vị thế cạnh tranh trên thị trường và cơ hội phát triển trong tương lai. Phân tích chuyên sâu nền tảng kho tri thức người hâm mộ lớn nhất thế giới với hơn 300 triệu lượt truy cập mỗi tháng.",
         "zh-Hans": "Fandom.com完整评测分析，涵盖其wiki平台商业模式、用户增长策略、技术架构、市场竞争地位和未来发展机会。深入解析这个月访问量超3亿的全球最大粉丝知识库平台。"
       },
       "date": "2025-08-20",
       "author": "ERIC",
       "tags": [
         "Fandom",
-        "粉丝社区",
-        "Wiki平台",
-        "用户生成内容",
-        "娱乐科技",
-        "社区运营",
-        "内容平台",
-        "广告变现"
+        "Fan Community",
+        "Wiki Platform",
+        "User-Generated Content",
+        "Entertainment Tech",
+        "Community Operations",
+        "Content Platform",
+        "Ad Monetization"
+      ],
+      "categories": [
+        "Review"
+      ]
+    },
+    {
+      "slug": "picwish-ai-analysis-report-2025-08-20",
+      "title": {
+        "en": "PicWish AI Photo Editor Deep Review: The Most Comprehensive Analysis Report of Intelligent Image Processing Tools in 2025",
+        "ja": "PicWish AI写真エディタ徹底レビュー：2025年最も包括的なスマート画像処理ツール分析レポート",
+        "vi": "Đánh giá chuyên sâu trình chỉnh sửa ảnh PicWish AI: Báo cáo phân tích toàn diện về công cụ xử lý ảnh thông minh năm 2025",
+        "zh-Hans": "PicWish AI照片编辑器深度评测：2025年最全面的智能图片处理工具分析报告"
+      },
+      "description": {
+        "en": "A complete review of the PicWish AI photo editor, covering detailed feature breakdowns, usage guides, pricing analysis, and competitor comparisons. A professional AI-driven image editing platform that supports background removal, image enhancement, object removal, and other smart features.",
+        "ja": "PicWish AI写真エディタの完全レビュー。機能詳細、使用ガイド、価格分析、競合製品比較を含む。背景除去、画像拡張、オブジェクト除去などのスマート機能をサポートする、プロフェッショナルなAI駆動画像編集プラットフォーム。",
+        "vi": "Đánh giá đầy đủ trình chỉnh sửa ảnh PicWish AI, bao gồm phân tích tính năng, hướng dẫn sử dụng, giá cả và so sánh đối thủ. Nền tảng chỉnh sửa ảnh chuyên nghiệp được AI hỗ trợ, với các tính năng thông minh như xóa nền, nâng cao hình ảnh và xóa đối tượng.",
+        "zh-Hans": "PicWish AI照片编辑器完整评测，包含功能详解、使用指南、定价分析和竞品对比。专业的AI驱动图片编辑平台，支持背景移除、图像增强、对象清除等智能功能。"
+      },
+      "date": "2025-08-20",
+      "author": "ERIC",
+      "tags": [
+        "AI Tools",
+        "Photo Editor",
+        "Background Removal",
+        "PicWish",
+        "Image Processing",
+        "AI Editing",
+        "Online Tools",
+        "Photo Enhancement"
+      ],
+      "categories": [
+        "Review"
+      ]
+    },
+    {
+      "slug": "transkriptor-analysis-report-2025-08-20",
+      "title": {
+        "en": "Transkriptor AI Transcription Service In-Depth Review: The Most Comprehensive Smart Speech-to-Text Tool Analysis Report of 2025",
+        "ja": "Transkriptor AI転写サービス徹底レビュー：2025年最も包括的なインテリジェント音声テキスト変換ツール分析レポート",
+        "vi": "Đánh Giá Chuyên Sâu Dịch Vụ Phiên Âm AI Transkriptor: Báo Cáo Phân Tích Toàn Diện Công Cụ Giọng Nói Sang Văn Bản Thông Minh Hàng Đầu Năm 2025",
+        "zh-Hans": "Transkriptor AI转录服务深度评测：2025年最全面的智能语音转文字工具分析报告"
+      },
+      "description": {
+        "en": "A complete review of the Transkriptor AI transcription service, covering detailed feature analysis, pricing breakdown, competitor comparison, and usage guide. A professional AI-driven speech-to-text platform supporting 100+ languages with 99% accuracy, ideal for business meetings, education and training, and content creation.",
+        "ja": "Transkriptor AI転写サービスの完全レビュー。機能詳細、料金分析、競合製品比較、使用ガイドを含む。100以上の言語に対応する99%精度のAI駆動音声テキスト変換プラットフォーム。ビジネス会議、教育訓練、コンテンツ制作に適しています。",
+        "vi": "Đánh giá đầy đủ về dịch vụ phiên âm AI Transkriptor, bao gồm phân tích chi tiết tính năng, phân tích giá, so sánh đối thủ cạnh tranh và hướng dẫn sử dụng. Nền tảng chuyển giọng nói thành văn bản được hỗ trợ bởi AI chuyên nghiệp, hỗ trợ 100+ ngôn ngữ, độ chính xác 99%, phù hợp cho họp kinh doanh, giáo dục và sáng tạo nội dung.",
+        "zh-Hans": "Transkriptor AI转录服务完整评测，包含功能详解、定价分析、竞品对比和使用指南。专业的AI驱动语音转文字平台，支持100+语言，99%准确率，适合商务会议、教育培训和内容创作。"
+      },
+      "date": "2025-08-20",
+      "author": "ERIC",
+      "tags": [
+        "AI Tools",
+        "Speech Transcription",
+        "Meeting Notes",
+        "Transkriptor",
+        "Speech Recognition",
+        "Text Conversion",
+        "Business Tools",
+        "AI Transcription"
+      ],
+      "categories": [
+        "Review"
       ]
     },
     {
       "slug": "imagetovideomaker-analysis-report-2025-08-19",
       "title": {
+        "en": "ImageToVideoMaker AI Video Generator In-Depth Review: The Most Comprehensive Multi-Model AI Video Creation Platform Analysis Report of 2025",
+        "ja": "ImageToVideoMaker AI動画生成器徹底レビュー：2025年最も包括的なマルチモデルAI動画制作プラットフォーム分析レポート",
+        "vi": "Đánh Giá Chuyên Sâu Trình Tạo Video AI ImageToVideoMaker: Báo Cáo Phân Tích Toàn Diện Nền Tảng Sáng Tạo Video AI Đa Mô Hình 2025",
         "zh-Hans": "ImageToVideoMaker AI视频生成器深度评测：2025年最全面的多模型AI视频创作平台分析报告"
       },
       "description": {
+        "en": "A complete review of the ImageToVideoMaker AI video generator, covering five AI model comparisons, detailed feature breakdown, usage guide, pros and cons analysis, and market competition analysis. A professional AI-driven video generation tool supporting text-to-video and image-to-video, ideal for content creators, marketers, and professional production.",
+        "ja": "ImageToVideoMaker AI動画生成器の完全レビュー。5大AIモデルの比較、機能詳細解説、使用ガイド、長所短所の分析、市場競争分析を含む。プロのAI駆動動画生成ツール、テキストと画像から動画変換をサポート、コンテンツクリエイター、マーケティング担当者、プロフェッショナル制作者に適する。",
+        "vi": "Đánh giá đầy đủ về trình tạo video AI ImageToVideoMaker, bao gồm so sánh năm mô hình AI hàng đầu, phân tích tính năng chi tiết, hướng dẫn sử dụng, phân tích ưu nhược điểm và phân tích cạnh tranh thị trường. Công cụ tạo video được hỗ trợ bởi AI chuyên nghiệp, hỗ trợ chuyển đổi văn bản và hình ảnh sang video, phù hợp cho người sáng tạo nội dung, nhân viên marketing và nhà sản xuất chuyên nghiệp.",
         "zh-Hans": "ImageToVideoMaker AI视频生成器完整评测，包含五大AI模型对比、功能详解、使用指南、优缺点分析和市场竞争分析。专业的AI驱动视频生成工具，支持文本和图片转视频，适合内容创作者、营销人员和专业制作。"
       },
       "date": "2025-08-19",
       "author": "ERIC",
       "tags": [
-        "AI工具",
-        "视频生成器",
-        "AI视频",
+        "AI Tools",
+        "Video Generator",
+        "AI Video",
         "ImageToVideoMaker",
-        "内容创作",
+        "Content Creation",
         "Veo3",
         "Kling",
         "Hailuo",
-        "多模型平台"
-      ]
-    },
-    {
-      "slug": "shortcut-ai-analysis-report-2025-08-18",
-      "title": {
-        "zh-Hans": "Shortcut AI深度分析报告：2025年AI Excel智能助手全面解析与市场机会探索"
-      },
-      "description": {
-        "zh-Hans": "Shortcut AI平台深度调研报告，包含功能分析、目标用户群体、SEO策略、市场定位、优劣势分析和行业机会挖掘。"
-      },
-      "date": "2025-08-18",
-      "author": "ERIC",
-      "tags": [
-        "AI Excel助手",
-        "人工智能工具",
-        "Shortcut AI",
-        "电子表格自动化",
-        "AI办公工具"
+        "Multi-Model Platform"
+      ],
+      "categories": [
+        "Review"
       ]
     },
     {
       "slug": "3dlogolab-analysis-report-2025-08-18",
       "title": {
+        "en": "3DLogoLab In-Depth Analysis Report: A Comprehensive Review of the Most Professional 2D-to-3D Logo Animation Generator of 2025",
+        "ja": "3DLogoLab 徹底分析レポート：2025年で最もプロフェッショナルな2Dから3Dへのロゴアニメーション生成ツールを完全解説",
+        "vi": "Báo cáo phân tích chuyên sâu 3DLogoLab: Trình tạo animation Logo 2D sang 3D chuyên nghiệp nhất năm 2025",
         "zh-Hans": "3DLogoLab深度分析报告：2025年最专业的2D转3D Logo动画生成器全面解析"
       },
       "description": {
+        "en": "An in-depth research report on the 3DLogoLab platform, covering feature analysis, target user groups, technical architecture, market positioning, strengths and weaknesses, and industry opportunity exploration. A professional review of a 3D logo animation generation tool.",
+        "ja": "3DLogoLabプラットフォームの徹底調査レポート。機能分析、ターゲットユーザー層、技術アーキテクチャ、市場ポジショニング、長所と短所の分析、業界機会の探求を含む。プロフェッショナルな3Dロゴアニメーション生成ツールのレビュー。",
+        "vi": "Báo cáo nghiên cứu chuyên sâu về nền tảng 3DLogoLab, bao gồm phân tích tính năng, nhóm người dùng mục tiêu, kiến trúc công nghệ, định vị thị trường, ưu nhược điểm và cơ hội ngành. Đánh giá công cụ tạo animation Logo 3D chuyên nghiệp.",
         "zh-Hans": "3DLogoLab平台深度调研报告，包含功能分析、目标用户群体、技术架构、市场定位、优劣势分析和行业机会挖掘。专业3D Logo动画生成工具评测。"
       },
       "date": "2025-08-18",
       "author": "ERIC",
       "tags": [
-        "3D Logo设计",
-        "Logo动画",
-        "品牌设计工具",
+        "3D Logo Design",
+        "Logo Animation",
+        "Brand Design Tools",
         "3DLogoLab",
-        "Chrome特效",
-        "360度旋转"
+        "Chrome Effects",
+        "360-Degree Rotation"
+      ],
+      "categories": [
+        "Review"
       ]
     },
     {
-      "slug": "hitem3d-analysis-report-2025-08-17",
+      "slug": "shortcut-ai-analysis-report-2025-08-18",
       "title": {
-        "zh-Hans": "Hitem3D深度分析报告：2025年AI 3D模型生成平台全面解析与市场机会探索"
+        "en": "Shortcut AI Deep-Dive Analysis Report: A Comprehensive Review of the 2025 AI Excel Smart Assistant and Market Opportunity Exploration",
+        "ja": "Shortcut AI 徹底分析レポート：2025年 AI Excel スマートアシスタントの総合解析と市場機会探求",
+        "vi": "Báo Cáo Phân Tích Chuyên Sâu Shortcut AI: Phân Tích Toàn Diện Trợ Lý Excel Thông Minh AI Năm 2025 Và Khám Phá Cơ Hội Thị Trường",
+        "zh-Hans": "Shortcut AI深度分析报告：2025年AI Excel智能助手全面解析与市场机会探索"
       },
       "description": {
-        "zh-Hans": "Hitem3D平台深度调研报告，包含功能分析、目标用户群体、SEO策略、市场定位、优劣势分析和行业机会挖掘。"
+        "en": "An in-depth research report on the Shortcut AI platform, covering feature analysis, target user groups, SEO strategy, market positioning, strengths and weaknesses analysis, and industry opportunity mining.",
+        "ja": "Shortcut AI プラットフォームの詳細調査レポート。機能分析、ターゲット ユーザー層、SEO 戦略、市場ポジショニング、強みと弱みの分析、業界機会の発見を含む。",
+        "vi": "Báo cáo nghiên cứu chuyên sâu về nền tảng Shortcut AI, bao gồm phân tích tính năng, nhóm người dùng mục tiêu, chiến lược SEO, định vị thị trường, phân tích ưu nhược điểm và khai thác cơ hội ngành.",
+        "zh-Hans": "Shortcut AI平台深度调研报告，包含功能分析、目标用户群体、SEO策略、市场定位、优劣势分析和行业机会挖掘。"
       },
-      "date": "2025-08-17",
+      "date": "2025-08-18",
       "author": "ERIC",
       "tags": [
-        "AI 3D建模",
-        "人工智能工具",
-        "Hitem3D",
-        "3D模型生成器",
-        "AI工具"
+        "AI Excel Assistant",
+        "AI Tools",
+        "Shortcut AI",
+        "Spreadsheet Automation",
+        "AI Productivity Tools"
+      ],
+      "categories": [
+        "Review"
       ]
     },
     {
       "slug": "gencolor-ai-analysis-report-2025-08-17",
       "title": {
+        "en": "GenColor.ai AI Coloring Page Generator Deep Review: The Most Comprehensive Analysis Report of Intelligent Coloring Tools in 2025",
+        "ja": "GenColor.ai AI塗り絵ジェネレーター徹底レビュー：2025年最も包括的なスマート塗り絵ツール分析レポート",
+        "vi": "Đánh giá chuyên sâu trình tạo trang tô màu AI GenColor.ai: Báo cáo phân tích toàn diện công cụ tô màu thông minh tốt nhất năm 2025",
         "zh-Hans": "GenColor.ai AI涂色页生成器深度评测：2025年最全面的智能涂色工具分析报告"
       },
       "description": {
+        "en": "A complete review of the GenColor.ai AI coloring page generator, covering detailed feature breakdowns, usage guides, pros and cons analysis, and market competition analysis. A professional AI-driven coloring page generation tool suitable for children's education, art therapy, and creative design.",
+        "ja": "GenColor.ai AI塗り絵ジェネレーターの完全レビュー。機能詳細解説、使用ガイド、長所と短所の分析、市場競争分析を含む。子供教育、芸術治療、クリエイティブデザインに適したプロフェッショナルAI駆動塗り絵生成ツール。",
+        "vi": "Đánh giá đầy đủ trình tạo trang tô màu AI GenColor.ai, bao gồm phân tích tính năng chi tiết, hướng dẫn sử dụng, phân tích ưu nhược điểm và phân tích cạnh tranh thị trường. Công cụ tạo trang tô màu chuyên nghiệp vận hành bởi AI, phù hợp với giáo dục trẻ em, trị liệu nghệ thuật và thiết kế sáng tạo.",
         "zh-Hans": "GenColor.ai AI涂色页生成器完整评测，包含功能详解、使用指南、优缺点分析和市场竞争分析。专业的AI驱动涂色页生成工具，适合儿童教育、艺术治疗和创意设计。"
       },
       "date": "2025-08-17",
       "author": "ERIC",
       "tags": [
-        "AI工具",
-        "涂色页生成器",
-        "儿童教育",
+        "AI Tools",
+        "Coloring Page Generator",
+        "Children's Education",
         "GenColor.ai",
-        "创意设计",
-        "艺术治疗",
-        "在线工具",
-        "免费AI"
+        "Creative Design",
+        "Art Therapy",
+        "Online Tools",
+        "Free AI"
+      ],
+      "categories": [
+        "Review"
+      ]
+    },
+    {
+      "slug": "hitem3d-analysis-report-2025-08-17",
+      "title": {
+        "en": "Hitem3D Deep Analysis Report: A Comprehensive Look at the 2025 AI 3D Model Generation Platform and Market Opportunity Exploration",
+        "ja": "Hitem3D徹底分析レポート：2025年AI 3Dモデル生成プラットフォームの完全解説と市場機会の探求",
+        "vi": "Báo Cáo Phân Tích Chuyên Sâu Hitem3D: Phân Tích Toàn Diện Nền Tảng Tạo Mô Hình 3D AI Năm 2025 Và Khám Phá Cơ Hội Thị Trường",
+        "zh-Hans": "Hitem3D深度分析报告：2025年AI 3D模型生成平台全面解析与市场机会探索"
+      },
+      "description": {
+        "en": "An in-depth research report on the Hitem3D platform, covering feature analysis, target user segments, SEO strategy, market positioning, strengths and weaknesses analysis, and industry opportunity exploration.",
+        "ja": "Hitem3Dプラットフォームの詳細調査レポート。機能分析、ターゲットユーザー層、SEO戦略、市場ポジショニング、長所と短所の分析、業界機会の探求を含む。",
+        "vi": "Báo cáo nghiên cứu chuyên sâu về nền tảng Hitem3D, bao gồm phân tích tính năng, nhóm người dùng mục tiêu, chiến lược SEO, định vị thị trường, phân tích ưu nhược điểm và khai thác cơ hội ngành.",
+        "zh-Hans": "Hitem3D平台深度调研报告，包含功能分析、目标用户群体、SEO策略、市场定位、优劣势分析和行业机会挖掘。"
+      },
+      "date": "2025-08-17",
+      "author": "ERIC",
+      "tags": [
+        "AI 3D Modeling",
+        "Artificial Intelligence Tools",
+        "Hitem3D",
+        "3D Model Generator",
+        "AI Tools"
+      ],
+      "categories": [
+        "Review"
       ]
     },
     {
@@ -1472,12 +1700,14 @@
       "title": {
         "en": "MindVideo AI In-Depth Analysis Report: Comprehensive Review of Free AI Video Generation Platform and Market Opportunities in 2025",
         "ja": "MindVideo AI詳細分析レポート：2025年無料AI動画生成プラットフォームの包括的解析と市場機会の探索",
+        "vi": "Báo Cáo Phân Tích Chuyên Sâu MindVideo AI: Đánh Giá Toàn Diện Nền Tảng Tạo Video AI Miễn Phí và Cơ Hội Thị Trường Năm 2025",
         "zh-Hans": "MindVideo AI深度分析报告：2025年免费AI视频生成平台全面解析与市场机会探索",
         "zh-Hant": "MindVideo AI深度分析報告：2025年免費AI影片生成平台全面解析與市場機會探索"
       },
       "description": {
         "en": "Comprehensive research report on MindVideo AI platform covering functionality analysis, target user groups, SEO strategy, market positioning, pros and cons analysis, and industry opportunity exploration. Complete analysis of emerging platform development potential in AI video generation field.",
         "ja": "MindVideo AIプラットフォームの詳細調査レポート。機能分析、ターゲットユーザー群、SEO戦略、市場ポジショニング、長所・短所分析、業界機会の発掘を含む。AI動画生成分野における新興プラットフォームの発展可能性を全面的に解析。",
+        "vi": "Báo cáo nghiên cứu toàn diện về nền tảng MindVideo AI bao gồm phân tích chức năng, nhóm người dùng mục tiêu, chiến lược SEO, định vị thị trường, phân tích ưu nhược điểm và khám phá cơ hội ngành. Phân tích đầy đủ tiềm năng phát triển của nền tảng mới nổi trong lĩnh vực tạo video AI.",
         "zh-Hans": "MindVideo AI平台深度调研报告，包含功能分析、目标用户群体、SEO策略、市场定位、优劣势分析和行业机会挖掘。全面解析AI视频生成领域的新兴平台发展潜力。",
         "zh-Hant": "MindVideo AI平台深度調研報告，包含功能分析、目標用戶群體、SEO策略、市場定位、優劣勢分析和行業機會挖掘。全面解析AI影片生成領域的新興平台發展潛力。"
       },
@@ -1492,6 +1722,9 @@
         "Digital Marketing",
         "Creative Tools",
         "Free AI Tools"
+      ],
+      "categories": [
+        "Reviews"
       ]
     },
     {
@@ -1499,12 +1732,14 @@
       "title": {
         "en": "2025 AI Background Removal Technology Report: From Algorithm to Monetization",
         "ja": "2025年AI背景除去技術レポート：アルゴリズム原理からビジネス化まで",
+        "vi": "Báo Cáo Công Nghệ Xóa Nền AI 2025: Từ Thuật Toán Đến Kiếm Tiền",
         "zh-Hans": "2025年AI去背技术深度报告：从算法原理到商业变现",
         "zh-Hant": "2025年AI去背技術深度報告：從演算法原理到商業變現"
       },
       "description": {
         "en": "Comprehensive analysis of AI background removal technology progress, applications, and monetization paths for entrepreneurs.",
         "ja": "AI背景除去技術の最新進展、アプリケーションパターン、ビジネス化パスを包括的に分析し、起業家向け実践ガイドを提供。",
+        "vi": "Phân tích toàn diện về tiến bộ công nghệ xóa nền AI, các ứng dụng và con đường kiếm tiền cho doanh nhân.",
         "zh-Hans": "全面分析AI背景移除技术的最新进展、应用场景和商业化路径，为创业者提供实战指南。",
         "zh-Hant": "全面分析AI背景移除技術的最新進展、應用場景和商業化路徑，為創業者提供實戰指南。"
       },
@@ -1515,19 +1750,22 @@
         "Image Processing",
         "Business Monetization",
         "Startup Guide"
-      ]
+      ],
+      "categories": []
     },
     {
       "slug": "easemate-ai-research-report",
       "title": {
         "en": "EaseMate AI In-Depth Research Report: Comprehensive Analysis of All-in-One AI Assistant Platform 2025",
         "ja": "EaseMate AI詳細調査分析レポート：2025年オールインワンAIアシスタントプラットフォーム完全分析",
+        "vi": "Báo Cáo Nghiên Cứu Chuyên Sâu EaseMate AI: Phân Tích Toàn Diện Nền Tảng Trợ Lý AI Tất-Cả-Trong-Một 2025",
         "zh-Hans": "EaseMate AI深度调研拆解报告：2025年全方位AI助手平台完整分析",
         "zh-Hant": "EaseMate AI深度調研拆解報告：2025年全方位AI助手平台完整分析"
       },
       "description": {
         "en": "Complete research report on EaseMate AI platform, including feature analysis, target user profiling, SEO strategies, traffic performance, competitive advantages, and market opportunity analysis. Professional insights into this multi-AI-model integration free tool platform.",
         "ja": "EaseMate AIプラットフォームの完全調査レポート。機能分析、ターゲットユーザー像、SEO戦略、トラフィック性能、競争優位性、市場機会分析を含む。複数のAIモデルを統合した無料ツールプラットフォームの専門的解説。",
+        "vi": "Báo cáo nghiên cứu hoàn chỉnh về nền tảng EaseMate AI, bao gồm phân tích tính năng, chân dung người dùng mục tiêu, chiến lược SEO, hiệu suất lưu lượng truy cập, lợi thế cạnh tranh, và phân tích cơ hội thị trường. Những hiểu biết chuyên nghiệp về nền tảng công cụ miễn phí tích hợp đa mô hình AI này.",
         "zh-Hans": "EaseMate AI平台完整调研报告，包含功能分析、目标用户画像、SEO策略、流量表现、竞争优势及市场机会分析。专业解读这个集成多种AI模型的免费工具平台。",
         "zh-Hant": "EaseMate AI平台完整調研報告，包含功能分析、目標用戶畫像、SEO策略、流量表現、競爭優勢及市場機會分析。專業解讀這個集成多種AI模型的免費工具平台。"
       },
@@ -1542,19 +1780,22 @@
         "Product Analysis",
         "Market Research",
         "Competitive Analysis"
-      ]
+      ],
+      "categories": []
     },
     {
       "slug": "web-traffic-opportunities-2025",
       "title": {
         "en": "How to Systematically Mine Web Traffic Business Opportunities in 2025",
         "ja": "2025年にWebトラフィックのビジネスチャンスを体系的に発掘する方法",
+        "vi": "Cách Khai Thác Cơ Hội Kinh Doanh Từ Lưu Lượng Web Một Cách Có Hệ Thống Trong Năm 2025",
         "zh-Hans": "2025年如何系统性挖掘Web流量的商业机会",
         "zh-Hant": "2025年如何系統性挖掘Web流量的商業機會"
       },
       "description": {
         "en": "From channel mapping to product validation, systematically breaking down the path from traffic → users → revenue.",
         "ja": "チャネルマッピングからプロダクト検証まで、トラフィック→ユーザー→収益へのパスを体系的に解説。",
+        "vi": "Từ lập bản đồ kênh đến xác thực sản phẩm, phân tích có hệ thống con đường từ lưu lượng → người dùng → doanh thu.",
         "zh-Hans": "从渠道分析到产品验证，系统性拆解流量->用户->收入的路径。",
         "zh-Hant": "從渠道分析到產品驗證，系統性拆解流量->用戶->收入的路徑。"
       },
@@ -1564,19 +1805,22 @@
         "growth",
         "SEO",
         "traffic monetization"
-      ]
+      ],
+      "categories": []
     },
     {
       "slug": "seo-content-framework",
       "title": {
         "en": "Practical: A Reusable SEO Content Production Framework",
         "ja": "実践：再利用可能なSEOコンテンツ制作フレームワーク",
+        "vi": "Thực Hành: Một Khung Sản Xuất Nội Dung SEO Có Thể Tái Sử Dụng",
         "zh-Hans": "实战：一套可复用的SEO内容生产框架",
         "zh-Hant": "實戰：一套可復用的SEO內容生產框架"
       },
       "description": {
         "en": "Topic clusters, internal link topology, structured data, and review mechanisms.",
         "ja": "トピッククラスター、内部リンクトポロジー、構造化データ、レビューメカニズム。",
+        "vi": "Các cụm chủ đề, cấu trúc liên kết nội bộ, dữ liệu có cấu trúc, và cơ chế rà soát.",
         "zh-Hans": "Topic集群、内链拓扑、结构化数据与复盘机制。",
         "zh-Hant": "Topic集群、內鏈拓撲、結構化數據與復盤機制。"
       },
@@ -1585,7 +1829,8 @@
       "tags": [
         "SEO",
         "content strategy"
-      ]
+      ],
+      "categories": []
     }
   ]
 }

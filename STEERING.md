@@ -55,7 +55,8 @@ topdigg-web-miner/
 │   │   ├── zh-Hans/translation.json
 │   │   ├── zh-Hant/translation.json
 │   │   ├── en/translation.json
-│   │   └── ja/translation.json
+│   │   ├── ja/translation.json
+│   │   └── vi/translation.json
 │   ├── hooks/               # 自定义 React Hooks
 │   ├── i18n.ts             # i18next 配置
 │   └── main.tsx            # 应用入口
@@ -63,7 +64,8 @@ topdigg-web-miner/
 │   ├── zh-Hans/
 │   ├── zh-Hant/
 │   ├── en/
-│   └── ja/
+│   ├── ja/
+│   └── vi/
 ├── public/                 # 静态资源
 ├── scripts/
 │   └── build-blog.js      # 博客构建脚本
@@ -76,7 +78,7 @@ topdigg-web-miner/
 ### 1. 多语言系统 (i18n)
 ```typescript
 // 支持的语言
-type SupportedLocale = "zh-Hans" | "zh-Hant" | "en" | "ja";
+type SupportedLocale = "zh-Hans" | "zh-Hant" | "en" | "ja" | "vi";
 
 // 语言检测优先级：
 // 1. URL query parameter (?lang=)
@@ -88,6 +90,7 @@ type SupportedLocale = "zh-Hans" | "zh-Hant" | "en" | "ja";
 CN, SG -> zh-Hans
 TW, HK, MO -> zh-Hant  
 JP -> ja
+VN -> vi
 其他 -> en
 ```
 
@@ -95,7 +98,7 @@ JP -> ja
 **核心配置文件**: `src/config/site.ts`
 - **集中式配置**: 所有网站内容、导航、栏目数据集中管理
 - **类型安全**: 完整的 TypeScript 类型定义
-- **多语言支持**: 所有文本内容支持四种语言
+- **多语言支持**: 所有文本内容支持五种语言
 
 ```typescript
 // 主要数据类型

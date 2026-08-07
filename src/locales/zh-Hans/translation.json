@@ -46,12 +46,52 @@
       "avgRetweets": "平均转发数",
       "noAnalyses": "暂无分析报告",
       "noAnalysesDesc": "我们正在准备精彩的 Twitter 分析内容，敬请期待！"
+    },
+    "about": {
+      "title": "关于我们",
+      "seoDesc": "TopDigg 是一个内容聚合平台，追踪 Reddit、YouTube、Twitter 的热门趋势与商业机会。",
+      "h1": "关于我们",
+      "missionTitle": "我们的使命",
+      "missionDesc": "TopDigg 致力于帮助内容创作者、创业者和营销人员发现 Reddit、YouTube 和 Twitter 上的热门趋势与商业机会。我们通过数据驱动的方法，分析头部账号的内容策略，为用户提供可操作的洞察。",
+      "whatTitle": "我们做什么",
+      "item1Label": "Twitter 深度分析：",
+      "item1Desc": "解析头部账号的推文策略、爆款内容和增长模式。",
+      "item2Label": "Reddit 专栏：",
+      "item2Desc": "追踪 Reddit 社区的热门话题，发现新兴社区和商业机会。",
+      "item3Label": "YouTube 专栏：",
+      "item3Desc": "追踪 YouTube 头部频道的内容增长策略和视频营销打法。",
+      "connectTitle": "关注我们",
+      "contactTitle": "联系或投稿",
+      "contactDesc": "如果你有想让我们分析的 Twitter 账号、Reddit 社区，或想投稿，欢迎通过社交媒体联系我们。"
+    },
+    "contact": {
+      "title": "联系我们",
+      "seoDesc": "联系 TopDigg 团队，了解更多关于内容合作、分析投稿和商务合作的信息。",
+      "h1": "联系我们",
+      "intro": "我们目前主要通过社交媒体与读者互动。以下是我们活跃的平台：",
+      "businessTitle": "商务合作",
+      "businessDesc": "如有分析投稿、品牌合作或媒体采访需求，欢迎通过 Twitter DM 联系。我们通常在 1-2 个工作日内回复。"
+    },
+    "privacy": {
+      "title": "隐私政策",
+      "seoDesc": "TopDigg 隐私政策说明：我们如何收集、使用和保护您的信息。",
+      "h1": "隐私政策",
+      "lastUpdated": "最后更新：2026年7月",
+      "collectTitle": "我们收集什么信息",
+      "collectDesc": "TopDigg 是一个内容聚合平台，主要展示公开可获取的信息。我们不要求用户注册账号，也不主动收集个人信息。当您访问我们的网站时，我们可能会收集基本的浏览信息，如 IP 地址、浏览器类型和访问页面，这些信息仅用于网站分析和改进。",
+      "cookieTitle": "Cookie 使用",
+      "cookieDesc": "我们使用 Cookie 来记住您的语言偏好设置（如您选择的站点语言）。我们不使用跟踪性 Cookie 进行广告定位或跨网站追踪。",
+      "thirdTitle": "第三方链接",
+      "thirdDesc": "我们的网站包含指向上第三方网站（如 Twitter、YouTube、Reddit）的链接。我们对这些第三方网站的隐私行为不承担责任。",
+      "contactTitle": "联系我们",
+      "contactDesc": "如果您对我们的隐私政策有任何疑问，请通过 Twitter @topdigg 或 Reddit r/topdigg 与我们联系。"
     }
   },
   "languages": {
     "zh-Hans": "简体中文",
     "zh-Hant": "繁體中文", 
     "en": "English",
-    "ja": "日本語"
+    "ja": "日本語",
+    "vi": "Tiếng Việt"
   }
 }

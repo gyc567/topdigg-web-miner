@@ -42,6 +42,45 @@
       "avgRetweets": "平均轉發數",
       "noAnalyses": "暫無分析報告",
       "noAnalysesDesc": "我們正在準備精彩的 Twitter 分析內容，敬請期待！"
+    },
+    "about": {
+      "title": "關於我們",
+      "seoDesc": "TopDigg 是一個內容聚合平台，追蹤 Reddit、YouTube、Twitter 的熱門趨勢與商業機會。",
+      "h1": "關於我們",
+      "missionTitle": "我們的使命",
+      "missionDesc": "TopDigg 致力於幫助內容創作者、創業者和行銷人員發現 Reddit、YouTube 和 Twitter 上的熱門趨勢與商業機會。我們通過數據驅動的方法，分析頭部帳號的內容策略，為用戶提供可行動的洞察。",
+      "whatTitle": "我們做什麼",
+      "item1Label": "Twitter 深度分析：",
+      "item1Desc": "解析頭部帳號的推文策略、爆款內容和增長模式。",
+      "item2Label": "Reddit 專欄：",
+      "item2Desc": "追蹤 Reddit 社群的熱門話題，發現新興社群和商業機會。",
+      "item3Label": "YouTube 專欄：",
+      "item3Desc": "追蹤 YouTube 頭部頻道的內容增長策略和影片行銷打法。",
+      "connectTitle": "關注我們",
+      "contactTitle": "聯繫或投稿",
+      "contactDesc": "如果你有想讓我們分析的 Twitter 帳號、Reddit 社群，或想投稿，歡迎透過社交媒體聯繫我們。"
+    },
+    "contact": {
+      "title": "聯繫我們",
+      "seoDesc": "聯繫 TopDigg 團隊，瞭解更多關於內容合作、分析投稿和商務合作的信息。",
+      "h1": "聯繫我們",
+      "intro": "我們目前主要透過社交媒體與讀者互動。以下是我們活躍的平台：",
+      "businessTitle": "商務合作",
+      "businessDesc": "如有分析投稿、品牌合作或媒體採訪需求，歡迎透過 Twitter DM 聯繫。我們通常在 1-2 個工作日內回覆。"
+    },
+    "privacy": {
+      "title": "隱私政策",
+      "seoDesc": "TopDigg 隱私政策說明：我們如何收集、使用和保護您的資訊。",
+      "h1": "隱私政策",
+      "lastUpdated": "最後更新：2026年7月",
+      "collectTitle": "我們收集什麼資訊",
+      "collectDesc": "TopDigg 是一個內容聚合平台，主要展示公開可獲取的資訊。我們不要求用戶註冊帳號，也不主動收集個人資訊。當您存取我們的網站時，我們可能會收集基本的瀏覽資訊，如 IP 位址、瀏覽器類型和存取頁面，這些資訊僅用於網站分析和改進。",
+      "cookieTitle": "Cookie 使用",
+      "cookieDesc": "我們使用 Cookie 來記住您的語言偏好設定（如您選擇的站點語言）。我們不使用追蹤性 Cookie 進行廣告定位或跨網站追蹤。",
+      "thirdTitle": "第三方連結",
+      "thirdDesc": "我們的網站包含指向第三方網站（如 Twitter、YouTube、Reddit）的連結。我們對這些第三方網站的隱私行為不承擔責任。",
+      "contactTitle": "聯繫我們",
+      "contactDesc": "如果您對我們的隱私政策有任何疑問，請透過 Twitter @topdigg 或 Reddit r/topdigg 與我們聯繫。"
     }
   },
   "footer": {
@@ -52,6 +91,7 @@
     "zh-Hans": "简体中文",
     "zh-Hant": "繁體中文",
     "en": "English", 
-    "ja": "日本語"
+    "ja": "日本語",
+    "vi": "Tiếng Việt"
   }
 }

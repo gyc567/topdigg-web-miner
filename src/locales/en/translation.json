@@ -42,6 +42,45 @@
       "avgRetweets": "Avg Retweets",
       "noAnalyses": "No analysis reports yet",
       "noAnalysesDesc": "We are preparing exciting Twitter analysis content, stay tuned!"
+    },
+    "about": {
+      "title": "About Us",
+      "seoDesc": "TopDigg surfaces trending topics and business opportunities across Reddit, YouTube, and Twitter.",
+      "h1": "About TopDigg",
+      "missionTitle": "Our Mission",
+      "missionDesc": "TopDigg helps content creators, entrepreneurs, and marketers discover trending topics and business opportunities across Reddit, YouTube, and Twitter. We analyze top accounts' content strategies using data-driven methods to deliver actionable insights.",
+      "whatTitle": "What We Do",
+      "item1Label": "Twitter Deep Analysis:",
+      "item1Desc": "Analyze tweet strategies, viral content, and growth patterns of top accounts.",
+      "item2Label": "Reddit Column:",
+      "item2Desc": "Track trending topics in Reddit communities and spot emerging niches.",
+      "item3Label": "YouTube Column:",
+      "item3Desc": "Follow content growth strategies of top YouTube channels.",
+      "connectTitle": "Connect With Us",
+      "contactTitle": "Contact & Submissions",
+      "contactDesc": "If you have a Twitter account or Reddit community you'd like us to analyze, or want to contribute, reach out via social media."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "seoDesc": "Get in touch with the TopDigg team for content partnerships, analysis submissions, or business inquiries.",
+      "h1": "Contact Us",
+      "intro": "We're primarily active on social media. Here's where to reach us:",
+      "businessTitle": "Business Inquiries",
+      "businessDesc": "For analysis submissions, brand partnerships, or press inquiries, reach out via Twitter DM. We typically respond within 1-2 business days."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "seoDesc": "TopDigg Privacy Policy — how we collect, use, and protect your information.",
+      "h1": "Privacy Policy",
+      "lastUpdated": "Last updated: July 2026",
+      "collectTitle": "What Information We Collect",
+      "collectDesc": "TopDigg is a content aggregation platform that surfaces publicly available information. We do not require user registration or actively collect personal information. When you visit our site, we may collect basic browsing information such as IP address, browser type, and pages visited, used solely for site analytics and improvement.",
+      "cookieTitle": "Cookie Usage",
+      "cookieDesc": "We use cookies to remember your language preference setting. We do not use tracking cookies for ad targeting or cross-site tracking.",
+      "thirdTitle": "Third-Party Links",
+      "thirdDesc": "Our site contains links to third-party websites such as Twitter, YouTube, and Reddit. We are not responsible for the privacy practices of these third-party sites.",
+      "contactTitle": "Contact Us",
+      "contactDesc": "If you have any questions about this Privacy Policy, please reach out via Twitter @topdigg or Reddit r/topdigg."
     }
   },
   "footer": {
@@ -50,8 +89,9 @@
   },
   "languages": {
     "zh-Hans": "简体中文",
-    "zh-Hant": "T繁體中文",
+    "zh-Hant": "繁體中文",
     "en": "English",
-    "ja": "日本語"
+    "ja": "日本語",
+    "vi": "Tiếng Việt"
   }
 }

@@ -5,6 +5,7 @@ import zhHans from "./locales/zh-Hans/translation.json";
 import zhHant from "./locales/zh-Hant/translation.json";
 import en from "./locales/en/translation.json";
 import ja from "./locales/ja/translation.json";
+import vi from "./locales/vi/translation.json";
 import { defaultLocale } from "./lib/locale";
 
 void i18n
@@ -16,8 +17,9 @@ void i18n
       "zh-Hant": { translation: zhHant },
       en: { translation: en },
       ja: { translation: ja },
+      vi: { translation: vi },
     },
-    fallbackLng: defaultLocale,
+    fallbackLng: ["en", defaultLocale],
     interpolation: { escapeValue: false },
     detection: {
       order: ["querystring", "localStorage", "navigator"],

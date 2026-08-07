@@ -4,7 +4,7 @@
 
 ## Active Plans
 
-<!-- 进行中的计划在此登记，完工后删除文件并移除条目 -->
+- [增加越南语（vi）支持](plans/add-vietnamese-locale.md)
 
 ## Completed Plans
 
@@ -12,4 +12,4 @@ _计划文件完工后删除，仅靠 git commit log 留档（不在本文件长
 
 ---
 
-_Last updated: 2026-08-04_
+_Last updated: 2026-08-07_

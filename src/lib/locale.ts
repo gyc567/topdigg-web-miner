@@ -1,10 +1,11 @@
-export type SupportedLocale = "zh-Hans" | "zh-Hant" | "en" | "ja";
+export type SupportedLocale = "zh-Hans" | "zh-Hant" | "en" | "ja" | "vi";
 
 export const supportedLocales: SupportedLocale[] = [
   "zh-Hans",
   "zh-Hant",
   "en",
   "ja",
+  "vi",
 ];
 
 export const defaultLocale: SupportedLocale = "zh-Hans";
@@ -14,6 +15,7 @@ export const ogLocaleMap: Record<SupportedLocale, string> = {
   "zh-Hant": "zh_TW",
   en: "en_US",
   ja: "ja_JP",
+  vi: "vi_VN",
 };
 
 export const htmlLangMap: Record<SupportedLocale, string> = {
@@ -21,6 +23,7 @@ export const htmlLangMap: Record<SupportedLocale, string> = {
   "zh-Hant": "zh-Hant",
   en: "en",
   ja: "ja",
+  vi: "vi",
 };
 
 export const countryToLocale = (countryCode?: string): SupportedLocale => {
@@ -28,6 +31,7 @@ export const countryToLocale = (countryCode?: string): SupportedLocale => {
   if (["CN", "SG"].includes(cc)) return "zh-Hans";
   if (["TW", "HK", "MO"].includes(cc)) return "zh-Hant";
   if (cc === "JP") return "ja";
+  if (cc === "VN") return "vi";
   return "en";
 };
 
@@ -37,6 +41,7 @@ export const normalizeLang = (lang?: string): SupportedLocale => {
   if (l.startsWith("zh-hant") || l === "zh-tw" || l === "zh-hk") return "zh-Hant";
   if (l.startsWith("zh") || l === "zh-cn" || l === "zh-sg") return "zh-Hans";
   if (l.startsWith("ja")) return "ja";
+  if (l.startsWith("vi")) return "vi";
   return "en";
 };
 
@@ -46,8 +51,8 @@ export const localizeText = (value: I18nText, lang: SupportedLocale): string => 
   if (typeof value === "string") return value;
   return (
     value[lang] ||
-    value[defaultLocale] ||
     value.en ||
+    value[defaultLocale] ||
     Object.values(value).find(Boolean) ||
     ""
   );

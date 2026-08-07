@@ -1,0 +1,97 @@
+{
+  "common": {
+    "viewAll": "Xem tất cả →",
+    "visit": "Truy cập →"
+  },
+  "home": {
+    "seoTitle": "Khám phá cơ hội lưu lượng web và kinh doanh",
+    "seoDesc": "TopDigg tập trung vào SEO và tăng trưởng, cung cấp nội dung blog chất lượng cao và các chuyên mục về Reddit, YouTube, Twitter.",
+    "heroTitle": "Tận dụng nội dung và dữ liệu để tìm kiếm cơ hội lưu lượng web một cách có hệ thống",
+    "heroDesc": "Tập trung vào SEO, tăng trưởng kênh và xác thực sản phẩm. Ba chuyên mục: Reddit, YouTube, Twitter — theo dõi nhà sáng tạo và xu hướng.",
+    "blogCta": "Đọc blog",
+    "columnsCta": "Khám phá chuyên mục",
+    "latest": "Bài viết mới nhất"
+  },
+  "blog": {
+    "indexTitle": "Blog",
+    "indexDesc": "Nội dung chất lượng cao giúp bạn biến lưu lượng truy cập thành doanh thu."
+  },
+  "post": {
+    "notFoundTitle": "Không tìm thấy",
+    "notFoundDesc": "Không tìm thấy bài viết",
+    "notFoundMsg": "Bài viết không tồn tại."
+  },
+  "column": {
+    "notFoundTitle": "Không tìm thấy",
+    "notFoundDesc": "Không tìm thấy chuyên mục"
+  },
+  "notFound": {
+    "pageTitle": "Không tìm thấy trang",
+    "pageDesc": "Trang bạn truy cập không tồn tại",
+    "oops": "Ôi! Không tìm thấy trang",
+    "backHome": "Về trang chủ"
+  },
+  "pages": {
+    "twitter": {
+      "title": "Phân tích chuyên sâu Twitter",
+      "subtitle": "Phân tích sâu chiến lược nội dung của các tài khoản Twitter bằng phương pháp dựa trên dữ liệu, xác định yếu tố tạo nên tweet lan truyền và cung cấp hướng dẫn tăng trưởng khả thi.",
+      "description": "Phân tích sâu các tài khoản Twitter, giải mã yếu tố tweet lan truyền và đề xuất chiến lược tăng trưởng.",
+      "engagementRate": "Tỷ lệ tương tác",
+      "totalTweets": "Tweet đã phân tích",
+      "avgLikes": "Lượt thích trung bình",
+      "avgRetweets": "Retweet trung bình",
+      "noAnalyses": "Chưa có báo cáo phân tích nào",
+      "noAnalysesDesc": "Chúng tôi đang chuẩn bị nội dung phân tích Twitter hấp dẫn, hãy chờ đón nhé!"
+    },
+    "about": {
+      "title": "Về chúng tôi",
+      "seoDesc": "TopDigg là nền tảng tổng hợp nội dung, theo dõi xu hướng và cơ hội kinh doanh trên Reddit, YouTube, Twitter.",
+      "h1": "Về TopDigg",
+      "missionTitle": "Sứ mệnh của chúng tôi",
+      "missionDesc": "TopDigg giúp nhà sáng tạo nội dung, doanh nhân và nhà tiếp thị khám phá xu hướng và cơ hội kinh doanh trên Reddit, YouTube và Twitter. Chúng tôi phân tích chiến lược nội dung của các tài khoản hàng đầu bằng phương pháp dựa trên dữ liệu để mang lại những hiểu biết khả thi.",
+      "whatTitle": "Chúng tôi làm gì",
+      "item1Label": "Phân tích chuyên sâu Twitter:",
+      "item1Desc": "Phân tích chiến lược tweet, nội dung lan truyền và mô hình tăng trưởng của các tài khoản hàng đầu.",
+      "item2Label": "Chuyên mục Reddit:",
+      "item2Desc": "Theo dõi chủ đề nổi bật trong cộng đồng Reddit và phát hiện cộng đồng mới nổi cùng cơ hội kinh doanh.",
+      "item3Label": "Chuyên mục YouTube:",
+      "item3Desc": "Theo dõi chiến lược tăng trưởng nội dung của các kênh YouTube hàng đầu.",
+      "connectTitle": "Kết nối với chúng tôi",
+      "contactTitle": "Liên hệ & Đóng góp",
+      "contactDesc": "Nếu bạn có tài khoản Twitter hoặc cộng đồng Reddit muốn chúng tôi phân tích, hoặc muốn đóng góp nội dung, hãy liên hệ qua mạng xã hội."
+    },
+    "contact": {
+      "title": "Liên hệ với chúng tôi",
+      "seoDesc": "Liên hệ với đội ngũ TopDigg về hợp tác nội dung, đóng góp phân tích hoặc hợp tác kinh doanh.",
+      "h1": "Liên hệ với chúng tôi",
+      "intro": "Chúng tôi chủ yếu tương tác với độc giả qua mạng xã hội. Dưới đây là nơi bạn có thể tìm thấy chúng tôi:",
+      "businessTitle": "Hợp tác kinh doanh",
+      "businessDesc": "Đối với yêu cầu đóng góp phân tích, hợp tác thương hiệu hoặc phỏng vấn báo chí, hãy liên hệ qua Twitter DM. Chúng tôi thường phản hồi trong vòng 1-2 ngày làm việc."
+    },
+    "privacy": {
+      "title": "Chính sách quyền riêng tư",
+      "seoDesc": "Chính sách quyền riêng tư của TopDigg — cách chúng tôi thu thập, sử dụng và bảo vệ thông tin của bạn.",
+      "h1": "Chính sách quyền riêng tư",
+      "lastUpdated": "Cập nhật lần cuối: tháng 7 năm 2026",
+      "collectTitle": "Thông tin chúng tôi thu thập",
+      "collectDesc": "TopDigg là nền tảng tổng hợp nội dung hiển thị thông tin công khai. Chúng tôi không yêu cầu đăng ký tài khoản và không chủ động thu thập thông tin cá nhân. Khi bạn truy cập trang web, chúng tôi có thể thu thập thông tin duyệt web cơ bản như địa chỉ IP, loại trình duyệt và trang đã truy cập, chỉ dùng cho phân tích và cải thiện trang web.",
+      "cookieTitle": "Sử dụng Cookie",
+      "cookieDesc": "Chúng tôi sử dụng cookie để ghi nhớ tùy chọn ngôn ngữ của bạn. Chúng tôi không sử dụng cookie theo dõi để nhắm mục tiêu quảng cáo hoặc theo dõi xuyên trang web.",
+      "thirdTitle": "Liên kết bên thứ ba",
+      "thirdDesc": "Trang web của chúng tôi chứa liên kết đến các trang web bên thứ ba như Twitter, YouTube và Reddit. Chúng tôi không chịu trách nhiệm về hoạt động bảo mật của các trang web bên thứ ba này.",
+      "contactTitle": "Liên hệ với chúng tôi",
+      "contactDesc": "Nếu bạn có bất kỳ câu hỏi nào về chính sách quyền riêng tư này, hãy liên hệ qua Twitter @topdigg hoặc Reddit r/topdigg."
+    }
+  },
+  "footer": {
+    "rights": "© {{year}} {{siteName}}. Bảo lưu mọi quyền.",
+    "builtBy": "Được xây dựng bởi {{siteName}} — Tập trung vào lưu lượng web và cơ hội kinh doanh."
+  },
+  "languages": {
+    "zh-Hans": "简体中文",
+    "zh-Hant": "繁體中文",
+    "en": "English",
+    "ja": "日本語",
+    "vi": "Tiếng Việt"
+  }
+}

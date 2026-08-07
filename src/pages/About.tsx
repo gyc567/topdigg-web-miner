@@ -1,80 +1,52 @@
 import { SEO } from "@/components/SEO";
 import { useTranslation } from "react-i18next";
-import { normalizeLang } from "@/lib/locale";
 
 const About = () => {
-  const { t, i18n } = useTranslation();
-  const lang = normalizeLang(i18n.language);
+  const { t } = useTranslation();
 
   return (
     <>
-      <SEO
-        title={lang === "zh-Hans" ? "关于我们" : lang === "zh-Hant" ? "關於我們" : lang === "ja" ? "私たちについて" : "About Us"}
-        description={lang === "zh-Hans"
-          ? "TopDigg 是一个内容聚合平台，追踪 Reddit、YouTube、Twitter 的热门趋势与商业机会。"
-          : lang === "zh-Hant"
-          ? "TopDigg 是一個內容聚合平台，追蹤 Reddit、YouTube、Twitter 的熱門趨勢與商業機會。"
-          : lang === "ja"
-          ? "TopDiggはReddit、YouTube、Twitterのトレンドとビジネスチャンスを発掘するコンテンツプラットフォームです。"
-          : "TopDigg surfaces trending topics and business opportunities across Reddit, YouTube, and Twitter."}
-        path="/about"
-      />
+      <SEO title={t("pages.about.title")} description={t("pages.about.seoDesc")} path="/about" />
 
       <article className="max-w-3xl mx-auto py-12 space-y-10">
         <header>
-          <h1 className="text-4xl font-bold mb-4">
-            {lang === "zh-Hans" ? "关于我们" : lang === "zh-Hant" ? "關於我們" : lang === "ja" ? "私たちについて" : "About TopDigg"}
-          </h1>
+          <h1 className="text-4xl font-bold mb-4">{t("pages.about.h1")}</h1>
         </header>
 
         <section>
-          <h2 className="text-2xl font-semibold mb-3">
-            {lang === "zh-Hans" ? "我们的使命" : lang === "zh-Hant" ? "我們的使命" : lang === "ja" ? "私たちの使命" : "Our Mission"}
-          </h2>
-          <p className="text-muted-foreground leading-relaxed">
-            {lang === "zh-Hans"
-              ? "TopDigg 致力于帮助内容创作者、创业者和营销人员发现 Reddit、YouTube 和 Twitter 上的热门趋势与商业机会。我们通过数据驱动的方法，分析头部账号的内容策略，为用户提供可操作的洞察。"
-              : lang === "zh-Hant"
-              ? "TopDigg 致力於幫助內容創作者、創業者和行銷人員發現 Reddit、YouTube 和 Twitter 上的熱門趨勢與商業機會。我們通過數據驅動的方法，分析頭部帳號的內容策略，為用戶提供可行動的洞察。"
-              : lang === "ja"
-              ? "TopDiggは、コンテンツクリエイター、起業家、マーケティング担当者がReddit、YouTube、Twitterでトレンドとビジネスチャンスを発見するのを支援します。"
-              : "TopDigg helps content creators, entrepreneurs, and marketers discover trending topics and business opportunities across Reddit, YouTube, and Twitter. We analyze top accounts' content strategies using data-driven methods to deliver actionable insights."}
-          </p>
+          <h2 className="text-2xl font-semibold mb-3">{t("pages.about.missionTitle")}</h2>
+          <p className="text-muted-foreground leading-relaxed">{t("pages.about.missionDesc")}</p>
         </section>
 
         <section>
-          <h2 className="text-2xl font-semibold mb-3">
-            {lang === "zh-Hans" ? "我们做什么" : lang === "zh-Hant" ? "我們做什麼" : lang === "ja" ? "何をしているか" : "What We Do"}
-          </h2>
+          <h2 className="text-2xl font-semibold mb-3">{t("pages.about.whatTitle")}</h2>
           <ul className="space-y-3 text-muted-foreground">
             <li className="flex gap-3">
               <span className="font-bold text-brand">01.</span>
               <span>
-                <strong className="text-foreground">Twitter 深度分析：</strong>
-                {lang === "zh-Hans" ? "解析头部账号的推文策略、爆款内容和增长模式。" : lang === "zh-Hant" ? "解析頭部帳號的推文策略、爆款內容和增長模式。" : lang === "ja" ? "人気アカウントのTweet戦略と成長パターンを分析。" : "Analyze tweet strategies, viral content, and growth patterns of top accounts."}
+                <strong className="text-foreground">{t("pages.about.item1Label")}</strong>
+                {t("pages.about.item1Desc")}
               </span>
             </li>
             <li className="flex gap-3">
               <span className="font-bold text-brand">02.</span>
               <span>
-                <strong className="text-foreground">Reddit 专栏：</strong>
-                {lang === "zh-Hans" ? "追踪 Reddit 社区的热门话题，发现新兴社区和商业机会。" : lang === "zh-Hant" ? "追蹤 Reddit 社群的熱門話題，發現新興社群和商業機會。" : lang === "ja" ? "Redditコミュニティのトレンドを追跡し、新しいコミュニティとビジネスチャンスを発見。" : "Track trending topics in Reddit communities and spot emerging niches."}
+                <strong className="text-foreground">{t("pages.about.item2Label")}</strong>
+                {t("pages.about.item2Desc")}
               </span>
             </li>
             <li className="flex gap-3">
               <span className="font-bold text-brand">03.</span>
               <span>
-                <strong className="text-foreground">YouTube 专栏：</strong>
-                {lang === "zh-Hans" ? "追踪 YouTube 头部频道的内容增长策略和视频营销打法。" : lang === "zh-Hant" ? "追蹤 YouTube 頭部頻道的內容增長策略和影片行銷打法。" : lang === "ja" ? "YouTube人気チャンネルのコンテンツ成長戦略を追跡。" : "Follow content growth strategies of top YouTube channels."}
+                <strong className="text-foreground">{t("pages.about.item3Label")}</strong>
+                {t("pages.about.item3Desc")}
               </span>
             </li>
           </ul>
         </section>
 
         <section>
-          <h2 className="text-2xl font-semibold mb-3">
-            {lang === "zh-Hans" ? "关注我们" : lang === "zh-Hant" ? "關注我們" : lang === "ja" ? "フォローする" : "Connect With Us"}
-          </h2>
+          <h2 className="text-2xl font-semibold mb-3">{t("pages.about.connectTitle")}</h2>
           <div className="flex flex-wrap gap-4">
             <a
               href="https://twitter.com/topdigg"
@@ -98,18 +70,8 @@ const About = () => {
         </section>
 
         <section>
-          <h2 className="text-2xl font-semibold mb-3">
-            {lang === "zh-Hans" ? "联系或投稿" : lang === "zh-Hant" ? "聯繫或投稿" : lang === "ja" ? "連絡先・寄稿" : "Contact & Submissions"}
-          </h2>
-          <p className="text-muted-foreground">
-            {lang === "zh-Hans"
-              ? "如果你有想让我们分析的 Twitter 账号、Reddit 社区，或想投稿，欢迎通过社交媒体联系我们。"
-              : lang === "zh-Hant"
-              ? "如果你有想讓我們分析的 Twitter 帳號、Reddit 社群，或想投稿，歡迎透過社交媒體聯繫我們。"
-              : lang === "ja"
-              ? "分析してほしいTwitterアカウントやRedditコミュニティ、または寄稿したい場合は、お問い合わせください。"
-              : "If you have a Twitter account or Reddit community you'd like us to analyze, or want to contribute, reach out via social media."}
-          </p>
+          <h2 className="text-2xl font-semibold mb-3">{t("pages.about.contactTitle")}</h2>
+          <p className="text-muted-foreground">{t("pages.about.contactDesc")}</p>
         </section>
       </article>
     </>

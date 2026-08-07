@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-06T14:57:22.176Z
+Generated: 2026-08-07T07:00:31.269Z
 
 ## Site Overview
 
@@ -21,65 +21,65 @@ We cover trending topics and business opportunities across Reddit, YouTube, and 
 
 ## Latest Blog Posts (10 most recent)
 
+### Cloudflare's Agent Access Model Deep Dive: Never Trust the Run — Narrowing Zero Trust from the Network Boundary to a Single Action
+URL: https://topdigg.com/blog/cloudflare-agent-access-model-analysis | Date: 2026-08-06 | Author: TopDigg Research Team
+Tags: Agent Access Model, AAM, Cloudflare, Zero Trust, AI Agent, Access Control, Trust Ratchet, MCP, BeyondCorp, Agent Security, Least Privilege, Zero Trust
+
+A complete analysis of Cloudflare's official blog paper 'The Agent Access Model' (by Matt Silverlock, 2026-08-05) — an access-control model built for AI agents. Core idea: Never Trust the Run. BeyondCorp removed implicit trust in the network; AAM removes implicit trust in the task execution graph. A
+
+### Loop Engineering Deep Dive (Addy Osmani's Original): Stop Prompting AI Turn-by-Turn — Design a Loop That Finds Work, Hands It Out, and Verifies Results, Then Stay the Engineer
+URL: https://topdigg.com/blog/loop-engineering-addy-osmani | Date: 2026-08-06 | Author: TopDigg Research Team
+Tags: Loop Engineering, Addy Osmani, AI Agent, Claude Code, Codex, Automations, Worktrees, Skills, Sub-agents, MCP, Harness Engineering, Cognitive Surrender
+
+A complete analysis of Addy Osmani's original blog post 'Loop Engineering' (2026-06-07) by the Google Cloud AI engineering director and former Chrome team member. Core idea: loop engineering is replacing yourself as the person who prompts the agent — a loop is a recursive goal where you define a pur
+
+### The Art of Loop Engineering Deep Dive (Official LangChain): Four Stacked Loops — From the Agent Loop to the Verification, Event-Driven, and Hill-Climbing Loops, with the LangChain Primitive for Each Layer
+URL: https://topdigg.com/blog/loop-engineering-langchain | Date: 2026-08-06 | Author: TopDigg Research Team
+Tags: Loop Engineering, LangChain, LangSmith, AI Agent, loopcraft, swyx, create_agent, RubricMiddleware, LLM-as-Judge, Deep Agents, LangGraph, Fleet, Satya Nadella
+
+A complete analysis of LangChain's official blog post 'The Art of Loop Engineering' (Sydney Runkle, 2026-06-16, 7 min read). Core idea: the core agent algorithm is itself a loop — give the LLM context and let it call tools in a loop until it's done. But it's far from the only loop that powers agents
+
+### Loop Engineering Orange Book Deep Dive: Stop Asking Me What It Is — From Prompter to System Designer
+URL: https://topdigg.com/blog/loop-engineering-orange-book | Date: 2026-08-06 | Author: TopDigg Research Team
+Tags: Loop Engineering, Orange Book, AI Agent, Harness, Claude Code, Codex, MCP, HuaShu, Automation
+
+A complete analysis of the Loop Engineering Orange Book (v260615, MIT) by HuaShu (花叔) — a free open-source PDF book that explains loop engineering in plain language. Core idea: stop being the person who prompts the agent — design the system that prompts it for you. Covers the prompt→context→harness→
+
+### Loop Engineering Deep Dive (Cobus Greyling's Original): Stop Prompting Agents — Design the Loop That Discovers Work, Assigns Tasks, and Verifies Results
+URL: https://topdigg.com/blog/loop-engineering-substack-analysis | Date: 2026-08-06 | Author: TopDigg Research Team
+Tags: Loop Engineering, Cobus Greyling, AI Agent, Substack, Harness Engineering, Context Engineering, Claude Code, Grok, Codex, MCP, Worktrees, Skills, Automation
+
+A complete analysis of Cobus Greyling's original Substack post 'Loop Engineering' (2026-06-09). Core idea: the shift from prompting coding agents turn-by-turn to designing a system (the loop) that discovers work, hands tasks to (sub-)agents, verifies results, persists state, and decides the next act
+
 ### RTK (Rust Token Killer) Deep Dive: A Single Rust Binary CLI Proxy That Cuts Up to 90% of the Bash Output Your Agent Reads — From the Four Compression Strategies and Auto-Rewrite Hook to the 64-Module Architecture
 URL: https://topdigg.com/blog/rtk-rust-token-killer | Date: 2026-08-06 | Author: TopDigg Research Team
 Tags: RTK, Rust, Token Optimization, LLM, CLI, AI Agent, Claude Code, Token Killer, Developer Tools, SQLite, Proxy, Open Source
 
 A complete analysis of the viral open-source project rtk-ai/rtk (75k+ stars, Rust, Apache-2.0, default branch develop) — an 'LLM-context-aware CLI proxy'. Core idea: RTK intercepts shell commands and filters, groups, truncates, and deduplicates output before it reaches the LLM context — 'it cuts bas
 
-### The Art of Loop Engineering Deep Dive (Official LangChain): Four Stacked Loops — From the Agent Loop to the Verification, Event-Driven, and Hill-Climbing Loops, with the LangChain Primitive for Each Layer
-URL: https://topdigg.com/blog/loop-engineering-langchain | Date: 2026-08-06 | Author: TopDigg Research Team
-Tags: Loop Engineering, LangChain, LangSmith, AI Agent, loopcraft, swyx, create_agent, RubricMiddleware, LLM-as-Judge, Deep Agents, LangGraph, Fleet, Satya Nadella
-
-A complete analysis of LangChain's official blog post 'The Art of Loop Engineering' (Sydney Runkle, 2026-06-16). Core idea: the core agent algorithm is itself a loop — give the LLM context and let it call tools until done — but it's far from the only loop. Borrowing swyx's loopcraft, LangChain propo
-
-### Loop Engineering Deep Dive (Addy Osmani's Original): Stop Prompting AI Turn-by-Turn — Design a Loop That Finds Work, Hands It Out, and Verifies Results, Then Stay the Engineer
-URL: https://topdigg.com/blog/loop-engineering-addy-osmani | Date: 2026-08-06 | Author: TopDigg Research Team
-Tags: Loop Engineering, Addy Osmani, AI Agent, Claude Code, Codex, Automations, Worktrees, Skills, Sub-agents, MCP, Harness Engineering, Cognitive Surrender
-
-A complete analysis of Addy Osmani's original blog post 'Loop Engineering' (2026-06-07). Core idea: loop engineering is replacing yourself as the person who prompts the agent — a loop is a recursive goal where you define a purpose and the AI iterates until complete. Opens with Peter Steinberger ('de
-
-### Loop Engineering Deep Dive (Cobus Greyling's Original): Stop Prompting Agents — Design the Loop That Discovers Work, Assigns Tasks, and Verifies Results
-URL: https://topdigg.com/blog/loop-engineering-substack-analysis | Date: 2026-08-06 | Author: TopDigg Research Team
-Tags: Loop Engineering, Cobus Greyling, AI Agent, Harness Engineering, Context Engineering, Claude Code, Grok, Codex, MCP
-
-A complete analysis of Cobus Greyling's original Substack post 'Loop Engineering' (2026-06-09). Core idea: the shift from prompting coding agents turn-by-turn to designing a system (the loop) that discovers work, hands tasks to (sub-)agents, verifies results, persists state, and decides the next act
-
-### Loop Engineering Orange Book Deep Dive: Stop Asking Me What It Is — From Prompter to System Designer
-URL: https://topdigg.com/blog/loop-engineering-orange-book | Date: 2026-08-06 | Author: TopDigg Research Team
-Tags: Loop Engineering, Orange Book, AI Agent, Harness, Claude Code, Codex, MCP, HuaShu, Automation
-
-A complete analysis of the Loop Engineering Orange Book (v260615, MIT) by HuaShu (花叔) — a free open-source PDF book explaining loop engineering in plain language. Core idea: stop being the person who prompts the agent — design the system that prompts it for you. Covers the prompt→context→harness→loo
-
 ### OpenAI Evals Deep Dive: The 19K Star LLM Evaluation Framework — Build Quality Benchmarks Without Writing Code
 URL: https://topdigg.com/blog/openai-evals-analysis | Date: 2026-08-05 | Author: TopDigg Research Team
 Tags: OpenAI, Evals, LLM, Evaluation, Benchmark, Python, GPT, Testing, AI
 
-Complete analysis of OpenAI Evals — OpenAI official LLM evaluation framework, 19,105 Stars. Core idea: building high-quality evaluations is the most impactful thing you can do. Two eval paradigms: basic (Match/Includes/FuzzyMatch/JsonMatch) and model-graded (fact/closedqa/battle). YAML config only, 
+Complete analysis of OpenAI Evals — OpenAI's official LLM evaluation framework, 19,105 Stars, 3,047 Forks. Core idea: building high-quality evaluations is the most impactful thing you can do in LLM application development. Supports two evaluation paradigms: basic evals (Match/Includes/FuzzyMatch/Jso
 
-### Loop Engineering Practical Guide: How to Build AI Agent Loops That Self-Improve
-URL: https://topdigg.com/blog/loop-engineering-practical-guide | Date: 2026-08-04 | Author: TopDigg Research Team
-Tags: Loop Engineering, AI Agent, Automation, Claude Code, Codex, MCP, Subagents, DevTools, Prompt Engineering
+### AutoHarness Deep Dive: How "Small Model + Harness" Beats "Large Model" — an Open-Source Rust Library That Automatically Synthesizes Code Harnesses for LLM Agents
+URL: https://topdigg.com/blog/autoharness-analysis | Date: 2026-08-04 | Author: TopDigg Research Team
+Tags: AutoHarness, LLM Agents, Code Harness, Tree Search, Thompson Sampling, Rust, AI Safety, TextArena, LLM, Sandbox
 
-Deep analysis of @elune0x viral X post (373K views) on Loop Engineering. Core idea: you don't need to prompt AI anymore. Design the system that prompts AI automatically. 4 loop types, 5 core components, model routing 60-80% cost reduction, full hands-on tutorial.
+A complete analysis of AutoHarness by gyc567 — a Rust library and CLI tool that automatically synthesizes and optimizes code harnesses for LLM agents, implementing the approach from the AutoHarness paper (arXiv:2603.03329). Using tree search with Thompson sampling to iteratively refine harness code,
 
-### Loop Engineering Deep Dive: Stop Prompting — Design the Loop That Runs Your AI Agent Autonomously
-URL: https://topdigg.com/blog/loop-engineering-analysis | Date: 2026-08-04 | Author: TopDigg Research Team
-Tags: Loop Engineering, AI Agent, Automation, Grok, Claude Code, Codex, MCP, DevTools, Prompt Engineering
+### DwarfStar (ds4) Deep Dive: How antirez (Redis Creator) Built a Native LLM Inference Engine — a Vertically Integrated Solution for DeepSeek V4 Flash
+URL: https://topdigg.com/blog/ds4-analysis | Date: 2026-08-04 | Author: TopDigg Research Team
+Tags: DwarfStar, ds4, antirez, DeepSeek V4, LLM Inference, Metal, CUDA, ROCm, Local LLM, Salvatore Sanfilippo
 
-A complete analysis of Loop Engineering — Cobus Greyling AI agent loop engineering framework. Core idea: you don't need to prompt AI anymore. Design a system that prompts AI automatically. 5 building blocks + Memory/State, 7 production patterns, progressive autonomy L1-L3, full tool ecosystem.
+A complete analysis of DwarfStar (ds4) by antirez (Salvatore Sanfilippo, Redis creator) — a small native inference engine purpose-built for DeepSeek V4 Flash/PRO and GLM 5.2. In ~65,000 lines of C it delivers Metal/CUDA/ROCm backends, SSD streaming, pipeline parallelism, DSpark speculative decoding,
 
 ### GOAL.md Deep Dive: A Minimal Framework for Autonomous AI Code Improvement — Just Give It a Number
 URL: https://topdigg.com/blog/goalmd-tutorial-analysis | Date: 2026-08-04 | Author: TopDigg Research Team
 Tags: GOAL.md, AutoHarness, AI Agent, Fitness Function, Code Quality, Autonomous Improvement, Rust, LLM
 
-A complete analysis of GOAL.md — a file format from AutoHarness that lets AI agents autonomously improve code. The core idea: write a scoring script that outputs a number, write a GOAL.md file, and let the agent figure out how to make the score go up.
-
-### sentrux Deep Dive: The AI Agent Architecture Sensor — Closing the Feedback Loop for Recursive Self-Improvement of Code Quality
-URL: https://topdigg.com/blog/sentrux-analysis | Date: 2026-08-04 | Author: TopDigg Research Team
-Tags: sentrux, AI Agent, Code Quality, Architecture, Rust, Static Analysis, MCP, Tree-sitter, DevTools
-
-A complete analysis of sentrux — a real-time architectural sensor that helps AI agents close the feedback loop, enabling recursive self-improvement of code quality. Pure Rust single binary, zero runtime dependencies, 52 languages via tree-sitter plugins. Live treemap visualization, 5 root cause metr
+A complete analysis of GOAL.md — a file format from AutoHarness that lets AI agents autonomously improve code. The core idea is deceptively simple: write a scoring script that outputs a number (Fitness Function), write a GOAL.md file defining goals and an action catalog, then let the agent figure ou
 
 ## Twitter Analysis Reports
 
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 57 blog posts | 4 Twitter analyses
+End of llms.txt | 58 blog posts | 4 Twitter analyses

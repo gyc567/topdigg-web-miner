@@ -1,6 +1,6 @@
 import { describe, it, expect, vi } from "vitest";
 import { render } from "@testing-library/react";
-import { SEO } from "../SEO";
+import { SEO } from "./SEO";
 import * as reactI18next from "react-i18next";
 
 vi.mock("react-i18next", async () => {
@@ -30,7 +30,7 @@ describe("SEO", () => {
     render(<SEO title="Test" description="Desc" path="/test" />);
 
     const alternates = document.querySelectorAll('link[rel="alternate"]');
-    expect(alternates.length).toBe(5); // 4 locales + x-default
+    expect(alternates.length).toBe(6); // 5 locales + x-default
   });
 
   it("adds noindex meta when requested", () => {

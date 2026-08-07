@@ -1,42 +1,20 @@
 import { SEO } from "@/components/SEO";
 import { useTranslation } from "react-i18next";
-import { normalizeLang } from "@/lib/locale";
 
 const Contact = () => {
-  const { t, i18n } = useTranslation();
-  const lang = normalizeLang(i18n.language);
+  const { t } = useTranslation();
 
   return (
     <>
-      <SEO
-        title={lang === "zh-Hans" ? "联系我们" : lang === "zh-Hant" ? "聯繫我們" : lang === "ja" ? "お問い合わせ" : "Contact Us"}
-        description={lang === "zh-Hans"
-          ? "联系 TopDigg 团队，了解更多关于内容合作、分析投稿和商务合作的信息。"
-          : lang === "zh-Hant"
-          ? "聯繫 TopDigg 團隊，瞭解更多關於內容合作、分析投稿和商務合作的信息。"
-          : lang === "ja"
-          ? "TopDiggチームへのお問い合わせ。"
-          : "Get in touch with the TopDigg team for content partnerships, analysis submissions, or business inquiries."}
-        path="/contact"
-      />
+      <SEO title={t("pages.contact.title")} description={t("pages.contact.seoDesc")} path="/contact" />
 
       <article className="max-w-3xl mx-auto py-12 space-y-10">
         <header>
-          <h1 className="text-4xl font-bold mb-4">
-            {lang === "zh-Hans" ? "联系我们" : lang === "zh-Hant" ? "聯繫我們" : lang === "ja" ? "お問い合わせ" : "Contact Us"}
-          </h1>
+          <h1 className="text-4xl font-bold mb-4">{t("pages.contact.h1")}</h1>
         </header>
 
         <section>
-          <p className="text-muted-foreground leading-relaxed">
-            {lang === "zh-Hans"
-              ? "我们目前主要通过社交媒体与读者互动。以下是我们活跃的平台："
-              : lang === "zh-Hant"
-              ? "我們目前主要透過社交媒體與讀者互動。以下是我們活躍的平台："
-              : lang === "ja"
-              ? "現在私たちは主にソーシャルメディアで読者と交流しています。"
-              : "We're primarily active on social media. Here's where to reach us:"}
-          </p>
+          <p className="text-muted-foreground leading-relaxed">{t("pages.contact.intro")}</p>
         </section>
 
         <section className="grid gap-4 sm:grid-cols-2">
@@ -68,18 +46,8 @@ const Contact = () => {
         </section>
 
         <section className="rounded-xl border p-6">
-          <h2 className="text-xl font-semibold mb-3">
-            {lang === "zh-Hans" ? "商务合作" : lang === "zh-Hant" ? "商務合作" : lang === "ja" ? "ビジネス連携" : "Business Inquiries"}
-          </h2>
-          <p className="text-muted-foreground">
-            {lang === "zh-Hans"
-              ? "如有分析投稿、品牌合作或媒体采访需求，欢迎通过 Twitter DM 联系。我们通常在 1-2 个工作日内回复。"
-              : lang === "zh-Hant"
-              ? "如有分析投稿、品牌合作或媒體採訪需求，歡迎透過 Twitter DM 聯繫。我們通常在 1-2 個工作日內回覆。"
-              : lang === "ja"
-              ? "分析投稿やブランド連携、取材については、Twitter DMでお問い合わせください。"
-              : "For analysis submissions, brand partnerships, or press inquiries, reach out via Twitter DM. We typically respond within 1-2 business days."}
-          </p>
+          <h2 className="text-xl font-semibold mb-3">{t("pages.contact.businessTitle")}</h2>
+          <p className="text-muted-foreground">{t("pages.contact.businessDesc")}</p>
         </section>
       </article>
     </>

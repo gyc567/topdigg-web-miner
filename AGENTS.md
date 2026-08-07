@@ -97,7 +97,7 @@
 
 | 指标 | 目标 | 为什么 |
 |------|------|--------|
-| 博客内容完整性 | 每篇博客 4 语言齐全（zh-Hans/zh-Hant/en/ja）且 frontmatter 一致 | 内容站核心价值 |
+| 博客内容完整性 | 每篇博客 5 语言齐全（zh-Hans/zh-Hant/en/ja/vi）且 frontmatter 一致 | 内容站核心价值 |
 | SEO 收录覆盖 | sitemap 全部 URL 被收录（GSC/Bing KPI 达成） | 流量来源 |
 | 页面性能 | Core Web Vitals 达标（LCP < 2.5s、CLS < 0.1、INP < 200ms） | 用户体验与排名 |
 | 构建健康 | `npm run build`（含 build:blog/sitemap/llms/vite）全绿 | 工程质量底线 |
@@ -116,6 +116,28 @@
 - 指标变化记录在**计划文档**和 **PR 描述**中
 - 改进必须**量化**（如 "LCP 从 3.1s → 2.2s"、"收录页从 41 → 54"），不能只定性描述
 - 无法量化的改进需说明与北极星指标的关联路径
+
+---
+
+## 工程原则（Engineering Principles）
+
+以下 8 条是**硬性约束**，所有 AI 代理在做架构、选型、实现决策时必须遵守。违反任何一条的改动不得合入。
+
+1. **不保留向后兼容。** 过时的直接删，别加兼容层、别写 migration、别留 fallback。删除比维护便宜。
+
+2. **选能满足当前需求的最简单实现。** 不要预防性抽象，不要多此一举的配置层。YAGNI 原则：You Ain't Gonna Need It。
+
+3. **系统分层长，先跑通最小端到端。** 先跑通一个最小的端到端版本，再往上加东西。绝不为了未完成的复杂度拆掉能跑的东西。
+
+4. **组件保持模块化，关注点分离。** 每个模块只做一件事，模块间通过接口通信，不依赖实现细节。
+
+5. **优先用成熟的、有人维护的库。** 没有明确理由别自己重写。选库看维护频率、issue 响应速度、社区活跃度。
+
+6. **先翻项目里已有的依赖能做什么。** 再考虑加新包或自己写。别上来就假设库里没有——先查文档、看源码、跑 demo。
+
+7. **架构决策往长了做。** 不接受"先这样以后再换"的临时方案。每次选型都假设要用 3 年。
+
+8. **先看成熟产品怎么解决同一个问题。** 用已验证的模式，别从零发明。参考 React/Next.js/Vercel 等一线产品的做法。
 
 ---
 
@@ -167,3 +189,143 @@
 - `CLAUDE.md`：CLI 使用基础指引（命令、架构、内容管理）
 - `STEERING.md`：项目架构与开发工作流全解
 - `AGENTS.md`（本文件）：**代理行为约定**——计划/文档/规范/北极星指标工作流
+
+<!-- rtk-instructions v2 -->
+# RTK (Rust Token Killer) - Token-Optimized Commands
+
+## Golden Rule
+
+**Always prefix commands with `rtk`**. If RTK has a dedicated filter, it uses it. If not, it passes through unchanged. This means RTK is always safe to use.
+
+**Important**: Even in command chains with `&&`, use `rtk`:
+```bash
+# ❌ Wrong
+git add . && git commit -m "msg" && git push
+
+# ✅ Correct
+rtk git add . && rtk git commit -m "msg" && rtk git push
+```
+
+## RTK Commands by Workflow
+
+### Build & Compile (80-90% savings)
+```bash
+rtk cargo build         # Cargo build output
+rtk cargo check         # Cargo check output
+rtk cargo clippy        # Clippy warnings grouped by file (80%)
+rtk tsc                 # TypeScript errors grouped by file/code (83%)
+rtk lint                # ESLint/Biome violations grouped (84%)
+rtk prettier --check    # Files needing format only (70%)
+rtk next build          # Next.js build with route metrics (87%)
+```
+
+### Test (60-99% savings)
+```bash
+rtk cargo test          # Cargo test failures only (90%)
+rtk go test             # Go test failures only (90%)
+rtk jest                # Jest failures only (99.5%)
+rtk vitest              # Vitest failures only (99.5%)
+rtk playwright test     # Playwright failures only (94%)
+rtk pytest              # Python test failures only (90%)
+rtk rake test           # Ruby test failures only (90%)
+rtk rspec               # RSpec test failures only (60%)
+rtk test <cmd>          # Generic test wrapper - failures only
+```
+
+### Git (59-80% savings)
+```bash
+rtk git status          # Compact status
+rtk git log             # Compact log (works with all git flags)
+rtk git diff            # Compact diff (80%)
+rtk git show            # Compact show (80%)
+rtk git add             # Ultra-compact confirmations (59%)
+rtk git commit          # Ultra-compact confirmations (59%)
+rtk git push            # Ultra-compact confirmations
+rtk git pull            # Ultra-compact confirmations
+rtk git branch          # Compact branch list
+rtk git fetch           # Compact fetch
+rtk git stash           # Compact stash
+rtk git worktree        # Compact worktree
+```
+
+Note: Git passthrough works for ALL subcommands, even those not explicitly listed.
+
+### GitHub (26-87% savings)
+```bash
+rtk gh pr view <num>    # Compact PR view (87%)
+rtk gh pr checks        # Compact PR checks (79%)
+rtk gh run list         # Compact workflow runs (82%)
+rtk gh issue list       # Compact issue list (80%)
+rtk gh api              # Compact API responses (26%)
+```
+
+### JavaScript/TypeScript Tooling (70-90% savings)
+```bash
+rtk pnpm list           # Compact dependency tree (70%)
+rtk pnpm outdated       # Compact outdated packages (80%)
+rtk pnpm install        # Compact install output (90%)
+rtk npm run <script>    # Compact npm script output
+rtk npx <cmd>           # Compact npx command output
+rtk prisma              # Prisma without ASCII art (88%)
+rtk uv run <cmd>        # Compact uv project command output
+```
+
+### Files & Search (60-75% savings)
+```bash
+rtk ls <path>           # Tree format, compact (65%)
+rtk read <file>         # Code reading with filtering (60%)
+rtk grep <pattern>      # Search grouped by file (75%). Format flags (-c, -l, -L, -o, -Z) run raw.
+rtk find <pattern>      # Find grouped by directory (70%)
+```
+
+### Analysis & Debug (70-90% savings)
+```bash
+rtk err <cmd>           # Filter errors only from any command
+rtk log <file>          # Deduplicated logs with counts
+rtk json <file>         # JSON structure without values
+rtk deps                # Dependency overview
+rtk env                 # Environment variables compact
+rtk summary <cmd>       # Smart summary of command output
+rtk diff                # Ultra-compact diffs
+```
+
+### Infrastructure (85% savings)
+```bash
+rtk docker ps           # Compact container list
+rtk docker images       # Compact image list
+rtk docker logs <c>     # Deduplicated logs
+rtk kubectl get         # Compact resource list
+rtk kubectl logs        # Deduplicated pod logs
+```
+
+### Network (65-70% savings)
+```bash
+rtk curl <url>          # Compact HTTP responses (70%)
+rtk wget <url>          # Compact download output (65%)
+```
+
+### Meta Commands
+```bash
+rtk gain                # View token savings statistics
+rtk gain --history      # View command history with savings
+rtk discover            # Analyze Claude Code sessions for missed RTK usage
+rtk proxy <cmd>         # Run command without filtering (for debugging)
+rtk init                # Add RTK instructions to CLAUDE.md
+rtk init --global       # Add RTK to ~/.claude/CLAUDE.md
+```
+
+## Token Savings Overview
+
+| Category | Commands | Typical Savings |
+|----------|----------|-----------------|
+| Tests | vitest, playwright, cargo test | 90-99% |
+| Build | next, tsc, lint, prettier | 70-87% |
+| Git | status, log, diff, add, commit | 59-80% |
+| GitHub | gh pr, gh run, gh issue | 26-87% |
+| Package Managers | pnpm, npm, npx | 70-90% |
+| Files | ls, read, grep, find | 60-75% |
+| Infrastructure | docker, kubectl | 85% |
+| Network | curl, wget | 65-70% |
+
+Overall average: **60-90% token reduction** on common development operations.
+<!-- /rtk-instructions -->
