@@ -4,13 +4,14 @@
 
 ## Active Plans
 
-- [Codex-Orchestration 分析报告（5 语言）](plans/codex-orchestration-analysis.md)
 - [增加越南语（vi）支持](plans/add-vietnamese-locale.md)
 
 ## Completed Plans
+
+- [Codex-Orchestration 分析报告（5 语言）](plans/codex-orchestration-analysis.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
 
 _计划文件完工后删除，仅靠 git commit log 留档（不在本文件长期保留）。_
 
 ---
 
-_Last updated: 2026-08-07_
+_Last updated: 2026-08-08_
