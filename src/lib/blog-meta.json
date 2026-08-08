@@ -103,6 +103,41 @@
       ]
     },
     {
+      "slug": "oh-my-hermes-analysis",
+      "title": {
+        "en": "Oh My Hermes Deep Dive: A Multi-Agent Orchestration Framework That Turns Multiple AIs Bickering into Engineering Discipline",
+        "ja": "Oh My Hermes 徹底解説：「複数の AI に議論させる」をエンジニアリング規律にするマルチエージェント編成フレームワーク",
+        "vi": "Phân tích chuyên sâu Oh My Hermes: khung điều phối đa tác tử biến 'nhiều AI cãi nhau' thành kỷ luật kỹ thuật",
+        "zh-Hans": "Oh My Hermes 深度解析：把「多个 AI 吵架」变成工程纪律的多智能体编排框架",
+        "zh-Hant": "Oh My Hermes 深度解析：把「多個 AI 吵架」變成工程紀律的多智慧體編排框架"
+      },
+      "description": {
+        "en": "A complete analysis of the GitHub project witt3rd/oh-my-hermes (OMH) — a multi-agent orchestration skill collection built for Nous Research's Hermes Agent, inspired by oh-my-claudecode but fully rewritten from scratch on Hermes primitives. Core idea: a single AI answering in one pass is prone to blind spots, so OMH has a Planner, an Architect, and a Critic debate one another to consensus, then lets an Executor write the code, a Verifier check the evidence, and the Architect do the final review. The article covers: the ten skills (omh-ralplan / omh-ralph / omh-deep-research / omh-deep-interview / omh-autopilot and their respective driver scripts), the hook-based role injection mechanism, atomic state management, the three-strike circuit breaker, the iron law that evidence beats assertion, file ownership isolation, the '.omh directory selective sharing' convention, and the fourteen design principles written explicitly into the repo. From core ideas, project overview, and design philosophy to a beginner-friendly step-by-step tutorial (install → first planning session → execution loop → fully automatic pipeline) and takeaways, the article covers it all in one read.",
+        "ja": "GitHub プロジェクト witt3rd/oh-my-hermes（OMH）を徹底解説——Nous Research の Hermes Agent のために作られたマルチエージェント編成スキル集で、oh-my-claudecode から着想を得つつ、Hermes のプリミティブに基づいて全面的に書き直されている。中核となる思想：単一の AI が一気に答えを出すと、自分自身にも見えない盲点が出やすい。OMH はプランナー、アーキテクト、批評者という三つのロールが互いに議論して合意に達し、その後エグゼキューターがコードを書き、ベリファイアが証拠を確認し、アーキテクトが最終審査を行う。本文では十のスキル（omh-ralplan / omh-ralph / omh-deep-research / omh-deep-interview / omh-autopilot とそれぞれの driver プレイブック）、ロール注入フック機構、原子状態管理、三振アウトのサーキットブレーカー、証拠は主張に勝るという鉄則、ファイル所有権の分離、.omh ディレクトリの「選択的共有」という慣習、そしてリポジトリに明記された十四条の設計哲学まで網羅。中核思想、プロジェクト概要、設計哲学から、ゼロからの詳細チュートリアル（インストール → 最初のプランニング → 実行ループ → 全自動パイプライン）と総括的な見解まで、一つの記事で徹底的に解説する。",
+        "vi": "Phân tích toàn diện dự án GitHub witt3rd/oh-my-hermes (OMH) — bộ kỹ năng điều phối đa tác tử dành cho Hermes Agent của Nous Research, lấy cảm hứng từ oh-my-claudecode nhưng được viết lại hoàn toàn dựa trên các nguyên thủy của Hermes. Ý tưởng cốt lõi: một AI đưa ra câu trả lời trong một lần thường có những điểm mù; OMH để ba vai trò người lập kế hoạch, kiến trúc sư và nhà phê bình tranh luận với nhau đến khi đạt đồng thuận, rồi mới để người thực thi viết code, người xác minh kiểm tra bằng chứng và kiến trúc sư thẩm định cuối cùng. Bài viết bao phủ toàn bộ: mười kỹ năng (omh-ralplan / omh-ralph / omh-deep-research / omh-deep-interview / omh-autopilot cùng các kịch bản driver tương ứng), cơ chế hook chèn vai trò, quản lý trạng thái nguyên tử, bộ ngắt mạch ba lần đánh bại, quy tắc sắt 'bằng chứng cao hơn khẳng định', cách ly quyền sở hữu tệp, quy ước 'chia sẻ có chọn lọc' của thư mục .omh, cùng mười bốn triết lý thiết kế được viết rõ ràng trong kho. Từ ý tưởng cốt lõi, giới thiệu dự án, triết lý thiết kế cho đến hướng dẫn chi tiết cho người mới bắt đầu (cài đặt → lập kế hoạch đầu tiên → vòng lặp thực thi → đường ống hoàn toàn tự động) và các quan điểm tổng kết, tất cả được trình bày trọn vẹn trong một bài viết.",
+        "zh-Hans": "全面解析 GitHub 项目 witt3rd/oh-my-hermes（OMH）——为 Nous Research 的 Hermes Agent 打造的多智能体编排技能集，灵感来自 oh-my-claudecode，但基于 Hermes 原语彻底重写。核心思想：单个 AI 一口气给答案容易有盲区，OMH 让规划者、架构师、批评者三个角色互相辩论到达成共识，再让执行者写代码、验证者查证据、架构师做终审。全文覆盖：十个技能（omh-ralplan / omh-ralph / omh-deep-research / omh-deep-interview / omh-autopilot 及各自的 driver 剧本）、角色注入钩子机制、原子状态管理、三振出局熔断、证据高于断言的铁律、文件所有权隔离、.omh 目录的「选择性共享」约定，以及十四条明确写进仓库的设计哲学。从核心思想、项目说明、设计哲学到零基础详细教程（安装 → 第一次规划 → 执行循环 → 全自动流水线）和归纳观点，一文讲透。",
+        "zh-Hant": "全面解析 GitHub 專案 witt3rd/oh-my-hermes（OMH）——為 Nous Research 的 Hermes Agent 打造的多智慧體編排技能集，靈感來自 oh-my-claudecode，但基於 Hermes 原語徹底重寫。核心思想：單個 AI 一口氣給答案容易有盲區，OMH 讓規劃者、架構師、批評者三個角色互相辯論到達成共識，再讓執行者寫程式碼、驗證者查證據、架構師做終審。全文覆蓋：十個技能（omh-ralplan / omh-ralph / omh-deep-research / omh-deep-interview / omh-autopilot 及各自的 driver 劇本）、角色注入鉤子機制、原子狀態管理、三振出局熔斷、證據高於斷言的鐵律、檔案所有權隔離、.omh 目錄的「選擇性共享」約定，以及十四條明確寫進倉庫的設計哲學。從核心思想、專案說明、設計哲學到零基礎詳細教程（安裝 → 第一次規劃 → 執行迴圈 → 全自動流水線）和歸納觀點，一文講透。"
+      },
+      "date": "2026-08-08",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Oh My Hermes",
+        "OMH",
+        "Hermes Agent",
+        "AI Agent",
+        "Multi-Agent",
+        "多智能体",
+        "Agent Skills",
+        "Nous Research",
+        "oh-my-claudecode",
+        "Orchestration",
+        "Consensus Planning"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
       "slug": "open-code-review-analysis-report",
       "title": {
         "en": "OpenCodeReview Deep Dive: Alibaba's Open-Source AI Code Review Tool with 9x Precision Improvement",
