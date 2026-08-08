@@ -1,6 +1,308 @@
 {
   "posts": [
     {
+      "slug": "ai-agent-book-analysis",
+      "title": {
+        "en": "What Is an AI Agent? Notes on 'Understanding AI Agent' That Even an Elementary Schooler Can Understand",
+        "ja": "AI Agent って何？小学生でもわかる『深入理解 AI Agent』読書メモ",
+        "vi": "AI Agent là gì? Ghi chú đọc sách《Hiểu sâu về AI Agent》mà học sinh tiểu học cũng hiểu được",
+        "zh-Hans": "AI Agent 是什么？小学生都能看懂的《深入理解 AI Agent》读书笔记",
+        "zh-Hant": "AI Agent 是什麼？小學生都能看懂的《深入理解 AI Agent》讀書筆記"
+      },
+      "description": {
+        "en": "A plain-language walkthrough of the open-source GitHub book 'Understanding AI Agent: Design Principles and Engineering Practice' (34.5k stars). Explains the core formula Agent = brain + eyes + hands in one article, with the highlights of all 10 chapters, 95 hands-on experiment tutorials, and the book's key viewpoints and design philosophy.",
+        "ja": "GitHub 34.5k スターのオープンソース神書『深入理解 AI Agent：设计原理与工程实践（設計原理とエンジニアリング実践）』を、いちばんやさしい言葉で解説。核心の公式 Agent = 脳 + 目 + 手足 をはじめ、10 章のエッセンス、95 個の付属実験チュートリアル、まとめられた核心的な考え方と設計哲学までまるごと。",
+        "vi": "Giải thích bằng ngôn ngữ dễ hiểu nhất cuốn sách mã nguồn mở 34.5k sao trên GitHub《Hiểu sâu về AI Agent: Nguyên lý thiết kế và thực hành kỹ thuật》. Một bài viết nói rõ công thức cốt lõi Agent = Bộ não + Đôi mắt + Đôi tay, bao gồm tinh hoa 10 chương, 95 hướng dẫn thí nghiệm đi kèm, cùng những quan điểm cốt lõi và triết lý thiết kế được tổng kết.",
+        "zh-Hans": "用最通俗的语言解读 GitHub 34.5k 星开源神书《深入理解 AI Agent：设计原理与工程实践》。一文讲透核心公式 Agent = 大脑 + 眼睛 + 手脚，包含 10 章精华、95 个配套实验教程、归纳总结的核心观点与设计哲学。",
+        "zh-Hant": "用最通俗的語言解讀 GitHub 34.5k 星開源神書《深入理解 AI Agent：設計原理與工程實踐》。一文講透核心公式 Agent = 大腦 + 眼睛 + 手腳，包含 10 章精華、95 個配套實驗教學、歸納總結的核心觀點與設計哲學。"
+      },
+      "date": "2026-08-08",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "AI Agent",
+        "LLM",
+        "Context Engineering",
+        "MCP",
+        "RAG",
+        "Coding Agent",
+        "Reinforcement Learning",
+        "Multi-Agent Collaboration",
+        "Open Source Book",
+        "Bo Jie Li"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
+      "slug": "cloudflare-computer-analysis-report",
+      "title": {
+        "en": "Cloudflare Computer Deep Dive: Give Your Agent a Computer",
+        "ja": "Cloudflare Computer 深層解析：エージェントにコンピュータを提供する",
+        "vi": "Cloudflare Computer Phân Tích Sâu: Cung Cấp Máy Tính Cho Agent",
+        "zh-Hans": "Cloudflare Computer 深度解析：给你的 Agent 一台电脑",
+        "zh-Hant": "Cloudflare Computer 深度解析：給你的 Agent 一台電腦"
+      },
+      "description": {
+        "en": "Comprehensive analysis of Cloudflare Computer — Cloudflare's open-source virtual filesystem. In-depth exploration of its design philosophy, SQLite persistence architecture, multi-backend execution engines, FUSE mounting mechanism, and why it represents the future paradigm of AI Agent infrastructure.",
+        "ja": "Cloudflare Computer — Cloudflareのオープンソースバーチャルファイルシステムの包括的解析。その設計哲学、SQLite永続化アーキテクチャ、マルチバックエンド実行エンジン、FUSEマウントメカニズム、およびAIエージェントインフラストラクチャの将来のパラダイムを定義する理由を深く探求します。",
+        "vi": "Phân tích toàn diện Cloudflare Computer — hệ thống tập tin ảo mã nguồn mở của Cloudflare. Khám phá sâu về triết lý thiết kế, kiến trúc SQLite persistence, đa backend thực thi, cơ chế FUSE mount và tại sao nó đại diện cho mô hình tương lai của cơ sở hạ tầng AI Agent.",
+        "zh-Hans": "全面解析 Cloudflare Computer — Cloudflare 开源的虚拟文件系统。深度探讨其设计哲学、SQLite 持久化架构、多后端执行引擎、FUSE 挂载机制以及它为何代表了 AI Agent 基础设施的未来范式。",
+        "zh-Hant": "全面解析 Cloudflare Computer — Cloudflare 開源的虛擬檔案系統。深度探討其設計哲學、SQLite 持久化架構、多後端執行引擎、FUSE 掛載機制以及它為何代表了 AI Agent 基礎設施的未來範式。"
+      },
+      "date": "2026-08-08",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Cloudflare Computer",
+        "Durable Objects",
+        "AI Agent",
+        "Virtual Filesystem",
+        "SQLite",
+        "FUSE",
+        "Open Source",
+        "Workers",
+        "Containers",
+        "Cloud Native"
+      ],
+      "categories": [
+        "Deep Analysis"
+      ]
+    },
+    {
+      "slug": "cloudflare-os-analysis-report",
+      "title": {
+        "en": "Cloudflare OS Deep Dive: Redefining the Productivity Operating System for the AI Era",
+        "ja": "Cloudflare OS 深度解析：AI時代の生産性オペレーティングシステムを再定義",
+        "vi": "Cloudflare OS Phân Tích Sâu: Định Nghĩa Lại Hệ Điều Hành Năng Suất Cho Thời Đại AI",
+        "zh-Hans": "Cloudflare OS 深度解析：重新定义 AI 时代的生产力操作系统",
+        "zh-Hant": "Cloudflare OS 深度解析：重新定義 AI 時代的生產力作業系統"
+      },
+      "description": {
+        "en": "Comprehensive analysis of Cloudflare OS — Cloudflare's open-source AI productivity environment. Deep exploration of its design philosophy, Gadget sandbox architecture, Gatekeeper security framework, async human-in-the-loop mechanisms, and why it represents the future paradigm of SaaS software.",
+        "ja": "Cloudflare OS — CloudflareのオープンソースAI生産性環境を包括的に解析。その設計哲学、Gadgetサンドボックスアーキテクチャ、Gatekeeperセキュリティフレームワーク、非同期ヒューマンインザループメカニズム、そしてなぜそれがSaaSソフトウェアの未来パラダイムを体現するのかを深く探る。",
+        "vi": "Phân tích toàn diện Cloudflare OS — Môi trường năng suất AI mã nguồn mở của Cloudflare. Khám phá sâu triết lý thiết kế, kiến trúc sandbox Gadget, khung bảo mật Gatekeeper, cơ chế con người trong vòng async, và tại sao nó đại diện cho mô hình tương lai của phần mềm SaaS.",
+        "zh-Hans": "全面解析 Cloudflare OS — Cloudflare 开源的 AI 生产力环境。深度探讨其设计哲学、Gadget 沙箱架构、Gatekeeper 安全框架、异步人机协作机制，以及它为何代表了 SaaS 软件的未来范式。",
+        "zh-Hant": "全面解析 Cloudflare OS — Cloudflare 開源的 AI 生產力環境。深度探討其設計哲學、Gadget 沙箱架構、Gatekeeper 安全框架、異步人機協作機制，以及它為何代表了 SaaS 軟體的未來範式。"
+      },
+      "date": "2026-08-08",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Cloudflare OS",
+        "AI Productivity",
+        "Cloudflare Workers",
+        "Open Source",
+        "Sandbox Security",
+        "Gatekeeper",
+        "Gadget",
+        "Agent Native",
+        "SaaS Alternative",
+        "Local First"
+      ],
+      "categories": [
+        "Deep Analysis"
+      ]
+    },
+    {
+      "slug": "open-code-review-analysis-report",
+      "title": {
+        "en": "OpenCodeReview Deep Dive: Alibaba's Open-Source AI Code Review Tool with 9x Precision Improvement",
+        "ja": "OpenCodeReview 深度解析：Alibaba発のオープンソース AI コードレビューツール、精度が9倍に向上する秘密",
+        "vi": "OpenCodeReview Phân Tích Sâu: Công Cụ Review Code AI Mã Nguồn Mở Của Alibaba, Bí Quyết Tăng Độ Chính Xác 9 Lần",
+        "zh-Hans": "OpenCodeReview 深度解析：阿里巴巴开源的 AI 代码审查工具，精准度提升 9 倍的秘密",
+        "zh-Hant": "OpenCodeReview 深度解析：阿里巴巴開源的 AI 程式碼審查工具，精準度提升 9 倍的秘密"
+      },
+      "description": {
+        "en": "Comprehensive analysis of OpenCodeReview — Alibaba's open-source AI code review CLI tool. Deep exploration of its hybrid architecture design philosophy, deterministic engineering + LLM Agent fusion, precise line-level commenting, and how it served tens of thousands of developers at Alibaba while identifying millions of code defects.",
+        "ja": "OpenCodeReview — Alibaba発のオープンソース AI コードレビューツールを全面解析。決定論的エンジニアリングと LLM Agent の融合アーキテクチャ、精確な行レベルコメント、Alibaba内部で数万名の開発者にサービスし数百万のコード欠陥を発見した背景を深く探る。",
+        "vi": "Phân tích toàn diện OpenCodeReview — Công cụ review code CLI mã nguồn mở của Alibaba. Khám phá sâu triết lý thiết kế kiến trúc lai, sự kết hợp giữa kỹ thuật xác định và LLM Agent, cơ chế bình luận chính xác theo dòng, và cách nó phục vụ hàng trăm nghìn nhà phát triển tại Alibaba đồng thời phát hiện hàng triệu lỗi code.",
+        "zh-Hans": "全面解析 OpenCodeReview — 阿里巴巴开源的 AI 代码审查 CLI 工具。深度探讨其混合架构设计哲学、确定性工程与 LLM Agent 的融合、精准行级评论机制，以及它如何在阿里巴巴内部服务数万开发者、发现数百万代码缺陷。",
+        "zh-Hant": "全面解析 OpenCodeReview — 阿里巴巴開源的 AI 程式碼審查 CLI 工具。深度探討其混合架構設計哲學、確定性工程與 LLM Agent 的融合、精準行級評論機制，以及它如何在阿里巴巴內部服務數萬名開發者、發現數百萬程式碼缺陷。"
+      },
+      "date": "2026-08-08",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "OpenCodeReview",
+        "AI Code Review",
+        "Alibaba",
+        "Open Source",
+        "Code Quality",
+        "LLM Agent",
+        "Hybrid Architecture",
+        "CLI Tool",
+        "CI/CD",
+        "DevOps"
+      ],
+      "categories": [
+        "Deep Analysis"
+      ]
+    },
+    {
+      "slug": "open-kritt-analysis-report",
+      "title": {
+        "en": "open·kritt Deep Analysis: Orchestrating AI Agents to Discover Real Code Vulnerabilities",
+        "ja": "open·kritt 深度解析：AI エージェントを編成して実際のコード脆弱性を発見する",
+        "vi": "open·kritt Phân Tích Sâu: Điều Phối AI Agents Để Tìm Lỗ Hổng Code Thực Sự",
+        "zh-Hans": "open·kritt 深度解析：用 AI 智能体编排引擎发现真实代码漏洞",
+        "zh-Hant": "open·kritt 深度解析：用 AI 智能體編排引擎發現真實程式碼漏洞"
+      },
+      "description": {
+        "en": "A comprehensive analysis of open·kritt, an open-source AI security research platform that breaks down complex security audits into small, focused tasks executed by multiple AI agents in parallel, producing deduplicated, ranked, and verifiable security findings. The platform's core ideas come from real bug bounty hunting experience with over $1.5 million in earnings. This article covers: core philosophy, project architecture, installation guide, detailed tutorial, design philosophy, security model, and key insights.",
+        "ja": "open·kritt の詳細解析：複雑なセキュリティ監査を小さな集中タスクに分解し、複数の AI エージェントを並行実行し、構造化ワークフローで重複削除済み、ランク付け済み、検証済みのセキュリティ発見を出力するオープンソース AI セキュリティ研究プラットフォーム。プラットフォームの中核となるアイデアは実際のバグ報奨金ハンターの経験に基づいており、150 万ドル以上の収益を上げています。この記事の内容：核心理念、プロジェクトアーキテクチャ、インストール設定、詳細チュートリアル、設計哲学、セキュリティモデル、主要な洞察。",
+        "vi": "Phân tích chuyên sâu open·kritt, một nền tảng bảo mật AI mã nguồn mở phân rã các cuộc kiểm toán bảo mật phức tạp thành các tác vụ nhỏ và tập trung, chạy song song nhiều AI agents, và xuất ra các phát hiện bảo mật có thể khử trùng lặp, xếp hạng và xác minh. Tư duy cốt lõi của nền tảng đến từ kinh nghiệm săn tiền thưởng lỗ hổng thực tế, đã tích lũy hơn 1,5 triệu USD tiền thưởng. Bài viết bao gồm: tư duy cốt lõi, kiến trúc dự án, cài đặt cấu hình, hướng dẫn chi tiết, triết lý thiết kế, mô hình bảo mật, và tổng kết quan điểm.",
+        "zh-Hans": "深度解析 open·kritt：一个开源的 AI 安全研究平台，通过工作流编排将复杂的安全审计分解为小而专注的任务，并行运行多个 AI 智能体，最终输出可去重、可排序、可验证的安全发现。平台核心思想来自真实漏洞赏金猎人经验，已累计获得超过 150 万美元漏洞赏金。全文覆盖：核心思想、项目架构、安装配置、详细教程、设计哲学、安全模型、观点总结。",
+        "zh-Hant": "深度解析 open·kritt：一個開源的 AI 安全研究平台，通過工作流編排將複雜的安全審計分解為小而專注的任務，並行運行多個 AI 智能體，最終輸出可去重、可排序、可驗證的安全發現。平台核心思想來自真實漏洞賞金獵人經驗，已累計獲得超過 150 萬美元漏洞賞金。全文覆蓋：核心思想、專案架構、安裝配置、詳細教程、設計哲學、安全模型、觀點總結。"
+      },
+      "date": "2026-08-08",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "open-kritt",
+        "AI Security",
+        "Vulnerability Detection",
+        "Bug Bounty",
+        "AI Agent",
+        "Security Research",
+        "Code Analysis"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
+      "slug": "prime-agent-analysis-report",
+      "title": {
+        "en": "Prime Agent Deep Dive: The Self-Improving RLM Programming Agent",
+        "ja": "Prime Agent 深層解析：自己進化するRLMプログラミングエージェント",
+        "vi": "Prime Agent Phân Tích Sâu: Đại Diện Lập Trình RLM Tự Cải Tiến",
+        "zh-Hans": "Prime Agent 深度解析：自我进化的 RLM 编程代理",
+        "zh-Hant": "Prime Agent 深度解析：自我進化的 RLM 編程代理"
+      },
+      "description": {
+        "en": "Comprehensive analysis of Prime Agent — PrimeIntellect's open-source Recursive Language Model agent. In-depth exploration of its design philosophy, RLM programming model, continual improvement mechanism, skills system, and why it represents the future paradigm of AI programming agents.",
+        "ja": "Prime Agent — PrimeIntellectのオープンソース再帰言語モデルエージェントの包括的解析。その設計哲学、RLMプログラミングモデル、継続的改善メカニズム、スキルシステム、およびAIプログラミングエージェントの将来のパラダイムを定義する理由を深く探求します。",
+        "vi": "Phân tích toàn diện Prime Agent — đại diện ngôn ngữ đệ quy mã nguồn mở của PrimeIntellect. Khám phá sâu về triết lý thiết kế, mô hình lập trình RLM, cơ chế cải tiến liên tục, hệ thống kỹ năng và tại sao nó đại diện cho mô hình tương lai của các đại diện lập trình AI.",
+        "zh-Hans": "全面解析 Prime Agent — PrimeIntellect 开源的递归语言模型代理。深度探讨其设计哲学、RLM 编程模型、持续改进机制、技能系统以及它为何代表了 AI 编程代理的未来范式。",
+        "zh-Hant": "全面解析 Prime Agent — PrimeIntellect 開源的遞迴語言模型代理。深度探討其設計哲學、RLM 編程模型、持續改進機制、技能系統以及它為何代表了 AI 編程代理的未來範式。"
+      },
+      "date": "2026-08-08",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Prime Agent",
+        "RLM",
+        "AI Programming",
+        "Open Source",
+        "Continual Learning",
+        "Recursive Language Model",
+        "Agent-Native",
+        "Autonomous Programming",
+        "Skills System",
+        "PrimeIntellect"
+      ],
+      "categories": [
+        "Deep Analysis"
+      ]
+    },
+    {
+      "slug": "pro-long-analysis-report",
+      "title": {
+        "en": "PRO-LONG Deep Dive: Programmatic Memory Enables Long-Horizon Reasoning",
+        "ja": "PRO-LONG 深層解説：プログラマブルメモリが長期推論を実現",
+        "vi": "PRO-LONG Phân Tích Sâu: Bộ Nhớ Chương Trình Hóa Cho Suy Luận Dài Hạn",
+        "zh-Hans": "PRO-LONG 深度解析：程序化记忆赋能长程推理",
+        "zh-Hant": "PRO-LONG 深度解析：程式化記憶體實現長期推理"
+      },
+      "description": {
+        "en": "Comprehensive analysis of PRO-LONG — a minimal programmatic memory framework for LLM agents. In-depth exploration of its design philosophy, single-file log architecture, code retrieval mechanism, breakthrough performance on ARC-AGI-3, and why it represents the future paradigm of agent memory systems.",
+        "ja": "PRO-LONG — LLMエージェント向けの最小プログラマブルメモリフレームワークの包括的分析。設計思想、単一ファイルログアーキテクチャ、コード取得メカニズム、ARC-AGI-3における画期的成果、そしてエージェントメモリシステムの将来パラダイムについての深い洞察。",
+        "vi": "Phân tích toàn diện về PRO-LONG — một khuôn khổ bộ nhớ chương trình hóa tối giản cho các tác tử LLM. Khám phá sâu về triết lý thiết kế, kiến trúc nhật ký tệp đơn, cơ chế truy xuất dựa trên mã, thành tựu đột phá trên ARC-AGI-3, và tại sao nó đại diện cho mô hình tương lai của hệ thống bộ nhớ tác tử.",
+        "zh-Hans": "全面解析 PRO-LONG — 为 LLM Agent 提供程序化记忆的极简框架。深度探讨其设计哲学、单文件日志架构、代码检索机制、ARC-AGI-3 上的突破性表现以及它为何代表了 Agent 记忆系统的未来范式。",
+        "zh-Hant": "對 PRO-LONG 的全面分析 — 一個為 LLM 代理設計的最小程式化記憶體框架。深入探討其設計理念、單一檔案日誌架構、基於代碼的檢索機制、在 ARC-AGI-3 上的突破性表現，以及為什麼它代表了代理記憶體系統的未來典範。"
+      },
+      "date": "2026-08-08",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "PRO-LONG",
+        "LLM Agent",
+        "Programmatic Memory",
+        "Long-Horizon Reasoning",
+        "ARC-AGI-3",
+        "Context Management",
+        "Open Source",
+        "AI",
+        "Fable",
+        "Agent Memory"
+      ],
+      "categories": [
+        "Deep Analysis"
+      ]
+    },
+    {
+      "slug": "agent-plugins-analysis",
+      "title": {
+        "en": "Agent Plugins Deep Dive: A Vendor-Neutral Plugin Packaging Standard for AI Agents — Co-Driven by Amazon, Cursor, Microsoft, OpenAI, and Vercel",
+        "ja": "Agent Plugins 徹底解説：Amazon・Cursor・Microsoft・OpenAI・Vercel が共同策定した AI エージェントプラグインの可搬（ポータブル）標準",
+        "vi": "Agent Plugins Phân Tích Chuyên Sâu: Tiêu Chuẩn Đóng Gói Plugin AI Agent Trung Lập Về Nhà Cung Cấp — Đồng Sáng Lập bởi Amazon, Cursor, Microsoft, OpenAI và Vercel",
+        "zh-Hans": "Agent Plugins 深度解析：一个由 Amazon、Cursor、微软、OpenAI、Vercel 联合制定的 AI 代理插件可移植标准",
+        "zh-Hant": "Agent Plugins 深度解析：一個由 Amazon、Cursor、微軟、OpenAI、Vercel 聯合制定的 AI 代理外掛可攜標準"
+      },
+      "description": {
+        "en": "A complete analysis of the Agent Plugins specification v1.0.0 published at agent-plugins.org — an open, vendor-neutral standard for packaging reusable components into portable plugins, defining a shared format for Agent Skills and MCP servers. Core idea: every AI agent client has invented its own plugin format even when the plugins contain the same underlying components, forcing authors to rearrange or duplicate components per client. Agent Plugins defines a small interoperability floor — shared components use one predictable structure, while distribution, installation, permissions, user experience, and client-specific capabilities remain under each client's control. This article covers it all: why it exists, the directory-as-package model and manifest spec, the three MCP transports (stdio / Streamable HTTP / legacy HTTP+SSE), the PLUGIN_ROOT and PLUGIN_DATA plugin variables, reverse-domain client extensions, incremental adoption, failure isolation, and the philosophy behind its ten design decisions. From the core idea, project overview, and design philosophy to a step-by-step tutorial (minimal hello-plugin → full manifest → packaging skills → configuring MCP → implementing a client) and a summary of viewpoints and conclusions.",
+        "ja": "agent-plugins.org が公開した Agent Plugins 仕様 v1.0.0 を徹底解説——Agent Skills と MCP servers に統一された可搬パッケージ形式を定義する、オープンでベンダーニュートラルなプラグインパッケージング標準。核心思想：AI エージェントの各クライアントは、同じ中身のコンポーネントであっても独自のプラグイン形式を発明しており、作者はクライアントごとにコンポーネントを組み替えたり複製したりしなければならない。Agent Plugins は「相互運用性の最小公約数」だけを定義する——共有コンポーネントは 1 つの予測可能な構造を使い、配布・インストール・権限・ユーザー体験・クライアント固有の機能は各クライアントの管理下に残す。本記事がカバーする範囲：なぜ必要なのか、ディレクトリ＝パッケージモデルとマニフェスト仕様、3 つの MCP トランスポート（stdio / Streamable HTTP / 旧 HTTP+SSE）、PLUGIN_ROOT と PLUGIN_DATA プラグイン変数、リバースドメインのクライアント拡張、段階的採用、障害分離、そして 10 の設計判断の背後にある哲学。核心思想・プロジェクト概要・設計哲学から、ステップバイステップのチュートリアル（最小 hello-plugin → 完全マニフェスト → スキルのパッケージ化 → MCP 設定 → クライアント実装）と論点のまとめまでを 1 本の記事にまとめる。",
+        "vi": "Bài phân tích toàn diện về đặc tả Agent Plugins v1.0.0 được công bố tại agent-plugins.org — một tiêu chuẩn mở, trung lập về nhà cung cấp để đóng gói các thành phần tái sử dụng thành plugin di động, định nghĩa một định dạng dùng chung cho Agent Skills và MCP servers. Ý tưởng cốt lõi: mọi client AI agent đều tự phát minh ra định dạng plugin riêng dù plugin chứa cùng các thành phần cơ bản, buộc tác giả phải sắp xếp lại hoặc nhân bản thành phần cho từng client. Agent Plugins định nghĩa một 'tầng tương tác tối thiểu' — các thành phần dùng chung dùng một cấu trúc có thể dự đoán được, trong khi phân phối, cài đặt, quyền hạn, trải nghiệm người dùng và khả năng riêng của từng client vẫn nằm dưới sự kiểm soát của mỗi client. Bài viết này bao quát tất cả: vì sao nó tồn tại, mô hình thư mục-là-gói và đặc tả manifest, ba giao thức vận chuyển MCP (stdio / Streamable HTTP / HTTP+SSE cũ), biến plugin PLUGIN_ROOT và PLUGIN_DATA, phần mở rộng client theo tên miền ngược, áp dụng từng phần, cô lập lỗi, và triết lý đằng sau mười quyết định thiết kế. Từ ý tưởng cốt lõi, tổng quan dự án và triết lý thiết kế đến hướng dẫn từng bước (hello-plugin tối thiểu → manifest đầy đủ → đóng gói kỹ năng → cấu hình MCP → triển khai client) cùng phần tóm tắt quan điểm và kết luận.",
+        "zh-Hans": "全面解析 agent-plugins.org 发布的 Agent Plugins 规范 v1.0.0——一个开放、厂商中立的插件打包标准，为 Agent Skills 和 MCP servers 定义统一的可移植包格式。核心思想：各 AI 代理客户端各搞一套插件格式，插件作者被迫为每个客户端重新整理或复制组件；Agent Plugins 只定义一个「互操作性最小公约数」——共享组件用统一结构，而分发、安装、权限、用户体验和客户端专属能力仍由各客户端掌控。全文覆盖：为什么需要它、可移植包的目录结构与 manifest 规范、五种 MCP 传输（stdio/Streamable HTTP/HTTP+SSE）、PLUGIN_ROOT 与 PLUGIN_DATA 插件变量、反向域名客户端扩展、渐进式采用、失败隔离，以及十条设计决策背后的哲学。从核心思想、项目说明、设计哲学到零基础教程（最小 hello-plugin → 完整 manifest → 打包技能 → 配置 MCP → 实现客户端）和归纳观点，一文讲透。",
+        "zh-Hant": "全面解析 agent-plugins.org 發布的 Agent Plugins 規範 v1.0.0——一個開放、廠商中立的外掛打包標準，為 Agent Skills 和 MCP servers 定義統一的可攜包格式。核心思想：各 AI 代理客戶端各搞一套外掛格式，外掛作者被迫為每個客戶端重新整理或複製元件；Agent Plugins 只定義一個「互通性最小公約數」——共享元件用統一結構，而分發、安裝、權限、使用者體驗和客戶端專屬能力仍由各客戶端掌控。全文涵蓋：為什麼需要它、可攜包的目錄結構與 manifest 規範、五種 MCP 傳輸（stdio/Streamable HTTP/HTTP+SSE）、PLUGIN_ROOT 與 PLUGIN_DATA 外掛變數、反向網域客戶端擴充、漸進式採用、失敗隔離，以及十條設計決策背後的哲學。從核心思想、專案說明、設計哲學到零基礎教學（最小 hello-plugin → 完整 manifest → 打包技能 → 設定 MCP → 實作客戶端）和歸納觀點，一文講透。"
+      },
+      "date": "2026-08-07",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Agent Plugins",
+        "AI Agent",
+        "MCP",
+        "Agent Skills",
+        "Plugin",
+        "Interoperability",
+        "Open Standard",
+        "Amazon",
+        "OpenAI",
+        "Microsoft",
+        "Cursor",
+        "Vercel"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
+      "slug": "npm-supply-chain-crisis-analysis",
+      "title": {
+        "en": "npm Supply Chain Crisis Deep Dive: The Only Package Manager Where This 'Regularly Happens' — From event-stream to Systemic Ecosystem Risk",
+        "ja": "npm サプライチェーン危機深度解析：唯一「防止する方法がない」と言われる主流パッケージマネージャー——event-stream事件からエコシステムリスクまで",
+        "zh-Hans": "npm 供应链危机深度解析：唯一「无法预防」的主流包管理器——从 event-stream 事件到生态系统性风险",
+        "zh-Hant": "npm 供應鏈危機深度解析：唯一「無法預防」的主流套件管理器——從 event-stream 事件到生態系統性風險"
+      },
+      "description": {
+        "en": "Using Kevin Patel's satirical blog post 'No Way To Prevent This' (2026-05-15) as an entry point, this article provides a comprehensive analysis of npm supply chain attack mechanics. Core thesis: npm's 'no way to prevent this' posture is not a technical limitation but a deliberate structural choice — default script execution, lack of package ownership verification, and 40-level deep unvetted dependency trees make every `npm install` a trust-transmission gamble. While Go and Rust ecosystems suppress supply chain risk to near-zero through robust standard libraries and mandatory cryptographic verification, npm chose 'convenience first,' paying with a recurring community-wide disaster every few months. This article covers: incident review, attack vector analysis, design philosophy critique, cross-ecosystem comparison, and actionable defense strategies.",
+        "ja": "Kevin Patelのブログ記事『'No Way To Prevent This,' Says Only Package Manager Where This Regularly Happens』（2026-05-15）を切入点として、npmサプライチェーン攻撃の深层論理を完全に解析する。核心思想：**npmエコシステムの「防止できない」は技術的限界ではなく、意図的な選択の結果である**——デフォルトでのインストールスクリプト実行、パッケージ所有权検証の欠如、40段嵌套の依存関係ツリー，这些设计选择使每一次 `npm install` 都成为一场信任传递的赌博。当 Go/Rust 生态系统用强类型标准库和内置加密验证将供应链风险压制到接近零时，npm 选择了「便利性优先」，代价是整个社区每隔数月就要经历一次「完全不可避免」的灾难。本文从事件回顾、攻撃向量分析、设计哲学批判、跨生态对比、防御实践五个维度展开，提供系统性理解框架与可操作的安全加固方案。",
+        "zh-Hans": "以 Kevin Patel 博文《'No Way To Prevent This,' Says Only Package Manager Where This Regularly Happens》（2026-05-15）为切入点，完整解析 npm 供应链攻击的深层逻辑。核心思想：**npm 生态的「无法预防」并非技术局限，而是刻意选择的结果**——默认执行安装脚本、缺乏包所有权验证机制、40 层嵌套依赖树无人审查，这些设计选择使每一次 `npm install` 都成为一场信任传递的赌博。当 Go/Rust 生态用强类型标准库和内置加密验证将供应链风险压制到接近零时，npm 选择了「便利性优先」，代价是整个社区每隔数月就要经历一次「完全不可避免」的灾难。本文从事件回顾、攻击向量分析、设计哲学批判、跨生态对比、防御实践五个维度展开，提供系统性理解框架与可操作的安全加固方案。",
+        "zh-Hant": "以 Kevin Patel 博文《'No Way To Prevent This,' Says Only Package Manager Where This Regularly Happens》（2026-05-15）為切入點，完整解析 npm 供應鏈攻擊的深層邏輯。核心思想：**npm 生態的「無法預防」並非技術局限，而是刻意選擇的結果**——預設執行安裝腳本、缺乏套件所有權驗證機制、40 層巢狀依賴樹無人審查，這些設計選擇使每一次 `npm install` 都成為一場信任傳遞的賭博。當 Go/Rust 生態用強類型標準庫和內建加密驗證將供應鏈風險壓制到接近零時，npm 選擇了「便利性優先」，代價是整個社群每隔數月就要經歷一次「完全不可避免」的災難。本文從事件回顧、攻擊向量分析、設計哲學批判、跨生態對比、防禦實踐五個維度展開，提供系統性理解框架與可操作的安全加固方案。"
+      },
+      "date": "2026-08-07",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "npm",
+        "Supply Chain Security",
+        "JavaScript",
+        "Security",
+        "Open Source",
+        "Package Manager",
+        "Event Stream",
+        "Dependency Confusion",
+        "Typosquatting"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
       "slug": "cloudflare-agent-access-model-analysis",
       "title": {
         "en": "Cloudflare's Agent Access Model Deep Dive: Never Trust the Run — Narrowing Zero Trust from the Network Boundary to a Single Action",
