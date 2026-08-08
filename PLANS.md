@@ -5,7 +5,6 @@
 ## Active Plans
 
 - [增加越南语（vi）支持](plans/add-vietnamese-locale.md)
-- [ai-agent-book 深度分析博客文章（5 语言）](plans/ai-agent-book-analysis.md)
 
 ## Completed Plans
 
