@@ -4,6 +4,7 @@
 
 ## Active Plans
 
+- [Codex-Orchestration 分析报告（5 语言）](plans/codex-orchestration-analysis.md)
 - [增加越南语（vi）支持](plans/add-vietnamese-locale.md)
 
 ## Completed Plans

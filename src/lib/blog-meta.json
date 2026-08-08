@@ -103,6 +103,43 @@
       ]
     },
     {
+      "slug": "codex-orchestration-analysis",
+      "title": {
+        "en": "Codex-Orchestration Deep Dive: How One Plugin Embeds Fable 5, Opus 5, and Kimi K3 Into Codex So Every AI Plays a Different Role in Collaborative Development",
+        "ja": "Codex-Orchestration 徹底解説：1つのプラグインで Fable 5・Opus 5・Kimi K3 を Codex に組み込み、各 AI に異なる役割を担わせて協業開発を実現する方法",
+        "vi": "Codex-Orchestration Phân tích sâu: Cách một plugin đưa Fable 5, Opus 5, Kimi K3 vào Codex để mỗi AI đảm nhận vai trò khác nhau hợp tác phát triển",
+        "zh-Hans": "Codex-Orchestration 深度解析：如何用一套插件把 Fable 5、Opus 5、Kimi K3 嵌进 Codex，让每個 AI 扮演不同角色協作開發",
+        "zh-Hant": "Codex-Orchestration 深度解析：如何用一個插件把 Fable 5、Opus 5、Kimi K3 嵌入 Codex，讓每個 AI 扮演不同角色協作開發"
+      },
+      "description": {
+        "en": "A comprehensive analysis of Cjbuilds/Codex-Orchestration (580+ stars). This open-source plugin introduces Planner, Advisor, Designer, and Executor roles into a Codex task — letting Claude Fable 5 plan, Opus 5 review, Kimi K3 design, and GPT-5.6 Luna implement. Covers the three core problems it solves (single-model limitations, provider lock-in, no independent review), a detailed installation tutorial, the role-based workflow, design philosophy, and security boundaries distilled from the production-readiness audit.",
+        "ja": "Cjbuilds/Codex-Orchestration（580+ stars）の包括的分析。このオープンソースプラグインは Codex タスクに Planner・Advisor・Designer・Executor の4つの役割を導入し、Claude Fable 5 で計画、Opus 5 でレビュー、Kimi K3 でデザイン、GPT-5.6 Luna で実装を行う。3つの核心問題、インストールチュートリアル、ワークフロー図、設計哲学、production-readiness audit から抽出したセキュリティ境界を解説。",
+        "vi": "Phân tích toàn diện Codex-Orchestration (580+ stars). Plugin nguồn mở này giới thiệu 4 vai trò Planner, Advisor, Designer, Executor vào Codex, để Fable 5 lập kế hoạch, Opus 5 review, Kimi K3 thiết kế, GPT-5.6 Luna triển khai. Giải quyết 3 vấn đề cốt lõi, hướng dẫn cài đặt chi tiết, sơ đồ quy trình, triết lý thiết kế, ranh giới bảo mật từ production-readiness audit.",
+        "zh-Hans": "全面解析 Cjbuilds/Codex-Orchestration（580+ stars）。這個開源插件如何在 Codex 任務中引入 Planner、Advisor、Designer、Executor 四大角色，讓 Claude Fable 5 規劃、Opus 5 審查、Kimi K3 設計、GPT-5.6 Luna 實現，並解決「誰來當 architect」、「同提供商不同號模型如何路由」、「外部模型憑證如何安全存取」的三大核心問題。內容包含詳細安裝教學、工作流程圖、設計哲學，以及從 production-readiness audit 總結出的安全邊界與工程榮譽。",
+        "zh-Hant": "全面解析 Cjbuilds/Codex-Orchestration（580+ stars）。這個開源插件在 Codex 任務中引入 Planner、Advisor、Designer、Executor 四大角色，讓 Claude Fable 5 規劃、Opus 5 審查、Kimi K3 設計、GPT-5.6 Luna 實現，並解決「誰來當 architect」、「同提供商不同號模型如何路由」、「外部模型憑證如何安全存取」的三大核心問題。內含詳細安裝教學、工作流程圖、設計哲學，以及從 production-readiness audit 總結的安全邊界與工程榮譽。"
+      },
+      "date": "2026-08-08",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Codex-Orchestration",
+        "Codex",
+        "OpenAI",
+        "Multi-Agent",
+        "Claude Fable 5",
+        "Claude Opus 5",
+        "Kimi K3",
+        "OpenRouter",
+        "MCP",
+        "Model Routing",
+        "AI Agent",
+        "Python",
+        "Role-Based Agent"
+      ],
+      "categories": [
+        "Analysis"
+      ]
+    },
+    {
       "slug": "oh-my-hermes-analysis",
       "title": {
         "en": "Oh My Hermes Deep Dive: A Multi-Agent Orchestration Framework That Turns Multiple AIs Bickering into Engineering Discipline",
