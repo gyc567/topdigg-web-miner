@@ -16,129 +16,129 @@ keywords: ["sentrux", "AI 代理", "代码质量", "架构传感器", "反馈回
 
 ## 一、项目说明
 
-### 1.1 它是什麼？
+### 1.1 它是什么？
 
 **sentrux** 是一个**实时架构传感器**（Real-time Architectural Sensor），专为 AI 辅助编程场景设计。它的核心定位是：**在 AI 代理和代码库之间架设一道反馈回路**——AI 代理每次修改代码，sentrux 都会实时扫描结构变化，给出质量评分，让代理知道「这次改动是让代码变好了还是变差了」。
 
-### 1.2 關鍵資料
+### 1.2 关键资料
 
-- 儲存庫：`https://github.com/sentrux/sentrux`
-- 官網：`https://sentrux.dev`
+- 存储库：`https://github.com/sentrux/sentrux`
+- 官网：`https://sentrux.dev`
 - Stars：**2,600+**
 - Forks：**237**
-- 協議：**MIT License**
-- 語言：**Rust**（純 Rust，單二進制文件，零運行時依賴）
+- 协议：**MIT License**
+- 语言：**Rust**（纯 Rust，单二进制文件，零运行时依赖）
 - Commits：**318**
-- 支持語言：**52 種**（通過 tree-sitter 插件）
+- 支持语言：**52 种**（通过 tree-sitter 插件）
 - 平台：**macOS / Linux / Windows**
-- MCP 支持：Claude Code、Cursor、Windsurf、OpenCode、OpenClaw 等所有 MCP 客戶端
+- MCP 支持：Claude Code、Cursor、Windsurf、OpenCode、OpenClaw 等所有 MCP 客户端
 
-### 1.3 它解決什麼問題？
+### 1.3 它解决什么问题？
 
-這是 AI 輔助開發的「骯髒秘密」：**AI 寫代碼越好，你的代碼庫就變得越不可控。**
+这是 AI 辅助开发的「肮脏秘密」：**AI 写代码越好，你的代码库就变得越不可控。**
 
-當你用 IDE 時，你能看到文件樹，能打開文件理解架構——你是「 governor」，每次修改都經過你對整體的理解。但 AI 代理把你帶到了終端——它一次修改幾十個文件，你看到的只是 `Modified src/foo.rs` 的流水，失去了空間感知：你不知道這個文件在依賴圖中的位置，不知道它剛創建了一個循環依賴，不知道三個模塊現在依賴了一個本應是內部的文件。
+当你用 IDE 时，你能看到文件树，能打开文件理解架构——你是「 governor」，每次修改都经过你对整体的理解。但 AI 代理把你带到了终端——它一次修改几十个文件，你看到的只是 `Modified src/foo.rs` 的流水，失去了空间感知：你不知道这个文件在依赖图中的位置，不知道它刚创建了一个循环依赖，不知道三个模块现在依赖了一个本应是内部的文件。
 
-每個 AI 會話都在悄悄退化你的架構：相同函數名、不同用途、散落在不同文件；不相關的代碼被丟在同一個文件夾；依賴糾纏成意大利麵。而傳統的「先規劃架構，再讓 AI 實現」方案——比如 GitHub 的 Spec Kit——本質上是**重造瀑布模型**：生成大量 Markdown 文檔，但對實際產出的代碼零可視性，沒有反饋迴路，無法檢測實現何時偏離了規格。
+每个 AI 会话都在悄悄退化你的架构：相同函数名、不同用途、散落在不同文件；不相关的代码被丢在同一个文件夹；依赖纠缠成意大利面。而传统的「先规划架构，再让 AI 实现」方案——比如 GitHub 的 Spec Kit——本质上是**重造瀑布模型**：生成大量 Markdown 文档，但对实际产出的代码零可视性，没有反馈回路，无法检测实现何时偏离了规格。
 
-**sentrux 的答案：你不需要更好的計劃，你需要更好的傳感器。**
+**sentrux 的答案：你不需要更好的计划，你需要更好的传感器。**
 
 ---
 
 ## 二、核心思想
 
-### 2.1 反饋迴路——控制論的經典模型
+### 2.1 反馈回路——控制论的经典模型
 
-sentrux 的設計根植於控制論：每個有效系統都需要三個組件——**傳感器**（觀察現實）、**規格**（定義「好」）、**執行器**（糾正偏差）。編譯器在語法層關閉了反饋迴路，測試套件在行為層關閉了，linter 在風格層關閉了。但**架構層**——這個修改是否適合系統？這個抽象會不會隨著代碼庫增長造成問題？——一直沒有傳感器和執行器。
+sentrux 的设计根植于控制论：每个有效系统都需要三个组件——**传感器**（观察现实）、**规格**（定义「好」）、**执行器**（纠正偏差）。编译器在语法层关闭了反馈回路，测试套件在行为层关闭了，linter 在风格层关闭了。但**架构层**——这个修改是否适合系统？这个抽象会不会随著代码库增长造成问题？——一直没有传感器和执行器。
 
-sentrux 在架構層關閉了這個迴路。
+sentrux 在架构层关闭了这个回路。
 
-### 2.2 5 項根因指標——一個綜合評分
+### 2.2 5 项根因指标——一个综合评分
 
-sentrux 不是簡單地數行數或算圈複雜度，而是從 5 個架構根因維度評估代碼庫：
+sentrux 不是简单地数行数或算圈复杂度，而是从 5 个架构根因维度评估代码库：
 
-- **模塊化（Modularity）**：模塊之間的職責劃分是否清晰？
-- **無環性（Acyclicity）**：依賴關係中是否存在循環？
-- **深度（Depth）**：調用鏈是否過深？
-- **平等性（Equality）**：模塊之間的依賴是否過於均等（缺乏層次）？
-- **冗餘性（Redundancy）**：是否存在重複的代碼結構？
+- **模块化（Modularity）**：模块之间的职责划分是否清晰？
+- **无环性（Acyclicity）**：依赖关系中是否存在循环？
+- **深度（Depth）**：调用链是否过深？
+- **平等性（Equality）**：模块之间的依赖是否过于均等（缺乏层次）？
+- **冗余性（Redundancy）**：是否存在重复的代码结构？
 
-5 項指標匯聚為一個 0-10000 的連續評分——毫秒級計算，實時更新。
+5 项指标汇聚为一个 0-10000 的连续评分——毫秒级计算，实时更新。
 
-### 2.3 會話級質量追蹤
+### 2.3 会话级质量追踪
 
-sentrux 可以在 AI 代理開始寫代碼前保存基線（baseline），會話結束後對比——精確捕捉「這次會話讓代碼質量上升了還是下降了」。這是**會話級的架構護欄**。
+sentrux 可以在 AI 代理开始写代码前保存基线（baseline），会话结束后对比——精确捕捉「这次会话让代码质量上升了还是下降了」。这是**会话级的架构护栏**。
 
-### 2.4 插件化語言支持——tree-sitter 的力量
+### 2.4 插件化语言支持——tree-sitter 的力量
 
-sentrux 的二進制文件是一個**通用平台**，所有語言知識都在 `plugin.toml` + `tags.scm` 查詢文件中。添加新語言不需要寫一行 Rust 代碼——通過 tree-sitter 插件，52 種語言開箱即用。
+sentrux 的二进制文件是一个**通用平台**，所有语言知识都在 `plugin.toml` + `tags.scm` 查询文件中。添加新语言不需要写一行 Rust 代码——通过 tree-sitter 插件，52 种语言开箱即用。
 
 ---
 
-## 三、內容架構
+## 三、内容架构
 
-### 3.1 核心組件
+### 3.1 核心组件
 
-sentrux 由幾個核心組件構成：
+sentrux 由几个核心组件构成：
 
-- **sentrux-core**：核心分析引擎，負責掃描、評分、規則檢查
-- **sentrux-bin**：CLI 和 GUI 入口，提供命令行和可視化界面
-- **MCP 服務器**：通過 Model Context Protocol 為 AI 代理提供實時結構健康數據
-- **規則引擎**：基於 TOML 配置的架構約束 enforcement
-- **插件系統**：tree-sitter 語言插件管理
+- **sentrux-core**：核心分析引擎，负责扫描、评分、规则检查
+- **sentrux-bin**：CLI 和 GUI 入口，提供命令行和可视化界面
+- **MCP 服务器**：通过 Model Context Protocol 为 AI 代理提供实时结构健康数据
+- **规则引擎**：基于 TOML 配置的架构约束 enforcement
+- **插件系统**：tree-sitter 语言插件管理
 
 ### 3.2 工作流
 
 ```
-掃描 → 評分 → 代理改進 → 重新掃描 → 更高評分 → 重複
+扫描 → 评分 → 代理改进 → 重新扫描 → 更高评分 → 重复
 ```
 
-具體流程：
+具体流程：
 
-1. AI 代理調用 `scan()` 獲取當前質量評分和瓶頸指標
-2. 代理調用 `session_start()` 保存基線
-3. 代理寫代碼
-4. 代理調用 `session_end()` 對比基線，判斷質量是提升還是退化
-5. 如果退化，代理根據反饋調整
+1. AI 代理调用 `scan()` 获取当前质量评分和瓶颈指标
+2. 代理调用 `session_start()` 保存基线
+3. 代理写代码
+4. 代理调用 `session_end()` 对比基线，判断质量是提升还是退化
+5. 如果退化，代理根据反馈调整
 
 ### 3.3 MCP 工具集
 
-9 個 MCP 工具：
+9 个 MCP 工具：
 
-- **scan**：掃描項目，返回質量評分和文件結構
-- **health**：獲取項目健康摘要
-- **session_start / session_end**：會話級質量追蹤
-- **rescan**：重新掃描
-- **check_rules**：檢查規則合規性
-- **evolution**：查看質量演進歷史
-- **dsm**：依賴結構矩陣
-- **test_gaps**：測試覆蓋缺口分析
-
----
-
-## 四、設計哲學
-
-### 4.1 「人在迴路中」是不可談判的
-
-AI 代理強大但有限——它無法同時把握全局和細節。人類必須能夠隨時看到代理在對整體做什麼——不只是它改了哪個文件，而是那個文件對架構意味著什麼。sentrux 讓這成為可能。
-
-### 4.2 驗證比生成更有價值
-
-生成一個正確的解決方案比驗證一個更難（P vs NP 的直覺）。你不需要比機器更會寫代碼——你需要比它更會**評估**。sentrux 把架構判斷轉化為機器可讀的評分和約束。
-
-### 4.3 好系統讓好結果不可避免
-
-一個設計良好的系統通過約束行為，讓正確的事成為容易的事：一個在退化上線前就攔截它的質量門，一個編碼了你架構決策的規則引擎，一張讓結構腐爛無處遁形的可視化地圖。
-
-### 4.4 「不重新發明」的務實態度
-
-sentrux 沒有自己寫語言解析器——它用 tree-sitter。沒有自己做 GUI 框架——它用 WGPU 做渲染。沒有自己做協議——它用 MCP。這種務實讓 sentrux 可以專注於核心價值：架構分析和反饋迴路。
+- **scan**：扫描项目，返回质量评分和文件结构
+- **health**：获取项目健康摘要
+- **session_start / session_end**：会话级质量追踪
+- **rescan**：重新扫描
+- **check_rules**：检查规则合规性
+- **evolution**：查看质量演进历史
+- **dsm**：依赖结构矩阵
+- **test_gaps**：测试覆盖缺口分析
 
 ---
 
-## 五、詳細教程
+## 四、设计哲学
 
-### 5.1 安裝
+### 4.1 「人在回路中」是不可谈判的
+
+AI 代理强大但有限——它无法同时把握全局和细节。人类必须能够随时看到代理在对整体做什么——不只是它改了哪个文件，而是那个文件对架构意味著什么。sentrux 让这成为可能。
+
+### 4.2 验证比生成更有价值
+
+生成一个正确的解决方案比验证一个更难（P vs NP 的直觉）。你不需要比机器更会写代码——你需要比它更会**评估**。sentrux 把架构判断转化为机器可读的评分和约束。
+
+### 4.3 好系统让好结果不可避免
+
+一个设计良好的系统通过约束行为，让正确的事成为容易的事：一个在退化上线前就拦截它的质量门，一个编码了你架构决策的规则引擎，一张让结构腐烂无处遁形的可视化地图。
+
+### 4.4 「不重新发明」的务实态度
+
+sentrux 没有自己写语言解析器——它用 tree-sitter。没有自己做 GUI 框架——它用 WGPU 做渲染。没有自己做协议——它用 MCP。这种务实让 sentrux 可以专注于核心价值：架构分析和反馈回路。
+
+---
+
+## 五、详细教程
+
+### 5.1 安装
 
 **macOS（Homebrew）**
 
@@ -158,7 +158,7 @@ curl -fsSL https://raw.githubusercontent.com/sentrux/sentrux/main/install.sh | s
 curl -L -o sentrux.exe https://github.com/sentrux/sentrux/releases/latest/download/sentrux-windows-x86_64.exe
 ```
 
-**從源碼構建**
+**从源码构建**
 
 ```bash
 git clone https://github.com/sentrux/sentrux.git
@@ -168,11 +168,11 @@ cd sentrux && cargo build --release
 ### 5.2 基本使用
 
 ```bash
-sentrux                    # 打開 GUI——實時 treemap
-sentrux /path/to/project   # 掃描指定目錄
-sentrux check .            # 檢查規則（CI 友好，退出碼 0 或 1）
-sentrux gate --save .      # 保存基線（代理會話前）
-sentrux gate .             # 對比基線（捕捉退化）
+sentrux                    # 打开 GUI——实时 treemap
+sentrux /path/to/project   # 扫描指定目录
+sentrux check .            # 检查规则（CI 友好，退出码 0 或 1）
+sentrux gate --save .      # 保存基线（代理会话前）
+sentrux gate .             # 对比基线（捕捉退化）
 ```
 
 ### 5.3 AI 代理集成（MCP）
@@ -184,7 +184,7 @@ sentrux gate .             # 對比基線（捕捉退化）
 /plugin install sentrux
 ```
 
-**Cursor / Windsurf / OpenCode / 任何 MCP 客戶端**
+**Cursor / Windsurf / OpenCode / 任何 MCP 客户端**
 
 在 MCP 配置中添加：
 
@@ -208,16 +208,16 @@ Agent: scan("/Users/me/myproject")
 Agent: session_start()
   → { status: "Baseline saved", quality_signal: 7342 }
 
-  ... 代理寫了 500 行代碼 ...
+  ... 代理写了 500 行代码 ...
 
 Agent: session_end()
   → { pass: false, signal_before: 7342, signal_after: 6891,
       summary: "Quality degraded during this session" }
 ```
 
-### 5.5 規則引擎配置
+### 5.5 规则引擎配置
 
-在項目根目錄創建 `.sentrux/rules.toml`：
+在项目根目录创建 `.sentrux/rules.toml`：
 
 ```toml
 [constraints]
@@ -242,74 +242,74 @@ to = "src/core/internal/*"
 reason = "App must not depend on core internals"
 ```
 
-然後運行：
+然后运行：
 
 ```bash
 sentrux check .
 # ✓ All rules pass — Quality: 7342
 ```
 
-### 5.6 安裝語言插件
+### 5.6 安装语言插件
 
 ```bash
-sentrux plugin list              # 查看已安裝插件
-sentrux plugin add <name>        # 從注冊表安裝
-sentrux plugin add-standard      # 安裝所有 52 種語言
-sentrux plugin init my-lang      # 腳手架新語言插件
+sentrux plugin list              # 查看已安装插件
+sentrux plugin add <name>        # 从注册表安装
+sentrux plugin add-standard      # 安装所有 52 种语言
+sentrux plugin init my-lang      # 脚手架新语言插件
 ```
 
-### 5.7 Linux GPU 問題排查
+### 5.7 Linux GPU 问题排查
 
-如果 GUI 無法啟動，sentrux 會自動嘗試多個 GPU 後端（Vulkan → GL → fallback）。也可以手動指定：
+如果 GUI 无法启动，sentrux 会自动尝试多个 GPU 后端（Vulkan → GL → fallback）。也可以手动指定：
 
 ```bash
-WGPU_BACKEND=vulkan sentrux    # 強制 Vulkan
-WGPU_BACKEND=gl sentrux        # 強制 OpenGL
+WGPU_BACKEND=vulkan sentrux    # 强制 Vulkan
+WGPU_BACKEND=gl sentrux        # 强制 OpenGL
 ```
 
 ---
 
-## 六、功能清單
+## 六、功能清单
 
-- **實時架構可視化**：交互式 treemap，文件在代理修改時發光
-- **5 項根因指標**：模塊化、無環性、深度、平等性、冗餘性
-- **綜合質量評分**：0-10000 連續評分，毫秒級計算
-- **MCP 服務器**：9 個工具（scan/health/session_start/session_end/rescan/check_rules/evolution/dsm/test_gaps）
-- **會話級質量追蹤**：基線保存 + 會話對比
-- **規則引擎**：TOML 配置，支持約束、層級、邊界
-- **CI 質量門**：`sentrux check .` 退出碼 0/1
-- **52 種語言**：Bash、C、C++、C#、Go、Java、JavaScript、Python、Rust、TypeScript 等
-- **插件系統**：tree-sitter 驅動，添加新語言零 Rust 代碼
+- **实时架构可视化**：交互式 treemap，文件在代理修改时发光
+- **5 项根因指标**：模块化、无环性、深度、平等性、冗余性
+- **综合质量评分**：0-10000 连续评分，毫秒级计算
+- **MCP 服务器**：9 个工具（scan/health/session_start/session_end/rescan/check_rules/evolution/dsm/test_gaps）
+- **会话级质量追踪**：基线保存 + 会话对比
+- **规则引擎**：TOML 配置，支持约束、层级、边界
+- **CI 质量门**：`sentrux check .` 退出码 0/1
+- **52 种语言**：Bash、C、C++、C#、Go、Java、JavaScript、Python、Rust、TypeScript 等
+- **插件系统**：tree-sitter 驱动，添加新语言零 Rust 代码
 - **跨平台**：macOS / Linux / Windows
-- **純 Rust**：單二進制文件，零運行時依賴
-- **GUI**：WGPU 渲染，實時 treemap 可視化
-- **Claude Code 插件**：一鍵安裝集成
+- **纯 Rust**：单二进制文件，零运行时依赖
+- **GUI**：WGPU 渲染，实时 treemap 可视化
+- **Claude Code 插件**：一键安装集成
 
 ---
 
-## 七、歸納總結（觀點與結論）
+## 七、归纳总结（观点与结论）
 
-結合 sentrux 的設計與實現，幾個值得思考的點：
+结合 sentrux 的设计与实现，几个值得思考的点：
 
-1. **AI 輔助開發的真正瓶頸不是代碼生成能力，而是架構治理能力。** sentrux 的 README 開篇就點破了這個「沒人談論的問題」：AI 寫代碼越好，代碼庫退化越快。這不是 AI 變笨了，而是你失去了對架構的感知。當你在 IDE 時，你是架構的守門人；當你搬到終端，你就失去了空間感知。sentrux 用實時 treemap 和質量評分重新賦予你這種感知。
+1. **AI 辅助开发的真正瓶颈不是代码生成能力，而是架构治理能力。** sentrux 的 README 开篇就点破了这个「没人谈论的问题」：AI 写代码越好，代码库退化越快。这不是 AI 变笨了，而是你失去了对架构的感知。当你在 IDE 时，你是架构的守门人；当你搬到终端，你就失去了空间感知。sentrux 用实时 treemap 和质量评分重新赋予你这种感知。
 
-2. **「更好的計劃」不是答案，「更好的傳感器」才是。** 傳統方案試圖用更詳細的規格書來約束 AI——但規格書是靜態的，代碼是動態的。沒有反饋迴路的規格書就像沒有溫度計的恆溫器——它無法調節。sentrux 的核心創新在於：它不是在寫代碼之前做計劃，而是在寫代碼的同時做驗證。
+2. **「更好的计划」不是答案，「更好的传感器」才是。** 传统方案试图用更详细的规格书来约束 AI——但规格书是静态的，代码是动态的。没有反馈回路的规格书就像没有温度计的恒温器——它无法调节。sentrux 的核心创新在于：它不是在写代码之前做计划，而是在写代码的同时做验证。
 
-3. **P vs NP 的直覺在工程中同樣適用。** 生成一個正確的架構比驗證一個架構難得多。你不需要比 AI 更會寫代碼——你需要比它更會**評估**。sentrux 把「架構判斷」這個模糊的人類能力，轉化為機器可讀的評分和約束。
+3. **P vs NP 的直觉在工程中同样适用。** 生成一个正确的架构比验证一个架构难得多。你不需要比 AI 更会写代码——你需要比它更会**评估**。sentrux 把「架构判断」这个模糊的人类能力，转化为机器可读的评分和约束。
 
-4. **tree-sitter 是「不重新發明輪子」的典範。** sentrux 沒有自己寫 52 種語言的解析器——它用 tree-sitter 的查詢語言。這讓它可以把精力集中在核心價值（架構分析和反饋迴路）上，而不是重複造輪子。
+4. **tree-sitter 是「不重新发明轮子」的典范。** sentrux 没有自己写 52 种语言的解析器——它用 tree-sitter 的查询语言。这让它可以把精力集中在核心价值（架构分析和反馈回路）上，而不是重复造轮子。
 
-5. **MCP 是 AI 工具鏈的「USB 接口」。** sentrux 沒有為每個 AI 工具寫適配器——它實現了 MCP 協議，一次集成，所有 MCP 客戶端都能用。這是協議優先的設計思維。
+5. **MCP 是 AI 工具链的「USB 接口」。** sentrux 没有为每个 AI 工具写适配器——它实现了 MCP 协议，一次集成，所有 MCP 客户端都能用。这是协议优先的设计思维。
 
-6. **「人在迴路中」不是保守，而是務實。** sentrux 的三大信念之一是「Human-in-the-loop is non-negotiable」——AI 強大但有限，它無法同時把握全局和細節。人類的角色正在從「寫代碼」轉變為「治理代碼」——sentrux 讓這個轉變成為可能。
+6. **「人在回路中」不是保守，而是务实。** sentrux 的三大信念之一是「Human-in-the-loop is non-negotiable」——AI 强大但有限，它无法同时把握全局和细节。人类的角色正在从「写代码」转变为「治理代码」——sentrux 让这个转变成为可能。
 
 ---
 
-## 參考資料
+## 参考资料
 
-- 儲存庫：`https://github.com/sentrux/sentrux`
-- 官網：`https://sentrux.dev`
+- 存储库：`https://github.com/sentrux/sentrux`
+- 官网：`https://sentrux.dev`
 - License：MIT
 - Claude Code 插件：`/plugin marketplace add sentrux/sentrux`
-- MCP 協議：`https://modelcontextprotocol.io`
+- MCP 协议：`https://modelcontextprotocol.io`
 - tree-sitter：`https://tree-sitter.github.io/`
