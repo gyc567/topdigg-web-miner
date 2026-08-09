@@ -9,6 +9,7 @@
 ## Completed Plans
 
 - [Codex-Orchestration 分析报告（5 语言）](plans/codex-orchestration-analysis.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
+- [Harbor Framework 深度解析博客（5 语言）](plans/harbor-framework-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
 
 _计划文件完工后删除，仅靠 git commit log 留档（不在本文件长期保留）。_
 

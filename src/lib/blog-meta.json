@@ -1,6 +1,44 @@
 {
   "posts": [
     {
+      "slug": "harbor-framework-analysis",
+      "title": {
+        "en": "Harbor Framework Deep Dive: Building an 'Exam Hall' for AI — From Terminal-Bench to Agent Evaluation",
+        "ja": "Harbor Framework 徹底解説：AI に「試験場」をつくる — Turing-Bench から Harbor への進化の道",
+        "vi": "Phân tích chuyên sâu Harbor Framework: Xây cho AI một 'trường thi' — Hành trình tiến hóa từ Turing-Bench đến Harbor",
+        "zh-Hans": "Harbor Framework 深度解析：给 AI 造一个「考试院」— 从 Turing-Bench 到 Harbor 的进化之路",
+        "zh-Hant": "Harbor Framework 深度解析：給 AI 造一座「考試院」— 從 Turing-Bench 到 Harbor 的進化之路"
+      },
+      "description": {
+        "en": "A comprehensive analysis of Harbor Framework (by laude-institute): an open-source framework that lets AI Agents be fairly evaluated inside 'containerized exam rooms' — explained so clearly that even a beginner can follow along. Using plain-language analogies, this article walks through the core concepts of Harbor, the official evaluation tool for Terminal-Bench 2.0 (Task/Dataset/Agent/Trial/Job), provides a detailed installation and running tutorial (including local Docker + Daytona cloud with 32-way concurrency), distills six design philosophies (modular interfaces, cloud sandbox horizontal scaling, integrated evaluation data pipeline, Linux by default, anti-cheating, RewardKit lightweight verification), and summarizes key takeaways such as 'evaluation as infrastructure' and 'get the smallest end-to-end path working first', plus the essentials of two real tutorials: LLM-as-a-Judge and MCP sidecar tasks.",
+        "ja": "Harbor Framework（laude-institute 製）を徹底解説：AI Agent を『コンテナ試験室』で公平に評価できる、原文を深く読めば誰でも理解できるオープンソースフレームワーク。本記事は小学生でもわかる比喩で、Terminal-Bench 2.0 公式評価ツール Harbor の核心概念（タスク / データセット / Agent / Trial / Job）を説明し、詳細なインストール・実行チュートリアル（Docker ローカル実行 + Daytona クラウド 32 並列）を提供し、6 つの設計哲学（モジュール化インターフェース、クラウドサンドボックスによる水平拡張、評価データパイプラインの一体化、デフォルト Linux、不正防止、RewardKit 軽量検証）を整理し、『評価はインフラである』『最小のエンドツーエンドを先に動かす』などの核心的見解をまとめ、LLM-as-a-Judge と MCP サイドカー・タスクの 2 つの実践チュートリアルの要点も紹介します。",
+        "vi": "Phân tích toàn diện Harbor Framework (do laude-institute phát hành): một framework mã nguồn mở giúp AI Agent được đánh giá công bằng trong 'phòng thi container', đọc kỹ bài gốc là bạn sẽ hiểu. Bài viết dùng những phép so sánh mà học sinh tiểu học cũng hiểu được để giải thích rõ các khái niệm cốt lõi của Harbor — công cụ đánh giá chính thức của Terminal-Bench 2.0 (Task/Dataset/Agent/Trial/Job), cung cấp hướng dẫn cài đặt và chạy chi tiết (gồm chạy Docker cục bộ + Daytona đám mây 32 luồng song song), tổng kết sáu triết lý thiết kế (giao diện mô-đun, mở rộng ngang với cloud sandbox, đường ống dữ liệu đánh giá hợp nhất, mặc định Linux, chống gian lận, xác minh nhẹ với RewardKit), và tóm tắt các quan điểm cốt lõi như 'đánh giá là hạ tầng' và 'chạy thông tối thiểu end-to-end trước', kèm điểm chính của hai hướng dẫn thực tế LLM-as-a-Judge và MCP sidecar task.",
+        "zh-Hans": "全面解析 Harbor Framework（laude-institute 出品）：一套让 AI Agent 在『容器考场』里被公平测评、深度阅读原文你都能听懂的开源框架。本文用小学生也能懂的比喻讲清 Terminal-Bench 2.0 官方评测工具 Harbor 的核心概念（任务/数据集/Agent/Trial/Job）、提供了详细安装与运行教程（含 Docker 本地跑 + Daytona 云端 32 并发）、归纳六大设计哲学（模块化接口、云沙箱横向扩展、评测数据管道一体化、默认 Linux、防作弊、RewardKit 轻量验证），并总结『评测即基础设施』『先跑通最小端到端』等核心观点，附带 LLM-as-a-Judge 与 MCP 侧车任务两个真实教程的要点。",
+        "zh-Hant": "全面解析 Harbor Framework（laude-institute 出品）：一套讓 AI Agent 在『容器考場』裡被公平評測、深度閱讀原文你都能聽懂的开源框架。本文用最簡單的比喻講清 Terminal-Bench 2.0 官方評測工具 Harbor 的核心概念（任務/資料集/Agent/Trial/Job）、提供了詳細安裝與執行教學（含 Docker 本機跑 + Daytona 雲端 32 並發）、歸納六大設計哲學（模組化介面、雲沙箱橫向擴展、評測資料管道一體化、預設 Linux、防作弊、RewardKit 輕量驗證），並總結『評測即基礎設施』『先跑通最小端到端』等核心觀點，附帶 LLM-as-a-Judge 與 MCP 側車任務兩個真實教學的亮點。"
+      },
+      "date": "2026-08-09",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Harbor",
+        "Terminal-Bench",
+        "AI Agent",
+        "Benchmark",
+        "LLM",
+        "Evaluation",
+        "Agent Framework",
+        "Terminal-Bench 2.0",
+        "Claude Code",
+        "Daytona",
+        "RewardKit",
+        "MCP",
+        "Docker",
+        "Machine Learning"
+      ],
+      "categories": [
+        "Analysis"
+      ]
+    },
+    {
       "slug": "ai-agent-book-analysis",
       "title": {
         "en": "What Is an AI Agent? Notes on 'Understanding AI Agent' That Even an Elementary Schooler Can Understand",
