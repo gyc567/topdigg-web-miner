@@ -1,6 +1,42 @@
 {
   "posts": [
     {
+      "slug": "claude-code-engineering-team-analysis",
+      "title": {
+        "en": "Claude Code Enhancement Suite Deep Dive: gstack · Superpowers · Compound Engineering · ECC — Turning Your AI Assistant into a 20-Person Virtual Engineering Team",
+        "ja": "Claude Code 拡張フルセット徹底解説：gstack · Superpowers · Compound Engineering · ECC — AI アシスタントを 20 人分の仮想エンジニアリングチームに変える",
+        "vi": "Phân Tích Chuyên Sâu Bộ Công Cụ Tăng Cường Claude Code: gstack · Superpowers · Compound Engineering · ECC — Biến Trợ Lý AI Thành Đội Ngũ Kỹ Thuật Ảo 20 Người Của Bạn",
+        "zh-Hans": "Claude Code 增强全家桶深度解析：gstack · Superpowers · Compound Engineering · ECC — 把 AI 助手变成你的 20 人虚拟工程团队",
+        "zh-Hant": "Claude Code 增強全家桶深度解析：gstack · Superpowers · Compound Engineering · ECC — 把 AI 助手變成你的 20 人虛擬工程團隊"
+      },
+      "description": {
+        "en": "A complete breakdown of the four Claude Code enhancement tools integrated in the eric-claude-code-dev project: gstack (YC CEO Garry Tan's software factory with 15 specialized roles), Superpowers (GitHub ex-CTO Jesse Vincent's auto-triggered development workflow), Compound Engineering (Every's compounding engineering — each session makes the next one easier) and Everything Claude Code (the Anthropic Hackathon-winning token optimization system). This article explains the core idea of 'turning AI into a virtual engineering team' with metaphors simple enough for a child to understand, and provides a full installation tutorial, detailed walkthroughs of core commands (/office-hours, /ce:brainstorm, /tdd, etc.), a four-scenario guide to combining the tools, a summary of the four design philosophies (skills as software, auto-triggering, compounding mindset, sub-agent orchestration), and key takeaways such as 'writing code is only the last step' and 'knowledge must be captured, not carried around in people's heads.'",
+        "ja": "eric-claude-code-dev プロジェクトが統合する 4 つの Claude Code 拡張ツールを徹底解説：gstack（YC CEO Garry Tan のソフトウェア工場、15 の専門ロール）、Superpowers（GitHub 元 CTO Jesse Vincent の自動トリガー開発ワークフロー）、Compound Engineering（Every 社の複利エンジニアリング、仕事をするたびに次が楽になる）と Everything Claude Code（Anthropic Hackathon 受賞の Token 最適化システム）。小学生にもわかる比喩で「AI を仮想エンジニアリングチームにする」という核となる考え方を解説し、完全なインストール手順、主要コマンドの詳細（/office-hours、/ce:brainstorm、/tdd など）、4 つのツールを組み合わせる 4 シナリオガイド、4 つの設計哲学（スキルはソフトウェア、自動トリガー、複利思考、サブ Agent オーケストレーション）を整理し、「コードを書くのは最後の一歩」「知識は人と一緒に消えずに蓄積する」などの核心的な考えをまとめます。",
+        "vi": "Phân tích toàn diện bốn công cụ tăng cường Claude Code được tích hợp trong dự án eric-claude-code-dev: gstack (nhà máy phần mềm của CEO YC Garry Tan, 15 vai trò chuyên nghiệp), Superpowers (quy trình phát triển tự động kích hoạt của cựu CTO GitHub Jesse Vincent), Compound Engineering (kỹ thuật lãi kép của công ty Every — mỗi lần làm việc khiến lần sau dễ hơn) và Everything Claude Code (hệ thống tối ưu Token từng đoạt giải tại Anthropic Hackathon). Bài viết dùng những phép so sánh mà học sinh tiểu học cũng hiểu được để giảng rõ ý tưởng cốt lõi 'biến AI thành đội ngũ kỹ thuật ảo', kèm hướng dẫn cài đặt đầy đủ, giải thích chi tiết các lệnh chính (/office-hours, /ce:brainstorm, /tdd...), hướng dẫn kết hợp bốn công cụ trong bốn tình huống, tóm tắt bốn triết lý thiết kế (kỹ năng là phần mềm, tự động kích hoạt, tư duy lãi kép, điều phối sub-agent), và tổng kết các quan điểm cốt lõi như 'viết code chỉ là bước cuối cùng', 'kiến thức phải được tích lũy chứ không đi theo con người'.",
+        "zh-Hans": "全面解析 eric-claude-code-dev 项目集成的四大 Claude Code 增强工具：gstack（YC CEO Garry Tan 的软件工厂，15 个专业角色）、Superpowers（GitHub 前 CTO Jesse Vincent 的自动触发开发工作流）、Compound Engineering（Every 公司的复利工程，每次工作让下次更容易）与 Everything Claude Code（Anthropic Hackathon 获奖的 Token 优化系统）。本文用小学生也能懂的比喻讲透『把 AI 变成虚拟工程团队』的核心思想，提供完整的安装教程、核心命令详解（/office-hours、/ce:brainstorm、/tdd 等）、组合使用四场景指南，归纳四大设计哲学（技能即软件、自动触发、复利思维、子 Agent 编排），并总结『写代码只是最后一步』『知识要沉淀而不是跟着人走』等核心观点。",
+        "zh-Hant": "全面解析 eric-claude-code-dev 專案集成的四大 Claude Code 增強工具：gstack（YC CEO Garry Tan 的軟體工廠，15 個專業角色）、Superpowers（GitHub 前 CTO Jesse Vincent 的自動觸發開發工作流）、Compound Engineering（Every 公司的複利工程，每次工作讓下次更容易）與 Everything Claude Code（Anthropic Hackathon 獲獎的 Token 優化系統）。本文用小學生也能懂的比喻講透『把 AI 變成虛擬工程團隊』的核心思想，提供完整的安裝教學、核心指令詳解（/office-hours、/ce:brainstorm、/tdd 等）、組合使用四情境指南，歸納四大設計哲學（技能即軟體、自動觸發、複利思維、子 Agent 編排），並總結『寫程式碼只是最後一步』『知識要沉澱而不是跟著人走』等核心觀點。"
+      },
+      "date": "2026-08-09",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Claude Code",
+        "AI Agent",
+        "gstack",
+        "Superpowers",
+        "Compound Engineering",
+        "ECC",
+        "Garry Tan",
+        "Jesse Vincent",
+        "Developer Tools",
+        "AI Workflow",
+        "TDD",
+        "Open Source"
+      ],
+      "categories": [
+        "Analysis"
+      ]
+    },
+    {
       "slug": "harbor-framework-analysis",
       "title": {
         "en": "Harbor Framework Deep Dive: Building an 'Exam Hall' for AI — From Terminal-Bench to Agent Evaluation",
@@ -36,6 +72,28 @@
       ],
       "categories": [
         "Analysis"
+      ]
+    },
+    {
+      "slug": "herdr-analysis-report",
+      "title": {
+        "zh-Hans": "Herdr — 编程智能体的\"栖息地\"，让 AI 代理永不中断"
+      },
+      "description": {
+        "zh-Hans": "深度解析 Herdr 项目：一款让 AI 编程代理永不掉线的终端工作区管理器，支持 Claude Code、Codex、Cursor 等主流代理，内置 Rust 编写、零 Electron、开源免费。"
+      },
+      "date": "2026-08-09T00:00:00.000Z",
+      "author": "topdigg-web-miner",
+      "tags": [
+        "AI Agent",
+        "终端工具",
+        "开发环境",
+        "Rust",
+        "Herdr"
+      ],
+      "categories": [
+        "AI工具",
+        "开发效率"
       ]
     },
     {
