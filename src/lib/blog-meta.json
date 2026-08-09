@@ -37,6 +37,38 @@
       ]
     },
     {
+      "slug": "codexloom-agent-team-analysis",
+      "title": {
+        "en": "CodexLoom — From Multi-Agent to Agent Team: Turning AI Agents from Tools into a Real Team",
+        "ja": "CodexLoom — Multi-Agent から Agent Team へ：AI エージェントをツールから真のチームへ",
+        "vi": "CodexLoom — Từ Multi-Agent đến Agent Team: Đưa AI Agent từ công cụ thành một đội ngũ thực thụ",
+        "zh-Hans": "CodexLoom — 从 Multi-Agent 到 Agent Team：让 AI 代理从工具变成一支真正的团队",
+        "zh-Hant": "CodexLoom — 從 Multi-Agent 到 Agent Team：讓 AI 代理從工具變成一支真正的團隊"
+      },
+      "description": {
+        "en": "An in-depth analysis of CodexLoom's Agent Team best practices: why multiple agents do not equal an Agent Team, how to turn agents from one-shot tasks into long-running responsibility holders, and how Profile, Message, Topic, Overview, and External externalize the responsibilities once trapped in the Human's head into a working structure the whole team can use.",
+        "ja": "CodexLoom の Agent Team ベストプラクティスを徹底解説：なぜ複数のエージェントは Agent Team にならないのか、エージェントを一回限りの Task から長期的な責任主体へ変える方法、Profile・Message・Topic・Overview・External の5層構造で、Human の頭の中に集中していた責任をチーム全体が使える作業構造へ外化するプロセス。",
+        "vi": "Giải mã sâu về Agent Team Best Practices của CodexLoom: tại sao nhiều agent không tự động trở thành một Agent Team, cách biến agent từ Task dùng một lần thành các chủ thể chịu trách nhiệm dài hạn, và cấu trúc 5 lớp Profile · Message · Topic · Overview · External để chuyển trách nhiệm từ trong đầu Human ra thành cấu trúc làm việc mà cả đội có thể dùng chung.",
+        "zh-Hans": "深度解析 CodexLoom 的 Agent Team 最佳实践：为什么多个 Agent 不等于 Agent Team，怎样让 Agent 从一次性 Task 变成长期责任主体，通过 Profile、Message、Topic、Overview、External 五层结构，把原本集中在 Human 脑中的责任外化成整支团队可用的工作结构。",
+        "zh-Hant": "深度解析 CodexLoom 的 Agent Team 最佳實踐：為什麼多個 Agent 不等於 Agent Team，怎樣讓 Agent 從一次性 Task 變成長期責任主體，透過 Profile、Message、Topic、Overview、External 五層結構，把原本集中在 Human 腦中的責任外化成整支團隊可用的工作結構。"
+      },
+      "date": "2026-08-09T00:00:00.000Z",
+      "author": "topdigg-web-miner",
+      "tags": [
+        "AI Agent",
+        "Agent Team",
+        "Multi-Agent",
+        "Codex",
+        "CodexLoom",
+        "Team Governance",
+        "AI Collaboration"
+      ],
+      "categories": [
+        "AI Tools",
+        "Development Efficiency"
+      ]
+    },
+    {
       "slug": "harbor-framework-analysis",
       "title": {
         "en": "Harbor Framework Deep Dive: Building an 'Exam Hall' for AI — From Terminal-Bench to Agent Evaluation",

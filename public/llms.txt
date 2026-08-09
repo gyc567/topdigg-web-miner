@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-09T08:59:26.155Z
+Generated: 2026-08-09T10:10:46.134Z
 
 ## Site Overview
 
@@ -26,6 +26,12 @@ URL: https://topdigg.com/blog/claude-code-engineering-team-analysis | Date: 2026
 Tags: Claude Code, AI Agent, gstack, Superpowers, Compound Engineering, ECC, Garry Tan, Jesse Vincent, Developer Tools, AI Workflow, TDD, Open Source
 
 A complete breakdown of the four Claude Code enhancement tools integrated in the eric-claude-code-dev project: gstack (YC CEO Garry Tan's software factory with 15 specialized roles), Superpowers (GitHub ex-CTO Jesse Vincent's auto-triggered development workflow), Compound Engineering (Every's compou
+
+### CodexLoom — From Multi-Agent to Agent Team: Turning AI Agents from Tools into a Real Team
+URL: https://topdigg.com/blog/codexloom-agent-team-analysis | Date: 2026-08-09T00:00:00.000Z | Author: topdigg-web-miner
+Tags: AI Agent, Agent Team, Multi-Agent, Codex, CodexLoom, Team Governance, AI Collaboration
+
+An in-depth analysis of CodexLoom's Agent Team best practices: why multiple agents do not equal an Agent Team, how to turn agents from one-shot tasks into long-running responsibility holders, and how Profile, Message, Topic, Overview, and External externalize the responsibilities once trapped in the
 
 ### Harbor Framework Deep Dive: Building an 'Exam Hall' for AI — From Terminal-Bench to Agent Evaluation
 URL: https://topdigg.com/blog/harbor-framework-analysis | Date: 2026-08-09 | Author: TopDigg Research Team
@@ -75,12 +81,6 @@ Tags: OpenCodeReview, AI Code Review, Alibaba, Open Source, Code Quality, LLM Ag
 
 Comprehensive analysis of OpenCodeReview — Alibaba's open-source AI code review CLI tool. Deep exploration of its hybrid architecture design philosophy, deterministic engineering + LLM Agent fusion, precise line-level commenting, and how it served tens of thousands of developers at Alibaba while ide
 
-### open·kritt Deep Analysis: Orchestrating AI Agents to Discover Real Code Vulnerabilities
-URL: https://topdigg.com/blog/open-kritt-analysis-report | Date: 2026-08-08 | Author: TopDigg Research Team
-Tags: open-kritt, AI Security, Vulnerability Detection, Bug Bounty, AI Agent, Security Research, Code Analysis
-
-A comprehensive analysis of open·kritt, an open-source AI security research platform that breaks down complex security audits into small, focused tasks executed by multiple AI agents in parallel, producing deduplicated, ranked, and verifiable security findings. The platform's core ideas come from re
-
 ## Twitter Analysis Reports
 
 ###  (@)
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 72 blog posts | 4 Twitter analyses
+End of llms.txt | 73 blog posts | 4 Twitter analyses
