@@ -77,23 +77,29 @@
     {
       "slug": "herdr-analysis-report",
       "title": {
-        "zh-Hans": "Herdr — 编程智能体的\"栖息地\"，让 AI 代理永不中断"
+        "en": "Herdr — The \"Habitat\" for Coding Agents, Keeping AI Agents Running Forever",
+        "ja": "Herdr — AIコーディングエージェントの「住処」、AIエージェントを不掉線に保つ",
+        "zh-Hans": "Herdr — 编程智能体的\"栖息地\"，让 AI 代理永不中断",
+        "zh-Hant": "Herdr — 編程智慧體的「棲息地」，讓 AI 代理永不掉線"
       },
       "description": {
-        "zh-Hans": "深度解析 Herdr 项目：一款让 AI 编程代理永不掉线的终端工作区管理器，支持 Claude Code、Codex、Cursor 等主流代理，内置 Rust 编写、零 Electron、开源免费。"
+        "en": "In-depth analysis of Herdr: a terminal workspace manager that keeps AI coding agents running continuously, supporting Claude Code, Codex, Cursor, and more. Built with Rust, no Electron, open source and free.",
+        "ja": "Herdrプロジェクトの深掘り：Claude Code、Codex、Cursorなどの主流エージェントをサポートし、Rustで書かれた、Electron不要の terminalespace管理ツール。",
+        "zh-Hans": "深度解析 Herdr 项目：一款让 AI 编程代理永不掉线的终端工作区管理器，支持 Claude Code、Codex、Cursor 等主流代理，内置 Rust 编写、零 Electron、开源免费。",
+        "zh-Hant": "深度解析 Herdr 專案：一款讓 AI 編程代理永不掉線的終端工作區管理器，支援 Claude Code、Codex、Cursor 等主流代理，Rust 編寫、零 Electron、开源免费。"
       },
       "date": "2026-08-09T00:00:00.000Z",
       "author": "topdigg-web-miner",
       "tags": [
         "AI Agent",
-        "终端工具",
-        "开发环境",
+        "Terminal Tools",
+        "Development Environment",
         "Rust",
         "Herdr"
       ],
       "categories": [
-        "AI工具",
-        "开发效率"
+        "AI Tools",
+        "Development Efficiency"
       ]
     },
     {

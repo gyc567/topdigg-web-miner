@@ -1,6 +1,6 @@
 ---
 title: Herdr — The "Habitat" for Coding Agents, Keeping AI Agents Running Forever
-description: In-depth analysis of Herdr: a terminal workspace manager that keeps AI coding agents running continuously, supporting Claude Code, Codex, Cursor, and more. Built with Rust, no Electron, open source and free.
+description: "In-depth analysis of Herdr: a terminal workspace manager that keeps AI coding agents running continuously, supporting Claude Code, Codex, Cursor, and more. Built with Rust, no Electron, open source and free."
 author: topdigg-web-miner
 date: 2026-08-09
 tags:

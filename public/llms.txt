@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-08T14:11:31.720Z
+Generated: 2026-08-09T08:59:26.155Z
 
 ## Site Overview
 
@@ -21,6 +21,24 @@ We cover trending topics and business opportunities across Reddit, YouTube, and 
 
 ## Latest Blog Posts (10 most recent)
 
+### Claude Code Enhancement Suite Deep Dive: gstack · Superpowers · Compound Engineering · ECC — Turning Your AI Assistant into a 20-Person Virtual Engineering Team
+URL: https://topdigg.com/blog/claude-code-engineering-team-analysis | Date: 2026-08-09 | Author: TopDigg Research Team
+Tags: Claude Code, AI Agent, gstack, Superpowers, Compound Engineering, ECC, Garry Tan, Jesse Vincent, Developer Tools, AI Workflow, TDD, Open Source
+
+A complete breakdown of the four Claude Code enhancement tools integrated in the eric-claude-code-dev project: gstack (YC CEO Garry Tan's software factory with 15 specialized roles), Superpowers (GitHub ex-CTO Jesse Vincent's auto-triggered development workflow), Compound Engineering (Every's compou
+
+### Harbor Framework Deep Dive: Building an 'Exam Hall' for AI — From Terminal-Bench to Agent Evaluation
+URL: https://topdigg.com/blog/harbor-framework-analysis | Date: 2026-08-09 | Author: TopDigg Research Team
+Tags: Harbor, Terminal-Bench, AI Agent, Benchmark, LLM, Evaluation, Agent Framework, Terminal-Bench 2.0, Claude Code, Daytona, RewardKit, MCP, Docker, Machine Learning
+
+A comprehensive analysis of Harbor Framework (by laude-institute): an open-source framework that lets AI Agents be fairly evaluated inside 'containerized exam rooms' — explained so clearly that even a beginner can follow along. Using plain-language analogies, this article walks through the core conc
+
+### Herdr — The "Habitat" for Coding Agents, Keeping AI Agents Running Forever
+URL: https://topdigg.com/blog/herdr-analysis-report | Date: 2026-08-09T00:00:00.000Z | Author: topdigg-web-miner
+Tags: AI Agent, Terminal Tools, Development Environment, Rust, Herdr
+
+In-depth analysis of Herdr: a terminal workspace manager that keeps AI coding agents running continuously, supporting Claude Code, Codex, Cursor, and more. Built with Rust, no Electron, open source and free.
+
 ### What Is an AI Agent? Notes on 'Understanding AI Agent' That Even an Elementary Schooler Can Understand
 URL: https://topdigg.com/blog/ai-agent-book-analysis | Date: 2026-08-08 | Author: TopDigg Research Team
 Tags: AI Agent, LLM, Context Engineering, MCP, RAG, Coding Agent, Reinforcement Learning, Multi-Agent Collaboration, Open Source Book, Bo Jie Li
@@ -39,6 +57,12 @@ Tags: Cloudflare OS, AI Productivity, Cloudflare Workers, Open Source, Sandbox S
 
 Comprehensive analysis of Cloudflare OS — Cloudflare's open-source AI productivity environment. Deep exploration of its design philosophy, Gadget sandbox architecture, Gatekeeper security framework, async human-in-the-loop mechanisms, and why it represents the future paradigm of SaaS software.
 
+### Codex-Orchestration Deep Dive: How One Plugin Embeds Fable 5, Opus 5, and Kimi K3 Into Codex So Every AI Plays a Different Role in Collaborative Development
+URL: https://topdigg.com/blog/codex-orchestration-analysis | Date: 2026-08-08 | Author: TopDigg Research Team
+Tags: Codex-Orchestration, Codex, OpenAI, Multi-Agent, Claude Fable 5, Claude Opus 5, Kimi K3, OpenRouter, MCP, Model Routing, AI Agent, Python, Role-Based Agent
+
+A comprehensive analysis of Cjbuilds/Codex-Orchestration (580+ stars). This open-source plugin introduces Planner, Advisor, Designer, and Executor roles into a Codex task — letting Claude Fable 5 plan, Opus 5 review, Kimi K3 design, and GPT-5.6 Luna implement. Covers the three core problems it solve
+
 ### Oh My Hermes Deep Dive: A Multi-Agent Orchestration Framework That Turns Multiple AIs Bickering into Engineering Discipline
 URL: https://topdigg.com/blog/oh-my-hermes-analysis | Date: 2026-08-08 | Author: TopDigg Research Team
 Tags: Oh My Hermes, OMH, Hermes Agent, AI Agent, Multi-Agent, 多智能体, Agent Skills, Nous Research, oh-my-claudecode, Orchestration, Consensus Planning
@@ -56,30 +80,6 @@ URL: https://topdigg.com/blog/open-kritt-analysis-report | Date: 2026-08-08 | Au
 Tags: open-kritt, AI Security, Vulnerability Detection, Bug Bounty, AI Agent, Security Research, Code Analysis
 
 A comprehensive analysis of open·kritt, an open-source AI security research platform that breaks down complex security audits into small, focused tasks executed by multiple AI agents in parallel, producing deduplicated, ranked, and verifiable security findings. The platform's core ideas come from re
-
-### Prime Agent Deep Dive: The Self-Improving RLM Programming Agent
-URL: https://topdigg.com/blog/prime-agent-analysis-report | Date: 2026-08-08 | Author: TopDigg Research Team
-Tags: Prime Agent, RLM, AI Programming, Open Source, Continual Learning, Recursive Language Model, Agent-Native, Autonomous Programming, Skills System, PrimeIntellect
-
-Comprehensive analysis of Prime Agent — PrimeIntellect's open-source Recursive Language Model agent. In-depth exploration of its design philosophy, RLM programming model, continual improvement mechanism, skills system, and why it represents the future paradigm of AI programming agents.
-
-### PRO-LONG Deep Dive: Programmatic Memory Enables Long-Horizon Reasoning
-URL: https://topdigg.com/blog/pro-long-analysis-report | Date: 2026-08-08 | Author: TopDigg Research Team
-Tags: PRO-LONG, LLM Agent, Programmatic Memory, Long-Horizon Reasoning, ARC-AGI-3, Context Management, Open Source, AI, Fable, Agent Memory
-
-Comprehensive analysis of PRO-LONG — a minimal programmatic memory framework for LLM agents. In-depth exploration of its design philosophy, single-file log architecture, code retrieval mechanism, breakthrough performance on ARC-AGI-3, and why it represents the future paradigm of agent memory systems
-
-### Agent Plugins Deep Dive: A Vendor-Neutral Plugin Packaging Standard for AI Agents — Co-Driven by Amazon, Cursor, Microsoft, OpenAI, and Vercel
-URL: https://topdigg.com/blog/agent-plugins-analysis | Date: 2026-08-07 | Author: TopDigg Research Team
-Tags: Agent Plugins, AI Agent, MCP, Agent Skills, Plugin, Interoperability, Open Standard, Amazon, OpenAI, Microsoft, Cursor, Vercel
-
-A complete analysis of the Agent Plugins specification v1.0.0 published at agent-plugins.org — an open, vendor-neutral standard for packaging reusable components into portable plugins, defining a shared format for Agent Skills and MCP servers. Core idea: every AI agent client has invented its own pl
-
-### npm Supply Chain Crisis Deep Dive: The Only Package Manager Where This 'Regularly Happens' — From event-stream to Systemic Ecosystem Risk
-URL: https://topdigg.com/blog/npm-supply-chain-crisis-analysis | Date: 2026-08-07 | Author: TopDigg Research Team
-Tags: npm, Supply Chain Security, JavaScript, Security, Open Source, Package Manager, Event Stream, Dependency Confusion, Typosquatting
-
-Using Kevin Patel's satirical blog post 'No Way To Prevent This' (2026-05-15) as an entry point, this article provides a comprehensive analysis of npm supply chain attack mechanics. Core thesis: npm's 'no way to prevent this' posture is not a technical limitation but a deliberate structural choice —
 
 ## Twitter Analysis Reports
 
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 68 blog posts | 4 Twitter analyses
+End of llms.txt | 72 blog posts | 4 Twitter analyses
