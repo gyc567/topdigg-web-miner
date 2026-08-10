@@ -29,12 +29,27 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://topdigg.com/blog/agents-in-orbs-analysis</loc>
+    <lastmod>2026-08-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://topdigg.com/blog/awesome-agent-trading-analysis</loc>
     <lastmod>2026-08-10</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://topdigg.com/blog/fde-guide-analysis</loc>
+    <lastmod>2026-08-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://topdigg.com/blog/graph-engineering-guide-2026-analysis</loc>
+    <lastmod>2026-08-10</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/terminal-bench-2-analysis</loc>
     <lastmod>2026-08-10</lastmod>
     <priority>0.8</priority>
   </url>

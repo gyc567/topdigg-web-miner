@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-10T07:16:53.200Z
+Generated: 2026-08-10T15:51:35.161Z
 
 ## Site Overview
 
@@ -21,17 +21,35 @@ We cover trending topics and business opportunities across Reddit, YouTube, and 
 
 ## Latest Blog Posts (10 most recent)
 
+### Agents in Orbs Deep Dive: When the Agent Learns to Run Code While You're Not at Your Computer — Amp's Remote Orb Hands-On Tutorial, Design Philosophy, and Five Core Insights
+URL: https://topdigg.com/blog/agents-in-orbs-analysis | Date: 2026-08-10 | Author: TopDigg Research Team
+Tags: Amp, Agents in Orbs, Coding Agent, AI Agent, Remote Agent, Orb, amp CLI, amp -ox, amp sync, CLI Agent, Debian 12, OIDC, Webhook, Plugin, TUI, SaaS, Ampcode, DevOps
+
+Based on Amp's official 2026-06-30 announcement Agents in Orbs, the 2026-02-19 editorial The Coding Agent Is Dead, the Orbs User Manual, and the 2026-08-07 price-table post Size the Orbs of Production, this article dissects the product shape, technical details, and design philosophy of Amp's Orb. It
+
 ### The AI Agent Trading Ecosystem, Explained: A Deep Dive into the awesome-agent-trading Curated List
 URL: https://topdigg.com/blog/awesome-agent-trading-analysis | Date: 2026-08-10 | Author: TopDigg Research Team
 Tags: AI Agent, Agent Trading, Automated Trading, Quantitative Trading, DeFi, MCP, TradingAgents, FinGPT, OpenClaw, Agent Economy
 
 An in-depth analysis of the awesome-agent-trading GitHub curated list: from 17 Agent frameworks and 20 OpenClaw trading skills to 8 MCP servers and Agent identity and payment protocols — a complete walkthrough of the AI Agent trading ecosystem. Includes the core idea, project overview, a step-by-ste
 
+### FDE Guide Deep Dive: Engineering Value Before Autonomy — A Production-Grade Delivery Methodology for FDEs and AI Engineers (Project Overview + 7-Stage Delivery Loop + 12-Factor Value Engineering Tutorial + Design Philosophy)
+URL: https://topdigg.com/blog/fde-guide-analysis | Date: 2026-08-10 | Author: TopDigg Research Team
+Tags: FDE, Forward Deployed Engineering, AI Value Engineering, Production AI, AI Agent, Value Engineering, 12 Factors, Accepted Outcome, Frugal Architecture, Intelligence Selection, Agent Architecture, LLM, David Ahmann
+
+Using davidahmann/fde-guide (open-source GitHub project, Apache-2.0, by David Ahmann) as the blueprint, this is a complete analysis of the 'forward-deployed engineer (FDE) and applied-AI delivery' methodology. Core idea in one sentence: **Tokens are an input. Autonomy is a design choice. The accepte
+
 ### Graph Engineering (2026) Deep Dive: Wiring Loops into a Graph — Nodes, Edges, Shared State, and an Honest Hype Check
 URL: https://topdigg.com/blog/graph-engineering-guide-2026-analysis | Date: 2026-08-10 | Author: TopDigg Research Team
 Tags: Graph Engineering, AI Agent, Loop Engineering, LangGraph, AutoGen, Google ADK, A2A, Multi-Agent, Orchestration, AI Engineering, Harness
 
 A complete analysis of AI Builder Club's 'Graph Engineering Guide (2026)' — the mid-2026 paradigm shift on X from a single agent loop to a multi-node agent graph (nodes do the work, edges route between them, shared state flows along the edges). Covers the concept's origin (Peter Steinberger's questi
+
+### Terminal-Bench 2.0 Deep Dive: Moving the Exam Into a Real Terminal — Inspect, Run, Recover, and Why 91.9% Is What It Takes to Be #1
+URL: https://topdigg.com/blog/terminal-bench-2-analysis | Date: 2026-08-10 | Author: TopDigg Research Team
+Tags: Terminal-Bench, Agentic Benchmark, AI Agent, Terminal, Software Engineering, Harbor, Benchmark, Claude, GPT-5.6, DeepSeek
+
+Based on the official tbench.ai site and BenchLM's deep-dive explainer, this article fully dissects Terminal-Bench 2.0 — an agentic software engineering benchmark executed in real terminal environments. It walks through the fundamental difference from chat-style coding benchmarks like HumanEval (mod
 
 ### Claude Code Enhancement Suite Deep Dive: gstack · Superpowers · Compound Engineering · ECC — Turning Your AI Assistant into a 20-Person Virtual Engineering Team
 URL: https://topdigg.com/blog/claude-code-engineering-team-analysis | Date: 2026-08-09 | Author: TopDigg Research Team
@@ -62,24 +80,6 @@ URL: https://topdigg.com/blog/ai-agent-book-analysis | Date: 2026-08-08 | Author
 Tags: AI Agent, LLM, Context Engineering, MCP, RAG, Coding Agent, Reinforcement Learning, Multi-Agent Collaboration, Open Source Book, Bo Jie Li
 
 A plain-language walkthrough of the open-source GitHub book 'Understanding AI Agent: Design Principles and Engineering Practice' (34.5k stars). Explains the core formula Agent = brain + eyes + hands in one article, with the highlights of all 10 chapters, 95 hands-on experiment tutorials, and the boo
-
-### Cloudflare Computer Deep Dive: Give Your Agent a Computer
-URL: https://topdigg.com/blog/cloudflare-computer-analysis-report | Date: 2026-08-08 | Author: TopDigg Research Team
-Tags: Cloudflare Computer, Durable Objects, AI Agent, Virtual Filesystem, SQLite, FUSE, Open Source, Workers, Containers, Cloud Native
-
-Comprehensive analysis of Cloudflare Computer — Cloudflare's open-source virtual filesystem. In-depth exploration of its design philosophy, SQLite persistence architecture, multi-backend execution engines, FUSE mounting mechanism, and why it represents the future paradigm of AI Agent infrastructure.
-
-### Cloudflare OS Deep Dive: Redefining the Productivity Operating System for the AI Era
-URL: https://topdigg.com/blog/cloudflare-os-analysis-report | Date: 2026-08-08 | Author: TopDigg Research Team
-Tags: Cloudflare OS, AI Productivity, Cloudflare Workers, Open Source, Sandbox Security, Gatekeeper, Gadget, Agent Native, SaaS Alternative, Local First
-
-Comprehensive analysis of Cloudflare OS — Cloudflare's open-source AI productivity environment. Deep exploration of its design philosophy, Gadget sandbox architecture, Gatekeeper security framework, async human-in-the-loop mechanisms, and why it represents the future paradigm of SaaS software.
-
-### Codex-Orchestration Deep Dive: How One Plugin Embeds Fable 5, Opus 5, and Kimi K3 Into Codex So Every AI Plays a Different Role in Collaborative Development
-URL: https://topdigg.com/blog/codex-orchestration-analysis | Date: 2026-08-08 | Author: TopDigg Research Team
-Tags: Codex-Orchestration, Codex, OpenAI, Multi-Agent, Claude Fable 5, Claude Opus 5, Kimi K3, OpenRouter, MCP, Model Routing, AI Agent, Python, Role-Based Agent
-
-A comprehensive analysis of Cjbuilds/Codex-Orchestration (580+ stars). This open-source plugin introduces Planner, Advisor, Designer, and Executor roles into a Codex task — letting Claude Fable 5 plan, Opus 5 review, Kimi K3 design, and GPT-5.6 Luna implement. Covers the three core problems it solve
 
 ## Twitter Analysis Reports
 
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 75 blog posts | 4 Twitter analyses
+End of llms.txt | 78 blog posts | 4 Twitter analyses
