@@ -4,11 +4,11 @@
 
 ## Active Plans
 
-- [awesome-agent-trading 生态深度解析博客（5 语言）](plans/awesome-agent-trading-blog.md)
 - [增加越南语（vi）支持](plans/add-vietnamese-locale.md)
 
 ## Completed Plans
 
+- [awesome-agent-trading 生态深度解析博客（5 语言）](plans/awesome-agent-trading-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
 - [Codex-Orchestration 分析报告（5 语言）](plans/codex-orchestration-analysis.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
 - [Harbor Framework 深度解析博客（5 语言）](plans/harbor-framework-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
 
