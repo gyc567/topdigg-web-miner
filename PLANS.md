@@ -4,12 +4,13 @@
 
 ## Active Plans
 
-- [Amp「Agents in Orbs」深度解析博客（5 语言）](plans/agents-in-orbs-blog.md)
 - [FDE Guide 深度解析博客（5 语言）](plans/fde-guide-blog.md)
 - [Terminal-Bench 2.0 深度解析博客（5 语言）](plans/terminal-bench-2-blog.md)
+
 ## Completed Plans
 
 - [Graph Engineering Guide (2026) 深度解析博客（5 语言）](plans/graph-engineering-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
+- [Agents in Orbs 深度解析博客（5 语言）](plans/agents-in-orbs-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
 
 - [awesome-agent-trading 生态深度解析博客（5 语言）](plans/awesome-agent-trading-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
 - [Codex-Orchestration 分析报告（5 语言）](plans/codex-orchestration-analysis.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
