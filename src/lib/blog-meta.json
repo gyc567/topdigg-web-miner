@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "slug": "awesome-agent-trading-analysis",
+      "title": {
+        "en": "The AI Agent Trading Ecosystem, Explained: A Deep Dive into the awesome-agent-trading Curated List",
+        "ja": "AI Agent 取引エコシステム完全解説：awesome-agent-trading 厳選リスト完全ガイド",
+        "vi": "Toàn cảnh hệ sinh thái giao dịch Agent AI: Hướng dẫn chuyên sâu về danh sách tuyển chọn awesome-agent-trading",
+        "zh-Hans": "AI Agent 交易生态全景解析：awesome-agent-trading 精选清单深度指南",
+        "zh-Hant": "AI Agent 交易生態全景解析：awesome-agent-trading 精選清單深度指南"
+      },
+      "description": {
+        "en": "An in-depth analysis of the awesome-agent-trading GitHub curated list: from 17 Agent frameworks and 20 OpenClaw trading skills to 8 MCP servers and Agent identity and payment protocols — a complete walkthrough of the AI Agent trading ecosystem. Includes the core idea, project overview, a step-by-step tutorial from zero to one, key takeaways, and design philosophy.",
+        "ja": "GitHub の厳選リスト awesome-agent-trading を徹底解説：17 の Agent フレームワーク、20 の OpenClaw 取引スキル、8 の MCP サーバーから Agent のアイデンティティと決済プロトコルまで、AI Agent 取引エコシステムの全体像を1本の記事で解説。核心理念、プロジェクト概要、ゼロからの詳しいチュートリアル、要点まとめと設計哲学を収録。",
+        "vi": "Phân tích chuyên sâu danh sách tuyển chọn awesome-agent-trading trên GitHub: từ 17 framework Agent, 20 kỹ năng giao dịch OpenClaw, 8 MCP server đến các giao thức danh tính và thanh toán Agent — bài viết lột tả trọn vẹn bức tranh hệ sinh thái giao dịch Agent AI. Bao gồm ý tưởng cốt lõi, giới thiệu dự án, hướng dẫn chi tiết từ con số không, tổng kết các quan điểm then chốt và triết lý thiết kế.",
+        "zh-Hans": "深度解析 GitHub 精选清单 awesome-agent-trading：从 17 个 Agent 框架、20 个 OpenClaw 交易技能、8 个 MCP 服务器到 Agent 身份与支付协议，一文讲透 AI Agent 交易生态全景。含核心思想、项目说明、从零到一的详细教程、关键观点归纳与设计哲学。",
+        "zh-Hant": "深度解析 GitHub 精選清單 awesome-agent-trading：從 17 個 Agent 框架、20 個 OpenClaw 交易技能、8 個 MCP 伺服器到 Agent 身分與支付協議，一文講透 AI Agent 交易生態全景。含核心思想、項目說明、從零到一的詳細教學、關鍵觀點歸納與設計哲學。"
+      },
+      "date": "2026-08-10",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "AI Agent",
+        "Agent Trading",
+        "Automated Trading",
+        "Quantitative Trading",
+        "DeFi",
+        "MCP",
+        "TradingAgents",
+        "FinGPT",
+        "OpenClaw",
+        "Agent Economy"
+      ],
+      "categories": [
+        "AI Analysis"
+      ]
+    },
+    {
       "slug": "claude-code-engineering-team-analysis",
       "title": {
         "en": "Claude Code Enhancement Suite Deep Dive: gstack · Superpowers · Compound Engineering · ECC — Turning Your AI Assistant into a 20-Person Virtual Engineering Team",

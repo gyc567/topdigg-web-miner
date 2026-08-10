@@ -4,6 +4,7 @@
 
 ## Active Plans
 
+- [awesome-agent-trading 生态深度解析博客（5 语言）](plans/awesome-agent-trading-blog.md)
 - [增加越南语（vi）支持](plans/add-vietnamese-locale.md)
 
 ## Completed Plans

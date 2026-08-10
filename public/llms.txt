@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-09T10:10:46.134Z
+Generated: 2026-08-10T06:47:53.474Z
 
 ## Site Overview
 
@@ -20,6 +20,12 @@ We cover trending topics and business opportunities across Reddit, YouTube, and 
 | External Links | https://topdigg.com/external-links | Curated external resources |
 
 ## Latest Blog Posts (10 most recent)
+
+### The AI Agent Trading Ecosystem, Explained: A Deep Dive into the awesome-agent-trading Curated List
+URL: https://topdigg.com/blog/awesome-agent-trading-analysis | Date: 2026-08-10 | Author: TopDigg Research Team
+Tags: AI Agent, Agent Trading, Automated Trading, Quantitative Trading, DeFi, MCP, TradingAgents, FinGPT, OpenClaw, Agent Economy
+
+An in-depth analysis of the awesome-agent-trading GitHub curated list: from 17 Agent frameworks and 20 OpenClaw trading skills to 8 MCP servers and Agent identity and payment protocols — a complete walkthrough of the AI Agent trading ecosystem. Includes the core idea, project overview, a step-by-ste
 
 ### Claude Code Enhancement Suite Deep Dive: gstack · Superpowers · Compound Engineering · ECC — Turning Your AI Assistant into a 20-Person Virtual Engineering Team
 URL: https://topdigg.com/blog/claude-code-engineering-team-analysis | Date: 2026-08-09 | Author: TopDigg Research Team
@@ -75,12 +81,6 @@ Tags: Oh My Hermes, OMH, Hermes Agent, AI Agent, Multi-Agent, 多智能体, Agen
 
 A complete analysis of the GitHub project witt3rd/oh-my-hermes (OMH) — a multi-agent orchestration skill collection built for Nous Research's Hermes Agent, inspired by oh-my-claudecode but fully rewritten from scratch on Hermes primitives. Core idea: a single AI answering in one pass is prone to bli
 
-### OpenCodeReview Deep Dive: Alibaba's Open-Source AI Code Review Tool with 9x Precision Improvement
-URL: https://topdigg.com/blog/open-code-review-analysis-report | Date: 2026-08-08 | Author: TopDigg Research Team
-Tags: OpenCodeReview, AI Code Review, Alibaba, Open Source, Code Quality, LLM Agent, Hybrid Architecture, CLI Tool, CI/CD, DevOps
-
-Comprehensive analysis of OpenCodeReview — Alibaba's open-source AI code review CLI tool. Deep exploration of its hybrid architecture design philosophy, deterministic engineering + LLM Agent fusion, precise line-level commenting, and how it served tens of thousands of developers at Alibaba while ide
-
 ## Twitter Analysis Reports
 
 ###  (@)
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 73 blog posts | 4 Twitter analyses
+End of llms.txt | 74 blog posts | 4 Twitter analyses
