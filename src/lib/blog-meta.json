@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "slug": "agents-in-orbs-analysis",
+      "title": {
+        "en": "Agents in Orbs Deep Dive: When the Agent Learns to Run Code While You're Not at Your Computer — Amp's Remote Orb Hands-On Tutorial, Design Philosophy, and Five Core Insights",
+        "ja": "Agents in Orbs 徹底解説：エージェントがあなたがコンピュータの前にいない間も自分でコードを書く時代——Amp のリモート Orb ハンズオン、設計思想、5 つの核心インサイト",
+        "vi": "Agents in Orbs phân tích chuyên sâu: Khi agent học cách tự chạy code khi bạn không ngồi trước máy tính — Hướng dẫn thực hành Orb từ xa của Amp, triết lý thiết kế và năm điểm cốt lõi",
+        "zh-Hans": "Agents in Orbs 深度解析：当 agent 学会在你不在电脑前时自己跑代码——Amp 远程 Orb 实操教程、设计哲学与五个核心观点",
+        "zh-Hant": "Agents in Orbs 深度解析（Amp 官方）：把 agent 放進無監督的遠端機器——從 `amp -ox` 到託管式雲端開發，以及「編碼 agent 已死」之後的世界（專案說明 + 完整教學 + 設計哲學）"
+      },
+      "description": {
+        "en": "Based on Amp's official 2026-06-30 announcement Agents in Orbs, the 2026-02-19 editorial The Coding Agent Is Dead, the Orbs User Manual, and the 2026-08-07 price-table post Size the Orbs of Production, this article dissects the product shape, technical details, and design philosophy of Amp's Orb. It covers: (1) what an Orb is — a Debian 12 remote machine that runs Amp agents, billed by the minute, auto-paused after 5 minutes of inactivity; (2) a full hands-on tutorial — the four entry points (Web / CLI `amp -ox` / TUI command palette / plugin `agent.createThread()`), `amp sync <thread>` for two-way sync, `--orb-size` for per-thread sizing, `.agents/setup` and `.agents/resume` lifecycle hooks, OIDC federation, webhooks and portals; (3) the a1 five-tier price grid (a1.tiny/small/medium/large/xxlarge at $0.08/$0.17/$0.33/$0.66/$1.32 per hour); (4) design philosophy — 'unshackle agents from the editor sidebar', 'capability is not authority', 'bill in results not in seats', 'wake on demand, sleep when done', 'let fan-out stop being limited by local resources'; (5) five core insights: a vanished threshold unlocks parallel potential, unattended becomes the default, agents decouple from the editor, self-driven delivery accelerates, billing moves from seats to minutes. Core claim: the stronger the model, the less you should lock it onto a single machine; Orbs is Amp's engineering answer to the agent era.",
+        "ja": "Amp 公式 2026-06-30 発表「Agents in Orbs」、2026-02-19 エディトリアル「The Coding Agent Is Dead」、Orbs ユーザーマニュアル、そして 2026-08-07「Size the Orbs of Production」価格表を基に、Amp「Orb」形態の製品像・技術詳細・設計思想を徹底解説する。記事で扱う内容：① Orb とは何か——Amp エージェントを動かす Debian 12 リモートマシン、分単位課金、5 分アイドルで自動停止；② 完全ハンズオン——Web/CLI `amp -ox`/TUI コマンドパレット/プラグイン `agent.createThread()` の 4 つの入口、`amp sync <thread>` 双方向同期、`--orb-size` によるスレッド単位サイジング、`.agents/setup` と `.agents/resume` のリポジトリライフサイクルフック、OIDC フェデレーション、Webhook と Portal；③ a1 5 段階価格表（a1.tiny/small/medium/large/xxlarge、$0.08/$0.17/$0.33/$0.66/$1.32 /時間）；④ 設計思想——「エージェントをエディタサイドバーから解き放つ」「能力は権限ではない」「結果単位で課金」「オンデマンドで起動し終われば眠る」「fan-out をローカルリソースの制約から解放する」；⑤ 5 つの核心インサイト——閾値の消失が並列潜能を解放する、無人運転が新しいデフォルトになる、エージェントとエディタが分離する、自己駆動のデリバリーが加速する、課金が席から分へ移行する。核心的主張：モデルが強ければ強いほど、単一マシンに閉じ込めてはならない。Orbs は Amp がエージェント時代に提示する工学的回答である。",
+        "vi": "Dựa trên thông báo chính thức ngày 2026-06-30 'Agents in Orbs' của Amp, bài xã luận ngày 2026-02-19 'The Coding Agent Is Dead', Hướng dẫn sử dụng Orbs, và bảng giá ngày 2026-08-07 'Size the Orbs of Production', bài viết phân tích toàn diện hình thái sản phẩm, chi tiết kỹ thuật và triết lý thiết kế của Amp 'Orb'. Nội dung bao gồm: (1) Orb là gì — một máy từ xa Debian 12 chạy Amp agent, tính phí theo phút, tự động tạm dừng sau 5 phút không hoạt động; (2) hướng dẫn thực hành đầy đủ — bốn điểm vào (Web / CLI `amp -ox` / bảng lệnh TUI / plugin `agent.createThread()`), `amp sync <thread>` đồng bộ hai chiều, `--orb-size` chọn kích thước theo thread, hook vòng đời `.agents/setup` và `.agents/resume`, liên kết OIDC, webhook và portal; (3) bảng giá năm cấp a1 (a1.tiny/small/medium/large/xxlarge ở $0,08/$0,17/$0,33/$0,66/$1,32 mỗi giờ); (4) triết lý thiết kế — 'giải phóng agent khỏi thanh bên của trình soạn thảo', 'năng lực không phải quyền lực', 'tính phí theo kết quả chứ không phải theo chỗ ngồi', 'đánh thức theo nhu cầu, ngủ khi xong', 'để fan-out không còn bị giới hạn bởi tài nguyên cục bộ'; (5) năm điểm cốt lõi: ngưỡng biến mất giải phóng tiềm năng song song, không người giám sát trở thành mặc định, agent tách khỏi trình soạn thảo, giao hàng tự thúc đẩy tăng tốc, đơn vị tính phí chuyển từ chỗ ngồi sang phút. Luận điểm cốt lõi: mô hình càng mạnh, bạn càng không nên nhốt nó trên một máy duy nhất; Orbs là câu trả lời kỹ thuật của Amp cho kỷ nguyên agent.",
+        "zh-Hans": "基于 Amp 官方 2026-06-30 公告《Agents in Orbs》、2026-02-19 编辑文《The Coding Agent Is Dead》、Orbs 用户手册与 2026-08-07《Size the Orbs of Production》价格表，全文解析 Amp「Orb」形态的产品形态、技术细节与设计哲学。一文讲透：① Orb 是什么——一台承载 Amp agent 的 Debian 12 远程机器，billed by the minute，5 分钟空闲自动暂停；② 完整上手教程——Web/CLI `amp -ox`/TUI 命令面板/插件 `agent.createThread()` 四种入口、`amp sync <thread>` 双向同步、`--orb-size` 自选规格、`.agents/setup` 与 `.agents/resume` 仓库生命周期钩子、OIDC 联邦、Webhook 与 Portal；③ a1 五档规格与计费表（a1.tiny/small/medium/large/xxlarge，0.08/0.17/0.33/0.66/1.32 美元每小时）；④ 设计哲学——「把 agent 从编辑器侧栏里释放出来」「能力不是权威」「以结果为单位计价」「按需唤醒、用完即睡」「让 fan-out 不再受本地资源约束」；⑤ 五个核心观点：门槛消失释放并行潜能、无人值守成为默认形态、agent 与编辑器解绑、模型自驱交付提速、计费单位从座位到分钟。核心主张：模型越强、越不能把它锁在单台机器里；Orbs 是 Amp 给「agent 时代」给出的工程答案。",
+        "zh-Hant": "以 Amp（ampcode.com，Sourcegraph 團隊背景）官方公告《Agents in Orbs》（Chronicle 新聞，2026-06-30）為藍本，完整解析 Amp 的 Orbs 功能：**遠端機器上無監督執行的 agent**。核心思想：**模型想寫程式碼、執行程式碼，甚至在你不在電腦前的時候**——2026 年 2 月 Amp 宣告『編碼 agent 已死』並殺掉了自家 VS Code/Cursor 編輯器擴充功能，把模型從編輯器側欄解放出來；4 個月後 Orbs 上線：每個新執行緒都得到一個全新的 orb（含程式碼、外掛程式、工具），按分鐘計費（a1.tiny→a1.xxlarge，$0.08-$1.32/小時），5 分鐘無活動自動暫停（暫停不收費）。四個入口：web（Create New Thread + 選 Project）、CLI（`amp -ox \"提示詞\"`）、TUI（`thread: new in orb`）、外掛程式（`agent.createThread({ executor: 'orb' })`）。核心體驗：① 遠端但如本機——可審閱變更、瀏覽檔案、共用 tmux 終端（終端與 agent 共用檔案系統，變更立即對 agent 可見）；② `amp sync <thread>` 把 orb 內變更鏡像到本機 checkout，agent 繼續遠端工作；③ `amp -ox --orb-size` 指定機器大小；④ 生命週期掛鉤 `.agents/setup`（裝依賴/準備產生檔案）與 `.agents/resume`（冪等恢復，阻塞最多 10 秒）；⑤ Portals（認證 URL 暴露 orb 內 Web 服務）與 Webhooks（外部事件喚醒 orb）。『Things change』：當啟動一個不在你機器上的 agent 變得和本機 agent 一樣簡單時，你會用得更多——並行調查 8 個 bug、把 bug 報告變成 agent 與調查而非 ticket、跑長期效能最佳化、不搶佔本機記憶體的測試工作流程。『Time to find out』：未來大量程式碼將在無人監督下由 agent 寫成；有些程式碼永遠需要本機、近距離監督、反覆往返，但模型能獨立寫/跑/測/發布的部分只會增長——把模型限制在單台機器上就是在拖它們後腿。文章包含：專案說明、核心思想、完整教學（四入口 + 功能 + 定價 + 生命週期掛鉤 + Portals/Webhooks/Docker/OIDC）、設計哲學六條、10 條歸納總結的觀點。"
+      },
+      "date": "2026-08-10",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Amp",
+        "Agents in Orbs",
+        "Coding Agent",
+        "AI Agent",
+        "Remote Agent",
+        "Orb",
+        "amp CLI",
+        "amp -ox",
+        "amp sync",
+        "CLI Agent",
+        "Debian 12",
+        "OIDC",
+        "Webhook",
+        "Plugin",
+        "TUI",
+        "SaaS",
+        "Ampcode",
+        "DevOps"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
       "slug": "awesome-agent-trading-analysis",
       "title": {
         "en": "The AI Agent Trading Ecosystem, Explained: A Deep Dive into the awesome-agent-trading Curated List",
@@ -35,6 +77,41 @@
       ]
     },
     {
+      "slug": "fde-guide-analysis",
+      "title": {
+        "en": "FDE Guide Deep Dive: Engineering Value Before Autonomy — A Production-Grade Delivery Methodology for FDEs and AI Engineers (Project Overview + 7-Stage Delivery Loop + 12-Factor Value Engineering Tutorial + Design Philosophy)",
+        "vi": "FDE Guide phân tích chuyên sâu: Kỹ thuật hóa giá trị trước khi có quyền tự chủ — Phương pháp luận giao hàng cấp sản xuất dành cho FDE và kỹ sư AI (Giới thiệu dự án + Vòng giao hàng 7 giai đoạn + Hướng dẫn kỹ thuật giá trị 12 yếu tố + Triết lý thiết kế)",
+        "zh-Hans": "FDE Guide 深度解析：在自主性之前先工程化价值——面向 FDE 与 AI 工程师的生产级交付方法论（项目说明 + 7 阶段交付循环 + 12 因子价值工程教程 + 设计哲学）",
+        "zh-Hant": "FDE Guide 深度解析：在自主性之前先工程化價值——面向 FDE 與 AI 工程師的生產級交付方法論（專案說明 + 7 階段交付循環 + 12 因子價值工程教學 + 設計哲學）"
+      },
+      "description": {
+        "en": "Using davidahmann/fde-guide (open-source GitHub project, Apache-2.0, by David Ahmann) as the blueprint, this is a complete analysis of the 'forward-deployed engineer (FDE) and applied-AI delivery' methodology. Core idea in one sentence: **Tokens are an input. Autonomy is a design choice. The accepted outcome is the product.** The project offers three layers of depth: ① The Guide (a 20-minute mental model: the FDE's four responsibilities = Discovery/Product/Engineering/Operation; one 7-stage delivery loop running throughout = Observe → Charter → Select Mechanism → Build a Controlled Slice → Prove → Launch and Transfer Ownership → Operate, Learn, or Retire); ② The Handbook (lifecycle playbooks + 12-factor AI value engineering: a ledger of 'cost per accepted outcome' and 'realized net value,' with 4 hard gates = owned outcome / credible independent verifier / bounded authority and expected loss / plausible positive value case after full cost, remaining factors scored 0/1/2, where scoring supports conversation but strong factors cannot average away a failed gate); ③ The Engineering Kit (executable assets: the controlled-write reference system invoice-exception — 'the model proposes, trusted software authorizes and commits, a source-of-truth readback proves the result' — including authority policies, tool contracts, a threat model, regression tests, and release evidence; the hybrid system shipment-risk-triage — classic ML scoring + deterministic routing + optional model explanations + human review — proving AI systems need not be agent-first). Design philosophy: AI has an 'accounting problem' — teams measure tokens, calls, and agent counts rather than changed outcomes; observe real work before designing systems (don't automate the process in a slide deck); 'use AI' is not an architecture decision — decompose by decision and use the smallest sufficient mechanism; capability does not grant authority — the model can only ever propose; value engineering (valuemaxxing) is not about maximizing automation but about maximizing the durable net value obtainable from a verifiable, operable, stoppable system. The article contains: project overview, core ideas, a factor-by-factor tutorial of the 7-stage delivery loop and the 12 factors, architecture breakdowns of two executable examples, five design-philosophy positions, and a 10-point summary of takeaways.",
+        "vi": "Lấy davidahmann/fde-guide (dự án mã nguồn mở GitHub, Apache-2.0, tác giả David Ahmann) làm bản gốc, phân tích toàn diện phương pháp luận 'kỹ sư triển khai tiền phương (FDE) và giao hàng AI ứng dụng nội bộ'. Ý tưởng cốt lõi trong một câu: **Tokens là đầu vào, quyền tự chủ là một lựa chọn thiết kế, kết quả được chấp nhận (Accepted Outcome) mới là sản phẩm.** Dự án cung cấp ba độ sâu: ① The Guide (mô hình tư duy 20 phút: bốn trách nhiệm của FDE = khám phá/sản phẩm/kỹ thuật/vận hành; một vòng giao hàng 7 giai đoạn xuyên suốt = quan sát→hiến chương→chọn cơ chế→xây lát cắt có kiểm soát→chứng minh→lên sóng bàn giao→vận hành học hỏi hoặc ngừng vận hành); ② The Handbook (playbooks vòng đời + kỹ thuật giá trị AI 12 yếu tố: lấy 'chi phí mỗi kết quả được chấp nhận' và 'giá trị ròng đã hiện thực' làm sổ cái, 4 cổng cứng = kết quả có chủ sở hữu / người xác minh độc lập đáng tin cậy / quyền hạn và tổn thất dự kiến có giới hạn / đề xuất giá trị dương sau toàn bộ chi phí, các yếu tố còn lại chấm theo 0/1/2, điểm số hỗ trợ đối thoại nhưng yếu tố mạnh không thể làm trung bình hóa cổng đã thất bại); ③ The Engineering Kit (tài sản thực thi: hệ thống tham chiếu ghi có kiểm soát invoice-exception — 'mô hình đề xuất, phần mềm đáng tin cậy ủy quyền và cam kết, đọc lại nguồn sự thật chứng minh kết quả', bao gồm chính sách quyền hạn, hợp đồng công cụ, mô hình mối đe dọa, kiểm thử hồi quy và bằng chứng phát hành; hệ thống hỗn hợp shipment-risk-triage — chấm điểm ML cổ điển + định tuyến tất định + giải thích mô hình tùy chọn + xem xét thủ công, chứng minh hệ thống AI không nhất thiết phải ưu tiên agent). Triết lý thiết kế: AI có 'vấn đề kế toán' — đội ngũ đo lường token, lời gọi, số agent thay vì kết quả được thay đổi; quan sát công việc thực tế trước khi thiết kế hệ thống (đừng tự động hóa quy trình trên slide thuyết trình); 'dùng AI' không phải quyết định kiến trúc, phân rã theo quyết định và dùng cơ chế tối giản đủ dùng; năng lực không bằng quyền hạn, mô hình mãi mãi chỉ có thể đề xuất; kỹ thuật hóa giá trị (valuemaxxing) không phải tối đa hóa tự động hóa, mà là tối đa hóa giá trị ròng bền vững có thể thu được từ một hệ thống được xác minh, vận hành và dừng lại được. Bài viết bao gồm: giới thiệu dự án, ý tưởng cốt lõi, hướng dẫn từng yếu tố của vòng giao hàng 7 giai đoạn và 12 yếu tố, phân rã kiến trúc của hai ví dụ thực thi, năm nguyên tắc triết lý thiết kế, và 10 quan điểm tổng kết.",
+        "zh-Hans": "以 davidahmann/fde-guide（GitHub 开源项目，Apache-2.0，作者 David Ahmann）为蓝本，完整解析'前向部署工程师（FDE）与内部应用型 AI 交付'的方法论。核心思想一句话：**Tokens 是输入，自主性是设计选择，被接受的结果（Accepted Outcome）才是产品。** 项目提供三层深度：① The Guide（20 分钟心智模型：FDE 的四项职责 = 发现/产品/工程/运营；一条贯穿始终的 7 阶段交付循环 = 观察→章程→选机制→建受控切片→证明→上线移交→运营学习或退役）；② The Handbook（生命周期 playbooks + 12 因子 AI 价值工程：以'每被接受结果成本'与'已实现净价值'为账本，4 个硬门禁 = 有主的结果 / 可信的独立验证者 / 有界的权威与预期损失 / 全成本后仍为正的价值主张，其余因子按 0/1/2 评分，评分支持对话但强因子不能平均掉失败的门禁）；③ The Engineering Kit（可执行资产：受控写入参考系统 invoice-exception——'模型提议，可信软件授权并提交，真相源回读证明结果'，含权威策略、工具契约、威胁模型、回归测试与发布证据；混合系统 shipment-risk-triage——经典 ML 打分 + 确定性路由 + 可选模型解释 + 人工审查，证明 AI 系统不必 agent 优先）。设计哲学：AI 有'记账问题'——团队度量 token、调用、agent 数而非改变的结果；先观察真实工作再设计系统（别自动化幻灯片里的流程）；'用 AI'不是架构决策，按决策分解并用最小充分机制；能力不等于权威，模型永远只能提议；价值工程化（valuemaxxing）不是最大化自动化，而是最大化可从被验证、可运营、可停止的系统获得的持久净价值。文章包含：项目说明、核心思想、7 阶段交付循环与 12 因子逐条教程、两个可执行示例的架构拆解、设计哲学五条、以及 10 条归纳总结的观点。",
+        "zh-Hant": "以 davidahmann/fde-guide（GitHub 開源專案，Apache-2.0，作者 David Ahmann）為藍本，完整解析「前向部署工程師（FDE）與內部應用型 AI 交付」的方法論。核心思想一句話：**Tokens 是輸入，自主性是設計選擇，被接受的結果（Accepted Outcome）才是產品。** 專案提供三層深度：① The Guide（20 分鐘心智模型：FDE 的四項職責 = 發現/產品/工程/營運；一條貫穿始終的 7 階段交付循環 = 觀察→章程→選機制→建受控切片→證明→上線移交→營運學習或退役）；② The Handbook（生命週期 playbooks + 12 因子 AI 價值工程：以「每被接受結果成本」與「已實現淨價值」為帳本，4 個硬性門禁 = 有主的結果 / 可信的獨立驗證者 / 有界的權威與預期損失 / 全成本後仍為正的價值主張，其餘因子按 0/1/2 評分，評分支援對話但強因子不能平均掉失敗的門禁）；③ The Engineering Kit（可執行資產：受控寫入參考系統 invoice-exception——「模型提議，可信軟體授權並提交，真相來源回讀證明結果」，含權威策略、工具契約、威脅模型、回歸測試與發布證據；混合系統 shipment-risk-triage——經典 ML 打分 + 確定性路由 + 可選模型解釋 + 人工審查，證明 AI 系統不必 agent 優先）。設計哲學：AI 有「記帳問題」——團隊度量 token、呼叫、agent 數而非改變的結果；先觀察真實工作再設計系統（別自動化簡報投影片裡的流程）；「用 AI」不是架構決策，按決策分解並用最小充分機制；能力不等於權威，模型永遠只能提議；價值工程化（valuemaxxing）不是最大化自動化，而是最大化可從被驗證、可營運、可停止的系統獲得的持久淨價值。文章包含：專案說明、核心思想、7 階段交付循環與 12 因子逐條教學、兩個可執行範例的架構拆解、設計哲學五條、以及 10 條評估總結的觀點。"
+      },
+      "date": "2026-08-10",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "FDE",
+        "Forward Deployed Engineering",
+        "AI Value Engineering",
+        "Production AI",
+        "AI Agent",
+        "Value Engineering",
+        "12 Factors",
+        "Accepted Outcome",
+        "Frugal Architecture",
+        "Intelligence Selection",
+        "Agent Architecture",
+        "LLM",
+        "David Ahmann"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
       "slug": "graph-engineering-guide-2026-analysis",
       "title": {
         "en": "Graph Engineering (2026) Deep Dive: Wiring Loops into a Graph — Nodes, Edges, Shared State, and an Honest Hype Check",
@@ -64,6 +141,38 @@
         "Orchestration",
         "AI Engineering",
         "Harness"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
+      "slug": "terminal-bench-2-analysis",
+      "title": {
+        "en": "Terminal-Bench 2.0 Deep Dive: Moving the Exam Into a Real Terminal — Inspect, Run, Recover, and Why 91.9% Is What It Takes to Be #1",
+        "ja": "Terminal-Bench 2.0 徹底解説：試験を本物のターミナルに移す——環境確認・コマンド実行・エラーからの復帰、そして 91.9% がトップの条件である理由",
+        "zh-Hans": "Terminal-Bench 2.0 深度解析：把考试搬进真实终端——检查环境、跑命令、从报错里爬出来，以及为什么 91.9% 才配得上第一",
+        "zh-Hant": "Terminal-Bench 2.0 深度解析：把考試搬進真實終端——檢查環境、跑命令、從報錯裡爬出來，以及為什麼 91.9% 才配得上第一"
+      },
+      "description": {
+        "en": "Based on the official tbench.ai site and BenchLM's deep-dive explainer, this article fully dissects Terminal-Bench 2.0 — an agentic software engineering benchmark executed in real terminal environments. It walks through the fundamental difference from chat-style coding benchmarks like HumanEval (models no longer just 'answer' with code — they must 'do' an entire terminal workflow: inspect environment → read/edit files → run commands → recover from errors → finish end-to-end), the 89 tasks across software engineering / machine learning / security / data science, a task-by-task anatomy of six representative tasks (compiling a Linux kernel, cracking a 7z hash, training a fasttext model), the BenchLM leaderboard snapshot (GPT-5.6 Sol leads at 91.9%, Claude Mythos 5 at 88.0%, GPT-5.6 Terra at 87.4%), and the design philosophy behind the TB benchmark family (1.0/2.0/2.1/3/Science/Challenges) and the Harbor framework. Core thesis: chat benchmarks ask whether a model can write code; terminal benchmarks ask whether it can act as an agent — check this row first, because a HumanEval-perfect model can still strand an agent halfway through a task.",
+        "ja": "公式 tbench.ai と BenchLM の解説記事を基に、実ターミナル環境で実行される agentic ソフトウェアエンジニアリングベンチマーク「Terminal-Bench 2.0」を完全解説。HumanEval 式のチャット型コーディングベンチマークとの本質的な違い（モデルはコードを「答える」だけでなく、ターミナルワークフロー全体を「やり遂げる」必要がある：環境確認→ファイル読み書き→コマンド実行→エラーからの復帰→エンドツーエンド完了）、89 タスクがカバーする領域（ソフトウェアエンジニアリング/機械学習/セキュリティ/データサイエンス）、代表的な 6 タスクの詳細分析（Linux カーネルコンパイル、7z パスワードクラック、fasttext モデル学習）、BenchLM リーダーボードスナップショットの読み解き（GPT-5.6 Sol 91.9% が首位、Claude Mythos 5 88.0%、GPT-5.6 Terra 87.4%）、TB ベンチマークファミリー（1.0/2.0/2.1/3/Science/Challenges）と Harbor フレームワークの設計思想までを解説。核心となる主張：チャット型ベンチマークは「コードが書けるか」を問い、ターミナル型ベンチマークは「エージェントとして働けるか」を問う——まずこの行を確認せよ。HumanEval 満点のモデルでも、タスクの途中でエージェントを放置しかねない。",
+        "zh-Hans": "以官方 tbench.ai 与 BenchLM 深度解析文章为蓝本，完整解析 Terminal-Bench 2.0——一个在真实终端环境中执行的 agentic 软件工程基准。一文讲透它与 HumanEval 式聊天编码基准的本质区别（模型不再只是「答」代码，而是要「干」完一整条终端工作流：检查环境→读写文件→运行命令→从错误恢复→端到端收尾）、89 个任务覆盖的领域（软件工程/机器学习/安全/数据科学）、六个代表性任务的逐条解剖（编译 Linux 内核、破解 7z 密码、训练 fasttext 模型）、BenchLM 排行榜快照解读（GPT-5.6 Sol 91.9% 领跑、Claude Mythos 5 88.0%、GPT-5.6 Terra 87.4%）、以及 TB 基准家族（1.0/2.0/2.1/3/Science/Challenges）与 Harbor 框架的底层设计哲学。核心主张：聊天基准看的是「会不会写代码」，终端基准看的是「能不能当 agent」——先查这一行，一个 HumanEval 满分模型仍可能把任务做到一半卡死。",
+        "zh-Hant": "以官方 tbench.ai 與 BenchLM 深度解析文章為藍本，完整解析 Terminal-Bench 2.0——一個在真實終端環境中執行的 agentic 軟體工程基準。一文講透它與 HumanEval 式聊天編碼基準的本質區別（模型不再只是「答」程式碼，而是要「幹」完一整條終端工作流：檢查環境→讀寫檔案→執行命令→從錯誤恢復→端到端收尾）、89 個任務覆蓋的領域（軟體工程/機器學習/安全/資料科學）、六個代表性任務的逐條解剖（編譯 Linux 核心、破解 7z 密碼、訓練 fasttext 模型）、BenchLM 排行榜快照解讀（GPT-5.6 Sol 91.9% 領跑、Claude Mythos 5 88.0%、GPT-5.6 Terra 87.4%）、以及 TB 基準家族（1.0/2.0/2.1/3/Science/Challenges）與 Harbor 框架的底層設計哲學。核心主張：聊天基準看的是「會不會寫程式碼」，終端基準看的是「能不能當 agent」——先查這一行，一個 HumanEval 滿分模型仍可能把任務做到一半卡死。"
+      },
+      "date": "2026-08-10",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Terminal-Bench",
+        "Agentic Benchmark",
+        "AI Agent",
+        "Terminal",
+        "Software Engineering",
+        "Harbor",
+        "Benchmark",
+        "Claude",
+        "GPT-5.6",
+        "DeepSeek"
       ],
       "categories": [
         "Deep Dive"
