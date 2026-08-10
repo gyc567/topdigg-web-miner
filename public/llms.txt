@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-10T06:47:53.474Z
+Generated: 2026-08-10T07:16:53.200Z
 
 ## Site Overview
 
@@ -26,6 +26,12 @@ URL: https://topdigg.com/blog/awesome-agent-trading-analysis | Date: 2026-08-10 
 Tags: AI Agent, Agent Trading, Automated Trading, Quantitative Trading, DeFi, MCP, TradingAgents, FinGPT, OpenClaw, Agent Economy
 
 An in-depth analysis of the awesome-agent-trading GitHub curated list: from 17 Agent frameworks and 20 OpenClaw trading skills to 8 MCP servers and Agent identity and payment protocols — a complete walkthrough of the AI Agent trading ecosystem. Includes the core idea, project overview, a step-by-ste
+
+### Graph Engineering (2026) Deep Dive: Wiring Loops into a Graph — Nodes, Edges, Shared State, and an Honest Hype Check
+URL: https://topdigg.com/blog/graph-engineering-guide-2026-analysis | Date: 2026-08-10 | Author: TopDigg Research Team
+Tags: Graph Engineering, AI Agent, Loop Engineering, LangGraph, AutoGen, Google ADK, A2A, Multi-Agent, Orchestration, AI Engineering, Harness
+
+A complete analysis of AI Builder Club's 'Graph Engineering Guide (2026)' — the mid-2026 paradigm shift on X from a single agent loop to a multi-node agent graph (nodes do the work, edges route between them, shared state flows along the edges). Covers the concept's origin (Peter Steinberger's questi
 
 ### Claude Code Enhancement Suite Deep Dive: gstack · Superpowers · Compound Engineering · ECC — Turning Your AI Assistant into a 20-Person Virtual Engineering Team
 URL: https://topdigg.com/blog/claude-code-engineering-team-analysis | Date: 2026-08-09 | Author: TopDigg Research Team
@@ -75,12 +81,6 @@ Tags: Codex-Orchestration, Codex, OpenAI, Multi-Agent, Claude Fable 5, Claude Op
 
 A comprehensive analysis of Cjbuilds/Codex-Orchestration (580+ stars). This open-source plugin introduces Planner, Advisor, Designer, and Executor roles into a Codex task — letting Claude Fable 5 plan, Opus 5 review, Kimi K3 design, and GPT-5.6 Luna implement. Covers the three core problems it solve
 
-### Oh My Hermes Deep Dive: A Multi-Agent Orchestration Framework That Turns Multiple AIs Bickering into Engineering Discipline
-URL: https://topdigg.com/blog/oh-my-hermes-analysis | Date: 2026-08-08 | Author: TopDigg Research Team
-Tags: Oh My Hermes, OMH, Hermes Agent, AI Agent, Multi-Agent, 多智能体, Agent Skills, Nous Research, oh-my-claudecode, Orchestration, Consensus Planning
-
-A complete analysis of the GitHub project witt3rd/oh-my-hermes (OMH) — a multi-agent orchestration skill collection built for Nous Research's Hermes Agent, inspired by oh-my-claudecode but fully rewritten from scratch on Hermes primitives. Core idea: a single AI answering in one pass is prone to bli
-
 ## Twitter Analysis Reports
 
 ###  (@)
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 74 blog posts | 4 Twitter analyses
+End of llms.txt | 75 blog posts | 4 Twitter analyses

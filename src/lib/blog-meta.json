@@ -35,6 +35,41 @@
       ]
     },
     {
+      "slug": "graph-engineering-guide-2026-analysis",
+      "title": {
+        "en": "Graph Engineering (2026) Deep Dive: Wiring Loops into a Graph — Nodes, Edges, Shared State, and an Honest Hype Check",
+        "ja": "Graph Engineering（グラフエンジニアリング）2026 徹底解説：ループをグラフに配線する——ノード、エッジ、共有状態、そして誠実なハイプ検証",
+        "vi": "Graph Engineering (Kỹ thuật đồ thị) 2026 — Phân tích chuyên sâu: Nối các vòng lặp thành một đồ thị — Node, cạnh, trạng thái dùng chung, và một cuộc kiểm chứng hype trung thực",
+        "zh-Hans": "Graph Engineering（图工程）2026 深度解析：把循环织成一张图——节点、边、共享状态，以及一次诚实的炒作检验",
+        "zh-Hant": "Graph Engineering（圖工程）2026 深度解析：把迴圈織成一張圖——節點、邊、共享狀態，以及一次誠實的炒作檢驗"
+      },
+      "description": {
+        "en": "A complete analysis of AI Builder Club's 'Graph Engineering Guide (2026)' — the mid-2026 paradigm shift on X from a single agent loop to a multi-node agent graph (nodes do the work, edges route between them, shared state flows along the edges). Covers the concept's origin (Peter Steinberger's question, @rohit4verse's org-chart metaphor), the nodes/edges/shared-state trio, the loop-vs-graph decision table, the prior art (LangGraph, AutoGen GraphFlow, Google ADK, A2A), the 5 layers of AI engineering (Prompt→Context→Harness→Loop→Graph), and the honest hype check: is graph engineering just slop? Core claim: master the loop first, and only split into a graph when the work forces your hand.",
+        "ja": "AI Builder Club の『Graph Engineering Guide (2026)』を底本に、2026 年半ばに X で爆発した「グラフエンジニアリング」パラダイムを完全解説：単一エージェントのループからマルチノードのエージェントグラフへ（ノードが仕事をし、エッジがルーティングし、共有状態がエッジに沿って流れる）。概念の起源（Peter Steinberger の問い、@rohit4verse の「org chart 組織図」メタファー）、ノード／エッジ／共有状態の三要素、ループとグラフの判断表、先行実装（LangGraph / AutoGen GraphFlow / Google ADK / A2A）の棚卸し、AI エンジニアリングの5層スタック（Prompt→Context→Harness→Loop→Graph）、そして最重要の「グラフエンジニアリングはただの slop か」という誠実な検証——言葉は新しく、仕組みは古く、移行は本物。中核的主張：まずループを極め、仕事そのものが強制するときだけグラフに分解せよ。",
+        "vi": "Dựa trên 'Graph Engineering Guide (2026)' của AI Builder Club, phân tích toàn diện mô hình 'kỹ thuật đồ thị' bùng nổ trên X vào giữa năm 2026: từ một vòng lặp agent đơn lẻ lên đồ thị agent đa node (node làm việc, cạnh định tuyến, trạng thái dùng chung chảy dọc theo cạnh). Bao gồm nguồn gốc khái niệm (câu hỏi của Peter Steinberger, ẩn dụ 'org chart sơ đồ tổ chức' của @rohit4verse), bộ ba node/cạnh/trạng thái dùng chung, bảng quyết định vòng lặp vs đồ thị, tổng quan các nền tảng tiên phong (LangGraph / AutoGen GraphFlow / Google ADK / A2A), 5 tầng kỹ thuật AI (Prompt→Context→Harness→Loop→Graph), và quan trọng nhất — kiểm chứng hype trung thực: kỹ thuật đồ thị có phải chỉ là slop không? Từ mới, cơ chế cũ, sự dịch chuyển là thật. Luận điểm cốt lõi: hãy thành thạo vòng lặp trước, và chỉ tách thành đồ thị khi công việc buộc bạn phải làm.",
+        "zh-Hans": "以 AI Builder Club 的《Graph Engineering Guide (2026)》为蓝本，完整解析 2026 年年中在 X 上爆发的「图工程」范式：从单个 agent 循环升级为多节点 agent 图（节点做事、边路由、共享状态沿边流动）。一文讲透概念起源（Peter Steinberger 之问、@rohit4verse 的「org chart 组织架构图」隐喻）、节点/边/共享状态三要素、循环与图的决策表、LangGraph / AutoGen GraphFlow / Google ADK / A2A 的先行者盘点、AI 工程五层栈（Prompt→Context→Harness→Loop→Graph）、以及最关键的「图工程是不是就是 slop」的诚实检验——字是新的，机制是旧的，迁移是真实的。核心主张：先精通循环，只有当工作本身迫使你拆分时才升级成图。",
+        "zh-Hant": "以 AI Builder Club 的《Graph Engineering Guide (2026)》為藍本，完整解析 2026 年年中在 X 上爆發的「圖工程」典範：從單一 agent 迴圈升級為多節點 agent 圖（節點做事、邊路由、共享狀態沿邊流動）。一文講透概念起源（Peter Steinberger 之問、@rohit4verse 的「org chart 組織架構圖」隱喻）、節點/邊/共享狀態三要素、迴圈與圖的決策表、LangGraph / AutoGen GraphFlow / Google ADK / A2A 的先行者盤點、AI 工程五層棧（Prompt→Context→Harness→Loop→Graph）、以及最關鍵的「圖工程是不是就是 slop」的誠實檢驗——字是新的，機制是舊的，遷移是真實的。核心主張：先精通迴圈，只有當工作本身迫使你拆分時才升級成圖。"
+      },
+      "date": "2026-08-10",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Graph Engineering",
+        "AI Agent",
+        "Loop Engineering",
+        "LangGraph",
+        "AutoGen",
+        "Google ADK",
+        "A2A",
+        "Multi-Agent",
+        "Orchestration",
+        "AI Engineering",
+        "Harness"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
       "slug": "claude-code-engineering-team-analysis",
       "title": {
         "en": "Claude Code Enhancement Suite Deep Dive: gstack · Superpowers · Compound Engineering · ECC — Turning Your AI Assistant into a 20-Person Virtual Engineering Team",

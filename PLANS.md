@@ -5,6 +5,7 @@
 ## Active Plans
 
 - [增加越南语（vi）支持](plans/add-vietnamese-locale.md)
+- [Graph Engineering Guide (2026) 深度解析博客（5 语言）](plans/graph-engineering-blog.md)
 
 ## Completed Plans
 
