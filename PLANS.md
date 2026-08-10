@@ -5,9 +5,10 @@
 ## Active Plans
 
 - [增加越南语（vi）支持](plans/add-vietnamese-locale.md)
-- [Graph Engineering Guide (2026) 深度解析博客（5 语言）](plans/graph-engineering-blog.md)
 
 ## Completed Plans
+
+- [Graph Engineering Guide (2026) 深度解析博客（5 语言）](plans/graph-engineering-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
 
 - [awesome-agent-trading 生态深度解析博客（5 语言）](plans/awesome-agent-trading-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
 - [Codex-Orchestration 分析报告（5 语言）](plans/codex-orchestration-analysis.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
