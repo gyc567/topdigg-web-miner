@@ -33,6 +33,7 @@ export type BlogPost = {
   date: string; // ISO date
   author: string;
   tags: string[];
+  categories: string[];
   content: LocalizedText;
 };
 

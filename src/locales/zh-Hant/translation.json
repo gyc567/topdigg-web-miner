@@ -14,7 +14,15 @@
   },
   "blog": {
     "indexTitle": "博客",
-    "indexDesc": "持續更新高質量內容，助力你從流量走向收益。"
+    "indexDesc": "持續更新高質量內容，助力你從流量走向收益。",
+    "searchPlaceholder": "搜尋文章...",
+    "searchAriaLabel": "搜尋部落格文章",
+    "resultsCount": "找到 {{count}} 篇文章",
+    "noResults": "未找到相關文章",
+    "noResultsHint": "嘗試其他關鍵詞或清除篩選條件",
+    "clearAll": "清除所有篩選",
+    "moreTags": "更多標籤（{{count}}）",
+    "allCategories": "全部分類"
   },
   "post": {
     "notFoundTitle": "未找到",

@@ -14,7 +14,15 @@
   },
   "blog": {
     "indexTitle": "Blog",
-    "indexDesc": "High-quality content to help you turn traffic into revenue."
+    "indexDesc": "High-quality content to help you turn traffic into revenue.",
+    "searchPlaceholder": "Search articles...",
+    "searchAriaLabel": "Search blog posts",
+    "resultsCount": "Found {{count}} articles",
+    "noResults": "No articles found",
+    "noResultsHint": "Try different keywords or clear filters",
+    "clearAll": "Clear all filters",
+    "moreTags": "More tags ({{count}})",
+    "allCategories": "All categories"
   },
   "post": {
     "notFoundTitle": "Not found",

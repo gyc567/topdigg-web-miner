@@ -14,7 +14,15 @@
   },
   "blog": {
     "indexTitle": "Blog",
-    "indexDesc": "Nội dung chất lượng cao giúp bạn biến lưu lượng truy cập thành doanh thu."
+    "indexDesc": "Nội dung chất lượng cao giúp bạn biến lưu lượng truy cập thành doanh thu.",
+    "searchPlaceholder": "Tìm kiếm bài viết...",
+    "searchAriaLabel": "Tìm kiếm bài viết trên blog",
+    "resultsCount": "Tìm thấy {{count}} bài viết",
+    "noResults": "Không tìm thấy bài viết nào",
+    "noResultsHint": "Thử từ khóa khác hoặc xóa bộ lọc",
+    "clearAll": "Xóa tất cả bộ lọc",
+    "moreTags": "Thêm thẻ ({{count}})",
+    "allCategories": "Tất cả danh mục"
   },
   "post": {
     "notFoundTitle": "Không tìm thấy",

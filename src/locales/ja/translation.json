@@ -14,7 +14,15 @@
   },
   "blog": {
     "indexTitle": "ブログ",
-    "indexDesc": "高品質なコンテンツで、トラフィックから収益へ。"
+    "indexDesc": "高品質なコンテンツで、トラフィックから収益へ。",
+    "searchPlaceholder": "記事を検索...",
+    "searchAriaLabel": "ブログ記事を検索",
+    "resultsCount": "{{count}} 件の記事が見つかりました",
+    "noResults": "記事が見つかりませんでした",
+    "noResultsHint": "別のキーワードを試すか、フィルターをクリアしてください",
+    "clearAll": "すべてのフィルターをクリア",
+    "moreTags": "その他のタグ ({{count}})",
+    "allCategories": "すべてのカテゴリ"
   },
   "post": {
     "notFoundTitle": "見つかりません",
