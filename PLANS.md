@@ -4,10 +4,11 @@
 
 ## Active Plans
 
-- [Promptless《Writing code was hard, actually》深度解析博客（5 语言）](plans/promptless-writing-code-blog.md) — 进行中
+（暂无进行中的施工计划）
 
 ## Completed Plans
 
+- [Promptless《Writing code was hard, actually》深度解析博客（5 语言）](plans/promptless-writing-code-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
 - [T3 Code 深度解析博客（5 语言）](plans/t3code-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
 - [FDE Guide 深度解析博客（5 语言）](plans/fde-guide-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
 - [Terminal-Bench 2.0 深度解析博客（5 语言）](plans/terminal-bench-2-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
