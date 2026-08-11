@@ -1,6 +1,41 @@
 {
   "posts": [
     {
+      "slug": "bb-ide-analysis",
+      "title": {
+        "en": "bb Deep Dive: The Agent IDE That Builds Itself — a Programmable Workspace for Orchestrating Every Coding Agent (Project Overview + Quick-Start Tutorial + System Architecture + Design Philosophy)",
+        "ja": "bb 徹底解説：自己構築するエージェント IDE——すべてのプログラミング Agent をオーケストレーションするプログラマブル・ワークスペース（プロジェクト解説 + クイックスタート・チュートリアル + システムアーキテクチャ + 設計哲学）",
+        "vi": "bb Phân tích chuyên sâu: IDE tác tử tự xây dựng chính nó — không gian làm việc có thể lập trình để điều phối mọi tác tử lập trình (Tổng quan dự án + Hướng dẫn khởi động nhanh + Kiến trúc hệ thống + Triết lý thiết kế)",
+        "zh-Hans": "bb 深度解析：能自我构建的智能体 IDE——编排所有编程 Agent 的可编程工作空间（项目说明 + 快速上手教程 + 系统架构 + 设计哲学）"
+      },
+      "description": {
+        "en": "Using get-bb/bb (an MIT-licensed open-source GitHub project, ~1.6k stars) as the subject, this is a complete analysis of 'The agent IDE that builds itself'. Core idea: bb is a programmable workspace for coding agents — users and agents are both first-class operators, and all four surfaces (desktop app, web app, CLI, and HTTP API) are first-class citizens; work runs in threads that you can follow live, steer at any point, or hand off to another agent; agents aren't just orchestrated — they can programmatically drive bb via the SDK/CLI/HTTP API, enabling 'orchestration of orchestrators' and bootstrapping. Project overview: rather than inventing new agents, bb orchestrates the provider CLIs you already have — Claude Code, Codex, Cursor (ACP), Pi, OpenCode, Grok Build, Hermes, etc. (reusing already-authenticated credentials). Quick-start tutorial: npx bb-app@latest → http://localhost:38886; CLI (bb skill list / config / env / ssh-target); Node SDK (BBSdk: spawn a thread → wait idle → output). System architecture: Server (SQLite source of truth + HTTP API + WebSocket event push, itself stateless) → Host daemon (resident on each execution machine, provisions workspaces, runs provider processes) → App → CLI; the data model includes Project/Source, Thread (standard/manager/child delegation), Environment (managed/unmanaged), and Host; two contract packages — @bb/server-contract and @bb/host-daemon-contract — strictly delineate component boundaries. Design philosophy, six principles: users and agents as dual first-class operators, extensible (adapts to your infrastructure rather than forcing you to fork), flexible not rigid (strong defaults + reusable primitives), work anywhere (from single machine to remote/cloud evolution), fast and understandable, easy to trust and adopt (local-first). Takeaways: orchestration over invention, threads as the unit of work, contract-driven architecture, SQLite source of truth + stateless Server, local-first with hosting as incremental extension, anonymous telemetry that can be turned off.",
+        "ja": "get-bb/bb（GitHub のオープンソースプロジェクト、MIT ライセンス、1.6k stars）を題材に、『自己構築するエージェント IDE（The agent IDE that builds itself）』を徹底解説。核心理念：bb はコーディング Agent のためのプログラマブル・ワークスペース（programmable workspace for coding agents）である——ユーザーも Agent も第一級の操作主体（first-class operator）であり、デスクトップ App・Web App・CLI・HTTP API の4つのサーフェスすべてが第一級の地位を持つ。作業はスレッド（thread）の中で実行され、リアルタイム追従・随時の方向転換・別の Agent への引き継ぎができる。Agent はオーケストレーションされるだけでなく、SDK/CLI/HTTP API を通じて bb をプログラム的に利用でき、『オーケストレーターのオーケストレーション』と自己ブートストラップを実現する。プロジェクト解説：新しい Agent を発明するのではなく、既存の Claude Code・Codex・Cursor（ACP）・Pi・OpenCode・Grok Build・Hermes などの provider CLI（認証済みの資格情報を再利用）をオーケストレーションする。クイックスタート・チュートリアル：npx bb-app@latest → http://localhost:38886。CLI（bb skill list / config / env / ssh-target）。Node SDK（BBSdk：スレッドを spawn → wait idle → output）。システムアーキテクチャ：Server（SQLite が真実の源 + HTTP API + WebSocket イベントプッシュ、自身はステートレス）→ Host daemon（各実行マシンに常駐し、workspace を供給し、provider プロセスを実行）→ App → CLI。データモデルには Project/Source、Thread（standard/manager/child 委任）、Environment（managed/unmanaged）と Host が含まれる。2つの契約パッケージ @bb/server-contract と @bb/host-daemon-contract がコンポーネント間の境界を厳密に定義する。設計哲学の6原則：ユーザーと Agent の二重の第一級市民、拡張可能（ユーザーのインフラに適応し、フォークを強要しない）、柔軟で硬直的でない（強力なデフォルト + 再利用可能なプリミティブ）、どこでも作業できる（単一マシンからリモート/クラウドへ進化）、高速かつ理解しやすい、信頼と採用が容易（ローカルファースト）。帰納的見解：オーケストレーションは発明に勝る、スレッドこそ作業単位、契約駆動アーキテクチャ、SQLite 真実の源 + ステートレス Server、ローカルファースト + マネージドは段階的な拡張、匿名テレメトリはオフにできる。",
+        "vi": "Lấy get-bb/bb (dự án nguồn mở trên GitHub, giấy phép MIT, 1,6k stars) làm nền tảng, phân tích toàn diện 'IDE tác tử tự xây dựng chính nó (The agent IDE that builds itself)'. Ý tưởng cốt lõi: bb là một không gian làm việc có thể lập trình dành cho các tác tử lập trình (programmable workspace for coding agents) — người dùng và tác tử đều là những operator công dân hạng nhất, cả bốn bề mặt gồm desktop App, Web App, CLI và HTTP API đều là công dân hạng nhất; công việc chạy trong thread (luồng công việc), có thể theo dõi theo thời gian thực, đổi hướng bất cứ lúc nào, bàn giao cho một tác tử khác; tác tử không chỉ bị điều phối, mà còn có thể sử dụng bb theo cách lập trình qua SDK/CLI/HTTP API, hiện thực hóa 'sự điều phối của kẻ điều phối' và tự khởi động. Tổng quan dự án: không phát minh ra tác tử mới, mà điều phối các provider CLI bạn đã có như Claude Code, Codex, Cursor (ACP), Pi, OpenCode, Grok Build, Hermes (tái sử dụng thông tin xác thực đã xác minh). Hướng dẫn khởi động nhanh: npx bb-app@latest → http://localhost:38886; CLI (bb skill list / config / env / ssh-target); Node SDK (BBSdk: spawn thread → wait idle → output). Kiến trúc hệ thống: Server (SQLite nguồn chân lý + HTTP API + WebSocket đẩy sự kiện, tự thân không trạng thái) → Host daemon (trú tại mỗi máy thực thi, cung cấp workspace, chạy tiến trình provider) → App → CLI; mô hình dữ liệu gồm Project/Source, Thread (standard/manager/child ủy thác), Environment (managed/unmanaged) và Host; hai gói contract @bb/server-contract và @bb/host-daemon-contract phân chia ranh giới thành phần một cách nghiêm ngặt. Triết lý thiết kế sáu nguyên tắc: người dùng và tác tử đều là công dân hạng nhất, có thể mở rộng (thích ứng với hạ tầng của người dùng thay vì ép họ fork), linh hoạt không cứng nhắc (giá trị mặc định mạnh + nguyên thủy tái sử dụng), làm việc ở mọi nơi (tiến hóa từ máy đơn đến từ xa/đám mây), nhanh và dễ hiểu, dễ tin tưởng và áp dụng (ưu tiên cục bộ). Quan điểm tổng kết: điều phối tốt hơn phát minh, thread là đơn vị công việc, kiến trúc hướng contract, SQLite nguồn chân lý + Server không trạng thái, ưu tiên cục bộ + quản lý như phép tăng dần, telemetry ẩn danh có thể tắt.",
+        "zh-Hans": "以 get-bb/bb（GitHub 开源项目，MIT 协议，1.6k stars）为蓝本，完整解析'能自我构建的智能体 IDE（The agent IDE that builds itself）'。核心思想：bb 是一个面向编码 Agent 的可编程工作空间（programmable workspace for coding agents）——用户与 Agent 都是第一公民操作者，桌面 App、Web App、CLI 与 HTTP API 四个表面全部一等公民；工作在线程（thread）中运行，可实时跟随、随时转向、交接给另一个 Agent；Agent 不仅被编排，还能通过 SDK/CLI/HTTP API 程序化地使用 bb，实现'编排者的编排'与自举。项目说明：不发明新 Agent，而是编排你已有的 Claude Code、Codex、Cursor（ACP）、Pi、OpenCode、Grok Build、Hermes 等 provider CLI（复用已认证凭证）。快速上手教程：npx bb-app@latest → http://localhost:38886；CLI（bb skill list / config / env / ssh-target）；Node SDK（BBSdk：spawn 线程→wait idle→output）。系统架构：Server（SQLite 真相源 + HTTP API + WebSocket 事件推送，自身无状态）→ Host daemon（每台执行机常驻，供应 workspace、运行 provider 进程）→ App → CLI；数据模型含 Project/Source、Thread（standard/manager/child 委托）、Environment（managed/unmanaged）与 Host；两个契约包 @bb/server-contract 与 @bb/host-daemon-contract 严格划分组件边界。设计哲学六原则：用户与 Agent 双第一公民、可扩展（适配用户基建而非逼用户分叉）、灵活不僵化（强默认值 + 可复用原语）、随处工作（单机到远程/云演进）、快且可理解、易于信任与采纳（本地优先）。归纳观点：编排优于发明、线程即工作单元、契约驱动架构、SQLite 真相源 + 无状态 Server、本地优先 + 托管为增量扩展、匿名遥测可关闭。"
+      },
+      "date": "2026-08-11",
+      "author": "TopDigg",
+      "tags": [
+        "bb",
+        "Agent IDE",
+        "AI Agent",
+        "Agent Orchestration",
+        "Claude Code",
+        "Codex",
+        "IDE",
+        "DevTools",
+        "Programmable Workspace",
+        "Threads",
+        "Agentic Development",
+        "Monorepo",
+        "Electron"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
       "slug": "agents-in-orbs-analysis",
       "title": {
         "en": "Agents in Orbs Deep Dive: When the Agent Learns to Run Code While You're Not at Your Computer — Amp's Remote Orb Hands-On Tutorial, Design Philosophy, and Five Core Insights",
@@ -224,6 +259,40 @@
         "Claude",
         "GPT-5.6",
         "DeepSeek"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
+      "slug": "writing-code-was-hard-actually-analysis",
+      "title": {
+        "en": "Promptless 'Writing code was hard, actually' Deep Dive: When 'Coding Was Never the Hard Part' Becomes the Hot Take, Time to Settle the Account — Market, Machine, and Engineer",
+        "ja": "Promptless「Writing code was hard, actually」徹底解説：「コードを書くことは元々難しくない」が流行語になった時、そろそろ決算をはっきりさせよう——市場、機械、そしてエンジニア",
+        "vi": "Promptless 'Writing code was hard, actually' phân tích chuyên sâu: Khi 'Code chưa bao giờ là phần khó' trở thành hot take, đã đến lúc chốt sổ — Thị trường, cỗ máy, và kỹ sư",
+        "zh-Hans": "Promptless《Writing code was hard, actually》深度解析：当\"代码从来不是难题\"成为流行叙事，是时候把账算清楚了——市场、机器与工程师",
+        "zh-Hant": "Promptless《Writing code was hard, actually》深度解析：當「程式碼從來不是難題」成為流行敘事，是時候把帳算清楚——市場、機器與工程師"
+      },
+      "description": {
+        "en": "Using Promptless's engineering blog post 'Writing code was hard, actually' as the spine, this article dissects how a 900-word short piece rebuts the viral 2025-2026 narrative that 'writing code was never the hard part.' It walks through: (1) project overview — what Promptless is and why this short piece is worth a deep read; (2) detailed tutorial — four evidence lines (timing, machine, market, engineer) + one honest concession ('this skill is becoming less scarce' ≠ 'this skill was never impressive') + one engineering warning ('engineers built the tool being used to call them trivial'); (3) synthesized insights — the article separates 'AI makes code cheaper' from 'code was always easy'; (4) design philosophy — three postures toward scarcity narratives, historical respect, and engineering identity. Core claim: don't rewrite 'a skill is becoming cheaper' as 'a skill was always trivial' — the former is an honest market assessment, the latter is rewriting history. This short piece offers the cleanest argumentation template for any 'does AI replace / not replace X' debate.",
+        "ja": "Promptless のエンジニアリングブログ記事「Writing code was hard, actually」を主軸に、900 字の短い文章がいかに 2025-2026 年に流行した「コードを書くことは元々難しくない」というナラティブを論破するかを徹底解説する。記事の内容：①プロジェクト概要——Promptless とは何か、なぜこの記事を深く読む価値があるか；②詳細チュートリアル——4 本の証拠ライン（タイミング、機械、市場、エンジニア）+ 1 つの正直な譲歩（「このスキルは希少になっている」≠「このスキルは元々すごくなかった」）+ 1 つのエンジニアへの警鐘（「エンジニアは彼らを平凡と呼ぶ道具を作った」）；③洞察の要約——記事は「AI がコードを安くした」と「コードは元々易しかった」を分ける；④設計哲学——希少性ナラティブへの、歴史への敬意への、エンジニアのアイデンティティへの 3 つの姿勢。核心主張：「スキルが安くなっている」を「スキルは元々平凡だった」と書き換えてはいけない——前者は誠実な市場評価、後者は歴史の書き換え。この短い記事は「AI が誰を置き換え/置き換えないか」の議論に最もクリーンな論証テンプレートを提供する。",
+        "vi": "Lấy bài viết trên blog kỹ thuật của Promptless 'Writing code was hard, actually' làm trục chính, bài phân tích này mổ xẻ cách một bài ngắn 900 từ bác bỏ câu chuyện đang viral 2025-2026 rằng 'viết code chưa bao giờ là phần khó.' Nội dung: (1) tổng quan dự án — Promptless là gì và tại sao bài ngắn này đáng đọc sâu; (2) hướng dẫn chi tiết — bốn đường bằng chứng (thời điểm, cỗ máy, thị trường, kỹ sư) + một nhượng bộ trung thực ('kỹ năng này đang khan hiếm đi' ≠ 'kỹ năng này chưa bao giờ xuất sắc') + một cảnh báo cho kỹ sư ('kỹ sư đã tạo ra công cụ đang được dùng để gọi họ là tầm thường'); (3) tổng hợp quan điểm — bài viết tách 'AI làm code rẻ đi' khỏi 'code vốn đã dễ'; (4) triết lý thiết kế — ba thái độ đối với kể chuyện về sự khan hiếm, sự tôn trọng lịch sử, và bản sắc kỹ sư. Luận điểm cốt lõi: đừng viết lại 'kỹ năng đang trở nên rẻ hơn' thành 'kỹ năng vốn đã tầm thường' — cái trước là đánh giá thị trường trung thực, cái sau là viết lại lịch sử. Bài ngắn này cung cấp khuôn mẫu lập luận sạch nhất cho bất kỳ cuộc tranh luận 'AI có thay thế / không thay thế ai' nào.",
+        "zh-Hans": "以 Promptless 工程博客《Writing code was hard, actually》为主线，深度解析这篇短文如何反驳\"写代码从来不是难题\"这一轮流行叙事。一文讲透：①项目说明——Promptless 是什么、为什么这篇短文值得一读；②详细教程——三条主要证据线（时机、机器、市场）+ 一个正面观察（\"这技能正在变便宜 ≠ 这技能从来不行\"）+ 一个工程警示（\"工程师造了叫他们平凡的工具\"）；③观点归纳——文章把\"AI 让代码变便宜\"和\"代码从来容易\"分开；④设计哲学——对稀缺性叙事、对历史尊重、对工程师身份的三层姿态。核心主张：不要把\"技能变便宜\"改写成\"技能从来平凡\"——前者是诚实的市场评估，后者是改写历史。这篇短文给工程叙事里\"AI 取代/不取代谁\"提供了最干净的论证模板。",
+        "zh-Hant": "以 Promptless 工程部落格《Writing code was hard, actually》為主線，深度解析這篇短文如何反駁「寫程式碼從來不是難題」這一輪流行敘事。一文講透：①專案說明——Promptless 是什麼、為什麼這篇短文值得一讀；②詳細教學——三條主要證據線（時機、機器、市場）+ 一個正面觀察（「這技能正在變便宜 ≠ 這技能從來不行」）+ 一個工程警示（「工程師造了叫他們平凡的工具」）；③觀點歸納——文章把「AI 讓程式碼變便宜」和「程式碼從來容易」分開；④設計哲學——對稀缺性敘事、對歷史尊重、對工程師身分的三層姿態。核心主張：不要把「技能變便宜」改寫成「技能從來平凡」——前者是誠實的市場評估，後者是改寫歷史。這篇短文給工程敘事裡「AI 取代/不取代誰」提供了最乾淨的論證模板。"
+      },
+      "date": "2026-08-10",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Promptless",
+        "writing-code",
+        "AI Engineering",
+        "Software Engineering",
+        "AI Agents",
+        "Engineering Culture",
+        "AI Hype",
+        "Code Generation",
+        "Engineering Identity",
+        "Career"
       ],
       "categories": [
         "Deep Dive"

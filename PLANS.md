@@ -4,7 +4,7 @@
 
 ## Active Plans
 
-（暂无进行中的施工计划）
+- [Promptless《Writing code was hard, actually》深度解析博客（5 语言）](plans/promptless-writing-code-blog.md) — 进行中
 
 ## Completed Plans
 
