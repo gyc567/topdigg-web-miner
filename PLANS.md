@@ -4,7 +4,7 @@
 
 ## Active Plans
 
-（暂无进行中的施工计划）
+- [T3 Code 深度解析博客（5 语言）](plans/t3code-blog.md)
 
 ## Completed Plans
 

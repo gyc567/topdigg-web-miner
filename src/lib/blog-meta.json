@@ -149,6 +149,53 @@
       ]
     },
     {
+      "slug": "t3code-analysis",
+      "title": {
+        "en": "T3 Code Deep Dive: An Open-Source 'Agent Harness Control Surface' That Drives Five Coding Agents — Product Shape, Hands-On Tutorial, and Design Philosophy",
+        "ja": "T3 Code 徹底解説：5 つのコーディングエージェントを制御するオープンソース「agent harness control surface」——製品形態、実戦ハンズオン、設計思想",
+        "vi": "T3 Code phân tích chuyên sâu: Một 'agent harness control surface' mã nguồn mở điều khiển năm coding agent — Hình thái sản phẩm, hướng dẫn thực hành và triết lý thiết kế",
+        "zh-Hans": "T3 Code 深度解析：一个能控制五家 coding agent 的开源\"agent harness control surface\"——产品形态、实操教程与设计哲学",
+        "zh-Hant": "T3 Code 深度解析：一個能控制五家 coding agent 的開源「agent harness control surface」——產品形態、實戰教學與設計哲學"
+      },
+      "description": {
+        "en": "Using pingdotgg/t3code (GitHub 18k+ stars, MIT, open source) as the spine, this article peels back T3 Code layer by layer: (1) project overview — an open-source 'agent harness control surface' that drives Codex / Claude / Cursor / Grok / OpenCode from web + desktop + mobile; (2) hands-on tutorial — `npx t3@latest` startup, desktop install, 5 providers with their login commands, 4 permission modes (Supervised / Auto-accept edits / Auto / Full access), remote access (LAN / Tailscale / T3 Connect / SSH), 4 source-control providers (GitHub / GitLab / Bitbucket / Azure DevOps), WebSocket + OAuth + DPoP authentication, keybindings, and thread pin; (3) technical architecture — Effect RPC WebSocket, event-sourced orchestration (command→decider→event→projector), 5 provider drivers, checkpoint (hidden git ref), 3 queue-backed workers, Rust resource-monitor sidecar; (4) 6 design philosophies — Open at the core, Performance without compromise, Remote ready, Multi-surface, Complexity at the adapter boundary, Event-sourced truth. Core claim: the agent harness is a product shape that needs a control surface, not another agent framework; T3 Code is the engineering realization of that judgment.",
+        "ja": "pingdotgg/t3code（GitHub 18k+ stars、MIT、オープンソース）を主軸に、T3 Code を層ごとに分解する：①プロジェクト概要——Web + デスクトップ + モバイルの 3 表面で Codex/Claude/Cursor/Grok/OpenCode の 5 プロバイダを制御するオープンソース「agent harness control surface」；②ハンズオン——`npx t3@latest` 起動、デスクトップインストール、5 プロバイダのインストールとログイン、4 つの権限モード（Supervised / Auto-accept edits / Auto / Full access）、リモートアクセス（LAN / Tailscale / T3 Connect / SSH）、4 つのソースコントロール（GitHub/GitLab/Bitbucket/Azure DevOps）、WebSocket + OAuth + DPoP 認証、キーバインド、スレッドピン；③技術アーキテクチャ——Effect RPC WebSocket、イベントソーシング・オーケストレーション（command→decider→event→projector）、5 つのプロバイダドライバ、チェックポイント（隠し git ref）、3 つの queue-backed worker、Rust リソース監視サイドカー；④6 つの設計思想——Open at the core、Performance without compromise、Remote ready、Multi-surface、Complexity at the adapter boundary、Event-sourced truth。核心主張：agent harness はフレームワークではなく control surface を必要とする製品形態であり、T3 Code はその判断の工学的実現である。",
+        "vi": "Dùng pingdotgg/t3code (GitHub 18k+ stars, MIT, mã nguồn mở) làm trục chính, bài viết bóc tách T3 Code theo từng lớp: (1) tổng quan dự án — một 'agent harness control surface' mã nguồn mở điều khiển Codex / Claude / Cursor / Grok / OpenCode từ web + desktop + mobile; (2) hướng dẫn thực hành — khởi chạy `npx t3@latest`, cài desktop, 5 provider với lệnh đăng nhập, 4 chế độ phân quyền (Supervised / Auto-accept edits / Auto / Full access), truy cập từ xa (LAN / Tailscale / T3 Connect / SSH), 4 source-control (GitHub/GitLab/Bitbucket/Azure DevOps), xác thực WebSocket + OAuth + DPoP, keybindings và thread pin; (3) kiến trúc kỹ thuật — Effect RPC WebSocket, event-sourced orchestration (command→decider→event→projector), 5 provider driver, checkpoint (hidden git ref), 3 queue-backed worker, sidecar giám sát tài nguyên Rust; (4) 6 triết lý thiết kế — Open at the core, Performance without compromise, Remote ready, Multi-surface, Complexity at the adapter boundary, Event-sourced truth. Luận điểm cốt lõi: agent harness là một hình thái sản phẩm cần control surface, không phải một framework agent khác; T3 Code là hiện thực hóa kỹ thuật của phán đoán đó.",
+        "zh-Hans": "以 pingdotgg/t3code（GitHub 18k+ stars，MIT，开源）为主线，逐层拆解 T3 Code：①项目说明——一个 Web + 桌面 + 移动三端、控制 Codex/Claude/Cursor/Grok/OpenCode 五家 agent provider 的开源 \"agent harness control surface\"；②详细教程——npx t3@latest 启动、桌面安装、5 种 provider 的安装登录、4 种权限模式（Supervised / Auto-accept edits / Auto / Full access）、远程访问（LAN / Tailscale / T3 Connect / SSH）、4 种 source control（GitHub/GitLab/Bitbucket/Azure DevOps）、WebSocket + OAuth + DPoP 鉴权、keybindings 与 thread pin；③技术架构——Effect RPC WebSocket、event-sourced 编排（command→decider→event→projector）、5 个 provider driver、checkpoint（隐藏 git ref）、3 个 queue-backed worker、Rust 资源监控 sidecar；④6 条设计哲学——Open at the core、Performance without compromise、Remote ready、Multi-surface、Complexity at the adapter boundary、Event-sourced truth。核心主张：把 agent harness 当作一种需要 control surface 的产品形态，而不是一种 agent 框架；T3 Code 是这个判断的工程实现。",
+        "zh-Hant": "以 pingdotgg/t3code（GitHub 18k+ stars，MIT，開源）為主線，逐層拆解 T3 Code：①專案說明——一個 Web + 桌面 + 移動三端、控制 Codex/Claude/Cursor/Grok/OpenCode 五家 agent provider 的開源「agent harness control surface」；②詳細教學——npx t3@latest 啟動、桌面安裝、5 種 provider 的安裝登入、4 種權限模式（Supervised / Auto-accept edits / Auto / Full access）、遠端存取（LAN / Tailscale / T3 Connect / SSH）、4 種 source control（GitHub/GitLab/Bitbucket/Azure DevOps）、WebSocket + OAuth + DPoP 認證、keybindings 與 thread pin；③技術架構——Effect RPC WebSocket、event-sourced 編排（command→decider→event→projector）、5 個 provider driver、checkpoint（隱藏 git ref）、3 個 queue-backed worker、Rust 資源監控 sidecar；④6 條設計哲學——Open at the core、Performance without compromise、Remote ready、Multi-surface、Complexity at the adapter boundary、Event-sourced truth。核心主張：把 agent harness 當作一種需要 control surface 的產品形態，而不是一種 agent 框架；T3 Code 是這個判斷的工程實現。"
+      },
+      "date": "2026-08-10",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "T3 Code",
+        "t3code",
+        "pingdotgg",
+        "Agent Harness",
+        "AI Agent",
+        "Coding Agent",
+        "Codex",
+        "Claude Code",
+        "Cursor",
+        "Grok",
+        "OpenCode",
+        "Effect RPC",
+        "Event Sourcing",
+        "Remote Access",
+        "Tailscale",
+        "T3 Connect",
+        "WebSocket",
+        "OAuth",
+        "Clerk",
+        "Electron",
+        "React Native",
+        "Open Source",
+        "MIT"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
       "slug": "terminal-bench-2-analysis",
       "title": {
         "en": "Terminal-Bench 2.0 Deep Dive: Moving the Exam Into a Real Terminal — Inspect, Run, Recover, and Why 91.9% Is What It Takes to Be #1",
