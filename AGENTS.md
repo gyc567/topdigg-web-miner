@@ -190,6 +190,58 @@
 - `STEERING.md`：项目架构与开发工作流全解
 - `AGENTS.md`（本文件）：**代理行为约定**——计划/文档/规范/北极星指标工作流
 
+---
+
+## Graft：每次任务的第一个 Context 层
+
+> 详见 [`docs/graft-loop-integration.md`](docs/graft-loop-integration.md)
+
+### 为什么 Graft 属于 Loop Engineering 的 Observe
+
+每个 Loop Engineering 迭代的第一步是 **Observe（测量当前状态）** — Agent 需要在修改任何代码之前，先了解代码库的当前状态。Graft 把这个步骤从"盲目重新探索"升级为"图谱查询"：
+
+| 旧方式 | Graft 方式 |
+|--------|-----------|
+| `grep` → open → `grep` → open（每次任务从零探索）| `graft ask "where is X handled" --source` |
+| 每次任务消耗 8-15 个 tool calls 重新读代码 | 1 个 tool call，返回精确 file:line + 内联代码 |
+| 每次任务消耗 ~15,000 tokens 重新读代码 | ~500 tokens（61% 节省，实测）|
+
+### 使用规则
+
+**每次任务的第一个 Context 步骤，必须先通过 Graft 获取上下文。**
+
+1. **概念/位置问题** → `graft ask "<what>" --source`
+2. **精确 symbol 搜索** → `graft grep "<symbol>"`
+3. **改前影响评估** → `graft callers <sym> --depth 2`
+4. **重构前全链路分析** → `graft callers <sym> --depth all`
+5. **文件 API 概览** → `graft skeleton <file>`
+6. **新人 onboarding** → `graft map`
+
+**禁止**：在 Graft 能给出答案的情况下，直接用 `grep -rn` / `read` 重新遍历代码库。
+
+**例外**：Graft 不覆盖的场景 — brand-new 未建图文件、全库穷举搜索、精确行级文本搜索。
+
+### 工具返回格式
+
+每个 Graft 工具的输出开头有 `[graft] tokens saved ≈ N` 行。**每次回复末尾必须报告本次节省量**：
+
+```
+🌱 graft saved ~X tokens this turn (N calls)
+```
+
+### 配置
+
+```bash
+# 深构建（可选，需要 API key）
+export GRAFT_API_KEY=sk-...
+export GRAFT_PROVIDER=openai  # 或 anthropic / openrouter 等
+graft build --deep
+```
+
+- Graft 图谱在 `.gitignore` 中（本地缓存，不提交）
+- `.claude/` 由 Git 追踪（`git add .claude && git commit` 后，队友各自运行 `graft build`）
+- 详细配置与原理见 `docs/graft-loop-integration.md`
+
 <!-- rtk-instructions v2 -->
 # RTK (Rust Token Killer) - Token-Optimized Commands
 
