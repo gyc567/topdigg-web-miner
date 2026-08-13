@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-10T15:51:35.161Z
+Generated: 2026-08-13T02:17:48.613Z
 
 ## Site Overview
 
@@ -21,6 +21,48 @@ We cover trending topics and business opportunities across Reddit, YouTube, and 
 
 ## Latest Blog Posts (10 most recent)
 
+### oh-my-claudecode: A Comprehensive Guide to Claude Code's Intelligent Multi-Agent Orchestration Framework
+URL: https://topdigg.com/blog/oh-my-claudecode-analysis | Date: 2026-08-13 | Author: TopDigg
+Tags: oh-my-claudecode, Claude Code, Multi-Agent, Orchestration, TypeScript, AI Agents, Developer Tools, Skills, Team Pipeline
+
+Comprehensive analysis of oh-my-claudecode (38.5k+ stars, MIT, TypeScript) — Claude Code's intelligent multi-agent orchestration framework. Core design philosophy: zero learning curve, multi-agent orchestration, intelligent routing, skill composition. Detailed coverage: 19 specialized agents, 3-tier
+
+### Aura Deep Dive: A Minimal, Testable Rust Coding Agent — Building an Agent with a Single While Loop (Core Idea + Project Overview + Detailed Tutorial + Design Philosophy)
+URL: https://topdigg.com/blog/aura-analysis | Date: 2026-08-12 | Author: TopDigg
+Tags: Aura, Rust, AI Agent, Coding Agent, Agent Architecture, While Loop, Tool Use, Claude Code, RLM, Session, Benchmark, Loop Engineering, KISS, Model Gateway, Error Budget
+
+An in-depth analysis of gyc567/aura (open source project, Rust, MIT license), a 'minimal, testable Rust coding agent'. Core idea: 'Stop prompting. Design the loop. Get a score.' — instead of manually prompting the agent every time, you design the loop structure in advance so the agent runs, reports,
+
+### Freqtrade Deep Dive: After Six Months, Can It Really Make You Money in Crypto? (Core Idea + Project Overview + Detailed Tutorial + Design Philosophy)
+URL: https://topdigg.com/blog/freqtrade-analysis | Date: 2026-08-12 | Author: TopDigg
+Tags: Freqtrade, Quantitative Trading, Crypto, Backtesting, Python, Open Source, Hyperopt, FreqAI, Machine Learning, Trading Bot, CCXT, Telegram Bot, Dry Run, Lookahead Bias, Trading Strategy, Automated Trading
+
+Based on the viral Juejin long-read 'I used Freqtrade for six months — let me tell you whether it can actually make you money in crypto', this is an in-depth analysis of Freqtrade (open source, Python, GPL-3.0, the ceiling-level framework in crypto quant). Core idea: **it is a tool, not an answer** 
+
+### LangGraph Deep Dive: 3 Years of Graph Engineering — A Complete Guide to Building Reliable Agents with Graphs (Core Idea + Project Overview + Detailed Tutorial + Design Philosophy)
+URL: https://topdigg.com/blog/langchain-graph-engineering-analysis | Date: 2026-08-12 | Author: TopDigg
+Tags: LangGraph, Graph Engineering, AI Agent, Agent Architecture, LangChain, Loop Engineering, Multi-Agent, Orchestration, State Machine, Cognitive Architecture, Harness, Agentic Systems
+
+Based on the official LangChain blog post '3 Years of Graph Engineering with LangGraph' (Harrison Chase & Sydney Runkle, 2026-07-22), this is a complete analysis of the 'graph engineering' paradigm and the LangGraph framework. Core idea: representing agentic systems as graphs lets you (the builder) 
+
+### Raft Deep Dive: Enabling Humans and AI Agents to Collaborate Like Real Teammates (Core Ideas + Project Overview + Tutorial + Design Philosophy)
+URL: https://topdigg.com/blog/raft-analysis | Date: 2026-08-12 | Author: TopDigg
+Tags: Raft, Agent Experience, AX, Multi-Agent, Collaboration, Human-AI, Botiverse, Agent Workspace, Agent Inbox, Held Draft, Agent Native, Teamwork, Design Philosophy
+
+Deep analysis of raft.build's AX design philosophy and Agent-native collaboration platform Raft. Core idea: **Agents are not tools — they are decision-making participants.** Through two key designs — Agent Inbox (pull-based attention) and Held Draft (draft state machine) — Raft enables agents to con
+
+### bb Deep Dive: The Agent IDE That Builds Itself — a Programmable Workspace for Orchestrating Every Coding Agent (Project Overview + Quick-Start Tutorial + System Architecture + Design Philosophy)
+URL: https://topdigg.com/blog/bb-ide-analysis | Date: 2026-08-11 | Author: TopDigg
+Tags: bb, Agent IDE, AI Agent, Agent Orchestration, Claude Code, Codex, IDE, DevTools, Programmable Workspace, Threads, Agentic Development, Monorepo, Electron
+
+Using get-bb/bb (an MIT-licensed open-source GitHub project, ~1.6k stars) as the subject, this is a complete analysis of 'The agent IDE that builds itself'. Core idea: bb is a programmable workspace for coding agents — users and agents are both first-class operators, and all four surfaces (desktop a
+
+### cc-master 深度解析：把任意编码 Agent 会话变成长期项目负责人（项目说明 + 快速上手教程 + 系统架构 + 设计哲学）
+URL: https://topdigg.com/blog/cc-master-analysis | Date: 2026-08-11 | Author: TopDigg
+Tags: cc-master, Claude Code, Codex, Cursor, kimi-code, Agent Orchestration, AI Agent, Long-horizon, Task DAG, Monte Carlo, Project Lead, DevTools, Agent Plugin
+
+以 nemori-ai/cc-master（开源项目，TypeScript，PolyForm Noncommercial 1.0.0 协议）为蓝本，完整解析'把编码 Agent 会话变成长期项目负责人（a project lead for long-running work）'。核心思想：cc-master 把 Claude Code、Codex、Cursor、kimi-code 中任何一个受支持的编码 Agent 会话变成'项目负责人'——你带想法、做少数真正需要你的决策；它负责拆解大目标、并行调度独立子任务、追踪进度与配额，并对照显式目标验收结果。Board（看板）能跨上下文重置与会话交接
+
 ### Agents in Orbs Deep Dive: When the Agent Learns to Run Code While You're Not at Your Computer — Amp's Remote Orb Hands-On Tutorial, Design Philosophy, and Five Core Insights
 URL: https://topdigg.com/blog/agents-in-orbs-analysis | Date: 2026-08-10 | Author: TopDigg Research Team
 Tags: Amp, Agents in Orbs, Coding Agent, AI Agent, Remote Agent, Orb, amp CLI, amp -ox, amp sync, CLI Agent, Debian 12, OIDC, Webhook, Plugin, TUI, SaaS, Ampcode, DevOps
@@ -38,48 +80,6 @@ URL: https://topdigg.com/blog/fde-guide-analysis | Date: 2026-08-10 | Author: To
 Tags: FDE, Forward Deployed Engineering, AI Value Engineering, Production AI, AI Agent, Value Engineering, 12 Factors, Accepted Outcome, Frugal Architecture, Intelligence Selection, Agent Architecture, LLM, David Ahmann
 
 Using davidahmann/fde-guide (open-source GitHub project, Apache-2.0, by David Ahmann) as the blueprint, this is a complete analysis of the 'forward-deployed engineer (FDE) and applied-AI delivery' methodology. Core idea in one sentence: **Tokens are an input. Autonomy is a design choice. The accepte
-
-### Graph Engineering (2026) Deep Dive: Wiring Loops into a Graph — Nodes, Edges, Shared State, and an Honest Hype Check
-URL: https://topdigg.com/blog/graph-engineering-guide-2026-analysis | Date: 2026-08-10 | Author: TopDigg Research Team
-Tags: Graph Engineering, AI Agent, Loop Engineering, LangGraph, AutoGen, Google ADK, A2A, Multi-Agent, Orchestration, AI Engineering, Harness
-
-A complete analysis of AI Builder Club's 'Graph Engineering Guide (2026)' — the mid-2026 paradigm shift on X from a single agent loop to a multi-node agent graph (nodes do the work, edges route between them, shared state flows along the edges). Covers the concept's origin (Peter Steinberger's questi
-
-### Terminal-Bench 2.0 Deep Dive: Moving the Exam Into a Real Terminal — Inspect, Run, Recover, and Why 91.9% Is What It Takes to Be #1
-URL: https://topdigg.com/blog/terminal-bench-2-analysis | Date: 2026-08-10 | Author: TopDigg Research Team
-Tags: Terminal-Bench, Agentic Benchmark, AI Agent, Terminal, Software Engineering, Harbor, Benchmark, Claude, GPT-5.6, DeepSeek
-
-Based on the official tbench.ai site and BenchLM's deep-dive explainer, this article fully dissects Terminal-Bench 2.0 — an agentic software engineering benchmark executed in real terminal environments. It walks through the fundamental difference from chat-style coding benchmarks like HumanEval (mod
-
-### Claude Code Enhancement Suite Deep Dive: gstack · Superpowers · Compound Engineering · ECC — Turning Your AI Assistant into a 20-Person Virtual Engineering Team
-URL: https://topdigg.com/blog/claude-code-engineering-team-analysis | Date: 2026-08-09 | Author: TopDigg Research Team
-Tags: Claude Code, AI Agent, gstack, Superpowers, Compound Engineering, ECC, Garry Tan, Jesse Vincent, Developer Tools, AI Workflow, TDD, Open Source
-
-A complete breakdown of the four Claude Code enhancement tools integrated in the eric-claude-code-dev project: gstack (YC CEO Garry Tan's software factory with 15 specialized roles), Superpowers (GitHub ex-CTO Jesse Vincent's auto-triggered development workflow), Compound Engineering (Every's compou
-
-### CodexLoom — From Multi-Agent to Agent Team: Turning AI Agents from Tools into a Real Team
-URL: https://topdigg.com/blog/codexloom-agent-team-analysis | Date: 2026-08-09T00:00:00.000Z | Author: topdigg-web-miner
-Tags: AI Agent, Agent Team, Multi-Agent, Codex, CodexLoom, Team Governance, AI Collaboration
-
-An in-depth analysis of CodexLoom's Agent Team best practices: why multiple agents do not equal an Agent Team, how to turn agents from one-shot tasks into long-running responsibility holders, and how Profile, Message, Topic, Overview, and External externalize the responsibilities once trapped in the
-
-### Harbor Framework Deep Dive: Building an 'Exam Hall' for AI — From Terminal-Bench to Agent Evaluation
-URL: https://topdigg.com/blog/harbor-framework-analysis | Date: 2026-08-09 | Author: TopDigg Research Team
-Tags: Harbor, Terminal-Bench, AI Agent, Benchmark, LLM, Evaluation, Agent Framework, Terminal-Bench 2.0, Claude Code, Daytona, RewardKit, MCP, Docker, Machine Learning
-
-A comprehensive analysis of Harbor Framework (by laude-institute): an open-source framework that lets AI Agents be fairly evaluated inside 'containerized exam rooms' — explained so clearly that even a beginner can follow along. Using plain-language analogies, this article walks through the core conc
-
-### Herdr — The "Habitat" for Coding Agents, Keeping AI Agents Running Forever
-URL: https://topdigg.com/blog/herdr-analysis-report | Date: 2026-08-09T00:00:00.000Z | Author: topdigg-web-miner
-Tags: AI Agent, Terminal Tools, Development Environment, Rust, Herdr
-
-In-depth analysis of Herdr: a terminal workspace manager that keeps AI coding agents running continuously, supporting Claude Code, Codex, Cursor, and more. Built with Rust, no Electron, open source and free.
-
-### What Is an AI Agent? Notes on 'Understanding AI Agent' That Even an Elementary Schooler Can Understand
-URL: https://topdigg.com/blog/ai-agent-book-analysis | Date: 2026-08-08 | Author: TopDigg Research Team
-Tags: AI Agent, LLM, Context Engineering, MCP, RAG, Coding Agent, Reinforcement Learning, Multi-Agent Collaboration, Open Source Book, Bo Jie Li
-
-A plain-language walkthrough of the open-source GitHub book 'Understanding AI Agent: Design Principles and Engineering Practice' (34.5k stars). Explains the core formula Agent = brain + eyes + hands in one article, with the highlights of all 10 chapters, 95 hands-on experiment tutorials, and the boo
 
 ## Twitter Analysis Reports
 
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 78 blog posts | 4 Twitter analyses
+End of llms.txt | 87 blog posts | 4 Twitter analyses

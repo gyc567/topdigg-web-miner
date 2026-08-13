@@ -1,6 +1,189 @@
 {
   "posts": [
     {
+      "slug": "oh-my-claudecode-analysis",
+      "title": {
+        "en": "oh-my-claudecode: A Comprehensive Guide to Claude Code's Intelligent Multi-Agent Orchestration Framework",
+        "ja": "oh-my-claudecode：Claude Code インテリジェントマルチエージェントオーケストレーショ framework 詳解",
+        "vi": "oh-my-claudecode Phân Tích Sâu: Công Cụ Điều Phối Multi-Agent Cho Claude Code (Ý Tưởng Cốt Lõi + Giới Thiệu + Hướng Dẫn + Triết Lý)",
+        "zh-Hans": "oh-my-claudecode：Claude Code 智能多智能体编排框架详解",
+        "zh-Hant": "oh-my-claudecode：Claude Code 智慧多智慧體編排框架詳解"
+      },
+      "description": {
+        "en": "Comprehensive analysis of oh-my-claudecode (38.5k+ stars, MIT, TypeScript) — Claude Code's intelligent multi-agent orchestration framework. Core design philosophy: zero learning curve, multi-agent orchestration, intelligent routing, skill composition. Detailed coverage: 19 specialized agents, 3-tier model routing, 31 Skills, 5-stage Team Pipeline, Magic Keywords natural language triggering, installation tutorial, team collaboration mode, and best practices.",
+        "ja": "oh-my-claudecode（38.5k+ stars、MIT、TypeScript）を全面解析——Claude Code インテリジェントマルチエージェントオーケストレーショフレームワーク。コア設計哲学：ゼロ学習曲線、マルチエージェントオーケストレーショ、インテリジェントルーティング、スキル組合。詳細：19の専門エージェント、3層モデルルーティング、31のSkills、5段階Team Pipeline、Magic Keywords自然言語トリガー、安装設定教程、团队協調モード、ベストプラクティス。",
+        "vi": "Phân tích sâu Yeachan-Heo/oh-my-claudecode (38.5k stars, MIT, TypeScript, v4.15.7) — hệ thống điều phối multi-agent cho Claude Code. Ý tưởng cốt lõi: 19 Agent chuyên biệt (4 lane) + 3 tầng model routing (haiku/sonnet/opus) + 31 Skills + Team pipeline 5 giai đoạn + Magic Keywords. Triết lý thiết kế: zero learning curve, teams-first orchestration, intelligent routing.",
+        "zh-Hans": "全面解析 oh-my-claudecode（38.5k+ stars，MIT，TypeScript）—— Claude Code 智能多智能体编排框架。核心设计哲学：零学习曲线、多智能体编排、智能路由、技能组合。详细涵盖：19个专业智能体、3档模型路由、31个Skills、五阶段Team Pipeline、Magic Keywords自然语言触发、安装配置教程、团队协作模式、最佳实践。",
+        "zh-Hant": "全面解析 oh-my-claudecode（38.5k+ stars，MIT，TypeScript）—— Claude Code 智慧多智慧體編排框架。核心設計哲學：零學習曲線、多智慧體編排、智慧路由、技能組合。詳細涵蓋：19個專業智慧體、3檔模型路由、31個Skills、五階段Team Pipeline、Magic Keywords自然語言觸發、安裝配置教程、團隊協作模式、最佳實踐。"
+      },
+      "date": "2026-08-13",
+      "author": "TopDigg",
+      "tags": [
+        "oh-my-claudecode",
+        "Claude Code",
+        "Multi-Agent",
+        "Orchestration",
+        "TypeScript",
+        "AI Agents",
+        "Developer Tools",
+        "Skills",
+        "Team Pipeline"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
+      "slug": "aura-analysis",
+      "title": {
+        "en": "Aura Deep Dive: A Minimal, Testable Rust Coding Agent — Building an Agent with a Single While Loop (Core Idea + Project Overview + Detailed Tutorial + Design Philosophy)",
+        "ja": "Aura 徹底解説：最小限でテスト可能な Rust コーディングエージェント——単一の while ループで Agent を構築する（コア思想 + プロジェクト概要 + 詳細チュートリアル + 設計哲学）",
+        "zh-Hans": "Aura 深度解析：一个最小化、可测试的 Rust 编码智能体——用单一 while 循环构建 Agent（核心思想 + 项目说明 + 详细教程 + 设计哲学）",
+        "zh-Hant": "Aura 深度解析：一個最小化、可測試的 Rust 編碼智能體——用單一 while 迴圈構建 Agent（核心思想 + 專案說明 + 詳細教學 + 設計哲學）"
+      },
+      "description": {
+        "en": "An in-depth analysis of gyc567/aura (open source project, Rust, MIT license), a 'minimal, testable Rust coding agent'. Core idea: 'Stop prompting. Design the loop. Get a score.' — instead of manually prompting the agent every time, you design the loop structure in advance so the agent runs, reports, and fixes itself on a fixed cadence, with human gates before any code lands. At the product level, Aura's entire power comes from one repeatedly-validated insight: a single while(tool_use) loop plus a small, sharp toolset is where all of Claude Code's power comes from — complexity should live in the tools, not in the loop structure. Project overview: Aura takes a natural-language task → collects controlled workspace context → runs a while(tool_use) loop on a tokio single-thread runtime → modifies files and runs verification through tools → outputs a change summary + test report; five-layer architecture (L1 CLI presentation → L2 Session layer → L3 Agent while-loop driver → L4 Tool Registry/Policy/Precheck/Reminders → L5 ModelGateway); v1/v1.2/Phase 6-7 all complete, v0.1.0 released (5-platform build matrix + install.sh), 345+ tests green, clippy 0 warnings; references Claude Code (patterns & mechanisms), pi_agent_rust (security model), prime-agent (RLM programming model & session/persistence concepts). Detailed tutorial: quick start (cargo build, --fake-model keyless testing, OpenAI-compatible real API, --json output), core loop invariants (only exit conditions: SIGINT / budget exhausted / ErrorBudget exhausted / model returns non-Call), compilable pseudo-code of the while loop, CLI parameters, config priority (CLI > config.toml > env vars), tool list and two-phase execution (capability gate + regex precheck), tool error backfill + ErrorBudget (default 3) letting the model self-heal, RLM-style subagents (admission handle + background task + ChildRegistry + agent_message), scratchpad persistent working memory, Session layer JSONL transcript + --resume, aura bench framework (run/report/init + 8 seed tasks + isolated workspaces + quantitative metrics), layered compaction, plugin v2 (agent-plugins.org spec + MCP), and the Loop Engineering development methodology (LOOP.md/STATE.md/loop-budget/loop-constraints, L1→L2→L3 evolution).",
+        "ja": "gyc567/aura（オープンソースプロジェクト、Rust、MIT ライセンス）を題材に、「最小限でテスト可能な Rust コーディングエージェント（a minimal, testable Rust coding agent）」を徹底解説。コア思想：「Stop prompting. Design the loop. Get a score.」（プロンプトを送るのをやめ、ループを設計し、スコアを得る）——毎回手動で Agent にプロンプトを送るのではなく、ループ構造を事前に設計し、Agent が固定のリズムで自律的に実行・報告・修正し、人間のゲートを通過した後にのみコードが反映される。製品レベルでは、Aura の力の源泉は繰り返し検証された洞察にある：単一の while(tool_use) ループ ＋ 少数精鋭のツールセットこそ Claude Code の全パワーの源であり、複雑さはループ構造ではなくツールに置くべきだということ。プロジェクト概要：Aura は自然言語のタスクを受け取り → 制御されたワークスペースのコンテキストを収集し → tokio シングルスレッドランタイム上で while(tool_use) ループを実行し → ツールを通じてファイルを変更して検証を実行し → 変更サマリーとテストレポートを出力；5 層アーキテクチャ（L1 CLI プレゼンテーション層 → L2 Session セッション層 → L3 Agent while ループドライバ → L4 ツールレジストリ/能力ゲート/事前チェック/レシート → L5 ModelGateway モデル層）；v1/v1.2/Phase 6-7 すべて完了、v0.1.0 リリース済み（5 プラットフォームビルドマトリクス + install.sh）、345+ テスト全緑、clippy 警告 0；参照プロジェクトは Claude Code（パターンとメカニズム）、pi_agent_rust（セキュリティモデル）、prime-agent（RLM プログラミングモデルとセッション/永続化の思想）。詳細チュートリアル：クイックスタート（cargo build、--fake-model でキー不要のテスト、OpenAI-compatible の実 API、--json 出力）、コアループ不変条件（唯一の終了条件：SIGINT / 予算枯渇 / ErrorBudget 枯渇 / モデルが非 Call を返す）、コンパイル可能な while ループ擬似コード、CLI パラメータ、設定優先度（CLI > config.toml > 環境変数）、ツール一覧と二段階実行（capability gate + regex 事前チェック）、ツールエラー回填＋ ErrorBudget（デフォルト 3 回）によるモデルの自己修復、RLM 式サブエージェント（admission handle + バックグラウンド task + ChildRegistry + agent_message）、scratchpad 永続作業記憶、Session 層 JSONL transcript + --resume、aura bench 評価フレームワーク（run/report/init + 8 シードタスク + 隔離ワークスペース + 定量指標）、compaction 階層コンテキスト、プラグイン v2（agent-plugins.org 仕様 + MCP）、Loop Engineering 開発方法論（LOOP.md/STATE.md/loop-budget/loop-constraints、L1→L2→L3 進化）。設計哲学：15 原則——KISS シンプル優先（「単一ループ + 14 ツールが Claude Code の全パワーの源」、あらゆる設計は「この層を減らせないか」と問う）、高凝集・低結合、明示的な能力境界（ツール内部でのパスホワイトリストの暗黙チェックを禁止）、二段階実行保護、ツール結果レシート（毎回呼び出し後に再注入、一回性の system prompt より N 倍強い）、静的システムリマインダー、テスト可能性優先（新規挙動には必ず単体テスト、モデルはデフォルトで決定論的 fake、100% カバレッジゲート）、インクリメンタル互換、復元可能性（失敗時は現場を保持し自動的な危険なロールバックはしない）、エビデンス駆動の主張（性能/安全/互換性の主張は evidence artifact に紐付ける）、公開 SDK と実装の分離、Graceful な SIGINT 割り込み、パラメータ検証先行、ストリーミング優先、明示的なトランケーション戦略；さらに借用取捨の原則——Claude Code はパターンとメカニズム、pi_agent_rust はセキュリティモデル、prime-agent は RLM プログラミングモデルを提供し、三者共通集合の外にある複雑な能力（トラストライフサイクル、マルチ provider、daemon マルチプロセス、TUI、RPC、Critic、長期記憶）はすべて延期または別仕様化される。",
+        "zh-Hans": "以 gyc567/aura（开源项目，Rust，MIT 协议）为蓝本，完整解析'最小化、可测试的 Rust 编码智能体（a minimal, testable Rust coding agent）'。核心思想：'Stop prompting. Design the loop. Get a score.'（停止提示，设计循环，获得评分）——不靠每次手动给 Agent 发 prompt，而是预先设计好循环结构，让 Agent 按固定节奏自主运行、报告、修复；而单一 while(tool_use) 循环 + 少而精的工具集，正是 Claude Code 全部力量的来源，复杂度应该活在工具里而不是循环结构里。项目说明：Aura 接收用户需求 → 收集受控工作区上下文 → 在 tokio 单线程运行时上运行 while(tool_use) 循环 → 通过工具修改文件并运行验证 → 输出变更摘要 + 测试报告；五层架构（L1 CLI 表现层 → L2 Session 会话层 → L3 Agent while 循环驱动 → L4 工具注册表/能力门禁/预检/回执 → L5 ModelGateway 模型层）；v1/v1.2/Phase 6-7 全部完成，v0.1.0 已发布（5 平台构建矩阵 + install.sh），345+ 测试全绿、clippy 0 警告；参考 Claude Code（模式与机制）、pi_agent_rust（安全模型）、prime-agent（RLM 编程模型与会话持久化理念）。详细教程：快速开始（cargo build、--fake-model 免 key 测试、OpenAI-compatible 真实接口、--json 输出）、核心循环不变量（唯一退出条件：SIGINT/预算耗尽/ErrorBudget 耗尽/模型返回非 Call）、while 循环可编译伪代码、CLI 参数、配置优先级（CLI > config.toml > 环境变量）、工具清单与二阶段执行（capability gate + regex 预检）、工具错误回填 + ErrorBudget（默认 3 次）让模型自愈、RLM 式子代理（admission handle + 后台 task + ChildRegistry + agent_message）、scratchpad 持久工作记忆、Session 层 JSONL transcript + --resume、aura bench 评测框架（run/report/init + 8 种子任务 + 隔离 workspace + 量化指标）、compaction 分层上下文、插件 v2（agent-plugins.org 规范 + MCP）、Loop Engineering 开发方法论（LOOP.md/STATE.md/loop-budget/loop-constraints、L1→L2→L3 演进）。设计哲学：15 条原则——KISS 简洁优先（'单循环 + 14 个工具是 Claude Code 全部的力量来源'，任何设计先问'能不能少这一层'）、高内聚低耦合、显式能力边界（禁止工具内部静默检查路径白名单）、二阶段执行保护、工具结果回执（每次调用后重新注入，比一次性 system prompt 强 N 倍）、静态系统提醒、可测试优先（新增行为必有单测，模型默认用确定性 fake，100% 覆盖率门禁）、增量兼容、可恢复（失败保留现场不自动危险回滚）、证据驱动声明（性能/安全/兼容性声明必须挂 evidence artifact）、公共 SDK 与实现分离、Graceful SIGINT 中断、参数校验先行、流式优先、截断策略明确；以及借鉴取舍原则——Claude Code 提供模式与机制、pi_agent_rust 提供安全模型、prime-agent 提供 RLM 编程模型，三者交集之外的复杂能力（信任生命周期、多 provider、daemon 多进程、TUI、RPC、Critic、长期记忆）一律延后或独立规格化。",
+        "zh-Hant": "以 gyc567/aura（開源專案，Rust，MIT 協定）為藍本，完整解析「最小化、可測試的 Rust 編碼智能體（a minimal, testable Rust coding agent）」。核心思想：「Stop prompting. Design the loop. Get a score.」（停止提示，設計迴圈，獲得評分）——不靠每次手動給 Agent 發 prompt，而是預先設計好迴圈結構，讓 Agent 按固定節奏自主運行、報告、修復；而單一 while(tool_use) 迴圈 + 少而精的工具集，正是 Claude Code 全部力量的來源，複雜度應該活在工具裡而不是迴圈結構裡。專案說明：Aura 接收使用者需求 → 收集受控工作區上下文 → 在 tokio 單執行緒執行緒時上運行 while(tool_use) 迴圈 → 透過工具修改檔案並執行驗證 → 輸出變更摘要 + 測試報告；五層架構（L1 CLI 表現層 → L2 Session 會話層 → L3 Agent while 迴圈驅動 → L4 工具註冊表/能力門禁/預檢/回執 → L5 ModelGateway 模型層）；v1/v1.2/Phase 6-7 全部完成，v0.1.0 已發布（5 平台建置矩陣 + install.sh），345+ 測試全綠、clippy 0 警告；參考 Claude Code（模式與機制）、pi_agent_rust（安全模型）、prime-agent（RLM 程式設計模型與會話持久化理念）。詳細教學：快速開始（cargo build、--fake-model 免 key 測試、OpenAI-compatible 真實介面、--json 輸出）、核心迴圈不變量（唯一退出條件：SIGINT/預算耗盡/ErrorBudget 耗盡/模型回傳非 Call）、while 迴圈可編譯偽程式碼、CLI 參數、設定優先級（CLI > config.toml > 環境變數）、工具清單與二階段執行（capability gate + regex 預檢）、工具錯誤回填 + ErrorBudget（預設 3 次）讓模型自癒、RLM 式子代理（admission handle + 背景 task + ChildRegistry + agent_message）、scratchpad 持久工作記憶、Session 層 JSONL transcript + --resume、aura bench 評測框架（run/report/init + 8 種子任務 + 隔離 workspace + 量化指標）、compaction 分層上下文、外掛 v2（agent-plugins.org 規範 + MCP）、Loop Engineering 開發方法論（LOOP.md/STATE.md/loop-budget/loop-constraints、L1→L2→L3 演進）。設計哲學：15 條原則——KISS 簡潔優先（「單迴圈 + 14 個工具是 Claude Code 全部的力量來源」，任何設計先問「能不能少這一層」）、高內聚低耦合、顯式能力邊界（禁止工具內部靜默檢查路徑白名單）、二階段執行保護、工具結果回執（每次呼叫後重新注入，比一次性 system prompt 強 N 倍）、靜態系統提醒、可測試優先（新增行為必有單測，模型預設用確定性 fake，100% 覆蓋率門禁）、增量相容、可恢復（失敗保留現場不自動危險回滾）、證據驅動聲明（效能/安全/相容性聲明必須掛 evidence artifact）、公共 SDK 與實作分離、Graceful SIGINT 中斷、參數驗證先行、串流優先、截斷策略明確；以及借鑒取捨原則——Claude Code 提供模式與機制、pi_agent_rust 提供安全模型、prime-agent 提供 RLM 程式設計模型，三者交集之外的複雜能力（信任生命週期、多 provider、daemon 多進程、TUI、RPC、Critic、長期記憶）一律延後或獨立規格化。"
+      },
+      "date": "2026-08-12",
+      "author": "TopDigg",
+      "tags": [
+        "Aura",
+        "Rust",
+        "AI Agent",
+        "Coding Agent",
+        "Agent Architecture",
+        "While Loop",
+        "Tool Use",
+        "Claude Code",
+        "RLM",
+        "Session",
+        "Benchmark",
+        "Loop Engineering",
+        "KISS",
+        "Model Gateway",
+        "Error Budget"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
+      "slug": "freqtrade-analysis",
+      "title": {
+        "en": "Freqtrade Deep Dive: After Six Months, Can It Really Make You Money in Crypto? (Core Idea + Project Overview + Detailed Tutorial + Design Philosophy)",
+        "ja": "Freqtrade 徹底解説：半年使って分かった、本当に暗号資産市場で稼げるのか（コア思想 + プロジェクト解説 + 詳細チュートリアル + 設計哲学）",
+        "vi": "Freqtrade Chuyên Sâu: Sau Nửa Năm Dùng Thử, Nó Có Thực Sự Giúp Bạn Kiếm Tiền Trên Thị Trường Crypto? (Ý Tưởng Cốt Lõi + Giới Thiệu Dự Án + Hướng Dẫn Chi Tiết + Triết Lý Thiết Kế)",
+        "zh-Hans": "Freqtrade 深度解析：用了半年，它到底能不能帮你在加密市场赚钱（核心思想 + 项目说明 + 详细教程 + 设计哲学）",
+        "zh-Hant": "Freqtrade 深度解析：用了半年，它到底能不能幫你在加密市場賺錢（核心思想 + 專案說明 + 詳細教學 + 設計哲學）"
+      },
+      "description": {
+        "en": "Based on the viral Juejin long-read 'I used Freqtrade for six months — let me tell you whether it can actually make you money in crypto', this is an in-depth analysis of Freqtrade (open source, Python, GPL-3.0, the ceiling-level framework in crypto quant). Core idea: **it is a tool, not an answer** — it can execute correct ideas better, but it cannot make wrong ideas right; Freqtrade's entire power comes from 'honest backtesting': built-in lookahead-analysis / recursive-analysis commands that actively detect future-data leakage, decisions made only on closed candles (no repainting), and mandatory Dry-Run forward testing, treating overfitting as enemy #1. Project overview: 48.4k stars / 10.1k forks / 111 releases / 31,465 commits, ccxt-based support for 12 spot + 6 futures exchanges, Python 98.4%, five runtime modes (backtesting / Hyperopt / Dry-Run / live / FreqAI), plus a Telegram Bot + FreqUI operations stack. Detailed tutorial: Docker setup (bypassing the TA-Lib compile pitfall) → new-config to generate configuration → new-strategy to write an EMA-cross strategy (populate_indicators / populate_entry_trend / populate_exit_trend) → backtesting → lookahead/recursive checks → the right way to use Hyperopt (20-30% out-of-sample holdout, ≤200 iterations) → Dry-Run → live trading with Telegram ops. Design philosophy: honesty first (anti-cheating built into the tool), a tool not an answer, verification discipline (Dry-Run is a process, not a formality), modular composability (ccxt abstraction + config-driven 50+ fields), an anti-overfitting culture, and AI-assisted thinking without replacing verification. Overall score 7.6/10 — the ceiling of crypto quant, with real barriers to entry; A-share users should choose vnpy.",
+        "ja": "人気の掘金（Juejin）ロングリード『半年 Freqtrade を使って、暗号資産市場で本当に稼げるのかを語る』を基に、Freqtrade（オープンソース、Python、GPL-3.0、暗号資産クオンツ分野の最高水準フレームワーク）を徹底解説。コア思想：**それはツールであって答えではない**——正しいアイデアをより良く実行できるが、間違ったアイデアを正しくはできない。Freqtrade の全ての力は「正直なバックテスト」から来る：未来データ漏洩を能動的に検出する lookahead-analysis / recursive-analysis を内蔵し、確定足のみで判断（リペイントなし）、Dry-Run フォワードテストを必須化し、過学習を最大の敵とみなす。プロジェクト解説：48.4k stars / 10.1k forks / 111 リリース / 31,465 コミット、ccxt ベースで現物 12 取引所 + 先物 6 取引所をサポート、Python 98.4%、5 つの実行モード（バックテスト / Hyperopt / Dry-Run / 本番 / FreqAI）、Telegram Bot + FreqUI の運用スタック。詳細チュートリアル：Docker 環境構築（TA-Lib コンパイルの罠を回避）→ new-config で設定生成 → new-strategy でダブル EMA 戦略を作成（populate_indicators / populate_entry_trend / populate_exit_trend）→ backtesting → lookahead/recursive 検証 → Hyperopt の正しい使い方（サンプル外 20-30% の保留、≤200 イテレーション）→ Dry-Run → 本番と Telegram 運用。設計哲学：正直さ最優先（ツールにアンチチートを内蔵）、ツールであって答えではない、検証の規律（Dry-Run はプロセスであって形ではない）、モジュール化と組み合わせ性（ccxt 抽象 + 設定駆動 50+ フィールド）、反過学習カルチャー、AI は思考を支援しても検証を代替しない。総合スコア 7.6/10——暗号資産クオンツの最高峰だが、参入障壁は現実にある。A 株ユーザーは vnpy を選ぶべき。",
+        "vi": "Dựa trên bài viết dài nổi tiếng trên Juejin 'Tôi dùng Freqtrade nửa năm — để tôi nói cho bạn biết nó có thực sự giúp bạn kiếm tiền trên thị trường crypto hay không', phân tích chuyên sâu Freqtrade (mã nguồn mở, Python, GPL-3.0, framework đẳng cấp cao nhất trong lĩnh vực quant crypto). Ý tưởng cốt lõi: **nó là một công cụ, không phải là câu trả lời** — nó có thể thực thi ý tưởng đúng tốt hơn, nhưng không thể biến ý tưởng sai thành đúng; toàn bộ sức mạnh của Freqtrade đến từ 'backtest trung thực': tích hợp sẵn lệnh lookahead-analysis / recursive-analysis chủ động phát hiện rò rỉ dữ liệu tương lai, chỉ ra quyết định trên nến đã đóng cửa (không repainting), bắt buộc Dry-Run forward-test, coi overfitting là kẻ thù số một. Giới thiệu dự án: 48.4k stars / 10.1k forks / 111 bản phát hành / 31.465 commit, dựa trên ccxt hỗ trợ 12 sàn spot + 6 sàn futures, Python 98.4%, năm chế độ vận hành (backtest / Hyperopt / Dry-Run / live / FreqAI), kèm Telegram Bot + FreqUI. Hướng dẫn chi tiết: cài đặt Docker (tránh bẫy biên dịch TA-Lib) → new-config tạo cấu hình → new-strategy viết chiến lược EMA cắt nhau (populate_indicators / populate_entry_trend / populate_exit_trend) → backtesting → kiểm tra lookahead/recursive → dùng Hyperopt đúng cách (giữ 20-30% ngoài mẫu, ≤200 vòng lặp) → Dry-Run → live và vận hành Telegram. Triết lý thiết kế: trung thực ưu tiên (nhúng chống gian lận vào công cụ), công cụ không phải câu trả lời, kỷ luật kiểm chứng (Dry-Run là quy trình không phải hình thức), mô-đun hóa và kết hợp (trừu tượng hóa ccxt + cấu hình 50+ trường), văn hóa chống overfitting, AI hỗ trợ suy nghĩ nhưng không thay thế kiểm chứng. Điểm tổng 7.6/10 — đỉnh cao quant crypto nhưng rào cản là thật; người dùng chứng khoán A-share hãy chọn vnpy.",
+        "zh-Hans": "以掘金热门长文《用了半年 Freqtrade，我来说说它到底能不能帮你在加密市场赚钱》为蓝本，深度解析 Freqtrade（开源，Python，GPL-3.0，加密量化领域天花板级框架）。核心思想：**它是一个工具，不是一个答案**——它能帮你把正确的想法执行得更好，但无法让错误的想法变正确；Freqtrade 的全部力量来自'诚实回测'：内置 lookahead-analysis / recursive-analysis 主动检测未来数据泄漏、只使用已收盘 K 线（不重绘）、强制 Dry-Run 正向验证，把过拟合当成头号敌人。项目说明：48.4k stars / 10.1k forks / 111 个版本 / 31,465 次提交，基于 ccxt 支持 12 家现货 + 6 家合约交易所，Python 98.4%，五大运行模式（回测 / Hyperopt / Dry-Run / 实盘 / FreqAI），含 Telegram Bot + FreqUI 运维体系。详细教程：Docker 环境搭建（绕过 TA-Lib 编译坑）→ new-config 生成配置 → new-strategy 写双均线策略（populate_indicators / populate_entry_trend / populate_exit_trend 三方法）→ backtesting 回测 → lookahead/recursive 检测 → Hyperopt 正确姿势（样本外 20-30% 验证、≤200 次迭代）→ Dry-Run → 实盘与 Telegram 运维。设计哲学：诚实优先（把防作弊内建到工具里）、工具而非答案、验证纪律（Dry-Run 是流程不是形式）、模块化可组合（ccxt 抽象 + 配置驱动 50+ 字段）、反过拟合文化、AI 辅助思考但不替代验证。综合评分 7.6/10——加密量化天花板，但门槛真实存在；A 股用户请选 vnpy。",
+        "zh-Hant": "以掘金熱門長文《用了半年 Freqtrade，我來說說它到底能不能幫你在加密市場賺錢》為藍本，深度解析 Freqtrade（開源，Python，GPL-3.0，加密量化領域天花板級框架）。核心思想：**它是一個工具，不是一個答案**——它能幫你把正確的想法執行得更好，但無法讓錯誤的想法變正確；Freqtrade 的全部力量來自『誠實回測』：內建 lookahead-analysis / recursive-analysis 主動偵測未來資料外洩、只使用已收盤 K 線（不重繪）、強制 Dry-Run 正向驗證，把過擬合當成頭號敵人。專案說明：48.4k stars / 10.1k forks / 111 個版本 / 31,465 次提交，基於 ccxt 支援 12 家現貨 + 6 家合約交易所，Python 98.4%，五大運行模式（回測 / Hyperopt / Dry-Run / 實盤 / FreqAI），含 Telegram Bot + FreqUI 維運體系。詳細教學：Docker 環境搭建（繞過 TA-Lib 編譯坑）→ new-config 產生設定 → new-strategy 寫雙均線策略（populate_indicators / populate_entry_trend / populate_exit_trend 三方法）→ backtesting 回測 → lookahead/recursive 偵測 → Hyperopt 正確姿勢（樣本外 20-30% 驗證、≤200 次迭代）→ Dry-Run → 實盤與 Telegram 維運。設計哲學：誠實優先（把防作弊內建到工具裡）、工具而非答案、驗證紀律（Dry-Run 是流程不是形式）、模組化可組合（ccxt 抽象 + 設定驅動 50+ 欄位）、反過擬合文化、AI 輔助思考但不替代驗證。綜合評分 7.6/10——加密量化天花板，但門檻真實存在；A 股使用者請選 vnpy。"
+      },
+      "date": "2026-08-12",
+      "author": "TopDigg",
+      "tags": [
+        "Freqtrade",
+        "Quantitative Trading",
+        "Crypto",
+        "Backtesting",
+        "Python",
+        "Open Source",
+        "Hyperopt",
+        "FreqAI",
+        "Machine Learning",
+        "Trading Bot",
+        "CCXT",
+        "Telegram Bot",
+        "Dry Run",
+        "Lookahead Bias",
+        "Trading Strategy",
+        "Automated Trading"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
+      "slug": "langchain-graph-engineering-analysis",
+      "title": {
+        "en": "LangGraph Deep Dive: 3 Years of Graph Engineering — A Complete Guide to Building Reliable Agents with Graphs (Core Idea + Project Overview + Detailed Tutorial + Design Philosophy)",
+        "ja": "LangGraph 徹底解説：3年間のグラフエンジニアリング実践総括——グラフで信頼できるAgentを構築する完全ガイド（核心理念 + プロジェクト解説 + 詳細チュートリアル + 設計哲学）",
+        "vi": "LangGraph Giải Mã Chuyên Sâu: 3 Năm Kỹ Thuật Đồ Thị — Hướng Dẫn Hoàn Chỉnh Xây Dựng Agent Đáng Tin Cậy Bằng Đồ Thị (Ý Tưởng Cốt Lõi + Giới Thiệu Dự Án + Hướng Dẫn Chi Tiết + Triết Lý Thiết Kế)",
+        "zh-Hans": "LangGraph 深度解析：三年图工程实践总结——用图构建可靠 Agent 的完整指南（核心思想 + 项目说明 + 详细教程 + 设计哲学）",
+        "zh-Hant": "LangGraph 深度解析：三年圖工程實踐總結——用圖構建可靠 Agent 的完整指南（核心思想 + 專案說明 + 詳細教學 + 設計哲學）"
+      },
+      "description": {
+        "en": "Based on the official LangChain blog post '3 Years of Graph Engineering with LangGraph' (Harrison Chase & Sydney Runkle, 2026-07-22), this is a complete analysis of the 'graph engineering' paradigm and the LangGraph framework. Core idea: representing agentic systems as graphs lets you (the builder) impose your preconceptions of how the system should work into more constrained paths, rather than relying solely on LLM judgment — giving you tighter control over behavior when you want the agent to follow specific paths. Project overview: LangGraph is the agent orchestration framework LangChain built three years ago; it now sees 65M+ monthly downloads and is used by startups and enterprises alike, popular because of the balance it strikes between deterministic paths and agentic steps. Detailed tutorial: the three elements of graph modeling (nodes do work / edges define what happens next / a state-machine view), when to use graphs (support agents classify before responding or escalating, coding agents inspect the repo before proposing changes, compliance workflows require approval before acting) and when not to (naturally agentic tasks like deep research use agent harnesses/Deep Agents), map-reduce and dynamic transitions with the Send API, and the new pattern of putting a full agent inside a node, with a docs agent case study (Slack request → PR, nodes positioned at different points on the deterministic-to-agentic spectrum). Design philosophy: a graph is a cognitive architecture — just as prompts carry domain knowledge, a graph encodes your world knowledge of how the system should work; the model reasons only where it adds value, code handles the rest, so the agent becomes cheaper, faster, and more predictable. Three years of lessons: agent graphs are usually not DAGs (they need cycles: retrying failed tool calls, asking users for missing information, revising answers after validation, pausing for human input); loops are simple graphs (loop engineering is a simpler version of graph engineering, and LangChain itself is built on top of LangGraph); dynamic transitions matter (you often don't know how much work to spawn until runtime — route dynamically with Send).",
+        "ja": "LangChain公式ブログ『3 Years of Graph Engineering with LangGraph』（Harrison Chase & Sydney Runkle、2026-07-22）を基に、'グラフエンジニアリング（graph engineering）'パラダイムとLangGraphフレームワークを完全解説。核心理念：エージェントシステムをグラフとして表現することで、あなた（構築者）がシステムの動作に関する先入観（preconceptions）をより制約された経路に押し込める——LLMの判断だけに頼らず、エージェントに特定の経路を辿らせたいときに行動をより緊密に制御できる。プロジェクト解説：LangGraphはLangChainチームが3年前に構築したエージェントオーケストレーションフレームワーク。現在は月間ダウンロード数65M+、スタートアップと大企業の双方が利用。人気の理由は'決定的（deterministic）な経路'と'エージェンティック（agentic）なステップ'のバランスを取っていること。詳細チュートリアル：グラフモデリングの3要素（ノードが仕事をする/エッジが次の展開を定義する/ステートマシンの視点）、グラフを使うべき場合（サポートエージェントが応答・エスカレーション前に分類、コーディングエージェントが変更提案前にリポジトリ調査、コンプライアンスワークフローが外部行動前に承認）と使うべきでない場合（ディープリサーチのような本質的にエージェンティックなタスクはagent harness/Deep Agentsを使う）、map-reduceとSend APIによる動的遷移、ノード内に完全なエージェントを入れる新パターンとdocsエージェント事例（Slackリクエスト→PR、ノードは決定的からエージェンティックへのスペクトラム上の異なる位置に配置）。設計哲学：グラフは認知アーキテクチャ——プロンプトがドメイン知識を運ぶように、グラフはシステムの動作に関する世界知識をエンコードする。モデルは価値を生む場所でのみ推論し、残りはコードが処理するため、エージェントはより安く、より速く、より予測可能になる。3年間の実践知見：エージェントグラフは通常DAGではない（リトライ、欠落情報の要求、検証後の修正、人間の入力を待つ一時停止など循環が必要）；ループは単純なグラフ（loop engineeringはgraph engineeringの簡易版、LangChain自体がLangGraph上に構築されている）；動的遷移が重要（実行時まで生成すべき仕事量が分からない——Sendで動的ルーティング）。",
+        "vi": "Dựa trên bài blog chính thức của LangChain '3 Years of Graph Engineering with LangGraph' (Harrison Chase & Sydney Runkle, 2026-07-22), đây là bản phân tích hoàn chỉnh về mô hình 'kỹ thuật đồ thị (graph engineering)' và khung LangGraph. Ý tưởng cốt lõi: biểu diễn hệ thống agentic dưới dạng đồ thị cho phép bạn (người xây dựng) áp đặt những định kiến (preconceptions) của mình về cách hệ thống nên hoạt động vào các đường dẫn bị ràng buộc hơn, thay vì chỉ dựa vào phán đoán của LLM — giúp kiểm soát hành vi chặt chẽ hơn khi bạn muốn agent đi theo các đường dẫn cụ thể. Giới thiệu dự án: LangGraph là khung điều phối agent mà nhóm LangChain xây dựng ba năm trước; hiện đạt 65M+ lượt tải mỗi tháng, được cả startup và doanh nghiệp lớn sử dụng, phổ biến nhờ cân bằng giữa đường dẫn xác định (deterministic) và bước agentic. Hướng dẫn chi tiết: ba yếu tố của mô hình hóa đồ thị (nút làm việc / cạnh định nghĩa bước tiếp theo / góc nhìn máy trạng thái), khi nào dùng đồ thị (agent hỗ trợ phân loại trước khi trả lời hoặc nâng cấp, agent mã hóa kiểm tra kho lưu trữ trước khi đề xuất thay đổi, quy trình tuân thủ cần phê duyệt trước khi hành động) và khi nào không (các tác vụ bản chất agentic như deep research dùng agent harness/Deep Agents), map-reduce và chuyển đổi động với Send API, và mẫu mới đặt một agent hoàn chỉnh bên trong nút, kèm nghiên cứu tình huống docs agent (Yêu cầu Slack → PR, các nút nằm ở các vị trí khác nhau trên phổ từ xác định đến agentic). Triết lý thiết kế: đồ thị là một kiến trúc nhận thức — giống như prompt mang tri thức miền, đồ thị mã hóa tri thức thế giới của bạn về cách hệ thống nên hoạt động; mô hình chỉ suy luận nơi nó tạo giá trị, phần còn lại do mã xử lý, nên agent rẻ hơn, nhanh hơn và dễ dự đoán hơn. Bài học ba năm: đồ thị agent thường không phải DAG (cần vòng lặp: thử lại lệnh gọi công cụ thất bại, hỏi người dùng thông tin còn thiếu, sửa đổi câu trả lời sau khi xác thực, tạm dừng chờ đầu vào con người); vòng lặp là đồ thị đơn giản (loop engineering là phiên bản đơn giản hơn của graph engineering, và bản thân LangChain được xây trên LangGraph); chuyển đổi động rất quan trọng (thường không biết cần sinh bao nhiêu công việc cho đến lúc chạy — định tuyến động bằng Send).",
+        "zh-Hans": "以 LangChain 官方博客《3 Years of Graph Engineering with LangGraph》（Harrison Chase 与 Sydney Runkle，2026-07-22）为蓝本，完整解析'图工程（graph engineering）'范式与 LangGraph 框架。核心思想：把 agentic 系统表示为图，让你（构建者）把对系统应该如何运作的预判（preconceptions）强加进更受限的路径，而不是仅仅依赖 LLM 的判断——在你想让 agent 走特定路径时更紧密地控制行为。项目说明：LangGraph 是 LangChain 团队三年前构建的 agent 编排框架，如今月下载量 65M+，被创业公司与大企业共同使用，其流行源于在'确定性路径'与'agentic 步骤'之间取得的平衡。详细教程：图建模三要素（节点做事/边定义下一步/状态机视角）、何时用图（支持 agent 分类再响应、编码 agent 检查仓库再提议、合规流程审批再行动）与何时不用（深度研究类天然 agentic 任务用 agent harness/Deep Agents）、map-reduce 与 Send API 动态转换、'节点里装一个完整 agent'的新模式与 docs agent 案例（Slack 请求 → PR，节点分布在确定性到 agentic 光谱的不同位置）。设计哲学：图即认知架构——像 prompt 携带领域知识一样，图编码你关于系统应如何工作的世界知识；模型只在它增值的地方推理，其余交给代码，于是 agent 更便宜、更快、更可预测。三年实践经验：agent 图通常不是 DAG（需要循环：重试、请求缺失信息、验证后修订、暂停等待人工输入）；循环是简单的图（loop engineering 是 graph engineering 的简化版，LangChain 本身构建在 LangGraph 之上）；动态转换很重要（运行时才知道要派生出多少工作，用 Send 动态路由）。",
+        "zh-Hant": "以 LangChain 官方部落格《3 Years of Graph Engineering with LangGraph》（Harrison Chase 與 Sydney Runkle，2026-07-22）為藍本，完整解析「圖工程（graph engineering）」典範與 LangGraph 框架。核心思想：把 agentic 系統表示為圖，讓您（建構者）把對系統應該如何運作的預判（preconceptions）強加進更受限的路徑，而不是僅僅依賴 LLM 的判斷——在您想讓 agent 走特定路徑時更緊密地控制行為。專案說明：LangGraph 是 LangChain 團隊三年前建構的 agent 編排框架，如今月下載量 65M+，被新創公司與大企業共同使用，其流行源於在「確定性路徑」與「agentic 步驟」之間取得的平衡。詳細教學：圖建模三要素（節點做事/邊定義下一步/狀態機視角）、何時用圖（支援 agent 分類再回應、編碼 agent 檢查儲存庫再提議、合規流程審批再行動）與何時不用（深度研究類天然 agentic 任務用 agent harness/Deep Agents）、map-reduce 與 Send API 動態轉換、「節點裡裝一個完整 agent」的新模式與 docs agent 案例（Slack 請求 → PR，節點分布在確定性到 agentic 光譜的不同位置）。設計哲學：圖即認知架構——像 prompt 攜帶領域知識一樣，圖編碼您關於系統應如何工作的世界知識；模型只在它增值的地方推理，其餘交給程式碼，於是 agent 更便宜、更快、更可預測。三年實踐經驗：agent 圖通常不是 DAG（需要循環：重試、請求缺失資訊、驗證後修訂、暫停等待人工輸入）；循環是簡單的圖（loop engineering 是 graph engineering 的簡化版，LangChain 本身建構在 LangGraph 之上）；動態轉換很重要（執行時期才知道要派生多少工作，用 Send 動態路由）。"
+      },
+      "date": "2026-08-12",
+      "author": "TopDigg",
+      "tags": [
+        "LangGraph",
+        "Graph Engineering",
+        "AI Agent",
+        "Agent Architecture",
+        "LangChain",
+        "Loop Engineering",
+        "Multi-Agent",
+        "Orchestration",
+        "State Machine",
+        "Cognitive Architecture",
+        "Harness",
+        "Agentic Systems"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
+      "slug": "raft-analysis",
+      "title": {
+        "en": "Raft Deep Dive: Enabling Humans and AI Agents to Collaborate Like Real Teammates (Core Ideas + Project Overview + Tutorial + Design Philosophy)",
+        "ja": "Raft 深掘り：人間とAI Agentを本物のチームメイトのように協力させる（核心思想 + プロジェクト説明 + 詳細チュートリアル + 設計哲学）",
+        "vi": "Raft Phân Tích Sâu: Giúp Con Người và AI Agent Cộng Tác Như Đồng Đội Thật Sự (Ý Tưởng Cốt Lõi + Giới Thiệu Dự Án + Hướng Dẫn Chi Tiết + Triết Lý Thiết Kế)",
+        "zh-Hans": "Raft 深度解析：让人类和 AI Agent 像真实队友一样协作（核心思想 + 项目说明 + 详细教程 + 设计哲学）",
+        "zh-Hant": "Raft 深度解析：讓人類和 AI Agent 像真實隊友一樣協作（核心思想 + 項目說明 + 詳細教程 + 設計哲學）"
+      },
+      "description": {
+        "en": "Deep analysis of raft.build's AX design philosophy and Agent-native collaboration platform Raft. Core idea: **Agents are not tools — they are decision-making participants.** Through two key designs — Agent Inbox (pull-based attention) and Held Draft (draft state machine) — Raft enables agents to consciously decide when to read, reply, or stay silent in shared workspaces, avoiding meaningless noise and collisions. Project overview: Built by Botiverse, supports Claude/Codex/Kimi runtimes, persistent agent memory, multi-agent collaboration, local deployment. Tutorial: Build a Raft multi-agent engineering team from scratch — Channel creation, agent onboarding, memory configuration, task routing and collaboration patterns. Design philosophy: Agent Experience (AX) design, Perception Empathy vs Action Explicitness, the fundamental difference between turn-based and continuous-presence interaction models, contrasted with traditional @mention rule filtering.",
+        "ja": "raft.build の AX 設計哲学と Agent ネイティブ協業プラットフォーム Raft を深掘り解析。核心思想：**Agent はツールではなく、判断力を持つ参加者である**——Agent Inbox（プル型注意機構）と Held Draft（草稿ステートマシン）という2つの关键設計により、Agent が共有ワークスペースでいつ読むか、いつ返信するか、いつ黙るかを選択できるようにする。プロジェクト説明：Botiverse 開発、Claude/Codex/Kimi 等多ランタイム対応、永続化 Agent メモリ、マルチ Agent 協業、ローカルデプロイ。チュートリアル：Raft マルチ Agent エンジニアリングチームのゼロからの構築——Channel 作成、Agent 接続、メモリ設定、タスクルーティングと協業パターン。設計哲学：Agent Experience（AX）設計、Perception Empathy（認識共感）と Action Explicitness（行動明示化）、ターン制と継続的在場の根本的差異、伝統的な @mention ルールとの比較。",
+        "vi": "Phân tích sâu triết lý thiết kế AX và nền tảng cộng tác native cho Agent của raft.build. Ý tưởng cốt lõi: **Agent không phải công cụ, mà là người tham gia có khả năng phán đoán.** Qua hai thiết kế chủ chốt — Agent Inbox (chú ý kiểu pull) và Held Draft (máy trạng thái bản nháp) — Raft giúp Agent có ý thức quyết định khi nào đọc, khi nào trả lời, khi nào im lặng trong không gian làm việc chung, tránh nhiễu và va chạm vô nghĩa. Giới thiệu dự án: Do Botiverse phát triển, hỗ trợ nhiều runtime như Claude/Codex/Kimi, bộ nhớ Agent persistent, cộng tác multi-agent, triển khai local. Hướng dẫn: Xây dựng đội engineering multi-agent trên Raft từ đầu — tạo Channel, kết nối Agent, cấu hình bộ nhớ, định tuyến tác vụ và mô hình cộng tác. Triết lý thiết kế: Thiết kế Agent Experience (AX), Perception Empathy và Action Explicitness, khác biệt cơ bản giữa turn-based và continuous-presence, so sánh với giải pháp lọc @mention truyền thống.",
+        "zh-Hans": "深度解析 raft.build 的 AX 设计哲学与 Agent 原生协作平台 Raft。核心思想：**Agent 不是工具，而是一个有判断力的参与者**——通过 Agent Inbox（拉取式注意力）和 Held Draft（草稿状态机）两个关键设计，让 Agent 能够在共享工作空间中有意识地决定何时阅读、何时回复、何时保持沉默，从而避免无意义的噪音和碰撞。项目说明：Botiverse 出品，支持 Claude/Codex/Kimi 等多运行时，持久化 Agent 记忆，多 Agent 协作，本地化部署。详细教程：从零搭建 Raft 多 Agent 工程团队，包括 Channel 创建、Agent 接入、内存配置、任务路由与协作模式。设计哲学：Agent Experience（AX）设计，Perception Empathy（感知同理心）与 Action Explicitness（行为显式化），turn-based 与 continuous-presence 的根本差异，对比传统 @mention 规则过滤方案。",
+        "zh-Hant": "深度解析 raft.build 的 AX 設計哲學與 Agent 原生協作平台 Raft。核心思想：**Agent 不是工具，而是一個有判斷力的參與者**——透過 Agent Inbox（拉取式注意力）和 Held Draft（草稿狀態機）兩個關鍵設計，讓 Agent 能夠在共享工作空間中有意識地決定何時閱讀、何時回覆、何時保持沉默，從而避免無意義的噪音和碰撞。項目說明：Botiverse 出品，支援 Claude/Codex/Kimi 等多執行時，持久化 Agent 記憶，多 Agent 協作，本地化部署。詳細教程：從零搭建 Raft 多 Agent 工程團隊，包括 Channel 創建、Agent 接入、記憶配置、任務路由與協作模式。設計哲學：Agent Experience（AX）設計，Perception Empathy（感知同理心）與 Action Explicitness（行為顯式化），turn-based 與 continuous-presence 的根本差異，對比傳統 @mention 規則過濾方案。"
+      },
+      "date": "2026-08-12",
+      "author": "TopDigg",
+      "tags": [
+        "Raft",
+        "Agent Experience",
+        "AX",
+        "Multi-Agent",
+        "Collaboration",
+        "Human-AI",
+        "Botiverse",
+        "Agent Workspace",
+        "Agent Inbox",
+        "Held Draft",
+        "Agent Native",
+        "Teamwork",
+        "Design Philosophy"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
       "slug": "bb-ide-analysis",
       "title": {
         "en": "bb Deep Dive: The Agent IDE That Builds Itself — a Programmable Workspace for Orchestrating Every Coding Agent (Project Overview + Quick-Start Tutorial + System Architecture + Design Philosophy)",
@@ -32,6 +215,41 @@
         "Agentic Development",
         "Monorepo",
         "Electron"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
+      "slug": "cc-master-analysis",
+      "title": {
+        "ja": "cc-master 徹底解説：任意のコーディング Agent セッションを長期プロジェクトのプロジェクトリードにする（プロジェクト解説 + クイックスタート・チュートリアル + システムアーキテクチャ + 設計哲学）",
+        "vi": "cc-master Phân tích chuyên sâu: biến bất kỳ phiên coding agent nào thành trưởng dự án dài hạn (Tổng quan dự án + Hướng dẫn khởi động nhanh + Kiến trúc hệ thống + Triết lý thiết kế)",
+        "zh-Hans": "cc-master 深度解析：把任意编码 Agent 会话变成长期项目负责人（项目说明 + 快速上手教程 + 系统架构 + 设计哲学）",
+        "zh-Hant": "cc-master 深度解析：把任意編碼 Agent 會話變成長期專案負責人（專案說明 + 快速上手教程 + 系統架構 + 設計哲學）"
+      },
+      "description": {
+        "ja": "nemori-ai/cc-master（GitHub のオープンソースプロジェクト、TypeScript、PolyForm Noncommercial 1.0.0 ライセンス）を題材に、『コーディング Agent セッションを長期プロジェクトのプロジェクトリード（a project lead for long-running work）にする』を徹底解説。核心理念：cc-master は Claude Code、Codex、Cursor、kimi-code のいずれかのサポート対象コーディング Agent セッションを『プロジェクトリード』にする——あなたはアイデアを持ち込み、本当にあなたが必要とする少数の判断を下す；それは大目標の分解、独立したサブタスクの並列スケジューリング、進捗とクォータの追跡、そして明示的な目標に対する成果の検証を担う。Board（かんばん）はコンテキストリセットやセッションの引き継ぎをまたいで存続し、作業は単一の会話の記憶に依存しない。インストール：curl の一行コマンドで ccm エンジン + プラグインをインストール；プラグインは各 harness 向けにネイティブアダプターを生成する（Claude Code スラッシュコマンド /cc-master:as-master-orchestrator、Codex $cc-master-as-master-orchestrator、Cursor /as-master-orchestrator、kimi-code cc-master:as-master-orchestrator）。システムアーキテクチャ：3層プロダクトモデル（per-harness プラグインアダプター層 → ccm CLI + @ccm/engine エンジン → ccm web-viewer 読み取り専用ビュー）；Board v2 JSON データモデル（ナローワエスト設計）；8つの分散 Skill（master-orchestrator-guide / authoring-workflows / using-ccm / slicing-goals-into-dags / dev-as-ml-loop / engineering-with-craft / pacing-and-estimation / distilling-lessons-into-assets）；O/T1/T2/T3 統一モデル割り当て；7種類の dormant-until-armed Hooks；クォータ姿勢 + モンテカルロ納期予測；cross-harness の worker ディスパッチと Agent Registry。設計哲学：『指揮者は決して楽器を演奏しない』（コーディネーターは単元作業を自分でやらない）、注意力の再配分（注意力を本当に注ぐ価値のある場所へ再配分する）、六つの憲章目標、ship-anywhere（hooks は bash + node/JS のみ使用）、ナローワエスト原則（ごく少数の固定 board フィールドだけが hooks に依存される）、二重バージョン線の分離（プラグイン vX.Y.Z と ccm ccm-vX.Y.Z を独立してリリース）。明確な境界：これは『お願いすれば AI が全部やってくれる』ではない——センス、デザイン、方向性などあなたにしかできない判断は依然としてあなたのもの；10分で直せる 1〜2 行の修正に『プロジェクトリード』を呼ぶ価値もない。",
+        "vi": "Lấy nemori-ai/cc-master (dự án nguồn mở, TypeScript, giấy phép PolyForm Noncommercial 1.0.0) làm nền tảng, phân tích toàn diện 'biến phiên coding agent thành trưởng dự án dài hạn (a project lead for long-running work)'. Ý tưởng cốt lõi: cc-master biến bất kỳ phiên coding agent được hỗ trợ nào trong số Claude Code, Codex, Cursor, kimi-code thành 'trưởng dự án' — bạn mang đến ý tưởng, thực hiện số ít những quyết định thực sự cần đến bạn; nó phụ trách phân rã mục tiêu lớn, điều phối song song các nhiệm vụ con độc lập, theo dõi tiến độ và hạn ngạch, đồng thời xác minh kết quả đối chiếu với mục tiêu tường minh. Board (bảng kế hoạch) sống sót qua các lần đặt lại ngữ cảnh và bàn giao phiên, công việc không phụ thuộc vào trí nhớ của một cuộc hội thoại. Cài đặt: lệnh curl một dòng cài engine ccm + plugin; plugin tạo bộ điều hợp native cho từng harness (lệnh slash Claude Code /cc-master:as-master-orchestrator, Codex $cc-master-as-master-orchestrator, Cursor /as-master-orchestrator, kimi-code cc-master:as-master-orchestrator). Kiến trúc hệ thống: mô hình sản phẩm ba lớp (lớp bộ điều hợp plugin per-harness → CLI ccm + engine @ccm/engine → web-viewer ccm chỉ đọc); mô hình dữ liệu JSON Board v2 (thiết kế eo hẹp); 8 Skill phân tán (master-orchestrator-guide / authoring-workflows / using-ccm / slicing-goals-into-dags / dev-as-ml-loop / engineering-with-craft / pacing-and-estimation / distilling-lessons-into-assets); phân bổ mô hình thống nhất O/T1/T2/T3; 7 loại Hooks dormant-until-armed; trạng thái hạn ngạch + dự đoán bàn giao Monte Carlo; phái cử worker xuyên harness và Agent Registry. Triết lý thiết kế: 'nhạc trưởng không bao giờ tự chơi nhạc cụ' (người điều phối không tự làm công việc đơn vị), tái phân bổ sự chú ý (tái phân bổ sự chú ý vào nơi thực sự đáng để dành thời gian), sáu mục tiêu hiến chương, ship-anywhere (hooks chỉ dùng bash + node/JS), nguyên tắc eo hẹp (chỉ một số ít trường board cố định được hooks phụ thuộc), tách rời hai đường phiên bản (plugin vX.Y.Z và ccm ccm-vX.Y.Z phát hành độc lập). Ranh giới rõ ràng: đây không phải 'ước một điều là AI lo hết' — những quyết định chỉ bạn mới có thể đưa ra như gu thẩm mỹ, thiết kế, định hướng vẫn thuộc về bạn; sửa một hai dòng mà mười phút xong cũng không đáng để mời 'trưởng dự án'.",
+        "zh-Hans": "以 nemori-ai/cc-master（开源项目，TypeScript，PolyForm Noncommercial 1.0.0 协议）为蓝本，完整解析'把编码 Agent 会话变成长期项目负责人（a project lead for long-running work）'。核心思想：cc-master 把 Claude Code、Codex、Cursor、kimi-code 中任何一个受支持的编码 Agent 会话变成'项目负责人'——你带想法、做少数真正需要你的决策；它负责拆解大目标、并行调度独立子任务、追踪进度与配额，并对照显式目标验收结果。Board（看板）能跨上下文重置与会话交接存活，工作不依赖某一次对话的记忆。安装：curl 一行命令安装 ccm 引擎 + 插件；插件为每个 harness 生成原生适配器（Claude Code 斜杠命令 /cc-master:as-master-orchestrator、Codex $cc-master-as-master-orchestrator、Cursor /as-master-orchestrator、kimi-code cc-master:as-master-orchestrator）。系统架构：三层产品模型（per-harness 插件适配层 → ccm CLI + @ccm/engine 引擎 → ccm web-viewer 只读视图）；Board v2 JSON 数据模型（窄腰设计）；8 个分布式 Skill（master-orchestrator-guide / authoring-workflows / using-ccm / slicing-goals-into-dags / dev-as-ml-loop / engineering-with-craft / pacing-and-estimation / distilling-lessons-into-assets）；O/T1/T2/T3 统一模型分配；7 类 dormant-until-armed Hooks；配额姿态 + 蒙特卡洛交付预测；跨 harness 的 worker 派发与 Agent Registry。设计哲学：'指挥家从不亲自演奏'（协调者不亲自做单元工作）、注意力再分配（把注意力重新分配到真正值得花的地方）、六个宪章目标、ship-anywhere（hooks 只用 bash + node/JS）、窄腰原则（只有少量固定 board 字段被 hooks 依赖）、双版本线解耦（插件 vX.Y.Z 与 ccm ccm-vX.Y.Z 独立发版）。明确边界：这不是'许个愿 AI 全包'——品味、设计、方向等只有你能做的决策仍然属于你；十分钟能改完的一两行修复也不值得请'项目负责人'。",
+        "zh-Hant": "以 nemori-ai/cc-master（開源專案，TypeScript，PolyForm Noncommercial 1.0.0 協議）為藍本，完整解析'把編碼 Agent 會話變成長期專案負責人（a project lead for long-running work）'。核心思想：cc-master 把 Claude Code、Codex、Cursor、kimi-code 中任何一個受支援的編碼 Agent 會話變成'專案負責人'——你帶想法、做少數真正需要你的決策；它負責拆解大目標、並行排程獨立子任務、追蹤進度與配額，並對照顯式目標驗收結果。Board（看板）能跨上下文重置與會話交接存活，工作不依賴某一次對話的記憶。安裝：curl 一行命令安裝 ccm 引擎 + 外掛；外掛為每個 harness 生成原生介面卡（Claude Code 斜槓命令 /cc-master:as-master-orchestrator、Codex $cc-master-as-master-orchestrator、Cursor /as-master-orchestrator、kimi-code cc-master:as-master-orchestrator）。系統架構：三層產品模型（per-harness 外掛適配層 → ccm CLI + @ccm/engine 引擎 → ccm web-viewer 只讀檢視）；Board v2 JSON 資料模型（窄腰設計）；8 個分散式 Skill（master-orchestrator-guide / authoring-workflows / using-ccm / slicing-goals-into-dags / dev-as-ml-loop / engineering-with-craft / pacing-and-estimation / distilling-lessons-into-assets）；O/T1/T2/T3 統一模型分配；7 類 dormant-until-armed Hooks；配額姿態 + 蒙特卡洛交付預測；跨 harness 的 worker 派發與 Agent Registry。設計哲學：'指揮家從不親自演奏'（協調者不親自做單元工作）、注意力再分配（把注意力重新分配到真正值得花的地方）、六個憲章目標、ship-anywhere（hooks 只用 bash + node/JS）、窄腰原則（只有少量固定 board 欄位被 hooks 依賴）、雙版本線解耦（外掛 vX.Y.Z 與 ccm ccm-vX.Y.Z 獨立發版）。明確邊界：這不是'許個願 AI 全包'——品味、設計、方向等只有你能做的決策仍然屬於你；十分鐘能改完的一兩行修復也不值得請'專案負責人'。"
+      },
+      "date": "2026-08-11",
+      "author": "TopDigg",
+      "tags": [
+        "cc-master",
+        "Claude Code",
+        "Codex",
+        "Cursor",
+        "kimi-code",
+        "Agent Orchestration",
+        "AI Agent",
+        "Long-horizon",
+        "Task DAG",
+        "Monte Carlo",
+        "Project Lead",
+        "DevTools",
+        "Agent Plugin"
       ],
       "categories": [
         "Deep Dive"

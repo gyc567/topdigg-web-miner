@@ -1,282 +1,844 @@
 ---
 slug: oh-my-claudecode-analysis
-title: "oh-my-claudecode 深掘り：Claude Code マルチエージェントオーケストレーションツール（核心思想 + プロジェクト説明 + 詳細チュートリアル + 設計哲学）"
-description: "Yeachan-Heo/oh-my-claudecode（38.5k stars，MIT，TypeScript，v4.15.7）を深掘り解析。核心思想：19 の專門 Agent（4レーン）+ 3層モデルルーティング（haiku/sonnet/opus）+ 31 Skills + 5段階 Team pipeline + Magic Keywords。設計哲学：ゼロ学習曲線、Teams-first オーケストレーション、スマートルーティング、合成可能な Skills システム。"
-date: "2026-08-12"
+title: "oh-my-claudecode：Claude Code インテリジェントマルチエージェントオーケストレーショ framework 詳解"
+description: "oh-my-claudecode（38.5k+ stars、MIT、TypeScript）を全面解析——Claude Code インテリジェントマルチエージェントオーケストレーショフレームワーク。コア設計哲学：ゼロ学習曲線、マルチエージェントオーケストレーショ、インテリジェントルーティング、スキル組合。詳細：19の専門エージェント、3層モデルルーティング、31のSkills、5段階Team Pipeline、Magic Keywords自然言語トリガー、安装設定教程、团队協調モード、ベストプラクティス。"
+date: "2026-08-13"
 author: "TopDigg"
-tags: ["oh-my-claudecode", "Claude Code", "Multi-Agent", "Orchestration", "TypeScript", "AI Agents", "Developer Tools", "SWE-bench"]
+tags: ["oh-my-claudecode", "Claude Code", "Multi-Agent", "Orchestration", "TypeScript", "AI Agents", "Developer Tools", "Skills", "Team Pipeline"]
 categories: ["Deep Dive"]
-keywords: ["oh-my-claudecode", "Claude Code マルチエージェントオーケストレーション", "マルチエージェント", "オーケストレーション", "TypeScript", "AI Agent", "開発者ツール", "SWE-bench", "autopilot", "ralph", "ultrawork", "team orchestration", "Claude Code プラグイン"]
+keywords: ["oh-my-claudecode", "Claude Code マルチエージェントオーケストレーショ", "マルチエージェント", "オーケストレーショシステム", "TypeScript", "AI Agent", "開発者ツール", "Skillsシステム", "Team Pipeline", "Magic Keywords", "autopilot", "ralph", "ultrawork", "チーム協調", "インテリジェントルーティング"]
 ---
 
-# oh-my-claudecode 深掘り：Claude Code マルチエージェントオーケストレーションツール
+# oh-my-claudecode：Claude Code インテリジェントマルチエージェントオーケストレーショフレームワーク詳解
 
-> 核心思想：**Claude Code を学ばないで、OMC を使おう。** oh-my-claudecode（OMC）は Claude Code の上に乗るマルチエージェントオーケストレーションレイヤー。19 の專門 Agent、3 層モデルルーティング、31 の Skills、5 段階 Team Pipeline を使い、自然言語で AI チームを駆動する。Claude Code を置換するのではなく、その上にゼロ学習曲線でシームレスに積み上げる。
+> コア思想：**Claude Codeを勉強しないでください。OMCを使うだけで。** oh-my-claudecode（OMC）は、Claude Codeの上に動作するマルチエージェントオーケストレーショ層です。19の専門エージェント、3層モデルルーティング、31のSkills、5段階Team Pipelineを通じて、人間のエンジニアが自然言語でAIチームを駆動できます。Claude Codeを置き換えるのではなく、その上に重ねる——ゼロ学習曲線、既存のワークフローへのシームレスな統合。これは、プロジェクト紹介、コア設計哲学、安装設定、チーム協調モード、エージェントカタログ、スキルシステム、使用例、ベストプラクティスを網羅した完全ガイドです。
 
-## 一、プロジェクト説明：oh-my-claudecode とは
+## 1. プロジェクト紹介と概要
 
 ### 1.1 一文での位置づけ
 
-**oh-my-claudecode（OMC）は Claude Code の上に走るマルチエージェントオーケストレーションシステムで、手動設定やプロンプトエンジニアリングの代わりに Skills と專門 Agent を使う。** スローガン「Don't learn Claude Code. Just use OMC.」——精心に構築されたプロンプトを必要とする単一 Agent ツールから、自然言語でマルチ Agent チームを駆動できる開発環境への転換を意味する。
+**oh-my-claudecode（OMC）は、Claude Codeの上で動作するマルチエージェントオーケストレーショシステムです。Skillsと専門エージェントを使用して、手動設定やプロンプトエンジニアリングを置き換えます。** コピーは「Don't learn Claude Code. Just use OMC.」——OMCは、慎重なプロンプト作成を必要とする単一エージェントツールから、自然言語でマルチエージェントチームを駆動できる開発環境に変わります。
 
 ### 1.2 プロジェクトメタ情報
 
-| 項目 | 値 |
-|------|------|
+| フィールド | 値 |
+|------|-----|
 | GitHub | [Yeachan-Heo/oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) |
-| Stars | 38,530 |
-| Forks | 3,462 |
+| Stars | 38,500+（継続的に増加中）|
+| Forks | 3,400+ |
 | ライセンス | MIT |
 | 言語 | TypeScript |
-| 最新バージョン | 4.15.7（npm: oh-my-claude-sisyphus）|
+| 最新バージョン | 4.15.7+ |
 | npm パッケージ | `oh-my-claude-sisyphus` |
 | 創業者 | Yeachan Heo（[@Yeachan-Heo](https://github.com/Yeachan-Heo)）|
-| 公式サイト | https://yeachan-heo.github.io/oh-my-claudecode-website |
+| ウェブサイト | https://yeachan-heo.github.io/oh-my-claudecode-website |
 | Discord | https://discord.gg/jq6jnSGABY |
 
-### 1.3 オーケストレーションモード
+### 1.3 コア価値提案
 
-| モード | 説明 | 用途 |
-|------|------|------|
-| **Team（推奨）** | 5 段階パイプライン：`team-plan → team-prd → team-exec → team-verify → team-fix` | 共有タスクリスト上の調整 Claude Agent |
-| **omc team（CLI）** | tmux CLI workers：実際の `claude`/`codex`/`gemini` 分屏プロセス | Codex/Gemini/Grok/Cursor CLI タスク |
-| **Autopilot** | 自律実行（単一リード Agent）| 最小儀式でのエンドツーエンド機能開発 |
-| **Ultrawork** | 最大並列度（非 Team）| バースト並列修復/リファクタリング |
-| **Ralph** | verify/fix ループ付き永続モード | 完全に完了する必要があるタスク |
-| **UltraQA** | テスト/ビルド/lint/typecheck が通るまで QA サイクル | 繰り返しの diagnose/fix サイクルが必要な品質ゲート |
+OMCのコア価値は3つの言葉で要約できます：
 
-### 1.4 4つの連動システム
+- **ゼロ学習曲線**：複雑なコマンドや構文を記憶する必要はなく、自然言語で需求を描述できます
+- **マルチエージェントオーケストレーショ**：19の専門エージェントが協調して、探索から検証までの完全な開発ライフサイクルをカバー
+- **インテリジェント組合**：Skillsシステムにより、建物をブロック组合せるように機能を组合でき、需要に応じて強化可能
 
-```
-ユーザー入力 → Hooks（ライフサイクルイベント検出）→ Skills（行動注入）
-           → Agents（專門タスク実行）→ State（進捗追跡）
-```
+### 1.4 Claude Code との関係
 
-1. **Hooks**：Claude Code ライフサイクルイベントを検出し、対応 Skills をトリガー
-2. **Skills**：行動を注入し、オーケストレータの動作を変更
-3. **Agents**：專門タスクを実行（19 Agent、4 レーン）
-4. **State**：コンテキストリセットをまたいで進捗を追跡（`.omc/` ディレクトリ）
-
-## 二、核心思想：Agent システム、モデルルーティング、Skills 合成
-
-### 2.1 19 の專門 Agent（4レーン）
-
-**構築/分析レーン**：
-
-| Agent | デフォルトモデル | 役割 |
-|-------|--------------|------|
-| `explore` | haiku | コードベース発見、ファイル/symbol マッピング |
-| `analyst` | opus | 要件分析、隠れた制約の発見 |
-| `planner` | opus | タスク順序付け、実行計画作成 |
-| `architect` | opus | システム設計、インターフェース定義、トレードオフ分析 |
-| `debugger` | sonnet | 根本原因分析、ビルドエラー解決 |
-| `executor` | sonnet | コード実装、リファクタリング |
-| `verifier` | sonnet | 完了検証、テスト十分性確認 |
-| `tracer` | sonnet | 証拠駆動の因果追跡 |
-
-**レビューレーン**：
-
-| Agent | デフォルトモデル | 役割 |
-|-------|--------------|------|
-| `security-reviewer` | sonnet | セキュリティ脆弱性、信任境界、authn/authz レビュー |
-| `code-reviewer` | opus | 包括的コードレビュー、API コントラクト、後方互換性 |
-
-**ドメインレーン**：
-
-| Agent | デフォルトモデル | 役割 |
-|-------|--------------|------|
-| `test-engineer` | sonnet | テスト戦略、カバレッジ、flaky テスト対策 |
-| `designer` | sonnet | UI/UX アーキテクチャ、インタラクションデザイン |
-| `writer` | haiku | ドキュメント、移行メモ |
-| `qa-tester` | sonnet | tmux による対話的 CLI/サービスランタイム検証 |
-| `scientist` | sonnet | データ分析、統計研究 |
-| `git-master` | sonnet | Git 操作、コミット、リベース、履歴管理 |
-| `document-specialist` | sonnet | 外部ドキュメント、API/SDK 参照検索 |
-| `code-simplifier` | opus | コード明確化、簡略化、保守性改善 |
-
-**調整レーン**：
-
-| Agent | デフォルトモデル | 役割 |
-|-------|--------------|------|
-| `critic` | opus | 計画/設計のギャップ分析、多角的レビュー |
-
-### 2.2 3層モデルルーティング
-
-| 層 | モデル | 特徴 | コスト |
-|------|------|------|------|
-| LOW | haiku | 高速、安い | 低 |
-| MEDIUM | sonnet | 性能とコストのバランス | 中 |
-| HIGH | opus | 最高推理品質 | 高 |
-
-### 2.3 Skills システム：階層的行動注入
-
-**核心式**：
-
-```
-[実行層 Skill] + [0-N 強化層] + [オプション保証層]
-```
-
-**Skills 三層アーキテクチャ**：
+OMCは Claude Code の**代替品ではなく、エンハンス層**です：
 
 ```
 ┌─────────────────────────────────────────────┐
-│  GUARANTEE LAYER（オプション）              │
-│  ralph：「検証完了まで停止しない」           │
+│  ユーザー（自然言語）                        │
 └─────────────────────────────────────────────┘
                     ↓
 ┌─────────────────────────────────────────────┐
-│  ENHANCEMENT LAYER（0-N スキル）           │
-│  ultrawork（並列）/ git-master（コミット）/ frontend-ui-ux │
+│  OMC オーケストレーショ層（Skills + Agents + Hooks）│
 └─────────────────────────────────────────────┘
                     ↓
 ┌─────────────────────────────────────────────┐
-│  EXECUTION LAYER（主要スキル）              │
-│  default（構築）/ orchestrate（調整）/ planner（計画）│
+│  Claude Code（基盤実行エンジン）              │
 └─────────────────────────────────────────────┘
 ```
 
-### 2.4 Magic Keywords：自然言語 Skills トリガー
+これは以下のことを意味します：
+- Claude Codeのすべての機能が引き続き利用可能
+- OMCはマルチエージェント協調が必要な場合にのみオーケストレーショ能力を提供
+- 既存のClaude Code使用習慣を変更する必要がない
 
-| Keyword | トリガー | 効果 |
+## 2. コア設計哲学
+
+### 2.1 ゼロ学習曲線哲学
+
+OMCの最も重要な設計原則は**ゼロ学習曲線**です。これは以下のように反映されています：
+
+**自然言語優先**
+- 特殊なコマンド構文を学習する必要がない
+- 人間の言語で你想要を直接描述
+- システムは自動的に意図を識別し、相应のスキルをトリガー
+
+**プログレッシブな複雑性**
+- 最も単純な使用から開始：`/team "task description"`
+- 必要に応じて複雑性を追加：モデルの指定、技能組合の選択
+- すべての機能を一度に掌握することを強制しない
+
+**既存のワークフローへのシームレスな統合**
+- 開発プロセスを再構築する必要がない
+- OMCは既存のワークフローに增量的に追加可能
+- いつでも純粋なClaude Codeに戻れる
+
+### 2.2 マルチエージェントオーケストレーショ哲学
+
+**専門分業**
+- 各エージェントは1つのことだけを非常に得意とする
+- 19のエージェントが4つのレーンをカバー：構築/分析、レビュー、領域専門家、調整
+- エージェントは明確に定義されたインターフェースを通じて協調
+
+**動的ルーティング**
+- タスクの複雑さに基づいて適切なモデルを自動的に選択
+- 簡単なタスクはhaikuを使用（速くて安い）
+- 複雑なタスクはopusを使用（最高推論品質）
+- すべて自動的で、ユーザーが心配する必要がない
+
+**チーム協調モード**
+- 5段階パイプラインが各タスクが十分に考慮されることを保証
+- team-plan → team-prd → team-exec → team-verify → team-fix
+- 各段階には明確な入力、出力、受け入れ基準がある
+
+### 2.3 インテリジェントルーティング哲学
+
+OMCのモデルルーティングは単純な原則に従います：**各タスクに最も適切なリソースを使用する**。
+
+| タスクタイプ | 推奨モデル | 理由 |
 |---------|---------|------|
-| `ralph`/`don't stop`/`must complete` | `$ralph` | 永続ループ、verifier が完了確認后才退出 |
-| `autopilot`/`build me`/`I want a` | `$autopilot` | 自律実行パイプライン |
-| `ultrawork`/`ulw`/`parallel` | `$ultrawork` | 最大並列 Agent オーケストレーション |
-| `ralplan`/`consensus plan` | `$ralplan` | RALPLAN-DR 反復コンセンサス計画 |
+| コードベース探索 | haiku | 大量ファイルを高速スキャン |
+| 需求分析 | opus | 深い推論と暗黙の制約の発見が必要 |
+| コード実装 | sonnet | 速度と品質のバランス |
+| セキュリティレビュー | sonnet | 十分な推論能力が必要 |
+| アーキテクチャ設計 | opus | 複雑なトレードオフ分析 |
+| ドキュメント作成 | haiku | シンプルで直接的なタスク |
 
-### 2.5 Team モード：推奨マルチ Agent オーケストレーションパターン
+### 2.4 Skills 組合哲学
 
-**v4.1.7 より、Team が規範のオーケストレーション表面に**：
+SkillsシステムはOMCの最も強力な機能の一つです。その設計哲学は**组合可能な階層構造**です：
+
+```
+┌─────────────────────────────────────────────┐
+│  GUARANTEE LAYER（オプション保障層）         │
+│  例：ralph — 検証完了まで停止しない          │
+└─────────────────────────────────────────────┘
+                    ↓
+┌─────────────────────────────────────────────┐
+│  ENHANCEMENT LAYER（強化層、0-N個）         │
+│  例：ultrawork（並列）| git-master（コミット）│
+└─────────────────────────────────────────────┘
+                    ↓
+┌─────────────────────────────────────────────┐
+│  EXECUTION LAYER（実行層、主要スキル）       │
+│  例：default（構築）| planner（計画）       │
+└─────────────────────────────────────────────┘
+```
+
+この設計の利点：
+- **需要に応じた組合**：必要な層のみをロード
+- **予測可能性**：各層の責任が明確で混迷がない
+- **拡張性**：カスタムSkills組合を作成可能
+
+## 3. 安装と設定教程
+
+### 3.1 環境要件
+
+安装を開始する前に、環境が以下の要件を満たしていることを確認してください：
+
+| 要件 | 最小バージョン | 推奨バージョン |
+|------|---------|---------|
+| Node.js | 18.0+ | 20.0+ |
+| npm | 8.0+ | 10.0+ |
+| Claude Code | 最新バージョン | 最新バージョン |
+| オペレーティングシステム | macOS/Linux/Windows (WSL) | macOS/Linux |
+
+### 3.2 安装手順
+
+**方法1：npmグローバル安装（プラグイン_MODEで推奨）**
 
 ```bash
-/team 3:executor "fix all TypeScript errors"
-```
+# 最新バージョンを 설치
+npm install -g oh-my-claude-sisyphus
 
-**5段階パイプライン**：
+# 安装を確認
+omc --version
 
-```
-team-plan → team-prd → team-exec → team-verify → team-fix（ループ）
-```
-
-## 三、詳細チュートリアル：ゼロから首个タスクまで
-
-### 3.1 インストール（2つの方法）
-
-**方法1：マーケットプレイス/プラグイン（推奨）**
-
-**重要：1行ずつ貼り付けてください（両行同時に貼り付けないでください）**：
-
-```bash
-# 1行目：マーケットプレイスを追加
-/plugin marketplace add https://github.com/Yeachan-Heo/oh-my-claudecode
-
-# 2行目：プラグインをインストール
-/plugin install oh-my-claudecode
-```
-
-**方法2：npm グローバルインストール**
-
-```bash
-npm i -g oh-my-claude-sisyphus@latest
-```
-
-### 3.2 セットアップ
-
-```bash
-# Claude Code / OMC セッション内
-/setup
-/omc-setup
-
-# ターミナルから
+# 設定ウィザードを実行
 omc setup
 ```
 
-### 3.3 基本使用
-
-**Autopilot（自律実行）**：
+**方法2：ローカル開発安装**
 
 ```bash
-/autopilot "build a REST API for managing tasks"
+# リポジトリをクローン
+git clone https://github.com/Yeachan-Heo/oh-my-claudecode.git
+cd oh-my-claudecode
+
+# 依存関係を 설치
+npm install
+
+# グローバルにリンク（開発モード）
+npm link
+
+# 設定を実行
+npm run setup
 ```
 
-**Team（推奨）**：
+**方法3：Docker 導入**
 
 ```bash
-/team 3:executor "fix all TypeScript errors"
+# イメージをビルド
+docker build -t oh-my-claudecode .
+
+# コンテナを実行
+docker run -it oh-my-claudecode omc --version
 ```
 
-**Ralph（永続モード）**：
+### 3.3 設定ファイル
 
-```bash
-/ralph "refactor the authentication module"
+OMCの設定ファイルは `~/.omc/` ディレクトリにあります。`~/.omc/config.json` を作成または編集します：
+
+```json
+{
+  "version": "4.15.7",
+  "model": {
+    "default": "sonnet",
+    "routing": {
+      "haiku": ["explore", "writer"],
+      "sonnet": ["executor", "debugger", "test-engineer"],
+      "opus": ["architect", "planner", "critic"]
+    }
+  },
+  "skills": {
+    "default": ["default"],
+    "autoLoad": true
+  },
+  "team": {
+    "pipeline": ["team-plan", "team-prd", "team-exec", "team-verify", "team-fix"]
+  },
+  "hooks": {
+    "enabled": true,
+    "events": ["onStart", "onError", "onComplete"]
+  }
+}
 ```
 
-**Ultrawork（最大並列）**：
+### 3.4 Claude Code 統合設定
+
+OMCとClaude Codeのシームレスな協調を可能にするには、以下の設定を行います：
+
+**Claude Code設定でOMCを有効化**
 
 ```bash
-/ultrawork "fix all TypeScript errors"
+# OMC接続を初期化
+omc init
+
+# Claude Codeでスキルをアクティブ化
+/claude-code:omc-setup
 ```
 
-### 3.4 Deep Interview（Socratic 要件明確化）
+**環境変数を設定**
 
 ```bash
-/deep-interview "I want to build a task management app"
+# ~/.bashrc または ~/.zshrc に追加
+export OMC_API_KEY="your-api-key"
+export OMC_MODEL_PROVIDER="anthropic"  # または "openai", "google"
+export OMC_DEFAULT_MODEL="claude-sonnet-4-20250514"
 ```
 
-Deep Interview は Socratic 追问を使って思考を明確化し、コードを書く前に隠れた仮定を露出する。
+### 3.5 安装の確認
 
-### 3.5 SWE-bench ベンチマーク
+安装が完了したら、以下のコマンドを実行して設定を確認します：
 
 ```bash
-export ANTHROPIC_API_KEY=your_key_here
+# バージョンを確認
+omc --version
+# 出力：omc v4.15.7
+
+# Claude Code接続を確認
+omc doctor
+
+# ベンチマークテストを実行
 ./setup.sh
 ./quick_test.sh
-./run_full_comparison.sh
 ```
 
-## 四、归纳まとめ：OMC の核心的見解と結論
+すべてのチェックに合格したら、おめでとうございます！OMCは正常にインストールされ、設定が完了しました。
 
-### 4.1 核心的見解
+## 4. チーム協調モード（Team Pipeline）完全ガイド
 
-**見解1：Claude Code 自体制不是终点、オーケストレーショレイヤーが生産性のてこ。** OMC の核心的洞察：Claude Code を手動で最適化すべき単一 Agent ではなく、プログラム可能なランタイムとして扱う。
+### 4.1 Team モード概要
 
-**見解2：Skills 合成 > 固定 Agent ワークフロー。** `[Execution] + [0-N Enhancements] + [Optional Guarantee]` 式は動的合成を可能にし、同じタスクで ultrawork + default + git-master または ralph + default + test-engineer をactivate 可能。
+TeamモードはOMC v4.1.7から推奨されるオーケストレーショ方式です。複雑なタスクを5つの段階に分解し、各段階は专门のエージェントが担当し、タスクが包括的に考慮され、高品質で完了することを保証します。
 
-**見解3：Magic Keywords は「学習曲線」を「表現力」に変換する。** 自然言語の意図（"build me a REST API" → Autopilot トリガー）をツールが自動解釈。
+### 4.2 5段階パイプラインの詳細
 
-**見解4：Team パイプラインは現時点で最も信頼性の高いマルチ Agent 協業パターン。** 5段階パイプラインは構造化と柔軟性のバランスを最適に達成。`team-fix` ループは検証失敗時に Agent が実行段階に戻って再処理することを保証。
+**段階1：team-plan（計画段階）**
 
-**見解5：モデルルーティングはコスト制御の鍵。** haiku/sonnet/opus 三層ルーティングで同じ API 予算により多くのタスクを処理可能。
+入力：ユーザーの自然言語による需求
+出力：構造化されたタスクリストと実行計画
 
-**見解6：永続化（Persistence）は品質保証の前提条件。** `ralph` の設計哲学：Agent は最初のパスで完了を主張すべきではなく、verifier の検証を通る必要がある。
+主な責任：
+- 需求を分析し、暗黙の制約を識別
+- 大きなタスクを実行可能な小タスクに分解
+- タスク依存関係と実行順序を決定
+- リスクとリソース要件を評価
 
-**見解7：ゼロ学習曲線は能力の低下ではなく、検索性の向上。** Magic Keywords（検索性）+ Skills 階層（合成性）= ゼロ学習曲線ながら全能力を維持。
+使用エージェント：`analyst` + `planner`
 
-### 4.2 技術的結論
+**段階2：team-prd（製品需求段階）**
 
-**結論1**：マルチ Agent オーケストレーションの核心的問題は「Agent がいくつあるか」ではなく「誰がどの Agent を使うか決めるか」。三層ルーティング（モデル + Agent + Skill）が体系的に解決。
+入力：計画段階のタスクリスト
+出力：詳細なPRD（製品需求ドキュメント）
 
-**結論2**：Skills システムは Agent オーケストレーションの最適抽象化レベル。
+主な責任：
+- 各機能の詳細な仕様を作成
+- 受け入れ基準と成功条件を定義
+- エッジケースとエラー処理要件を識別
+- 関係者の意見を調整
 
-**結論3**：Team Pipeline の verify 段階は全体のパイプラインの品質錯。`team-verify → team-fix → team-exec` ループが OMC 品質保証の核心的メカニズム。
+使用エージェント：`writer` + `analyst`
 
-## 五、設計哲学：OMC のエンジニアリング哲学
+**段階3：team-exec（実行段階）**
 
-### 5.1 ゼロ学習曲線
+入力：PRDドキュメント
+出力：実装されたコードと初期テスト
 
-「Claude Code を学ばないで、OMC を使おう」はデザイン制約でありマーケティングスローガンではない。ユーザーの自然言語の意図を инструмент が正しい実行経路を見つけることが目標。
+主な責任：
+- 計画に従って開発タスクを実行
+- ユニットテストと統合テストを作成
+- コード標準とベストプラクティスを遵守
+- 遭遇した問題を記録
 
-### 5.2 Teams-First
+使用エージェント：`executor` + `explore` + `debugger`
 
-**v4.1.7 より、Team が規範のオーケストレーション表面に**。構造化 > 自由衝突、明確 > 暗黙、検証可能 > 検証不能。
+**段階4：team-verify（検証段階）**
 
-### 5.3 スマートルーティング
+入力：実装されたコード
+出力：検証レポートとテスト結果
 
-三層ルーティング：
-1. **モデルルーティング**：タスク複雑度に応じて haiku/sonnet/opus を選択
-2. **Agent ルーティング**：タスクタイプに応じて 19 の專門 Agent を選択
-3. **Skill ルーティング**：Magic Keywords + 明示的呼び出しで行動注入を決定
+主な責任：
+- 完全なテストスイートを実行
+- コード品質とカバレッジを確認
+- 機能がPRD要件満たすことを検証
+- 回帰問題を識別
+
+使用エージェント：`verifier` + `test-engineer`
+
+**段階5：team-fix（修正段階）**
+
+入力：検証レポート
+出力：修正されたコードと最終検証
+
+主な責任：
+- 検証段階で発見された問題を修正
+- すべての問題が解決されたことを再確認
+- 関連するドキュメントを更新
+- 最終コミットを準備
+
+使用エージェント：`executor` + `debugger` + `verifier`
+
+### 4.3 Team モード使用例
+
+**基本的な使用法**
+
+```bash
+# Claude CodeでTeamモードを開始
+/team 3:executor "ユーザー認証システムを実装"
+```
+
+これは3つのexecutorエージェントでチームを開始し、認証システムの実装を完了させます。
+
+**特定エージェント組合の指定**
+
+```bash
+# 特定ロールを含むチームを開始
+/team architect + 2:executor + qa-tester "注文処理モジュールをリファクタリング"
+```
+
+**Team モード出力例**
+
+```
+[team-plan] 需求を分析し、実行計画を作成中...
+[team-plan] ✓ 12個のサブタスク、4つの依存関係を識別
+
+[team-prd] 詳細な仕様を作成中...
+[team-prd] ✓ PRD生成完了、5つの受け入れ基準
+
+[team-exec] 実行を開始...
+[team-exec] [1/5] ユーザー登録APIを実装中...
+[team-exec] [2/5] ログインAPIを実装中...
+[team-exec] [3/5] ユニットテストを作成中...
+[team-exec] ✓ 4/5タスク完了、1つ修正が必要
+
+[team-verify] テストを実行中...
+[team-verify] ⚠ 2つのテスト失敗を発見
+
+[team-fix] 問題を修正中...
+[team-fix] ✓ すべてのテストが通過
+
+[team] タスク完了！最終検証に合格。
+```
+
+### 4.4 他のモードとの比較
+
+| モード | 適用シナリオ | 複雑さ | チーム規模 |
+|------|---------|--------|---------|
+| Team | タスクリストを共有する協調タスク | 中〜高 | 2〜5エージェント |
+| Autopilot | エンドツーエンド機能開発 | 低 | 単一エージェント主導 |
+| Ultrawork | バースト的な並列修正/リファクタリング | 中 | マルチエージェント並列 |
+| Ralph | 完全に完了する必要がある重要タスク | 中 | 単一エージェント + verifyループ |
+| UltraQA | 繰り返し検証が必要な品質ゲート | 中 | デュアルエージェントループ |
+
+## 5. エージェントカタログとロール説明
+
+### 5.1 エージェント概要
+
+OMCは4つのレーンにわたる19の专门エージェントを提供します。各エージェントは `oh-my-claudecode:<agent-name>` として呼び出されます。
+
+### 5.2 構築/分析レーン
+
+これらのエージェントは探索から検証までの完全な開発ライフサイクルをカバーします：
+
+| エージェント | デフォルトモデル | コア責任 |
+|-------|---------|---------|
+| `explore` | haiku | コードベース発見、ファイル/シンボルマッピング |
+| `analyst` | opus | 需求分析、暗黙の制約発見 |
+| `planner` | opus | タスク排序、実行計画作成 |
+| `architect` | opus | システム設計、インターフェース定義、トレードオフ分析 |
+| `debugger` | sonnet | 根本原因分析、ビルドエラー修正 |
+| `executor` | sonnet | コード実装、リファクタリング |
+| `verifier` | sonnet | 完了検証、テスト十分性確認 |
+| `tracer` | sonnet | 証拠駆動の原因追跡、競合仮説分析 |
+
+**典型的な使用シナリオ**
+
+```bash
+# コードベースを探索
+/explore "支払いに関連するすべてのモジュールを見つける"
+
+/analyst "ユーザー認証の暗黙の需求を分析"
+
+/planner "新機能の実行計画を作成"
+
+/architect "マイクロサービスアーキテクチャを設計"
+
+/debugger "ログイン失敗の問題を修正"
+
+/executor "注文返品機能を実装"
+
+/verifier "支払いモジュールのテストカバレッジを検証"
+
+/tracer "メモリリークの根本原因を追跡"
+```
+
+### 5.3 レビューレーン
+
+これらのエージェントは、引渡し前の品質ゲートチェックを提供します：
+
+| エージェント | デフォルトモデル | コア責任 |
+|-------|---------|---------|
+| `security-reviewer` | sonnet | セキュリティ脆弱性、信頼境界、authn/authzレビュー |
+| `code-reviewer` | opus | 完全コードレビュー、APIコントラクト、後方互換性 |
+
+**典型的な使用シナリオ**
+
+```bash
+# セキュリティレビュー
+/security-reviewer "新しいAPIエンドポイントをレビュー"
+
+/code-reviewer "注文モジューのコード変更をレビュー"
+```
+
+### 5.4 領域専門家レーン
+
+これらのエージェントは、オンデマンドで呼び出す可能な領域专业知识を提供します：
+
+| エージェント | デフォルトモデル | コア責任 |
+|-------|---------|---------|
+| `test-engineer` | sonnet | テスト戦略、カバレッジ、flakyテスト防止 |
+| `designer` | sonnet | UI/UXアーキテクチャ、インタラクション設計 |
+| `writer` | haiku | ドキュメント、迈入ガイド |
+| `qa-tester` | sonnet | tmuxによるインタラクティブCLI/サービス実行時検証 |
+| `scientist` | sonnet | データ分析、統計調査 |
+| `git-master` | sonnet | Git操作、コミット、レビース、歴史管理 |
+| `document-specialist` | sonnet | 外部ドキュメント、API/SDKリファレンス検索 |
+| `code-simplifier` | opus | コード明確化、簡素化、保守性改善 |
+
+**典型的な使用シナリオ**
+
+```bash
+# テストエンジニアリング
+/test-engineer "支払いモジュールのテスト戦略を設計"
+
+/designer "チェックアウトフローのUIコンポーネントを設計"
+
+/writer "ユーザー認証のAPIドキュメントを作成"
+
+/qa-tester "エンドツーエンドテストを実行して注文フローを検証"
+
+/scientist "ユーザー行動データを分析"
+
+/git-master "機能ブランチを作成してコードをコミット"
+
+/document-specialist "Stripe APIの最新ドキュメントを検索"
+
+/code-simplifier "注文サービスの複雑なビジネスロジックを簡素化"
+```
+
+### 5.5 調整レーン
+
+このエージェントは高水準の計画と設計レビューを提供します：
+
+| エージェント | デフォルトモデル | コア責任 |
+|-------|---------|---------|
+| `critic` | opus | 計画/設計のギャップ分析、多角的レビュー |
+
+**典型的な使用シナリオ**
+
+```bash
+# 計画レビュー
+/critic "新機能の実行計画をレビュー"
+
+/design-review "マイクロサービス分割案のトレードオフをレビュー"
+```
+
+### 5.6 エージェント組合の使用
+
+複数のエージェントを組合せて複雑なタスクを完了できます：
+
+```bash
+# 完全な機能開発ワークフロー
+/team architect + 2:executor + verifier "リアルタイム通知システムを実装"
+
+/# 緊急修正ワークフロー
+/team debugger + verifier "本番環境の支払い問題を修正"
+
+/# アーキテクチャリファクタリング
+/team architect + code-reviewer + code-simplifier "モノリスをマイクロサービスにリファクタリング"
+```
+
+## 6. スキルシステム詳解
+
+### 6.1 Skills とは
+
+SkillsはOMCの動作注入メカニズムです。これらはオーケストレータの動作方法を変更し、需要に応じてエージェントの能力を強化できます。各Skillは独立した動作モジュールで、エージェントの上に重ねられます。
+
+### 6.2 コアコンセプト
+
+**実行層（Execution Layer）**
+タスク実行の主な方法を定義する主要なスキルタイプ：
+- `default`：標準構築プロセス
+- `planner`：計画駆動ワークフロー
+- `orchestrate`：マルチエージェント調整
+
+**強化層（Enhancement Layer）**
+オプションの強化機能で、0-N個追加可能：
+- `ultrawork`：最大並列度実行
+- `git-master`：Git操作統合
+- `frontend-ui-ux`：フロントエンド開発強化
+
+**保障層（Guarantee Layer）**
+オプションの保障メカニズム：
+- `ralph`：永続ループでタスク完了を保証
+
+### 6.3 一般的な Skills の詳細
+
+**autopilot**
+
+エンドツーエンド機能開発に適した自律実行スキル。
+
+トリガーキーワード：`autopilot`、`build me`、`I want a`
+
+```bash
+/autopilot "ブログシステムを構築"
+```
+
+特徴：
+- 単一リードエージェント
+- 最小儀式
+- 計画から検証までの全流程を自動処理
+
+**ultrawork**
+
+バースト的な並列タスクに適した最大並列度実行スキル。
+
+トリガーキーワード：`ultrawork`、`ulw`、`parallel`
+
+```bash
+/ultrawork "すべてのセキュリティ脆弱性を並列で修正"
+```
+
+特徴：
+- 複数のエージェントが同時に動作
+- 最大並列度
+- Teamのような順序調整が不要
+
+**ralph**
+
+タスクの完全な完了を保証する永続ループスキル。
+
+トリガーキーワード：`ralph`、`don't stop`、`must complete`
+
+```bash
+/ralph "データベース移行を完了まで中断しない"
+```
+
+特徴：
+- verifierが完了を確認してから退出
+- 一部のタスクをサイレントにスキップしない
+- 重要タスクに適合
+
+**deep-interview**
+
+需求明確化のためのSocratic深度インタビュースキル。
+
+トリガーキーワード：`interview`、`deep interview`、`gather requirements`
+
+```bash
+/deep-interview "新機能の詳細な需求を収集"
+```
+
+特徴：
+- 質問により曖昧さを明確化
+- 曖昧さゲートが十分な理解を保証
+- Ouroborosにインスパイアされたダイアログ設計
+
+**ralplan**
+
+反復コンセンサス計画スキル。
+
+トリガーキーワード：`ralplan`、`consensus plan`
+
+```bash
+/ralplan "プロジェクトコンセンサス計画を制定"
+```
+
+特徴：
+- RALPLAN-DR反復メソッド
+- 複数の議論ラウンドでコンセンサスに達する
+- 決定プロセスの文書化
+
+### 6.4 Magic Keywords
+
+OMCは自然言語でSkillsを自動的にトリガーするMagic Keywords機能を提供します：
+
+| キーワード | トリガーされるSkill | 効果 |
+|-------|-------------|------|
+| `ralph` / `don't stop` / `must complete` | `$ralph` | 永続ループ、verifier確認後にのみ退出 |
+| `autopilot` / `build me` / `I want a` | `$autopilot` | 自律実行パイプライン |
+| `ultrawork` / `ulw` / `parallel` | `$ultrawork` | 最大並列エージェントオーケストレーショ |
+| `plan this` / `plan the` | `$plan` | 計画ワークフロー |
+| `interview` / `deep interview` / `gather requirements` | `$deep-interview` | Socratic深度インタビュー |
+| `ralplan` / `consensus plan` | `$ralplan` | RALPLAN-DR反復コンセンサス計画 |
+| `ecomode` / `eco` / `budget` | `$ecomode` | トークン効率モード |
+| `cancel` / `stop` / `abort` | `$cancel` | アクティブモードをキャンセル |
+
+### 6.5 カスタム Skills 組合
+
+`~/.omc/skills/` ディレクトリにカスタムSkillsを作成できます：
+
+```bash
+# カスタムSkillを作成
+mkdir -p ~/.omc/skills/my-custom-skill
+cd ~/.omc/skills/my-custom-skill
+
+# SKILL.mdを作成
+cat > SKILL.md << 'EOF'
+# My Custom Skill
+
+## 説明
+これはカスタムスキルです
+
+## トリガー条件
+ユーザーが"my task"と言ったときにトリガー
+
+## 実行フロー
+1. ステップ1
+2. ステップ2
+3. ステップ3
+EOF
+```
+
+## 7. 主要な观点のまとめ
+
+### 7.1 OMCのコア価値
+
+1. **障壁の低下**：複雑なプロンプトエンジニアリングを学習する必要はなく、自然言語で複雑なマルチエージェントワークフローを駆動可能
+2. **専門的分業**：19の専門エージェントがそれぞれの責任を担い、各タスクが最適なエージェントで処理されることを保証
+3. **インテリジェントなリソース配分**：タスクの複雑さに基づいてモデルを自動的に選択し、コストと効率を最適化
+4. **组合可能性**：Skillsシステムにより、建物をブロック组合せるようにワークフローを構築可能
+5. **チーム協調**：Team Pipelineがチーム協調の完全なフレームワークを提供
+
+### 7.2 適用シナリオ
+
+**OMCのStrongly推奨シナリオ**
+
+- 複雑なマルチファイルリファクタリングプロジェクト
+- 複数の専門領域の協調を必要とする大型機能
+- 高い品質要件を持つ本番-gradeコード開発
+- 繰り返し検証と修正を必要とするバグ修正プロセス
+- 迅速なプロトタイプ開発後の系統的な改善
+
+**OMCが不要な可能性のあるシナリオ**
+
+- シンプルな単一ファイル修正
+- 迅速な一時的なスクリプト作成
+- 単純な検索と置換のみを必要とするタスク
+- 既に成熟したCI/CDプロセスを持つ增量変更
+
+### 7.3 ベストプラクティスの推奨
+
+1. **シンプルに開始**：最初に中程度の複雑さのタスクに `/team` コマンドを使用し、熟悉後に より高度な组合を試す
+2. **適切なモードを選択**：タスクタイプに応じて適切なオーケストレーショモードを選択（Team、Autopilot、Ultraworkなど）
+3. **Magic Keywordsを活用**：自然言語トリガーを活用して、コマンド記憶の負担を减少
+4. **検証段階を重視**：team-verify段階をスキップしない——品質ゲートはコード納品の重要な保証
+5. **継続的に学習**：OMCの更新と新機能に注目し、ワークフローを継続的に最適化
+
+### 7.4 制限事項の認識
+
+OMCは銀の弾丸ではありません。その制限を認識する必要があります：
+
+- 非常にシンプルで直接的なタスクについては、OMCのオーバーヘッドが利益を上回る可能性
+- マルチエージェント協調はシステムの複雑性を增加し、デバッグの難易度也随之増加
+- チーム協調モードはある程度のタスク分解能力を必要とする
+- インテリジェントルーティングはスマートですが完璧ではなく、手動の介人が occasionally 必要になる場合がある
+
+## 8. 使用例とベストプラクティス
+
+### 8.1 日常開発シナリオ
+
+**シナリオ1：新機能の実装**
+
+```bash
+# Teamモードを使用して完全な機能を実装
+/team architect + 2:executor + verifier "商品レビュー機能を実装"
+```
+
+実行フロー：
+1. architectがアーキテクチャ要件を分析
+2. executorがAPIとフロントエンドコンポーネントを並列で実装
+3. verifierがテストカバレッジを検証
+
+**シナリオ2：バグ修正**
+
+```bash
+# ralphを使用して完全な修正を保証
+/ralph "ログイン後のセッション损失的問題を修正"
+```
+
+実行フロー：
+1. debuggerが根本原因を分析
+2. 修正を実施
+3. verifierが問題が解決されたことを確認
+4. 検証通過後にのみ退出
+
+**シナリオ3：コードリファクタリング**
+
+```bash
+# ultraworkを使用して並列リファクタリング
+/ultrawork "すべてのサービス層の同期呼び出しを非同期に並列リファクタリング"
+```
+
+実行フロー：
+- 複数のexecutorが同時に異なるモジュールを処理
+- 最大並列度でリファクタリングを加速
+
+### 8.2 上級使用テクニック
+
+**テクニック1：カスタムチーム組成**
+
+```bash
+# 特定数とタイプのエージェントを指定
+/team 2:architect + 3:executor + 2:verifier + security-reviewer "バックエンドアーキテクチャ全体をリファクタリング"
+```
+
+**テクニック2：ecomodeを使用したコスト最適化**
+
+```bash
+# トークン効率モードを有効化
+/ecomode /team "内部ツールを開発"
+```
+
+予算が限られている場合、haikuを使用してより多くのタスクを実行。
+
+**テクニック3：深い需求インタビュー**
+
+```bash
+# 実装開始前に深い需求明確化を実行
+/deep-interview "eコマースプラットフォームの完全な需求を収集"
+```
+
+ 手作業前に十分な理解を保証し、やり直しを回避。
+
+### 8.3 パフォーマンス最適化Tips
+
+**最適化1：モデルを賢く選択**
+
+```json
+// 設定でエージェントからモデルへのマッピングを設定
+{
+  "model": {
+    "routing": {
+      "haiku": ["explore", "writer", "document-specialist"],
+      "sonnet": ["executor", "debugger", "test-engineer", "verifier"],
+      "opus": ["architect", "planner", "critic", "analyst"]
+    }
+  }
+}
+```
+
+**最適化2：並列タスク組合**
+
+```bash
+# 相互に独立したタスクを並列実行
+/ultrawork "並列で実行：コードレビュー + セキュリティスキャン + パフォーマンステスト"
+```
+
+**最適化3：增量ワークフロー**
+
+```bash
+# 段階的に実行し、各段階後に検証
+/team "ユーザーモジュールを実装"
+# 検証通過後に続行
+/team "注文モジュールを実装"
+```
+
+### 8.4 トラブルシューティング
+
+**問題：Teamモードの実行時間が長すぎる**
+
+解決策：
+- 循環依存関係を確認
+- 並列エージェントの数を減少
+- Teamが必要ない場合はultraworkを使用（順序調整が不要場合）
+
+**問題：検証段階が繰り返し失敗**
+
+解決策：
+- ralphモードを使用して深い修正を実行
+- 未解決の依存関係を確認
+- タスクをより小さな単位に分解することを検討
+
+**問題：モデルの応答品質が低下**
+
+解決策：
+- より高級なモデルに切り替え（sonnet → opus）
+- プロンプトを簡素化
+- コンテキスト長が制限を超えていないか確認
+
+## 結語
+
+oh-my-claudecodeは、AI支援開発の新パラダイムを表します。Claude Codeを置き換えるのではなく、增强することが目的です。単一のツールを協調して動作できるAIチームに変える 것입니다。専門のエージェント分業、インテリジェントなモデルルーティング、柔軟で组合可能なSkillsシステムを通じて、OMCは複雑なソフトウェア開発をより管理可能で効率的にします。
+
+独立した開発者であっても、チームリーダーであっても、OMCには探索する価値があります。今日から次のプロジェクトにOMCを導入し、自然言語でAIチームを駆動する感を体験してください。
+
+**覚えておいてください：Claude Codeを勉強しないでください。ただOMCを使ってください。**
 
 ---
 
-**OMC の核心的洞察：Claude Code を最適化すべき単一 Agent ではなく、プログラム可能なランタイムとして扱うとき、マルチエージェントオーケストレーションの可能性が広がる。**
+*この記事はoh-my-claudecode v4.15.7に基づいて書かれています。更新については、公式ドキュメントを参照してください。*
