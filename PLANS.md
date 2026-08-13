@@ -10,6 +10,7 @@
 ## Completed Plans
 
 - [Raft（raft.build Agent 原生协作平台）深度解析博客（5 语言）](plans/raft-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
+- [oh-my-claudecode（Claude Code 多 Agent 编排系统）深度解析博客（5 语言）](plans/oh-my-claudecode-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
 - [Freqtrade（开源加密量化框架）深度解析博客（5 语言）](plans/freqtrade-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
 - [LangChain《3 Years of Graph Engineering with LangGraph》深度解析博客（5 语言）](plans/langchain-graph-engineering-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
 - [Promptless《Writing code was hard, actually》深度解析博客（5 语言）](plans/promptless-writing-code-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
