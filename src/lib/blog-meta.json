@@ -1,18 +1,338 @@
 {
   "posts": [
     {
+      "slug": "acceptance-pipeline-specification",
+      "title": {
+        "en": "Acceptance Pipeline Specification: Uncle Bob's Portable Acceptance Testing Pipeline",
+        "ja": "Acceptance Pipeline Specification：Uncle Bobのポータブル受入テストパイプライン",
+        "vi": "Acceptance Pipeline Specification: Công cụ Kiểm thử Chấp nhận Di động của Uncle Bob",
+        "zh-Hans": "Acceptance Pipeline Specification：Uncle Bob的可移植验收测试管道",
+        "zh-Hant": "Acceptance Pipeline Specification：Uncle Bob的可攜帶驗收測試管道"
+      },
+      "description": {
+        "en": "A deep dive into Robert C. Martin's Acceptance Pipeline Specification project, exploring how to achieve portable acceptance testing through Gherkin feature files",
+        "ja": "Robert C. Martin（Uncle Bob）が提唱するAcceptance Pipeline Specificationプロジェクトを深く解説し、Gherkinフィーチャーファイルを通じてポータブルな受入テストを実現する方法を探ります",
+        "vi": "Phân tích sâu dự án Acceptance Pipeline Specification của Uncle Bob - công cụ tạo đường ống kiểm thử chấp nhận di động bằng Gherkin",
+        "zh-Hans": "深入解析Robert C. Martin（Uncle Bob）提出的Acceptance Pipeline Specification项目，了解如何通过Gherkin特性文件实现可移植的验收测试管道",
+        "zh-Hant": "深入解析Robert C. Martin（Uncle Bob）提出的Acceptance Pipeline Specification項目，瞭解如何通過Gherkin特性檔案實現可攜帶的驗收測試管道"
+      },
+      "date": "2026-08-14T00:00:00.000Z",
+      "author": "TopDigg",
+      "tags": [
+        "Acceptance Pipeline",
+        "Gherkin",
+        "Acceptance Testing",
+        "Clean Code",
+        "Uncle Bob",
+        "BDD",
+        "Automated Testing"
+      ],
+      "categories": [
+        "Technical Analysis"
+      ]
+    },
+    {
+      "slug": "agents-md-complete-guide",
+      "title": {
+        "en": "The Complete AGENTS.md Guide: The Art of Configuring AI Programming Assistants",
+        "ja": "AGENTS.md 完全ガイド：AIプログラミングアシスタントの設定艺术",
+        "vi": "Hướng Dẫn Toàn Diện AGENTS.md: Nghệ Thuật Cấu Hình Trợ Lý Lập Trình AI",
+        "zh-Hans": "AGENTS.md 完整指南：AI编程助手的配置艺术",
+        "zh-Hant": "AGENTS.md 完整指南：AI編程助手的配置藝術"
+      },
+      "description": {
+        "en": "Deep dive into AGENTS.md configuration philosophy and best practices to make AI programming assistants understand your project better",
+        "ja": "AGENTS.mdの設定哲学とベストプラクティスを深く理解し、AIプログラミングアシスタントをプロジェクトに合わせるようにする",
+        "vi": "Tìm hiểu sâu về triết lý cấu hình và best practices của AGENTS.md để giúp trợ lý lập trình AI hiểu rõ hơn về dự án của bạn",
+        "zh-Hans": "深入了解 AGENTS.md 的配置哲学与最佳实践，让 AI 编程助手更懂你的项目",
+        "zh-Hant": "深入了解 AGENTS.md 的配置哲學與最佳實踐，讓 AI 編程助手更懂你的專案"
+      },
+      "date": "2026-08-14T00:00:00.000Z",
+      "author": "TopDigg",
+      "tags": [
+        "AGENTS.md",
+        "Claude Code",
+        "Cursor",
+        "Copilot",
+        "AI Assistant",
+        "Configuration"
+      ],
+      "categories": [
+        "AI Tools",
+        "Developer Experience"
+      ]
+    },
+    {
+      "slug": "pi-context-compaction",
+      "title": {
+        "en": "Context Compaction in Pi Coding Assistant: A Technical Solution for LLM Context Window Limitations",
+        "ja": "Piコーディングアシスタントのコンテキスト圧縮：LLMコンテキストウィンドウ制限の技術的解決策",
+        "vi": "Nén Ngữ Cảnh trong Trợ Lý Mã Hóa Pi: Giải Pháp Kỹ Thuật cho Giới Hạn Cửa Sổ Ngữ Cảnh LLM",
+        "zh-Hans": "Pi编码助手中的上下文压缩：解决LLM上下文窗口限制的技术方案",
+        "zh-Hant": "Pi編碼助手中的上下文壓縮：解決LLM上下文窗口限制的技術方案"
+      },
+      "description": {
+        "en": "An in-depth analysis of how Pi Coding Assistant breaks through LLM context window limitations through context compaction mechanism, enabling continuous coding in long sessions",
+        "ja": "Piコーディングアシスタントがコンテキスト圧縮メカニズムを通じてLLMのコンテキストウィンドウ制限を突破し、長いセッションでの継続的なコーディング能力を実現する方法の詳細な解析",
+        "vi": "Phân tích chuyên sâu về cách Trợ Lý Mã Hóa Pi vượt qua giới hạn cửa sổ ngữ cảnh LLM thông qua cơ chế nén ngữ cảnh, cho phép mã hóa liên tục trong các phiên dài",
+        "zh-Hans": "深入解析Pi编码助手如何通过上下文压缩机制突破LLM上下文窗口限制，实现长会话的持续编码能力",
+        "zh-Hant": "深入解析Pi編碼助手如何透過上下文壓縮機制突破LLM上下文窗口限制，實現長會話的持續編碼能力"
+      },
+      "date": "2026-08-14T00:00:00.000Z",
+      "author": "TopDigg",
+      "tags": [
+        "LLM",
+        "Context Compaction",
+        "Context Window",
+        "Pi",
+        "Coding Assistant",
+        "AI"
+      ],
+      "categories": [
+        "Technical Analysis"
+      ]
+    },
+    {
+      "slug": "2026-08-13-spatiotemporal-composability",
+      "title": {
+        "en": "Spatiotemporal Composability: A Programming Paradigm Redefining Dynamic Software Architecture",
+        "ja": "時空間結合性：動的ソフトウェアアーキテクチャを再定義するプログラミングパラダイム",
+        "vi": "Khả năng Kết hợp Không-Thời gian: Một Mô hình Lập trình Định nghĩa lại Kiến trúc Phần mềm Động",
+        "zh-Hans": "时空可组合性：重新定义动态软件架构的编程范式",
+        "zh-Hant": "時空可組合性：重新定義動態軟體架構的編程範式"
+      },
+      "description": {
+        "en": "An in-depth analysis of the cordiverse/paper paper, exploring the programming paradigm for dynamic software composition, covering core concepts such as Revertible Effects, Reactive Coeffects, and Context Types",
+        "ja": "cordiverse/paper 論文の詳細解説。動的ソフトウェア結合のプログラミングパラダイム、Revertible Effects、Reactive Coeffects、Context Types などのコア概念をカバー",
+        "vi": "Phân tích chuyên sâu bài báo cordiverse/paper, khám phá mô hình lập trình cho việc kết hợp phần mềm động, bao gồm các khái niệm cốt lõi như Revertible Effects, Reactive Coeffects, và Context Types",
+        "zh-Hans": "深入解析 cordiverse/paper 论文，探讨动态软件组合的编程范式，涵盖 Revertible Effects、Reactive Coeffects、Context Types 等核心概念",
+        "zh-Hant": "深入解析 cordiverse/paper 論文，探討動態軟體組合的編程範式，涵蓋 Revertible Effects、Reactive Coeffects、Context Types 等核心概念"
+      },
+      "date": "2026-08-13",
+      "author": "TopDigg",
+      "tags": [
+        "programming paradigm",
+        "software architecture",
+        "dynamic composition",
+        "effect system",
+        "coeffect system"
+      ],
+      "categories": [
+        "Paper Analysis",
+        "Programming Language Theory"
+      ]
+    },
+    {
+      "slug": "agentic-design-patterns",
+      "title": {
+        "en": "Agentic Design Patterns: A Complete Guide to Building Intelligent Systems with AI Agents",
+        "ja": "Agentic Design Patterns：AI Agent設計パターンでインテリジェントシステムを構築する完全ガイド",
+        "vi": "Agentic Design Patterns: Hướng Dẫn Toàn Diện Về Các Mẫu Thiết Kế AI Agent Để Xây Dựng Hệ Thống Thông Minh",
+        "zh-Hans": "Agentic Design Patterns：构建智能系统的AI Agent设计模式完整指南",
+        "zh-Hant": "Agentic Design Patterns：建構智慧系統的AI Agent設計模式完整指南"
+      },
+      "description": {
+        "en": "Deep dive into the Agentic Design Patterns project, exploring core AI Agent design patterns including prompt chaining, routing, reflection, tool use, planning, and multi-agent collaboration.",
+        "ja": "Agentic Design Patternsプロジェクトを深く探究し、aitesChain、路由、振り返り、ツール使用、計画立案、マルチエージェント連携などコアなAI Agent設計パターンを解説します。",
+        "vi": "Đi sâu vào dự án Agentic Design Patterns, khám phá các mẫu thiết kế AI Agent cốt lõi bao gồm prompt chaining, routing, reflection, tool use, planning và collaboration đa agent.",
+        "zh-Hans": "深入探索 Agentic Design Patterns 项目，了解 AI Agent 的核心设计模式，包括提示链、路由、反思、工具使用、规划、多智能体协作等关键概念。",
+        "zh-Hant": "深入探索 Agentic Design Patterns 專案，了解 AI Agent 的核心設計模式，包括提示鏈、路由、反思、工具使用、規劃、多智慧體協作等關鍵概念。"
+      },
+      "date": "2026-08-13",
+      "author": "evoiz",
+      "tags": [
+        "AI Agent",
+        "Agentic Design Patterns",
+        "Artificial Intelligence",
+        "Design Patterns",
+        "LangChain",
+        "AutoGPT",
+        "AutoGen",
+        "CrewAI"
+      ],
+      "categories": [
+        "AI",
+        "Machine Learning",
+        "Agent Systems"
+      ]
+    },
+    {
+      "slug": "ai-knowledge-graph-generator",
+      "title": {
+        "en": "AI Knowledge Graph: Transform Unstructured Documents into Interactive Knowledge Graphs",
+        "ja": "AI Knowledge Graph：非構造化ドキュメントからインタラクティブな知識グラフへ",
+        "vi": "AI Knowledge Graph: Chuyển đổi tài liệu phi cấu trúc thành đồ thị tri thức tương tác",
+        "zh-Hans": "AI Knowledge Graph：将非结构化文档转化为交互式知识图谱",
+        "zh-Hant": "AI Knowledge Graph：將非結構化文件轉化為互動式知識圖譜"
+      },
+      "description": {
+        "en": "A deep dive into the AI Knowledge Graph Generator project - learn how to convert unstructured text documents into interactive knowledge graphs",
+        "ja": "AI Knowledge Graph Generatorプロジェクトを深く解析し、非構造化テキストドキュメントをインタラクティブな知識グラフに変換する方法を解説",
+        "vi": "Phân tích sâu dự án AI Knowledge Graph Generator - công cụ chuyển đổi tài liệu văn bản phi cấu trúc thành đồ thị tri thức tương tác",
+        "zh-Hans": "深入解析 AI Knowledge Graph Generator 项目，了解如何将非结构化文本文档转换为交互式知识图谱",
+        "zh-Hant": "深入解析 AI Knowledge Graph Generator 專案，了解如何將非結構化文字文件轉換為互動式知識圖譜"
+      },
+      "date": "2026-08-13",
+      "author": "robert-mcdermott",
+      "tags": [
+        "AI",
+        "Knowledge Graph",
+        "NLP",
+        "Python",
+        "Visualization"
+      ],
+      "categories": [
+        "AI & ML"
+      ]
+    },
+    {
+      "slug": "deepseek-harness-analysis",
+      "title": {
+        "en": "DeepSeek Harness Deep Analysis: AI Agent Engineering Infrastructure and Ecosystem Overview (Core Ideas + Project Overview + Tutorial + Design Philosophy)",
+        "ja": "DeepSeek Harness 深層解析：AI Agentのエンジニアリング基盤とエコシステム全景（核心思想 + プロジェクト説明 + 詳細チュートリアル + 設計哲学）",
+        "vi": "DeepSeek Harness Phân Tích Sâu: Nền Tảng Kỹ Thuật Agent AI và Toàn Cảnh Hệ Sinh Thái (Tư Tưởng Cốt Lõi + Mô Tả Dự Án + Hướng Dẫn Chi Tiết + Triết Lý Thiết Kế)",
+        "zh-Hans": "DeepSeek Harness 深度解析：AI Agent 的工程化底座与生态全景（核心思想 + 项目说明 + 详细教程 + 设计哲学）",
+        "zh-Hant": "DeepSeek Harness 深度解析：AI Agent 的工程化底座與生態全景（核心思想 + 項目說明 + 詳細教程 + 設計哲學）"
+      },
+      "description": {
+        "en": "In-depth analysis of DeepSeek Harness (DSH) technical architecture and design philosophy. Core idea: AI Agent engineering infrastructure isn't about making models stronger, but making agent behavior more controllable, observable, and extensible. DSH builds a complete Agent runtime infrastructure through Cordis 4.0 plugin engine, dual Surface architecture, real-time telemetry, and modular design.",
+        "ja": "DeepSeek Harness（DSH）の技術アーキテクチャと設計哲学を深層解析。核心思想：**AI Agentのエンジニアリング基盤は、モデルを強くするのではなく、Agentの動作をより制御可能・観測可能・拡張可能にするもの**——Cordis 4.0プラグインエンジン、デュアルSurfaceアーキテクチャ、リアルタイムテレメトリシステム、モジュール設計を通じて、DSHは完全なAgentランタイムインフラを構築。",
+        "vi": "Phân tích sâu kiến trúc kỹ thuật và triết lý thiết kế của DeepSeek Harness (DSH). Tư tưởng cốt lõi: **Nền tảng kỹ thuật Agent AI không phải để làm cho model mạnh hơn, mà để hành vi của Agent trở nên kiểm soát được, quan sát được, mở rộng được** — thông qua Cordis 4.0 plugin engine, kiến trúc dual Surface, hệ thống telemetry thời gian thực và thiết kế mô-đun.",
+        "zh-Hans": "深度解析 DeepSeek Harness（DSH）的技术架构与设计哲学。核心思想：**AI Agent 的工程化底座，不是让模型更强，而是让 Agent 的行为更可控、更可观测、更可扩展**——通过 Cordis 4.0 插件引擎、双 Surface 架构、实时遥测系统和模块化设计，DSH 构建了一套完整的 Agent 运行时基础设施。项目说明：官方包命名空间 @deepseek-ai/dsh，基于 Node.js Monorepo，深度绑定 Cordis 4.0 DI 框架，具备 ToolRegistry、SystemPrompt、Session 三大核心服务，支持 DeepSeek-V4-Flash、pi-ai 等多模型适配。详细教程：从零理解 DSH 的安装机制、插件开发、Host/Client 插件编写、双 Surface API 注入、配置树注入与 MCP 桥接。设计哲学：Fail-Fast 契约式设计、Host/Client 物理隔离、CSS Design Token 换肤机制、零侵入主题覆盖。",
+        "zh-Hant": "深度解析 DeepSeek Harness（DSH）的技術架構與設計哲學。核心思想：**AI Agent 的工程化底座，不是讓模型更強，而是讓 Agent 的行為更可控、更可觀測、更可擴展**——透過 Cordis 4.0 插件引擎、雙 Surface 架構、即時遙測系統和模組化設計，DSH 建構了一套完整的 Agent 執行時基礎設施。項目說明：官方包命名空間 @deepseek-ai/dsh，基於 Node.js Monorepo，深度綁定 Cordis 4.0 DI 框架，具備 ToolRegistry、SystemPrompt、Session 三大核心服務。詳細教程：從零理解 DSH 的安裝機制、插件開發、Host/Client 插件編寫、雙 Surface API 注入、配置樹注入與 MCP 橋接。設計哲學：Fail-Fast 契約式設計、Host/Client 物理隔離、CSS Design Token 換膚機制、零侵入主題覆蓋。"
+      },
+      "date": "2026-08-13",
+      "author": "TopDigg",
+      "tags": [
+        "DeepSeek",
+        "Harness",
+        "Agent",
+        "Cordis",
+        "Monorepo",
+        "Plugin Engine",
+        "Dual Surface",
+        "Telemetry",
+        "MCP",
+        "AI Infrastructure",
+        "Design Philosophy"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
+      "slug": "deepseek-harness",
+      "title": {
+        "en": "DeepSeek Harness: An Agent Development Framework Based on the \"Everything is a Plugin\" Philosophy",
+        "ja": "DeepSeek Harness：「すべてはプラグイン」哲学に基づくエージェント開発フレームワーク",
+        "vi": "DeepSeek Harness: Framework Phát Triển Agent Dựa Trên Triết Lý \"Mọi Thứ Đều Là Plugin\"",
+        "zh-Hans": "DeepSeek Harness：基于\"一切皆插件\"理念的智能体开发框架",
+        "zh-Hant": "DeepSeek Harness：基於「一切皆插件」理念的智慧體開發框架"
+      },
+      "description": {
+        "en": "An in-depth analysis of the DeepSeek Harness project, exploring its plugin-based architecture, core features, and how to quickly get started with this open-source agent development framework by DeepSeek AI.",
+        "ja": "DeepSeek Harnessプロジェクトの詳細分析、プラグインベースのアーキテクチャ、核心機能特性、DeepSeek AIが開発したこのオープンソースエージェント開発フレームワークの使い方を説明します。",
+        "vi": "Phân tích chi tiết dự án DeepSeek Harness, tìm hiểu về kiến trúc plugin, tính năng cốt lõi và cách nhanh chóng bắt đầu sử dụng framework phát triển agent mã nguồn mở này từ DeepSeek AI.",
+        "zh-Hans": "深入解析 DeepSeek Harness 项目，了解其插件化架构设计、核心功能特性以及如何快速上手使用这款由 DeepSeek AI 开发的开源智能体开发框架。",
+        "zh-Hant": "深入解析 DeepSeek Harness 專案，瞭解其插件化架構設計、核心功能特性以及如何快速上手使用這款由 DeepSeek AI 開發的開源智慧體開發框架。"
+      },
+      "date": "2026-08-13",
+      "author": "TopDigg",
+      "tags": [
+        "DeepSeek",
+        "Agent",
+        "Plugin Architecture",
+        "Open Source",
+        "Agent Development",
+        "Cordis"
+      ],
+      "categories": [
+        "AI Framework",
+        "Developer Tools"
+      ]
+    },
+    {
+      "slug": "ephemeral-ai-fs-analysis",
+      "title": {
+        "en": "Ephemeral AI FS Deep Dive: A Fork-Aware Content-Addressable Storage System for Multi-Agent Workspaces (Core Ideas + Project Overview + Tutorial + Design Philosophy)",
+        "ja": "Ephemeral AI FS 深度解析：マルチエージェントワークスペース向けフォーク対応コンテンツアドレッシングストレージシステム（コアアイデア + プロジェクト説明 + 詳細チュートリアル + 設計哲学）",
+        "vi": "Ephemeral AI FS Phân Tích Chi Tiết: Hệ Thống Lưu Trữ Định Địa Chỉ Theo Nội Dung Nhận Biết Fork Cho Không Gian Làm Việc Đa Tác Tử (Ý Tưởng Cốt Lõi + Giới Thiệu Dự Án + Hướng Dẫn Chi Tiết + Triết Lý Thiết Kế)",
+        "zh-Hans": "Ephemeral AI FS 深度解析：面向多智能体工作空间的分叉感知内容寻址存储系统（核心思想 + 项目说明 + 详细教程 + 设计哲学）",
+        "zh-Hant": "Ephemeral AI FS 深度解析：面向多智能體工作空間的分叉感知內容定址儲存系統（核心思想 + 專案說明 + 詳細教學 + 設計哲學）"
+      },
+      "description": {
+        "en": "A deep dive into Ephemeral AI FS's core design philosophy and fork-aware content-addressable storage architecture. Core idea: **In multi-agent collaboration environments, workspace forking is the norm, not the exception** — traditional version control systems suffer from massive duplicate storage and complex merge conflicts when handling branches, while Ephemeral AI FS combines Content-Addressable Storage (CAS), Content-Defined Chunking (CDC), and Merkle Inventory into a fork-aware storage architecture, enabling each agent's workspace to share underlying content while maintaining independence. Project info: open source, Rust/Python/Node.js SDKs, SQLite transactions for consistency, M0-M4 complete milestone roadmap. Tutorial: environment setup, installation, quick start examples. Design philosophy: content-addressing over path-addressing, fork-first over merge-first, lightweight transaction model, storage-compute separation.",
+        "ja": "Ephemeral AI FS のコア設計哲学とフォーク対応コンテンツアドレッシングストレージアーキテクチャを深度解析。コアアイデア：**マルチエージェントコラボレーション環境では、ワークスペースのフォーク（fork）は異常ではなく常態**——従来のバージョン管理システムではブランチ処理時に大量的重複ストレージと複雑なマージ競合が発生するが、Ephemeral AI FS はコンテンツアドレッシングストレージ（CAS）、コンテンツ定義チャンキング（CDC）、Merkle インベントリの3つのコアテクノロジーの組み合わせにより、各エージェントのワークスペースが基盤となるコンテンツを共有しながら独立性を維持できるフォーク対応のストレージアーキテクチャを実現。プロジェクト説明：オープンソース、Rust/Python/Node.js マルチ言語 SDK、SQLite トランザクションによる一貫性保証、M0-M4 完全マイルストーンロードマップ。詳細チュートリアル：ゼロからの開発環境構築、インストール設定、クイックスタート例。設計哲学：パスアドレッシングよりコンテンツアドレッシング、マージ優先よりフォーク優先、軽量級トランザクションモデル、ストレージと計算の分離。",
+        "vi": "Phân tích chi tiết triết lý thiết kế cốt lõi và kiến trúc lưu trữ định địa chỉ theo nội dung nhận biết fork của Ephemeral AI FS. Ý tưởng cốt lõi: **Trong môi trường cộng tác đa tác tử, việc fork không gian làm việc là tiêu chuẩn chứ không phải ngoại lệ** — các hệ thống kiểm soát phiên bản truyền thống gặp phải lưu trữ trùng lặp lớn và xung đột hợp nhất phức tạp khi xử lý nhánh, trong khi Ephemeral AI FS kết hợp lưu trữ định địa chỉ theo nội dung (CAS), phân đoạn xác định theo nội dung (CDC) và danh sách Merkle để tạo kiến trúc lưu trữ nhận biết fork, cho phép mỗi tác tử chia sẻ nội dung nền tảng trong khi duy trì tính độc lập. Giới thiệu dự án: mã nguồn mở, hỗ trợ Rust/Python/Node.js SDK đa ngôn ngữ, đảm bảo tính nhất quán qua giao dịch SQLite, lộ trình milestone M0-M4 hoàn chỉnh. Hướng dẫn chi tiết: xây dựng môi trường phát triển từ đầu, cài đặt cấu hình, ví dụ bắt đầu nhanh. Triết lý thiết kế: định địa chỉ theo nội dung thay vì định địa chỉ theo đường dẫn, ưu tiên fork thay vì hợp nhất, mô hình giao dịch nhẹ, tách biệt lưu trữ và tính toán.",
+        "zh-Hans": "深度解析 Ephemeral AI FS 的核心设计哲学与分叉感知内容寻址存储架构。核心思想：**在多智能体协作环境中，工作空间的分叉（fork）是常态而非异常**——传统版本控制系统在处理分支时往往伴随着大量的重复存储和复杂的合并冲突，而 Ephemeral AI FS 通过内容寻址存储（CAS）、内容定义分块（CDC）和 Merkle 清单三项核心技术的组合，实现了分叉感知的存储架构，让每个智能体的工作空间都能共享底层内容，同时保持各自的独立性。项目说明：开源项目，支持 Rust/Python/Node.js 多语言 SDK，SQLite 事务保证一致性，M0-M4 完整里程碑路线图。详细教程：从零搭建开发环境、安装配置、快速开始示例。设计哲学：内容寻址优于路径寻址、分叉优先而非合并优先、轻量级事务模型、存储与计算分离。",
+        "zh-Hant": "深度解析 Ephemeral AI FS 的核心設計哲學與分叉感知內容定址儲存架構。核心思想：**在多智能體協作環境中，工作空間的分叉（fork）是常態而非異常**——傳統版本控制系統在處理分支時往往伴隨著大量的重複儲存和複雜的合併衝突，而 Ephemeral AI FS 透過內容定址儲存（CAS）、內容定義分塊（CDC）和 Merkle 清單三項核心技術的組合，實現了分叉感知的儲存架構，讓每個智能體的工作空間都能共享底層內容，同時保持各自的獨立性。專案說明：開源專案，支援 Rust/Python/Node.js 多語言 SDK，SQLite 交易保證一致性，M0-M4 完整里程碑路線圖。詳細教學：從零搭建開發環境、安裝設定、快速開始範例。設計哲學：內容定址優於路徑定址、分叉優先而非合併優先、輕量級交易模型、儲存與計算分離。"
+      },
+      "date": "2026-08-13",
+      "author": "TopDigg",
+      "tags": [
+        "Ephemeral AI FS",
+        "Content Addressable Storage",
+        "CAS",
+        "CDC",
+        "Merkle",
+        "Multi-Agent",
+        "Fork-aware",
+        "SQLite",
+        "Workspace",
+        "Storage System",
+        "Design Philosophy"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
+      "slug": "multi-agent-pipeline-fallacy",
+      "title": {
+        "en": "Multi-Agent Pipeline Fallacy: How to Compress a Multi-Week Analysis Process into 30 Minutes",
+        "ja": "マルチエージェントパイプライン誤謬：数週間かかる分析プロセスを30分に圧縮する方法",
+        "vi": "Sự Mê Lầm Của Đường Ống Đa Tác Tử: Làm Thế Nào Nén Quy Trình Phân Tích Nhiều Tuần Thành 30 Phút",
+        "zh-Hans": "多智能体管道谬误：如何将多周分析流程压缩至30分钟",
+        "zh-Hant": "多智能體管道謬誤：如何將多週分析流程壓縮至30分鐘"
+      },
+      "description": {
+        "en": "An in-depth analysis of the most common distributed reasoning failure pattern in enterprise AI architecture — the Multi-Agent Pipeline Fallacy. This article reveals the two failure modes that most teams fall into when building analysis systems: single-LLM end-to-end data analyst (producing shallow summaries, hallucinating causal relationships) and overly fragmented multi-agent pipelines (context propagation decay, massive token consumption). It proposes a three-pillar solution: Deterministic Signal Queue, Centralized Reasoning Ownership + Dynamic Sub-Agents, and Knowledge Graph Control Plane, along with the mechanics of the Bounded Investigation Loop.",
+        "ja": "エンタープライズAIアーキテクチャにおける最も一般的な分散推論失敗パターン——マルチエージェントパイプライン誤謬（Multi-Agent Pipeline Fallacy）を深く解析します。本文では、分析システムの構築時にほとんどのチームが陥る2つの失敗モード——単一LLMエンドツーエンドデータアナリスト（浅い要約を生成し、因果関係を幻覚する）と過度に断片化されたマルチエージェントパイプライン（コンテキスト伝播の減衰、マチナイズなトークン消費）——を明らかにします。そして、確定的信号キュー、集中型推論所有権＋動的サブエージェント、知識グラフ制御プレーンという3本柱のソリューションと、有界調査ループの動作原理を提案します。",
+        "vi": "Phân tích chuyên sâu về mô hình thất bại suy luận phân tán phổ biến nhất trong kiến trúc AI doanh nghiệp — Sự Mê Lầm Của Đường Ống Đa Tác Tử (Multi-Agent Pipeline Fallacy). Bài viết này phơi bày hai chế độ thất bại mà hầu hết các nhóm gặp phải khi xây dựng hệ thống phân tích: nhà phân tích dữ liệu LLM đơn lẻ từ đầu đến cuối (tạo tóm tắt nông cạn, ảo giác quan hệ nhân quả) và đường ống đa tác tử bị phân mảnh quá mức (suy giảm ngữ cảnh truyền đi, tiêu thụ token khổng lồ). Đồng thời đề xuất giải pháp ba trụ cột: Hàng đợi tín hiệu xác định, Quyền sở hữu suy luận tập trung + Tác tử con động, và Mặt phẳng kiểm soát đồ thị tri thức, cùng với nguyên lý hoạt động của Vòng lặp điều tra có giới hạn.",
+        "zh-Hans": "深度解析企业AI架构中最常见的分布式推理失败模式——多智能体管道谬误（Multi-Agent Pipeline Fallacy）。本文揭示了大多数团队在构建分析系统时陷入的两种失败模式：单LLM端到端数据分析师（产生浅层摘要，hallucinate因果关系）与过度碎片化的多智能体管道（上下文传递衰减，token消耗巨大）。并提出三支柱解决方案：确定性信号队列、集中推理所有权+动态子智能体、以及知识图谱控制平面，以及有界调查循环的工作原理。",
+        "zh-Hant": "深度解析企業AI架構中最常見的分散式推理失敗模式——多智能體管道謬誤（Multi-Agent Pipeline Fallacy）。本文揭示了大多數團隊在建構分析系統時陷入的兩種失敗模式：單LLM端到端數據分析師（產生淺層摘要，hallucinate因果關係）與過度碎片化的多智能體管道（上下文傳遞衰減，token消耗巨大）。並提出三支柱解決方案：確定性信號佇列、集中推理所有權+動態子智能體、以及知識圖譜控制平面，以及有界調查循環的運作原理。"
+      },
+      "date": "2026-08-13",
+      "author": "TopDigg",
+      "tags": [
+        "AI Architecture",
+        "Multi-Agent Systems",
+        "LLM",
+        "Distributed Reasoning",
+        "Knowledge Graph",
+        "Analysis System",
+        "Pipeline",
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Enterprise AI"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
       "slug": "oh-my-claudecode-analysis",
       "title": {
         "en": "oh-my-claudecode: A Comprehensive Guide to Claude Code's Intelligent Multi-Agent Orchestration Framework",
         "ja": "oh-my-claudecode：Claude Code インテリジェントマルチエージェントオーケストレーショ framework 詳解",
-        "vi": "oh-my-claudecode Phân Tích Sâu: Công Cụ Điều Phối Multi-Agent Cho Claude Code (Ý Tưởng Cốt Lõi + Giới Thiệu + Hướng Dẫn + Triết Lý)",
+        "vi": "oh-my-claudecode: Hướng Dẫn Chi Tiết Về Khung Điều Phối Đa Tác Nhân Thông Minh Cho Claude Code",
         "zh-Hans": "oh-my-claudecode：Claude Code 智能多智能体编排框架详解",
         "zh-Hant": "oh-my-claudecode：Claude Code 智慧多智慧體編排框架詳解"
       },
       "description": {
         "en": "Comprehensive analysis of oh-my-claudecode (38.5k+ stars, MIT, TypeScript) — Claude Code's intelligent multi-agent orchestration framework. Core design philosophy: zero learning curve, multi-agent orchestration, intelligent routing, skill composition. Detailed coverage: 19 specialized agents, 3-tier model routing, 31 Skills, 5-stage Team Pipeline, Magic Keywords natural language triggering, installation tutorial, team collaboration mode, and best practices.",
         "ja": "oh-my-claudecode（38.5k+ stars、MIT、TypeScript）を全面解析——Claude Code インテリジェントマルチエージェントオーケストレーショフレームワーク。コア設計哲学：ゼロ学習曲線、マルチエージェントオーケストレーショ、インテリジェントルーティング、スキル組合。詳細：19の専門エージェント、3層モデルルーティング、31のSkills、5段階Team Pipeline、Magic Keywords自然言語トリガー、安装設定教程、团队協調モード、ベストプラクティス。",
-        "vi": "Phân tích sâu Yeachan-Heo/oh-my-claudecode (38.5k stars, MIT, TypeScript, v4.15.7) — hệ thống điều phối multi-agent cho Claude Code. Ý tưởng cốt lõi: 19 Agent chuyên biệt (4 lane) + 3 tầng model routing (haiku/sonnet/opus) + 31 Skills + Team pipeline 5 giai đoạn + Magic Keywords. Triết lý thiết kế: zero learning curve, teams-first orchestration, intelligent routing.",
+        "vi": "Phân tích toàn diện oh-my-claudecode (38.5k+ stars, MIT, TypeScript) — Khung điều phối đa tác nhân thông minh cho Claude Code. Triết lý thiết kế cốt lõi: đường cong học tập bằng không, điều phối đa tác nhân, định tuyến thông minh, kết hợp kỹ năng. Chi tiết: 19 tác nhân chuyên dụng, 3 cấp độ định tuyến mô hình, 31 Skills, Team Pipeline 5 giai đoạn, Magic Keywords kích hoạt bằng ngôn ngữ tự nhiên, hướng dẫn cài đặt, chế độ cộng tác team, thực hành tốt nhất.",
         "zh-Hans": "全面解析 oh-my-claudecode（38.5k+ stars，MIT，TypeScript）—— Claude Code 智能多智能体编排框架。核心设计哲学：零学习曲线、多智能体编排、智能路由、技能组合。详细涵盖：19个专业智能体、3档模型路由、31个Skills、五阶段Team Pipeline、Magic Keywords自然语言触发、安装配置教程、团队协作模式、最佳实践。",
         "zh-Hant": "全面解析 oh-my-claudecode（38.5k+ stars，MIT，TypeScript）—— Claude Code 智慧多智慧體編排框架。核心設計哲學：零學習曲線、多智慧體編排、智慧路由、技能組合。詳細涵蓋：19個專業智慧體、3檔模型路由、31個Skills、五階段Team Pipeline、Magic Keywords自然語言觸發、安裝配置教程、團隊協作模式、最佳實踐。"
       },
@@ -28,6 +348,39 @@
         "Developer Tools",
         "Skills",
         "Team Pipeline"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
+      "slug": "swarmforge-analysis",
+      "title": {
+        "en": "SwarmForge: A tmux-Based Multi-AI Agent Orchestration Platform",
+        "ja": "SwarmForge：tmuxベースのマルチAI Agentオーケストレーションプラットフォーム",
+        "vi": "SwarmForge: Nền tảng điều phối Multi-AI Agent dựa trên tmux",
+        "zh-Hans": "SwarmForge：基于tmux的多AI Agent编排平台",
+        "zh-Hant": "SwarmForge：基於tmux的多AI Agent編排平台"
+      },
+      "description": {
+        "en": "In-depth analysis of SwarmForge (tmux-based AI Agent orchestration platform) — achieving multi-AI agent collaborative software development through workflow configuration (two-pack/four-pack/six-pack), Worktree isolation, Handoff protocol, and Constitution structure. Covers: project architecture, three preset workflows, mechanisms, configuration-driven design philosophy, and usage examples.",
+        "ja": "SwarmForge（tmuxベースのAI Agentオーケストレーションプラットフォーム）を詳しく解説—— ワークフロー設定（two-pack/four-pack/six-pack）、Worktree隔離、Handoffプロトコル、憲法構造を通じて、複数のAIエージェントがソフトウェアプロジェクトを協調開発を実現。プロジェクトアーキテクチャ、3種類のプリセットワークフロー工作机制、設定駆動型設計理念、使用例などを網羅。",
+        "vi": "Phân tích chuyên sâu SwarmForge (nền tảng điều phối AI Agent dựa trên tmux) — đạt được sự cộng tác phát triển phần mềm đa AI agent thông qua cấu hình workflow (two-pack/four-pack/six-pack), cách ly Worktree, giao thức Handoff và cấu trúc Constitution. Chi tiết bao gồm: kiến trúc dự án, ba workflow预设，三种预设工作流、工作机制详解、配置驱动设计理念和使用示例。",
+        "zh-Hans": "深入解析 SwarmForge（基于tmux的AI Agent编排平台）—— 通过工作流配置（two-pack/four-pack/six-pack）、Worktree隔离、Handoff协议和宪法结构，实现多个AI代理协同开发软件项目。详细涵盖：项目架构、三种预设工作流、工作机制、配置驱动设计理念和使用示例。",
+        "zh-Hant": "深入解析 SwarmForge（基於tmux的AI Agent編排平台）—— 透過工作流配置（two-pack/four-pack/six-pack）、Worktree隔離、Handoff協議和憲法結構，實現多個AI代理協同開發軟體專案。詳細涵蓋：專案架構、三種預設工作流、工作機制、配置驅動設計理念和使用範例。"
+      },
+      "date": "2026-08-13",
+      "author": "TopDigg",
+      "tags": [
+        "SwarmForge",
+        "Multi-Agent",
+        "tmux",
+        "AI Agent",
+        "Orchestration",
+        "Worktree",
+        "Handoff",
+        "Developer Tools",
+        "AI Agents"
       ],
       "categories": [
         "Deep Dive"

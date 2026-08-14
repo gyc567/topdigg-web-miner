@@ -1,5 +1,5 @@
 ---
-title: "DeepSeek Harness: Framework Phát Triển Agent Dựa Trên Triết Lý "Mọi Thứ Đều Là Plugin""
+title: 'DeepSeek Harness: Framework Phát Triển Agent Dựa Trên Triết Lý "Mọi Thứ Đều Là Plugin"'
 date: "2026-08-13"
 description: "Phân tích chi tiết dự án DeepSeek Harness, tìm hiểu về kiến trúc plugin, tính năng cốt lõi và cách nhanh chóng bắt đầu sử dụng framework phát triển agent mã nguồn mở này từ DeepSeek AI."
 tags:

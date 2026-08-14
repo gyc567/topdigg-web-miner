@@ -29,7 +29,62 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://topdigg.com/blog/acceptance-pipeline-specification</loc>
+    <lastmod>2026-08-14T00:00:00.000Z</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/agents-md-complete-guide</loc>
+    <lastmod>2026-08-14T00:00:00.000Z</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/pi-context-compaction</loc>
+    <lastmod>2026-08-14T00:00:00.000Z</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/2026-08-13-spatiotemporal-composability</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/agentic-design-patterns</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/ai-knowledge-graph-generator</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/deepseek-harness-analysis</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/deepseek-harness</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/ephemeral-ai-fs-analysis</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/multi-agent-pipeline-fallacy</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://topdigg.com/blog/oh-my-claudecode-analysis</loc>
+    <lastmod>2026-08-13</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/swarmforge-analysis</loc>
     <lastmod>2026-08-13</lastmod>
     <priority>0.8</priority>
   </url>

@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-13T02:17:48.613Z
+Generated: 2026-08-14T00:01:35.836Z
 
 ## Site Overview
 
@@ -21,65 +21,65 @@ We cover trending topics and business opportunities across Reddit, YouTube, and 
 
 ## Latest Blog Posts (10 most recent)
 
-### oh-my-claudecode: A Comprehensive Guide to Claude Code's Intelligent Multi-Agent Orchestration Framework
-URL: https://topdigg.com/blog/oh-my-claudecode-analysis | Date: 2026-08-13 | Author: TopDigg
-Tags: oh-my-claudecode, Claude Code, Multi-Agent, Orchestration, TypeScript, AI Agents, Developer Tools, Skills, Team Pipeline
+### Acceptance Pipeline Specification: Uncle Bob's Portable Acceptance Testing Pipeline
+URL: https://topdigg.com/blog/acceptance-pipeline-specification | Date: 2026-08-14T00:00:00.000Z | Author: TopDigg
+Tags: Acceptance Pipeline, Gherkin, Acceptance Testing, Clean Code, Uncle Bob, BDD, Automated Testing
 
-Comprehensive analysis of oh-my-claudecode (38.5k+ stars, MIT, TypeScript) — Claude Code's intelligent multi-agent orchestration framework. Core design philosophy: zero learning curve, multi-agent orchestration, intelligent routing, skill composition. Detailed coverage: 19 specialized agents, 3-tier
+A deep dive into Robert C. Martin's Acceptance Pipeline Specification project, exploring how to achieve portable acceptance testing through Gherkin feature files
 
-### Aura Deep Dive: A Minimal, Testable Rust Coding Agent — Building an Agent with a Single While Loop (Core Idea + Project Overview + Detailed Tutorial + Design Philosophy)
-URL: https://topdigg.com/blog/aura-analysis | Date: 2026-08-12 | Author: TopDigg
-Tags: Aura, Rust, AI Agent, Coding Agent, Agent Architecture, While Loop, Tool Use, Claude Code, RLM, Session, Benchmark, Loop Engineering, KISS, Model Gateway, Error Budget
+### The Complete AGENTS.md Guide: The Art of Configuring AI Programming Assistants
+URL: https://topdigg.com/blog/agents-md-complete-guide | Date: 2026-08-14T00:00:00.000Z | Author: TopDigg
+Tags: AGENTS.md, Claude Code, Cursor, Copilot, AI Assistant, Configuration
 
-An in-depth analysis of gyc567/aura (open source project, Rust, MIT license), a 'minimal, testable Rust coding agent'. Core idea: 'Stop prompting. Design the loop. Get a score.' — instead of manually prompting the agent every time, you design the loop structure in advance so the agent runs, reports,
+Deep dive into AGENTS.md configuration philosophy and best practices to make AI programming assistants understand your project better
 
-### Freqtrade Deep Dive: After Six Months, Can It Really Make You Money in Crypto? (Core Idea + Project Overview + Detailed Tutorial + Design Philosophy)
-URL: https://topdigg.com/blog/freqtrade-analysis | Date: 2026-08-12 | Author: TopDigg
-Tags: Freqtrade, Quantitative Trading, Crypto, Backtesting, Python, Open Source, Hyperopt, FreqAI, Machine Learning, Trading Bot, CCXT, Telegram Bot, Dry Run, Lookahead Bias, Trading Strategy, Automated Trading
+### Context Compaction in Pi Coding Assistant: A Technical Solution for LLM Context Window Limitations
+URL: https://topdigg.com/blog/pi-context-compaction | Date: 2026-08-14T00:00:00.000Z | Author: TopDigg
+Tags: LLM, Context Compaction, Context Window, Pi, Coding Assistant, AI
 
-Based on the viral Juejin long-read 'I used Freqtrade for six months — let me tell you whether it can actually make you money in crypto', this is an in-depth analysis of Freqtrade (open source, Python, GPL-3.0, the ceiling-level framework in crypto quant). Core idea: **it is a tool, not an answer** 
+An in-depth analysis of how Pi Coding Assistant breaks through LLM context window limitations through context compaction mechanism, enabling continuous coding in long sessions
 
-### LangGraph Deep Dive: 3 Years of Graph Engineering — A Complete Guide to Building Reliable Agents with Graphs (Core Idea + Project Overview + Detailed Tutorial + Design Philosophy)
-URL: https://topdigg.com/blog/langchain-graph-engineering-analysis | Date: 2026-08-12 | Author: TopDigg
-Tags: LangGraph, Graph Engineering, AI Agent, Agent Architecture, LangChain, Loop Engineering, Multi-Agent, Orchestration, State Machine, Cognitive Architecture, Harness, Agentic Systems
+### Spatiotemporal Composability: A Programming Paradigm Redefining Dynamic Software Architecture
+URL: https://topdigg.com/blog/2026-08-13-spatiotemporal-composability | Date: 2026-08-13 | Author: TopDigg
+Tags: programming paradigm, software architecture, dynamic composition, effect system, coeffect system
 
-Based on the official LangChain blog post '3 Years of Graph Engineering with LangGraph' (Harrison Chase & Sydney Runkle, 2026-07-22), this is a complete analysis of the 'graph engineering' paradigm and the LangGraph framework. Core idea: representing agentic systems as graphs lets you (the builder) 
+An in-depth analysis of the cordiverse/paper paper, exploring the programming paradigm for dynamic software composition, covering core concepts such as Revertible Effects, Reactive Coeffects, and Context Types
 
-### Raft Deep Dive: Enabling Humans and AI Agents to Collaborate Like Real Teammates (Core Ideas + Project Overview + Tutorial + Design Philosophy)
-URL: https://topdigg.com/blog/raft-analysis | Date: 2026-08-12 | Author: TopDigg
-Tags: Raft, Agent Experience, AX, Multi-Agent, Collaboration, Human-AI, Botiverse, Agent Workspace, Agent Inbox, Held Draft, Agent Native, Teamwork, Design Philosophy
+### Agentic Design Patterns: A Complete Guide to Building Intelligent Systems with AI Agents
+URL: https://topdigg.com/blog/agentic-design-patterns | Date: 2026-08-13 | Author: evoiz
+Tags: AI Agent, Agentic Design Patterns, Artificial Intelligence, Design Patterns, LangChain, AutoGPT, AutoGen, CrewAI
 
-Deep analysis of raft.build's AX design philosophy and Agent-native collaboration platform Raft. Core idea: **Agents are not tools — they are decision-making participants.** Through two key designs — Agent Inbox (pull-based attention) and Held Draft (draft state machine) — Raft enables agents to con
+Deep dive into the Agentic Design Patterns project, exploring core AI Agent design patterns including prompt chaining, routing, reflection, tool use, planning, and multi-agent collaboration.
 
-### bb Deep Dive: The Agent IDE That Builds Itself — a Programmable Workspace for Orchestrating Every Coding Agent (Project Overview + Quick-Start Tutorial + System Architecture + Design Philosophy)
-URL: https://topdigg.com/blog/bb-ide-analysis | Date: 2026-08-11 | Author: TopDigg
-Tags: bb, Agent IDE, AI Agent, Agent Orchestration, Claude Code, Codex, IDE, DevTools, Programmable Workspace, Threads, Agentic Development, Monorepo, Electron
+### AI Knowledge Graph: Transform Unstructured Documents into Interactive Knowledge Graphs
+URL: https://topdigg.com/blog/ai-knowledge-graph-generator | Date: 2026-08-13 | Author: robert-mcdermott
+Tags: AI, Knowledge Graph, NLP, Python, Visualization
 
-Using get-bb/bb (an MIT-licensed open-source GitHub project, ~1.6k stars) as the subject, this is a complete analysis of 'The agent IDE that builds itself'. Core idea: bb is a programmable workspace for coding agents — users and agents are both first-class operators, and all four surfaces (desktop a
+A deep dive into the AI Knowledge Graph Generator project - learn how to convert unstructured text documents into interactive knowledge graphs
 
-### cc-master 深度解析：把任意编码 Agent 会话变成长期项目负责人（项目说明 + 快速上手教程 + 系统架构 + 设计哲学）
-URL: https://topdigg.com/blog/cc-master-analysis | Date: 2026-08-11 | Author: TopDigg
-Tags: cc-master, Claude Code, Codex, Cursor, kimi-code, Agent Orchestration, AI Agent, Long-horizon, Task DAG, Monte Carlo, Project Lead, DevTools, Agent Plugin
+### DeepSeek Harness Deep Analysis: AI Agent Engineering Infrastructure and Ecosystem Overview (Core Ideas + Project Overview + Tutorial + Design Philosophy)
+URL: https://topdigg.com/blog/deepseek-harness-analysis | Date: 2026-08-13 | Author: TopDigg
+Tags: DeepSeek, Harness, Agent, Cordis, Monorepo, Plugin Engine, Dual Surface, Telemetry, MCP, AI Infrastructure, Design Philosophy
 
-以 nemori-ai/cc-master（开源项目，TypeScript，PolyForm Noncommercial 1.0.0 协议）为蓝本，完整解析'把编码 Agent 会话变成长期项目负责人（a project lead for long-running work）'。核心思想：cc-master 把 Claude Code、Codex、Cursor、kimi-code 中任何一个受支持的编码 Agent 会话变成'项目负责人'——你带想法、做少数真正需要你的决策；它负责拆解大目标、并行调度独立子任务、追踪进度与配额，并对照显式目标验收结果。Board（看板）能跨上下文重置与会话交接
+In-depth analysis of DeepSeek Harness (DSH) technical architecture and design philosophy. Core idea: AI Agent engineering infrastructure isn't about making models stronger, but making agent behavior more controllable, observable, and extensible. DSH builds a complete Agent runtime infrastructure thr
 
-### Agents in Orbs Deep Dive: When the Agent Learns to Run Code While You're Not at Your Computer — Amp's Remote Orb Hands-On Tutorial, Design Philosophy, and Five Core Insights
-URL: https://topdigg.com/blog/agents-in-orbs-analysis | Date: 2026-08-10 | Author: TopDigg Research Team
-Tags: Amp, Agents in Orbs, Coding Agent, AI Agent, Remote Agent, Orb, amp CLI, amp -ox, amp sync, CLI Agent, Debian 12, OIDC, Webhook, Plugin, TUI, SaaS, Ampcode, DevOps
+### DeepSeek Harness: An Agent Development Framework Based on the "Everything is a Plugin" Philosophy
+URL: https://topdigg.com/blog/deepseek-harness | Date: 2026-08-13 | Author: TopDigg
+Tags: DeepSeek, Agent, Plugin Architecture, Open Source, Agent Development, Cordis
 
-Based on Amp's official 2026-06-30 announcement Agents in Orbs, the 2026-02-19 editorial The Coding Agent Is Dead, the Orbs User Manual, and the 2026-08-07 price-table post Size the Orbs of Production, this article dissects the product shape, technical details, and design philosophy of Amp's Orb. It
+An in-depth analysis of the DeepSeek Harness project, exploring its plugin-based architecture, core features, and how to quickly get started with this open-source agent development framework by DeepSeek AI.
 
-### The AI Agent Trading Ecosystem, Explained: A Deep Dive into the awesome-agent-trading Curated List
-URL: https://topdigg.com/blog/awesome-agent-trading-analysis | Date: 2026-08-10 | Author: TopDigg Research Team
-Tags: AI Agent, Agent Trading, Automated Trading, Quantitative Trading, DeFi, MCP, TradingAgents, FinGPT, OpenClaw, Agent Economy
+### Ephemeral AI FS Deep Dive: A Fork-Aware Content-Addressable Storage System for Multi-Agent Workspaces (Core Ideas + Project Overview + Tutorial + Design Philosophy)
+URL: https://topdigg.com/blog/ephemeral-ai-fs-analysis | Date: 2026-08-13 | Author: TopDigg
+Tags: Ephemeral AI FS, Content Addressable Storage, CAS, CDC, Merkle, Multi-Agent, Fork-aware, SQLite, Workspace, Storage System, Design Philosophy
 
-An in-depth analysis of the awesome-agent-trading GitHub curated list: from 17 Agent frameworks and 20 OpenClaw trading skills to 8 MCP servers and Agent identity and payment protocols — a complete walkthrough of the AI Agent trading ecosystem. Includes the core idea, project overview, a step-by-ste
+A deep dive into Ephemeral AI FS's core design philosophy and fork-aware content-addressable storage architecture. Core idea: **In multi-agent collaboration environments, workspace forking is the norm, not the exception** — traditional version control systems suffer from massive duplicate storage an
 
-### FDE Guide Deep Dive: Engineering Value Before Autonomy — A Production-Grade Delivery Methodology for FDEs and AI Engineers (Project Overview + 7-Stage Delivery Loop + 12-Factor Value Engineering Tutorial + Design Philosophy)
-URL: https://topdigg.com/blog/fde-guide-analysis | Date: 2026-08-10 | Author: TopDigg Research Team
-Tags: FDE, Forward Deployed Engineering, AI Value Engineering, Production AI, AI Agent, Value Engineering, 12 Factors, Accepted Outcome, Frugal Architecture, Intelligence Selection, Agent Architecture, LLM, David Ahmann
+### Multi-Agent Pipeline Fallacy: How to Compress a Multi-Week Analysis Process into 30 Minutes
+URL: https://topdigg.com/blog/multi-agent-pipeline-fallacy | Date: 2026-08-13 | Author: TopDigg
+Tags: AI Architecture, Multi-Agent Systems, LLM, Distributed Reasoning, Knowledge Graph, Analysis System, Pipeline, Artificial Intelligence, Machine Learning, Enterprise AI
 
-Using davidahmann/fde-guide (open-source GitHub project, Apache-2.0, by David Ahmann) as the blueprint, this is a complete analysis of the 'forward-deployed engineer (FDE) and applied-AI delivery' methodology. Core idea in one sentence: **Tokens are an input. Autonomy is a design choice. The accepte
+An in-depth analysis of the most common distributed reasoning failure pattern in enterprise AI architecture — the Multi-Agent Pipeline Fallacy. This article reveals the two failure modes that most teams fall into when building analysis systems: single-LLM end-to-end data analyst (producing shallow s
 
 ## Twitter Analysis Reports
 
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 87 blog posts | 4 Twitter analyses
+End of llms.txt | 98 blog posts | 4 Twitter analyses

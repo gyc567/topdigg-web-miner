@@ -1,5 +1,5 @@
 ---
-title: "DeepSeek Harness: An Agent Development Framework Based on the "Everything is a Plugin" Philosophy"
+title: 'DeepSeek Harness: An Agent Development Framework Based on the "Everything is a Plugin" Philosophy'
 date: "2026-08-13"
 description: "An in-depth analysis of the DeepSeek Harness project, exploring its plugin-based architecture, core features, and how to quickly get started with this open-source agent development framework by DeepSeek AI."
 tags:
