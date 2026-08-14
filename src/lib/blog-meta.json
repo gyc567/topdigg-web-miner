@@ -189,6 +189,41 @@
       ]
     },
     {
+      "slug": "uncle-bob-ai-coding-gauntlet",
+      "title": {
+        "en": "Uncle Bob Doesn't Review AI Code. He Builds a Gauntlet Instead: Test-Driven Over Code Review in the AI Era",
+        "ja": "Uncle BobはAIコードレビューをしない。代わりに「試練の塔」を構築する：AI時代のテスト駆動開発",
+        "vi": "Uncle Bob Không Review Code AI. Anh ấy Xây Dựng Một \"Lò Xi Măng\" Thay Thế: Phát Triển Dựa Trên Test Thay Vì Code Review Trong Kỷ Nguyên AI",
+        "zh-Hans": "Uncle Bob不审查AI代码，他建了一座\"熔炉\"：测试驱动而非代码审查的AI编程策略",
+        "zh-Hant": "Uncle Bob不審查AI代碼，他建了一座「熔爐」：測試驅動而非代碼審查的AI編程策略"
+      },
+      "description": {
+        "en": "An in-depth analysis of Robert C. Martin's AI coding methodology — extreme constraints, layered testing, and ATDD workflows that let AI agents deliver high-quality software without human code review",
+        "ja": "Robert C. Martin（Uncle Bob）のAIプログラミング手法を深度解析。Extreme Constraints、階層的テスト、ATDDワークフローにより、AIエージェントが人間のコードレビューなしで高品質なソフトウェアを納品できるようにする",
+        "vi": "Phân tích chuyên sâu về phương pháp lập trình AI của Robert C. Martin (Uncle Bob) — ràng buộc cực đoan, kiểm thử đa tầng và quy trình phát triển ATDD giúp các tác tử AI có thể deliver phần mềm chất lượng cao mà không cần con người review code",
+        "zh-Hans": "深度解析Robert C. Martin（Uncle Bob）的AI编程方法论——通过极端约束、分层测试和验收驱动的开发流程，让AI代理在不被人审查代码的情况下交付高质量软件",
+        "zh-Hant": "深度解析Robert C. Martin（Uncle Bob）的AI編程方法論——通過極端約束、分層測試和驗收驅動的開發流程，讓AI代理在不被人審查代碼的情況下交付高質量軟體"
+      },
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "Uncle Bob",
+        "AI Coding",
+        "Test-Driven Development",
+        "ATDD",
+        "Acceptance Testing",
+        "SOLID Principles",
+        "Clean Code",
+        "AI Agents"
+      ],
+      "categories": [
+        "AI Engineering Practice",
+        "Development Methodology",
+        "Software Architecture",
+        "AI Programming Agents"
+      ]
+    },
+    {
       "slug": "2026-08-13-spatiotemporal-composability",
       "title": {
         "en": "Spatiotemporal Composability: A Programming Paradigm Redefining Dynamic Software Architecture",

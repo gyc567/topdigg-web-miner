@@ -117,6 +117,29 @@
       "description": "Piコーディングアシスタントがコンテキスト圧縮メカニズムを通じてLLMのコンテキストウィンドウ制限を突破し、長いセッションでの継続的なコーディング能力を実現する方法の詳細な解析"
     },
     {
+      "slug": "uncle-bob-ai-coding-gauntlet",
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "Uncle Bob",
+        "AI Coding",
+        "Test-Driven Development",
+        "ATDD",
+        "Acceptance Testing",
+        "SOLID Principles",
+        "Clean Code",
+        "AI Agents"
+      ],
+      "categories": [
+        "AI Engineering Practice",
+        "Development Methodology",
+        "Software Architecture",
+        "AI Programming Agents"
+      ],
+      "title": "Uncle BobはAIコードレビューをしない。代わりに「試練の塔」を構築する：AI時代のテスト駆動開発",
+      "description": "Robert C. Martin（Uncle Bob）のAIプログラミング手法を深度解析。Extreme Constraints、階層的テスト、ATDDワークフローにより、AIエージェントが人間のコードレビューなしで高品質なソフトウェアを納品できるようにする"
+    },
+    {
       "slug": "2026-08-13-spatiotemporal-composability",
       "date": "2026-08-13",
       "author": "TopDigg",

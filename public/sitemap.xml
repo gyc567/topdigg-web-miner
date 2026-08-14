@@ -59,6 +59,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://topdigg.com/blog/uncle-bob-ai-coding-gauntlet</loc>
+    <lastmod>2026-08-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://topdigg.com/blog/2026-08-13-spatiotemporal-composability</loc>
     <lastmod>2026-08-13</lastmod>
     <priority>0.8</priority>

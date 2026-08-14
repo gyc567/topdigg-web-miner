@@ -117,6 +117,29 @@
       "description": "An in-depth analysis of how Pi Coding Assistant breaks through LLM context window limitations through context compaction mechanism, enabling continuous coding in long sessions"
     },
     {
+      "slug": "uncle-bob-ai-coding-gauntlet",
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "Uncle Bob",
+        "AI Coding",
+        "Test-Driven Development",
+        "ATDD",
+        "Acceptance Testing",
+        "SOLID Principles",
+        "Clean Code",
+        "AI Agents"
+      ],
+      "categories": [
+        "AI Engineering Practice",
+        "Development Methodology",
+        "Software Architecture",
+        "AI Programming Agents"
+      ],
+      "title": "Uncle Bob Doesn't Review AI Code. He Builds a Gauntlet Instead: Test-Driven Over Code Review in the AI Era",
+      "description": "An in-depth analysis of Robert C. Martin's AI coding methodology — extreme constraints, layered testing, and ATDD workflows that let AI agents deliver high-quality software without human code review"
+    },
+    {
       "slug": "2026-08-13-spatiotemporal-composability",
       "date": "2026-08-13",
       "author": "TopDigg",

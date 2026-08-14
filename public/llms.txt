@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-14T03:55:56.969Z
+Generated: 2026-08-14T07:08:04.808Z
 
 ## Site Overview
 
@@ -57,6 +57,12 @@ Tags: LLM, Context Compaction, Context Window, Pi, Coding Assistant, AI
 
 An in-depth analysis of how Pi Coding Assistant breaks through LLM context window limitations through context compaction mechanism, enabling continuous coding in long sessions
 
+### Uncle Bob Doesn't Review AI Code. He Builds a Gauntlet Instead: Test-Driven Over Code Review in the AI Era
+URL: https://topdigg.com/blog/uncle-bob-ai-coding-gauntlet | Date: 2026-08-14 | Author: TopDigg
+Tags: Uncle Bob, AI Coding, Test-Driven Development, ATDD, Acceptance Testing, SOLID Principles, Clean Code, AI Agents
+
+An in-depth analysis of Robert C. Martin's AI coding methodology — extreme constraints, layered testing, and ATDD workflows that let AI agents deliver high-quality software without human code review
+
 ### Spatiotemporal Composability: A Programming Paradigm Redefining Dynamic Software Architecture
 URL: https://topdigg.com/blog/2026-08-13-spatiotemporal-composability | Date: 2026-08-13 | Author: TopDigg
 Tags: programming paradigm, software architecture, dynamic composition, effect system, coeffect system
@@ -74,12 +80,6 @@ URL: https://topdigg.com/blog/ai-knowledge-graph-generator | Date: 2026-08-13 | 
 Tags: AI, Knowledge Graph, NLP, Python, Visualization
 
 A deep dive into the AI Knowledge Graph Generator project - learn how to convert unstructured text documents into interactive knowledge graphs
-
-### DeepSeek Harness Deep Analysis: AI Agent Engineering Infrastructure and Ecosystem Overview (Core Ideas + Project Overview + Tutorial + Design Philosophy)
-URL: https://topdigg.com/blog/deepseek-harness-analysis | Date: 2026-08-13 | Author: TopDigg
-Tags: DeepSeek, Harness, Agent, Cordis, Monorepo, Plugin Engine, Dual Surface, Telemetry, MCP, AI Infrastructure, Design Philosophy
-
-In-depth analysis of DeepSeek Harness (DSH) technical architecture and design philosophy. Core idea: AI Agent engineering infrastructure isn't about making models stronger, but making agent behavior more controllable, observable, and extensible. DSH builds a complete Agent runtime infrastructure thr
 
 ## Twitter Analysis Reports
 
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 101 blog posts | 4 Twitter analyses
+End of llms.txt | 102 blog posts | 4 Twitter analyses

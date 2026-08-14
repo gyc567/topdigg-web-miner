@@ -117,6 +117,29 @@
       "description": "深入解析Pi编码助手如何通过上下文压缩机制突破LLM上下文窗口限制，实现长会话的持续编码能力"
     },
     {
+      "slug": "uncle-bob-ai-coding-gauntlet",
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "Uncle Bob",
+        "AI Coding",
+        "Test-Driven Development",
+        "ATDD",
+        "Acceptance Testing",
+        "SOLID Principles",
+        "Clean Code",
+        "AI Agents"
+      ],
+      "categories": [
+        "AI Engineering Practice",
+        "Development Methodology",
+        "Software Architecture",
+        "AI Programming Agents"
+      ],
+      "title": "Uncle Bob不审查AI代码，他建了一座\"熔炉\"：测试驱动而非代码审查的AI编程策略",
+      "description": "深度解析Robert C. Martin（Uncle Bob）的AI编程方法论——通过极端约束、分层测试和验收驱动的开发流程，让AI代理在不被人审查代码的情况下交付高质量软件"
+    },
+    {
       "slug": "2026-08-13-spatiotemporal-composability",
       "date": "2026-08-13",
       "author": "TopDigg",
