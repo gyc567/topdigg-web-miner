@@ -123,6 +123,31 @@
       "description": "Phân tích chuyên sâu về dự án Babashka — thời gian khởi động nhanh như chớp với GraalVM native-image và SCI interpreter, hỗ trợ hệ thống Pod, task runner tích hợp và nhiều thư viện phong phú"
     },
     {
+      "slug": "macro",
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "Macro",
+        "Team Collaboration",
+        "All-in-One Workspace",
+        "SolidJS",
+        "Rust",
+        "MCP",
+        "CRM",
+        "AI Agents",
+        "Workflow Redesign"
+      ],
+      "categories": [
+        "Team Collaboration Tools",
+        "AI Tools",
+        "Workflow",
+        "Product Analysis",
+        "Open Source Projects"
+      ],
+      "title": "Macro: Không Gian Làm Việc Đội Nhóm Thống Nhất — Nền Tảng All-in-One Hợp Nhất Email, Chat, Tài Liệu, Nhiệm Vụ",
+      "description": "Phân tích chuyên sâu dự án Macro — không gian làm việc đội nhóm thống nhất xây dựng bằng SolidJS + Rust, tích hợp email, chat, tài liệu, nhiệm vụ, AI agents và CRM với @linking hai chiều và bộ nhớ cấp đội"
+    },
+    {
       "slug": "mind2web",
       "date": "2026-08-14",
       "author": "TopDigg",

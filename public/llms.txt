@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-14T09:21:53.700Z
+Generated: 2026-08-14T09:41:28.699Z
 
 ## Site Overview
 
@@ -57,6 +57,12 @@ Tags: Babashka, Clojure, Scripting Language, GraalVM, Functional Programming, SC
 
 Deep analysis of Babashka — a fast-starting native Clojure runtime powered by GraalVM native-image and SCI interpreter, featuring pods system, built-in task runner, and rich library ecosystem
 
+### Macro: Unified Team Workspace — Deep Analysis of the All-in-One Work Platform
+URL: https://topdigg.com/blog/macro | Date: 2026-08-14 | Author: TopDigg
+Tags: Macro, Team Collaboration, All-in-One Workspace, SolidJS, Rust, MCP, CRM, AI Agents, Workflow Redesign
+
+In-depth analysis of Macro — a unified team workspace combining email, chat, docs, tasks, AI agents, and CRM with bidirectional @linking and team-level memory, built with SolidJS + Rust
+
 ### Mind2Web: The World's First Real-World Web Agent Benchmark Dataset — Teaching AI to Complete Complex Tasks on Any Website
 URL: https://topdigg.com/blog/mind2web | Date: 2026-08-14 | Author: TopDigg
 Tags: Mind2Web, Web Agent, LLM, Large Language Models, Web Navigation, AI Agent, NeurIPS, Dataset, Artificial Intelligence
@@ -74,12 +80,6 @@ URL: https://topdigg.com/blog/pi-context-compaction | Date: 2026-08-14T00:00:00.
 Tags: LLM, Context Compaction, Context Window, Pi, Coding Assistant, AI
 
 An in-depth analysis of how Pi Coding Assistant breaks through LLM context window limitations through context compaction mechanism, enabling continuous coding in long sessions
-
-### Uncle Bob on AI Programming: Testing, Architecture, and the Redefinition of Programmer Value
-URL: https://topdigg.com/blog/uncle-bob-ai-coding-gauntlet | Date: 2026-08-14 | Author: TopDigg
-Tags: Uncle Bob, AI Programming, TDD, Software Architecture, Test-Driven Development, Programmer Value, Artificial Intelligence, Software Engineering
-
-In-depth analysis of Robert C. Martin (Uncle Bob)'s views on AI programming — AI handles high-speed code generation while humans focus on requirements, architecture, and validation constraints
 
 ## Twitter Analysis Reports
 
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 105 blog posts | 4 Twitter analyses
+End of llms.txt | 106 blog posts | 4 Twitter analyses

@@ -123,6 +123,31 @@
       "description": "GraalVM native-imageとSCIインタープリタに基づく高速起動のネイティブClojureランタイムであるBabashkaを深度解析。Pods拡張、組み込みタスクランナー、豊富なライブラリサポート"
     },
     {
+      "slug": "macro",
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "Macro",
+        "Team Collaboration",
+        "All-in-One Workspace",
+        "SolidJS",
+        "Rust",
+        "MCP",
+        "CRM",
+        "AI Agents",
+        "Workflow Redesign"
+      ],
+      "categories": [
+        "Team Collaboration Tools",
+        "AI Tools",
+        "Workflow",
+        "Product Analysis",
+        "Open Source Projects"
+      ],
+      "title": "Macro：統一チームワークスペース——メール、チャット、ドキュメント、タスク、AIエージェントを融合したAll-in-Oneプラットフォーム",
+      "description": "Macroプロジェクトの深度解析——SolidJS + Rustで構築された統一チームワークスペース、邮件、チャット、ドキュメント、タスク、AIエージェント、CRM于一体、双方向@リンクとチームレベルメモリを提供"
+    },
+    {
       "slug": "mind2web",
       "date": "2026-08-14",
       "author": "TopDigg",

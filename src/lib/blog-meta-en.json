@@ -123,6 +123,31 @@
       "description": "Deep analysis of Babashka — a fast-starting native Clojure runtime powered by GraalVM native-image and SCI interpreter, featuring pods system, built-in task runner, and rich library ecosystem"
     },
     {
+      "slug": "macro",
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "Macro",
+        "Team Collaboration",
+        "All-in-One Workspace",
+        "SolidJS",
+        "Rust",
+        "MCP",
+        "CRM",
+        "AI Agents",
+        "Workflow Redesign"
+      ],
+      "categories": [
+        "Team Collaboration Tools",
+        "AI Tools",
+        "Workflow",
+        "Product Analysis",
+        "Open Source Projects"
+      ],
+      "title": "Macro: Unified Team Workspace — Deep Analysis of the All-in-One Work Platform",
+      "description": "In-depth analysis of Macro — a unified team workspace combining email, chat, docs, tasks, AI agents, and CRM with bidirectional @linking and team-level memory, built with SolidJS + Rust"
+    },
+    {
       "slug": "mind2web",
       "date": "2026-08-14",
       "author": "TopDigg",

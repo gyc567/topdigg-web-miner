@@ -195,6 +195,43 @@
       ]
     },
     {
+      "slug": "macro",
+      "title": {
+        "en": "Macro: Unified Team Workspace — Deep Analysis of the All-in-One Work Platform",
+        "ja": "Macro：統一チームワークスペース——メール、チャット、ドキュメント、タスク、AIエージェントを融合したAll-in-Oneプラットフォーム",
+        "vi": "Macro: Không Gian Làm Việc Đội Nhóm Thống Nhất — Nền Tảng All-in-One Hợp Nhất Email, Chat, Tài Liệu, Nhiệm Vụ",
+        "zh-Hans": "Macro：统一团队工作空间——一款融合邮件、聊天、文档、任务、AI 代理的 All-in-One 工作平台深度解析",
+        "zh-Hant": "Macro：統一團隊工作空間——一款融合郵件、聊天、文檔、任務、AI 代理的 All-in-One 工作平台深度解析"
+      },
+      "description": {
+        "en": "In-depth analysis of Macro — a unified team workspace combining email, chat, docs, tasks, AI agents, and CRM with bidirectional @linking and team-level memory, built with SolidJS + Rust",
+        "ja": "Macroプロジェクトの深度解析——SolidJS + Rustで構築された統一チームワークスペース、邮件、チャット、ドキュメント、タスク、AIエージェント、CRM于一体、双方向@リンクとチームレベルメモリを提供",
+        "vi": "Phân tích chuyên sâu dự án Macro — không gian làm việc đội nhóm thống nhất xây dựng bằng SolidJS + Rust, tích hợp email, chat, tài liệu, nhiệm vụ, AI agents và CRM với @linking hai chiều và bộ nhớ cấp đội",
+        "zh-Hans": "深度解析 Macro 项目——基于 SolidJS + Rust 构建的统一团队工作空间，融合邮件、聊天、文档、任务、AI 代理、CRM 于一体，100% API 通过 MCP 开放，设计哲学为双向 @ 链接和共享团队记忆",
+        "zh-Hant": "深度解析 Macro 項目——基於 SolidJS + Rust 構建的統一團隊工作空間，融合郵件、聊天、文檔、任務、AI 代理、CRM 於一體，100% API 通過 MCP 開放，設計哲學為雙向 @ 鏈接和共享團隊記憶"
+      },
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "Macro",
+        "Team Collaboration",
+        "All-in-One Workspace",
+        "SolidJS",
+        "Rust",
+        "MCP",
+        "CRM",
+        "AI Agents",
+        "Workflow Redesign"
+      ],
+      "categories": [
+        "Team Collaboration Tools",
+        "AI Tools",
+        "Workflow",
+        "Product Analysis",
+        "Open Source Projects"
+      ]
+    },
+    {
       "slug": "mind2web",
       "title": {
         "en": "Mind2Web: The World's First Real-World Web Agent Benchmark Dataset — Teaching AI to Complete Complex Tasks on Any Website",

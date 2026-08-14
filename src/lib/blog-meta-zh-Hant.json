@@ -123,6 +123,31 @@
       "description": "深度解析Babashka項目——基於GraalVM native-image和SCI解釋器的極速啟動Clojure運行時，無需JVM即可在命令列享受完整的Clojure scripting體驗，支持Pods擴展、任務運行器和豐富的內置庫"
     },
     {
+      "slug": "macro",
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "Macro",
+        "Team Collaboration",
+        "All-in-One Workspace",
+        "SolidJS",
+        "Rust",
+        "MCP",
+        "CRM",
+        "AI Agents",
+        "Workflow Redesign"
+      ],
+      "categories": [
+        "Team Collaboration Tools",
+        "AI Tools",
+        "Workflow",
+        "Product Analysis",
+        "Open Source Projects"
+      ],
+      "title": "Macro：統一團隊工作空間——一款融合郵件、聊天、文檔、任務、AI 代理的 All-in-One 工作平台深度解析",
+      "description": "深度解析 Macro 項目——基於 SolidJS + Rust 構建的統一團隊工作空間，融合郵件、聊天、文檔、任務、AI 代理、CRM 於一體，100% API 通過 MCP 開放，設計哲學為雙向 @ 鏈接和共享團隊記憶"
+    },
+    {
       "slug": "mind2web",
       "date": "2026-08-14",
       "author": "TopDigg",
