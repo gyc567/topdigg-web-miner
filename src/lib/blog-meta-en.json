@@ -123,6 +123,30 @@
       "description": "Deep analysis of Babashka — a fast-starting native Clojure runtime powered by GraalVM native-image and SCI interpreter, featuring pods system, built-in task runner, and rich library ecosystem"
     },
     {
+      "slug": "clean-code-for-ai-agents",
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "Clean Code",
+        "AI Agents",
+        "Code Standards",
+        "AI Programming",
+        "Software Engineering",
+        "TDD",
+        "SOLID",
+        "TypeScript"
+      ],
+      "categories": [
+        "Software Engineering",
+        "AI Programming",
+        "Code Quality",
+        "Best Practices",
+        "Developer Experience"
+      ],
+      "title": "Clean Code for AI Agents — The Re-Ranked Principles for the Agent Era",
+      "description": "In-depth analysis of Clean Code principles re-ranked for 2026 — when code readers shifted from human programmers to AI agents, which principles became critical and which became infrastructure"
+    },
+    {
       "slug": "macro",
       "date": "2026-08-14",
       "author": "TopDigg",

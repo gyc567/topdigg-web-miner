@@ -195,6 +195,42 @@
       ]
     },
     {
+      "slug": "clean-code-for-ai-agents",
+      "title": {
+        "en": "Clean Code for AI Agents — The Re-Ranked Principles for the Agent Era",
+        "ja": "AIエージェントのためのクリーンコード — エージェント時代の原則再ランキング",
+        "vi": "Clean Code cho AI Agents — Các Nguyên Tắc Được Xếp Hạng Lại cho Kỷ Nguyên Agent",
+        "zh-Hans": "AI 时代的代码整洁之道：面向 AI 代理的代码规范重排序",
+        "zh-Hant": "AI 代理的代碼整潔之道——代理時代的原則重新排序"
+      },
+      "description": {
+        "en": "In-depth analysis of Clean Code principles re-ranked for 2026 — when code readers shifted from human programmers to AI agents, which principles became critical and which became infrastructure",
+        "ja": "2026年のクリーンコード原則の再ランキング深度解析——コードの読者が人間からAIエージェントに変更された場合、どの原則が不可欠になり、どの原則がインフラになったか",
+        "vi": "Phân tích chuyên sâu các nguyên tắc Clean Code được xếp hạng lại cho năm 2026 — khi độc giả của mã thay đổi từ lập trình viên sang AI agents, những nguyên tắc nào trở nên quan trọng và những nguyên tắc nào trở thành cơ sở hạ tầng",
+        "zh-Hans": "深度解析 2026 年代码整洁原则的重新排序——当代码的读者从人类程序员变为 AI 代理时，哪些原则变得至关重要，哪些原则从时尚变为基础设施",
+        "zh-Hant": "深度解析 2026 年代碼整潔原則的重新排序——當代碼的讀者從人類程式設計師變為 AI 代理時，哪些原則變得至關重要，哪些原則變成了基礎設施"
+      },
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "Clean Code",
+        "AI Agents",
+        "Code Standards",
+        "AI Programming",
+        "Software Engineering",
+        "TDD",
+        "SOLID",
+        "TypeScript"
+      ],
+      "categories": [
+        "Software Engineering",
+        "AI Programming",
+        "Code Quality",
+        "Best Practices",
+        "Developer Experience"
+      ]
+    },
+    {
       "slug": "macro",
       "title": {
         "en": "Macro: Unified Team Workspace — Deep Analysis of the All-in-One Work Platform",

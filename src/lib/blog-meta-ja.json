@@ -123,6 +123,30 @@
       "description": "GraalVM native-imageとSCIインタープリタに基づく高速起動のネイティブClojureランタイムであるBabashkaを深度解析。Pods拡張、組み込みタスクランナー、豊富なライブラリサポート"
     },
     {
+      "slug": "clean-code-for-ai-agents",
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "Clean Code",
+        "AI Agents",
+        "Code Standards",
+        "AI Programming",
+        "Software Engineering",
+        "TDD",
+        "SOLID",
+        "TypeScript"
+      ],
+      "categories": [
+        "Software Engineering",
+        "AI Programming",
+        "Code Quality",
+        "Best Practices",
+        "Developer Experience"
+      ],
+      "title": "AIエージェントのためのクリーンコード — エージェント時代の原則再ランキング",
+      "description": "2026年のクリーンコード原則の再ランキング深度解析——コードの読者が人間からAIエージェントに変更された場合、どの原則が不可欠になり、どの原則がインフラになったか"
+    },
+    {
       "slug": "macro",
       "date": "2026-08-14",
       "author": "TopDigg",

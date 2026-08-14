@@ -123,6 +123,30 @@
       "description": "Phân tích chuyên sâu về dự án Babashka — thời gian khởi động nhanh như chớp với GraalVM native-image và SCI interpreter, hỗ trợ hệ thống Pod, task runner tích hợp và nhiều thư viện phong phú"
     },
     {
+      "slug": "clean-code-for-ai-agents",
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "Clean Code",
+        "AI Agents",
+        "Code Standards",
+        "AI Programming",
+        "Software Engineering",
+        "TDD",
+        "SOLID",
+        "TypeScript"
+      ],
+      "categories": [
+        "Software Engineering",
+        "AI Programming",
+        "Code Quality",
+        "Best Practices",
+        "Developer Experience"
+      ],
+      "title": "Clean Code cho AI Agents — Các Nguyên Tắc Được Xếp Hạng Lại cho Kỷ Nguyên Agent",
+      "description": "Phân tích chuyên sâu các nguyên tắc Clean Code được xếp hạng lại cho năm 2026 — khi độc giả của mã thay đổi từ lập trình viên sang AI agents, những nguyên tắc nào trở nên quan trọng và những nguyên tắc nào trở thành cơ sở hạ tầng"
+    },
+    {
       "slug": "macro",
       "date": "2026-08-14",
       "author": "TopDigg",

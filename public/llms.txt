@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-14T09:41:28.699Z
+Generated: 2026-08-14T10:50:36.724Z
 
 ## Site Overview
 
@@ -57,6 +57,12 @@ Tags: Babashka, Clojure, Scripting Language, GraalVM, Functional Programming, SC
 
 Deep analysis of Babashka — a fast-starting native Clojure runtime powered by GraalVM native-image and SCI interpreter, featuring pods system, built-in task runner, and rich library ecosystem
 
+### Clean Code for AI Agents — The Re-Ranked Principles for the Agent Era
+URL: https://topdigg.com/blog/clean-code-for-ai-agents | Date: 2026-08-14 | Author: TopDigg
+Tags: Clean Code, AI Agents, Code Standards, AI Programming, Software Engineering, TDD, SOLID, TypeScript
+
+In-depth analysis of Clean Code principles re-ranked for 2026 — when code readers shifted from human programmers to AI agents, which principles became critical and which became infrastructure
+
 ### Macro: Unified Team Workspace — Deep Analysis of the All-in-One Work Platform
 URL: https://topdigg.com/blog/macro | Date: 2026-08-14 | Author: TopDigg
 Tags: Macro, Team Collaboration, All-in-One Workspace, SolidJS, Rust, MCP, CRM, AI Agents, Workflow Redesign
@@ -74,12 +80,6 @@ URL: https://topdigg.com/blog/mmmu-benchmark-analysis | Date: 2026-08-14 | Autho
 Tags: MMMU, Multimodal Large Models, LMM, LLM Evaluation, Vision Language Models, AGI, CVPR, Dataset, Artificial Intelligence, Multimodal Understanding
 
 In-depth analysis of MMMU Benchmark — evaluating large models' multimodal understanding and reasoning on college-level multi-disciplinary tasks, covering 11.5K questions, 30 subjects, and 32 image types, revealing the true capabilities of current top multimodal models
-
-### Context Compaction in Pi Coding Assistant: A Technical Solution for LLM Context Window Limitations
-URL: https://topdigg.com/blog/pi-context-compaction | Date: 2026-08-14T00:00:00.000Z | Author: TopDigg
-Tags: LLM, Context Compaction, Context Window, Pi, Coding Assistant, AI
-
-An in-depth analysis of how Pi Coding Assistant breaks through LLM context window limitations through context compaction mechanism, enabling continuous coding in long sessions
 
 ## Twitter Analysis Reports
 
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 106 blog posts | 4 Twitter analyses
+End of llms.txt | 107 blog posts | 4 Twitter analyses

@@ -123,6 +123,30 @@
       "description": "深度解析Babashka项目——基于GraalVM native-image和SCI解释器的极速启动Clojure运行时，无需JVM即可在命令行享受完整的Clojure scripting体验，支持Pods扩展、任务运行器和丰富的内置库"
     },
     {
+      "slug": "clean-code-for-ai-agents",
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "Clean Code",
+        "AI Agents",
+        "Code Standards",
+        "AI Programming",
+        "Software Engineering",
+        "TDD",
+        "SOLID",
+        "TypeScript"
+      ],
+      "categories": [
+        "Software Engineering",
+        "AI Programming",
+        "Code Quality",
+        "Best Practices",
+        "Developer Experience"
+      ],
+      "title": "AI 时代的代码整洁之道：面向 AI 代理的代码规范重排序",
+      "description": "深度解析 2026 年代码整洁原则的重新排序——当代码的读者从人类程序员变为 AI 代理时，哪些原则变得至关重要，哪些原则从时尚变为基础设施"
+    },
+    {
       "slug": "macro",
       "date": "2026-08-14",
       "author": "TopDigg",
