@@ -99,6 +99,57 @@
       "description": "AGENTS.mdの設定哲学とベストプラクティスを深く理解し、AIプログラミングアシスタントをプロジェクトに合わせるようにする"
     },
     {
+      "slug": "mind2web",
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "Mind2Web",
+        "Web Agent",
+        "LLM",
+        "Large Language Models",
+        "Web Navigation",
+        "AI Agent",
+        "NeurIPS",
+        "Dataset",
+        "Artificial Intelligence"
+      ],
+      "categories": [
+        "AI Datasets",
+        "Large Language Models",
+        "Web Agents",
+        "AI Research",
+        "Artificial Intelligence Agents"
+      ],
+      "title": "Mind2Web：世界初の実在Webエージェントベンチマークデータセット—任意のページで複雑なタスクを完了するAIの訓練",
+      "description": "OSU-NLP-Groupが発表したMind2Webプロジェクトの詳細解析—実在するウェブサイトに基づく世界初のLLM Webエージェントベンチマーク。2000以上のタスク、137のウェブサイト、31のドメインをカバー"
+    },
+    {
+      "slug": "mmmu-benchmark-analysis",
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "MMMU",
+        "Multimodal Large Models",
+        "LMM",
+        "LLM Evaluation",
+        "Vision Language Models",
+        "AGI",
+        "CVPR",
+        "Dataset",
+        "Artificial Intelligence",
+        "Multimodal Understanding"
+      ],
+      "categories": [
+        "AI Datasets",
+        "Large Language Models",
+        "Multimodal Learning",
+        "AI Research",
+        "LLM Evaluation"
+      ],
+      "title": "MMMU：大模型多模态理解终极挑战——11.5K大学学科Benchmark深度解析",
+      "description": "深度解析MMMU Benchmark——评估大模型在大学级别多学科任务中的多模态理解与推理能力，涵盖11.5K道题目、30个学科、32种图像类型，揭示当前顶尖多模态模型的真实水平与未来发展方向"
+    },
+    {
       "slug": "pi-context-compaction",
       "date": "2026-08-14T00:00:00.000Z",
       "author": "TopDigg",

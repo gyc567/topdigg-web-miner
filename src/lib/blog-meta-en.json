@@ -99,6 +99,57 @@
       "description": "Deep dive into AGENTS.md configuration philosophy and best practices to make AI programming assistants understand your project better"
     },
     {
+      "slug": "mind2web",
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "Mind2Web",
+        "Web Agent",
+        "LLM",
+        "Large Language Models",
+        "Web Navigation",
+        "AI Agent",
+        "NeurIPS",
+        "Dataset",
+        "Artificial Intelligence"
+      ],
+      "categories": [
+        "AI Datasets",
+        "Large Language Models",
+        "Web Agents",
+        "AI Research",
+        "Artificial Intelligence Agents"
+      ],
+      "title": "Mind2Web: The World's First Real-World Web Agent Benchmark Dataset — Teaching AI to Complete Complex Tasks on Any Website",
+      "description": "In-depth analysis of Mind2Web by OSU-NLP-Group — the first LLM-based web agent benchmark using real websites, featuring 2,000+ tasks across 137 websites and 31 domains, with three-tier generalization evaluation"
+    },
+    {
+      "slug": "mmmu-benchmark-analysis",
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "MMMU",
+        "Multimodal Large Models",
+        "LMM",
+        "LLM Evaluation",
+        "Vision Language Models",
+        "AGI",
+        "CVPR",
+        "Dataset",
+        "Artificial Intelligence",
+        "Multimodal Understanding"
+      ],
+      "categories": [
+        "AI Datasets",
+        "Large Language Models",
+        "Multimodal Learning",
+        "AI Research",
+        "LLM Evaluation"
+      ],
+      "title": "MMMU: The Ultimate Multimodal Understanding Challenge for LLMs — Deep Analysis of 11.5K College-Level Benchmark",
+      "description": "In-depth analysis of MMMU Benchmark — evaluating large models' multimodal understanding and reasoning on college-level multi-disciplinary tasks, covering 11.5K questions, 30 subjects, and 32 image types, revealing the true capabilities of current top multimodal models"
+    },
+    {
       "slug": "pi-context-compaction",
       "date": "2026-08-14T00:00:00.000Z",
       "author": "TopDigg",

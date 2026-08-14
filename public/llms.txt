@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-14T07:08:04.808Z
+Generated: 2026-08-14T07:28:14.444Z
 
 ## Site Overview
 
@@ -51,6 +51,18 @@ Tags: AGENTS.md, Claude Code, Cursor, Copilot, AI Assistant, Configuration
 
 Deep dive into AGENTS.md configuration philosophy and best practices to make AI programming assistants understand your project better
 
+### Mind2Web: The World's First Real-World Web Agent Benchmark Dataset — Teaching AI to Complete Complex Tasks on Any Website
+URL: https://topdigg.com/blog/mind2web | Date: 2026-08-14 | Author: TopDigg
+Tags: Mind2Web, Web Agent, LLM, Large Language Models, Web Navigation, AI Agent, NeurIPS, Dataset, Artificial Intelligence
+
+In-depth analysis of Mind2Web by OSU-NLP-Group — the first LLM-based web agent benchmark using real websites, featuring 2,000+ tasks across 137 websites and 31 domains, with three-tier generalization evaluation
+
+### MMMU: The Ultimate Multimodal Understanding Challenge for LLMs — Deep Analysis of 11.5K College-Level Benchmark
+URL: https://topdigg.com/blog/mmmu-benchmark-analysis | Date: 2026-08-14 | Author: TopDigg
+Tags: MMMU, Multimodal Large Models, LMM, LLM Evaluation, Vision Language Models, AGI, CVPR, Dataset, Artificial Intelligence, Multimodal Understanding
+
+In-depth analysis of MMMU Benchmark — evaluating large models' multimodal understanding and reasoning on college-level multi-disciplinary tasks, covering 11.5K questions, 30 subjects, and 32 image types, revealing the true capabilities of current top multimodal models
+
 ### Context Compaction in Pi Coding Assistant: A Technical Solution for LLM Context Window Limitations
 URL: https://topdigg.com/blog/pi-context-compaction | Date: 2026-08-14T00:00:00.000Z | Author: TopDigg
 Tags: LLM, Context Compaction, Context Window, Pi, Coding Assistant, AI
@@ -68,18 +80,6 @@ URL: https://topdigg.com/blog/2026-08-13-spatiotemporal-composability | Date: 20
 Tags: programming paradigm, software architecture, dynamic composition, effect system, coeffect system
 
 An in-depth analysis of the cordiverse/paper paper, exploring the programming paradigm for dynamic software composition, covering core concepts such as Revertible Effects, Reactive Coeffects, and Context Types
-
-### Agentic Design Patterns: A Complete Guide to Building Intelligent Systems with AI Agents
-URL: https://topdigg.com/blog/agentic-design-patterns | Date: 2026-08-13 | Author: evoiz
-Tags: AI Agent, Agentic Design Patterns, Artificial Intelligence, Design Patterns, LangChain, AutoGPT, AutoGen, CrewAI
-
-Deep dive into the Agentic Design Patterns project, exploring core AI Agent design patterns including prompt chaining, routing, reflection, tool use, planning, and multi-agent collaboration.
-
-### AI Knowledge Graph: Transform Unstructured Documents into Interactive Knowledge Graphs
-URL: https://topdigg.com/blog/ai-knowledge-graph-generator | Date: 2026-08-13 | Author: robert-mcdermott
-Tags: AI, Knowledge Graph, NLP, Python, Visualization
-
-A deep dive into the AI Knowledge Graph Generator project - learn how to convert unstructured text documents into interactive knowledge graphs
 
 ## Twitter Analysis Reports
 
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 102 blog posts | 4 Twitter analyses
+End of llms.txt | 104 blog posts | 4 Twitter analyses

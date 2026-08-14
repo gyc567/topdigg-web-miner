@@ -159,6 +159,75 @@
       ]
     },
     {
+      "slug": "mind2web",
+      "title": {
+        "en": "Mind2Web: The World's First Real-World Web Agent Benchmark Dataset — Teaching AI to Complete Complex Tasks on Any Website",
+        "ja": "Mind2Web：世界初の実在Webエージェントベンチマークデータセット—任意のページで複雑なタスクを完了するAIの訓練",
+        "vi": "Mind2Web: Bộ Dữ Liệu Chuẩn Web Agent Thực Tế Đầu Tiên Trên Thế Giới — Dạy AI Hoàn Thành Các Tác Vụ Phức Tạp Trên Mọi Trang Web",
+        "zh-Hans": "Mind2Web：全球首个真实Web代理基准数据集，让AI学会在任意网站上完成复杂任务",
+        "zh-Hant": "Mind2Web：全球首個真實Web代理基準數據集，讓AI學會在任意網站上完成複雜任務"
+      },
+      "description": {
+        "en": "In-depth analysis of Mind2Web by OSU-NLP-Group — the first LLM-based web agent benchmark using real websites, featuring 2,000+ tasks across 137 websites and 31 domains, with three-tier generalization evaluation",
+        "ja": "OSU-NLP-Groupが発表したMind2Webプロジェクトの詳細解析—実在するウェブサイトに基づく世界初のLLM Webエージェントベンチマーク。2000以上のタスク、137のウェブサイト、31のドメインをカバー",
+        "vi": "Phân tích chuyên sâu về dự án Mind2Web của OSU-NLP-Group — bộ dữ liệu chuẩn web agent LLM đầu tiên dựa trên trang web thực tế, với hơn 2000 tác vụ, 137 trang web, 31 lĩnh vực",
+        "zh-Hans": "深度解析OSU-NLP-Group发布的Mind2Web项目——全球首个基于真实网站的LLM网页代理基准数据集，包含2000+任务、137个网站、31个领域，支持跨任务、跨网站、跨域三大泛化能力评估",
+        "zh-Hant": "深度解析OSU-NLP-Group發布的Mind2Web項目——全球首個基於真實網站的LLM網頁代理基準數據集，包含2000+任務、137個網站、31個領域，支持跨任務、跨網站、跨域三大泛化能力評估"
+      },
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "Mind2Web",
+        "Web Agent",
+        "LLM",
+        "Large Language Models",
+        "Web Navigation",
+        "AI Agent",
+        "NeurIPS",
+        "Dataset",
+        "Artificial Intelligence"
+      ],
+      "categories": [
+        "AI Datasets",
+        "Large Language Models",
+        "Web Agents",
+        "AI Research",
+        "Artificial Intelligence Agents"
+      ]
+    },
+    {
+      "slug": "mmmu-benchmark-analysis",
+      "title": {
+        "en": "MMMU: The Ultimate Multimodal Understanding Challenge for LLMs — Deep Analysis of 11.5K College-Level Benchmark",
+        "zh-Hans": "MMMU：大模型多模态理解终极挑战——11.5K大学学科Benchmark深度解析"
+      },
+      "description": {
+        "en": "In-depth analysis of MMMU Benchmark — evaluating large models' multimodal understanding and reasoning on college-level multi-disciplinary tasks, covering 11.5K questions, 30 subjects, and 32 image types, revealing the true capabilities of current top multimodal models",
+        "zh-Hans": "深度解析MMMU Benchmark——评估大模型在大学级别多学科任务中的多模态理解与推理能力，涵盖11.5K道题目、30个学科、32种图像类型，揭示当前顶尖多模态模型的真实水平与未来发展方向"
+      },
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "MMMU",
+        "Multimodal Large Models",
+        "LMM",
+        "LLM Evaluation",
+        "Vision Language Models",
+        "AGI",
+        "CVPR",
+        "Dataset",
+        "Artificial Intelligence",
+        "Multimodal Understanding"
+      ],
+      "categories": [
+        "AI Datasets",
+        "Large Language Models",
+        "Multimodal Learning",
+        "AI Research",
+        "LLM Evaluation"
+      ]
+    },
+    {
       "slug": "pi-context-compaction",
       "title": {
         "en": "Context Compaction in Pi Coding Assistant: A Technical Solution for LLM Context Window Limitations",
