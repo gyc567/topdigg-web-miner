@@ -146,8 +146,8 @@
         "AI Research",
         "LLM Evaluation"
       ],
-      "title": "MMMU：大模型多模态理解终极挑战——11.5K大学学科Benchmark深度解析",
-      "description": "深度解析MMMU Benchmark——评估大模型在大学级别多学科任务中的多模态理解与推理能力，涵盖11.5K道题目、30个学科、32种图像类型，揭示当前顶尖多模态模型的真实水平与未来发展方向"
+      "title": "MMMU: Thách Thức Đa Ngôn Ngữ Đa Phương Thức Quy Mô Lớn Cho LLMs — Phân Tích Chi Tiết 11.5K Câu Hỏi Cấp Đại Học",
+      "description": "Phân tích chuyên sâu MMMU Benchmark — đánh giá khả năng hiểu và suy luận đa phương thức của mô hình ngôn ngữ lớn ở cấp độ đại học đa ngành, bao gồm 11.5K câu hỏi, 30 môn học, 32 loại hình ảnh,揭示当前顶尖多模态模型的真實水平與未來發展方向"
     },
     {
       "slug": "pi-context-compaction",

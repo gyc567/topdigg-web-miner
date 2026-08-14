@@ -199,11 +199,17 @@
       "slug": "mmmu-benchmark-analysis",
       "title": {
         "en": "MMMU: The Ultimate Multimodal Understanding Challenge for LLMs — Deep Analysis of 11.5K College-Level Benchmark",
-        "zh-Hans": "MMMU：大模型多模态理解终极挑战——11.5K大学学科Benchmark深度解析"
+        "ja": "MMMU：大規模多学科マルチモーダル理解ベンチマーク——11.5K大学レベル問題の詳細解析",
+        "vi": "MMMU: Thách Thức Đa Ngôn Ngữ Đa Phương Thức Quy Mô Lớn Cho LLMs — Phân Tích Chi Tiết 11.5K Câu Hỏi Cấp Đại Học",
+        "zh-Hans": "MMMU：大模型多模态理解终极挑战——11.5K大学学科Benchmark深度解析",
+        "zh-Hant": "MMMU：大模型多模態理解終極挑戰——11.5K大學學科Benchmark深度解析"
       },
       "description": {
         "en": "In-depth analysis of MMMU Benchmark — evaluating large models' multimodal understanding and reasoning on college-level multi-disciplinary tasks, covering 11.5K questions, 30 subjects, and 32 image types, revealing the true capabilities of current top multimodal models",
-        "zh-Hans": "深度解析MMMU Benchmark——评估大模型在大学级别多学科任务中的多模态理解与推理能力，涵盖11.5K道题目、30个学科、32种图像类型，揭示当前顶尖多模态模型的真实水平与未来发展方向"
+        "ja": "MMMUベンチマークの深的分析——大学レベルの複数学科タスクにおける大規模言語モデルのマルチモーダル理解と推論能力を評価、11.5K問題・30学科・32画像タイプをカバーし、現在のトップマルチモーダルモデルの真の実力と今後の発展方向を明らかにする",
+        "vi": "Phân tích chuyên sâu MMMU Benchmark — đánh giá khả năng hiểu và suy luận đa phương thức của mô hình ngôn ngữ lớn ở cấp độ đại học đa ngành, bao gồm 11.5K câu hỏi, 30 môn học, 32 loại hình ảnh,揭示当前顶尖多模态模型的真實水平與未來發展方向",
+        "zh-Hans": "深度解析MMMU Benchmark——评估大模型在大学级别多学科任务中的多模态理解与推理能力，涵盖11.5K道题目、30个学科、32种图像类型，揭示当前顶尖多模态模型的真实水平与未来发展方向",
+        "zh-Hant": "深度解析MMMU Benchmark——評估大模型在大學級別多學科任務中的多模態理解與推理能力，涵蓋11.5K道題目、30個學科、32種圖像類型，揭示當前頂尖多模態模型的真實水平與未來發展方向"
       },
       "date": "2026-08-14",
       "author": "TopDigg",
