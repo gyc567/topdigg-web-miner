@@ -1,5 +1,5 @@
 ---
-title: "GitHub spec-kit：规范驱动开发让AI编程代理"先想清楚再写代码""
+title: 'GitHub spec-kit：规范驱动开发让AI编程代理"先想清楚再写代码"'
 date: "2026-08-14"
 description: "深入解析 GitHub spec-kit 项目，探索规范驱动开发（Spec-Driven Development）理念，了解如何通过明确的规范工作流让 AI 编程代理更高效地生成符合预期的代码实现"
 tags:
