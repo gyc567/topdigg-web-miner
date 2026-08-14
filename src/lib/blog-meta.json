@@ -343,6 +343,42 @@
       ]
     },
     {
+      "slug": "needle",
+      "title": {
+        "en": "Needle 2: The Ultra-Lightweight Local AI Model for Tool Calling — 45M Parameters Powering Edge Intelligence",
+        "ja": "Needle 2：极致轻量のローカル AI ツール呼び出しモデル——45M パラメータでエッジインテリジェンスを実現",
+        "vi": "Needle 2: Mô Hình AI Cục Bộ Siêu Nhẹ cho Gọi Công Cụ — 45M Tham Số Cung Cấp Trí Tuệ Edge",
+        "zh-Hans": "Needle 2：极致轻量的本地 AI 工具调用模型——45M 参数实现设备端智能",
+        "zh-Hant": "Needle 2：極致輕量的本地 AI 工具調用模型——45M 參數實現設備端智能"
+      },
+      "description": {
+        "en": "In-depth analysis of Needle 2 open-source project — 45M parameter local AI model in a 14MB binary with ~28MB RAM, designed for tool calling and structured data extraction on edge devices",
+        "ja": "Needle 2 オープンソースプロジェクトの深度解析——45M パラメータのローカル AI モデル、14MB バイナリ、約28MB RAM消費、専門的なツール呼び出しと構造化データ抽出をサポート",
+        "vi": "Phân tích chuyên sâu dự án mã nguồn mở Needle 2 — mô hình AI 45M tham số trong file nhị phân 14MB với ~28MB RAM, được thiết kế cho gọi công cụ và trích xuất dữ liệu có cấu trúc trên thiết bị edge",
+        "zh-Hans": "深度解析 Needle 2 开源项目——45M 参数的本地 AI 模型，仅 14MB 二进制文件，28MB 内存占用，支持工具调用、结构化数据提取，专为边缘设备设计",
+        "zh-Hant": "深度解析 Needle 2 開源項目——45M 參數的本地 AI 模型，僅 14MB 二進制文件，28MB 內存占用，支持工具調用、結構化數據提取，專為邊緣設備設計"
+      },
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "Needle",
+        "AI Model",
+        "Edge Computing",
+        "Tool Calling",
+        "Local Deployment",
+        "Cactus Quants",
+        "Structured Extraction",
+        "On-Device AI"
+      ],
+      "categories": [
+        "AI Models",
+        "Edge Computing",
+        "Local AI",
+        "Tool Calling",
+        "Model Compression"
+      ]
+    },
+    {
       "slug": "pi-context-compaction",
       "title": {
         "en": "Context Compaction in Pi Coding Assistant: A Technical Solution for LLM Context Window Limitations",

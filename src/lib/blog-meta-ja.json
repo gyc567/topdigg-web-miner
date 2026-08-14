@@ -223,6 +223,30 @@
       "description": "MMMUベンチマークの深的分析——大学レベルの複数学科タスクにおける大規模言語モデルのマルチモーダル理解と推論能力を評価、11.5K問題・30学科・32画像タイプをカバーし、現在のトップマルチモーダルモデルの真の実力と今後の発展方向を明らかにする"
     },
     {
+      "slug": "needle",
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "Needle",
+        "AI Model",
+        "Edge Computing",
+        "Tool Calling",
+        "Local Deployment",
+        "Cactus Quants",
+        "Structured Extraction",
+        "On-Device AI"
+      ],
+      "categories": [
+        "AI Models",
+        "Edge Computing",
+        "Local AI",
+        "Tool Calling",
+        "Model Compression"
+      ],
+      "title": "Needle 2：极致轻量のローカル AI ツール呼び出しモデル——45M パラメータでエッジインテリジェンスを実現",
+      "description": "Needle 2 オープンソースプロジェクトの深度解析——45M パラメータのローカル AI モデル、14MB バイナリ、約28MB RAM消費、専門的なツール呼び出しと構造化データ抽出をサポート"
+    },
+    {
       "slug": "pi-context-compaction",
       "date": "2026-08-14T00:00:00.000Z",
       "author": "TopDigg",

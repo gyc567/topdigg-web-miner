@@ -223,6 +223,30 @@
       "description": "Phân tích chuyên sâu MMMU Benchmark — đánh giá khả năng hiểu và suy luận đa phương thức của mô hình ngôn ngữ lớn ở cấp độ đại học đa ngành, bao gồm 11.5K câu hỏi, 30 môn học, 32 loại hình ảnh,揭示当前顶尖多模态模型的真實水平與未來發展方向"
     },
     {
+      "slug": "needle",
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "Needle",
+        "AI Model",
+        "Edge Computing",
+        "Tool Calling",
+        "Local Deployment",
+        "Cactus Quants",
+        "Structured Extraction",
+        "On-Device AI"
+      ],
+      "categories": [
+        "AI Models",
+        "Edge Computing",
+        "Local AI",
+        "Tool Calling",
+        "Model Compression"
+      ],
+      "title": "Needle 2: Mô Hình AI Cục Bộ Siêu Nhẹ cho Gọi Công Cụ — 45M Tham Số Cung Cấp Trí Tuệ Edge",
+      "description": "Phân tích chuyên sâu dự án mã nguồn mở Needle 2 — mô hình AI 45M tham số trong file nhị phân 14MB với ~28MB RAM, được thiết kế cho gọi công cụ và trích xuất dữ liệu có cấu trúc trên thiết bị edge"
+    },
+    {
       "slug": "pi-context-compaction",
       "date": "2026-08-14T00:00:00.000Z",
       "author": "TopDigg",

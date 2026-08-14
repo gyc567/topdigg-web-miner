@@ -223,6 +223,30 @@
       "description": "In-depth analysis of MMMU Benchmark — evaluating large models' multimodal understanding and reasoning on college-level multi-disciplinary tasks, covering 11.5K questions, 30 subjects, and 32 image types, revealing the true capabilities of current top multimodal models"
     },
     {
+      "slug": "needle",
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "Needle",
+        "AI Model",
+        "Edge Computing",
+        "Tool Calling",
+        "Local Deployment",
+        "Cactus Quants",
+        "Structured Extraction",
+        "On-Device AI"
+      ],
+      "categories": [
+        "AI Models",
+        "Edge Computing",
+        "Local AI",
+        "Tool Calling",
+        "Model Compression"
+      ],
+      "title": "Needle 2: The Ultra-Lightweight Local AI Model for Tool Calling — 45M Parameters Powering Edge Intelligence",
+      "description": "In-depth analysis of Needle 2 open-source project — 45M parameter local AI model in a 14MB binary with ~28MB RAM, designed for tool calling and structured data extraction on edge devices"
+    },
+    {
       "slug": "pi-context-compaction",
       "date": "2026-08-14T00:00:00.000Z",
       "author": "TopDigg",

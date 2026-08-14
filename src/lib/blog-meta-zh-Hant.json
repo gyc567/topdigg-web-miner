@@ -223,6 +223,30 @@
       "description": "深度解析MMMU Benchmark——評估大模型在大學級別多學科任務中的多模態理解與推理能力，涵蓋11.5K道題目、30個學科、32種圖像類型，揭示當前頂尖多模態模型的真實水平與未來發展方向"
     },
     {
+      "slug": "needle",
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "Needle",
+        "AI Model",
+        "Edge Computing",
+        "Tool Calling",
+        "Local Deployment",
+        "Cactus Quants",
+        "Structured Extraction",
+        "On-Device AI"
+      ],
+      "categories": [
+        "AI Models",
+        "Edge Computing",
+        "Local AI",
+        "Tool Calling",
+        "Model Compression"
+      ],
+      "title": "Needle 2：極致輕量的本地 AI 工具調用模型——45M 參數實現設備端智能",
+      "description": "深度解析 Needle 2 開源項目——45M 參數的本地 AI 模型，僅 14MB 二進制文件，28MB 內存占用，支持工具調用、結構化數據提取，專為邊緣設備設計"
+    },
+    {
       "slug": "pi-context-compaction",
       "date": "2026-08-14T00:00:00.000Z",
       "author": "TopDigg",
