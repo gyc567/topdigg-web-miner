@@ -99,6 +99,30 @@
       "description": "Tìm hiểu sâu về triết lý cấu hình và best practices của AGENTS.md để giúp trợ lý lập trình AI hiểu rõ hơn về dự án của bạn"
     },
     {
+      "slug": "babashka",
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "Babashka",
+        "Clojure",
+        "Scripting Language",
+        "GraalVM",
+        "Functional Programming",
+        "SCI",
+        "CLI Tools",
+        "Java Interop"
+      ],
+      "categories": [
+        "Programming Languages",
+        "Functional Programming",
+        "Scripting Tools",
+        "CLI Tools",
+        "Clojure Ecosystem"
+      ],
+      "title": "Babashka: Công Cụ Scripting Clojure Tuyệt Vời — Thay Thế Bash Bằng Ngôn Ngữ Lập Trình Hàm 優雅的",
+      "description": "Phân tích chuyên sâu về dự án Babashka — thời gian khởi động nhanh như chớp với GraalVM native-image và SCI interpreter, hỗ trợ hệ thống Pod, task runner tích hợp và nhiều thư viện phong phú"
+    },
+    {
       "slug": "mind2web",
       "date": "2026-08-14",
       "author": "TopDigg",

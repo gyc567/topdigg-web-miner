@@ -99,6 +99,30 @@
       "description": "AGENTS.mdの設定哲学とベストプラクティスを深く理解し、AIプログラミングアシスタントをプロジェクトに合わせるようにする"
     },
     {
+      "slug": "babashka",
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "Babashka",
+        "Clojure",
+        "Scripting Language",
+        "GraalVM",
+        "Functional Programming",
+        "SCI",
+        "CLI Tools",
+        "Java Interop"
+      ],
+      "categories": [
+        "Programming Languages",
+        "Functional Programming",
+        "Scripting Tools",
+        "CLI Tools",
+        "Clojure Ecosystem"
+      ],
+      "title": "Babashka：Clojureスクリプトの新時代—Bashに代わるエлегантな関数型言語",
+      "description": "GraalVM native-imageとSCIインタープリタに基づく高速起動のネイティブClojureランタイムであるBabashkaを深度解析。Pods拡張、組み込みタスクランナー、豊富なライブラリサポート"
+    },
+    {
       "slug": "mind2web",
       "date": "2026-08-14",
       "author": "TopDigg",

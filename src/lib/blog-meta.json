@@ -159,6 +159,42 @@
       ]
     },
     {
+      "slug": "babashka",
+      "title": {
+        "en": "Babashka: The Clojure Scripting Powerhouse — Replacing Bash with Elegant Functional Programming",
+        "ja": "Babashka：Clojureスクリプトの新時代—Bashに代わるエлегантな関数型言語",
+        "vi": "Babashka: Công Cụ Scripting Clojure Tuyệt Vời — Thay Thế Bash Bằng Ngôn Ngữ Lập Trình Hàm 優雅的",
+        "zh-Hans": "Babashka：Clojure脚本神器——用优雅的函数式语言替代Bash，让脚本编写焕然一新",
+        "zh-Hant": "Babashka：Clojure腳本神器——用優雅的函數式語言替代Bash，讓腳本編寫煥然一新"
+      },
+      "description": {
+        "en": "Deep analysis of Babashka — a fast-starting native Clojure runtime powered by GraalVM native-image and SCI interpreter, featuring pods system, built-in task runner, and rich library ecosystem",
+        "ja": "GraalVM native-imageとSCIインタープリタに基づく高速起動のネイティブClojureランタイムであるBabashkaを深度解析。Pods拡張、組み込みタスクランナー、豊富なライブラリサポート",
+        "vi": "Phân tích chuyên sâu về dự án Babashka — thời gian khởi động nhanh như chớp với GraalVM native-image và SCI interpreter, hỗ trợ hệ thống Pod, task runner tích hợp và nhiều thư viện phong phú",
+        "zh-Hans": "深度解析Babashka项目——基于GraalVM native-image和SCI解释器的极速启动Clojure运行时，无需JVM即可在命令行享受完整的Clojure scripting体验，支持Pods扩展、任务运行器和丰富的内置库",
+        "zh-Hant": "深度解析Babashka項目——基於GraalVM native-image和SCI解釋器的極速啟動Clojure運行時，無需JVM即可在命令列享受完整的Clojure scripting體驗，支持Pods擴展、任務運行器和豐富的內置庫"
+      },
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "Babashka",
+        "Clojure",
+        "Scripting Language",
+        "GraalVM",
+        "Functional Programming",
+        "SCI",
+        "CLI Tools",
+        "Java Interop"
+      ],
+      "categories": [
+        "Programming Languages",
+        "Functional Programming",
+        "Scripting Tools",
+        "CLI Tools",
+        "Clojure Ecosystem"
+      ]
+    },
+    {
       "slug": "mind2web",
       "title": {
         "en": "Mind2Web: The World's First Real-World Web Agent Benchmark Dataset — Teaching AI to Complete Complex Tasks on Any Website",

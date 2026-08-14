@@ -99,6 +99,30 @@
       "description": "深入了解 AGENTS.md 的配置哲學與最佳實踐，讓 AI 編程助手更懂你的專案"
     },
     {
+      "slug": "babashka",
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "Babashka",
+        "Clojure",
+        "Scripting Language",
+        "GraalVM",
+        "Functional Programming",
+        "SCI",
+        "CLI Tools",
+        "Java Interop"
+      ],
+      "categories": [
+        "Programming Languages",
+        "Functional Programming",
+        "Scripting Tools",
+        "CLI Tools",
+        "Clojure Ecosystem"
+      ],
+      "title": "Babashka：Clojure腳本神器——用優雅的函數式語言替代Bash，讓腳本編寫煥然一新",
+      "description": "深度解析Babashka項目——基於GraalVM native-image和SCI解釋器的極速啟動Clojure運行時，無需JVM即可在命令列享受完整的Clojure scripting體驗，支持Pods擴展、任務運行器和豐富的內置庫"
+    },
+    {
       "slug": "mind2web",
       "date": "2026-08-14",
       "author": "TopDigg",

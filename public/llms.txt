@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-14T07:33:15.841Z
+Generated: 2026-08-14T07:46:43.900Z
 
 ## Site Overview
 
@@ -51,6 +51,12 @@ Tags: AGENTS.md, Claude Code, Cursor, Copilot, AI Assistant, Configuration
 
 Deep dive into AGENTS.md configuration philosophy and best practices to make AI programming assistants understand your project better
 
+### Babashka: The Clojure Scripting Powerhouse — Replacing Bash with Elegant Functional Programming
+URL: https://topdigg.com/blog/babashka | Date: 2026-08-14 | Author: TopDigg
+Tags: Babashka, Clojure, Scripting Language, GraalVM, Functional Programming, SCI, CLI Tools, Java Interop
+
+Deep analysis of Babashka — a fast-starting native Clojure runtime powered by GraalVM native-image and SCI interpreter, featuring pods system, built-in task runner, and rich library ecosystem
+
 ### Mind2Web: The World's First Real-World Web Agent Benchmark Dataset — Teaching AI to Complete Complex Tasks on Any Website
 URL: https://topdigg.com/blog/mind2web | Date: 2026-08-14 | Author: TopDigg
 Tags: Mind2Web, Web Agent, LLM, Large Language Models, Web Navigation, AI Agent, NeurIPS, Dataset, Artificial Intelligence
@@ -74,12 +80,6 @@ URL: https://topdigg.com/blog/uncle-bob-ai-coding-gauntlet | Date: 2026-08-14 | 
 Tags: Uncle Bob, AI Coding, Test-Driven Development, ATDD, Acceptance Testing, SOLID Principles, Clean Code, AI Agents
 
 An in-depth analysis of Robert C. Martin's AI coding methodology — extreme constraints, layered testing, and ATDD workflows that let AI agents deliver high-quality software without human code review
-
-### Spatiotemporal Composability: A Programming Paradigm Redefining Dynamic Software Architecture
-URL: https://topdigg.com/blog/2026-08-13-spatiotemporal-composability | Date: 2026-08-13 | Author: TopDigg
-Tags: programming paradigm, software architecture, dynamic composition, effect system, coeffect system
-
-An in-depth analysis of the cordiverse/paper paper, exploring the programming paradigm for dynamic software composition, covering core concepts such as Revertible Effects, Reactive Coeffects, and Context Types
 
 ## Twitter Analysis Reports
 
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 104 blog posts | 4 Twitter analyses
+End of llms.txt | 105 blog posts | 4 Twitter analyses

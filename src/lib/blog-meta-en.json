@@ -99,6 +99,30 @@
       "description": "Deep dive into AGENTS.md configuration philosophy and best practices to make AI programming assistants understand your project better"
     },
     {
+      "slug": "babashka",
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "Babashka",
+        "Clojure",
+        "Scripting Language",
+        "GraalVM",
+        "Functional Programming",
+        "SCI",
+        "CLI Tools",
+        "Java Interop"
+      ],
+      "categories": [
+        "Programming Languages",
+        "Functional Programming",
+        "Scripting Tools",
+        "CLI Tools",
+        "Clojure Ecosystem"
+      ],
+      "title": "Babashka: The Clojure Scripting Powerhouse — Replacing Bash with Elegant Functional Programming",
+      "description": "Deep analysis of Babashka — a fast-starting native Clojure runtime powered by GraalVM native-image and SCI interpreter, featuring pods system, built-in task runner, and rich library ecosystem"
+    },
+    {
       "slug": "mind2web",
       "date": "2026-08-14",
       "author": "TopDigg",
