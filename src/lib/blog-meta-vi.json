@@ -197,22 +197,23 @@
       "author": "TopDigg",
       "tags": [
         "Uncle Bob",
-        "AI Coding",
+        "AI Programming",
+        "TDD",
+        "Software Architecture",
         "Test-Driven Development",
-        "ATDD",
-        "Acceptance Testing",
-        "SOLID Principles",
-        "Clean Code",
-        "AI Agents"
+        "Programmer Value",
+        "Artificial Intelligence",
+        "Software Engineering"
       ],
       "categories": [
-        "AI Engineering Practice",
-        "Development Methodology",
-        "Software Architecture",
-        "AI Programming Agents"
+        "Software Engineering",
+        "AI Programming",
+        "Architecture Design",
+        "Testing Practice",
+        "Programmer Growth"
       ],
-      "title": "Uncle Bob Không Review Code AI. Anh ấy Xây Dựng Một \"Lò Xi Măng\" Thay Thế: Phát Triển Dựa Trên Test Thay Vì Code Review Trong Kỷ Nguyên AI",
-      "description": "Phân tích chuyên sâu về phương pháp lập trình AI của Robert C. Martin (Uncle Bob) — ràng buộc cực đoan, kiểm thử đa tầng và quy trình phát triển ATDD giúp các tác tử AI có thể deliver phần mềm chất lượng cao mà không cần con người review code"
+      "title": "Uncle Bob về Lập Trình AI: Kiểm Thử, Kiến Trúc và Sự Tái Định Nghĩa Giá Trị Lập Trình Viên",
+      "description": "Phân tích chuyên sâu quan điểm của Robert C. Martin (Uncle Bob) về lập trình AI — AI xử lý tạo mã tốc độ cao trong khi con người tập trung vào yêu cầu, kiến trúc và ràng buộc xác minh"
     },
     {
       "slug": "2026-08-13-spatiotemporal-composability",

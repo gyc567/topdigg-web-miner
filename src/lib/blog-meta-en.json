@@ -197,22 +197,23 @@
       "author": "TopDigg",
       "tags": [
         "Uncle Bob",
-        "AI Coding",
+        "AI Programming",
+        "TDD",
+        "Software Architecture",
         "Test-Driven Development",
-        "ATDD",
-        "Acceptance Testing",
-        "SOLID Principles",
-        "Clean Code",
-        "AI Agents"
+        "Programmer Value",
+        "Artificial Intelligence",
+        "Software Engineering"
       ],
       "categories": [
-        "AI Engineering Practice",
-        "Development Methodology",
-        "Software Architecture",
-        "AI Programming Agents"
+        "Software Engineering",
+        "AI Programming",
+        "Architecture Design",
+        "Testing Practice",
+        "Programmer Growth"
       ],
-      "title": "Uncle Bob Doesn't Review AI Code. He Builds a Gauntlet Instead: Test-Driven Over Code Review in the AI Era",
-      "description": "An in-depth analysis of Robert C. Martin's AI coding methodology — extreme constraints, layered testing, and ATDD workflows that let AI agents deliver high-quality software without human code review"
+      "title": "Uncle Bob on AI Programming: Testing, Architecture, and the Redefinition of Programmer Value",
+      "description": "In-depth analysis of Robert C. Martin (Uncle Bob)'s views on AI programming — AI handles high-speed code generation while humans focus on requirements, architecture, and validation constraints"
     },
     {
       "slug": "2026-08-13-spatiotemporal-composability",

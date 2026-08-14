@@ -197,22 +197,23 @@
       "author": "TopDigg",
       "tags": [
         "Uncle Bob",
-        "AI Coding",
+        "AI Programming",
+        "TDD",
+        "Software Architecture",
         "Test-Driven Development",
-        "ATDD",
-        "Acceptance Testing",
-        "SOLID Principles",
-        "Clean Code",
-        "AI Agents"
+        "Programmer Value",
+        "Artificial Intelligence",
+        "Software Engineering"
       ],
       "categories": [
-        "AI Engineering Practice",
-        "Development Methodology",
-        "Software Architecture",
-        "AI Programming Agents"
+        "Software Engineering",
+        "AI Programming",
+        "Architecture Design",
+        "Testing Practice",
+        "Programmer Growth"
       ],
-      "title": "Uncle Bob不审查AI代码，他建了一座\"熔炉\"：测试驱动而非代码审查的AI编程策略",
-      "description": "深度解析Robert C. Martin（Uncle Bob）的AI编程方法论——通过极端约束、分层测试和验收驱动的开发流程，让AI代理在不被人审查代码的情况下交付高质量软件"
+      "title": "Uncle Bob 谈 AI 编程：测试、架构与程序员的价值重塑",
+      "description": "深度解析 Robert C. Martin (Uncle Bob) 关于 AI 编程的核心观点——AI 负责高速代码生成，人类聚焦需求、架构与验证约束，以及程序员价值在 AI 时代的重新定义"
     },
     {
       "slug": "2026-08-13-spatiotemporal-composability",

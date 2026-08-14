@@ -197,22 +197,23 @@
       "author": "TopDigg",
       "tags": [
         "Uncle Bob",
-        "AI Coding",
+        "AI Programming",
+        "TDD",
+        "Software Architecture",
         "Test-Driven Development",
-        "ATDD",
-        "Acceptance Testing",
-        "SOLID Principles",
-        "Clean Code",
-        "AI Agents"
+        "Programmer Value",
+        "Artificial Intelligence",
+        "Software Engineering"
       ],
       "categories": [
-        "AI Engineering Practice",
-        "Development Methodology",
-        "Software Architecture",
-        "AI Programming Agents"
+        "Software Engineering",
+        "AI Programming",
+        "Architecture Design",
+        "Testing Practice",
+        "Programmer Growth"
       ],
-      "title": "Uncle BobはAIコードレビューをしない。代わりに「試練の塔」を構築する：AI時代のテスト駆動開発",
-      "description": "Robert C. Martin（Uncle Bob）のAIプログラミング手法を深度解析。Extreme Constraints、階層的テスト、ATDDワークフローにより、AIエージェントが人間のコードレビューなしで高品質なソフトウェアを納品できるようにする"
+      "title": "Uncle BobのAIプログラミング論：テスト、アーキテクチャ、程序员価値の再定義",
+      "description": "Robert C. Martin (Uncle Bob)のAIプログラミングに関する深い考察を深度解析——AIは高速コード生成を担当し、人間の代わりに要件、アーキテクチャ、検証制約に焦点を当てる"
     },
     {
       "slug": "2026-08-13-spatiotemporal-composability",
