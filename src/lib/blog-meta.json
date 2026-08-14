@@ -1,6 +1,70 @@
 {
   "posts": [
     {
+      "slug": "2026-08-14-agent-collaboration-protocol",
+      "title": {
+        "en": "Distributed Intelligence, Shared Protocol: How Bloome Designs Reliable Multi-Agent Collaboration",
+        "ja": "分散型インテリジェンス、共有プロトコル：Bloomeが明らかにするマルチAIエージェント協調の信頼性設計",
+        "vi": "Trí Tuệ Phân Tán, Giao Thức Chia Sẻ: Bloome Hé Lộ Thiết Kế Độ Tin Cậy Cho Hợp Tác Đa AI Agent",
+        "zh-Hans": "分布式智能共享协议：Bloome揭示多AI代理协作的可靠性设计",
+        "zh-Hant": "分散式智慧共享協議：Bloome揭示多AI代理協作的可靠性設計"
+      },
+      "description": {
+        "en": "A deep dive into Bloome's Agent Collaboration Protocol, exploring how shared task state, freshness awareness, and output boundaries enable reliable cooperation among multiple AI agents",
+        "ja": "Bloomeが提唱するAgent Collaboration Protocolの奥深い分析を共有タスク状態、鮮度認識、出力境界という3つのコア能力を通じて、複数のAIエージェント間の信頼性の高い協調を実現する方法を探ります",
+        "vi": "Phân tích chuyên sâu về Agent Collaboration Protocol do Bloome đề xuất, khám phá cách ba năng lực cốt lõi - trạng thái nhiệm vụ chia sẻ, nhận thức độ tươi mới và ranh giới đầu ra - cho phép hợp tác đáng tin cậy giữa nhiều AI agent",
+        "zh-Hans": "深入解析Bloome提出的Agent Collaboration Protocol，探讨如何通过共享任务状态、新鲜度感知和输出边界三大核心能力，实现多个AI代理之间的可靠协作",
+        "zh-Hant": "深入解析Bloome提出的Agent Collaboration Protocol，探討如何透過共享任務狀態、新鮮度感知和輸出邊界三大核心能力，實現多個AI代理之間的可靠協作"
+      },
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "AI Agents",
+        "Multi-Agent Collaboration",
+        "Agent Collaboration",
+        "Bloome",
+        "Distributed Intelligence",
+        "Protocol Design"
+      ],
+      "categories": [
+        "AI Architecture",
+        "Multi-Agent Systems",
+        "Collaboration Protocols"
+      ]
+    },
+    {
+      "slug": "2026-08-14-code-is-no-longer-the-bottleneck",
+      "title": {
+        "en": "Code Is No Longer the Bottleneck—Understanding Is: CodeRabbit Reveals the New Paradigm of Code Review in the AI Era",
+        "ja": "コードはもうボトルネックではない——理解こそが：CodeRabbitがAI時代のコードレビュー新パラダイムを揭示",
+        "vi": "Code Không Còn Là Nút Thắt Cổ Chai—Hiểu Biết Mới Là: CodeRabbit Tiết Lộ Mô Hình Mới Của Code Review Trong Kỷ Nguyên AI",
+        "zh-Hans": "代码不再是瓶颈——理解才是：CodeRabbit揭示AI时代的代码审查新范式",
+        "zh-Hant": "程式碼不再是瓶頸——理解才是：CodeRabbit揭示AI時代的程式碼審查新典範"
+      },
+      "description": {
+        "en": "An in-depth analysis of CodeRabbit's core thesis: AI coding agents have shifted the bottleneck of software development from code production to code comprehension, revealing how the explainability gap impacts code review efficiency",
+        "ja": "CodeRabbitが提唱する核心的な观点を深く解説：AIコーディングエージェントがソフトウェア開発のボトルネックをコード生産からコード理解へと转移させ、可解释性ギャップがコードレビュー効率にどのような影響を与えるかを明らかにする",
+        "vi": "Phân tích sâu quan điểm cốt lõi của CodeRabbit: Các tác tử lập trình AI đã chuyển nút thắt cổ chai của phát triển phần mềm từ sản xuất mã sang hiểu mã, tiết lộ cách khoảng cách giải thích ảnh hưởng đến hiệu quả code review",
+        "zh-Hans": "深入解析CodeRabbit提出的核心观点：AI编码代理将软件开发的瓶颈从代码生产转移到代码理解，揭示可解释性差距如何影响代码审查效率",
+        "zh-Hant": "深入解析CodeRabbit提出的核心觀點：AI編碼代理將軟體開發的瓶頸從程式碼生產轉移到程式碼理解，揭示可解釋性差距如何影響程式碼審查效率"
+      },
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "CodeRabbit",
+        "AI Code Review",
+        "Change Stack",
+        "Code Comprehension",
+        "AI Programming",
+        "TanStack"
+      ],
+      "categories": [
+        "AI Development Tools",
+        "Code Review",
+        "Development Methodology"
+      ]
+    },
+    {
       "slug": "2026-08-14-spec-kit-analysis",
       "title": {
         "en": "GitHub spec-kit: Spec-Driven Development Lets AI Coding Agents 'Think Before Writing'",

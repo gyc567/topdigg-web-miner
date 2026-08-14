@@ -1,0 +1,2169 @@
+{
+  "posts": [
+    {
+      "slug": "2026-08-14-agent-collaboration-protocol",
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "AI Agents",
+        "Multi-Agent Collaboration",
+        "Agent Collaboration",
+        "Bloome",
+        "Distributed Intelligence",
+        "Protocol Design"
+      ],
+      "categories": [
+        "AI Architecture",
+        "Multi-Agent Systems",
+        "Collaboration Protocols"
+      ],
+      "title": "Distributed Intelligence, Shared Protocol: How Bloome Designs Reliable Multi-Agent Collaboration",
+      "description": "A deep dive into Bloome's Agent Collaboration Protocol, exploring how shared task state, freshness awareness, and output boundaries enable reliable cooperation among multiple AI agents"
+    },
+    {
+      "slug": "2026-08-14-code-is-no-longer-the-bottleneck",
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "CodeRabbit",
+        "AI Code Review",
+        "Change Stack",
+        "Code Comprehension",
+        "AI Programming",
+        "TanStack"
+      ],
+      "categories": [
+        "AI Development Tools",
+        "Code Review",
+        "Development Methodology"
+      ],
+      "title": "Code Is No Longer the Bottleneck—Understanding Is: CodeRabbit Reveals the New Paradigm of Code Review in the AI Era",
+      "description": "An in-depth analysis of CodeRabbit's core thesis: AI coding agents have shifted the bottleneck of software development from code production to code comprehension, revealing how the explainability gap impacts code review efficiency"
+    },
+    {
+      "slug": "2026-08-14-spec-kit-analysis",
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "spec-kit",
+        "Spec-Driven Development",
+        "AI Programming",
+        "GitHub Copilot",
+        "Claude",
+        "Development Workflow"
+      ],
+      "categories": [
+        "AI Development Tools",
+        "Development Methodology",
+        "Open Source Project Analysis"
+      ],
+      "title": "GitHub spec-kit: Spec-Driven Development Lets AI Coding Agents 'Think Before Writing'",
+      "description": "A deep dive into GitHub's spec-kit project, exploring Spec-Driven Development philosophy, and understanding how explicit specification workflows enable AI coding agents to generate code that matches expectations more efficiently"
+    },
+    {
+      "slug": "acceptance-pipeline-specification",
+      "date": "2026-08-14T00:00:00.000Z",
+      "author": "TopDigg",
+      "tags": [
+        "Acceptance Pipeline",
+        "Gherkin",
+        "Acceptance Testing",
+        "Clean Code",
+        "Uncle Bob",
+        "BDD",
+        "Automated Testing"
+      ],
+      "categories": [
+        "Technical Analysis"
+      ],
+      "title": "Acceptance Pipeline Specification: Uncle Bob's Portable Acceptance Testing Pipeline",
+      "description": "A deep dive into Robert C. Martin's Acceptance Pipeline Specification project, exploring how to achieve portable acceptance testing through Gherkin feature files"
+    },
+    {
+      "slug": "agents-md-complete-guide",
+      "date": "2026-08-14T00:00:00.000Z",
+      "author": "TopDigg",
+      "tags": [
+        "AGENTS.md",
+        "Claude Code",
+        "Cursor",
+        "Copilot",
+        "AI Assistant",
+        "Configuration"
+      ],
+      "categories": [
+        "AI Tools",
+        "Developer Experience"
+      ],
+      "title": "The Complete AGENTS.md Guide: The Art of Configuring AI Programming Assistants",
+      "description": "Deep dive into AGENTS.md configuration philosophy and best practices to make AI programming assistants understand your project better"
+    },
+    {
+      "slug": "pi-context-compaction",
+      "date": "2026-08-14T00:00:00.000Z",
+      "author": "TopDigg",
+      "tags": [
+        "LLM",
+        "Context Compaction",
+        "Context Window",
+        "Pi",
+        "Coding Assistant",
+        "AI"
+      ],
+      "categories": [
+        "Technical Analysis"
+      ],
+      "title": "Context Compaction in Pi Coding Assistant: A Technical Solution for LLM Context Window Limitations",
+      "description": "An in-depth analysis of how Pi Coding Assistant breaks through LLM context window limitations through context compaction mechanism, enabling continuous coding in long sessions"
+    },
+    {
+      "slug": "2026-08-13-spatiotemporal-composability",
+      "date": "2026-08-13",
+      "author": "TopDigg",
+      "tags": [
+        "programming paradigm",
+        "software architecture",
+        "dynamic composition",
+        "effect system",
+        "coeffect system"
+      ],
+      "categories": [
+        "Paper Analysis",
+        "Programming Language Theory"
+      ],
+      "title": "Spatiotemporal Composability: A Programming Paradigm Redefining Dynamic Software Architecture",
+      "description": "An in-depth analysis of the cordiverse/paper paper, exploring the programming paradigm for dynamic software composition, covering core concepts such as Revertible Effects, Reactive Coeffects, and Context Types"
+    },
+    {
+      "slug": "agentic-design-patterns",
+      "date": "2026-08-13",
+      "author": "evoiz",
+      "tags": [
+        "AI Agent",
+        "Agentic Design Patterns",
+        "Artificial Intelligence",
+        "Design Patterns",
+        "LangChain",
+        "AutoGPT",
+        "AutoGen",
+        "CrewAI"
+      ],
+      "categories": [
+        "AI",
+        "Machine Learning",
+        "Agent Systems"
+      ],
+      "title": "Agentic Design Patterns: A Complete Guide to Building Intelligent Systems with AI Agents",
+      "description": "Deep dive into the Agentic Design Patterns project, exploring core AI Agent design patterns including prompt chaining, routing, reflection, tool use, planning, and multi-agent collaboration."
+    },
+    {
+      "slug": "ai-knowledge-graph-generator",
+      "date": "2026-08-13",
+      "author": "robert-mcdermott",
+      "tags": [
+        "AI",
+        "Knowledge Graph",
+        "NLP",
+        "Python",
+        "Visualization"
+      ],
+      "categories": [
+        "AI & ML"
+      ],
+      "title": "AI Knowledge Graph: Transform Unstructured Documents into Interactive Knowledge Graphs",
+      "description": "A deep dive into the AI Knowledge Graph Generator project - learn how to convert unstructured text documents into interactive knowledge graphs"
+    },
+    {
+      "slug": "deepseek-harness-analysis",
+      "date": "2026-08-13",
+      "author": "TopDigg",
+      "tags": [
+        "DeepSeek",
+        "Harness",
+        "Agent",
+        "Cordis",
+        "Monorepo",
+        "Plugin Engine",
+        "Dual Surface",
+        "Telemetry",
+        "MCP",
+        "AI Infrastructure",
+        "Design Philosophy"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "DeepSeek Harness Deep Analysis: AI Agent Engineering Infrastructure and Ecosystem Overview (Core Ideas + Project Overview + Tutorial + Design Philosophy)",
+      "description": "In-depth analysis of DeepSeek Harness (DSH) technical architecture and design philosophy. Core idea: AI Agent engineering infrastructure isn't about making models stronger, but making agent behavior more controllable, observable, and extensible. DSH builds a complete Agent runtime infrastructure through Cordis 4.0 plugin engine, dual Surface architecture, real-time telemetry, and modular design."
+    },
+    {
+      "slug": "deepseek-harness",
+      "date": "2026-08-13",
+      "author": "TopDigg",
+      "tags": [
+        "DeepSeek",
+        "Agent",
+        "Plugin Architecture",
+        "Open Source",
+        "Agent Development",
+        "Cordis"
+      ],
+      "categories": [
+        "AI Framework",
+        "Developer Tools"
+      ],
+      "title": "DeepSeek Harness: An Agent Development Framework Based on the \"Everything is a Plugin\" Philosophy",
+      "description": "An in-depth analysis of the DeepSeek Harness project, exploring its plugin-based architecture, core features, and how to quickly get started with this open-source agent development framework by DeepSeek AI."
+    },
+    {
+      "slug": "ephemeral-ai-fs-analysis",
+      "date": "2026-08-13",
+      "author": "TopDigg",
+      "tags": [
+        "Ephemeral AI FS",
+        "Content Addressable Storage",
+        "CAS",
+        "CDC",
+        "Merkle",
+        "Multi-Agent",
+        "Fork-aware",
+        "SQLite",
+        "Workspace",
+        "Storage System",
+        "Design Philosophy"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Ephemeral AI FS Deep Dive: A Fork-Aware Content-Addressable Storage System for Multi-Agent Workspaces (Core Ideas + Project Overview + Tutorial + Design Philosophy)",
+      "description": "A deep dive into Ephemeral AI FS's core design philosophy and fork-aware content-addressable storage architecture. Core idea: **In multi-agent collaboration environments, workspace forking is the norm, not the exception** — traditional version control systems suffer from massive duplicate storage and complex merge conflicts when handling branches, while Ephemeral AI FS combines Content-Addressable Storage (CAS), Content-Defined Chunking (CDC), and Merkle Inventory into a fork-aware storage architecture, enabling each agent's workspace to share underlying content while maintaining independence. Project info: open source, Rust/Python/Node.js SDKs, SQLite transactions for consistency, M0-M4 complete milestone roadmap. Tutorial: environment setup, installation, quick start examples. Design philosophy: content-addressing over path-addressing, fork-first over merge-first, lightweight transaction model, storage-compute separation."
+    },
+    {
+      "slug": "multi-agent-pipeline-fallacy",
+      "date": "2026-08-13",
+      "author": "TopDigg",
+      "tags": [
+        "AI Architecture",
+        "Multi-Agent Systems",
+        "LLM",
+        "Distributed Reasoning",
+        "Knowledge Graph",
+        "Analysis System",
+        "Pipeline",
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Enterprise AI"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Multi-Agent Pipeline Fallacy: How to Compress a Multi-Week Analysis Process into 30 Minutes",
+      "description": "An in-depth analysis of the most common distributed reasoning failure pattern in enterprise AI architecture — the Multi-Agent Pipeline Fallacy. This article reveals the two failure modes that most teams fall into when building analysis systems: single-LLM end-to-end data analyst (producing shallow summaries, hallucinating causal relationships) and overly fragmented multi-agent pipelines (context propagation decay, massive token consumption). It proposes a three-pillar solution: Deterministic Signal Queue, Centralized Reasoning Ownership + Dynamic Sub-Agents, and Knowledge Graph Control Plane, along with the mechanics of the Bounded Investigation Loop."
+    },
+    {
+      "slug": "oh-my-claudecode-analysis",
+      "date": "2026-08-13",
+      "author": "TopDigg",
+      "tags": [
+        "oh-my-claudecode",
+        "Claude Code",
+        "Multi-Agent",
+        "Orchestration",
+        "TypeScript",
+        "AI Agents",
+        "Developer Tools",
+        "Skills",
+        "Team Pipeline"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "oh-my-claudecode: A Comprehensive Guide to Claude Code's Intelligent Multi-Agent Orchestration Framework",
+      "description": "Comprehensive analysis of oh-my-claudecode (38.5k+ stars, MIT, TypeScript) — Claude Code's intelligent multi-agent orchestration framework. Core design philosophy: zero learning curve, multi-agent orchestration, intelligent routing, skill composition. Detailed coverage: 19 specialized agents, 3-tier model routing, 31 Skills, 5-stage Team Pipeline, Magic Keywords natural language triggering, installation tutorial, team collaboration mode, and best practices."
+    },
+    {
+      "slug": "swarmforge-analysis",
+      "date": "2026-08-13",
+      "author": "TopDigg",
+      "tags": [
+        "SwarmForge",
+        "Multi-Agent",
+        "tmux",
+        "AI Agent",
+        "Orchestration",
+        "Worktree",
+        "Handoff",
+        "Developer Tools",
+        "AI Agents"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "SwarmForge: A tmux-Based Multi-AI Agent Orchestration Platform",
+      "description": "In-depth analysis of SwarmForge (tmux-based AI Agent orchestration platform) — achieving multi-AI agent collaborative software development through workflow configuration (two-pack/four-pack/six-pack), Worktree isolation, Handoff protocol, and Constitution structure. Covers: project architecture, three preset workflows, mechanisms, configuration-driven design philosophy, and usage examples."
+    },
+    {
+      "slug": "aura-analysis",
+      "date": "2026-08-12",
+      "author": "TopDigg",
+      "tags": [
+        "Aura",
+        "Rust",
+        "AI Agent",
+        "Coding Agent",
+        "Agent Architecture",
+        "While Loop",
+        "Tool Use",
+        "Claude Code",
+        "RLM",
+        "Session",
+        "Benchmark",
+        "Loop Engineering",
+        "KISS",
+        "Model Gateway",
+        "Error Budget"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Aura Deep Dive: A Minimal, Testable Rust Coding Agent — Building an Agent with a Single While Loop (Core Idea + Project Overview + Detailed Tutorial + Design Philosophy)",
+      "description": "An in-depth analysis of gyc567/aura (open source project, Rust, MIT license), a 'minimal, testable Rust coding agent'. Core idea: 'Stop prompting. Design the loop. Get a score.' — instead of manually prompting the agent every time, you design the loop structure in advance so the agent runs, reports, and fixes itself on a fixed cadence, with human gates before any code lands. At the product level, Aura's entire power comes from one repeatedly-validated insight: a single while(tool_use) loop plus a small, sharp toolset is where all of Claude Code's power comes from — complexity should live in the tools, not in the loop structure. Project overview: Aura takes a natural-language task → collects controlled workspace context → runs a while(tool_use) loop on a tokio single-thread runtime → modifies files and runs verification through tools → outputs a change summary + test report; five-layer architecture (L1 CLI presentation → L2 Session layer → L3 Agent while-loop driver → L4 Tool Registry/Policy/Precheck/Reminders → L5 ModelGateway); v1/v1.2/Phase 6-7 all complete, v0.1.0 released (5-platform build matrix + install.sh), 345+ tests green, clippy 0 warnings; references Claude Code (patterns & mechanisms), pi_agent_rust (security model), prime-agent (RLM programming model & session/persistence concepts). Detailed tutorial: quick start (cargo build, --fake-model keyless testing, OpenAI-compatible real API, --json output), core loop invariants (only exit conditions: SIGINT / budget exhausted / ErrorBudget exhausted / model returns non-Call), compilable pseudo-code of the while loop, CLI parameters, config priority (CLI > config.toml > env vars), tool list and two-phase execution (capability gate + regex precheck), tool error backfill + ErrorBudget (default 3) letting the model self-heal, RLM-style subagents (admission handle + background task + ChildRegistry + agent_message), scratchpad persistent working memory, Session layer JSONL transcript + --resume, aura bench framework (run/report/init + 8 seed tasks + isolated workspaces + quantitative metrics), layered compaction, plugin v2 (agent-plugins.org spec + MCP), and the Loop Engineering development methodology (LOOP.md/STATE.md/loop-budget/loop-constraints, L1→L2→L3 evolution)."
+    },
+    {
+      "slug": "freqtrade-analysis",
+      "date": "2026-08-12",
+      "author": "TopDigg",
+      "tags": [
+        "Freqtrade",
+        "Quantitative Trading",
+        "Crypto",
+        "Backtesting",
+        "Python",
+        "Open Source",
+        "Hyperopt",
+        "FreqAI",
+        "Machine Learning",
+        "Trading Bot",
+        "CCXT",
+        "Telegram Bot",
+        "Dry Run",
+        "Lookahead Bias",
+        "Trading Strategy",
+        "Automated Trading"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Freqtrade Deep Dive: After Six Months, Can It Really Make You Money in Crypto? (Core Idea + Project Overview + Detailed Tutorial + Design Philosophy)",
+      "description": "Based on the viral Juejin long-read 'I used Freqtrade for six months — let me tell you whether it can actually make you money in crypto', this is an in-depth analysis of Freqtrade (open source, Python, GPL-3.0, the ceiling-level framework in crypto quant). Core idea: **it is a tool, not an answer** — it can execute correct ideas better, but it cannot make wrong ideas right; Freqtrade's entire power comes from 'honest backtesting': built-in lookahead-analysis / recursive-analysis commands that actively detect future-data leakage, decisions made only on closed candles (no repainting), and mandatory Dry-Run forward testing, treating overfitting as enemy #1. Project overview: 48.4k stars / 10.1k forks / 111 releases / 31,465 commits, ccxt-based support for 12 spot + 6 futures exchanges, Python 98.4%, five runtime modes (backtesting / Hyperopt / Dry-Run / live / FreqAI), plus a Telegram Bot + FreqUI operations stack. Detailed tutorial: Docker setup (bypassing the TA-Lib compile pitfall) → new-config to generate configuration → new-strategy to write an EMA-cross strategy (populate_indicators / populate_entry_trend / populate_exit_trend) → backtesting → lookahead/recursive checks → the right way to use Hyperopt (20-30% out-of-sample holdout, ≤200 iterations) → Dry-Run → live trading with Telegram ops. Design philosophy: honesty first (anti-cheating built into the tool), a tool not an answer, verification discipline (Dry-Run is a process, not a formality), modular composability (ccxt abstraction + config-driven 50+ fields), an anti-overfitting culture, and AI-assisted thinking without replacing verification. Overall score 7.6/10 — the ceiling of crypto quant, with real barriers to entry; A-share users should choose vnpy."
+    },
+    {
+      "slug": "langchain-graph-engineering-analysis",
+      "date": "2026-08-12",
+      "author": "TopDigg",
+      "tags": [
+        "LangGraph",
+        "Graph Engineering",
+        "AI Agent",
+        "Agent Architecture",
+        "LangChain",
+        "Loop Engineering",
+        "Multi-Agent",
+        "Orchestration",
+        "State Machine",
+        "Cognitive Architecture",
+        "Harness",
+        "Agentic Systems"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "LangGraph Deep Dive: 3 Years of Graph Engineering — A Complete Guide to Building Reliable Agents with Graphs (Core Idea + Project Overview + Detailed Tutorial + Design Philosophy)",
+      "description": "Based on the official LangChain blog post '3 Years of Graph Engineering with LangGraph' (Harrison Chase & Sydney Runkle, 2026-07-22), this is a complete analysis of the 'graph engineering' paradigm and the LangGraph framework. Core idea: representing agentic systems as graphs lets you (the builder) impose your preconceptions of how the system should work into more constrained paths, rather than relying solely on LLM judgment — giving you tighter control over behavior when you want the agent to follow specific paths. Project overview: LangGraph is the agent orchestration framework LangChain built three years ago; it now sees 65M+ monthly downloads and is used by startups and enterprises alike, popular because of the balance it strikes between deterministic paths and agentic steps. Detailed tutorial: the three elements of graph modeling (nodes do work / edges define what happens next / a state-machine view), when to use graphs (support agents classify before responding or escalating, coding agents inspect the repo before proposing changes, compliance workflows require approval before acting) and when not to (naturally agentic tasks like deep research use agent harnesses/Deep Agents), map-reduce and dynamic transitions with the Send API, and the new pattern of putting a full agent inside a node, with a docs agent case study (Slack request → PR, nodes positioned at different points on the deterministic-to-agentic spectrum). Design philosophy: a graph is a cognitive architecture — just as prompts carry domain knowledge, a graph encodes your world knowledge of how the system should work; the model reasons only where it adds value, code handles the rest, so the agent becomes cheaper, faster, and more predictable. Three years of lessons: agent graphs are usually not DAGs (they need cycles: retrying failed tool calls, asking users for missing information, revising answers after validation, pausing for human input); loops are simple graphs (loop engineering is a simpler version of graph engineering, and LangChain itself is built on top of LangGraph); dynamic transitions matter (you often don't know how much work to spawn until runtime — route dynamically with Send)."
+    },
+    {
+      "slug": "raft-analysis",
+      "date": "2026-08-12",
+      "author": "TopDigg",
+      "tags": [
+        "Raft",
+        "Agent Experience",
+        "AX",
+        "Multi-Agent",
+        "Collaboration",
+        "Human-AI",
+        "Botiverse",
+        "Agent Workspace",
+        "Agent Inbox",
+        "Held Draft",
+        "Agent Native",
+        "Teamwork",
+        "Design Philosophy"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Raft Deep Dive: Enabling Humans and AI Agents to Collaborate Like Real Teammates (Core Ideas + Project Overview + Tutorial + Design Philosophy)",
+      "description": "Deep analysis of raft.build's AX design philosophy and Agent-native collaboration platform Raft. Core idea: **Agents are not tools — they are decision-making participants.** Through two key designs — Agent Inbox (pull-based attention) and Held Draft (draft state machine) — Raft enables agents to consciously decide when to read, reply, or stay silent in shared workspaces, avoiding meaningless noise and collisions. Project overview: Built by Botiverse, supports Claude/Codex/Kimi runtimes, persistent agent memory, multi-agent collaboration, local deployment. Tutorial: Build a Raft multi-agent engineering team from scratch — Channel creation, agent onboarding, memory configuration, task routing and collaboration patterns. Design philosophy: Agent Experience (AX) design, Perception Empathy vs Action Explicitness, the fundamental difference between turn-based and continuous-presence interaction models, contrasted with traditional @mention rule filtering."
+    },
+    {
+      "slug": "bb-ide-analysis",
+      "date": "2026-08-11",
+      "author": "TopDigg",
+      "tags": [
+        "bb",
+        "Agent IDE",
+        "AI Agent",
+        "Agent Orchestration",
+        "Claude Code",
+        "Codex",
+        "IDE",
+        "DevTools",
+        "Programmable Workspace",
+        "Threads",
+        "Agentic Development",
+        "Monorepo",
+        "Electron"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "bb Deep Dive: The Agent IDE That Builds Itself — a Programmable Workspace for Orchestrating Every Coding Agent (Project Overview + Quick-Start Tutorial + System Architecture + Design Philosophy)",
+      "description": "Using get-bb/bb (an MIT-licensed open-source GitHub project, ~1.6k stars) as the subject, this is a complete analysis of 'The agent IDE that builds itself'. Core idea: bb is a programmable workspace for coding agents — users and agents are both first-class operators, and all four surfaces (desktop app, web app, CLI, and HTTP API) are first-class citizens; work runs in threads that you can follow live, steer at any point, or hand off to another agent; agents aren't just orchestrated — they can programmatically drive bb via the SDK/CLI/HTTP API, enabling 'orchestration of orchestrators' and bootstrapping. Project overview: rather than inventing new agents, bb orchestrates the provider CLIs you already have — Claude Code, Codex, Cursor (ACP), Pi, OpenCode, Grok Build, Hermes, etc. (reusing already-authenticated credentials). Quick-start tutorial: npx bb-app@latest → http://localhost:38886; CLI (bb skill list / config / env / ssh-target); Node SDK (BBSdk: spawn a thread → wait idle → output). System architecture: Server (SQLite source of truth + HTTP API + WebSocket event push, itself stateless) → Host daemon (resident on each execution machine, provisions workspaces, runs provider processes) → App → CLI; the data model includes Project/Source, Thread (standard/manager/child delegation), Environment (managed/unmanaged), and Host; two contract packages — @bb/server-contract and @bb/host-daemon-contract — strictly delineate component boundaries. Design philosophy, six principles: users and agents as dual first-class operators, extensible (adapts to your infrastructure rather than forcing you to fork), flexible not rigid (strong defaults + reusable primitives), work anywhere (from single machine to remote/cloud evolution), fast and understandable, easy to trust and adopt (local-first). Takeaways: orchestration over invention, threads as the unit of work, contract-driven architecture, SQLite source of truth + stateless Server, local-first with hosting as incremental extension, anonymous telemetry that can be turned off."
+    },
+    {
+      "slug": "cc-master-analysis",
+      "date": "2026-08-11",
+      "author": "TopDigg",
+      "tags": [
+        "cc-master",
+        "Claude Code",
+        "Codex",
+        "Cursor",
+        "kimi-code",
+        "Agent Orchestration",
+        "AI Agent",
+        "Long-horizon",
+        "Task DAG",
+        "Monte Carlo",
+        "Project Lead",
+        "DevTools",
+        "Agent Plugin"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "cc-master 深度解析：把任意编码 Agent 会话变成长期项目负责人（项目说明 + 快速上手教程 + 系统架构 + 设计哲学）",
+      "description": "以 nemori-ai/cc-master（开源项目，TypeScript，PolyForm Noncommercial 1.0.0 协议）为蓝本，完整解析'把编码 Agent 会话变成长期项目负责人（a project lead for long-running work）'。核心思想：cc-master 把 Claude Code、Codex、Cursor、kimi-code 中任何一个受支持的编码 Agent 会话变成'项目负责人'——你带想法、做少数真正需要你的决策；它负责拆解大目标、并行调度独立子任务、追踪进度与配额，并对照显式目标验收结果。Board（看板）能跨上下文重置与会话交接存活，工作不依赖某一次对话的记忆。安装：curl 一行命令安装 ccm 引擎 + 插件；插件为每个 harness 生成原生适配器（Claude Code 斜杠命令 /cc-master:as-master-orchestrator、Codex $cc-master-as-master-orchestrator、Cursor /as-master-orchestrator、kimi-code cc-master:as-master-orchestrator）。系统架构：三层产品模型（per-harness 插件适配层 → ccm CLI + @ccm/engine 引擎 → ccm web-viewer 只读视图）；Board v2 JSON 数据模型（窄腰设计）；8 个分布式 Skill（master-orchestrator-guide / authoring-workflows / using-ccm / slicing-goals-into-dags / dev-as-ml-loop / engineering-with-craft / pacing-and-estimation / distilling-lessons-into-assets）；O/T1/T2/T3 统一模型分配；7 类 dormant-until-armed Hooks；配额姿态 + 蒙特卡洛交付预测；跨 harness 的 worker 派发与 Agent Registry。设计哲学：'指挥家从不亲自演奏'（协调者不亲自做单元工作）、注意力再分配（把注意力重新分配到真正值得花的地方）、六个宪章目标、ship-anywhere（hooks 只用 bash + node/JS）、窄腰原则（只有少量固定 board 字段被 hooks 依赖）、双版本线解耦（插件 vX.Y.Z 与 ccm ccm-vX.Y.Z 独立发版）。明确边界：这不是'许个愿 AI 全包'——品味、设计、方向等只有你能做的决策仍然属于你；十分钟能改完的一两行修复也不值得请'项目负责人'。"
+    },
+    {
+      "slug": "agents-in-orbs-analysis",
+      "date": "2026-08-10",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Amp",
+        "Agents in Orbs",
+        "Coding Agent",
+        "AI Agent",
+        "Remote Agent",
+        "Orb",
+        "amp CLI",
+        "amp -ox",
+        "amp sync",
+        "CLI Agent",
+        "Debian 12",
+        "OIDC",
+        "Webhook",
+        "Plugin",
+        "TUI",
+        "SaaS",
+        "Ampcode",
+        "DevOps"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Agents in Orbs Deep Dive: When the Agent Learns to Run Code While You're Not at Your Computer — Amp's Remote Orb Hands-On Tutorial, Design Philosophy, and Five Core Insights",
+      "description": "Based on Amp's official 2026-06-30 announcement Agents in Orbs, the 2026-02-19 editorial The Coding Agent Is Dead, the Orbs User Manual, and the 2026-08-07 price-table post Size the Orbs of Production, this article dissects the product shape, technical details, and design philosophy of Amp's Orb. It covers: (1) what an Orb is — a Debian 12 remote machine that runs Amp agents, billed by the minute, auto-paused after 5 minutes of inactivity; (2) a full hands-on tutorial — the four entry points (Web / CLI `amp -ox` / TUI command palette / plugin `agent.createThread()`), `amp sync <thread>` for two-way sync, `--orb-size` for per-thread sizing, `.agents/setup` and `.agents/resume` lifecycle hooks, OIDC federation, webhooks and portals; (3) the a1 five-tier price grid (a1.tiny/small/medium/large/xxlarge at $0.08/$0.17/$0.33/$0.66/$1.32 per hour); (4) design philosophy — 'unshackle agents from the editor sidebar', 'capability is not authority', 'bill in results not in seats', 'wake on demand, sleep when done', 'let fan-out stop being limited by local resources'; (5) five core insights: a vanished threshold unlocks parallel potential, unattended becomes the default, agents decouple from the editor, self-driven delivery accelerates, billing moves from seats to minutes. Core claim: the stronger the model, the less you should lock it onto a single machine; Orbs is Amp's engineering answer to the agent era."
+    },
+    {
+      "slug": "awesome-agent-trading-analysis",
+      "date": "2026-08-10",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "AI Agent",
+        "Agent Trading",
+        "Automated Trading",
+        "Quantitative Trading",
+        "DeFi",
+        "MCP",
+        "TradingAgents",
+        "FinGPT",
+        "OpenClaw",
+        "Agent Economy"
+      ],
+      "categories": [
+        "AI Analysis"
+      ],
+      "title": "The AI Agent Trading Ecosystem, Explained: A Deep Dive into the awesome-agent-trading Curated List",
+      "description": "An in-depth analysis of the awesome-agent-trading GitHub curated list: from 17 Agent frameworks and 20 OpenClaw trading skills to 8 MCP servers and Agent identity and payment protocols — a complete walkthrough of the AI Agent trading ecosystem. Includes the core idea, project overview, a step-by-step tutorial from zero to one, key takeaways, and design philosophy."
+    },
+    {
+      "slug": "fde-guide-analysis",
+      "date": "2026-08-10",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "FDE",
+        "Forward Deployed Engineering",
+        "AI Value Engineering",
+        "Production AI",
+        "AI Agent",
+        "Value Engineering",
+        "12 Factors",
+        "Accepted Outcome",
+        "Frugal Architecture",
+        "Intelligence Selection",
+        "Agent Architecture",
+        "LLM",
+        "David Ahmann"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "FDE Guide Deep Dive: Engineering Value Before Autonomy — A Production-Grade Delivery Methodology for FDEs and AI Engineers (Project Overview + 7-Stage Delivery Loop + 12-Factor Value Engineering Tutorial + Design Philosophy)",
+      "description": "Using davidahmann/fde-guide (open-source GitHub project, Apache-2.0, by David Ahmann) as the blueprint, this is a complete analysis of the 'forward-deployed engineer (FDE) and applied-AI delivery' methodology. Core idea in one sentence: **Tokens are an input. Autonomy is a design choice. The accepted outcome is the product.** The project offers three layers of depth: ① The Guide (a 20-minute mental model: the FDE's four responsibilities = Discovery/Product/Engineering/Operation; one 7-stage delivery loop running throughout = Observe → Charter → Select Mechanism → Build a Controlled Slice → Prove → Launch and Transfer Ownership → Operate, Learn, or Retire); ② The Handbook (lifecycle playbooks + 12-factor AI value engineering: a ledger of 'cost per accepted outcome' and 'realized net value,' with 4 hard gates = owned outcome / credible independent verifier / bounded authority and expected loss / plausible positive value case after full cost, remaining factors scored 0/1/2, where scoring supports conversation but strong factors cannot average away a failed gate); ③ The Engineering Kit (executable assets: the controlled-write reference system invoice-exception — 'the model proposes, trusted software authorizes and commits, a source-of-truth readback proves the result' — including authority policies, tool contracts, a threat model, regression tests, and release evidence; the hybrid system shipment-risk-triage — classic ML scoring + deterministic routing + optional model explanations + human review — proving AI systems need not be agent-first). Design philosophy: AI has an 'accounting problem' — teams measure tokens, calls, and agent counts rather than changed outcomes; observe real work before designing systems (don't automate the process in a slide deck); 'use AI' is not an architecture decision — decompose by decision and use the smallest sufficient mechanism; capability does not grant authority — the model can only ever propose; value engineering (valuemaxxing) is not about maximizing automation but about maximizing the durable net value obtainable from a verifiable, operable, stoppable system. The article contains: project overview, core ideas, a factor-by-factor tutorial of the 7-stage delivery loop and the 12 factors, architecture breakdowns of two executable examples, five design-philosophy positions, and a 10-point summary of takeaways."
+    },
+    {
+      "slug": "graph-engineering-guide-2026-analysis",
+      "date": "2026-08-10",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Graph Engineering",
+        "AI Agent",
+        "Loop Engineering",
+        "LangGraph",
+        "AutoGen",
+        "Google ADK",
+        "A2A",
+        "Multi-Agent",
+        "Orchestration",
+        "AI Engineering",
+        "Harness"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Graph Engineering (2026) Deep Dive: Wiring Loops into a Graph — Nodes, Edges, Shared State, and an Honest Hype Check",
+      "description": "A complete analysis of AI Builder Club's 'Graph Engineering Guide (2026)' — the mid-2026 paradigm shift on X from a single agent loop to a multi-node agent graph (nodes do the work, edges route between them, shared state flows along the edges). Covers the concept's origin (Peter Steinberger's question, @rohit4verse's org-chart metaphor), the nodes/edges/shared-state trio, the loop-vs-graph decision table, the prior art (LangGraph, AutoGen GraphFlow, Google ADK, A2A), the 5 layers of AI engineering (Prompt→Context→Harness→Loop→Graph), and the honest hype check: is graph engineering just slop? Core claim: master the loop first, and only split into a graph when the work forces your hand."
+    },
+    {
+      "slug": "t3code-analysis",
+      "date": "2026-08-10",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "T3 Code",
+        "t3code",
+        "pingdotgg",
+        "Agent Harness",
+        "AI Agent",
+        "Coding Agent",
+        "Codex",
+        "Claude Code",
+        "Cursor",
+        "Grok",
+        "OpenCode",
+        "Effect RPC",
+        "Event Sourcing",
+        "Remote Access",
+        "Tailscale",
+        "T3 Connect",
+        "WebSocket",
+        "OAuth",
+        "Clerk",
+        "Electron",
+        "React Native",
+        "Open Source",
+        "MIT"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "T3 Code Deep Dive: An Open-Source 'Agent Harness Control Surface' That Drives Five Coding Agents — Product Shape, Hands-On Tutorial, and Design Philosophy",
+      "description": "Using pingdotgg/t3code (GitHub 18k+ stars, MIT, open source) as the spine, this article peels back T3 Code layer by layer: (1) project overview — an open-source 'agent harness control surface' that drives Codex / Claude / Cursor / Grok / OpenCode from web + desktop + mobile; (2) hands-on tutorial — `npx t3@latest` startup, desktop install, 5 providers with their login commands, 4 permission modes (Supervised / Auto-accept edits / Auto / Full access), remote access (LAN / Tailscale / T3 Connect / SSH), 4 source-control providers (GitHub / GitLab / Bitbucket / Azure DevOps), WebSocket + OAuth + DPoP authentication, keybindings, and thread pin; (3) technical architecture — Effect RPC WebSocket, event-sourced orchestration (command→decider→event→projector), 5 provider drivers, checkpoint (hidden git ref), 3 queue-backed workers, Rust resource-monitor sidecar; (4) 6 design philosophies — Open at the core, Performance without compromise, Remote ready, Multi-surface, Complexity at the adapter boundary, Event-sourced truth. Core claim: the agent harness is a product shape that needs a control surface, not another agent framework; T3 Code is the engineering realization of that judgment."
+    },
+    {
+      "slug": "terminal-bench-2-analysis",
+      "date": "2026-08-10",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Terminal-Bench",
+        "Agentic Benchmark",
+        "AI Agent",
+        "Terminal",
+        "Software Engineering",
+        "Harbor",
+        "Benchmark",
+        "Claude",
+        "GPT-5.6",
+        "DeepSeek"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Terminal-Bench 2.0 Deep Dive: Moving the Exam Into a Real Terminal — Inspect, Run, Recover, and Why 91.9% Is What It Takes to Be #1",
+      "description": "Based on the official tbench.ai site and BenchLM's deep-dive explainer, this article fully dissects Terminal-Bench 2.0 — an agentic software engineering benchmark executed in real terminal environments. It walks through the fundamental difference from chat-style coding benchmarks like HumanEval (models no longer just 'answer' with code — they must 'do' an entire terminal workflow: inspect environment → read/edit files → run commands → recover from errors → finish end-to-end), the 89 tasks across software engineering / machine learning / security / data science, a task-by-task anatomy of six representative tasks (compiling a Linux kernel, cracking a 7z hash, training a fasttext model), the BenchLM leaderboard snapshot (GPT-5.6 Sol leads at 91.9%, Claude Mythos 5 at 88.0%, GPT-5.6 Terra at 87.4%), and the design philosophy behind the TB benchmark family (1.0/2.0/2.1/3/Science/Challenges) and the Harbor framework. Core thesis: chat benchmarks ask whether a model can write code; terminal benchmarks ask whether it can act as an agent — check this row first, because a HumanEval-perfect model can still strand an agent halfway through a task."
+    },
+    {
+      "slug": "writing-code-was-hard-actually-analysis",
+      "date": "2026-08-10",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Promptless",
+        "writing-code",
+        "AI Engineering",
+        "Software Engineering",
+        "AI Agents",
+        "Engineering Culture",
+        "AI Hype",
+        "Code Generation",
+        "Engineering Identity",
+        "Career"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Promptless 'Writing code was hard, actually' Deep Dive: When 'Coding Was Never the Hard Part' Becomes the Hot Take, Time to Settle the Account — Market, Machine, and Engineer",
+      "description": "Using Promptless's engineering blog post 'Writing code was hard, actually' as the spine, this article dissects how a 900-word short piece rebuts the viral 2025-2026 narrative that 'writing code was never the hard part.' It walks through: (1) project overview — what Promptless is and why this short piece is worth a deep read; (2) detailed tutorial — four evidence lines (timing, machine, market, engineer) + one honest concession ('this skill is becoming less scarce' ≠ 'this skill was never impressive') + one engineering warning ('engineers built the tool being used to call them trivial'); (3) synthesized insights — the article separates 'AI makes code cheaper' from 'code was always easy'; (4) design philosophy — three postures toward scarcity narratives, historical respect, and engineering identity. Core claim: don't rewrite 'a skill is becoming cheaper' as 'a skill was always trivial' — the former is an honest market assessment, the latter is rewriting history. This short piece offers the cleanest argumentation template for any 'does AI replace / not replace X' debate."
+    },
+    {
+      "slug": "claude-code-engineering-team-analysis",
+      "date": "2026-08-09",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Claude Code",
+        "AI Agent",
+        "gstack",
+        "Superpowers",
+        "Compound Engineering",
+        "ECC",
+        "Garry Tan",
+        "Jesse Vincent",
+        "Developer Tools",
+        "AI Workflow",
+        "TDD",
+        "Open Source"
+      ],
+      "categories": [
+        "Analysis"
+      ],
+      "title": "Claude Code Enhancement Suite Deep Dive: gstack · Superpowers · Compound Engineering · ECC — Turning Your AI Assistant into a 20-Person Virtual Engineering Team",
+      "description": "A complete breakdown of the four Claude Code enhancement tools integrated in the eric-claude-code-dev project: gstack (YC CEO Garry Tan's software factory with 15 specialized roles), Superpowers (GitHub ex-CTO Jesse Vincent's auto-triggered development workflow), Compound Engineering (Every's compounding engineering — each session makes the next one easier) and Everything Claude Code (the Anthropic Hackathon-winning token optimization system). This article explains the core idea of 'turning AI into a virtual engineering team' with metaphors simple enough for a child to understand, and provides a full installation tutorial, detailed walkthroughs of core commands (/office-hours, /ce:brainstorm, /tdd, etc.), a four-scenario guide to combining the tools, a summary of the four design philosophies (skills as software, auto-triggering, compounding mindset, sub-agent orchestration), and key takeaways such as 'writing code is only the last step' and 'knowledge must be captured, not carried around in people's heads.'"
+    },
+    {
+      "slug": "codexloom-agent-team-analysis",
+      "date": "2026-08-09T00:00:00.000Z",
+      "author": "topdigg-web-miner",
+      "tags": [
+        "AI Agent",
+        "Agent Team",
+        "Multi-Agent",
+        "Codex",
+        "CodexLoom",
+        "Team Governance",
+        "AI Collaboration"
+      ],
+      "categories": [
+        "AI Tools",
+        "Development Efficiency"
+      ],
+      "title": "CodexLoom — From Multi-Agent to Agent Team: Turning AI Agents from Tools into a Real Team",
+      "description": "An in-depth analysis of CodexLoom's Agent Team best practices: why multiple agents do not equal an Agent Team, how to turn agents from one-shot tasks into long-running responsibility holders, and how Profile, Message, Topic, Overview, and External externalize the responsibilities once trapped in the Human's head into a working structure the whole team can use."
+    },
+    {
+      "slug": "harbor-framework-analysis",
+      "date": "2026-08-09",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Harbor",
+        "Terminal-Bench",
+        "AI Agent",
+        "Benchmark",
+        "LLM",
+        "Evaluation",
+        "Agent Framework",
+        "Terminal-Bench 2.0",
+        "Claude Code",
+        "Daytona",
+        "RewardKit",
+        "MCP",
+        "Docker",
+        "Machine Learning"
+      ],
+      "categories": [
+        "Analysis"
+      ],
+      "title": "Harbor Framework Deep Dive: Building an 'Exam Hall' for AI — From Terminal-Bench to Agent Evaluation",
+      "description": "A comprehensive analysis of Harbor Framework (by laude-institute): an open-source framework that lets AI Agents be fairly evaluated inside 'containerized exam rooms' — explained so clearly that even a beginner can follow along. Using plain-language analogies, this article walks through the core concepts of Harbor, the official evaluation tool for Terminal-Bench 2.0 (Task/Dataset/Agent/Trial/Job), provides a detailed installation and running tutorial (including local Docker + Daytona cloud with 32-way concurrency), distills six design philosophies (modular interfaces, cloud sandbox horizontal scaling, integrated evaluation data pipeline, Linux by default, anti-cheating, RewardKit lightweight verification), and summarizes key takeaways such as 'evaluation as infrastructure' and 'get the smallest end-to-end path working first', plus the essentials of two real tutorials: LLM-as-a-Judge and MCP sidecar tasks."
+    },
+    {
+      "slug": "herdr-analysis-report",
+      "date": "2026-08-09T00:00:00.000Z",
+      "author": "topdigg-web-miner",
+      "tags": [
+        "AI Agent",
+        "Terminal Tools",
+        "Development Environment",
+        "Rust",
+        "Herdr"
+      ],
+      "categories": [
+        "AI Tools",
+        "Development Efficiency"
+      ],
+      "title": "Herdr — The \"Habitat\" for Coding Agents, Keeping AI Agents Running Forever",
+      "description": "In-depth analysis of Herdr: a terminal workspace manager that keeps AI coding agents running continuously, supporting Claude Code, Codex, Cursor, and more. Built with Rust, no Electron, open source and free."
+    },
+    {
+      "slug": "ai-agent-book-analysis",
+      "date": "2026-08-08",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "AI Agent",
+        "LLM",
+        "Context Engineering",
+        "MCP",
+        "RAG",
+        "Coding Agent",
+        "Reinforcement Learning",
+        "Multi-Agent Collaboration",
+        "Open Source Book",
+        "Bo Jie Li"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "What Is an AI Agent? Notes on 'Understanding AI Agent' That Even an Elementary Schooler Can Understand",
+      "description": "A plain-language walkthrough of the open-source GitHub book 'Understanding AI Agent: Design Principles and Engineering Practice' (34.5k stars). Explains the core formula Agent = brain + eyes + hands in one article, with the highlights of all 10 chapters, 95 hands-on experiment tutorials, and the book's key viewpoints and design philosophy."
+    },
+    {
+      "slug": "cloudflare-computer-analysis-report",
+      "date": "2026-08-08",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Cloudflare Computer",
+        "Durable Objects",
+        "AI Agent",
+        "Virtual Filesystem",
+        "SQLite",
+        "FUSE",
+        "Open Source",
+        "Workers",
+        "Containers",
+        "Cloud Native"
+      ],
+      "categories": [
+        "Deep Analysis"
+      ],
+      "title": "Cloudflare Computer Deep Dive: Give Your Agent a Computer",
+      "description": "Comprehensive analysis of Cloudflare Computer — Cloudflare's open-source virtual filesystem. In-depth exploration of its design philosophy, SQLite persistence architecture, multi-backend execution engines, FUSE mounting mechanism, and why it represents the future paradigm of AI Agent infrastructure."
+    },
+    {
+      "slug": "cloudflare-os-analysis-report",
+      "date": "2026-08-08",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Cloudflare OS",
+        "AI Productivity",
+        "Cloudflare Workers",
+        "Open Source",
+        "Sandbox Security",
+        "Gatekeeper",
+        "Gadget",
+        "Agent Native",
+        "SaaS Alternative",
+        "Local First"
+      ],
+      "categories": [
+        "Deep Analysis"
+      ],
+      "title": "Cloudflare OS Deep Dive: Redefining the Productivity Operating System for the AI Era",
+      "description": "Comprehensive analysis of Cloudflare OS — Cloudflare's open-source AI productivity environment. Deep exploration of its design philosophy, Gadget sandbox architecture, Gatekeeper security framework, async human-in-the-loop mechanisms, and why it represents the future paradigm of SaaS software."
+    },
+    {
+      "slug": "codex-orchestration-analysis",
+      "date": "2026-08-08",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Codex-Orchestration",
+        "Codex",
+        "OpenAI",
+        "Multi-Agent",
+        "Claude Fable 5",
+        "Claude Opus 5",
+        "Kimi K3",
+        "OpenRouter",
+        "MCP",
+        "Model Routing",
+        "AI Agent",
+        "Python",
+        "Role-Based Agent"
+      ],
+      "categories": [
+        "Analysis"
+      ],
+      "title": "Codex-Orchestration Deep Dive: How One Plugin Embeds Fable 5, Opus 5, and Kimi K3 Into Codex So Every AI Plays a Different Role in Collaborative Development",
+      "description": "A comprehensive analysis of Cjbuilds/Codex-Orchestration (580+ stars). This open-source plugin introduces Planner, Advisor, Designer, and Executor roles into a Codex task — letting Claude Fable 5 plan, Opus 5 review, Kimi K3 design, and GPT-5.6 Luna implement. Covers the three core problems it solves (single-model limitations, provider lock-in, no independent review), a detailed installation tutorial, the role-based workflow, design philosophy, and security boundaries distilled from the production-readiness audit."
+    },
+    {
+      "slug": "oh-my-hermes-analysis",
+      "date": "2026-08-08",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Oh My Hermes",
+        "OMH",
+        "Hermes Agent",
+        "AI Agent",
+        "Multi-Agent",
+        "多智能体",
+        "Agent Skills",
+        "Nous Research",
+        "oh-my-claudecode",
+        "Orchestration",
+        "Consensus Planning"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Oh My Hermes Deep Dive: A Multi-Agent Orchestration Framework That Turns Multiple AIs Bickering into Engineering Discipline",
+      "description": "A complete analysis of the GitHub project witt3rd/oh-my-hermes (OMH) — a multi-agent orchestration skill collection built for Nous Research's Hermes Agent, inspired by oh-my-claudecode but fully rewritten from scratch on Hermes primitives. Core idea: a single AI answering in one pass is prone to blind spots, so OMH has a Planner, an Architect, and a Critic debate one another to consensus, then lets an Executor write the code, a Verifier check the evidence, and the Architect do the final review. The article covers: the ten skills (omh-ralplan / omh-ralph / omh-deep-research / omh-deep-interview / omh-autopilot and their respective driver scripts), the hook-based role injection mechanism, atomic state management, the three-strike circuit breaker, the iron law that evidence beats assertion, file ownership isolation, the '.omh directory selective sharing' convention, and the fourteen design principles written explicitly into the repo. From core ideas, project overview, and design philosophy to a beginner-friendly step-by-step tutorial (install → first planning session → execution loop → fully automatic pipeline) and takeaways, the article covers it all in one read."
+    },
+    {
+      "slug": "open-code-review-analysis-report",
+      "date": "2026-08-08",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "OpenCodeReview",
+        "AI Code Review",
+        "Alibaba",
+        "Open Source",
+        "Code Quality",
+        "LLM Agent",
+        "Hybrid Architecture",
+        "CLI Tool",
+        "CI/CD",
+        "DevOps"
+      ],
+      "categories": [
+        "Deep Analysis"
+      ],
+      "title": "OpenCodeReview Deep Dive: Alibaba's Open-Source AI Code Review Tool with 9x Precision Improvement",
+      "description": "Comprehensive analysis of OpenCodeReview — Alibaba's open-source AI code review CLI tool. Deep exploration of its hybrid architecture design philosophy, deterministic engineering + LLM Agent fusion, precise line-level commenting, and how it served tens of thousands of developers at Alibaba while identifying millions of code defects."
+    },
+    {
+      "slug": "open-kritt-analysis-report",
+      "date": "2026-08-08",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "open-kritt",
+        "AI Security",
+        "Vulnerability Detection",
+        "Bug Bounty",
+        "AI Agent",
+        "Security Research",
+        "Code Analysis"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "open·kritt Deep Analysis: Orchestrating AI Agents to Discover Real Code Vulnerabilities",
+      "description": "A comprehensive analysis of open·kritt, an open-source AI security research platform that breaks down complex security audits into small, focused tasks executed by multiple AI agents in parallel, producing deduplicated, ranked, and verifiable security findings. The platform's core ideas come from real bug bounty hunting experience with over $1.5 million in earnings. This article covers: core philosophy, project architecture, installation guide, detailed tutorial, design philosophy, security model, and key insights."
+    },
+    {
+      "slug": "prime-agent-analysis-report",
+      "date": "2026-08-08",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Prime Agent",
+        "RLM",
+        "AI Programming",
+        "Open Source",
+        "Continual Learning",
+        "Recursive Language Model",
+        "Agent-Native",
+        "Autonomous Programming",
+        "Skills System",
+        "PrimeIntellect"
+      ],
+      "categories": [
+        "Deep Analysis"
+      ],
+      "title": "Prime Agent Deep Dive: The Self-Improving RLM Programming Agent",
+      "description": "Comprehensive analysis of Prime Agent — PrimeIntellect's open-source Recursive Language Model agent. In-depth exploration of its design philosophy, RLM programming model, continual improvement mechanism, skills system, and why it represents the future paradigm of AI programming agents."
+    },
+    {
+      "slug": "pro-long-analysis-report",
+      "date": "2026-08-08",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "PRO-LONG",
+        "LLM Agent",
+        "Programmatic Memory",
+        "Long-Horizon Reasoning",
+        "ARC-AGI-3",
+        "Context Management",
+        "Open Source",
+        "AI",
+        "Fable",
+        "Agent Memory"
+      ],
+      "categories": [
+        "Deep Analysis"
+      ],
+      "title": "PRO-LONG Deep Dive: Programmatic Memory Enables Long-Horizon Reasoning",
+      "description": "Comprehensive analysis of PRO-LONG — a minimal programmatic memory framework for LLM agents. In-depth exploration of its design philosophy, single-file log architecture, code retrieval mechanism, breakthrough performance on ARC-AGI-3, and why it represents the future paradigm of agent memory systems."
+    },
+    {
+      "slug": "agent-plugins-analysis",
+      "date": "2026-08-07",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Agent Plugins",
+        "AI Agent",
+        "MCP",
+        "Agent Skills",
+        "Plugin",
+        "Interoperability",
+        "Open Standard",
+        "Amazon",
+        "OpenAI",
+        "Microsoft",
+        "Cursor",
+        "Vercel"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Agent Plugins Deep Dive: A Vendor-Neutral Plugin Packaging Standard for AI Agents — Co-Driven by Amazon, Cursor, Microsoft, OpenAI, and Vercel",
+      "description": "A complete analysis of the Agent Plugins specification v1.0.0 published at agent-plugins.org — an open, vendor-neutral standard for packaging reusable components into portable plugins, defining a shared format for Agent Skills and MCP servers. Core idea: every AI agent client has invented its own plugin format even when the plugins contain the same underlying components, forcing authors to rearrange or duplicate components per client. Agent Plugins defines a small interoperability floor — shared components use one predictable structure, while distribution, installation, permissions, user experience, and client-specific capabilities remain under each client's control. This article covers it all: why it exists, the directory-as-package model and manifest spec, the three MCP transports (stdio / Streamable HTTP / legacy HTTP+SSE), the PLUGIN_ROOT and PLUGIN_DATA plugin variables, reverse-domain client extensions, incremental adoption, failure isolation, and the philosophy behind its ten design decisions. From the core idea, project overview, and design philosophy to a step-by-step tutorial (minimal hello-plugin → full manifest → packaging skills → configuring MCP → implementing a client) and a summary of viewpoints and conclusions."
+    },
+    {
+      "slug": "npm-supply-chain-crisis-analysis",
+      "date": "2026-08-07",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "npm",
+        "Supply Chain Security",
+        "JavaScript",
+        "Security",
+        "Open Source",
+        "Package Manager",
+        "Event Stream",
+        "Dependency Confusion",
+        "Typosquatting"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "npm Supply Chain Crisis Deep Dive: The Only Package Manager Where This 'Regularly Happens' — From event-stream to Systemic Ecosystem Risk",
+      "description": "Using Kevin Patel's satirical blog post 'No Way To Prevent This' (2026-05-15) as an entry point, this article provides a comprehensive analysis of npm supply chain attack mechanics. Core thesis: npm's 'no way to prevent this' posture is not a technical limitation but a deliberate structural choice — default script execution, lack of package ownership verification, and 40-level deep unvetted dependency trees make every `npm install` a trust-transmission gamble. While Go and Rust ecosystems suppress supply chain risk to near-zero through robust standard libraries and mandatory cryptographic verification, npm chose 'convenience first,' paying with a recurring community-wide disaster every few months. This article covers: incident review, attack vector analysis, design philosophy critique, cross-ecosystem comparison, and actionable defense strategies."
+    },
+    {
+      "slug": "cloudflare-agent-access-model-analysis",
+      "date": "2026-08-06",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Agent Access Model",
+        "AAM",
+        "Cloudflare",
+        "Zero Trust",
+        "AI Agent",
+        "Access Control",
+        "Trust Ratchet",
+        "MCP",
+        "BeyondCorp",
+        "Agent Security",
+        "Least Privilege",
+        "Zero Trust"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Cloudflare's Agent Access Model Deep Dive: Never Trust the Run — Narrowing Zero Trust from the Network Boundary to a Single Action",
+      "description": "A complete analysis of Cloudflare's official blog paper 'The Agent Access Model' (by Matt Silverlock, 2026-08-05) — an access-control model built for AI agents. Core idea: Never Trust the Run. BeyondCorp removed implicit trust in the network; AAM removes implicit trust in the task execution graph. Authorization for one action does not carry over to the next — every action is evaluated in real time against three facts: who the agent is, what task it is authorized to perform, and which policy-relevant resources the graph has already touched. AAM is designed around four agent characteristics (ephemerality, machine speed, prompts-not-a-boundary, and permission composition across hops), argues for shrinking the capability set rather than only making single decisions smarter, and proposes five principles (short-lived bound credentials, enforcement at the harness/network layer, human approval as the exception, evidence-based grant review, and unidirectional capability state via the Trust Ratchet). Covers the six-component reference architecture (Identity Broker / Task-Bound Access Engine / Mediation Layer / Trust Ratchet / Grant Review Loop / Agent Activity Log), the full data-exfiltration walkthrough of a nightly reconciliation agent (t=0 dispatch → t=1 ratchet trigger → t=2 injection denied), human oversight without fatigue (the UAC lesson), and the unsolved multi-agent access-control problem (CI-Work measured 15.8%–50.9% privacy violation rates)."
+    },
+    {
+      "slug": "loop-engineering-addy-osmani",
+      "date": "2026-08-06",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Loop Engineering",
+        "Addy Osmani",
+        "AI Agent",
+        "Claude Code",
+        "Codex",
+        "Automations",
+        "Worktrees",
+        "Skills",
+        "Sub-agents",
+        "MCP",
+        "Harness Engineering",
+        "Cognitive Surrender"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Loop Engineering Deep Dive (Addy Osmani's Original): Stop Prompting AI Turn-by-Turn — Design a Loop That Finds Work, Hands It Out, and Verifies Results, Then Stay the Engineer",
+      "description": "A complete analysis of Addy Osmani's original blog post 'Loop Engineering' (2026-06-07) by the Google Cloud AI engineering director and former Chrome team member. Core idea: loop engineering is replacing yourself as the person who prompts the agent — a loop is a recursive goal where you define a purpose and the AI iterates until complete. Opens with the two quotes that frame the paradigm: Peter Steinberger ('You shouldn't be prompting coding agents anymore. You should be designing loops that prompt your agents.') and Anthropic Claude Code head Boris Cherny ('I don't prompt Claude anymore. I have loops running that prompt Claude and figuring out what to do. My job is to write loops.'). Covers: how loop sits one floor above the harness (runs on a timer, spawns sub-agents, feeds itself), the five building blocks + memory (Automations / Worktrees / Skills / Plugins & Connectors / Sub-agents + Memory), a primitive-by-primitive mapping between Codex app and Claude Code, what one complete loop looks like (morning automation → triage skill → isolated worktree → drafting/review sub-agents → connectors open the PR), the tool-agnostic insight (stop arguing about tools once the shape is the same), and the three things the loop still does NOT do for you (verification is still on you, comprehension rot, cognitive surrender). Closing maxim: Build the loop. Stay the engineer."
+    },
+    {
+      "slug": "loop-engineering-langchain",
+      "date": "2026-08-06",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Loop Engineering",
+        "LangChain",
+        "LangSmith",
+        "AI Agent",
+        "loopcraft",
+        "swyx",
+        "create_agent",
+        "RubricMiddleware",
+        "LLM-as-Judge",
+        "Deep Agents",
+        "LangGraph",
+        "Fleet",
+        "Satya Nadella"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "The Art of Loop Engineering Deep Dive (Official LangChain): Four Stacked Loops — From the Agent Loop to the Verification, Event-Driven, and Hill-Climbing Loops, with the LangChain Primitive for Each Layer",
+      "description": "A complete analysis of LangChain's official blog post 'The Art of Loop Engineering' (Sydney Runkle, 2026-06-16, 7 min read). Core idea: the core agent algorithm is itself a loop — give the LLM context and let it call tools in a loop until it's done. But it's far from the only loop that powers agents. Borrowing from swyx's 'loopcraft: the art of stacking loops', LangChain proposes four stacked loops: ① Agent loop (the model calls tools repeatedly until a task is complete — the create_agent primitive); ② Verification loop (a grader checks the agent's output against a rubric and sends it back with feedback when it falls short — RubricMiddleware / after_agent hook; LLM-as-judge is the classic implementation); ③ Event driven loop (events trigger agent runs — a new document lands, a schedule triggers, a webhook arrives — the agent becomes a component running continuously inside a larger system — LangSmith Deployment cron/webhooks, Fleet channels/schedules, OpenClaw heartbeats); ④ Hill climbing loop (every agent run produces a trace; an analysis agent reads those traces and uses the findings to rewrite the harness config — prompt/tool/grader tweaks — LangSmith Engine; extendable to RL fine-tuning and memory/retrieved-skill optimization). Key move: the return arrow of the fourth loop doesn't just loop back to the top — it reaches inside and updates the agent loop directly; each cycle of the outer loop makes the inner loops more effective. Automation does not mean removing humans: every level has natural human oversight points, and sensitive actions (financial transactions, DB operations) require live human review. Closes with Satya Nadella: companies that build learning loops early — where human judgment and token capital compound together — will build an advantage that's hard to replicate."
+    },
+    {
+      "slug": "loop-engineering-orange-book",
+      "date": "2026-08-06",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Loop Engineering",
+        "Orange Book",
+        "AI Agent",
+        "Harness",
+        "Claude Code",
+        "Codex",
+        "MCP",
+        "HuaShu",
+        "Automation"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Loop Engineering Orange Book Deep Dive: Stop Asking Me What It Is — From Prompter to System Designer",
+      "description": "A complete analysis of the Loop Engineering Orange Book (v260615, MIT) by HuaShu (花叔) — a free open-source PDF book that explains loop engineering in plain language. Core idea: stop being the person who prompts the agent — design the system that prompts it for you. Covers the prompt→context→harness→loop stack, the five moves of one loop (Automations/Worktrees/Skills/Plugins/Sub-agents) + Memory, why an AI can't grade its own code, three real loops (Addy's morning triage / Stripe's Minions / the scheduling reality), four costs (verification debt / comprehension rot / token blowout / cognitive surrender), plus a full chapter-by-chapter tutorial from §01 to §09 and a hands-on guide to building your first loop today. Project overview, core ideas, design philosophy, and key takeaways in one read."
+    },
+    {
+      "slug": "loop-engineering-substack-analysis",
+      "date": "2026-08-06",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Loop Engineering",
+        "Cobus Greyling",
+        "AI Agent",
+        "Substack",
+        "Harness Engineering",
+        "Context Engineering",
+        "Claude Code",
+        "Grok",
+        "Codex",
+        "MCP",
+        "Worktrees",
+        "Skills",
+        "Automation"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Loop Engineering Deep Dive (Cobus Greyling's Original): Stop Prompting Agents — Design the Loop That Discovers Work, Assigns Tasks, and Verifies Results",
+      "description": "A complete analysis of Cobus Greyling's original Substack post 'Loop Engineering' (2026-06-09). Core idea: the shift from prompting coding agents turn-by-turn to designing a system (the loop) that discovers work, hands tasks to (sub-)agents, verifies results, persists state, and decides the next action — on a schedule or until a goal is met. Covers the concept evolution (Context Engineering → Harness Engineering → Loop Engineering), the harness/loop division of labor, the five building blocks + memory (Automations/Scheduling, Worktrees, Skills, Plugins & Connectors, Sub-agents + Memory), first-hand voices (Boris Cherny, Peter Steinberger, Addy Osmani), the tool-agnostic convergence of Grok/Codex/Claude Code primitives, and the realities not to skip (token costs, comprehension debt, cognitive surrender)."
+    },
+    {
+      "slug": "rtk-rust-token-killer",
+      "date": "2026-08-06",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "RTK",
+        "Rust",
+        "Token Optimization",
+        "LLM",
+        "CLI",
+        "AI Agent",
+        "Claude Code",
+        "Token Killer",
+        "Developer Tools",
+        "SQLite",
+        "Proxy",
+        "Open Source"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "RTK (Rust Token Killer) Deep Dive: A Single Rust Binary CLI Proxy That Cuts Up to 90% of the Bash Output Your Agent Reads — From the Four Compression Strategies and Auto-Rewrite Hook to the 64-Module Architecture",
+      "description": "A complete analysis of the viral open-source project rtk-ai/rtk (75k+ stars, Rust, Apache-2.0, default branch develop) — an 'LLM-context-aware CLI proxy'. Core idea: RTK intercepts shell commands and filters, groups, truncates, and deduplicates output before it reaches the LLM context — 'it cuts bash output, not your bill'. Single Rust binary, 100+ supported commands, ~5-15ms overhead per command, ~4.1MB in size. This article covers it all: the proxy pattern (Claude → RTK → git output redirection), the four compression strategies, the two hook strategies (Auto-Rewrite vs Suggest, 100% vs ~70-85% adoption), the five design principles (Single Responsibility / Minimal Overhead / Exit Code Preservation / Fail-Safe / Transparent), the six-phase command lifecycle (PARSE→ROUTE→EXECUTE→FILTER→PRINT→TRACK), the 12-strategy filtering taxonomy, SQLite token tracking with rtk gain analytics, the -v/-vv/-vvv and -u global flags, config.toml with failure tee fallback, integration with 15 AI tools (Claude Code/Gemini/Copilot/OpenCode and more), the privacy-first opt-in telemetry design, and the engineering philosophy and architecture decision records behind 75k stars (why Rust/SQLite/anyhow/Clap)."
+    },
+    {
+      "slug": "openai-evals-analysis",
+      "date": "2026-08-05",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "OpenAI",
+        "Evals",
+        "LLM",
+        "Evaluation",
+        "Benchmark",
+        "Python",
+        "GPT",
+        "Testing",
+        "AI"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "OpenAI Evals Deep Dive: The 19K Star LLM Evaluation Framework — Build Quality Benchmarks Without Writing Code",
+      "description": "Complete analysis of OpenAI Evals — OpenAI's official LLM evaluation framework, 19,105 Stars, 3,047 Forks. Core idea: building high-quality evaluations is the most impactful thing you can do in LLM application development. Supports two evaluation paradigms: basic evals (Match/Includes/FuzzyMatch/JsonMatch) and model-graded evals (fact/closedqa/battle), runnable via YAML configuration with zero evaluation code. Covers the eval registry, data format specs, end-to-end tutorial for building evaluations from scratch, and Greg Brockman's core insights on evaluation importance."
+    },
+    {
+      "slug": "autoharness-analysis",
+      "date": "2026-08-04",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "AutoHarness",
+        "LLM Agents",
+        "Code Harness",
+        "Tree Search",
+        "Thompson Sampling",
+        "Rust",
+        "AI Safety",
+        "TextArena",
+        "LLM",
+        "Sandbox"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "AutoHarness Deep Dive: How \"Small Model + Harness\" Beats \"Large Model\" — an Open-Source Rust Library That Automatically Synthesizes Code Harnesses for LLM Agents",
+      "description": "A complete analysis of AutoHarness by gyc567 — a Rust library and CLI tool that automatically synthesizes and optimizes code harnesses for LLM agents, implementing the approach from the AutoHarness paper (arXiv:2603.03329). Using tree search with Thompson sampling to iteratively refine harness code, it reaches a 100% legal action rate in an average of 14.5 iterations across 145 TextArena games — empirically validating the claim 'small model + harness > large model without harness.' From core ideas and architecture to design philosophy, a full tutorial, feature list, and key takeaways, this article covers it all."
+    },
+    {
+      "slug": "ds4-analysis",
+      "date": "2026-08-04",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "DwarfStar",
+        "ds4",
+        "antirez",
+        "DeepSeek V4",
+        "LLM Inference",
+        "Metal",
+        "CUDA",
+        "ROCm",
+        "Local LLM",
+        "Salvatore Sanfilippo"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "DwarfStar (ds4) Deep Dive: How antirez (Redis Creator) Built a Native LLM Inference Engine — a Vertically Integrated Solution for DeepSeek V4 Flash",
+      "description": "A complete analysis of DwarfStar (ds4) by antirez (Salvatore Sanfilippo, Redis creator) — a small native inference engine purpose-built for DeepSeek V4 Flash/PRO and GLM 5.2. In ~65,000 lines of C it delivers Metal/CUDA/ROCm backends, SSD streaming, pipeline parallelism, DSpark speculative decoding, a native coding agent, and an OpenAI-compatible API as a single vertically integrated stack. 87 t/s prefill and 34 t/s generation on M5 Max; distributed prefill up to 674 t/s across two machines. From core ideas and architecture to design philosophy, full tutorial, feature list, and key takeaways."
+    },
+    {
+      "slug": "goalmd-tutorial-analysis",
+      "date": "2026-08-04",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "GOAL.md",
+        "AutoHarness",
+        "AI Agent",
+        "Fitness Function",
+        "Code Quality",
+        "Autonomous Improvement",
+        "Rust",
+        "LLM"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "GOAL.md Deep Dive: A Minimal Framework for Autonomous AI Code Improvement — Just Give It a Number",
+      "description": "A complete analysis of GOAL.md — a file format from AutoHarness that lets AI agents autonomously improve code. The core idea is deceptively simple: write a scoring script that outputs a number (Fitness Function), write a GOAL.md file defining goals and an action catalog, then let the agent figure out how to make the score go up. This article covers core concepts (Fitness Function, Action Catalog, Improvement Loop, Operating Modes), design philosophy, complete tutorial, and practical examples — showing how GOAL.md turns AI agents into autonomous code quality engineers."
+    },
+    {
+      "slug": "loop-engineering-analysis",
+      "date": "2026-08-04",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Loop Engineering",
+        "AI Agent",
+        "Automation",
+        "Grok",
+        "Claude Code",
+        "Codex",
+        "MCP",
+        "DevTools",
+        "Prompt Engineering"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Loop Engineering Deep Dive: Stop Prompting — Design the Loop That Runs Your AI Agent Autonomously",
+      "description": "A complete analysis of Loop Engineering — Cobus Greyling's AI agent loop engineering framework. Core idea: you don't need to prompt AI anymore. You need to design a system that prompts AI automatically. Features 5 building blocks (Automations/Schedule, Worktrees, Skills, Plugins/Connectors, Sub-agents) + Memory/State, 7 production patterns (Daily Triage, PR Babysitter, CI Sweeper, Dependency Sweeper, Changelog Drafter, Post-Merge Cleanup, Issue Triage), progressive autonomy from L1 reporting to L2 assisted fixes to L3 unattended, and a full tool ecosystem (loop-audit/loop-init/loop-cost/loop-sync/loop-context/loop-worktree/loop-gate/loop-sandbox/loop-swarm). Covers core ideas, design philosophy, full tutorial, and feature inventory."
+    },
+    {
+      "slug": "loop-engineering-practical-guide",
+      "date": "2026-08-04",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Loop Engineering",
+        "AI Agent",
+        "Automation",
+        "Claude Code",
+        "Codex",
+        "MCP",
+        "Subagents",
+        "DevTools",
+        "Prompt Engineering"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Loop Engineering Practical Guide: How to Build AI Agent Loops That Self-Improve",
+      "description": "Deep analysis of @elune0x's viral X post (373K views) on Loop Engineering — the paradigm shift in 2026 AI Agent development. Core idea: you don't need to prompt AI anymore. Design the system that prompts AI automatically. Covers 4 loop types (Heartbeat/Cron/Hook/Goal), 5 core components (Worktrees/Skills/Connectors/Subagents/State), model routing cost optimization (60-80% reduction), common failure modes, and a full hands-on tutorial. From design philosophy to code examples, everything you need."
+    },
+    {
+      "slug": "oneterm-analysis",
+      "date": "2026-08-04",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "OneTerm",
+        "Bastion Host",
+        "Jump Server",
+        "4A Security",
+        "SSH",
+        "RDP",
+        "VNC",
+        "DevOps",
+        "Go",
+        "VeOps"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "OneTerm Deep Dive: VeOps Open-Source Bastion Host — an Enterprise Security Access & Ops Audit Solution Based on the 4A Concept",
+      "description": "A complete analysis of OneTerm by VeOps — a simple, lightweight, flexible enterprise bastion host built on the 4A security concept (Authentication, Authorization, Account, Audit). With a Go backend, Vue.js frontend, and Apache Guacamole proxy, it delivers multi-protocol secure access (SSH/RDP/VNC/Telnet/databases), session recording & replay, command control, time/IP access policies, OAuth2/LDAP/CAS SSO, SFTP file transfer, and one-click asset sync with VeOps CMDB. From core ideas and architecture to design philosophy, full Docker Compose deployment tutorial, and feature list."
+    },
+    {
+      "slug": "sentrux-analysis",
+      "date": "2026-08-04",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "sentrux",
+        "AI Agent",
+        "Code Quality",
+        "Architecture",
+        "Rust",
+        "Static Analysis",
+        "MCP",
+        "Tree-sitter",
+        "DevTools"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "sentrux Deep Dive: The AI Agent Architecture Sensor — Closing the Feedback Loop for Recursive Self-Improvement of Code Quality",
+      "description": "A complete analysis of sentrux — a real-time architectural sensor that helps AI agents close the feedback loop, enabling recursive self-improvement of code quality. Pure Rust single binary with zero runtime dependencies, supporting 52 languages via tree-sitter plugins. Features live dependency treemap visualization, 5 root cause metrics (modularity/acyclicity/depth/equality/redundancy) unified into a single quality score, MCP server integration (Claude Code/Cursor/Windsurf/OpenCode), TOML-based rules engine, and CI quality gates. From core problem and design philosophy to architecture, full installation tutorial, and feature list."
+    },
+    {
+      "slug": "system-design-primer-analysis",
+      "date": "2026-08-04",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "system-design-primer",
+        "System Design",
+        "Interview",
+        "CAP Theorem",
+        "Scalability",
+        "Distributed Systems",
+        "Donne Martin",
+        "Architecture",
+        "Caching",
+        "Database"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "system-design-primer Deep Dive: The \"Bible\" of System Design Interviews — A Complete Learning Path from Zero to Big Tech",
+      "description": "A complete analysis of Donne Martin's open-source system-design-primer — one of the most-starred repos on GitHub with ~360k stars, consistently ranked in the global top 5–8. From the motivation 'learn how to design large-scale systems, prep for the system design interview,' this article covers all 16 topic sections (CAP theorem, consistency/availability patterns, caching strategies, database sharding), the 8 fully-solved design problems, 22 real company architectures, Anki spaced-repetition flashcards, and the core philosophy running through everything: 'everything is a trade-off' — plus the four-step interview method."
+    },
+    {
+      "slug": "agent-recall-x-analysis",
+      "date": "2026-08-03",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "AgentRecall",
+        "Agent Memory",
+        "Claude Code",
+        "MCP",
+        "Corrections Ledger",
+        "RAG",
+        "Mem0",
+        "Retrieval",
+        "AI Agent",
+        "Memory Layers",
+        "TypeScript"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "AgentRecall-X Deep Dive: An Agent That Learns From Corrections — and the Honest-Measurement Revolution",
+      "description": "A complete analysis of AgentRecall-X, open-sourced by Goldentrii — a Claude Code memory system that learns from corrections, and the only open-source project that actually quantifies whether an agent stops repeating a mistake. From the dual core — a governed corrections ledger plus the missing measurement instrument — to the five-layer memory model grounded in cognitive psychology, from the honest 35.3% capture rate and 0/3 heed data, to the /arstart /arsave /arrecall /arreflect session loop, to a full MCP setup tutorial and the Automaticity Principle design philosophy, this article explains why a 312-star project is shaking up the entire agent-memory field."
+    },
+    {
+      "slug": "airllm-analysis",
+      "date": "2026-08-03",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "AirLLM",
+        "LLM Inference",
+        "Large Language Models",
+        "GPU Memory Optimization",
+        "Layer-wise Inference",
+        "Open Source",
+        "Gavin Li",
+        "Deep Learning",
+        "Model Inference",
+        "Low-end Hardware"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "AirLLM Deep Dive: The Layer-Wise Inference Revolution That Runs 70B LLMs on a 4GB GPU",
+      "description": "A comprehensive analysis of the open-source AirLLM project — no quantization, no distillation, no pruning. Through layer-by-layer loading, it runs 70B-parameter LLMs on a single 4GB GPU. From installation to API usage, from how it works to its design philosophy, this article covers the core ideas behind a 26k-star project."
+    },
+    {
+      "slug": "arex-analysis",
+      "date": "2026-08-03",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "AREX",
+        "BAAI",
+        "Deep Research",
+        "Agent",
+        "Recursive Self-Improvement",
+        "arXiv",
+        "Open Source Model",
+        "Deep Research",
+        "MoE",
+        "Qwen3.5"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "AREX Deep Dive: BAAI's Open-Source Recursively Self-Improving Deep Research Agent",
+      "description": "A comprehensive analysis of BAAI's open-source AREX — a recursively self-improving deep research agent. From the core 'discovery-verification asymmetry' insight in arXiv 2607.21461 to the dual-loop framework, from AREX-Turbo / AREX-Base models to a complete usage tutorial, this article explains the design philosophy of this Apache 2.0 open research model."
+    },
+    {
+      "slug": "kimi-k3-mi355x-analysis",
+      "date": "2026-08-03",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Kimi K3",
+        "AMD",
+        "MI355X",
+        "Moonshot",
+        "GPU Inference",
+        "MoE",
+        "Speculative Decoding",
+        "ROCm",
+        "Wafer AI",
+        "Open Source Model",
+        "Performance per Dollar"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Kimi K3 × AMD MI355X Deep Dive: Is Memory the Moat?",
+      "description": "A comprehensive analysis of Wafer AI's engineering blog on serving the 2.8T open-source model Kimi K3 on AMD MI355X at 952 tok/s/node. From the core 'memory is the moat' thesis, to speculative decoding and AITER prefill optimization, to the MI355X crushing B200 with 48 tok/s/$, this article explains why memory capacity gave AMD a measurable edge over NVIDIA at the 2.8T model scale — and whether the CUDA moat is really dying."
+    },
+    {
+      "slug": "loopx-analysis",
+      "date": "2026-08-03",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "LoopX",
+        "Agent",
+        "AI Agent",
+        "Loop Engineering",
+        "Control Plane",
+        "State Kernel",
+        "Long-running Tasks",
+        "Open Source",
+        "Codex",
+        "Claude Code",
+        "Local-first"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "LoopX Deep Dive: Turning Capable Agents into Manageable, Reviewable, Continuously Improvable Digital Workers",
+      "description": "A comprehensive analysis of the open-source LoopX project — a lightweight loop-engineering state kernel and agent-agnostic local control plane for long-running AI agent teams. From installation to CLI usage, from the seven-layer architecture to design philosophy, this article explains how to make Codex, Claude Code and other agents complete cross-turn, cross-tool long-running tasks."
+    },
+    {
+      "slug": "next-forge-analysis",
+      "date": "2026-08-03",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "next-forge",
+        "Vercel",
+        "Turborepo",
+        "Next.js",
+        "Monorepo",
+        "SaaS",
+        "Template",
+        "Clerk",
+        "Stripe",
+        "Prisma",
+        "Tailwind CSS",
+        "shadcn/ui",
+        "TypeScript"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "next-forge Deep Dive: Vercel's Production-Grade Next.js Monorepo Template",
+      "description": "A complete analysis of next-forge, the production-grade Turborepo template for Next.js apps open-sourced by Vercel, purpose-built for shipping SaaS fast. From the five design principles — Fast, Cheap, Opinionated, Modern, Safe — to the apps/ + packages/ monorepo architecture, from Clerk auth, Stripe payments and Prisma database to 18+ shared packages including AI integration, this article covers everything: full tutorial, project breakdown, viewpoints, and the design philosophy behind the 7.5k-star template often called 'the best starting point for your next SaaS'."
+    },
+    {
+      "slug": "shiki-stream-analysis",
+      "date": "2026-08-03",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "shiki-stream",
+        "Shiki",
+        "Syntax Highlighting",
+        "Streaming",
+        "LLM",
+        "Web Streams API",
+        "anthu",
+        "Vue",
+        "React",
+        "Solid",
+        "TypeScript",
+        "CodeToTokenTransformStream"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "shiki-stream Deep Dive: Let LLM-Generated Code Highlight in Real Time, Like a Typewriter",
+      "description": "A complete analysis of shiki-stream, open-sourced by Anthony Fu (antfu) — a streaming syntax-highlighting library built on Web Streams API, purpose-built for the 'LLM-generated code' scenario. From the core insight that code arrives progressively so highlighting must be progressive too, to CodeToTokenTransformStream turning a text stream into a token stream on the fly, from the clever recall-token mechanism that solves the 'syntax depends on context' problem, to out-of-the-box Vue/React/Solid/Svelte renderers and full install/usage tutorials — this article explains why this 594-star project became the official @shikijs/stream."
+    },
+    {
+      "slug": "deepseek-v4-flash-analysis",
+      "date": "2026-08-02",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "DeepSeek",
+        "V4 Flash",
+        "AI Model",
+        "Reasoning Model",
+        "MoE",
+        "Mixture of Experts",
+        "Open Source",
+        "Cost Analysis",
+        "Intelligence Index",
+        "Token Economics"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "DeepSeek V4 Flash 0731 Deep Dive: The Reasoning Model Revolution in Cost and Intelligence",
+      "description": "Comprehensive analysis of DeepSeek V4 Flash 0731 — 284B parameter MoE architecture, 1M context window, $0.14/M input token reasoning model. From Intelligence Index scores to cost structure, from Mixture of Experts design to the open-source ecosystem."
+    },
+    {
+      "slug": "harness-effect-token-economics",
+      "date": "2026-08-02",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Harness",
+        "Token Economics",
+        "Agentic AI",
+        "Enterprise AI",
+        "Orchestration",
+        "Token Maxing",
+        "Cost Optimization",
+        "Agent Framework",
+        "Writer",
+        "arXiv"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "The Harness Effect: How Orchestration Design Sets the Token Economics of Enterprise Agentic AI",
+      "description": "Deep analysis of arXiv paper 2607.06906 — The Harness Effect. Systematic coverage of Token Maxing, six mechanism families, Harness Leverage, and the design philosophy of enterprise Agent orchestration layers."
+    },
+    {
+      "slug": "grok43-analysis-report",
+      "date": "2026-07-31",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Grok 4.3",
+        "xAI",
+        "AI Model Review",
+        "Artificial Analysis",
+        "Reasoning Model",
+        "Agent",
+        "GDPval-AA",
+        "Benchmark",
+        "Cost Analysis",
+        "Coding Agent"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Grok 4.3 Deep Dive: A Comprehensive Review of xAI's Next-Generation Reasoning Model",
+      "description": "A comprehensive analysis of xAI's Grok 4.3 — achieving 53 on the Artificial Analysis Intelligence Index with improved agentic performance, ~40% lower input price, and ~60% lower output price. From architecture design to benchmark tests, from cost analysis to usage tutorials, a deep dive in one article."
+    },
+    {
+      "slug": "reasonix-analysis-report",
+      "date": "2026-07-31",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Reasonix",
+        "DeepSeek",
+        "AI Agent",
+        "Terminal Coding",
+        "Prefix Cache",
+        "Coding Agent",
+        "Go",
+        "CLI",
+        "TUI",
+        "MCP"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Reasonix Deep Dive: The Architectural Revolution of a DeepSeek-Native Terminal Coding Agent",
+      "description": "A comprehensive analysis of Reasonix — a terminal coding agent built around DeepSeek's prefix cache. From its cache-first architecture to single-binary distribution, from subagents to ACP editor integration, this article takes an in-depth look at its design philosophy and technical details."
+    },
+    {
+      "slug": "trellis2-analysis-report",
+      "date": "2026-07-31",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "TRELLIS.2",
+        "3D Generation",
+        "O-Voxel",
+        "Image-to-3D",
+        "AI Generation",
+        "Microsoft",
+        "Sparse Voxel",
+        "PBR Materials",
+        "Deep Learning",
+        "3D Generation Model"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "TRELLIS.2 Deep Dive: Microsoft's Revolutionary 4B-Parameter 3D Generation Model",
+      "description": "A comprehensive analysis of Microsoft TRELLIS.2 — the first 4B-parameter image-to-3D generation model built on a native 3D VAE and the O-Voxel sparse voxel representation. From architecture design to usage tutorials, from core innovations to design philosophy, this article delivers an in-depth interpretation."
+    },
+    {
+      "slug": "recursive-self-improvement-agents",
+      "date": "2026-07-30",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Recursive Self-Improvement",
+        "Coding Agents",
+        "Cline",
+        "Terminal-Bench",
+        "AI Agent",
+        "Self-Optimization",
+        "SOTA",
+        "Hill Climbing",
+        "Prompt Engineering"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Recursive Self Improvement for Coding Agents: From One Prompt to SOTA",
+      "description": "A deep analysis of how the Cline team achieved an 88.8% SOTA score on Terminal-Bench 2.1 using recursive self-improvement, costing only $49.8 — less than a tenth of competing approaches. Includes full tutorial, viewpoints, and design philosophy."
+    },
+    {
+      "slug": "buzz-analysis-report-2026-07-29",
+      "date": "2026-07-29",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Buzz",
+        "Block",
+        "Nostr",
+        "Workspace",
+        "AI Agent",
+        "Self-Hosted",
+        "Event-Driven",
+        "Rust",
+        "Workflow Automation",
+        "Human-Agent Collaboration"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Buzz Deep Dive: Block's 'Human-Agent Co-working' Workspace Platform",
+      "description": "Comprehensive analysis of Buzz — Block's open-source, self-hostable workspace platform built on Nostr. Deep dive into architecture, workflow automation, agent-native design, and the design philosophy behind the relay-as-workspace paradigm."
+    },
+    {
+      "slug": "open-design-analysis-report-2026-07-29",
+      "date": "2026-07-29",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Open Design",
+        "Claude Design",
+        "Open Source",
+        "AI Design",
+        "Local-First",
+        "Agent-Native",
+        "Design Systems",
+        "BYOK",
+        "HyperFrames",
+        "MCP"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Open Design Deep Dive: The Open-Source Claude Design Alternative Reshaping the Future of Design",
+      "description": "Comprehensive analysis of Open Design — the open-source, local-first Claude Design alternative. Deep dive into its design philosophy, architecture, 25+ CLI support, 151 design systems, and why it matters for the agent era."
+    },
+    {
+      "slug": "harper-analysis-report-2026-07-27",
+      "date": "2026-07-27",
+      "author": "ERIC",
+      "tags": [
+        "Harper",
+        "grammar checker",
+        "open source",
+        "Automattic",
+        "Grammarly alternative",
+        "privacy"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "Harper Deep Dive: The Open-Source Grammar Checker Automattic Bought to Challenge Grammarly",
+      "description": "Harper is a free, open-source, fully local English grammar checker written in Rust, acquired by Automattic in late 2024. This report is double-verified against the official repo, the official site, and independent press coverage, analyzing its technology, business logic, and real limitations."
+    },
+    {
+      "slug": "qwen3-4b-claude-fable5-distill-2026-07-03",
+      "date": "2026-06-30",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "人工智能",
+        "大型语言模型",
+        "模型蒸馏",
+        "Qwen3-4B",
+        "克劳德幻境5",
+        "自一致性",
+        "AI可靠性",
+        "模型优化"
+      ],
+      "categories": [
+        "深度分析",
+        "技术突破",
+        "AI前沿"
+      ],
+      "title": "Qwen3-4B 克劳德幻境5推理踪迹蒸馏：100%自一致性的突破",
+      "description": "深度解析@waterloo_intern团队利用2.3M克劳德幻境5推理轨迹蒸馏Qwen3-4B，实现100%自一致性、零觅语变异的突破性成果。以下全面分析技术细节、业务影响和长远意义。"
+    },
+    {
+      "slug": "cryptopulse-daily-report-2026-05-12",
+      "date": "2026-05-12",
+      "author": "CryptoPulse",
+      "tags": [
+        "CryptoPulse",
+        "BTC",
+        "ETH",
+        "DeFi",
+        "Market Analysis",
+        "Bitcoin Cycle",
+        "Cryptocurrency"
+      ],
+      "categories": [
+        "Daily Report"
+      ],
+      "title": "CryptoPulse Daily Report - May 12, 2026",
+      "description": "CryptoPulse cryptocurrency market daily report with BTC cycle analysis, on-chain metrics, DeFi market data, and latest news."
+    },
+    {
+      "slug": "html-hacking-ai-output-bandwidth-2026-05-11",
+      "date": "2026-05-11",
+      "author": "TopDigg",
+      "tags": [
+        "AI",
+        "Human-AI Interaction",
+        "HTML",
+        "Karpathy",
+        "Multimodal AI"
+      ],
+      "categories": [
+        "Deep Analysis"
+      ],
+      "title": "The \"HTML Hacker Era\" of AI Output Bandwidth: Karpathy's Tweet Laid Bare the Interface Bottleneck",
+      "description": "A deep dive into the human-machine interface bandwidth asymmetry behind Karpathy and Thariq's HTML trick, and its profound implications for the AI economic model."
+    },
+    {
+      "slug": "youware-analysis-report-2025-08-31",
+      "date": "2025-08-31",
+      "author": "ERIC",
+      "tags": [
+        "AI Tools",
+        "Coding Platform",
+        "Code Deployment",
+        "YouWare",
+        "AI Coding",
+        "Creator Community",
+        "Technology Innovation",
+        "Sandbox Engine"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "YouWare AI Coding Community Platform Deep Analysis Report: A Complete Review of 2025's Hottest AI Coding Creation Platform",
+      "description": "A complete review of the YouWare AI coding community platform, covering product feature analysis, business model research, technical architecture breakdown, competitive advantage assessment, and market outlook prediction. An AI coding platform valued at $80 million within just two months, disrupting traditional programming approaches."
+    },
+    {
+      "slug": "grammarly-analysis-report-2025-08-29",
+      "date": "2025-08-29",
+      "author": "ERIC",
+      "tags": [
+        "AI Tools",
+        "Writing Assistant",
+        "Grammar Check",
+        "Grammarly",
+        "Workplace Productivity",
+        "AI Writing",
+        "English Learning",
+        "Business Writing"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "Grammarly AI Writing Assistant Platform In-Depth Analysis Report: A Comprehensive Review of the Smart Writing Expert Trusted by 40 Million Users in 2025",
+      "description": "A comprehensive review of the Grammarly AI writing assistant platform, covering product feature analysis, business model research, technical architecture breakdown, competitive advantage assessment, and market outlook. The world's largest AI writing assistant platform, suitable for students, professionals, and enterprise teams."
+    },
+    {
+      "slug": "otter-ai-analysis-report-2025-08-28",
+      "date": "2025-08-28",
+      "author": "ERIC",
+      "tags": [
+        "AI Tools",
+        "Meeting Assistant",
+        "Speech Transcription",
+        "Otter.ai",
+        "Office Productivity",
+        "AI Transcription",
+        "Meeting Notes",
+        "Smart Summaries"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "Otter.ai AI Meeting Assistant Platform Deep Analysis Report: A Full Review of the 95%-Accuracy Smart Transcription Expert in 2025",
+      "description": "A complete review of the Otter.ai AI meeting assistant platform, covering business model analysis, technical architecture assessment, competitive advantage analysis, and market outlook. The real-time meeting recording expert with 95% transcription accuracy, ideal for enterprise collaboration and productivity."
+    },
+    {
+      "slug": "polybuzz-ai-analysis-report-2025-08-25",
+      "date": "2025-08-25",
+      "author": "ERIC",
+      "tags": [
+        "AI Tools",
+        "Character Chat",
+        "AI Conversation",
+        "PolyBuzz",
+        "Virtual Characters",
+        "AI Entertainment",
+        "Chatbot",
+        "Role-Playing"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "PolyBuzz AI Character Chat Platform Deep Analysis Report: A Complete Review of the 2025 AI Conversation Innovator with a Character Library in the Tens of Millions",
+      "description": "A complete review of the PolyBuzz AI character chat platform, covering business model analysis, technical architecture assessment, competitive advantage analysis, and market outlook predictions. An innovative chat platform with over 20 million AI characters, suitable for entertainment, creation, and role-playing."
+    },
+    {
+      "slug": "chub-ai-analysis-report-2025-08-24",
+      "date": "2025-08-24",
+      "author": "ERIC",
+      "tags": [
+        "AI Chat",
+        "Character Customization",
+        "Chub.ai",
+        "AI Characters",
+        "Chatbot",
+        "Character AI",
+        "Uncensored",
+        "AI Platform"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "Chub.ai Platform In-Depth Review: A Comprehensive Analysis Report of the Professional AI Character Chat Platform in 2025",
+      "description": "A complete review of Chub.ai, the AI character chat platform, covering AI character customization, uncensored conversations, multi-API support, branching dialogue system, technical architecture, business model, and market performance analysis. A detailed breakdown of this professional AI character creation platform that delivers a highly customizable AI conversation experience."
+    },
+    {
+      "slug": "prolific-analysis-report-2025-08-24",
+      "date": "2025-08-24",
+      "author": "ERIC",
+      "tags": [
+        "AI Tools",
+        "Data Collection",
+        "Research Platform",
+        "Prolific",
+        "Human Data",
+        "AI Training",
+        "Academic Research",
+        "Data Quality"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "Prolific AI Data Collection Platform Deep Analysis Report: A Complete Review of the 2025 Leader in High-Quality Human Data Services",
+      "description": "A complete review of the Prolific AI data collection platform, covering business model analysis, technical architecture assessment, competitive advantage analysis, and market outlook forecasts. A professional human data collection service suited for academic research, AI training, and product development."
+    },
+    {
+      "slug": "crushon-ai-analysis-report-2025-08-23",
+      "date": "2025-08-23",
+      "author": "ERIC",
+      "tags": [
+        "AI Chat",
+        "Virtual Characters",
+        "CrushOn",
+        "AI Companion",
+        "Chatbot",
+        "Character AI",
+        "Emotional Companionship",
+        "AI Entertainment"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "CrushOn.AI Platform Deep Review: A Comprehensive Analysis of the Leading Product in the 2025 AI Virtual Character Chatting Space",
+      "description": "A complete review of the CrushOn.AI virtual character chat platform, covering AI chat features, character customization, community interaction, technical architecture, business model, and market performance. A professional AI companion product that provides users with an in-depth analysis of an unrestricted virtual character conversation experience."
+    },
+    {
+      "slug": "gauthmath-analysis-report-2025-08-23",
+      "date": "2025-08-23",
+      "author": "ERIC",
+      "tags": [
+        "AI Education",
+        "Online Tutoring",
+        "Gauth",
+        "Photo Question Search",
+        "Study Tools",
+        "AI Problem Solving",
+        "Student Tutoring",
+        "EdTech"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "Gauth AI Online Homework Tutoring Platform Deep Dive: A Comprehensive Analysis Report on the Essential AI Study Assistant for Students in 2025",
+      "description": "A complete review of the Gauth AI online homework tutoring platform, covering AI-powered problem solving, photo-based question search, multi-subject coverage, expert tutoring, technical architecture, business model, and market analysis. A professional study assistance tool that provides students with instant, accurate learning support — detailed and in-depth."
+    },
+    {
+      "slug": "beacons-ai-analysis-report-2025-08-22",
+      "date": "2025-08-22",
+      "author": "ERIC",
+      "tags": [
+        "Creator Tools",
+        "Link-in-Bio",
+        "Beacons.ai",
+        "AI",
+        "Creator Economy",
+        "Email Marketing",
+        "Creator Store",
+        "Social Media"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "Beacons.ai All-in-One Creator Business Platform Deep Dive: A Comprehensive Analysis Report on the Essential Creator Economy Tool of 2025",
+      "description": "A complete review of Beacons.ai, the all-in-one creator business platform, covering its AI smart features, Link-in-Bio, creator store, email marketing, pricing strategy, competitor comparison, and market analysis. An in-depth look at this rising star in the creator economy, backed by $29.8M in funding."
+    },
+    {
+      "slug": "framer-analysis-report-2025-08-21",
+      "date": "2025-08-21",
+      "author": "ERIC",
+      "tags": [
+        "No-Code Tools",
+        "Website Building",
+        "Framer",
+        "Design Tools",
+        "AI Website Building",
+        "Figma Integration",
+        "Web Design",
+        "Startup Tools"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "Framer.com No-Code Website Design Platform In-Depth Review: A Comprehensive Analysis Report of the Go-To Website Builder for Designers in 2025",
+      "description": "A complete review of Framer.com, the no-code website design platform, covering Figma integration, AI features, pricing strategy, competitor comparison, and market analysis. A detailed breakdown of this professional website builder for designers — an emerging industry star backed by $62.6M in funding."
+    },
+    {
+      "slug": "klaviyo-analysis-report-2025-08-21",
+      "date": "2025-08-21",
+      "author": "ERIC",
+      "tags": [
+        "B2C CRM",
+        "Email Marketing",
+        "Klaviyo",
+        "Marketing Automation",
+        "E-commerce Tools",
+        "SaaS Platform",
+        "Public Company",
+        "Investment Analysis"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "Klaviyo Platform In-Depth Analysis Report: A Comprehensive Review of the 2025 B2C CRM Marketing Leader",
+      "description": "A comprehensive Klaviyo platform review covering business model analysis, core feature breakdown, pricing strategy, market competitiveness, and investment value. A professional B2C CRM and email marketing platform serving 167,000+ brands."
+    },
+    {
+      "slug": "fandom-analysis-report-2025-08-20",
+      "date": "2025-08-20",
+      "author": "ERIC",
+      "tags": [
+        "Fandom",
+        "Fan Community",
+        "Wiki Platform",
+        "User-Generated Content",
+        "Entertainment Tech",
+        "Community Operations",
+        "Content Platform",
+        "Ad Monetization"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "Fandom.com Deep Dive: A Complete Analysis of the Business Model and Growth Strategy of the World's Largest Fan Community Platform",
+      "description": "A complete review and analysis of Fandom.com, covering its wiki platform business model, user growth strategy, technical architecture, market competitive position, and future development opportunities. An in-depth look at the world's largest fan knowledge base platform with more than 300 million monthly visits."
+    },
+    {
+      "slug": "picwish-ai-analysis-report-2025-08-20",
+      "date": "2025-08-20",
+      "author": "ERIC",
+      "tags": [
+        "AI Tools",
+        "Photo Editor",
+        "Background Removal",
+        "PicWish",
+        "Image Processing",
+        "AI Editing",
+        "Online Tools",
+        "Photo Enhancement"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "PicWish AI Photo Editor Deep Review: The Most Comprehensive Analysis Report of Intelligent Image Processing Tools in 2025",
+      "description": "A complete review of the PicWish AI photo editor, covering detailed feature breakdowns, usage guides, pricing analysis, and competitor comparisons. A professional AI-driven image editing platform that supports background removal, image enhancement, object removal, and other smart features."
+    },
+    {
+      "slug": "transkriptor-analysis-report-2025-08-20",
+      "date": "2025-08-20",
+      "author": "ERIC",
+      "tags": [
+        "AI Tools",
+        "Speech Transcription",
+        "Meeting Notes",
+        "Transkriptor",
+        "Speech Recognition",
+        "Text Conversion",
+        "Business Tools",
+        "AI Transcription"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "Transkriptor AI Transcription Service In-Depth Review: The Most Comprehensive Smart Speech-to-Text Tool Analysis Report of 2025",
+      "description": "A complete review of the Transkriptor AI transcription service, covering detailed feature analysis, pricing breakdown, competitor comparison, and usage guide. A professional AI-driven speech-to-text platform supporting 100+ languages with 99% accuracy, ideal for business meetings, education and training, and content creation."
+    },
+    {
+      "slug": "imagetovideomaker-analysis-report-2025-08-19",
+      "date": "2025-08-19",
+      "author": "ERIC",
+      "tags": [
+        "AI Tools",
+        "Video Generator",
+        "AI Video",
+        "ImageToVideoMaker",
+        "Content Creation",
+        "Veo3",
+        "Kling",
+        "Hailuo",
+        "Multi-Model Platform"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "ImageToVideoMaker AI Video Generator In-Depth Review: The Most Comprehensive Multi-Model AI Video Creation Platform Analysis Report of 2025",
+      "description": "A complete review of the ImageToVideoMaker AI video generator, covering five AI model comparisons, detailed feature breakdown, usage guide, pros and cons analysis, and market competition analysis. A professional AI-driven video generation tool supporting text-to-video and image-to-video, ideal for content creators, marketers, and professional production."
+    },
+    {
+      "slug": "3dlogolab-analysis-report-2025-08-18",
+      "date": "2025-08-18",
+      "author": "ERIC",
+      "tags": [
+        "3D Logo Design",
+        "Logo Animation",
+        "Brand Design Tools",
+        "3DLogoLab",
+        "Chrome Effects",
+        "360-Degree Rotation"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "3DLogoLab In-Depth Analysis Report: A Comprehensive Review of the Most Professional 2D-to-3D Logo Animation Generator of 2025",
+      "description": "An in-depth research report on the 3DLogoLab platform, covering feature analysis, target user groups, technical architecture, market positioning, strengths and weaknesses, and industry opportunity exploration. A professional review of a 3D logo animation generation tool."
+    },
+    {
+      "slug": "shortcut-ai-analysis-report-2025-08-18",
+      "date": "2025-08-18",
+      "author": "ERIC",
+      "tags": [
+        "AI Excel Assistant",
+        "AI Tools",
+        "Shortcut AI",
+        "Spreadsheet Automation",
+        "AI Productivity Tools"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "Shortcut AI Deep-Dive Analysis Report: A Comprehensive Review of the 2025 AI Excel Smart Assistant and Market Opportunity Exploration",
+      "description": "An in-depth research report on the Shortcut AI platform, covering feature analysis, target user groups, SEO strategy, market positioning, strengths and weaknesses analysis, and industry opportunity mining."
+    },
+    {
+      "slug": "gencolor-ai-analysis-report-2025-08-17",
+      "date": "2025-08-17",
+      "author": "ERIC",
+      "tags": [
+        "AI Tools",
+        "Coloring Page Generator",
+        "Children's Education",
+        "GenColor.ai",
+        "Creative Design",
+        "Art Therapy",
+        "Online Tools",
+        "Free AI"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "GenColor.ai AI Coloring Page Generator Deep Review: The Most Comprehensive Analysis Report of Intelligent Coloring Tools in 2025",
+      "description": "A complete review of the GenColor.ai AI coloring page generator, covering detailed feature breakdowns, usage guides, pros and cons analysis, and market competition analysis. A professional AI-driven coloring page generation tool suitable for children's education, art therapy, and creative design."
+    },
+    {
+      "slug": "hitem3d-analysis-report-2025-08-17",
+      "date": "2025-08-17",
+      "author": "ERIC",
+      "tags": [
+        "AI 3D Modeling",
+        "Artificial Intelligence Tools",
+        "Hitem3D",
+        "3D Model Generator",
+        "AI Tools"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "Hitem3D Deep Analysis Report: A Comprehensive Look at the 2025 AI 3D Model Generation Platform and Market Opportunity Exploration",
+      "description": "An in-depth research report on the Hitem3D platform, covering feature analysis, target user segments, SEO strategy, market positioning, strengths and weaknesses analysis, and industry opportunity exploration."
+    },
+    {
+      "slug": "mindvideo-ai-analysis-report",
+      "date": "2025-08-16",
+      "author": "ERIC",
+      "tags": [
+        "AI Video Generation",
+        "MindVideo AI",
+        "Artificial Intelligence",
+        "Video Creation",
+        "Content Creation",
+        "Digital Marketing",
+        "Creative Tools",
+        "Free AI Tools"
+      ],
+      "categories": [
+        "Reviews"
+      ],
+      "title": "MindVideo AI In-Depth Analysis Report: Comprehensive Review of Free AI Video Generation Platform and Market Opportunities in 2025",
+      "description": "Comprehensive research report on MindVideo AI platform covering functionality analysis, target user groups, SEO strategy, market positioning, pros and cons analysis, and industry opportunity exploration. Complete analysis of emerging platform development potential in AI video generation field."
+    },
+    {
+      "slug": "remove-bg-report",
+      "date": "2025-08-10T13:40:26.595Z",
+      "author": "TopDigg",
+      "tags": [
+        "AI Technology",
+        "Image Processing",
+        "Business Monetization",
+        "Startup Guide"
+      ],
+      "categories": [],
+      "title": "2025 AI Background Removal Technology Report: From Algorithm to Monetization",
+      "description": "Comprehensive analysis of AI background removal technology progress, applications, and monetization paths for entrepreneurs."
+    },
+    {
+      "slug": "easemate-ai-research-report",
+      "date": "2025-01-14",
+      "author": "ERIC",
+      "tags": [
+        "Artificial Intelligence",
+        "AI Assistant",
+        "EaseMate AI",
+        "ChatGPT Alternative",
+        "AI Tools",
+        "Product Analysis",
+        "Market Research",
+        "Competitive Analysis"
+      ],
+      "categories": [],
+      "title": "EaseMate AI In-Depth Research Report: Comprehensive Analysis of All-in-One AI Assistant Platform 2025",
+      "description": "Complete research report on EaseMate AI platform, including feature analysis, target user profiling, SEO strategies, traffic performance, competitive advantages, and market opportunity analysis. Professional insights into this multi-AI-model integration free tool platform."
+    },
+    {
+      "slug": "web-traffic-opportunities-2025",
+      "date": "2024-12-15T10:00:00.000Z",
+      "author": "TopDigg",
+      "tags": [
+        "growth",
+        "SEO",
+        "traffic monetization"
+      ],
+      "categories": [],
+      "title": "How to Systematically Mine Web Traffic Business Opportunities in 2025",
+      "description": "From channel mapping to product validation, systematically breaking down the path from traffic → users → revenue."
+    },
+    {
+      "slug": "seo-content-framework",
+      "date": "2024-12-10T08:00:00.000Z",
+      "author": "TopDigg",
+      "tags": [
+        "SEO",
+        "content strategy"
+      ],
+      "categories": [],
+      "title": "Practical: A Reusable SEO Content Production Framework",
+      "description": "Topic clusters, internal link topology, structured data, and review mechanisms."
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useMemo } from "react";
 import { useTranslation } from "react-i18next";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -51,7 +51,8 @@ function selectTopTags(posts: BlogMeta[], n = 12): { top: string[]; overflow: st
 
 export function TagFilterBar({ posts, selectedTags, onToggleTag }: TagFilterBarProps) {
   const { t } = useTranslation();
-  const { top, overflow } = selectTopTags(posts, 12);
+  // Memoize: only recompute when posts reference changes (not on every render)
+  const { top, overflow } = useMemo(() => selectTopTags(posts, 12), [posts]);
 
   return (
     <div className="flex flex-wrap gap-2 items-center">

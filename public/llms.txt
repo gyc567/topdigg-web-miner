@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-14T00:36:05.685Z
+Generated: 2026-08-14T03:55:56.969Z
 
 ## Site Overview
 
@@ -20,6 +20,18 @@ We cover trending topics and business opportunities across Reddit, YouTube, and 
 | External Links | https://topdigg.com/external-links | Curated external resources |
 
 ## Latest Blog Posts (10 most recent)
+
+### Distributed Intelligence, Shared Protocol: How Bloome Designs Reliable Multi-Agent Collaboration
+URL: https://topdigg.com/blog/2026-08-14-agent-collaboration-protocol | Date: 2026-08-14 | Author: TopDigg
+Tags: AI Agents, Multi-Agent Collaboration, Agent Collaboration, Bloome, Distributed Intelligence, Protocol Design
+
+A deep dive into Bloome's Agent Collaboration Protocol, exploring how shared task state, freshness awareness, and output boundaries enable reliable cooperation among multiple AI agents
+
+### Code Is No Longer the Bottleneck—Understanding Is: CodeRabbit Reveals the New Paradigm of Code Review in the AI Era
+URL: https://topdigg.com/blog/2026-08-14-code-is-no-longer-the-bottleneck | Date: 2026-08-14 | Author: TopDigg
+Tags: CodeRabbit, AI Code Review, Change Stack, Code Comprehension, AI Programming, TanStack
+
+An in-depth analysis of CodeRabbit's core thesis: AI coding agents have shifted the bottleneck of software development from code production to code comprehension, revealing how the explainability gap impacts code review efficiency
 
 ### GitHub spec-kit: Spec-Driven Development Lets AI Coding Agents 'Think Before Writing'
 URL: https://topdigg.com/blog/2026-08-14-spec-kit-analysis | Date: 2026-08-14 | Author: TopDigg
@@ -69,18 +81,6 @@ Tags: DeepSeek, Harness, Agent, Cordis, Monorepo, Plugin Engine, Dual Surface, T
 
 In-depth analysis of DeepSeek Harness (DSH) technical architecture and design philosophy. Core idea: AI Agent engineering infrastructure isn't about making models stronger, but making agent behavior more controllable, observable, and extensible. DSH builds a complete Agent runtime infrastructure thr
 
-### DeepSeek Harness: An Agent Development Framework Based on the "Everything is a Plugin" Philosophy
-URL: https://topdigg.com/blog/deepseek-harness | Date: 2026-08-13 | Author: TopDigg
-Tags: DeepSeek, Agent, Plugin Architecture, Open Source, Agent Development, Cordis
-
-An in-depth analysis of the DeepSeek Harness project, exploring its plugin-based architecture, core features, and how to quickly get started with this open-source agent development framework by DeepSeek AI.
-
-### Ephemeral AI FS Deep Dive: A Fork-Aware Content-Addressable Storage System for Multi-Agent Workspaces (Core Ideas + Project Overview + Tutorial + Design Philosophy)
-URL: https://topdigg.com/blog/ephemeral-ai-fs-analysis | Date: 2026-08-13 | Author: TopDigg
-Tags: Ephemeral AI FS, Content Addressable Storage, CAS, CDC, Merkle, Multi-Agent, Fork-aware, SQLite, Workspace, Storage System, Design Philosophy
-
-A deep dive into Ephemeral AI FS's core design philosophy and fork-aware content-addressable storage architecture. Core idea: **In multi-agent collaboration environments, workspace forking is the norm, not the exception** — traditional version control systems suffer from massive duplicate storage an
-
 ## Twitter Analysis Reports
 
 ###  (@)
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 99 blog posts | 4 Twitter analyses
+End of llms.txt | 101 blog posts | 4 Twitter analyses

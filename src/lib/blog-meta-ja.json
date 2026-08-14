@@ -1,0 +1,2169 @@
+{
+  "posts": [
+    {
+      "slug": "2026-08-14-agent-collaboration-protocol",
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "AI Agents",
+        "Multi-Agent Collaboration",
+        "Agent Collaboration",
+        "Bloome",
+        "Distributed Intelligence",
+        "Protocol Design"
+      ],
+      "categories": [
+        "AI Architecture",
+        "Multi-Agent Systems",
+        "Collaboration Protocols"
+      ],
+      "title": "分散型インテリジェンス、共有プロトコル：Bloomeが明らかにするマルチAIエージェント協調の信頼性設計",
+      "description": "Bloomeが提唱するAgent Collaboration Protocolの奥深い分析を共有タスク状態、鮮度認識、出力境界という3つのコア能力を通じて、複数のAIエージェント間の信頼性の高い協調を実現する方法を探ります"
+    },
+    {
+      "slug": "2026-08-14-code-is-no-longer-the-bottleneck",
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "CodeRabbit",
+        "AI Code Review",
+        "Change Stack",
+        "Code Comprehension",
+        "AI Programming",
+        "TanStack"
+      ],
+      "categories": [
+        "AI Development Tools",
+        "Code Review",
+        "Development Methodology"
+      ],
+      "title": "コードはもうボトルネックではない——理解こそが：CodeRabbitがAI時代のコードレビュー新パラダイムを揭示",
+      "description": "CodeRabbitが提唱する核心的な观点を深く解説：AIコーディングエージェントがソフトウェア開発のボトルネックをコード生産からコード理解へと转移させ、可解释性ギャップがコードレビュー効率にどのような影響を与えるかを明らかにする"
+    },
+    {
+      "slug": "2026-08-14-spec-kit-analysis",
+      "date": "2026-08-14",
+      "author": "TopDigg",
+      "tags": [
+        "spec-kit",
+        "Spec-Driven Development",
+        "AI Programming",
+        "GitHub Copilot",
+        "Claude",
+        "Development Workflow"
+      ],
+      "categories": [
+        "AI Development Tools",
+        "Development Methodology",
+        "Open Source Project Analysis"
+      ],
+      "title": "GitHub spec-kit：仕様駆動開発でAIコーディングエージェントに「考えてから書かせる」",
+      "description": "GitHub spec-kitプロジェクトを深く解析し、仕様駆動開発（Spec-Driven Development）の理念を探り、明確な仕様ワークフローでAIコーディングエージェントがどのように効率的に期待に応えるコードを生成できるかを解説"
+    },
+    {
+      "slug": "acceptance-pipeline-specification",
+      "date": "2026-08-14T00:00:00.000Z",
+      "author": "TopDigg",
+      "tags": [
+        "Acceptance Pipeline",
+        "Gherkin",
+        "Acceptance Testing",
+        "Clean Code",
+        "Uncle Bob",
+        "BDD",
+        "Automated Testing"
+      ],
+      "categories": [
+        "Technical Analysis"
+      ],
+      "title": "Acceptance Pipeline Specification：Uncle Bobのポータブル受入テストパイプライン",
+      "description": "Robert C. Martin（Uncle Bob）が提唱するAcceptance Pipeline Specificationプロジェクトを深く解説し、Gherkinフィーチャーファイルを通じてポータブルな受入テストを実現する方法を探ります"
+    },
+    {
+      "slug": "agents-md-complete-guide",
+      "date": "2026-08-14T00:00:00.000Z",
+      "author": "TopDigg",
+      "tags": [
+        "AGENTS.md",
+        "Claude Code",
+        "Cursor",
+        "Copilot",
+        "AI Assistant",
+        "Configuration"
+      ],
+      "categories": [
+        "AI Tools",
+        "Developer Experience"
+      ],
+      "title": "AGENTS.md 完全ガイド：AIプログラミングアシスタントの設定艺术",
+      "description": "AGENTS.mdの設定哲学とベストプラクティスを深く理解し、AIプログラミングアシスタントをプロジェクトに合わせるようにする"
+    },
+    {
+      "slug": "pi-context-compaction",
+      "date": "2026-08-14T00:00:00.000Z",
+      "author": "TopDigg",
+      "tags": [
+        "LLM",
+        "Context Compaction",
+        "Context Window",
+        "Pi",
+        "Coding Assistant",
+        "AI"
+      ],
+      "categories": [
+        "Technical Analysis"
+      ],
+      "title": "Piコーディングアシスタントのコンテキスト圧縮：LLMコンテキストウィンドウ制限の技術的解決策",
+      "description": "Piコーディングアシスタントがコンテキスト圧縮メカニズムを通じてLLMのコンテキストウィンドウ制限を突破し、長いセッションでの継続的なコーディング能力を実現する方法の詳細な解析"
+    },
+    {
+      "slug": "2026-08-13-spatiotemporal-composability",
+      "date": "2026-08-13",
+      "author": "TopDigg",
+      "tags": [
+        "programming paradigm",
+        "software architecture",
+        "dynamic composition",
+        "effect system",
+        "coeffect system"
+      ],
+      "categories": [
+        "Paper Analysis",
+        "Programming Language Theory"
+      ],
+      "title": "時空間結合性：動的ソフトウェアアーキテクチャを再定義するプログラミングパラダイム",
+      "description": "cordiverse/paper 論文の詳細解説。動的ソフトウェア結合のプログラミングパラダイム、Revertible Effects、Reactive Coeffects、Context Types などのコア概念をカバー"
+    },
+    {
+      "slug": "agentic-design-patterns",
+      "date": "2026-08-13",
+      "author": "evoiz",
+      "tags": [
+        "AI Agent",
+        "Agentic Design Patterns",
+        "Artificial Intelligence",
+        "Design Patterns",
+        "LangChain",
+        "AutoGPT",
+        "AutoGen",
+        "CrewAI"
+      ],
+      "categories": [
+        "AI",
+        "Machine Learning",
+        "Agent Systems"
+      ],
+      "title": "Agentic Design Patterns：AI Agent設計パターンでインテリジェントシステムを構築する完全ガイド",
+      "description": "Agentic Design Patternsプロジェクトを深く探究し、aitesChain、路由、振り返り、ツール使用、計画立案、マルチエージェント連携などコアなAI Agent設計パターンを解説します。"
+    },
+    {
+      "slug": "ai-knowledge-graph-generator",
+      "date": "2026-08-13",
+      "author": "robert-mcdermott",
+      "tags": [
+        "AI",
+        "Knowledge Graph",
+        "NLP",
+        "Python",
+        "Visualization"
+      ],
+      "categories": [
+        "AI & ML"
+      ],
+      "title": "AI Knowledge Graph：非構造化ドキュメントからインタラクティブな知識グラフへ",
+      "description": "AI Knowledge Graph Generatorプロジェクトを深く解析し、非構造化テキストドキュメントをインタラクティブな知識グラフに変換する方法を解説"
+    },
+    {
+      "slug": "deepseek-harness-analysis",
+      "date": "2026-08-13",
+      "author": "TopDigg",
+      "tags": [
+        "DeepSeek",
+        "Harness",
+        "Agent",
+        "Cordis",
+        "Monorepo",
+        "Plugin Engine",
+        "Dual Surface",
+        "Telemetry",
+        "MCP",
+        "AI Infrastructure",
+        "Design Philosophy"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "DeepSeek Harness 深層解析：AI Agentのエンジニアリング基盤とエコシステム全景（核心思想 + プロジェクト説明 + 詳細チュートリアル + 設計哲学）",
+      "description": "DeepSeek Harness（DSH）の技術アーキテクチャと設計哲学を深層解析。核心思想：**AI Agentのエンジニアリング基盤は、モデルを強くするのではなく、Agentの動作をより制御可能・観測可能・拡張可能にするもの**——Cordis 4.0プラグインエンジン、デュアルSurfaceアーキテクチャ、リアルタイムテレメトリシステム、モジュール設計を通じて、DSHは完全なAgentランタイムインフラを構築。"
+    },
+    {
+      "slug": "deepseek-harness",
+      "date": "2026-08-13",
+      "author": "TopDigg",
+      "tags": [
+        "DeepSeek",
+        "Agent",
+        "Plugin Architecture",
+        "Open Source",
+        "Agent Development",
+        "Cordis"
+      ],
+      "categories": [
+        "AI Framework",
+        "Developer Tools"
+      ],
+      "title": "DeepSeek Harness：「すべてはプラグイン」哲学に基づくエージェント開発フレームワーク",
+      "description": "DeepSeek Harnessプロジェクトの詳細分析、プラグインベースのアーキテクチャ、核心機能特性、DeepSeek AIが開発したこのオープンソースエージェント開発フレームワークの使い方を説明します。"
+    },
+    {
+      "slug": "ephemeral-ai-fs-analysis",
+      "date": "2026-08-13",
+      "author": "TopDigg",
+      "tags": [
+        "Ephemeral AI FS",
+        "Content Addressable Storage",
+        "CAS",
+        "CDC",
+        "Merkle",
+        "Multi-Agent",
+        "Fork-aware",
+        "SQLite",
+        "Workspace",
+        "Storage System",
+        "Design Philosophy"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Ephemeral AI FS 深度解析：マルチエージェントワークスペース向けフォーク対応コンテンツアドレッシングストレージシステム（コアアイデア + プロジェクト説明 + 詳細チュートリアル + 設計哲学）",
+      "description": "Ephemeral AI FS のコア設計哲学とフォーク対応コンテンツアドレッシングストレージアーキテクチャを深度解析。コアアイデア：**マルチエージェントコラボレーション環境では、ワークスペースのフォーク（fork）は異常ではなく常態**——従来のバージョン管理システムではブランチ処理時に大量的重複ストレージと複雑なマージ競合が発生するが、Ephemeral AI FS はコンテンツアドレッシングストレージ（CAS）、コンテンツ定義チャンキング（CDC）、Merkle インベントリの3つのコアテクノロジーの組み合わせにより、各エージェントのワークスペースが基盤となるコンテンツを共有しながら独立性を維持できるフォーク対応のストレージアーキテクチャを実現。プロジェクト説明：オープンソース、Rust/Python/Node.js マルチ言語 SDK、SQLite トランザクションによる一貫性保証、M0-M4 完全マイルストーンロードマップ。詳細チュートリアル：ゼロからの開発環境構築、インストール設定、クイックスタート例。設計哲学：パスアドレッシングよりコンテンツアドレッシング、マージ優先よりフォーク優先、軽量級トランザクションモデル、ストレージと計算の分離。"
+    },
+    {
+      "slug": "multi-agent-pipeline-fallacy",
+      "date": "2026-08-13",
+      "author": "TopDigg",
+      "tags": [
+        "AI Architecture",
+        "Multi-Agent Systems",
+        "LLM",
+        "Distributed Reasoning",
+        "Knowledge Graph",
+        "Analysis System",
+        "Pipeline",
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Enterprise AI"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "マルチエージェントパイプライン誤謬：数週間かかる分析プロセスを30分に圧縮する方法",
+      "description": "エンタープライズAIアーキテクチャにおける最も一般的な分散推論失敗パターン——マルチエージェントパイプライン誤謬（Multi-Agent Pipeline Fallacy）を深く解析します。本文では、分析システムの構築時にほとんどのチームが陥る2つの失敗モード——単一LLMエンドツーエンドデータアナリスト（浅い要約を生成し、因果関係を幻覚する）と過度に断片化されたマルチエージェントパイプライン（コンテキスト伝播の減衰、マチナイズなトークン消費）——を明らかにします。そして、確定的信号キュー、集中型推論所有権＋動的サブエージェント、知識グラフ制御プレーンという3本柱のソリューションと、有界調査ループの動作原理を提案します。"
+    },
+    {
+      "slug": "oh-my-claudecode-analysis",
+      "date": "2026-08-13",
+      "author": "TopDigg",
+      "tags": [
+        "oh-my-claudecode",
+        "Claude Code",
+        "Multi-Agent",
+        "Orchestration",
+        "TypeScript",
+        "AI Agents",
+        "Developer Tools",
+        "Skills",
+        "Team Pipeline"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "oh-my-claudecode：Claude Code インテリジェントマルチエージェントオーケストレーショ framework 詳解",
+      "description": "oh-my-claudecode（38.5k+ stars、MIT、TypeScript）を全面解析——Claude Code インテリジェントマルチエージェントオーケストレーショフレームワーク。コア設計哲学：ゼロ学習曲線、マルチエージェントオーケストレーショ、インテリジェントルーティング、スキル組合。詳細：19の専門エージェント、3層モデルルーティング、31のSkills、5段階Team Pipeline、Magic Keywords自然言語トリガー、安装設定教程、团队協調モード、ベストプラクティス。"
+    },
+    {
+      "slug": "swarmforge-analysis",
+      "date": "2026-08-13",
+      "author": "TopDigg",
+      "tags": [
+        "SwarmForge",
+        "Multi-Agent",
+        "tmux",
+        "AI Agent",
+        "Orchestration",
+        "Worktree",
+        "Handoff",
+        "Developer Tools",
+        "AI Agents"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "SwarmForge：tmuxベースのマルチAI Agentオーケストレーションプラットフォーム",
+      "description": "SwarmForge（tmuxベースのAI Agentオーケストレーションプラットフォーム）を詳しく解説—— ワークフロー設定（two-pack/four-pack/six-pack）、Worktree隔離、Handoffプロトコル、憲法構造を通じて、複数のAIエージェントがソフトウェアプロジェクトを協調開発を実現。プロジェクトアーキテクチャ、3種類のプリセットワークフロー工作机制、設定駆動型設計理念、使用例などを網羅。"
+    },
+    {
+      "slug": "aura-analysis",
+      "date": "2026-08-12",
+      "author": "TopDigg",
+      "tags": [
+        "Aura",
+        "Rust",
+        "AI Agent",
+        "Coding Agent",
+        "Agent Architecture",
+        "While Loop",
+        "Tool Use",
+        "Claude Code",
+        "RLM",
+        "Session",
+        "Benchmark",
+        "Loop Engineering",
+        "KISS",
+        "Model Gateway",
+        "Error Budget"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Aura 徹底解説：最小限でテスト可能な Rust コーディングエージェント——単一の while ループで Agent を構築する（コア思想 + プロジェクト概要 + 詳細チュートリアル + 設計哲学）",
+      "description": "gyc567/aura（オープンソースプロジェクト、Rust、MIT ライセンス）を題材に、「最小限でテスト可能な Rust コーディングエージェント（a minimal, testable Rust coding agent）」を徹底解説。コア思想：「Stop prompting. Design the loop. Get a score.」（プロンプトを送るのをやめ、ループを設計し、スコアを得る）——毎回手動で Agent にプロンプトを送るのではなく、ループ構造を事前に設計し、Agent が固定のリズムで自律的に実行・報告・修正し、人間のゲートを通過した後にのみコードが反映される。製品レベルでは、Aura の力の源泉は繰り返し検証された洞察にある：単一の while(tool_use) ループ ＋ 少数精鋭のツールセットこそ Claude Code の全パワーの源であり、複雑さはループ構造ではなくツールに置くべきだということ。プロジェクト概要：Aura は自然言語のタスクを受け取り → 制御されたワークスペースのコンテキストを収集し → tokio シングルスレッドランタイム上で while(tool_use) ループを実行し → ツールを通じてファイルを変更して検証を実行し → 変更サマリーとテストレポートを出力；5 層アーキテクチャ（L1 CLI プレゼンテーション層 → L2 Session セッション層 → L3 Agent while ループドライバ → L4 ツールレジストリ/能力ゲート/事前チェック/レシート → L5 ModelGateway モデル層）；v1/v1.2/Phase 6-7 すべて完了、v0.1.0 リリース済み（5 プラットフォームビルドマトリクス + install.sh）、345+ テスト全緑、clippy 警告 0；参照プロジェクトは Claude Code（パターンとメカニズム）、pi_agent_rust（セキュリティモデル）、prime-agent（RLM プログラミングモデルとセッション/永続化の思想）。詳細チュートリアル：クイックスタート（cargo build、--fake-model でキー不要のテスト、OpenAI-compatible の実 API、--json 出力）、コアループ不変条件（唯一の終了条件：SIGINT / 予算枯渇 / ErrorBudget 枯渇 / モデルが非 Call を返す）、コンパイル可能な while ループ擬似コード、CLI パラメータ、設定優先度（CLI > config.toml > 環境変数）、ツール一覧と二段階実行（capability gate + regex 事前チェック）、ツールエラー回填＋ ErrorBudget（デフォルト 3 回）によるモデルの自己修復、RLM 式サブエージェント（admission handle + バックグラウンド task + ChildRegistry + agent_message）、scratchpad 永続作業記憶、Session 層 JSONL transcript + --resume、aura bench 評価フレームワーク（run/report/init + 8 シードタスク + 隔離ワークスペース + 定量指標）、compaction 階層コンテキスト、プラグイン v2（agent-plugins.org 仕様 + MCP）、Loop Engineering 開発方法論（LOOP.md/STATE.md/loop-budget/loop-constraints、L1→L2→L3 進化）。設計哲学：15 原則——KISS シンプル優先（「単一ループ + 14 ツールが Claude Code の全パワーの源」、あらゆる設計は「この層を減らせないか」と問う）、高凝集・低結合、明示的な能力境界（ツール内部でのパスホワイトリストの暗黙チェックを禁止）、二段階実行保護、ツール結果レシート（毎回呼び出し後に再注入、一回性の system prompt より N 倍強い）、静的システムリマインダー、テスト可能性優先（新規挙動には必ず単体テスト、モデルはデフォルトで決定論的 fake、100% カバレッジゲート）、インクリメンタル互換、復元可能性（失敗時は現場を保持し自動的な危険なロールバックはしない）、エビデンス駆動の主張（性能/安全/互換性の主張は evidence artifact に紐付ける）、公開 SDK と実装の分離、Graceful な SIGINT 割り込み、パラメータ検証先行、ストリーミング優先、明示的なトランケーション戦略；さらに借用取捨の原則——Claude Code はパターンとメカニズム、pi_agent_rust はセキュリティモデル、prime-agent は RLM プログラミングモデルを提供し、三者共通集合の外にある複雑な能力（トラストライフサイクル、マルチ provider、daemon マルチプロセス、TUI、RPC、Critic、長期記憶）はすべて延期または別仕様化される。"
+    },
+    {
+      "slug": "freqtrade-analysis",
+      "date": "2026-08-12",
+      "author": "TopDigg",
+      "tags": [
+        "Freqtrade",
+        "Quantitative Trading",
+        "Crypto",
+        "Backtesting",
+        "Python",
+        "Open Source",
+        "Hyperopt",
+        "FreqAI",
+        "Machine Learning",
+        "Trading Bot",
+        "CCXT",
+        "Telegram Bot",
+        "Dry Run",
+        "Lookahead Bias",
+        "Trading Strategy",
+        "Automated Trading"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Freqtrade 徹底解説：半年使って分かった、本当に暗号資産市場で稼げるのか（コア思想 + プロジェクト解説 + 詳細チュートリアル + 設計哲学）",
+      "description": "人気の掘金（Juejin）ロングリード『半年 Freqtrade を使って、暗号資産市場で本当に稼げるのかを語る』を基に、Freqtrade（オープンソース、Python、GPL-3.0、暗号資産クオンツ分野の最高水準フレームワーク）を徹底解説。コア思想：**それはツールであって答えではない**——正しいアイデアをより良く実行できるが、間違ったアイデアを正しくはできない。Freqtrade の全ての力は「正直なバックテスト」から来る：未来データ漏洩を能動的に検出する lookahead-analysis / recursive-analysis を内蔵し、確定足のみで判断（リペイントなし）、Dry-Run フォワードテストを必須化し、過学習を最大の敵とみなす。プロジェクト解説：48.4k stars / 10.1k forks / 111 リリース / 31,465 コミット、ccxt ベースで現物 12 取引所 + 先物 6 取引所をサポート、Python 98.4%、5 つの実行モード（バックテスト / Hyperopt / Dry-Run / 本番 / FreqAI）、Telegram Bot + FreqUI の運用スタック。詳細チュートリアル：Docker 環境構築（TA-Lib コンパイルの罠を回避）→ new-config で設定生成 → new-strategy でダブル EMA 戦略を作成（populate_indicators / populate_entry_trend / populate_exit_trend）→ backtesting → lookahead/recursive 検証 → Hyperopt の正しい使い方（サンプル外 20-30% の保留、≤200 イテレーション）→ Dry-Run → 本番と Telegram 運用。設計哲学：正直さ最優先（ツールにアンチチートを内蔵）、ツールであって答えではない、検証の規律（Dry-Run はプロセスであって形ではない）、モジュール化と組み合わせ性（ccxt 抽象 + 設定駆動 50+ フィールド）、反過学習カルチャー、AI は思考を支援しても検証を代替しない。総合スコア 7.6/10——暗号資産クオンツの最高峰だが、参入障壁は現実にある。A 株ユーザーは vnpy を選ぶべき。"
+    },
+    {
+      "slug": "langchain-graph-engineering-analysis",
+      "date": "2026-08-12",
+      "author": "TopDigg",
+      "tags": [
+        "LangGraph",
+        "Graph Engineering",
+        "AI Agent",
+        "Agent Architecture",
+        "LangChain",
+        "Loop Engineering",
+        "Multi-Agent",
+        "Orchestration",
+        "State Machine",
+        "Cognitive Architecture",
+        "Harness",
+        "Agentic Systems"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "LangGraph 徹底解説：3年間のグラフエンジニアリング実践総括——グラフで信頼できるAgentを構築する完全ガイド（核心理念 + プロジェクト解説 + 詳細チュートリアル + 設計哲学）",
+      "description": "LangChain公式ブログ『3 Years of Graph Engineering with LangGraph』（Harrison Chase & Sydney Runkle、2026-07-22）を基に、'グラフエンジニアリング（graph engineering）'パラダイムとLangGraphフレームワークを完全解説。核心理念：エージェントシステムをグラフとして表現することで、あなた（構築者）がシステムの動作に関する先入観（preconceptions）をより制約された経路に押し込める——LLMの判断だけに頼らず、エージェントに特定の経路を辿らせたいときに行動をより緊密に制御できる。プロジェクト解説：LangGraphはLangChainチームが3年前に構築したエージェントオーケストレーションフレームワーク。現在は月間ダウンロード数65M+、スタートアップと大企業の双方が利用。人気の理由は'決定的（deterministic）な経路'と'エージェンティック（agentic）なステップ'のバランスを取っていること。詳細チュートリアル：グラフモデリングの3要素（ノードが仕事をする/エッジが次の展開を定義する/ステートマシンの視点）、グラフを使うべき場合（サポートエージェントが応答・エスカレーション前に分類、コーディングエージェントが変更提案前にリポジトリ調査、コンプライアンスワークフローが外部行動前に承認）と使うべきでない場合（ディープリサーチのような本質的にエージェンティックなタスクはagent harness/Deep Agentsを使う）、map-reduceとSend APIによる動的遷移、ノード内に完全なエージェントを入れる新パターンとdocsエージェント事例（Slackリクエスト→PR、ノードは決定的からエージェンティックへのスペクトラム上の異なる位置に配置）。設計哲学：グラフは認知アーキテクチャ——プロンプトがドメイン知識を運ぶように、グラフはシステムの動作に関する世界知識をエンコードする。モデルは価値を生む場所でのみ推論し、残りはコードが処理するため、エージェントはより安く、より速く、より予測可能になる。3年間の実践知見：エージェントグラフは通常DAGではない（リトライ、欠落情報の要求、検証後の修正、人間の入力を待つ一時停止など循環が必要）；ループは単純なグラフ（loop engineeringはgraph engineeringの簡易版、LangChain自体がLangGraph上に構築されている）；動的遷移が重要（実行時まで生成すべき仕事量が分からない——Sendで動的ルーティング）。"
+    },
+    {
+      "slug": "raft-analysis",
+      "date": "2026-08-12",
+      "author": "TopDigg",
+      "tags": [
+        "Raft",
+        "Agent Experience",
+        "AX",
+        "Multi-Agent",
+        "Collaboration",
+        "Human-AI",
+        "Botiverse",
+        "Agent Workspace",
+        "Agent Inbox",
+        "Held Draft",
+        "Agent Native",
+        "Teamwork",
+        "Design Philosophy"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Raft 深掘り：人間とAI Agentを本物のチームメイトのように協力させる（核心思想 + プロジェクト説明 + 詳細チュートリアル + 設計哲学）",
+      "description": "raft.build の AX 設計哲学と Agent ネイティブ協業プラットフォーム Raft を深掘り解析。核心思想：**Agent はツールではなく、判断力を持つ参加者である**——Agent Inbox（プル型注意機構）と Held Draft（草稿ステートマシン）という2つの关键設計により、Agent が共有ワークスペースでいつ読むか、いつ返信するか、いつ黙るかを選択できるようにする。プロジェクト説明：Botiverse 開発、Claude/Codex/Kimi 等多ランタイム対応、永続化 Agent メモリ、マルチ Agent 協業、ローカルデプロイ。チュートリアル：Raft マルチ Agent エンジニアリングチームのゼロからの構築——Channel 作成、Agent 接続、メモリ設定、タスクルーティングと協業パターン。設計哲学：Agent Experience（AX）設計、Perception Empathy（認識共感）と Action Explicitness（行動明示化）、ターン制と継続的在場の根本的差異、伝統的な @mention ルールとの比較。"
+    },
+    {
+      "slug": "bb-ide-analysis",
+      "date": "2026-08-11",
+      "author": "TopDigg",
+      "tags": [
+        "bb",
+        "Agent IDE",
+        "AI Agent",
+        "Agent Orchestration",
+        "Claude Code",
+        "Codex",
+        "IDE",
+        "DevTools",
+        "Programmable Workspace",
+        "Threads",
+        "Agentic Development",
+        "Monorepo",
+        "Electron"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "bb 徹底解説：自己構築するエージェント IDE——すべてのプログラミング Agent をオーケストレーションするプログラマブル・ワークスペース（プロジェクト解説 + クイックスタート・チュートリアル + システムアーキテクチャ + 設計哲学）",
+      "description": "get-bb/bb（GitHub のオープンソースプロジェクト、MIT ライセンス、1.6k stars）を題材に、『自己構築するエージェント IDE（The agent IDE that builds itself）』を徹底解説。核心理念：bb はコーディング Agent のためのプログラマブル・ワークスペース（programmable workspace for coding agents）である——ユーザーも Agent も第一級の操作主体（first-class operator）であり、デスクトップ App・Web App・CLI・HTTP API の4つのサーフェスすべてが第一級の地位を持つ。作業はスレッド（thread）の中で実行され、リアルタイム追従・随時の方向転換・別の Agent への引き継ぎができる。Agent はオーケストレーションされるだけでなく、SDK/CLI/HTTP API を通じて bb をプログラム的に利用でき、『オーケストレーターのオーケストレーション』と自己ブートストラップを実現する。プロジェクト解説：新しい Agent を発明するのではなく、既存の Claude Code・Codex・Cursor（ACP）・Pi・OpenCode・Grok Build・Hermes などの provider CLI（認証済みの資格情報を再利用）をオーケストレーションする。クイックスタート・チュートリアル：npx bb-app@latest → http://localhost:38886。CLI（bb skill list / config / env / ssh-target）。Node SDK（BBSdk：スレッドを spawn → wait idle → output）。システムアーキテクチャ：Server（SQLite が真実の源 + HTTP API + WebSocket イベントプッシュ、自身はステートレス）→ Host daemon（各実行マシンに常駐し、workspace を供給し、provider プロセスを実行）→ App → CLI。データモデルには Project/Source、Thread（standard/manager/child 委任）、Environment（managed/unmanaged）と Host が含まれる。2つの契約パッケージ @bb/server-contract と @bb/host-daemon-contract がコンポーネント間の境界を厳密に定義する。設計哲学の6原則：ユーザーと Agent の二重の第一級市民、拡張可能（ユーザーのインフラに適応し、フォークを強要しない）、柔軟で硬直的でない（強力なデフォルト + 再利用可能なプリミティブ）、どこでも作業できる（単一マシンからリモート/クラウドへ進化）、高速かつ理解しやすい、信頼と採用が容易（ローカルファースト）。帰納的見解：オーケストレーションは発明に勝る、スレッドこそ作業単位、契約駆動アーキテクチャ、SQLite 真実の源 + ステートレス Server、ローカルファースト + マネージドは段階的な拡張、匿名テレメトリはオフにできる。"
+    },
+    {
+      "slug": "cc-master-analysis",
+      "date": "2026-08-11",
+      "author": "TopDigg",
+      "tags": [
+        "cc-master",
+        "Claude Code",
+        "Codex",
+        "Cursor",
+        "kimi-code",
+        "Agent Orchestration",
+        "AI Agent",
+        "Long-horizon",
+        "Task DAG",
+        "Monte Carlo",
+        "Project Lead",
+        "DevTools",
+        "Agent Plugin"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "cc-master 徹底解説：任意のコーディング Agent セッションを長期プロジェクトのプロジェクトリードにする（プロジェクト解説 + クイックスタート・チュートリアル + システムアーキテクチャ + 設計哲学）",
+      "description": "nemori-ai/cc-master（GitHub のオープンソースプロジェクト、TypeScript、PolyForm Noncommercial 1.0.0 ライセンス）を題材に、『コーディング Agent セッションを長期プロジェクトのプロジェクトリード（a project lead for long-running work）にする』を徹底解説。核心理念：cc-master は Claude Code、Codex、Cursor、kimi-code のいずれかのサポート対象コーディング Agent セッションを『プロジェクトリード』にする——あなたはアイデアを持ち込み、本当にあなたが必要とする少数の判断を下す；それは大目標の分解、独立したサブタスクの並列スケジューリング、進捗とクォータの追跡、そして明示的な目標に対する成果の検証を担う。Board（かんばん）はコンテキストリセットやセッションの引き継ぎをまたいで存続し、作業は単一の会話の記憶に依存しない。インストール：curl の一行コマンドで ccm エンジン + プラグインをインストール；プラグインは各 harness 向けにネイティブアダプターを生成する（Claude Code スラッシュコマンド /cc-master:as-master-orchestrator、Codex $cc-master-as-master-orchestrator、Cursor /as-master-orchestrator、kimi-code cc-master:as-master-orchestrator）。システムアーキテクチャ：3層プロダクトモデル（per-harness プラグインアダプター層 → ccm CLI + @ccm/engine エンジン → ccm web-viewer 読み取り専用ビュー）；Board v2 JSON データモデル（ナローワエスト設計）；8つの分散 Skill（master-orchestrator-guide / authoring-workflows / using-ccm / slicing-goals-into-dags / dev-as-ml-loop / engineering-with-craft / pacing-and-estimation / distilling-lessons-into-assets）；O/T1/T2/T3 統一モデル割り当て；7種類の dormant-until-armed Hooks；クォータ姿勢 + モンテカルロ納期予測；cross-harness の worker ディスパッチと Agent Registry。設計哲学：『指揮者は決して楽器を演奏しない』（コーディネーターは単元作業を自分でやらない）、注意力の再配分（注意力を本当に注ぐ価値のある場所へ再配分する）、六つの憲章目標、ship-anywhere（hooks は bash + node/JS のみ使用）、ナローワエスト原則（ごく少数の固定 board フィールドだけが hooks に依存される）、二重バージョン線の分離（プラグイン vX.Y.Z と ccm ccm-vX.Y.Z を独立してリリース）。明確な境界：これは『お願いすれば AI が全部やってくれる』ではない——センス、デザイン、方向性などあなたにしかできない判断は依然としてあなたのもの；10分で直せる 1〜2 行の修正に『プロジェクトリード』を呼ぶ価値もない。"
+    },
+    {
+      "slug": "agents-in-orbs-analysis",
+      "date": "2026-08-10",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Amp",
+        "Agents in Orbs",
+        "Coding Agent",
+        "AI Agent",
+        "Remote Agent",
+        "Orb",
+        "amp CLI",
+        "amp -ox",
+        "amp sync",
+        "CLI Agent",
+        "Debian 12",
+        "OIDC",
+        "Webhook",
+        "Plugin",
+        "TUI",
+        "SaaS",
+        "Ampcode",
+        "DevOps"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Agents in Orbs 徹底解説：エージェントがあなたがコンピュータの前にいない間も自分でコードを書く時代——Amp のリモート Orb ハンズオン、設計思想、5 つの核心インサイト",
+      "description": "Amp 公式 2026-06-30 発表「Agents in Orbs」、2026-02-19 エディトリアル「The Coding Agent Is Dead」、Orbs ユーザーマニュアル、そして 2026-08-07「Size the Orbs of Production」価格表を基に、Amp「Orb」形態の製品像・技術詳細・設計思想を徹底解説する。記事で扱う内容：① Orb とは何か——Amp エージェントを動かす Debian 12 リモートマシン、分単位課金、5 分アイドルで自動停止；② 完全ハンズオン——Web/CLI `amp -ox`/TUI コマンドパレット/プラグイン `agent.createThread()` の 4 つの入口、`amp sync <thread>` 双方向同期、`--orb-size` によるスレッド単位サイジング、`.agents/setup` と `.agents/resume` のリポジトリライフサイクルフック、OIDC フェデレーション、Webhook と Portal；③ a1 5 段階価格表（a1.tiny/small/medium/large/xxlarge、$0.08/$0.17/$0.33/$0.66/$1.32 /時間）；④ 設計思想——「エージェントをエディタサイドバーから解き放つ」「能力は権限ではない」「結果単位で課金」「オンデマンドで起動し終われば眠る」「fan-out をローカルリソースの制約から解放する」；⑤ 5 つの核心インサイト——閾値の消失が並列潜能を解放する、無人運転が新しいデフォルトになる、エージェントとエディタが分離する、自己駆動のデリバリーが加速する、課金が席から分へ移行する。核心的主張：モデルが強ければ強いほど、単一マシンに閉じ込めてはならない。Orbs は Amp がエージェント時代に提示する工学的回答である。"
+    },
+    {
+      "slug": "awesome-agent-trading-analysis",
+      "date": "2026-08-10",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "AI Agent",
+        "Agent Trading",
+        "Automated Trading",
+        "Quantitative Trading",
+        "DeFi",
+        "MCP",
+        "TradingAgents",
+        "FinGPT",
+        "OpenClaw",
+        "Agent Economy"
+      ],
+      "categories": [
+        "AI Analysis"
+      ],
+      "title": "AI Agent 取引エコシステム完全解説：awesome-agent-trading 厳選リスト完全ガイド",
+      "description": "GitHub の厳選リスト awesome-agent-trading を徹底解説：17 の Agent フレームワーク、20 の OpenClaw 取引スキル、8 の MCP サーバーから Agent のアイデンティティと決済プロトコルまで、AI Agent 取引エコシステムの全体像を1本の記事で解説。核心理念、プロジェクト概要、ゼロからの詳しいチュートリアル、要点まとめと設計哲学を収録。"
+    },
+    {
+      "slug": "fde-guide-analysis",
+      "date": "2026-08-10",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "FDE",
+        "Forward Deployed Engineering",
+        "AI Value Engineering",
+        "Production AI",
+        "AI Agent",
+        "Value Engineering",
+        "12 Factors",
+        "Accepted Outcome",
+        "Frugal Architecture",
+        "Intelligence Selection",
+        "Agent Architecture",
+        "LLM",
+        "David Ahmann"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "FDE Guide 徹底解説：自律性の前に価値をエンジニアリングする——FDE と AI エンジニアのための本番級デリバリー方法論（プロジェクト概要 + 7 段階デリバリーサイクル + 12 ファクター価値エンジニアリングチュートリアル + 設計哲学）",
+      "description": "davidahmann/fde-guide（GitHub オープンソースプロジェクト、Apache-2.0、著者 David Ahmann）を底本に、『フォワードデプロイエンジニア（FDE）と社内アプライド AI デリバリー』の方法論を完全解説する。核心思想は一言で：**Tokens は入力（Tokens are an input）。自律性は設計上の選択。受け入れられた結果（Accepted Outcome）こそが製品である。** プロジェクトは3つの深度を提供する：① The Guide（20分のメンタルモデル：FDE の4つの職責 = ディスカバリー/プロダクト/エンジニアリング/オペレーション；全体を貫く7段階デリバリーサイクル = 観察→憲章→メカニズム選定→制御されたスライス構築→証明→ローンチと所有権移管→運用・学習・退役）；② The Handbook（ライフサイクル playbooks + 12 ファクター AI 価値エンジニアリング：「受け入れられた結果あたりのコスト」と「実現済み純価値」を台帳とし、4つのハードゲート = 所有された結果 / 信頼できる独立検証者 / 境界づけられた権限と期待損失 / フルコスト後も正の価値ケース、残りのファクターは 0/1/2 で採点。採点は対話を支えるが、強いファクターは失敗したゲートを平均で帳消しにできない）；③ The Engineering Kit（実行可能アセット：制御された書き込み参照システム invoice-exception——『モデルは提案し、信頼できるソフトウェアが承認してコミットし、真実源の読み戻しが結果を証明する』——権限ポリシー、ツール契約、脅威モデル、回帰テスト、リリース証拠を含む；ハイブリッドシステム shipment-risk-triage——古典的 ML スコアリング + 決定論的ルーティング + 任意のモデル説明 + 人間レビュー——AI システムは agent ファーストである必要がないことを証明）。設計哲学：AI には『会計問題』がある——チームは変化した結果ではなく token・呼び出し・agent 数を計測する；システムを設計する前に実際の仕事を観察せよ（スライドの中のプロセスを自動化しない）；『AI を使う』はアーキテクチャ上の決定ではない——決定単位に分解し、最小の十分メカニズムを使う；能力は権限を授けない——モデルは常に提案のみ；価値エンジニアリング（valuemaxxing）は自動化の最大化ではなく、検証可能・運用可能・停止可能なシステムから得られる持続的な純価値の最大化である。記事には：プロジェクト概要、核心思想、7段階デリバリーサイクルと12ファクターの項目別チュートリアル、2つの実行可能例のアーキテクチャ分解、設計哲学5条、そして10項目にまとめた結論の見解が含まれる。"
+    },
+    {
+      "slug": "graph-engineering-guide-2026-analysis",
+      "date": "2026-08-10",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Graph Engineering",
+        "AI Agent",
+        "Loop Engineering",
+        "LangGraph",
+        "AutoGen",
+        "Google ADK",
+        "A2A",
+        "Multi-Agent",
+        "Orchestration",
+        "AI Engineering",
+        "Harness"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Graph Engineering（グラフエンジニアリング）2026 徹底解説：ループをグラフに配線する——ノード、エッジ、共有状態、そして誠実なハイプ検証",
+      "description": "AI Builder Club の『Graph Engineering Guide (2026)』を底本に、2026 年半ばに X で爆発した「グラフエンジニアリング」パラダイムを完全解説：単一エージェントのループからマルチノードのエージェントグラフへ（ノードが仕事をし、エッジがルーティングし、共有状態がエッジに沿って流れる）。概念の起源（Peter Steinberger の問い、@rohit4verse の「org chart 組織図」メタファー）、ノード／エッジ／共有状態の三要素、ループとグラフの判断表、先行実装（LangGraph / AutoGen GraphFlow / Google ADK / A2A）の棚卸し、AI エンジニアリングの5層スタック（Prompt→Context→Harness→Loop→Graph）、そして最重要の「グラフエンジニアリングはただの slop か」という誠実な検証——言葉は新しく、仕組みは古く、移行は本物。中核的主張：まずループを極め、仕事そのものが強制するときだけグラフに分解せよ。"
+    },
+    {
+      "slug": "t3code-analysis",
+      "date": "2026-08-10",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "T3 Code",
+        "t3code",
+        "pingdotgg",
+        "Agent Harness",
+        "AI Agent",
+        "Coding Agent",
+        "Codex",
+        "Claude Code",
+        "Cursor",
+        "Grok",
+        "OpenCode",
+        "Effect RPC",
+        "Event Sourcing",
+        "Remote Access",
+        "Tailscale",
+        "T3 Connect",
+        "WebSocket",
+        "OAuth",
+        "Clerk",
+        "Electron",
+        "React Native",
+        "Open Source",
+        "MIT"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "T3 Code 徹底解説：5 つのコーディングエージェントを制御するオープンソース「agent harness control surface」——製品形態、実戦ハンズオン、設計思想",
+      "description": "pingdotgg/t3code（GitHub 18k+ stars、MIT、オープンソース）を主軸に、T3 Code を層ごとに分解する：①プロジェクト概要——Web + デスクトップ + モバイルの 3 表面で Codex/Claude/Cursor/Grok/OpenCode の 5 プロバイダを制御するオープンソース「agent harness control surface」；②ハンズオン——`npx t3@latest` 起動、デスクトップインストール、5 プロバイダのインストールとログイン、4 つの権限モード（Supervised / Auto-accept edits / Auto / Full access）、リモートアクセス（LAN / Tailscale / T3 Connect / SSH）、4 つのソースコントロール（GitHub/GitLab/Bitbucket/Azure DevOps）、WebSocket + OAuth + DPoP 認証、キーバインド、スレッドピン；③技術アーキテクチャ——Effect RPC WebSocket、イベントソーシング・オーケストレーション（command→decider→event→projector）、5 つのプロバイダドライバ、チェックポイント（隠し git ref）、3 つの queue-backed worker、Rust リソース監視サイドカー；④6 つの設計思想——Open at the core、Performance without compromise、Remote ready、Multi-surface、Complexity at the adapter boundary、Event-sourced truth。核心主張：agent harness はフレームワークではなく control surface を必要とする製品形態であり、T3 Code はその判断の工学的実現である。"
+    },
+    {
+      "slug": "terminal-bench-2-analysis",
+      "date": "2026-08-10",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Terminal-Bench",
+        "Agentic Benchmark",
+        "AI Agent",
+        "Terminal",
+        "Software Engineering",
+        "Harbor",
+        "Benchmark",
+        "Claude",
+        "GPT-5.6",
+        "DeepSeek"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Terminal-Bench 2.0 徹底解説：試験を本物のターミナルに移す——環境確認・コマンド実行・エラーからの復帰、そして 91.9% がトップの条件である理由",
+      "description": "公式 tbench.ai と BenchLM の解説記事を基に、実ターミナル環境で実行される agentic ソフトウェアエンジニアリングベンチマーク「Terminal-Bench 2.0」を完全解説。HumanEval 式のチャット型コーディングベンチマークとの本質的な違い（モデルはコードを「答える」だけでなく、ターミナルワークフロー全体を「やり遂げる」必要がある：環境確認→ファイル読み書き→コマンド実行→エラーからの復帰→エンドツーエンド完了）、89 タスクがカバーする領域（ソフトウェアエンジニアリング/機械学習/セキュリティ/データサイエンス）、代表的な 6 タスクの詳細分析（Linux カーネルコンパイル、7z パスワードクラック、fasttext モデル学習）、BenchLM リーダーボードスナップショットの読み解き（GPT-5.6 Sol 91.9% が首位、Claude Mythos 5 88.0%、GPT-5.6 Terra 87.4%）、TB ベンチマークファミリー（1.0/2.0/2.1/3/Science/Challenges）と Harbor フレームワークの設計思想までを解説。核心となる主張：チャット型ベンチマークは「コードが書けるか」を問い、ターミナル型ベンチマークは「エージェントとして働けるか」を問う——まずこの行を確認せよ。HumanEval 満点のモデルでも、タスクの途中でエージェントを放置しかねない。"
+    },
+    {
+      "slug": "writing-code-was-hard-actually-analysis",
+      "date": "2026-08-10",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Promptless",
+        "writing-code",
+        "AI Engineering",
+        "Software Engineering",
+        "AI Agents",
+        "Engineering Culture",
+        "AI Hype",
+        "Code Generation",
+        "Engineering Identity",
+        "Career"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Promptless「Writing code was hard, actually」徹底解説：「コードを書くことは元々難しくない」が流行語になった時、そろそろ決算をはっきりさせよう——市場、機械、そしてエンジニア",
+      "description": "Promptless のエンジニアリングブログ記事「Writing code was hard, actually」を主軸に、900 字の短い文章がいかに 2025-2026 年に流行した「コードを書くことは元々難しくない」というナラティブを論破するかを徹底解説する。記事の内容：①プロジェクト概要——Promptless とは何か、なぜこの記事を深く読む価値があるか；②詳細チュートリアル——4 本の証拠ライン（タイミング、機械、市場、エンジニア）+ 1 つの正直な譲歩（「このスキルは希少になっている」≠「このスキルは元々すごくなかった」）+ 1 つのエンジニアへの警鐘（「エンジニアは彼らを平凡と呼ぶ道具を作った」）；③洞察の要約——記事は「AI がコードを安くした」と「コードは元々易しかった」を分ける；④設計哲学——希少性ナラティブへの、歴史への敬意への、エンジニアのアイデンティティへの 3 つの姿勢。核心主張：「スキルが安くなっている」を「スキルは元々平凡だった」と書き換えてはいけない——前者は誠実な市場評価、後者は歴史の書き換え。この短い記事は「AI が誰を置き換え/置き換えないか」の議論に最もクリーンな論証テンプレートを提供する。"
+    },
+    {
+      "slug": "claude-code-engineering-team-analysis",
+      "date": "2026-08-09",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Claude Code",
+        "AI Agent",
+        "gstack",
+        "Superpowers",
+        "Compound Engineering",
+        "ECC",
+        "Garry Tan",
+        "Jesse Vincent",
+        "Developer Tools",
+        "AI Workflow",
+        "TDD",
+        "Open Source"
+      ],
+      "categories": [
+        "Analysis"
+      ],
+      "title": "Claude Code 拡張フルセット徹底解説：gstack · Superpowers · Compound Engineering · ECC — AI アシスタントを 20 人分の仮想エンジニアリングチームに変える",
+      "description": "eric-claude-code-dev プロジェクトが統合する 4 つの Claude Code 拡張ツールを徹底解説：gstack（YC CEO Garry Tan のソフトウェア工場、15 の専門ロール）、Superpowers（GitHub 元 CTO Jesse Vincent の自動トリガー開発ワークフロー）、Compound Engineering（Every 社の複利エンジニアリング、仕事をするたびに次が楽になる）と Everything Claude Code（Anthropic Hackathon 受賞の Token 最適化システム）。小学生にもわかる比喩で「AI を仮想エンジニアリングチームにする」という核となる考え方を解説し、完全なインストール手順、主要コマンドの詳細（/office-hours、/ce:brainstorm、/tdd など）、4 つのツールを組み合わせる 4 シナリオガイド、4 つの設計哲学（スキルはソフトウェア、自動トリガー、複利思考、サブ Agent オーケストレーション）を整理し、「コードを書くのは最後の一歩」「知識は人と一緒に消えずに蓄積する」などの核心的な考えをまとめます。"
+    },
+    {
+      "slug": "codexloom-agent-team-analysis",
+      "date": "2026-08-09T00:00:00.000Z",
+      "author": "topdigg-web-miner",
+      "tags": [
+        "AI Agent",
+        "Agent Team",
+        "Multi-Agent",
+        "Codex",
+        "CodexLoom",
+        "Team Governance",
+        "AI Collaboration"
+      ],
+      "categories": [
+        "AI Tools",
+        "Development Efficiency"
+      ],
+      "title": "CodexLoom — Multi-Agent から Agent Team へ：AI エージェントをツールから真のチームへ",
+      "description": "CodexLoom の Agent Team ベストプラクティスを徹底解説：なぜ複数のエージェントは Agent Team にならないのか、エージェントを一回限りの Task から長期的な責任主体へ変える方法、Profile・Message・Topic・Overview・External の5層構造で、Human の頭の中に集中していた責任をチーム全体が使える作業構造へ外化するプロセス。"
+    },
+    {
+      "slug": "harbor-framework-analysis",
+      "date": "2026-08-09",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Harbor",
+        "Terminal-Bench",
+        "AI Agent",
+        "Benchmark",
+        "LLM",
+        "Evaluation",
+        "Agent Framework",
+        "Terminal-Bench 2.0",
+        "Claude Code",
+        "Daytona",
+        "RewardKit",
+        "MCP",
+        "Docker",
+        "Machine Learning"
+      ],
+      "categories": [
+        "Analysis"
+      ],
+      "title": "Harbor Framework 徹底解説：AI に「試験場」をつくる — Turing-Bench から Harbor への進化の道",
+      "description": "Harbor Framework（laude-institute 製）を徹底解説：AI Agent を『コンテナ試験室』で公平に評価できる、原文を深く読めば誰でも理解できるオープンソースフレームワーク。本記事は小学生でもわかる比喩で、Terminal-Bench 2.0 公式評価ツール Harbor の核心概念（タスク / データセット / Agent / Trial / Job）を説明し、詳細なインストール・実行チュートリアル（Docker ローカル実行 + Daytona クラウド 32 並列）を提供し、6 つの設計哲学（モジュール化インターフェース、クラウドサンドボックスによる水平拡張、評価データパイプラインの一体化、デフォルト Linux、不正防止、RewardKit 軽量検証）を整理し、『評価はインフラである』『最小のエンドツーエンドを先に動かす』などの核心的見解をまとめ、LLM-as-a-Judge と MCP サイドカー・タスクの 2 つの実践チュートリアルの要点も紹介します。"
+    },
+    {
+      "slug": "herdr-analysis-report",
+      "date": "2026-08-09T00:00:00.000Z",
+      "author": "topdigg-web-miner",
+      "tags": [
+        "AI Agent",
+        "Terminal Tools",
+        "Development Environment",
+        "Rust",
+        "Herdr"
+      ],
+      "categories": [
+        "AI Tools",
+        "Development Efficiency"
+      ],
+      "title": "Herdr — AIコーディングエージェントの「住処」、AIエージェントを不掉線に保つ",
+      "description": "Herdrプロジェクトの深掘り：Claude Code、Codex、Cursorなどの主流エージェントをサポートし、Rustで書かれた、Electron不要の terminalespace管理ツール。"
+    },
+    {
+      "slug": "ai-agent-book-analysis",
+      "date": "2026-08-08",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "AI Agent",
+        "LLM",
+        "Context Engineering",
+        "MCP",
+        "RAG",
+        "Coding Agent",
+        "Reinforcement Learning",
+        "Multi-Agent Collaboration",
+        "Open Source Book",
+        "Bo Jie Li"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "AI Agent って何？小学生でもわかる『深入理解 AI Agent』読書メモ",
+      "description": "GitHub 34.5k スターのオープンソース神書『深入理解 AI Agent：设计原理与工程实践（設計原理とエンジニアリング実践）』を、いちばんやさしい言葉で解説。核心の公式 Agent = 脳 + 目 + 手足 をはじめ、10 章のエッセンス、95 個の付属実験チュートリアル、まとめられた核心的な考え方と設計哲学までまるごと。"
+    },
+    {
+      "slug": "cloudflare-computer-analysis-report",
+      "date": "2026-08-08",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Cloudflare Computer",
+        "Durable Objects",
+        "AI Agent",
+        "Virtual Filesystem",
+        "SQLite",
+        "FUSE",
+        "Open Source",
+        "Workers",
+        "Containers",
+        "Cloud Native"
+      ],
+      "categories": [
+        "Deep Analysis"
+      ],
+      "title": "Cloudflare Computer 深層解析：エージェントにコンピュータを提供する",
+      "description": "Cloudflare Computer — Cloudflareのオープンソースバーチャルファイルシステムの包括的解析。その設計哲学、SQLite永続化アーキテクチャ、マルチバックエンド実行エンジン、FUSEマウントメカニズム、およびAIエージェントインフラストラクチャの将来のパラダイムを定義する理由を深く探求します。"
+    },
+    {
+      "slug": "cloudflare-os-analysis-report",
+      "date": "2026-08-08",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Cloudflare OS",
+        "AI Productivity",
+        "Cloudflare Workers",
+        "Open Source",
+        "Sandbox Security",
+        "Gatekeeper",
+        "Gadget",
+        "Agent Native",
+        "SaaS Alternative",
+        "Local First"
+      ],
+      "categories": [
+        "Deep Analysis"
+      ],
+      "title": "Cloudflare OS 深度解析：AI時代の生産性オペレーティングシステムを再定義",
+      "description": "Cloudflare OS — CloudflareのオープンソースAI生産性環境を包括的に解析。その設計哲学、Gadgetサンドボックスアーキテクチャ、Gatekeeperセキュリティフレームワーク、非同期ヒューマンインザループメカニズム、そしてなぜそれがSaaSソフトウェアの未来パラダイムを体現するのかを深く探る。"
+    },
+    {
+      "slug": "codex-orchestration-analysis",
+      "date": "2026-08-08",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Codex-Orchestration",
+        "Codex",
+        "OpenAI",
+        "Multi-Agent",
+        "Claude Fable 5",
+        "Claude Opus 5",
+        "Kimi K3",
+        "OpenRouter",
+        "MCP",
+        "Model Routing",
+        "AI Agent",
+        "Python",
+        "Role-Based Agent"
+      ],
+      "categories": [
+        "Analysis"
+      ],
+      "title": "Codex-Orchestration 徹底解説：1つのプラグインで Fable 5・Opus 5・Kimi K3 を Codex に組み込み、各 AI に異なる役割を担わせて協業開発を実現する方法",
+      "description": "Cjbuilds/Codex-Orchestration（580+ stars）の包括的分析。このオープンソースプラグインは Codex タスクに Planner・Advisor・Designer・Executor の4つの役割を導入し、Claude Fable 5 で計画、Opus 5 でレビュー、Kimi K3 でデザイン、GPT-5.6 Luna で実装を行う。3つの核心問題、インストールチュートリアル、ワークフロー図、設計哲学、production-readiness audit から抽出したセキュリティ境界を解説。"
+    },
+    {
+      "slug": "oh-my-hermes-analysis",
+      "date": "2026-08-08",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Oh My Hermes",
+        "OMH",
+        "Hermes Agent",
+        "AI Agent",
+        "Multi-Agent",
+        "多智能体",
+        "Agent Skills",
+        "Nous Research",
+        "oh-my-claudecode",
+        "Orchestration",
+        "Consensus Planning"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Oh My Hermes 徹底解説：「複数の AI に議論させる」をエンジニアリング規律にするマルチエージェント編成フレームワーク",
+      "description": "GitHub プロジェクト witt3rd/oh-my-hermes（OMH）を徹底解説——Nous Research の Hermes Agent のために作られたマルチエージェント編成スキル集で、oh-my-claudecode から着想を得つつ、Hermes のプリミティブに基づいて全面的に書き直されている。中核となる思想：単一の AI が一気に答えを出すと、自分自身にも見えない盲点が出やすい。OMH はプランナー、アーキテクト、批評者という三つのロールが互いに議論して合意に達し、その後エグゼキューターがコードを書き、ベリファイアが証拠を確認し、アーキテクトが最終審査を行う。本文では十のスキル（omh-ralplan / omh-ralph / omh-deep-research / omh-deep-interview / omh-autopilot とそれぞれの driver プレイブック）、ロール注入フック機構、原子状態管理、三振アウトのサーキットブレーカー、証拠は主張に勝るという鉄則、ファイル所有権の分離、.omh ディレクトリの「選択的共有」という慣習、そしてリポジトリに明記された十四条の設計哲学まで網羅。中核思想、プロジェクト概要、設計哲学から、ゼロからの詳細チュートリアル（インストール → 最初のプランニング → 実行ループ → 全自動パイプライン）と総括的な見解まで、一つの記事で徹底的に解説する。"
+    },
+    {
+      "slug": "open-code-review-analysis-report",
+      "date": "2026-08-08",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "OpenCodeReview",
+        "AI Code Review",
+        "Alibaba",
+        "Open Source",
+        "Code Quality",
+        "LLM Agent",
+        "Hybrid Architecture",
+        "CLI Tool",
+        "CI/CD",
+        "DevOps"
+      ],
+      "categories": [
+        "Deep Analysis"
+      ],
+      "title": "OpenCodeReview 深度解析：Alibaba発のオープンソース AI コードレビューツール、精度が9倍に向上する秘密",
+      "description": "OpenCodeReview — Alibaba発のオープンソース AI コードレビューツールを全面解析。決定論的エンジニアリングと LLM Agent の融合アーキテクチャ、精確な行レベルコメント、Alibaba内部で数万名の開発者にサービスし数百万のコード欠陥を発見した背景を深く探る。"
+    },
+    {
+      "slug": "open-kritt-analysis-report",
+      "date": "2026-08-08",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "open-kritt",
+        "AI Security",
+        "Vulnerability Detection",
+        "Bug Bounty",
+        "AI Agent",
+        "Security Research",
+        "Code Analysis"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "open·kritt 深度解析：AI エージェントを編成して実際のコード脆弱性を発見する",
+      "description": "open·kritt の詳細解析：複雑なセキュリティ監査を小さな集中タスクに分解し、複数の AI エージェントを並行実行し、構造化ワークフローで重複削除済み、ランク付け済み、検証済みのセキュリティ発見を出力するオープンソース AI セキュリティ研究プラットフォーム。プラットフォームの中核となるアイデアは実際のバグ報奨金ハンターの経験に基づいており、150 万ドル以上の収益を上げています。この記事の内容：核心理念、プロジェクトアーキテクチャ、インストール設定、詳細チュートリアル、設計哲学、セキュリティモデル、主要な洞察。"
+    },
+    {
+      "slug": "prime-agent-analysis-report",
+      "date": "2026-08-08",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Prime Agent",
+        "RLM",
+        "AI Programming",
+        "Open Source",
+        "Continual Learning",
+        "Recursive Language Model",
+        "Agent-Native",
+        "Autonomous Programming",
+        "Skills System",
+        "PrimeIntellect"
+      ],
+      "categories": [
+        "Deep Analysis"
+      ],
+      "title": "Prime Agent 深層解析：自己進化するRLMプログラミングエージェント",
+      "description": "Prime Agent — PrimeIntellectのオープンソース再帰言語モデルエージェントの包括的解析。その設計哲学、RLMプログラミングモデル、継続的改善メカニズム、スキルシステム、およびAIプログラミングエージェントの将来のパラダイムを定義する理由を深く探求します。"
+    },
+    {
+      "slug": "pro-long-analysis-report",
+      "date": "2026-08-08",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "PRO-LONG",
+        "LLM Agent",
+        "Programmatic Memory",
+        "Long-Horizon Reasoning",
+        "ARC-AGI-3",
+        "Context Management",
+        "Open Source",
+        "AI",
+        "Fable",
+        "Agent Memory"
+      ],
+      "categories": [
+        "Deep Analysis"
+      ],
+      "title": "PRO-LONG 深層解説：プログラマブルメモリが長期推論を実現",
+      "description": "PRO-LONG — LLMエージェント向けの最小プログラマブルメモリフレームワークの包括的分析。設計思想、単一ファイルログアーキテクチャ、コード取得メカニズム、ARC-AGI-3における画期的成果、そしてエージェントメモリシステムの将来パラダイムについての深い洞察。"
+    },
+    {
+      "slug": "agent-plugins-analysis",
+      "date": "2026-08-07",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Agent Plugins",
+        "AI Agent",
+        "MCP",
+        "Agent Skills",
+        "Plugin",
+        "Interoperability",
+        "Open Standard",
+        "Amazon",
+        "OpenAI",
+        "Microsoft",
+        "Cursor",
+        "Vercel"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Agent Plugins 徹底解説：Amazon・Cursor・Microsoft・OpenAI・Vercel が共同策定した AI エージェントプラグインの可搬（ポータブル）標準",
+      "description": "agent-plugins.org が公開した Agent Plugins 仕様 v1.0.0 を徹底解説——Agent Skills と MCP servers に統一された可搬パッケージ形式を定義する、オープンでベンダーニュートラルなプラグインパッケージング標準。核心思想：AI エージェントの各クライアントは、同じ中身のコンポーネントであっても独自のプラグイン形式を発明しており、作者はクライアントごとにコンポーネントを組み替えたり複製したりしなければならない。Agent Plugins は「相互運用性の最小公約数」だけを定義する——共有コンポーネントは 1 つの予測可能な構造を使い、配布・インストール・権限・ユーザー体験・クライアント固有の機能は各クライアントの管理下に残す。本記事がカバーする範囲：なぜ必要なのか、ディレクトリ＝パッケージモデルとマニフェスト仕様、3 つの MCP トランスポート（stdio / Streamable HTTP / 旧 HTTP+SSE）、PLUGIN_ROOT と PLUGIN_DATA プラグイン変数、リバースドメインのクライアント拡張、段階的採用、障害分離、そして 10 の設計判断の背後にある哲学。核心思想・プロジェクト概要・設計哲学から、ステップバイステップのチュートリアル（最小 hello-plugin → 完全マニフェスト → スキルのパッケージ化 → MCP 設定 → クライアント実装）と論点のまとめまでを 1 本の記事にまとめる。"
+    },
+    {
+      "slug": "npm-supply-chain-crisis-analysis",
+      "date": "2026-08-07",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "npm",
+        "Supply Chain Security",
+        "JavaScript",
+        "Security",
+        "Open Source",
+        "Package Manager",
+        "Event Stream",
+        "Dependency Confusion",
+        "Typosquatting"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "npm サプライチェーン危機深度解析：唯一「防止する方法がない」と言われる主流パッケージマネージャー——event-stream事件からエコシステムリスクまで",
+      "description": "Kevin Patelのブログ記事『'No Way To Prevent This,' Says Only Package Manager Where This Regularly Happens』（2026-05-15）を切入点として、npmサプライチェーン攻撃の深层論理を完全に解析する。核心思想：**npmエコシステムの「防止できない」は技術的限界ではなく、意図的な選択の結果である**——デフォルトでのインストールスクリプト実行、パッケージ所有权検証の欠如、40段嵌套の依存関係ツリー，这些设计选择使每一次 `npm install` 都成为一场信任传递的赌博。当 Go/Rust 生态系统用强类型标准库和内置加密验证将供应链风险压制到接近零时，npm 选择了「便利性优先」，代价是整个社区每隔数月就要经历一次「完全不可避免」的灾难。本文从事件回顾、攻撃向量分析、设计哲学批判、跨生态对比、防御实践五个维度展开，提供系统性理解框架与可操作的安全加固方案。"
+    },
+    {
+      "slug": "cloudflare-agent-access-model-analysis",
+      "date": "2026-08-06",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Agent Access Model",
+        "AAM",
+        "Cloudflare",
+        "Zero Trust",
+        "AI Agent",
+        "Access Control",
+        "Trust Ratchet",
+        "MCP",
+        "BeyondCorp",
+        "Agent Security",
+        "Least Privilege",
+        "Zero Trust"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Cloudflare エージェントアクセスモデル（Agent Access Model）徹底解説：ランを信頼するな——ゼロトラストをネットワーク境界から単一アクションへ収斂させる",
+      "description": "Cloudflare 公式ブログ論文『The Agent Access Model』（著者 Matt Silverlock、2026-08-05）を基に、AI エージェント向けアクセス制御モデル AAM を完全解説。核心思想：**ランを信頼するな（Never Trust the Run）**——BeyondCorp がネットワーク内の暗黙の信頼を排除したように、AAM はタスク実行グラフ内の暗黙の信頼を排除する。あるアクションの認可は次のアクションに引き継がれない——すべてのアクションは「エージェントが誰か、どのタスクの実行を認可されているか、グラフがすでに触れたポリシー関連リソースは何か」の3点でリアルタイム評価され、その累積状態はグラフの残存能力を狭めるだけ（広げることはない）。AAM はエージェントの4つの特性（短命性、機械速度、プロンプトは境界ではない、ホップを跨ぐ権限合成）に対応し、単一の意思決定を賢くするのではなく能力セットを小さくすることを主張。5原則（短期バインド付きクレデンシャル、ハーネス/ネットワーク層での強制、人間の承認は例外、証拠に基づく権限レビュー、トラスト・ラチェットによる単方向の能力縮小）を提示。リファレンスアーキテクチャ6コンポーネント（アイデンティティブローカー / タスク限定アクセスエンジン / 仲介層 / トラスト・ラチェット / グラントレビューループ / エージェントアクティビティログ）、夜間照合エージェントによるデータ窃取防止の完全ウォークスルー（t=0 ディスパッチ → t=1 ラチェット発動 → t=2 注入攻撃を拒否）、疲労しない人間による監督（UAC の教訓）、未解決のマルチエージェントアクセス制御問題（CI-Work 実測 15.8%〜50.9% のプライバシー違反率）まで詳説。"
+    },
+    {
+      "slug": "loop-engineering-addy-osmani",
+      "date": "2026-08-06",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Loop Engineering",
+        "Addy Osmani",
+        "AI Agent",
+        "Claude Code",
+        "Codex",
+        "Automations",
+        "Worktrees",
+        "Skills",
+        "Sub-agents",
+        "MCP",
+        "Harness Engineering",
+        "Cognitive Surrender"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Loop Engineering 徹底解説（Addy Osmani 原著）：ターンごとの AI プロンプトをやめよ——仕事を発見し、割り当て、検証するループを設計せよ。そしてエンジニアであり続けよ",
+      "description": "Addy Osmani（Google 元幹部、Google Cloud AI エンジニアリングディレクター）が個人ブログで公開したオリジナル記事『Loop Engineering』（2026-06-07）を完全解説。核心思想：loop engineering とは「エージェントにプロンプトを送る自分自身を、あなたが設計したシステムで置き換えること」——ループとは再帰的ゴール（recursive goal）であり、目的を定義すれば AI が完了まで反復する。冒頭で Peter Steinberger（「コーディングエージェントにプロンプトを送るのをやめろ。エージェントにプロンプトを送るループを設計すべきだ」）と Anthropic Claude Code 責任者 Boris Cherny（「私はもう Claude にプロンプトを送らない。私の代わりに Claude にプロンプトを送り、何をすべきか判断するループが動いている。私の仕事はループを書くことだ」）の二大名言がパラダイムを定める。収録内容：harness の一階層上に位置するループの概念（タイマーで動作し、サブエージェントを生み出し、自己給餌する）、5つの構成要素＋記憶（Automations/Worktrees/Skills/Plugins & Connectors/Sub-agents＋Memory）、Codex app と Claude Code のプリミティブ対比表、完全なループの姿（朝の自動化→トリアージスキル→worktree 分離→ドラフト/レビューのサブエージェント→コネクタが PR を開く）、ツール非依存の洞察、そしてループが代わりにやってくれない3つのこと（検証は依然あなたの責任、理解の腐敗、認知の降伏）。結びの金言：Build the loop. Stay the engineer.（ループを築け。だがエンジニアであり続けよ）。"
+    },
+    {
+      "slug": "loop-engineering-langchain",
+      "date": "2026-08-06",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Loop Engineering",
+        "LangChain",
+        "LangSmith",
+        "AI Agent",
+        "loopcraft",
+        "swyx",
+        "create_agent",
+        "RubricMiddleware",
+        "LLM-as-Judge",
+        "Deep Agents",
+        "LangGraph",
+        "Fleet",
+        "Satya Nadella"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "The Art of Loop Engineering 徹底解説（LangChain 公式）：4つのループの積み重ね——Agent ループから検証ループ、イベント駆動ループ、山登り改善ループへ、各層の LangChain プリミティブ",
+      "description": "LangChain 公式ブログ『The Art of Loop Engineering』（著者 Sydney Runkle、2026-06-16、7分で読了）を完全解説。核心思想：コアな agent アルゴリズム自体がループ——LLM にコンテキストを与え、完了するまでツールをループで呼び出させる。だがこれは最も基本的なループに過ぎず、agent を動かす唯一のループではない。swyx の loopcraft（ループを積み重ねる技術）の思想を借用し、LangChain は4層のループを提案する：① Agent loop（モデルがタスク完了までツールを繰り返し呼ぶ——create_agent プリミティブ）；② Verification loop（grader が rubric に照らして出力をチェックし、不合格ならフィードバック付きで再試行——RubricMiddleware／after_agent hook。LLM-as-judge が古典的な実装）；③ Event driven loop（イベントが agent 実行をトリガーする——新ドキュメントの到着、cron スケジュール、webhook——agent はより大きなシステム内で継続的に動くコンポーネントになる——LangSmith Deployment の cron/webhooks、Fleet の channels/schedules、OpenClaw の heartbeats）；④ Hill climbing loop（すべての agent 実行が trace を生成し、分析エージェントが trace を読んで harness 設定を書き換える——プロンプト/ツール/grader の調整——LangSmith Engine。RL ファインチューニングやメモリ/スキル最適化にも拡張可能）。要点：第4ループの戻り矢印は頂上に戻るだけでなく、内部に届いて agent ループを直接更新する——外側ループの各サイクルが内側ループをより効果的にする。だが自動化は人間の排除を意味しない：各層に自然な人間監視ポイントがあり、機密性の高い操作（金融取引、DB 操作）にはライブでの人間レビューが必要。結びに Satya Nadella の言葉：学習ループを早期に構築する企業は、人間の判断とトークン資本が共に複利する場所で、再現が難しい優位性を築くだろう。"
+    },
+    {
+      "slug": "loop-engineering-orange-book",
+      "date": "2026-08-06",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Loop Engineering",
+        "Orange Book",
+        "AI Agent",
+        "Harness",
+        "Claude Code",
+        "Codex",
+        "MCP",
+        "HuaShu",
+        "Automation"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Loop Engineering オレンジブック徹底解説：Loop Engineering って何？もう聞くな——「プロンプター」から「システム設計者」へ",
+      "description": "花叔（HuaShu）がオープンソース公開した『Loop Engineering オレンジブック』を完全解説——Loop Engineering を平易な言葉で解説する無料 PDF 書籍（v260615、MIT ライセンス）。核心思想：AI に手動でプロンプトする人であるのをやめて、代わりに AI にプロンプトするシステムを設計せよ。prompt→context→harness→loop の4層スタック、1つのループの5つの動き（自動化/ワークツリー/スキル/プラグイン/サブエージェント）+ メモリ、AI が自分のコードを採点できない理由、3つの実例ループ（Addy の朝のトリアージ / Stripe の Minions / スケジューリングの現実）、4つのコスト（検証負債/理解腐敗/token 爆発/認知的降伏）、§01〜§09 の章ごとのチュートリアルと「今日最初のループを構築する」実践ガイドまで網羅。プロジェクト概要、核心思想、設計哲学、見解のまとめを一気に解説。"
+    },
+    {
+      "slug": "loop-engineering-substack-analysis",
+      "date": "2026-08-06",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Loop Engineering",
+        "Cobus Greyling",
+        "AI Agent",
+        "Substack",
+        "Harness Engineering",
+        "Context Engineering",
+        "Claude Code",
+        "Grok",
+        "Codex",
+        "MCP",
+        "Worktrees",
+        "Skills",
+        "Automation"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Loop Engineering 徹底解説（Cobus Greyling 原著）：エージェントへの手動プロンプトをやめよ——仕事を発見し、タスクを割り当て、結果を検証するループを設計せよ",
+      "description": "Cobus Greyling が Substack に公開した原著『Loop Engineering』（2026-06-09）を完全解説。核心思想：コーディングエージェントに逐ターンでプロンプトする立場から、仕事を発見し、エージェントにタスクを渡し、結果を検証し、状態を永続化し、次のアクションを決めるシステム（the loop）を設計する立場へのシフト。スケジュールで動くか、ゴール達成まで動き続ける。概念の進化（Context Engineering→Harness Engineering→Loop Engineering）、ハーネスとループの分業、五大ビルディングブロック＋メモリ（自動化/スケジュール、ワークツリー、スキル、プラグイン/コネクタ、サブエージェント＋記憶）、Boris Cherny / Peter Steinberger / Addy Osmani の実務者の見解、Grok/Codex/Claude Code のツール非依存な収束、そして飛ばせない現実（token コスト、理解負債、認知的降伏）まで一気に解説。"
+    },
+    {
+      "slug": "rtk-rust-token-killer",
+      "date": "2026-08-06",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "RTK",
+        "Rust",
+        "Token Optimization",
+        "LLM",
+        "CLI",
+        "AI Agent",
+        "Claude Code",
+        "Token Killer",
+        "Developer Tools",
+        "SQLite",
+        "Proxy",
+        "Open Source"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "RTK（Rust Token Killer）徹底解説：単一 Rust バイナリの CLI プロキシが、エージェントが読む bash 出力を最大 90% 削減する——4つの圧縮戦略、Auto-Rewrite Hook から 64 モジュール構成まで",
+      "description": "GitHub で爆発的に人気のオープンソースプロジェクト rtk-ai/rtk（75k+ stars、Rust、Apache-2.0、default branch develop）を徹底解説する「LLM コンテキスト向け CLI プロキシ」技術解説。核心思想：RTK はシェルコマンドをインターセプトし、出力が LLM コンテキストに届く前にフィルタリング・グループ化・トランケーション・重複排除を行う——「削るのは bash 出力であって、あなたの請求書ではない」。単一 Rust バイナリ、100+ 対応コマンド、1 コマンドあたり約 5〜15ms のオーバーヘッド、約 4.1MB。プロキシパターン（Claude → RTK → git の出力リダイレクト）、4つの圧縮戦略、Auto-Rewrite と Suggest の 2 つの Hook 戦略（100% vs 約 70〜85% の採用率）、5つの設計原則（Single Responsibility / Minimal Overhead / Exit Code Preservation / Fail-Safe / Transparent）、6 フェーズのコマンドライフサイクル（PARSE→ROUTE→EXECUTE→FILTER→PRINT→TRACK）、12 戦略のフィルタリング分類法、SQLite トークントラッキングと rtk gain 分析、-v/-vv/-vvv と -u のグローバルフラグ、config.toml と失敗時 tee フォールバック、15 の AI ツール統合（Claude Code/Gemini/Copilot/OpenCode など）、デフォルト無効のテレメトリ設計、そして 75k stars の背後にあるエンジニアリング哲学とアーキテクチャ決定記録（なぜ Rust/SQLite/anyhow/Clap なのか）までを 1 本の記事にまとめる。"
+    },
+    {
+      "slug": "openai-evals-analysis",
+      "date": "2026-08-05",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "OpenAI",
+        "Evals",
+        "LLM",
+        "Evaluation",
+        "Benchmark",
+        "Python",
+        "GPT",
+        "Testing",
+        "AI"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "OpenAI Evals まとめ：19K Star の LLM 評価フレームワーク——コードを書かずに高品質ベンチマークを構築",
+      "description": "OpenAI Evals——OpenAI 公式の LLM 評価フレームワークの完全解析。19,105 Star、3,047 Fork。核心思想：LLM アプリケーション開発において、高品質な評価を構築することが最もインパクトのある行動。2 つの評価パラダイム：基本評価（Match/Includes/FuzzyMatch/JsonMatch）とモデル採点評価（fact/closedqa/battle）。YAML 設定だけで実行可能、評価コード不要。評価レジストリ、データフォーマット仕様、ゼロからの評価構築チュートリアル、Greg Brockman の評価重要性に関するコアインサイトを網羅。"
+    },
+    {
+      "slug": "autoharness-analysis",
+      "date": "2026-08-04",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "AutoHarness",
+        "LLM Agents",
+        "Code Harness",
+        "Tree Search",
+        "Thompson Sampling",
+        "Rust",
+        "AI Safety",
+        "TextArena",
+        "LLM",
+        "Sandbox"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "AutoHarness 徹底解説：「小モデル + Harness」が「大モデル」を上回る仕組み——LLM エージェント向けコードハーネスを自動合成するオープンソース Rust ライブラリ",
+      "description": "gyc567 が公開した AutoHarness を徹底解説——Rust 製のライブラリ兼 CLI ツールで、LLM エージェント向けのコードハーネスを自動的に「合成・最適化」します。AutoHarness 論文（arXiv:2603.03329）の手法を再現し、木探索 + Thompson サンプリングでハーネスコードを反復改良。145 の TextArena ゲームで平均 14.5 イテレーションで 100% の合法アクション率に到達し、「小モデル + Harness > 大モデル」という主張を実証しています。コア思想、アーキテクチャ、設計哲学から、チュートリアル、機能一覧、結論までを 1 記事で網羅。"
+    },
+    {
+      "slug": "ds4-analysis",
+      "date": "2026-08-04",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "DwarfStar",
+        "ds4",
+        "antirez",
+        "DeepSeek V4",
+        "LLM Inference",
+        "Metal",
+        "CUDA",
+        "ROCm",
+        "Local LLM",
+        "Salvatore Sanfilippo"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "DwarfStar (ds4) 徹底解説：Redis 作者 antirez が作ったローカル LLM 推論エンジン——DeepSeek V4 Flash に特化した垂直統合ソリューション",
+      "description": "antirez（Redis 創設者 Salvatore Sanfilippo）が公開した DwarfStar（ds4）を徹底解説——DeepSeek V4 Flash/PRO と GLM 5.2 に特化した小型ネイティブ推論エンジン。約 65,000 行の C コードで Metal/CUDA/ROCm 3 バックエンド、SSD ストリーミング、パイプライン並列、DSpark 推測デコーディング、ネイティブコーディングエージェント、OpenAI 互換 API を一つの垂直統合スタックとして実現。M5 Max で 87 t/s プリフィル、34 t/s 生成；分散プリフィルは最大 674 t/s。コア思想、アーキテクチャ、設計哲学からチュートリアル、機能一覧、要点まとめまでを網羅。"
+    },
+    {
+      "slug": "goalmd-tutorial-analysis",
+      "date": "2026-08-04",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "GOAL.md",
+        "AutoHarness",
+        "AI Agent",
+        "Fitness Function",
+        "Code Quality",
+        "Autonomous Improvement",
+        "Rust",
+        "LLM"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "GOAL.md 深度解説：AI による自律的コード改善のミニマルフレームワーク — 数字ひとつで可能にする",
+      "description": "GOAL.md を完全解析 — AutoHarness プロジェクトが提案した、AI エージェントが自律的にコードを改善するためのファイル形式。核心思想は驚くほどシンプル：数字を出力するスコアリングスクリプト（Fitness Function）を書き、目標とアクションカタログを定義する GOAL.md ファイルを作成し、エージェントにスコアを上げる方法を考えさせる。コア概念（適応度関数、アクションカタログ、改善ループ、動作モード）、設計哲学、完全チュートリアル、実践例を網羅。"
+    },
+    {
+      "slug": "loop-engineering-analysis",
+      "date": "2026-08-04",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Loop Engineering",
+        "AI Agent",
+        "Automation",
+        "Grok",
+        "Claude Code",
+        "Codex",
+        "MCP",
+        "DevTools",
+        "Prompt Engineering"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Loop Engineering まとめ：プロンプティングをやめ、AI エージェントを自律稼働させるループを設計せよ",
+      "description": "Loop Engineering——Cobus Greyling が提唱する AI エージェント ループエンジニアリング フレームワークの完全解析。核心思想：もう AI にプロンプトする必要はない。AI に自動でプロンプトするシステムを設計すべきだ。5 つのビルドブロック（自動化/スケジュール、ワークツリー、スキル、プラグイン/コネクタ、サブエージェント）+ メモリ/ステート、7 つの本番パターン（デイリートリエージュ、PR ベビーシッター、CI スイーパー、依存関係スイーパー、チェンジログドラフター、マージ後クリーンアップ、Issue トリエージュ）、L1 レポートから L2 補助修正から L3 無人運用への段階的自律、そしてフルツールエコシステム。核心思想、設計哲学、フルチュートリアル、機能一覧を網羅。"
+    },
+    {
+      "slug": "loop-engineering-practical-guide",
+      "date": "2026-08-04",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Loop Engineering",
+        "AI Agent",
+        "Automation",
+        "Claude Code",
+        "Codex",
+        "MCP",
+        "Subagents",
+        "DevTools",
+        "Prompt Engineering"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Loop Engineering 実践ガイド：自己改善する AI Agent ループシステムの構築法",
+      "description": "@elune0x のバイラル X ポスト（373K 閲覧）を深く解析 — 2026 年 AI Agent 開発のパラダイムシフト。核心思想：もう AI にプロンプトする必要はない。AI に自動でプロンプトするシステムを設計すべきだ。4 つのループタイプ（Heartbeat/Cron/Hook/Goal）、5 つのコアコンポーネント（Worktrees/Skills/Connectors/Subagents/State）、モデルルーティングによるコスト最適化（60-80% 削減）、よくある失敗モードと対策、そしてフル実践チュートリアル。設計哲学からコード例まで網羅。"
+    },
+    {
+      "slug": "oneterm-analysis",
+      "date": "2026-08-04",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "OneTerm",
+        "Bastion Host",
+        "Jump Server",
+        "4A Security",
+        "SSH",
+        "RDP",
+        "VNC",
+        "DevOps",
+        "Go",
+        "VeOps"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "OneTerm 深度解説：VeOps オープンソース・バスティオンホスト — 4A セキュリティ概念に基づくエンタープライズ級アクセスセキュリティと運用監査ソリューション",
+      "description": "VeOps が開発した OneTerm を完全解析 — 4A セキュリティ概念（認証・認可・アカウント・監査）に基づいた、シンプルで軽量、柔軟なエンタープライズ・バスティオンホスト。Go バックエンド + Vue.js フロントエンド + Apache Guacamole プロキシにより、SSH/RDP/VNC/Telnet/データベースなどマルチプロトコル安全アクセス、セッション録画・再生、コマンドテンプレート制御、時間/IP アクセスポリシー、OAuth2/LDAP/CAS SSO、SFTP ファイル転送、VeOps CMDB 連携によるワンクリック資産同期を提供。コアアイデア、アーキテクチャ、設計哲学、Docker Compose デプロイチュートリアルから機能一覧まで。"
+    },
+    {
+      "slug": "sentrux-analysis",
+      "date": "2026-08-04",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "sentrux",
+        "AI Agent",
+        "Code Quality",
+        "Architecture",
+        "Rust",
+        "Static Analysis",
+        "MCP",
+        "Tree-sitter",
+        "DevTools"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "sentrux 深度解説：AI エージェントのアーキテクチャセンサー — フィードバックループを閉じ、コード品質を再帰的に自己改善する純 Rust ツール",
+      "description": "sentrux を完全解析 — AI エージェントがフィードバックループを閉じ、コード品質の再帰的な自己改善を可能にするリアルタイムアーキテクチャセンサー。純 Rust シングルバイナリ、ランタイム依存ゼロ、tree-sitter プラグインで 52 言語をサポート。ライブ依存性ツーマップ可視化、5 つの根本原因指標（モジュール性・非巡回性・深さ・平等性・冗長性）の統合品質スコア、MCP サーバー統合（Claude Code/Cursor/Windsurf/OpenCode）、TOML ベースのルールエンジン、CI 品質ゲートを提供。コア問題、設計哲学、アーキテクチャ、完全インストールチュートリアルから機能一覧まで。"
+    },
+    {
+      "slug": "system-design-primer-analysis",
+      "date": "2026-08-04",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "system-design-primer",
+        "System Design",
+        "Interview",
+        "CAP Theorem",
+        "Scalability",
+        "Distributed Systems",
+        "Donne Martin",
+        "Architecture",
+        "Caching",
+        "Database"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "system-design-primer 徹底解説: システム設計面接の「バイブル」——ゼロから大手テックまでの完全な学習パス",
+      "description": "Donne Martin 氏が公開した system-design-primer を徹底分析——GitHub で約36万スターを獲得し、全サイト上位 5〜8 位に常時ランクインする最も人気のあるオープンソースリポジトリです。「大規模システムの設計を学び、システム設計面接に備える」という動機から、CAP 定理・整合性/可用性パターン・キャッシュ戦略・データベースシャーディングなど 16 のトピック、完全解答付きの設計問題 8 問、22 社の実在アーキテクチャ、Anki 間隔反復フラッシュカード、そして全体を貫く「Everything is a trade-off（すべてはトレードオフ）」という核心哲学と 4 ステップ面接法までを解説します。"
+    },
+    {
+      "slug": "agent-recall-x-analysis",
+      "date": "2026-08-03",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "AgentRecall",
+        "Agent Memory",
+        "Claude Code",
+        "MCP",
+        "Corrections Ledger",
+        "RAG",
+        "Mem0",
+        "Retrieval",
+        "AI Agent",
+        "Memory Layers",
+        "TypeScript"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "AgentRecall-X 徹底解説：訂正から学ぶ Agent メモリと、正直な計測革命",
+      "description": "Goldentrii がオープンソースで公開する AgentRecall-X —— 「訂正から学ぶ」Claude Code メモリシステムであり、agent が本当にミスを繰り返さなくなったかを数値化する唯一のオープンソースプロジェクトを徹底分析。「統治された訂正台帳」と「欠けていた計測器」という二つの核、認知心理学に基づく五層メモリモデル、正直な 35.3% の捕捉率と 0/3 の遵守データ、/arstart /arsave /arrecall /arreflect のセッションループ、完全な MCP 導入チュートリアル、そして「自動化の原則」という設計哲学まで、312 stars で agent メモリ市場全体を揺るがすプロジェクトを 1 記事で解説します。"
+    },
+    {
+      "slug": "airllm-analysis",
+      "date": "2026-08-03",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "AirLLM",
+        "LLM Inference",
+        "Large Language Models",
+        "GPU Memory Optimization",
+        "Layer-wise Inference",
+        "Open Source",
+        "Gavin Li",
+        "Deep Learning",
+        "Model Inference",
+        "Low-end Hardware"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "AirLLM 徹底解説：層ごとの推論で70B大規模言語モデルを4GB GPUで動かす革命",
+      "description": "オープンソースプロジェクト AirLLM を包括的に分析 —— 量子化も蒸留も枝刈りもせず、レイヤーごとのロード技術で70Bパラメータの大規模言語モデルを単一の4GB GPUで推論。インストールからAPIの使い方、動作原理から設計哲学まで、26,000スター超のプロジェクトの核となる考え方を解説。"
+    },
+    {
+      "slug": "arex-analysis",
+      "date": "2026-08-03",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "AREX",
+        "BAAI",
+        "Deep Research",
+        "Agent",
+        "Recursive Self-Improvement",
+        "arXiv",
+        "Open Source Model",
+        "Deep Research",
+        "MoE",
+        "Qwen3.5"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "AREX 徹底解説：BAAIが公開した再帰的自己改善型ディープリサーチエージェント",
+      "description": "BAAI（北京智源人工知能研究院）が公開したAREXを包括的に分析 —— 再帰的自己改善型ディープリサーチエージェント。arXiv 2607.21461の核となる考え方「発見と検証の非対称性」から二重ループフレームワーク、AREX-Turbo / AREX-Baseモデルから完全な使用チュートリアルまで、このApache 2.0オープンリサーチモデルの設計哲学を解説。"
+    },
+    {
+      "slug": "kimi-k3-mi355x-analysis",
+      "date": "2026-08-03",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Kimi K3",
+        "AMD",
+        "MI355X",
+        "Moonshot",
+        "GPU Inference",
+        "MoE",
+        "Speculative Decoding",
+        "ROCm",
+        "Wafer AI",
+        "Open Source Model",
+        "Performance per Dollar"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Kimi K3 × AMD MI355X 徹底解説：メモリは堀（モート）なのか？",
+      "description": "Wafer AI が AMD MI355X 上で 2.8T パラメータのオープンソースモデル Kimi K3 を 952 tok/s/ノード で稼働させた第一級のエンジニアリング記録を徹底分析。核となる論点「メモリは堀なのか」から、投機的デコードと AITER Prefill 最適化、そして MI355X が 48 tok/s/$ で B200 を完全に打ち負かす性能対価格比まで。メモリ容量が 2.8T モデル規模で初めて NVIDIA に対する定量化可能な優位に変わった理由と、CUDA の堀が本当に終わりを迎えつつあるのかを解き明かす。"
+    },
+    {
+      "slug": "loopx-analysis",
+      "date": "2026-08-03",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "LoopX",
+        "Agent",
+        "AI Agent",
+        "Loop Engineering",
+        "Control Plane",
+        "State Kernel",
+        "Long-running Tasks",
+        "Open Source",
+        "Codex",
+        "Claude Code",
+        "Local-first"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "LoopX 徹底解説：働けるAgentを、管理可能・振り返り可能・継続改善可能なデジタル従業員につなぐ",
+      "description": "オープンソースプロジェクト LoopX を包括的に分析 —— 長期実行AIエージェントチーム向けの軽量なループエンジニアリング状態カーネル＆エージェント非依存のローカルコントロールプレーン。インストールからCLIの使い方、7層アーキテクチャから設計哲学まで、CodexやClaude Codeなどのエージェントでクロスターン・クロスツールの長期タスクを完遂させる方法を解説。"
+    },
+    {
+      "slug": "next-forge-analysis",
+      "date": "2026-08-03",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "next-forge",
+        "Vercel",
+        "Turborepo",
+        "Next.js",
+        "Monorepo",
+        "SaaS",
+        "Template",
+        "Clerk",
+        "Stripe",
+        "Prisma",
+        "Tailwind CSS",
+        "shadcn/ui",
+        "TypeScript"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "next-forge 徹底解説：Vercel が公開した本番グレードの Next.js Monorepo テンプレート",
+      "description": "Vercel 公式がオープンソースで公開する next-forge —— Turborepo ベースの本番グレード Next.js アプリテンプレートを徹底分析。SaaS を素早く立ち上げるために設計されており、「Fast・Cheap・Opinionated・Modern・Safe」の五大設計原則から、apps/ + packages/ の monorepo アーキテクチャ、Clerk 認証・Stripe 決済・Prisma データベースから AI 統合まで 18+ の共有パッケージ、さらに初期化からデプロイまでの完全チュートリアルまで、7.5k stars を集めるテンプレートが「次の SaaS の最良の出発点」と呼ばれる理由を 1 記事で解説します。"
+    },
+    {
+      "slug": "shiki-stream-analysis",
+      "date": "2026-08-03",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "shiki-stream",
+        "Shiki",
+        "Syntax Highlighting",
+        "Streaming",
+        "LLM",
+        "Web Streams API",
+        "anthu",
+        "Vue",
+        "React",
+        "Solid",
+        "TypeScript",
+        "CodeToTokenTransformStream"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "shiki-stream 徹底解説: LLMが出力するコードをまるでタイプライターのようにリアルタイムハイライトする",
+      "description": "Anthony Fu（antfu）氏が公開した shiki-stream を徹底分析。Web Streams API を基盤とし、“LLM が生成するコード”のユースケースに特化したストリーミング構文ハイライトを実現します。「コードは徐々に届くのだから、ハイライトも徐々に進めるべき」という核となる発想から、テキストストリームをトークンストリームに変換する CodeToTokenTransformStream、文脈によって意味が変わる問題を解決した recall-token 機構、Vue/React/Solid/Svelte 対応レンダラー、充実の導入チュートリアルまで、約594スターのこのプロジェクトが公式の @shikijs/stream になった理由を解説します。"
+    },
+    {
+      "slug": "deepseek-v4-flash-analysis",
+      "date": "2026-08-02",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "DeepSeek",
+        "V4 Flash",
+        "AI Model",
+        "Reasoning Model",
+        "MoE",
+        "Mixture of Experts",
+        "Open Source",
+        "Cost Analysis",
+        "Intelligence Index",
+        "Token Economics"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "DeepSeek V4 Flash 0731 徹底分析：reasoning モデルのコストと知能革命",
+      "description": "DeepSeek V4 Flash 0731を包括的に分析——284BパラメータのMoEアーキテクチャ、1Mコンテキストウィンドウ、入力Token $0.14/Mのreasoningモデル。Intelligence Indexスコアからコスト構造、Mixture of Experts設計からオープンソースエコシステムまで、一記事で深く解説。"
+    },
+    {
+      "slug": "harness-effect-token-economics",
+      "date": "2026-08-02",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Harness",
+        "Token Economics",
+        "Agentic AI",
+        "Enterprise AI",
+        "Orchestration",
+        "Token Maxing",
+        "Cost Optimization",
+        "Agent Framework",
+        "Writer",
+        "arXiv"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Harness 効果：オーケストレーション設計がエンタープライズ Agentic AI の Token 経済学をどう決定するか",
+      "description": "arXiv 2607.06906 論文を深く分析——The Harness Effect。Token Maxing 問題、6つのメカニズムファミリー、Harness Leverage 現象、エンタープライズ級 Agent オーケストレーション層の設計哲学と経済モデル体系的に整理。"
+    },
+    {
+      "slug": "grok43-analysis-report",
+      "date": "2026-07-31",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Grok 4.3",
+        "xAI",
+        "AI Model Review",
+        "Artificial Analysis",
+        "Reasoning Model",
+        "Agent",
+        "GDPval-AA",
+        "Benchmark",
+        "Cost Analysis",
+        "Coding Agent"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Grok 4.3 徹底解説：xAI 次世代推論モデルの全方位レビュー",
+      "description": "xAI がリリースした Grok 4.3 を徹底分析。Artificial Analysis Intelligence Index で 53 点を獲得し、agentic 性能の向上、入力価格 約40% 減、出力価格 約60% 減を実現。アーキテクチャ設計からベンチマーク、コスト分析から利用チュートリアルまでを一気に深掘り解説します。"
+    },
+    {
+      "slug": "reasonix-analysis-report",
+      "date": "2026-07-31",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Reasonix",
+        "DeepSeek",
+        "AI Agent",
+        "Terminal Coding",
+        "Prefix Cache",
+        "Coding Agent",
+        "Go",
+        "CLI",
+        "TUI",
+        "MCP"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Reasonix 徹底分析：DeepSeek ネイティブ ターミナル コーディング Agent のアーキテクチャ革命",
+      "description": "DeepSeek のプレフィックス キャッシュを中心に構築されたターミナル コーディング Agent である Reasonix の総合分析。キャッシュ優先アーキテクチャから単一バイナリ配布、サブ Agent から ACP エディタ統合まで、その設計哲学と技術詳細を一記事で深く解説。"
+    },
+    {
+      "slug": "trellis2-analysis-report",
+      "date": "2026-07-31",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "TRELLIS.2",
+        "3D Generation",
+        "O-Voxel",
+        "Image-to-3D",
+        "AI Generation",
+        "Microsoft",
+        "Sparse Voxel",
+        "PBR Materials",
+        "Deep Learning",
+        "3D Generation Model"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "TRELLIS.2 徹底解説：Microsoft 4Bパラメータ3D生成モデルの革命的ブレークスルー",
+      "description": "Microsoft TRELLIS.2の包括的分析—— ネイティブ3D VAEとO-Voxelスパースボクセル表現に基づく初の4Bパラメータ画像から3D生成モデル。アーキテクチャ設計から使用チュートリアル、核心的イノベーションから設計哲学まで、一記事で深く解説。"
+    },
+    {
+      "slug": "recursive-self-improvement-agents",
+      "date": "2026-07-30",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Recursive Self-Improvement",
+        "Coding Agents",
+        "Cline",
+        "Terminal-Bench",
+        "AI Agent",
+        "Self-Optimization",
+        "SOTA",
+        "Hill Climbing",
+        "Prompt Engineering"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "コーディングAgentの再帰的自己改善：一つのプロンプトからSOTA結果までの完全な実践",
+      "description": "Clineチームが再帰的自己改善（RSI）技術を通じて、たった1つのプロンプトでコーディングAgentを17時間連続実行させ、Terminal-Bench 2.1ベンチマークで88.8%のSOTAスコアを達成し、コストはわずか$49.8で、Fable 5の$552を大幅に下回った方法を深く分析します。プロジェクト背景、ステップバイステップチュートリアル、中核見解の要約、設計哲学の分析を含む。"
+    },
+    {
+      "slug": "buzz-analysis-report-2026-07-29",
+      "date": "2026-07-29",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Buzz",
+        "Block",
+        "Nostr",
+        "Workspace",
+        "AI Agent",
+        "Self-Hosted",
+        "Event-Driven",
+        "Rust",
+        "Workflow Automation",
+        "Human-Agent Collaboration"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Buzz徹底分析：Blockが打造的「人機共處」ワークスペースプラットフォーム",
+      "description": "Buzzの全面解析 — 自托管のNostrリレー型ワークスペース、人間とAI Agentが同一チャンネル、同一アイデンティティ、同一イベントログを共有。設計哲学、Agent原生理念、ワークフロー自動化、アーキテクチャ設計を深く掘り下げる。"
+    },
+    {
+      "slug": "open-design-analysis-report-2026-07-29",
+      "date": "2026-07-29",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Open Design",
+        "Claude Design",
+        "Open Source",
+        "AI Design",
+        "Local-First",
+        "Agent-Native",
+        "Design Systems",
+        "BYOK",
+        "HyperFrames",
+        "MCP"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Open Design 徹底分析：設計の未来を再構築するオープンソースのClaude Design代替",
+      "description": "Open Design — オープンソース、ローカルファーストのClaude Design代替の包括的分析。設計哲学、アーキテクチャ、25+ CLIサポート、151のデザインベース、そしてなぜAgent時代にとって決定的に重要なのかを深く探求します。"
+    },
+    {
+      "slug": "harper-analysis-report-2026-07-27",
+      "date": "2026-07-27",
+      "author": "ERIC",
+      "tags": [
+        "Harper",
+        "grammar checker",
+        "open source",
+        "Automattic",
+        "Grammarly alternative",
+        "privacy"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "Harper 徹底分析：Automatticが買収したオープンソースの文法チェッカーがGrammarlyに挑戦する理由",
+      "description": "Harperは無料、オープンソース、完全ローカル動作の英語文法チェッカーで、Rustで書かれ、2024年末にWordPressの親会社Automatticに買収されました。本記事では公式リポジトリ、公式サイト、複数の報道を基に、技術原理、ビジネスロジック、そして現実的な短所を深く分析します。"
+    },
+    {
+      "slug": "qwen3-4b-claude-fable5-distill-2026-07-03",
+      "date": "2026-06-30",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "人工智能",
+        "大型语言模型",
+        "模型蒸馏",
+        "Qwen3-4B",
+        "克劳德幻境5",
+        "自一致性",
+        "AI可靠性",
+        "模型优化"
+      ],
+      "categories": [
+        "深度分析",
+        "技术突破",
+        "AI前沿"
+      ],
+      "title": "Qwen3-4B 克劳德幻境5推理踪迹蒸馏：100%自一致性的突破",
+      "description": "深度解析@waterloo_intern团队利用2.3M克劳德幻境5推理轨迹蒸馏Qwen3-4B，实现100%自一致性、零觅语变异的突破性成果。以下全面分析技术细节、业务影响和长远意义。"
+    },
+    {
+      "slug": "cryptopulse-daily-report-2026-05-12",
+      "date": "2026-05-12",
+      "author": "CryptoPulse",
+      "tags": [
+        "CryptoPulse",
+        "BTC",
+        "ETH",
+        "DeFi",
+        "Market Analysis",
+        "Bitcoin Cycle",
+        "Cryptocurrency"
+      ],
+      "categories": [
+        "Daily Report"
+      ],
+      "title": "CryptoPulse デイリーレポート - 2026年5月12日",
+      "description": "CryptoPulse暗号化通貨市場デイリーレポート。BTCサイクル分析、オンチェーンメトリクス、DeFi市場データ、最新ニュースを含む。"
+    },
+    {
+      "slug": "html-hacking-ai-output-bandwidth-2026-05-11",
+      "date": "2026-05-11",
+      "author": "TopDigg",
+      "tags": [
+        "AI",
+        "Human-AI Interaction",
+        "HTML",
+        "Karpathy",
+        "Multimodal AI"
+      ],
+      "categories": [
+        "Deep Analysis"
+      ],
+      "title": "AI出力帯域幅の「HTMLハッカー時代」：Karpathyの投稿がインターフェースボトルネックを白ocopeyした",
+      "description": "KarpathyとThariqのHTMLテクニックの背後にある人と機械のインターフェース帯域幅の非対称性、そしてAI経済モデルへの深い影響の分析。"
+    },
+    {
+      "slug": "youware-analysis-report-2025-08-31",
+      "date": "2025-08-31",
+      "author": "ERIC",
+      "tags": [
+        "AI Tools",
+        "Coding Platform",
+        "Code Deployment",
+        "YouWare",
+        "AI Coding",
+        "Creator Community",
+        "Technology Innovation",
+        "Sandbox Engine"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "YouWare AIプログラミングコミュニティプラットフォーム徹底分析レポート：2025年最もホットなAIプログラミング創作プラットフォーム完全レビュー",
+      "description": "YouWare AIプログラミングコミュニティプラットフォームの完全レビュー。製品機能分析、ビジネスモデル研究、技術アーキテクチャ解析、競争優位性評価、市場見通し予測を含む。わずか2カ月で8000万ドルの評価額を達成したAIプログラミングプラットフォームが、従来のプログラミング手法を覆す。"
+    },
+    {
+      "slug": "grammarly-analysis-report-2025-08-29",
+      "date": "2025-08-29",
+      "author": "ERIC",
+      "tags": [
+        "AI Tools",
+        "Writing Assistant",
+        "Grammar Check",
+        "Grammarly",
+        "Workplace Productivity",
+        "AI Writing",
+        "English Learning",
+        "Business Writing"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "Grammarly AIライティングアシスタント徹底分析レポート：2025年、4000万ユーザーに信頼されるスマートライティング専門家の完全レビュー",
+      "description": "Grammarly AIライティングアシスタントプラットフォームの完全レビュー。製品機能分析、ビジネスモデル研究、技術アーキテクチャ解説、競争優位性の評価、市場展望の予測を収録。世界最大のAIライティングアシスタントプラットフォームであり、学生、ビジネスパーソン、企業チームに最適です。"
+    },
+    {
+      "slug": "otter-ai-analysis-report-2025-08-28",
+      "date": "2025-08-28",
+      "author": "ERIC",
+      "tags": [
+        "AI Tools",
+        "Meeting Assistant",
+        "Speech Transcription",
+        "Otter.ai",
+        "Office Productivity",
+        "AI Transcription",
+        "Meeting Notes",
+        "Smart Summaries"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "Otter.ai AI会議アシスタントプラットフォーム徹底分析レポート：2025年95%精度のスマート書き起こし専門家の完全レビュー",
+      "description": "Otter.ai AI会議アシスタントプラットフォームの完全レビュー。ビジネスモデル分析、技術アーキテクチャ評価、競合優位性分析、市場見通し予測を含む。95%の書き起こし精度を持つリアルタイム会議記録の達人。企業コラボレーションと業務効率向上に適しています。"
+    },
+    {
+      "slug": "polybuzz-ai-analysis-report-2025-08-25",
+      "date": "2025-08-25",
+      "author": "ERIC",
+      "tags": [
+        "AI Tools",
+        "Character Chat",
+        "AI Conversation",
+        "PolyBuzz",
+        "Virtual Characters",
+        "AI Entertainment",
+        "Chatbot",
+        "Role-Playing"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "PolyBuzz AI キャラクター チャット プラットフォーム徹底分析レポート：2025年、2,000万キャラクター ライブラリを誇るAI会話のイノベーター完全レビュー",
+      "description": "PolyBuzz AI キャラクター チャット プラットフォームの完全レビュー。ビジネスモデル分析、技術アーキテクチャ評価、競争優位性分析、市場見通し予測を含む。2,000万を超えるAIキャラクターを擁する革新的なチャット プラットフォーム。娯楽、創作、ロールプレイに最適。"
+    },
+    {
+      "slug": "chub-ai-analysis-report-2025-08-24",
+      "date": "2025-08-24",
+      "author": "ERIC",
+      "tags": [
+        "AI Chat",
+        "Character Customization",
+        "Chub.ai",
+        "AI Characters",
+        "Chatbot",
+        "Character AI",
+        "Uncensored",
+        "AI Platform"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "Chub.ai プラットフォーム徹底レビュー：2025年AIキャラクターチャット領域のプロフェッショナルプラットフォーム完全分析レポート",
+      "description": "Chub.ai AIキャラクターチャットプラットフォームの完全レビュー。AIキャラクターのカスタマイズ、無検閲対話、マルチAPI対応、分岐対話システム、技術アーキテクチャ、ビジネスモデル、市場パフォーマンスの分析を網羅。高度にカスタマイズ可能なAI対話体験を提供するプロフェッショナルなAIキャラクター作成プラットフォームを詳細に解説。"
+    },
+    {
+      "slug": "prolific-analysis-report-2025-08-24",
+      "date": "2025-08-24",
+      "author": "ERIC",
+      "tags": [
+        "AI Tools",
+        "Data Collection",
+        "Research Platform",
+        "Prolific",
+        "Human Data",
+        "AI Training",
+        "Academic Research",
+        "Data Quality"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "Prolific AI データ収集プラットフォーム徹底分析レポート：2025年高品質なヒューマン データ サービス リーダーの完全レビュー",
+      "description": "Prolific AI データ収集プラットフォームの完全レビュー。ビジネス モデル分析、技術アーキテクチャ評価、競争優位性分析、市場見通し予測を含む。学術研究、AIトレーニング、製品開発に適したプロフェッショナルなヒューマン データ収集サービス。"
+    },
+    {
+      "slug": "crushon-ai-analysis-report-2025-08-23",
+      "date": "2025-08-23",
+      "author": "ERIC",
+      "tags": [
+        "AI Chat",
+        "Virtual Characters",
+        "CrushOn",
+        "AI Companion",
+        "Chatbot",
+        "Character AI",
+        "Emotional Companionship",
+        "AI Entertainment"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "CrushOn.AIプラットフォーム徹底レビュー：2025年AIバーチャルキャラクターチャット分野のトッププロダクト完全分析レポート",
+      "description": "CrushOn.AIバーチャルキャラクターチャットプラットフォームの完全レビュー。AIチャット機能、キャラクターカスタマイズ、コミュニティ交流、技術アーキテクチャ、ビジネスモデル、市場パフォーマンスを分析。ユーザーに無制限のバーチャルキャラクター交流体験を提供するプロのAIコンパニオン製品の詳細解説。"
+    },
+    {
+      "slug": "gauthmath-analysis-report-2025-08-23",
+      "date": "2025-08-23",
+      "author": "ERIC",
+      "tags": [
+        "AI Education",
+        "Online Tutoring",
+        "Gauth",
+        "Photo Question Search",
+        "Study Tools",
+        "AI Problem Solving",
+        "Student Tutoring",
+        "EdTech"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "Gauth AIオンライン宿題チュータープラットフォーム徹底レビュー：2025年の学生必携AIアシスタント完全分析レポート",
+      "description": "Gauth AIオンライン宿題チュータープラットフォームの完全レビュー。AIスマート解法、写真問題検索、マルチカバレッジ科目、エキスパートチューター、技術アーキテクチャ、ビジネスモデル、市場分析を含む。学生向け即時・正確な学習サポートを提供するプロフェッショナルな学習補助ツールの詳細分析。"
+    },
+    {
+      "slug": "beacons-ai-analysis-report-2025-08-22",
+      "date": "2025-08-22",
+      "author": "ERIC",
+      "tags": [
+        "Creator Tools",
+        "Link-in-Bio",
+        "Beacons.ai",
+        "AI",
+        "Creator Economy",
+        "Email Marketing",
+        "Creator Store",
+        "Social Media"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "Beacons.ai クリエイター向けオールインワン・ビジネスプラットフォーム徹底レビュー：2025年クリエイターエコノミー必携ツールの完全分析レポート",
+      "description": "Beacons.ai クリエイター向けオールインワン・ビジネスプラットフォームの完全レビュー。AI機能、Link-in-Bio、クリエイターストア、メールマーケティング、価格戦略、競合比較、市場分析を網羅。$29.8Mの資金調達を背景に急成長する業界の新星をプロフェッショナルな視点で詳細解説。"
+    },
+    {
+      "slug": "framer-analysis-report-2025-08-21",
+      "date": "2025-08-21",
+      "author": "ERIC",
+      "tags": [
+        "No-Code Tools",
+        "Website Building",
+        "Framer",
+        "Design Tools",
+        "AI Website Building",
+        "Figma Integration",
+        "Web Design",
+        "Startup Tools"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "Framer.com ノーコードWebサイトデザインプラットフォーム徹底レビュー：2025年デザイナーが選ぶWebサイト作成ツールの総合分析レポート",
+      "description": "Framer.com ノーコードWebサイトデザインプラットフォームの完全レビュー。Figma連携、AI機能、価格戦略、競合比較、市場分析を網羅。プロ向けデザイナーWebサイト作成ツール、$62.6Mの資金調達を背景に台頭する業界の新星を詳細に解説。"
+    },
+    {
+      "slug": "klaviyo-analysis-report-2025-08-21",
+      "date": "2025-08-21",
+      "author": "ERIC",
+      "tags": [
+        "B2C CRM",
+        "Email Marketing",
+        "Klaviyo",
+        "Marketing Automation",
+        "E-commerce Tools",
+        "SaaS Platform",
+        "Public Company",
+        "Investment Analysis"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "Klaviyo プラットフォーム徹底分析レポート：2025年 B2C CRMマーケティング分野のリーダー総合レビュー",
+      "description": "Klaviyo プラットフォームの完全レビュー。ビジネスモデル分析、中核機能の詳細解説、価格戦略、市場競争力、投資価値を収録。167,000以上のブランド顧客にサービスを提供するプロフェッショナルなB2C CRM・メールマーケティングプラットフォーム。"
+    },
+    {
+      "slug": "fandom-analysis-report-2025-08-20",
+      "date": "2025-08-20",
+      "author": "ERIC",
+      "tags": [
+        "Fandom",
+        "Fan Community",
+        "Wiki Platform",
+        "User-Generated Content",
+        "Entertainment Tech",
+        "Community Operations",
+        "Content Platform",
+        "Ad Monetization"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "Fandom.com徹底分析レポート：世界最大のファンコミュニティプラットフォームのビジネスモデルと成長戦略を完全解説",
+      "description": "Fandom.com完全レビュー分析。wikiプラットフォームのビジネスモデル、ユーザー成長戦略、技術アーキテクチャ、市場における競争上の地位、将来の発展機会を網羅。月間アクセス数3億超の世界最大のファン向けナレッジベースプラットフォームを深く解説します。"
+    },
+    {
+      "slug": "picwish-ai-analysis-report-2025-08-20",
+      "date": "2025-08-20",
+      "author": "ERIC",
+      "tags": [
+        "AI Tools",
+        "Photo Editor",
+        "Background Removal",
+        "PicWish",
+        "Image Processing",
+        "AI Editing",
+        "Online Tools",
+        "Photo Enhancement"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "PicWish AI写真エディタ徹底レビュー：2025年最も包括的なスマート画像処理ツール分析レポート",
+      "description": "PicWish AI写真エディタの完全レビュー。機能詳細、使用ガイド、価格分析、競合製品比較を含む。背景除去、画像拡張、オブジェクト除去などのスマート機能をサポートする、プロフェッショナルなAI駆動画像編集プラットフォーム。"
+    },
+    {
+      "slug": "transkriptor-analysis-report-2025-08-20",
+      "date": "2025-08-20",
+      "author": "ERIC",
+      "tags": [
+        "AI Tools",
+        "Speech Transcription",
+        "Meeting Notes",
+        "Transkriptor",
+        "Speech Recognition",
+        "Text Conversion",
+        "Business Tools",
+        "AI Transcription"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "Transkriptor AI転写サービス徹底レビュー：2025年最も包括的なインテリジェント音声テキスト変換ツール分析レポート",
+      "description": "Transkriptor AI転写サービスの完全レビュー。機能詳細、料金分析、競合製品比較、使用ガイドを含む。100以上の言語に対応する99%精度のAI駆動音声テキスト変換プラットフォーム。ビジネス会議、教育訓練、コンテンツ制作に適しています。"
+    },
+    {
+      "slug": "imagetovideomaker-analysis-report-2025-08-19",
+      "date": "2025-08-19",
+      "author": "ERIC",
+      "tags": [
+        "AI Tools",
+        "Video Generator",
+        "AI Video",
+        "ImageToVideoMaker",
+        "Content Creation",
+        "Veo3",
+        "Kling",
+        "Hailuo",
+        "Multi-Model Platform"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "ImageToVideoMaker AI動画生成器徹底レビュー：2025年最も包括的なマルチモデルAI動画制作プラットフォーム分析レポート",
+      "description": "ImageToVideoMaker AI動画生成器の完全レビュー。5大AIモデルの比較、機能詳細解説、使用ガイド、長所短所の分析、市場競争分析を含む。プロのAI駆動動画生成ツール、テキストと画像から動画変換をサポート、コンテンツクリエイター、マーケティング担当者、プロフェッショナル制作者に適する。"
+    },
+    {
+      "slug": "3dlogolab-analysis-report-2025-08-18",
+      "date": "2025-08-18",
+      "author": "ERIC",
+      "tags": [
+        "3D Logo Design",
+        "Logo Animation",
+        "Brand Design Tools",
+        "3DLogoLab",
+        "Chrome Effects",
+        "360-Degree Rotation"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "3DLogoLab 徹底分析レポート：2025年で最もプロフェッショナルな2Dから3Dへのロゴアニメーション生成ツールを完全解説",
+      "description": "3DLogoLabプラットフォームの徹底調査レポート。機能分析、ターゲットユーザー層、技術アーキテクチャ、市場ポジショニング、長所と短所の分析、業界機会の探求を含む。プロフェッショナルな3Dロゴアニメーション生成ツールのレビュー。"
+    },
+    {
+      "slug": "shortcut-ai-analysis-report-2025-08-18",
+      "date": "2025-08-18",
+      "author": "ERIC",
+      "tags": [
+        "AI Excel Assistant",
+        "AI Tools",
+        "Shortcut AI",
+        "Spreadsheet Automation",
+        "AI Productivity Tools"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "Shortcut AI 徹底分析レポート：2025年 AI Excel スマートアシスタントの総合解析と市場機会探求",
+      "description": "Shortcut AI プラットフォームの詳細調査レポート。機能分析、ターゲット ユーザー層、SEO 戦略、市場ポジショニング、強みと弱みの分析、業界機会の発見を含む。"
+    },
+    {
+      "slug": "gencolor-ai-analysis-report-2025-08-17",
+      "date": "2025-08-17",
+      "author": "ERIC",
+      "tags": [
+        "AI Tools",
+        "Coloring Page Generator",
+        "Children's Education",
+        "GenColor.ai",
+        "Creative Design",
+        "Art Therapy",
+        "Online Tools",
+        "Free AI"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "GenColor.ai AI塗り絵ジェネレーター徹底レビュー：2025年最も包括的なスマート塗り絵ツール分析レポート",
+      "description": "GenColor.ai AI塗り絵ジェネレーターの完全レビュー。機能詳細解説、使用ガイド、長所と短所の分析、市場競争分析を含む。子供教育、芸術治療、クリエイティブデザインに適したプロフェッショナルAI駆動塗り絵生成ツール。"
+    },
+    {
+      "slug": "hitem3d-analysis-report-2025-08-17",
+      "date": "2025-08-17",
+      "author": "ERIC",
+      "tags": [
+        "AI 3D Modeling",
+        "Artificial Intelligence Tools",
+        "Hitem3D",
+        "3D Model Generator",
+        "AI Tools"
+      ],
+      "categories": [
+        "Review"
+      ],
+      "title": "Hitem3D徹底分析レポート：2025年AI 3Dモデル生成プラットフォームの完全解説と市場機会の探求",
+      "description": "Hitem3Dプラットフォームの詳細調査レポート。機能分析、ターゲットユーザー層、SEO戦略、市場ポジショニング、長所と短所の分析、業界機会の探求を含む。"
+    },
+    {
+      "slug": "mindvideo-ai-analysis-report",
+      "date": "2025-08-16",
+      "author": "ERIC",
+      "tags": [
+        "AI Video Generation",
+        "MindVideo AI",
+        "Artificial Intelligence",
+        "Video Creation",
+        "Content Creation",
+        "Digital Marketing",
+        "Creative Tools",
+        "Free AI Tools"
+      ],
+      "categories": [
+        "Reviews"
+      ],
+      "title": "MindVideo AI詳細分析レポート：2025年無料AI動画生成プラットフォームの包括的解析と市場機会の探索",
+      "description": "MindVideo AIプラットフォームの詳細調査レポート。機能分析、ターゲットユーザー群、SEO戦略、市場ポジショニング、長所・短所分析、業界機会の発掘を含む。AI動画生成分野における新興プラットフォームの発展可能性を全面的に解析。"
+    },
+    {
+      "slug": "remove-bg-report",
+      "date": "2025-08-10T13:40:26.595Z",
+      "author": "TopDigg",
+      "tags": [
+        "AI Technology",
+        "Image Processing",
+        "Business Monetization",
+        "Startup Guide"
+      ],
+      "categories": [],
+      "title": "2025年AI背景除去技術レポート：アルゴリズム原理からビジネス化まで",
+      "description": "AI背景除去技術の最新進展、アプリケーションパターン、ビジネス化パスを包括的に分析し、起業家向け実践ガイドを提供。"
+    },
+    {
+      "slug": "easemate-ai-research-report",
+      "date": "2025-01-14",
+      "author": "ERIC",
+      "tags": [
+        "Artificial Intelligence",
+        "AI Assistant",
+        "EaseMate AI",
+        "ChatGPT Alternative",
+        "AI Tools",
+        "Product Analysis",
+        "Market Research",
+        "Competitive Analysis"
+      ],
+      "categories": [],
+      "title": "EaseMate AI詳細調査分析レポート：2025年オールインワンAIアシスタントプラットフォーム完全分析",
+      "description": "EaseMate AIプラットフォームの完全調査レポート。機能分析、ターゲットユーザー像、SEO戦略、トラフィック性能、競争優位性、市場機会分析を含む。複数のAIモデルを統合した無料ツールプラットフォームの専門的解説。"
+    },
+    {
+      "slug": "web-traffic-opportunities-2025",
+      "date": "2024-12-15T10:00:00.000Z",
+      "author": "TopDigg",
+      "tags": [
+        "growth",
+        "SEO",
+        "traffic monetization"
+      ],
+      "categories": [],
+      "title": "2025年にWebトラフィックのビジネスチャンスを体系的に発掘する方法",
+      "description": "チャネルマッピングからプロダクト検証まで、トラフィック→ユーザー→収益へのパスを体系的に解説。"
+    },
+    {
+      "slug": "seo-content-framework",
+      "date": "2024-12-10T08:00:00.000Z",
+      "author": "TopDigg",
+      "tags": [
+        "SEO",
+        "content strategy"
+      ],
+      "categories": [],
+      "title": "実践：再利用可能なSEOコンテンツ制作フレームワーク",
+      "description": "トピッククラスター、内部リンクトポロジー、構造化データ、レビューメカニズム。"
+    }
+  ]
+}
