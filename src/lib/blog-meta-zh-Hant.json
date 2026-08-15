@@ -1,6 +1,59 @@
 {
   "posts": [
     {
+      "slug": "2026-08-15-holaos-analysis",
+      "date": "2026-08-15",
+      "author": "TopDigg",
+      "tags": [
+        "holaOS",
+        "Holaboss",
+        "AI Agent",
+        "Agent Workspace",
+        "Agent OS",
+        "Electron",
+        "TypeScript",
+        "Claude Code",
+        "Codex",
+        "MCP",
+        "Skills",
+        "Shared Memory",
+        "Local-First",
+        "BYOK",
+        "HolaApps",
+        "Design Philosophy"
+      ],
+      "categories": [
+        "Deep Dive",
+        "AI Agent",
+        "Open Source"
+      ],
+      "title": "holaOS 深度解析：屬於你和你的 Agent 的電腦——一個開源的全能 AI Agent 工作空間",
+      "description": "深入解析 holaboss-ai/holaOS（7.4k Stars 開源專案，Electron + TypeScript）：開源的全能 AI Agent 工作空間——在一個本地優先的工作空間裡執行任何 Agent（Claude Code、Codex、holaOS 內建 Agent），共享同一份記憶、同一套工具、同一個工作區。核心思想：'The Computer for You and Your Agent'（屬於你和你的 Agent 的電腦）——Agent 時代的主角不是聊天視窗，而是一台你可以與 Agent 共同使用的電腦；真正有價值的不是模型本身（模型已商品化），而是 Agent 之上的工作空間層：共享記憶、真實應用介面（HolaApps）、可讓 Agent 操作的完整工作站。專案說明：本地優先的 Electron 桌面應用 + 程序內執行時（runtime/{harnesses,harness-host,api-server,state-store}），bun + turbo monorepo；六大特性——執行任何 Agent、一份記憶所有 Agent 共享、模型內建或 BYOK、HolaApps 真實應用介面、Skills/Integrations/MCP 一次教學處處重用、整個工作站可被 Agent 操作（真實瀏覽器/前沿生成/真實交付物/任意聊天入口/自動化）；三形態交付（桌面 App/開源自託管/企業版 SSO）。詳細教學：一鍵安裝（install.sh）、手動安裝全流程（desktop:install → .env → prepare-runtime:local → typecheck → dev）、執行時捆綁（自包含 runtime：API + 內建 Node/npm + 內建 Python）、hola CLI 偵錯 pi 大腦、打包發布（dist:mac/dist:win、CI 簽名公證、YYYY.MDD.R 版本號）、安全模型（contextIsolation/nodeIntegration/webviewTag）。設計哲學：本地優先與資料所有權、Agent 無關（無鎖定）、共享上下文優於 Agent 孤島、真實介面而非聊天記錄、一次教學處處重用、零設定預設 + BYOK 彈性、自包含執行時、安全至上、人在迴路。觀點歸納：Agent OS 是下一個平台層；記憶是護城河；模型商品化後工作空間層捕獲價值；開源 + 託管的雙路徑；自包含執行時是 AI 工作空間的務實選擇。"
+    },
+    {
+      "slug": "2026-08-15-omarchy-linux-distribution",
+      "date": "2026-08-15",
+      "author": "TopDigg",
+      "tags": [
+        "Omarchy",
+        "Linux",
+        "DHH",
+        "Basecamp",
+        "Hyprland",
+        "Window Management",
+        "Arch Linux",
+        "AI Programming"
+      ],
+      "categories": [
+        "Linux Distribution",
+        "Developer Tools",
+        "Operating Systems",
+        "Productivity Tools"
+      ],
+      "title": "Omarchy：來自 DHH 的美麗、現代固執己見的 Linux 發行版",
+      "description": "深入解析 Basecamp DHH 打造的 Omarchy Linux 發行版：固執己見的設計哲學、強大功能、入門教程，以及它如何重新定義現代 Linux 桌面體驗"
+    },
+    {
       "slug": "2026-08-14-agent-collaboration-protocol",
       "date": "2026-08-14",
       "author": "TopDigg",

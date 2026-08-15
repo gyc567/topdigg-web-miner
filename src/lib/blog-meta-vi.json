@@ -1,6 +1,59 @@
 {
   "posts": [
     {
+      "slug": "2026-08-15-holaos-analysis",
+      "date": "2026-08-15",
+      "author": "TopDigg",
+      "tags": [
+        "holaOS",
+        "Holaboss",
+        "AI Agent",
+        "Agent Workspace",
+        "Agent OS",
+        "Electron",
+        "TypeScript",
+        "Claude Code",
+        "Codex",
+        "MCP",
+        "Skills",
+        "Shared Memory",
+        "Local-First",
+        "BYOK",
+        "HolaApps",
+        "Design Philosophy"
+      ],
+      "categories": [
+        "Deep Dive",
+        "AI Agent",
+        "Open Source"
+      ],
+      "title": "holaOS Phân Tích Chuyên Sâu: Chiếc Máy Tính Của Bạn Và Agent Của Bạn — Không Gian Làm Việc AI Agent Toàn Diện Mã Nguồn Mở",
+      "description": "Phân tích chuyên sâu holaboss-ai/holaOS (dự án mã nguồn mở 7.4k sao, Electron + TypeScript): không gian làm việc AI agent toàn diện mã nguồn mở — chạy bất kỳ agent nào (Claude Code, Codex, hoặc agent holaOS tích hợp) trong một không gian làm việc local-first, chia sẻ cùng một bộ nhớ, cùng bộ công cụ, cùng không gian làm việc. Ý tưởng cốt lõi: 'The Computer for You and Your Agent' (Chiếc máy tính của bạn và agent của bạn) — nhân vật chính của kỷ nguyên agent không phải là cửa sổ chat mà là một chiếc máy tính bạn dùng chung với agent của mình; thứ thực sự tạo giá trị không phải bản thân mô hình (mô hình đã bị hàng hóa hóa) mà là lớp không gian làm việc phía trên agent: bộ nhớ dùng chung, giao diện ứng dụng thực (HolaApps), và một máy trạm hoàn chỉnh mà agent có thể thao tác. Giới thiệu dự án: ứng dụng desktop Electron local-first + runtime trong tiến trình (runtime/{harnesses,harness-host,api-server,state-store}), monorepo bun + turbo; sáu tính năng cốt lõi — chạy bất kỳ agent nào, một bộ nhớ cho mọi agent, mô hình tích hợp sẵn hoặc BYOK, HolaApps giao diện ứng dụng thực, Skills/Integrations/MCP dạy một lần dùng mọi nơi, toàn bộ máy trạm agent thao tác được (trình duyệt thực / tạo sinh tiên phong / sản phẩm giao thực / mọi cửa ngõ chat / tự động hóa); ba hình thức cung cấp (desktop app / tự lưu trữ mã nguồn mở / doanh nghiệp SSO). Hướng dẫn chi tiết: cài đặt một dòng (install.sh), toàn bộ quy trình cài đặt thủ công (desktop:install → .env → prepare-runtime:local → typecheck → dev), đóng gói runtime (runtime tự chứa: API + Node/npm nhúng + Python nhúng), gỡ lỗi bộ não pi bằng hola CLI, đóng gói và phát hành (dist:mac/dist:win, ký và công chứng CI, phiên bản YYYY.MDD.R), mô hình bảo mật (contextIsolation/nodeIntegration/webviewTag). Triết lý thiết kế: local-first và quyền sở hữu dữ liệu, không phụ thuộc agent (không khóa hãng), ngữ cảnh chia sẻ hơn các silo agent, giao diện thực thay vì chat, dạy một lần dùng mọi nơi, mặc định không cần cấu hình + linh hoạt BYOK, runtime tự chứa, bảo mật ưu tiên hàng đầu, con người trong vòng lặp. Tổng hợp quan điểm: Agent OS là lớp nền tảng tiếp theo; bộ nhớ là hào phòng thủ; lớp không gian làm việc bắt giá trị sau khi mô hình bị hàng hóa hóa; con đường kép mã nguồn mở + lưu trữ; runtime tự chứa là lựa chọn thực dụng cho không gian làm việc AI."
+    },
+    {
+      "slug": "2026-08-15-omarchy-linux-distribution",
+      "date": "2026-08-15",
+      "author": "TopDigg",
+      "tags": [
+        "Omarchy",
+        "Linux",
+        "DHH",
+        "Basecamp",
+        "Hyprland",
+        "Window Management",
+        "Arch Linux",
+        "AI Programming"
+      ],
+      "categories": [
+        "Linux Distribution",
+        "Developer Tools",
+        "Operating Systems",
+        "Productivity Tools"
+      ],
+      "title": "Omarchy: Bản phân phối Linux Đẹp, Hiện đại và Có Chính Kiến của DHH",
+      "description": "Phân tích chuyên sâu về bản phân phối Linux Omarchy của Basecamp DHH: Triết lý thiết kế có chính kiến, tính năng mạnh mẽ, hướng dẫn bắt đầu, và cách nó định nghĩa lại trải nghiệm desktop Linux hiện đại"
+    },
+    {
       "slug": "2026-08-14-agent-collaboration-protocol",
       "date": "2026-08-14",
       "author": "TopDigg",

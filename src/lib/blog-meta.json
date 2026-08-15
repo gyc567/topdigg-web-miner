@@ -1,6 +1,83 @@
 {
   "posts": [
     {
+      "slug": "2026-08-15-holaos-analysis",
+      "title": {
+        "en": "holaOS Deep Dive: The Computer for You and Your Agent — an Open-Source All-in-One AI Agent Workspace",
+        "ja": "holaOS 徹底解説：あなたとあなたのエージェントのためのコンピュータ——オープンソースのオールインワン AI エージェントワークスペース",
+        "vi": "holaOS Phân Tích Chuyên Sâu: Chiếc Máy Tính Của Bạn Và Agent Của Bạn — Không Gian Làm Việc AI Agent Toàn Diện Mã Nguồn Mở",
+        "zh-Hans": "holaOS 深度解析：属于你和你的 Agent 的电脑——一个开源的全能 AI Agent 工作空间",
+        "zh-Hant": "holaOS 深度解析：屬於你和你的 Agent 的電腦——一個開源的全能 AI Agent 工作空間"
+      },
+      "description": {
+        "en": "An in-depth analysis of holaboss-ai/holaOS (7.4k-star open source project, Electron + TypeScript): an open-source all-in-one AI agent workspace — run any agent (Claude Code, Codex, or the built-in holaOS agent) in one local-first workspace, over your tools, your files, and one shared memory. Core idea: 'The Computer for You and Your Agent' — the protagonist of the agent era is not a chat window but a computer you share with your agents; what actually captures value is not the model itself (models are commoditized) but the workspace layer above agents: shared memory, real application surfaces (HolaApps), and a full workstation agents can operate. Project overview: local-first Electron desktop app + in-process runtime (runtime/{harnesses,harness-host,api-server,state-store}), bun + turbo monorepo; six core features — run any agent, one memory shared by every agent, models built-in or BYOK, HolaApps real application surfaces, Skills/Integrations/MCP teach-once-reuse-everywhere, an entire workstation operable by agents (real browser / frontier generation / real deliverables / any chat entry / automation); three delivery forms (desktop app / open-source self-host / enterprise SSO). Detailed tutorial: one-line install (install.sh), full manual install flow (desktop:install → .env → prepare-runtime:local → typecheck → dev), runtime bundling (self-contained runtime: API + bundled Node/npm + bundled Python), debugging the pi brain with the hola CLI, packaging & release (dist:mac/dist:win, CI signing & notarization, YYYY.MDD.R versioning), security model (contextIsolation/nodeIntegration/webviewTag). Design philosophy: local-first & data ownership, agent-agnostic (no lock-in), shared context over agent silos, real surfaces not chat, teach once reuse everywhere, zero-setup default + BYOK flexibility, self-contained runtime, security-first, human-in-the-loop. Key viewpoints: Agent OS is the next platform layer; memory is the moat; the workspace layer captures value once models are commoditized; the open-source + hosted dual path; self-contained runtime as the pragmatic choice for AI workspaces.",
+        "ja": "holaboss-ai/holaOS（7.4k Stars のオープンソースプロジェクト、Electron + TypeScript）を徹底解説：オープンソースのオールインワン AI エージェントワークスペース——ローカルファーストの単一ワークスペースで任意のエージェント（Claude Code、Codex、内蔵 holaOS エージェント）を実行し、同じメモリ・同じツール・同じワークスペースを共有。コア思想：'The Computer for You and Your Agent'（あなたとあなたのエージェントのためのコンピュータ）——エージェント時代の主役はチャットウィンドウではなく、エージェントと共有するコンピュータ。真に価値を生むのはモデルそのもの（モデルはコモディティ化している）ではなく、エージェントの上のワークスペース層：共有メモリ、実アプリケーションの UI（HolaApps）、エージェントが操作できる完全なワークステーション。プロジェクト説明：ローカルファーストの Electron デスクトップアプリ + プロセス内ランタイム（runtime/{harnesses,harness-host,api-server,state-store}）、bun + turbo monorepo。6 大機能——任意のエージェントを実行、1 つのメモリを全エージェントで共有、モデル内蔵または BYOK、HolaApps の実 UI、Skills/Integrations/MCP の一度教えたらどこでも再利用、エージェントが操作できる完全なワークステーション（実ブラウザ/最先端生成/実成果物/任意のチャット導線/自動化）。3 形態の提供（デスクトップ App/オープンソースのセルフホスト/エンタープライズ SSO）。詳細チュートリアル：ワンラインインストール（install.sh）、手動インストールの全フロー（desktop:install → .env → prepare-runtime:local → typecheck → dev）、ランタイムバンドル（自己完結 runtime：API + 同梱 Node/npm + 同梱 Python）、hola CLI による pi ブレインのデバッグ、パッケージングとリリース（dist:mac/dist:win、CI 署名と公証、YYYY.MDD.R バージョニング）、セキュリティモデル（contextIsolation/nodeIntegration/webviewTag）。設計哲学：ローカルファーストとデータ所有権、エージェント非依存（ロックインなし）、サイロより共有コンテキスト、チャットでなく実 UI、一度教えたらどこでも再利用、ゼロセットアップデフォルト + BYOK の柔軟性、自己完結ランタイム、セキュリティ最優先、ヒューマン・イン・ザ・ループ。論点まとめ：Agent OS が次のプラットフォーム層；メモリが堀（モート）；モデル商品化後はワークスペース層が価値を捕捉；オープンソース + ホステッドの二軸戦略；自己完結ランタイムは AI ワークスペースの現実解。",
+        "vi": "Phân tích chuyên sâu holaboss-ai/holaOS (dự án mã nguồn mở 7.4k sao, Electron + TypeScript): không gian làm việc AI agent toàn diện mã nguồn mở — chạy bất kỳ agent nào (Claude Code, Codex, hoặc agent holaOS tích hợp) trong một không gian làm việc local-first, chia sẻ cùng một bộ nhớ, cùng bộ công cụ, cùng không gian làm việc. Ý tưởng cốt lõi: 'The Computer for You and Your Agent' (Chiếc máy tính của bạn và agent của bạn) — nhân vật chính của kỷ nguyên agent không phải là cửa sổ chat mà là một chiếc máy tính bạn dùng chung với agent của mình; thứ thực sự tạo giá trị không phải bản thân mô hình (mô hình đã bị hàng hóa hóa) mà là lớp không gian làm việc phía trên agent: bộ nhớ dùng chung, giao diện ứng dụng thực (HolaApps), và một máy trạm hoàn chỉnh mà agent có thể thao tác. Giới thiệu dự án: ứng dụng desktop Electron local-first + runtime trong tiến trình (runtime/{harnesses,harness-host,api-server,state-store}), monorepo bun + turbo; sáu tính năng cốt lõi — chạy bất kỳ agent nào, một bộ nhớ cho mọi agent, mô hình tích hợp sẵn hoặc BYOK, HolaApps giao diện ứng dụng thực, Skills/Integrations/MCP dạy một lần dùng mọi nơi, toàn bộ máy trạm agent thao tác được (trình duyệt thực / tạo sinh tiên phong / sản phẩm giao thực / mọi cửa ngõ chat / tự động hóa); ba hình thức cung cấp (desktop app / tự lưu trữ mã nguồn mở / doanh nghiệp SSO). Hướng dẫn chi tiết: cài đặt một dòng (install.sh), toàn bộ quy trình cài đặt thủ công (desktop:install → .env → prepare-runtime:local → typecheck → dev), đóng gói runtime (runtime tự chứa: API + Node/npm nhúng + Python nhúng), gỡ lỗi bộ não pi bằng hola CLI, đóng gói và phát hành (dist:mac/dist:win, ký và công chứng CI, phiên bản YYYY.MDD.R), mô hình bảo mật (contextIsolation/nodeIntegration/webviewTag). Triết lý thiết kế: local-first và quyền sở hữu dữ liệu, không phụ thuộc agent (không khóa hãng), ngữ cảnh chia sẻ hơn các silo agent, giao diện thực thay vì chat, dạy một lần dùng mọi nơi, mặc định không cần cấu hình + linh hoạt BYOK, runtime tự chứa, bảo mật ưu tiên hàng đầu, con người trong vòng lặp. Tổng hợp quan điểm: Agent OS là lớp nền tảng tiếp theo; bộ nhớ là hào phòng thủ; lớp không gian làm việc bắt giá trị sau khi mô hình bị hàng hóa hóa; con đường kép mã nguồn mở + lưu trữ; runtime tự chứa là lựa chọn thực dụng cho không gian làm việc AI.",
+        "zh-Hans": "深入解析 holaboss-ai/holaOS（7.4k Stars 开源项目，Electron + TypeScript）：开源的全能 AI Agent 工作空间——在一个本地优先的工作空间里运行任何 Agent（Claude Code、Codex、holaOS 内置 Agent），共享同一份内存、同一套工具、同一个工作区。核心思想：'The Computer for You and Your Agent'（属于你和你的 Agent 的电脑）——Agent 时代的主角不是聊天窗口，而是一台你可以与 Agent 共同使用的电脑；真正有价值的不是模型本身（模型已商品化），而是 Agent 之上的工作空间层：共享内存、真实应用界面（HolaApps）、可让 Agent 操作的完整工作站。项目说明：本地优先的 Electron 桌面应用 + 进程内运行时（runtime/{harnesses,harness-host,api-server,state-store}），bun + turbo monorepo；六大特性——运行任何 Agent、一份内存所有 Agent 共享、模型内置或 BYOK、HolaApps 真实应用界面、Skills/Integrations/MCP 一次教学处处复用、整个工作站可被 Agent 操作（真实浏览器/前沿生成/真实交付物/任意聊天入口/自动化）；三形态交付（桌面 App/开源自托管/企业版 SSO）。详细教程：一键安装（install.sh）、手动安装全流程（desktop:install → .env → prepare-runtime:local → typecheck → dev）、运行时捆绑（自包含 runtime：API + 内置 Node/npm + 内置 Python）、hola CLI 调试 pi 大脑、打包发布（dist:mac/dist:win、CI 签名公证、YYYY.MDD.R 版本号）、安全模型（contextIsolation/nodeIntegration/webviewTag）。设计哲学：本地优先与数据所有权、Agent 无关（无锁定）、共享上下文优于 Agent 孤岛、真实界面而非聊天记录、一次教学处处复用、零设置默认 + BYOK 灵活、自包含运行时、安全至上、人在回路。观点归纳：Agent OS 是下一个平台层；内存是护城河；模型商品化后工作空间层捕获价值；开源 + 托管的双路径；自包含运行时是 AI 工作空间的务实选择。",
+        "zh-Hant": "深入解析 holaboss-ai/holaOS（7.4k Stars 開源專案，Electron + TypeScript）：開源的全能 AI Agent 工作空間——在一個本地優先的工作空間裡執行任何 Agent（Claude Code、Codex、holaOS 內建 Agent），共享同一份記憶、同一套工具、同一個工作區。核心思想：'The Computer for You and Your Agent'（屬於你和你的 Agent 的電腦）——Agent 時代的主角不是聊天視窗，而是一台你可以與 Agent 共同使用的電腦；真正有價值的不是模型本身（模型已商品化），而是 Agent 之上的工作空間層：共享記憶、真實應用介面（HolaApps）、可讓 Agent 操作的完整工作站。專案說明：本地優先的 Electron 桌面應用 + 程序內執行時（runtime/{harnesses,harness-host,api-server,state-store}），bun + turbo monorepo；六大特性——執行任何 Agent、一份記憶所有 Agent 共享、模型內建或 BYOK、HolaApps 真實應用介面、Skills/Integrations/MCP 一次教學處處重用、整個工作站可被 Agent 操作（真實瀏覽器/前沿生成/真實交付物/任意聊天入口/自動化）；三形態交付（桌面 App/開源自託管/企業版 SSO）。詳細教學：一鍵安裝（install.sh）、手動安裝全流程（desktop:install → .env → prepare-runtime:local → typecheck → dev）、執行時捆綁（自包含 runtime：API + 內建 Node/npm + 內建 Python）、hola CLI 偵錯 pi 大腦、打包發布（dist:mac/dist:win、CI 簽名公證、YYYY.MDD.R 版本號）、安全模型（contextIsolation/nodeIntegration/webviewTag）。設計哲學：本地優先與資料所有權、Agent 無關（無鎖定）、共享上下文優於 Agent 孤島、真實介面而非聊天記錄、一次教學處處重用、零設定預設 + BYOK 彈性、自包含執行時、安全至上、人在迴路。觀點歸納：Agent OS 是下一個平台層；記憶是護城河；模型商品化後工作空間層捕獲價值；開源 + 託管的雙路徑；自包含執行時是 AI 工作空間的務實選擇。"
+      },
+      "date": "2026-08-15",
+      "author": "TopDigg",
+      "tags": [
+        "holaOS",
+        "Holaboss",
+        "AI Agent",
+        "Agent Workspace",
+        "Agent OS",
+        "Electron",
+        "TypeScript",
+        "Claude Code",
+        "Codex",
+        "MCP",
+        "Skills",
+        "Shared Memory",
+        "Local-First",
+        "BYOK",
+        "HolaApps",
+        "Design Philosophy"
+      ],
+      "categories": [
+        "Deep Dive",
+        "AI Agent",
+        "Open Source"
+      ]
+    },
+    {
+      "slug": "2026-08-15-omarchy-linux-distribution",
+      "title": {
+        "en": "Omarchy: The Beautiful, Modern & Opinionated Linux Distribution by DHH",
+        "ja": "Omarchy：DHHが作成した美しくモダンなオピニオン的なLinuxディストリビューション",
+        "vi": "Omarchy: Bản phân phối Linux Đẹp, Hiện đại và Có Chính Kiến của DHH",
+        "zh-Hans": "Omarchy：来自 DHH 的美丽、现代、固执己见的 Linux 发行版",
+        "zh-Hant": "Omarchy：來自 DHH 的美麗、現代固執己見的 Linux 發行版"
+      },
+      "description": {
+        "en": "An in-depth analysis of Basecamp DHH's Omarchy Linux distribution: opinionated design philosophy, powerful features, getting started tutorial, and how it redefines the modern Linux desktop experience",
+        "ja": "BasecampのDHHが作成したOmarchy Linuxディストリビューションの詳細分析：オピニオンな設計哲学、強力な機能、チュートリアル、および現代的なLinuxデスクトップ体験の再定義",
+        "vi": "Phân tích chuyên sâu về bản phân phối Linux Omarchy của Basecamp DHH: Triết lý thiết kế có chính kiến, tính năng mạnh mẽ, hướng dẫn bắt đầu, và cách nó định nghĩa lại trải nghiệm desktop Linux hiện đại",
+        "zh-Hans": "深入解析 Basecamp DHH 打造的 Omarchy Linux 发行版：固执己见的设计哲学、强大功能、入门教程，以及它如何重新定义现代 Linux 桌面体验",
+        "zh-Hant": "深入解析 Basecamp DHH 打造的 Omarchy Linux 發行版：固執己見的設計哲學、強大功能、入門教程，以及它如何重新定義現代 Linux 桌面體驗"
+      },
+      "date": "2026-08-15",
+      "author": "TopDigg",
+      "tags": [
+        "Omarchy",
+        "Linux",
+        "DHH",
+        "Basecamp",
+        "Hyprland",
+        "Window Management",
+        "Arch Linux",
+        "AI Programming"
+      ],
+      "categories": [
+        "Linux Distribution",
+        "Developer Tools",
+        "Operating Systems",
+        "Productivity Tools"
+      ]
+    },
+    {
       "slug": "2026-08-14-agent-collaboration-protocol",
       "title": {
         "en": "Distributed Intelligence, Shared Protocol: How Bloome Designs Reliable Multi-Agent Collaboration",

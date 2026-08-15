@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-14T11:05:26.496Z
+Generated: 2026-08-15T06:43:54.495Z
 
 ## Site Overview
 
@@ -20,6 +20,18 @@ We cover trending topics and business opportunities across Reddit, YouTube, and 
 | External Links | https://topdigg.com/external-links | Curated external resources |
 
 ## Latest Blog Posts (10 most recent)
+
+### holaOS Deep Dive: The Computer for You and Your Agent — an Open-Source All-in-One AI Agent Workspace
+URL: https://topdigg.com/blog/2026-08-15-holaos-analysis | Date: 2026-08-15 | Author: TopDigg
+Tags: holaOS, Holaboss, AI Agent, Agent Workspace, Agent OS, Electron, TypeScript, Claude Code, Codex, MCP, Skills, Shared Memory, Local-First, BYOK, HolaApps, Design Philosophy
+
+An in-depth analysis of holaboss-ai/holaOS (7.4k-star open source project, Electron + TypeScript): an open-source all-in-one AI agent workspace — run any agent (Claude Code, Codex, or the built-in holaOS agent) in one local-first workspace, over your tools, your files, and one shared memory. Core id
+
+### Omarchy: The Beautiful, Modern & Opinionated Linux Distribution by DHH
+URL: https://topdigg.com/blog/2026-08-15-omarchy-linux-distribution | Date: 2026-08-15 | Author: TopDigg
+Tags: Omarchy, Linux, DHH, Basecamp, Hyprland, Window Management, Arch Linux, AI Programming
+
+An in-depth analysis of Basecamp DHH's Omarchy Linux distribution: opinionated design philosophy, powerful features, getting started tutorial, and how it redefines the modern Linux desktop experience
 
 ### Distributed Intelligence, Shared Protocol: How Bloome Designs Reliable Multi-Agent Collaboration
 URL: https://topdigg.com/blog/2026-08-14-agent-collaboration-protocol | Date: 2026-08-14 | Author: TopDigg
@@ -69,18 +81,6 @@ Tags: Macro, Team Collaboration, All-in-One Workspace, SolidJS, Rust, MCP, CRM, 
 
 In-depth analysis of Macro — a unified team workspace combining email, chat, docs, tasks, AI agents, and CRM with bidirectional @linking and team-level memory, built with SolidJS + Rust
 
-### Mind2Web: The World's First Real-World Web Agent Benchmark Dataset — Teaching AI to Complete Complex Tasks on Any Website
-URL: https://topdigg.com/blog/mind2web | Date: 2026-08-14 | Author: TopDigg
-Tags: Mind2Web, Web Agent, LLM, Large Language Models, Web Navigation, AI Agent, NeurIPS, Dataset, Artificial Intelligence
-
-In-depth analysis of Mind2Web by OSU-NLP-Group — the first LLM-based web agent benchmark using real websites, featuring 2,000+ tasks across 137 websites and 31 domains, with three-tier generalization evaluation
-
-### MMMU: The Ultimate Multimodal Understanding Challenge for LLMs — Deep Analysis of 11.5K College-Level Benchmark
-URL: https://topdigg.com/blog/mmmu-benchmark-analysis | Date: 2026-08-14 | Author: TopDigg
-Tags: MMMU, Multimodal Large Models, LMM, LLM Evaluation, Vision Language Models, AGI, CVPR, Dataset, Artificial Intelligence, Multimodal Understanding
-
-In-depth analysis of MMMU Benchmark — evaluating large models' multimodal understanding and reasoning on college-level multi-disciplinary tasks, covering 11.5K questions, 30 subjects, and 32 image types, revealing the true capabilities of current top multimodal models
-
 ## Twitter Analysis Reports
 
 ###  (@)
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 108 blog posts | 4 Twitter analyses
+End of llms.txt | 110 blog posts | 4 Twitter analyses

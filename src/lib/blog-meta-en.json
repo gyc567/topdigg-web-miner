@@ -1,6 +1,59 @@
 {
   "posts": [
     {
+      "slug": "2026-08-15-holaos-analysis",
+      "date": "2026-08-15",
+      "author": "TopDigg",
+      "tags": [
+        "holaOS",
+        "Holaboss",
+        "AI Agent",
+        "Agent Workspace",
+        "Agent OS",
+        "Electron",
+        "TypeScript",
+        "Claude Code",
+        "Codex",
+        "MCP",
+        "Skills",
+        "Shared Memory",
+        "Local-First",
+        "BYOK",
+        "HolaApps",
+        "Design Philosophy"
+      ],
+      "categories": [
+        "Deep Dive",
+        "AI Agent",
+        "Open Source"
+      ],
+      "title": "holaOS Deep Dive: The Computer for You and Your Agent — an Open-Source All-in-One AI Agent Workspace",
+      "description": "An in-depth analysis of holaboss-ai/holaOS (7.4k-star open source project, Electron + TypeScript): an open-source all-in-one AI agent workspace — run any agent (Claude Code, Codex, or the built-in holaOS agent) in one local-first workspace, over your tools, your files, and one shared memory. Core idea: 'The Computer for You and Your Agent' — the protagonist of the agent era is not a chat window but a computer you share with your agents; what actually captures value is not the model itself (models are commoditized) but the workspace layer above agents: shared memory, real application surfaces (HolaApps), and a full workstation agents can operate. Project overview: local-first Electron desktop app + in-process runtime (runtime/{harnesses,harness-host,api-server,state-store}), bun + turbo monorepo; six core features — run any agent, one memory shared by every agent, models built-in or BYOK, HolaApps real application surfaces, Skills/Integrations/MCP teach-once-reuse-everywhere, an entire workstation operable by agents (real browser / frontier generation / real deliverables / any chat entry / automation); three delivery forms (desktop app / open-source self-host / enterprise SSO). Detailed tutorial: one-line install (install.sh), full manual install flow (desktop:install → .env → prepare-runtime:local → typecheck → dev), runtime bundling (self-contained runtime: API + bundled Node/npm + bundled Python), debugging the pi brain with the hola CLI, packaging & release (dist:mac/dist:win, CI signing & notarization, YYYY.MDD.R versioning), security model (contextIsolation/nodeIntegration/webviewTag). Design philosophy: local-first & data ownership, agent-agnostic (no lock-in), shared context over agent silos, real surfaces not chat, teach once reuse everywhere, zero-setup default + BYOK flexibility, self-contained runtime, security-first, human-in-the-loop. Key viewpoints: Agent OS is the next platform layer; memory is the moat; the workspace layer captures value once models are commoditized; the open-source + hosted dual path; self-contained runtime as the pragmatic choice for AI workspaces."
+    },
+    {
+      "slug": "2026-08-15-omarchy-linux-distribution",
+      "date": "2026-08-15",
+      "author": "TopDigg",
+      "tags": [
+        "Omarchy",
+        "Linux",
+        "DHH",
+        "Basecamp",
+        "Hyprland",
+        "Window Management",
+        "Arch Linux",
+        "AI Programming"
+      ],
+      "categories": [
+        "Linux Distribution",
+        "Developer Tools",
+        "Operating Systems",
+        "Productivity Tools"
+      ],
+      "title": "Omarchy: The Beautiful, Modern & Opinionated Linux Distribution by DHH",
+      "description": "An in-depth analysis of Basecamp DHH's Omarchy Linux distribution: opinionated design philosophy, powerful features, getting started tutorial, and how it redefines the modern Linux desktop experience"
+    },
+    {
       "slug": "2026-08-14-agent-collaboration-protocol",
       "date": "2026-08-14",
       "author": "TopDigg",

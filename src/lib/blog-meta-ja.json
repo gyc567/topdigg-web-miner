@@ -1,6 +1,59 @@
 {
   "posts": [
     {
+      "slug": "2026-08-15-holaos-analysis",
+      "date": "2026-08-15",
+      "author": "TopDigg",
+      "tags": [
+        "holaOS",
+        "Holaboss",
+        "AI Agent",
+        "Agent Workspace",
+        "Agent OS",
+        "Electron",
+        "TypeScript",
+        "Claude Code",
+        "Codex",
+        "MCP",
+        "Skills",
+        "Shared Memory",
+        "Local-First",
+        "BYOK",
+        "HolaApps",
+        "Design Philosophy"
+      ],
+      "categories": [
+        "Deep Dive",
+        "AI Agent",
+        "Open Source"
+      ],
+      "title": "holaOS 徹底解説：あなたとあなたのエージェントのためのコンピュータ——オープンソースのオールインワン AI エージェントワークスペース",
+      "description": "holaboss-ai/holaOS（7.4k Stars のオープンソースプロジェクト、Electron + TypeScript）を徹底解説：オープンソースのオールインワン AI エージェントワークスペース——ローカルファーストの単一ワークスペースで任意のエージェント（Claude Code、Codex、内蔵 holaOS エージェント）を実行し、同じメモリ・同じツール・同じワークスペースを共有。コア思想：'The Computer for You and Your Agent'（あなたとあなたのエージェントのためのコンピュータ）——エージェント時代の主役はチャットウィンドウではなく、エージェントと共有するコンピュータ。真に価値を生むのはモデルそのもの（モデルはコモディティ化している）ではなく、エージェントの上のワークスペース層：共有メモリ、実アプリケーションの UI（HolaApps）、エージェントが操作できる完全なワークステーション。プロジェクト説明：ローカルファーストの Electron デスクトップアプリ + プロセス内ランタイム（runtime/{harnesses,harness-host,api-server,state-store}）、bun + turbo monorepo。6 大機能——任意のエージェントを実行、1 つのメモリを全エージェントで共有、モデル内蔵または BYOK、HolaApps の実 UI、Skills/Integrations/MCP の一度教えたらどこでも再利用、エージェントが操作できる完全なワークステーション（実ブラウザ/最先端生成/実成果物/任意のチャット導線/自動化）。3 形態の提供（デスクトップ App/オープンソースのセルフホスト/エンタープライズ SSO）。詳細チュートリアル：ワンラインインストール（install.sh）、手動インストールの全フロー（desktop:install → .env → prepare-runtime:local → typecheck → dev）、ランタイムバンドル（自己完結 runtime：API + 同梱 Node/npm + 同梱 Python）、hola CLI による pi ブレインのデバッグ、パッケージングとリリース（dist:mac/dist:win、CI 署名と公証、YYYY.MDD.R バージョニング）、セキュリティモデル（contextIsolation/nodeIntegration/webviewTag）。設計哲学：ローカルファーストとデータ所有権、エージェント非依存（ロックインなし）、サイロより共有コンテキスト、チャットでなく実 UI、一度教えたらどこでも再利用、ゼロセットアップデフォルト + BYOK の柔軟性、自己完結ランタイム、セキュリティ最優先、ヒューマン・イン・ザ・ループ。論点まとめ：Agent OS が次のプラットフォーム層；メモリが堀（モート）；モデル商品化後はワークスペース層が価値を捕捉；オープンソース + ホステッドの二軸戦略；自己完結ランタイムは AI ワークスペースの現実解。"
+    },
+    {
+      "slug": "2026-08-15-omarchy-linux-distribution",
+      "date": "2026-08-15",
+      "author": "TopDigg",
+      "tags": [
+        "Omarchy",
+        "Linux",
+        "DHH",
+        "Basecamp",
+        "Hyprland",
+        "Window Management",
+        "Arch Linux",
+        "AI Programming"
+      ],
+      "categories": [
+        "Linux Distribution",
+        "Developer Tools",
+        "Operating Systems",
+        "Productivity Tools"
+      ],
+      "title": "Omarchy：DHHが作成した美しくモダンなオピニオン的なLinuxディストリビューション",
+      "description": "BasecampのDHHが作成したOmarchy Linuxディストリビューションの詳細分析：オピニオンな設計哲学、強力な機能、チュートリアル、および現代的なLinuxデスクトップ体験の再定義"
+    },
+    {
       "slug": "2026-08-14-agent-collaboration-protocol",
       "date": "2026-08-14",
       "author": "TopDigg",
