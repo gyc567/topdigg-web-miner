@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "slug": "2026-08-16-agent-mythical-man-month-analysis",
+      "date": "2026-08-16",
+      "author": "TopDigg",
+      "tags": [
+        "Mythical Man-Month",
+        "Fred Brooks",
+        "AI Agent",
+        "Software Engineering",
+        "Project Management",
+        "LLM",
+        "Halting Problem",
+        "Conceptual Integrity"
+      ],
+      "categories": [
+        "Book Analysis",
+        "AI",
+        "Software Engineering",
+        "Project Management"
+      ],
+      "title": "The Mythical Man-Month, Reread in 2026: Why Adding Ten Subagents to Finish in an Hour Is the Same Curse as Hiring Ten People to Finish in a Month",
+      "description": "An in-depth look at the GitHub project agent-mythical-man-month-2026 (《agent 时代的人月神话》): an 18-chapter reread of Fred Brooks' 1975 classic, written in the 2026 AI-agent context by one purposeful author plus several agents. Covers the core ideas (harness as a state machine, context as the only variable, the halting-problem prediction, Brooks' Law in dual forms, No Silver Bullet), design philosophy (one surgeon + an agent support team, three 10x effects, audit vs correction rights, documentation as source code), a detailed tutorial and an 18-chapter guide"
+    },
+    {
       "slug": "2026-08-16-soup-analysis",
       "date": "2026-08-16",
       "author": "TopDigg",
@@ -93,6 +116,30 @@
       ],
       "title": "ToolJet: Complete Guide to Open-Source Low-Code Platform for Building Internal Tools",
       "description": "Deep analysis of ToolJet open-source low-code platform - 39.5k Stars solution for building internal tools, covering architecture, plugin system, deployment, and tutorials"
+    },
+    {
+      "slug": "waza-analysis",
+      "date": "2026-08-16",
+      "author": "TopDigg",
+      "tags": [
+        "Waza",
+        "AI Agent",
+        "Skills Evaluation",
+        "Microsoft",
+        "Go",
+        "CLI Tool",
+        "Benchmarking",
+        "Open Source"
+      ],
+      "categories": [
+        "AI Agent",
+        "Evaluation Framework",
+        "Microsoft Open Source",
+        "Go Tools",
+        "Skills Assessment"
+      ],
+      "title": "Waza: Microsoft's Open-Source AI Agent Skills Evaluation Framework — From Beginner to Master",
+      "description": "Deep dive into Microsoft Waza — a Go-based CLI tool for evaluating AI agent skills, featuring multi-model comparison, adversarial testing, and MCP mock servers"
     },
     {
       "slug": "2026-08-15-holaos-analysis",

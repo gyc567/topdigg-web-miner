@@ -29,6 +29,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://topdigg.com/blog/2026-08-16-agent-mythical-man-month-analysis</loc>
+    <lastmod>2026-08-16</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://topdigg.com/blog/2026-08-16-soup-analysis</loc>
     <lastmod>2026-08-16</lastmod>
     <priority>0.8</priority>
@@ -45,6 +50,11 @@
   </url>
   <url>
     <loc>https://topdigg.com/blog/tooljet-analysis</loc>
+    <lastmod>2026-08-16</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/waza-analysis</loc>
     <lastmod>2026-08-16</lastmod>
     <priority>0.8</priority>
   </url>

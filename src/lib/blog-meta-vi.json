@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "slug": "2026-08-16-agent-mythical-man-month-analysis",
+      "date": "2026-08-16",
+      "author": "TopDigg",
+      "tags": [
+        "Mythical Man-Month",
+        "Fred Brooks",
+        "AI Agent",
+        "Software Engineering",
+        "Project Management",
+        "LLM",
+        "Halting Problem",
+        "Conceptual Integrity"
+      ],
+      "categories": [
+        "Book Analysis",
+        "AI",
+        "Software Engineering",
+        "Project Management"
+      ],
+      "title": "\"Huyền thoại Tháng-Người\" đọc lại năm 2026: Vì sao thêm mười subagent để hoàn thành trong một giờ cũng là lời nguyền giống như thuê mười người để hoàn thành trong một tháng",
+      "description": "Phân tích sâu dự án GitHub agent-mythical-man-month-2026 (《agent 时代的人月神话》): một bản đọc lại 18 chương của tác phẩm kinh điển Fred Brooks 1975, được viết lại từng chương trong bối cảnh AI Agent 2026 bởi một tác giả có mục đích cùng nhiều agent. Bao gồm tư tưởng cốt lõi (harness là máy trạng thái, context là biến duy nhất, dự đoán về bài toán dừng, định luật Brooks dưới hai hình thái, Không có viên đạn bạc), triết lý thiết kế (một bác sĩ phẫu thuật + đội hỗ trợ agent, ba hiệu ứng 10x, quyền kiểm toán và quyền sửa chữa, tài liệu là mã nguồn), hướng dẫn chi tiết và bảng dẫn lối 18 chương"
+    },
+    {
       "slug": "2026-08-16-soup-analysis",
       "date": "2026-08-16",
       "author": "TopDigg",
@@ -93,6 +116,30 @@
       ],
       "title": "ToolJet：Nền tảng Low-Code mã nguồn mở để xây dựng công cụ nội bộ - Hướng dẫn toàn diện",
       "description": "Phân tích chuyên sâu ToolJet - nền tảng low-code mã nguồn mở với 39.5k Stars, giải pháp xây dựng công cụ nội bộ thông minh"
+    },
+    {
+      "slug": "waza-analysis",
+      "date": "2026-08-16",
+      "author": "TopDigg",
+      "tags": [
+        "Waza",
+        "AI Agent",
+        "Skills Evaluation",
+        "Microsoft",
+        "Go",
+        "CLI Tool",
+        "Benchmarking",
+        "Open Source"
+      ],
+      "categories": [
+        "AI Agent",
+        "Evaluation Framework",
+        "Microsoft Open Source",
+        "Go Tools",
+        "Skills Assessment"
+      ],
+      "title": "Waza: Khung đánh giá kỹ năng AI Agent mã nguồn mở của Microsoft — Từ cơ bản đến nâng cao",
+      "description": "Phân tích sâu dự án Microsoft Waza — công cụ CLI viết bằng Go để đánh giá kỹ năng AI Agent với so sánh đa mô hình, kiểm thử đối kháng và MCP mock servers"
     },
     {
       "slug": "2026-08-15-holaos-analysis",

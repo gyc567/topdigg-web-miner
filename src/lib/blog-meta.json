@@ -1,6 +1,41 @@
 {
   "posts": [
     {
+      "slug": "2026-08-16-agent-mythical-man-month-analysis",
+      "title": {
+        "en": "The Mythical Man-Month, Reread in 2026: Why Adding Ten Subagents to Finish in an Hour Is the Same Curse as Hiring Ten People to Finish in a Month",
+        "ja": "「人月の神話」の2026年再読：subagentを10体追加して1時間で終わらせるのは、1975年に「10人雇って1か月で終わらせる」のと同じ呪い",
+        "vi": "\"Huyền thoại Tháng-Người\" đọc lại năm 2026: Vì sao thêm mười subagent để hoàn thành trong một giờ cũng là lời nguyền giống như thuê mười người để hoàn thành trong một tháng",
+        "zh-Hans": "《人月神话》的 2026 重读：为什么加十个 subagent 一小时做完，和招十个人一个月做完是同一个诅咒",
+        "zh-Hant": "《人月神話》的 2026 重讀：為什麼加十個 subagent 一小時做完，和招十個人一個月做完是同一個詛咒"
+      },
+      "description": {
+        "en": "An in-depth look at the GitHub project agent-mythical-man-month-2026 (《agent 时代的人月神话》): an 18-chapter reread of Fred Brooks' 1975 classic, written in the 2026 AI-agent context by one purposeful author plus several agents. Covers the core ideas (harness as a state machine, context as the only variable, the halting-problem prediction, Brooks' Law in dual forms, No Silver Bullet), design philosophy (one surgeon + an agent support team, three 10x effects, audit vs correction rights, documentation as source code), a detailed tutorial and an 18-chapter guide",
+        "ja": "GitHubプロジェクト agent-mythical-man-month-2026（『agent時代の人月の神話』）を深く分析：目的を持つ1人の著者と複数のagentが完成させた18章の再読で、Fred Brooks の1975年の古典を2026年のAI Agent文脈に章ごとに書き直した。核心思想（harness は状態機械、コンテキストこそ唯一の変数、停止問題の予言、Brooks の法則の二重形態、銀の弾丸なし）、設計哲学（1人の執刀医 + agent サポートチーム、3つの10倍、監査権と修正権、ドキュメントはソースコード）、詳細チュートリアルと18章ガイドを網羅",
+        "vi": "Phân tích sâu dự án GitHub agent-mythical-man-month-2026 (《agent 时代的人月神话》): một bản đọc lại 18 chương của tác phẩm kinh điển Fred Brooks 1975, được viết lại từng chương trong bối cảnh AI Agent 2026 bởi một tác giả có mục đích cùng nhiều agent. Bao gồm tư tưởng cốt lõi (harness là máy trạng thái, context là biến duy nhất, dự đoán về bài toán dừng, định luật Brooks dưới hai hình thái, Không có viên đạn bạc), triết lý thiết kế (một bác sĩ phẫu thuật + đội hỗ trợ agent, ba hiệu ứng 10x, quyền kiểm toán và quyền sửa chữa, tài liệu là mã nguồn), hướng dẫn chi tiết và bảng dẫn lối 18 chương",
+        "zh-Hans": "深度解析 GitHub 项目 agent-mythical-man-month-2026（《agent 时代的人月神话》）：一位持有目的的作者加多位 agent 完成的 18 章重读，把 Fred Brooks 1975 年的经典逐章搬进 2026 年 AI Agent 语境。覆盖核心思想（harness 状态机、上下文是唯一变量、停机问题预言、Brooks 定律双重形态、没有银弹）、设计哲学（一人主刀 + agent 支持团队、三个 10x、审计权与修正权、文档即源码）、详细教程与 18 章导览",
+        "zh-Hant": "深度解析 GitHub 專案 agent-mythical-man-month-2026（《agent 時代的人月神話》）：一位持有目的的作者加多位 agent 完成的 18 章重讀，把 Fred Brooks 1975 年的經典逐章搬進 2026 年 AI Agent 語境。涵蓋核心思想（harness 狀態機、上下文是唯一變數、停機問題預言、Brooks 定律雙重形態、沒有銀彈）、設計哲學（一人主刀 + agent 支援團隊、三個 10x、審計權與修正權、文件即原始碼）、詳細教學與 18 章導覽"
+      },
+      "date": "2026-08-16",
+      "author": "TopDigg",
+      "tags": [
+        "Mythical Man-Month",
+        "Fred Brooks",
+        "AI Agent",
+        "Software Engineering",
+        "Project Management",
+        "LLM",
+        "Halting Problem",
+        "Conceptual Integrity"
+      ],
+      "categories": [
+        "Book Analysis",
+        "AI",
+        "Software Engineering",
+        "Project Management"
+      ]
+    },
+    {
       "slug": "2026-08-16-soup-analysis",
       "title": {
         "en": "Soup: Fine-Tune an 8B LLM on a 4 GB Laptop GPU with This One-Command CLI",
@@ -140,6 +175,42 @@
         "Internal Tools",
         "Rapid Development",
         "Enterprise Digitalization"
+      ]
+    },
+    {
+      "slug": "waza-analysis",
+      "title": {
+        "en": "Waza: Microsoft's Open-Source AI Agent Skills Evaluation Framework — From Beginner to Master",
+        "ja": "Waza：Microsoft製AIエージェントスキル評価フレームワーク——入門から上級まで",
+        "vi": "Waza: Khung đánh giá kỹ năng AI Agent mã nguồn mở của Microsoft — Từ cơ bản đến nâng cao",
+        "zh-Hans": "Waza：微软开源 AI Agent 技能评估框架——从入门到精通",
+        "zh-Hant": "Waza：Microsoft開源 AI Agent 技能評估框架——從入門到精通"
+      },
+      "description": {
+        "en": "Deep dive into Microsoft Waza — a Go-based CLI tool for evaluating AI agent skills, featuring multi-model comparison, adversarial testing, and MCP mock servers",
+        "ja": "Microsoft Wazaプロジェクトの深的分析——Go言語で書かれたAIエージェントスキル評価CLIツール",
+        "vi": "Phân tích sâu dự án Microsoft Waza — công cụ CLI viết bằng Go để đánh giá kỹ năng AI Agent với so sánh đa mô hình, kiểm thử đối kháng và MCP mock servers",
+        "zh-Hans": "深度解析微软 Waza 项目——Go 语言实现的 AI Agent 技能评估 CLI 工具，支持多模型对比、对抗性测试、MCP 模拟服务器",
+        "zh-Hant": "深度解析 Microsoft Waza 專案——Go 語言實現的 AI Agent 技能評估 CLI 工具，支援多模型對比、對抗性測試、MCP 模擬伺服器"
+      },
+      "date": "2026-08-16",
+      "author": "TopDigg",
+      "tags": [
+        "Waza",
+        "AI Agent",
+        "Skills Evaluation",
+        "Microsoft",
+        "Go",
+        "CLI Tool",
+        "Benchmarking",
+        "Open Source"
+      ],
+      "categories": [
+        "AI Agent",
+        "Evaluation Framework",
+        "Microsoft Open Source",
+        "Go Tools",
+        "Skills Assessment"
       ]
     },
     {

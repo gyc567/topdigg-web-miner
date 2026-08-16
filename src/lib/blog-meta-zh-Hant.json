@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "slug": "2026-08-16-agent-mythical-man-month-analysis",
+      "date": "2026-08-16",
+      "author": "TopDigg",
+      "tags": [
+        "Mythical Man-Month",
+        "Fred Brooks",
+        "AI Agent",
+        "Software Engineering",
+        "Project Management",
+        "LLM",
+        "Halting Problem",
+        "Conceptual Integrity"
+      ],
+      "categories": [
+        "Book Analysis",
+        "AI",
+        "Software Engineering",
+        "Project Management"
+      ],
+      "title": "《人月神話》的 2026 重讀：為什麼加十個 subagent 一小時做完，和招十個人一個月做完是同一個詛咒",
+      "description": "深度解析 GitHub 專案 agent-mythical-man-month-2026（《agent 時代的人月神話》）：一位持有目的的作者加多位 agent 完成的 18 章重讀，把 Fred Brooks 1975 年的經典逐章搬進 2026 年 AI Agent 語境。涵蓋核心思想（harness 狀態機、上下文是唯一變數、停機問題預言、Brooks 定律雙重形態、沒有銀彈）、設計哲學（一人主刀 + agent 支援團隊、三個 10x、審計權與修正權、文件即原始碼）、詳細教學與 18 章導覽"
+    },
+    {
       "slug": "2026-08-16-soup-analysis",
       "date": "2026-08-16",
       "author": "TopDigg",
@@ -93,6 +116,30 @@
       ],
       "title": "ToolJet：開源低代碼平台，打造智慧化內部工具的完整指南",
       "description": "深度解析 ToolJet 開源低代碼平台——39.5k Stars 的內部工具構建解決方案，涵蓋架構設計、插件系統、部署方案和實戰教程"
+    },
+    {
+      "slug": "waza-analysis",
+      "date": "2026-08-16",
+      "author": "TopDigg",
+      "tags": [
+        "Waza",
+        "AI Agent",
+        "Skills Evaluation",
+        "Microsoft",
+        "Go",
+        "CLI Tool",
+        "Benchmarking",
+        "Open Source"
+      ],
+      "categories": [
+        "AI Agent",
+        "Evaluation Framework",
+        "Microsoft Open Source",
+        "Go Tools",
+        "Skills Assessment"
+      ],
+      "title": "Waza：Microsoft開源 AI Agent 技能評估框架——從入門到精通",
+      "description": "深度解析 Microsoft Waza 專案——Go 語言實現的 AI Agent 技能評估 CLI 工具，支援多模型對比、對抗性測試、MCP 模擬伺服器"
     },
     {
       "slug": "2026-08-15-holaos-analysis",

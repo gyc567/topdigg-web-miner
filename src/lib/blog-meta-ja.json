@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "slug": "2026-08-16-agent-mythical-man-month-analysis",
+      "date": "2026-08-16",
+      "author": "TopDigg",
+      "tags": [
+        "Mythical Man-Month",
+        "Fred Brooks",
+        "AI Agent",
+        "Software Engineering",
+        "Project Management",
+        "LLM",
+        "Halting Problem",
+        "Conceptual Integrity"
+      ],
+      "categories": [
+        "Book Analysis",
+        "AI",
+        "Software Engineering",
+        "Project Management"
+      ],
+      "title": "「人月の神話」の2026年再読：subagentを10体追加して1時間で終わらせるのは、1975年に「10人雇って1か月で終わらせる」のと同じ呪い",
+      "description": "GitHubプロジェクト agent-mythical-man-month-2026（『agent時代の人月の神話』）を深く分析：目的を持つ1人の著者と複数のagentが完成させた18章の再読で、Fred Brooks の1975年の古典を2026年のAI Agent文脈に章ごとに書き直した。核心思想（harness は状態機械、コンテキストこそ唯一の変数、停止問題の予言、Brooks の法則の二重形態、銀の弾丸なし）、設計哲学（1人の執刀医 + agent サポートチーム、3つの10倍、監査権と修正権、ドキュメントはソースコード）、詳細チュートリアルと18章ガイドを網羅"
+    },
+    {
       "slug": "2026-08-16-soup-analysis",
       "date": "2026-08-16",
       "author": "TopDigg",
@@ -93,6 +116,30 @@
       ],
       "title": "ToolJet：オープンソース低コードプラットフォームで内部ツールを構築する完全ガイド",
       "description": "ToolJetオープンソース低コードプラットフォームを深度解析——39.5k Starsの内部ツール構築ソリューション、アーキテクチャ、プラグインシステム、デプロイメント、チュートリアルをカバー"
+    },
+    {
+      "slug": "waza-analysis",
+      "date": "2026-08-16",
+      "author": "TopDigg",
+      "tags": [
+        "Waza",
+        "AI Agent",
+        "Skills Evaluation",
+        "Microsoft",
+        "Go",
+        "CLI Tool",
+        "Benchmarking",
+        "Open Source"
+      ],
+      "categories": [
+        "AI Agent",
+        "Evaluation Framework",
+        "Microsoft Open Source",
+        "Go Tools",
+        "Skills Assessment"
+      ],
+      "title": "Waza：Microsoft製AIエージェントスキル評価フレームワーク——入門から上級まで",
+      "description": "Microsoft Wazaプロジェクトの深的分析——Go言語で書かれたAIエージェントスキル評価CLIツール"
     },
     {
       "slug": "2026-08-15-holaos-analysis",
