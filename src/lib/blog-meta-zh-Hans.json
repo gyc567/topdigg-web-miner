@@ -1,6 +1,54 @@
 {
   "posts": [
     {
+      "slug": "2026-08-16-ttfx-analysis",
+      "date": "2026-08-16",
+      "author": "TopDigg",
+      "tags": [
+        "ttfx",
+        "TerminalTextEffects",
+        "Rust",
+        "CLI",
+        "Terminal",
+        "Terminal Effects",
+        "Command Line Tools",
+        "Performance Optimization"
+      ],
+      "categories": [
+        "Developer Tools",
+        "Command Line Tools",
+        "Rust",
+        "Terminal",
+        "Open Source"
+      ],
+      "title": "ttfx：把终端文字特效编译成 3.3MB 单一静态二进制的 Rust 移植",
+      "description": "深入解析 omacom-io/ttfx：一个逐字节复刻 TerminalTextEffects 的 Rust 移植项目。探索它如何把 37 种终端特效塞进一个零依赖的静态二进制、如何用确定性测试证明'像素级一致'，以及 27.5 倍中位加速背后的设计哲学与完整教程"
+    },
+    {
+      "slug": "tooljet-analysis",
+      "date": "2026-08-16",
+      "author": "TopDigg",
+      "tags": [
+        "ToolJet",
+        "Low-Code",
+        "Open Source",
+        "Internal Tools",
+        "Drag-and-Drop",
+        "Plugin System",
+        "React",
+        "Node.js"
+      ],
+      "categories": [
+        "Low-Code Platform",
+        "Open Source",
+        "Internal Tools",
+        "Rapid Development",
+        "Enterprise Digitalization"
+      ],
+      "title": "ToolJet：开源低代码平台，打造智能化内部工具的完整指南",
+      "description": "深度解析 ToolJet 开源低代码平台——39.5k Stars 的内部工具构建解决方案，涵盖架构设计、插件系统、部署方案和实战教程"
+    },
+    {
       "slug": "2026-08-15-holaos-analysis",
       "date": "2026-08-15",
       "author": "TopDigg",

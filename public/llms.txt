@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-15T06:43:54.495Z
+Generated: 2026-08-16T00:13:23.539Z
 
 ## Site Overview
 
@@ -20,6 +20,18 @@ We cover trending topics and business opportunities across Reddit, YouTube, and 
 | External Links | https://topdigg.com/external-links | Curated external resources |
 
 ## Latest Blog Posts (10 most recent)
+
+### ttfx: Compiling Terminal Text Effects into a Single 3.3MB Static Binary with Rust
+URL: https://topdigg.com/blog/2026-08-16-ttfx-analysis | Date: 2026-08-16 | Author: TopDigg
+Tags: ttfx, TerminalTextEffects, Rust, CLI, Terminal, Terminal Effects, Command Line Tools, Performance Optimization
+
+An in-depth look at omacom-io/ttfx — a Rust port that reproduces TerminalTextEffects byte-for-byte. Explore how it packs 37 terminal effects into one zero-dependency static binary, how deterministic testing proves 'pixel-perfect' parity, and the design philosophy behind its 27.5× median speedup, com
+
+### ToolJet: Complete Guide to Open-Source Low-Code Platform for Building Internal Tools
+URL: https://topdigg.com/blog/tooljet-analysis | Date: 2026-08-16 | Author: TopDigg
+Tags: ToolJet, Low-Code, Open Source, Internal Tools, Drag-and-Drop, Plugin System, React, Node.js
+
+Deep analysis of ToolJet open-source low-code platform - 39.5k Stars solution for building internal tools, covering architecture, plugin system, deployment, and tutorials
 
 ### holaOS Deep Dive: The Computer for You and Your Agent — an Open-Source All-in-One AI Agent Workspace
 URL: https://topdigg.com/blog/2026-08-15-holaos-analysis | Date: 2026-08-15 | Author: TopDigg
@@ -69,18 +81,6 @@ Tags: Babashka, Clojure, Scripting Language, GraalVM, Functional Programming, SC
 
 Deep analysis of Babashka — a fast-starting native Clojure runtime powered by GraalVM native-image and SCI interpreter, featuring pods system, built-in task runner, and rich library ecosystem
 
-### Clean Code for AI Agents — The Re-Ranked Principles for the Agent Era
-URL: https://topdigg.com/blog/clean-code-for-ai-agents | Date: 2026-08-14 | Author: TopDigg
-Tags: Clean Code, AI Agents, Code Standards, AI Programming, Software Engineering, TDD, SOLID, TypeScript
-
-In-depth analysis of Clean Code principles re-ranked for 2026 — when code readers shifted from human programmers to AI agents, which principles became critical and which became infrastructure
-
-### Macro: Unified Team Workspace — Deep Analysis of the All-in-One Work Platform
-URL: https://topdigg.com/blog/macro | Date: 2026-08-14 | Author: TopDigg
-Tags: Macro, Team Collaboration, All-in-One Workspace, SolidJS, Rust, MCP, CRM, AI Agents, Workflow Redesign
-
-In-depth analysis of Macro — a unified team workspace combining email, chat, docs, tasks, AI agents, and CRM with bidirectional @linking and team-level memory, built with SolidJS + Rust
-
 ## Twitter Analysis Reports
 
 ###  (@)
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 110 blog posts | 4 Twitter analyses
+End of llms.txt | 112 blog posts | 4 Twitter analyses

@@ -1,6 +1,54 @@
 {
   "posts": [
     {
+      "slug": "2026-08-16-ttfx-analysis",
+      "date": "2026-08-16",
+      "author": "TopDigg",
+      "tags": [
+        "ttfx",
+        "TerminalTextEffects",
+        "Rust",
+        "CLI",
+        "Terminal",
+        "Terminal Effects",
+        "Command Line Tools",
+        "Performance Optimization"
+      ],
+      "categories": [
+        "Developer Tools",
+        "Command Line Tools",
+        "Rust",
+        "Terminal",
+        "Open Source"
+      ],
+      "title": "ttfx: Compiling Terminal Text Effects into a Single 3.3MB Static Binary with Rust",
+      "description": "An in-depth look at omacom-io/ttfx — a Rust port that reproduces TerminalTextEffects byte-for-byte. Explore how it packs 37 terminal effects into one zero-dependency static binary, how deterministic testing proves 'pixel-perfect' parity, and the design philosophy behind its 27.5× median speedup, complete with a full tutorial"
+    },
+    {
+      "slug": "tooljet-analysis",
+      "date": "2026-08-16",
+      "author": "TopDigg",
+      "tags": [
+        "ToolJet",
+        "Low-Code",
+        "Open Source",
+        "Internal Tools",
+        "Drag-and-Drop",
+        "Plugin System",
+        "React",
+        "Node.js"
+      ],
+      "categories": [
+        "Low-Code Platform",
+        "Open Source",
+        "Internal Tools",
+        "Rapid Development",
+        "Enterprise Digitalization"
+      ],
+      "title": "ToolJet: Complete Guide to Open-Source Low-Code Platform for Building Internal Tools",
+      "description": "Deep analysis of ToolJet open-source low-code platform - 39.5k Stars solution for building internal tools, covering architecture, plugin system, deployment, and tutorials"
+    },
+    {
       "slug": "2026-08-15-holaos-analysis",
       "date": "2026-08-15",
       "author": "TopDigg",

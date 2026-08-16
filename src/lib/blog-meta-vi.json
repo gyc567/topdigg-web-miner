@@ -1,6 +1,54 @@
 {
   "posts": [
     {
+      "slug": "2026-08-16-ttfx-analysis",
+      "date": "2026-08-16",
+      "author": "TopDigg",
+      "tags": [
+        "ttfx",
+        "TerminalTextEffects",
+        "Rust",
+        "CLI",
+        "Terminal",
+        "Terminal Effects",
+        "Command Line Tools",
+        "Performance Optimization"
+      ],
+      "categories": [
+        "Developer Tools",
+        "Command Line Tools",
+        "Rust",
+        "Terminal",
+        "Open Source"
+      ],
+      "title": "ttfx: Biên dịch hiệu ứng văn bản đầu cuối thành một binary tĩnh 3.3MB duy nhất bằng Rust",
+      "description": "Phân tích chuyên sâu omacom-io/ttfx — bản port Rust tái tạo TerminalTextEffects từng byte. Khám phá cách nó nhồi 37 hiệu ứng đầu cuối vào một binary tĩnh không phụ thuộc nào, cách kiểm thử xác định chứng minh 'khớp từng pixel', và triết lý thiết kế đằng sau mức tăng tốc trung vị 27.5×, kèm hướng dẫn chi tiết"
+    },
+    {
+      "slug": "tooljet-analysis",
+      "date": "2026-08-16",
+      "author": "TopDigg",
+      "tags": [
+        "ToolJet",
+        "Low-Code",
+        "Open Source",
+        "Internal Tools",
+        "Drag-and-Drop",
+        "Plugin System",
+        "React",
+        "Node.js"
+      ],
+      "categories": [
+        "Low-Code Platform",
+        "Open Source",
+        "Internal Tools",
+        "Rapid Development",
+        "Enterprise Digitalization"
+      ],
+      "title": "ToolJet：Nền tảng Low-Code mã nguồn mở để xây dựng công cụ nội bộ - Hướng dẫn toàn diện",
+      "description": "Phân tích chuyên sâu ToolJet - nền tảng low-code mã nguồn mở với 39.5k Stars, giải pháp xây dựng công cụ nội bộ thông minh"
+    },
+    {
       "slug": "2026-08-15-holaos-analysis",
       "date": "2026-08-15",
       "author": "TopDigg",
