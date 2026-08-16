@@ -22,7 +22,8 @@
     "noResultsHint": "Try different keywords or clear filters",
     "clearAll": "Clear all filters",
     "moreTags": "More tags ({{count}})",
-    "allCategories": "All categories"
+    "allCategories": "All categories",
+    "pageOf": "Page {{page}} of {{total}}"
   },
   "post": {
     "notFoundTitle": "Not found",
@@ -93,7 +94,20 @@
   },
   "footer": {
     "rights": "© {{year}} {{siteName}}. All rights reserved.",
-    "builtBy": "Built by {{siteName}} — Focused on web traffic and business opportunities."
+    "builtBy": "Built by {{siteName}} — Focused on web traffic and business opportunities.",
+    "aboutAuthor": "About the Author",
+    "authorName": "ERIC",
+    "authorTitle": "AI Technology Expert, focusing on research and application of artificial intelligence and automation tools",
+    "contactTitle": "Contact & Platforms",
+    "email": "Email",
+    "twitter": "Twitter",
+    "wechat": "WeChat",
+    "telegram": "Telegram",
+    "telegramChannel": "Telegram Channel",
+    "cryptoGroup": "Crypto Intelligence TG Group",
+    "youtube": "YouTube Channel",
+    "personalBlog": "Personal Tech Blog",
+    "wechatPublic": "WeChat Public Account"
   },
   "languages": {
     "zh-Hans": "简体中文",

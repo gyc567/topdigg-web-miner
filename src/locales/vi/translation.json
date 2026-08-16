@@ -22,7 +22,8 @@
     "noResultsHint": "Thử từ khóa khác hoặc xóa bộ lọc",
     "clearAll": "Xóa tất cả bộ lọc",
     "moreTags": "Thêm thẻ ({{count}})",
-    "allCategories": "Tất cả danh mục"
+    "allCategories": "Tất cả danh mục",
+    "pageOf": "Trang {{page}} / {{total}}"
   },
   "post": {
     "notFoundTitle": "Không tìm thấy",
@@ -93,7 +94,20 @@
   },
   "footer": {
     "rights": "© {{year}} {{siteName}}. Bảo lưu mọi quyền.",
-    "builtBy": "Được xây dựng bởi {{siteName}} — Tập trung vào lưu lượng web và cơ hội kinh doanh."
+    "builtBy": "Được xây dựng bởi {{siteName}} — Tập trung vào lưu lượng web và cơ hội kinh doanh.",
+    "aboutAuthor": "Về tác giả",
+    "authorName": "ERIC",
+    "authorTitle": "Chuyên gia AI, tập trung vào nghiên cứu và ứng dụng trí tuệ nhân tạo và công cụ tự động hóa",
+    "contactTitle": "Liên hệ & Nền tảng",
+    "email": "Email",
+    "twitter": "Twitter",
+    "wechat": "WeChat",
+    "telegram": "Telegram",
+    "telegramChannel": "Kênh Telegram",
+    "cryptoGroup": "Nhóm TG Tình báo Crypto",
+    "youtube": "Kênh YouTube",
+    "personalBlog": "Blog công nghệ cá nhân",
+    "wechatPublic": "Công ty công cộng"
   },
   "languages": {
     "zh-Hans": "简体中文",

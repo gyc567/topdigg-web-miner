@@ -9,6 +9,7 @@ import type { BlogMeta } from "@/lib/blog-data";
 import MarkdownContent from "@/components/MarkdownContent";
 import { makeArticleSchema } from "@/lib/jsonld";
 import type { BlogPost } from "@/config/site";
+import { AuthorBio } from "@/components/AuthorBio";
 
 const BlogPost = () => {
   const { slug } = useParams();
@@ -84,6 +85,7 @@ const BlogPost = () => {
           content={localizeText(fullPost.content as any, currentLocale)}
           className="mb-8"
         />
+        <AuthorBio />
       </article>
     </>
   );

@@ -22,7 +22,8 @@
     "noResultsHint": "嘗試其他關鍵詞或清除篩選條件",
     "clearAll": "清除所有篩選",
     "moreTags": "更多標籤（{{count}}）",
-    "allCategories": "全部分類"
+    "allCategories": "全部分類",
+    "pageOf": "第 {{page}} / {{total}} 頁"
   },
   "post": {
     "notFoundTitle": "未找到",
@@ -93,12 +94,25 @@
   },
   "footer": {
     "rights": "© {{year}} {{siteName}}. 保留所有權利。",
-    "builtBy": "由 {{siteName}} 構建 — 專注挖掘 Web 流量與商業機會。"
+    "builtBy": "由 {{siteName}} 構建 — 專注挖掘 Web 流量與商業機會。",
+    "aboutAuthor": "關於作者",
+    "authorName": "ERIC",
+    "authorTitle": "AI技術專家，專注於人工智慧和自動化工具的研究與應用",
+    "contactTitle": "聯繫方式與平台",
+    "email": "郵箱",
+    "twitter": "Twitter",
+    "wechat": "微信",
+    "telegram": "Telegram",
+    "telegramChannel": "Telegram頻道",
+    "cryptoGroup": "加密情報TG群",
+    "youtube": "YouTube頻道",
+    "personalBlog": "個人技術博客",
+    "wechatPublic": "公眾號"
   },
   "languages": {
     "zh-Hans": "简体中文",
     "zh-Hant": "繁體中文",
-    "en": "English", 
+    "en": "English",
     "ja": "日本語",
     "vi": "Tiếng Việt"
   }

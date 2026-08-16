@@ -22,7 +22,8 @@
     "noResultsHint": "別のキーワードを試すか、フィルターをクリアしてください",
     "clearAll": "すべてのフィルターをクリア",
     "moreTags": "その他のタグ ({{count}})",
-    "allCategories": "すべてのカテゴリ"
+    "allCategories": "すべてのカテゴリ",
+    "pageOf": "{{page}} / {{total}} ページ"
   },
   "post": {
     "notFoundTitle": "見つかりません",
@@ -93,11 +94,24 @@
   },
   "footer": {
     "rights": "© {{year}} {{siteName}}. 無断転載を禁じます。",
-    "builtBy": "{{siteName}} によって構築 — Webトラフィックとビジネス機会に注力。"
+    "builtBy": "{{siteName}} によって構築 — Webトラフィックとビジネス機会に注力。",
+    "aboutAuthor": "著者について",
+    "authorName": "ERIC",
+    "authorTitle": "AI技術専門家、人工知能と自動化ツールの研究と応用に注力",
+    "contactTitle": "連絡先とプラットフォーム",
+    "email": "メール",
+    "twitter": "Twitter",
+    "wechat": "WeChat",
+    "telegram": "Telegram",
+    "telegramChannel": "Telegramチャンネル",
+    "cryptoGroup": "暗号通貨インテリジェンスTGグループ",
+    "youtube": "YouTubeチャンネル",
+    "personalBlog": "個人技術ブログ",
+    "wechatPublic": "公式アカウント"
   },
   "languages": {
     "zh-Hans": "简体中文",
-    "zh-Hant": "繁體中文", 
+    "zh-Hant": "繁體中文",
     "en": "English",
     "ja": "日本語",
     "vi": "Tiếng Việt"

@@ -1,8 +1,7 @@
 import { useState, useMemo, useRef, useEffect, useDeferredValue } from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { SearchX } from "lucide-react";
-import { useVirtualizer } from "@tanstack/react-virtual";
+import { SearchX, ChevronLeft, ChevronRight } from "lucide-react";
 
 import { SEO } from "@/components/SEO";
 import { Button } from "@/components/ui/button";
@@ -15,6 +14,8 @@ import { TagFilterBar } from "@/components/blog/TagFilterBar";
 import { CategoryFilter } from "@/components/blog/CategoryFilter";
 import type { CategorySlug } from "@/lib/blog-categories";
 import { CATEGORY_ALL_SLUG } from "@/lib/blog-categories";
+
+const POSTS_PER_PAGE = 12;
 
 const matchesQuery = (post: BlogMeta, query: string): boolean => {
   if (!query.trim()) return true;
@@ -52,6 +53,8 @@ const BlogIndex = () => {
     CATEGORY_ALL_SLUG
   );
 
+  const [currentPage, setCurrentPage] = useState(1);
+
   const resultRef = useRef<HTMLDivElement>(null);
 
   const filteredPosts = useMemo(() => {
@@ -74,6 +77,16 @@ const BlogIndex = () => {
   // Track whether a deferred search is still pending (shows stale state indicator)
   const isSearching = debouncedQuery !== deferredQuery;
 
+  // Pagination
+  const totalPages = Math.max(1, Math.ceil(filteredPosts.length / POSTS_PER_PAGE));
+  const startIndex = (currentPage - 1) * POSTS_PER_PAGE;
+  const paginatedPosts = filteredPosts.slice(startIndex, startIndex + POSTS_PER_PAGE);
+
+  // Reset to page 1 when filters change
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [debouncedQuery, selectedTags, selectedCategory]);
+
   const toggleTag = (tag: string) => {
     setSelectedTags((prev) => {
       const next = new Set(prev);
@@ -90,6 +103,7 @@ const BlogIndex = () => {
     setSearchQuery("");
     setSelectedTags(new Set());
     setSelectedCategory(CATEGORY_ALL_SLUG);
+    setCurrentPage(1);
     resultRef.current?.scrollIntoView({ block: "nearest" });
   };
 
@@ -160,11 +174,50 @@ const BlogIndex = () => {
           <span className="inline-block h-3 w-3 rounded-full border border-muted-foreground/30 border-t-muted-foreground animate-spin" />
         ) : null}
         <span>{t("blog.resultsCount", { count: filteredPosts.length })}</span>
+        {totalPages > 1 && (
+          <span className="ml-2">
+            — {t("blog.pageOf", { page: currentPage, total: totalPages })}
+          </span>
+        )}
       </div>
 
-      {/* Posts grid — virtualized 2-column list */}
+      {/* Posts grid — paginated 2-column list */}
       {filteredPosts.length > 0 ? (
-        <VirtualGrid posts={filteredPosts} />
+        <>
+          <div className="grid gap-6 md:grid-cols-2">
+            {paginatedPosts.map((post) => (
+              <article key={post.slug} className="rounded-xl border p-6 hover:shadow-sm transition-shadow">
+                <h2 className="text-xl font-semibold">
+                  <Link
+                    to={`/blog/${post.slug}`}
+                    className="hover:text-brand transition-colors"
+                  >
+                    {post.title}
+                  </Link>
+                </h2>
+                <p className="text-sm text-muted-foreground mt-2">
+                  {post.description}
+                </p>
+                <div className="mt-3 text-xs text-muted-foreground">
+                  <time dateTime={post.date}>
+                    {new Date(post.date).toLocaleDateString()}
+                  </time>
+                  {" · "}
+                  {post.author}
+                  {" · "}
+                  {post.tags.slice(0, 3).join(" / ")}
+                </div>
+              </article>
+            ))}
+          </div>
+          {totalPages > 1 && (
+            <PaginationNav
+              currentPage={currentPage}
+              totalPages={totalPages}
+              onPageChange={setCurrentPage}
+            />
+          )}
+        </>
       ) : (
         /* Empty state */
         <div className="flex flex-col items-center justify-center py-16 text-center">
@@ -180,101 +233,73 @@ const BlogIndex = () => {
   );
 };
 
-// VirtualGrid: renders only visible rows in a 2-column CSS grid
-// Uses @tanstack/react-virtual for windowing — DOM nodes go from ~500 to ~20
-function VirtualGrid({ posts }: { posts: BlogMeta[] }) {
-  const parentRef = useRef<HTMLDivElement>(null);
-
-  const rowVirtualizer = useVirtualizer({
-    count: Math.ceil(posts.length / 2),
-    getScrollElement: () => parentRef.current,
-    estimateSize: () => 180, // estimated row height in px
-    overscan: 3,
-  });
+// PaginationNav: previous/next buttons + page number buttons
+function PaginationNav({
+  currentPage,
+  totalPages,
+  onPageChange,
+}: {
+  currentPage: number;
+  totalPages: number;
+  onPageChange: (page: number) => void;
+}) {
+  // Build page number buttons with ellipsis
+  const pages: (number | "...")[] = [];
+  if (totalPages <= 7) {
+    for (let i = 1; i <= totalPages; i++) pages.push(i);
+  } else {
+    pages.push(1);
+    if (currentPage > 3) pages.push("...");
+    for (
+      let i = Math.max(2, currentPage - 1);
+      i <= Math.min(totalPages - 1, currentPage + 1);
+      i++
+    ) {
+      pages.push(i);
+    }
+    if (currentPage < totalPages - 2) pages.push("...");
+    pages.push(totalPages);
+  }
 
   return (
-    <div
-      ref={parentRef}
-      className="overflow-auto"
-      style={{ maxHeight: "calc(100vh - 280px)" }}
-    >
-      <div
-        style={{
-          height: `${rowVirtualizer.getTotalSize()}px`,
-          width: "100%",
-          position: "relative",
-        }}
+    <nav className="mt-8 flex items-center justify-center gap-1" aria-label="pagination">
+      <Button
+        variant="outline"
+        size="sm"
+        onClick={() => onPageChange(currentPage - 1)}
+        disabled={currentPage <= 1}
+        aria-label="Previous page"
       >
-        {rowVirtualizer.getVirtualItems().map((virtualRow) => {
-          const leftPost = posts[virtualRow.index * 2];
-          const rightPost = posts[virtualRow.index * 2 + 1];
+        <ChevronLeft className="h-4 w-4" />
+      </Button>
 
-          return (
-            <div
-              key={virtualRow.key}
-              className="grid gap-6 md:grid-cols-2"
-              style={{
-                position: "absolute",
-                top: 0,
-                left: 0,
-                width: "100%",
-                height: `${virtualRow.size}px`,
-                transform: `translateY(${virtualRow.start}px)`,
-              }}
-            >
-              {leftPost && (
-                <article className="rounded-xl border p-6 hover:shadow-sm transition-shadow">
-                  <h2 className="text-xl font-semibold">
-                    <Link
-                      to={`/blog/${leftPost.slug}`}
-                      className="hover:text-brand transition-colors"
-                    >
-                      {leftPost.title}
-                    </Link>
-                  </h2>
-                  <p className="text-sm text-muted-foreground mt-2">
-                    {leftPost.description}
-                  </p>
-                  <div className="mt-3 text-xs text-muted-foreground">
-                    <time dateTime={leftPost.date}>
-                      {new Date(leftPost.date).toLocaleDateString()}
-                    </time>
-                    {" · "}
-                    {leftPost.author}
-                    {" · "}
-                    {leftPost.tags.slice(0, 3).join(" / ")}
-                  </div>
-                </article>
-              )}
-              {rightPost && (
-                <article className="rounded-xl border p-6 hover:shadow-sm transition-shadow">
-                  <h2 className="text-xl font-semibold">
-                    <Link
-                      to={`/blog/${rightPost.slug}`}
-                      className="hover:text-brand transition-colors"
-                    >
-                      {rightPost.title}
-                    </Link>
-                  </h2>
-                  <p className="text-sm text-muted-foreground mt-2">
-                    {rightPost.description}
-                  </p>
-                  <div className="mt-3 text-xs text-muted-foreground">
-                    <time dateTime={rightPost.date}>
-                      {new Date(rightPost.date).toLocaleDateString()}
-                    </time>
-                    {" · "}
-                    {rightPost.author}
-                    {" · "}
-                    {rightPost.tags.slice(0, 3).join(" / ")}
-                  </div>
-                </article>
-              )}
-            </div>
-          );
-        })}
-      </div>
-    </div>
+      {pages.map((page, idx) =>
+        page === "..." ? (
+          <span key={`ellipsis-${idx}`} className="px-2 text-muted-foreground">
+            …
+          </span>
+        ) : (
+          <Button
+            key={page}
+            variant={page === currentPage ? "default" : "outline"}
+            size="sm"
+            onClick={() => onPageChange(page)}
+          >
+            {page}
+          </Button>
+        )
+      )}
+
+      <Button
+        variant="outline"
+        size="sm"
+        onClick={() => onPageChange(currentPage + 1)}
+        disabled={currentPage >= totalPages}
+        aria-label="Next page"
+      >
+        <ChevronRight className="h-4 w-4" />
+      </Button>
+    </nav>
   );
 }
 
