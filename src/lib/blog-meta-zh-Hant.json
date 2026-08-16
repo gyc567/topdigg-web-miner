@@ -1,6 +1,30 @@
 {
   "posts": [
     {
+      "slug": "2026-08-16-soup-analysis",
+      "date": "2026-08-16",
+      "author": "TopDigg",
+      "tags": [
+        "Soup",
+        "LLM",
+        "Fine-tuning",
+        "LoRA",
+        "QLoRA",
+        "Layer Streaming",
+        "Machine Learning",
+        "CLI"
+      ],
+      "categories": [
+        "AI Tools",
+        "LLM Fine-tuning",
+        "Open Source",
+        "CLI Tools",
+        "Machine Learning"
+      ],
+      "title": "Soup：在 4GB 筆電 GPU 上微調 8B 模型的 LLM 微調 CLI",
+      "description": "深入解析 MakazhanAlpamys/Soup：一個『一條命令完成 LLM 微調』的 CLI 工具。探索它如何透過 Layer Streaming 在 4GB 顯示卡上以 119.6 tok/s 微調 Llama-3.1-8B、如何用位元級精確測試證明正確性、為什麼它選擇『拒絕而非警告』，以及測量文化驅動的設計哲學與完整教學"
+    },
+    {
       "slug": "2026-08-16-ttfx-analysis",
       "date": "2026-08-16",
       "author": "TopDigg",

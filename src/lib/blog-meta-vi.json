@@ -1,6 +1,30 @@
 {
   "posts": [
     {
+      "slug": "2026-08-16-soup-analysis",
+      "date": "2026-08-16",
+      "author": "TopDigg",
+      "tags": [
+        "Soup",
+        "LLM",
+        "Fine-tuning",
+        "LoRA",
+        "QLoRA",
+        "Layer Streaming",
+        "Machine Learning",
+        "CLI"
+      ],
+      "categories": [
+        "AI Tools",
+        "LLM Fine-tuning",
+        "Open Source",
+        "CLI Tools",
+        "Machine Learning"
+      ],
+      "title": "Soup: Công cụ CLI tinh chỉnh LLM 8B ngay trên GPU 4GB của laptop",
+      "description": "Phân tích chuyên sâu MakazhanAlpamys/Soup — công cụ tinh chỉnh LLM theo phong cách CLI. Khám phá cách Layer Streaming tinh chỉnh Llama-3.1-8B ở tốc độ 119,6 tok/s trên GPU 4GB, cách kiểm thử bit-exact chứng minh tính đúng đắn, vì sao nó chọn 'từ chối thay vì cảnh báo', cùng triết lý thiết kế dựa trên văn hóa đo lường và hướng dẫn chi tiết"
+    },
+    {
       "slug": "2026-08-16-ttfx-analysis",
       "date": "2026-08-16",
       "author": "TopDigg",

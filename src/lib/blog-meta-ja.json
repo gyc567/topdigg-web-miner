@@ -1,6 +1,30 @@
 {
   "posts": [
     {
+      "slug": "2026-08-16-soup-analysis",
+      "date": "2026-08-16",
+      "author": "TopDigg",
+      "tags": [
+        "Soup",
+        "LLM",
+        "Fine-tuning",
+        "LoRA",
+        "QLoRA",
+        "Layer Streaming",
+        "Machine Learning",
+        "CLI"
+      ],
+      "categories": [
+        "AI Tools",
+        "LLM Fine-tuning",
+        "Open Source",
+        "CLI Tools",
+        "Machine Learning"
+      ],
+      "title": "Soup：4GB ノートPC GPU で 8B LLM をファインチューニングする CLI ツール",
+      "description": "MakazhanAlpamys/Soup を徹底解説：LLM ファインチューニングを「ワンコマンド」で行う CLI ツール。Layer Streaming が 4GB GPU で Llama-3.1-8B を 119.6 tok/s でファインチューニングする仕組み、bit-exact テストによる正確性の証明、なぜ「警告ではなく拒否」を選ぶのか、測定文化に基づく設計哲学と完全チュートリアル"
+    },
+    {
       "slug": "2026-08-16-ttfx-analysis",
       "date": "2026-08-16",
       "author": "TopDigg",

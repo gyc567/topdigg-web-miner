@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-16T00:13:23.539Z
+Generated: 2026-08-16T02:43:33.573Z
 
 ## Site Overview
 
@@ -20,6 +20,12 @@ We cover trending topics and business opportunities across Reddit, YouTube, and 
 | External Links | https://topdigg.com/external-links | Curated external resources |
 
 ## Latest Blog Posts (10 most recent)
+
+### Soup: Fine-Tune an 8B LLM on a 4 GB Laptop GPU with This One-Command CLI
+URL: https://topdigg.com/blog/2026-08-16-soup-analysis | Date: 2026-08-16 | Author: TopDigg
+Tags: Soup, LLM, Fine-tuning, LoRA, QLoRA, Layer Streaming, Machine Learning, CLI
+
+An in-depth look at MakazhanAlpamys/Soup — a CLI-first LLM fine-tuning tool. Explore how Layer Streaming fine-tunes Llama-3.1-8B at 119.6 tok/s on a 4 GB GPU, how bit-exact testing proves correctness, why it chooses to refuse rather than warn, and the measurement-driven design philosophy behind it, 
 
 ### ttfx: Compiling Terminal Text Effects into a Single 3.3MB Static Binary with Rust
 URL: https://topdigg.com/blog/2026-08-16-ttfx-analysis | Date: 2026-08-16 | Author: TopDigg
@@ -75,12 +81,6 @@ Tags: AGENTS.md, Claude Code, Cursor, Copilot, AI Assistant, Configuration
 
 Deep dive into AGENTS.md configuration philosophy and best practices to make AI programming assistants understand your project better
 
-### Babashka: The Clojure Scripting Powerhouse — Replacing Bash with Elegant Functional Programming
-URL: https://topdigg.com/blog/babashka | Date: 2026-08-14 | Author: TopDigg
-Tags: Babashka, Clojure, Scripting Language, GraalVM, Functional Programming, SCI, CLI Tools, Java Interop
-
-Deep analysis of Babashka — a fast-starting native Clojure runtime powered by GraalVM native-image and SCI interpreter, featuring pods system, built-in task runner, and rich library ecosystem
-
 ## Twitter Analysis Reports
 
 ###  (@)
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 112 blog posts | 4 Twitter analyses
+End of llms.txt | 113 blog posts | 4 Twitter analyses

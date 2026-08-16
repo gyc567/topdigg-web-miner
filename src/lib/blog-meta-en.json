@@ -1,6 +1,30 @@
 {
   "posts": [
     {
+      "slug": "2026-08-16-soup-analysis",
+      "date": "2026-08-16",
+      "author": "TopDigg",
+      "tags": [
+        "Soup",
+        "LLM",
+        "Fine-tuning",
+        "LoRA",
+        "QLoRA",
+        "Layer Streaming",
+        "Machine Learning",
+        "CLI"
+      ],
+      "categories": [
+        "AI Tools",
+        "LLM Fine-tuning",
+        "Open Source",
+        "CLI Tools",
+        "Machine Learning"
+      ],
+      "title": "Soup: Fine-Tune an 8B LLM on a 4 GB Laptop GPU with This One-Command CLI",
+      "description": "An in-depth look at MakazhanAlpamys/Soup — a CLI-first LLM fine-tuning tool. Explore how Layer Streaming fine-tunes Llama-3.1-8B at 119.6 tok/s on a 4 GB GPU, how bit-exact testing proves correctness, why it chooses to refuse rather than warn, and the measurement-driven design philosophy behind it, complete with a full tutorial"
+    },
+    {
       "slug": "2026-08-16-ttfx-analysis",
       "date": "2026-08-16",
       "author": "TopDigg",
