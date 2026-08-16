@@ -37,6 +37,40 @@
       ]
     },
     {
+      "slug": "2026-08-16-traction-book-analysis",
+      "title": {
+        "en": "Traction by Gabriel Weinberg & Justin Mares: Why \"Failing to Get Customers\" Is the #1 Startup Killer",
+        "ja": "Traction『トラクション』：なぜ「顧客を獲得できなかった失敗」がスタートアップの死因第1位なのか",
+        "vi": "Traction (《拉新》): Vì sao \"thất bại vì không có khách hàng\" mới là nguyên nhân tử thần số 1 của startup",
+        "zh-Hans": "Traction《拉新》：为什么\"没有客户的失败\"才是创业公司的头号死因",
+        "zh-Hant": "Traction《拉新》：為什麼「沒有客戶的失敗」才是新創公司的頭號死因"
+      },
+      "description": {
+        "en": "An in-depth look at Traction: How Any Startup Can Achieve Explosive Customer Growth by DuckDuckGo founder Gabriel Weinberg and Justin Mares (Chinese edition 《拉新：快速实现用户增长》). Built on interviews with 40+ founders, it breaks down the core ideas (Traction trumps everything, the 50% rule, three phases, Critical Path), the Bullseye framework, and all 19 traction channels — with a double-verified, honest evaluation",
+        "ja": "DuckDuckGo 創業者 Gabriel Weinberg と Justin Mares の共著『Traction: How Any Startup Can Achieve Explosive Customer Growth』（中国語版『拉新：快速實現用戶增長』）を徹底解説。40人以上の創業者インタビューに基づき、中核思想（Traction trumps everything、50%ルール、3つのフェーズ、Critical Path）、Bullseye フレームワーク、19のトラクションチャネルを体系的に分解し、二重検証済みの総合評価を提示する",
+        "vi": "Phân tích chuyên sâu cuốn Traction: How Any Startup Can Achieve Explosive Customer Growth của Gabriel Weinberg (nhà sáng lập kiêm CEO DuckDuckGo) và Justin Mares (bản tiếng Trung 《拉新：快速实现用户增长》). Dựa trên hơn 40 cuộc phỏng vấn nhà sáng lập, bài viết giải mã các tư tưởng cốt lõi (Traction trumps everything, quy tắc 50%, ba giai đoạn, Critical Path), khung Bullseye và toàn bộ 19 kênh traction — kèm đánh giá tổng hợp đã được xác minh kép",
+        "zh-Hans": "深度解析 DuckDuckGo 创始人 Gabriel Weinberg 与 Justin Mares 合著的《Traction：How Any Startup Can Achieve Explosive Customer Growth》（中文版《拉新：快速实现用户增长》）。基于 40+ 位创始人访谈，系统拆解核心思想（Traction trumps everything、50% 规则、三阶段、Critical Path）、Bullseye 靶心框架与全部 19 个拉新渠道，并给出双重验证过的综合评价",
+        "zh-Hant": "深度解析 DuckDuckGo 創辦人 Gabriel Weinberg 與 Justin Mares 合著的《Traction：How Any Startup Can Achieve Explosive Customer Growth》（中文版《拉新：快速實現用戶增長》）。基於 40+ 位創辦人訪談，系統拆解核心思想（Traction trumps everything、50% 規則、三階段、Critical Path）、Bullseye 靶心框架與全部 19 個拉新管道，並給出雙重驗證過的綜合評價"
+      },
+      "date": "2026-08-16",
+      "author": "TopDigg",
+      "tags": [
+        "Traction",
+        "Customer Acquisition",
+        "Startup",
+        "Growth Hacking",
+        "Bullseye",
+        "Marketing",
+        "Business Books"
+      ],
+      "categories": [
+        "Book Review",
+        "Startup",
+        "Growth",
+        "Marketing"
+      ]
+    },
+    {
       "slug": "2026-08-16-ttfx-analysis",
       "title": {
         "en": "ttfx: Compiling Terminal Text Effects into a Single 3.3MB Static Binary with Rust",

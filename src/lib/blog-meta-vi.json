@@ -25,6 +25,28 @@
       "description": "Phân tích chuyên sâu MakazhanAlpamys/Soup — công cụ tinh chỉnh LLM theo phong cách CLI. Khám phá cách Layer Streaming tinh chỉnh Llama-3.1-8B ở tốc độ 119,6 tok/s trên GPU 4GB, cách kiểm thử bit-exact chứng minh tính đúng đắn, vì sao nó chọn 'từ chối thay vì cảnh báo', cùng triết lý thiết kế dựa trên văn hóa đo lường và hướng dẫn chi tiết"
     },
     {
+      "slug": "2026-08-16-traction-book-analysis",
+      "date": "2026-08-16",
+      "author": "TopDigg",
+      "tags": [
+        "Traction",
+        "Customer Acquisition",
+        "Startup",
+        "Growth Hacking",
+        "Bullseye",
+        "Marketing",
+        "Business Books"
+      ],
+      "categories": [
+        "Book Review",
+        "Startup",
+        "Growth",
+        "Marketing"
+      ],
+      "title": "Traction (《拉新》): Vì sao \"thất bại vì không có khách hàng\" mới là nguyên nhân tử thần số 1 của startup",
+      "description": "Phân tích chuyên sâu cuốn Traction: How Any Startup Can Achieve Explosive Customer Growth của Gabriel Weinberg (nhà sáng lập kiêm CEO DuckDuckGo) và Justin Mares (bản tiếng Trung 《拉新：快速实现用户增长》). Dựa trên hơn 40 cuộc phỏng vấn nhà sáng lập, bài viết giải mã các tư tưởng cốt lõi (Traction trumps everything, quy tắc 50%, ba giai đoạn, Critical Path), khung Bullseye và toàn bộ 19 kênh traction — kèm đánh giá tổng hợp đã được xác minh kép"
+    },
+    {
       "slug": "2026-08-16-ttfx-analysis",
       "date": "2026-08-16",
       "author": "TopDigg",

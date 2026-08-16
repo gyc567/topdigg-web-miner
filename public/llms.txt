@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-16T02:45:37.062Z
+Generated: 2026-08-16T05:03:17.310Z
 
 ## Site Overview
 
@@ -26,6 +26,12 @@ URL: https://topdigg.com/blog/2026-08-16-soup-analysis | Date: 2026-08-16 | Auth
 Tags: Soup, LLM, Fine-tuning, LoRA, QLoRA, Layer Streaming, Machine Learning, CLI
 
 An in-depth look at MakazhanAlpamys/Soup — a CLI-first LLM fine-tuning tool. Explore how Layer Streaming fine-tunes Llama-3.1-8B at 119.6 tok/s on a 4 GB GPU, how bit-exact testing proves correctness, why it chooses to refuse rather than warn, and the measurement-driven design philosophy behind it, 
+
+### Traction by Gabriel Weinberg & Justin Mares: Why "Failing to Get Customers" Is the #1 Startup Killer
+URL: https://topdigg.com/blog/2026-08-16-traction-book-analysis | Date: 2026-08-16 | Author: TopDigg
+Tags: Traction, Customer Acquisition, Startup, Growth Hacking, Bullseye, Marketing, Business Books
+
+An in-depth look at Traction: How Any Startup Can Achieve Explosive Customer Growth by DuckDuckGo founder Gabriel Weinberg and Justin Mares (Chinese edition 《拉新：快速实现用户增长》). Built on interviews with 40+ founders, it breaks down the core ideas (Traction trumps everything, the 50% rule, three phases, C
 
 ### ttfx: Compiling Terminal Text Effects into a Single 3.3MB Static Binary with Rust
 URL: https://topdigg.com/blog/2026-08-16-ttfx-analysis | Date: 2026-08-16 | Author: TopDigg
@@ -75,12 +81,6 @@ Tags: Acceptance Pipeline, Gherkin, Acceptance Testing, Clean Code, Uncle Bob, B
 
 A deep dive into Robert C. Martin's Acceptance Pipeline Specification project, exploring how to achieve portable acceptance testing through Gherkin feature files
 
-### The Complete AGENTS.md Guide: The Art of Configuring AI Programming Assistants
-URL: https://topdigg.com/blog/agents-md-complete-guide | Date: 2026-08-14T00:00:00.000Z | Author: TopDigg
-Tags: AGENTS.md, Claude Code, Cursor, Copilot, AI Assistant, Configuration
-
-Deep dive into AGENTS.md configuration philosophy and best practices to make AI programming assistants understand your project better
-
 ## Twitter Analysis Reports
 
 ###  (@)
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 113 blog posts | 4 Twitter analyses
+End of llms.txt | 114 blog posts | 4 Twitter analyses

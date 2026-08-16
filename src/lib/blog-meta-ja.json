@@ -25,6 +25,28 @@
       "description": "MakazhanAlpamys/Soup を徹底解説：LLM ファインチューニングを「ワンコマンド」で行う CLI ツール。Layer Streaming が 4GB GPU で Llama-3.1-8B を 119.6 tok/s でファインチューニングする仕組み、bit-exact テストによる正確性の証明、なぜ「警告ではなく拒否」を選ぶのか、測定文化に基づく設計哲学と完全チュートリアル"
     },
     {
+      "slug": "2026-08-16-traction-book-analysis",
+      "date": "2026-08-16",
+      "author": "TopDigg",
+      "tags": [
+        "Traction",
+        "Customer Acquisition",
+        "Startup",
+        "Growth Hacking",
+        "Bullseye",
+        "Marketing",
+        "Business Books"
+      ],
+      "categories": [
+        "Book Review",
+        "Startup",
+        "Growth",
+        "Marketing"
+      ],
+      "title": "Traction『トラクション』：なぜ「顧客を獲得できなかった失敗」がスタートアップの死因第1位なのか",
+      "description": "DuckDuckGo 創業者 Gabriel Weinberg と Justin Mares の共著『Traction: How Any Startup Can Achieve Explosive Customer Growth』（中国語版『拉新：快速實現用戶增長』）を徹底解説。40人以上の創業者インタビューに基づき、中核思想（Traction trumps everything、50%ルール、3つのフェーズ、Critical Path）、Bullseye フレームワーク、19のトラクションチャネルを体系的に分解し、二重検証済みの総合評価を提示する"
+    },
+    {
       "slug": "2026-08-16-ttfx-analysis",
       "date": "2026-08-16",
       "author": "TopDigg",

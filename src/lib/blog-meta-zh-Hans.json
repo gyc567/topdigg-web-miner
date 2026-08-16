@@ -25,6 +25,28 @@
       "description": "深入解析 MakazhanAlpamys/Soup：一个'一条命令完成 LLM 微调'的 CLI 工具。探索它如何通过 Layer Streaming 在 4GB 显卡上以 119.6 tok/s 微调 Llama-3.1-8B、如何用位级精确测试证明正确性、为什么它选择'拒绝而非警告'，以及测量文化驱动的设计哲学与完整教程"
     },
     {
+      "slug": "2026-08-16-traction-book-analysis",
+      "date": "2026-08-16",
+      "author": "TopDigg",
+      "tags": [
+        "Traction",
+        "Customer Acquisition",
+        "Startup",
+        "Growth Hacking",
+        "Bullseye",
+        "Marketing",
+        "Business Books"
+      ],
+      "categories": [
+        "Book Review",
+        "Startup",
+        "Growth",
+        "Marketing"
+      ],
+      "title": "Traction《拉新》：为什么\"没有客户的失败\"才是创业公司的头号死因",
+      "description": "深度解析 DuckDuckGo 创始人 Gabriel Weinberg 与 Justin Mares 合著的《Traction：How Any Startup Can Achieve Explosive Customer Growth》（中文版《拉新：快速实现用户增长》）。基于 40+ 位创始人访谈，系统拆解核心思想（Traction trumps everything、50% 规则、三阶段、Critical Path）、Bullseye 靶心框架与全部 19 个拉新渠道，并给出双重验证过的综合评价"
+    },
+    {
       "slug": "2026-08-16-ttfx-analysis",
       "date": "2026-08-16",
       "author": "TopDigg",

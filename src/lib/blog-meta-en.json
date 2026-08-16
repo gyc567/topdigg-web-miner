@@ -25,6 +25,28 @@
       "description": "An in-depth look at MakazhanAlpamys/Soup — a CLI-first LLM fine-tuning tool. Explore how Layer Streaming fine-tunes Llama-3.1-8B at 119.6 tok/s on a 4 GB GPU, how bit-exact testing proves correctness, why it chooses to refuse rather than warn, and the measurement-driven design philosophy behind it, complete with a full tutorial"
     },
     {
+      "slug": "2026-08-16-traction-book-analysis",
+      "date": "2026-08-16",
+      "author": "TopDigg",
+      "tags": [
+        "Traction",
+        "Customer Acquisition",
+        "Startup",
+        "Growth Hacking",
+        "Bullseye",
+        "Marketing",
+        "Business Books"
+      ],
+      "categories": [
+        "Book Review",
+        "Startup",
+        "Growth",
+        "Marketing"
+      ],
+      "title": "Traction by Gabriel Weinberg & Justin Mares: Why \"Failing to Get Customers\" Is the #1 Startup Killer",
+      "description": "An in-depth look at Traction: How Any Startup Can Achieve Explosive Customer Growth by DuckDuckGo founder Gabriel Weinberg and Justin Mares (Chinese edition 《拉新：快速实现用户增长》). Built on interviews with 40+ founders, it breaks down the core ideas (Traction trumps everything, the 50% rule, three phases, Critical Path), the Bullseye framework, and all 19 traction channels — with a double-verified, honest evaluation"
+    },
+    {
       "slug": "2026-08-16-ttfx-analysis",
       "date": "2026-08-16",
       "author": "TopDigg",
