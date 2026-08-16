@@ -24,6 +24,28 @@
       "description": "Phân tích sâu dự án GitHub agent-mythical-man-month-2026 (《agent 时代的人月神话》): một bản đọc lại 18 chương của tác phẩm kinh điển Fred Brooks 1975, được viết lại từng chương trong bối cảnh AI Agent 2026 bởi một tác giả có mục đích cùng nhiều agent. Bao gồm tư tưởng cốt lõi (harness là máy trạng thái, context là biến duy nhất, dự đoán về bài toán dừng, định luật Brooks dưới hai hình thái, Không có viên đạn bạc), triết lý thiết kế (một bác sĩ phẫu thuật + đội hỗ trợ agent, ba hiệu ứng 10x, quyền kiểm toán và quyền sửa chữa, tài liệu là mã nguồn), hướng dẫn chi tiết và bảng dẫn lối 18 chương"
     },
     {
+      "slug": "2026-08-16-mise-analysis",
+      "date": "2026-08-16",
+      "author": "TopDigg",
+      "tags": [
+        "mise",
+        "dev environment",
+        "CLI",
+        "Rust",
+        "tooling",
+        "supply chain security",
+        "dev tools",
+        "reproducible builds"
+      ],
+      "categories": [
+        "project analysis",
+        "developer tools",
+        "software engineering"
+      ],
+      "title": "mise phân tích chuyên sâu: Tại sao \"môi trường phát triển trước mỗi lệnh\" lại xứng đáng một công cụ riêng — CLI Rust hợp nhất Dev tools, biến môi trường và tác vụ",
+      "description": "Phân tích chuyên sâu dự án GitHub jdx/mise (mise-en-place): CLI quản lý môi trường phát triển viết bằng Rust, hợp nhất dev tools, biến môi trường và tác vụ vào một mise.toml. 32.5k stars, tiền thân là rtx. Bao gồm các ý tưởng cốt lõi (môi trường là sự chuẩn bị trước mỗi lệnh, cấu hình khai báo ba-trong-một, bảo mật chuỗi cung ứng là ưu tiên hàng đầu, ba chế độ kích hoạt), triết lý thiết kế (nhị phân đơn, thực dụng vs Nix, tương thích hơn cách mạng, tác vụ là công dân hạng nhất), hướng dẫn chi tiết và so sánh với asdf/Nix/devbox"
+    },
+    {
       "slug": "2026-08-16-soup-analysis",
       "date": "2026-08-16",
       "author": "TopDigg",
@@ -92,6 +114,30 @@
       ],
       "title": "ttfx: Biên dịch hiệu ứng văn bản đầu cuối thành một binary tĩnh 3.3MB duy nhất bằng Rust",
       "description": "Phân tích chuyên sâu omacom-io/ttfx — bản port Rust tái tạo TerminalTextEffects từng byte. Khám phá cách nó nhồi 37 hiệu ứng đầu cuối vào một binary tĩnh không phụ thuộc nào, cách kiểm thử xác định chứng minh 'khớp từng pixel', và triết lý thiết kế đằng sau mức tăng tốc trung vị 27.5×, kèm hướng dẫn chi tiết"
+    },
+    {
+      "slug": "eve-analysis",
+      "date": "2026-08-16",
+      "author": "TopDigg",
+      "tags": [
+        "Eve",
+        "Vercel",
+        "AI Agent",
+        "Agent Framework",
+        "Open Source",
+        "Workflow",
+        "MCP",
+        "TypeScript"
+      ],
+      "categories": [
+        "AI Agent",
+        "Agent Framework",
+        "Vercel Open Source",
+        "TypeScript",
+        "Workflow Engine"
+      ],
+      "title": "Eve: Khung Agent mã nguồn mở của Vercel — Quản lý AI Agent qua cấu trúc thư mục",
+      "description": "Phân tích sâu khung Agent mã nguồn mở Vercel Eve — 'Next.js cho Agents', quản lý agent qua cấu trúc thư mục"
     },
     {
       "slug": "tooljet-analysis",

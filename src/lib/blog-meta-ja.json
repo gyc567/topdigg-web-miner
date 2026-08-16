@@ -24,6 +24,28 @@
       "description": "GitHubプロジェクト agent-mythical-man-month-2026（『agent時代の人月の神話』）を深く分析：目的を持つ1人の著者と複数のagentが完成させた18章の再読で、Fred Brooks の1975年の古典を2026年のAI Agent文脈に章ごとに書き直した。核心思想（harness は状態機械、コンテキストこそ唯一の変数、停止問題の予言、Brooks の法則の二重形態、銀の弾丸なし）、設計哲学（1人の執刀医 + agent サポートチーム、3つの10倍、監査権と修正権、ドキュメントはソースコード）、詳細チュートリアルと18章ガイドを網羅"
     },
     {
+      "slug": "2026-08-16-mise-analysis",
+      "date": "2026-08-16",
+      "author": "TopDigg",
+      "tags": [
+        "mise",
+        "dev environment",
+        "CLI",
+        "Rust",
+        "tooling",
+        "supply chain security",
+        "dev tools",
+        "reproducible builds"
+      ],
+      "categories": [
+        "project analysis",
+        "developer tools",
+        "software engineering"
+      ],
+      "title": "mise 徹底解説：なぜ「コマンド実行前の開発環境」に専用ツールが必要なのか——Dev tools・環境変数・タスクを一つに統合する Rust CLI",
+      "description": "GitHub プロジェクト jdx/mise（mise-en-place）の徹底解説：Rust 製の開発環境管理 CLI。dev tools・環境変数・タスクを mise.toml 一つに統合。32.5k stars、旧称 rtx。核心理念（環境はコマンド実行前の準備、3-in-1 宣言的設定、サプライチェーンセキュリティを第一級に、3 つのアクティベーション方式）、設計哲学（単一バイナリ、実用主義 vs Nix、互換性優先、タスクを第一級市民に）、詳細チュートリアルと asdf/Nix/devbox との比較を収録"
+    },
+    {
       "slug": "2026-08-16-soup-analysis",
       "date": "2026-08-16",
       "author": "TopDigg",
@@ -92,6 +114,30 @@
       ],
       "title": "ttfx：ターミナル文字エフェクトを3.3MBの単一静的バイナリにコンパイルしたRust移植",
       "description": "omacom-io/ttfxの詳細分析：TerminalTextEffectsをバイト単位で再現するRust移植プロジェクト。37種類のターミナルエフェクトをゼロ依存の静的バイナリに詰め込む方法、決定論的テストで「ピクセル単位の一致」を証明する仕組み、そして27.5倍の中央値高速化の背後にある設計哲学と完全なチュートリアルを解説"
+    },
+    {
+      "slug": "eve-analysis",
+      "date": "2026-08-16",
+      "author": "TopDigg",
+      "tags": [
+        "Eve",
+        "Vercel",
+        "AI Agent",
+        "Agent Framework",
+        "Open Source",
+        "Workflow",
+        "MCP",
+        "TypeScript"
+      ],
+      "categories": [
+        "AI Agent",
+        "Agent Framework",
+        "Vercel Open Source",
+        "TypeScript",
+        "Workflow Engine"
+      ],
+      "title": "Eve：Vercel製オープンソースAgentフレームワーク——ディレクトリ構造でAIエージェントを管理",
+      "description": "Vercel EveオープンソースAgentフレームワークの深度解析——「AgentsのためのNext.js」、ディレクトリ構造によるエージェント管理"
     },
     {
       "slug": "tooljet-analysis",

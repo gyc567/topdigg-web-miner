@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-16T06:05:08.774Z
+Generated: 2026-08-16T14:29:44.362Z
 
 ## Site Overview
 
@@ -27,6 +27,12 @@ Tags: Mythical Man-Month, Fred Brooks, AI Agent, Software Engineering, Project M
 
 An in-depth look at the GitHub project agent-mythical-man-month-2026 (《agent 时代的人月神话》): an 18-chapter reread of Fred Brooks' 1975 classic, written in the 2026 AI-agent context by one purposeful author plus several agents. Covers the core ideas (harness as a state machine, context as the only variabl
 
+### mise Deep Dive: Why "Your Dev Environment Before Every Command" Deserves a Dedicated Tool — A Rust CLI Unifying Dev Tools, Env Vars, and Tasks
+URL: https://topdigg.com/blog/2026-08-16-mise-analysis | Date: 2026-08-16 | Author: TopDigg
+Tags: mise, dev environment, CLI, Rust, tooling, supply chain security, dev tools, reproducible builds
+
+Deep analysis of the GitHub project jdx/mise (mise-en-place): a Rust CLI that unifies dev tools, environment variables, and tasks in a single mise.toml. 32.5k stars, formerly rtx. Covers the core ideas (environment as preparation before every command, declarative three-in-one config, supply-chain se
+
 ### Soup: Fine-Tune an 8B LLM on a 4 GB Laptop GPU with This One-Command CLI
 URL: https://topdigg.com/blog/2026-08-16-soup-analysis | Date: 2026-08-16 | Author: TopDigg
 Tags: Soup, LLM, Fine-tuning, LoRA, QLoRA, Layer Streaming, Machine Learning, CLI
@@ -44,6 +50,12 @@ URL: https://topdigg.com/blog/2026-08-16-ttfx-analysis | Date: 2026-08-16 | Auth
 Tags: ttfx, TerminalTextEffects, Rust, CLI, Terminal, Terminal Effects, Command Line Tools, Performance Optimization
 
 An in-depth look at omacom-io/ttfx — a Rust port that reproduces TerminalTextEffects byte-for-byte. Explore how it packs 37 terminal effects into one zero-dependency static binary, how deterministic testing proves 'pixel-perfect' parity, and the design philosophy behind its 27.5× median speedup, com
+
+### Eve: Vercel's Open-Source Agent Framework — Managing AI Agents via Directory Structure
+URL: https://topdigg.com/blog/eve-analysis | Date: 2026-08-16 | Author: TopDigg
+Tags: Eve, Vercel, AI Agent, Agent Framework, Open Source, Workflow, MCP, TypeScript
+
+Deep dive into Vercel Eve open-source Agent framework — 'Next.js for Agents', directory-based agent management with subagent, workflow, and MCP support
 
 ### ToolJet: Complete Guide to Open-Source Low-Code Platform for Building Internal Tools
 URL: https://topdigg.com/blog/tooljet-analysis | Date: 2026-08-16 | Author: TopDigg
@@ -68,18 +80,6 @@ URL: https://topdigg.com/blog/2026-08-15-omarchy-linux-distribution | Date: 2026
 Tags: Omarchy, Linux, DHH, Basecamp, Hyprland, Window Management, Arch Linux, AI Programming
 
 An in-depth analysis of Basecamp DHH's Omarchy Linux distribution: opinionated design philosophy, powerful features, getting started tutorial, and how it redefines the modern Linux desktop experience
-
-### Distributed Intelligence, Shared Protocol: How Bloome Designs Reliable Multi-Agent Collaboration
-URL: https://topdigg.com/blog/2026-08-14-agent-collaboration-protocol | Date: 2026-08-14 | Author: TopDigg
-Tags: AI Agents, Multi-Agent Collaboration, Agent Collaboration, Bloome, Distributed Intelligence, Protocol Design
-
-A deep dive into Bloome's Agent Collaboration Protocol, exploring how shared task state, freshness awareness, and output boundaries enable reliable cooperation among multiple AI agents
-
-### Code Is No Longer the Bottleneck—Understanding Is: CodeRabbit Reveals the New Paradigm of Code Review in the AI Era
-URL: https://topdigg.com/blog/2026-08-14-code-is-no-longer-the-bottleneck | Date: 2026-08-14 | Author: TopDigg
-Tags: CodeRabbit, AI Code Review, Change Stack, Code Comprehension, AI Programming, TanStack
-
-An in-depth analysis of CodeRabbit's core thesis: AI coding agents have shifted the bottleneck of software development from code production to code comprehension, revealing how the explainability gap impacts code review efficiency
 
 ## Twitter Analysis Reports
 
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 116 blog posts | 4 Twitter analyses
+End of llms.txt | 118 blog posts | 4 Twitter analyses

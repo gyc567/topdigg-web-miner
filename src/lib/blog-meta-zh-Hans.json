@@ -24,6 +24,28 @@
       "description": "深度解析 GitHub 项目 agent-mythical-man-month-2026（《agent 时代的人月神话》）：一位持有目的的作者加多位 agent 完成的 18 章重读，把 Fred Brooks 1975 年的经典逐章搬进 2026 年 AI Agent 语境。覆盖核心思想（harness 状态机、上下文是唯一变量、停机问题预言、Brooks 定律双重形态、没有银弹）、设计哲学（一人主刀 + agent 支持团队、三个 10x、审计权与修正权、文档即源码）、详细教程与 18 章导览"
     },
     {
+      "slug": "2026-08-16-mise-analysis",
+      "date": "2026-08-16",
+      "author": "TopDigg",
+      "tags": [
+        "mise",
+        "dev environment",
+        "CLI",
+        "Rust",
+        "tooling",
+        "supply chain security",
+        "dev tools",
+        "reproducible builds"
+      ],
+      "categories": [
+        "project analysis",
+        "developer tools",
+        "software engineering"
+      ],
+      "title": "mise 深度解析：为什么\"每条命令前的开发环境\"值得一个专用工具——Dev tools、环境变量、任务三合一的 Rust CLI",
+      "description": "深度解析 GitHub 项目 jdx/mise（mise-en-place）：一个用 Rust 写的开发环境管理 CLI，把 dev tools、环境变量、任务三合一到 mise.toml。32.5k stars，前身是 rtx。覆盖核心思想（环境是每条命令前的准备、三合一声明式配置、供应链安全一等公民、三种激活方式）、设计哲学（单一二进制、务实 vs Nix、兼容胜过革命、任务即一等公民）、详细教程与 asdf/Nix/devbox 对比"
+    },
+    {
       "slug": "2026-08-16-soup-analysis",
       "date": "2026-08-16",
       "author": "TopDigg",
@@ -92,6 +114,30 @@
       ],
       "title": "ttfx：把终端文字特效编译成 3.3MB 单一静态二进制的 Rust 移植",
       "description": "深入解析 omacom-io/ttfx：一个逐字节复刻 TerminalTextEffects 的 Rust 移植项目。探索它如何把 37 种终端特效塞进一个零依赖的静态二进制、如何用确定性测试证明'像素级一致'，以及 27.5 倍中位加速背后的设计哲学与完整教程"
+    },
+    {
+      "slug": "eve-analysis",
+      "date": "2026-08-16",
+      "author": "TopDigg",
+      "tags": [
+        "Eve",
+        "Vercel",
+        "AI Agent",
+        "Agent Framework",
+        "Open Source",
+        "Workflow",
+        "MCP",
+        "TypeScript"
+      ],
+      "categories": [
+        "AI Agent",
+        "Agent Framework",
+        "Vercel Open Source",
+        "TypeScript",
+        "Workflow Engine"
+      ],
+      "title": "Eve：Vercel 开源 Agent 框架——以目录结构管理 AI 智能体",
+      "description": "深度解析 Vercel Eve 开源 Agent 框架，Next.js for Agents，以目录结构管理智能体，支持子智能体、工作流、MCP 集成"
     },
     {
       "slug": "tooljet-analysis",
