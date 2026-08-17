@@ -1,6 +1,31 @@
 {
   "posts": [
     {
+      "slug": "2026-08-17-open-interpreter-analysis",
+      "title": {
+        "zh-Hans": "Open Interpreter 深度解析：让低成本AI模型成为顶级编程助手"
+      },
+      "description": {
+        "zh-Hans": "深度解析 Open Interpreter 项目：Rust 重写、Harness 框架模拟系统、开放标准哲学、以及 Kimi K3 集成。包含详细教程、架构分析和核心观点总结。"
+      },
+      "date": "2026-08-17",
+      "author": "TopDigg",
+      "tags": [
+        "Open Interpreter",
+        "AI 编程",
+        "Rust",
+        "Codex",
+        "Kimi K3",
+        "AI Agent",
+        "Harness"
+      ],
+      "categories": [
+        "AI 工具深度解析",
+        "编程助手",
+        "AI Agent"
+      ]
+    },
+    {
       "slug": "2026-08-16-agent-mythical-man-month-analysis",
       "title": {
         "en": "The Mythical Man-Month, Reread in 2026: Why Adding Ten Subagents to Finish in an Hour Is the Same Curse as Hiring Ten People to Finish in a Month",
@@ -67,6 +92,36 @@
         "project analysis",
         "developer tools",
         "software engineering"
+      ]
+    },
+    {
+      "slug": "2026-08-16-oh-my-openagent-jie-shao",
+      "title": {
+        "en": "Oh My OpenAgent: The Open Source Multi-Model Agent Orchestration Revolution",
+        "ja": "Oh My OpenAgent 完全解説：オープンソースAIエージェントオーケストレーション革命",
+        "zh-Hans": "Oh My OpenAgent 全面解析：开源AI智能体编排框架的革命",
+        "zh-Hant": "Oh My OpenAgent 全面解析：開源 AI 智慧體編排框架的革命"
+      },
+      "description": {
+        "en": "In-depth analysis of oh-my-openagent: 67K Stars open source agent orchestration framework, covering design philosophy, core features, Agent system, Team Mode multi-agent collaboration and detailed installation tutorial.",
+        "ja": "oh-my-openagentプロジェクトを深度解析：67K Starsのオープンソースエージェントオーケストレーションフレームワーク、設計哲学、コア機能、Agentシステム、Team Modeマルチエージェント協力 및詳細インストール教程。",
+        "zh-Hans": "深度解析 oh-my-openagent 项目：67K Stars 的开源智能体编排框架，涵盖设计哲学、核心特性、Agent系统、Team Mode多智能体协作及详细安装教程。",
+        "zh-Hant": "深度解析 oh-my-openagent 專案：67K Stars 的開源智慧體編排框架，涵蓋設計哲學、核心特性、Agent 系統、Team Mode 多智慧體協作及詳細安裝教程。"
+      },
+      "date": "2026-08-16",
+      "author": "ERIC",
+      "tags": [
+        "AI Agent",
+        "Open Source",
+        "Oh My OpenAgent",
+        "Multi-Model Orchestration",
+        "Codex",
+        "OpenCode",
+        "Coding Assistant",
+        "Automated Development"
+      ],
+      "categories": [
+        "Review"
       ]
     },
     {
@@ -281,6 +336,105 @@
         "Microsoft Open Source",
         "Go Tools",
         "Skills Assessment"
+      ]
+    },
+    {
+      "slug": "2026-08-16-deepcode-hku-agentic-coding-jie-shao",
+      "title": {
+        "zh-Hans": "DeepCode 深度解析：港大开源的 Agentic Coding 智能体编程框架"
+      },
+      "description": {
+        "zh-Hans": "深度解析 DeepCode：HKU 开发的 16K Stars 开源智能体编程框架，涵盖 Agent Harness、Loop Engineering、多智能体编排、Paper2Code 等核心能力，支持 CLI 和 Desktop 双界面。"
+      },
+      "date": "2026-08-16",
+      "author": "ERIC",
+      "tags": [
+        "DeepCode",
+        "Agentic Coding",
+        "HKU",
+        "多智能体",
+        "Loop Engineering",
+        "Coding Agent",
+        "Python",
+        "开源"
+      ],
+      "categories": [
+        "框架评测"
+      ]
+    },
+    {
+      "slug": "2026-08-16-gary-marcus-anthropic-ipo-jie-shao",
+      "title": {
+        "zh-Hans": "Gary Marcus 深度剖析：Anthropic IPO 狂热背后的冷静审视"
+      },
+      "description": {
+        "zh-Hans": "深度解析 Gary Marcus 对 Anthropic IPO 狂热炒作的批判性分析：从 2000 亿美元收入预测到\"每 token 都赚钱\"的说法，逐一拆解被夸大的数据和被忽视的风险。"
+      },
+      "date": "2026-08-16",
+      "author": "ERIC",
+      "tags": [
+        "Anthropic",
+        "IPO",
+        "Gary Marcus",
+        "AI",
+        "投资",
+        "炒作",
+        "Claude",
+        "Substack"
+      ],
+      "categories": [
+        "行业分析"
+      ]
+    },
+    {
+      "slug": "2026-08-16-obscura-headless-browser-jie-shao",
+      "title": {
+        "zh-Hans": "Obscura 深度解析：AI 智能体与网页爬虫的开源无头浏览器引擎"
+      },
+      "description": {
+        "zh-Hans": "深度解析 Obscura：21K Stars 的 Rust 编写的开源无头浏览器，无需 Chromium，原生支持 Puppeteer/Playwright，内置反检测与 stealth 模式，内存仅 30MB vs Chrome 200MB+。"
+      },
+      "date": "2026-08-16",
+      "author": "ERIC",
+      "tags": [
+        "Obscura",
+        "无头浏览器",
+        "Rust",
+        "AI智能体",
+        "网页爬虫",
+        "Puppeteer",
+        "Playwright",
+        "CDP",
+        "反检测",
+        "V8引擎"
+      ],
+      "categories": [
+        "工具评测"
+      ]
+    },
+    {
+      "slug": "2026-08-16-qwen-38-27b-simon-willison-jie-shao",
+      "title": {
+        "zh-Hans": "Qwen 3.8 27B 深度体验：Simon Willison 眼中的开源多模态大模型"
+      },
+      "description": {
+        "zh-Hans": "深度解析 Qwen 3.8 27B：Simon Willison 的实测报告，Apache 2 许可证的 27B 视觉语言模型，默认推理强度过高的问题，以及在 MacBook Pro 和 NVIDIA DGX Spark 上的本地运行体验。"
+      },
+      "date": "2026-08-16",
+      "author": "ERIC",
+      "tags": [
+        "Qwen",
+        "大语言模型",
+        "开源",
+        "多模态",
+        "Alibaba",
+        "Simon Willison",
+        "本地运行",
+        "LM Studio",
+        "视觉模型"
+      ],
+      "categories": [
+        "模型评测"
       ]
     },
     {

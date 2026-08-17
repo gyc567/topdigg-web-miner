@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-16T14:29:44.362Z
+Generated: 2026-08-17T02:00:57.475Z
 
 ## Site Overview
 
@@ -21,6 +21,12 @@ We cover trending topics and business opportunities across Reddit, YouTube, and 
 
 ## Latest Blog Posts (10 most recent)
 
+### Open Interpreter 深度解析：让低成本AI模型成为顶级编程助手
+URL: https://topdigg.com/blog/2026-08-17-open-interpreter-analysis | Date: 2026-08-17 | Author: TopDigg
+Tags: Open Interpreter, AI 编程, Rust, Codex, Kimi K3, AI Agent, Harness
+
+深度解析 Open Interpreter 项目：Rust 重写、Harness 框架模拟系统、开放标准哲学、以及 Kimi K3 集成。包含详细教程、架构分析和核心观点总结。
+
 ### The Mythical Man-Month, Reread in 2026: Why Adding Ten Subagents to Finish in an Hour Is the Same Curse as Hiring Ten People to Finish in a Month
 URL: https://topdigg.com/blog/2026-08-16-agent-mythical-man-month-analysis | Date: 2026-08-16 | Author: TopDigg
 Tags: Mythical Man-Month, Fred Brooks, AI Agent, Software Engineering, Project Management, LLM, Halting Problem, Conceptual Integrity
@@ -32,6 +38,12 @@ URL: https://topdigg.com/blog/2026-08-16-mise-analysis | Date: 2026-08-16 | Auth
 Tags: mise, dev environment, CLI, Rust, tooling, supply chain security, dev tools, reproducible builds
 
 Deep analysis of the GitHub project jdx/mise (mise-en-place): a Rust CLI that unifies dev tools, environment variables, and tasks in a single mise.toml. 32.5k stars, formerly rtx. Covers the core ideas (environment as preparation before every command, declarative three-in-one config, supply-chain se
+
+### Oh My OpenAgent: The Open Source Multi-Model Agent Orchestration Revolution
+URL: https://topdigg.com/blog/2026-08-16-oh-my-openagent-jie-shao | Date: 2026-08-16 | Author: ERIC
+Tags: AI Agent, Open Source, Oh My OpenAgent, Multi-Model Orchestration, Codex, OpenCode, Coding Assistant, Automated Development
+
+In-depth analysis of oh-my-openagent: 67K Stars open source agent orchestration framework, covering design philosophy, core features, Agent system, Team Mode multi-agent collaboration and detailed installation tutorial.
 
 ### Soup: Fine-Tune an 8B LLM on a 4 GB Laptop GPU with This One-Command CLI
 URL: https://topdigg.com/blog/2026-08-16-soup-analysis | Date: 2026-08-16 | Author: TopDigg
@@ -68,18 +80,6 @@ URL: https://topdigg.com/blog/waza-analysis | Date: 2026-08-16 | Author: TopDigg
 Tags: Waza, AI Agent, Skills Evaluation, Microsoft, Go, CLI Tool, Benchmarking, Open Source
 
 Deep dive into Microsoft Waza — a Go-based CLI tool for evaluating AI agent skills, featuring multi-model comparison, adversarial testing, and MCP mock servers
-
-### holaOS Deep Dive: The Computer for You and Your Agent — an Open-Source All-in-One AI Agent Workspace
-URL: https://topdigg.com/blog/2026-08-15-holaos-analysis | Date: 2026-08-15 | Author: TopDigg
-Tags: holaOS, Holaboss, AI Agent, Agent Workspace, Agent OS, Electron, TypeScript, Claude Code, Codex, MCP, Skills, Shared Memory, Local-First, BYOK, HolaApps, Design Philosophy
-
-An in-depth analysis of holaboss-ai/holaOS (7.4k-star open source project, Electron + TypeScript): an open-source all-in-one AI agent workspace — run any agent (Claude Code, Codex, or the built-in holaOS agent) in one local-first workspace, over your tools, your files, and one shared memory. Core id
-
-### Omarchy: The Beautiful, Modern & Opinionated Linux Distribution by DHH
-URL: https://topdigg.com/blog/2026-08-15-omarchy-linux-distribution | Date: 2026-08-15 | Author: TopDigg
-Tags: Omarchy, Linux, DHH, Basecamp, Hyprland, Window Management, Arch Linux, AI Programming
-
-An in-depth analysis of Basecamp DHH's Omarchy Linux distribution: opinionated design philosophy, powerful features, getting started tutorial, and how it redefines the modern Linux desktop experience
 
 ## Twitter Analysis Reports
 
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 118 blog posts | 4 Twitter analyses
+End of llms.txt | 124 blog posts | 4 Twitter analyses

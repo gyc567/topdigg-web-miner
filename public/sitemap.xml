@@ -29,12 +29,22 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://topdigg.com/blog/2026-08-17-open-interpreter-analysis</loc>
+    <lastmod>2026-08-17</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://topdigg.com/blog/2026-08-16-agent-mythical-man-month-analysis</loc>
     <lastmod>2026-08-16</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://topdigg.com/blog/2026-08-16-mise-analysis</loc>
+    <lastmod>2026-08-16</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/2026-08-16-oh-my-openagent-jie-shao</loc>
     <lastmod>2026-08-16</lastmod>
     <priority>0.8</priority>
   </url>
@@ -65,6 +75,26 @@
   </url>
   <url>
     <loc>https://topdigg.com/blog/waza-analysis</loc>
+    <lastmod>2026-08-16</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/2026-08-16-deepcode-hku-agentic-coding-jie-shao</loc>
+    <lastmod>2026-08-16</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/2026-08-16-gary-marcus-anthropic-ipo-jie-shao</loc>
+    <lastmod>2026-08-16</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/2026-08-16-obscura-headless-browser-jie-shao</loc>
+    <lastmod>2026-08-16</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/2026-08-16-qwen-38-27b-simon-willison-jie-shao</loc>
     <lastmod>2026-08-16</lastmod>
     <priority>0.8</priority>
   </url>
