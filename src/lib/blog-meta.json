@@ -3,16 +3,24 @@
     {
       "slug": "2026-08-17-open-interpreter-analysis",
       "title": {
-        "zh-Hans": "Open Interpreter 深度解析：让低成本AI模型成为顶级编程助手"
+        "en": "Open Interpreter Deep Dive: Enabling Low-Cost AI Models to Become Top-Tier Coding Assistants",
+        "ja": "Open Interpreter 深度解析：低コストAIモデルでトップクラスのプログラミングアシスタントを実現",
+        "vi": "Open Interpreter - Phân Tích Chuyên Sâu: Biến Mô Hình AI Giá Rẻ Thành Trợ Lý Lập Trình Hàng Đầu",
+        "zh-Hans": "Open Interpreter 深度解析：让低成本AI模型成为顶级编程助手",
+        "zh-Hant": "Open Interpreter 深度解析：讓低成本AI模型成為頂級編程助手"
       },
       "description": {
-        "zh-Hans": "深度解析 Open Interpreter 项目：Rust 重写、Harness 框架模拟系统、开放标准哲学、以及 Kimi K3 集成。包含详细教程、架构分析和核心观点总结。"
+        "en": "An in-depth analysis of the Open Interpreter project: Rust rewrite, Harness framework emulation system, open standards philosophy, and Kimi K3 integration. Includes detailed tutorials, architecture analysis, and core insights.",
+        "ja": "Open Interpreterプロジェクトの深掘り：Rust書き直し、Harnessフレームワークエミュレーションシステム、オープン標準の哲学、Kimi K3統合。詳細なチュートリアル、アーキテクチャ分析、コアインサイトを網羅。",
+        "vi": "Phân tích chuyên sâu dự án Open Interpreter: viết lại bằng Rust, hệ thống giả lập Harness, triết lý tiêu chuẩn mở, và tích hợp Kimi K3. Bao gồm hướng dẫn chi tiết, phân tích kiến trúc và tổng kết quan điểm cốt lõi.",
+        "zh-Hans": "深度解析 Open Interpreter 项目：Rust 重写、Harness 框架模拟系统、开放标准哲学、以及 Kimi K3 集成。包含详细教程、架构分析和核心观点总结。",
+        "zh-Hant": "深度解析 Open Interpreter 專案：Rust 重寫、Harness 框架模擬系統、開放標準哲學、以及 Kimi K3 整合。包含詳細教程、架構分析和核心觀點總結。"
       },
       "date": "2026-08-17",
       "author": "TopDigg",
       "tags": [
         "Open Interpreter",
-        "AI 编程",
+        "AI Programming",
         "Rust",
         "Codex",
         "Kimi K3",
@@ -20,8 +28,8 @@
         "Harness"
       ],
       "categories": [
-        "AI 工具深度解析",
-        "编程助手",
+        "AI Tool Deep Dive",
+        "Programming Assistant",
         "AI Agent"
       ]
     },

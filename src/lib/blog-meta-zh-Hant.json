@@ -6,7 +6,7 @@
       "author": "TopDigg",
       "tags": [
         "Open Interpreter",
-        "AI 编程",
+        "AI Programming",
         "Rust",
         "Codex",
         "Kimi K3",
@@ -14,12 +14,12 @@
         "Harness"
       ],
       "categories": [
-        "AI 工具深度解析",
-        "编程助手",
+        "AI Tool Deep Dive",
+        "Programming Assistant",
         "AI Agent"
       ],
-      "title": "Open Interpreter 深度解析：让低成本AI模型成为顶级编程助手",
-      "description": "深度解析 Open Interpreter 项目：Rust 重写、Harness 框架模拟系统、开放标准哲学、以及 Kimi K3 集成。包含详细教程、架构分析和核心观点总结。"
+      "title": "Open Interpreter 深度解析：讓低成本AI模型成為頂級編程助手",
+      "description": "深度解析 Open Interpreter 專案：Rust 重寫、Harness 框架模擬系統、開放標準哲學、以及 Kimi K3 整合。包含詳細教程、架構分析和核心觀點總結。"
     },
     {
       "slug": "2026-08-16-agent-mythical-man-month-analysis",

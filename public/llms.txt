@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-17T02:00:57.475Z
+Generated: 2026-08-17T02:07:56.666Z
 
 ## Site Overview
 
@@ -21,11 +21,11 @@ We cover trending topics and business opportunities across Reddit, YouTube, and 
 
 ## Latest Blog Posts (10 most recent)
 
-### Open Interpreter 深度解析：让低成本AI模型成为顶级编程助手
+### Open Interpreter Deep Dive: Enabling Low-Cost AI Models to Become Top-Tier Coding Assistants
 URL: https://topdigg.com/blog/2026-08-17-open-interpreter-analysis | Date: 2026-08-17 | Author: TopDigg
-Tags: Open Interpreter, AI 编程, Rust, Codex, Kimi K3, AI Agent, Harness
+Tags: Open Interpreter, AI Programming, Rust, Codex, Kimi K3, AI Agent, Harness
 
-深度解析 Open Interpreter 项目：Rust 重写、Harness 框架模拟系统、开放标准哲学、以及 Kimi K3 集成。包含详细教程、架构分析和核心观点总结。
+An in-depth analysis of the Open Interpreter project: Rust rewrite, Harness framework emulation system, open standards philosophy, and Kimi K3 integration. Includes detailed tutorials, architecture analysis, and core insights.
 
 ### The Mythical Man-Month, Reread in 2026: Why Adding Ten Subagents to Finish in an Hour Is the Same Curse as Hiring Ten People to Finish in a Month
 URL: https://topdigg.com/blog/2026-08-16-agent-mythical-man-month-analysis | Date: 2026-08-16 | Author: TopDigg
