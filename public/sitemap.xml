@@ -29,6 +29,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://topdigg.com/blog/2026-08-19-agentenv-analysis</loc>
+    <lastmod>2026-08-19T09:33:26.882Z</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/2026-08-19-motrix-analysis</loc>
+    <lastmod>2026-08-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://topdigg.com/blog/2026-08-17-open-interpreter-analysis</loc>
     <lastmod>2026-08-17</lastmod>
     <priority>0.8</priority>
