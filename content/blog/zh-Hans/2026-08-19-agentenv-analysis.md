@@ -1,3 +1,26 @@
+---
+title: 'AgentENV 深度解析：专为 AI Agent 打造的大规模运行环境平台'
+date: "2026-08-19"
+description: "深入解析 AgentENV（3200+ Stars）：Moonshot AI 用于支撑 Kimi K3 模型 Agent 强化学习训练的环境运行底座。核心思想：让 Agent 环境像函数调用一样轻量。设计哲学：Firecracker 微 VM 提供内核级隔离；overlaybd 分层镜像实现 150 万镜像规模按需加载；50ms 冷启动 + 100ms 暂停；9.6 倍内存超配；E2B 零成本迁移。涵盖详细教程、架构分析、CLI 命令和部署方案。"
+tags:
+  - AgentENV
+  - AI Agent
+  - 运行环境
+  - Firecracker
+  - Moonshot AI
+  - Kimi
+  - 容器
+  - 大规模
+  - 虚拟机
+  - 投机解码
+  - 开源
+categories:
+  - 深度解析
+  - AI Agent
+  - 开源项目
+  - 运行环境
+---
+
 # AgentENV：一个专为AI Agent打造的大规模运行环境平台
 
 说起AI Agent，你可能会想到一个大模型配上几个工具就能干活。但真正做过Agent系统的人都知道，有一个绕不开的问题：**你的Agent跑在哪？**

@@ -1,3 +1,27 @@
+---
+title: 'DFlash 2 深度解析：让投机解码真正并行起来'
+date: "2026-08-19"
+description: "深入解析 Inco AI 的 DFlash 2（350 万+ 下载）：投机解码领域的重大突破，在不改变输出结果的前提下，每轮验证多产出 20% 以上 token，延迟仅增加约 1%。核心思想：选择比预测更便宜，局部性是高效算法的线索。设计哲学：并行是终态；轻量级路径选择器用 2M 参数超越 77.8M 的 DSpark；两抽头卷积解决后缀衰减。涵盖 SGLang、vLLM、llama.cpp、oMLX 详细配置教程。"
+tags:
+  - DFlash
+  - DFlash 2
+  - 投机解码
+  - Inco AI
+  - 推理加速
+  - LLM
+  - SGLang
+  - vLLM
+  - llama.cpp
+  - 并行
+  - 深度学习
+  - 开源
+categories:
+  - 深度解析
+  - AI Infra
+  - 开源项目
+  - 推理优化
+---
+
 # DFlash 2：让投机解码真正并行起来
 
 2026年8月18日，Inco AI发布了DFlash 2。这是继年初DFlash之后的重大更新——在**不改变输出结果**的前提下，每一轮验证多产出20%以上的token，延迟仅增加约1%。
