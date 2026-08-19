@@ -8,7 +8,7 @@
       "description": {
         "zh-Hans": ""
       },
-      "date": "2026-08-19T09:59:54.303Z",
+      "date": "2026-08-19T10:10:29.158Z",
       "author": "TopDigg",
       "tags": [],
       "categories": []
@@ -43,6 +43,37 @@
         "开源项目",
         "桌面应用",
         "下载工具"
+      ]
+    },
+    {
+      "slug": "2026-08-19-openobserve-analysis",
+      "title": {
+        "zh-Hans": "OpenObserve 深度解析：降低 140 倍存储成本的云原生可观测性平台"
+      },
+      "description": {
+        "zh-Hans": "深入解析 OpenObserve（开源可观测性平台，AGPL-3.0 许可证）：一个用 Rust 构建的云原生可观测性平台，统一处理日志、指标、追踪和前端监控，宣称比 Elasticsearch 降低 140 倍存储成本。核心思想：'Simplify Observability'——简化可观测性，让每个组织都能负担得起可观测性。设计哲学：Parquet 列式存储 + S3 原生设计 + Rust 实现；单二进制部署；多租户架构；无状态水平扩展；数据先入本地再持久化到对象存储。"
+      },
+      "date": "2026-08-19",
+      "author": "TopDigg",
+      "tags": [
+        "OpenObserve",
+        "可观测性",
+        "日志管理",
+        "指标监控",
+        "分布式追踪",
+        "Rust",
+        "云原生",
+        "Splunk 替代",
+        "Elasticsearch 替代",
+        "Datadog 替代",
+        "设计哲学"
+      ],
+      "categories": [
+        "深度解析",
+        "开源项目",
+        "云原生",
+        "监控运维",
+        "可观测性"
       ]
     },
     {

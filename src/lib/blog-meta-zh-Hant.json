@@ -2,7 +2,7 @@
   "posts": [
     {
       "slug": "2026-08-19-agentenv-analysis",
-      "date": "2026-08-19T09:59:54.303Z",
+      "date": "2026-08-19T10:10:29.158Z",
       "author": "TopDigg",
       "tags": [],
       "categories": [],
@@ -36,6 +36,33 @@
       ],
       "title": "Motrix 深度解析：简洁优雅的全能型下载管理器",
       "description": "深入解析 agalwood/Motrix（25.4k Stars 开源项目）：一款基于 Electron + React + TypeScript 的现代下载管理器，支持 HTTP/FTP/BT/磁力链，内置 aria2 下载引擎，提供插件沙箱、命令行客户端、Docker 部署和 MDXP 通信协议。核心思想：'Stay Simple, Stay Productivity'——保持简洁，保持高效。设计哲学：简洁直观的界面与强大功能并存；四层架构解耦（renderer/core/engine adapter/aria2）；MDXP 协议实现桌面与命令行工具的解耦通信；插件沙箱隔离保证安全；SQLite 会话持久化确保下载可恢复；Docker 部署让 NAS 和服务器也能运行下载服务。"
+    },
+    {
+      "slug": "2026-08-19-openobserve-analysis",
+      "date": "2026-08-19",
+      "author": "TopDigg",
+      "tags": [
+        "OpenObserve",
+        "可观测性",
+        "日志管理",
+        "指标监控",
+        "分布式追踪",
+        "Rust",
+        "云原生",
+        "Splunk 替代",
+        "Elasticsearch 替代",
+        "Datadog 替代",
+        "设计哲学"
+      ],
+      "categories": [
+        "深度解析",
+        "开源项目",
+        "云原生",
+        "监控运维",
+        "可观测性"
+      ],
+      "title": "OpenObserve 深度解析：降低 140 倍存储成本的云原生可观测性平台",
+      "description": "深入解析 OpenObserve（开源可观测性平台，AGPL-3.0 许可证）：一个用 Rust 构建的云原生可观测性平台，统一处理日志、指标、追踪和前端监控，宣称比 Elasticsearch 降低 140 倍存储成本。核心思想：'Simplify Observability'——简化可观测性，让每个组织都能负担得起可观测性。设计哲学：Parquet 列式存储 + S3 原生设计 + Rust 实现；单二进制部署；多租户架构；无状态水平扩展；数据先入本地再持久化到对象存储。"
     },
     {
       "slug": "2026-08-19-topcoat-analysis",
