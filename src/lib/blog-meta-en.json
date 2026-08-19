@@ -2,7 +2,7 @@
   "posts": [
     {
       "slug": "2026-08-19-agentenv-analysis",
-      "date": "2026-08-19T09:33:26.882Z",
+      "date": "2026-08-19T09:59:54.303Z",
       "author": "TopDigg",
       "tags": [],
       "categories": [],
@@ -36,6 +36,33 @@
       ],
       "title": "Motrix 深度解析：简洁优雅的全能型下载管理器",
       "description": "深入解析 agalwood/Motrix（25.4k Stars 开源项目）：一款基于 Electron + React + TypeScript 的现代下载管理器，支持 HTTP/FTP/BT/磁力链，内置 aria2 下载引擎，提供插件沙箱、命令行客户端、Docker 部署和 MDXP 通信协议。核心思想：'Stay Simple, Stay Productivity'——保持简洁，保持高效。设计哲学：简洁直观的界面与强大功能并存；四层架构解耦（renderer/core/engine adapter/aria2）；MDXP 协议实现桌面与命令行工具的解耦通信；插件沙箱隔离保证安全；SQLite 会话持久化确保下载可恢复；Docker 部署让 NAS 和服务器也能运行下载服务。"
+    },
+    {
+      "slug": "2026-08-19-topcoat-analysis",
+      "date": "2026-08-19",
+      "author": "TopDigg",
+      "tags": [
+        "Topcoat",
+        "Tokio",
+        "Rust",
+        "全栈开发",
+        "Web 框架",
+        "服务端渲染",
+        "响应式",
+        "前端开发",
+        "后端开发",
+        "WebAssembly",
+        "设计哲学"
+      ],
+      "categories": [
+        "深度解析",
+        "开源项目",
+        "Rust",
+        "Web 开发",
+        "全栈框架"
+      ],
+      "title": "Topcoat 深度解析：Tokio 团队打造的全栈响应式 Rust Web 框架",
+      "description": "深入解析 Tokio 团队开源项目 Topcoat（4.6k Stars）：一个模块化、功能完备的 Rust 全栈 Web 框架，用于构建全栈响应式 Web 应用。核心思想：'Locality of Behavior'（局部性行为原则）——让组件自己做数据获取，而非通过参数层层传递。设计哲学：服务端优先渲染 + 客户端响应式，通过宏将 Rust 表达式交叉编译为 JavaScript，无需 WebAssembly；view! 宏保持 HTML 风格但支持 Rust 控制流；模块化路由自动推断；Topcoat UI 组件库直接复制到项目便于定制。"
     },
     {
       "slug": "2026-08-17-open-interpreter-analysis",
