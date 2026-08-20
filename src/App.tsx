@@ -14,7 +14,6 @@ const TwitterIndex = lazy(() => import("./pages/TwitterIndex"));
 const TwitterPost = lazy(() => import("./pages/TwitterPost"));
 const ExternalLinks = lazy(() => import("./pages/ExternalLinks"));
 const About = lazy(() => import("./pages/About"));
-const Contact = lazy(() => import("./pages/Contact"));
 const Privacy = lazy(() => import("./pages/Privacy"));
 const AIDailyIndex = lazy(() => import("./pages/AIDailyIndex"));
 const AIDailyPost = lazy(() => import("./pages/AIDailyPost"));
@@ -38,7 +37,6 @@ const App = () => (
               <Route path="/columns/:id" element={<ColumnPage />} />
               <Route path="/external-links" element={<ExternalLinks />} />
               <Route path="/about" element={<About />} />
-              <Route path="/contact" element={<Contact />} />
               <Route path="/privacy" element={<Privacy />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
