@@ -29,8 +29,38 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://topdigg.com/blog/2026-08-20-teamai-cli-analysis</loc>
+    <lastmod>2026-08-20</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/2026-08-20-jiqizhixin-daily</loc>
+    <lastmod>2026-08-20</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/2026-08-20-terax-ai-jiandian</loc>
+    <lastmod>2026-08-20</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/2026-08-20-trueforge-jiandian</loc>
+    <lastmod>2026-08-20</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://topdigg.com/blog/2026-08-19-agentenv-analysis</loc>
-    <lastmod>2026-08-19T10:10:29.158Z</lastmod>
+    <lastmod>2026-08-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/2026-08-19-dflash2-analysis</loc>
+    <lastmod>2026-08-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/2026-08-19-kami-analysis</loc>
+    <lastmod>2026-08-19</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -40,6 +70,11 @@
   </url>
   <url>
     <loc>https://topdigg.com/blog/2026-08-19-openobserve-analysis</loc>
+    <lastmod>2026-08-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/2026-08-19-ruflo-analysis</loc>
     <lastmod>2026-08-19</lastmod>
     <priority>0.8</priority>
   </url>
