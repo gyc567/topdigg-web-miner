@@ -7,7 +7,7 @@
 - [博客 Frontmatter 规范](docs/blog-frontmatter-guide.md) — 避免 markdown frontmatter 解析失败导致空白页
 - [静态资源管理规范](docs/static-resources-guide.md) — 避免 HTML/静态资源链接失效
 - [SVG 图片复制功能指南](docs/svg-image-copy-guide.md) — SVG 一键复制为图片到剪贴板
-- [Graft × Loop Engineering 集成指南](docs/graft-loop-integration.md) — 把 Graft 上下文图谱接入 Loop Engineering 的 Observe 步骤
+- [AI Daily 多语言工作流](docs/ai-daily-i18n-workflow.md) — 新增一期 5 语言日报的 SOP：zh-Hans 主稿 → AI 生成 4 语言 md → build → 浏览器实测
 
 ## 优化方案
 
@@ -30,5 +30,4 @@
 - [SEO/GEO 优化规范](docs/guidelines/seo-geo-optimization.md) — 数据反馈迭代
 
 ---
-
-_Last updated: 2026-08-12_
+_Last updated: 2026-08-20_

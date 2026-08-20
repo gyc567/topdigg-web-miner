@@ -30,6 +30,8 @@ dist-ssr
 # AI crawler index — llms.txt is versioned; llms-full.txt is a build artifact
 public/llms-full.txt
 dist/llms-full.txt
+# Local screenshots from browser verification — not committed
+screenshots/
 
 # graft's local graph cache — regenerable, not committed (run `graft build`).
 graft/

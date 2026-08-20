@@ -13,9 +13,10 @@ const metaOutputFile = path.join(__dirname, '../src/lib/ai-daily-meta.json');
 const LOCALES = ['zh-Hans', 'zh-Hant', 'en', 'ja', 'vi'];
 
 // Normalize title/description: can be string or { locale: string }
-function normalizeLocalized(value) {
+function normalizeLocalized(value, locale) {
   if (!value) return {};
-  if (typeof value === 'string') return { 'zh-Hans': value };
+  // Per-locale md files: a plain string belongs to this file's locale
+  if (typeof value === 'string') return { [locale]: value };
   if (typeof value === 'object') return value;
   return {};
 }
@@ -44,8 +45,10 @@ function scanDirectory(dir, locale = null) {
       items.push({
         slug,
         locale: locale || 'zh-Hans',
-        title: normalizeLocalized(data.title),
-        description: normalizeLocalized(data.description),
+        title: normalizeLocalized(data.title, locale || 'zh-Hans'),
+        description: normalizeLocalized(data.description, locale || 'zh-Hans'),
+        locale: locale || 'zh-Hans',
+
         content: markdownContent,
         date: data.date || new Date().toISOString().split('T')[0],
         author: data.author || '比特财商',

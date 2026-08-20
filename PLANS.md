@@ -4,6 +4,7 @@
 
 ## Active Plans
 
+- [ai-daily 模块国际化补全（5 语言）](plans/ai-daily-i18n-repair.md) — 待用户确认方案
 - [cc-master（nemori-ai/cc-master）深度解析博客（5 语言）](plans/cc-master-blog.md) — 进行中
 - [aura（gyc567/aura）深度解析博客（5 语言）](plans/aura-blog.md) — 进行中
 
@@ -17,7 +18,7 @@
 - [LangChain《3 Years of Graph Engineering with LangGraph》深度解析博客（5 语言）](plans/langchain-graph-engineering-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
 - [Promptless《Writing code was hard, actually》深度解析博客（5 语言）](plans/promptless-writing-code-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
 - [T3 Code 深度解析博客（5 语言）](plans/t3code-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
-- [FDE Guide 深度解析博客（5 语言）](plans/fde-guide-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
+- [FDE Guide 深度解析博客（5 语言）](plans/fde-guide-guide-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
 - [Terminal-Bench 2.0 深度解析博客（5 语言）](plans/terminal-bench-2-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
 - [Graph Engineering Guide (2026) 深度解析博客（5 语言）](plans/graph-engineering-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
 - [Agents in Orbs 深度解析博客（5 语言）](plans/agents-in-orbs-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
@@ -31,4 +32,4 @@ _计划文件完工后删除，仅靠 git commit log 留档（不在本文件长
 
 ---
 
-_Last updated: 2026-08-12_
+_Last updated: 2026-08-20_
