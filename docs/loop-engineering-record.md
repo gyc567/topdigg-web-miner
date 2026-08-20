@@ -522,3 +522,170 @@ public/llms.txt                               — build 副作用（timestamp）
 
 | 用户 5 语言肉眼 review 待完成 | 在 user review |
 
+---
+
+# Loop Engineering 实施记录：AI Daily 二轮修复（HN 标题 + source.original.name）
+
+> 项目：topdigg-web-miner — `/ai-daily` 模块
+> 日期：2026-08-20
+> 方法：loop engineering（observe → measure → decide → iterate）
+
+---
+
+## 实施循环
+
+### 循环 1：zh-Hans HN 区块漏译
+
+**观察（observe）**
+
+用户实测反馈：「中文版本中的 HN 动态抓取标题仍是英文」。
+
+通过 `sed -n` 直接 grep 五份 md 的 `## Hacker News` 区块：
+
+- `content/ai-daily/zh-Hans/2026-08-20-ai-daily.md` 第一个标题 = `Do We Still Need Database Management Tools When AI Can Write SQL?` —— **英文**
+- `zh-Hant` 同一个标题 = `當 AI 能寫 SQL 時，我們還需要資料庫管理工具嗎？` —— 已译
+- `ja / vi / en` 同样位置都已译或保留英文（合理）
+
+同时检查 `src/` 全文 + `AIDailyPost.tsx` MarkdownContent 渲染链路 —— **没有任何运行时 hnrss 抓取代码**。HN 是 markdown 里 snapshot 进去的，运行时根本不调外部接口。
+
+**测量（measure）**
+
+真实问题：上一轮 i18n fix 时，我为 4 语言补了 md，但**没回头改 zh-Hans 原文** —— zh-Hans 的 md 创建于更早，是英文 HN 标题状态。其他 4 语言是我新写的，所以是中文。
+
+此外我先前的 Loop Engineering record 里写了「HN 动态抓取标题仍是英文」是错的——不含运行时抓取，纯 markdown snapshot 漏译。
+
+**决策（decide）**
+
+改 `content/ai-daily/zh-Hans/2026-08-20-ai-daily.md` 里的 HN 区块 5 个标题为中文 + Hi HN 简介段翻译，URL 保留不变。
+
+**行动（act）**
+
+- ✅ 修改 zh-Hans md 的 HN 区块
+- ✅ `node scripts/build-ai-daily.js` 重新生成 `data.json` 的 zh-Hans content
+
+**验证（verify）**
+
+浏览器跑 `?lang=zh-Hans` 的 post 页，h3 列表里看到：
+
+```
+"1. AI 能写 SQL 了，我们还需要数据库管理工具吗？"
+"2. Show HN：AI agent 现在可以安全地写入你的 CRM"
+"3. Claude 的浮水印是如何工作的"
+"4. AI 代码审查真的有用吗？"
+"5. Show HN：AI 简历筛选——向招聘方征集反馈"
+```
+
+zh-Hans HN 标题全本地化，URL 不变。
+
+---
+
+### 循环 2：source.original.name locale 分桶
+
+**观察（observe）**
+
+上一轮已记入 known constraint 的 tag/categories/source 项之一 —— 用户决定**只修 source.original.name**。
+
+AIDailySource 类型当下定义：
+
+```ts
+original: { name: string; url?: string; }
+```
+
+> 当前 meta 数据：所有语言 `source.original.name` 是单一字符串
+>（实际值 = `Bitcai Business`，因为 en md 最后被扫到）。
+
+**测量（measure）**
+
+用户切到 zh-Hant，看 post 页「原文出处」徽章显示 `Bitcai Business` 而不是 `比特財經`。
+schema 4 字段里只有 `name` 是产品级 metadata 需本地化的（「比特财商」/「比特財經」/「ビット財経」是品牌本地化名），其他（`aggregator=AI HOT`、`url`）应保持单一值。
+
+**决策（decide）**
+
+仿照 `title/description/content` 的 `string | Record<string,string>` 同构方式，
+把 `source.original.name` 升级为 record，但不动 `aggregator/aggregator_url/original.url`
+(它们是 product-level 单一值)。
+
+改动面：
+
+1. `src/lib/ai-daily-data.ts` 类型 + `resolve()` 加 resolveText
+2. `scripts/build-ai-daily.js` 合并阶段按 locale 装 record；per-locale meta 挑选
+3. `src/lib/ai-daily-data.test.ts` 测试断言改为接受 string|record + 新增 resolve 回归测试
+4. AIDailyPost.tsx 不改 —— 它已经读 `fullPost.source.original.name`，`resolve()` 已归一化为 string
+
+**行动（act）**
+
+- ✅ `AIDailySource.original.name: string | Record<string, string>`
+- ✅ `AIDailyDataSource.resolve()` 把 `source.original.name` 通过 `resolveText` 归一为当前 locale 的 string
+- ✅ `scripts/build-ai-daily.js`：
+   - 初始化 reports 时 `source.original.name = {}`
+   - 合并循环里 `normalizeLocalized(file.source?.original?.name, file.locale)` 装入
+   - per-locale meta 生成时 `(source.original.name as Record).name[locale] || ...` 挑选
+- ✅ `ai-daily-data.test.ts` 改断言 + 新增 `resolve() flattens source.original.name to current locale`
+
+**验证（verify）**
+
+- `npx vitest run` — **70/70**通过（原 69 + 1 新增 resolve 测试）
+- `npm run build` — 全绿，dist 含 7 个 ai-daily-* 产物
+- 5 语言 meta-json 验证：
+
+  ```bash
+  $ for l in zh-Hans zh-Hant en ja vi; do
+      node -e "console.log('$l:', require('./src/lib/ai-daily-meta-$l.json').reports[0].source.original.name)"
+    done
+  zh-Hans: 比特财商
+  zh-Hant: 比特財經
+  en: Bitcai Business
+  ja: ビット財経
+  vi: Bitcai Business
+  ```
+
+- data.json 中 `source.original.name` 现在是 `{ en: 'Bitcai Business', zh-Hans: '比特财商', ... }` record 形式
+
+---
+
+## 最终验证
+
+| 验证项 | 结果 |
+|---|---|
+| `npx vitest run` | ✅ 70/70（原 69 + 1 新增 resolve 测试） |
+| `npm run build` | ✅ 全绿 |
+| zh-Hans HN 标题本地化 | ✅ 5 个标题中文 + Hi HN 简介翻译 |
+| 5 语言 source.original.name | ✅ 5 个 meta json 各自本地化 |
+| data.json source.original.name | ✅ Record<locale,string> 形式 |
+| AIDailyPost.tsx 改动 | ✅ 0（已通过 resolve() 归一化） |
+| blog 模块影响 | ✅ 无（schema 仅触动 ai-daily，blog 的 tags 是不同字段） |
+
+---
+
+## 变更摘要
+
+### 修改文件
+
+```
+content/ai-daily/zh-Hans/2026-08-20-ai-daily.md  — HN 区块 5 标题 + Hi HN 简介中文化
+src/lib/ai-daily-data.ts                          — AIDailySource 类型 + resolve() 归一化 source.original.name
+src/lib/ai-daily-data.test.ts                     — 改断言 + 新增 resolve() 回归测试
+scripts/build-ai-daily.js                         — 合并阶段 record 化 + per-locale meta 挑选
+src/lib/ai-daily-data.json                        — 重生成（含中文 HN content + source.original.name record）
+src/lib/ai-daily-meta-{zh-Hans,zh-Hant,en,ja,vi}.json  — 重生成（各自 name = 本地化字符串）
+src/lib/ai-daily-meta.json                        — 重生成（all-locale record）
+public/llms.txt                                   — build 副作用（timestamp）
+```
+
+### 提交
+
+```
+82eabfa fix(ai-daily): zh-Hans HN 标题中文 + source.original.name 按 locale 分桶
+```
+
+push 到 `origin/main`：6fdbd6f → 82eabfa ✅
+
+---
+
+## 遗留风险（v2）
+
+| 风险 | 状态 |
+|---|---|
+| tags/categories 顶层仍未按 locale 分桶（与 blog 同构） | 用户接受（产品级 metadata） |
+| source.aggregator / aggregator_url / original.url 仍是单一值 | 不需要分桶（产品/品牌级） |
+| 用户 5 语言肉眼 review | 仍待你 review screenshots |
