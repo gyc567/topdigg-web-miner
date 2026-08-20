@@ -12,6 +12,7 @@
 ## 优化方案
 
 - [TopDigg 优化方案（审计修订版）](docs/optimization-plan.md) — 项目整体优化方案 v2 审计
+- [删除首页"联系"菜单方案](docs/delete-contact-nav-plan.md) — 删除导航菜单中的"联系"链接
 - [SEO + GEO 优化方案 v3](docs/seo-geo-optimization-plan.md) — 完整 SEO/GEO 优化方案（融合版）
 - [SEO + GEO 审计笔记 v2→v3](docs/seo-geo-audit-notes.md) — 方案自审修订记录
 
