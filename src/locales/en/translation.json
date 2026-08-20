@@ -127,6 +127,19 @@
     "resultsCount": "{{count}} editions",
     "aggregator": "Aggregator",
     "original": "Original",
-    "today": "Today"
+    "today": "Today",
+    "backToList": "Back to AI Daily",
+    "hnTop5": {
+      "sectionTitle": "Hacker News Top Posts",
+      "source": "Data Source",
+      "hnrss": "hnrss.org",
+      "filteredFrom": "Filtered from Hacker News",
+      "keywords": "Keywords",
+      "viewOnHN": "View on HN",
+      "fetchFailed": "HN data unavailable, this section is temporarily empty",
+      "fallbackNote": "(covered above)",
+      "itemsCount": "{{count}} items"
+    },
+    "hackerNews": "Hacker News Top Posts"
   }
 }

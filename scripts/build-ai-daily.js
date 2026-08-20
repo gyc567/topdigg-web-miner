@@ -36,8 +36,8 @@ function scanDirectory(dir, locale = null) {
     if (stat.isDirectory()) {
       items.push(...scanDirectory(filePath, file));
     } else if (file.endsWith('.md')) {
-      const content = fs.readFileSync(filePath, 'utf-8');
-      const { data, content: markdownContent } = matter(content);
+      const fileContent = fs.readFileSync(filePath, 'utf-8');
+      const { data, content: markdownContent } = matter(fileContent);
 
       const slug = file.replace('.md', '');
 
@@ -51,7 +51,9 @@ function scanDirectory(dir, locale = null) {
         author: data.author || '比特财商',
         tags: data.tags || [],
         categories: data.categories || [],
-        source: data.source || null
+        source: data.source || null,
+        hn_count: typeof data.hn_count === 'number' ? data.hn_count : 0,
+        hn_keywords: data.hn_keywords || ''
       });
     }
   }
@@ -74,11 +76,13 @@ function generateAiDailyData() {
         author: file.author,
         tags: file.tags,
         categories: file.categories,
-        source: file.source
+        source: file.source,
+        hn_count: file.hn_count,
+        hn_keywords: file.hn_keywords
       };
     }
 
-    // Merge title — normalizeLocalized handles string vs object
+    // Merge title
     const titleObj = normalizeLocalized(file.title);
     for (const [l, v] of Object.entries(titleObj)) {
       reports[file.slug].title[l] = v;

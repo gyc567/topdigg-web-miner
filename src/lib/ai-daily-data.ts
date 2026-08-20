@@ -80,15 +80,12 @@ function resolveText(
 export class AIDailyDataSource {
   private static _instance: AIDailyDataSource;
   private _cache: Map<string, AIDailyMeta[]> = new Map();
+  private _allBySlug: Map<string, AIDailyMeta> = new Map();
 
   private constructor() {
-    // Pre-load all-languages meta for slug lookups
     const all = (metaDataAll as any).reports as AIDailyMeta[] ?? [];
-    // Index by slug for fast lookup
     this._allBySlug = new Map(all.map((r) => [r.slug, r]));
   }
-
-  private _allBySlug: Map<string, AIDailyMeta> = new Map();
 
   public static getInstance(): AIDailyDataSource {
     if (!AIDailyDataSource._instance) {
@@ -112,9 +109,10 @@ export class AIDailyDataSource {
       return this._cache.get(locale)!;
     }
 
-    const loader = localeMetaModules[locale as LocaleKey] ?? localeMetaModules["zh-Hans"];
-    const module = await loader();
-    const raw: AIDailyMeta[] = (module as any).reports ?? [];
+    const keyedLocale = locale as LocaleKey;
+    const loader = localeMetaModules[keyedLocale] ?? localeMetaModules["zh-Hans"];
+    const mod = await loader();
+    const raw: AIDailyMeta[] = (mod as any).reports ?? [];
 
     // Deduplicate: one report per date (keep latest by slug)
     const byDate = new Map<string, AIDailyMeta>();
@@ -142,18 +140,23 @@ export class AIDailyDataSource {
     const meta = this._allBySlug.get(slug);
     if (!meta) return undefined;
 
-    const { default: fullData } = await import("./ai-daily-data.json");
-    const all: AIDailyPost[] = (fullData as any).reports ?? [];
-    return all.find((r) => r.slug === slug);
+    try {
+      const { default: fullData } = await import("./ai-daily-data.json");
+      const all: AIDailyPost[] = (fullData as any).reports ?? [];
+      return all.find((r) => r.slug === slug);
+    } catch {
+      return undefined;
+    }
   }
 
   /** Resolve a text field to the current locale (for React components). */
   resolve(meta: AIDailyMeta | AIDailyPost, locale: SupportedLocale) {
+    const normalized = normalizeLang(locale) as SupportedLocale;
     return {
       ...meta,
-      title: resolveText(meta.title, locale),
-      description: resolveText(meta.description, locale),
-      content: "content" in meta ? resolveText(meta.content, locale) : undefined,
+      title: resolveText(meta.title, normalized),
+      description: resolveText(meta.description, normalized),
+      content: "content" in meta ? resolveText(meta.content, normalized) : undefined,
     };
   }
 }

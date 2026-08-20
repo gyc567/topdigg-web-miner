@@ -127,6 +127,19 @@
     "resultsCount": "{{count}} số",
     "aggregator": "Nguồn tổng hợp",
     "original": "Nguồn gốc",
-    "today": "Hôm nay"
+    "today": "Hôm nay",
+    "backToList": "Quay lại AI Hàng Ngày",
+    "hnTop5": {
+      "sectionTitle": "Bài Viết Hot Hacker News",
+      "source": "Nguồn Dữ Liệu",
+      "hnrss": "hnrss.org",
+      "filteredFrom": "Lọc từ Hacker News",
+      "keywords": "Từ khóa",
+      "viewOnHN": "Xem trên HN",
+      "fetchFailed": "Dữ liệu HN không khả dụng, phần này tạm trống",
+      "fallbackNote": "(đã đề cập ở trên)",
+      "itemsCount": "{{count}} bài"
+    },
+    "hackerNews": "Bài Viết Hot Hacker News"
   }
 }

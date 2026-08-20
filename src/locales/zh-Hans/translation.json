@@ -127,6 +127,19 @@
     "resultsCount": "共 {{count}} 期",
     "aggregator": "聚合来源",
     "original": "原文出处",
-    "today": "今日"
+    "today": "今日",
+    "backToList": "返回日报列表",
+    "hnTop5": {
+      "sectionTitle": "Hacker News 热帖",
+      "source": "数据来源",
+      "hnrss": "hnrss.org",
+      "filteredFrom": "筛选自 Hacker News",
+      "keywords": "关键词",
+      "viewOnHN": "HN 原文",
+      "fetchFailed": "HN 数据获取失败，该部分暂时空缺",
+      "fallbackNote": "（已见上文）",
+      "itemsCount": "{{count}} 条"
+    },
+    "hackerNews": "Hacker News 热帖"
   }
 }

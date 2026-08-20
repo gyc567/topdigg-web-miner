@@ -3,41 +3,29 @@
     {
       "slug": "2026-08-20-ai-daily",
       "title": {
-        "zh-Hans": "Sentence Transformers v6.0、Mojo开源、Claude支持Gmail发送",
-        "zh-Hant": "Sentence Transformers v6.0、Mojo開源、Claude支援Gmail發送",
-        "en": "Sentence Transformers v6.0, Mojo Open-Sourced, Claude Gains Gmail Support",
-        "ja": "Sentence Transformers v6.0、Mojoオープンソース化、ClaudeがGmail送信対応",
-        "vi": "Sentence Transformers v6.0, Mojo Mã Nguồn Mở, Claude Hỗ Trợ Gửi Gmail"
+        "zh-Hans": "Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失"
       },
       "description": {
-        "zh-Hans": "每日AI行业资讯精选，涵盖模型发布、具身智能、学术进展、行业动态。",
-        "zh-Hant": "每日AI行業資訊精選，涵蓋模型發布、具身智能、學術進展、行業動態。",
-        "en": "Daily AI industry news highlights, covering model releases, embodied AI, research progress, and industry updates.",
-        "ja": "日次AI業界ニュース精选、モデルリリース、身体知能、学術進展、業界動向をカバー。",
-        "vi": "Tin tức AI hàng ngày, bao gồm phát hành mô hình, AI nhúng, tiến bộ học thuật và động thái ngành."
+        "zh-Hans": "Liquid AI 发布基于量化感知蒸馏（QAD）训练的 LFM2.5-230M、350M、1.2B-Instruct 和 2.6B 四款 Q4_0 GGUF 检查点，在保持原生 Q4_0 内存与速度"
       },
       "content": {
-        "zh-Hans": "\n## 【产品发布/更新】\n\n### 1️⃣ Sentence Transformers v6.0 新增 MultiVectorEncoder\n\n支持加载 PyLate、ColBERT 等检查点，ColBERT 式晚期交互检索有标准化框架了。\n\n来源：Hugging Face Blog\n\n### 2️⃣ Mojo🔥 语言正式开源！\n\nApache 2.0 许可证，编译器+工具链全开放，1.0 后不到一周即开源，年底开放贡献通道。\n\n来源：Modular / Hacker News\n\n### 3️⃣ Claude 支持 Gmail 邮件发送 & Google Drive 文件管理\n\n可控制是否需要人工审批回复，所有付费套餐可用。\n\n来源：X @claudeai\n\n### 4️⃣ OpenAI 发布 ChatGPT for Teens\n\n面向 13-17 岁，内置更强安全保护、Study Mode、家长控制，已与 CodeAI 合作培养青少年 AI 素养。\n\n来源：OpenAI 官网\n\n### 5️⃣ Cursor 解析：Git 大规模托管为何这么难\n\npackfile 瓶颈、分布式方案取舍，Object-level 分布式存储因 Git 协议缺陷被放弃。\n\n来源：Cursor Blog\n\n### 6️⃣ Claude Science 测试版发布\n\n面向生命科学的 AI 工作台，支持数据分析、图表生成，可调度至自有 GPU 或 SLURM 集群。\n\n来源：Claude Blog\n\n---\n\n## 【行业动态】\n\n### 7️⃣ OpenAI 启动民主监督计划，500 万美元助力\n\n帮助民主监督机构理解政府将 AI 用于国家安全，强调 AI 增强而非取代人类判断。\n\n来源：OpenAI 官网\n\n### 8️⃣ OpenAI 因\"关键网络能力\"阈值主动放缓开发\n\nAstra 模型可能触及《预备框架》红线，暂停最新部署模型的 RL 训练两周，扩展思维链监控。\n\n来源：OpenAI 官网\n\n---\n\n## 【论文研究】\n\n### 9️⃣ Claude 蛋白质设计成功率达 93%（14/15 靶点）\n\nAnthropic 公布 Mythos Preview 和 Opus 4.8 实验数据，命中率达 22.6%-35.1%。\n\n来源：Anthropic Research\n\n### 🔟 智能体记忆需要\"剂量校准\"\n\n强模型适合完整指南集（DeepSeek-V3.2 +9.5pp），弱模型精选检索效果最佳（gpt-oss-120b +16.1pp）。\n\n来源：IBM Research / Hugging Face\n\n### 1️⃣1️⃣ GRPO 在非英语环境下同样有效\n\nApple ML Research 大规模研究证明 RLVR 多语言适用性，母语与英语推理训练性能差距很小。\n\n来源：Apple ML Research\n\n### 1️⃣2️⃣ MVICAD2：脑源信号分析引入延迟与膨胀建模\n\n巴黎-萨克雷大学提出，Cam-CAN 数据集验证延迟和膨胀与衰老相关。\n\n来源：Apple ML Research\n\n---\n\n## 【技巧与观点】\n\n### 1️⃣3️⃣ Inspect AI + Harbor：AI 评测实战指南\n\nGoogle AI 演示用开源框架评估 agent 技能，用 Sheets 和 Data Studio 可视化分析。\n\n来源：Google AI DEV\n\n### 1️⃣4️⃣ Claude Tag 担任 CI/CD 一线值班员\n\n中位 14 分钟发布故障分析，最快 3 分钟验证修复，Anthropic 发布通用设置套件。\n\n来源：Claude Blog\n\n### 1️⃣5️⃣ Qwen3.8-27B 登顶 Artificial Analysis 智能指数\n\n52 分超越 753B 的 GLM-5.2（51分），笔记本模型挑战云端前沿，参数效率新纪录。\n\n来源：Tomer Tunguz\n\n### 1️⃣6️⃣ Populous 用 Runway 压缩场馆视觉制作\n\n渲染从三周缩短至数小时，支持 9 种活动模式快速迭代，已用于利雅得 MBS 体育场。\n\n来源：Runway\n\n---\n\n数据来源：AI HOT | aihot.virxact.com\n"
+        "zh-Hans": "\n\n## 【模型发布/更新】\n\n### 1️⃣ Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失\nLiquid AI 发布基于量化感知蒸馏（QAD）训练的 LFM2.5-230M、350M、1.2B-Instruct 和 2.6B 四款 Q4_0 GGUF 检查点，在保持原生 Q4_0 内存与速度的同时，恢复 BF16 平均精度损失的 97%。\n\n来源：Hugging Face：Blog（RSS）\n\n\n## 【产品发布/更新】\n\n### 1️⃣ GLM-5.3上线：AA智能指数60分并列开源第一，成本更低\nGLM-5.3 API即日上线，擅长复杂编码、防御性网络安全与长程任务，在AA综合智能指数中取得60分，与Claude Fable 5、GPT-5.6 Sol等闭源旗舰同级，并与Kimi K3并列开源模型第一。该模型以更小参数规模和更低调用成本降低前沿智能门槛，单任务成本为旗舰模型中最低。API定价与GLM-5.2持平，模型权重将于下周五开源。\n\n来源：公众号：智谱（GLM）\n\n### 2️⃣ FastMetal 让 Mac 本地 30 秒生成视频\n一段 5 秒 480P 视频，完全在 Mac 上生成，耗时 30 秒。无需 CUDA，无需云端，仅占用 3.9 GiB 内存。 FastMetal 将 FastWan-QAD 系列带到 Apple Silicon。DiT、DMD 采样器和解码器均通过 MLX 在 Metal 上运行，默认 INT8。 三个模型：1.3B 支持 480P，5B 支持 720P，14B 追求画质。 📷 博客：http://haoailab.com/blogs/fastmetal 📷 代码：http://github.com/hao-ai-lab/FastVideo 📷 模型：http://huggingface.co/collections/Fas…\n\n来源：X：Sky Computing Lab (@haoailab)\n\n### 3️⃣ Google 搜索推出 5 项 AI 学习工具\nGoogle 在搜索中推出 5 项 AI 学习工具。AI Mode 的生成式 UI 已全球上线英文版，支持交互式可视化与自定义模拟；练习测验现已在 AI Overviews 和 AI Mode 中免费提供英文版，覆盖 ACT、SAT 等标准化考试。\n\n来源：Google Blog：AI（RSS）\n\n### 4️⃣ Replit 推出由 GPT-5.6 Luna 驱动的 Free Mode，免费构建软件\nReplit 推出由 GPT-5.6 Luna 驱动的 Free Mode，让用户无需担心 token 成本即可将想法转化为可运行的软件。该模式借助 GPT-5.6 系列的价格性能优势及 OpenAI 近期降价，向数百万用户开放，提供快速解答、建议与项目分析，并可在需要更高级推理时切换至 GPT-5.6 Sol，同时保留项目上下文。\n\n来源：OpenAI：官网动态（RSS · 排除企业/客户案例）\n\n### 5️⃣ Claude Code v2.1.236 发布：新增默认模型环境变量与跨会话闲置通知\nClaude Code v2.1.236 新增 ANTHROPIC_DEFAULT_MODEL 环境变量，可设置新会话默认模型，且 /model 选择仍可覆盖并跨重启保留。\n\n来源：Claude Code：GitHub Releases（RSS）\n\n\n## 【行业动态】\n\n### 1️⃣ Anthropic 在网络关键能力时代放缓模型开发：暂停 RL 训练并强化安全防护\nAnthropic 因 OpenAI-Hugging Face 事件及即将推出的 Astra 模型可能达到“关键网络安全能力阈值”，暂时放缓模型扩展速度，包括暂停最新模型两周的强化学习（RL）训练。公司已加强研究环境安全要求，包括工作负载隔离、网络隔离和持续安全测试，并扩大思维链监控范围。涉及 Astra 或网络模型的工作负载需满足最严格安全标准，部分训练和评估工作仍处于暂停状态。\n\n来源：Hacker News 热门（buzzing.cc 中文翻译）\n\n### 2️⃣ OpenRouter 宣布加入 Stripe\nOpenRouter 宣布与 Stripe 合并，以加速推动全球经济增长。OpenRouter 目前每日处理来自 400 多个 AI 模型的 10+ 万亿 token，服务超 1000 万开发者与公司，自成立以来推理量每年至少增长 10 倍。合并后 OpenRouter 将继续以原名、原使命独立运营，产品与路线图不变，路由决策仍以用户利益为先，交易预计在未来数周内完成。\n\n来源：OpenRouter：Announcements（RSS）\n\n---\n\n## 【Hacker News 热帖】\n\n> 关键词：AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer\n> 数据来源：hnrss.org | 筛选自 Hacker News\n\n### 1. [Do We Still Need Database Management Tools When AI Can Write SQL?](https://news.ycombinator.com/item?id=49370037)\nArticle URL: http://johnli.work/posts/do-we-still-need-database-management-tools-when-ai-can-write-sql/\nComments URL: https://news.ycombinator.com/item?id=49370037\nPoints: 1\n# Comments: 0\n- [HN原文 →](https://news.ycombinator.com/item?id=49370037)\n\n### 2. [Show HN: AI agents can now safely write to your CRMs](https://news.ycombinator.com/item?id=49369982)\nHi HN!Just wanted to share that I've built Archron - Execution governance for AI in business. It allows agents to safely write to CRMs(starting from Salesforce and hubspot) while maintaining immutable\n- [HN原文 →](https://news.ycombinator.com/item?id=49369982)\n\n### 3. [How Claude's Watermark Works](https://news.ycombinator.com/item?id=49369944)\nArticle URL: https://instavm.io/blog/how-claudes-watermark-works\nComments URL: https://news.ycombinator.com/item?id=49369944\nPoints: 2\n# Comments: 0\n- [HN原文 →](https://news.ycombinator.com/item?id=49369944)\n\n### 4. [Does anyone find AI code review useful?](https://news.ycombinator.com/item?id=49369710)\nI’m genuinely trying to understand the point of AI code review.Once an LLM generated change gets into a few hundreds or thousands of lines, a human reviewer can barely read the whole thing in any mean\n- [HN原文 →](https://news.ycombinator.com/item?id=49369710)\n\n### 5. [Show HN: AI Resume Screening – Looking for feedback from recruiters](https://news.ycombinator.com/item?id=49369678)\nIn addition to the resume creation tool we mentioned in our previous post, we've also developed an AI-powered resume screening tool to complement our overall ecosystem. This tool aims to help recruitm\n- [HN原文 →](https://news.ycombinator.com/item?id=49369678)\n\n---\n\n*首发于微信公众号「比特财商」。*\n\n"
       },
       "date": "2026-08-20",
       "author": "比特财商",
       "tags": [
-        "AI日报",
-        "Sentence Transformers",
-        "Mojo",
-        "Claude",
-        "OpenAI",
-        "Cursor",
-        "Qwen"
+        "AI日报"
       ],
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",
         "original": {
-          "name": "AI HOT",
-          "url": "https://aihot.virxact.com"
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
-      }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
     }
   ]
 }

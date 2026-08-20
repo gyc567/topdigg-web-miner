@@ -1,6 +1,8 @@
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { Button } from "@/components/ui/button";
+import { ArrowLeft } from "lucide-react";
 import { SEO } from "@/components/SEO";
 import { siteConfig } from "@/config/site";
 import { useTranslation } from "react-i18next";
@@ -70,11 +72,12 @@ const AIDailyPost = () => {
   const breadcrumbSchema = makeBreadcrumbList(breadcrumbs);
 
   const formatDate = (dateStr: string) => {
-    return new Date(dateStr).toLocaleDateString("zh-CN", {
+    const d = new Date(dateStr);
+    return d.toLocaleDateString("zh-CN", {
       year: "numeric",
-      month: "long",
-      day: "numeric",
-    });
+      month: "2-digit",
+      day: "2-digit",
+    }).replace(/\//g, '-');
   };
 
   return (
@@ -84,7 +87,7 @@ const AIDailyPost = () => {
         description={resolved.description}
         path={postPath}
         type="article"
-        jsonLd={{ ...jsonLd, ...breadcrumbSchema }}
+        jsonLd={jsonLd}
         breadcrumbs={breadcrumbs}
       />
 
@@ -144,6 +147,14 @@ const AIDailyPost = () => {
         </header>
 
         <MarkdownContent content={resolved.content || ""} className="mb-8" />
+        <div className="mt-8 pt-6 border-t">
+          <Link to="/ai-daily">
+            <Button variant="ghost" className="pl-0 hover:pl-2 transition-all">
+              <ArrowLeft className="mr-2 h-4 w-4" />
+              {t("aiDaily.backToList", "返回日报列表")}
+            </Button>
+          </Link>
+        </div>
         <AuthorBio />
       </article>
     </>

@@ -1,130 +1,32 @@
 # AI日报模块设计方案
 
-> 版本：v1.1
+> 版本：v2.0
 > 日期：2026-08-20
-> 状态：方案审计完成，已优化
+> 状态：新增 HN Top5 来源，方案升级
 
 ---
 
-## 审计意见（v1.1）
+## v2.0 版本说明
 
-### ✅ 方案优点
-
-1. **复用现有架构** — 与 BlogDataSource 模式完全对齐，研发成本低
-2. **目录结构清晰** — `content/ai-daily/` 与 `content/blog/` 并列，边界明确
-3. **单日多篇过滤逻辑合理** — 保持期刊感，减少用户认知负担
-4. **i18n 考虑周全** — 5语言支持，LocalizedText 类型定义正确
-5. **SEO 有 Article schema** — 结构化数据完备
-6. **幂等设计** — 重复执行不破坏，已有当日文件跳过
-
-### ⚠️ 问题与优化
-
-#### 1. frontmatter 的 title 混用了"AI日报｜"前缀
-
-`title: "AI日报｜OpenAI暂停RL训练..."` — 这会导致多语言切换时标题仍显示中文"AI日报"字样。
-
-**优化方案**：标题语义化，去掉语言相关前缀：
-
-```yaml
-title:
-  zh-Hans: "OpenAI暂停RL训练、Anthropic冲刺IPO、具身智能大爆发"
-  en: "OpenAI Pauses RL Training, Anthropic Eyes IPO, Embodied AI Surges"
-  # frontmatter 作为 zh-Hans fallback
-```
-
-前端渲染时在 `AIDailyIndex` 和 `AIDailyPost` 页面标题区统一加上 `AI日报 ·` 前缀（从 i18n 文案取），这样各语言版本显示正常。
-
-#### 2. 多语言 Markdown 文件缺失策略
-
-`content/ai-daily/zh-Hans/2026-08-20-ai-daily.md` 只写了中文内容，`generate-ai-daily-data.mjs` 的 `title` / `description` 是 `{ "zh-Hans": "...", "en": "..." }` 结构——这意味着要么需要人工维护多语言版本，要么脚本需要自动翻译。
-
-**优化方案**：明确多语言处理策略：
-
-| 策略 | 适用场景 | 实现方式 |
-|------|----------|----------|
-| 机器翻译 | 初期，快速上线 | 调用 MiniMax API 翻译 title/description，content 保持中文 |
-| 纯中文 | 初期不考虑出海 | zh-Hans 有内容，其余语言 fallback 到 zh-Hans |
-| 人工维护 | 正式运营 | 各语言独立 Markdown 文件，脚本合并 |
-
-建议初期用 **纯中文 + 机器翻译 title/description**，content 保持中文原文不做翻译（内容太长，成本高）。
-
-#### 3. `source` 字段描述不准确
-
-frontmatter 示例中 `source` 写的是比特财商微信公众号——这是**内容聚合来源**（机器之心 RSS），不是原文出处。日报文章本身也应该有原文链接。
-
-**优化方案**：区分 `aggregator`（聚合来源）和 `source`（原文出处）：
-
-```yaml
-source:
-  aggregator: "机器之心"
-  aggregator_url: "https://rsshub.app/jiqizhixin/comics"
-  original:
-    name: "比特财商"
-    url: "https://mp.weixin.qq.com/s/xxxxx"
-```
-
-#### 4. `AIDailyDataSource` 命名与现有风格不一致
-
-现有 `BlogDataSource` 中"Post"是中心词（`getPostBySlug`），日报用 `Report`（`getReportBySlug`）逻辑没问题，但命名语义要统一。建议统一用 `AIDailyItem` / `getAIDailyBySlug` 等，明确叫 **item** 而非 post/report 混淆。
-
-#### 5. Cron 失败告警缺失
-
-方案提到"依赖 OpenClaw 的 failureAlert 机制"，但没有显式配置。应该显式声明：
-
-```json
-"failureAlert": {
-  "channel": "feishu",
-  "message": "AI日报生成失败，请检查信源和生成脚本"
-}
-```
-
-#### 6. Build 脚本与博客脚本完全独立有冗余
-
-未来合并时会有迁移成本。建议在文档中明确写明 **合流时间点**（例如 v2.0），并约定合并原则：共享 `lib/parse-frontmatter.mjs` 工具函数，分离 `generate-blog-data.mjs` 和 `generate-ai-daily-data.mjs` 但保持输出结构一致。
-
-#### 7. 加载更多是伪代码，无分页策略
-
-"每次加载10条"是前端行为，但如果 JSON 一次加载全部（2-5MB），首屏依然会慢。建议：
-
-- `public/ai-daily-meta-{locale}.json` 按日期倒序，只保留最近30条（节省体积）
-- 详情页跳转时不走全量 `ai-daily-data.json`，走 slug 直接定位
-- 归档页（旧数据）单独提供 `/ai-daily/archive` 或按年/月分页
-
-#### 8. 缺少降级方案
-
-"机器之心 RSS 不可用"是高频风险。建议：
-
-- 配置 2-3 个备用 RSS 源（Hacker News / arXiv cs.AI / Twitter AI 账号列表）
-- 降级时发送通知，附带手动触发链接
-
-### 📋 审计后的文件变更补充
-
-| 操作 | 文件路径 | 说明 |
-|------|----------|------|
-| 修改 | `content/ai-daily/zh-Hans/YYYY-MM-DD-ai-daily.md` | frontmatter 去掉 title 前缀，增加 aggregator/original 分离 |
-| 新增 | `scripts/utils/translate.mjs` | MiniMax 翻译工具（生成阶段用） |
-| 新增 | `src/lib/parse-frontmatter.ts` | frontmatter 解析共享工具，blog/ai-daily 共用 |
-| 新增 | `public/ai-daily-meta-{locale}.json` | **仅含最近30条**，减少首屏体积 |
-| 新增 | `src/pages/AIDailyArchive.tsx` | 历史归档页（按月翻页） |
-| 修改 | cron 任务 | 增加 `failureAlert` 配置 + 备用源降级逻辑 |
+本次升级在 v1.1 基础上新增 **Hacker News Top5** 作为第二个并行内容来源，与 AI HOT 并列合并进同一篇日报 MD，实现双源聚合。同步提出 8 项额外优化建议。
 
 ---
 
-## 一、项目背景与目标
+## 一、项目背景与目标（不变）
 
 ### 1.1 背景
 
-TopDigg（topdigg.com）是一个AI/科技内容聚合站，目前主要内容模块包括：
-- **博客**（/blog）— 深度解析文章，单篇独立，按标签/分类组织
+TopDigg（topdigg.com）是一个AI/科技内容聚合站，现有内容模块：
+- **博客**（/blog）— 深度解析文章
 - **Twitter分析**（/twitter）— 账号分析报告
-- **专栏**（/columns/*）— Reddit/YouTube/Twitter社区导航
+- **专栏**（/columns/*）— Reddit/YouTube/Twitter 社区导航
 
-现有内容来源以手动触发为主，缺乏**每日自动化的行业资讯聚合能力**。
+缺乏每日自动化的行业资讯聚合能力。
 
 ### 1.2 目标
 
-在首页导航栏新增一个 **AI日报** 模块（与博客平级），实现：
-1. 每日北京时间8点自动抓取优质AI资讯来源，生成日报文章
+在首页导航栏新增 **AI日报** 模块（与博客平级），实现：
+1. 每日北京时间 8 点自动抓取优质 AI 资讯来源，生成日报文章
 2. 用户访问 `/ai-daily` 可浏览每日日报时间线
 3. 点击日报进入详情页阅读完整内容
 4. 支持多语言（zh-Hans / zh-Hant / en / ja / vi）
@@ -132,596 +34,360 @@ TopDigg（topdigg.com）是一个AI/科技内容聚合站，目前主要内容�
 
 ---
 
-## 二、现状分析
+## 二、内容来源架构（v2.0 新增 HN）
 
-### 2.1 现有技术架构
+### 2.1 双源并行结构
 
-**内容管理**：
-- 博客文章存储于 `content/blog/{locale}/`（Markdown格式）
-- Build时由 `scripts/generate-blog-data.mjs` 扫描所有Markdown，提取frontmatter生成JSON元数据
-- 产出的JSON文件在 `public/` 目录，供前端 `BlogDataSource` 懒加载
+| 来源 | 内容定位 | 获取方式 | 注入位置 |
+|------|----------|----------|----------|
+| **AI HOT**（主） | 模型发布、产品更新、行业动态、学术进展 | `https://aihot.virxact.com/api/v1/dailies/latest` | MD 正文前半部 |
+| **Hacker News**（辅） | AI/ML 相关社区热帖，真实开发者讨论 | `https://hnrss.org/newest?q=<关键词>` | MD 正文末尾 `## 【Hacker News 热帖】` |
 
-**数据加载层**：
+两源内容合并进**同一篇日报 MD**，保持"每日期刊"的阅读节奏。用户读一篇，知天下 AI 事。
+
+### 2.2 HN 数据获取策略
+
+**关键词搜索 Feed**（主）：
 ```
-BlogDataSource（src/lib/blog-data.ts）
-  ├── getPosts()              → 同步，返回所有文章元数据（全语言）
-  ├── getPostsLocalized(locale) → 异步，按locale加载对应JSON（~80KB）
-  ├── getPostBySlug(slug)     → 同步，全语言元数据中查找
-  └── getPostWithContent(slug) → 异步，加载全量内容（9.9MB，按需）
-```
-
-**导航系统**：
-- 导航配置在 `src/config/site.ts` → `siteConfig.nav.main`（数组）
-- 路由在 `src/App.tsx` 注册
-
-**构建流程**：
-```
-Markdown文件 → generate-blog-data.mjs → JSON元数据 → Vercel静态托管 → 前端加载
+https://hnrss.org/newest?q=AI+OR+GPT+OR+LLM+OR+Claude+OR+OpenAI+OR+%22machine+learning%22+OR+%22large+language+model%22+OR+AGI+OR+%22generative+AI%22+OR+AI+agent+OR+RAG+OR+diffusion+OR+transformer+OR+Nvidia+OR+GPU+OR+Sora
 ```
 
-### 2.2 关键文件清单
+**降级链路（Strategy A）**：
+```
+Step 1: 关键词搜索 feed → 取最新 20 条
+Step 2: 若返回 < 5 条 → 追加 frontpage feed 最新 10 条做补充
+Step 3: 合并去重后取前 5 条
+```
 
-| 文件 | 作用 |
-|------|------|
-| `src/config/site.ts` | 导航配置、全站静态数据 |
-| `src/App.tsx` | React Router路由注册 |
-| `src/lib/blog-data.ts` | 博客数据加载类 |
-| `src/pages/BlogIndex.tsx` | 博客列表页 |
-| `src/pages/BlogPost.tsx` | 博客详情页 |
-| `scripts/generate-blog-data.mjs` | Build脚本，扫描Markdown生成JSON |
-| `public/blog-meta*.json` | Build产出的博客元数据 |
-| `public/blog-data.json` | Build产出的博客全量内容 |
-| `src/locales/{locale}/*.json` | 国际化文案 |
-| `src/components/layout/SiteHeader.tsx` | 顶部导航组件 |
+**HN 数据限制**：hnrss RSS **不包含 points 和 comments 数量**，只含标题 + 链接 + 摘要 + 发布时间。按时间倒序取最新条目，保证内容新鲜度。
+
+### 2.3 去重策略
+
+如果某条 AI HOT 内容已经在 HN 上有对应帖子（标题相似度 > 70%），在 HN 区块中标注 `（已见上文）` 而非重复展示。相似度判断逻辑：
+- 提取标题中的关键名词（去停用词）
+- 交集 / 并集 > 0.7 则认为重复
 
 ---
 
-## 三、内容管理方案
+## 三、Markdown 内容结构（v2.0 更新）
 
-### 3.1 目录结构
+### 3.1 完整 MD 结构
 
-新增 `content/ai-daily/` 目录，与现有 `content/blog/` 并列：
-
-```
-content/
-  ai-daily/
-    zh-Hans/
-      2026-08-20-ai-daily.md
-      2026-08-19-ai-daily.md
-      ...
-    zh-Hant/
-    en/
-    ja/
-    vi/
-  blog/
-    zh-Hans/
-    ...
-```
-
-### 3.2 Markdown frontmatter 格式
-
-```yaml
+```markdown
 ---
 title:
-  zh-Hans: "OpenAI暂停RL训练、Anthropic冲刺IPO、具身智能大爆发"
-  en: "OpenAI Pauses RL Training, Anthropic Eyes IPO, Embodied AI Surges"
+  zh-Hans: "Sentence Transformers v6.0、Mojo开源、Claude支持Gmail"
+  en: "Sentence Transformers v6.0, Mojo Open-Sourced, Claude Gains Gmail Support"
 date: "2026-08-20"
 description:
   zh-Hans: "每日AI行业资讯精选，涵盖模型发布、具身智能、学术进展、行业动态。"
-  en: "Daily AI industry news highlights, covering model releases, embodied AI, research progress, and industry updates."
+  en: "Daily AI industry news highlights..."
 tags:
   - AI日报
-  - OpenAI
-  - Anthropic
-  - 具身智能
 categories:
   - AI日报
 source:
-  aggregator: "机器之心"
-  aggregator_url: "https://rsshub.app/jiqizhixin/comics"
+  aggregator: "AI HOT"
+  aggregator_url: "https://aihot.virxact.com"
   original:
     name: "比特财商"
     url: "https://mp.weixin.qq.com/s/xxxxx"
+hn_count: 5
 ---
-```
 
-> ⚠️ **注意**：`title` 和 `description` 在 frontmatter 中直接写单语言字符串（作为 zh-Hans fallback），
-> `generate-ai-daily-data.mjs` 执行时会扩展为完整 `LocalizedText` 结构并翻译其他语言。
+## 【产品发布/更新】
 
-### 3.3 单日多篇处理规则
-
-**规则：同一自然日只保留一篇（最新的一篇）**
-
-在 `AIDailyDataSource.getReportsLocalized()` 的数据加载时做过滤：
-
-```typescript
-// 伪代码示意
-async getReportsLocalized(locale: SupportedLocale): Promise<AIDailyMeta[]> {
-  const allReports = await loadMetaFromJSON(locale);
-  // 按日期分组，每日期刊只保留最新一篇
-  const byDate = new Map<string, AIDailyMeta>();
-  for (const report of allReports) {
-    const existing = byDate.get(report.date);
-    if (!existing || report.slug > existing.slug) {
-      byDate.set(report.date, report);
-    }
-  }
-  return [...byDate.values()].sort((a, b) => b.date.localeCompare(a.date));
-}
-```
-
-这样设计的好处：
-- 用户看到的是"每日精华"，无信息冗余
-- 多源时依然保持"一天一篇"的期刊感
-- 未来如果需要查看历史全部文章，可以单独提供归档页
+...（AI HOT 内容，同现有结构）...
 
 ---
 
-## 四、数据层方案
+## 【Hacker News 热帖】
 
-### 4.1 类型定义
+> 关键词：AI OR GPT OR LLM OR Claude OR OpenAI OR "machine learning"...
+> 数据来源：hnrss.org | 筛选自 Hacker News
+
+### 1. [HN 帖子标题](https://news.ycombinator.com/item?id=12345678)
+HN 帖子摘要内容...
+- [HN 原文 →](https://news.ycombinator.com/item?id=12345678)
+
+### 2. ...
+
+---
+
+*首发于微信公众号「比特财商」。*
+```
+
+### 3.2 frontmatter 新增字段
+
+| 字段 | 类型 | 说明 |
+|------|------|------|
+| `hn_count` | number | 本日报包含的 HN 条目数量（0 表示 HN 抓取失败） |
+| `hn_keywords` | string | 本次使用的关键词字符串（用于调试和追溯） |
+
+---
+
+## 四、数据层扩展（v2.0 新增 HN 类型）
+
+### 4.1 新增 HN Item 类型
 
 ```typescript
 // src/lib/ai-daily-data.ts
 
-export type AIDailySource = {
-  aggregator: string;
-  aggregator_url?: string;
-  original: {
-    name: string;
-    url?: string;
-  };
+export type HNItem = {
+  title: string;
+  url: string;          // 指向 news.ycombinator.com/item?id=xxx
+  description: string;   // HN 帖子正文摘要
+  pubDate: string;      // RFC 2822 格式
 };
 
 export type AIDailyMeta = {
   slug: string;
-  title: LocalizedText;
-  description: LocalizedText;
-  date: string;          // ISO date: "2026-08-20"
+  title: string | Record<string, string>;
+  description: string | Record<string, string>;
+  date: string;           // ISO date: "2026-08-20"
   author: string;
   tags: string[];
   categories: string[];
   source: AIDailySource;
+  hn_count: number;        // v2.0 新增
+  hn_keywords: string;    // v2.0 新增
 };
 
 export type AIDailyPost = AIDailyMeta & {
-  content: LocalizedText;   // Markdown内容
+  content: string | Record<string, string>;
 };
 ```
 
-### 4.2 AIDailyDataSource 类
+### 4.2 JSON 产出更新
 
-```typescript
-// src/lib/ai-daily-data.ts
-
-export class AIDailyDataSource {
-  private static _instance: AIDailyDataSource;
-
-  // 单日多篇过滤后的缓存（按locale）
-  private _cache: Map<SupportedLocale, AIDailyMeta[]>;
-
-  static getInstance(): AIDailyDataSource;
-
-  /** 返回过滤后的日报列表（同日期刊只保留最新一篇），按日期倒序 */
-  async getReportsLocalized(locale: SupportedLocale): Promise<AIDailyMeta[]>;
-
-  /** 同步返回所有文章元数据（全语言，用于slug查找） */
-  getReports(): AIDailyMeta[];
-
-  /** 按slug查元数据 */
-  getReportBySlug(slug: string): AIDailyMeta | undefined;
-
-  /** 懒加载全量内容（含Markdown） */
-  async getReportWithContent(slug: string): Promise<AIDailyPost | undefined>;
-}
-```
-
-设计原则：
-- 模式与 `BlogDataSource` 完全一致，降低学习成本
-- `getReportsLocalized()` 内部做单日多篇过滤，对上层透明
-- 使用 `Map<SupportedLocale, AIDailyMeta[]>` 做实例级缓存
-
-### 4.3 JSON文件产出
-
-Build脚本扫描 `content/ai-daily/` 目录后，产出的JSON文件：
-
-| 文件 | 内容 | 大小估算 |
-|------|------|----------|
-| `public/ai-daily-meta.json` | 全语言汇总元数据 | ~50KB |
-| `public/ai-daily-meta-zh-Hans.json` | 中文元数据 | ~10KB |
-| `public/ai-daily-meta-zh-Hant.json` | 繁体元数据 | ~10KB |
-| `public/ai-daily-meta-en.json` | 英文元数据 | ~10KB |
-| `public/ai-daily-meta-ja.json` | 日文元数据 | ~10KB |
-| `public/ai-daily-meta-vi.json` | 越南文元数据 | ~10KB |
-| `public/ai-daily-data.json` | 全量内容（含Markdown） | ~2-5MB |
+`ai-daily-meta.json` 新增 `hn_count` 和 `hn_keywords` 字段。`ai-daily-data.json` 的 content 字段中已包含 HN 区块的完整 Markdown 内容（直接渲染即可）。
 
 ---
 
-## 五、路由与导航方案
+## 五、Cron 执行流程（v2.0 更新）
 
-### 5.1 导航配置
-
-在 `src/config/site.ts` → `siteConfig.nav.main` 中新增一项：
-
-```typescript
-{
-  label: {
-    "zh-Hans": "AI日报",
-    "zh-Hant": "AI日報",
-    "en": "AI Daily",
-    "ja": "AIデイリー",
-    "vi": "AI Hàng Ngày"
-  },
-  href: "/ai-daily"
-}
-```
-
-**菜单位置**：在"博客"之后、"Reddit专栏"之前。
-
-完整主导航顺序：
-```
-博客 → AI日报 → Reddit专栏 → YouTube专栏 → Twitter专栏 → Twitter分析 → 外链导航 → 关于我们 → 联系
-```
-
-### 5.2 路由注册
-
-```typescript
-// src/App.tsx
-const AIDailyIndex = lazy(() => import("./pages/AIDailyIndex"));
-const AIDailyPost = lazy(() => import("./pages/AIDailyPost"));
-
-// 在 <Routes> 中：
-<Route path="/ai-daily" element={<AIDailyIndex />} />
-<Route path="/ai-daily/:slug" element={<AIDailyPost />} />
-```
-
----
-
-## 六、页面设计方案
-
-### 6.1 列表页：`/ai-daily` — 时间线视图
-
-**设计目标**：营造"每日期刊"的阅读节奏感，用户按日期自上而下浏览。
-
-**布局**：
+### 5.1 完整执行流程
 
 ```
-┌──────────────────────────────────────────────────────┐
-│  AI 日报                                              │
-│  每日精选AI行业资讯，源自优质信源                           │
-├──────────────────────────────────────────────────────┤
-│                                                      │
-│  ● 2026年8月20日                                     │
-│  ┄━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   │
-│  │ 📰 TrueForge深度解析：开源Agent Harness如何...  │  ← 卡片
-│  │    来源：比特财商  ·  OpenAI / Anthropic / AI    │
-│  │    [阅读全文 →]                                   │
-│  └────────────────────────────────────────────────┘  │
-│                                                      │
-│  ● 2026年8月19日                                     │
-│  ┄━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━   │
-│  │ 📰 OpenAI GPT-5新进展：多模态能力大幅提升...     │  ← 卡片
-│  │    来源：比特财商  ·  GPT-5 / 多模态              │
-│  │    [阅读全文 →]                                   │
-│  └────────────────────────────────────────────────┘  │
-│                                                      │
-│  ● 2026年8月18日                                     │
-│  ...                                                │
-│                                                      │
-│  [加载更多]                                          │
-└──────────────────────────────────────────────────────┘
-```
-
-**UI细节**：
-- 日期作为时间线节点，用圆点 ● 标记
-- 水平线连接同一日期内的所有文章（同日期多篇时并排）
-- 每张卡片包含：标题、来源标签（可点击跳转）、标签、阅读全文链接
-- 底部"加载更多"按钮（非分页），每次加载10条
-- 移动端：日期分组可折叠
-
-**来源标签设计**：
-- 格式：`来源：比特财商`（比特财商带链接）
-- 来源badge样式与标签badge区分开来
-
-**筛选能力**（预留）：
-- 按来源（source）筛选（下拉选择器）
-- 按标签（tag）筛选
-- 按日期范围筛选
-
-### 6.2 详情页：`/ai-daily/:slug`
-
-复用现有 `BlogPost` 组件逻辑，做以下调整：
-
-| 调整项 | 说明 |
-|--------|------|
-| 移除分类筛选器 | 日报只有一个固定分类 |
-| 增加来源显示 | 在文章头部显示 source 信息 |
-| 移除相关文章推荐 | 日报不需要博客式的"相关阅读"模块 |
-| SEO Article结构 | 使用 Article schema（见第七章） |
-
-**详情页头部结构**：
-```
-┌─────────────────────────────────────────────────────┐
-│  AI日报 · 2026年8月20日                              │
-│  来源：比特财商                                      │
-├─────────────────────────────────────────────────────┤
-│  TrueForge深度解析：开源Agent Harness如何...         │
-│  每日精选AI行业资讯，涵盖模型发布、具身智能...         │
-│  标签：AI Agent  |  开源  |  Claude                  │
-├─────────────────────────────────────────────────────┤
-│  [文章正文内容...]                                   │
-└─────────────────────────────────────────────────────┘
-```
-
----
-
-## 七、国际化（i18n）方案
-
-### 7.1 导航文案
-
-导航标签已在 `siteConfig.nav.main` 的 `LocalizedText` 中定义，无需额外配置。
-
-### 7.2 页面文案
-
-在 `src/locales/{locale}/` 目录下的JSON文件中增加 `aiDaily` 命名空间：
-
-```json
-// zh-Hans.json
-{
-  "aiDaily": {
-    "indexTitle": "AI日报",
-    "indexDesc": "每日精选AI行业资讯，源自优质信源",
-    "source": "来源",
-    "readMore": "阅读全文",
-    "loadMore": "加载更多",
-    "noReports": "暂无日报内容",
-    "noReportsHint": "日报将在每天8点自动更新，请稍后再来",
-    "resultsCount": "共 {{count}} 期"
-  }
-}
-```
-
-```json
-// en.json
-{
-  "aiDaily": {
-    "indexTitle": "AI Daily",
-    "indexDesc": "Curated AI industry news daily, sourced from quality outlets",
-    "source": "Source",
-    "readMore": "Read more",
-    "loadMore": "Load more",
-    "noReports": "No daily reports available",
-    "noReportsHint": "Daily reports are auto-generated at 8AM Beijing time",
-    "resultsCount": "{{count}} editions"
-  }
-}
-```
-
-其余语言（zh-Hant / ja / vi）同理。
-
----
-
-## 八、SEO方案
-
-### 8.1 列表页 SEO
-
-```typescript
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  name: `${siteConfig.siteName} AI日报`,
-  description: "每日精选AI行业资讯，源自优质信源",
-  url: `${siteConfig.baseUrl}/ai-daily`,
-};
-```
-
-### 8.2 详情页 SEO
-
-```typescript
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  headline: post.title[currentLocale],
-  description: post.description[currentLocale],
-  datePublished: post.date,
-  author: { "@type": "Person", name: post.author },
-  publisher: { "@type": "Organization", name: siteConfig.siteName },
-  isBasedOn: {
-    "@type": "CreativeWork",
-    name: post.source.original.name,
-    url: post.source.original.url,
-  },
-  supplier: {
-    "@type": "Organization",
-    name: post.source.aggregator,
-    url: post.source.aggregator_url,
-  },
-};
-```
-
----
-
-## 九、自动化发布方案（Cron）
-
-### 9.1 触发机制
-
-利用 OpenClaw 内置 cron 系统，每天 **北京时间8:00** 自动执行：
-
-```
-cron表达式：0 8 * * * （Asia/Shanghai时区）
-```
-
-### 9.2 执行流程
-
-```
-T=08:00  cron触发
+T=08:00  cron 触发
   │
   ▼
-[Step 1] 抓取信源
-  - 访问机器之心RSS / 官方信源
-  - 或调用已有内容工厂Skill获取当日AI日报内容
+[Step 1] 抓取 AI HOT
+  - GET https://aihot.virxact.com/api/v1/dailies/latest
+  - 解析 JSON → 构建 MD 前半部分
   │
   ▼
-[Step 2] 生成Markdown
-  - 按 ai-daily frontmatter格式写入
-  - 文件名：content/ai-daily/zh-Hans/YYYY-MM-DD-ai-daily.md
-  - 如当日已存在则跳过（幂等）
+[Step 2] 抓取 HN Top5（关键词搜索）
+  - GET https://hnrss.org/newest?q=<encoded_keywords>
+  - 解析 RSS XML → 取最新 20 条
+  - 若 < 5 条 → 追加 GET https://hnrss.org/frontpage → 取最新补充
+  - 按发布时间降序 → 取 Top 5
+  - 生成 Markdown HN 区块
   │
   ▼
-[Step 3] Git提交
+[Step 3] 组装完整 MD
+  - frontmatter（含 hn_count）
+  - AI HOT 内容
+  - HN 热帖区块
+  - 检查当日文件是否已存在（幂等）
+  - 写入 content/ai-daily/zh-Hans/YYYY-MM-DD-ai-daily.md
+  │
+  ▼
+[Step 4] Git 提交
   - git add content/ai-daily/
-  - git commit -m "feat: AI日报 $(date +%Y-%m-%d)"
+  - git commit -m "feat: AI日报 $(date +%Y-%m-%d) + HN Top5"
   - git push
   │
   ▼
-[Step 4] Vercel自动构建
-  - GitHub webhook触发Vercel构建
-  - generate-ai-daily-data.mjs 执行JSON生成
-  - 静态站点更新，约1-2分钟上线
+[Step 5] Vercel 自动构建
+  - 触发 GitHub webhook
+  - scripts/build-ai-daily.js 执行 JSON 生成
+  - 静态站点更新（约 1-2 分钟）
+  │
+  ▼
+[Step 6] 飞书通知（发送今日日报链接）
 ```
 
-### 9.3 幂等保证
+### 5.2 错误处理策略
 
-生成脚本在执行前先检查当日文件是否已存在：
+| 错误场景 | 处理方式 |
+|----------|----------|
+| AI HOT API 失败 | Cron 整体失败，发送 failureAlert，不生成日报 |
+| HN RSS 失败 | 降级：hn_count=0，HN 区块留空，日报主体正常生成，发送 warning 通知 |
+| HN < 5 条 | 用 frontpage 补充；仍不足 5 条时记录实际条数，继续生成 |
+| Git push 失败 | 重试 1 次；仍失败则发送 failureAlert |
+
+### 5.3 幂等保证
 
 ```bash
-if [ -f "content/ai-daily/zh-Hans/$(date +%Y-%m-%d)-ai-daily.md" ]; then
+FILE="content/ai-daily/zh-Hans/$(date +%Y-%m-%d)-ai-daily.md"
+if [ -f "$FILE" ]; then
   echo "今日日报已存在，跳过生成"
   exit 0
 fi
 ```
 
-### 9.4 Cron任务配置
+---
+
+## 六、国际化更新（v2.0 新增 HN i18n）
+
+### 6.1 新增 i18n 字段
 
 ```json
-{
-  "name": "AI日报自动生成",
-  "schedule": {
-    "kind": "cron",
-    "expr": "0 8 * * *",
-    "tz": "Asia/Shanghai"
-  },
-  "payload": {
-    "kind": "agentTurn",
-    "message": "请执行以下任务：\n1. 抓取当日AI资讯（机器之心或其他配置的信源）\n2. 生成AI日报Markdown文章，保存到 content/ai-daily/zh-Hans/YYYY-MM-DD-ai-daily.md\n3. frontmatter包含：title/date/description/tags/categories/source\n4. 如果当日文章已存在则跳过\n5. 执行 git add + commit + push"
-  },
-  "delivery": {
-    "mode": "announce",
-    "channel": "feishu"
-  }
+// zh-Hans.json — 新增字段
+"hnTop5": {
+  "sectionTitle": "Hacker News 热帖",
+  "source": "数据来源",
+  "hnrss": "hnrss.org",
+  "filteredFrom": "筛选自 Hacker News",
+  "keywords": "关键词",
+  "viewOnHN": "HN 原文",
+  "fetchFailed": "HN 数据获取失败，该部分暂时空缺",
+  "fallbackNote": "（已见上文）",
+  "itemsCount": "{{count}} 条"
 }
 ```
 
----
-
-## 十、Build脚本扩展方案
-
-### 10.1 修改策略
-
-现有 `scripts/generate-blog-data.mjs` 保持不变（解耦），新建 `scripts/generate-ai-daily-data.mjs`。
-
-未来可以合并为一个 `scripts/generate-all-data.mjs`，但初期保持独立更安全。
-
-### 10.2 脚本逻辑
-
-```javascript
-// scripts/generate-ai-daily-data.mjs
-
-// 1. 扫描 content/ai-daily/zh-Hans/*.md
-// 2. 解析每篇Markdown的frontmatter
-// 3. 提取 title/date/description/tags/source（按locale分组）
-// 4. 生成 public/ai-daily-meta-zh-Hans.json 等per-locale文件
-// 5. 生成 public/ai-daily-meta.json（全语言汇总）
-// 6. 生成 public/ai-daily-data.json（全量内容，含Markdown）
-```
-
-### 10.3 JSON格式
-
-```json
-// public/ai-daily-meta-zh-Hans.json
-{
-  "reports": [
-    {
-      "slug": "2026-08-20-ai-daily",
-      "title": { "zh-Hans": "...", "en": "...", "zh-Hant": "...", "ja": "...", "vi": "..." },
-      "description": { "zh-Hans": "...", "en": "...", "zh-Hant": "...", "ja": "...", "vi": "..." },
-      "date": "2026-08-20",
-      "author": "比特财商",
-      "tags": ["AI日报", "OpenAI", "Anthropic"],
-      "categories": ["AI日报"],
-      "source": {
-        "aggregator": "机器之心",
-        "aggregator_url": "https://rsshub.app/jiqizhixin/comics",
-        "original": { "name": "比特财商", "url": "https://mp.weixin.qq.com/s/xxxx" }
-      }
-    }
-  ]
-}
-```
+其他语言（en / zh-Hant / ja / vi）同理翻译。
 
 ---
 
-## 十一、文件变更清单
+## 七、SEO 方案（v2.0 微调）
+
+详情页 Article schema 的 `keywords` 字段增加 HN 相关标注：
+
+```typescript
+const jsonLd = makeArticleSchema({
+  // ... 现有字段
+  keywords: [...post.tags, "Hacker News", "AI Hot"].join(", "),
+});
+```
+
+由于 HN 内容直接内嵌在 Markdown content 中渲染，无需额外 structured data。
+
+---
+
+## 八、Build 脚本更新（v2.0）
+
+### 8.1 需要更新的逻辑
+
+`scripts/build-ai-daily.js` 需更新：
+1. frontmatter 新增 `hn_count` 和 `hn_keywords` 字段的读取
+2. 这两个字段直接透传到 JSON 输出，不做额外处理
+
+其余逻辑（扫描、合并多语言、per-locale 生成）**不变**。
+
+### 8.2 HN 内容不过滤
+
+HN 区块内容作为 Markdown 字符串直接存储在 `content` 字段中，不单独提取 HN item 结构。原因是：
+- HN 内容重要性低于 AI HOT，不值得为此修改 build 脚本的复杂逻辑
+- 未来如需单独展示 HN 列表，再做独立模块
+
+---
+
+## 九、更多优化建议（v2.0 新增）
+
+以下 8 项优化非 HN 集成必需，但可显著提升系统质量，供你决策优先级：
+
+### 优化 1：日报 title 自动生成（高价值）
+
+当前 title 靠 cron agent 人工写，容易不一致。建议：
+- frontmatter 中 `title` 格式固定为 `[当日最重要 AI HOT 条目标题]`
+- AI HOT API 返回的 items 本身有标题，直接取第一条
+- 避免 title 质量波动
+
+### 优化 2：HN item 去重标注（中价值）
+
+当前设计的"标题相似度 > 70%"逻辑实现成本较高（需要 NLP 库）。建议：
+- 简化为"字符串包含匹配"：HN 标题包含 AI HOT 标题中的 ≥5 个连续字符
+- 使用 `string-similarity` 或手工滑动窗口即可实现
+- 降低实现复杂度
+
+### 优化 3：HN Item 结构化存储（低价值）
+
+当前 HN 内容是纯 Markdown。升级方案：
+- frontmatter 中增加 `hn_items: HNItem[]` 数组
+- 详情页单独渲染 HN 列表（带 points/comments 数量，需额外 API 调用 `https://hnrss.org/item?id=xxx` 获取详情，不推荐）
+- 建议保持现状（Markdown 渲染），性价比最高
+
+### 优化 4：日报摘要自动生成（中价值）
+
+description 当前由 cron agent 手工写，容易敷衍。建议：
+- 取 AI HOT 的第一条内容的标题作为 description
+- 保证描述始终与内容高度相关
+
+### 优化 5：tags 自动补充（中价值）
+
+AI HOT 返回的 items 本身带分类标签。当前 MD 中的 tags 是静态写的。建议：
+- frontmatter 的 tags 直接从 AI HOT API 返回的 items categories 合并去重
+- HN 区块对应 tag 固定为 `Hacker News`
+
+### 优化 6：历史日报归档页（低价值，v1.1 已标注待做）
+
+`AIDailyArchive.tsx`：按月翻页浏览历史日报。当前 `/ai-daily` 列表页已支持加载更多（每次10条），基本够用。归档页作为 v2.x 未来项。
+
+### 优化 7：日报预览机制（高价值）
+
+cron 完成后不直接 push，而是：
+1. 生成 MD 后先 commit 到 feature branch
+2. 自动触发 Vercel preview deploy
+3. 将 preview URL 发送到飞书给 Eric 确认
+4. Eric 确认后才 merge 到 main
+
+防止错误内容上线。
+
+### 优化 8：多语言标题/描述机器翻译（低价值，v1.1 已标注待做）
+
+当前 zh-Hans 以外的语言都 fallback 到 zh-Hans。translate.mjs 工具（v1.1 已规划）待实现，作为 v2.x 未来项。
+
+---
+
+## 十、文件变更清单（v2.0 增量）
 
 | 操作 | 文件路径 | 说明 |
 |------|----------|------|
-| 新增 | `src/pages/AIDailyIndex.tsx` | 日报列表页，时间线视图 |
-| 新增 | `src/pages/AIDailyPost.tsx` | 日报详情页 |
-| 新增 | `src/lib/ai-daily-data.ts` | 数据加载层类 |
-| 新增 | `scripts/generate-ai-daily-data.mjs` | Build脚本，扫描Markdown生成JSON |
-| 新增 | `public/ai-daily-meta*.json` | Build产出（自动生成） |
-| 新增 | `public/ai-daily-data.json` | Build产出（自动生成） |
-| 新增 | `content/ai-daily/zh-Hans/` | 日报文章Markdown存储目录 |
-| 修改 | `src/config/site.ts` | nav.main数组新增AI日报菜单项 |
-| 修改 | `src/App.tsx` | 注册 /ai-daily 和 /ai-daily/:slug 路由 |
-| 修改 | `src/locales/zh-Hans.json` | 新增 aiDaily.* 文案 |
-| 修改 | `src/locales/zh-Hant.json` | 新增 aiDaily.* 文案 |
-| 修改 | `src/locales/en.json` | 新增 aiDaily.* 文案 |
-| 修改 | `src/locales/ja.json` | 新增 aiDaily.* 文案 |
-| 修改 | `src/locales/vi.json` | 新增 aiDaily.* 文案 |
-| 修改 | OpenClaw cron | 新增每日8:00 AI日报生成任务 |
+| 修改 | `content/ai-daily/zh-Hans/YYYY-MM-DD-ai-daily.md` | 新增 HN 热帖区块、hn_count frontmatter |
+| 修改 | `scripts/build-ai-daily.js` | 新增 hn_count/hn_keywords 字段透传 |
+| 修改 | `src/lib/ai-daily-data.ts` | 新增 hn_count/hn_keywords 类型字段 |
+| 修改 | `src/locales/{locale}/translation.json` | 新增 hnTop5.* i18n 命名空间 |
+| 修改 | OpenClaw cron | 更新 prompt 指令，增加 HN 抓取逻辑 |
+| 新增（建议） | `scripts/utils/hn-fetch.js` | 独立 HN RSS 抓取工具函数（可测试） |
 
 ---
 
-## 十二、依赖与约束
-
-### 12.1 约束
-
-- **现有架构不破坏**：所有修改都是增量添加，不修改已有的Blog和Twitter模块
-- **Build流程兼容**：Vercel现有构建流程不变，新增脚本独立运行
-- **静态站点**：前端纯静态渲染，无后端API依赖
-- **多语言**：复用现有的i18n框架，不引入新方案
-
-### 12.2 外部依赖
+## 十一、依赖与约束（更新）
 
 | 依赖 | 用途 |
 |------|------|
-| OpenClaw cron | 每日8点自动化触发 |
-| Vercel | 静态站点托管 + GitHub集成构建 |
-| 机器之心RSS/API | 日报内容来源（初期） |
-| GitHub | 代码托管 + Vercel webhook |
+| `https://hnrss.org/newest?q=<keywords>` | HN 关键词搜索 RSS（无 API key，免费） |
+| `https://hnrss.org/frontpage` | HN 首页 RSS（降级用） |
+| `https://aihot.virxact.com/api/v1/dailies/latest` | AI HOT 日报（现有依赖） |
+| OpenClaw cron | 每日 8 点自动化触发（现有依赖） |
+
+**新增约束**：HN RSS 请求可能受网络环境限制（如防火墙）。需在 cron 执行环境验证 hnrss.org 可达性。若不可达，整个 HN 模块降级。
 
 ---
 
-## 风险与备选方案
+## 十二、风险与备选方案（v2.0 更新）
 
 | 风险 | 概率 | 影响 | 备选方案 |
 |------|------|------|----------|
-| RSS源变更/不可用 | 中 | 高 | 配置 2-3 个备用源（Hacker News / arXiv cs.AI / Twitter AI 账号列表）；降级时发送通知，附带手动触发链接 |
-| 单日多篇过滤逻辑丢失 | 低 | 中 | 单元测试覆盖过滤逻辑 |
-| Build JSON 超出 Vercel 限制 | 低 | 低 | per-locale JSON 仅保留最近30条，归档页独立加载历史数据 |
-| Cron 任务失败未通知 | 中 | 中 | 显式配置 `failureAlert`，发送到 feishu |
-| 机器翻译 API 失败 | 低 | 低 | title/description 回退到仅 zh-Hans，en 等语言 fallback 到 zh-Hans |
+| HN RSS 被墙/超时 | 中 | 低 | hn_count=0，正常生成日报，warning 通知 |
+| HN 关键词匹配过多噪音 | 中 | 中 | 人工审核关键词列表，每季度更新一次 |
+| AI HOT + HN 内容重复 | 低 | 低 | 已在设计中标注优化方向，实现优先级低 |
+| cron 执行超时 | 低 | 高 | timeoutSeconds 从 300 提升到 480（8 分钟） |
+| HN items < 5 条 | 中 | 低 | 降级到 frontpage 补充，仍不足时记录实际条数 |
 
 ---
 
-## 里程碑
+## 里程碑（v2.0 更新）
 
-| 阶段 | 内容 | 产出 |
+| 阶段 | 内容 | 状态 |
 |------|------|------|
-| Phase 0 | 审计方案 | ✅ 本文档（v1.1，审计完成） |
-| Phase 1 | 基础设施 | 路由、导航、i18n、数据层 |
-| Phase 2 | 前端页面 | AIDailyIndex + AIDailyPost + AIDailyArchive |
-| Phase 3 | Build脚本 | generate-ai-daily-data.mjs + translate.mjs 工具 |
-| Phase 4 | 自动化 | Cron任务配置 + failureAlert + 备用源降级 |
-| Phase 5 | 验收 | 手动触发一次完整流程验证 |
+| Phase 0 | 审计方案（v1.1） | ✅ 完成 |
+| Phase 1 | 基础设施（路由/导航/i18n/数据层） | ✅ 完成 |
+| Phase 2 | 前端页面（AIDailyIndex + AIDailyPost） | ✅ 完成 |
+| Phase 3 | Build 脚本（build-ai-daily.js） | ✅ 完成 |
+| Phase 4 | AI HOT Cron（现有依赖） | ✅ 完成 |
+| Phase 5 | **HN Top5 集成** | ⏳ 待实现 |
+| Phase 6 | **HN Cron 更新** + 回归测试 | ⏳ 待 Eric 确认后执行 |

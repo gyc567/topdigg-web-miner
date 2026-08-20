@@ -127,6 +127,19 @@
     "resultsCount": "{{count}} 版",
     "aggregator": "集約元",
     "original": "原本",
-    "today": "今日"
+    "today": "今日",
+    "backToList": "AIデイリーに戻る",
+    "hnTop5": {
+      "sectionTitle": "Hacker News 人気投稿",
+      "source": "データソース",
+      "hnrss": "hnrss.org",
+      "filteredFrom": "Hacker Newsからフィルター",
+      "keywords": "キーワード",
+      "viewOnHN": "HNで見る",
+      "fetchFailed": "HNデータの取得に失敗しました",
+      "fallbackNote": "（上記参照）",
+      "itemsCount": "{{count}}件"
+    },
+    "hackerNews": "Hacker News 人気投稿"
   }
 }

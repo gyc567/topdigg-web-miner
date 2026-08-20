@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { SearchX, ExternalLink as ExternalLinkIcon } from "lucide-react";
@@ -71,9 +71,9 @@ const AIDailyIndex = () => {
     };
     return d.toLocaleDateString(localeMap[locale] || "en-US", {
       year: "numeric",
-      month: "long",
-      day: "numeric",
-    });
+      month: "2-digit",
+      day: "2-digit",
+    }).replace(/\//g, '-');
   };
 
   const isToday = (dateStr: string) => {
@@ -109,6 +109,10 @@ const AIDailyIndex = () => {
         description={t("aiDaily.indexDesc")}
         path="/ai-daily"
         jsonLd={jsonLd}
+        breadcrumbs={[
+          { name: siteConfig.siteName, url: siteConfig.baseUrl },
+          { name: t("aiDaily.indexTitle"), url: `${siteConfig.baseUrl}/ai-daily` },
+        ]}
       />
 
       <header className="mb-8">
