@@ -143,16 +143,6 @@ export const siteConfig = {
         },
         href: "/about"
       },
-      {
-        label: {
-          "zh-Hans": "联系",
-          "zh-Hant": "聯繫",
-          "en": "Contact",
-          "ja": "お問い合わせ",
-          "vi": "Liên hệ"
-        },
-        href: "/contact"
-      },
     ] as NavLink[],
     mySites: [
       { 
