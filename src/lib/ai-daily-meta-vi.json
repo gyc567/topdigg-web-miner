@@ -10,6 +10,10 @@
       "categories": [
         "AI Daily"
       ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Liquid AI phát hành các checkpoint QAD Q4_0 của dòng LFM2.5, khôi phục 97% tổn thất độ chính xác",
+      "description": "Liquid AI phát hành bốn checkpoint GGUF Q4_0 — LFM2.5-230M, 350M, 1.2B-Instruct và 2.6B — được huấn luyện bằng Quantization-Aware Distillation (QAD). Giữ nguyên bộ nhớ và tốc độ của Q4_0 gốc, đồng thời khôi phục 97% tổn thất độ chính xác trung bình so với BF16.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",
@@ -17,11 +21,7 @@
           "name": "Bitcai Business",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
-      },
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Liquid AI phát hành các checkpoint QAD Q4_0 của dòng LFM2.5, khôi phục 97% tổn thất độ chính xác",
-      "description": "Liquid AI phát hành bốn checkpoint GGUF Q4_0 — LFM2.5-230M, 350M, 1.2B-Instruct và 2.6B — được huấn luyện bằng Quantization-Aware Distillation (QAD). Giữ nguyên bộ nhớ và tốc độ của Q4_0 gốc, đồng thời khôi phục 97% tổn thất độ chính xác trung bình so với BF16."
+      }
     }
   ]
 }

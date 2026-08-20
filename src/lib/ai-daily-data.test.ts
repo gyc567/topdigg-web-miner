@@ -123,7 +123,21 @@ describe("AIDailyDataSource", () => {
       const reports = aiDailyDataSource.getReports();
       if (reports.length === 0) return;
       const r = reports[0] as AIDailyMeta;
-      expect(typeof r.source.original.name).toBe("string");
+      // raw meta may be string (legacy) or Record<locale,string> (per-locale)
+      const t = typeof r.source.original.name;
+      expect(["string", "object"]).toContain(t);
+      if (t === "object") {
+        const obj = r.source.original.name as Record<string, string>;
+        expect(Object.keys(obj).length).toBeGreaterThan(0);
+      }
+    });
+
+    it("resolve() flattens source.original.name to current locale", () => {
+      const reports = aiDailyDataSource.getReports();
+      if (reports.length === 0) return;
+      const resolved = aiDailyDataSource.resolve(reports[0], "zh-Hans");
+      expect(typeof resolved.source.original.name).toBe("string");
+      expect(resolved.source.original.name.length).toBeGreaterThan(0);
     });
   });
 

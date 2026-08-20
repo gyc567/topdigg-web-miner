@@ -10,18 +10,18 @@
       "categories": [
         "AI Daily"
       ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Liquid AI 發布 LFM2.5 系列 QAD Q4_0 量化檢查點，恢復 97% 精度損失",
+      "description": "Liquid AI 發布基於量化感知蒸餾（QAD）訓練的 LFM2.5-230M、350M、1.2B-Instruct 和 2.6B 四款 Q4_0 GGUF 檢查點，在保持原生 Q4_0 記憶體與速度的同時，恢復 BF16 平均精度損失的 97%。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",
         "original": {
-          "name": "Bitcai Business",
+          "name": "比特財經",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
-      },
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Liquid AI 發布 LFM2.5 系列 QAD Q4_0 量化檢查點，恢復 97% 精度損失",
-      "description": "Liquid AI 發布基於量化感知蒸餾（QAD）訓練的 LFM2.5-230M、350M、1.2B-Instruct 和 2.6B 四款 Q4_0 GGUF 檢查點，在保持原生 Q4_0 記憶體與速度的同時，恢復 BF16 平均精度損失的 97%。"
+      }
     }
   ]
 }

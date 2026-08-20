@@ -20,7 +20,7 @@ export type AIDailySource = {
   aggregator: string;
   aggregator_url?: string;
   original: {
-    name: string;
+    name: string | Record<string, string>;
     url?: string;
   };
 };
@@ -157,6 +157,13 @@ export class AIDailyDataSource {
       title: resolveText(meta.title, normalized),
       description: resolveText(meta.description, normalized),
       content: "content" in meta ? resolveText(meta.content, normalized) : undefined,
+      source: {
+        ...meta.source,
+        original: {
+          ...meta.source.original,
+          name: resolveText(meta.source.original.name, normalized),
+        },
+      },
     };
   }
 }

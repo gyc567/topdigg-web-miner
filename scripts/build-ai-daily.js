@@ -79,7 +79,13 @@ function generateAiDailyData() {
         author: file.author,
         tags: file.tags,
         categories: file.categories,
-        source: file.source,
+        source: {
+          ...file.source,
+          original: {
+            ...file.source.original,
+            name: {},
+          },
+        },
         hn_count: file.hn_count,
         hn_keywords: file.hn_keywords
       };
@@ -99,6 +105,12 @@ function generateAiDailyData() {
 
     // Merge content
     reports[file.slug].content[file.locale] = file.content;
+
+    // Merge source.original.name as per-locale record
+    const nameObj = normalizeLocalized(file.source?.original?.name, file.locale);
+    for (const [l, v] of Object.entries(nameObj)) {
+      reports[file.slug].source.original.name[l] = v;
+    }
   }
 
   // Sort by date descending
@@ -127,21 +139,36 @@ function generateAiDailyData() {
 
   for (const locale of LOCALES) {
     const localizedMeta = {
-      reports: recent30.map(({ content, title, description, ...meta }) => ({
-        ...meta,
-        title:
-          title[locale] ||
-          title['zh-Hans'] ||
-          title.en ||
-          Object.values(title).find(Boolean) ||
-          '',
-        description:
-          description[locale] ||
-          description['zh-Hans'] ||
-          description.en ||
-          Object.values(description).find(Boolean) ||
-          ''
-      }))
+      reports: recent30.map(({ content, title, description, source, ...meta }) => {
+        const localizedName =
+          (typeof source?.original?.name === 'object' &&
+            (source.original.name[locale] ||
+              source.original.name.en ||
+              Object.values(source.original.name).find(Boolean))) ||
+          '';
+        return {
+          ...meta,
+          title:
+            title[locale] ||
+            title['zh-Hans'] ||
+            title.en ||
+            Object.values(title).find(Boolean) ||
+            '',
+          description:
+            description[locale] ||
+            description['zh-Hans'] ||
+            description.en ||
+            Object.values(description).find(Boolean) ||
+            '',
+          source: {
+            ...source,
+            original: {
+              ...source.original,
+              name: localizedName,
+            },
+          },
+        };
+      })
     };
 
     const localeOutputFile = path.join(

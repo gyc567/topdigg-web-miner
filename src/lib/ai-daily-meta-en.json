@@ -10,6 +10,10 @@
       "categories": [
         "AI Daily"
       ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Liquid AI releases LFM2.5 QAD Q4_0 quantized checkpoints, recovering 97% of accuracy loss",
+      "description": "Liquid AI has released four Q4_0 GGUF checkpoints—LFM2.5-230M, 350M, 1.2B-Instruct, and 2.6B—trained with Quantization-Aware Distillation (QAD). They retain native Q4_0 memory and speed while recovering 97% of the average accuracy loss of BF16.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",
@@ -17,11 +21,7 @@
           "name": "Bitcai Business",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
-      },
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Liquid AI releases LFM2.5 QAD Q4_0 quantized checkpoints, recovering 97% of accuracy loss",
-      "description": "Liquid AI has released four Q4_0 GGUF checkpoints—LFM2.5-230M, 350M, 1.2B-Instruct, and 2.6B—trained with Quantization-Aware Distillation (QAD). They retain native Q4_0 memory and speed while recovering 97% of the average accuracy loss of BF16."
+      }
     }
   ]
 }

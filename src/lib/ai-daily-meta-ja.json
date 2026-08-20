@@ -10,18 +10,18 @@
       "categories": [
         "AI Daily"
       ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Liquid AI、LFM2.5 シリーズ QAD Q4_0 量子化チェックポイントを公開 — 精度損失の 97% を回復",
+      "description": "Liquid AI は、量子化対応蒸留（QAD）で訓練された LFM2.5-230M、350M、1.2B-Instruct、2.6B の 4 つの Q4_0 GGUF チェックポイントを公開。ネイティブの Q4_0 メモリと速度を維持しつつ、BF16 の平均精度損失の 97% を回復する。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",
         "original": {
-          "name": "Bitcai Business",
+          "name": "ビット財経",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
-      },
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Liquid AI、LFM2.5 シリーズ QAD Q4_0 量子化チェックポイントを公開 — 精度損失の 97% を回復",
-      "description": "Liquid AI は、量子化対応蒸留（QAD）で訓練された LFM2.5-230M、350M、1.2B-Instruct、2.6B の 4 つの Q4_0 GGUF チェックポイントを公開。ネイティブの Q4_0 メモリと速度を維持しつつ、BF16 の平均精度損失の 97% を回復する。"
+      }
     }
   ]
 }

@@ -28,7 +28,13 @@
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",
         "original": {
-          "name": "Bitcai Business",
+          "name": {
+            "en": "Bitcai Business",
+            "ja": "ビット財経",
+            "vi": "Bitcai Business",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特財經"
+          },
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       },
