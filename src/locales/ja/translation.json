@@ -115,5 +115,18 @@
     "en": "English",
     "ja": "日本語",
     "vi": "Tiếng Việt"
+  },
+  "aiDaily": {
+    "indexTitle": "AIデイリー",
+    "indexDesc": "日次AI業界ニュース精选、質を厳選した情報源から",
+    "source": "ソース",
+    "readMore": "阅读全文",
+    "loadMore": "もっと読み込む",
+    "noReports": "日記レポートがありません",
+    "noReportsHint": "日記は毎日北京時間8時に自動更新されます",
+    "resultsCount": "{{count}} 版",
+    "aggregator": "集約元",
+    "original": "原本",
+    "today": "今日"
   }
 }

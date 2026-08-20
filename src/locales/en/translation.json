@@ -115,5 +115,18 @@
     "en": "English",
     "ja": "日本語",
     "vi": "Tiếng Việt"
+  },
+  "aiDaily": {
+    "indexTitle": "AI Daily",
+    "indexDesc": "Curated AI industry news daily, sourced from quality outlets",
+    "source": "Source",
+    "readMore": "Read more",
+    "loadMore": "Load more",
+    "noReports": "No daily reports available",
+    "noReportsHint": "Daily reports are auto-generated at 8AM Beijing time",
+    "resultsCount": "{{count}} editions",
+    "aggregator": "Aggregator",
+    "original": "Original",
+    "today": "Today"
   }
 }

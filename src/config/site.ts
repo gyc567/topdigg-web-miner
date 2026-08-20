@@ -73,7 +73,17 @@ export const siteConfig = {
   baseUrl: "https://topdigg.com",
   nav: {
     main: [
-      { 
+      {
+        label: {
+          "zh-Hans": "AI日报",
+          "zh-Hant": "AI日報",
+          "en": "AI Daily",
+          "ja": "AIデイリー",
+          "vi": "AI Hàng Ngày"
+        },
+        href: "/ai-daily"
+      },
+      {
         label: {
           "zh-Hans": "博客",
           "zh-Hant": "博客",

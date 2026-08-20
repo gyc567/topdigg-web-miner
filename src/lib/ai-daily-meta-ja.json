@@ -1,0 +1,31 @@
+{
+  "reports": [
+    {
+      "slug": "2026-08-20-ai-daily",
+      "date": "2026-08-20",
+      "author": "比特财商",
+      "tags": [
+        "AI日报",
+        "Sentence Transformers",
+        "Mojo",
+        "Claude",
+        "OpenAI",
+        "Cursor",
+        "Qwen"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "AI HOT",
+          "url": "https://aihot.virxact.com"
+        }
+      },
+      "title": "Sentence Transformers v6.0、Mojoオープンソース化、ClaudeがGmail送信対応",
+      "description": "日次AI業界ニュース精选、モデルリリース、身体知能、学術進展、業界動向をカバー。"
+    }
+  ]
+}

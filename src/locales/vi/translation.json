@@ -115,5 +115,18 @@
     "en": "English",
     "ja": "日本語",
     "vi": "Tiếng Việt"
+  },
+  "aiDaily": {
+    "indexTitle": "AI Hàng Ngày",
+    "indexDesc": "Tin tức AI hàng ngày, chọn lọc từ các nguồn chất lượng",
+    "source": "Nguồn",
+    "readMore": "Đọc thêm",
+    "loadMore": "Tải thêm",
+    "noReports": "Không có báo cáo hàng ngày",
+    "noReportsHint": "Báo cáo được tạo tự động lúc 8AM giờ Bắc Kinh",
+    "resultsCount": "{{count}} số",
+    "aggregator": "Nguồn tổng hợp",
+    "original": "Nguồn gốc",
+    "today": "Hôm nay"
   }
 }

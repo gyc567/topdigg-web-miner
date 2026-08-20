@@ -1,0 +1,153 @@
+import { useParams } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import { SEO } from "@/components/SEO";
+import { siteConfig } from "@/config/site";
+import { useTranslation } from "react-i18next";
+import { normalizeLang, type SupportedLocale } from "@/lib/locale";
+import { aiDailyDataSource } from "@/lib/ai-daily-data";
+import MarkdownContent from "@/components/MarkdownContent";
+import { makeArticleSchema, makeBreadcrumbList } from "@/lib/jsonld";
+import { AuthorBio } from "@/components/AuthorBio";
+import { Badge } from "@/components/ui/badge";
+import { ExternalLink as ExternalLinkIcon } from "lucide-react";
+
+const AIDailyPost = () => {
+  const { slug } = useParams();
+  const { i18n, t } = useTranslation();
+  const currentLocale = normalizeLang(i18n.language) as SupportedLocale;
+
+  const [fullPost, setFullPost] = useState<AIDailyPost | null>(null);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    if (!slug) {
+      setLoading(false);
+      return;
+    }
+    setLoading(true);
+    aiDailyDataSource.getReportWithContent(slug).then((post) => {
+      setFullPost(post ?? null);
+      setLoading(false);
+    });
+  }, [slug]);
+
+  if (loading) {
+    return (
+      <div className="py-20 text-center text-muted-foreground">
+        {t("post.loading", "Loading…")}
+      </div>
+    );
+  }
+
+  if (!fullPost) {
+    return (
+      <>
+        <SEO title={t("post.notFoundTitle")} description={t("post.notFoundDesc")} path={`/ai-daily/${slug}`} noIndex />
+        <div className="py-20 text-center text-muted-foreground">{t("post.notFoundMsg")}</div>
+      </>
+    );
+  }
+
+  const resolved = aiDailyDataSource.resolve(fullPost, currentLocale);
+  const postPath = `/ai-daily/${fullPost.slug}`;
+
+  const jsonLd = makeArticleSchema({
+    title: resolved.title,
+    description: resolved.description,
+    url: postPath,
+    datePublished: fullPost.date,
+    authorName: fullPost.author,
+    tags: fullPost.tags,
+  });
+
+  const breadcrumbs = [
+    { name: "Home", url: `${siteConfig.baseUrl}/` },
+    { name: t("aiDaily.indexTitle"), url: `${siteConfig.baseUrl}/ai-daily` },
+    { name: resolved.title, url: `${siteConfig.baseUrl}${postPath}` },
+  ];
+
+  const breadcrumbSchema = makeBreadcrumbList(breadcrumbs);
+
+  const formatDate = (dateStr: string) => {
+    return new Date(dateStr).toLocaleDateString("zh-CN", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    });
+  };
+
+  return (
+    <>
+      <SEO
+        title={resolved.title}
+        description={resolved.description}
+        path={postPath}
+        type="article"
+        jsonLd={{ ...jsonLd, ...breadcrumbSchema }}
+        breadcrumbs={breadcrumbs}
+      />
+
+      <article className="max-w-none">
+        {/* AI Daily header */}
+        <header className="mb-6 pb-6 border-b">
+          <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
+            <span className="text-primary font-medium">{t("aiDaily.indexTitle")}</span>
+            <span>·</span>
+            <time dateTime={fullPost.date}>{formatDate(fullPost.date)}</time>
+          </div>
+
+          {/* Source info */}
+          <div className="flex flex-wrap items-center gap-2 text-sm mb-4">
+            <Badge variant="outline">
+              {t("aiDaily.aggregator")}：
+              {fullPost.source.aggregator_url ? (
+                <a
+                  href={fullPost.source.aggregator_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-primary ml-1 underline underline-offset-2"
+                >
+                  {fullPost.source.aggregator}
+                  <ExternalLinkIcon className="inline h-3 w-3 ml-0.5" />
+                </a>
+              ) : (
+                <span className="ml-1">{fullPost.source.aggregator}</span>
+              )}
+            </Badge>
+            {fullPost.source.original.url && fullPost.source.original.name !== fullPost.source.aggregator && (
+              <Badge variant="outline">
+                {t("aiDaily.original")}：
+                <a
+                  href={fullPost.source.original.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-primary ml-1 underline underline-offset-2"
+                >
+                  {fullPost.source.original.name}
+                  <ExternalLinkIcon className="inline h-3 w-3 ml-0.5" />
+                </a>
+              </Badge>
+            )}
+          </div>
+
+          <h1 className="text-3xl font-bold mb-3">{resolved.title}</h1>
+          <p className="text-muted-foreground mb-4">{resolved.description}</p>
+
+          <div className="flex flex-wrap gap-1.5">
+            {fullPost.tags.map((tag) => (
+              <Badge key={tag} variant="secondary" className="text-xs">
+                {tag}
+              </Badge>
+            ))}
+          </div>
+        </header>
+
+        <MarkdownContent content={resolved.content || ""} className="mb-8" />
+        <AuthorBio />
+      </article>
+    </>
+  );
+};
+
+export default AIDailyPost;

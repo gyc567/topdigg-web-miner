@@ -1,0 +1,43 @@
+{
+  "reports": [
+    {
+      "slug": "2026-08-20-ai-daily",
+      "title": {
+        "zh-Hans": "Sentence Transformers v6.0、Mojo开源、Claude支持Gmail发送",
+        "zh-Hant": "Sentence Transformers v6.0、Mojo開源、Claude支援Gmail發送",
+        "en": "Sentence Transformers v6.0, Mojo Open-Sourced, Claude Gains Gmail Support",
+        "ja": "Sentence Transformers v6.0、Mojoオープンソース化、ClaudeがGmail送信対応",
+        "vi": "Sentence Transformers v6.0, Mojo Mã Nguồn Mở, Claude Hỗ Trợ Gửi Gmail"
+      },
+      "description": {
+        "zh-Hans": "每日AI行业资讯精选，涵盖模型发布、具身智能、学术进展、行业动态。",
+        "zh-Hant": "每日AI行業資訊精選，涵蓋模型發布、具身智能、學術進展、行業動態。",
+        "en": "Daily AI industry news highlights, covering model releases, embodied AI, research progress, and industry updates.",
+        "ja": "日次AI業界ニュース精选、モデルリリース、身体知能、学術進展、業界動向をカバー。",
+        "vi": "Tin tức AI hàng ngày, bao gồm phát hành mô hình, AI nhúng, tiến bộ học thuật và động thái ngành."
+      },
+      "date": "2026-08-20",
+      "author": "比特财商",
+      "tags": [
+        "AI日报",
+        "Sentence Transformers",
+        "Mojo",
+        "Claude",
+        "OpenAI",
+        "Cursor",
+        "Qwen"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "AI HOT",
+          "url": "https://aihot.virxact.com"
+        }
+      }
+    }
+  ]
+}

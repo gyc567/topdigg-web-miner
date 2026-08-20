@@ -115,5 +115,18 @@
     "en": "English",
     "ja": "日本語",
     "vi": "Tiếng Việt"
+  },
+  "aiDaily": {
+    "indexTitle": "AI日報",
+    "indexDesc": "每日精選AI行業資訊，源自優質信源",
+    "source": "來源",
+    "readMore": "閱讀全文",
+    "loadMore": "載入更多",
+    "noReports": "暫無日報內容",
+    "noReportsHint": "日報將在每天8點自動更新，請稍後再來",
+    "resultsCount": "共 {{count}} 期",
+    "aggregator": "聚合來源",
+    "original": "原文出處",
+    "today": "今日"
   }
 }

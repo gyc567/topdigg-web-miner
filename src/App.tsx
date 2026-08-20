@@ -16,6 +16,8 @@ const ExternalLinks = lazy(() => import("./pages/ExternalLinks"));
 const About = lazy(() => import("./pages/About"));
 const Contact = lazy(() => import("./pages/Contact"));
 const Privacy = lazy(() => import("./pages/Privacy"));
+const AIDailyIndex = lazy(() => import("./pages/AIDailyIndex"));
+const AIDailyPost = lazy(() => import("./pages/AIDailyPost"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 const App = () => (
@@ -29,6 +31,8 @@ const App = () => (
               <Route path="/" element={<Index />} />
               <Route path="/blog" element={<BlogIndex />} />
               <Route path="/blog/:slug" element={<BlogPost />} />
+              <Route path="/ai-daily" element={<AIDailyIndex />} />
+              <Route path="/ai-daily/:slug" element={<AIDailyPost />} />
               <Route path="/twitter" element={<TwitterIndex />} />
               <Route path="/twitter/:slug" element={<TwitterPost />} />
               <Route path="/columns/:id" element={<ColumnPage />} />
