@@ -5,23 +5,23 @@
       "date": "2026-08-20",
       "author": "比特财商",
       "tags": [
-        "AI日报"
+        "AI Daily"
       ],
       "categories": [
-        "AI日报"
+        "AI Daily"
       ],
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",
         "original": {
-          "name": "比特财商",
+          "name": "Bitcai Business",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       },
       "hn_count": 5,
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失",
-      "description": "Liquid AI 发布基于量化感知蒸馏（QAD）训练的 LFM2.5-230M、350M、1.2B-Instruct 和 2.6B 四款 Q4_0 GGUF 检查点，在保持原生 Q4_0 内存与速度"
+      "title": "Liquid AI phát hành các checkpoint QAD Q4_0 của dòng LFM2.5, khôi phục 97% tổn thất độ chính xác",
+      "description": "Liquid AI phát hành bốn checkpoint GGUF Q4_0 — LFM2.5-230M, 350M, 1.2B-Instruct và 2.6B — được huấn luyện bằng Quantization-Aware Distillation (QAD). Giữ nguyên bộ nhớ và tốc độ của Q4_0 gốc, đồng thời khôi phục 97% tổn thất độ chính xác trung bình so với BF16."
     }
   ]
 }
