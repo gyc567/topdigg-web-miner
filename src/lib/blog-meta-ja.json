@@ -1,6 +1,50 @@
 {
   "posts": [
     {
+      "slug": "2026-08-21-harness-analysis",
+      "date": "2026-08-21",
+      "author": "TopDigg",
+      "tags": [
+        "Harness",
+        "AI Agent",
+        "Pi",
+        "OpenClaw",
+        "Agentic Loop",
+        "System Prompt",
+        "Translation Layer",
+        "Open Source",
+        "User Sovereignty",
+        "Earendil",
+        "Lefos",
+        "Design Philosophy"
+      ],
+      "categories": [
+        "Deep Dive",
+        "AI Agent",
+        "Open Source Philosophy"
+      ],
+      "title": "Harnessの深掘り：AI Agentの'登山の命綱'——登山の比喩からオープンソースの自律性まで",
+      "description": "Earendilチームのブログ記事 What is a Harness の深度解析。登山用ハーネスを比喻に使い、Agent Harnessの4つのコア構成を体系的に解説。開放源哲学とユーザーの自律権命題にも踏み込む。核心のアイデア：Agent = Model + Harness。設計哲学：ツール中立、ユーザー主権、開放源、Human-in-the-Loop。"
+    },
+    {
+      "slug": "2026-08-20-paseo-electron-migration",
+      "date": "2026-08-20",
+      "author": "TopDigg",
+      "tags": [
+        "Tech Selection",
+        "Electron",
+        "Tauri",
+        "Desktop Apps",
+        "Open Source",
+        "Paseo"
+      ],
+      "categories": [
+        "Technical Deep Dive"
+      ],
+      "title": "TauriからElectronへ：Paseo創業者による痛みを伴う移行の振り返り",
+      "description": "2026年5月28日、Paseo創業者のMo Boudraは「Electronについて間違っていた」とブログに書いた。これはPaseoをTauriからElectronに移行した詳細な振り返りであり、技術選定における「雰囲気で決める」意思決定の危険性を示している。"
+    },
+    {
       "slug": "2026-08-20-teamai-cli-analysis",
       "date": "2026-08-20",
       "author": "TopDigg",

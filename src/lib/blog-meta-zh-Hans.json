@@ -1,6 +1,50 @@
 {
   "posts": [
     {
+      "slug": "2026-08-21-harness-analysis",
+      "date": "2026-08-21",
+      "author": "TopDigg",
+      "tags": [
+        "Harness",
+        "AI Agent",
+        "Pi",
+        "OpenClaw",
+        "Agentic Loop",
+        "System Prompt",
+        "Translation Layer",
+        "Open Source",
+        "User Sovereignty",
+        "Earendil",
+        "Lefos",
+        "Design Philosophy"
+      ],
+      "categories": [
+        "Deep Dive",
+        "AI Agent",
+        "Open Source Philosophy"
+      ],
+      "title": "深度解析 Harness: AI Agent 的攀岩绳索 - 从攀岩隐喻到开源自主权",
+      "description": "深度解析 Earendil 团队博客文章 What is a Harness，以攀岩安全带为隐喻，系统阐述 Agent Harness 的四大核心构成 System Prompt、Tools、Agentic Loop、Translation Layer，并延伸探讨其开源哲学与用户自主权命题。"
+    },
+    {
+      "slug": "2026-08-20-paseo-electron-migration",
+      "date": "2026-08-20",
+      "author": "TopDigg",
+      "tags": [
+        "Tech Selection",
+        "Electron",
+        "Tauri",
+        "Desktop Apps",
+        "Open Source",
+        "Paseo"
+      ],
+      "categories": [
+        "Technical Deep Dive"
+      ],
+      "title": "从 Tauri 到 Electron：Paseo 创始人的血泪踩坑复盘",
+      "description": "2026年5月28日，Paseo创始人Mo Boudra在博客写下了「我错怪Electron了」。这篇博文详细复盘了Paseo从Tauri迁移到Electron的全过程，揭示了技术选型中「凭感觉」决策的危害。本文深度解析Paseo项目、技术架构、迁移教训和工程哲学。"
+    },
+    {
       "slug": "2026-08-20-teamai-cli-analysis",
       "date": "2026-08-20",
       "author": "TopDigg",

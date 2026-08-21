@@ -1,6 +1,50 @@
 {
   "posts": [
     {
+      "slug": "2026-08-21-harness-analysis",
+      "date": "2026-08-21",
+      "author": "TopDigg",
+      "tags": [
+        "Harness",
+        "AI Agent",
+        "Pi",
+        "OpenClaw",
+        "Agentic Loop",
+        "System Prompt",
+        "Translation Layer",
+        "Open Source",
+        "User Sovereignty",
+        "Earendil",
+        "Lefos",
+        "Design Philosophy"
+      ],
+      "categories": [
+        "Deep Dive",
+        "AI Agent",
+        "Open Source Philosophy"
+      ],
+      "title": "Phan Tich Sau ve Harness: Soi Day Leo Nui Cua AI Agent - Tu An Du Leo Nui Den Tu Chu Nguon Mo",
+      "description": "Phan tich chuyen sau bai viet What is a Harness cua nhom Earendil. Lay y tuong tu day an toan leo nui, he thong hoa bon thanh phan cot loi cua Agent Harness. Che ten nguon mo va quyen tu chu nguoi dung."
+    },
+    {
+      "slug": "2026-08-20-paseo-electron-migration",
+      "date": "2026-08-20",
+      "author": "TopDigg",
+      "tags": [
+        "Tech Selection",
+        "Electron",
+        "Tauri",
+        "Desktop Apps",
+        "Open Source",
+        "Paseo"
+      ],
+      "categories": [
+        "Technical Deep Dive"
+      ],
+      "title": "Từ Tauri sang Electron: Bài học đau đớn từ Founder của Paseo",
+      "description": "Ngày 28/05/2026, Mo Boudra - Founder của Paseo đã viết 'Tôi đã sai về Electron' - một bài viết chi tiết về việc chuyển đổi Paseo từ Tauri sang Electron, phơi bày những nguy hiểm của việc đưa ra quyết định 'theo cảm tính' trong việc chọn công nghệ."
+    },
+    {
       "slug": "2026-08-20-teamai-cli-analysis",
       "date": "2026-08-20",
       "author": "TopDigg",

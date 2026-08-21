@@ -1,6 +1,50 @@
 {
   "posts": [
     {
+      "slug": "2026-08-21-harness-analysis",
+      "date": "2026-08-21",
+      "author": "TopDigg",
+      "tags": [
+        "Harness",
+        "AI Agent",
+        "Pi",
+        "OpenClaw",
+        "Agentic Loop",
+        "System Prompt",
+        "Translation Layer",
+        "Open Source",
+        "User Sovereignty",
+        "Earendil",
+        "Lefos",
+        "Design Philosophy"
+      ],
+      "categories": [
+        "Deep Dive",
+        "AI Agent",
+        "Open Source Philosophy"
+      ],
+      "title": "Deep Dive into Harness: AI Agent's Climbing Rope - From Climbing Metaphor to Open Source Autonomy",
+      "description": "A deep dive into Earendil's blog post What is a Harness (featuring the open source Pi project): using the climbing harness as a metaphor, systematically explaining the four core components of Agent Harness - System Prompt, Tools, Agentic Loop, and Translation Layer - while exploring its open source philosophy and the proposition of user autonomy. Core idea: Agent equals Model plus Harness. Users should own and control their own Agent workspace, rather than being locked into AI labs applications. Design philosophy: tool agnosticism, user sovereignty, open source, human in the loop."
+    },
+    {
+      "slug": "2026-08-20-paseo-electron-migration",
+      "date": "2026-08-20",
+      "author": "TopDigg",
+      "tags": [
+        "Tech Selection",
+        "Electron",
+        "Tauri",
+        "Desktop Apps",
+        "Open Source",
+        "Paseo"
+      ],
+      "categories": [
+        "Technical Deep Dive"
+      ],
+      "title": "From Tauri to Electron: A Founder's Painful Migration Retrospective",
+      "description": "On May 28, 2026, Paseo founder Mo Boudra wrote 'I was wrong about Electron' — a candid retrospective on migrating Paseo from Tauri to Electron. This article dives deep into Paseo, its architecture, the migration pitfalls, and the engineering philosophy behind the decision."
+    },
+    {
       "slug": "2026-08-20-teamai-cli-analysis",
       "date": "2026-08-20",
       "author": "TopDigg",
