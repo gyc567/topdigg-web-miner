@@ -27,6 +27,30 @@
       "description": "Phan tich chuyen sau bai viet What is a Harness cua nhom Earendil. Lay y tuong tu day an toan leo nui, he thong hoa bon thanh phan cot loi cua Agent Harness. Che ten nguon mo va quyen tu chu nguoi dung."
     },
     {
+      "slug": "2026-08-21-openbot-analysis",
+      "date": "2026-08-21",
+      "author": "TopDigg",
+      "tags": [
+        "OpenBot",
+        "CopilotKit",
+        "AI Agent",
+        "AG-UI",
+        "Agent Platform",
+        "LangGraph",
+        "CrewAI",
+        "Autonomy",
+        "Security Governance",
+        "MCP"
+      ],
+      "categories": [
+        "Deep Dive",
+        "AI Agent",
+        "Open Source"
+      ],
+      "title": "OpenBot Phan Tich Sau: Moi AI Agent Co May Tinh Cua Rieng Minh",
+      "description": "Phan tich chuyen sau CopilotKit/OpenBot: nen tang AI agent, moi Bot co may tinh doc lap voi trinh duyet that, he thong tep va cong cu. Moi hanh dong duoc quyet dinh truoc khi thuc hien va ghi lai sau. Y tuong cot loi: cong nhan AI dang tin cay. Ho tro bat ky AG-UI agent nao, enggine chinh sach CEL, nhật ky kiểm toan day du, trien khai Docker mot lan."
+    },
+    {
       "slug": "2026-08-20-paseo-electron-migration",
       "date": "2026-08-20",
       "author": "TopDigg",

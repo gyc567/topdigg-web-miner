@@ -27,6 +27,30 @@
       "description": "深度解析 Earendil 團隊部落格文章 What is a Harness（含 Pi 開源專案）：以攀巖安全帶為隱喻，系統闡述 Agent Harness 的四大核心構成——System Prompt、Tools、Agentic Loop、Translation Layer，並延伸探討其開源哲學與用戶自主權命題。核心思想：Agent = Model + Harness，用戶應擁有並掌控自己的 Agent 工作台，而非被鎖定在 AI 實驗室的應用裡。設計哲學：工具中立、用戶主權、開源開放、人在回路。"
     },
     {
+      "slug": "2026-08-21-openbot-analysis",
+      "date": "2026-08-21",
+      "author": "TopDigg",
+      "tags": [
+        "OpenBot",
+        "CopilotKit",
+        "AI Agent",
+        "AG-UI",
+        "Agent Platform",
+        "LangGraph",
+        "CrewAI",
+        "Autonomy",
+        "Security Governance",
+        "MCP"
+      ],
+      "categories": [
+        "Deep Dive",
+        "AI Agent",
+        "Open Source"
+      ],
+      "title": "OpenBot 深度解析：給每個 AI Agent 一台自己的電腦",
+      "description": "深度解析 CopilotKit/OpenBot：AI Agent 平台，每個 Bot 擁有獨立電腦，真實瀏覽器加檔案系統加工具，所有操作先審批再執行並記錄。核心思想：可信賴的 AI Agent 同事。支援任意 AG-UI Agent 接入，完整審計日誌，Docker 一鍵部署。"
+    },
+    {
       "slug": "2026-08-20-paseo-electron-migration",
       "date": "2026-08-20",
       "author": "TopDigg",

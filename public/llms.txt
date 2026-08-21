@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-21T02:52:07.602Z
+Generated: 2026-08-21T03:39:11.741Z
 
 ## Site Overview
 
@@ -26,6 +26,12 @@ URL: https://topdigg.com/blog/2026-08-21-harness-analysis | Date: 2026-08-21 | A
 Tags: Harness, AI Agent, Pi, OpenClaw, Agentic Loop, System Prompt, Translation Layer, Open Source, User Sovereignty, Earendil, Lefos, Design Philosophy
 
 A deep dive into Earendil's blog post What is a Harness (featuring the open source Pi project): using the climbing harness as a metaphor, systematically explaining the four core components of Agent Harness - System Prompt, Tools, Agentic Loop, and Translation Layer - while exploring its open source 
+
+### OpenBot Deep Dive: Giving Every AI Agent Its Own Computer
+URL: https://topdigg.com/blog/2026-08-21-openbot-analysis | Date: 2026-08-21 | Author: TopDigg
+Tags: OpenBot, CopilotKit, AI Agent, AG-UI, Agent Platform, LangGraph, CrewAI, Autonomy, Security Governance, MCP
+
+Deep dive into CopilotKit/OpenBot: an AI agent platform where each Bot gets its own computer with a real browser, filesystem and tools. Every action is decided before it happens and recorded after. Core idea: trustworthy AI coworker. Supports any AG-UI agent, CEL policy engine, full audit trail, Doc
 
 ### From Tauri to Electron: A Founder's Painful Migration Retrospective
 URL: https://topdigg.com/blog/2026-08-20-paseo-electron-migration | Date: 2026-08-20 | Author: TopDigg
@@ -75,12 +81,6 @@ Tags: Kami, 设计系统, AI文档, Claude Code, 排版, 印刷, WeasyPrint, PDF
 
 深入解析 tw93/Kami：AI 时代的设计系统工具，为 Claude Code 和 Codex 添加专业文档生成能力。核心思想：好内容值得好排版。设计哲学：暖色羊皮纸画布 + 墨蓝单色强调色 + 衬线字体建立层级。8种文档模板、自研18种SVG图表、三路径幻灯片渲染、MCP服务器、确定性质量门。涵盖安装教程、设计规范详解、模板系统和设计哲学。
 
-### Motrix 深度解析：简洁优雅的全能型下载管理器
-URL: https://topdigg.com/blog/2026-08-19-motrix-analysis | Date: 2026-08-19 | Author: TopDigg
-Tags: Motrix, 下载管理器, Electron, TypeScript, React, aria2, MDXP, 插件系统, Docker, BitTorrent, 磁力链接, QuickJS, 设计哲学
-
-深入解析 agalwood/Motrix（25.4k Stars 开源项目）：一款基于 Electron + React + TypeScript 的现代下载管理器，支持 HTTP/FTP/BT/磁力链，内置 aria2 下载引擎，提供插件沙箱、命令行客户端、Docker 部署和 MDXP 通信协议。核心思想：'Stay Simple, Stay Productivity'——保持简洁，保持高效。设计哲学：简洁直观的界面与强大功能并存；四层架构解耦（renderer/core/engine adapter/aria2）；MDXP 协议实现桌面与命令行工具的解耦通信；插件沙箱隔离保证安全；SQL
-
 ## Twitter Analysis Reports
 
 ###  (@)
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 137 blog posts | 4 Twitter analyses
+End of llms.txt | 138 blog posts | 4 Twitter analyses

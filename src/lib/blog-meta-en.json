@@ -27,6 +27,30 @@
       "description": "A deep dive into Earendil's blog post What is a Harness (featuring the open source Pi project): using the climbing harness as a metaphor, systematically explaining the four core components of Agent Harness - System Prompt, Tools, Agentic Loop, and Translation Layer - while exploring its open source philosophy and the proposition of user autonomy. Core idea: Agent equals Model plus Harness. Users should own and control their own Agent workspace, rather than being locked into AI labs applications. Design philosophy: tool agnosticism, user sovereignty, open source, human in the loop."
     },
     {
+      "slug": "2026-08-21-openbot-analysis",
+      "date": "2026-08-21",
+      "author": "TopDigg",
+      "tags": [
+        "OpenBot",
+        "CopilotKit",
+        "AI Agent",
+        "AG-UI",
+        "Agent Platform",
+        "LangGraph",
+        "CrewAI",
+        "Autonomy",
+        "Security Governance",
+        "MCP"
+      ],
+      "categories": [
+        "Deep Dive",
+        "AI Agent",
+        "Open Source"
+      ],
+      "title": "OpenBot Deep Dive: Giving Every AI Agent Its Own Computer",
+      "description": "Deep dive into CopilotKit/OpenBot: an AI agent platform where each Bot gets its own computer with a real browser, filesystem and tools. Every action is decided before it happens and recorded after. Core idea: trustworthy AI coworker. Supports any AG-UI agent, CEL policy engine, full audit trail, Docker one-click deployment."
+    },
+    {
       "slug": "2026-08-20-paseo-electron-migration",
       "date": "2026-08-20",
       "author": "TopDigg",

@@ -1,6 +1,110 @@
 {
   "posts": [
     {
+      "slug": "2026-08-21-harness-analysis",
+      "title": {
+        "en": "Deep Dive into Harness: AI Agent's Climbing Rope - From Climbing Metaphor to Open Source Autonomy",
+        "ja": "Harnessの深掘り：AI Agentの'登山の命綱'——登山の比喩からオープンソースの自律性まで",
+        "vi": "Phan Tich Sau ve Harness: Soi Day Leo Nui Cua AI Agent - Tu An Du Leo Nui Den Tu Chu Nguon Mo",
+        "zh-Hans": "深度解析 Harness: AI Agent 的攀岩绳索 - 从攀岩隐喻到开源自主权",
+        "zh-Hant": "深度解析 Harness：AI Agent 的'攀巖繩索'——從攀巖隱喻到開源自主權"
+      },
+      "description": {
+        "en": "A deep dive into Earendil's blog post What is a Harness (featuring the open source Pi project): using the climbing harness as a metaphor, systematically explaining the four core components of Agent Harness - System Prompt, Tools, Agentic Loop, and Translation Layer - while exploring its open source philosophy and the proposition of user autonomy. Core idea: Agent equals Model plus Harness. Users should own and control their own Agent workspace, rather than being locked into AI labs applications. Design philosophy: tool agnosticism, user sovereignty, open source, human in the loop.",
+        "ja": "Earendilチームのブログ記事 What is a Harness の深度解析。登山用ハーネスを比喻に使い、Agent Harnessの4つのコア構成を体系的に解説。開放源哲学とユーザーの自律権命題にも踏み込む。核心のアイデア：Agent = Model + Harness。設計哲学：ツール中立、ユーザー主権、開放源、Human-in-the-Loop。",
+        "vi": "Phan tich chuyen sau bai viet What is a Harness cua nhom Earendil. Lay y tuong tu day an toan leo nui, he thong hoa bon thanh phan cot loi cua Agent Harness. Che ten nguon mo va quyen tu chu nguoi dung.",
+        "zh-Hans": "深度解析 Earendil 团队博客文章 What is a Harness，以攀岩安全带为隐喻，系统阐述 Agent Harness 的四大核心构成 System Prompt、Tools、Agentic Loop、Translation Layer，并延伸探讨其开源哲学与用户自主权命题。",
+        "zh-Hant": "深度解析 Earendil 團隊部落格文章 What is a Harness（含 Pi 開源專案）：以攀巖安全帶為隱喻，系統闡述 Agent Harness 的四大核心構成——System Prompt、Tools、Agentic Loop、Translation Layer，並延伸探討其開源哲學與用戶自主權命題。核心思想：Agent = Model + Harness，用戶應擁有並掌控自己的 Agent 工作台，而非被鎖定在 AI 實驗室的應用裡。設計哲學：工具中立、用戶主權、開源開放、人在回路。"
+      },
+      "date": "2026-08-21",
+      "author": "TopDigg",
+      "tags": [
+        "Harness",
+        "AI Agent",
+        "Pi",
+        "OpenClaw",
+        "Agentic Loop",
+        "System Prompt",
+        "Translation Layer",
+        "Open Source",
+        "User Sovereignty",
+        "Earendil",
+        "Lefos",
+        "Design Philosophy"
+      ],
+      "categories": [
+        "Deep Dive",
+        "AI Agent",
+        "Open Source Philosophy"
+      ]
+    },
+    {
+      "slug": "2026-08-21-openbot-analysis",
+      "title": {
+        "en": "OpenBot Deep Dive: Giving Every AI Agent Its Own Computer",
+        "ja": "OpenBot 深掘り：すべての AI Agent に自分のコンピュータを",
+        "vi": "OpenBot Phan Tich Sau: Moi AI Agent Co May Tinh Cua Rieng Minh",
+        "zh-Hans": "OpenBot 深度解析：给每个 AI Agent 一台自己的电脑",
+        "zh-Hant": "OpenBot 深度解析：給每個 AI Agent 一台自己的電腦"
+      },
+      "description": {
+        "en": "Deep dive into CopilotKit/OpenBot: an AI agent platform where each Bot gets its own computer with a real browser, filesystem and tools. Every action is decided before it happens and recorded after. Core idea: trustworthy AI coworker. Supports any AG-UI agent, CEL policy engine, full audit trail, Docker one-click deployment.",
+        "ja": "CopilotKit/OpenBot の深度解析。AI Agent プラットフォーム、各 Bot は独立したコンピュータ（ реаль браузер + ファイルシステム + ツール）を保有、すべての操作は実行前に承認され後に記録される。核心のアイデア：信頼性の高い AI Agent 同事。任意の AG-UI Agent 接入対応 CEL ポリシーエンジン、完整審計日誌、Docker ワンクリックデプロイ。",
+        "vi": "Phan tich chuyen sau CopilotKit/OpenBot: nen tang AI agent, moi Bot co may tinh doc lap voi trinh duyet that, he thong tep va cong cu. Moi hanh dong duoc quyet dinh truoc khi thuc hien va ghi lai sau. Y tuong cot loi: cong nhan AI dang tin cay. Ho tro bat ky AG-UI agent nao, enggine chinh sach CEL, nhật ky kiểm toan day du, trien khai Docker mot lan.",
+        "zh-Hans": "深度解析 CopilotKit/OpenBot 开源项目：AI Agent 平台，每个 Bot 拥有独立电脑，所有操作先审批再执行并记录。核心思想：可信赖的 AI Agent 同事。内置 General Assistant / Knowledge / Risk Analyst 三大同事，支持任意 AG-UI Agent 接入，完整审计日志，Docker 一键部署。",
+        "zh-Hant": "深度解析 CopilotKit/OpenBot：AI Agent 平台，每個 Bot 擁有獨立電腦，真實瀏覽器加檔案系統加工具，所有操作先審批再執行並記錄。核心思想：可信賴的 AI Agent 同事。支援任意 AG-UI Agent 接入，完整審計日誌，Docker 一鍵部署。"
+      },
+      "date": "2026-08-21",
+      "author": "TopDigg",
+      "tags": [
+        "OpenBot",
+        "CopilotKit",
+        "AI Agent",
+        "AG-UI",
+        "Agent Platform",
+        "LangGraph",
+        "CrewAI",
+        "Autonomy",
+        "Security Governance",
+        "MCP"
+      ],
+      "categories": [
+        "Deep Dive",
+        "AI Agent",
+        "Open Source"
+      ]
+    },
+    {
+      "slug": "2026-08-20-paseo-electron-migration",
+      "title": {
+        "en": "From Tauri to Electron: A Founder's Painful Migration Retrospective",
+        "ja": "TauriからElectronへ：Paseo創業者による痛みを伴う移行の振り返り",
+        "vi": "Từ Tauri sang Electron: Bài học đau đớn từ Founder của Paseo",
+        "zh-Hans": "从 Tauri 到 Electron：Paseo 创始人的血泪踩坑复盘",
+        "zh-Hant": "從 Tauri 到 Electron：Paseo 創辦人的血淚踩坑復盤"
+      },
+      "description": {
+        "en": "On May 28, 2026, Paseo founder Mo Boudra wrote 'I was wrong about Electron' — a candid retrospective on migrating Paseo from Tauri to Electron. This article dives deep into Paseo, its architecture, the migration pitfalls, and the engineering philosophy behind the decision.",
+        "ja": "2026年5月28日、Paseo創業者のMo Boudraは「Electronについて間違っていた」とブログに書いた。これはPaseoをTauriからElectronに移行した詳細な振り返りであり、技術選定における「雰囲気で決める」意思決定の危険性を示している。",
+        "vi": "Ngày 28/05/2026, Mo Boudra - Founder của Paseo đã viết 'Tôi đã sai về Electron' - một bài viết chi tiết về việc chuyển đổi Paseo từ Tauri sang Electron, phơi bày những nguy hiểm của việc đưa ra quyết định 'theo cảm tính' trong việc chọn công nghệ.",
+        "zh-Hans": "2026年5月28日，Paseo创始人Mo Boudra在博客写下了「我错怪Electron了」。这篇博文详细复盘了Paseo从Tauri迁移到Electron的全过程，揭示了技术选型中「凭感觉」决策的危害。本文深度解析Paseo项目、技术架构、迁移教训和工程哲学。",
+        "zh-Hant": "2026年5月28日，Paseo創辦人Mo Boudra在部落格寫下了「我錯怪Electron了」。這篇博文詳細復盤了Paseo從Tauri遷移到Electron的全過程，揭示了技術選型中「憑感覺」決策的危害。本文深度解析Paseo項目、技術架構、遷移教訓和工程哲學。"
+      },
+      "date": "2026-08-20",
+      "author": "TopDigg",
+      "tags": [
+        "Tech Selection",
+        "Electron",
+        "Tauri",
+        "Desktop Apps",
+        "Open Source",
+        "Paseo"
+      ],
+      "categories": [
+        "Technical Deep Dive"
+      ]
+    },
+    {
       "slug": "2026-08-20-teamai-cli-analysis",
       "title": {
         "en": "TeamAI CLI Deep Analysis: Tencent's Git-Native Architecture for Unified Multi-Agent Team Collaboration",
