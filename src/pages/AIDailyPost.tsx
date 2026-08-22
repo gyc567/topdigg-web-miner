@@ -9,7 +9,7 @@ import { useTranslation } from "react-i18next";
 import { normalizeLang, type SupportedLocale } from "@/lib/locale";
 import { aiDailyDataSource } from "@/lib/ai-daily-data";
 import MarkdownContent from "@/components/MarkdownContent";
-import { makeArticleSchema, makeBreadcrumbList } from "@/lib/jsonld";
+import { makeArticleSchema, makeBreadcrumbList, makeFAQPageSchema } from "@/lib/jsonld";
 import { AuthorBio } from "@/components/AuthorBio";
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink as ExternalLinkIcon } from "lucide-react";
@@ -70,6 +70,13 @@ const AIDailyPost = () => {
   ];
 
   const breadcrumbSchema = makeBreadcrumbList(breadcrumbs);
+  const faqSchema = makeFAQPageSchema({
+    mainEntity: [
+      { question: "What is AI Daily?", answer: "AI Daily is a daily newsletter that curates the most important AI news from Reddit, YouTube, Twitter and other sources." },
+      { question: "How often is AI Daily updated?", answer: "AI Daily is updated every day with the latest AI news and insights." },
+      { question: "Can I contribute or suggest content?", answer: "Please contact us through our social media channels for contributions and suggestions." },
+    ],
+  });
 
   const formatDate = (dateStr: string) => {
     const d = new Date(dateStr);
@@ -87,8 +94,10 @@ const AIDailyPost = () => {
         description={resolved.description}
         path={postPath}
         type="article"
-        jsonLd={jsonLd}
+        jsonLd={[jsonLd, breadcrumbSchema, faqSchema]}
         breadcrumbs={breadcrumbs}
+        publishedTime={fullPost.date}
+        author={fullPost.author}
       />
 
       <article className="max-w-none">
