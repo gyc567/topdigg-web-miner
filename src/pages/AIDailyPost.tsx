@@ -1,18 +1,63 @@
 import { useParams } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
 import { SEO } from "@/components/SEO";
 import { siteConfig } from "@/config/site";
 import { useTranslation } from "react-i18next";
-import { normalizeLang, type SupportedLocale } from "@/lib/locale";
+import { normalizeLang, localizeText, type SupportedLocale } from "@/lib/locale";
 import { aiDailyDataSource } from "@/lib/ai-daily-data";
+import type { AIDailyMeta } from "@/lib/ai-daily-data";
 import MarkdownContent from "@/components/MarkdownContent";
 import { makeArticleSchema, makeBreadcrumbList, makeFAQPageSchema } from "@/lib/jsonld";
 import { AuthorBio } from "@/components/AuthorBio";
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink as ExternalLinkIcon } from "lucide-react";
+
+// Related AI Daily reports: up to 3 sharing at least one tag, excluding current
+function RelatedReports({ currentSlug, tags }: { currentSlug: string; tags: string[] }) {
+  const { t, i18n } = useTranslation();
+  const currentLocale = normalizeLang(i18n.language);
+  const [allReports, setAllReports] = useState<AIDailyMeta[]>([]);
+
+  useEffect(() => {
+    aiDailyDataSource.getReportsLocalized(currentLocale).then(setAllReports);
+  }, [currentLocale]);
+
+  const related = useMemo(() => {
+    return allReports
+      .filter((r) => r.slug !== currentSlug && r.tags.some((tag) => tags.includes(tag)))
+      .sort((a, b) => {
+        const aMatch = a.tags.filter((t) => tags.includes(t)).length;
+        const bMatch = b.tags.filter((t) => tags.includes(t)).length;
+        return bMatch - aMatch;
+      })
+      .slice(0, 3);
+  }, [allReports, currentSlug, tags]);
+
+  if (related.length === 0) return null;
+
+  return (
+    <section className="border-t mt-12 pt-8">
+      <h2 className="text-xl font-semibold mb-4">{t("aiDaily.related", "More AI Daily")}</h2>
+      <div className="grid gap-4 md:grid-cols-3">
+        {related.map((report) => (
+          <Link
+            key={report.slug}
+            to={`/ai-daily/${report.slug}`}
+            className="block rounded-lg border p-4 hover:shadow-sm transition-shadow"
+          >
+            <h3 className="font-medium text-sm line-clamp-2 hover:text-brand transition-colors">
+              {localizeText(report.title as any, currentLocale)}
+            </h3>
+            <time className="text-xs text-muted-foreground mt-2 block">{report.date}</time>
+          </Link>
+        ))}
+      </div>
+    </section>
+  );
+}
 
 const AIDailyPost = () => {
   const { slug } = useParams();
@@ -165,6 +210,7 @@ const AIDailyPost = () => {
           </Link>
         </div>
         <AuthorBio />
+        <RelatedReports currentSlug={fullPost.slug} tags={fullPost.tags} />
       </article>
     </>
   );

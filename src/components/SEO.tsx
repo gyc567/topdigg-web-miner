@@ -6,6 +6,7 @@ import {
   ogLocaleMap,
   htmlLangMap,
   canonicalUrl,
+  withLangParam,
   normalizeLang,
   type SupportedLocale,
 } from "@/lib/locale";
@@ -55,9 +56,9 @@ export const SEO = ({
       <meta name="description" content={description} />
       <link rel="canonical" href={canonical} />
       {supportedLocales.map((l) => (
-        <link key={l} rel="alternate" hrefLang={htmlLangMap[l]} href={canonicalUrl(baseUrl)} />
+        <link key={l} rel="alternate" hrefLang={htmlLangMap[l]} href={withLangParam(baseUrl, l)} />
       ))}
-      <link rel="alternate" hrefLang="x-default" href={canonicalUrl(baseUrl)} />
+      <link rel="alternate" hrefLang="x-default" href={withLangParam(baseUrl, "en")} />
       {noIndex && <meta name="robots" content="noindex, nofollow" />}
 
       <meta property="og:type" content={type} />

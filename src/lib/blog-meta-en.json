@@ -1,6 +1,27 @@
 {
   "posts": [
     {
+      "slug": "2026-08-21-codex-cli-analysis",
+      "date": "2026-08-21",
+      "author": "TopDigg",
+      "tags": [
+        "Codex CLI",
+        "OpenAI",
+        "Coding Agent",
+        "Rust",
+        "CLI Tool",
+        "TUI",
+        "Programming"
+      ],
+      "categories": [
+        "Deep Dive",
+        "AI Programming",
+        "Open Source Tool"
+      ],
+      "title": "OpenAI Codex CLI Deep Dive: Your Smart Coding Partner in the Terminal",
+      "description": "Deep dive into OpenAI Codex CLI: a lightweight Rust-based coding agent that runs in your terminal. Supports conversational TUI and non-interactive exec mode. Core idea: make AI coding assistance as accessible as git."
+    },
+    {
       "slug": "2026-08-21-harness-analysis",
       "date": "2026-08-21",
       "author": "TopDigg",
@@ -25,6 +46,28 @@
       ],
       "title": "Deep Dive into Harness: AI Agent's Climbing Rope - From Climbing Metaphor to Open Source Autonomy",
       "description": "A deep dive into Earendil's blog post What is a Harness (featuring the open source Pi project): using the climbing harness as a metaphor, systematically explaining the four core components of Agent Harness - System Prompt, Tools, Agentic Loop, and Translation Layer - while exploring its open source philosophy and the proposition of user autonomy. Core idea: Agent equals Model plus Harness. Users should own and control their own Agent workspace, rather than being locked into AI labs applications. Design philosophy: tool agnosticism, user sovereignty, open source, human in the loop."
+    },
+    {
+      "slug": "2026-08-21-openai-agents-sdk-analysis",
+      "date": "2026-08-21",
+      "author": "TopDigg",
+      "tags": [
+        "OpenAI Agents SDK",
+        "Multi-Agent",
+        "Handoffs",
+        "Guardrails",
+        "Python",
+        "Swarm",
+        "MCP",
+        "Agent Orchestration"
+      ],
+      "categories": [
+        "Deep Dive",
+        "AI Agent",
+        "Open Source Framework"
+      ],
+      "title": "OpenAI Agents SDK Deep Dive: A Lightweight Multi-Agent Workflow Framework",
+      "description": "Deep dive into OpenAI/openai-agents-python: a lightweight, powerful multi-agent workflow framework supporting OpenAI Responses API and 100+ LLM providers. Core idea: powerful enough to be useful, few enough primitives to be quick to learn. Python-First design with built-in Tracing, Sandbox Agent isolation, Realtime Agent voice support."
     },
     {
       "slug": "2026-08-21-openbot-analysis",

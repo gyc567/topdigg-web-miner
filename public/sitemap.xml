@@ -29,7 +29,17 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://topdigg.com/blog/2026-08-21-codex-cli-analysis</loc>
+    <lastmod>2026-08-21</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://topdigg.com/blog/2026-08-21-harness-analysis</loc>
+    <lastmod>2026-08-21</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/2026-08-21-openai-agents-sdk-analysis</loc>
     <lastmod>2026-08-21</lastmod>
     <priority>0.8</priority>
   </url>

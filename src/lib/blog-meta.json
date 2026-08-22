@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "slug": "2026-08-21-codex-cli-analysis",
+      "title": {
+        "en": "OpenAI Codex CLI Deep Dive: Your Smart Coding Partner in the Terminal",
+        "ja": "OpenAI Codex CLI 深掘り：ターミナル内のスマートコーディングパートナー",
+        "vi": "OpenAI Codex CLI Phan Tich Sau: Dong Dong Code Thong Minh Trong Terminal",
+        "zh-Hans": "OpenAI Codex CLI 深度解析：终端里的智能编程搭档",
+        "zh-Hant": "OpenAI Codex CLI 深度解析：終端裡的智能編程搭檔"
+      },
+      "description": {
+        "en": "Deep dive into OpenAI Codex CLI: a lightweight Rust-based coding agent that runs in your terminal. Supports conversational TUI and non-interactive exec mode. Core idea: make AI coding assistance as accessible as git.",
+        "ja": "OpenAI Codex CLI の深掘り解析：Rustで書かれた軽量コーディングエージェント。対話式TUIと非対話execモードをサポート。核心：AIコーディング支援をgit一样に身近にする。",
+        "vi": "Phan tich chuyen sau OpenAI Codex CLI: agent lap trinh nhe, viet bang Rust, chay truc tiep trong terminal. Ho tro che do TUI va exec. Y tuong cot loi: lam tro giup AI lap trinh cung de su dung nhu git.",
+        "zh-Hans": "深度解析 OpenAI Codex CLI 开源项目：用 Rust 编写、轻量级、运行在终端的编程 Agent。支持对话式 TUI 和非交互 exec 模式，可完成代码解释、任务执行、PR 创建等。核心思想：让 AI 编程助手像 git 一样随手可及。",
+        "zh-Hant": "深度解析 OpenAI Codex CLI 開源項目：用 Rust 編寫、輕量級、運行在終端的編程 Agent。支援對話式 TUI 和非交互 exec 模式，可完成代碼解釋、任務執行、PR 創建等。核心思想：讓 AI 編程助手像 git 一樣隨手可及。"
+      },
+      "date": "2026-08-21",
+      "author": "TopDigg",
+      "tags": [
+        "Codex CLI",
+        "OpenAI",
+        "Coding Agent",
+        "Rust",
+        "CLI Tool",
+        "TUI",
+        "Programming"
+      ],
+      "categories": [
+        "Deep Dive",
+        "AI Programming",
+        "Open Source Tool"
+      ]
+    },
+    {
       "slug": "2026-08-21-harness-analysis",
       "title": {
         "en": "Deep Dive into Harness: AI Agent's Climbing Rope - From Climbing Metaphor to Open Source Autonomy",
@@ -36,6 +69,40 @@
         "Deep Dive",
         "AI Agent",
         "Open Source Philosophy"
+      ]
+    },
+    {
+      "slug": "2026-08-21-openai-agents-sdk-analysis",
+      "title": {
+        "en": "OpenAI Agents SDK Deep Dive: A Lightweight Multi-Agent Workflow Framework",
+        "ja": "OpenAI Agents SDK 深掘り：軽量マルチエージェントワークフロー",
+        "vi": "OpenAI Agents SDK Phan Tich Sau: Khuon Khanh Da Agent Nhe",
+        "zh-Hans": "OpenAI Agents SDK 深度解析：轻量级多 Agent 工作流框架",
+        "zh-Hant": "OpenAI Agents SDK 深度解析：輕量級多 Agent 工作流框架"
+      },
+      "description": {
+        "en": "Deep dive into OpenAI/openai-agents-python: a lightweight, powerful multi-agent workflow framework supporting OpenAI Responses API and 100+ LLM providers. Core idea: powerful enough to be useful, few enough primitives to be quick to learn. Python-First design with built-in Tracing, Sandbox Agent isolation, Realtime Agent voice support.",
+        "ja": "OpenAI/openai-agents-python の深掘り解析。軽量で強力なマルチエージェントワークフローフレームワーク。OpenAI Responses API と 100+ LLM Provider をサポート。核心のアイデア：十分な機能、极少のプリミティブ。Python-First 設計。",
+        "vi": "Phan tich chuyen sau OpenAI/openai-agents-python: khuon khung workflow da agent nhe nhung manh me, ho tro OpenAI Responses API va 100+ LLM provider. Y tuong cot loi: du kha nang nhung it nguyen thuy. Python-First, tich hop Tracing, Sandbox Agent, Realtime Agent.",
+        "zh-Hans": "深度解析 OpenAI openai-agents-python 开源框架：轻量级多 Agent 工作流框架，支援 OpenAI Responses API 和 100+ LLM Provider。核心思想：足夠強大的功能，極少的基础原语。Python-First 设计，原生整合 Tracing，支援 Sandbox Agent 隔离工作区。",
+        "zh-Hant": "深度解析 OpenAI/openai-agents-python 開源框架：輕量級多 Agent 工作流框架，支援 OpenAI Responses API 和 100+ LLM Provider。核心思想：足夠強大的功能，極少的基礎原語。Python-First 設計，原生整合 Tracing，支援 Sandbox Agent 隔離工作區、Realtime Agent 語音交互。"
+      },
+      "date": "2026-08-21",
+      "author": "TopDigg",
+      "tags": [
+        "OpenAI Agents SDK",
+        "Multi-Agent",
+        "Handoffs",
+        "Guardrails",
+        "Python",
+        "Swarm",
+        "MCP",
+        "Agent Orchestration"
+      ],
+      "categories": [
+        "Deep Dive",
+        "AI Agent",
+        "Open Source Framework"
       ]
     },
     {

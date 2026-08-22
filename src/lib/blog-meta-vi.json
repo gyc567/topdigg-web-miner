@@ -1,6 +1,27 @@
 {
   "posts": [
     {
+      "slug": "2026-08-21-codex-cli-analysis",
+      "date": "2026-08-21",
+      "author": "TopDigg",
+      "tags": [
+        "Codex CLI",
+        "OpenAI",
+        "Coding Agent",
+        "Rust",
+        "CLI Tool",
+        "TUI",
+        "Programming"
+      ],
+      "categories": [
+        "Deep Dive",
+        "AI Programming",
+        "Open Source Tool"
+      ],
+      "title": "OpenAI Codex CLI Phan Tich Sau: Dong Dong Code Thong Minh Trong Terminal",
+      "description": "Phan tich chuyen sau OpenAI Codex CLI: agent lap trinh nhe, viet bang Rust, chay truc tiep trong terminal. Ho tro che do TUI va exec. Y tuong cot loi: lam tro giup AI lap trinh cung de su dung nhu git."
+    },
+    {
       "slug": "2026-08-21-harness-analysis",
       "date": "2026-08-21",
       "author": "TopDigg",
@@ -25,6 +46,28 @@
       ],
       "title": "Phan Tich Sau ve Harness: Soi Day Leo Nui Cua AI Agent - Tu An Du Leo Nui Den Tu Chu Nguon Mo",
       "description": "Phan tich chuyen sau bai viet What is a Harness cua nhom Earendil. Lay y tuong tu day an toan leo nui, he thong hoa bon thanh phan cot loi cua Agent Harness. Che ten nguon mo va quyen tu chu nguoi dung."
+    },
+    {
+      "slug": "2026-08-21-openai-agents-sdk-analysis",
+      "date": "2026-08-21",
+      "author": "TopDigg",
+      "tags": [
+        "OpenAI Agents SDK",
+        "Multi-Agent",
+        "Handoffs",
+        "Guardrails",
+        "Python",
+        "Swarm",
+        "MCP",
+        "Agent Orchestration"
+      ],
+      "categories": [
+        "Deep Dive",
+        "AI Agent",
+        "Open Source Framework"
+      ],
+      "title": "OpenAI Agents SDK Phan Tich Sau: Khuon Khanh Da Agent Nhe",
+      "description": "Phan tich chuyen sau OpenAI/openai-agents-python: khuon khung workflow da agent nhe nhung manh me, ho tro OpenAI Responses API va 100+ LLM provider. Y tuong cot loi: du kha nang nhung it nguyen thuy. Python-First, tich hop Tracing, Sandbox Agent, Realtime Agent."
     },
     {
       "slug": "2026-08-21-openbot-analysis",

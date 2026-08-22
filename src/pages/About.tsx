@@ -1,12 +1,20 @@
 import { SEO } from "@/components/SEO";
 import { useTranslation } from "react-i18next";
+import { normalizeLang } from "@/lib/locale";
+import { makePersonSchema, makeProfilePageSchema } from "@/lib/jsonld";
 
 const About = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currentLocale = normalizeLang(i18n.language);
 
   return (
     <>
-      <SEO title={t("pages.about.title")} description={t("pages.about.seoDesc")} path="/about" />
+      <SEO
+        title={t("pages.about.title")}
+        description={t("pages.about.seoDesc")}
+        path="/about"
+        jsonLd={[makePersonSchema(currentLocale), makeProfilePageSchema(currentLocale)]}
+      />
 
       <article className="max-w-3xl mx-auto py-12 space-y-10">
         <header>

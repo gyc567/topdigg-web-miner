@@ -218,6 +218,56 @@ export function makeCollectionPageSchema(params: CollectionPageSchemaParams) {
 }
 
 // ---------------------------------------------------------------------------
+// Person + ProfilePage (About 页)
+// ---------------------------------------------------------------------------
+
+export function makePersonSchema(lang: SupportedLocale) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: AUTHOR_NAME,
+    url: AUTHOR_URL,
+    image: `${BASE}/logo-header.png`,
+    sameAs: AUTHOR_SAME_AS,
+    jobTitle: localizeText(
+      {
+        "zh-Hans": "AI 研究员 / SEO 策略师",
+        "zh-Hant": "AI 研究員 / SEO 策略師",
+        en: "AI Researcher & SEO Strategist",
+        ja: "AI研究者 / SEOストラテジスト",
+        vi: "Nhà nghiên cứu AI & Chuyên gia SEO",
+      },
+      lang
+    ),
+    worksFor: {
+      "@type": "Organization",
+      name: SITE_NAME,
+      url: BASE,
+    },
+    description: localizeText(
+      {
+        "zh-Hans": "专注 AI 趋势研究与 SEO/GEO 策略，帮助内容创作者提升有机流量和 AI 引用率。",
+        "zh-Hant": "專注 AI 趨勢研究與 SEO/GEO 策略，幫助內容創作者提升有機流量和 AI 引用率。",
+        en: "Focused on AI trend research and SEO/GEO strategy — helping content creators boost organic traffic and AI citations.",
+        ja: "AIトレンド研究与SEO/GEO戦略に特化。コンテンツクリエイター органика流量とAI引用率の向上を支援。",
+        vi: "Tập trung nghiên cứu xu hướng AI và chiến lược SEO/GEO — giúp nhà sáng tạo nội dung tăng lưu lượng tìm kiếm và trích dẫn AI.",
+      },
+      lang
+    ),
+  };
+}
+
+export function makeProfilePageSchema(lang: SupportedLocale) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    dateCreated: "2024-01-01",
+    dateModified: new Date().toISOString().split("T")[0],
+    mainEntity: makePersonSchema(lang),
+  };
+}
+
+// ---------------------------------------------------------------------------
 // FAQPage (文章页)
 // ---------------------------------------------------------------------------
 

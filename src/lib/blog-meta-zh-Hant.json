@@ -1,6 +1,27 @@
 {
   "posts": [
     {
+      "slug": "2026-08-21-codex-cli-analysis",
+      "date": "2026-08-21",
+      "author": "TopDigg",
+      "tags": [
+        "Codex CLI",
+        "OpenAI",
+        "Coding Agent",
+        "Rust",
+        "CLI Tool",
+        "TUI",
+        "Programming"
+      ],
+      "categories": [
+        "Deep Dive",
+        "AI Programming",
+        "Open Source Tool"
+      ],
+      "title": "OpenAI Codex CLI 深度解析：終端裡的智能編程搭檔",
+      "description": "深度解析 OpenAI Codex CLI 開源項目：用 Rust 編寫、輕量級、運行在終端的編程 Agent。支援對話式 TUI 和非交互 exec 模式，可完成代碼解釋、任務執行、PR 創建等。核心思想：讓 AI 編程助手像 git 一樣隨手可及。"
+    },
+    {
       "slug": "2026-08-21-harness-analysis",
       "date": "2026-08-21",
       "author": "TopDigg",
@@ -25,6 +46,28 @@
       ],
       "title": "深度解析 Harness：AI Agent 的'攀巖繩索'——從攀巖隱喻到開源自主權",
       "description": "深度解析 Earendil 團隊部落格文章 What is a Harness（含 Pi 開源專案）：以攀巖安全帶為隱喻，系統闡述 Agent Harness 的四大核心構成——System Prompt、Tools、Agentic Loop、Translation Layer，並延伸探討其開源哲學與用戶自主權命題。核心思想：Agent = Model + Harness，用戶應擁有並掌控自己的 Agent 工作台，而非被鎖定在 AI 實驗室的應用裡。設計哲學：工具中立、用戶主權、開源開放、人在回路。"
+    },
+    {
+      "slug": "2026-08-21-openai-agents-sdk-analysis",
+      "date": "2026-08-21",
+      "author": "TopDigg",
+      "tags": [
+        "OpenAI Agents SDK",
+        "Multi-Agent",
+        "Handoffs",
+        "Guardrails",
+        "Python",
+        "Swarm",
+        "MCP",
+        "Agent Orchestration"
+      ],
+      "categories": [
+        "Deep Dive",
+        "AI Agent",
+        "Open Source Framework"
+      ],
+      "title": "OpenAI Agents SDK 深度解析：輕量級多 Agent 工作流框架",
+      "description": "深度解析 OpenAI/openai-agents-python 開源框架：輕量級多 Agent 工作流框架，支援 OpenAI Responses API 和 100+ LLM Provider。核心思想：足夠強大的功能，極少的基礎原語。Python-First 設計，原生整合 Tracing，支援 Sandbox Agent 隔離工作區、Realtime Agent 語音交互。"
     },
     {
       "slug": "2026-08-21-openbot-analysis",
