@@ -1,5 +1,5 @@
-import { useParams } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useParams, Link } from "react-router-dom";
+import { useState, useEffect, useMemo } from "react";
 import { SEO } from "@/components/SEO";
 import { siteConfig } from "@/config/site";
 import { useTranslation } from "react-i18next";
@@ -10,6 +10,46 @@ import MarkdownContent from "@/components/MarkdownContent";
 import { makeArticleSchema, makeFAQPageSchema } from "@/lib/jsonld";
 import type { BlogPost } from "@/config/site";
 import { AuthorBio } from "@/components/AuthorBio";
+
+// Related posts: up to 3 posts sharing at least one tag, excluding current post
+function RelatedPosts({ currentSlug, tags }: { currentSlug: string; tags: string[] }) {
+  const { t, i18n } = useTranslation();
+  const currentLocale = normalizeLang(i18n.language);
+  const [allPosts, setAllPosts] = useState<BlogMeta[]>([]);
+
+  useEffect(() => {
+    blogDataSource.getPosts().then(setAllPosts);
+  }, []);
+
+  const related = useMemo(() => {
+    return allPosts
+      .filter((p) => p.slug !== currentSlug && p.tags.some((tag) => tags.includes(tag)))
+      .sort((a, b) => {
+        const aMatch = a.tags.filter((t) => tags.includes(t)).length;
+        const bMatch = b.tags.filter((t) => tags.includes(t)).length;
+        return bMatch - aMatch;
+      })
+      .slice(0, 3);
+  }, [allPosts, currentSlug, tags]);
+
+  if (related.length === 0) return null;
+
+  return (
+    <section className="border-t mt-12 pt-8">
+      <h2 className="text-xl font-semibold mb-4">{t("post.related", "Related Posts")}</h2>
+      <div className="grid gap-4 md:grid-cols-3">
+        {related.map((post) => (
+          <Link key={post.slug} to={`/blog/${post.slug}`} className="block rounded-lg border p-4 hover:shadow-sm transition-shadow">
+            <h3 className="font-medium text-sm line-clamp-2 hover:text-brand transition-colors">
+              {localizeText(post.title as any, currentLocale)}
+            </h3>
+            <time className="text-xs text-muted-foreground mt-2 block">{post.date}</time>
+          </Link>
+        ))}
+      </div>
+    </section>
+  );
+}
 
 const BlogPost = () => {
   const { slug } = useParams();
@@ -119,6 +159,9 @@ const BlogPost = () => {
           </div>
         </section>
         <AuthorBio />
+
+        {/* Related Posts */}
+        <RelatedPosts currentSlug={fullPost.slug} tags={fullPost.tags} />
       </article>
     </>
   );

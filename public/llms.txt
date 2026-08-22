@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-21T03:39:11.741Z
+Generated: 2026-08-22T07:16:46.142Z
 
 ## Site Overview
 
@@ -21,11 +21,23 @@ We cover trending topics and business opportunities across Reddit, YouTube, and 
 
 ## Latest Blog Posts (10 most recent)
 
+### OpenAI Codex CLI Deep Dive: Your Smart Coding Partner in the Terminal
+URL: https://topdigg.com/blog/2026-08-21-codex-cli-analysis | Date: 2026-08-21 | Author: TopDigg
+Tags: Codex CLI, OpenAI, Coding Agent, Rust, CLI Tool, TUI, Programming
+
+Deep dive into OpenAI Codex CLI: a lightweight Rust-based coding agent that runs in your terminal. Supports conversational TUI and non-interactive exec mode. Core idea: make AI coding assistance as accessible as git.
+
 ### Deep Dive into Harness: AI Agent's Climbing Rope - From Climbing Metaphor to Open Source Autonomy
 URL: https://topdigg.com/blog/2026-08-21-harness-analysis | Date: 2026-08-21 | Author: TopDigg
 Tags: Harness, AI Agent, Pi, OpenClaw, Agentic Loop, System Prompt, Translation Layer, Open Source, User Sovereignty, Earendil, Lefos, Design Philosophy
 
 A deep dive into Earendil's blog post What is a Harness (featuring the open source Pi project): using the climbing harness as a metaphor, systematically explaining the four core components of Agent Harness - System Prompt, Tools, Agentic Loop, and Translation Layer - while exploring its open source 
+
+### OpenAI Agents SDK Deep Dive: A Lightweight Multi-Agent Workflow Framework
+URL: https://topdigg.com/blog/2026-08-21-openai-agents-sdk-analysis | Date: 2026-08-21 | Author: TopDigg
+Tags: OpenAI Agents SDK, Multi-Agent, Handoffs, Guardrails, Python, Swarm, MCP, Agent Orchestration
+
+Deep dive into OpenAI/openai-agents-python: a lightweight, powerful multi-agent workflow framework supporting OpenAI Responses API and 100+ LLM providers. Core idea: powerful enough to be useful, few enough primitives to be quick to learn. Python-First design with built-in Tracing, Sandbox Agent iso
 
 ### OpenBot Deep Dive: Giving Every AI Agent Its Own Computer
 URL: https://topdigg.com/blog/2026-08-21-openbot-analysis | Date: 2026-08-21 | Author: TopDigg
@@ -68,18 +80,6 @@ URL: https://topdigg.com/blog/2026-08-19-agentenv-analysis | Date: 2026-08-19 | 
 Tags: AgentENV, AI Agent, 运行环境, Firecracker, Moonshot AI, Kimi, 容器, 大规模, 虚拟机, 投机解码, 开源
 
 深入解析 AgentENV（3200+ Stars）：Moonshot AI 用于支撑 Kimi K3 模型 Agent 强化学习训练的环境运行底座。核心思想：让 Agent 环境像函数调用一样轻量。设计哲学：Firecracker 微 VM 提供内核级隔离；overlaybd 分层镜像实现 150 万镜像规模按需加载；50ms 冷启动 + 100ms 暂停；9.6 倍内存超配；E2B 零成本迁移。涵盖详细教程、架构分析、CLI 命令和部署方案。
-
-### DFlash 2 深度解析：让投机解码真正并行起来
-URL: https://topdigg.com/blog/2026-08-19-dflash2-analysis | Date: 2026-08-19 | Author: TopDigg
-Tags: DFlash, DFlash 2, 投机解码, Inco AI, 推理加速, LLM, SGLang, vLLM, llama.cpp, 并行, 深度学习, 开源
-
-深入解析 Inco AI 的 DFlash 2（350 万+ 下载）：投机解码领域的重大突破，在不改变输出结果的前提下，每轮验证多产出 20% 以上 token，延迟仅增加约 1%。核心思想：选择比预测更便宜，局部性是高效算法的线索。设计哲学：并行是终态；轻量级路径选择器用 2M 参数超越 77.8M 的 DSpark；两抽头卷积解决后缀衰减。涵盖 SGLang、vLLM、llama.cpp、oMLX 详细配置教程。
-
-### Kami 深度解析：让 AI 文档拥有专业印刷级设计系统
-URL: https://topdigg.com/blog/2026-08-19-kami-analysis | Date: 2026-08-19 | Author: TopDigg
-Tags: Kami, 设计系统, AI文档, Claude Code, 排版, 印刷, WeasyPrint, PDF生成, Mermaid, 衬线字体, 文档工具, tw93
-
-深入解析 tw93/Kami：AI 时代的设计系统工具，为 Claude Code 和 Codex 添加专业文档生成能力。核心思想：好内容值得好排版。设计哲学：暖色羊皮纸画布 + 墨蓝单色强调色 + 衬线字体建立层级。8种文档模板、自研18种SVG图表、三路径幻灯片渲染、MCP服务器、确定性质量门。涵盖安装教程、设计规范详解、模板系统和设计哲学。
 
 ## Twitter Analysis Reports
 
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 138 blog posts | 4 Twitter analyses
+End of llms.txt | 140 blog posts | 4 Twitter analyses
