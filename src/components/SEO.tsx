@@ -5,7 +5,7 @@ import {
   supportedLocales,
   ogLocaleMap,
   htmlLangMap,
-  withLangParam,
+  canonicalUrl,
   normalizeLang,
   type SupportedLocale,
 } from "@/lib/locale";
@@ -22,9 +22,13 @@ type SEOProps = {
   type?: "website" | "article";
   image?: string;
   noIndex?: boolean;
-  jsonLd?: Record<string, any>;
+  jsonLd?: Record<string, any> | Record<string, any>[];
   /** Injected automatically as a separate JSON-LD BreadcrumbList block. */
   breadcrumbs?: BreadcrumbItem[];
+  /** ISO date string for article:published_time meta */
+  publishedTime?: string;
+  /** Author name for article:author meta */
+  author?: string;
 };
 export const SEO = ({
   title,
@@ -35,13 +39,15 @@ export const SEO = ({
   noIndex = false,
   jsonLd,
   breadcrumbs,
+  publishedTime,
+  author,
 }: SEOProps) => {
   const { i18n } = useTranslation();
   const lang: SupportedLocale = normalizeLang(i18n.language);
   const fullTitle = `${title} | ${siteConfig.siteName}`;
   const base = siteConfig.baseUrl.replace(/\/$/, "");
   const baseUrl = `${base}${path}`;
-  const canonical = withLangParam(baseUrl, lang);
+  const canonical = canonicalUrl(baseUrl);
 
   return (
     <Helmet htmlAttributes={{ lang: htmlLangMap[lang] }}>
@@ -49,9 +55,9 @@ export const SEO = ({
       <meta name="description" content={description} />
       <link rel="canonical" href={canonical} />
       {supportedLocales.map((l) => (
-        <link key={l} rel="alternate" hrefLang={htmlLangMap[l]} href={withLangParam(baseUrl, l)} />
+        <link key={l} rel="alternate" hrefLang={htmlLangMap[l]} href={canonicalUrl(baseUrl)} />
       ))}
-      <link rel="alternate" hrefLang="x-default" href={withLangParam(baseUrl, "en")} />
+      <link rel="alternate" hrefLang="x-default" href={canonicalUrl(baseUrl)} />
       {noIndex && <meta name="robots" content="noindex, nofollow" />}
 
       <meta property="og:type" content={type} />
@@ -59,16 +65,22 @@ export const SEO = ({
       <meta property="og:description" content={description} />
       <meta property="og:url" content={canonical} />
       <meta property="og:locale" content={ogLocaleMap[lang]} />
-      {image && <meta property="og:image" content={image} />}
+      <meta property="og:image" content={image ?? siteConfig.defaultOGImage} />
+      {type === "article" && publishedTime && (
+        <meta property="article:published_time" content={publishedTime} />
+      )}
+      {type === "article" && author && (
+        <meta property="article:author" content={author} />
+      )}
 
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={description} />
-      {image && <meta name="twitter:image" content={image} />}
+      <meta name="twitter:image" content={image ?? siteConfig.defaultOGImage} />
 
-      {jsonLd && (
-        <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
-      )}
+      {jsonLd && (Array.isArray(jsonLd) ? jsonLd : [jsonLd]).map((schema, i) => (
+        <script key={i} type="application/ld+json">{JSON.stringify(schema)}</script>
+      ))}
       {breadcrumbs && breadcrumbs.length > 0 && (
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",

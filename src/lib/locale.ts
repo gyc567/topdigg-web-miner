@@ -58,8 +58,18 @@ export const localizeText = (value: I18nText, lang: SupportedLocale): string => 
   );
 };
 
+/**
+ * Appends ?lang= query param for internal i18n routing.
+ * NOTE: canonical and hreflang must NOT use this — they must be clean URLs.
+ */
 export const withLangParam = (url: string, lang: SupportedLocale): string => {
   const hasQuery = url.includes("?");
   const sep = hasQuery ? "&" : "?";
   return `${url}${sep}lang=${lang}`;
 };
+
+/**
+ * Returns clean canonical/hreflang URL (no ?lang= query param).
+ * Self-referencing: the canonical of /blog/slug is /blog/slug (not /blog/slug?lang=en).
+ */
+export const canonicalUrl = (url: string): string => url;

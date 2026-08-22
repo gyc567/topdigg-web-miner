@@ -9,7 +9,7 @@
         { "type": "host", "value": "topdigg.com" }
       ],
       "destination": "https://www.topdigg.com/:path*",
-      "statusCode": 308
+      "statusCode": 301
     }
   ],
   "headers": [

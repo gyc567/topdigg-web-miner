@@ -5,8 +5,15 @@
 import type { SupportedLocale } from "@/lib/locale";
 import { localizeText } from "@/lib/locale";
 
-const BASE = "https://topdigg.com";
+const BASE = "https://www.topdigg.com";
 const SITE_NAME = "TopDigg";
+const AUTHOR_NAME = "Eric";
+const AUTHOR_URL = `${BASE}/about`;
+const AUTHOR_SAME_AS = [
+  "https://twitter.com/topdigg",
+  "https://www.reddit.com/r/topdigg/",
+  "https://github.com/topdigg",
+];
 
 // ---------------------------------------------------------------------------
 // Shared
@@ -63,11 +70,13 @@ export function makeOrganization(lang: SupportedLocale) {
     url: BASE,
     logo: {
       "@type": "ImageObject",
-      url: `${BASE}/favicon.ico`,
+      url: `${BASE}/logo-header.png`,
     },
     sameAs: [
       "https://twitter.com/topdigg",
       "https://www.reddit.com/r/topdigg/",
+      "https://github.com/topdigg",
+      "https://t.me/topdigg",
     ],
   };
 }
@@ -120,7 +129,9 @@ export function makeArticleSchema(params: ArticleSchemaParams) {
     dateModified: dateModified ?? datePublished,
     author: {
       "@type": "Person",
-      name: authorName,
+      name: AUTHOR_NAME,
+      url: AUTHOR_URL,
+      sameAs: AUTHOR_SAME_AS,
     },
     publisher: makeOrganization("en"),
     keywords: tags?.join(", "),
@@ -160,8 +171,9 @@ export function makeTwitterArticleSchema(params: TwitterArticleSchemaParams) {
     dateModified: dateModified ?? datePublished,
     author: {
       "@type": "Person",
-      name: authorName,
-      sameAs: `https://x.com/${twitterHandle.replace("@", "")}`,
+      name: AUTHOR_NAME,
+      url: AUTHOR_URL,
+      sameAs: AUTHOR_SAME_AS,
     },
     publisher: makeOrganization("en"),
     keywords: tags?.join(", "),
@@ -201,6 +213,29 @@ export function makeCollectionPageSchema(params: CollectionPageSchemaParams) {
       position: item.position,
       name: item.name,
       url: item.url,
+    })),
+  };
+}
+
+// ---------------------------------------------------------------------------
+// FAQPage (文章页)
+// ---------------------------------------------------------------------------
+
+export interface FAQPageSchemaParams {
+  mainEntity: Array<{ question: string; answer: string }>;
+}
+
+export function makeFAQPageSchema(params: FAQPageSchemaParams) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: params.mainEntity.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.answer,
+      },
     })),
   };
 }

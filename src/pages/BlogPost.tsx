@@ -7,7 +7,7 @@ import { localizeText, normalizeLang } from "@/lib/locale";
 import { blogDataSource } from "@/lib/blog-data";
 import type { BlogMeta } from "@/lib/blog-data";
 import MarkdownContent from "@/components/MarkdownContent";
-import { makeArticleSchema } from "@/lib/jsonld";
+import { makeArticleSchema, makeFAQPageSchema } from "@/lib/jsonld";
 import type { BlogPost } from "@/config/site";
 import { AuthorBio } from "@/components/AuthorBio";
 
@@ -49,14 +49,30 @@ const BlogPost = () => {
   }
 
   const postPath = `/blog/${fullPost.slug}`;
-  const jsonLd = makeArticleSchema({
+  const faqSchema = makeFAQPageSchema({
+    mainEntity: [
+      {
+        question: "Who is behind TopDigg?",
+        answer: "TopDigg is created by Eric, a researcher focused on AI trends and SEO/GEO strategies.",
+      },
+      {
+        question: "How often is content updated?",
+        answer: "Blog posts are published regularly. AI Daily is updated daily with the latest AI news.",
+      },
+      {
+        question: "Can I republish or share content from TopDigg?",
+        answer: "Please contact us for content licensing and collaboration inquiries.",
+      },
+    ],
+  });
+  const jsonLd = [makeArticleSchema({
     title: localizeText(fullPost.title as any, currentLocale),
     description: localizeText(fullPost.description as any, currentLocale),
     url: postPath,
     datePublished: fullPost.date,
     authorName: fullPost.author,
     tags: fullPost.tags,
-  });
+  }), faqSchema];
 
   const breadcrumbs = [
     { name: "Home", url: `${siteConfig.baseUrl}/` },
@@ -73,6 +89,8 @@ const BlogPost = () => {
         type="article"
         jsonLd={jsonLd}
         breadcrumbs={breadcrumbs}
+        publishedTime={fullPost.date}
+        author={fullPost.author}
       />
       <article className="max-w-none">
         <header className="mb-8">
@@ -85,6 +103,21 @@ const BlogPost = () => {
           content={localizeText(fullPost.content as any, currentLocale)}
           className="mb-8"
         />
+        <section className="border-t mt-8 pt-8">
+          <h2 className="text-xl font-semibold mb-4">Frequently Asked Questions</h2>
+          <div className="space-y-4">
+            {[
+              { q: "Who is behind TopDigg?", a: "TopDigg is created by Eric, a researcher focused on AI trends and SEO/GEO strategies." },
+              { q: "How often is content updated?", a: "Blog posts are published regularly. AI Daily is updated daily with the latest AI news." },
+              { q: "Can I republish or share content from TopDigg?", a: "Please contact us for content licensing and collaboration inquiries." },
+            ].map((item, i) => (
+              <div key={i}>
+                <h3 className="font-medium text-foreground">{item.q}</h3>
+                <p className="text-sm text-muted-foreground mt-1">{item.a}</p>
+              </div>
+            ))}
+          </div>
+        </section>
         <AuthorBio />
       </article>
     </>

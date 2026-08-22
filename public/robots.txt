@@ -51,6 +51,18 @@ Allow: /
 User-agent: cohere-ai
 Allow: /
 
+# Bytespider (字节跳动：豆包/Coze 背景)
+User-agent: Bytespider
+Allow: /
+
+# Amazonbot (Amazon Alexa 背景)
+User-agent: Amazonbot
+Allow: /
+
+# Meta External Agent (Meta AI 引用)
+User-agent: Meta-ExternalAgent
+Allow: /
+
 # --- 兜底 ---
 User-agent: *
 Allow: /

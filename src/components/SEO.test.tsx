@@ -23,7 +23,7 @@ describe("SEO", () => {
 
     expect(document.title).toBe("Test Title | TopDigg");
     expect(document.querySelector('meta[name="description"]')).toHaveAttribute("content", "Test description");
-    expect(document.querySelector('link[rel="canonical"]')).toHaveAttribute("href", "https://topdigg.com/test?lang=en");
+    expect(document.querySelector('link[rel="canonical"]')).toHaveAttribute("href", "https://www.topdigg.com/test");
   });
 
   it("renders hreflang alternates for all supported locales", () => {

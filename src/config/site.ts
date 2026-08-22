@@ -70,7 +70,8 @@ export type TwitterAnalysis = {
 
 export const siteConfig = {
   siteName: "TopDigg",
-  baseUrl: "https://topdigg.com",
+  baseUrl: "https://www.topdigg.com",
+  defaultOGImage: "https://www.topdigg.com/og-image.png",
   nav: {
     main: [
       {
