@@ -1,8 +1,13 @@
-import { useMemo, useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 interface MarkdownContentProps {
   content: string;
   className?: string;
+}
+
+/** Post-process HTML: add alt="" to <img> tags missing one (accessibility + SEO) */
+function ensureImgAlt(html: string): string {
+  return html.replace(/<img(?![^>]*\balt=)([^>]*?)>/gi, '<img alt=""$1>');
 }
 
 const MarkdownContent = ({ content, className = '' }: MarkdownContentProps) => {
@@ -20,7 +25,8 @@ const MarkdownContent = ({ content, className = '' }: MarkdownContentProps) => {
       if (cancelled) return;
       marked.setOptions({ breaks: true, gfm: true });
       const raw = marked.parse(content);
-      setHtmlContent(DOMPurify.sanitize(raw ?? ''));
+      const sanitized = DOMPurify.sanitize(raw ?? '', { USE_PROFILES: { html: true } });
+      setHtmlContent(ensureImgAlt(sanitized));
       setLoading(false);
     }).catch(console.error);
 
