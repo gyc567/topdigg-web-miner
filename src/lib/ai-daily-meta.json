@@ -1,20 +1,99 @@
 {
   "reports": [
     {
-      "slug": "2026-08-20-ai-daily",
+      "slug": "2026-08-23-ai-daily",
       "title": {
-        "en": "Liquid AI releases LFM2.5 QAD Q4_0 quantized checkpoints, recovering 97% of accuracy loss",
-        "ja": "Liquid AI、LFM2.5 シリーズ QAD Q4_0 量子化チェックポイントを公開 — 精度損失の 97% を回復",
-        "vi": "Liquid AI phát hành các checkpoint QAD Q4_0 của dòng LFM2.5, khôi phục 97% tổn thất độ chính xác",
-        "zh-Hans": "Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失",
-        "zh-Hant": "Liquid AI 發布 LFM2.5 系列 QAD Q4_0 量化檢查點，恢復 97% 精度損失"
+        "en": "Robots Run Faster Than Bolt! 2nd World Humanoid Robot Games Opens with Record-Breaking Performances",
+        "ja": "ボットがボルトより速い！第2回世界ヒューマノイドロボット競技大会が記録的開場",
+        "vi": "Robot chạy nhanh hơn Bolt! Đại hội Robot hình người thế giới lần 2 khai mạc với kỷ lục phá vỡ",
+        "zh-Hans": "机器人跑得比博尔特还快！第二届世界人形机器人运动会震撼开幕",
+        "zh-Hant": "機器人跑得比波特還快！第二屆世界人形機器人運動會震撼開幕"
       },
       "description": {
-        "en": "Liquid AI has released four Q4_0 GGUF checkpoints—LFM2.5-230M, 350M, 1.2B-Instruct, and 2.6B—trained with Quantization-Aware Distillation (QAD). They retain native Q4_0 memory and speed while recovering 97% of the average accuracy loss of BF16.",
-        "ja": "Liquid AI は、量子化対応蒸留（QAD）で訓練された LFM2.5-230M、350M、1.2B-Instruct、2.6B の 4 つの Q4_0 GGUF チェックポイントを公開。ネイティブの Q4_0 メモリと速度を維持しつつ、BF16 の平均精度損失の 97% を回復する。",
-        "vi": "Liquid AI phát hành bốn checkpoint GGUF Q4_0 — LFM2.5-230M, 350M, 1.2B-Instruct và 2.6B — được huấn luyện bằng Quantization-Aware Distillation (QAD). Giữ nguyên bộ nhớ và tốc độ của Q4_0 gốc, đồng thời khôi phục 97% tổn thất độ chính xác trung bình so với BF16.",
-        "zh-Hans": "Liquid AI 发布基于量化感知蒸馏（QAD）训练的 LFM2.5-230M、350M、1.2B-Instruct 和 2.6B 四款 Q4_0 GGUF 检查点，在保持原生 Q4_0 内存与速度",
-        "zh-Hant": "Liquid AI 發布基於量化感知蒸餾（QAD）訓練的 LFM2.5-230M、350M、1.2B-Instruct 和 2.6B 四款 Q4_0 GGUF 檢查點，在保持原生 Q4_0 記憶體與速度的同時，恢復 BF16 平均精度損失的 97%。"
+        "en": "The 2nd World Humanoid Robot Games opened at Beijing's National Speed Skating Hall with 666 teams and 2056 robots. TianGong Ultra ran 100m in 9.39 seconds, breaking Bolt's world record, while Glory Lightning clocked 41.95 seconds in 400m.",
+        "ja": "第2回世界ヒューマノイドロボット競技大会が北京国家スピードスケーティング場で开幕。666チーム・2056台のロボットが出場。天工Ultraが100mを9.39秒で走りボルトの世界記録を破り、グローリーライトニングが400mを41.95秒で記録した。",
+        "vi": "Đại hội Robot hình người thế giới lần 2 khai mạc tại Nhà thi đấu trượt băng tốc độ Bắc Kinh với 666 đội và 2056 robot. TianGong Ultra chạy 100m trong 9.39 giây, phá kỷ lục thế giới của Bolt.",
+        "zh-Hans": "第二届世界人形机器人运动会今晚在北京国家速滑馆开幕，666支队伍、2056台机器人参赛，天工Ultra百米跑出9.39秒打破博尔特世界纪录，荣耀闪电400米41.95秒同样破纪录。",
+        "zh-Hant": "第二屆世界人形機器人運動會今晚在北京國家速滑館開幕，666支隊伍、2056台機器人參賽，天工Ultra百米跑出9.39秒打破波特世界紀錄，榮耀閃電400米41.95秒同樣破紀錄。"
+      },
+      "date": "2026-08-23",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": {
+            "en": "Bit Finance",
+            "ja": "ビットファイナンス",
+            "vi": "Bit Finance",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特財商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
+      "slug": "2026-08-21-ai-daily",
+      "title": {
+        "en": "Alibaba Releases Qwen-UI-Agent; Hugging Face Unveils LFM2.5 DSpark Draft Models with 3.18x Inference Speed Boost",
+        "ja": "AlibabaがQwen-UI-Agentを発表、Hugging FaceがLFM2.5 DSparkドラフトモデルで推論速度最大3.18倍向上",
+        "zh-Hans": "阿里发布 Qwen-UI-Agent，主打让模型真正\"会用\"每一块屏幕",
+        "zh-Hant": "阿里發布 Qwen-UI-Agent，主打讓模型真正「會用」每一塊螢幕"
+      },
+      "description": {
+        "en": "Alibaba launches Qwen-UI-Agent, a GUI agent base model covering mobile, desktop, web, and DeepSearch environments; Hugging Face releases LFM2.5 DSpark draft models boosting GPU throughput by up to 3.18x.",
+        "ja": "Alibabaがモバイル・デスクトップ・ウェブ・DeepSearch環境をカバーするGUIエージェント基盤モデルQwen-UI-Agentを発表。Hugging FaceはLFM2.5 DSparkドラフトモデルでGPUスループット最大3.18倍向上を達成。",
+        "zh-Hans": "阿里巴巴正式推出 Qwen-UI-Agent，覆盖移动端、电脑端、网页端及 DeepSearch 环境；Hugging Face 发布 LFM2.5 系列 DSpark 草稿模型，推理速度最高提升 3.18 倍。",
+        "zh-Hant": "阿里巴巴正式推出 Qwen-UI-Agent，覆蓋移動端、電腦端、網頁端及 DeepSearch 環境；Hugging Face 發布 LFM2.5 系列 DSpark 草稿模型，推理速度最高提升 3.18 倍。"
+      },
+      "date": "2026-08-21",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": {
+            "en": "Bit Finance",
+            "ja": "ビットファイナンス",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特財商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
+      "slug": "2026-08-20-ai-daily",
+      "title": {
+        "en": "GLM-5.3 Tops Open-Source Leaderboard, Anthropic Pauses RL Training, Google Launches AI Study Tools",
+        "ja": "GLM-5.3がオープンソース1位、AnthropicがRL訓練を一時停止、Google検索がAI学習ツールを開始",
+        "vi": "GLM-5.3 Dẫn Đầu Open-Source, Anthropic Tạm Dừng RL, Google Ra Mắt Công Cụ Học AI",
+        "zh-Hans": "GLM-5.3 上线并列开源第一、Anthropic 暂停 RL 训练、Google 搜索推出 AI 学习工具",
+        "zh-Hant": "GLM-5.3 上線並列開源第一、Anthropic 暫停 RL 訓練、Google 搜尋推出 AI 學習工具"
+      },
+      "description": {
+        "en": "Zhipu's GLM-5.3 launched scoring 60 on the AA benchmark alongside Kimi K3 for open-source #1, while Anthropic paused RL training over cyber-capability thresholds, OpenRouter announced a merger with Stripe, and FastMetal enabled 30-second video generation on Mac.",
+        "ja": "智譜のGLM-5.3がAAベンチマークで60点を獲得しオープンソース1位となる中、Anthropicはサイバー能力しきい値の懸念からRL訓練を一時停止、OpenRouterがStripeとの合併を発表、FastMetalがMacで30秒の動画生成を実現。",
+        "vi": "GLM-5.3 của Zhipu đạt 60 điểm AA benchmark cùng Kimi K3 dẫn đầu open-source, Anthropic tạm dừng RL vì lo ngại ngưỡng năng lực mạng, OpenRouter sáp nhập Stripe, FastMetal tạo video 30 giây trên Mac.",
+        "zh-Hans": "智谱 GLM-5.3 上线取得 AA 综合智能指数 60 分与开源并列第一，同日 Anthropic 因关键网络安全能力风险暂停 RL 训练，OpenRouter 宣布与 Stripe 合并，FastMetal 实现 Mac 本地 30 秒生成视频。",
+        "zh-Hant": "智譜 GLM-5.3 上線取得 AA 綜合智能指數 60 分與開源並列第一，同日 Anthropic 因關鍵網路安全能力風險暫停 RL 訓練，OpenRouter 宣佈與 Stripe 合併，FastMetal 實現 Mac 本地 30 秒生成影片。"
       },
       "date": "2026-08-20",
       "author": "比特财商",
@@ -29,16 +108,16 @@
         "aggregator_url": "https://aihot.virxact.com",
         "original": {
           "name": {
-            "en": "Bitcai Business",
-            "ja": "ビット財経",
-            "vi": "Bitcai Business",
+            "en": "Bit Finance",
+            "ja": "ビットファイナンス",
+            "vi": "Bit Finance",
             "zh-Hans": "比特财商",
-            "zh-Hant": "比特財經"
+            "zh-Hant": "比特財商"
           },
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       },
-      "hn_count": 5,
+      "hn_count": 2,
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
     }
   ]

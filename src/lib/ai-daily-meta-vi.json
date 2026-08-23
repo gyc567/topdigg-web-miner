@@ -1,8 +1,8 @@
 {
   "reports": [
     {
-      "slug": "2026-08-20-ai-daily",
-      "date": "2026-08-20",
+      "slug": "2026-08-23-ai-daily",
+      "date": "2026-08-23",
       "author": "比特财商",
       "tags": [
         "AI Daily"
@@ -12,13 +12,59 @@
       ],
       "hn_count": 5,
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Liquid AI phát hành các checkpoint QAD Q4_0 của dòng LFM2.5, khôi phục 97% tổn thất độ chính xác",
-      "description": "Liquid AI phát hành bốn checkpoint GGUF Q4_0 — LFM2.5-230M, 350M, 1.2B-Instruct và 2.6B — được huấn luyện bằng Quantization-Aware Distillation (QAD). Giữ nguyên bộ nhớ và tốc độ của Q4_0 gốc, đồng thời khôi phục 97% tổn thất độ chính xác trung bình so với BF16.",
+      "title": "Robot chạy nhanh hơn Bolt! Đại hội Robot hình người thế giới lần 2 khai mạc với kỷ lục phá vỡ",
+      "description": "Đại hội Robot hình người thế giới lần 2 khai mạc tại Nhà thi đấu trượt băng tốc độ Bắc Kinh với 666 đội và 2056 robot. TianGong Ultra chạy 100m trong 9.39 giây, phá kỷ lục thế giới của Bolt.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",
         "original": {
-          "name": "Bitcai Business",
+          "name": "Bit Finance",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-08-21-ai-daily",
+      "date": "2026-08-21",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "阿里发布 Qwen-UI-Agent，主打让模型真正\"会用\"每一块屏幕",
+      "description": "阿里巴巴正式推出 Qwen-UI-Agent，覆盖移动端、电脑端、网页端及 DeepSearch 环境；Hugging Face 发布 LFM2.5 系列 DSpark 草稿模型，推理速度最高提升 3.18 倍。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "Bit Finance",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-08-20-ai-daily",
+      "date": "2026-08-20",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 2,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "GLM-5.3 Dẫn Đầu Open-Source, Anthropic Tạm Dừng RL, Google Ra Mắt Công Cụ Học AI",
+      "description": "GLM-5.3 của Zhipu đạt 60 điểm AA benchmark cùng Kimi K3 dẫn đầu open-source, Anthropic tạm dừng RL vì lo ngại ngưỡng năng lực mạng, OpenRouter sáp nhập Stripe, FastMetal tạo video 30 giây trên Mac.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "Bit Finance",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }

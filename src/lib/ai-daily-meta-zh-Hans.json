@@ -1,8 +1,8 @@
 {
   "reports": [
     {
-      "slug": "2026-08-20-ai-daily",
-      "date": "2026-08-20",
+      "slug": "2026-08-23-ai-daily",
+      "date": "2026-08-23",
       "author": "比特财商",
       "tags": [
         "AI Daily"
@@ -12,8 +12,54 @@
       ],
       "hn_count": 5,
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失",
-      "description": "Liquid AI 发布基于量化感知蒸馏（QAD）训练的 LFM2.5-230M、350M、1.2B-Instruct 和 2.6B 四款 Q4_0 GGUF 检查点，在保持原生 Q4_0 内存与速度",
+      "title": "机器人跑得比博尔特还快！第二届世界人形机器人运动会震撼开幕",
+      "description": "第二届世界人形机器人运动会今晚在北京国家速滑馆开幕，666支队伍、2056台机器人参赛，天工Ultra百米跑出9.39秒打破博尔特世界纪录，荣耀闪电400米41.95秒同样破纪录。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-08-21-ai-daily",
+      "date": "2026-08-21",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "阿里发布 Qwen-UI-Agent，主打让模型真正\"会用\"每一块屏幕",
+      "description": "阿里巴巴正式推出 Qwen-UI-Agent，覆盖移动端、电脑端、网页端及 DeepSearch 环境；Hugging Face 发布 LFM2.5 系列 DSpark 草稿模型，推理速度最高提升 3.18 倍。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-08-20-ai-daily",
+      "date": "2026-08-20",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 2,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "GLM-5.3 上线并列开源第一、Anthropic 暂停 RL 训练、Google 搜索推出 AI 学习工具",
+      "description": "智谱 GLM-5.3 上线取得 AA 综合智能指数 60 分与开源并列第一，同日 Anthropic 因关键网络安全能力风险暂停 RL 训练，OpenRouter 宣布与 Stripe 合并，FastMetal 实现 Mac 本地 30 秒生成视频。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

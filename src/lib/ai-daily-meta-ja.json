@@ -1,8 +1,8 @@
 {
   "reports": [
     {
-      "slug": "2026-08-20-ai-daily",
-      "date": "2026-08-20",
+      "slug": "2026-08-23-ai-daily",
+      "date": "2026-08-23",
       "author": "比特财商",
       "tags": [
         "AI Daily"
@@ -12,13 +12,59 @@
       ],
       "hn_count": 5,
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Liquid AI、LFM2.5 シリーズ QAD Q4_0 量子化チェックポイントを公開 — 精度損失の 97% を回復",
-      "description": "Liquid AI は、量子化対応蒸留（QAD）で訓練された LFM2.5-230M、350M、1.2B-Instruct、2.6B の 4 つの Q4_0 GGUF チェックポイントを公開。ネイティブの Q4_0 メモリと速度を維持しつつ、BF16 の平均精度損失の 97% を回復する。",
+      "title": "ボットがボルトより速い！第2回世界ヒューマノイドロボット競技大会が記録的開場",
+      "description": "第2回世界ヒューマノイドロボット競技大会が北京国家スピードスケーティング場で开幕。666チーム・2056台のロボットが出場。天工Ultraが100mを9.39秒で走りボルトの世界記録を破り、グローリーライトニングが400mを41.95秒で記録した。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",
         "original": {
-          "name": "ビット財経",
+          "name": "ビットファイナンス",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-08-21-ai-daily",
+      "date": "2026-08-21",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "AlibabaがQwen-UI-Agentを発表、Hugging FaceがLFM2.5 DSparkドラフトモデルで推論速度最大3.18倍向上",
+      "description": "Alibabaがモバイル・デスクトップ・ウェブ・DeepSearch環境をカバーするGUIエージェント基盤モデルQwen-UI-Agentを発表。Hugging FaceはLFM2.5 DSparkドラフトモデルでGPUスループット最大3.18倍向上を達成。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "ビットファイナンス",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-08-20-ai-daily",
+      "date": "2026-08-20",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 2,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "GLM-5.3がオープンソース1位、AnthropicがRL訓練を一時停止、Google検索がAI学習ツールを開始",
+      "description": "智譜のGLM-5.3がAAベンチマークで60点を獲得しオープンソース1位となる中、Anthropicはサイバー能力しきい値の懸念からRL訓練を一時停止、OpenRouterがStripeとの合併を発表、FastMetalがMacで30秒の動画生成を実現。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "ビットファイナンス",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }

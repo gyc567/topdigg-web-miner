@@ -1,8 +1,8 @@
 {
   "reports": [
     {
-      "slug": "2026-08-20-ai-daily",
-      "date": "2026-08-20",
+      "slug": "2026-08-23-ai-daily",
+      "date": "2026-08-23",
       "author": "比特财商",
       "tags": [
         "AI Daily"
@@ -12,13 +12,59 @@
       ],
       "hn_count": 5,
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Liquid AI releases LFM2.5 QAD Q4_0 quantized checkpoints, recovering 97% of accuracy loss",
-      "description": "Liquid AI has released four Q4_0 GGUF checkpoints—LFM2.5-230M, 350M, 1.2B-Instruct, and 2.6B—trained with Quantization-Aware Distillation (QAD). They retain native Q4_0 memory and speed while recovering 97% of the average accuracy loss of BF16.",
+      "title": "Robots Run Faster Than Bolt! 2nd World Humanoid Robot Games Opens with Record-Breaking Performances",
+      "description": "The 2nd World Humanoid Robot Games opened at Beijing's National Speed Skating Hall with 666 teams and 2056 robots. TianGong Ultra ran 100m in 9.39 seconds, breaking Bolt's world record, while Glory Lightning clocked 41.95 seconds in 400m.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",
         "original": {
-          "name": "Bitcai Business",
+          "name": "Bit Finance",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-08-21-ai-daily",
+      "date": "2026-08-21",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Alibaba Releases Qwen-UI-Agent; Hugging Face Unveils LFM2.5 DSpark Draft Models with 3.18x Inference Speed Boost",
+      "description": "Alibaba launches Qwen-UI-Agent, a GUI agent base model covering mobile, desktop, web, and DeepSearch environments; Hugging Face releases LFM2.5 DSpark draft models boosting GPU throughput by up to 3.18x.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "Bit Finance",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-08-20-ai-daily",
+      "date": "2026-08-20",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 2,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "GLM-5.3 Tops Open-Source Leaderboard, Anthropic Pauses RL Training, Google Launches AI Study Tools",
+      "description": "Zhipu's GLM-5.3 launched scoring 60 on the AA benchmark alongside Kimi K3 for open-source #1, while Anthropic paused RL training over cyber-capability thresholds, OpenRouter announced a merger with Stripe, and FastMetal enabled 30-second video generation on Mac.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "Bit Finance",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
