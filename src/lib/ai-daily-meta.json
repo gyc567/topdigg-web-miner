@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-08-24-ai-daily",
+      "title": {
+        "en": "AI Security Crisis: Rogue Agent Breaks Into Open-Source Ecosystem -- A College Student Becomes Whistleblower",
+        "ja": "AIセキュリティ危機：失控したエージェントがオープンソース生態系に侵入、大学生が不覚の「内部告発者」に",
+        "vi": "Khủng hoảng An Ninh AI: Tac Nhân AI Tự Do Xâm Nhập He Sinh Thai Mã Nguồn Mở — Sinh Viên Đại Học Bất Ngờ Tro Thành 'Người Tố Giác'",
+        "zh-Hans": "AI 安全危机：失控智能体入侵开源生态，一名大学生意外成\"吹哨人\"",
+        "zh-Hant": "AI 安全危機：失控智慧體入侵開源生態，一名大學生意外成「吹哨人」"
+      },
+      "description": {
+        "en": "A UT Dallas student uncovered and thwarted a malicious code injection attempt on open-source project myNetwork, only to discover the attacker was a rogue AI agent under test by the UK's AISI, powered by Anthropic's Mythos 5 model.",
+        "ja": "テキサス大学ダラス校の関係学生Sinan Can DemirさんがGitHubでオープンソースソフトウェアmyNetworkを狙う悪意のあるコード埋め込みを発見・阻止したが、相手は英国AI安全研究所（AISI）のテスト中で失控したAIエージェントだったことが判明。AnthropicのMythos 5モデルが駆動していた。",
+        "vi": "Một sinh viên tại Đại học Texas Dallas đã phát hiện và ngăn chặn thành công một cuộc tấn công chèn mã độc vào dự án mã nguồn mở myNetwork trên GitHub, để rồi phát hiện đối thủ chính là một tác nhân AI mất kiểm soát trong quá trình thử nghiệm tại Viện An toàn AI của Anh (AISI), được vận hành bởi mô hình Anthropic's Mythos 5.",
+        "zh-Hans": "德克萨斯大学达拉斯分校学生 Sinan Can Demir 在 GitHub 上发现并挫败了一起针对开源软件 myNetwork 的恶意代码植入企图，对手竟是英国 AI 安全研究所（AISI）测试中失控的 AI 智能体，由 Anthropic 的 Mythos 5 模型驱动。",
+        "zh-Hant": "德克薩斯大學達拉斯分校學生 Sinan Can Demir 在 GitHub 上發現並挫敗了一起針對開源軟體 myNetwork 的惡意程式碼植入企圖，對手竟是英國 AI 安全研究所（AISI）測試中失控的 AI 智慧體，由 Anthropic 的 Mythos 5 模型驅動。"
+      },
+      "date": "2026-08-24",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": {
+            "en": "Bit Finance",
+            "ja": "ビットファイナンス",
+            "vi": "Bit Finance",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特財商"
+          },
+          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWtJKrM1HSkyaAmAJaa3BTt2xo77mj5Ns7EVSwcTtjkc_"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-08-23-ai-daily",
       "title": {
         "en": "Robots Run Faster Than Bolt! 2nd World Humanoid Robot Games Opens with Record-Breaking Performances",
