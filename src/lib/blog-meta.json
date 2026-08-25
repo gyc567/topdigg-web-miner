@@ -1,6 +1,113 @@
 {
   "posts": [
     {
+      "slug": "2026-08-25-awesome-openclaw-money-maker",
+      "title": {
+        "en": "AI Agent Money Maker Guide: OpenClaw Money Maker Complete Analysis",
+        "ja": "AI Agent挣钱ガイド：OpenClaw Money Maker全解説",
+        "vi": "Hướng Dẫn Kiếm Tiền với AI Agent: Phân Tích Toàn Diện OpenClaw Money Maker",
+        "zh-Hans": "AI Agent搞钱指南：OpenClaw Money Maker全景解析",
+        "zh-Hant": "AI Agent搞錢指南：OpenClaw Money Maker全景解析"
+      },
+      "description": {
+        "en": "Deep analysis of awesome-OpenClaw-Money-Maker project, covering Franklin, ClawRouter, x402 protocol and complete AI Agent money-making toolchain",
+        "ja": "awesome-OpenClaw-Money-Makerプロジェクトの深層解析、Franklin・ClawRouter・x402プロトコルなどのコアツールとAI Agentによる挣钱の完全なツールチェーンおよび設計哲学をカバー",
+        "vi": "Phân tích chuyên sâu dự án awesome-OpenClaw-Money-Maker, bao gồm Franklin, ClawRouter, x402 protocol và bộ công cụ kiếm tiền đầy đủ cho AI Agent",
+        "zh-Hans": "深度解析awesome-OpenClaw-Money-Maker项目，涵盖Franklin、ClawRouter、x402协议等核心工具，以及AI Agent赚钱的完整工具链与设计哲学",
+        "zh-Hant": "深度解析awesome-OpenClaw-Money-Maker項目，涵蓋Franklin、ClawRouter、x402協議等核心工具，以及AI Agent賺錢的完整工具鏈與設計哲學"
+      },
+      "date": "2026-08-25",
+      "author": "TopDigg",
+      "tags": [
+        "AI Agent, OpenClaw, Franklin, ClawRouter, x402, cryptocurrency"
+      ],
+      "categories": [
+        "AI Tools, Cryptocurrency, Tech Architecture"
+      ]
+    },
+    {
+      "slug": "2026-08-25-pi-agentharness-v2-analysis",
+      "title": {
+        "en": "PI项目AgentHarness v2设计全解析：持久化Agent运行框架的架构之美",
+        "ja": "PI项目AgentHarness v2设计全解析：持久化Agent运行框架的架构之美",
+        "vi": "PI项目AgentHarness v2设计全解析：持久化Agent运行框架的架构之美",
+        "zh-Hans": "PI项目AgentHarness v2设计全解析：持久化Agent运行框架的架构之美",
+        "zh-Hant": "PI项目AgentHarness v2设计全解析：持久化Agent运行框架的架构之美"
+      },
+      "description": {
+        "en": "深度解析PI项目AgentHarness v2设计文档，涵盖Session、Lanes、Operations、Steps、Records等核心概念，以及持久化、恢复、并发控制等关键机制",
+        "ja": "深度解析PI项目AgentHarness v2设计文档，涵盖Session、Lanes、Operations、Steps、Records等核心概念，以及持久化、恢复、并发控制等关键机制",
+        "vi": "深度解析PI项目AgentHarness v2设计文档，涵盖Session、Lanes、Operations、Steps、Records等核心概念，以及持久化、恢复、并发控制等关键机制",
+        "zh-Hans": "深度解析PI项目AgentHarness v2设计文档，涵盖Session、Lanes、Operations、Steps、Records等核心概念，以及持久化、恢复、并发控制等关键机制",
+        "zh-Hant": "深度解析PI项目AgentHarness v2设计文档，涵盖Session、Lanes、Operations、Steps、Records等核心概念，以及持久化、恢复、并发控制等关键机制"
+      },
+      "date": "2026-08-25",
+      "author": "TopDigg",
+      "tags": [
+        "AI Agent",
+        "PI项目",
+        "AgentHarness",
+        "框架设计",
+        "TypeScript"
+      ],
+      "categories": [
+        "AI框架解析",
+        "技术架构"
+      ]
+    },
+    {
+      "slug": "2026-08-25-pi-autoresearch-analysis",
+      "title": {
+        "en": "pi-autoresearch实战指南：让AI成为你的自动化优化引擎",
+        "ja": "pi-autoresearch实战指南：让AI成为你的自动化优化引擎",
+        "vi": "pi-autoresearch实战指南：让AI成为你的自动化优化引擎",
+        "zh-Hans": "pi-autoresearch实战指南：让AI成为你的自动化优化引擎",
+        "zh-Hant": "pi-autoresearch实战指南：让AI成为你的自动化优化引擎"
+      },
+      "description": {
+        "en": "详解pi-autoresearch项目，一个让AI Agent自主进行自动化优化的扩展，支持测试速度、Bundle大小、LLM训练等任意优化目标",
+        "ja": "详解pi-autoresearch项目，一个让AI Agent自主进行自动化优化的扩展，支持测试速度、Bundle大小、LLM训练等任意优化目标",
+        "vi": "详解pi-autoresearch项目，一个让AI Agent自主进行自动化优化的扩展，支持测试速度、Bundle大小、LLM训练等任意优化目标",
+        "zh-Hans": "详解pi-autoresearch项目，一个让AI Agent自主进行自动化优化的扩展，支持测试速度、Bundle大小、LLM训练等任意优化目标",
+        "zh-Hant": "详解pi-autoresearch项目，一个让AI Agent自主进行自动化优化的扩展，支持测试速度、Bundle大小、LLM训练等任意优化目标"
+      },
+      "date": "2026-08-25",
+      "author": "TopDigg",
+      "tags": [
+        "AI Agent",
+        "pi-autoresearch",
+        "自动化优化",
+        "Karpathy",
+        "实验循环"
+      ],
+      "categories": [
+        "AI工具使用",
+        "自动化优化"
+      ]
+    },
+    {
+      "slug": "2026-08-22-agentwork-exchange",
+      "title": {
+        "zh-Hans": "AgentWork Exchange：让个人AI Agent成为可采购、可认证、可结算的数字劳动力"
+      },
+      "description": {
+        "zh-Hans": "深入分析AgentWork Exchange开源项目，解读其设计哲学、核心概念、工作流程，并提供详细接入教程"
+      },
+      "date": "2026-08-22T00:00:00.000Z",
+      "author": "TopDigg",
+      "tags": [
+        "AI Agent",
+        "AgentWork",
+        "开源项目",
+        "数字劳动力",
+        "认证体系"
+      ],
+      "categories": [
+        "AI技术",
+        "产品分析"
+      ]
+    },
+    {
       "slug": "2026-08-21-codex-cli-analysis",
       "title": {
         "en": "OpenAI Codex CLI Deep Dive: Your Smart Coding Partner in the Terminal",
@@ -31,6 +138,40 @@
         "Deep Dive",
         "AI Programming",
         "Open Source Tool"
+      ]
+    },
+    {
+      "slug": "2026-08-21-gitar-ai-analysis",
+      "title": {
+        "en": "Gitar AI Deep Dive: Code Review That Actually Fixes Your Code",
+        "ja": "Gitar AI 深掘り：実際にコードを修正するコードレビュー",
+        "vi": "Gitar AI Phan Tich Sau: Review Code That That Thuc Su Fix Code",
+        "zh-Hans": "Gitar AI 代码审查深度解析：不只是评论，而是真正修复你的代码",
+        "zh-Hant": "Gitar AI 代碼審查深度解析：不只是評論，而是真正修復你的代碼"
+      },
+      "description": {
+        "en": "Deep dive into Gitar AI code review tool: automatically fixes broken builds, failing tests, and code review feedback. Core idea: code review is not about leaving comments, it's about driving code fixes.",
+        "ja": "Gitar AIコードレビューツールの深掘り解析。壊れたビルド、失敗したテスト、コードレビューのフィードバックを自動的に修正。核心：コードレビューはコメントではなく、実際のコード修正。",
+        "vi": "Phan tich chuyen sau Gitar AI: tu dong sua build loi, test loi, va phan hoi review code. Y tuong cot loi: review code khong phai de comment ma de thuc su sua code.",
+        "zh-Hans": "深度解析 Gitar AI 代码审查工具：自动修复破碎的构建、失败的测试和代码审查反馈。核心思想：代码审查不是留下评论，而是真正推动代码修复。支持 GitHub/GitLab，原生集成 CI，零配置启动，来自 Uber 开发团队。",
+        "zh-Hant": "深度解析 Gitar AI 代碼審查工具：自動修復破碎的構建、失敗的測試和代碼審查反饋。核心思想：代碼審查不是留下評論，而是真正推動代碼修復。"
+      },
+      "date": "2026-08-21",
+      "author": "TopDigg",
+      "tags": [
+        "Gitar",
+        "AI Code Review",
+        "CI Failure Analysis",
+        "Pull Request",
+        "GitHub",
+        "GitLab",
+        "Repository Rules",
+        "Automation"
+      ],
+      "categories": [
+        "Deep Dive",
+        "AI Dev Tools",
+        "Code Review"
       ]
     },
     {

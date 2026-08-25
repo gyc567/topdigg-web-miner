@@ -1,6 +1,73 @@
 {
   "posts": [
     {
+      "slug": "2026-08-25-awesome-openclaw-money-maker",
+      "date": "2026-08-25",
+      "author": "TopDigg",
+      "tags": [
+        "AI Agent, OpenClaw, Franklin, ClawRouter, x402, cryptocurrency"
+      ],
+      "categories": [
+        "AI Tools, Cryptocurrency, Tech Architecture"
+      ],
+      "title": "AI Agent挣钱ガイド：OpenClaw Money Maker全解説",
+      "description": "awesome-OpenClaw-Money-Makerプロジェクトの深層解析、Franklin・ClawRouter・x402プロトコルなどのコアツールとAI Agentによる挣钱の完全なツールチェーンおよび設計哲学をカバー"
+    },
+    {
+      "slug": "2026-08-25-pi-agentharness-v2-analysis",
+      "date": "2026-08-25",
+      "author": "TopDigg",
+      "tags": [
+        "AI Agent",
+        "PI项目",
+        "AgentHarness",
+        "框架设计",
+        "TypeScript"
+      ],
+      "categories": [
+        "AI框架解析",
+        "技术架构"
+      ],
+      "title": "PI项目AgentHarness v2设计全解析：持久化Agent运行框架的架构之美",
+      "description": "深度解析PI项目AgentHarness v2设计文档，涵盖Session、Lanes、Operations、Steps、Records等核心概念，以及持久化、恢复、并发控制等关键机制"
+    },
+    {
+      "slug": "2026-08-25-pi-autoresearch-analysis",
+      "date": "2026-08-25",
+      "author": "TopDigg",
+      "tags": [
+        "AI Agent",
+        "pi-autoresearch",
+        "自动化优化",
+        "Karpathy",
+        "实验循环"
+      ],
+      "categories": [
+        "AI工具使用",
+        "自动化优化"
+      ],
+      "title": "pi-autoresearch实战指南：让AI成为你的自动化优化引擎",
+      "description": "详解pi-autoresearch项目，一个让AI Agent自主进行自动化优化的扩展，支持测试速度、Bundle大小、LLM训练等任意优化目标"
+    },
+    {
+      "slug": "2026-08-22-agentwork-exchange",
+      "date": "2026-08-22T00:00:00.000Z",
+      "author": "TopDigg",
+      "tags": [
+        "AI Agent",
+        "AgentWork",
+        "开源项目",
+        "数字劳动力",
+        "认证体系"
+      ],
+      "categories": [
+        "AI技术",
+        "产品分析"
+      ],
+      "title": "AgentWork Exchange：让个人AI Agent成为可采购、可认证、可结算的数字劳动力",
+      "description": "深入分析AgentWork Exchange开源项目，解读其设计哲学、核心概念、工作流程，并提供详细接入教程"
+    },
+    {
       "slug": "2026-08-21-codex-cli-analysis",
       "date": "2026-08-21",
       "author": "TopDigg",
@@ -20,6 +87,28 @@
       ],
       "title": "OpenAI Codex CLI 深掘り：ターミナル内のスマートコーディングパートナー",
       "description": "OpenAI Codex CLI の深掘り解析：Rustで書かれた軽量コーディングエージェント。対話式TUIと非対話execモードをサポート。核心：AIコーディング支援をgit一样に身近にする。"
+    },
+    {
+      "slug": "2026-08-21-gitar-ai-analysis",
+      "date": "2026-08-21",
+      "author": "TopDigg",
+      "tags": [
+        "Gitar",
+        "AI Code Review",
+        "CI Failure Analysis",
+        "Pull Request",
+        "GitHub",
+        "GitLab",
+        "Repository Rules",
+        "Automation"
+      ],
+      "categories": [
+        "Deep Dive",
+        "AI Dev Tools",
+        "Code Review"
+      ],
+      "title": "Gitar AI 深掘り：実際にコードを修正するコードレビュー",
+      "description": "Gitar AIコードレビューツールの深掘り解析。壊れたビルド、失敗したテスト、コードレビューのフィードバックを自動的に修正。核心：コードレビューはコメントではなく、実際のコード修正。"
     },
     {
       "slug": "2026-08-21-harness-analysis",

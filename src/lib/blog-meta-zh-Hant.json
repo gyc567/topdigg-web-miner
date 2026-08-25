@@ -1,6 +1,73 @@
 {
   "posts": [
     {
+      "slug": "2026-08-25-awesome-openclaw-money-maker",
+      "date": "2026-08-25",
+      "author": "TopDigg",
+      "tags": [
+        "AI Agent, OpenClaw, Franklin, ClawRouter, x402, cryptocurrency"
+      ],
+      "categories": [
+        "AI Tools, Cryptocurrency, Tech Architecture"
+      ],
+      "title": "AI Agent搞錢指南：OpenClaw Money Maker全景解析",
+      "description": "深度解析awesome-OpenClaw-Money-Maker項目，涵蓋Franklin、ClawRouter、x402協議等核心工具，以及AI Agent賺錢的完整工具鏈與設計哲學"
+    },
+    {
+      "slug": "2026-08-25-pi-agentharness-v2-analysis",
+      "date": "2026-08-25",
+      "author": "TopDigg",
+      "tags": [
+        "AI Agent",
+        "PI项目",
+        "AgentHarness",
+        "框架设计",
+        "TypeScript"
+      ],
+      "categories": [
+        "AI框架解析",
+        "技术架构"
+      ],
+      "title": "PI项目AgentHarness v2设计全解析：持久化Agent运行框架的架构之美",
+      "description": "深度解析PI项目AgentHarness v2设计文档，涵盖Session、Lanes、Operations、Steps、Records等核心概念，以及持久化、恢复、并发控制等关键机制"
+    },
+    {
+      "slug": "2026-08-25-pi-autoresearch-analysis",
+      "date": "2026-08-25",
+      "author": "TopDigg",
+      "tags": [
+        "AI Agent",
+        "pi-autoresearch",
+        "自动化优化",
+        "Karpathy",
+        "实验循环"
+      ],
+      "categories": [
+        "AI工具使用",
+        "自动化优化"
+      ],
+      "title": "pi-autoresearch实战指南：让AI成为你的自动化优化引擎",
+      "description": "详解pi-autoresearch项目，一个让AI Agent自主进行自动化优化的扩展，支持测试速度、Bundle大小、LLM训练等任意优化目标"
+    },
+    {
+      "slug": "2026-08-22-agentwork-exchange",
+      "date": "2026-08-22T00:00:00.000Z",
+      "author": "TopDigg",
+      "tags": [
+        "AI Agent",
+        "AgentWork",
+        "开源项目",
+        "数字劳动力",
+        "认证体系"
+      ],
+      "categories": [
+        "AI技术",
+        "产品分析"
+      ],
+      "title": "AgentWork Exchange：让个人AI Agent成为可采购、可认证、可结算的数字劳动力",
+      "description": "深入分析AgentWork Exchange开源项目，解读其设计哲学、核心概念、工作流程，并提供详细接入教程"
+    },
+    {
       "slug": "2026-08-21-codex-cli-analysis",
       "date": "2026-08-21",
       "author": "TopDigg",
@@ -20,6 +87,28 @@
       ],
       "title": "OpenAI Codex CLI 深度解析：終端裡的智能編程搭檔",
       "description": "深度解析 OpenAI Codex CLI 開源項目：用 Rust 編寫、輕量級、運行在終端的編程 Agent。支援對話式 TUI 和非交互 exec 模式，可完成代碼解釋、任務執行、PR 創建等。核心思想：讓 AI 編程助手像 git 一樣隨手可及。"
+    },
+    {
+      "slug": "2026-08-21-gitar-ai-analysis",
+      "date": "2026-08-21",
+      "author": "TopDigg",
+      "tags": [
+        "Gitar",
+        "AI Code Review",
+        "CI Failure Analysis",
+        "Pull Request",
+        "GitHub",
+        "GitLab",
+        "Repository Rules",
+        "Automation"
+      ],
+      "categories": [
+        "Deep Dive",
+        "AI Dev Tools",
+        "Code Review"
+      ],
+      "title": "Gitar AI 代碼審查深度解析：不只是評論，而是真正修復你的代碼",
+      "description": "深度解析 Gitar AI 代碼審查工具：自動修復破碎的構建、失敗的測試和代碼審查反饋。核心思想：代碼審查不是留下評論，而是真正推動代碼修復。"
     },
     {
       "slug": "2026-08-21-harness-analysis",
