@@ -172,16 +172,16 @@ const AIDailyPost = () => {
                 <span className="ml-1">{fullPost.source.aggregator}</span>
               )}
             </Badge>
-            {fullPost.source.original.url && fullPost.source.original.name !== fullPost.source.aggregator && (
+            {resolved.source.original.url && resolved.source.original.name !== resolved.source.aggregator && (
               <Badge variant="outline">
                 {t("aiDaily.original")}：
                 <a
-                  href={fullPost.source.original.url}
+                  href={resolved.source.original.url}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-primary ml-1 underline underline-offset-2"
                 >
-                  {fullPost.source.original.name}
+                  {resolved.source.original.name}
                   <ExternalLinkIcon className="inline h-3 w-3 ml-0.5" />
                 </a>
               </Badge>

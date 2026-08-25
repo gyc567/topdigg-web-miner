@@ -53,6 +53,17 @@ function readBlogSlugs() {
   }
 }
 
+function readAiDailySlugs() {
+  const p = path.join(projectRoot, "src/lib/ai-daily-meta.json");
+  if (!fs.existsSync(p)) return [];
+  try {
+    const data = JSON.parse(fs.readFileSync(p, "utf8"));
+    return (data.reports || []).map((r) => r.slug).filter(Boolean);
+  } catch {
+    return [];
+  }
+}
+
 function readTwitterSlugs() {
   const p = path.join(projectRoot, "src/config/site.ts");
   if (!fs.existsSync(p)) return [];
@@ -85,6 +96,7 @@ export function buildRoutes(options = {}) {
   const { skipArchive = false, archiveAfterDays = 7 } = options;
   const blogSlugs = readBlogSlugs();
   const twitterSlugs = readTwitterSlugs();
+  const aiDailySlugs = readAiDailySlugs();
 
   const cutoff = Date.now() - archiveAfterDays * 24 * 60 * 60 * 1000;
   const recentBlogSlugs = skipArchive
@@ -94,6 +106,7 @@ export function buildRoutes(options = {}) {
   const detailPaths = [
     ...recentBlogSlugs.map((s) => `/blog/${s}`),
     ...twitterSlugs.map((s) => `/twitter/${s}`),
+    ...aiDailySlugs.map((s) => `/ai-daily/${s}`),
   ];
 
   return [...STATIC_PATHS, ...detailPaths];
