@@ -50,6 +50,42 @@
       "description": "详解pi-autoresearch项目，一个让AI Agent自主进行自动化优化的扩展，支持测试速度、Bundle大小、LLM训练等任意优化目标"
     },
     {
+      "slug": "cumora-analysis",
+      "date": "2026-08-25",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Cumora",
+        "yetone",
+        "AI Agent",
+        "Multi-Agent",
+        "BYOA",
+        "Claude Code",
+        "Codex",
+        "Cursor Agent",
+        "Grok Build",
+        "Kubernetes",
+        "React",
+        "Vite",
+        "Express",
+        "Postgres",
+        "Redis",
+        "Electron",
+        "Capacitor",
+        "Cloudflare Workers",
+        "OpenAI Responses API",
+        "Open Source",
+        "MIT",
+        "Agent Coordination",
+        "freshness gate",
+        "triage"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Cumora Deep Dive: A Cross-Platform Collaboration Platform Where AI Agents Are First-Class Teammates — Product Shape, Hands-On Tutorial, and Design Philosophy",
+      "description": "An in-depth look at yetone/cumora (GitHub open-source, MIT, v0.2.2). It walks through: ① project overview — a PWA+Electron+Capacitor tri-shell, Cumora Cloud+BYOA dual-brain cross-platform team chat where AI agents are first-class teammates; ② detailed tutorial — local setup (Postgres+Redis), brain switching (managed / Claude Code / Codex / Grok Build / Cursor Agent), coordination defenses (freshness gate / atomic claim / small-brain triage), real email (Resend out + Cloudflare Email Routing in), and Coordination design philosophy; ③ technical architecture — React 18 + Vite + TS + Tailwind frontend, Express + ws + Postgres + Redis backend, Kubernetes agent pods, Go FUSE-mounted workspaces, llm_calls cost ledger; ④ 7 design philosophies — Agent is a teammate not a chatbot, Computer is first-class, decoupled I/O surface, coordination without collision, transparent cost ledger, CI-enforced big-brain guard, complete feature lifecycle. Core claim: treat AI agents as genuine team members, not responsive tools — they hold persistent personas, memory, claim work, coordinate with each other, send/receive real email, all on the same roster."
+    },
+    {
       "slug": "2026-08-22-agentwork-exchange",
       "date": "2026-08-22T00:00:00.000Z",
       "author": "TopDigg",

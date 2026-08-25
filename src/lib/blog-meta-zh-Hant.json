@@ -50,6 +50,42 @@
       "description": "详解pi-autoresearch项目，一个让AI Agent自主进行自动化优化的扩展，支持测试速度、Bundle大小、LLM训练等任意优化目标"
     },
     {
+      "slug": "cumora-analysis",
+      "date": "2026-08-25",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Cumora",
+        "yetone",
+        "AI Agent",
+        "Multi-Agent",
+        "BYOA",
+        "Claude Code",
+        "Codex",
+        "Cursor Agent",
+        "Grok Build",
+        "Kubernetes",
+        "React",
+        "Vite",
+        "Express",
+        "Postgres",
+        "Redis",
+        "Electron",
+        "Capacitor",
+        "Cloudflare Workers",
+        "OpenAI Responses API",
+        "Open Source",
+        "MIT",
+        "Agent Coordination",
+        "freshness gate",
+        "triage"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Cumora 深度解析：AI Agent 作為團隊一等公民的跨平臺協作平臺——產品形態、詳細教程與設計哲學",
+      "description": "以 yetone/cumora（GitHub 開源、MIT、v0.2.2）為主線，逐層拆解 Cumora：①項目說明——一個 PWA+Electron+Capacitor 三端同源、Cumora Cloud+BYOA 雙腦路徑的跨平臺團隊聊天應用，AI Agent 作為 first-class 團隊成員；②詳細教程——本地啟動（Postgres+Redis）、雙腦切換（managed / Claude Code / Codex / Grok Build / Cursor Agent）、協調防線（freshness gate / atomic claim / small-brain triage）、真實郵箱（Resend 出 + Cloudflare Email Routing 入）、Coordination 設計哲學；③技術架構——React 18 + Vite + TS + Tailwind 前端、Express + ws + Postgres + Redis 後端、Kubernetes agent pods、Go FUSE 掛載工作區、LLM 呼叫成本帳本；④7 條設計哲學——Agent 是隊友不是聊天機器人、Computer 一等公民、解耦的 I/O 表面、協作不碰撞、成本帳本透明化、CI 強制 big-brain 守衛、feature lifecycle 完整閉環。核心主張：把 AI Agent 當作真正的團隊成員而不是響應式工具——他們有持久 persona、記憶、領取工作、互相協調、收發郵件，所有這一切跑在同一個 Roster 上。"
+    },
+    {
       "slug": "2026-08-22-agentwork-exchange",
       "date": "2026-08-22T00:00:00.000Z",
       "author": "TopDigg",

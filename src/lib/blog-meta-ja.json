@@ -50,6 +50,42 @@
       "description": "详解pi-autoresearch项目，一个让AI Agent自主进行自动化优化的扩展，支持测试速度、Bundle大小、LLM训练等任意优化目标"
     },
     {
+      "slug": "cumora-analysis",
+      "date": "2026-08-25",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Cumora",
+        "yetone",
+        "AI Agent",
+        "Multi-Agent",
+        "BYOA",
+        "Claude Code",
+        "Codex",
+        "Cursor Agent",
+        "Grok Build",
+        "Kubernetes",
+        "React",
+        "Vite",
+        "Express",
+        "Postgres",
+        "Redis",
+        "Electron",
+        "Capacitor",
+        "Cloudflare Workers",
+        "OpenAI Responses API",
+        "Open Source",
+        "MIT",
+        "Agent Coordination",
+        "freshness gate",
+        "triage"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Cumora 深層解析：AIエージェントをチームの第一級市民とするクロスプラットフォーム協働プラットフォーム — 製品形態、詳細チュートリアル、設計哲学",
+      "description": "yetone/cumora（GitHub オープンソース、MIT、v0.2.2）を主軸に Cumora を多層的に分解：①プロジェクト説明 — PWA+Electron+Capacitor の3シェル、Cumora Cloud+BYOA のデュアルブレイン、AIエージェントを first-class チームメンバーとするクロスプラットフォームチームチャット；②詳細チュートリアル — ローカル起動（Postgres+Redis）、ブレイン切り替え（managed / Claude Code / Codex / Grok Build / Cursor Agent）、調整防衛線（freshness gate / atomic claim / small-brain triage）、実在メール（Resend 出 + Cloudflare Email Routing 入）、Coordination 設計哲学；③技術アーキテクチャ — React 18 + Vite + TS + Tailwind フロントエンド、Express + ws + Postgres + Redis バックエンド、Kubernetes エージェントポッド、Go FUSE ワークスペースマウント、llm_calls コスト台帳；④7 つの設計哲学 — エージェントはチャットボットではなくチームメイト、Computer は第一級、I/O 表面の分離、衝突なき協働、コスト台帳の透明化、CI で強制される big-brain ガード、完全な feature lifecycle。中核主張：AIエージェントをレスポンシブな道具ではなく本物のチームメンバーとして扱う — 永続的なペルソナ、メモリ、ワークの請求、互いを調整し合い、実際のメールを送受信、すべて同じ Roster 上で。"
+    },
+    {
       "slug": "2026-08-22-agentwork-exchange",
       "date": "2026-08-22T00:00:00.000Z",
       "author": "TopDigg",

@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-24T20:56:53.007Z
+Generated: 2026-08-25T10:11:29.692Z
 
 ## Site Overview
 
@@ -21,11 +21,47 @@ We cover trending topics and business opportunities across Reddit, YouTube, and 
 
 ## Latest Blog Posts (10 most recent)
 
+### AI Agent Money Maker Guide: OpenClaw Money Maker Complete Analysis
+URL: https://topdigg.com/blog/2026-08-25-awesome-openclaw-money-maker | Date: 2026-08-25 | Author: TopDigg
+Tags: AI Agent, OpenClaw, Franklin, ClawRouter, x402, cryptocurrency
+
+Deep analysis of awesome-OpenClaw-Money-Maker project, covering Franklin, ClawRouter, x402 protocol and complete AI Agent money-making toolchain
+
+### PI项目AgentHarness v2设计全解析：持久化Agent运行框架的架构之美
+URL: https://topdigg.com/blog/2026-08-25-pi-agentharness-v2-analysis | Date: 2026-08-25 | Author: TopDigg
+Tags: AI Agent, PI项目, AgentHarness, 框架设计, TypeScript
+
+深度解析PI项目AgentHarness v2设计文档，涵盖Session、Lanes、Operations、Steps、Records等核心概念，以及持久化、恢复、并发控制等关键机制
+
+### pi-autoresearch实战指南：让AI成为你的自动化优化引擎
+URL: https://topdigg.com/blog/2026-08-25-pi-autoresearch-analysis | Date: 2026-08-25 | Author: TopDigg
+Tags: AI Agent, pi-autoresearch, 自动化优化, Karpathy, 实验循环
+
+详解pi-autoresearch项目，一个让AI Agent自主进行自动化优化的扩展，支持测试速度、Bundle大小、LLM训练等任意优化目标
+
+### Cumora Deep Dive: A Cross-Platform Collaboration Platform Where AI Agents Are First-Class Teammates — Product Shape, Hands-On Tutorial, and Design Philosophy
+URL: https://topdigg.com/blog/cumora-analysis | Date: 2026-08-25 | Author: TopDigg Research Team
+Tags: Cumora, yetone, AI Agent, Multi-Agent, BYOA, Claude Code, Codex, Cursor Agent, Grok Build, Kubernetes, React, Vite, Express, Postgres, Redis, Electron, Capacitor, Cloudflare Workers, OpenAI Responses API, Open Source, MIT, Agent Coordination, freshness gate, triage
+
+An in-depth look at yetone/cumora (GitHub open-source, MIT, v0.2.2). It walks through: ① project overview — a PWA+Electron+Capacitor tri-shell, Cumora Cloud+BYOA dual-brain cross-platform team chat where AI agents are first-class teammates; ② detailed tutorial — local setup (Postgres+Redis), brain s
+
+### AgentWork Exchange：让个人AI Agent成为可采购、可认证、可结算的数字劳动力
+URL: https://topdigg.com/blog/2026-08-22-agentwork-exchange | Date: 2026-08-22T00:00:00.000Z | Author: TopDigg
+Tags: AI Agent, AgentWork, 开源项目, 数字劳动力, 认证体系
+
+深入分析AgentWork Exchange开源项目，解读其设计哲学、核心概念、工作流程，并提供详细接入教程
+
 ### OpenAI Codex CLI Deep Dive: Your Smart Coding Partner in the Terminal
 URL: https://topdigg.com/blog/2026-08-21-codex-cli-analysis | Date: 2026-08-21 | Author: TopDigg
 Tags: Codex CLI, OpenAI, Coding Agent, Rust, CLI Tool, TUI, Programming
 
 Deep dive into OpenAI Codex CLI: a lightweight Rust-based coding agent that runs in your terminal. Supports conversational TUI and non-interactive exec mode. Core idea: make AI coding assistance as accessible as git.
+
+### Gitar AI Deep Dive: Code Review That Actually Fixes Your Code
+URL: https://topdigg.com/blog/2026-08-21-gitar-ai-analysis | Date: 2026-08-21 | Author: TopDigg
+Tags: Gitar, AI Code Review, CI Failure Analysis, Pull Request, GitHub, GitLab, Repository Rules, Automation
+
+Deep dive into Gitar AI code review tool: automatically fixes broken builds, failing tests, and code review feedback. Core idea: code review is not about leaving comments, it's about driving code fixes.
 
 ### Deep Dive into Harness: AI Agent's Climbing Rope - From Climbing Metaphor to Open Source Autonomy
 URL: https://topdigg.com/blog/2026-08-21-harness-analysis | Date: 2026-08-21 | Author: TopDigg
@@ -44,42 +80,6 @@ URL: https://topdigg.com/blog/2026-08-21-openbot-analysis | Date: 2026-08-21 | A
 Tags: OpenBot, CopilotKit, AI Agent, AG-UI, Agent Platform, LangGraph, CrewAI, Autonomy, Security Governance, MCP
 
 Deep dive into CopilotKit/OpenBot: an AI agent platform where each Bot gets its own computer with a real browser, filesystem and tools. Every action is decided before it happens and recorded after. Core idea: trustworthy AI coworker. Supports any AG-UI agent, CEL policy engine, full audit trail, Doc
-
-### From Tauri to Electron: A Founder's Painful Migration Retrospective
-URL: https://topdigg.com/blog/2026-08-20-paseo-electron-migration | Date: 2026-08-20 | Author: TopDigg
-Tags: Tech Selection, Electron, Tauri, Desktop Apps, Open Source, Paseo
-
-On May 28, 2026, Paseo founder Mo Boudra wrote 'I was wrong about Electron' — a candid retrospective on migrating Paseo from Tauri to Electron. This article dives deep into Paseo, its architecture, the migration pitfalls, and the engineering philosophy behind the decision.
-
-### TeamAI CLI Deep Analysis: Tencent's Git-Native Architecture for Unified Multi-Agent Team Collaboration
-URL: https://topdigg.com/blog/2026-08-20-teamai-cli-analysis | Date: 2026-08-20 | Author: TopDigg
-Tags: TeamAI, Agent Harness, AI Agent, Git, Claude Code, Tencent, Multi-Agent Collaboration, Team Knowledge Management, MCP
-
-TeamAI is Tencent's open-source Agent Harness tool that manages skills, rules, and knowledge through a Git-native approach, enabling cross-Agent (Claude Code/Codex/CodeBuddy/etc.) team collaboration. This article comprehensively analyzes its design philosophy, architecture, core commands, and provid
-
-### 机器之心AI日报｜OpenAI暂停RL训练、Anthropic冲刺IPO、具身智能大爆发
-URL: https://topdigg.com/blog/2026-08-20-jiqizhixin-daily | Date: 2026-08-20 | Author: TopDigg
-Tags: AI日报, 机器之心, OpenAI, Anthropic, 大模型, 具身智能, DeepSeek, Qwen, VLA, 世界模型, 机器人, ECCV
-
-机器之心每日AI资讯精选，覆盖模型发布、具身智能、学术进展、行业动态。本期要闻：OpenAI暂停强化学习训练、Anthropic年化营收突破650亿美元冲刺IPO、大模型竞赛进入周更模式、具身智能密集爆发。
-
-### Terax深度解析：7MB的AI原生终端开发环境，GitHub斩获9.1k星
-URL: https://topdigg.com/blog/2026-08-20-terax-ai-jiandian | Date: 2026-08-20 | Author: TopDigg
-Tags: Terax, AI原生, 终端模拟器, Tauri, Rust, AI Agent, 开源, CodeMirror, xterm.js, Claude Code
-
-Terax是crynta开源的AI原生开发环境终端，7MB大小融合Rust后端、WebGL终端、CodeMirror编辑器、Git管理和Agent编排。本文全面解析其设计哲学、架构、核心能力和详细教程。
-
-### TrueForge深度解析：开源Agent Harness如何以50%成本优势挑战Claude Managed Agents
-URL: https://topdigg.com/blog/2026-08-20-trueforge-jiandian | Date: 2026-08-20 | Author: TopDigg
-Tags: TrueForge, Agent Harness, AI Agent, Claude Managed Agents, MCP, 开源, 大模型, TrueFoundry, 具身智能, SKILL.md
-
-TrueForge是TrueFoundry开源的供应商中立Agent Harness运行时，支持任意模型、任意MCP工具、任意沙箱。本文全面解析其设计哲学、架构、核心能力、benchmark表现，以及详细教程。
-
-### AgentENV 深度解析：专为 AI Agent 打造的大规模运行环境平台
-URL: https://topdigg.com/blog/2026-08-19-agentenv-analysis | Date: 2026-08-19 | Author: TopDigg
-Tags: AgentENV, AI Agent, 运行环境, Firecracker, Moonshot AI, Kimi, 容器, 大规模, 虚拟机, 投机解码, 开源
-
-深入解析 AgentENV（3200+ Stars）：Moonshot AI 用于支撑 Kimi K3 模型 Agent 强化学习训练的环境运行底座。核心思想：让 Agent 环境像函数调用一样轻量。设计哲学：Firecracker 微 VM 提供内核级隔离；overlaybd 分层镜像实现 150 万镜像规模按需加载；50ms 冷启动 + 100ms 暂停；9.6 倍内存超配；E2B 零成本迁移。涵盖详细教程、架构分析、CLI 命令和部署方案。
 
 ## Twitter Analysis Reports
 
@@ -126,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 140 blog posts | 4 Twitter analyses
+End of llms.txt | 146 blog posts | 4 Twitter analyses

@@ -50,6 +50,42 @@
       "description": "详解pi-autoresearch项目，一个让AI Agent自主进行自动化优化的扩展，支持测试速度、Bundle大小、LLM训练等任意优化目标"
     },
     {
+      "slug": "cumora-analysis",
+      "date": "2026-08-25",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Cumora",
+        "yetone",
+        "AI Agent",
+        "Multi-Agent",
+        "BYOA",
+        "Claude Code",
+        "Codex",
+        "Cursor Agent",
+        "Grok Build",
+        "Kubernetes",
+        "React",
+        "Vite",
+        "Express",
+        "Postgres",
+        "Redis",
+        "Electron",
+        "Capacitor",
+        "Cloudflare Workers",
+        "OpenAI Responses API",
+        "Open Source",
+        "MIT",
+        "Agent Coordination",
+        "freshness gate",
+        "triage"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "Phân tích chuyên sâu Cumora: Nền tảng cộng tác đa nền tảng nơi AI Agent là thành viên hạng nhất của nhóm — Hình thức sản phẩm, Hướng dẫn chi tiết và Triết lý thiết kế",
+      "description": "Phân tích chuyên sâu yetone/cumora (GitHub mã nguồn mở, MIT, v0.2.2): ① Tổng quan dự án — ứng dụng chat nhóm đa nền tảng PWA+Electron+Capacitor ba shell đồng nguồn, Cumora Cloud+BYOA hai đường dẫn bộ não, AI Agent là thành viên first-class; ② Hướng dẫn chi tiết — khởi động cục bộ (Postgres+Redis), chuyển đổi bộ não (managed / Claude Code / Codex / Grok Build / Cursor Agent), các lớp phòng thủ phối hợp (freshness gate / atomic claim / small-brain triage), email thực (Resend ra + Cloudflare Email Routing vào), triết lý thiết kế Coordination; ③ Kiến trúc kỹ thuật — React 18 + Vite + TS + Tailwind frontend, Express + ws + Postgres + Redis backend, Kubernetes agent pods, Go FUSE mount workspace, sổ cái chi phí llm_calls; ④ 7 triết lý thiết kế — Agent là đồng đội không phải chatbot, Computer là hạng nhất, I/O surface tách rời, cộng tác không xung đột, sổ cái chi phí minh bạch, CI cưỡng chế big-brain guard, feature lifecycle khép kín. Luận điểm cốt lõi: coi AI Agent là thành viên nhóm thực sự chứ không phải công cụ phản hồi — họ có persona bền vững, trí nhớ, nhận việc, phối hợp với nhau, gửi/nhận email thật, tất cả trên cùng một Roster."
+    },
+    {
       "slug": "2026-08-22-agentwork-exchange",
       "date": "2026-08-22T00:00:00.000Z",
       "author": "TopDigg",

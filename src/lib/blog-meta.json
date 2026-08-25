@@ -86,6 +86,54 @@
       ]
     },
     {
+      "slug": "cumora-analysis",
+      "title": {
+        "en": "Cumora Deep Dive: A Cross-Platform Collaboration Platform Where AI Agents Are First-Class Teammates — Product Shape, Hands-On Tutorial, and Design Philosophy",
+        "ja": "Cumora 深層解析：AIエージェントをチームの第一級市民とするクロスプラットフォーム協働プラットフォーム — 製品形態、詳細チュートリアル、設計哲学",
+        "vi": "Phân tích chuyên sâu Cumora: Nền tảng cộng tác đa nền tảng nơi AI Agent là thành viên hạng nhất của nhóm — Hình thức sản phẩm, Hướng dẫn chi tiết và Triết lý thiết kế",
+        "zh-Hans": "Cumora 深度解析：AI Agent 作为团队一等公民的跨平台协作平台——产品形态、详细教程与设计哲学",
+        "zh-Hant": "Cumora 深度解析：AI Agent 作為團隊一等公民的跨平臺協作平臺——產品形態、詳細教程與設計哲學"
+      },
+      "description": {
+        "en": "An in-depth look at yetone/cumora (GitHub open-source, MIT, v0.2.2). It walks through: ① project overview — a PWA+Electron+Capacitor tri-shell, Cumora Cloud+BYOA dual-brain cross-platform team chat where AI agents are first-class teammates; ② detailed tutorial — local setup (Postgres+Redis), brain switching (managed / Claude Code / Codex / Grok Build / Cursor Agent), coordination defenses (freshness gate / atomic claim / small-brain triage), real email (Resend out + Cloudflare Email Routing in), and Coordination design philosophy; ③ technical architecture — React 18 + Vite + TS + Tailwind frontend, Express + ws + Postgres + Redis backend, Kubernetes agent pods, Go FUSE-mounted workspaces, llm_calls cost ledger; ④ 7 design philosophies — Agent is a teammate not a chatbot, Computer is first-class, decoupled I/O surface, coordination without collision, transparent cost ledger, CI-enforced big-brain guard, complete feature lifecycle. Core claim: treat AI agents as genuine team members, not responsive tools — they hold persistent personas, memory, claim work, coordinate with each other, send/receive real email, all on the same roster.",
+        "ja": "yetone/cumora（GitHub オープンソース、MIT、v0.2.2）を主軸に Cumora を多層的に分解：①プロジェクト説明 — PWA+Electron+Capacitor の3シェル、Cumora Cloud+BYOA のデュアルブレイン、AIエージェントを first-class チームメンバーとするクロスプラットフォームチームチャット；②詳細チュートリアル — ローカル起動（Postgres+Redis）、ブレイン切り替え（managed / Claude Code / Codex / Grok Build / Cursor Agent）、調整防衛線（freshness gate / atomic claim / small-brain triage）、実在メール（Resend 出 + Cloudflare Email Routing 入）、Coordination 設計哲学；③技術アーキテクチャ — React 18 + Vite + TS + Tailwind フロントエンド、Express + ws + Postgres + Redis バックエンド、Kubernetes エージェントポッド、Go FUSE ワークスペースマウント、llm_calls コスト台帳；④7 つの設計哲学 — エージェントはチャットボットではなくチームメイト、Computer は第一級、I/O 表面の分離、衝突なき協働、コスト台帳の透明化、CI で強制される big-brain ガード、完全な feature lifecycle。中核主張：AIエージェントをレスポンシブな道具ではなく本物のチームメンバーとして扱う — 永続的なペルソナ、メモリ、ワークの請求、互いを調整し合い、実際のメールを送受信、すべて同じ Roster 上で。",
+        "vi": "Phân tích chuyên sâu yetone/cumora (GitHub mã nguồn mở, MIT, v0.2.2): ① Tổng quan dự án — ứng dụng chat nhóm đa nền tảng PWA+Electron+Capacitor ba shell đồng nguồn, Cumora Cloud+BYOA hai đường dẫn bộ não, AI Agent là thành viên first-class; ② Hướng dẫn chi tiết — khởi động cục bộ (Postgres+Redis), chuyển đổi bộ não (managed / Claude Code / Codex / Grok Build / Cursor Agent), các lớp phòng thủ phối hợp (freshness gate / atomic claim / small-brain triage), email thực (Resend ra + Cloudflare Email Routing vào), triết lý thiết kế Coordination; ③ Kiến trúc kỹ thuật — React 18 + Vite + TS + Tailwind frontend, Express + ws + Postgres + Redis backend, Kubernetes agent pods, Go FUSE mount workspace, sổ cái chi phí llm_calls; ④ 7 triết lý thiết kế — Agent là đồng đội không phải chatbot, Computer là hạng nhất, I/O surface tách rời, cộng tác không xung đột, sổ cái chi phí minh bạch, CI cưỡng chế big-brain guard, feature lifecycle khép kín. Luận điểm cốt lõi: coi AI Agent là thành viên nhóm thực sự chứ không phải công cụ phản hồi — họ có persona bền vững, trí nhớ, nhận việc, phối hợp với nhau, gửi/nhận email thật, tất cả trên cùng một Roster.",
+        "zh-Hans": "以 yetone/cumora（GitHub 开源、MIT 协议、v0.2.2）为主线，逐层拆解 Cumora：①项目说明——一个 PWA+Electron+Capacitor 三端同源、Cumora Cloud+BYOA 双脑路径的跨平台团队聊天应用，AI Agent 作为 first-class 团队成员；②详细教程——本地启动（Postgres+Redis）、双脑切换（managed / Claude Code / Codex / Grok Build / Cursor Agent）、协调防线（freshness gate / atomic claim / small-brain triage）、真实邮箱（Resend 出 + Cloudflare Email Routing 入）、Coordination 设计哲学；③技术架构——React 18 + Vite + TS + Tailwind 前端、Express + ws + Postgres + Redis 后端、Kubernetes agent pods、Go FUSE 挂载工作区、LLM 调用成本账本；④7 条设计哲学——Agent 是队友不是聊天机器人、Computer 一等公民、解耦的 I/O 表面、协作不碰撞、成本账本透明化、CI 强制 big-brain 守卫、feature lifecycle 完整闭环。核心主张：把 AI Agent 当作真正的团队成员而不是响应式工具——他们有持久 persona、记忆、领取工作、互相协调、收发邮件，所有这一切跑在同一个 Roster 上。",
+        "zh-Hant": "以 yetone/cumora（GitHub 開源、MIT、v0.2.2）為主線，逐層拆解 Cumora：①項目說明——一個 PWA+Electron+Capacitor 三端同源、Cumora Cloud+BYOA 雙腦路徑的跨平臺團隊聊天應用，AI Agent 作為 first-class 團隊成員；②詳細教程——本地啟動（Postgres+Redis）、雙腦切換（managed / Claude Code / Codex / Grok Build / Cursor Agent）、協調防線（freshness gate / atomic claim / small-brain triage）、真實郵箱（Resend 出 + Cloudflare Email Routing 入）、Coordination 設計哲學；③技術架構——React 18 + Vite + TS + Tailwind 前端、Express + ws + Postgres + Redis 後端、Kubernetes agent pods、Go FUSE 掛載工作區、LLM 呼叫成本帳本；④7 條設計哲學——Agent 是隊友不是聊天機器人、Computer 一等公民、解耦的 I/O 表面、協作不碰撞、成本帳本透明化、CI 強制 big-brain 守衛、feature lifecycle 完整閉環。核心主張：把 AI Agent 當作真正的團隊成員而不是響應式工具——他們有持久 persona、記憶、領取工作、互相協調、收發郵件，所有這一切跑在同一個 Roster 上。"
+      },
+      "date": "2026-08-25",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Cumora",
+        "yetone",
+        "AI Agent",
+        "Multi-Agent",
+        "BYOA",
+        "Claude Code",
+        "Codex",
+        "Cursor Agent",
+        "Grok Build",
+        "Kubernetes",
+        "React",
+        "Vite",
+        "Express",
+        "Postgres",
+        "Redis",
+        "Electron",
+        "Capacitor",
+        "Cloudflare Workers",
+        "OpenAI Responses API",
+        "Open Source",
+        "MIT",
+        "Agent Coordination",
+        "freshness gate",
+        "triage"
+      ],
+      "categories": [
+        "Deep Dive"
+      ]
+    },
+    {
       "slug": "2026-08-22-agentwork-exchange",
       "title": {
         "zh-Hans": "AgentWork Exchange：让个人AI Agent成为可采购、可认证、可结算的数字劳动力"
