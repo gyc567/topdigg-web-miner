@@ -17,6 +17,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import http from "node:http";
+import os from "node:os";
 import { fileURLToPath } from "node:url";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -34,6 +35,14 @@ const READY_WAIT_MS = 500;
 const WAIT_TIMEOUT_MS = Number(process.env.PRERENDER_WAIT_TIMEOUT_MS) || 60_000;
 // Detail pages (blog/ai-daily/twitter post) load big data; index pages are fast.
 const DETAIL_ROUTE_RE = /^\/(blog|twitter|ai-daily)\/[^/]+\/?$/;
+// Worker pool size for concurrent prerender. Each worker owns one puppeteer page
+// that reuses the same HTTP cache + connection pool across routes. 4 is a good
+// default — enough parallelism to overlap chromium work without blowing memory
+// (each page ≈ 100–300 MB resident).
+const POOL_SIZE = Math.max(
+  2,
+  Math.min(Number(process.env.PRERENDER_POOL_SIZE) || 4, os.cpus().length),
+);
 
 function isDetailRoute(route) {
   return DETAIL_ROUTE_RE.test(route);
@@ -56,7 +65,7 @@ async function loadBrowser() {
   }
   const puppeteer = (await import("puppeteer")).default;
   return puppeteer.launch({
-    headless: "new",
+    headless: true,
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
   });
 }
@@ -69,25 +78,54 @@ function log(...args) {
 }
 
 function serveStatic() {
+  // In-process file cache: same path served from many puppeteer pages would
+  // otherwise re-stat + re-open + re-read per request. Keyed by absolute path,
+  // invalidated by mtime (rebuilds change mtime on every dist file).
+  const fileCache = new Map(); // filePath -> { buf: Buffer, mtimeMs: number, size: number }
+  function readCached(filePath) {
+    const stat = fs.statSync(filePath); // throws if missing
+    const cached = fileCache.get(filePath);
+    if (cached && cached.mtimeMs === stat.mtimeMs) return cached;
+    const buf = fs.readFileSync(filePath);
+    const entry = { buf, mtimeMs: stat.mtimeMs, size: stat.size };
+    fileCache.set(filePath, entry);
+    return entry;
+  }
+
+  // Hashed Vite assets (e.g. /assets/index-abc123.js) are immutable — long
+  // max-age lets the puppeteer HTTP cache serve them on the second route visit
+  // without re-reading disk. index.html stays no-cache so re-deploys are picked up.
+  function isHashedAsset(name) {
+    return /\/assets\/[^/]*-[A-Za-z0-9_-]{6,}\.(js|css|woff2?|png|jpg|jpeg|webp|svg)$/.test(
+      `/${name}`,
+    );
+  }
+
   const server = http.createServer((req, res) => {
     let urlPath = decodeURIComponent((req.url || "/").split("?")[0]);
     if (urlPath === "/" || urlPath === "") urlPath = "/index.html";
     let filePath = path.join(DIST, urlPath);
 
-    // 目录 → 找 index.html
-    if (fs.existsSync(filePath) && fs.statSync(filePath).isDirectory()) {
-      filePath = path.join(filePath, "index.html");
-    }
-    // SPA fallback：如果文件不存在，落回 index.html（SPA shell）
-    // 但 404 路径会被标记，让 puppeteer 抓到的 HTML 标记为 404
-    if (!fs.existsSync(filePath) || !fs.statSync(filePath).isFile()) {
-      const notFoundMarker = urlPath !== "/notfound";
-      filePath = path.join(DIST, "index.html");
-      if (notFoundMarker) {
-        res.statusCode = 200; // SPA shell，仍为 200（保持原行为不变）
+    let entry;
+    try {
+      // 目录 → 找 index.html
+      if (fs.existsSync(filePath) && fs.statSync(filePath).isDirectory()) {
+        filePath = path.join(filePath, "index.html");
       }
-    } else {
+      entry = readCached(filePath);
       res.statusCode = 200;
+    } catch {
+      // SPA fallback: 不存在 → 落回 index.html (SFR shell)
+      filePath = path.join(DIST, "index.html");
+      try {
+        entry = readCached(filePath);
+        // 不存在的路径仍然返回 200（SPA shell），与原行为一致
+        res.statusCode = 200;
+      } catch {
+        res.statusCode = 404;
+        res.end("not found");
+        return;
+      }
     }
 
     const ext = path.extname(filePath).toLowerCase();
@@ -108,8 +146,15 @@ function serveStatic() {
     }[ext] || "application/octet-stream";
 
     res.setHeader("Content-Type", mime);
-    res.setHeader("Cache-Control", "public, max-age=0");
-    fs.createReadStream(filePath).pipe(res);
+    // Hashed Vite assets are content-addressed → safe to cache forever.
+    // index.html and unknown paths stay no-cache so they reflect rebuilds.
+    if (isHashedAsset(urlPath)) {
+      res.setHeader("Cache-Control", "public, max-age=31536000, immutable");
+    } else {
+      res.setHeader("Cache-Control", "no-cache");
+    }
+    res.setHeader("Content-Length", entry.size);
+    res.end(entry.buf);
   });
   return new Promise((resolve) =>
     server.listen(SERVER_PORT, SERVER_HOST, () => resolve(server))
@@ -124,8 +169,7 @@ function routeToOutputPath(route) {
   return [parts.join("/"), "index.html"];
 }
 
-async function renderRoute(browser, route) {
-  const page = await browser.newPage();
+async function renderRoute(page, route) {
   const url = `${BASE_URL}${route}`;
   let html;
   const detail = isDetailRoute(route);
@@ -152,8 +196,6 @@ async function renderRoute(browser, route) {
   } catch (err) {
     log(`  WARN  ${route}  -> ${err.message?.slice(0, 120)}`);
     html = await page.content(); // 抓部分 HTML 兜底
-  } finally {
-    await page.close();
   }
   return html;
 }
@@ -182,36 +224,62 @@ async function main() {
   log(`static server: ${BASE_URL}`);
 
   let ok = 0, fail = 0, partial = 0;
-  for (const route of prerenderRoutes) {
+
+  // Worker pool: each worker owns ONE puppeteer page for its entire lifetime.
+  // Reusing the same page across routes gives us a hot HTTP/2 connection to the
+  // static server, browser-level HTTP cache for hashed Vite assets, and avoids
+  // the ~200ms newPage() teardown cost per route.
+  const queue = prerenderRoutes.slice();
+  const total = queue.length;
+  let nextIdx = 0;
+
+  async function worker(workerId) {
+    const page = await browser.newPage();
     try {
-      const html = await renderRoute(browser, route);
-      const [dir, file] = routeToOutputPath(route);
-      const outDir = path.join(DIST, dir);
-      const outFile = path.join(outDir, file);
-      // Detect incomplete render: "Loading…" text still present means
-      // the page never finished hydrating. Don't write a partial file —
-      // a static SPA shell with "Loading…" is worse for SEO than letting
-      // the route fall back to client-side rendering at request time.
-      const stillLoading = html.includes("Loading…") && !html.includes("<h1");
-      if (stillLoading) {
-        partial++;
-        log(`  ⚠ ${route} → skipped (still loading after timeout)`);
-        continue;
-      }
-      fs.mkdirSync(outDir, { recursive: true });
-      fs.writeFileSync(outFile, html);
-      ok++;
-      log(`  ✓ ${route} → ${path.relative(DIST, outFile)} (${html.length} bytes)`);
-    } catch (err) {
-      fail++;
-      log(`  ✗ ${route}: ${err.message?.slice(0, 80)}`);
+      await page.setCacheEnabled(true);
+    } catch {
+      // Older puppeteer: no-op, cache just won't be enabled for this page.
     }
+    while (true) {
+      const idx = nextIdx++;
+      if (idx >= total) break;
+      const route = queue[idx];
+      try {
+        const html = await renderRoute(page, route);
+        const [dir, file] = routeToOutputPath(route);
+        const outDir = path.join(DIST, dir);
+        const outFile = path.join(outDir, file);
+        // Detect incomplete render: "Loading…" text still present means
+        // the page never finished hydrating. Don't write a partial file —
+        // a static SPA shell with "Loading…" is worse for SEO than letting
+        // the route fall back to client-side rendering at request time.
+        const stillLoading = html.includes("Loading…") && !html.includes("<h1");
+        if (stillLoading) {
+          partial++;
+          log(`  ⚠ [w${workerId}] ${route} → skipped (still loading after timeout)`);
+          continue;
+        }
+        fs.mkdirSync(outDir, { recursive: true });
+        fs.writeFileSync(outFile, html);
+        ok++;
+        log(`  ✓ [w${workerId}] ${route} → ${path.relative(DIST, outFile)} (${html.length} bytes)`);
+      } catch (err) {
+        fail++;
+        log(`  ✗ [w${workerId}] ${route}: ${err.message?.slice(0, 80)}`);
+      }
+    }
+    await page.close();
   }
+
+  log(`worker pool: ${POOL_SIZE} pages (set PRERENDER_POOL_SIZE to override)`);
+  await Promise.all(
+    Array.from({ length: POOL_SIZE }, (_, i) => worker(i)),
+  );
 
   await browser.close();
   server.close();
 
-  log(`done: ${ok} ok, ${partial} skipped, ${fail} fail`);
+  log(`done: ${ok} ok, ${partial} skipped, ${fail} fail (${POOL_SIZE} workers)`);
   // Non-zero exit only when *none* of the routes succeeded
   process.exit(ok > 0 ? 0 : 1);
 }
