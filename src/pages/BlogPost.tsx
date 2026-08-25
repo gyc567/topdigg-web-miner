@@ -18,7 +18,7 @@ function RelatedPosts({ currentSlug, tags }: { currentSlug: string; tags: string
   const [allPosts, setAllPosts] = useState<BlogMeta[]>([]);
 
   useEffect(() => {
-    blogDataSource.getPosts().then(setAllPosts);
+    setAllPosts(blogDataSource.getPosts());
   }, []);
 
   const related = useMemo(() => {

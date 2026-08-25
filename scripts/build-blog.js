@@ -9,6 +9,7 @@ const __dirname = path.dirname(__filename);
 const contentDir = path.join(__dirname, '../content/blog');
 const dataOutputFile = path.join(__dirname, '../src/lib/blog-data.json');
 const metaOutputFile = path.join(__dirname, '../src/lib/blog-meta.json');
+const perSlugDir = path.join(__dirname, '../src/lib/blog-data');
 
 function scanDirectory(dir, locale = null) {
   const items = [];
@@ -101,6 +102,26 @@ function generateBlogData() {
     const sizeKB = Math.round(Buffer.byteLength(JSON.stringify(localizedMeta), 'utf8') / 1024);
     console.log(`✅ Generated blog-meta-${locale}.json (${sizeKB} KB, ${localizedMeta.posts.length} posts)`);
   }
+
+  // Generate per-slug content files for lazy detail-page loading.
+  // Each detail page imports only its own ~80-120 KB file instead of the
+  // 9.9 MB monolithic blog-data.json. This slashes the network + parse
+  // cost of prerendering /blog/:slug routes.
+  if (!fs.existsSync(perSlugDir)) {
+    fs.mkdirSync(perSlugDir, { recursive: true });
+  }
+  // Clean stale per-slug files (in case a post was deleted).
+  for (const f of fs.readdirSync(perSlugDir)) {
+    if (f.endsWith('.json')) fs.unlinkSync(path.join(perSlugDir, f));
+  }
+  for (const post of sortedPosts) {
+    const { categories, slug, ...rest } = post;
+    fs.writeFileSync(
+      path.join(perSlugDir, `${slug}.json`),
+      JSON.stringify({ slug, ...rest }, null, 2)
+    );
+  }
+  console.log(`✅ Generated per-slug content (${sortedPosts.length} files in src/lib/blog-data/)`);
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
