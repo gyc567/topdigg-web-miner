@@ -28,7 +28,16 @@ const SERVER_PORT = 4173;
 const SERVER_HOST = "127.0.0.1";
 const BASE_URL = `http://${SERVER_HOST}:${SERVER_PORT}`;
 const RENDER_EVENT = "render-event";
-const READY_WAIT_MS = 250;
+const READY_WAIT_MS = 500;
+// Vercel sparticuz chromium is much slower than local; need longer timeouts
+// for routes that lazy-load 9.9 MB blog-data.json + 9.5 MB ai-daily-data.
+const WAIT_TIMEOUT_MS = Number(process.env.PRERENDER_WAIT_TIMEOUT_MS) || 60_000;
+// Detail pages (blog/ai-daily/twitter post) load big data; index pages are fast.
+const DETAIL_ROUTE_RE = /^\/(blog|twitter|ai-daily)\/[^/]+\/?$/;
+
+function isDetailRoute(route) {
+  return DETAIL_ROUTE_RE.test(route);
+}
 const IS_VERCEL = process.env.VERCEL === "1";
 
 // Local: full puppeteer + system chromium. Vercel: sparticuz chromium.
@@ -119,22 +128,29 @@ async function renderRoute(browser, route) {
   const page = await browser.newPage();
   const url = `${BASE_URL}${route}`;
   let html;
+  const detail = isDetailRoute(route);
   try {
-    await page.goto(url, { waitUntil: "networkidle0", timeout: 30_000 });
-    // 等待 render-event 派发（main.tsx 触发）
+    await page.goto(url, { waitUntil: "networkidle0", timeout: 60_000 });
+    // 等待真正内容渲染。Layout.tsx 一直渲染 <main>，所以 <main> 太宽泛；
+    // 详情页要等 <article>（只有数据加载完才出现），索引/静态页等 <h1>。
+    // 同时确保 Suspense 的 "Loading…" 兜底已消失。
     await page.waitForFunction(
-      (eventName) => {
-        // 简单检测：DOM 已有 <article> 或包含数据已被注入
-        return document.querySelector("article, main, h1") !== null;
+      (isDetail) => {
+        const hasLoading = document.body && document.body.innerText.includes("Loading…");
+        if (hasLoading) return false;
+        if (isDetail) {
+          return document.querySelector("article") !== null;
+        }
+        return document.querySelector("h1") !== null;
       },
-      { timeout: 15_000 },
-      RENDER_EVENT
+      { timeout: WAIT_TIMEOUT_MS },
+      detail
     );
-    // 再延 250ms 确保 react-helmet-async effect 已写完 head
+    // 再延一会儿确保 react-helmet-async effect 已写完 head
     await new Promise((r) => setTimeout(r, READY_WAIT_MS));
     html = await page.content();
   } catch (err) {
-    log(`  WARN  ${route}  -> ${err.message?.slice(0, 100)}`);
+    log(`  WARN  ${route}  -> ${err.message?.slice(0, 120)}`);
     html = await page.content(); // 抓部分 HTML 兜底
   } finally {
     await page.close();
@@ -165,13 +181,23 @@ async function main() {
   const server = await serveStatic();
   log(`static server: ${BASE_URL}`);
 
-  let ok = 0, fail = 0;
+  let ok = 0, fail = 0, partial = 0;
   for (const route of prerenderRoutes) {
     try {
       const html = await renderRoute(browser, route);
       const [dir, file] = routeToOutputPath(route);
       const outDir = path.join(DIST, dir);
       const outFile = path.join(outDir, file);
+      // Detect incomplete render: "Loading…" text still present means
+      // the page never finished hydrating. Don't write a partial file —
+      // a static SPA shell with "Loading…" is worse for SEO than letting
+      // the route fall back to client-side rendering at request time.
+      const stillLoading = html.includes("Loading…") && !html.includes("<h1");
+      if (stillLoading) {
+        partial++;
+        log(`  ⚠ ${route} → skipped (still loading after timeout)`);
+        continue;
+      }
       fs.mkdirSync(outDir, { recursive: true });
       fs.writeFileSync(outFile, html);
       ok++;
@@ -185,7 +211,7 @@ async function main() {
   await browser.close();
   server.close();
 
-  log(`done: ${ok} ok, ${fail} fail`);
+  log(`done: ${ok} ok, ${partial} skipped, ${fail} fail`);
   // Non-zero exit only when *none* of the routes succeeded
   process.exit(ok > 0 ? 0 : 1);
 }
