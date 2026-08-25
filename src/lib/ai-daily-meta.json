@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-08-25-ai-daily",
+      "title": {
+        "en": "GPT-5.6 Launches on Kiro, Delivering 82% Cost Reduction for Developers",
+        "ja": "GPT-5.6がKiroに登場、開発者のコスト効率を82%改善",
+        "vi": "GPT-5.6 Ra Mắt Trên Kiro, Giảm 82% Chi Phí Cho Nhà Phát Triển",
+        "zh-Hans": "GPT-5.6 登陆 Kiro，为开发者提升性价比",
+        "zh-Hant": "GPT-5.6 登陸 Kiro，為開發者提升性價比"
+      },
+      "description": {
+        "en": "GPT-5.6 model family arrives on Kiro, achieving ~82% cost reduction in Terminal-Bench 2.1. NVIDIA Vera Rubin NVL72 delivers 30x workload per watt improvement.",
+        "ja": "GPT-5.6モデルファミリーがKiroに登場し、Terminal-Bench 2.1で約82%のコスト削減を実現。NVIDIA Vera Rubin NVL72はワットあたり30倍のワークロード向上。",
+        "vi": "Dòng mô hình GPT-5.6 đã có mặt trên Kiro, đạt giảm ~82% chi phí hoàn thành tác vụ trong Terminal-Bench 2.1. NVIDIA Vera Rubin NVL72 tăng 30 lần khối lượng công việc trên mỗi watt.",
+        "zh-Hans": "GPT-5.6 模型家族现已登陆 Kiro，在 Terminal-Bench 2.1 测试中完成任务成本降低约 82%。NVIDIA Vera Rubin NVL72 每瓦特工作量提升至 30 倍。",
+        "zh-Hant": "GPT-5.6 模型家族現已登陸 Kiro，在 Terminal-Bench 2.1 測試中完成任務成本降低約 82%。NVIDIA Vera Rubin NVL72 每瓦特工作量提升至 30 倍。"
+      },
+      "date": "2026-08-25",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": {
+            "en": "Bit Finance",
+            "ja": "ビットファイナンス",
+            "vi": "Bit Finance",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特財商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-08-24-ai-daily",
       "title": {
         "en": "AI Security Crisis: Rogue Agent Breaks Into Open-Source Ecosystem -- A College Student Becomes Whistleblower",

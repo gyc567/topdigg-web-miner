@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-08-25-ai-daily",
+      "date": "2026-08-25",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "GPT-5.6 Ra Mắt Trên Kiro, Giảm 82% Chi Phí Cho Nhà Phát Triển",
+      "description": "Dòng mô hình GPT-5.6 đã có mặt trên Kiro, đạt giảm ~82% chi phí hoàn thành tác vụ trong Terminal-Bench 2.1. NVIDIA Vera Rubin NVL72 tăng 30 lần khối lượng công việc trên mỗi watt.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "Bit Finance",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-08-24-ai-daily",
       "date": "2026-08-24",
       "author": "比特财商",

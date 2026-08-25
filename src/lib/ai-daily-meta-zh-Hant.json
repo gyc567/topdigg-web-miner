@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-08-25-ai-daily",
+      "date": "2026-08-25",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "GPT-5.6 登陸 Kiro，為開發者提升性價比",
+      "description": "GPT-5.6 模型家族現已登陸 Kiro，在 Terminal-Bench 2.1 測試中完成任務成本降低約 82%。NVIDIA Vera Rubin NVL72 每瓦特工作量提升至 30 倍。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "比特財商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-08-24-ai-daily",
       "date": "2026-08-24",
       "author": "比特财商",
