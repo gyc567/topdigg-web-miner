@@ -134,25 +134,15 @@ export const siteConfig = {
         }, 
         href: "/twitter" 
       },
-      { 
+      {
         label: {
           "zh-Hans": "外链导航",
           "zh-Hant": "外鏈導航",
           "en": "External Links",
           "ja": "外部リンク",
           "vi": "Liên kết ngoài"
-        }, 
-        href: "/external-links"
-      },
-      {
-        label: {
-          "zh-Hans": "关于我们",
-          "zh-Hant": "關於我們",
-          "en": "About",
-          "ja": "私たちについて",
-          "vi": "Về chúng tôi"
         },
-        href: "/about"
+        href: "/external-links"
       },
     ] as NavLink[],
     mySites: [
