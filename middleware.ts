@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from "vercel/node";
+import { NextRequest, NextResponse } from "next/server";
 
 // Valid SPA route prefixes (must not return 404)
 const VALID_ROUTES = new Set([
