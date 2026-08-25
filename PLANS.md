@@ -4,12 +4,13 @@
 
 ## Active Plans
 
-- [ai-daily 模块国际化补全（5 语言）](plans/ai-daily-i18n-repair.md) — 待用户确认方案
-- [cc-master（nemori-ai/cc-master）深度解析博客（5 语言）](plans/cc-master-blog.md) — 进行中
-- [aura（gyc567/aura）深度解析博客（5 语言）](plans/aura-blog.md) — 进行中
+_(无 — 全部施工中计划见 [Completed Plans](#completed-plans))_
 
 ## Completed Plans
 
+- [aura（gyc567/aura）深度解析博客（5 语言）](plans/aura-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
+- [cc-master（nemori-ai/cc-master）深度解析博客（5 语言）](plans/cc-master-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
+- [ai-daily 模块国际化补全（5 语言）](plans/ai-daily-i18n-repair.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
 - [holaOS（holaboss-ai/holaOS）深度解析博客（5 语言）](plans/holaos-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
 
 - [Raft（raft.build Agent 原生协作平台）深度解析博客（5 语言）](plans/raft-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
