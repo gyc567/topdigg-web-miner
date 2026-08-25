@@ -1,0 +1,572 @@
+---
+title: '如何做出伟大的工作？Paul Graham 用 15 年思考写成的行动指南'
+date: "2026-08-26"
+description: "YC 创始人 Paul Graham 2023 年新作全面解析：如何找到值得投入的事业、如何产生原创性想法、如何保持创造力。这可能是关于创造力最诚实、最全面的文章。"
+tags:
+  - Paul Graham
+  - 创造力
+  - 职业生涯
+  - 深度工作
+  - 创业智慧
+  - YC
+  - 原创性
+  - 设计哲学
+categories:
+  - 思维方法
+  - 职业发展
+  - 创业智慧
+
+
+> 作者：比特财商
+> 本文首发于微信公众号「比特财商」
+
+---
+
+## 引言：一份横跨所有领域的「伟大工作配方」
+
+2023年7月，Paul Graham 发布了新文章 **《How to Do Great Work》**。这距离他上一篇文章已有近四年之久。
+
+Paul Graham 是谁？他是 Y Combinator 的联合创始人， Lisp 语言专家， essays 领域的现象级作家。读过《Hackers & Painters》的人都知道，他的文字有一种罕见的品质：**用最简单的英语，说出最反常识的道理**。
+
+这篇文章的特殊之处在于：它不是一篇寻常的「成功学鸡汤」。Paul Graham 做了一件很 Graham 的事——**他收集了各行各业做出伟大工作的人的经验，然后找出它们的交集**。画家、物理学家、数学家、喜剧演员、企业家……他们的共同点是什么？
+
+答案出乎意料：**它不只是一个叫"努力工作"的点**。它有一个明确的形状，而这个形状可以拆解成一套方法论。
+
+这篇文章的篇幅很长（英文原版约 18000 词），结构极为缜密。今天，我把它完整翻译成中文，并加入归纳总结、项目解析和实操指南，形成一份你真正能用的「伟大工作行动手册」。
+
+---
+
+## 一、项目概述：Paul Graham 想解决什么问题
+
+### 1.1 背景
+
+Paul Graham 在文章开篇描述了他的动机：
+
+> 如果你收集各行各业「做出伟大工作」的技巧清单，它们的交集会长什么样？
+
+这个问题的有趣之处在于：**不同领域的方法论表面看起来完全不同**。画家靠灵感，物理学家靠实验，程序员靠代码。但 Paul Graham 相信，在这些差异之下存在一个共同的底层结构。
+
+### 1.2 核心结论预览
+
+经过系统分析，Paul Graham 找到了这个交集，并将其总结为 **四个步骤**：
+
+```
+第一步：选择领域
+第二步：学到前沿
+第三步：注意到缺口
+第四步：探索有希望的缺口
+```
+
+这四步看起来简单，但每一步都藏着大量细节和陷阱。以下我们逐一拆解。
+
+---
+
+## 二、核心思想详解
+
+### 2.1 第一步：选择领域——找到「你天然擅长 + 深度感兴趣」的事情
+
+Paul Graham 认为，一件值得做的事必须同时满足三个条件：
+
+- **你天然有天赋**（natural aptitude）
+- **你深度感兴趣**（deep interest）
+- **有做出伟大工作的空间**（scope to do great work）
+
+第三条其实不需要太担心——**有野心的人往往对第三条过于保守**。所以实际上，你只需要找到前两条的交集。
+
+**问题在于：大多数人不知道自己喜欢什么、能做什么。**
+
+Paul Graham 的建议是：**通过工作来发现你要做什么**。去猜，去尝试，去犯错。他甚至说：
+
+> Some kinds of work you end up doing may not even exist yet.
+
+你最终要做的工作可能还不存在。这句话在 2023 年看尤其正确——大模型、AI 编程这些领域，十年前根本不存在。
+
+#### 实践建议
+
+- **发展自己的项目习惯**：不要让"工作"变成别人让你做的事。如果有一天你做出了伟大工作，它很可能来自你自己的项目。
+- **问自己一个关键问题**：你对什么到了「过度好奇」的程度——好奇到大多数人会觉得无聊？那个东西就是你的方向。
+- **跟随兴奋感**：Paul Graham 说，有一种「兴奋的好奇心」既是伟大工作的引擎，也是它的舵轮。它不仅驱动你，而且会告诉你应该做什么。
+
+### 2.2 第二步：学习到前沿——知识呈分形扩展
+
+当你找到了感兴趣的领域，下一步是学习足够多的知识，**让你到达该领域知识的前沿**。
+
+这里有一个反直觉的发现：**知识从远处看边缘是光滑的，但一旦你靠近，就会发现充满了缺口**。
+
+这就是「前沿」的真正含义——**不是已知的边界，而是已知与未知交界的地方**。在那里你能看到别人看不到的东西。
+
+#### 实践建议
+
+- **不要等到「准备好」再行动**：你永远不会完全准备好。在游泳中学习游泳。
+- **用「分形」思维理解知识**：知识不是线性积累的，它像分形一样不断扩展新的分支和细节。学习过程中你会不断发现新的可能性。
+
+### 2.3 第三步：注意到缺口——学会看到「理所当然」中的裂缝
+
+到了前沿之后，你需要**注意到知识中的缺口**——那些每个人都觉得理所当然、但实际上并不对的地方。
+
+Paul Graham 特别指出：
+
+> Many discoveries have come from asking questions about things that everyone else took for granted.
+
+很多伟大发现来自于对「人人认为理所当然」的事情提出疑问。
+
+这里他还提到了一个重要的信号：**如果答案看起来很奇怪，那往往是好事**。伟大的工作通常带有一种「奇异」的特质。
+
+#### 实践建议
+
+- **训练「异常检测」能力**：当你在学习某个领域时，注意那些「看起来不对」或「感觉少了什么」的地方。
+- **大胆追逐异常想法**：如果一个可能性被所有人忽视，但你有足够的专业知识说出他们到底遗漏了什么——这是一个你能找到的最好的赌注。
+- **拥抱奇异，不要制造它**：奇异应该自然出现，不要刻意去制造。
+
+### 2.4 第四步：探索缺口——发现新的「分形芽」
+
+发现了缺口之后，就是探索。Paul Graham 把这个过程描述为：
+
+> 你注意到知识的表面有一道裂缝，把它撬开，里面是一个全新的世界。
+
+这就是做出伟大工作的终极奖励：**发现一个新的分形芽**。
+
+#### 实践建议
+
+- **四步循环**：选择领域 → 学到前沿 → 注意到缺口 → 探索有希望的缺口。这个循环不断重复，贯穿整个职业生涯。
+- **第二步和第四步需要努力工作**：这一点无法绕过。经验证据的强度等同于死亡必然性的证据。
+
+---
+
+## 三、设计哲学：贯穿全文的底层原则
+
+### 3.1 好奇心是一切的核心
+
+Paul Graham 在文章末尾承认，如果让一个神谕用**一个词**来回答「做出伟大工作的秘诀」，他会赌「好奇心」。
+
+但这不是一个可以直接给建议的词。你不能命令自己好奇。然而你可以**培养它，让它驱动你**。
+
+好奇心的重要性体现在整篇文章中：
+
+- 它帮你**选择领域**
+- 它推你**学到前沿**
+- 它让你**注意到缺口**
+- 它驱动你**探索缺口**
+
+整个过程是一场与好奇心的舞蹈。
+
+### 3.2 三个最强大的动力：好奇心、愉悦、想要做点令人印象深刻的事
+
+Paul Graham 识别出了三种最强大的动力来源：
+
+1. **好奇心**（Curiosity）
+2. **愉悦**（Delight）
+3. **想要做点令人印象深刻的事**（The desire to do something impressive）
+
+当这三者汇聚在一起时，就是最强的组合。
+
+### 3.3 兴趣驱动你比勤勉更努力
+
+Paul Graham 的观点非常明确：
+
+> That's why it's essential to work on something you're deeply interested in. Interest will drive you to work harder than mere diligence ever could.
+
+这就是为什么找到深度感兴趣的领域如此重要。兴趣会驱动你比单纯的勤勉更努力。
+
+### 3.4 原创性不是过程，是思维习惯
+
+这是文章中最令人印象深刻的观点之一：
+
+> I've never liked the term "creative process." It seems misleading. Originality isn't a process, but a habit of mind. Original thinkers throw off new ideas about whatever they focus on, like an angle grinder throwing off sparks. They can't help it.
+
+原创性不是一个过程，而是一种思维习惯。有原创性的人无论关注什么都会不断抛出新想法，就像角向磨光机迸发火花一样，他们忍不住。
+
+### 3.5 好的新想法必须看起来「疯狂但正确」
+
+Paul Graham 提出了一个精妙的检验标准：
+
+> A good new idea has to seem bad to most people, or someone would have already explored it.
+
+一个好想法在大多数人眼里必须看起来不好，否则早就有人探索过了。所以你要找的是那种**「疯狂但正确」的想法**。
+
+怎么区分「疯狂而正确」和「仅仅是疯狂」？前者令人兴奋，蕴含丰富的含义；后者令人沮丧。
+
+### 3.6 严格 + 打破规则 = 最佳组合
+
+这是另一个反直觉的洞察：
+
+> In trivial matters strictness and rule-breaking are opposed. But in questions that really matter, only rule-breakers can be truly strict.
+
+在琐碎的事情上，严格和打破规则是对立的。但在真正重要的问题上，**只有打破规则的人才能真正做到严格**。
+
+爱因斯坦之所以能看出麦克斯韦方程式的疯狂含义，不是因为他在寻找新想法，而是因为他比别人更严格。
+
+### 3.7 问题选择比问题解决更重要
+
+这个观点可能是整篇文章最深刻的洞见之一：
+
+> Originality in choosing problems seems to matter even more than originality in solving them. That's what distinguishes the people who discover whole new fields.
+
+在**选择问题**上的原创性，似乎比在**解决问题**上的原创性更重要。这才是区分「发现全新领域的人」和普通高手的关键。
+
+很多人大大低估了一个好问题的价值：
+
+> People think big ideas are answers, but often the real insight was in the question.
+
+人们以为伟大的想法是答案，但真正的洞察往往在问题里。
+
+### 3.8 复制有正确和错误的方式
+
+作为初学者，复制是不可避免的，但有正确和错误之分：
+
+- **好的复制**：公开地复制，意识到自己在做什么
+- **坏的复制**：无意识地复制，只是沿着别人铺设的轨道滑行
+
+那句著名但经常被误引的话 **"Great artists steal"** 真正想说的是：**真正危险的复制是那种你没有意识到自己在复制**。
+
+### 3.9 不要试图有「独特的风格」
+
+Paul Graham 的建议是反直觉的：
+
+> Don't try to work in a distinctive style. Just try to do the best job you can; you won't be able to help doing it in a distinctive way.
+
+不要试图有独特的风格。只需要尽力把工作做到最好，你自然而然就会有独特的风格。
+
+**风格是做事情的一种独特方式的自然结果，而不是刻意追求来的**。刻意追求就是矫揉造作（affectation）。
+
+### 3.10 真诚（Earnestness）是核心品质
+
+Paul Graham 认为，避免矫揉造作的正向表达是 **真诚（earnestness）**。
+
+真诚的核心是**智识诚实（intellectual honesty）**。我们从小被教导诚实是一种无私的美德，但 Paul Graham 说：**它同时也是力量的源泉**。
+
+看到新的想法需要一双异常敏锐的真理之眼。如果你智识上不诚实，你怎么能有敏锐的真理之眼？
+
+---
+
+## 四、行动指南：如何把理论变成实践
+
+### 4.1 关于「做什么」的决策框架
+
+#### 不要等待系统告诉你该做什么
+
+Paul Graham 说得毫不客气：
+
+> They don't tell you, but I will: when it comes to figuring out what to work on, you're on your own.
+
+当涉及弄清楚该做什么工作时，**你是靠自己**。
+
+大多数教育系统假装这很容易——他们期望你在十几岁时就 commitment 到一个领域，而这远在你知道它真正是什么样的之前。
+
+#### 当你不确定时，优化「有趣性」
+
+> When in doubt, optimize for interestingness.
+
+当你不确定时，优化有趣性。随着你对一个领域的了解加深，它应该变得越来越有趣。如果不是，它可能不适合你。
+
+#### 敢于切换
+
+> But fields aren't people; you don't owe them any loyalty. If in the course of working on one thing you discover another that's more exciting, don't be afraid to switch.
+
+领域不是人，你不需要对它们忠诚。如果在做一个事情的过程中你发现了更令人兴奋的东西，不要害怕切换。
+
+### 4.2 关于「如何工作」的操作手册
+
+#### 时间管理：连续的大块时间
+
+> Ideally those hours will be contiguous. To the extent you can, try to arrange your life so you have big blocks of time to work in. You'll shy away from hard tasks if you know you might be interrupted.
+
+理想情况下，这些小时应该是连续的。尽可能安排你的生活，以便你有大块的时间工作。如果你知道可能会被打断，你会回避困难的任务。
+
+#### 启动工作的「激活能」
+
+> Work has a sort of activation energy, both per day and per project. And since this threshold is fake in the sense that it's higher than the energy required to keep going, it's ok to tell yourself a lie of corresponding magnitude to get over it.
+
+工作有一种「激活能」，无论是每天还是每个项目。因为这个门槛是假的——它比继续工作所需的能量更高——所以你可以对自己撒一个相应大小的谎来度过它。
+
+**Paul Graham 亲测有效的方法**：当早上不想工作时，他骗自己说「我只是看一下我目前做到哪里了」。五分钟后，他发现了什么看起来错误或不完整的地方，然后就开工了。
+
+#### 永远尝试完成你开始的事情
+
+> Try to finish what you start, though, even if it turns out to be more work than you expected. Finishing things is not just an exercise in tidiness or self-discipline. In many projects a lot of the best work happens in what was meant to be the final stage.
+
+尝试完成你开始的事情，即使它比你预期的需要更多的工作。完成事情不仅仅是一种整洁或自律的练习。在很多项目中，最好的工作发生在原本以为是最后阶段的时刻。
+
+#### 复合增长：一致性是关键
+
+> Writing a page a day doesn't sound like much, but if you do it every day you'll write a book a year. That's the key: consistency. People who do great things don't get a lot done every day. They get something done, rather than nothing.
+
+每天写一页听起来不多，但如果你每天都写，一年就是一本。这就是关键：**一致性**。做大事的人不是每天做很多，他们是有做而不是没做。
+
+复合增长的力量是指数级的，但它在早期感觉是平的。我们会低估早期的指数增长，这也是为什么大多数人没有坚持到拐点。
+
+#### 漫步思考：工作不只发生在你「努力工作」时
+
+> There's a kind of undirected thinking you do when walking or taking a shower or lying in bed that can be very powerful. By letting your mind wander a little, you'll often solve problems you were unable to solve by frontal attack.
+
+有一种非定向的思考——你在走路、洗澡或躺在床上时进行的——这可以非常强大。稍微让你的思绪漫游，你经常会解决那些正面对抗无法解决的问题。
+
+当然，这需要你先努力工作 daydreaming 才有素材可用。
+
+### 4.3 关于「如何产生原创想法」的深度指南
+
+#### 原创想法来自工作，而不是来自「尝试有原创想法」
+
+> Original ideas don't come from trying to have original ideas. They come from trying to build or understand something slightly too difficult.
+
+原创想法不是来自于尝试有原创想法。它们来自于尝试构建或理解稍微超出你能力的东西。
+
+#### 谈论和写作是产生想法的好方法
+
+> Talking or writing about the things you're interested in is a good way to generate new ideas. When you try to put ideas into words, a missing idea creates a sort of vacuum that draws it out of you.
+
+谈论或写作你感兴趣的东西是产生新想法的好方法。当你试图把想法用语言表达时，一个缺失的想法会产生一种真空，把你内在的想法吸出来。
+
+确实，有一种思考只能通过写作来完成。
+
+#### 改变背景可以帮助
+
+> If you visit a new place, you'll often find you have new ideas there. The journey itself often dislodges them. But you may not have to go far to get this benefit. Sometimes it's enough just to go for a walk.
+
+如果你去一个新的地方，你经常会发现那里有新想法。旅程本身经常会把它们震出来。但你可能不需要走很远就能获得这个好处。有时候只是散个步就够了。
+
+#### 广泛探索话题空间
+
+> It also helps to travel in topic space. You'll have more new ideas if you explore lots of different topics, partly because it gives the angle grinder more surface area to work on, and partly because analogies are an especially fruitful source of new ideas.
+
+在话题空间旅行也有帮助。如果你探索很多不同的主题，你会有更多新想法，部分原因是这给了「角磨机」更多表面可以工作，部分原因是类比是新想法特别多产的来源。
+
+但要注意分配比例——**按照幂律分布，而不是平均分配**。
+
+> Be professionally curious about a few topics and idly curious about many more.
+
+对少数话题保持专业好奇，对更多话题保持随意好奇。
+
+### 4.4 关于「项目推进」的迭代策略
+
+#### 从最小的东西开始
+
+> Begin by trying the simplest thing that could possibly work. Surprisingly often, it does.
+
+从尝试最简单可能有效的东西开始。令人惊讶的是，它通常真的有效。
+
+#### 连续版本迭代
+
+> Great things are almost always made in successive versions. You start with something small and evolve it, and the final version is both cleverer and more ambitious than anything you could have planned.
+
+伟大的东西几乎总是通过连续版本制作的。你从一些小东西开始，然后演进它，最终版本比你所能计划的任何东西都更聪明、更有野心。
+
+#### 早期版本被当作「玩具」是好事
+
+> An early version of a new project will sometimes be dismissed as a toy. It's a good sign when people do this. That means it has everything a new idea needs except scale, and that tends to follow.
+
+一个新项目的早期版本有时会被贬为「玩具」。当人们这样做时，这是一个好迹象。这意味着它有一个新想法所需的一切，除了规模——而规模通常是随之而来的。
+
+### 4.5 关于「心态与心力」的管理
+
+#### 保持士气像保护生物体
+
+> Husband your morale. It's the basis of everything when you're working on ambitious projects. You have to nurture and protect it like a living organism.
+
+维护你的士气。当你在做有野心的项目时，它是一切的基础。你必须像保护活的有机体一样培养和保护它。
+
+#### 乐观 + 把自己视为幸运的人
+
+> You're more likely to do great work if you're an optimist, and more likely to if you think of yourself as lucky than if you think of yourself as a victim.
+
+如果你是乐观主义者，你更可能做出伟大的工作；如果你是把自己视为幸运而不是受害者，你更可能做出伟大的工作。
+
+#### 复合效应
+
+> Morale compounds via work: high morale helps you do good work, which increases your morale and helps you do even better work. But this cycle also operates in the other direction.
+
+士气通过工作复合：高士气帮助你做好工作，这增加你的士气，帮助你做更好的工作。但这个循环也以另一个方向运作。
+
+这就是为什么当你在困境时切换到更容易的工作是如此有帮助——只是为了让你开始有所作为。
+
+#### 把挫折视为过程的一部分
+
+> You can inoculate yourself against this by explicitly considering setbacks a part of your process. Solving hard problems always involves some backtracking.
+
+你可以通过明确地把挫折视为你过程的一部分来为自己接种这种风险。解决难题总是涉及一些回溯。
+
+更精确的说法是：**如果你一开始没有成功，要么再试一次，要么回溯然后再试一次。永远不要让挫折让你恐慌到过度回溯。推论：永远不要放弃根本目标。**
+
+#### 区分「好痛」和「坏痛」
+
+> It's not necessarily a bad sign if work is a struggle, any more than it's a bad sign to be out of breath while running. It depends how fast you're running.
+
+如果工作是一场挣扎，这不一定是坏迹象，就像跑步时气喘吁吁不一定是坏迹象一样。**这取决于你跑得有多快**。学会区分好痛和坏痛。好痛是努力付出的标志；坏痛是受伤的标志。
+
+### 4.6 关于「人际关系与合作」
+
+#### 受众是士气的关键组成部分
+
+> The value of an audience doesn't grow anything like linearly with its size. Which is bad news if you're famous, but good news if you're just starting out, because it means a small but dedicated audience can be enough to sustain you.
+
+受众的价值不会随着规模线性增长。如果你很有名，这是坏消息；但如果你刚刚开始，这是好消息，因为它意味着**一个小的但专注的受众就足以维持你**。如果少数人真心喜欢你在做的事情，这就够了。
+
+#### 选择同事的质量重于数量
+
+> Quality is more important than quantity in colleagues. It's better to have one or two great ones than a building full of pretty good ones.
+
+同事的质量比数量更重要。有一两个优秀的同事比一栋楼里全是还不错的人要好。
+
+事实上，这不只是更好，而是必需的——从历史上看，伟大的工作倾向于成群出现，这表明同事往往决定了是否能做出伟大的工作。
+
+#### 你会变得像你的同事
+
+> Colleagues don't just affect your work, though; they also affect you. So work with people you want to become like, because you will.
+
+同事不仅影响你的工作，也影响你。所以和你想成为的人一起工作，因为你会的。
+
+---
+
+## 五、归纳总结：Paul Graham 的核心观点清单
+
+### 5.1 关于「做什么」
+
+| 观点 | 核心洞察 |
+|------|----------|
+| 找到你的「过度好奇」 | 你对什么好奇到让大多数人感到无聊？那是你的方向 |
+| 跟随兴奋感 | 兴奋的好奇心既是引擎也是舵轮 |
+| 不要等待系统告诉你 | 关于做什么工作，你靠自己 |
+| 当不确定时优化有趣性 | 如果一个领域没有随着学习变得更加有趣，它可能不适合你 |
+| 不要害怕切换领域 | 领域不是人，你不需要忠诚 |
+
+### 5.2 关于「如何工作」
+
+| 观点 | 核心洞察 |
+|------|----------|
+| 兴趣 > 勤勉 | 兴趣驱动你比单纯的勤勉更努力 |
+| 连续的大块时间 | 被打断的时间是无效的 |
+| 启动的激活能是假的 | 可以对自己撒谎来跨过启动门槛 |
+| 总是完成你开始的事 | 最好的工作往往在「最后阶段」发生 |
+| 一致性 > 强度 | 每天做一点，而不是偶尔做很多 |
+| 复合增长 | 指数曲线早期看起来是平的，我们因此低估了它 |
+| 漫步思考 | 走路、洗澡时的思绪漫游可以解决正面对抗无法解决的问题 |
+
+### 5.3 关于「原创性」
+
+| 观点 | 核心洞察 |
+|------|----------|
+| 原创性是思维习惯，不是过程 | 有原创性的人像角磨机一样不断迸发火花 |
+| 原创想法来自尝试构建超出能力的东西 | 不是来自「尝试有原创想法」 |
+| 好想法看起来「疯狂但正确」 | 如果看起来不疯狂，早就有人探索了 |
+| 严格 + 打破规则 | 只有规则打破者才能在真正重要的事情上做到真正严格 |
+| 提问比解答更重要 | 选择问题的原创性比解决问题的原创性更关键 |
+| 好的问题是部分发现 | 一个真正好的问题是半个发现 |
+
+### 5.4 关于「心态」
+
+| 观点 | 核心洞察 |
+|------|----------|
+| 真诚是核心 | 智识诚实既是美德也是力量的源泉 |
+| 避免矫揉造作 | 真诚让你避免一系列类似的恶习 |
+| 乐观是优势 | 即使意味着有时看起来像个傻瓜 |
+| 士气像生物体 | 需要培养和保护 |
+| 挫折是过程的一部分 | 不要让它们像气球一样摧毁你的士气 |
+| 区分好痛和坏痛 | 努力感和受伤感完全不同 |
+
+### 5.5 关于「关系」
+
+| 观点 | 核心洞察 |
+|------|----------|
+| 小而专注的受众就足够 | 价值不随受众规模线性增长 |
+| 同事质量 > 数量 | 你会变得像你的同事 |
+| 不要和不让 你工作的人结婚 | 野心需要工作，就像医疗条件一样 |
+| 找到最佳同事 | 当你有了，你就知道了；如果不确定，可能就没有 |
+
+---
+
+## 六、这篇文章的独特价值：为什么值得读原文
+
+Paul Graham 这篇文章的独特之处在于几个方面：
+
+### 6.1 跨领域的元分析
+
+他不是从单一领域出发，而是收集了**所有领域**做出伟大工作的人的共同模式。这种方法论本身就很有价值——它让我们看到不同领域之间的深层联系。
+
+### 6.2 诚实的自我审视
+
+Paul Graham 毫不回避那些「听起来不励志」的事实：
+
+- 运气确实很重要
+- 大多数人无法做出伟大工作不是因为能力问题
+- 系统本身是有问题的
+- 很多你被教导的东西是胡说八道
+
+这种诚实让他的建议更加可信。
+
+### 6.3 没有废话
+
+这篇文章的密度很高。Paul Graham 在结尾说：
+
+> Believe it or not, I tried to make this essay as short as I could.
+
+无论你是否相信，我确实试图让这篇文章尽可能短。但它的长度至少起到了过滤作用——**如果你能读完它，你一定是对做出伟大工作感兴趣的**。
+
+---
+
+## 七、给不同人群的行动建议
+
+### 如果你还在学校
+
+1. 把你的教育当作你自己的项目，老师是为你工作的
+2. 不要被考试牵着走——学会看到考试之外的东西
+3. 开始自己的项目，即使很小
+4. 注意那些「看起来不对」的地方，99% 是你错了，但 1% 可能是一个未被发现的想法
+
+### 如果你刚入职场
+
+1. 优化「有趣性」而不是「安全感」
+2. 建立大块不被打断的工作时间
+3. 找到一两个真正优秀的同事
+4. 不要让中间人（机构、审批流程）把你和受众分开
+
+### 如果你已经有一定积累
+
+1. 定期停下来问自己：我在做我最想做的事吗？
+2. 注意「项目级拖延」——以年为单位推迟那个雄心勃勃的项目
+3. 保持漫步思考的时间——这是你最有价值的思考时间
+4. 开始那个你已经想了很多年的问题
+
+---
+
+## 八、写在最后：为什么你应该相信这篇文章
+
+Paul Graham 是少数几个**既写出深刻思想、又真正做出过伟大东西**的思考者之一。他联合创立了 Y Combinator，写出了被无数人引用的 essays，用 Lisp 构建了改变互联网的应用。
+
+他不是学术理论家，他是实践者。这篇文章是他在 2023 年，接近 60 岁时写成的——经过了数十年的观察、实践和思考。
+
+最重要的话留到最后：
+
+> Many more people could try to do great work than do. What holds them back is a combination of modesty and fear. It seems presumptuous to try to be Newton or Shakespeare. It also seems hard; surely if you tried something like that, you'd fail.
+>
+> The discoveries are out there, waiting to be made. Why not by you?
+
+**更多的其实可以尝试做出伟大工作的人比真正去做的多得多。阻碍他们的是谦逊和恐惧的组合。尝试成为牛顿或莎士比亚似乎太过僭越。它看起来也太难了；如果你尝试那样的事情，肯定会失败。**
+
+**但那些发现就在那里，等待着被发现。为什么不是你呢？**
+
+---
+
+## 附录：Paul Graham 原文信息
+
+- **原文标题**：How to Do Great Work
+- **作者**：Paul Graham
+- **发布时间**：July 2023
+- **原文链接**：paulgraham.com/greatwork.html
+- **致谢**：Trevor Blackwell, Daniel Gackle, Pam Graham, Jessica Livingston, Steve Huffman, Patrick Hsu, Robert Morris 等人阅读了草稿并提供了建议
+
+---
+
+**参考书籍推荐**（Paul Graham 在文中推荐）：
+- 《A Mathematician's Apology》by G.H. Hardy
+
+---
+
+> 📌 **附注**：Paul Graham 在文章末尾说，如果你能读完这篇文章，你一定是真正想做伟大工作的人。如果你做到了，你可能已经比你想象的走得更远了——因为愿意想要做到这一点的人，本来就是极少数。
+
+---
+
+*本文由蓝小鲸整理编译，首发于微信公众号「比特财商」。*
+
+*以上，既然看到这里了，如果觉得不错，随手点个赞、在看、转发三连吧，如果想第一时间收到推送，也可以给我个星标，谢谢你看我的文章，我们，下次再见。*
+
+*首发于微信公众号「比特财商」。*
