@@ -26,6 +26,31 @@
       ]
     },
     {
+      "slug": "2026-08-25-effective-html-analysis",
+      "title": {
+        "en": "The HTML Toolkit for AI Coding Agents: Complete Analysis of effective-html",
+        "ja": "AIコーディングエージェントのHTMLツールキット：effective-htmlプロジェクトの完全解析",
+        "vi": "Bộ Công Cụ HTML Cho AI Coding Agent: Phân Tích Toàn Diện Dự Án effective-html",
+        "zh-Hans": "AI编码Agent的HTML利器：effective-html项目完全解析",
+        "zh-Hant": "AI編碼Agent的HTML利器：effective-html項目完全解析"
+      },
+      "description": {
+        "en": "Deep analysis of plannotator/effective-html project, covering six core skills, design philosophy, hands-on tutorials and thoughts on the future of AI coding agents",
+        "ja": "plannotator/effective-htmlプロジェクトの深層解析、六つのコアスキル、設計哲学、実践チュートリアル、AIコーディングエージェントの未来への考察をカバー",
+        "vi": "Phân tích chuyên sâu dự án plannotator/effective-html, bao gồm sáu kỹ năng cốt lõi, triết lý thiết kế, hướng dẫn thực hành và suy nghĩ về tương lai của AI coding agent",
+        "zh-Hans": "深度解析plannotator/effective-html项目，涵盖六大核心技能、设计哲学、实战教程以及对AI编码Agent未来的思考",
+        "zh-Hant": "深度解析plannotator/effective-html項目，涵蓋六大核心技能、設計哲學、實戰教程以及對AI編碼Agent未來的思考"
+      },
+      "date": "2026-08-25",
+      "author": "TopDigg",
+      "tags": [
+        "AI Agent, effective-html, HTML artifact, Plannotator, design system, skill routing"
+      ],
+      "categories": [
+        "AI Tools, Design Systems, Tech Architecture"
+      ]
+    },
+    {
       "slug": "2026-08-25-pi-agentharness-v2-analysis",
       "title": {
         "en": "PI项目AgentHarness v2设计全解析：持久化Agent运行框架的架构之美",
