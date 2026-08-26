@@ -46,9 +46,18 @@ export default async function middleware(request: Request): Promise<Response> {
   // exist, propagate a real 404 — don't let the SPA rewrite (`vercel.json`
   // `/(.*) → /index.html`) turn a missing asset into a 200-index.html, which
   // pollutes SEO by indexing the homepage under non-existent URLs.
+  //
+  // We detect the rewrite-fallback by content-type: real static assets
+  // (image/png, image/webp, font/woff2, ...) are served by Vercel's static
+  // layer with the correct content-type. When the file is missing, Vercel
+  // applies the SPA rewrite which returns 200 with text/html — that's the
+  // signal to return 404.
   if (STATIC_FILE_EXT.test(pathname)) {
     const res = await fetch(request);
-    if (res.status === 404) return new Response("Not Found", { status: 404 });
+    const ct = res.headers.get("content-type") ?? "";
+    if (ct.startsWith("text/html")) {
+      return new Response("Not Found", { status: 404 });
+    }
     return res;
   }
 
