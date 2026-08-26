@@ -4,7 +4,7 @@
 
 ## Active Plans
 
-- [删除 Reddit / YouTube 专栏菜单项（全站下线）](plans/remove-reddit-youtube-column.md) — 14 文件改动，5 语言 i18n 同步
+_(无 — 全部施工中计划见 [Completed Plans](#completed-plans))_
 
 ## Completed Plans
 
