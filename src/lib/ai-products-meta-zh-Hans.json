@@ -119,6 +119,134 @@
       ],
       "title": "Cursor 深度分析：从 0 到 $1B ARR 的 AI 编辑器变现路径",
       "description": "Cursor 是 AI 原生 IDE 赛道的标杆产品。本报告拆解其营收轨迹、定价机制、增长引擎与可复制的变现要素，回答一个核心问题：为什么一个 $20/月的订阅产品能创造 SaaS 史上最快的增长曲线。"
+    },
+    {
+      "slug": "2026-08-26-gehirn-md",
+      "date": "2026-08-26",
+      "author": "ERIC",
+      "tags": [
+        "AI Product",
+        "AI Content",
+        "GEO",
+        "SaaS",
+        "Monetization",
+        "TrustMRR"
+      ],
+      "categories": [
+        "AI Products"
+      ],
+      "product": {
+        "name": "GEHIRN.md",
+        "url": "https://gehirn.md/",
+        "category": "AI Content Marketing Tool",
+        "launch_date": "2026-06",
+        "revenue": "$1,260 MRR (2026-08, Stripe API 验证)",
+        "users": "11 付费订阅",
+        "pricing_model": "Ion €9/mo (限量) + Synapse €99/mo + Kortex €199/mo + Gehirn €399/mo + 白标议价",
+        "logo": "https://d21oz30g4w22sz.cloudfront.net/logos/gehirn-md-50d3cb47-dc27-4243-81b0-da630babe9a5.png"
+      },
+      "pricing": [
+        {
+          "plan": "Ion (限量)",
+          "price": 9,
+          "currency": "EUR",
+          "period": "month"
+        },
+        {
+          "plan": "Synapse",
+          "price": 99,
+          "currency": "EUR",
+          "period": "month"
+        },
+        {
+          "plan": "Kortex",
+          "price": 199,
+          "currency": "EUR",
+          "period": "month"
+        },
+        {
+          "plan": "Gehirn",
+          "price": 399,
+          "currency": "EUR",
+          "period": "month"
+        },
+        {
+          "plan": "White-Label",
+          "price": null,
+          "currency": "EUR",
+          "period": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MRR",
+          "value": "$1,260 (2026-08)"
+        },
+        {
+          "name": "ARR",
+          "value": "$15,120"
+        },
+        {
+          "name": "活跃订阅数",
+          "value": "11"
+        },
+        {
+          "name": "近 30 天营收",
+          "value": "$839"
+        },
+        {
+          "name": "近 30 天营收增长",
+          "value": "+89.5%"
+        },
+        {
+          "name": "近 30 天 MRR 增长",
+          "value": "+85.6%"
+        },
+        {
+          "name": "毛利率",
+          "value": "75.0%"
+        },
+        {
+          "name": "Domain Rating",
+          "value": "5.0"
+        },
+        {
+          "name": "团队规模",
+          "value": "1 人"
+        },
+        {
+          "name": "成立时间",
+          "value": "2026-06-01"
+        },
+        {
+          "name": "ARPU",
+          "value": "~$115/月（按 11 用户 MRR $1,260 计算）"
+        }
+      ],
+      "sources": [
+        {
+          "label": "TrustMRR 公开档案（含 ref 链接）",
+          "url": "https://trustmrr.com/startup/gehirn-md?ref=eric-kwok-b654e8"
+        },
+        {
+          "label": "TrustMRR AI-readable Markdown 快照",
+          "url": "https://trustmrr.com/startup/gehirn-md.md"
+        },
+        {
+          "label": "GEHIRN.md 官方站点",
+          "url": "https://gehirn.md/"
+        },
+        {
+          "label": "创始人 Jarmo 的 X 账号",
+          "url": "https://x.com/jarmof6"
+        },
+        {
+          "label": "Stripe（已接入支付商 API 验证）",
+          "url": "https://stripe.com/"
+        }
+      ],
+      "title": "GEHIRN.md 深度分析：1 个人的 $1,260 MRR 与 GEO 时代的 AI 内容生意",
+      "description": "GEHIRN.md 是一个 1 人团队运营的 AI 多智能体内容平台，专攻 GEO（生成式引擎优化）。用 Stripe API 验证的 $1,260 MRR + 75% 毛利率 + 0 广告投放——本报告拆解其变现路径、定价阶梯、用户价值与卖给 TrustMRR 的 $15,000 出售逻辑。"
     }
   ]
 }

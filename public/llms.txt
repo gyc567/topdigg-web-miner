@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-26T10:50:02.932Z
+Generated: 2026-08-26T13:12:33.042Z
 
 ## Site Overview
 
@@ -90,6 +90,13 @@ Revenue: $1B+ ARR (2026 公开估算)
 
 Cursor is the benchmark product of the AI-native IDE category. This report breaks down its revenue trajectory, pricing mechanics, growth engine, and replicable monetization elements — answering one core question: how did a $20/month subscription create one of the fastest SaaS growth curves ever?
 
+### GEHIRN.md Deep Dive: A Solo Founder's $1,260 MRR and the GEO AI Content Business
+URL: https://topdigg.com/ai-products/2026-08-26-gehirn-md | Date: 2026-08-26 | Author: ERIC
+Product: GEHIRN.md | Category: AI Content Marketing Tool
+Revenue: $1,260 MRR (2026-08, Stripe API 验证)
+
+GEHIRN.md is a one-person AI multi-agent content platform targeting GEO (Generative Engine Optimization). Stripe-verified $1,260 MRR + 75% margin + zero ad spend. This report breaks down its monetization path, pricing ladder, user value, and the $15,000 TrustMRR exit logic.
+
 ## Twitter Analysis Reports
 
 ###  (@)
@@ -119,4 +126,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 150 blog posts | 4 Twitter analyses | 1 AI products
+End of llms.txt | 150 blog posts | 4 Twitter analyses | 2 AI products
