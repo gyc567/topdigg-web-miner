@@ -9,7 +9,8 @@
     "heroTitle": "Tận dụng nội dung và dữ liệu để tìm kiếm cơ hội lưu lượng web một cách có hệ thống",
     "heroDesc": "Tập trung vào SEO, tăng trưởng kênh và xác thực sản phẩm. Lấy phân tích chuyên sâu Twitter làm cốt lõi — theo dõi nhà sáng tạo hàng đầu và xu hướng.",
     "blogCta": "Đọc blog",
-    "latest": "Bài viết mới nhất"
+    "latest": "Bài viết mới nhất",
+    "latestAIProducts": "Phân tích sản phẩm AI mới nhất"
   },
   "blog": {
     "indexTitle": "Blog",
@@ -130,5 +131,32 @@
     "hackerNews": "Bài Viết Hot Hacker News",
     "originalHint": "Quét mã QR để đọc bài gốc",
     "originalCaption": "Nguồn gốc: {{name}}"
+  },
+  "aiProducts": {
+    "indexTitle": "Phân tích sản phẩm AI",
+    "indexDesc": "Phân tích sâu các sản phẩm AI có lợi nhuận, trích xuất các con đường kiếm tiền có thể sao chép",
+    "heroTitle": "Phân tích sản phẩm AI có lợi nhuận",
+    "heroDesc": "Phân tích các con đường kiếm tiền, chiến lược tăng trưởng và hình thức sản phẩm",
+    "emptyTitle": "Chưa có phân tích sản phẩm AI",
+    "emptyDesc": "Phân tích đầu tiên sắp ra mắt",
+    "readMore": "Đọc thêm",
+    "resultsCount": "{{count}} phân tích",
+    "related": "Phân tích sản phẩm khác",
+    "post": {
+      "loading": "Đang tải…",
+      "notFoundTitle": "Không tìm thấy",
+      "notFoundMsg": "Phân tích sản phẩm không tồn tại.",
+      "productCard": {
+        "title": "Tổng quan sản phẩm",
+        "website": "Trang chủ",
+        "category": "Danh mục",
+        "launchDate": "Ngày ra mắt",
+        "revenue": "Doanh thu",
+        "users": "Người dùng",
+        "pricing": "Giá",
+        "metrics": "Chỉ số chính",
+        "sources": "Nguồn dữ liệu"
+      }
+    }
   }
 }

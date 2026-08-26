@@ -80,6 +80,82 @@ function readTwitterAnalyses() {
   return results;
 }
 
+
+// ---------------------------------------------------------------------------
+// AI Products meta reader (从构建产物 src/lib/ai-products-meta.json)
+// ---------------------------------------------------------------------------
+
+function readAIProductsMeta() {
+  const p = path.join(PROJECT_ROOT, "src/lib/ai-products-meta.json");
+  if (!fs.existsSync(p)) return [];
+  try {
+    const data = JSON.parse(fs.readFileSync(p, "utf-8"));
+    return data.products || [];
+  } catch {
+    return [];
+  }
+}
+
+// ---------------------------------------------------------------------------
+// nav.main reader (从 src/config/site.ts 解析，避免与 siteConfig 不一致)
+// ---------------------------------------------------------------------------
+
+function readNavMain() {
+  const src = fs.readFileSync(path.join(PROJECT_ROOT, "src/config/site.ts"), "utf-8");
+  // Find the nav.main block
+  const navStart = src.search(/main:\s*\[/);
+  if (navStart < 0) return [];
+  let depth = 0;
+  let end = navStart;
+  for (let i = navStart; i < src.length; i++) {
+    const ch = src[i];
+    if (ch === "[") depth++;
+    else if (ch === "]") {
+      depth--;
+      if (depth === 0) { end = i; break; }
+    }
+  }
+  const block = src.slice(navStart, end + 1);
+  // Each item: { label: { "zh-Hans": "X", ... }, href: "/path" }
+  // Parse items by matching { ... } at top level inside the array
+  const items = [];
+  let depth2 = 0;
+  let itemStart = -1;
+  for (let i = 0; i < block.length; i++) {
+    const ch = block[i];
+    if (ch === "{") {
+      if (depth2 === 0) itemStart = i;
+      depth2++;
+    } else if (ch === "}") {
+      depth2--;
+      if (depth2 === 0 && itemStart >= 0) {
+        const itemBlock = block.slice(itemStart, i + 1);
+        // Extract href
+        const hrefMatch = itemBlock.match(/href:\s*"([^"]+)"/);
+        // Extract first available label (prefer en, fallback to zh-Hans, then any)
+        const labelMatch = itemBlock.match(/label:\s*{([^}]+)}/);
+        let label = "";
+        if (labelMatch) {
+          const labelBlock = labelMatch[1];
+          const enMatch = labelBlock.match(/"en":\s*"([^"]+)"/);
+          const zhMatch = labelBlock.match(/"zh-Hans":\s*"([^"]+)"/);
+          if (enMatch) label = enMatch[1];
+          else if (zhMatch) label = zhMatch[1];
+          else {
+            const anyMatch = labelBlock.match(/"[^"]+":\s*"([^"]+)"/);
+            if (anyMatch) label = anyMatch[1];
+          }
+        }
+        if (hrefMatch) {
+          items.push({ label, href: hrefMatch[1] });
+        }
+        itemStart = -1;
+      }
+    }
+  }
+  return items;
+}
+
 // ---------------------------------------------------------------------------
 // llms.txt — site overview for AI crawlers
 // ---------------------------------------------------------------------------
@@ -87,6 +163,7 @@ function readTwitterAnalyses() {
 function buildLlmsTxt() {
   const meta = readJson(path.join(PROJECT_ROOT, "src/lib/blog-meta.json"));
   const twitterAnalyses = readTwitterAnalyses();
+  const aiProducts = readAIProductsMeta();
   const BASE = "https://topdigg.com";
 
   const lines = [
@@ -104,10 +181,22 @@ function buildLlmsTxt() {
     "",
     `| Section | URL | Description |`,
     `|---|---|---|`,
-    `| Home | ${BASE}/ | Discover Web Traffic & Business Opportunities |`,
-    `| Blog | ${BASE}/blog | All articles |`,
-    `| Twitter Analytics | ${BASE}/twitter | In-depth Twitter account analysis reports |`,
-    `| External Links | ${BASE}/external-links | Curated external resources |`,
+    (() => {
+        const navItems = readNavMain();
+        const descMap = {
+          "/": "Discover Web Traffic & Business Opportunities",
+          "/blog": "All articles",
+          "/ai-products": "Deep analyses of profitable AI products",
+          "/ai-daily": "Daily AI industry news digest",
+          "/twitter": "In-depth Twitter account analysis reports",
+          "/columns/twitter": "Curated Twitter growth accounts",
+          "/external-links": "Curated external resources",
+        };
+        return navItems.map((it) => {
+          const desc = descMap[it.href] || "";
+          return `| ${it.label} | ${BASE}${it.href} | ${desc} |`;
+        }).join("\n");
+      })(),
     "",
     "## Latest Blog Posts (10 most recent)",
     "",
@@ -122,6 +211,22 @@ function buildLlmsTxt() {
     lines.push(`Tags: ${post.tags.join(", ")}`);
     lines.push("");
     lines.push(desc.slice(0, 300));
+    lines.push("");
+  }
+
+  // AI Products Analyses (latest 5)
+  lines.push("## AI Product Analyses (latest 5)");
+  lines.push("");
+  const sortedProducts = [...aiProducts].sort((a, b) => new Date(b.date) - new Date(a.date));
+  for (const product of sortedProducts.slice(0, 5)) {
+    const title = product.title?.en || product.title?.["zh-Hans"] || Object.values(product.title || {})[0] || product.slug;
+    const desc = product.description?.en || product.description?.["zh-Hans"] || Object.values(product.description || {})[0] || "";
+    lines.push(`### ${title}`);
+    lines.push(`URL: ${BASE}/ai-products/${product.slug} | Date: ${product.date} | Author: ${product.author}`);
+    lines.push(`Product: ${product.product?.name || ""} | Category: ${product.product?.category || ""}`);
+    if (product.product?.revenue) lines.push(`Revenue: ${product.product.revenue}`);
+    lines.push("");
+    if (desc) lines.push(desc.slice(0, 300));
     lines.push("");
   }
 
@@ -149,7 +254,7 @@ function buildLlmsTxt() {
   lines.push("");
 
   lines.push("---");
-  lines.push(`End of llms.txt | ${meta.posts.length} blog posts | ${twitterAnalyses.length} Twitter analyses`);
+  lines.push(`End of llms.txt | ${meta.posts.length} blog posts | ${twitterAnalyses.length} Twitter analyses | ${aiProducts.length} AI products`);
   return lines.join("\n");
 }
 

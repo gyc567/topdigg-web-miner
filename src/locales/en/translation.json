@@ -9,7 +9,8 @@
     "heroTitle": "Leverage content and data to systematically find web traffic opportunities",
     "heroDesc": "Focus on SEO, channel growth, and product validation. Centered on deep Twitter analytics — tracking top creators and trends.",
     "blogCta": "Read blog",
-    "latest": "Latest posts"
+    "latest": "Latest posts",
+    "latestAIProducts": "Latest AI Products"
   },
   "blog": {
     "indexTitle": "Blog",
@@ -130,5 +131,32 @@
     "hackerNews": "Hacker News Top Posts",
     "originalHint": "Scan the QR code for the original article",
     "originalCaption": "Original source: {{name}}"
+  },
+  "aiProducts": {
+    "indexTitle": "AI Products",
+    "indexDesc": "Deep dives into profitable AI products, extracting replicable monetization paths",
+    "heroTitle": "Analyze profitable AI products",
+    "heroDesc": "Teardown monetization paths, growth strategies, and product shapes",
+    "emptyTitle": "No AI product analyses yet",
+    "emptyDesc": "The first analysis is coming soon",
+    "readMore": "Read more",
+    "resultsCount": "{{count}} analyses",
+    "related": "More product analyses",
+    "post": {
+      "loading": "Loading…",
+      "notFoundTitle": "Not found",
+      "notFoundMsg": "Product analysis not found.",
+      "productCard": {
+        "title": "Product at a glance",
+        "website": "Website",
+        "category": "Category",
+        "launchDate": "Launched",
+        "revenue": "Revenue",
+        "users": "Users",
+        "pricing": "Pricing",
+        "metrics": "Key metrics",
+        "sources": "Sources"
+      }
+    }
   }
 }

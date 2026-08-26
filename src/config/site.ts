@@ -68,6 +68,31 @@ export type TwitterAnalysis = {
   content: LocalizedText;
 };
 
+
+export type AIProduct = {
+  slug: string;
+  title: LocalizedText;
+  description: LocalizedText;
+  date: string; // ISO date
+  author: string;
+  tags: string[];
+  categories: string[];
+  content: LocalizedText;
+  product: {
+    name: string;
+    url: string;
+    category: string;
+    launch_date: string;
+    revenue?: string;
+    users?: string;
+    pricing_model?: string;
+    logo?: string;
+  };
+  pricing?: Array<{ plan: string; price: number; currency: string; period: string | null }>;
+  metrics?: Array<{ name: string; value: string }>;
+  sources?: Array<{ label: string; url: string }>;
+};
+
 export const siteConfig = {
   siteName: "TopDigg",
   baseUrl: "https://www.topdigg.com",
@@ -83,6 +108,16 @@ export const siteConfig = {
           "vi": "AI Hàng Ngày"
         },
         href: "/ai-daily"
+      },
+      {
+        label: {
+          "zh-Hans": "AI产品分析",
+          "zh-Hant": "AI產品分析",
+          "en": "AI Products",
+          "ja": "AI製品分析",
+          "vi": "Phân tích sản phẩm AI"
+        },
+        href: "/ai-products"
       },
       {
         label: {

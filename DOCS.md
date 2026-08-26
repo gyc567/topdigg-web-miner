@@ -8,6 +8,7 @@
 - [静态资源管理规范](docs/static-resources-guide.md) — 避免 HTML/静态资源链接失效
 - [SVG 图片复制功能指南](docs/svg-image-copy-guide.md) — SVG 一键复制为图片到剪贴板
 - [AI Daily 多语言工作流](docs/ai-daily-i18n-workflow.md) — 新增一期 5 语言日报的 SOP：zh-Hans 主稿 → AI 生成 4 语言 md → build → 浏览器实测
+- [AI 产品分析 多语言工作流](docs/ai-products-workflow.md) — 新增一篇产品拆解的 SOP：frontmatter 模板 + 翻译规范（数据字段跨 5 文件一致）+ 数据准确性巡检
 
 ## 优化方案
 
@@ -30,4 +31,4 @@
 - [SEO/GEO 优化规范](docs/guidelines/seo-geo-optimization.md) — 数据反馈迭代
 
 ---
-_Last updated: 2026-08-20_
+_Last updated: 2026-08-26_

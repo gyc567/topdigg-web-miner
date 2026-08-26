@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-26T07:21:09.856Z
+Generated: 2026-08-26T10:50:02.932Z
 
 ## Site Overview
 
@@ -12,8 +12,10 @@ We deliver in-depth Twitter analytics and trend tracking for content creators an
 
 | Section | URL | Description |
 |---|---|---|
-| Home | https://topdigg.com/ | Discover Web Traffic & Business Opportunities |
+| AI Daily | https://topdigg.com/ai-daily | Daily AI industry news digest |
+| AI Products | https://topdigg.com/ai-products | Deep analyses of profitable AI products |
 | Blog | https://topdigg.com/blog | All articles |
+| Twitter Column | https://topdigg.com/columns/twitter | Curated Twitter growth accounts |
 | Twitter Analytics | https://topdigg.com/twitter | In-depth Twitter account analysis reports |
 | External Links | https://topdigg.com/external-links | Curated external resources |
 
@@ -79,6 +81,15 @@ Tags: Codex CLI, OpenAI, Coding Agent, Rust, CLI Tool, TUI, Programming
 
 Deep dive into OpenAI Codex CLI: a lightweight Rust-based coding agent that runs in your terminal. Supports conversational TUI and non-interactive exec mode. Core idea: make AI coding assistance as accessible as git.
 
+## AI Product Analyses (latest 5)
+
+### Cursor Deep Dive: From Zero to $1B ARR — The AI Editor's Monetization Path
+URL: https://topdigg.com/ai-products/2026-08-26-cursor | Date: 2026-08-26 | Author: ERIC
+Product: Cursor | Category: AI编程工具
+Revenue: $1B+ ARR (2026 公开估算)
+
+Cursor is the benchmark product of the AI-native IDE category. This report breaks down its revenue trajectory, pricing mechanics, growth engine, and replicable monetization elements — answering one core question: how did a $20/month subscription create one of the fastest SaaS growth curves ever?
+
 ## Twitter Analysis Reports
 
 ###  (@)
@@ -108,4 +119,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 150 blog posts | 4 Twitter analyses
+End of llms.txt | 150 blog posts | 4 Twitter analyses | 1 AI products

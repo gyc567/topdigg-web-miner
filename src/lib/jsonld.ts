@@ -289,3 +289,45 @@ export function makeFAQPageSchema(params: FAQPageSchemaParams) {
     })),
   };
 }
+
+
+// ---------------------------------------------------------------------------
+// Product (AI产品分析 详情页)
+// ---------------------------------------------------------------------------
+
+export type ProductSchemaParams = {
+  name: string;
+  description: string;
+  url: string;
+  image?: string;
+  category: string;
+  brand?: string;
+  offers?: Array<{ price: number; priceCurrency: string; name?: string; priceValidUntil?: string }>;
+};
+
+export function makeProductSchema(params: ProductSchemaParams) {
+  const { name, description, url, image, category, brand, offers } = params;
+  const schema: Record<string, unknown> = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name,
+    description,
+    url: `${BASE}${url}`,
+    category,
+  };
+  if (image) schema.image = image;
+  if (brand) schema.brand = { "@type": "Brand", name: brand };
+  if (offers && offers.length > 0) {
+    schema.offers = offers.map((o) => {
+      const offer: Record<string, unknown> = {
+        "@type": "Offer",
+        price: o.price,
+        priceCurrency: o.priceCurrency,
+      };
+      if (o.name) offer.name = o.name;
+      if (o.priceValidUntil) offer.priceValidUntil = o.priceValidUntil;
+      return offer;
+    });
+  }
+  return schema;
+}

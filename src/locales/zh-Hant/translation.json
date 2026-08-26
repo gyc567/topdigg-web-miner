@@ -9,7 +9,8 @@
     "heroTitle": "用內容與數據，系統性挖掘 Web 流量的商業機會",
     "heroDesc": "聚焦 SEO、渠道增長與產品驗證，以 Twitter 深度分析為核心，持續追蹤頭部創作者與趨勢。",
     "blogCta": "閱讀博客",
-    "latest": "最新博客"
+    "latest": "最新博客",
+    "latestAIProducts": "最新 AI 產品分析"
   },
   "blog": {
     "indexTitle": "博客",
@@ -130,5 +131,32 @@
     "hackerNews": "Hacker News 熱帖",
     "originalHint": "掃碼關注公眾號獲取原文",
     "originalCaption": "原文出處：{{name}}"
+  },
+  "aiProducts": {
+    "indexTitle": "AI產品分析",
+    "indexDesc": "深度拆解賺錢的 AI 產品，提取可複製的變現路徑",
+    "heroTitle": "分析賺錢的 AI 產品",
+    "heroDesc": "拆解可複製的變現路徑、增長策略與產品形態",
+    "emptyTitle": "暫無 AI 產品分析",
+    "emptyDesc": "首篇分析即將上線，敬請期待",
+    "readMore": "閱讀全文",
+    "resultsCount": "共 {{count}} 篇分析",
+    "related": "更多產品分析",
+    "post": {
+      "loading": "載入中…",
+      "notFoundTitle": "未找到",
+      "notFoundMsg": "產品分析不存在。",
+      "productCard": {
+        "title": "產品速覽",
+        "website": "官網",
+        "category": "賽道",
+        "launchDate": "上線時間",
+        "revenue": "營收",
+        "users": "用戶量",
+        "pricing": "定價",
+        "metrics": "關鍵指標",
+        "sources": "數據來源"
+      }
+    }
   }
 }

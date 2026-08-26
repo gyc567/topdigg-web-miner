@@ -9,7 +9,8 @@
     "heroTitle": "用内容与数据，系统性挖掘 Web 流量的商业机会",
     "heroDesc": "聚焦 SEO、渠道增长与产品验证，以 Twitter 深度分析为核心，持续追踪头部创作者与趋势。",
     "blogCta": "阅读博客",
-    "latest": "最新博客"
+    "latest": "最新博客",
+    "latestAIProducts": "最新 AI 产品分析"
   },
   "blog": {
     "indexTitle": "博客",
@@ -130,5 +131,32 @@
     "hackerNews": "Hacker News 热帖",
     "originalHint": "扫码关注公众号获取原文",
     "originalCaption": "原文出处：{{name}}"
+  },
+  "aiProducts": {
+    "indexTitle": "AI产品分析",
+    "indexDesc": "深度拆解赚钱的 AI 产品，提取可复制的变现路径",
+    "heroTitle": "分析赚钱的 AI 产品",
+    "heroDesc": "拆解可复制的变现路径、增长策略与产品形态",
+    "emptyTitle": "暂无 AI 产品分析",
+    "emptyDesc": "首篇分析即将上线，敬请期待",
+    "readMore": "阅读全文",
+    "resultsCount": "共 {{count}} 篇分析",
+    "related": "更多产品分析",
+    "post": {
+      "loading": "加载中…",
+      "notFoundTitle": "未找到",
+      "notFoundMsg": "产品分析不存在。",
+      "productCard": {
+        "title": "产品速览",
+        "website": "官网",
+        "category": "赛道",
+        "launchDate": "上线时间",
+        "revenue": "营收",
+        "users": "用户量",
+        "pricing": "定价",
+        "metrics": "关键指标",
+        "sources": "数据来源"
+      }
+    }
   }
 }

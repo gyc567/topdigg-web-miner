@@ -1,0 +1,124 @@
+{
+  "products": [
+    {
+      "slug": "2026-08-26-cursor",
+      "date": "2026-08-26",
+      "author": "ERIC",
+      "tags": [
+        "AI Product",
+        "AI Coding",
+        "Monetization",
+        "SaaS",
+        "ARR",
+        "Cursor",
+        "Anysphere",
+        "IDE"
+      ],
+      "categories": [
+        "AI Products"
+      ],
+      "product": {
+        "name": "Cursor",
+        "url": "https://cursor.com",
+        "category": "AI编程工具",
+        "launch_date": "2023-03",
+        "revenue": "$1B+ ARR (2026 公开估算)",
+        "users": "1M+ 日活开发者 (2024 官方)",
+        "pricing_model": "Hobby 免费 + Pro $20/月 + Business $40/用户/月 + Enterprise 议价",
+        "logo": "/logos/cursor.svg"
+      },
+      "pricing": [
+        {
+          "plan": "Hobby (Free)",
+          "price": 0,
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "plan": "Pro",
+          "price": 20,
+          "currency": "USD",
+          "period": "month"
+        },
+        {
+          "plan": "Business",
+          "price": 40,
+          "currency": "USD",
+          "period": "month"
+        },
+        {
+          "plan": "Enterprise",
+          "price": null,
+          "currency": "USD",
+          "period": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ARR",
+          "value": "$1B+ (2026 公开估算)"
+        },
+        {
+          "name": "估值 (Series D)",
+          "value": "$29B (2025-11)"
+        },
+        {
+          "name": "累计融资",
+          "value": "$1B+ (4 轮)"
+        },
+        {
+          "name": "日活开发者",
+          "value": "1M+ (2024 官方)"
+        },
+        {
+          "name": "团队规模",
+          "value": "~200 人 (2025 末)"
+        },
+        {
+          "name": "付费转化率",
+          "value": "~20% (估算)"
+        },
+        {
+          "name": "ARPU (混合平均)",
+          "value": "~$25/月"
+        },
+        {
+          "name": "CAC",
+          "value": "<$30 (估算)"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Anysphere 官方博客",
+          "url": "https://cursor.com/blog"
+        },
+        {
+          "label": "Cursor 定价页",
+          "url": "https://cursor.com/pricing"
+        },
+        {
+          "label": "TechCrunch — Anysphere 融资报道",
+          "url": "https://techcrunch.com/category/anysphere/"
+        },
+        {
+          "label": "Bloomberg — Anysphere $29B 估值",
+          "url": "https://www.bloomberg.com/news/articles/2025-11-anysphere-funding"
+        },
+        {
+          "label": "The Information — Cursor ARR 追踪",
+          "url": "https://www.theinformation.com/articles/cursor-revenue"
+        },
+        {
+          "label": "a16z Marketplace 100",
+          "url": "https://a16z.com/marketplace-100/"
+        },
+        {
+          "label": "Aman Sanger (Cursor 创始人) 公开访谈",
+          "url": "https://www.latent.space/p/aman-sanger-cursor"
+        }
+      ],
+      "title": "Cursor 深度分析：從 0 到 $1B ARR 的 AI 編輯器變現路徑",
+      "description": "Cursor 是 AI 原生 IDE 賽道的標桿產品。本報告拆解其營收軌跡、定價機制、成長引擎與可複製的變現要素，回答一個核心問題：為什麼一個 $20/月的訂閱產品能創造 SaaS 史上最快的增長曲線。"
+    }
+  ]
+}

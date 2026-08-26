@@ -2,6 +2,8 @@
  * 生成预渲染路由清单
  * 来源：
  *   - src/lib/blog-meta.json（blog 详情 metadata only）
+ *   - src/lib/ai-products-meta.json（ai-products 详情 metadata only）
+ *   - src/lib/ai-daily-meta.json（ai-daily 详情 metadata only）
  *   - src/config/site.ts twitter.analyses（twitter 详情）
  *   - 静态路由
  * 仅 default locale 渲染；其他语言由 SPA 端处理
@@ -22,6 +24,8 @@ const projectRoot = path.join(__dirname, "..");
 const STATIC_PATHS = [
   "/",
   "/blog",
+  "/ai-products",
+  "/ai-daily",
   "/twitter",
   "/columns/twitter",
   "/external-links",
@@ -62,6 +66,17 @@ function readAiDailySlugs() {
   }
 }
 
+function readAiProductsSlugs() {
+  const p = path.join(projectRoot, "src/lib/ai-products-meta.json");
+  if (!fs.existsSync(p)) return [];
+  try {
+    const data = JSON.parse(fs.readFileSync(p, "utf8"));
+    return (data.products || []).map((r) => r.slug).filter(Boolean);
+  } catch {
+    return [];
+  }
+}
+
 function readTwitterSlugs() {
   const p = path.join(projectRoot, "src/config/site.ts");
   if (!fs.existsSync(p)) return [];
@@ -95,6 +110,7 @@ export function buildRoutes(options = {}) {
   const blogSlugs = readBlogSlugs();
   const twitterSlugs = readTwitterSlugs();
   const aiDailySlugs = readAiDailySlugs();
+  const aiProductsSlugs = readAiProductsSlugs();
 
   const cutoff = Date.now() - archiveAfterDays * 24 * 60 * 60 * 1000;
   const recentBlogSlugs = skipArchive
@@ -105,6 +121,7 @@ export function buildRoutes(options = {}) {
     ...recentBlogSlugs.map((s) => `/blog/${s}`),
     ...twitterSlugs.map((s) => `/twitter/${s}`),
     ...aiDailySlugs.map((s) => `/ai-daily/${s}`),
+    ...aiProductsSlugs.map((s) => `/ai-products/${s}`),
   ];
 
   return [...STATIC_PATHS, ...detailPaths];
