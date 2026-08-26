@@ -1,6 +1,50 @@
 {
   "posts": [
     {
+      "slug": "2026-08-26-eli5-claude-skill-jie-shao",
+      "date": "2026-08-26",
+      "author": "TopDigg",
+      "tags": [
+        "Claude Code",
+        "AI Skill",
+        "Prompt Engineering",
+        "ELI5",
+        "开源项目",
+        "评测系统",
+        "Anthropic",
+        "LLM 应用"
+      ],
+      "categories": [
+        "AI工具",
+        "开源项目",
+        "评测系统"
+      ],
+      "title": "让 AI 给任何人解释任何事：ELI5 开源项目深度解析",
+      "description": "一个 Claude Code Skill，能自动识别受众并调整解释风格——5岁孩子、经理、工程师、父母。它的评分从 baseline 的 33% 提升到了 91.7%。设计哲学和工程实现同样精彩。"
+    },
+    {
+      "slug": "2026-08-26-paulgraham-greatwork",
+      "date": "2026-08-26",
+      "author": "TopDigg",
+      "tags": [
+        "Paul Graham",
+        "创造力",
+        "职业生涯",
+        "深度工作",
+        "创业智慧",
+        "YC",
+        "原创性",
+        "设计哲学"
+      ],
+      "categories": [
+        "思维方法",
+        "职业发展",
+        "创业智慧"
+      ],
+      "title": "如何做出伟大的工作？Paul Graham 用 15 年思考写成的行动指南",
+      "description": "YC 创始人 Paul Graham 2023 年新作全面解析：如何找到值得投入的事业、如何产生原创性想法、如何保持创造力。这可能是关于创造力最诚实、最全面的文章。"
+    },
+    {
       "slug": "2026-08-25-awesome-openclaw-money-maker",
       "date": "2026-08-25",
       "author": "TopDigg",
