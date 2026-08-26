@@ -30,9 +30,6 @@ const SERVER_HOST = "127.0.0.1";
 const BASE_URL = `http://${SERVER_HOST}:${SERVER_PORT}`;
 const RENDER_EVENT = "render-event";
 const READY_WAIT_MS = 500;
-// Vercel sparticuz chromium is much slower than local; need longer timeouts
-// for routes that lazy-load 9.9 MB blog-data.json + 9.5 MB ai-daily-data.
-const WAIT_TIMEOUT_MS = Number(process.env.PRERENDER_WAIT_TIMEOUT_MS) || 60_000;
 // Detail pages (blog/ai-daily/twitter post) load big data; index pages are fast.
 const DETAIL_ROUTE_RE = /^\/(blog|twitter|ai-daily)\/[^/]+\/?$/;
 // Worker pool size for concurrent prerender. Each worker owns one puppeteer page
@@ -48,6 +45,14 @@ function isDetailRoute(route) {
   return DETAIL_ROUTE_RE.test(route);
 }
 const IS_VERCEL = process.env.VERCEL === "1";
+// Vercel sparticuz chromium is much slower than local; need longer timeouts
+// for routes that lazy-load per-slug blog-data chunks (≈100 KB each) + React
+// hydration under sparticuz. 120 s covers the worst case we have observed on
+// Vercel (a 519 KB BlogPost loader chunk + the actual slug chunk + render).
+const DETAIL_WAIT_TIMEOUT_MS = Number(process.env.PRERENDER_DETAIL_TIMEOUT_MS)
+  || (IS_VERCEL ? 120_000 : 60_000);
+const INDEX_WAIT_TIMEOUT_MS = Number(process.env.PRERENDER_INDEX_TIMEOUT_MS)
+  || (IS_VERCEL ? 60_000 : 30_000);
 
 // Local: full puppeteer + system chromium. Vercel: sparticuz chromium.
 async function loadBrowser() {
@@ -173,8 +178,12 @@ async function renderRoute(page, route) {
   const url = `${BASE_URL}${route}`;
   let html;
   const detail = isDetailRoute(route);
+  const waitTimeout = detail ? DETAIL_WAIT_TIMEOUT_MS : INDEX_WAIT_TIMEOUT_MS;
   try {
-    await page.goto(url, { waitUntil: "networkidle0", timeout: 60_000 });
+    // domcontentloaded fires as soon as the HTML is parsed and the boot script
+    // has run; faster than networkidle0 and won't hang on keep-alive sockets or
+    // background prefetches. Real content is verified by waitForFunction below.
+    await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60_000 });
     // 等待真正内容渲染。Layout.tsx 一直渲染 <main>，所以 <main> 太宽泛；
     // 详情页要等 <article>（只有数据加载完才出现），索引/静态页等 <h1>。
     // 同时确保 Suspense 的 "Loading…" 兜底已消失。
@@ -187,7 +196,7 @@ async function renderRoute(page, route) {
         }
         return document.querySelector("h1") !== null;
       },
-      { timeout: WAIT_TIMEOUT_MS },
+      { timeout: waitTimeout },
       detail
     );
     // 再延一会儿确保 react-helmet-async effect 已写完 head
@@ -197,7 +206,7 @@ async function renderRoute(page, route) {
     log(`  WARN  ${route}  -> ${err.message?.slice(0, 120)}`);
     html = await page.content(); // 抓部分 HTML 兜底
   }
-  return html;
+  return { html, detail };
 }
 
 async function main() {
@@ -245,18 +254,21 @@ async function main() {
       if (idx >= total) break;
       const route = queue[idx];
       try {
-        const html = await renderRoute(page, route);
+        const { html, detail } = await renderRoute(page, route);
         const [dir, file] = routeToOutputPath(route);
         const outDir = path.join(DIST, dir);
         const outFile = path.join(outDir, file);
-        // Detect incomplete render: "Loading…" text still present means
-        // the page never finished hydrating. Don't write a partial file —
-        // a static SPA shell with "Loading…" is worse for SEO than letting
-        // the route fall back to client-side rendering at request time.
+        // Detect incomplete render. Two signals matter:
+        //   1) "Loading…" still present → React hydration/data-fetch never finished.
+        //   2) Detail route but no <article> → data didn't arrive (lazy chunk load).
+        // Either case means the HTML is missing real content. Writing a "still
+        // Loading…" SPA shell to disk is worse for SEO than letting the route fall
+        // back to client-side rendering at request time.
         const stillLoading = html.includes("Loading…") && !html.includes("<h1");
-        if (stillLoading) {
+        const detailMissing = detail && !html.includes("<article");
+        if (stillLoading || detailMissing) {
           partial++;
-          log(`  ⚠ [w${workerId}] ${route} → skipped (still loading after timeout)`);
+          log(`  ⚠ [w${workerId}] ${route} → skipped (${stillLoading ? "still loading" : "missing <article>"})`);
           continue;
         }
         fs.mkdirSync(outDir, { recursive: true });
