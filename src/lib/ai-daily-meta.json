@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-08-26-ai-daily",
+      "title": {
+        "en": "AI Daily · 2026-08-26",
+        "ja": "AIデイリー · 2026-08-26",
+        "vi": "AI Daily · 2026-08-26",
+        "zh-Hans": "AI日报 · 2026-08-26",
+        "zh-Hant": "AI日報 · 2026-08-26"
+      },
+      "description": {
+        "en": "OpenAI and AWS bring GPT-5.6 to Kiro, cutting costs by 82%; Meta launches MetaRoCE protocol and MTIA 300 chip on the same day; NVIDIA Vera Rubin NVL72 delivers 30x perf per watt improvement.",
+        "ja": "OpenAIとAWSがGPT-5.6をKiroに登陆、成本82%削減；MetaがMetaRoCEプロトコルとMTIA 300チップを同时発表；NVIDIA Vera Rubin NVL72がワットあたり30倍性能向上。",
+        "vi": "OpenAI cùng AWS đưa GPT-5.6 lên Kiro, giảm chi phí 82%; Meta đồng thời ra mắt giao thức MetaRoCE và chip MTIA 300; NVIDIA Vera Rubin NVL72 tăng hiệu suất 30 lần mỗi watt.",
+        "zh-Hans": "OpenAI 联手 AWS 将 GPT-5.6 登陆 Kiro，成本降低 82%；Meta 同日连发 MetaRoCE 网络协议与 MTIA 300 训练芯片；NVIDIA Vera Rubin NVL72 每瓦性能提升 30 倍。",
+        "zh-Hant": "OpenAI 聯手 AWS 將 GPT-5.6 登陸 Kiro，成本降低 82%；Meta 同日連發 MetaRoCE 網絡協議與 MTIA 300 訓練晶片；NVIDIA Vera Rubin NVL72 每瓦效能提升 30 倍。"
+      },
+      "date": "2026-08-26",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": {
+            "en": "Bit Finance",
+            "ja": "ビットファイナンス",
+            "vi": "Bit Finance",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特財商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-08-25-ai-daily",
       "title": {
         "en": "GPT-5.6 Launches on Kiro, Delivering 82% Cost Reduction for Developers",
