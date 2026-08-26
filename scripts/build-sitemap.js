@@ -12,8 +12,6 @@ const staticRoutes = [
   { loc: '/', priority: '1.0' },
   { loc: '/blog', priority: '0.9' },
   { loc: '/twitter', priority: '0.8' },
-  { loc: '/columns/reddit', priority: '0.7' },
-  { loc: '/columns/youtube', priority: '0.7' },
   { loc: '/columns/twitter', priority: '0.7' },
   { loc: '/external-links', priority: '0.5' },
 ];

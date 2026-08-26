@@ -23,8 +23,6 @@ const STATIC_PATHS = [
   "/",
   "/blog",
   "/twitter",
-  "/columns/reddit",
-  "/columns/youtube",
   "/columns/twitter",
   "/external-links",
   "/about",

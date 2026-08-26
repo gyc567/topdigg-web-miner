@@ -5,11 +5,10 @@
   },
   "home": {
     "seoTitle": "Discover Web Traffic & Business Opportunities",
-    "seoDesc": "TopDigg focuses on SEO and growth, providing high-quality blog content and columns covering Reddit, YouTube, Twitter and more.",
+    "seoDesc": "TopDigg focuses on SEO and growth, providing high-quality blog content and in-depth Twitter analytics.",
     "heroTitle": "Leverage content and data to systematically find web traffic opportunities",
-    "heroDesc": "Focus on SEO, channel growth, and product validation. Three columns: Reddit, YouTube, Twitter — tracking creators and trends.",
+    "heroDesc": "Focus on SEO, channel growth, and product validation. Centered on deep Twitter analytics — tracking top creators and trends.",
     "blogCta": "Read blog",
-    "columnsCta": "Explore columns",
     "latest": "Latest posts"
   },
   "blog": {
@@ -54,17 +53,13 @@
     },
     "about": {
       "title": "About Us",
-      "seoDesc": "TopDigg surfaces trending topics and business opportunities across Reddit, YouTube, and Twitter.",
+      "seoDesc": "TopDigg surfaces trending topics and business opportunities through in-depth Twitter analytics.",
       "h1": "About TopDigg",
       "missionTitle": "Our Mission",
-      "missionDesc": "TopDigg helps content creators, entrepreneurs, and marketers discover trending topics and business opportunities across Reddit, YouTube, and Twitter. We analyze top accounts' content strategies using data-driven methods to deliver actionable insights.",
+      "missionDesc": "TopDigg helps content creators, entrepreneurs, and marketers discover trending topics and business opportunities on Twitter. We analyze top accounts' content strategies using data-driven methods to deliver actionable insights.",
       "whatTitle": "What We Do",
       "item1Label": "Twitter Deep Analysis:",
       "item1Desc": "Analyze tweet strategies, viral content, and growth patterns of top accounts.",
-      "item2Label": "Reddit Column:",
-      "item2Desc": "Track trending topics in Reddit communities and spot emerging niches.",
-      "item3Label": "YouTube Column:",
-      "item3Desc": "Follow content growth strategies of top YouTube channels.",
       "connectTitle": "Connect With Us",
       "contactTitle": "Contact & Submissions",
       "contactDesc": "If you have a Twitter account or Reddit community you'd like us to analyze, or want to contribute, reach out via social media."

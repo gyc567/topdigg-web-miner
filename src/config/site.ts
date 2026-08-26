@@ -96,26 +96,6 @@ export const siteConfig = {
       },
       { 
         label: {
-          "zh-Hans": "Reddit专栏",
-          "zh-Hant": "Reddit專欄",
-          "en": "Reddit Column",
-          "ja": "Redditコラム",
-          "vi": "Chuyên mục Reddit"
-        }, 
-        href: "/columns/reddit" 
-      },
-      { 
-        label: {
-          "zh-Hans": "YouTube专栏",
-          "zh-Hant": "YouTube專欄",
-          "en": "YouTube Column",
-          "ja": "YouTubeコラム",
-          "vi": "Chuyên mục YouTube"
-        }, 
-        href: "/columns/youtube" 
-      },
-      { 
-        label: {
           "zh-Hans": "Twitter专栏",
           "zh-Hant": "Twitter專欄",
           "en": "Twitter Column",
@@ -171,54 +151,6 @@ export const siteConfig = {
     ] as NavLink[],
   },
   columns: {
-    reddit: {
-      id: "reddit",
-      title: {
-        "zh-Hans": "Reddit专栏",
-        "zh-Hant": "Reddit專欄",
-        "en": "Reddit Column",
-        "ja": "Redditコラム",
-        "vi": "Chuyên mục Reddit"
-      },
-      description: {
-        "zh-Hans": "挖掘Reddit社区的热门趋势与商业机会。",
-        "zh-Hant": "挖掘Reddit社群的熱門趨勢與商業機會。",
-        "en": "Discover trending topics and business opportunities in Reddit communities.",
-        "ja": "Redditコミュニティのトレンドとビジネスチャンスを発掘。",
-        "vi": "Khám phá xu hướng nổi bật và cơ hội kinh doanh trong cộng đồng Reddit."
-      },
-      topAccounts: [
-        { name: "r/Entrepreneur", url: "https://www.reddit.com/r/Entrepreneur/" },
-        { name: "r/SideProject", url: "https://www.reddit.com/r/SideProject/" },
-        { name: "r/marketing", url: "https://www.reddit.com/r/marketing/" },
-        { name: "r/startups", url: "https://www.reddit.com/r/startups/" },
-        { name: "r/SEO", url: "https://www.reddit.com/r/SEO/" },
-      ],
-    } as ColumnConfig,
-    youtube: {
-      id: "youtube",
-      title: {
-        "zh-Hans": "YouTube专栏",
-        "zh-Hant": "YouTube專欄",
-        "en": "YouTube Column",
-        "ja": "YouTubeコラム",
-        "vi": "Chuyên mục YouTube"
-      },
-      description: {
-        "zh-Hans": "追踪内容增长高手，学习视频引流打法。",
-        "zh-Hant": "追蹤內容增長高手，學習影片引流打法。",
-        "en": "Follow content growth experts and learn video marketing strategies.",
-        "ja": "コンテンツ成長の専門家をフォローし、動画マーケティング戦略を学ぶ。",
-        "vi": "Theo dõi các chuyên gia tăng trưởng nội dung và học chiến lược tiếp thị video."
-      },
-      topAccounts: [
-        { name: "Ali Abdaal", url: "https://www.youtube.com/@aliabdaal" },
-        { name: "HubSpot", url: "https://www.youtube.com/@hubspot" },
-        { name: "Ahrefs", url: "https://www.youtube.com/@AhrefsCom" },
-        { name: "Veritasium", url: "https://www.youtube.com/@veritasium" },
-        { name: "Kurzgesagt", url: "https://www.youtube.com/@kurzgesagt" },
-      ],
-    } as ColumnConfig,
     twitter: {
       id: "twitter",
       title: {

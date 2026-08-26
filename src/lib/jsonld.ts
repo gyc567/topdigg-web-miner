@@ -50,11 +50,11 @@ export function makeWebsiteSchema(lang: SupportedLocale) {
     url: BASE,
     description: localizeText(
       {
-        "zh-Hans": "挖掘 Reddit、YouTube、Twitter 的热门趋势与商业机会",
-        "zh-Hant": "挖掘 Reddit、YouTube、Twitter 的熱門趨勢與商業機會",
-        en: "Discover trending topics and business opportunities across Reddit, YouTube, and Twitter.",
-        ja: "Reddit、YouTube、Twitterのトレンドとビジネスチャンスを発掘。",
-        vi: "Khám phá xu hướng và cơ hội kinh doanh trên Reddit, YouTube và Twitter.",
+        "zh-Hans": "专注于 Twitter 头部账号的深度分析与趋势追踪",
+        "zh-Hant": "專注於 Twitter 頭部帳號的深度分析與趨勢追蹤。",
+        en: "Deep dives into top Twitter accounts and trend tracking.",
+        ja: "Twitter のトップアカウントとトレンドを深く分析。",
+        vi: "Phân tích chuyên sâu các tài khoản Twitter hàng đầu và theo dõi xu hướng.",
       },
       lang
     ),
@@ -184,7 +184,7 @@ export function makeTwitterArticleSchema(params: TwitterArticleSchemaParams) {
 }
 
 // ---------------------------------------------------------------------------
-// CollectionPage + ItemList (栏目页：Reddit / YouTube / Twitter)
+// CollectionPage + ItemList (栏目页：Twitter)
 // ---------------------------------------------------------------------------
 
 export interface ItemListEntry {

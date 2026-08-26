@@ -5,11 +5,10 @@
   },
   "home": {
     "seoTitle": "Discover Web Traffic & Business Opportunities",
-    "seoDesc": "TopDigg focuses on SEO and growth, providing high-quality blog content and columns covering Reddit, YouTube, Twitter and more.",
+    "seoDesc": "TopDigg 专注于 SEO 与增长，提供优质博客内容和 Twitter 深度分析专栏。",
     "heroTitle": "用内容与数据，系统性挖掘 Web 流量的商业机会",
-    "heroDesc": "聚焦SEO、渠道增长与产品验证，配套三大专栏：Reddit、YouTube、Twitter，持续追踪优质创作者与趋势。",
+    "heroDesc": "聚焦 SEO、渠道增长与产品验证，以 Twitter 深度分析为核心，持续追踪头部创作者与趋势。",
     "blogCta": "阅读博客",
-    "columnsCta": "进入专栏",
     "latest": "最新博客"
   },
   "blog": {
@@ -71,17 +70,13 @@
     },
     "about": {
       "title": "关于我们",
-      "seoDesc": "TopDigg 是一个内容聚合平台，追踪 Reddit、YouTube、Twitter 的热门趋势与商业机会。",
+      "seoDesc": "TopDigg 是一个内容聚合平台，专注于 Twitter 头部账号的深度分析与趋势追踪。",
       "h1": "关于我们",
       "missionTitle": "我们的使命",
-      "missionDesc": "TopDigg 致力于帮助内容创作者、创业者和营销人员发现 Reddit、YouTube 和 Twitter 上的热门趋势与商业机会。我们通过数据驱动的方法，分析头部账号的内容策略，为用户提供可操作的洞察。",
+      "missionDesc": "TopDigg 致力于帮助内容创作者、创业者和营销人员发现 Twitter 上的热门趋势与商业机会。我们通过数据驱动的方法，分析头部账号的内容策略，为用户提供可操作的洞察。",
       "whatTitle": "我们做什么",
       "item1Label": "Twitter 深度分析：",
       "item1Desc": "解析头部账号的推文策略、爆款内容和增长模式。",
-      "item2Label": "Reddit 专栏：",
-      "item2Desc": "追踪 Reddit 社区的热门话题，发现新兴社区和商业机会。",
-      "item3Label": "YouTube 专栏：",
-      "item3Desc": "追踪 YouTube 头部频道的内容增长策略和视频营销打法。",
       "connectTitle": "关注我们",
       "contactTitle": "联系或投稿",
       "contactDesc": "如果你有想让我们分析的 Twitter 账号、Reddit 社区，或想投稿，欢迎通过社交媒体联系我们。"

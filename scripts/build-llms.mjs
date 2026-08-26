@@ -97,8 +97,8 @@ function buildLlmsTxt() {
     "",
     "## Site Overview",
     "",
-    "TopDigg 是一个内容聚合平台，追踪 Reddit、YouTube、Twitter 的热门趋势与商业机会。",
-    "We cover trending topics and business opportunities across Reddit, YouTube, and Twitter.",
+    "TopDigg 是一个内容聚合平台，专注于 Twitter 头部账号的深度分析与趋势追踪。",
+    "We deliver in-depth Twitter analytics and trend tracking for content creators and entrepreneurs.",
     "",
     "## Navigation",
     "",
@@ -107,8 +107,6 @@ function buildLlmsTxt() {
     `| Home | ${BASE}/ | Discover Web Traffic & Business Opportunities |`,
     `| Blog | ${BASE}/blog | All articles |`,
     `| Twitter Analytics | ${BASE}/twitter | In-depth Twitter account analysis reports |`,
-    `| Reddit Column | ${BASE}/columns/reddit | Top Reddit communities for business insights |`,
-    `| YouTube Column | ${BASE}/columns/youtube | Top YouTube channels for content growth |`,
     `| External Links | ${BASE}/external-links | Curated external resources |`,
     "",
     "## Latest Blog Posts (10 most recent)",
@@ -138,30 +136,6 @@ function buildLlmsTxt() {
 
   lines.push("## Columns — Top Accounts");
   lines.push("");
-  lines.push("### Reddit");
-  lines.push("Top Reddit communities for business insights:");
-  const redditAccounts = [
-    { name: "r/Entrepreneur", url: "https://www.reddit.com/r/Entrepreneur/" },
-    { name: "r/SideProject", url: "https://www.reddit.com/r/SideProject/" },
-    { name: "r/marketing", url: "https://www.reddit.com/r/marketing/" },
-    { name: "r/startups", url: "https://www.reddit.com/r/startups/" },
-    { name: "r/SEO", url: "https://www.reddit.com/r/SEO/" },
-  ];
-  for (const acc of redditAccounts) lines.push(`- ${acc.name}: ${acc.url}`);
-  lines.push("");
-
-  lines.push("### YouTube");
-  lines.push("Top YouTube channels for content growth:");
-  const ytAccounts = [
-    { name: "Ali Abdaal", url: "https://www.youtube.com/@aliabdaal" },
-    { name: "HubSpot", url: "https://www.youtube.com/@hubspot" },
-    { name: "Ahrefs", url: "https://www.youtube.com/@AhrefsCom" },
-    { name: "Veritasium", url: "https://www.youtube.com/@veritasium" },
-    { name: "Kurzgesagt", url: "https://www.youtube.com/@kurzgesagt" },
-  ];
-  for (const acc of ytAccounts) lines.push(`- ${acc.name}: ${acc.url}`);
-  lines.push("");
-
   lines.push("### Twitter");
   lines.push("Top Twitter accounts for growth and entrepreneurship:");
   const twAccounts = [

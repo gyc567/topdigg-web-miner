@@ -117,7 +117,7 @@ const AIDailyPost = () => {
   const breadcrumbSchema = makeBreadcrumbList(breadcrumbs);
   const faqSchema = makeFAQPageSchema({
     mainEntity: [
-      { question: "What is AI Daily?", answer: "AI Daily is a daily newsletter that curates the most important AI news from Reddit, YouTube, Twitter and other sources." },
+      { question: "What is AI Daily?", answer: "AI Daily is a daily newsletter that curates the most important AI news from Reddit, Twitter and other sources." },
       { question: "How often is AI Daily updated?", answer: "AI Daily is updated every day with the latest AI news and insights." },
       { question: "Can I contribute or suggest content?", answer: "Please contact us through our social media channels for contributions and suggestions." },
     ],

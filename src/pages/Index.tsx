@@ -30,19 +30,14 @@ const Index = () => {
           <Link to="/blog" className="inline-flex items-center rounded-md px-5 py-2.5 bg-brand text-brand-foreground shadow hover:opacity-90 transition-colors">
             {t("home.blogCta")}
           </Link>
-          <Link to="/columns/reddit" className="inline-flex items-center rounded-md px-5 py-2.5 border hover:bg-accent transition-colors">
-            {t("home.columnsCta")}
-          </Link>
         </div>
       </section>
 
-      <section className="mt-12 grid gap-6 md:grid-cols-3">
+      <section className="mt-12 flex justify-center">
         {[
-          siteConfig.columns.reddit,
-          siteConfig.columns.youtube,
           siteConfig.columns.twitter,
         ].map((col) => (
-          <article key={col.id} className="rounded-xl border p-6 hover:shadow-sm transition-shadow">
+          <article key={col.id} className="rounded-xl border p-6 hover:shadow-sm transition-shadow w-full max-w-md">
             <h2 className="text-xl font-bold mb-2">{localizeText(col.title as any, currentLocale)}</h2>
             <p className="text-sm text-muted-foreground mb-4">{localizeText(col.description as any, currentLocale)}</p>
             <ul className="space-y-2 text-sm">

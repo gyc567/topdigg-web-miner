@@ -5,11 +5,10 @@
   },
   "home": {
     "seoTitle": "Webトラフィックとビジネス機会を発掘",
-    "seoDesc": "TopDigg は SEO と成長に特化し、高品質なブログコンテンツと Reddit、YouTube、Twitter などのコラムを提供します。",
+    "seoDesc": "TopDigg は SEO と成長に特化し、高品質なブログコンテンツと Twitter 詳細分析を提供します。",
     "heroTitle": "コンテンツとデータでWebトラフィックのビジネス機会を体系的に発掘",
-    "heroDesc": "SEO、チャネル成長、プロダクト検証に注力。Reddit・YouTube・Twitterの3つのコラムで優良クリエイターとトレンドを追跡。",
+    "heroDesc": "SEO、チャネル成長、プロダクト検証に注力。Twitter 詳細分析を中心に、トップクリエイターとトレンドを継続的に追跡。",
     "blogCta": "ブログを読む",
-    "columnsCta": "コラムへ",
     "latest": "最新ブログ"
   },
   "blog": {
@@ -54,17 +53,13 @@
     },
     "about": {
       "title": "私たちについて",
-      "seoDesc": "TopDiggはReddit、YouTube、Twitterのトレンドとビジネスチャンスを発掘するコンテンツプラットフォームです。",
+      "seoDesc": "TopDigg は Twitter のトレンドとビジネスチャンスを発掘するコンテンツプラットフォームです。",
       "h1": "TopDiggについて",
       "missionTitle": "私たちの使命",
-      "missionDesc": "TopDiggは、コンテンツクリエイター、起業家、マーケティング担当者がReddit、YouTube、Twitterでトレンドとビジネスチャンスを発見するのを支援します。データ駆動のアプローチでトップアカウントのコンテンツ戦略を分析し、実践的なインサイトを提供します。",
+      "missionDesc": "TopDigg は、コンテンツクリエイター、起業家、マーケティング担当者が Twitter でトレンドとビジネスチャンスを発見するのを支援します。データ駆動のアプローチでトップアカウントのコンテンツ戦略を分析し、実践的なインサイトを提供します。",
       "whatTitle": "私たちの活動",
       "item1Label": "Twitter 詳細分析：",
       "item1Desc": "人気アカウントのTweet戦略、バイラルコンテンツ、成長パターンを分析。",
-      "item2Label": "Redditコラム：",
-      "item2Desc": "Redditコミュニティのトレンドを追跡し、新しいコミュニティとビジネスチャンスを発見。",
-      "item3Label": "YouTubeコラム：",
-      "item3Desc": "YouTube人気チャンネルのコンテンツ成長戦略を追跡。",
       "connectTitle": "フォローする",
       "contactTitle": "連絡先・寄稿",
       "contactDesc": "分析してほしいTwitterアカウントやRedditコミュニティ、または寄稿したい場合は、お問い合わせください。"

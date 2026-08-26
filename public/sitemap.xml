@@ -13,14 +13,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://topdigg.com/columns/reddit</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://topdigg.com/columns/youtube</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://topdigg.com/columns/twitter</loc>
     <priority>0.7</priority>
   </url>
@@ -29,7 +21,22 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://topdigg.com/blog/2026-08-26-eli5-claude-skill-jie-shao</loc>
+    <lastmod>2026-08-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/2026-08-26-paulgraham-greatwork</loc>
+    <lastmod>2026-08-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://topdigg.com/blog/2026-08-25-awesome-openclaw-money-maker</loc>
+    <lastmod>2026-08-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/2026-08-25-effective-html-analysis</loc>
     <lastmod>2026-08-25</lastmod>
     <priority>0.8</priority>
   </url>

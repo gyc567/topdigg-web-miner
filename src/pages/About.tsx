@@ -36,20 +36,6 @@ const About = () => {
                 {t("pages.about.item1Desc")}
               </span>
             </li>
-            <li className="flex gap-3">
-              <span className="font-bold text-brand">02.</span>
-              <span>
-                <strong className="text-foreground">{t("pages.about.item2Label")}</strong>
-                {t("pages.about.item2Desc")}
-              </span>
-            </li>
-            <li className="flex gap-3">
-              <span className="font-bold text-brand">03.</span>
-              <span>
-                <strong className="text-foreground">{t("pages.about.item3Label")}</strong>
-                {t("pages.about.item3Desc")}
-              </span>
-            </li>
           </ul>
         </section>
 

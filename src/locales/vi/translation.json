@@ -5,11 +5,10 @@
   },
   "home": {
     "seoTitle": "Khám phá cơ hội lưu lượng web và kinh doanh",
-    "seoDesc": "TopDigg tập trung vào SEO và tăng trưởng, cung cấp nội dung blog chất lượng cao và các chuyên mục về Reddit, YouTube, Twitter.",
+    "seoDesc": "TopDigg tập trung vào SEO và tăng trưởng, cung cấp nội dung blog chất lượng cao và phân tích chuyên sâu Twitter.",
     "heroTitle": "Tận dụng nội dung và dữ liệu để tìm kiếm cơ hội lưu lượng web một cách có hệ thống",
-    "heroDesc": "Tập trung vào SEO, tăng trưởng kênh và xác thực sản phẩm. Ba chuyên mục: Reddit, YouTube, Twitter — theo dõi nhà sáng tạo và xu hướng.",
+    "heroDesc": "Tập trung vào SEO, tăng trưởng kênh và xác thực sản phẩm. Lấy phân tích chuyên sâu Twitter làm cốt lõi — theo dõi nhà sáng tạo hàng đầu và xu hướng.",
     "blogCta": "Đọc blog",
-    "columnsCta": "Khám phá chuyên mục",
     "latest": "Bài viết mới nhất"
   },
   "blog": {
@@ -54,17 +53,13 @@
     },
     "about": {
       "title": "Về chúng tôi",
-      "seoDesc": "TopDigg là nền tảng tổng hợp nội dung, theo dõi xu hướng và cơ hội kinh doanh trên Reddit, YouTube, Twitter.",
+      "seoDesc": "TopDigg là nền tảng tổng hợp nội dung, tập trung phân tích chuyên sâu và theo dõi xu hướng trên Twitter.",
       "h1": "Về TopDigg",
       "missionTitle": "Sứ mệnh của chúng tôi",
-      "missionDesc": "TopDigg giúp nhà sáng tạo nội dung, doanh nhân và nhà tiếp thị khám phá xu hướng và cơ hội kinh doanh trên Reddit, YouTube và Twitter. Chúng tôi phân tích chiến lược nội dung của các tài khoản hàng đầu bằng phương pháp dựa trên dữ liệu để mang lại những hiểu biết khả thi.",
+      "missionDesc": "TopDigg giúp nhà sáng tạo nội dung, doanh nhân và nhà tiếp thị khám phá xu hướng và cơ hội kinh doanh trên Twitter. Chúng tôi phân tích chiến lược nội dung của các tài khoản hàng đầu bằng phương pháp dựa trên dữ liệu để mang lại những hiểu biết khả thi.",
       "whatTitle": "Chúng tôi làm gì",
       "item1Label": "Phân tích chuyên sâu Twitter:",
       "item1Desc": "Phân tích chiến lược tweet, nội dung lan truyền và mô hình tăng trưởng của các tài khoản hàng đầu.",
-      "item2Label": "Chuyên mục Reddit:",
-      "item2Desc": "Theo dõi chủ đề nổi bật trong cộng đồng Reddit và phát hiện cộng đồng mới nổi cùng cơ hội kinh doanh.",
-      "item3Label": "Chuyên mục YouTube:",
-      "item3Desc": "Theo dõi chiến lược tăng trưởng nội dung của các kênh YouTube hàng đầu.",
       "connectTitle": "Kết nối với chúng tôi",
       "contactTitle": "Liên hệ & Đóng góp",
       "contactDesc": "Nếu bạn có tài khoản Twitter hoặc cộng đồng Reddit muốn chúng tôi phân tích, hoặc muốn đóng góp nội dung, hãy liên hệ qua mạng xã hội."
