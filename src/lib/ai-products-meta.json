@@ -1,6 +1,152 @@
 {
   "products": [
     {
+      "slug": "2026-08-26-aera-browser",
+      "title": {
+        "en": "Aera Browser Deep Dive: The Browser That Works for You — How $20/Month Sells Your Busywork",
+        "ja": "Aera Browser 徹底分析：ブラウザの中の自動従業員 — $20/月で雑務を売る方法",
+        "vi": "Phân tích Sâu Aera Browser: Nhân viên Tự động trong Trình duyệt — Bán Việc Lặp lại với $20/Tháng",
+        "zh-Hans": "Aera Browser 深度分析：浏览器里的自动员工，$20/月如何卖掉你的重复劳动",
+        "zh-Hant": "Aera Browser 深度分析：瀏覽器裡的自動員工，$20/月如何賣掉你的重複勞動"
+      },
+      "description": {
+        "en": "Aera Browser is a local-first Chromium automation browser launched Dec 2025. Describe a recurring job in plain English and Aera runs it on a schedule in your signed-in browser. Stripe-verified $343 MRR / 9 subscriptions / ~1,700 users. This report dissects its monetization ladder, pricing tiers, design philosophy, and per-user monthly value.",
+        "ja": "Aera Browser は 2025 年 12 月にローンチしたローカルファーストな Chromium 自動ブラウザ。自然言語で雑務を記述し、ログイン済みの実ブラウザで定時実行する。Stripe 検証 MRR $343 / 9 契約 / ~1700 ユーザー。本レポートは収益化、料金体系、設計思想、ユーザーごとの月次価値を分解する。",
+        "vi": "Aera Browser là trình duyệt tự động local-first trên Chromium ra mắt 12/2025. Mô tả công việc lặp lại bằng ngôn ngữ tự nhiên và Aera chạy theo lịch trong trình duyệt đã đăng nhập của bạn. Stripe-verified MRR $343 / 9 thuê bao / ~1,700 người dùng. Báo cáo bóc tách mô hình kiếm tiền, bậc giá, triết lý thiết kế và giá trị mỗi người dùng mỗi tháng.",
+        "zh-Hans": "Aera Browser 是 2025 年 12 月上线的 Chromium 本地优先自动浏览器，用一句话 + 定时任务 + MCP 把浏览器变成自动员工。Stripe 验证 MRR $343 / 9 订阅 / ~1700 用户，本报告逐层拆解其变现路径、定价阶梯、设计哲学与每用户月度价值，给出可复制的变现与增长打法。",
+        "zh-Hant": "Aera Browser 是 2025 年 12 月上線的 Chromium 本地優先自動瀏覽器，用一句話 + 排程任務 + MCP 把瀏覽器變成自動員工。Stripe 驗證 MRR $343 / 9 訂閱 / ~1700 用戶，本報告逐層拆解其變現路徑、定價階梯、設計哲學與每用戶月度價值，給出可複製的變現與增長打法。"
+      },
+      "date": "2026-08-26",
+      "author": "ERIC",
+      "tags": [
+        "AI Product",
+        "Browser Automation",
+        "MCP",
+        "Monetization",
+        "SaaS",
+        "Aera Browser",
+        "Chromium",
+        "Local-First"
+      ],
+      "categories": [
+        "AI Products"
+      ],
+      "product": {
+        "name": "Aera Browser",
+        "url": "https://trustmrr.com/startup/aera-browser?ref=eric-kwok-b654e8",
+        "category": "AI Browser Automation",
+        "launch_date": "2025-12",
+        "revenue": "$343 MRR (2026-08, Stripe-verified) · $3,635 lifetime",
+        "users": "~1,700 users · 9 paid subscriptions",
+        "pricing_model": "Free (self-hosted model) + Pro $20/mo + Ultra $200/mo",
+        "logo": "https://files.stripe.com/links/MDB8YWNjdF8xU2ZScTlMaGhtZ1p0d1NofGZsX2xpdmVfSFRRMUwxYVFBOEtkRjBZT0c0czRCd3FN00eG4pLTYa"
+      },
+      "pricing": [
+        {
+          "plan": "Free",
+          "price": 0,
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "plan": "Pro",
+          "price": 20,
+          "currency": "USD",
+          "period": "month"
+        },
+        {
+          "plan": "Ultra",
+          "price": 200,
+          "currency": "USD",
+          "period": "month"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MRR",
+          "value": "$343 (2026-08)"
+        },
+        {
+          "name": "Last 30d Revenue",
+          "value": "$140"
+        },
+        {
+          "name": "Lifetime Revenue",
+          "value": "$3,635"
+        },
+        {
+          "name": "Active Subscriptions",
+          "value": "9"
+        },
+        {
+          "name": "Total Users",
+          "value": "~1,700"
+        },
+        {
+          "name": "Paid Conversion",
+          "value": "~0.5% (9/1700 est.)"
+        },
+        {
+          "name": "Blended ARPU",
+          "value": "~$38/mo"
+        },
+        {
+          "name": "Domain Rating",
+          "value": "9/100"
+        },
+        {
+          "name": "TrustMRR Rank",
+          "value": "#2108"
+        },
+        {
+          "name": "Founded",
+          "value": "2025-12"
+        },
+        {
+          "name": "Founder",
+          "value": "Andrew Rivers (US)"
+        },
+        {
+          "name": "Tech Stack",
+          "value": "Chromium + Node.js + PostgreSQL + Stripe + OpenRouter"
+        }
+      ],
+      "sources": [
+        {
+          "label": "TrustMRR public archive (with ref)",
+          "url": "https://trustmrr.com/startup/aera-browser?ref=eric-kwok-b654e8"
+        },
+        {
+          "label": "TrustMRR AI-readable Markdown",
+          "url": "https://trustmrr.com/startup/aera-browser.md"
+        },
+        {
+          "label": "Aera official site",
+          "url": "https://getaera.app"
+        },
+        {
+          "label": "Aera pricing",
+          "url": "https://getaera.app/pricing"
+        },
+        {
+          "label": "Aera features",
+          "url": "https://getaera.app/features"
+        },
+        {
+          "label": "Aera use cases",
+          "url": "https://getaera.app/use-cases"
+        },
+        {
+          "label": "Aera security & privacy",
+          "url": "https://getaera.app/security"
+        },
+        {
+          "label": "Aera FAQ",
+          "url": "https://getaera.app/faq"
+        }
+      ]
+    },
+    {
       "slug": "2026-08-26-cursor",
       "title": {
         "en": "Cursor Deep Dive: From Zero to $1B ARR — The AI Editor's Monetization Path",
