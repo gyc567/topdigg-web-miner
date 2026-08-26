@@ -42,8 +42,15 @@ const STATIC_FILE_EXT = /\.[a-z0-9]{2,5}$/i;
 export default async function middleware(request: Request): Promise<Response> {
   const pathname = new URL(request.url).pathname;
 
-  // Always allow static assets (any file with an extension)
-  if (STATIC_FILE_EXT.test(pathname)) return fetch(request);
+  // Static asset: pass through to Vercel's static layer. If the file doesn't
+  // exist, propagate a real 404 — don't let the SPA rewrite (`vercel.json`
+  // `/(.*) → /index.html`) turn a missing asset into a 200-index.html, which
+  // pollutes SEO by indexing the homepage under non-existent URLs.
+  if (STATIC_FILE_EXT.test(pathname)) {
+    const res = await fetch(request);
+    if (res.status === 404) return new Response("Not Found", { status: 404 });
+    return res;
+  }
 
   // Allow valid SPA route prefixes (exact match or sub-path like /blog/foo)
   for (const route of VALID_ROUTES) {
