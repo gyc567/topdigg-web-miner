@@ -7,8 +7,10 @@
 //
 // Assertions per page:
 //   - <picture> present
-//   - <source type="image/webp"> with srcset=/qr-scan-follow.webp
-//   - <img> with src=/qr-scan-follow.png fallback
+//   - <source type="image/webp"> with srcset pointing to /assets/qr-scan-follow-*.webp
+//     (Vite-hashed URL — content hash suffix varies per build, so we match by
+//     prefix + extension instead of exact path).
+//   - <img> fallback src points to the same Vite-bundled webp
 //   - <figcaption> contains locale-specific caption
 //   - NO <a href="https://mp.weixin..."> links
 //   - WebP image loaded (HTTP 200 + non-zero bytes)
@@ -106,8 +108,8 @@ try {
     });
 
     assert('<picture> element present', result.hasPicture);
-    assert('<source type="image/webp" srcSet="/qr-scan-follow.webp">', result.srcset === '/qr-scan-follow.webp', `got: ${result.srcset}`);
-    assert('<img src="/qr-scan-follow.png"> fallback', result.src === '/qr-scan-follow.png', `got: ${result.src}`);
+    assert('<source type="image/webp"> points to /assets/qr-scan-follow-*.webp', !!result.srcset && /\/assets\/qr-scan-follow-[A-Za-z0-9_-]+\.webp$/.test(result.srcset), `got: ${result.srcset}`);
+    assert('<img> fallback src matches source', !!result.src && result.src === result.srcset, `src: ${result.src} | srcset: ${result.srcset}`);
     assert(`<figcaption> starts with "${locale.expectCaption}"`, result.captionText && result.captionText.startsWith(locale.expectCaption), `got: ${result.captionText}`);
     assert(`<img alt> contains "${locale.expectAlt.substring(0, 20)}"`, result.altText && result.altText.includes(locale.expectAlt.substring(0, 20)), `got: ${result.altText}`);
     assert('Old weixin link removed (no <a href="mp.weixin...">)', !result.hasOldWeixin);

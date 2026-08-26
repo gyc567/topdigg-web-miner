@@ -30,24 +30,20 @@ const VALID_ROUTES = new Set([
 ]);
 
 // Paths that should always pass through (assets, API, etc.)
-const ALWAYS_200 = [
-  "/assets/",
-  "/og-image",
-  "/favicon",
-  "/robots.txt",
-  "/sitemap.xml",
-  "/llms.txt",
-  "/llms-full.txt",
-  "/logo-header.png",
-];
+// Static asset rule: any request whose pathname has a file extension
+// (e.g. .png, .webp, .ico, .svg, .css, .js, .json) is treated as a static
+// asset and pass-through'd to Vercel's static layer. This replaces the old
+// hard-coded whitelist (`/favicon`, `/logo-header.png`, ...) which silently
+// 404'd every other public file. The "has extension" check is the same
+// heuristic Vercel's static lookup uses to decide whether a path is a file
+// request vs an SPA route.
+const STATIC_FILE_EXT = /\.[a-z0-9]{2,5}$/i;
 
 export default async function middleware(request: Request): Promise<Response> {
   const pathname = new URL(request.url).pathname;
 
-  // Always allow static assets and known paths
-  for (const prefix of ALWAYS_200) {
-    if (pathname.startsWith(prefix)) return fetch(request);
-  }
+  // Always allow static assets (any file with an extension)
+  if (STATIC_FILE_EXT.test(pathname)) return fetch(request);
 
   // Allow valid SPA route prefixes (exact match or sub-path like /blog/foo)
   for (const route of VALID_ROUTES) {

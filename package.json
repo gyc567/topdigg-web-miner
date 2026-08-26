@@ -17,6 +17,7 @@
     "build:prerender": "node scripts/prerender.mjs",
     "build:routes": "node -e \"import('./scripts/build-routes.mjs').then(m => m.prerenderRoutes.forEach(r => console.log(r)))\"",
     "lint": "eslint .",
+    "smoke:assets": "node scripts/smoke-test-assets.mjs",
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",

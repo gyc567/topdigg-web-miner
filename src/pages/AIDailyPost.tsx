@@ -14,6 +14,7 @@ import { makeArticleSchema, makeBreadcrumbList, makeFAQPageSchema } from "@/lib/
 import { AuthorBio } from "@/components/AuthorBio";
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink as ExternalLinkIcon } from "lucide-react";
+import { qrImageUrl } from "@/assets/qr";
 
 // Related AI Daily reports: up to 3 sharing at least one tag, excluding current
 function RelatedReports({ currentSlug, tags }: { currentSlug: string; tags: string[] }) {
@@ -175,9 +176,9 @@ const AIDailyPost = () => {
             {resolved.source.original.name && resolved.source.original.name !== resolved.source.aggregator && (
               <figure className="mt-4 mb-6 max-w-sm">
                 <picture>
-                  <source srcSet="/qr-scan-follow.webp" type="image/webp" />
+                  <source srcSet={qrImageUrl} type="image/webp" />
                   <img
-                    src="/qr-scan-follow.png"
+                    src={qrImageUrl}
                     alt={t("aiDaily.originalHint", "扫码关注公众号获取原文")}
                     width={1280}
                     height={467}
