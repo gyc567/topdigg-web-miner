@@ -4,7 +4,7 @@
 
 ## Active Plans
 
-- [Aera Browser（getaera.app）深度解析博客（5 语言）](plans/aera-browser-blog.md) — 进行中
+_(无 — 全部施工中计划见 [Completed Plans](#completed-plans))_
 
 ## Completed Plans
 
