@@ -132,6 +132,8 @@
       "fallbackNote": "(covered above)",
       "itemsCount": "{{count}} items"
     },
-    "hackerNews": "Hacker News Top Posts"
+    "hackerNews": "Hacker News Top Posts",
+    "originalHint": "Scan the QR code for the original article",
+    "originalCaption": "Original source: {{name}}"
   }
 }

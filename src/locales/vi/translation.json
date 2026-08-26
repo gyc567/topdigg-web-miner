@@ -132,6 +132,8 @@
       "fallbackNote": "(đã đề cập ở trên)",
       "itemsCount": "{{count}} bài"
     },
-    "hackerNews": "Bài Viết Hot Hacker News"
+    "hackerNews": "Bài Viết Hot Hacker News",
+    "originalHint": "Quét mã QR để đọc bài gốc",
+    "originalCaption": "Nguồn gốc: {{name}}"
   }
 }

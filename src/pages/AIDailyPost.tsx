@@ -172,19 +172,25 @@ const AIDailyPost = () => {
                 <span className="ml-1">{fullPost.source.aggregator}</span>
               )}
             </Badge>
-            {resolved.source.original.url && resolved.source.original.name !== resolved.source.aggregator && (
-              <Badge variant="outline">
-                {t("aiDaily.original")}：
-                <a
-                  href={resolved.source.original.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-primary ml-1 underline underline-offset-2"
-                >
-                  {resolved.source.original.name}
-                  <ExternalLinkIcon className="inline h-3 w-3 ml-0.5" />
-                </a>
-              </Badge>
+            {resolved.source.original.name && resolved.source.original.name !== resolved.source.aggregator && (
+              <figure className="mt-4 mb-6 max-w-sm">
+                <picture>
+                  <source srcSet="/qr-scan-follow.webp" type="image/webp" />
+                  <img
+                    src="/qr-scan-follow.png"
+                    alt={t("aiDaily.originalHint", "扫码关注公众号获取原文")}
+                    width={1280}
+                    height={467}
+                    loading="eager"
+                    fetchPriority="high"
+                    decoding="async"
+                    className="w-full h-auto rounded-md border bg-card"
+                  />
+                </picture>
+                <figcaption className="mt-2 text-xs text-muted-foreground">
+                  {t("aiDaily.originalCaption", "原文出处：{{name}}", { name: resolved.source.original.name })}
+                </figcaption>
+              </figure>
             )}
           </div>
 

@@ -132,6 +132,8 @@
       "fallbackNote": "（上記参照）",
       "itemsCount": "{{count}}件"
     },
-    "hackerNews": "Hacker News 人気投稿"
+    "hackerNews": "Hacker News 人気投稿",
+    "originalHint": "QRコードをスキャンして原文を読む",
+    "originalCaption": "原本情報：{{name}}"
   }
 }

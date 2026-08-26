@@ -39,7 +39,7 @@ source:
   aggregator_url: "https://aihot.virxact.com"
   original:
     name: "比特财商"
-    url: "https://..."
+    # url: "https://..."  ← 自 2026-08-26 起已移除，前端不再渲染链接
 hn_count: 5
 hn_keywords: "AI OR GPT OR LLM OR ..."
 ---
@@ -57,6 +57,7 @@ hn_keywords: "AI OR GPT OR LLM OR ..."
 - `tags/categories` 翻译，但保持单层数组（`["AI Daily"]` 而非 `{en: ...}`）
 - `source.aggregator` 保留品牌名 "AI HOT"
 - `source.original.name` 翻译
+- ~~`source.original.url`~~ **不要**填 — 自 2026-08-26 起前端改为 QR 图片，不再渲染 weixin 链接
 - `hn_keywords` 字段不变（机器可读，与语言无关）
 - markdown body 章节标题 + 条目 + HN 区块全部翻译
 - HN 区块 URL 不变；标题、来源行翻译
@@ -111,10 +112,42 @@ i18n key 在 `src/locales/{locale}/translation.json` 的 `aiDaily` 节，5 语�
 | `aiDaily.noReports` / `noReportsHint` | 暂无日报内容 / 日报将在每天 8 点自动更新，请稍后再来 |
 | `aiDaily.resultsCount` | 共 {{count}} 期 |
 | `aiDaily.aggregator` / `original` / `today` / `backToList` | — |
+| `aiDaily.originalHint` | 扫码关注公众号获取原文（`<img>` alt） |
+| `aiDaily.originalCaption` | 原文出处：{{name}}（`<figcaption>`） |
 | `aiDaily.hackerNews` | Hacker News 热帖 |
 | `aiDaily.hnTop5.{sectionTitle, source, hnrss, filteredFrom, keywords, viewOnHN, fetchFailed, fallbackNote, itemsCount}` | — |
 
 新增 UI 文案 key 时同步翻译 5 个翻译文件。
+
+---
+
+## 原文出处展示（自 2026-08-26 v2）
+
+**前端**：AI Daily post 页 header 用 `<picture>` 渲染 `public/qr-scan-follow.webp`
+（PNG 回退 `public/qr-scan-follow.png`），不再展示 weixin 链接 Badge。
+
+**frontmatter 约束**：
+- `source.original.name` 必填（每 locale 一份本地化名）
+- ~~`source.original.url`~~ **已移除**——新条目不要加
+
+**图片资产所有权**：
+| 文件 | 用途 | 大小 |
+|------|------|------|
+| `public/qr-scan-follow.webp` | 主用（`<source type="image/webp">`） | ~25 KB |
+| `public/qr-scan-follow.png` | 回退（`<img>` 老浏览器/邮件） | ~115 KB |
+| `public/扫码_搜索联合传播样式-标准色版.png` | **源图保留**，不要删除 | ~4 MB（BMP 格式 + .png 扩展名） |
+
+**替换图流程**：
+1. 用同规格 PNG/BMP覆盖 `public/扫码_搜索联合传播样式-标准色版.png`
+2. 跑 PIL 重生成 webp + 英文名 png：
+   ```python
+   from PIL import Image
+   img = Image.open('public/扫码_搜索联合传播样式-标准色版.png')
+   img.thumbnail((1280, 1280), Image.LANCZOS)
+   img.save('public/qr-scan-follow.webp', 'WEBP', quality=82)
+   img.save('public/qr-scan-follow.png', 'PNG', optimize=True)
+   ```
+3. 不需要改任何代码
 
 ---
 
@@ -125,13 +158,16 @@ i18n key 在 `src/locales/{locale}/translation.json` 的 `aiDaily` 节，5 语�
 | `title / description / content` | ✅ 5 语言齐全，`Record<string, string>` 类型 |
 | `tags / categories` 顶层 | ⚠️ 单字符串数组，5 语言共用同一份（en 版"AI Daily"），不分 locale。前端当前用 `report.tags` 渲染 |
 | `source.aggregator / aggregator_url` | ⚠️ 单层对象，5 语言共用 |
+| `source.original.name` | ✅ 5 语言按 locale 分桶（`Record<locale, string>`） |
+| ~~`source.original.url`~~ | ✅ **已移除**——QR 图取代链接 Badge |
 | `author` | ⚠️ 单字符串（用 zh-Hans 的"比特财商"），不渲染 |
 | HN 标题快照 | ✅ 随 md 翻译，curl 抓取的 URL 不变 |
 
-**如要严格把 tags/categories/source 也按 locale 分桶**，需要扩展 `AIDailyMeta` 类型 + 改造 build 脚本 + 调整 `AIDailyIndex.tsx` 的取数逻辑（单独排期）。
+**如要严格把 tags/categories/source.aggregator 也按 locale 分桶**，需要扩展 `AIDailyMeta` 类型 + 改造 build 脚本 + 调整 `AIDailyIndex.tsx` 的取数逻辑（单独排期）。
 
 ---
 
 ## 改动历史
 
+- **2026-08-26** — 原文出处改 QR 图片：删除 24 个 md 的 `source.original.url`；`<Badge>` 改 `<picture>` 渲染 webp + png；新增 `aiDaily.originalHint` / `originalCaption` i18n × 5 locale；index.html 加 preload；SOP 更新
 - **2026-08-20** — 首次补全 5 语言：4 份 md + build 脚本修复（`normalizeLocalized(value, locale)` + `file.locale` 字段）+ 5 个 meta/data json + 全链路 build + 浏览器实测

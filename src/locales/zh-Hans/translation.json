@@ -132,6 +132,8 @@
       "fallbackNote": "（已见上文）",
       "itemsCount": "{{count}} 条"
     },
-    "hackerNews": "Hacker News 热帖"
+    "hackerNews": "Hacker News 热帖",
+    "originalHint": "扫码关注公众号获取原文",
+    "originalCaption": "原文出处：{{name}}"
   }
 }
