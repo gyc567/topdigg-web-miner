@@ -22,7 +22,7 @@ const ColumnPage = () => {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    name: `${localizeText(column.title as any, currentLocale)} Top 5 账户`,
+    name: `${localizeText(column.title, currentLocale)} Top 5 账户`,
     itemListElement: column.topAccounts.slice(0, 5).map((acc, idx) => ({
       "@type": "ListItem",
       position: idx + 1,
@@ -37,14 +37,14 @@ const ColumnPage = () => {
   return (
     <>
       <SEO
-        title={localizeText(column.title as any, currentLocale)}
-        description={localizeText(column.description as any, currentLocale)}
+        title={localizeText(column.title, currentLocale)}
+        description={localizeText(column.description, currentLocale)}
         path={`/columns/${column.id}`}
         jsonLd={jsonLd}
       />
       <header className="mb-6">
-        <h1 className="text-3xl font-bold">{localizeText(column.title as any, currentLocale)}</h1>
-        <p className="text-muted-foreground mt-2">{localizeText(column.description as any, currentLocale)}</p>
+        <h1 className="text-3xl font-bold">{localizeText(column.title, currentLocale)}</h1>
+        <p className="text-muted-foreground mt-2">{localizeText(column.description, currentLocale)}</p>
       </header>
 
     <section className="grid gap-4 md:grid-cols-2">

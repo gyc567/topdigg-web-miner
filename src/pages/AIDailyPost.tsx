@@ -49,7 +49,7 @@ function RelatedReports({ currentSlug, tags }: { currentSlug: string; tags: stri
             className="block rounded-lg border p-4 hover:shadow-sm transition-shadow"
           >
             <h3 className="font-medium text-sm line-clamp-2 hover:text-brand transition-colors">
-              {localizeText(report.title as any, currentLocale)}
+              {localizeText(report.title, currentLocale)}
             </h3>
             <time className="text-xs text-muted-foreground mt-2 block">{report.date}</time>
           </Link>

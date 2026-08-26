@@ -23,7 +23,7 @@ type SEOProps = {
   type?: "website" | "article";
   image?: string;
   noIndex?: boolean;
-  jsonLd?: Record<string, any> | Record<string, any>[];
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
   /** Injected automatically as a separate JSON-LD BreadcrumbList block. */
   breadcrumbs?: BreadcrumbItem[];
   /** ISO date string for article:published_time meta */

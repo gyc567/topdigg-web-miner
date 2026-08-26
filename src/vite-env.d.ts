@@ -9,6 +9,8 @@ declare module '*.md' {
     date?: string
     author?: string
     tags?: string[]
-    [key: string]: any
+    // Vite returns arbitrary frontmatter fields; using `unknown` forces callers
+    // to narrow before reading. Index signature required by the markdown loader.
+    [key: string]: unknown
   }
 }

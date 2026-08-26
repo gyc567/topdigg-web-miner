@@ -41,7 +41,7 @@ function RelatedPosts({ currentSlug, tags }: { currentSlug: string; tags: string
         {related.map((post) => (
           <Link key={post.slug} to={`/blog/${post.slug}`} className="block rounded-lg border p-4 hover:shadow-sm transition-shadow">
             <h3 className="font-medium text-sm line-clamp-2 hover:text-brand transition-colors">
-              {localizeText(post.title as any, currentLocale)}
+              {localizeText(post.title, currentLocale)}
             </h3>
             <time className="text-xs text-muted-foreground mt-2 block">{post.date}</time>
           </Link>
@@ -106,8 +106,8 @@ const BlogPost = () => {
     ],
   });
   const jsonLd = [makeArticleSchema({
-    title: localizeText(fullPost.title as any, currentLocale),
-    description: localizeText(fullPost.description as any, currentLocale),
+    title: localizeText(fullPost.title, currentLocale),
+    description: localizeText(fullPost.description, currentLocale),
     url: postPath,
     datePublished: fullPost.date,
     authorName: fullPost.author,
@@ -117,14 +117,14 @@ const BlogPost = () => {
   const breadcrumbs = [
     { name: "Home", url: `${siteConfig.baseUrl}/` },
     { name: "Blog", url: `${siteConfig.baseUrl}/blog` },
-    { name: localizeText(fullPost.title as any, currentLocale), url: `${siteConfig.baseUrl}${postPath}` },
+    { name: localizeText(fullPost.title, currentLocale), url: `${siteConfig.baseUrl}${postPath}` },
   ];
 
   return (
     <>
       <SEO
-        title={localizeText(fullPost.title as any, currentLocale)}
-        description={localizeText(fullPost.description as any, currentLocale)}
+        title={localizeText(fullPost.title, currentLocale)}
+        description={localizeText(fullPost.description, currentLocale)}
         path={postPath}
         type="article"
         jsonLd={jsonLd}
@@ -134,13 +134,13 @@ const BlogPost = () => {
       />
       <article className="max-w-none">
         <header className="mb-8">
-          <h1 className="text-4xl font-bold mb-4">{localizeText(fullPost.title as any, currentLocale)}</h1>
+          <h1 className="text-4xl font-bold mb-4">{localizeText(fullPost.title, currentLocale)}</h1>
           <div className="text-sm text-muted-foreground mb-6">
             <time dateTime={fullPost.date}>{new Date(fullPost.date).toLocaleDateString()}</time> · {fullPost.author} · {fullPost.tags.join(" / ")}
           </div>
         </header>
         <MarkdownContent
-          content={localizeText(fullPost.content as any, currentLocale)}
+          content={localizeText(fullPost.content, currentLocale)}
           className="mb-8"
         />
         <section className="border-t mt-8 pt-8">

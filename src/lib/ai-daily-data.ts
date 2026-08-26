@@ -12,6 +12,12 @@ import type { SupportedLocale } from "@/lib/locale";
 import { normalizeLang } from "@/lib/locale";
 import metaDataAll from "./ai-daily-meta.json";
 
+// Type for the generated JSON manifests. Each is `{ reports: T[] }` where T
+// is AIDailyMeta (metadata-only) or AIDailyPost (full content). Declaring it
+// here keeps the JSON imports typed without per-call `as any` casts.
+type MetaManifest = { reports: import("./ai-daily-data").AIDailyMeta[] };
+type ContentManifest = { reports: import("./ai-daily-data").AIDailyPost[] };
+
 // ---------------------------------------------------------------------------
 // Types
 // ---------------------------------------------------------------------------
@@ -83,7 +89,7 @@ export class AIDailyDataSource {
   private _allBySlug: Map<string, AIDailyMeta> = new Map();
 
   private constructor() {
-    const all = (metaDataAll as any).reports as AIDailyMeta[] ?? [];
+    const all = (metaDataAll as MetaManifest).reports ?? [];
     this._allBySlug = new Map(all.map((r) => [r.slug, r]));
   }
 
@@ -112,7 +118,7 @@ export class AIDailyDataSource {
     const keyedLocale = locale as LocaleKey;
     const loader = localeMetaModules[keyedLocale] ?? localeMetaModules["zh-Hans"];
     const mod = await loader();
-    const raw: AIDailyMeta[] = (mod as any).reports ?? [];
+    const raw: AIDailyMeta[] = (mod as MetaManifest).reports ?? [];
 
     // Deduplicate: one report per date (keep latest by slug)
     const byDate = new Map<string, AIDailyMeta>();
@@ -142,7 +148,7 @@ export class AIDailyDataSource {
 
     try {
       const { default: fullData } = await import("./ai-daily-data.json");
-      const all: AIDailyPost[] = (fullData as any).reports ?? [];
+      const all: AIDailyPost[] = (fullData as ContentManifest).reports ?? [];
       return all.find((r) => r.slug === slug);
     } catch {
       return undefined;

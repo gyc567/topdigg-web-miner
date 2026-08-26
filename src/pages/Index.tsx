@@ -38,8 +38,8 @@ const Index = () => {
           siteConfig.columns.twitter,
         ].map((col) => (
           <article key={col.id} className="rounded-xl border p-6 hover:shadow-sm transition-shadow w-full max-w-md">
-            <h2 className="text-xl font-bold mb-2">{localizeText(col.title as any, currentLocale)}</h2>
-            <p className="text-sm text-muted-foreground mb-4">{localizeText(col.description as any, currentLocale)}</p>
+            <h2 className="text-xl font-bold mb-2">{localizeText(col.title, currentLocale)}</h2>
+            <p className="text-sm text-muted-foreground mb-4">{localizeText(col.description, currentLocale)}</p>
             <ul className="space-y-2 text-sm">
               {col.topAccounts.slice(0, 5).map((acc) => (
                 <li key={acc.url}>
@@ -63,10 +63,10 @@ const Index = () => {
             <article key={post.slug} className="rounded-xl border p-6 hover:shadow-sm transition-shadow">
               <h3 className="text-lg font-semibold">
                 <Link to={`/blog/${post.slug}`} className="hover:text-brand transition-colors">
-                  {localizeText(post.title as any, currentLocale)}
+                  {localizeText(post.title, currentLocale)}
                 </Link>
               </h3>
-              <p className="text-sm text-muted-foreground mt-2">{localizeText(post.description as any, currentLocale)}</p>
+              <p className="text-sm text-muted-foreground mt-2">{localizeText(post.description, currentLocale)}</p>
               <div className="mt-3 text-xs text-muted-foreground">
                 <time dateTime={post.date}>{new Date(post.date).toLocaleDateString()}</time> · {post.author}
               </div>
