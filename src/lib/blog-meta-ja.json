@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "slug": "2026-08-26-rytr-ai-writing-assistant-analysis",
+      "date": "2026-08-26",
+      "author": "TopDigg",
+      "tags": [
+        "AI Writing",
+        "Rytr",
+        "Content Generation",
+        "AI Assistant",
+        "Product Analysis",
+        "Tool Review",
+        "SEO",
+        "Marketing Copy",
+        "Freemium"
+      ],
+      "categories": [
+        "AI Tool Review",
+        "Product Deep Dive",
+        "Content Marketing"
+      ],
+      "title": "Rytr.me 徹底解剖：8,000,000+ ライターの支持を得る AI ライティングアシスタントはいかにして生まれたか",
+      "description": "Rytr.me AI ライティングアシスタントの製品哲学、40+ シナリオテンプレート、My Voice パーソナライズ、価格戦略、詳細チュートリアルを深く分析し、8M+ ユーザー選択の底层ロジックを明らかにする"
+    },
+    {
       "slug": "2026-08-26-eli5-claude-skill-jie-shao",
       "date": "2026-08-26",
       "author": "TopDigg",

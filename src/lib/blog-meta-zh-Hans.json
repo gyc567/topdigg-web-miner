@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "slug": "2026-08-26-rytr-ai-writing-assistant-analysis",
+      "date": "2026-08-26",
+      "author": "TopDigg",
+      "tags": [
+        "AI Writing",
+        "Rytr",
+        "Content Generation",
+        "AI Assistant",
+        "Product Analysis",
+        "Tool Review",
+        "SEO",
+        "Marketing Copy",
+        "Freemium"
+      ],
+      "categories": [
+        "AI Tool Review",
+        "Product Deep Dive",
+        "Content Marketing"
+      ],
+      "title": "Rytr.me 深度解析：8,000,000+ 写作者背后的 AI 写作助手是如何炼成的",
+      "description": "深度分析 Rytr.me AI 写作助手的产品哲学、40+ 场景模板、My Voice 个性化语气功能、定价策略和详细使用教程，揭示 8M+ 用户选择的底层逻辑"
+    },
+    {
       "slug": "2026-08-26-eli5-claude-skill-jie-shao",
       "date": "2026-08-26",
       "author": "TopDigg",

@@ -1,6 +1,41 @@
 {
   "posts": [
     {
+      "slug": "2026-08-26-rytr-ai-writing-assistant-analysis",
+      "title": {
+        "en": "Rytr.me Deep Dive: How an AI Writing Assistant Earned 8,000,000+ Writers",
+        "ja": "Rytr.me 徹底解剖：8,000,000+ ライターの支持を得る AI ライティングアシスタントはいかにして生まれたか",
+        "vi": "Rytr.me Phân Tích Chuyên Sâu: Trợ Lý Viết AI Đã Chinh Phục 8.000.000+ Người Viết Như Thế Nào",
+        "zh-Hans": "Rytr.me 深度解析：8,000,000+ 写作者背后的 AI 写作助手是如何炼成的",
+        "zh-Hant": "Rytr.me 深度解析：8,000,000+ 寫作者背後的 AI 寫作助手是如何煉成的"
+      },
+      "description": {
+        "en": "In-depth analysis of Rytr.me AI writing assistant's product philosophy, 40+ scenario templates, My Voice personalization, pricing strategy and detailed tutorial — uncovering the underlying logic of 8M+ user adoption",
+        "ja": "Rytr.me AI ライティングアシスタントの製品哲学、40+ シナリオテンプレート、My Voice パーソナライズ、価格戦略、詳細チュートリアルを深く分析し、8M+ ユーザー選択の底层ロジックを明らかにする",
+        "vi": "Phân tích chuyên sâu triết lý sản phẩm, 40+ mẫu kịch bản, cá nhân hóa My Voice, chiến lược giá và hướng dẫn chi tiết của trợ lý viết AI Rytr.me — khám phá logic底层 của việc 8M+ người dùng lựa chọn",
+        "zh-Hans": "深度分析 Rytr.me AI 写作助手的产品哲学、40+ 场景模板、My Voice 个性化语气功能、定价策略和详细使用教程，揭示 8M+ 用户选择的底层逻辑",
+        "zh-Hant": "深度分析 Rytr.me AI 寫作助手的產品哲學、40+ 場景範本、My Voice 個性化語氣功能、定價策略和詳細使用教程，揭示 8M+ 使用者選擇的底層邏輯"
+      },
+      "date": "2026-08-26",
+      "author": "TopDigg",
+      "tags": [
+        "AI Writing",
+        "Rytr",
+        "Content Generation",
+        "AI Assistant",
+        "Product Analysis",
+        "Tool Review",
+        "SEO",
+        "Marketing Copy",
+        "Freemium"
+      ],
+      "categories": [
+        "AI Tool Review",
+        "Product Deep Dive",
+        "Content Marketing"
+      ]
+    },
+    {
       "slug": "2026-08-26-eli5-claude-skill-jie-shao",
       "title": {
         "zh-Hans": "让 AI 给任何人解释任何事：ELI5 开源项目深度解析"
