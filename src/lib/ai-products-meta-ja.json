@@ -1,6 +1,101 @@
 {
   "products": [
     {
+      "slug": "2026-08-27-ai-website-builder",
+      "date": "2026-08-27",
+      "author": "ERIC",
+      "tags": [
+        "AI Product",
+        "Website Builder",
+        "Monetization",
+        "SaaS",
+        "MRR",
+        "No-Code",
+        "AI"
+      ],
+      "categories": [
+        "AI Product Analysis"
+      ],
+      "product": {
+        "name": "Anonymous AI Website Builder",
+        "url": "https://trustmrr.com/startup/ai-website-builder?ref=eric-kwok-b654e8",
+        "category": "AI Website Builder / No-Code SaaS",
+        "launch_date": "2021",
+        "revenue": "$14,581~$19,396/month (2026-08)",
+        "users": "1,000+ active subscribers",
+        "pricing_model": "Subscription-based (exact pricing not disclosed, ARPU ~$19/month)"
+      },
+      "pricing": [
+        {
+          "plan": "Free",
+          "price": 0,
+          "currency": "USD",
+          "period": null
+        },
+        {
+          "plan": "Paid Subscription",
+          "price": null,
+          "currency": "USD",
+          "period": "month",
+          "note": "ARPU ~$19/month"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MRR (last 30 days)",
+          "value": "$14,581~$14,917"
+        },
+        {
+          "name": "MRR (ProvenMRR)",
+          "value": "$16,008~$19,396"
+        },
+        {
+          "name": "Lifetime Revenue",
+          "value": "$1.1M+"
+        },
+        {
+          "name": "Active Subscribers",
+          "value": "1,000+"
+        },
+        {
+          "name": "Profit Margin",
+          "value": "40%"
+        },
+        {
+          "name": "Valuation / Listing Price",
+          "value": "$160,000 (0.8x annualized revenue)"
+        },
+        {
+          "name": "Acquisition Channels",
+          "value": "Organic/SEO dominant, paid channels untapped"
+        },
+        {
+          "name": "ARPU",
+          "value": "~$19/month"
+        },
+        {
+          "name": "Payment Processing",
+          "value": "Paddle"
+        },
+        {
+          "name": "Refund Policy",
+          "value": "Lifetime Deal not activated"
+        }
+      ],
+      "sources": [
+        {
+          "label": "TrustMRR Listing Page",
+          "url": "https://trustmrr.com/startup/ai-website-builder?ref=eric-kwok-b654e8"
+        },
+        {
+          "label": "ProvenMRR Data Page",
+          "url": "https://www.provenmrr.com/startup/ai-website-builder"
+        }
+      ],
+      "title": "$14,917/月：ブランドなきAIサイトビルダーが有料流量ゼロで年間100万ドルのARRを達成する方法",
+      "description": "匿名AI 建サイトツール、2021年創業、有料流量ゼロ、1,000+有料購読者、累計収益$1.1M+、利益率40%、売却価格$160,000。本レポートでは、その製品設計、収益化戦略、ユーザー像、そして再現可能な収益ロジックを深く解剖する。"
+    },
+    {
       "slug": "2026-08-26-aera-browser",
       "date": "2026-08-26",
       "author": "ERIC",

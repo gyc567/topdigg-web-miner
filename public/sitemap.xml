@@ -9,16 +9,16 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://topdigg.com/twitter</loc>
+    <loc>https://topdigg.com/ai-products</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/ai-daily</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://topdigg.com/columns/reddit</loc>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://topdigg.com/columns/youtube</loc>
-    <priority>0.7</priority>
+    <loc>https://topdigg.com/twitter</loc>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://topdigg.com/columns/twitter</loc>
@@ -29,12 +29,55 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://topdigg.com/about</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/privacy</loc>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/2026-08-27-ox-alpha-qwen38-flash-analysis</loc>
+    <lastmod>2026-08-27T02:38:17.699Z</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/2026-08-26-rytr-ai-writing-assistant-analysis</loc>
+    <lastmod>2026-08-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/2026-08-26-eli5-claude-skill-jie-shao</loc>
+    <lastmod>2026-08-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/2026-08-26-paulgraham-greatwork</loc>
+    <lastmod>2026-08-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/2026-08-25-awesome-openclaw-money-maker</loc>
+    <lastmod>2026-08-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/2026-08-25-effective-html-analysis</loc>
+    <lastmod>2026-08-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://topdigg.com/blog/2026-08-25-pi-agentharness-v2-analysis</loc>
     <lastmod>2026-08-25</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://topdigg.com/blog/2026-08-25-pi-autoresearch-analysis</loc>
+    <lastmod>2026-08-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/cumora-analysis</loc>
     <lastmod>2026-08-25</lastmod>
     <priority>0.8</priority>
   </url>
@@ -763,5 +806,53 @@
   <url>
     <loc>https://topdigg.com/twitter/yangyi-twitter-analysis-2026-04-16</loc>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/ai-daily/2026-08-27-ai-daily</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/ai-daily/2026-08-26-ai-daily</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/ai-daily/2026-08-25-ai-daily</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/ai-daily/2026-08-24-ai-daily</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/ai-daily/2026-08-23-ai-daily</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/ai-daily/2026-08-21-ai-daily</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/ai-daily/2026-08-20-ai-daily</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/ai-products/2026-08-27-ai-website-builder</loc>
+    <lastmod>2026-08-27</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/ai-products/2026-08-26-aera-browser</loc>
+    <lastmod>2026-08-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/ai-products/2026-08-26-cursor</loc>
+    <lastmod>2026-08-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/ai-products/2026-08-26-gehirn-md</loc>
+    <lastmod>2026-08-26</lastmod>
+    <priority>0.8</priority>
   </url>
 </urlset>
