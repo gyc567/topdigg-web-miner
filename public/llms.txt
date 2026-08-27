@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-27T02:38:18.632Z
+Generated: 2026-08-27T08:57:00.137Z
 
 ## Site Overview
 
@@ -22,7 +22,7 @@ We deliver in-depth Twitter analytics and trend tracking for content creators an
 ## Latest Blog Posts (10 most recent)
 
 ### 
-URL: https://topdigg.com/blog/2026-08-27-ox-alpha-qwen38-flash-analysis | Date: 2026-08-27T02:38:17.699Z | Author: TopDigg
+URL: https://topdigg.com/blog/2026-08-27-ox-alpha-qwen38-flash-analysis | Date: 2026-08-27T08:56:59.616Z | Author: TopDigg
 Tags: 
 
 
@@ -32,6 +32,12 @@ URL: https://topdigg.com/blog/2026-08-26-rytr-ai-writing-assistant-analysis | Da
 Tags: AI Writing, Rytr, Content Generation, AI Assistant, Product Analysis, Tool Review, SEO, Marketing Copy, Freemium
 
 In-depth analysis of Rytr.me AI writing assistant's product philosophy, 40+ scenario templates, My Voice personalization, pricing strategy and detailed tutorial — uncovering the underlying logic of 8M+ user adoption
+
+### Bill Gates' "Turbulent AI Era" — A 6,000-Word Essay for Everyone Who Refuses to Be Left Behind
+URL: https://topdigg.com/blog/2026-08-26-turbulent-ai-era-analysis | Date: 2026-08-26 | Author: ERIC
+Tags: Bill Gates, Gates Notes, AI Policy, Robot Tax, AI Unemployment, AI Risk, AI Governance, Human Reserved, AGI, Public Policy, Education Reform, AI Safety, Design Philosophy
+
+A deep read of Microsoft co-founder Bill Gates' ~6,000-word essay published on Gates Notes on 2026-08-26: 'The turbulent AI era is here. The choices we make now are critical.' The piece uses kid-friendly analogies to unpack three AI risks (permanent job loss, AI-empowered harm, harm to children's de
 
 ### 让 AI 给任何人解释任何事：ELI5 开源项目深度解析
 URL: https://topdigg.com/blog/2026-08-26-eli5-claude-skill-jie-shao | Date: 2026-08-26 | Author: TopDigg
@@ -74,12 +80,6 @@ URL: https://topdigg.com/blog/cumora-analysis | Date: 2026-08-25 | Author: TopDi
 Tags: Cumora, yetone, AI Agent, Multi-Agent, BYOA, Claude Code, Codex, Cursor Agent, Grok Build, Kubernetes, React, Vite, Express, Postgres, Redis, Electron, Capacitor, Cloudflare Workers, OpenAI Responses API, Open Source, MIT, Agent Coordination, freshness gate, triage
 
 An in-depth look at yetone/cumora (GitHub open-source, MIT, v0.2.2). It walks through: ① project overview — a PWA+Electron+Capacitor tri-shell, Cumora Cloud+BYOA dual-brain cross-platform team chat where AI agents are first-class teammates; ② detailed tutorial — local setup (Postgres+Redis), brain s
-
-### AgentWork Exchange：让个人AI Agent成为可采购、可认证、可结算的数字劳动力
-URL: https://topdigg.com/blog/2026-08-22-agentwork-exchange | Date: 2026-08-22T00:00:00.000Z | Author: TopDigg
-Tags: AI Agent, AgentWork, 开源项目, 数字劳动力, 认证体系
-
-深入分析AgentWork Exchange开源项目，解读其设计哲学、核心概念、工作流程，并提供详细接入教程
 
 ## AI Product Analyses (latest 5)
 
@@ -140,4 +140,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 151 blog posts | 4 Twitter analyses | 4 AI products
+End of llms.txt | 152 blog posts | 4 Twitter analyses | 4 AI products

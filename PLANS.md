@@ -28,9 +28,10 @@ _(无 — 全部施工中计划见 [Completed Plans](#completed-plans))_
 - [awesome-agent-trading 生态深度解析博客（5 语言）](plans/awesome-agent-trading-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
 - [Codex-Orchestration 分析报告（5 语言）](plans/codex-orchestration-analysis.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
 - [Harbor Framework 深度解析博客（5 语言）](plans/harbor-framework-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
+- [Bill Gates《A turbulent AI era》深度解析博客（5 语言）](plans/gates-notes-ai-era.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
 
 _计划文件完工后删除，仅靠 git commit log 留档（不在本文件长期保留）。_
 
 ---
 
-_Last updated: 2026-08-26_
+_Last updated: 2026-08-27_

@@ -2,7 +2,7 @@
   "posts": [
     {
       "slug": "2026-08-27-ox-alpha-qwen38-flash-analysis",
-      "date": "2026-08-27T02:38:17.699Z",
+      "date": "2026-08-27T08:56:59.616Z",
       "author": "TopDigg",
       "tags": [],
       "categories": [],
@@ -31,6 +31,33 @@
       ],
       "title": "Rytr.me Phân Tích Chuyên Sâu: Trợ Lý Viết AI Đã Chinh Phục 8.000.000+ Người Viết Như Thế Nào",
       "description": "Phân tích chuyên sâu triết lý sản phẩm, 40+ mẫu kịch bản, cá nhân hóa My Voice, chiến lược giá và hướng dẫn chi tiết của trợ lý viết AI Rytr.me — khám phá logic底层 của việc 8M+ người dùng lựa chọn"
+    },
+    {
+      "slug": "2026-08-26-turbulent-ai-era-analysis",
+      "date": "2026-08-26",
+      "author": "ERIC",
+      "tags": [
+        "Bill Gates",
+        "Gates Notes",
+        "AI Policy",
+        "Robot Tax",
+        "AI Unemployment",
+        "AI Risk",
+        "AI Governance",
+        "Human Reserved",
+        "AGI",
+        "Public Policy",
+        "Education Reform",
+        "AI Safety",
+        "Design Philosophy"
+      ],
+      "categories": [
+        "Deep Analysis",
+        "AI Policy",
+        "Opinion"
+      ],
+      "title": "\"Kỷ Nguyên AI Đầy Biến Động\" Của Bill Gates — Bài Tiểu Luận 6.000 Từ Dành Cho Ai Không Muốn Bị Bỏ Lại Phía Sau",
+      "description": "Phân tích chuyên sâu bài tiểu luận ~6.000 từ của Bill Gates, đồng sáng lập Microsoft, đăng trên Gates Notes ngày 2026-08-26: 'Kỷ nguyên AI đầy biến động đã tới. Những lựa chọn chúng ta đưa ra ngay bây giờ là tối quan trọng.' Bài viết dùng những phép ví von mà học sinh tiểu học cũng hiểu được để mổ xẻ ba rủi ro AI (mất việc vĩnh viễn, tác hại được AI hỗ trợ, tổn hại sự phát triển của trẻ em) và ba đề xuất chính sách (quản trị xuyên ngành + cơ quan AI toàn cầu, dành riêng một lĩnh vực 'Human Reserved' (lĩnh vực dành riêng cho con người) cho con người, đánh thuế AI token và robot). Chúng tôi giải thích vì sao Gates chuyển từ sự lạc quan năm 2023 sang tiếng chuông báo động 2026, đưa ra sách lược hành động cho nhà hoạch định chính sách / HR / giáo viên / người lao động cá nhân, và chắt lọc triết lý thiết kế ẩn sau bài viết — 'Lần này thực sự khác', 'Phần nào của nhân tính là không thể thay thế', 'Quy trình dân chủ công khai thay cho tự điều chỉnh của doanh nghiệp'."
     },
     {
       "slug": "2026-08-26-eli5-claude-skill-jie-shao",

@@ -2,7 +2,7 @@
   "posts": [
     {
       "slug": "2026-08-27-ox-alpha-qwen38-flash-analysis",
-      "date": "2026-08-27T02:38:17.699Z",
+      "date": "2026-08-27T08:56:59.616Z",
       "author": "TopDigg",
       "tags": [],
       "categories": [],
@@ -31,6 +31,33 @@
       ],
       "title": "Rytr.me 深度解析：8,000,000+ 写作者背后的 AI 写作助手是如何炼成的",
       "description": "深度分析 Rytr.me AI 写作助手的产品哲学、40+ 场景模板、My Voice 个性化语气功能、定价策略和详细使用教程，揭示 8M+ 用户选择的底层逻辑"
+    },
+    {
+      "slug": "2026-08-26-turbulent-ai-era-analysis",
+      "date": "2026-08-26",
+      "author": "ERIC",
+      "tags": [
+        "Bill Gates",
+        "Gates Notes",
+        "AI Policy",
+        "Robot Tax",
+        "AI Unemployment",
+        "AI Risk",
+        "AI Governance",
+        "Human Reserved",
+        "AGI",
+        "Public Policy",
+        "Education Reform",
+        "AI Safety",
+        "Design Philosophy"
+      ],
+      "categories": [
+        "Deep Analysis",
+        "AI Policy",
+        "Opinion"
+      ],
+      "title": "Bill Gates《动荡的 AI 时代已经来临》：一篇 6000 字长文，给所有不想被时代甩下的人",
+      "description": "深度解读 Microsoft 联合创始人 Bill Gates 于 2026-08-26 发布在 Gates Notes 的 ~6000 字重磅长文《The turbulent AI era is here. The choices we make now are critical.》。本文用小学生也能懂的语言讲清三大风险（永久失业 / AI 增强伤害 / 阻碍儿童成长）、三项政策建议（跨部门治理 + 人类专属 + 对 token 和机器人征税）、Gates 为何从 2023 年乐观派转向 2026 年警告派。本文给出可落地教程：政策制定者怎么设计过渡方案、企业 HR 怎么准备、家长怎么用 AI 教师、个人开发者怎么保住入门岗位；并归纳 Gates 文章的设计哲学——「这次真的不一样」「人类的'不能被替代'部分」「公共民主进程而不是企业自律」。"
     },
     {
       "slug": "2026-08-26-eli5-claude-skill-jie-shao",
