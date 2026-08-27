@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-08-27-ai-daily",
+      "title": {
+        "en": "GLM-5.3-Flash Open-Sourced: 320B Parameters, AA Index 57, Priced at 1/40 of Opus 4.8",
+        "ja": "GLM-5.3-Flash オープンソース：320B パラメータ、AA指数57、Opus 4.8 の1/40の価格",
+        "vi": "GLM-5.3-Flash Mã Nguồn Mở: 320B Tham Số, Chỉ Số AA 57, Giá Chỉ 1/40 Opus 4.8",
+        "zh-Hans": "GLM-5.3-Flash 开源：320B 总参数、AA 指数 57 分，定价为 Opus 4.8 的 1/40",
+        "zh-Hant": "GLM-5.3-Flash 開源：320B 總參數、AA 指數 57 分，定價為 Opus 4.8 的 1/40"
+      },
+      "description": {
+        "en": "Zhipu AI released and open-sourced GLM-5.3-Flash, the first natively multimodal model in the GLM-5 series, matching Claude Opus 4.8 with an AA Index of 57, at just 1/40 the price of Opus 4.8.",
+        "ja": "Zhipu AIがGLM-5.3-Flashを発表・オープンソース化。これはGLM-5シリーズ初のネイティブマルチモーダルモデルで、AA総合知性指数57はClaude Opus 4.8と互角、価格もOpus 4.8の1/40。",
+        "vi": "Zhipu AI đã phát hành và open-source GLM-5.3-Flash, mô hình đa phương thức nguyên bản đầu tiên của dòng GLM-5, đạt chỉ số AA tổng hợp 57 ngang với Claude Opus 4.8, giá chỉ bằng 1/40 của Opus 4.8.",
+        "zh-Hans": "智谱上线并开源 GLM-5.3-Flash，这是 GLM-5 系列首个原生多模态模型，AA 综合智能指数 57 分与 Claude Opus 4.8 持平，定价仅为 Opus 4.8 的 1/40。",
+        "zh-Hant": "智譜上線並開源 GLM-5.3-Flash，這是 GLM-5 系列首個原生多模態模型，AA 綜合智慧指數 57 分與 Claude Opus 4.8 持平，定價僅為 Opus 4.8 的 1/40。"
+      },
+      "date": "2026-08-27",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": {
+            "en": "Bit Finance",
+            "ja": "比特商務",
+            "vi": "Bit Finance",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特財商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-08-26-ai-daily",
       "title": {
         "en": "AI Daily · 2026-08-26",
