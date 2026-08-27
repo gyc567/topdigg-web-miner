@@ -2,7 +2,7 @@
   "posts": [
     {
       "slug": "2026-08-27-ox-alpha-qwen38-flash-analysis",
-      "date": "2026-08-27T08:56:59.616Z",
+      "date": "2026-08-27T09:05:04.923Z",
       "author": "TopDigg",
       "tags": [],
       "categories": [],
@@ -31,33 +31,6 @@
       ],
       "title": "Rytr.me Deep Dive: How an AI Writing Assistant Earned 8,000,000+ Writers",
       "description": "In-depth analysis of Rytr.me AI writing assistant's product philosophy, 40+ scenario templates, My Voice personalization, pricing strategy and detailed tutorial — uncovering the underlying logic of 8M+ user adoption"
-    },
-    {
-      "slug": "2026-08-26-turbulent-ai-era-analysis",
-      "date": "2026-08-26",
-      "author": "ERIC",
-      "tags": [
-        "Bill Gates",
-        "Gates Notes",
-        "AI Policy",
-        "Robot Tax",
-        "AI Unemployment",
-        "AI Risk",
-        "AI Governance",
-        "Human Reserved",
-        "AGI",
-        "Public Policy",
-        "Education Reform",
-        "AI Safety",
-        "Design Philosophy"
-      ],
-      "categories": [
-        "Deep Analysis",
-        "AI Policy",
-        "Opinion"
-      ],
-      "title": "Bill Gates' \"Turbulent AI Era\" — A 6,000-Word Essay for Everyone Who Refuses to Be Left Behind",
-      "description": "A deep read of Microsoft co-founder Bill Gates' ~6,000-word essay published on Gates Notes on 2026-08-26: 'The turbulent AI era is here. The choices we make now are critical.' The piece uses kid-friendly analogies to unpack three AI risks (permanent job loss, AI-empowered harm, harm to children's development) and three policy proposals (cross-agency governance + a global AI body, reserving a 'Human Reserved' job domain, and taxing AI tokens and robots). We explain why Gates pivoted from 2023 optimism to 2026 alarmism, give actionable playbooks for policymakers / HR / teachers / individual workers, and distill the essay's underlying design philosophy — 'This time really is different,' 'What part of humanity is not substitutable,' 'Public democratic process instead of corporate self-regulation.'"
     },
     {
       "slug": "2026-08-26-eli5-claude-skill-jie-shao",

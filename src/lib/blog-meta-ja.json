@@ -2,7 +2,7 @@
   "posts": [
     {
       "slug": "2026-08-27-ox-alpha-qwen38-flash-analysis",
-      "date": "2026-08-27T08:56:59.616Z",
+      "date": "2026-08-27T09:05:04.923Z",
       "author": "TopDigg",
       "tags": [],
       "categories": [],
@@ -31,33 +31,6 @@
       ],
       "title": "Rytr.me 徹底解剖：8,000,000+ ライターの支持を得る AI ライティングアシスタントはいかにして生まれたか",
       "description": "Rytr.me AI ライティングアシスタントの製品哲学、40+ シナリオテンプレート、My Voice パーソナライズ、価格戦略、詳細チュートリアルを深く分析し、8M+ ユーザー選択の底层ロジックを明らかにする"
-    },
-    {
-      "slug": "2026-08-26-turbulent-ai-era-analysis",
-      "date": "2026-08-26",
-      "author": "ERIC",
-      "tags": [
-        "Bill Gates",
-        "Gates Notes",
-        "AI Policy",
-        "Robot Tax",
-        "AI Unemployment",
-        "AI Risk",
-        "AI Governance",
-        "Human Reserved",
-        "AGI",
-        "Public Policy",
-        "Education Reform",
-        "AI Safety",
-        "Design Philosophy"
-      ],
-      "categories": [
-        "Deep Analysis",
-        "AI Policy",
-        "Opinion"
-      ],
-      "title": "ビル・ゲイツ「激動の AI 時代」の到来——時代に取り残されたくないすべての人に捧げる 6,000 字エッセイ",
-      "description": "Microsoft 共同創業者ビル・ゲイツが 2026-08-26 に Gates Notes で発表した約 6,000 字のエッセイ「The turbulent AI era is here. The choices we make now are critical.」を深く読み解く。子どもにもわかる比喩で、3 つの AI リスク（恒久的な雇用喪失、AI による害悪の増幅、子どもの発達への害）と、3 つの政策提言（部門横断ガバナンス + 国際 AI 機関の設立、「Human Reserved（人間が担当する領域）」の確保、AI トークン・ロボットへの課税）を紐解く。ゲイツが 2023 年の楽観論から 2026 年の警告論へと転じた理由を解説し、立法者 / 人事担当者 / 教師 / 個人従事者向けの実践プレイブックを提供。そしてエッセイの底流にある設計思想——「今回は本当に違う」「人間の代替不可能部分は何か」「企業の自己規制ではなく公共の民主的プロセス」——を抽出する。"
     },
     {
       "slug": "2026-08-26-eli5-claude-skill-jie-shao",

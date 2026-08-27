@@ -96,6 +96,117 @@
       "description": "Một công cụ tạo website AI ẩn danh, khởi nghiệp năm 2021, không tốn phí quảng cáo trả tiền, 1.000+ người đặt mua có trả phí, doanh thu tích lũy hơn 1,1 triệu đô, biên lợi nhuận 40%, đang được bán với giá 160.000 đô. Báo cáo này phân tích sâu về thiết kế sản phẩm, lộ trình kiếm tiền, chân dung người dùng và logic kiếm tiền có thể nhân rộng."
     },
     {
+      "slug": "2026-08-27-propal",
+      "date": "2026-08-27",
+      "author": "ERIC",
+      "tags": [
+        "AI Product",
+        "Proposal Software",
+        "Monetization",
+        "SaaS",
+        "MRR",
+        "Agency",
+        "AI"
+      ],
+      "categories": [
+        "AI Product Analysis"
+      ],
+      "product": {
+        "name": "Propal",
+        "url": "https://trustmrr.com/startup/propal?ref=eric-kwok-b654e8",
+        "category": "AI Proposal Tool / Service Business SaaS",
+        "launch_date": "~2022-2024",
+        "revenue": "$1,128/month (TrustMRR 2026-08)",
+        "users": "~37-38 paying users (estimated based on ARPU)",
+        "pricing_model": "Starter $29.99/mo (1 user) / Pro $49.99/mo (2 users) / Scale $139.99/mo (5 users), annual discount available"
+      },
+      "pricing": [
+        {
+          "plan": "Starter",
+          "price": 29.99,
+          "currency": "USD",
+          "period": "month",
+          "note": "1 user, $23.99/mo billed annually"
+        },
+        {
+          "plan": "Pro",
+          "price": 49.99,
+          "currency": "USD",
+          "period": "month",
+          "note": "2 users, $39.99/mo billed annually"
+        },
+        {
+          "plan": "Scale",
+          "price": 139.99,
+          "currency": "USD",
+          "period": "month",
+          "note": "5 users, $119.99/mo billed annually"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MRR (TrustMRR)",
+          "value": "$1,128/month"
+        },
+        {
+          "name": "MRR (Comprehensive Estimate)",
+          "value": "~$1,100-1,200/month"
+        },
+        {
+          "name": "Paying Users (Estimated)",
+          "value": "~37-38"
+        },
+        {
+          "name": "ARPU (Estimated)",
+          "value": "~$30/month"
+        },
+        {
+          "name": "Key Metrics",
+          "value": "$4,124,694 total GMV closed, 3,027 proposals sent, 602 accepted (~20% close rate)"
+        },
+        {
+          "name": "Profitability",
+          "value": "Profitable, low operating costs"
+        },
+        {
+          "name": "Growth Opportunities",
+          "value": "SEO, content, partnerships, paid acquisition, and conversion optimization all underexploited"
+        },
+        {
+          "name": "Payment Processing",
+          "value": "Stripe integration"
+        },
+        {
+          "name": "AI Features",
+          "value": "Claude MCP API integration"
+        },
+        {
+          "name": "Target Customers",
+          "value": "Digital agencies, design studios, consulting agencies, proposal amounts in the $500-$15,000 range"
+        }
+      ],
+      "sources": [
+        {
+          "label": "TrustMRR Listing Page",
+          "url": "https://trustmrr.com/startup/propal?ref=eric-kwok-b654e8"
+        },
+        {
+          "label": "Propal Official Website",
+          "url": "https://www.propal.io"
+        },
+        {
+          "label": "Propal Pricing Page",
+          "url": "https://www.propal.io/pricing"
+        },
+        {
+          "label": "GetApp Propal Feature Overview",
+          "url": "https://www.getapp.com/collaboration-software/a/propal/"
+        }
+      ],
+      "title": "$1,128/tháng: Tại sao Propal - công cụ đề xuất AI bị định giá thấp, và tiềm năng kiếm tiền thực sự của nó",
+      "description": "Propal là phần mềm SaaS đề xuất AI dành cho đại lý và doanh nghiệp dịch vụ, có lợi nhuận tốt, chi phí vận hành thấp, sản phẩm hoàn chỉnh, nhưng chỉ được niêm yết $1,128/tháng trên TrustMRR. Báo cáo này phân tích sâu về logic sản phẩm, chiến lược định giá, phân khúc người dùng, điểm tắc nghẽn tăng trưởng và con đường kiếm tiền sau khi tiếp quản."
+    },
+    {
       "slug": "2026-08-26-aera-browser",
       "date": "2026-08-26",
       "author": "ERIC",

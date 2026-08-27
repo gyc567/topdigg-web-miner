@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-27T08:57:00.137Z
+Generated: 2026-08-27T09:05:05.854Z
 
 ## Site Overview
 
@@ -22,7 +22,7 @@ We deliver in-depth Twitter analytics and trend tracking for content creators an
 ## Latest Blog Posts (10 most recent)
 
 ### 
-URL: https://topdigg.com/blog/2026-08-27-ox-alpha-qwen38-flash-analysis | Date: 2026-08-27T08:56:59.616Z | Author: TopDigg
+URL: https://topdigg.com/blog/2026-08-27-ox-alpha-qwen38-flash-analysis | Date: 2026-08-27T09:05:04.923Z | Author: TopDigg
 Tags: 
 
 
@@ -32,12 +32,6 @@ URL: https://topdigg.com/blog/2026-08-26-rytr-ai-writing-assistant-analysis | Da
 Tags: AI Writing, Rytr, Content Generation, AI Assistant, Product Analysis, Tool Review, SEO, Marketing Copy, Freemium
 
 In-depth analysis of Rytr.me AI writing assistant's product philosophy, 40+ scenario templates, My Voice personalization, pricing strategy and detailed tutorial — uncovering the underlying logic of 8M+ user adoption
-
-### Bill Gates' "Turbulent AI Era" — A 6,000-Word Essay for Everyone Who Refuses to Be Left Behind
-URL: https://topdigg.com/blog/2026-08-26-turbulent-ai-era-analysis | Date: 2026-08-26 | Author: ERIC
-Tags: Bill Gates, Gates Notes, AI Policy, Robot Tax, AI Unemployment, AI Risk, AI Governance, Human Reserved, AGI, Public Policy, Education Reform, AI Safety, Design Philosophy
-
-A deep read of Microsoft co-founder Bill Gates' ~6,000-word essay published on Gates Notes on 2026-08-26: 'The turbulent AI era is here. The choices we make now are critical.' The piece uses kid-friendly analogies to unpack three AI risks (permanent job loss, AI-empowered harm, harm to children's de
 
 ### 让 AI 给任何人解释任何事：ELI5 开源项目深度解析
 URL: https://topdigg.com/blog/2026-08-26-eli5-claude-skill-jie-shao | Date: 2026-08-26 | Author: TopDigg
@@ -81,6 +75,12 @@ Tags: Cumora, yetone, AI Agent, Multi-Agent, BYOA, Claude Code, Codex, Cursor Ag
 
 An in-depth look at yetone/cumora (GitHub open-source, MIT, v0.2.2). It walks through: ① project overview — a PWA+Electron+Capacitor tri-shell, Cumora Cloud+BYOA dual-brain cross-platform team chat where AI agents are first-class teammates; ② detailed tutorial — local setup (Postgres+Redis), brain s
 
+### AgentWork Exchange：让个人AI Agent成为可采购、可认证、可结算的数字劳动力
+URL: https://topdigg.com/blog/2026-08-22-agentwork-exchange | Date: 2026-08-22T00:00:00.000Z | Author: TopDigg
+Tags: AI Agent, AgentWork, 开源项目, 数字劳动力, 认证体系
+
+深入分析AgentWork Exchange开源项目，解读其设计哲学、核心概念、工作流程，并提供详细接入教程
+
 ## AI Product Analyses (latest 5)
 
 ### $14,917/Month: How a Brandless AI Website Builder Hit $1M+ ARR with Zero Paid Traffic
@@ -89,6 +89,13 @@ Product: Anonymous AI Website Builder | Category: AI Website Builder / No-Code S
 Revenue: $14,581~$19,396/month (2026-08)
 
 An anonymous AI website builder, founded in 2021, zero paid traffic, 1,000+ paying subscribers, $1.1M+ lifetime revenue, 40% profit margin, listed at $160,000. This report deeply analyzes its product design, monetization strategy, user profiles, and reproducible revenue logic.
+
+### $1,128/Month: Why AI Proposal Tool Propal Is Undervalued and Its Real Monetization Potential
+URL: https://topdigg.com/ai-products/2026-08-27-propal | Date: 2026-08-27 | Author: ERIC
+Product: Propal | Category: AI Proposal Tool / Service Business SaaS
+Revenue: $1,128/month (TrustMRR 2026-08)
+
+Propal is an AI-powered proposal SaaS for agencies and service businesses—profitable, low operating costs, fully featured—yet listed at only $1,128/month on TrustMRR. This report deeply analyzes its product logic, pricing strategy, user segmentation, growth bottlenecks, and post-acquisition monetiza
 
 ### Aera Browser Deep Dive: The Browser That Works for You — How $20/Month Sells Your Busywork
 URL: https://topdigg.com/ai-products/2026-08-26-aera-browser | Date: 2026-08-26 | Author: ERIC
@@ -140,4 +147,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 152 blog posts | 4 Twitter analyses | 4 AI products
+End of llms.txt | 151 blog posts | 4 Twitter analyses | 5 AI products

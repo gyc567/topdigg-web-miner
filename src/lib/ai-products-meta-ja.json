@@ -96,6 +96,117 @@
       "description": "匿名AI 建サイトツール、2021年創業、有料流量ゼロ、1,000+有料購読者、累計収益$1.1M+、利益率40%、売却価格$160,000。本レポートでは、その製品設計、収益化戦略、ユーザー像、そして再現可能な収益ロジックを深く解剖する。"
     },
     {
+      "slug": "2026-08-27-propal",
+      "date": "2026-08-27",
+      "author": "ERIC",
+      "tags": [
+        "AI Product",
+        "Proposal Software",
+        "Monetization",
+        "SaaS",
+        "MRR",
+        "Agency",
+        "AI"
+      ],
+      "categories": [
+        "AI Product Analysis"
+      ],
+      "product": {
+        "name": "Propal",
+        "url": "https://trustmrr.com/startup/propal?ref=eric-kwok-b654e8",
+        "category": "AI Proposal Tool / Service Business SaaS",
+        "launch_date": "~2022-2024",
+        "revenue": "$1,128/month (TrustMRR 2026-08)",
+        "users": "~37-38 paying users (estimated based on ARPU)",
+        "pricing_model": "Starter $29.99/mo (1 user) / Pro $49.99/mo (2 users) / Scale $139.99/mo (5 users), annual discount available"
+      },
+      "pricing": [
+        {
+          "plan": "Starter",
+          "price": 29.99,
+          "currency": "USD",
+          "period": "month",
+          "note": "1 user, $23.99/mo billed annually"
+        },
+        {
+          "plan": "Pro",
+          "price": 49.99,
+          "currency": "USD",
+          "period": "month",
+          "note": "2 users, $39.99/mo billed annually"
+        },
+        {
+          "plan": "Scale",
+          "price": 139.99,
+          "currency": "USD",
+          "period": "month",
+          "note": "5 users, $119.99/mo billed annually"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "MRR (TrustMRR)",
+          "value": "$1,128/month"
+        },
+        {
+          "name": "MRR (Comprehensive Estimate)",
+          "value": "~$1,100-1,200/month"
+        },
+        {
+          "name": "Paying Users (Estimated)",
+          "value": "~37-38"
+        },
+        {
+          "name": "ARPU (Estimated)",
+          "value": "~$30/month"
+        },
+        {
+          "name": "Key Metrics",
+          "value": "$4,124,694 total GMV closed, 3,027 proposals sent, 602 accepted (~20% close rate)"
+        },
+        {
+          "name": "Profitability",
+          "value": "Profitable, low operating costs"
+        },
+        {
+          "name": "Growth Opportunities",
+          "value": "SEO, content, partnerships, paid acquisition, and conversion optimization all underexploited"
+        },
+        {
+          "name": "Payment Processing",
+          "value": "Stripe integration"
+        },
+        {
+          "name": "AI Features",
+          "value": "Claude MCP API integration"
+        },
+        {
+          "name": "Target Customers",
+          "value": "Digital agencies, design studios, consulting agencies, proposal amounts in the $500-$15,000 range"
+        }
+      ],
+      "sources": [
+        {
+          "label": "TrustMRR Listing Page",
+          "url": "https://trustmrr.com/startup/propal?ref=eric-kwok-b654e8"
+        },
+        {
+          "label": "Propal Official Website",
+          "url": "https://www.propal.io"
+        },
+        {
+          "label": "Propal Pricing Page",
+          "url": "https://www.propal.io/pricing"
+        },
+        {
+          "label": "GetApp Propal Feature Overview",
+          "url": "https://www.getapp.com/collaboration-software/a/propal/"
+        }
+      ],
+      "title": "$1,128/月：AI提案ツールPropalが過小評価されている理由と本当の収益化ポテンシャル",
+      "description": "Propalは代理店・サービス企業向けのAI駆動型提案SaaSで、収益性は良好、運営コストは低く、产品は完成度が高いにもかかわらず、TrustMRRではわずか$1,128/月でしか上場されていません。本レポートでは、製品ロジック、料金戦略、ユーザー層、成長ボトルネック、および接手後の収益化経路を深く解剖します。"
+    },
+    {
       "slug": "2026-08-26-aera-browser",
       "date": "2026-08-26",
       "author": "ERIC",
