@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-08-29-ai-daily",
+      "date": "2026-08-29",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 3,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Gemini Omni 1.1 Flash を発表、Google が動画生成制御能力をアップグレード",
+      "description": "Google が Gemini Omni 1.1 Flash を発表、開発者により強力な生成動画制御能力を提供。新モデルはシーン拡張（最大40秒）、4K HD出力をサポート。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "ビットファイナンス",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-08-28-ai-daily",
       "date": "2026-08-28",
       "author": "比特财商",
