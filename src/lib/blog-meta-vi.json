@@ -2,12 +2,75 @@
   "posts": [
     {
       "slug": "2026-08-27-ox-alpha-qwen38-flash-analysis",
-      "date": "2026-08-27T09:05:04.923Z",
+      "date": "2026-08-29T02:53:37.885Z",
       "author": "TopDigg",
       "tags": [],
       "categories": [],
       "title": "",
       "description": ""
+    },
+    {
+      "slug": "2026-08-29-code-review-mental-model",
+      "date": "2026-08-29",
+      "author": "比特财商",
+      "tags": [
+        "代码审查",
+        "工程效能",
+        "团队协作",
+        "软件工程"
+      ],
+      "categories": [
+        "工程实践"
+      ],
+      "title": "代码审查的思维模型：让审查速度提升10倍的「风险导向」法",
+      "description": "代码审查（Code Review）是软件工程中最重要的质量保障环节之一，但同时也是最容易让人感到沮丧的工作。本文分享一种风险导向的代码审查思维模型，让审查速度从30分钟缩短到10分钟。"
+    },
+    {
+      "slug": "2026-08-28-waza-analysis",
+      "date": "2026-08-28",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Waza",
+        "tw93",
+        "AI Agent",
+        "Slash Commands",
+        "Claude Code",
+        "Codex",
+        "Engineering Habits",
+        "Prompt Engineering",
+        "Agent Skills",
+        "Open Source"
+      ],
+      "categories": [
+        "Deep Analysis",
+        "AI Tools",
+        "Open Source",
+        "Agent Skills"
+      ],
+      "title": "tw93/Waza: Chuyển Thói quen Kỹ thuật Thành Kỹ năng AI Agent",
+      "description": "tw93/Waza, 8 lệnh Slash chuyển thói quen kỹ thuật thành kỹ năng AI Agent, thiết kế theo triết lý 'ràng buộc tạo nên tự do'"
+    },
+    {
+      "slug": "2026-08-28-wemm-embedding-analysis",
+      "date": "2026-08-28",
+      "author": "TopDigg",
+      "tags": [
+        "multimodal embedding",
+        "vision-language model",
+        "WeMM-Embedding",
+        "Tencent WeChat",
+        "universal multimodal representation",
+        "MMEB",
+        "Matryoshka Representation Learning"
+      ],
+      "categories": [
+        "Deep Analysis",
+        "Multimodal AI",
+        "Open Source Model",
+        "Tencent"
+      ],
+      "title": "WeMM-Embedding: Mô Hình Embedding Đa Phương Thức Phổ Quát Từ Đội Ngũ Tencent WeChat Vision",
+      "description": "Phân tích chuyên sâu mô hình WeMM-Embedding của đội ngũ Tencent WeChat Vision — hỗ trợ văn bản, hình ảnh, video và đầu vào đa phương thức xen kẽ; mô hình 2B vượt qua baseline 8B trên MMEB-v2; mô hình 9B đạt SOTA 80.6 trên MMEB-v3."
     },
     {
       "slug": "2026-08-26-rytr-ai-writing-assistant-analysis",
@@ -31,6 +94,33 @@
       ],
       "title": "Rytr.me Phân Tích Chuyên Sâu: Trợ Lý Viết AI Đã Chinh Phục 8.000.000+ Người Viết Như Thế Nào",
       "description": "Phân tích chuyên sâu triết lý sản phẩm, 40+ mẫu kịch bản, cá nhân hóa My Voice, chiến lược giá và hướng dẫn chi tiết của trợ lý viết AI Rytr.me — khám phá logic底层 của việc 8M+ người dùng lựa chọn"
+    },
+    {
+      "slug": "2026-08-26-turbulent-ai-era-analysis",
+      "date": "2026-08-26",
+      "author": "ERIC",
+      "tags": [
+        "Bill Gates",
+        "Gates Notes",
+        "AI Policy",
+        "Robot Tax",
+        "AI Unemployment",
+        "AI Risk",
+        "AI Governance",
+        "Human Reserved",
+        "AGI",
+        "Public Policy",
+        "Education Reform",
+        "AI Safety",
+        "Design Philosophy"
+      ],
+      "categories": [
+        "Deep Analysis",
+        "AI Policy",
+        "Opinion"
+      ],
+      "title": "\"Kỷ Nguyên AI Đầy Biến Động\" Của Bill Gates — Bài Tiểu Luận 6.000 Từ Dành Cho Ai Không Muốn Bị Bỏ Lại Phía Sau",
+      "description": "Phân tích chuyên sâu bài tiểu luận ~6.000 từ của Bill Gates, đồng sáng lập Microsoft, đăng trên Gates Notes ngày 2026-08-26: 'Kỷ nguyên AI đầy biến động đã tới. Những lựa chọn chúng ta đưa ra ngay bây giờ là tối quan trọng.' Bài viết dùng những phép ví von mà học sinh tiểu học cũng hiểu được để mổ xẻ ba rủi ro AI (mất việc vĩnh viễn, tác hại được AI hỗ trợ, tổn hại sự phát triển của trẻ em) và ba đề xuất chính sách (quản trị xuyên ngành + cơ quan AI toàn cầu, dành riêng một lĩnh vực 'Human Reserved' (lĩnh vực dành riêng cho con người) cho con người, đánh thuế AI token và robot). Chúng tôi giải thích vì sao Gates chuyển từ sự lạc quan năm 2023 sang tiếng chuông báo động 2026, đưa ra sách lược hành động cho nhà hoạch định chính sách / HR / giáo viên / người lao động cá nhân, và chắt lọc triết lý thiết kế ẩn sau bài viết — 'Lần này thực sự khác', 'Phần nào của nhân tính là không thể thay thế', 'Quy trình dân chủ công khai thay cho tự điều chỉnh của doanh nghiệp'."
     },
     {
       "slug": "2026-08-26-eli5-claude-skill-jie-shao",

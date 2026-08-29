@@ -2,12 +2,75 @@
   "posts": [
     {
       "slug": "2026-08-27-ox-alpha-qwen38-flash-analysis",
-      "date": "2026-08-27T09:05:04.923Z",
+      "date": "2026-08-29T02:53:37.885Z",
       "author": "TopDigg",
       "tags": [],
       "categories": [],
       "title": "",
       "description": ""
+    },
+    {
+      "slug": "2026-08-29-code-review-mental-model",
+      "date": "2026-08-29",
+      "author": "比特财商",
+      "tags": [
+        "代码审查",
+        "工程效能",
+        "团队协作",
+        "软件工程"
+      ],
+      "categories": [
+        "工程实践"
+      ],
+      "title": "代码审查的思维模型：让审查速度提升10倍的「风险导向」法",
+      "description": "代码审查（Code Review）是软件工程中最重要的质量保障环节之一，但同时也是最容易让人感到沮丧的工作。本文分享一种风险导向的代码审查思维模型，让审查速度从30分钟缩短到10分钟。"
+    },
+    {
+      "slug": "2026-08-28-waza-analysis",
+      "date": "2026-08-28",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Waza",
+        "tw93",
+        "AI Agent",
+        "Slash Commands",
+        "Claude Code",
+        "Codex",
+        "Engineering Habits",
+        "Prompt Engineering",
+        "Agent Skills",
+        "Open Source"
+      ],
+      "categories": [
+        "Deep Analysis",
+        "AI Tools",
+        "Open Source",
+        "Agent Skills"
+      ],
+      "title": "tw93/Waza：エンジニアリングの習慣をAI Agentのスキルに変換する8つのSlashコマンド",
+      "description": "tw93/Waza、8つのSlashコマンドでエンジニアリングの習慣をAI Agent実行可能スキルに変換、/think、/hunt、/check、/ui、/learn、/read、/write、/health。設計哲学: 制約こそ自由"
+    },
+    {
+      "slug": "2026-08-28-wemm-embedding-analysis",
+      "date": "2026-08-28",
+      "author": "TopDigg",
+      "tags": [
+        "multimodal embedding",
+        "vision-language model",
+        "WeMM-Embedding",
+        "Tencent WeChat",
+        "universal multimodal representation",
+        "MMEB",
+        "Matryoshka Representation Learning"
+      ],
+      "categories": [
+        "Deep Analysis",
+        "Multimodal AI",
+        "Open Source Model",
+        "Tencent"
+      ],
+      "title": "WeMM-Embedding徹底解説：微信が作る汎用多模态Embeddingモデルファミリー",
+      "description": "腾讯微信視覚チームによるWeMM-Embeddingファミリーを徹底解説。テキスト・画像・動画・視覚ドキュメント・交错多モーダル入力に広く対応し、MMEB-v2では2Bモデルが8B基線を凌駕、9BモデルがSOTA 80.6を達成。設計哲学から2段階訓練戦略、アーキテクチャ詳解、性能評価、デプロイチュートリアルまで。"
     },
     {
       "slug": "2026-08-26-rytr-ai-writing-assistant-analysis",
@@ -31,6 +94,33 @@
       ],
       "title": "Rytr.me 徹底解剖：8,000,000+ ライターの支持を得る AI ライティングアシスタントはいかにして生まれたか",
       "description": "Rytr.me AI ライティングアシスタントの製品哲学、40+ シナリオテンプレート、My Voice パーソナライズ、価格戦略、詳細チュートリアルを深く分析し、8M+ ユーザー選択の底层ロジックを明らかにする"
+    },
+    {
+      "slug": "2026-08-26-turbulent-ai-era-analysis",
+      "date": "2026-08-26",
+      "author": "ERIC",
+      "tags": [
+        "Bill Gates",
+        "Gates Notes",
+        "AI Policy",
+        "Robot Tax",
+        "AI Unemployment",
+        "AI Risk",
+        "AI Governance",
+        "Human Reserved",
+        "AGI",
+        "Public Policy",
+        "Education Reform",
+        "AI Safety",
+        "Design Philosophy"
+      ],
+      "categories": [
+        "Deep Analysis",
+        "AI Policy",
+        "Opinion"
+      ],
+      "title": "ビル・ゲイツ「激動の AI 時代」の到来——時代に取り残されたくないすべての人に捧げる 6,000 字エッセイ",
+      "description": "Microsoft 共同創業者ビル・ゲイツが 2026-08-26 に Gates Notes で発表した約 6,000 字のエッセイ「The turbulent AI era is here. The choices we make now are critical.」を深く読み解く。子どもにもわかる比喩で、3 つの AI リスク（恒久的な雇用喪失、AI による害悪の増幅、子どもの発達への害）と、3 つの政策提言（部門横断ガバナンス + 国際 AI 機関の設立、「Human Reserved（人間が担当する領域）」の確保、AI トークン・ロボットへの課税）を紐解く。ゲイツが 2023 年の楽観論から 2026 年の警告論へと転じた理由を解説し、立法者 / 人事担当者 / 教師 / 個人従事者向けの実践プレイブックを提供。そしてエッセイの底流にある設計思想——「今回は本当に違う」「人間の代替不可能部分は何か」「企業の自己規制ではなく公共の民主的プロセス」——を抽出する。"
     },
     {
       "slug": "2026-08-26-eli5-claude-skill-jie-shao",

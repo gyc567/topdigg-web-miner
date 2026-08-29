@@ -1,6 +1,109 @@
 {
   "products": [
     {
+      "slug": "2026-08-29-out23",
+      "date": "2026-08-29",
+      "author": "ERIC",
+      "tags": [
+        "AI Product",
+        "Immersive Entertainment",
+        "Digital Escape Room",
+        "Enterprise Team Building",
+        "SaaS",
+        "Monetization",
+        "MRR"
+      ],
+      "categories": [
+        "AI Product Analysis"
+      ],
+      "product": {
+        "name": "OUT23",
+        "url": "https://out23.com",
+        "category": "Immersive Digital Entertainment / Enterprise Team Building SaaS",
+        "launch_date": "2025-06",
+        "revenue": "$0 ARR / $0 MRR (2026-08, TrustMRR data)",
+        "users": "100,000+ registered users / 90,000+ companies (website display, not revenue-contributing)",
+        "pricing_model": "Per-game $20-40 + custom enterprise quotes"
+      },
+      "pricing": [
+        {
+          "plan": "Per-game (individual/team)",
+          "price": 20,
+          "currency": "USD",
+          "period": null,
+          "note": "$20-$40/session depending on duration and player count"
+        },
+        {
+          "plan": "Enterprise team building (custom)",
+          "price": null,
+          "currency": "USD",
+          "period": null,
+          "note": "Custom pricing based on headcount and game count"
+        },
+        {
+          "plan": "Creator/Subscription (planned)",
+          "price": null,
+          "currency": "USD",
+          "period": "month",
+          "note": "To launch after Marketplace goes live, not yet active"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ARR (Annual Recurring Revenue)",
+          "value": "$0"
+        },
+        {
+          "name": "MRR (Monthly Recurring Revenue)",
+          "value": "$0"
+        },
+        {
+          "name": "Lifetime Revenue",
+          "value": "$0 (undisclosed)"
+        },
+        {
+          "name": "Registered Users",
+          "value": "100,000+ (website display, not paying users)"
+        },
+        {
+          "name": "Covered Companies",
+          "value": "90,000+ (website display, not paying companies)"
+        },
+        {
+          "name": "Original Games",
+          "value": "5 digital escape rooms"
+        },
+        {
+          "name": "Game Duration",
+          "value": "60-120 minutes"
+        },
+        {
+          "name": "Team Size",
+          "value": "1 person (founder Juan Pablo Brizuela)"
+        },
+        {
+          "name": "Tech Stack",
+          "value": "HTML5 + CSS + JavaScript / AWS / Cloudflare / MySQL / PayPal + Stripe"
+        },
+        {
+          "name": "Domain Rating",
+          "value": "DR 2/100 (Ahrefs)"
+        }
+      ],
+      "sources": [
+        {
+          "label": "OUT23 Official Website",
+          "url": "https://out23.com"
+        },
+        {
+          "label": "TrustMRR Listing",
+          "url": "https://trustmrr.com/startup/out23?ref=eric-kwok-b654e8"
+        }
+      ],
+      "title": "$0 ARR 的沉浸式娛樂平台：OUT23 數字密室逃脫深度拆解",
+      "description": "OUT23 是 2025年6月創辦的阿根廷數字密室逃脫平台，$0 MRR、$0 累計收入，卻擁有5個原創密室、完整企業解決方案、創作者市場和訂閱藍圖。本報告拆解其產品設計、變現路徑、用戶畫像與可複製的核心邏輯。"
+    },
+    {
       "slug": "2026-08-27-ai-website-builder",
       "date": "2026-08-27",
       "author": "ERIC",

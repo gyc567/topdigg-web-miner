@@ -8,10 +8,101 @@
       "description": {
         "zh-Hans": ""
       },
-      "date": "2026-08-27T09:05:04.923Z",
+      "date": "2026-08-29T02:53:37.885Z",
       "author": "TopDigg",
       "tags": [],
       "categories": []
+    },
+    {
+      "slug": "2026-08-29-code-review-mental-model",
+      "title": {
+        "zh-Hans": "代码审查的思维模型：让审查速度提升10倍的「风险导向」法"
+      },
+      "description": {
+        "zh-Hans": "代码审查（Code Review）是软件工程中最重要的质量保障环节之一，但同时也是最容易让人感到沮丧的工作。本文分享一种风险导向的代码审查思维模型，让审查速度从30分钟缩短到10分钟。"
+      },
+      "date": "2026-08-29",
+      "author": "比特财商",
+      "tags": [
+        "代码审查",
+        "工程效能",
+        "团队协作",
+        "软件工程"
+      ],
+      "categories": [
+        "工程实践"
+      ]
+    },
+    {
+      "slug": "2026-08-28-waza-analysis",
+      "title": {
+        "en": "tw93/Waza: Turning Engineering Habits into AI Agent Executable Skills",
+        "ja": "tw93/Waza：エンジニアリングの習慣をAI Agentのスキルに変換する8つのSlashコマンド",
+        "vi": "tw93/Waza: Chuyển Thói quen Kỹ thuật Thành Kỹ năng AI Agent",
+        "zh-Hans": "Waza 深度解析：把工程习惯变成 AI Agent 的肌肉记忆",
+        "zh-Hant": "Waza：將工程習慣轉化為AI Agent可執行技能的開源工具"
+      },
+      "description": {
+        "en": "A comprehensive analysis of tw93/Waza — the AI Agent skills framework that distills years of engineering discipline into 8 executable slash commands (/think, /hunt, /check, /ui, /learn, /read, /write, /health). Waza's core philosophy: constraints enable freedom. Covers design philosophy, all 8 skills in depth, installation tutorial for Claude Code/Codex/Claude Desktop/Pi, the Kaku/Waza/Kami trilogy, and 5 core insights on why engineering habits are the best prompt engineering. Part of the open-source Waza ecosystem that turns passive AI tools into disciplined engineering partners.",
+        "ja": "tw93/Waza、8つのSlashコマンドでエンジニアリングの習慣をAI Agent実行可能スキルに変換、/think、/hunt、/check、/ui、/learn、/read、/write、/health。設計哲学: 制約こそ自由",
+        "vi": "tw93/Waza, 8 lệnh Slash chuyển thói quen kỹ thuật thành kỹ năng AI Agent, thiết kế theo triết lý 'ràng buộc tạo nên tự do'",
+        "zh-Hans": "深入解析 tw93/Waza：8个Slash命令将工程习惯转化为AI Agent可执行的技能。涵盖/think决策验证、/hunt根因排查、/check代码审查、/ui界面设计、/learn研究流程、/read文档读取、/write文本润色、/health健康审计。设计哲学：约束即自由、结构化即效率。三部曲之作：Kaku写代码、Waza练习惯、Kami出文档。",
+        "zh-Hant": "tw93/Waza、8個Slash命令將工程習慣轉化為AI Agent可執行技能，涵蓋設計哲學「約束即自由」"
+      },
+      "date": "2026-08-28",
+      "author": "TopDigg Research Team",
+      "tags": [
+        "Waza",
+        "tw93",
+        "AI Agent",
+        "Slash Commands",
+        "Claude Code",
+        "Codex",
+        "Engineering Habits",
+        "Prompt Engineering",
+        "Agent Skills",
+        "Open Source"
+      ],
+      "categories": [
+        "Deep Analysis",
+        "AI Tools",
+        "Open Source",
+        "Agent Skills"
+      ]
+    },
+    {
+      "slug": "2026-08-28-wemm-embedding-analysis",
+      "title": {
+        "en": "WeMM-Embedding: Tencent WeChat Vision Team's Universal Multimodal Embedding Model Family",
+        "ja": "WeMM-Embedding徹底解説：微信が作る汎用多模态Embeddingモデルファミリー",
+        "vi": "WeMM-Embedding: Mô Hình Embedding Đa Phương Thức Phổ Quát Từ Đội Ngũ Tencent WeChat Vision",
+        "zh-Hans": "WeMM-Embedding 深度解析：腾讯微信多模态 Embedding 模型家族",
+        "zh-Hant": "WeMM-Embedding：騰訊微信視覺團隊的多模態 Embedding 模型家族解析"
+      },
+      "description": {
+        "en": "A comprehensive technical deep-dive into WeMM-Embedding, Tencent WeChat Vision team's universal multimodal embedding model supporting text/images/videos/visual documents/interleaved multimodal inputs. The 2B model surpasses 8B baseline on MMEB-v2, while the 9B achieves SOTA 80.6. This article covers design philosophy, architecture, training strategy, Matryoshka Representation Learning, deployment tutorial, and production practice.",
+        "ja": "腾讯微信視覚チームによるWeMM-Embeddingファミリーを徹底解説。テキスト・画像・動画・視覚ドキュメント・交错多モーダル入力に広く対応し、MMEB-v2では2Bモデルが8B基線を凌駕、9BモデルがSOTA 80.6を達成。設計哲学から2段階訓練戦略、アーキテクチャ詳解、性能評価、デプロイチュートリアルまで。",
+        "vi": "Phân tích chuyên sâu mô hình WeMM-Embedding của đội ngũ Tencent WeChat Vision — hỗ trợ văn bản, hình ảnh, video và đầu vào đa phương thức xen kẽ; mô hình 2B vượt qua baseline 8B trên MMEB-v2; mô hình 9B đạt SOTA 80.6 trên MMEB-v3.",
+        "zh-Hans": "深入解析腾讯微信视觉团队开源的 WeMM-Embedding：通用多模态 Embedding 模型家族。支持文本、图像、视频、视觉文档和交错多模态输入，在 MMEB-v2 榜单上 2B 模型超越 8B 基线，9B 模型达到 SOTA。涵盖设计哲学、架构解析、训练策略、MRL 维度压缩、部署教程和行业实践。",
+        "zh-Hant": "騰訊微信視覺團隊開源的 WeMM-Embedding，支援文本、圖像、視頻、視覺文件和交錯多模態輸入，在 MMEB-v2 榜單上 2B 模型超越 8B 基線，9B 模型達到 SOTA。涵蓋設計哲學、架構解析、訓練策略、MRL 維度壓縮、部署教程和行業實踐。"
+      },
+      "date": "2026-08-28",
+      "author": "TopDigg",
+      "tags": [
+        "multimodal embedding",
+        "vision-language model",
+        "WeMM-Embedding",
+        "Tencent WeChat",
+        "universal multimodal representation",
+        "MMEB",
+        "Matryoshka Representation Learning"
+      ],
+      "categories": [
+        "Deep Analysis",
+        "Multimodal AI",
+        "Open Source Model",
+        "Tencent"
+      ]
     },
     {
       "slug": "2026-08-26-rytr-ai-writing-assistant-analysis",
@@ -46,6 +137,45 @@
         "AI Tool Review",
         "Product Deep Dive",
         "Content Marketing"
+      ]
+    },
+    {
+      "slug": "2026-08-26-turbulent-ai-era-analysis",
+      "title": {
+        "en": "Bill Gates' \"Turbulent AI Era\" — A 6,000-Word Essay for Everyone Who Refuses to Be Left Behind",
+        "ja": "ビル・ゲイツ「激動の AI 時代」の到来——時代に取り残されたくないすべての人に捧げる 6,000 字エッセイ",
+        "vi": "\"Kỷ Nguyên AI Đầy Biến Động\" Của Bill Gates — Bài Tiểu Luận 6.000 Từ Dành Cho Ai Không Muốn Bị Bỏ Lại Phía Sau",
+        "zh-Hans": "Bill Gates《动荡的 AI 时代已经来临》：一篇 6000 字长文，给所有不想被时代甩下的人",
+        "zh-Hant": "Bill Gates《動盪的 AI 時代已經來臨》：一篇 6000 字長文，給所有不想被時代甩下的人"
+      },
+      "description": {
+        "en": "A deep read of Microsoft co-founder Bill Gates' ~6,000-word essay published on Gates Notes on 2026-08-26: 'The turbulent AI era is here. The choices we make now are critical.' The piece uses kid-friendly analogies to unpack three AI risks (permanent job loss, AI-empowered harm, harm to children's development) and three policy proposals (cross-agency governance + a global AI body, reserving a 'Human Reserved' job domain, and taxing AI tokens and robots). We explain why Gates pivoted from 2023 optimism to 2026 alarmism, give actionable playbooks for policymakers / HR / teachers / individual workers, and distill the essay's underlying design philosophy — 'This time really is different,' 'What part of humanity is not substitutable,' 'Public democratic process instead of corporate self-regulation.'",
+        "ja": "Microsoft 共同創業者ビル・ゲイツが 2026-08-26 に Gates Notes で発表した約 6,000 字のエッセイ「The turbulent AI era is here. The choices we make now are critical.」を深く読み解く。子どもにもわかる比喩で、3 つの AI リスク（恒久的な雇用喪失、AI による害悪の増幅、子どもの発達への害）と、3 つの政策提言（部門横断ガバナンス + 国際 AI 機関の設立、「Human Reserved（人間が担当する領域）」の確保、AI トークン・ロボットへの課税）を紐解く。ゲイツが 2023 年の楽観論から 2026 年の警告論へと転じた理由を解説し、立法者 / 人事担当者 / 教師 / 個人従事者向けの実践プレイブックを提供。そしてエッセイの底流にある設計思想——「今回は本当に違う」「人間の代替不可能部分は何か」「企業の自己規制ではなく公共の民主的プロセス」——を抽出する。",
+        "vi": "Phân tích chuyên sâu bài tiểu luận ~6.000 từ của Bill Gates, đồng sáng lập Microsoft, đăng trên Gates Notes ngày 2026-08-26: 'Kỷ nguyên AI đầy biến động đã tới. Những lựa chọn chúng ta đưa ra ngay bây giờ là tối quan trọng.' Bài viết dùng những phép ví von mà học sinh tiểu học cũng hiểu được để mổ xẻ ba rủi ro AI (mất việc vĩnh viễn, tác hại được AI hỗ trợ, tổn hại sự phát triển của trẻ em) và ba đề xuất chính sách (quản trị xuyên ngành + cơ quan AI toàn cầu, dành riêng một lĩnh vực 'Human Reserved' (lĩnh vực dành riêng cho con người) cho con người, đánh thuế AI token và robot). Chúng tôi giải thích vì sao Gates chuyển từ sự lạc quan năm 2023 sang tiếng chuông báo động 2026, đưa ra sách lược hành động cho nhà hoạch định chính sách / HR / giáo viên / người lao động cá nhân, và chắt lọc triết lý thiết kế ẩn sau bài viết — 'Lần này thực sự khác', 'Phần nào của nhân tính là không thể thay thế', 'Quy trình dân chủ công khai thay cho tự điều chỉnh của doanh nghiệp'.",
+        "zh-Hans": "深度解读 Microsoft 联合创始人 Bill Gates 于 2026-08-26 发布在 Gates Notes 的 ~6000 字重磅长文《The turbulent AI era is here. The choices we make now are critical.》。本文用小学生也能懂的语言讲清三大风险（永久失业 / AI 增强伤害 / 阻碍儿童成长）、三项政策建议（跨部门治理 + 人类专属 + 对 token 和机器人征税）、Gates 为何从 2023 年乐观派转向 2026 年警告派。本文给出可落地教程：政策制定者怎么设计过渡方案、企业 HR 怎么准备、家长怎么用 AI 教师、个人开发者怎么保住入门岗位；并归纳 Gates 文章的设计哲学——「这次真的不一样」「人类的'不能被替代'部分」「公共民主进程而不是企业自律」。",
+        "zh-Hant": "深度解析 Microsoft 共同創辦人 Bill Gates 於 2026-08-26 發布在 Gates Notes 的 ~6000 字重磅長文《The turbulent AI era is here. The choices we make now are critical.》。本文用小學生也能懂的語言講清三大風險（永久失業 / AI 強化傷害 / 阻礙兒童成長）、三項政策建議（跨部門治理 + 人類專屬 + 對 token 和機器人徵稅）、Gates 為何從 2023 年樂觀派轉向 2026 年警告派。本文給出可落地教程：政策制定者怎麼設計過渡方案、企業 HR 怎麼準備、家長怎麼用 AI 教師、個人開發者怎麼保住入門職位；並歸納 Gates 文章的設計哲學——「這次真的不一樣」「人類的『不能被取代』部分」「公共民主進程而不是企業自律」。"
+      },
+      "date": "2026-08-26",
+      "author": "ERIC",
+      "tags": [
+        "Bill Gates",
+        "Gates Notes",
+        "AI Policy",
+        "Robot Tax",
+        "AI Unemployment",
+        "AI Risk",
+        "AI Governance",
+        "Human Reserved",
+        "AGI",
+        "Public Policy",
+        "Education Reform",
+        "AI Safety",
+        "Design Philosophy"
+      ],
+      "categories": [
+        "Deep Analysis",
+        "AI Policy",
+        "Opinion"
       ]
     },
     {

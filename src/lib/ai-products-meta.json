@@ -1,6 +1,121 @@
 {
   "products": [
     {
+      "slug": "2026-08-29-out23",
+      "title": {
+        "en": "$0 ARR Immersive Entertainment Platform: Deep Dive into OUT23 Digital Escape Room",
+        "ja": "$0 ARRの没入型エンターテインメントプラットフォーム：OUT23 デジタルエスケープルーム深掘り分析",
+        "vi": "Nền tảng giải trí đắm chìm $0 ARR: Phân tích chuyên sâu OUT23 - Phòng trốn thoát kỹ thuật số",
+        "zh-Hans": "$0 ARR 的沉浸式娱乐平台：OUT23 数字密室逃脱深度拆解",
+        "zh-Hant": "$0 ARR 的沉浸式娛樂平台：OUT23 數字密室逃脫深度拆解"
+      },
+      "description": {
+        "en": "OUT23 is an Argentine digital escape room platform founded in June 2025 with $0 MRR, $0 lifetime revenue, yet owning 5 original escape rooms, a full enterprise solution, and a creator marketplace blueprint. This report dissects its product design, monetization paths, user profiles, and reproducible core logic.",
+        "ja": "OUT23は2025年6月にアルゼンチンで創業したデジタルエスケープルームプラットフォーム。$0 MRR、$0 通期収入ながら、5つのオリジナルエスケープルーム、完全なエンタープライズソリューション、クリエイター市場の Blueprint を持つ。本レポートは製品設計、収益化パス、ユーザー像、複製可能なコアロジックを解剖する。",
+        "vi": "OUT23 là nền tảng phòng trốn thoát kỹ thuật số của Argentina, thành lập tháng 6/2025, $0 MRR, $0 doanh thu trọn đời, nhưng sở hữu 5 phòng trốn thoát nguyên bản, giải pháp doanh nghiệp hoàn chỉnh, và Blueprint cho marketplace nhà sáng tạo. Báo cáo này phân tích sâu thiết kế sản phẩm, lộ trình kiếm tiền, chân dung người dùng và logic cốt lõi có thể nhân rộng.",
+        "zh-Hans": "OUT23 是 2025年6月创办的阿根廷数字密室逃脱平台，$0 MRR、$0 累计收入，却拥有5个原创密室、完整企业解决方案、创作者市场和订阅蓝图。本报告拆解其产品设计、变现路径、用户画像与可复制的核心逻辑。",
+        "zh-Hant": "OUT23 是 2025年6月創辦的阿根廷數字密室逃脫平台，$0 MRR、$0 累計收入，卻擁有5個原創密室、完整企業解決方案、創作者市場和訂閱藍圖。本報告拆解其產品設計、變現路徑、用戶畫像與可複製的核心邏輯。"
+      },
+      "date": "2026-08-29",
+      "author": "ERIC",
+      "tags": [
+        "AI Product",
+        "Immersive Entertainment",
+        "Digital Escape Room",
+        "Enterprise Team Building",
+        "SaaS",
+        "Monetization",
+        "MRR"
+      ],
+      "categories": [
+        "AI Product Analysis"
+      ],
+      "product": {
+        "name": "OUT23",
+        "url": "https://out23.com",
+        "category": "Immersive Digital Entertainment / Enterprise Team Building SaaS",
+        "launch_date": "2025-06",
+        "revenue": "$0 ARR / $0 MRR (2026-08, TrustMRR data)",
+        "users": "100,000+ registered users / 90,000+ companies (website display, not revenue-contributing)",
+        "pricing_model": "Per-game $20-40 + custom enterprise quotes"
+      },
+      "pricing": [
+        {
+          "plan": "Per-game (individual/team)",
+          "price": 20,
+          "currency": "USD",
+          "period": null,
+          "note": "$20-$40/session depending on duration and player count"
+        },
+        {
+          "plan": "Enterprise team building (custom)",
+          "price": null,
+          "currency": "USD",
+          "period": null,
+          "note": "Custom pricing based on headcount and game count"
+        },
+        {
+          "plan": "Creator/Subscription (planned)",
+          "price": null,
+          "currency": "USD",
+          "period": "month",
+          "note": "To launch after Marketplace goes live, not yet active"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "ARR (Annual Recurring Revenue)",
+          "value": "$0"
+        },
+        {
+          "name": "MRR (Monthly Recurring Revenue)",
+          "value": "$0"
+        },
+        {
+          "name": "Lifetime Revenue",
+          "value": "$0 (undisclosed)"
+        },
+        {
+          "name": "Registered Users",
+          "value": "100,000+ (website display, not paying users)"
+        },
+        {
+          "name": "Covered Companies",
+          "value": "90,000+ (website display, not paying companies)"
+        },
+        {
+          "name": "Original Games",
+          "value": "5 digital escape rooms"
+        },
+        {
+          "name": "Game Duration",
+          "value": "60-120 minutes"
+        },
+        {
+          "name": "Team Size",
+          "value": "1 person (founder Juan Pablo Brizuela)"
+        },
+        {
+          "name": "Tech Stack",
+          "value": "HTML5 + CSS + JavaScript / AWS / Cloudflare / MySQL / PayPal + Stripe"
+        },
+        {
+          "name": "Domain Rating",
+          "value": "DR 2/100 (Ahrefs)"
+        }
+      ],
+      "sources": [
+        {
+          "label": "OUT23 Official Website",
+          "url": "https://out23.com"
+        },
+        {
+          "label": "TrustMRR Listing",
+          "url": "https://trustmrr.com/startup/out23?ref=eric-kwok-b654e8"
+        }
+      ]
+    },
+    {
       "slug": "2026-08-27-ai-website-builder",
       "title": {
         "en": "$14,917/Month: How a Brandless AI Website Builder Hit $1M+ ARR with Zero Paid Traffic",
