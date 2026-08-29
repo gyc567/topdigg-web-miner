@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "slug": "2026-08-30-recuris-analysis",
+      "date": "2026-08-30T00:00:00.000Z",
+      "author": "TopDigg",
+      "tags": [
+        "AI Agent",
+        "记忆系统",
+        "递归自我改进",
+        "长时域任务"
+      ],
+      "categories": [
+        "AI Agent",
+        "论文解读"
+      ],
+      "title": "Recuris：长时域Agent的递归经验-工作记忆进化框架",
+      "description": "论文标题：Recursive Experiential–Working Memory Evolution for Long-Horizon Agent Harnesses。Recuris是一个递归经验-工作记忆架构，通过让记忆自我进化来提升长时域Agent性能。"
+    },
+    {
+      "slug": "2026-08-29-factory-ai-coding-agents",
+      "date": "2026-08-29",
+      "author": "比特财商",
+      "tags": [
+        "AI Agent",
+        "Software Engineering",
+        "Factory AI",
+        "ProgramBench",
+        "Research"
+      ],
+      "categories": [
+        "Research"
+      ],
+      "title": "編程Agent如何完成大型軟體任務？Factory AI研究揭示關鍵轉折點",
+      "description": "Factory AI研究揭示了為什麼編程Agent會在大型軟體任務上「提前停止」，以及引入獨立驗證標準如何讓同一模型的行為覆蓋率從36%躍升至90%。"
+    },
+    {
       "slug": "2026-08-29-code-review-mental-model",
       "date": "2026-08-29",
       "author": "比特财商",
@@ -15,6 +49,38 @@
       ],
       "title": "代码审查的思维模型：让审查速度提升10倍的「风险导向」法",
       "description": "代码审查（Code Review）是软件工程中最重要的质量保障环节之一，但同时也是最容易让人感到沮丧的工作。本文分享一种风险导向的代码审查思维模型，让审查速度从30分钟缩短到10分钟。"
+    },
+    {
+      "slug": "2026-08-29-frontieragent-analysis",
+      "date": "2026-08-29",
+      "author": "比特财商",
+      "tags": [
+        "AI Agent",
+        "开源框架",
+        "工程实践",
+        "Apodex"
+      ],
+      "categories": [
+        "技术框架"
+      ],
+      "title": "FrontierAgent：开源Agent运行时如何让AI真正替你完成复杂工作",
+      "description": "FrontierAgent是ApodexAI开源的Agent运行时、终端产品和评测套件，支持长周期研究类和基于文件的工作。它提供ReAct单Agent和Agent Team多智能体双工作流，是当前开源Agent框架中工程化程度最高的项目之一。"
+    },
+    {
+      "slug": "2026-08-29-pluely-analysis",
+      "date": "2026-08-29",
+      "author": "比特财商",
+      "tags": [
+        "AI工具",
+        "产品设计",
+        "效率工具",
+        "Tauri"
+      ],
+      "categories": [
+        "产品分析"
+      ],
+      "title": "Pluely：一款「无感」的AI助手，让AI真正融入你的每一次对话",
+      "description": "Pluely是一款跨平台桌面应用，通过悬浮层让AI在任何场景下即时可用。它解决了传统AI助手「需要主动去找」的核心痛点，让AI真正成为随时待命的第二大脑。"
     },
     {
       "slug": "2026-08-28-waza-analysis",

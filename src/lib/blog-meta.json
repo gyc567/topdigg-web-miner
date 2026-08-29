@@ -1,6 +1,56 @@
 {
   "posts": [
     {
+      "slug": "2026-08-30-recuris-analysis",
+      "title": {
+        "zh-Hans": "Recuris：长时域Agent的递归经验-工作记忆进化框架"
+      },
+      "description": {
+        "zh-Hans": "论文标题：Recursive Experiential–Working Memory Evolution for Long-Horizon Agent Harnesses。Recuris是一个递归经验-工作记忆架构，通过让记忆自我进化来提升长时域Agent性能。"
+      },
+      "date": "2026-08-30T00:00:00.000Z",
+      "author": "TopDigg",
+      "tags": [
+        "AI Agent",
+        "记忆系统",
+        "递归自我改进",
+        "长时域任务"
+      ],
+      "categories": [
+        "AI Agent",
+        "论文解读"
+      ]
+    },
+    {
+      "slug": "2026-08-29-factory-ai-coding-agents",
+      "title": {
+        "en": "How Coding Agents Complete Large Software Tasks: Factory AI Research Reveals Key Breakthrough",
+        "ja": "プログラミングAgentは大型ソフトウェアタスクをどのように完了するのか？Factory AI研究が示す重要な転換点",
+        "vi": "Làm thế nào để Coding Agent hoàn thành các tác vụ phần mềm lớn? Nghiên cứu của Factory AI tiết lộ bước ngoặt quan trọng",
+        "zh-Hans": "编程Agent如何完成大型软件任务？Factory AI研究揭示关键转折点",
+        "zh-Hant": "編程Agent如何完成大型軟體任務？Factory AI研究揭示關鍵轉折點"
+      },
+      "description": {
+        "en": "Factory AI research reveals why coding agents stop early on large software tasks, and how adding an independent validation standard can dramatically improve completion rates from 36% to 90%.",
+        "ja": "Factory AIの研究は、プログラミングAgentが大規模ソフトウェアタスクで「早期終了」する理由を明らかにし、独立した検証標準の導入如何で同一モデルの動作カバー率が36%から90%に飛躍できることを示した。",
+        "vi": "Nghiên cứu của Factory AI tiết lộ lý do tại sao các coding agent dừng sớm trên các tác vụ phần mềm lớn, và việc thêm tiêu chuẩn xác minh độc lập có thể cải thiện đáng kể tỷ lệ hoàn thành từ 36% lên 90%.",
+        "zh-Hans": "Factory AI研究揭示了为什么编程Agent会在大型软件任务上\"提前停止\"，以及引入独立验证标准如何让同一模型的行为覆盖率从36%跃升至90%。",
+        "zh-Hant": "Factory AI研究揭示了為什麼編程Agent會在大型軟體任務上「提前停止」，以及引入獨立驗證標準如何讓同一模型的行為覆蓋率從36%躍升至90%。"
+      },
+      "date": "2026-08-29",
+      "author": "比特财商",
+      "tags": [
+        "AI Agent",
+        "Software Engineering",
+        "Factory AI",
+        "ProgramBench",
+        "Research"
+      ],
+      "categories": [
+        "Research"
+      ]
+    },
+    {
       "slug": "2026-08-29-code-review-mental-model",
       "title": {
         "zh-Hans": "代码审查的思维模型：让审查速度提升10倍的「风险导向」法"
@@ -18,6 +68,46 @@
       ],
       "categories": [
         "工程实践"
+      ]
+    },
+    {
+      "slug": "2026-08-29-frontieragent-analysis",
+      "title": {
+        "zh-Hans": "FrontierAgent：开源Agent运行时如何让AI真正替你完成复杂工作"
+      },
+      "description": {
+        "zh-Hans": "FrontierAgent是ApodexAI开源的Agent运行时、终端产品和评测套件，支持长周期研究类和基于文件的工作。它提供ReAct单Agent和Agent Team多智能体双工作流，是当前开源Agent框架中工程化程度最高的项目之一。"
+      },
+      "date": "2026-08-29",
+      "author": "比特财商",
+      "tags": [
+        "AI Agent",
+        "开源框架",
+        "工程实践",
+        "Apodex"
+      ],
+      "categories": [
+        "技术框架"
+      ]
+    },
+    {
+      "slug": "2026-08-29-pluely-analysis",
+      "title": {
+        "zh-Hans": "Pluely：一款「无感」的AI助手，让AI真正融入你的每一次对话"
+      },
+      "description": {
+        "zh-Hans": "Pluely是一款跨平台桌面应用，通过悬浮层让AI在任何场景下即时可用。它解决了传统AI助手「需要主动去找」的核心痛点，让AI真正成为随时待命的第二大脑。"
+      },
+      "date": "2026-08-29",
+      "author": "比特财商",
+      "tags": [
+        "AI工具",
+        "产品设计",
+        "效率工具",
+        "Tauri"
+      ],
+      "categories": [
+        "产品分析"
       ]
     },
     {

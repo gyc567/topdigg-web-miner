@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-29T03:33:47.154Z
+Generated: 2026-08-29T21:28:52.498Z
 
 ## Site Overview
 
@@ -21,11 +21,35 @@ We deliver in-depth Twitter analytics and trend tracking for content creators an
 
 ## Latest Blog Posts (10 most recent)
 
+### Recuris：长时域Agent的递归经验-工作记忆进化框架
+URL: https://topdigg.com/blog/2026-08-30-recuris-analysis | Date: 2026-08-30T00:00:00.000Z | Author: TopDigg
+Tags: AI Agent, 记忆系统, 递归自我改进, 长时域任务
+
+论文标题：Recursive Experiential–Working Memory Evolution for Long-Horizon Agent Harnesses。Recuris是一个递归经验-工作记忆架构，通过让记忆自我进化来提升长时域Agent性能。
+
+### How Coding Agents Complete Large Software Tasks: Factory AI Research Reveals Key Breakthrough
+URL: https://topdigg.com/blog/2026-08-29-factory-ai-coding-agents | Date: 2026-08-29 | Author: 比特财商
+Tags: AI Agent, Software Engineering, Factory AI, ProgramBench, Research
+
+Factory AI research reveals why coding agents stop early on large software tasks, and how adding an independent validation standard can dramatically improve completion rates from 36% to 90%.
+
 ### 代码审查的思维模型：让审查速度提升10倍的「风险导向」法
 URL: https://topdigg.com/blog/2026-08-29-code-review-mental-model | Date: 2026-08-29 | Author: 比特财商
 Tags: 代码审查, 工程效能, 团队协作, 软件工程
 
 代码审查（Code Review）是软件工程中最重要的质量保障环节之一，但同时也是最容易让人感到沮丧的工作。本文分享一种风险导向的代码审查思维模型，让审查速度从30分钟缩短到10分钟。
+
+### FrontierAgent：开源Agent运行时如何让AI真正替你完成复杂工作
+URL: https://topdigg.com/blog/2026-08-29-frontieragent-analysis | Date: 2026-08-29 | Author: 比特财商
+Tags: AI Agent, 开源框架, 工程实践, Apodex
+
+FrontierAgent是ApodexAI开源的Agent运行时、终端产品和评测套件，支持长周期研究类和基于文件的工作。它提供ReAct单Agent和Agent Team多智能体双工作流，是当前开源Agent框架中工程化程度最高的项目之一。
+
+### Pluely：一款「无感」的AI助手，让AI真正融入你的每一次对话
+URL: https://topdigg.com/blog/2026-08-29-pluely-analysis | Date: 2026-08-29 | Author: 比特财商
+Tags: AI工具, 产品设计, 效率工具, Tauri
+
+Pluely是一款跨平台桌面应用，通过悬浮层让AI在任何场景下即时可用。它解决了传统AI助手「需要主动去找」的核心痛点，让AI真正成为随时待命的第二大脑。
 
 ### tw93/Waza: Turning Engineering Habits into AI Agent Executable Skills
 URL: https://topdigg.com/blog/2026-08-28-waza-analysis | Date: 2026-08-28 | Author: TopDigg Research Team
@@ -56,30 +80,6 @@ URL: https://topdigg.com/blog/2026-08-26-turbulent-ai-era-analysis | Date: 2026-
 Tags: Bill Gates, Gates Notes, AI Policy, Robot Tax, AI Unemployment, AI Risk, AI Governance, Human Reserved, AGI, Public Policy, Education Reform, AI Safety, Design Philosophy
 
 A deep read of Microsoft co-founder Bill Gates' ~6,000-word essay published on Gates Notes on 2026-08-26: 'The turbulent AI era is here. The choices we make now are critical.' The piece uses kid-friendly analogies to unpack three AI risks (permanent job loss, AI-empowered harm, harm to children's de
-
-### 让 AI 给任何人解释任何事：ELI5 开源项目深度解析
-URL: https://topdigg.com/blog/2026-08-26-eli5-claude-skill-jie-shao | Date: 2026-08-26 | Author: TopDigg
-Tags: Claude Code, AI Skill, Prompt Engineering, ELI5, 开源项目, 评测系统, Anthropic, LLM 应用
-
-一个 Claude Code Skill，能自动识别受众并调整解释风格——5岁孩子、经理、工程师、父母。它的评分从 baseline 的 33% 提升到了 91.7%。设计哲学和工程实现同样精彩。
-
-### 如何做出伟大的工作？Paul Graham 用 15 年思考写成的行动指南
-URL: https://topdigg.com/blog/2026-08-26-paulgraham-greatwork | Date: 2026-08-26 | Author: TopDigg
-Tags: Paul Graham, 创造力, 职业生涯, 深度工作, 创业智慧, YC, 原创性, 设计哲学
-
-YC 创始人 Paul Graham 2023 年新作全面解析：如何找到值得投入的事业、如何产生原创性想法、如何保持创造力。这可能是关于创造力最诚实、最全面的文章。
-
-### AI Agent Money Maker Guide: OpenClaw Money Maker Complete Analysis
-URL: https://topdigg.com/blog/2026-08-25-awesome-openclaw-money-maker | Date: 2026-08-25 | Author: TopDigg
-Tags: AI Agent, OpenClaw, Franklin, ClawRouter, x402, cryptocurrency
-
-Deep analysis of awesome-OpenClaw-Money-Maker project, covering Franklin, ClawRouter, x402 protocol and complete AI Agent money-making toolchain
-
-### The HTML Toolkit for AI Coding Agents: Complete Analysis of effective-html
-URL: https://topdigg.com/blog/2026-08-25-effective-html-analysis | Date: 2026-08-25 | Author: TopDigg
-Tags: AI Agent, effective-html, HTML artifact, Plannotator, design system, skill routing
-
-Deep analysis of plannotator/effective-html project, covering six core skills, design philosophy, hands-on tutorials and thoughts on the future of AI coding agents
 
 ## AI Product Analyses (latest 5)
 
@@ -147,4 +147,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 155 blog posts | 4 Twitter analyses | 6 AI products
+End of llms.txt | 159 blog posts | 4 Twitter analyses | 6 AI products
