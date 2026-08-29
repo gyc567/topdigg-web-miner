@@ -1,15 +1,6 @@
 {
   "posts": [
     {
-      "slug": "2026-08-27-ox-alpha-qwen38-flash-analysis",
-      "date": "2026-08-29T02:53:37.885Z",
-      "author": "TopDigg",
-      "tags": [],
-      "categories": [],
-      "title": "",
-      "description": ""
-    },
-    {
       "slug": "2026-08-29-code-review-mental-model",
       "date": "2026-08-29",
       "author": "比特财商",
@@ -71,6 +62,25 @@
       ],
       "title": "WeMM-Embedding：騰訊微信視覺團隊的多模態 Embedding 模型家族解析",
       "description": "騰訊微信視覺團隊開源的 WeMM-Embedding，支援文本、圖像、視頻、視覺文件和交錯多模態輸入，在 MMEB-v2 榜單上 2B 模型超越 8B 基線，9B 模型達到 SOTA。涵蓋設計哲學、架構解析、訓練策略、MRL 維度壓縮、部署教程和行業實踐。"
+    },
+    {
+      "slug": "2026-08-27-ox-alpha-qwen38-flash-analysis",
+      "date": "2026-08-27",
+      "author": "TopDigg",
+      "tags": [
+        "Ox Alpha",
+        "Qwen",
+        "GLM",
+        "AI Agent",
+        "开源模型",
+        "MoE"
+      ],
+      "categories": [
+        "AI新闻",
+        "深度解析"
+      ],
+      "title": "Ox Alpha 认领与 Qwen3.8-Flash 发布：两大事件背后的设计哲学与行业影响",
+      "description": "2026年8月26日，注定是中国AI史上值得铭记的一天。同一天里，智谱正式认领了匿名上线6天的神秘模型Ox Alpha，阿里则发布了全新下一代架构的Qwen3.8-Flash。这两个事件并非孤立——它们共同揭示了中国AI在大模型效率、开源策略与算力自主三个维度上的深层变革。本文将从技术细节、项目说明、设计哲学、行业影响四个角度，做一次全面深度的交叉验证与解读。"
     },
     {
       "slug": "2026-08-26-rytr-ai-writing-assistant-analysis",

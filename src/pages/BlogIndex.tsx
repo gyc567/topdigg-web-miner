@@ -17,12 +17,21 @@ import { CATEGORY_ALL_SLUG } from "@/lib/blog-categories";
 
 const POSTS_PER_PAGE = 12;
 
+// Safe fallback display: prefer localized text, fall back to first available language.
+// Handles edge case where a post has no localized content (empty string) for current locale.
+const displayTitle = (post: BlogMeta): string =>
+  post.title || Object.values(post.title).find(Boolean) || post.slug;
+const displayDesc = (post: BlogMeta): string =>
+  post.description || Object.values(post.description).find(Boolean) || "";
+
 const matchesQuery = (post: BlogMeta, query: string): boolean => {
   if (!query.trim()) return true;
   const q = query.toLowerCase();
+  const title = displayTitle(post).toLowerCase();
+  const desc = displayDesc(post).toLowerCase();
   return (
-    post.title.toLowerCase().includes(q) ||
-    post.description.toLowerCase().includes(q) ||
+    title.includes(q) ||
+    desc.includes(q) ||
     post.tags.join(" ").toLowerCase().includes(q) ||
     post.author.toLowerCase().includes(q)
   );
@@ -192,11 +201,11 @@ const BlogIndex = () => {
                     to={`/blog/${post.slug}`}
                     className="hover:text-brand transition-colors"
                   >
-                    {post.title}
+                    {displayTitle(post)}
                   </Link>
                 </h2>
                 <p className="text-sm text-muted-foreground mt-2">
-                  {post.description}
+                  {displayDesc(post)}
                 </p>
                 <div className="mt-3 text-xs text-muted-foreground">
                   <time dateTime={post.date}>

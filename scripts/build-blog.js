@@ -74,6 +74,16 @@ function generateBlogData() {
 
   const sortedPosts = Object.values(posts).sort((a, b) => new Date(b.date) - new Date(a.date));
 
+  // Fail-fast: catch posts with missing title or description before writing any JSON.
+  for (const post of sortedPosts) {
+    const hasTitle = Object.values(post.title).some(Boolean);
+    const hasDesc = Object.values(post.description).some(Boolean);
+    if (!hasTitle || !hasDesc) {
+      console.error(`❌ Post "${post.slug}" is missing ${!hasTitle ? 'title' : 'description'} in all locales — fix content/blog/ and re-run.`);
+      process.exit(1);
+    }
+  }
+
   const blogData = {
     posts: sortedPosts.map(({ categories, ...post }) => post)
   };

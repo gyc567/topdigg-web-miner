@@ -1,19 +1,6 @@
 {
   "posts": [
     {
-      "slug": "2026-08-27-ox-alpha-qwen38-flash-analysis",
-      "title": {
-        "zh-Hans": ""
-      },
-      "description": {
-        "zh-Hans": ""
-      },
-      "date": "2026-08-29T02:53:37.885Z",
-      "author": "TopDigg",
-      "tags": [],
-      "categories": []
-    },
-    {
       "slug": "2026-08-29-code-review-mental-model",
       "title": {
         "zh-Hans": "代码审查的思维模型：让审查速度提升10倍的「风险导向」法"
@@ -102,6 +89,29 @@
         "Multimodal AI",
         "Open Source Model",
         "Tencent"
+      ]
+    },
+    {
+      "slug": "2026-08-27-ox-alpha-qwen38-flash-analysis",
+      "title": {
+        "zh-Hans": "Ox Alpha 认领与 Qwen3.8-Flash 发布：两大事件背后的设计哲学与行业影响"
+      },
+      "description": {
+        "zh-Hans": "2026年8月26日，注定是中国AI史上值得铭记的一天。同一天里，智谱正式认领了匿名上线6天的神秘模型Ox Alpha，阿里则发布了全新下一代架构的Qwen3.8-Flash。这两个事件并非孤立——它们共同揭示了中国AI在大模型效率、开源策略与算力自主三个维度上的深层变革。本文将从技术细节、项目说明、设计哲学、行业影响四个角度，做一次全面深度的交叉验证与解读。"
+      },
+      "date": "2026-08-27",
+      "author": "TopDigg",
+      "tags": [
+        "Ox Alpha",
+        "Qwen",
+        "GLM",
+        "AI Agent",
+        "开源模型",
+        "MoE"
+      ],
+      "categories": [
+        "AI新闻",
+        "深度解析"
       ]
     },
     {
