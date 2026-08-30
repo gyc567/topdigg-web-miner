@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-30T06:41:18.412Z
+Generated: 2026-08-30T09:17:06.303Z
 
 ## Site Overview
 
@@ -26,6 +26,12 @@ URL: https://topdigg.com/blog/2026-08-30-fireworks-tech-graph | Date: 2026-08-30
 Tags: AI绘图, Agent Skill, 技术图, SVG生成, Claude Code
 
 fireworks-tech-graph 是一款专为 Codex 和 Claude Code 设计的 Agent Skill，只需用自然语言描述系统，就能得到几何校验安全的 SVG、PNG、语义 GIF 动效与离线交互 HTML。
+
+### Kage：一次京都深山寺庙的沉浸式夜间漫步
+URL: https://topdigg.com/blog/2026-08-30-kage-analysis | Date: 2026-08-30T00:00:00.000Z | Author: TopDigg
+Tags: Three.js, WebGL, 沉浸式体验, 日本美学, 单文件开发
+
+Kage 是一款用 Three.js 实时渲染的五章节沉浸式夜间漫步体验，穿过虚构的京都深山寺庙，结合分层电影级生成图像。单 HTML 文件，无构建步骤。
 
 ### Recuris：长时域Agent的递归经验-工作记忆进化框架
 URL: https://topdigg.com/blog/2026-08-30-recuris-analysis | Date: 2026-08-30T00:00:00.000Z | Author: TopDigg
@@ -74,12 +80,6 @@ URL: https://topdigg.com/blog/2026-08-27-ox-alpha-qwen38-flash-analysis | Date: 
 Tags: Ox Alpha, Qwen, GLM, AI Agent, 开源模型, MoE
 
 2026年8月26日，注定是中国AI史上值得铭记的一天。同一天里，智谱正式认领了匿名上线6天的神秘模型Ox Alpha，阿里则发布了全新下一代架构的Qwen3.8-Flash。这两个事件并非孤立——它们共同揭示了中国AI在大模型效率、开源策略与算力自主三个维度上的深层变革。本文将从技术细节、项目说明、设计哲学、行业影响四个角度，做一次全面深度的交叉验证与解读。
-
-### Rytr.me Deep Dive: How an AI Writing Assistant Earned 8,000,000+ Writers
-URL: https://topdigg.com/blog/2026-08-26-rytr-ai-writing-assistant-analysis | Date: 2026-08-26 | Author: TopDigg
-Tags: AI Writing, Rytr, Content Generation, AI Assistant, Product Analysis, Tool Review, SEO, Marketing Copy, Freemium
-
-In-depth analysis of Rytr.me AI writing assistant's product philosophy, 40+ scenario templates, My Voice personalization, pricing strategy and detailed tutorial — uncovering the underlying logic of 8M+ user adoption
 
 ## AI Product Analyses (latest 5)
 
@@ -147,4 +147,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 160 blog posts | 4 Twitter analyses | 6 AI products
+End of llms.txt | 161 blog posts | 4 Twitter analyses | 6 AI products

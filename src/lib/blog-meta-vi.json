@@ -19,6 +19,24 @@
       "description": "fireworks-tech-graph 是一款专为 Codex 和 Claude Code 设计的 Agent Skill，只需用自然语言描述系统，就能得到几何校验安全的 SVG、PNG、语义 GIF 动效与离线交互 HTML。"
     },
     {
+      "slug": "2026-08-30-kage-analysis",
+      "date": "2026-08-30T00:00:00.000Z",
+      "author": "TopDigg",
+      "tags": [
+        "Three.js",
+        "WebGL",
+        "沉浸式体验",
+        "日本美学",
+        "单文件开发"
+      ],
+      "categories": [
+        "前端开发",
+        "创意项目"
+      ],
+      "title": "Kage：一次京都深山寺庙的沉浸式夜间漫步",
+      "description": "Kage 是一款用 Three.js 实时渲染的五章节沉浸式夜间漫步体验，穿过虚构的京都深山寺庙，结合分层电影级生成图像。单 HTML 文件，无构建步骤。"
+    },
+    {
       "slug": "2026-08-30-recuris-analysis",
       "date": "2026-08-30T00:00:00.000Z",
       "author": "TopDigg",
