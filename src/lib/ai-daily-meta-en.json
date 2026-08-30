@@ -10,10 +10,10 @@
       "categories": [
         "AI Daily"
       ],
-      "hn_count": 3,
+      "hn_count": 4,
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Gemini Omni 1.1 Flash Released: Google Upgrades Video Generation Control",
-      "description": "Google releases Gemini Omni 1.1 Flash, offering stronger generative video control with scene extension up to 40 seconds and 4K HD output.",
+      "title": "Tencent Hunyuan Releases Hy4 Preview: 770B Total Parameters, 1M Context, Open Source",
+      "description": "Tencent Hunyuan releases next-gen flagship model Hy4 preview with 770B total parameters, 49B activated parameters, and 1M context length, now open source on Tencent Cloud TokenHub and OpenRouter.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

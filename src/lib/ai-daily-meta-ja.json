@@ -10,10 +10,10 @@
       "categories": [
         "AI Daily"
       ],
-      "hn_count": 3,
+      "hn_count": 4,
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Gemini Omni 1.1 Flash を発表、Google が動画生成制御能力をアップグレード",
-      "description": "Google が Gemini Omni 1.1 Flash を発表、開発者により強力な生成動画制御能力を提供。新モデルはシーン拡張（最大40秒）、4K HD出力をサポート。",
+      "title": "騰訊混元、Hy4 preview をリリース：770B 総パラメータ、1M コンテキスト、オープンソース",
+      "description": "騰訊混元が次世代旗艦モデル Hy4 preview をリリース。総パラメータ 770B、活性化パラメータ 49B、コンテキスト長 1M。騰訊クラウド TokenHub と OpenRouter でオープンソース公開。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

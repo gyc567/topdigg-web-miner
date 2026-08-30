@@ -3,18 +3,18 @@
     {
       "slug": "2026-08-29-ai-daily",
       "title": {
-        "en": "Gemini Omni 1.1 Flash Released: Google Upgrades Video Generation Control",
-        "ja": "Gemini Omni 1.1 Flash を発表、Google が動画生成制御能力をアップグレード",
-        "vi": "Gemini Omni 1.1 Flash Phat hanh: Google nang cap kha nang dieu khien tao video",
-        "zh-Hans": "Gemini Omni 1.1 Flash 发布，Google 视频生成控制能力再升级",
-        "zh-Hant": "Gemini Omni 1.1 Flash 發布，Google 影片生成控制能力再升級"
+        "en": "Tencent Hunyuan Releases Hy4 Preview: 770B Total Parameters, 1M Context, Open Source",
+        "ja": "騰訊混元、Hy4 preview をリリース：770B 総パラメータ、1M コンテキスト、オープンソース",
+        "vi": "Tencent Hunyuan phat hanh Hy4 preview: 770B tham so tong, 1M nguyen canh, mo nguon",
+        "zh-Hans": "腾讯混元发布 Hy4 preview：770B 总参数、1M 上下文，开源上线",
+        "zh-Hant": "騰訊混元發布 Hy4 preview：770B 總參數、1M 上下文，開源上線"
       },
       "description": {
-        "en": "Google releases Gemini Omni 1.1 Flash, offering stronger generative video control with scene extension up to 40 seconds and 4K HD output.",
-        "ja": "Google が Gemini Omni 1.1 Flash を発表、開発者により強力な生成動画制御能力を提供。新モデルはシーン拡張（最大40秒）、4K HD出力をサポート。",
-        "vi": "Google phat hanh Gemini Omni 1.1 Flash, cung cap kha nang dieu khien tao video manh hon voi mo rong cua phap 40 giay va dau ra 4K HD.",
-        "zh-Hans": "Google 推出 Gemini Omni 1.1 Flash，为开发者提供更强生成式视频控制能力，新模型支持场景扩展至 40 秒、4K 高清输出。",
-        "zh-Hant": "Google 推出 Gemini Omni 1.1 Flash，為開發者提供更強生成式影片控制能力，新模型支援場景擴展至 40 秒、4K 高清輸出。"
+        "en": "Tencent Hunyuan releases next-gen flagship model Hy4 preview with 770B total parameters, 49B activated parameters, and 1M context length, now open source on Tencent Cloud TokenHub and OpenRouter.",
+        "ja": "騰訊混元が次世代旗艦モデル Hy4 preview をリリース。総パラメータ 770B、活性化パラメータ 49B、コンテキスト長 1M。騰訊クラウド TokenHub と OpenRouter でオープンソース公開。",
+        "vi": "Tencent Hunyuan phat hanh mo hinh tau旗舰 Hy4 preview voi 770B tham so tong, 49B tham so kich hoat, 1M do dai nguyen canh, da mo nguon tren Tencent Cloud TokenHub va OpenRouter.",
+        "zh-Hans": "腾讯混元发布新一代旗舰模型 Hy4 preview，总参数 770B、激活参数 49B、上下文长度 1M，现已开源并在腾讯云 TokenHub 和 OpenRouter 上线。",
+        "zh-Hant": "騰訊混元發布新一代旗艦模型 Hy4 preview，總參數 770B、激活參數 49B、上下文長度 1M，現已開源並在騰訊雲 TokenHub 和 OpenRouter 上線。"
       },
       "date": "2026-08-29",
       "author": "比特财商",
@@ -38,7 +38,7 @@
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       },
-      "hn_count": 3,
+      "hn_count": 4,
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
     },
     {

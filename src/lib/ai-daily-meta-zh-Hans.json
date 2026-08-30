@@ -10,10 +10,10 @@
       "categories": [
         "AI Daily"
       ],
-      "hn_count": 3,
+      "hn_count": 4,
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Gemini Omni 1.1 Flash 发布，Google 视频生成控制能力再升级",
-      "description": "Google 推出 Gemini Omni 1.1 Flash，为开发者提供更强生成式视频控制能力，新模型支持场景扩展至 40 秒、4K 高清输出。",
+      "title": "腾讯混元发布 Hy4 preview：770B 总参数、1M 上下文，开源上线",
+      "description": "腾讯混元发布新一代旗舰模型 Hy4 preview，总参数 770B、激活参数 49B、上下文长度 1M，现已开源并在腾讯云 TokenHub 和 OpenRouter 上线。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",
