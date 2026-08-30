@@ -1,6 +1,27 @@
 {
   "posts": [
     {
+      "slug": "2026-08-30-fireworks-tech-graph",
+      "title": {
+        "zh-Hans": "fireworks-tech-graph：让AI替你画技术图的Agent Skill"
+      },
+      "description": {
+        "zh-Hans": "fireworks-tech-graph 是一款专为 Codex 和 Claude Code 设计的 Agent Skill，只需用自然语言描述系统，就能得到几何校验安全的 SVG、PNG、语义 GIF 动效与离线交互 HTML。"
+      },
+      "content": {
+        "zh-Hans": "\n**项目仓库**：https://github.com/yizhiyanhua-ai/fireworks-tech-graph\n\n## 核心概述\n\n`fireworks-tech-graph` 停止手画图，只需用中英文描述你的系统，就能得到：\n\n- **几何校验安全的 SVG**：自动布线，无交叉\n- **高分辨率 PNG**：1920px 无损输出\n- **语义 GIF 动效**：连接线从无到有，按语义顺序绘制\n- **离线交互 HTML**：支持平移缩放、主题切换、多格式导出\n\n**核心亮点**：\n- 12 种视觉风格（11 种生成器驱动 + 1 种 AI 手绘）\n- 14 种图类型（完整 UML 支持 + AI/Agent 领域图）\n- 可执行风格系统（风格约束编码进生成器）\n- Loop Engineering 设计（验证反馈循环，确保输出质量）\n\n## 技术架构：语义驱动的图形生成\n\n### 核心处理流程\n\n```\nPrompt → Diagram Contract → Semantic IR → Style Spec → Route Planner → SVG Build → Structural Validation → PNG Visual Readback → Targeted Revision → Verified SVG + PNG\n```\n\n### 语义形状词汇表\n\n| 组件类型 | 形状 | 说明 |\n|---------|------|------|\n| **LLM** | 双边框圆角矩形 | 强调模型身份 |\n| **Agent** | 六边形 | 表示智能体 |\n| **Vector Store** | 带内环圆柱体 | 表示向量数据库 |\n| **Database** | 圆柱体 | 数据存储 |\n\n## Loop Engineering 设计哲学\n\n**五项设计原则**：\n\n1. **评估而非断言** — 完成状态必须有 validator 和渲染证据背书\n2. **确定性校验优先** — XML 结构、路径几何、箭头穿框先于视觉判断\n3. **感知验证其次** — 回读 PNG 检查裁切、标签碰撞、视觉层级\n4. **定向修正** — 每轮只修改已诊断的问题\n5. **有界收敛** — 默认最多两轮修正，防止无上限自我编辑\n\n## 12 种视觉风格\n\n| # | 名称 | 适用场景 |\n|---|------|----------|\n| 1 | 扁平图标风（默认） | 博客、幻灯片、技术文档 |\n| 2 | 暗黑极客风 | GitHub README、开发者文章 |\n| 3 | 工程蓝图风 | 架构设计文档、工程规范 |\n| 4 | Notion 极简风 | Notion、Confluence、内部 Wiki |\n| 5 | 玻璃态卡片风 | 产品官网、演讲 Keynote |\n| 6 | Claude 官方风格 | Anthropic 风格图表 |\n| 7 | OpenAI 官方风格 | OpenAI 风格图表 |\n| 8 | 暗黑奢华风（AI 手绘） | 高级文档、README Hero |\n| 9 | C4 评审画布 | C4 设计评审、ADR |\n| 10 | Cloud Fabric | 多 Region 部署、VPC 归属 |\n| 11 | Event Transit | Kafka/Event Stream、DLQ |\n| 12 | Ops Pulse | SRE 评审、Golden Signals |\n\n## 实战教程\n\n### 安装\n\n```bash\nnpx -y skills@1.5.17 add \\\n  yizhiyanhua-ai/fireworks-tech-graph/skills/fireworks-tech-graph \\\n  --agent codex claude-code -g -y --copy\n```\n\n### 基本使用\n\n```\n画一张 RAG 流程图\n生成一张 Mem0 记忆架构图，暗黑风格\n画一张微服务架构图，风格2（暗黑极客风）\n```\n\n### CLI 命令\n\n```bash\nSKILL_ROOT=\"${CLAUDE_SKILL_DIR:-$HOME/.agents/skills/fireworks-tech-graph}\"\n\n# 健康检查\npython3 \"$SKILL_ROOT/scripts/fireworks.py\" doctor\n\n# 生成 GIF 动效\npython3 \"$SKILL_ROOT/scripts/fireworks.py\" animate diagram.svg diagram.gif\n```\n\n## 设计哲学十大观点\n\n1. **评估而非断言** — 完成状态必须有 validator 和渲染证据背书\n2. **语义先于视觉** — 先有语义 IR 再有视觉呈现\n3. **风格即代码** — 风格约束编码进生成器，执行可执行契约检查\n4. **几何安全是底线** — 零交叉、零跨线桥，渲染前强制执行\n5. **有界自我修正** — 默认最多两轮修正，防止无限循环\n6. **验证必须可观察** — `validation: passed` + `visual_review: passed`\n7. **降级要有说明** — 无法验证时显式报告 `skipped`\n8. **产品图标是品牌承诺** — 40+ 产品品牌色\n9. **动效是语义的时序化** — 将语义顺序时序化\n10. **可复用性是设计目标** — 将模糊 AI 工作流转化为约束化系统\n\n## 结语\n\nfireworks-tech-graph 通过**自然语言描述 + 语义 IR + 验证反馈循环**，实现了\"描述即生成，生成即合规\"的工作流。它的设计哲学对于任何想要构建可靠的 AI 生成系统都有借鉴意义。\n"
+      },
+      "date": "2026-08-30T00:00:00.000Z",
+      "author": "TopDigg",
+      "tags": [
+        "AI绘图",
+        "Agent Skill",
+        "技术图",
+        "SVG生成",
+        "Claude Code"
+      ]
+    },
+    {
       "slug": "2026-08-30-recuris-analysis",
       "title": {
         "zh-Hans": "Recuris：长时域Agent的递归经验-工作记忆进化框架"

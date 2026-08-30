@@ -1,6 +1,28 @@
 {
   "posts": [
     {
+      "slug": "2026-08-30-fireworks-tech-graph",
+      "title": {
+        "zh-Hans": "fireworks-tech-graph：让AI替你画技术图的Agent Skill"
+      },
+      "description": {
+        "zh-Hans": "fireworks-tech-graph 是一款专为 Codex 和 Claude Code 设计的 Agent Skill，只需用自然语言描述系统，就能得到几何校验安全的 SVG、PNG、语义 GIF 动效与离线交互 HTML。"
+      },
+      "date": "2026-08-30T00:00:00.000Z",
+      "author": "TopDigg",
+      "tags": [
+        "AI绘图",
+        "Agent Skill",
+        "技术图",
+        "SVG生成",
+        "Claude Code"
+      ],
+      "categories": [
+        "AI工具",
+        "技术教程"
+      ]
+    },
+    {
       "slug": "2026-08-30-recuris-analysis",
       "title": {
         "zh-Hans": "Recuris：长时域Agent的递归经验-工作记忆进化框架"
