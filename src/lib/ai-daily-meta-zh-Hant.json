@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-08-31-ai-daily",
+      "date": "2026-08-31",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 4,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "索尼與華納起訴Anthropic，指控其大規模盜用版權音樂訓練Claude",
+      "description": "索尼音樂、華納音樂等唱片公司起訴Anthropic，指控其未經許可使用數萬首受版權保護的音樂作品訓練Claude模型，每件侵權作品索賠最高15萬美元。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "比特財商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-08-29-ai-daily",
       "date": "2026-08-29",
       "author": "比特财商",
