@@ -3,16 +3,16 @@
     {
       "slug": "2026-08-31-ai-daily",
       "title": {
-        "en": "Sony and Warner Sue Anthropic Over Large-Scale Copyright Infringement in Claude Training",
-        "ja": "SonyとWarnerがAnthropicを提訴、Claude訓練に大規模著作権侵犯",
-        "vi": "Sony và Warner kiện Anthropic vì vi phạm bản quyền âm nhạc quy mô lớn khi huấn luyện Claude",
-        "zh-Hans": "索尼与华纳起诉Anthropic，指控其大规模盗用版权音乐训练Claude",
-        "zh-Hant": "索尼與華納起訴Anthropic，指控其大規模盜用版權音樂訓練Claude"
+        "en": "Sony and Warner Sue Anthropic Over AI Copyright Infringement",
+        "ja": "SonyとWarnerがAnthropicを提訴：AI著作権侵害戦争がエスカレート",
+        "vi": "Sony và Warner kiện Anthropic: Chiến tranh bản quyền AI leo thang",
+        "zh-Hans": "索尼与华纳起诉Anthropic：AI版权大战升级",
+        "zh-Hant": "索尼與華納起訴Anthropic：AI版權大戰升級"
       },
       "description": {
-        "en": "Sony Music, Warner Music and other record labels sue Anthropic, alleging it used tens of thousands of copyrighted songs to train Claude without permission, seeking up to $150,000 per infringed work.",
-        "ja": "Sony Music、Warner Musicなどのレコード会社がAnthropicを提訴旗下、許諾なく数万曲の著作権で保護された音楽作品を使用してClaudeモデルを訓練したと主張、侵権作品一件あたり最大15万ドルの損害賠償を請求。",
-        "vi": "Sony Music, Warner Music và các hãng đĩa khác kiện Anthropic, cáo buộc sử dụng hàng chục nghìn tác phẩm âm nhạc được bảo hộ bản quyền để huấn luyện mô hình Claude mà không xin phép, đòi bồi thường tới 150.000 USD mỗi tác phẩm bị vi phạm.",
+        "en": "Sony Music and Warner Music sued Anthropic for using tens of thousands of copyrighted songs to train Claude without permission, seeking up to $150,000 per infringed work.",
+        "ja": "Sony MusicとWarner Musicが、許可なく数万曲の著作権で保護された楽曲を使用してClaudeモデルを訓練したとしてAnthropicを提訴。侵害作品一件あたり最大15万ドルの賠償금을請求。",
+        "vi": "Sony Music và Warner Music kiện Anthropic sử dụng hàng chục nghìn bài hát được bảo vệ bản quyền để huấn luyện mô hình Claude mà không được phép, đòi bồi thường tới 150.000 USD cho mỗi tác phẩm bị xâm phạm.",
         "zh-Hans": "索尼音乐、华纳音乐等唱片公司起诉Anthropic，指控其未经许可使用数万首受版权保护的音乐作品训练Claude模型，每件侵权作品索赔最高15万美元。",
         "zh-Hant": "索尼音樂、華納音樂等唱片公司起訴Anthropic，指控其未經許可使用數萬首受版權保護的音樂作品訓練Claude模型，每件侵權作品索賠最高15萬美元。"
       },
@@ -31,14 +31,14 @@
           "name": {
             "en": "Bit Finance",
             "ja": "ビットファイナンス",
-            "vi": "Bit Finance",
+            "vi": "Bit Tài Chính",
             "zh-Hans": "比特财商",
             "zh-Hant": "比特財商"
           },
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       },
-      "hn_count": 4,
+      "hn_count": 5,
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
     },
     {

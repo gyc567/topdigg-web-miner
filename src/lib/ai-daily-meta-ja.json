@@ -10,10 +10,10 @@
       "categories": [
         "AI Daily"
       ],
-      "hn_count": 4,
+      "hn_count": 5,
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "SonyとWarnerがAnthropicを提訴、Claude訓練に大規模著作権侵犯",
-      "description": "Sony Music、Warner Musicなどのレコード会社がAnthropicを提訴旗下、許諾なく数万曲の著作権で保護された音楽作品を使用してClaudeモデルを訓練したと主張、侵権作品一件あたり最大15万ドルの損害賠償を請求。",
+      "title": "SonyとWarnerがAnthropicを提訴：AI著作権侵害戦争がエスカレート",
+      "description": "Sony MusicとWarner Musicが、許可なく数万曲の著作権で保護された楽曲を使用してClaudeモデルを訓練したとしてAnthropicを提訴。侵害作品一件あたり最大15万ドルの賠償금을請求。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

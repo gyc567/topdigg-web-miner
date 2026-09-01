@@ -10,15 +10,15 @@
       "categories": [
         "AI Daily"
       ],
-      "hn_count": 4,
+      "hn_count": 5,
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Sony và Warner kiện Anthropic vì vi phạm bản quyền âm nhạc quy mô lớn khi huấn luyện Claude",
-      "description": "Sony Music, Warner Music và các hãng đĩa khác kiện Anthropic, cáo buộc sử dụng hàng chục nghìn tác phẩm âm nhạc được bảo hộ bản quyền để huấn luyện mô hình Claude mà không xin phép, đòi bồi thường tới 150.000 USD mỗi tác phẩm bị vi phạm.",
+      "title": "Sony và Warner kiện Anthropic: Chiến tranh bản quyền AI leo thang",
+      "description": "Sony Music và Warner Music kiện Anthropic sử dụng hàng chục nghìn bài hát được bảo vệ bản quyền để huấn luyện mô hình Claude mà không được phép, đòi bồi thường tới 150.000 USD cho mỗi tác phẩm bị xâm phạm.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",
         "original": {
-          "name": "Bit Finance",
+          "name": "Bit Tài Chính",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
