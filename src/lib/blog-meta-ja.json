@@ -1,6 +1,26 @@
 {
   "posts": [
     {
+      "slug": "2026-09-01-openclaude-deep-dive",
+      "date": "2026-09-01",
+      "author": "TopDigg",
+      "tags": [
+        "OpenClaude",
+        "AI Agent",
+        "Coding Agent",
+        "CLI",
+        "Ollama",
+        "Claude"
+      ],
+      "categories": [
+        "AI",
+        "Developer Tools",
+        "Open Source"
+      ],
+      "title": "OpenClaude：オープンソースのクロスマデル coding-agent CLI 完全解析",
+      "description": "Gitlawb/openclaude プロジェクトの深掘り：任意のモデルプロバイダをサポートするオープンソース coding-agent CLI。アーキテクチャ、設計哲学、核心機能、実践ガイドを详细介绍"
+    },
+    {
       "slug": "2026-08-30-fireworks-tech-graph",
       "date": "2026-08-30T00:00:00.000Z",
       "author": "TopDigg",

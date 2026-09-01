@@ -1,6 +1,26 @@
 {
   "posts": [
     {
+      "slug": "2026-09-01-openclaude-deep-dive",
+      "date": "2026-09-01",
+      "author": "TopDigg",
+      "tags": [
+        "OpenClaude",
+        "AI Agent",
+        "Coding Agent",
+        "CLI",
+        "Ollama",
+        "Claude"
+      ],
+      "categories": [
+        "AI",
+        "Developer Tools",
+        "Open Source"
+      ],
+      "title": "OpenClaude: The Open-Source Cross-Model Coding-Agent CLI - Full Analysis",
+      "description": "Deep dive into Gitlawb/openclaude: an open-source coding-agent CLI supporting 20+ model providers including Claude, GPT, Gemini, DeepSeek, and local Ollama"
+    },
+    {
       "slug": "2026-08-30-fireworks-tech-graph",
       "date": "2026-08-30T00:00:00.000Z",
       "author": "TopDigg",

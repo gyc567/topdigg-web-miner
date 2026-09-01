@@ -1,6 +1,26 @@
 {
   "posts": [
     {
+      "slug": "2026-09-01-openclaude-deep-dive",
+      "date": "2026-09-01",
+      "author": "TopDigg",
+      "tags": [
+        "OpenClaude",
+        "AI Agent",
+        "Coding Agent",
+        "CLI",
+        "Ollama",
+        "Claude"
+      ],
+      "categories": [
+        "AI",
+        "Developer Tools",
+        "Open Source"
+      ],
+      "title": "OpenClaude: CLI Coding-Agent Đa Nhà Cung Cấp Mã Nguồn Mở - Phân Tích Toàn Diện",
+      "description": "Phân tích sâu dự án Gitlawb/openclaude: CLI coding-agent mã nguồn mở hỗ trợ 20+ nhà cung cấp model bao gồm Claude, GPT, Gemini, DeepSeek, và Ollama cục bộ"
+    },
+    {
       "slug": "2026-08-30-fireworks-tech-graph",
       "date": "2026-08-30T00:00:00.000Z",
       "author": "TopDigg",

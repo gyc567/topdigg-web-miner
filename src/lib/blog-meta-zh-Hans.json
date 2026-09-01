@@ -1,6 +1,26 @@
 {
   "posts": [
     {
+      "slug": "2026-09-01-openclaude-deep-dive",
+      "date": "2026-09-01",
+      "author": "TopDigg",
+      "tags": [
+        "OpenClaude",
+        "AI Agent",
+        "Coding Agent",
+        "CLI",
+        "Ollama",
+        "Claude"
+      ],
+      "categories": [
+        "AI",
+        "Developer Tools",
+        "Open Source"
+      ],
+      "title": "OpenClaude：一个开源的跨模型 coding-agent CLI 全解析",
+      "description": "深度解析 Gitlawb/openclaude 项目：一个支持任意模型provider的开源 coding-agent CLI，包含完整架构、设计哲学、核心功能详解和实践指南"
+    },
+    {
       "slug": "2026-08-30-fireworks-tech-graph",
       "date": "2026-08-30T00:00:00.000Z",
       "author": "TopDigg",

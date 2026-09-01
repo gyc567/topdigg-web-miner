@@ -1,6 +1,38 @@
 {
   "posts": [
     {
+      "slug": "2026-09-01-openclaude-deep-dive",
+      "title": {
+        "en": "OpenClaude: The Open-Source Cross-Model Coding-Agent CLI - Full Analysis",
+        "ja": "OpenClaude：オープンソースのクロスマデル coding-agent CLI 完全解析",
+        "vi": "OpenClaude: CLI Coding-Agent Đa Nhà Cung Cấp Mã Nguồn Mở - Phân Tích Toàn Diện",
+        "zh-Hans": "OpenClaude：一个开源的跨模型 coding-agent CLI 全解析",
+        "zh-Hant": "OpenClaude：開源的跨模型 coding-agent CLI 全面解析"
+      },
+      "description": {
+        "en": "Deep dive into Gitlawb/openclaude: an open-source coding-agent CLI supporting 20+ model providers including Claude, GPT, Gemini, DeepSeek, and local Ollama",
+        "ja": "Gitlawb/openclaude プロジェクトの深掘り：任意のモデルプロバイダをサポートするオープンソース coding-agent CLI。アーキテクチャ、設計哲学、核心機能、実践ガイドを详细介绍",
+        "vi": "Phân tích sâu dự án Gitlawb/openclaude: CLI coding-agent mã nguồn mở hỗ trợ 20+ nhà cung cấp model bao gồm Claude, GPT, Gemini, DeepSeek, và Ollama cục bộ",
+        "zh-Hans": "深度解析 Gitlawb/openclaude 项目：一个支持任意模型provider的开源 coding-agent CLI，包含完整架构、设计哲学、核心功能详解和实践指南",
+        "zh-Hant": "深度解析 Gitlawb/openclaude 專案：一個支援任意模型provider的開源 coding-agent CLI，包含完整架構、設計哲學、核心功能詳解和實踐指南"
+      },
+      "date": "2026-09-01",
+      "author": "TopDigg",
+      "tags": [
+        "OpenClaude",
+        "AI Agent",
+        "Coding Agent",
+        "CLI",
+        "Ollama",
+        "Claude"
+      ],
+      "categories": [
+        "AI",
+        "Developer Tools",
+        "Open Source"
+      ]
+    },
+    {
       "slug": "2026-08-30-fireworks-tech-graph",
       "title": {
         "zh-Hans": "fireworks-tech-graph：让AI替你画技术图的Agent Skill"

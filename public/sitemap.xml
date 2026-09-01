@@ -37,6 +37,11 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://topdigg.com/blog/2026-09-01-openclaude-deep-dive</loc>
+    <lastmod>2026-09-01</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://topdigg.com/blog/2026-08-30-fireworks-tech-graph</loc>
     <lastmod>2026-08-30T00:00:00.000Z</lastmod>
     <priority>0.8</priority>
@@ -856,6 +861,10 @@
   <url>
     <loc>https://topdigg.com/twitter/yangyi-twitter-analysis-2026-04-16</loc>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/ai-daily/2026-08-31-ai-daily</loc>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://topdigg.com/ai-daily/2026-08-29-ai-daily</loc>

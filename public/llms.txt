@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-08-30T09:17:06.303Z
+Generated: 2026-09-01T11:08:58.567Z
 
 ## Site Overview
 
@@ -20,6 +20,12 @@ We deliver in-depth Twitter analytics and trend tracking for content creators an
 | External Links | https://topdigg.com/external-links | Curated external resources |
 
 ## Latest Blog Posts (10 most recent)
+
+### OpenClaude: The Open-Source Cross-Model Coding-Agent CLI - Full Analysis
+URL: https://topdigg.com/blog/2026-09-01-openclaude-deep-dive | Date: 2026-09-01 | Author: TopDigg
+Tags: OpenClaude, AI Agent, Coding Agent, CLI, Ollama, Claude
+
+Deep dive into Gitlawb/openclaude: an open-source coding-agent CLI supporting 20+ model providers including Claude, GPT, Gemini, DeepSeek, and local Ollama
 
 ### fireworks-tech-graph：让AI替你画技术图的Agent Skill
 URL: https://topdigg.com/blog/2026-08-30-fireworks-tech-graph | Date: 2026-08-30T00:00:00.000Z | Author: TopDigg
@@ -74,12 +80,6 @@ URL: https://topdigg.com/blog/2026-08-28-wemm-embedding-analysis | Date: 2026-08
 Tags: multimodal embedding, vision-language model, WeMM-Embedding, Tencent WeChat, universal multimodal representation, MMEB, Matryoshka Representation Learning
 
 A comprehensive technical deep-dive into WeMM-Embedding, Tencent WeChat Vision team's universal multimodal embedding model supporting text/images/videos/visual documents/interleaved multimodal inputs. The 2B model surpasses 8B baseline on MMEB-v2, while the 9B achieves SOTA 80.6. This article covers
-
-### Ox Alpha 认领与 Qwen3.8-Flash 发布：两大事件背后的设计哲学与行业影响
-URL: https://topdigg.com/blog/2026-08-27-ox-alpha-qwen38-flash-analysis | Date: 2026-08-27 | Author: TopDigg
-Tags: Ox Alpha, Qwen, GLM, AI Agent, 开源模型, MoE
-
-2026年8月26日，注定是中国AI史上值得铭记的一天。同一天里，智谱正式认领了匿名上线6天的神秘模型Ox Alpha，阿里则发布了全新下一代架构的Qwen3.8-Flash。这两个事件并非孤立——它们共同揭示了中国AI在大模型效率、开源策略与算力自主三个维度上的深层变革。本文将从技术细节、项目说明、设计哲学、行业影响四个角度，做一次全面深度的交叉验证与解读。
 
 ## AI Product Analyses (latest 5)
 
@@ -147,4 +147,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 161 blog posts | 4 Twitter analyses | 6 AI products
+End of llms.txt | 162 blog posts | 4 Twitter analyses | 6 AI products
