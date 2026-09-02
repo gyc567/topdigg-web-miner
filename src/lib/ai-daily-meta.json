@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-09-02-ai-daily",
+      "title": {
+        "en": "DeepSeek-V4-Flash-Vision-Exp Open-Sourced, Multimodal Agent Approaches Opus-4.8",
+        "ja": "DeepSeek-V4-Flash-Vision-Expがオープンソース化、推論Agent能力がOpus-4.8に接近",
+        "vi": "DeepSeek-V4-Flash-Vision-Exp Mã nguồn mở, Khả năng Agent đa phương thức Tiến gần Opus-4.8",
+        "zh-Hans": "DeepSeek-V4-Flash-Vision-Exp 开源，多模态 Agent 能力接近 Opus-4.8",
+        "zh-Hant": "DeepSeek-V4-Flash-Vision-Exp 開源，多模態 Agent 能力接近 Opus-4.8"
+      },
+      "description": {
+        "en": "DeepSeek open-sourced its first multimodal model DeepSeek-V4-Flash-Vision-Exp on Hugging Face; Runway released Solaris, the first interface world model capable of real-time OS-level UI generation.",
+        "ja": "DeepSeekは8月31日、Hugging Faceで首个多モーダルモデルDeepSeek-V4-Flash-Vision-ExpをMITライセンスでオープンソース化。RunwayもOS级别的インターフェースをリアルタイム生成するSolarisを発表。",
+        "vi": "DeepSeek đã mã nguồn mở mô hình đa phương thức đầu tiên DeepSeek-V4-Flash-Vision-Exp trên Hugging Face vào ngày 31/8; Runway cũng công bố Solaris, mô hình thế giới giao diện đầu tiên có khả năng tạo giao diện cấp hệ điều hành theo thời gian thực.",
+        "zh-Hans": "DeepSeek 于 8 月 31 日在 Hugging Face 开源首个多模态模型 DeepSeek-V4-Flash-Vision-Exp，采用 MIT License；同时 Runway 发布 Solaris 界面世界模型，实时生成操作系统级交互界面。",
+        "zh-Hant": "DeepSeek 於 8 月 31 日在 Hugging Face 開源首個多模態模型 DeepSeek-V4-Flash-Vision-Exp，採用 MIT License；同時 Runway 發布 Solaris 介面世界模型，即時生成作業系統級互動介面。"
+      },
+      "date": "2026-09-02",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": {
+            "en": "Bit Finance",
+            "ja": "ビットファイナンス",
+            "vi": "Bit Finance",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特財商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-08-31-ai-daily",
       "title": {
         "en": "Sony and Warner Sue Anthropic Over AI Copyright Infringement",
