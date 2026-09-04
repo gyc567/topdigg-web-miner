@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-09-04-ai-daily",
+      "title": {
+        "en": "Google DeepMind Releases Gemini 3.8 Flash and 3.8 Flash Cyber",
+        "ja": "Google DeepMind が Gemini 3.8 Flash と 3.8 Flash Cyber をリリース",
+        "vi": "Google DeepMind Phát Hành Gemini 3.8 Flash và 3.8 Flash Cyber",
+        "zh-Hans": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber",
+        "zh-Hant": "Google DeepMind 發布 Gemini 3.8 Flash 與 3.8 Flash Cyber"
+      },
+      "description": {
+        "en": "Google DeepMind releases Gemini 3.8 Flash and 3.8 Flash Cyber, expanding its multimodal model family with two new variants.",
+        "ja": "Google DeepMind が Gemini 3.8 Flash と 3.8 Flash Cyber の2つの新モデルを公開、マルチモーダルモデルファミリーを拡大。",
+        "vi": "Google DeepMind phát hành Gemini 3.8 Flash và 3.8 Flash Cyber, mở rộng họ mô hình đa phương thức với hai biến thể mới.",
+        "zh-Hans": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber 两款新模型，持续丰富其多模态模型矩阵。",
+        "zh-Hant": "Google DeepMind 發布 Gemini 3.8 Flash 與 3.8 Flash Cyber 兩款新模型，持續豐富其多模態模型矩陣。"
+      },
+      "date": "2026-09-04",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": {
+            "en": "Bit Finance",
+            "ja": "ビットファイナンス",
+            "vi": "Bit Finance",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特財商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-09-03-ai-daily",
       "title": {
         "en": "Google DeepMind Releases Gemini 3.8 Flash and 3.8 Flash Cyber",
