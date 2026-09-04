@@ -37,6 +37,49 @@
     <priority>0.3</priority>
   </url>
   <url>
+<<<<<<< HEAD
+=======
+    <loc>https://topdigg.com/blog/2026-09-03-keploy-analysis</loc>
+    <lastmod>2026-09-03</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/2026-09-03-zvec-grep-analysis</loc>
+    <lastmod>2026-09-03</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/academic-research-skills-for-claude-code</loc>
+    <lastmod>2026-09-03</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/opensandbox-analysis</loc>
+    <lastmod>2026-09-03</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/video-shotcraft</loc>
+    <lastmod>2026-09-03</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/voicestudio-analysis</loc>
+    <lastmod>2026-09-03</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/atomic-agent-article</loc>
+    <lastmod>2026-09-02</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/mattpocock-codebase-architecture</loc>
+    <lastmod>2026-09-02</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+>>>>>>> 0c4352b (feat(blog): add VoiceStudio analysis article in 5 languages)
     <loc>https://topdigg.com/blog/2026-09-01-openclaude-deep-dive</loc>
     <lastmod>2026-09-01</lastmod>
     <priority>0.8</priority>

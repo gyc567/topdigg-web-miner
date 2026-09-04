@@ -1,6 +1,149 @@
 {
   "posts": [
     {
+      "slug": "2026-09-03-keploy-analysis",
+      "date": "2026-09-03",
+      "author": "TopDigg",
+      "tags": [
+        "Keploy",
+        "eBPF",
+        "API Testing",
+        "Record-Replay",
+        "Automated Testing",
+        "Dependency Virtualization",
+        "CI/CD",
+        "Open Source"
+      ],
+      "categories": [
+        "Deep Dive",
+        "Automated Testing",
+        "DevOps"
+      ],
+      "title": "Keploy 深度解析：eBPF駆動のゼロ侵入型APIテストプラットフォーム——本番トラフィックをテストケースに変える",
+      "description": "Keployオープンソースプロジェクトの深層解析：eBPFカーネルレベルトラフィックキャプチャ、Record-Replayテストパラダイム、依存関係仮想化、そして「AIコード検証」設計哲学。詳細なインストール教程、コアアーキテクチャ分析、主な观点まとめを含む。"
+    },
+    {
+      "slug": "2026-09-03-zvec-grep-analysis",
+      "date": "2026-09-03",
+      "author": "TopDigg",
+      "tags": [
+        "zvec-grep",
+        "zg",
+        "zvec",
+        "semantic search",
+        "BM25",
+        "vector retrieval",
+        "RRF fusion",
+        "MCP",
+        "AI coding assistant",
+        "local-first",
+        "ripgrep",
+        "open source"
+      ],
+      "categories": [
+        "Deep Dive",
+        "Developer Tools",
+        "AI Programming"
+      ],
+      "title": "zvec-grep深度解析：セマンティック検索と字句検索を統合するローカルファーストAI開発アシスタント",
+      "description": "アリババのオープンソースプロジェクトzvec-grep（zg）を深度解析：ripgrep、BM25、ベクトル検索を統合した検索層、CodexやClaude CodeなどのAIプログラミングツールにMCPで接続しローカルファーストのセマンティック検索を実現。詳細なインストール教程、アーキテクチャ解析、マルチAgent統合、コア設計哲学を含む。"
+    },
+    {
+      "slug": "academic-research-skills-for-claude-code",
+      "date": "2026-09-03",
+      "author": "TopDigg",
+      "tags": [
+        "Claude Code",
+        "Academic Research",
+        "AI Assistant",
+        "Research Workflow",
+        "Paper Writing"
+      ],
+      "categories": [
+        "AI Tools",
+        "Academic Research"
+      ],
+      "title": "Academic Research Skills for Claude Code：AI時代の学術研究 完全ワークフロー",
+      "description": "Academic Research Skills (ARS) は、Claude Code用に設計された学術研究ツールキットです。研究から発表までの完全なプロセスをカバーします。本稿では、その設計哲学、アーキテクチャ、核心機能、およびAIを用いた学術研究の方法を深く分析します。"
+    },
+    {
+      "slug": "video-shotcraft",
+      "date": "2026-09-03",
+      "author": "TopDigg",
+      "tags": [
+        "Video Shotcraft",
+        "AI Video Production",
+        "Remotion",
+        "Product Video",
+        "Motion Design",
+        "Claude Code"
+      ],
+      "categories": [
+        "AI Tools",
+        "Video Production",
+        "Motion Design"
+      ],
+      "title": "Video Shotcraft：AI時代のプロダクト動画製作革命 - 157のショットレシピから映画级マーケティング動画へ",
+      "description": "Video Shotcraft は、Claude Code や Codex をモーションデザインスタジオに変えるAIエージェントスキルです。本稿では、その設計哲学、8段階製作パイプライン、157のショットレシピ、そしてAIで映画的なプロダクト動画を自動生成する方法を深く分析します。"
+    },
+    {
+      "slug": "voicestudio-analysis",
+      "date": "2026-09-03",
+      "author": "ERIC",
+      "tags": [
+        "VoiceStudio",
+        "TTS",
+        "Speech Recognition",
+        "Voice Cloning",
+        "Local AI",
+        "Open Source"
+      ],
+      "categories": [
+        "AI Tools",
+        "Speech Synthesis",
+        "Open Source Projects",
+        "Local-First"
+      ],
+      "title": "VoiceStudio：ローカル・オープンソース音声ワークステーション——16 種の TTS + 11 種の ASR エンジンのアーキテクチャ解説と実践チュートリアル",
+      "description": "VoiceStudio を深掘り——完全ローカルで動くオープンソース音声プラットフォーム：ゼロショット音声クローン、動画吹き替え、ディクテーション、転写、オーディオブック制作、646 言語、16 TTS + 11 ASR エンジン、実践チュートリアルとエンジン採用の設計思想を収録"
+    },
+    {
+      "slug": "atomic-agent-article",
+      "date": "2026-09-02",
+      "author": "TopDigg",
+      "tags": [
+        "AI Agent",
+        "本地优先",
+        "llama.cpp",
+        "Atomic Agent",
+        "工程实践"
+      ],
+      "categories": [
+        "技术深度",
+        "AI Agent"
+      ],
+      "title": "Atomic Agent：本地优先 AI Agent 的工程典范，重新定义 AI 操作系统的边界",
+      "description": "深度解析 AtomicBot-ai/atomic-agent 项目：本地优先架构、TURBOQUANT 量化、记忆织物系统、GAIA 基准测试与核心设计哲学"
+    },
+    {
+      "slug": "mattpocock-codebase-architecture",
+      "date": "2026-09-02",
+      "author": "TopDigg",
+      "tags": [
+        "AI",
+        "代码架构",
+        "工程实践",
+        "Skill",
+        "Matt Pocock"
+      ],
+      "categories": [
+        "技术深度",
+        "工程实践"
+      ],
+      "title": "Matt Pocock 代码库架构改进技能：让 AI 深度理解代码的艺术",
+      "description": "深入解析 mattpocock/skills 项目中 improve-codebase-architecture 技能的完整设计哲学、架构词汇、核心理念与实战方法论"
+    },
+    {
       "slug": "2026-09-01-openclaude-deep-dive",
       "date": "2026-09-01",
       "author": "TopDigg",

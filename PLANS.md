@@ -29,6 +29,11 @@ _(无 — 全部施工中计划见 [Completed Plans](#completed-plans))_
 - [Codex-Orchestration 分析报告（5 语言）](plans/codex-orchestration-analysis.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
 - [Harbor Framework 深度解析博客（5 语言）](plans/harbor-framework-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
 - [Bill Gates《A turbulent AI era》深度解析博客（5 语言）](plans/gates-notes-ai-era.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
+<<<<<<< HEAD
+=======
+- [OpenSandbox（阿里开源通用沙箱平台）深度解析博客（5 语言）](plans/opensandbox-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
+- [VoiceStudio 深度解析博客（5 语言）](plans/voicestudio-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
+>>>>>>> 0c4352b (feat(blog): add VoiceStudio analysis article in 5 languages)
 
 _计划文件完工后删除，仅靠 git commit log 留档（不在本文件长期保留）。_
 

@@ -1,7 +1,11 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
+<<<<<<< HEAD
 Generated: 2026-09-01T11:08:58.567Z
+=======
+Generated: 2026-09-04T08:59:44.474Z
+>>>>>>> 0c4352b (feat(blog): add VoiceStudio analysis article in 5 languages)
 
 ## Site Overview
 
@@ -21,6 +25,57 @@ We deliver in-depth Twitter analytics and trend tracking for content creators an
 
 ## Latest Blog Posts (10 most recent)
 
+<<<<<<< HEAD
+=======
+### Keploy Deep Dive: eBPF-Driven Zero-Intrusion API Testing Platform — Turning Production Traffic into Test Cases
+URL: https://topdigg.com/blog/2026-09-03-keploy-analysis | Date: 2026-09-03 | Author: TopDigg
+Tags: Keploy, eBPF, API Testing, Record-Replay, Automated Testing, Dependency Virtualization, CI/CD, Open Source
+
+In-depth analysis of the Keploy open-source project: eBPF kernel-level traffic capture, Record-Replay testing paradigm, dependency virtualization, and the 'AI Code Verification' design philosophy. Includes detailed tutorials, architecture analysis, and key insights.
+
+### zvec-grep Deep Dive: The Local-First AI Development Assistant That Unifies Semantic and Lexical Search
+URL: https://topdigg.com/blog/2026-09-03-zvec-grep-analysis | Date: 2026-09-03 | Author: TopDigg
+Tags: zvec-grep, zg, zvec, semantic search, BM25, vector retrieval, RRF fusion, MCP, AI coding assistant, local-first, ripgrep, open source
+
+In-depth analysis of Alibaba's open-source zvec-grep (zg): a unified search layer combining ripgrep, BM25, and vector retrieval, connected to AI coding tools like Codex and Claude Code via MCP. Includes detailed tutorials, architecture analysis, multi-agent integration, and core design philosophy.
+
+### Academic Research Skills for Claude Code: A Complete Workflow for Academic Research in the AI Era
+URL: https://topdigg.com/blog/academic-research-skills-for-claude-code | Date: 2026-09-03 | Author: TopDigg
+Tags: Claude Code, Academic Research, AI Assistant, Research Workflow, Paper Writing
+
+Academic Research Skills (ARS) is a comprehensive suite of Claude Code skills covering the full academic research pipeline. This article provides an in-depth analysis of its design philosophy, architecture, core features, and how to leverage AI for academic research.
+
+### OpenSandbox: Alibaba's Open-Source Universal Sandbox Platform for AI — Architecture Deep Dive, Hands-On Tutorial, and Design Philosophy
+URL: https://topdigg.com/blog/opensandbox-analysis | Date: 2026-09-03 | Author: ERIC
+Tags: OpenSandbox, AI Agent, Sandbox, Code Execution, Alibaba, Docker, Kubernetes, Open Source
+
+A deep dive into Alibaba's open-source OpenSandbox universal sandbox platform — multi-language SDKs, dual Docker/Kubernetes runtimes, the execd data plane, network policies, and the credential vault, with a complete hands-on tutorial and an analysis of its five design principles
+
+### Video Shotcraft: The AI Product Video Revolution - From 157 Shot Recipe Cards to Cinematic Marketing Videos
+URL: https://topdigg.com/blog/video-shotcraft | Date: 2026-09-03 | Author: TopDigg
+Tags: Video Shotcraft, AI Video Production, Remotion, Product Video, Motion Design, Claude Code
+
+Video Shotcraft is an AI agent skill that transforms Claude Code or Codex into a motion-design studio. This article provides an in-depth analysis of its design philosophy, 8-stage production pipeline, 157 shot recipe cards, and how to automatically generate cinematic product videos with AI.
+
+### VoiceStudio: A Local Open-Source Voice Workstation — Architecture Analysis and Hands-On Tutorial for 16 TTS + 11 ASR Engines
+URL: https://topdigg.com/blog/voicestudio-analysis | Date: 2026-09-03 | Author: ERIC
+Tags: VoiceStudio, TTS, Speech Recognition, Voice Cloning, Local AI, Open Source
+
+Deep dive into VoiceStudio — a fully local open-source voice platform: zero-shot voice cloning, video dubbing, dictation, transcription, and audiobook production, 646 languages, 16 TTS + 11 ASR engines, with hands-on tutorial and the design philosophy behind engine acceptance
+
+### Atomic Agent：本地优先 AI Agent 的工程典范，重新定义 AI 操作系统的边界
+URL: https://topdigg.com/blog/atomic-agent-article | Date: 2026-09-02 | Author: TopDigg
+Tags: AI Agent, 本地优先, llama.cpp, Atomic Agent, 工程实践
+
+深度解析 AtomicBot-ai/atomic-agent 项目：本地优先架构、TURBOQUANT 量化、记忆织物系统、GAIA 基准测试与核心设计哲学
+
+### Matt Pocock 代码库架构改进技能：让 AI 深度理解代码的艺术
+URL: https://topdigg.com/blog/mattpocock-codebase-architecture | Date: 2026-09-02 | Author: TopDigg
+Tags: AI, 代码架构, 工程实践, Skill, Matt Pocock
+
+深入解析 mattpocock/skills 项目中 improve-codebase-architecture 技能的完整设计哲学、架构词汇、核心理念与实战方法论
+
+>>>>>>> 0c4352b (feat(blog): add VoiceStudio analysis article in 5 languages)
 ### OpenClaude: The Open-Source Cross-Model Coding-Agent CLI - Full Analysis
 URL: https://topdigg.com/blog/2026-09-01-openclaude-deep-dive | Date: 2026-09-01 | Author: TopDigg
 Tags: OpenClaude, AI Agent, Coding Agent, CLI, Ollama, Claude
@@ -33,6 +88,7 @@ Tags: AI绘图, Agent Skill, 技术图, SVG生成, Claude Code
 
 fireworks-tech-graph 是一款专为 Codex 和 Claude Code 设计的 Agent Skill，只需用自然语言描述系统，就能得到几何校验安全的 SVG、PNG、语义 GIF 动效与离线交互 HTML。
 
+<<<<<<< HEAD
 ### Kage：一次京都深山寺庙的沉浸式夜间漫步
 URL: https://topdigg.com/blog/2026-08-30-kage-analysis | Date: 2026-08-30T00:00:00.000Z | Author: TopDigg
 Tags: Three.js, WebGL, 沉浸式体验, 日本美学, 单文件开发
@@ -81,6 +137,8 @@ Tags: multimodal embedding, vision-language model, WeMM-Embedding, Tencent WeCha
 
 A comprehensive technical deep-dive into WeMM-Embedding, Tencent WeChat Vision team's universal multimodal embedding model supporting text/images/videos/visual documents/interleaved multimodal inputs. The 2B model surpasses 8B baseline on MMEB-v2, while the 9B achieves SOTA 80.6. This article covers
 
+=======
+>>>>>>> 0c4352b (feat(blog): add VoiceStudio analysis article in 5 languages)
 ## AI Product Analyses (latest 5)
 
 ### $0 ARR Immersive Entertainment Platform: Deep Dive into OUT23 Digital Escape Room
@@ -147,4 +205,8 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
+<<<<<<< HEAD
 End of llms.txt | 162 blog posts | 4 Twitter analyses | 6 AI products
+=======
+End of llms.txt | 170 blog posts | 4 Twitter analyses | 7 AI products
+>>>>>>> 0c4352b (feat(blog): add VoiceStudio analysis article in 5 languages)

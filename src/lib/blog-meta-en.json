@@ -1,6 +1,149 @@
 {
   "posts": [
     {
+      "slug": "2026-09-03-keploy-analysis",
+      "date": "2026-09-03",
+      "author": "TopDigg",
+      "tags": [
+        "Keploy",
+        "eBPF",
+        "API Testing",
+        "Record-Replay",
+        "Automated Testing",
+        "Dependency Virtualization",
+        "CI/CD",
+        "Open Source"
+      ],
+      "categories": [
+        "Deep Dive",
+        "Automated Testing",
+        "DevOps"
+      ],
+      "title": "Keploy Deep Dive: eBPF-Driven Zero-Intrusion API Testing Platform — Turning Production Traffic into Test Cases",
+      "description": "In-depth analysis of the Keploy open-source project: eBPF kernel-level traffic capture, Record-Replay testing paradigm, dependency virtualization, and the 'AI Code Verification' design philosophy. Includes detailed tutorials, architecture analysis, and key insights."
+    },
+    {
+      "slug": "2026-09-03-zvec-grep-analysis",
+      "date": "2026-09-03",
+      "author": "TopDigg",
+      "tags": [
+        "zvec-grep",
+        "zg",
+        "zvec",
+        "semantic search",
+        "BM25",
+        "vector retrieval",
+        "RRF fusion",
+        "MCP",
+        "AI coding assistant",
+        "local-first",
+        "ripgrep",
+        "open source"
+      ],
+      "categories": [
+        "Deep Dive",
+        "Developer Tools",
+        "AI Programming"
+      ],
+      "title": "zvec-grep Deep Dive: The Local-First AI Development Assistant That Unifies Semantic and Lexical Search",
+      "description": "In-depth analysis of Alibaba's open-source zvec-grep (zg): a unified search layer combining ripgrep, BM25, and vector retrieval, connected to AI coding tools like Codex and Claude Code via MCP. Includes detailed tutorials, architecture analysis, multi-agent integration, and core design philosophy."
+    },
+    {
+      "slug": "academic-research-skills-for-claude-code",
+      "date": "2026-09-03",
+      "author": "TopDigg",
+      "tags": [
+        "Claude Code",
+        "Academic Research",
+        "AI Assistant",
+        "Research Workflow",
+        "Paper Writing"
+      ],
+      "categories": [
+        "AI Tools",
+        "Academic Research"
+      ],
+      "title": "Academic Research Skills for Claude Code: A Complete Workflow for Academic Research in the AI Era",
+      "description": "Academic Research Skills (ARS) is a comprehensive suite of Claude Code skills covering the full academic research pipeline. This article provides an in-depth analysis of its design philosophy, architecture, core features, and how to leverage AI for academic research."
+    },
+    {
+      "slug": "video-shotcraft",
+      "date": "2026-09-03",
+      "author": "TopDigg",
+      "tags": [
+        "Video Shotcraft",
+        "AI Video Production",
+        "Remotion",
+        "Product Video",
+        "Motion Design",
+        "Claude Code"
+      ],
+      "categories": [
+        "AI Tools",
+        "Video Production",
+        "Motion Design"
+      ],
+      "title": "Video Shotcraft: The AI Product Video Revolution - From 157 Shot Recipe Cards to Cinematic Marketing Videos",
+      "description": "Video Shotcraft is an AI agent skill that transforms Claude Code or Codex into a motion-design studio. This article provides an in-depth analysis of its design philosophy, 8-stage production pipeline, 157 shot recipe cards, and how to automatically generate cinematic product videos with AI."
+    },
+    {
+      "slug": "voicestudio-analysis",
+      "date": "2026-09-03",
+      "author": "ERIC",
+      "tags": [
+        "VoiceStudio",
+        "TTS",
+        "Speech Recognition",
+        "Voice Cloning",
+        "Local AI",
+        "Open Source"
+      ],
+      "categories": [
+        "AI Tools",
+        "Speech Synthesis",
+        "Open Source Projects",
+        "Local-First"
+      ],
+      "title": "VoiceStudio: A Local Open-Source Voice Workstation — Architecture Analysis and Hands-On Tutorial for 16 TTS + 11 ASR Engines",
+      "description": "Deep dive into VoiceStudio — a fully local open-source voice platform: zero-shot voice cloning, video dubbing, dictation, transcription, and audiobook production, 646 languages, 16 TTS + 11 ASR engines, with hands-on tutorial and the design philosophy behind engine acceptance"
+    },
+    {
+      "slug": "atomic-agent-article",
+      "date": "2026-09-02",
+      "author": "TopDigg",
+      "tags": [
+        "AI Agent",
+        "本地优先",
+        "llama.cpp",
+        "Atomic Agent",
+        "工程实践"
+      ],
+      "categories": [
+        "技术深度",
+        "AI Agent"
+      ],
+      "title": "Atomic Agent：本地优先 AI Agent 的工程典范，重新定义 AI 操作系统的边界",
+      "description": "深度解析 AtomicBot-ai/atomic-agent 项目：本地优先架构、TURBOQUANT 量化、记忆织物系统、GAIA 基准测试与核心设计哲学"
+    },
+    {
+      "slug": "mattpocock-codebase-architecture",
+      "date": "2026-09-02",
+      "author": "TopDigg",
+      "tags": [
+        "AI",
+        "代码架构",
+        "工程实践",
+        "Skill",
+        "Matt Pocock"
+      ],
+      "categories": [
+        "技术深度",
+        "工程实践"
+      ],
+      "title": "Matt Pocock 代码库架构改进技能：让 AI 深度理解代码的艺术",
+      "description": "深入解析 mattpocock/skills 项目中 improve-codebase-architecture 技能的完整设计哲学、架构词汇、核心理念与实战方法论"
+    },
+    {
       "slug": "2026-09-01-openclaude-deep-dive",
       "date": "2026-09-01",
       "author": "TopDigg",

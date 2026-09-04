@@ -1,6 +1,149 @@
 {
   "posts": [
     {
+      "slug": "2026-09-03-keploy-analysis",
+      "date": "2026-09-03",
+      "author": "TopDigg",
+      "tags": [
+        "Keploy",
+        "eBPF",
+        "API Testing",
+        "Record-Replay",
+        "Automated Testing",
+        "Dependency Virtualization",
+        "CI/CD",
+        "Open Source"
+      ],
+      "categories": [
+        "Deep Dive",
+        "Automated Testing",
+        "DevOps"
+      ],
+      "title": "Keploy - Nền tảng kiểm thử API không xâm lấn dựa trên eBPF: Biến lưu lượng sản xuất thành các trường hợp kiểm thử",
+      "description": "Phân tích chuyên sâu dự án mã nguồn mở Keploy: chụp lưu lượng ở cấp độ hạt nhân với eBPF, mô hình kiểm thử Record-Replay, ảo hóa phụ thuộc, và triết lý thiết kế 'Xác minh mã AI'. Bao gồm hướng dẫn cài đặt chi tiết, phân tích kiến trúc cốt lõi và tổng hợp các quan điểm chính."
+    },
+    {
+      "slug": "2026-09-03-zvec-grep-analysis",
+      "date": "2026-09-03",
+      "author": "TopDigg",
+      "tags": [
+        "zvec-grep",
+        "zg",
+        "zvec",
+        "semantic search",
+        "BM25",
+        "vector retrieval",
+        "RRF fusion",
+        "MCP",
+        "AI coding assistant",
+        "local-first",
+        "ripgrep",
+        "open source"
+      ],
+      "categories": [
+        "Deep Dive",
+        "Developer Tools",
+        "AI Programming"
+      ],
+      "title": "zvec-grep - Trợ lý Lập trình AI Ưu tiên Cục bộ: Tìm kiếm Thống nhất Ngữ nghĩa và Từ vựng",
+      "description": "Phân tích chuyên sâu dự án mã nguồn mở zvec-grep (zg) của Alibaba: lớp tìm kiếm thống nhất kết hợp ripgrep, BM25 và tìm kiếm vector, kết nối với các công cụ lập trình AI như Codex và Claude Code qua MCP, thực hiện tìm kiếm ngữ nghĩa ưu tiên cục bộ. Bao gồm hướng dẫn cài đặt chi tiết, phân tích kiến trúc, tích hợp đa Agent và triết lý thiết kế cốt lõi."
+    },
+    {
+      "slug": "academic-research-skills-for-claude-code",
+      "date": "2026-09-03",
+      "author": "TopDigg",
+      "tags": [
+        "Claude Code",
+        "Academic Research",
+        "AI Assistant",
+        "Research Workflow",
+        "Paper Writing"
+      ],
+      "categories": [
+        "AI Tools",
+        "Academic Research"
+      ],
+      "title": "Academic Research Skills for Claude Code: Quy Trình Nghiên Cứu Học Thuật Toàn Diện Trong Kỷ Nguyên AI",
+      "description": "Academic Research Skills (ARS) là bộ công cụ nghiên cứu học thuật được thiết kế riêng cho Claude Code, bao phủ toàn bộ quy trình từ nghiên cứu đến công bố. Bài viết này phân tích sâu về triết lý thiết kế, kiến trúc hệ thống, các tính năng cốt lõi và cách sử dụng AI để hỗ trợ nghiên cứu học thuật."
+    },
+    {
+      "slug": "video-shotcraft",
+      "date": "2026-09-03",
+      "author": "TopDigg",
+      "tags": [
+        "Video Shotcraft",
+        "AI Video Production",
+        "Remotion",
+        "Product Video",
+        "Motion Design",
+        "Claude Code"
+      ],
+      "categories": [
+        "AI Tools",
+        "Video Production",
+        "Motion Design"
+      ],
+      "title": "Video Shotcraft: Cách Mạng Sản Xuất Video Sản Phẩm Trong Kỷ Nguyên AI - Từ 157 Thẻ Công Thức Shot Đến Video Marketing Điện Ảnh",
+      "description": "Video Shotcraft là một kỹ năng agent AI biến Claude Code hoặc Codex thành một studio thiết kế chuyển động. Bài viết này phân tích sâu về triết lý thiết kế, quy trình sản xuất 8 giai đoạn, 157 thẻ công thức shot, và cách tạo video sản phẩm điện ảnh tự động bằng AI."
+    },
+    {
+      "slug": "voicestudio-analysis",
+      "date": "2026-09-03",
+      "author": "ERIC",
+      "tags": [
+        "VoiceStudio",
+        "TTS",
+        "Speech Recognition",
+        "Voice Cloning",
+        "Local AI",
+        "Open Source"
+      ],
+      "categories": [
+        "AI Tools",
+        "Speech Synthesis",
+        "Open Source Projects",
+        "Local-First"
+      ],
+      "title": "VoiceStudio: Trạm làm việc giọng nói mã nguồn mở chạy cục bộ — Phân tích kiến trúc và hướng dẫn thực chiến với 16 engine TTS + 11 engine ASR",
+      "description": "Phân tích sâu VoiceStudio — nền tảng giọng nói mã nguồn mở chạy hoàn toàn cục bộ: nhân bản giọng nói zero-shot, lồng tiếng video, tạo văn bản bằng giọng nói, phiên âm và sản xuất sách nói, 646 ngôn ngữ, 16 engine TTS + 11 engine ASR, kèm hướng dẫn thực chiến và triết lý thiết kế cơ chế tiếp nhận engine"
+    },
+    {
+      "slug": "atomic-agent-article",
+      "date": "2026-09-02",
+      "author": "TopDigg",
+      "tags": [
+        "AI Agent",
+        "本地优先",
+        "llama.cpp",
+        "Atomic Agent",
+        "工程实践"
+      ],
+      "categories": [
+        "技术深度",
+        "AI Agent"
+      ],
+      "title": "Atomic Agent：本地优先 AI Agent 的工程典范，重新定义 AI 操作系统的边界",
+      "description": "深度解析 AtomicBot-ai/atomic-agent 项目：本地优先架构、TURBOQUANT 量化、记忆织物系统、GAIA 基准测试与核心设计哲学"
+    },
+    {
+      "slug": "mattpocock-codebase-architecture",
+      "date": "2026-09-02",
+      "author": "TopDigg",
+      "tags": [
+        "AI",
+        "代码架构",
+        "工程实践",
+        "Skill",
+        "Matt Pocock"
+      ],
+      "categories": [
+        "技术深度",
+        "工程实践"
+      ],
+      "title": "Matt Pocock 代码库架构改进技能：让 AI 深度理解代码的艺术",
+      "description": "深入解析 mattpocock/skills 项目中 improve-codebase-architecture 技能的完整设计哲学、架构词汇、核心理念与实战方法论"
+    },
+    {
       "slug": "2026-09-01-openclaude-deep-dive",
       "date": "2026-09-01",
       "author": "TopDigg",

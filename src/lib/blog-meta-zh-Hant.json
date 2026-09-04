@@ -1,6 +1,149 @@
 {
   "posts": [
     {
+      "slug": "2026-09-03-keploy-analysis",
+      "date": "2026-09-03",
+      "author": "TopDigg",
+      "tags": [
+        "Keploy",
+        "eBPF",
+        "API Testing",
+        "Record-Replay",
+        "Automated Testing",
+        "Dependency Virtualization",
+        "CI/CD",
+        "Open Source"
+      ],
+      "categories": [
+        "Deep Dive",
+        "Automated Testing",
+        "DevOps"
+      ],
+      "title": "Keploy 深度解析：eBPF驅動的零侵入式API測試平台——把生產流量變成測試用例",
+      "description": "深度解析 Keploy 開源項目：eBPF內核級流量捕獲、Record-Replay測試範式、依賴虛擬化、以及「AI代碼驗證」設計哲學。包含詳細安裝教程、核心架構分析和關鍵觀點總結。"
+    },
+    {
+      "slug": "2026-09-03-zvec-grep-analysis",
+      "date": "2026-09-03",
+      "author": "TopDigg",
+      "tags": [
+        "zvec-grep",
+        "zg",
+        "zvec",
+        "semantic search",
+        "BM25",
+        "vector retrieval",
+        "RRF fusion",
+        "MCP",
+        "AI coding assistant",
+        "local-first",
+        "ripgrep",
+        "open source"
+      ],
+      "categories": [
+        "Deep Dive",
+        "Developer Tools",
+        "AI Programming"
+      ],
+      "title": "zvec-grep深度解析：統一語義檢索與詞法搜索的本地優先AI開發助手",
+      "description": "深度解析阿里巴巴開源項目zvec-grep（zg）：融合ripgrep、BM25與向量檢索的統一搜索層，連接Codex/Claude Code等AI編程工具，實現本地優先的語義搜索。包含詳細安裝教程、架構解析、多Agent集成和核心設計哲學。"
+    },
+    {
+      "slug": "academic-research-skills-for-claude-code",
+      "date": "2026-09-03",
+      "author": "TopDigg",
+      "tags": [
+        "Claude Code",
+        "Academic Research",
+        "AI Assistant",
+        "Research Workflow",
+        "Paper Writing"
+      ],
+      "categories": [
+        "AI Tools",
+        "Academic Research"
+      ],
+      "title": "Academic Research Skills for Claude Code：AI時代學術研究的完整工作流",
+      "description": "Academic Research Skills (ARS) 是一款專為 Claude Code 設計的學術研究工具包，覆蓋從研究到發表的完整流程。本文深入分析其設計哲學、架構設計、核心功能，以及如何用AI輔助學術研究。"
+    },
+    {
+      "slug": "video-shotcraft",
+      "date": "2026-09-03",
+      "author": "TopDigg",
+      "tags": [
+        "Video Shotcraft",
+        "AI Video Production",
+        "Remotion",
+        "Product Video",
+        "Motion Design",
+        "Claude Code"
+      ],
+      "categories": [
+        "AI Tools",
+        "Video Production",
+        "Motion Design"
+      ],
+      "title": "Video Shotcraft：AI時代的產品視頻製作革命 - 從157個鏡頭配方到電影級行銷視頻",
+      "description": "Video Shotcraft 是一款將 Claude Code 和 Codex 轉變為運動設計工作室的 AI Agent 技能。本文深入分析其設計哲學、八階段製作流水線、157個鏡頭配方，以及如何用AI自動生成電影級產品視頻。"
+    },
+    {
+      "slug": "voicestudio-analysis",
+      "date": "2026-09-03",
+      "author": "ERIC",
+      "tags": [
+        "VoiceStudio",
+        "TTS",
+        "Speech Recognition",
+        "Voice Cloning",
+        "Local AI",
+        "Open Source"
+      ],
+      "categories": [
+        "AI Tools",
+        "Speech Synthesis",
+        "Open Source Projects",
+        "Local-First"
+      ],
+      "title": "VoiceStudio：本機開源語音工作站——16 款 TTS + 11 款 ASR 引擎的架構解析與實戰教學",
+      "description": "深度解析 VoiceStudio——完全在本機執行的開源語音平台：零樣本聲音複製、影片配音、聽寫、轉錄與有聲書製作，646 語言，16 TTS + 11 ASR 引擎，含實戰教學與引擎准入設計哲學"
+    },
+    {
+      "slug": "atomic-agent-article",
+      "date": "2026-09-02",
+      "author": "TopDigg",
+      "tags": [
+        "AI Agent",
+        "本地优先",
+        "llama.cpp",
+        "Atomic Agent",
+        "工程实践"
+      ],
+      "categories": [
+        "技术深度",
+        "AI Agent"
+      ],
+      "title": "Atomic Agent：本地优先 AI Agent 的工程典范，重新定义 AI 操作系统的边界",
+      "description": "深度解析 AtomicBot-ai/atomic-agent 项目：本地优先架构、TURBOQUANT 量化、记忆织物系统、GAIA 基准测试与核心设计哲学"
+    },
+    {
+      "slug": "mattpocock-codebase-architecture",
+      "date": "2026-09-02",
+      "author": "TopDigg",
+      "tags": [
+        "AI",
+        "代码架构",
+        "工程实践",
+        "Skill",
+        "Matt Pocock"
+      ],
+      "categories": [
+        "技术深度",
+        "工程实践"
+      ],
+      "title": "Matt Pocock 代码库架构改进技能：让 AI 深度理解代码的艺术",
+      "description": "深入解析 mattpocock/skills 项目中 improve-codebase-architecture 技能的完整设计哲学、架构词汇、核心理念与实战方法论"
+    },
+    {
       "slug": "2026-09-01-openclaude-deep-dive",
       "date": "2026-09-01",
       "author": "TopDigg",
