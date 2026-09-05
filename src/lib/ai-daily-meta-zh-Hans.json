@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-09-05-ai-daily",
+      "date": "2026-09-05",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "OpenAI 发布 GPT-6 Astra，Anthropic 目标 IPO 估值 2 万亿美元",
+      "description": "OpenAI 发布 GPT-6 Astra 全面开放，同时 Anthropic IPO 加速、目标估值 2 万亿美元；GitHub 推出 Project HydraFusion 多模型编排，Claude 完成费马大定理首个机器验证证明。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-09-04-ai-daily",
       "date": "2026-09-04",
       "author": "比特财商",
