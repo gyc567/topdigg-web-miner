@@ -1,6 +1,30 @@
 {
   "products": [
     {
+      "slug": "uplinked-b-v",
+      "date": "2026-09-03",
+      "author": "TopDigg",
+      "tags": [
+        "UpLinked",
+        "LinkedIn",
+        "Content Strategy",
+        "B2B",
+        "SaaS",
+        "Monetization"
+      ],
+      "categories": [
+        "AI Product Analysis",
+        "SaaS",
+        "B2B"
+      ],
+      "product": null,
+      "pricing": null,
+      "metrics": null,
+      "sources": null,
+      "title": "UpLinked B.V. Analysis: How a LinkedIn Content Strategy Tool Achieves $4K MRR",
+      "description": "UpLinked B.V. is an AI LinkedIn content strategy tool for B2B coaches, consultants and agencies, generating ~$4K MRR. This article analyzes its business model, user value, product strategy and monetization mechanism."
+    },
+    {
       "slug": "2026-08-29-out23",
       "date": "2026-08-29",
       "author": "ERIC",

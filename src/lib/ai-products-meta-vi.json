@@ -1,6 +1,30 @@
 {
   "products": [
     {
+      "slug": "uplinked-b-v",
+      "date": "2026-09-03",
+      "author": "TopDigg",
+      "tags": [
+        "UpLinked",
+        "LinkedIn",
+        "Content Strategy",
+        "B2B",
+        "SaaS",
+        "Monetization"
+      ],
+      "categories": [
+        "AI Product Analysis",
+        "SaaS",
+        "B2B"
+      ],
+      "product": null,
+      "pricing": null,
+      "metrics": null,
+      "sources": null,
+      "title": "Phân Tích UpLinked B.V.: Công Cụ Chiến Lược Nội Dung LinkedIn Đạt Doanh Thu 4.000 USD/Tháng Như Thế Nào",
+      "description": "UpLinked B.V. là công cụ chiến lược nội dung LinkedIn AI cho huấn luyện viên, chuyên gia tư vấn và đại lý B2B, đạt ~$4K MRR. Bài viết này phân tích sâu mô hình kinh doanh, giá trị người dùng, chiến lược sản phẩm và cơ chế kiếm tiền."
+    },
+    {
       "slug": "2026-08-29-out23",
       "date": "2026-08-29",
       "author": "ERIC",

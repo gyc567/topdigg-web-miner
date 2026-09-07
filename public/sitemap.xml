@@ -37,8 +37,26 @@
     <priority>0.3</priority>
   </url>
   <url>
-<<<<<<< HEAD
-=======
+    <loc>https://topdigg.com/blog/autohedge-analysis</loc>
+    <lastmod>2026-09-07</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/2026-09-06-gamefactory-3a-analysis</loc>
+    <lastmod>2026-09-06</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/2026-09-05-fermats-last-theorem-formalization</loc>
+    <lastmod>2026-09-05</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/2026-09-05-smallcode-analysis</loc>
+    <lastmod>2026-09-05</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://topdigg.com/blog/2026-09-03-keploy-analysis</loc>
     <lastmod>2026-09-03</lastmod>
     <priority>0.8</priority>
@@ -50,11 +68,6 @@
   </url>
   <url>
     <loc>https://topdigg.com/blog/academic-research-skills-for-claude-code</loc>
-    <lastmod>2026-09-03</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://topdigg.com/blog/opensandbox-analysis</loc>
     <lastmod>2026-09-03</lastmod>
     <priority>0.8</priority>
   </url>
@@ -79,7 +92,6 @@
     <priority>0.8</priority>
   </url>
   <url>
->>>>>>> 0c4352b (feat(blog): add VoiceStudio analysis article in 5 languages)
     <loc>https://topdigg.com/blog/2026-09-01-openclaude-deep-dive</loc>
     <lastmod>2026-09-01</lastmod>
     <priority>0.8</priority>
@@ -906,6 +918,26 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://topdigg.com/ai-daily/2026-09-07-ai-daily</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/ai-daily/2026-09-05-ai-daily</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/ai-daily/2026-09-04-ai-daily</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/ai-daily/2026-09-03-ai-daily</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/ai-daily/2026-09-02-ai-daily</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://topdigg.com/ai-daily/2026-08-31-ai-daily</loc>
     <priority>0.6</priority>
   </url>
@@ -944,6 +976,11 @@
   <url>
     <loc>https://topdigg.com/ai-daily/2026-08-20-ai-daily</loc>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/ai-products/uplinked-b-v</loc>
+    <lastmod>2026-09-03</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://topdigg.com/ai-products/2026-08-29-out23</loc>

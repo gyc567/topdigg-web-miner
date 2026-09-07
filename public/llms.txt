@@ -1,11 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-<<<<<<< HEAD
-Generated: 2026-09-01T11:08:58.567Z
-=======
-Generated: 2026-09-04T08:59:44.474Z
->>>>>>> 0c4352b (feat(blog): add VoiceStudio analysis article in 5 languages)
+Generated: 2026-09-07T01:04:57.491Z
 
 ## Site Overview
 
@@ -25,8 +21,30 @@ We deliver in-depth Twitter analytics and trend tracking for content creators an
 
 ## Latest Blog Posts (10 most recent)
 
-<<<<<<< HEAD
-=======
+### AutoHedge: Architecture Analysis and Hands-On Tutorial of a Multi-Agent Autonomous Hedge Fund
+URL: https://topdigg.com/blog/autohedge-analysis | Date: 2026-09-07 | Author: TopDigg
+Tags: AutoHedge, Multi-Agent, AI Agent, Hedge Fund, Trading, Swarms, Solana, Risk Management, Quantitative Trading, LLM
+
+In-depth analysis of AutoHedge — a multi-agent autonomous hedge fund built on the swarms framework. Covers: the Director/Quant/Risk/Execution/Sentiment agent pipeline, risk-first design philosophy, the Solana execution path (Jupiter Ultra API), a detailed installation and configuration tutorial, Pyt
+
+### GameFactory-3A：用AI编码代理从需求生成3A级游戏
+URL: https://topdigg.com/blog/2026-09-06-gamefactory-3a-analysis | Date: 2026-09-06 | Author: TopDigg
+Tags: GameFactory-3A, AI游戏生成, AI编码代理, 3D资产生成, 游戏引擎, Unity, UE5, Godot, OpenDCAI
+
+GameFactory-3A是一个开源的3A游戏生成技能与资产框架，覆盖图像/3D资产/动作/音频/CG视频生成，支持Unity/UE5/Blender/Godot/third.js五大引擎。用AI编码代理驱动完整生成管线，把游戏需求变成可运行的游戏成品。
+
+### AI完成费马大定理形式化证明：Claude用11天干完了数学家几年的活
+URL: https://topdigg.com/blog/2026-09-05-fermats-last-theorem-formalization | Date: 2026-09-05 | Author: TopDigg
+Tags: 费马大定理, Lean, 形式化证明, Anthropic, Claude, 数学, AI, 证明助手, Prove2Me
+
+2025年8月18日，Anthropic宣布Claude完成了人类历史上第一个端到端、计算机可验证的费马大定理形式化证明。整个过程仅用了11天，写下了1300万行Lean代码，证明了29,500个中间定理。本文详细分析了这个项目的技术架构、设计哲学、验证体系和里程碑意义。
+
+### SmallCode：让8B模型跑出比肩前沿模型的编程能力
+URL: https://topdigg.com/blog/2026-09-05-smallcode-analysis | Date: 2026-09-05 | Author: TopDigg
+Tags: SmallCode, AI编程代理, 本地模型, 小模型优化, 终端工具, Claude, 编程助手
+
+SmallCode是一个终端原生的AI编程代理，专门为本地运行的小型LLM（8B-35B参数）优化设计。它在87%的基准测试中达到了与前沿模型相当的表现。本文详解其核心功能、安装教程、设计哲学和技术架构。
+
 ### Keploy Deep Dive: eBPF-Driven Zero-Intrusion API Testing Platform — Turning Production Traffic into Test Cases
 URL: https://topdigg.com/blog/2026-09-03-keploy-analysis | Date: 2026-09-03 | Author: TopDigg
 Tags: Keploy, eBPF, API Testing, Record-Replay, Automated Testing, Dependency Virtualization, CI/CD, Open Source
@@ -44,12 +62,6 @@ URL: https://topdigg.com/blog/academic-research-skills-for-claude-code | Date: 2
 Tags: Claude Code, Academic Research, AI Assistant, Research Workflow, Paper Writing
 
 Academic Research Skills (ARS) is a comprehensive suite of Claude Code skills covering the full academic research pipeline. This article provides an in-depth analysis of its design philosophy, architecture, core features, and how to leverage AI for academic research.
-
-### OpenSandbox: Alibaba's Open-Source Universal Sandbox Platform for AI — Architecture Deep Dive, Hands-On Tutorial, and Design Philosophy
-URL: https://topdigg.com/blog/opensandbox-analysis | Date: 2026-09-03 | Author: ERIC
-Tags: OpenSandbox, AI Agent, Sandbox, Code Execution, Alibaba, Docker, Kubernetes, Open Source
-
-A deep dive into Alibaba's open-source OpenSandbox universal sandbox platform — multi-language SDKs, dual Docker/Kubernetes runtimes, the execd data plane, network policies, and the credential vault, with a complete hands-on tutorial and an analysis of its five design principles
 
 ### Video Shotcraft: The AI Product Video Revolution - From 157 Shot Recipe Cards to Cinematic Marketing Videos
 URL: https://topdigg.com/blog/video-shotcraft | Date: 2026-09-03 | Author: TopDigg
@@ -69,77 +81,13 @@ Tags: AI Agent, 本地优先, llama.cpp, Atomic Agent, 工程实践
 
 深度解析 AtomicBot-ai/atomic-agent 项目：本地优先架构、TURBOQUANT 量化、记忆织物系统、GAIA 基准测试与核心设计哲学
 
-### Matt Pocock 代码库架构改进技能：让 AI 深度理解代码的艺术
-URL: https://topdigg.com/blog/mattpocock-codebase-architecture | Date: 2026-09-02 | Author: TopDigg
-Tags: AI, 代码架构, 工程实践, Skill, Matt Pocock
-
-深入解析 mattpocock/skills 项目中 improve-codebase-architecture 技能的完整设计哲学、架构词汇、核心理念与实战方法论
-
->>>>>>> 0c4352b (feat(blog): add VoiceStudio analysis article in 5 languages)
-### OpenClaude: The Open-Source Cross-Model Coding-Agent CLI - Full Analysis
-URL: https://topdigg.com/blog/2026-09-01-openclaude-deep-dive | Date: 2026-09-01 | Author: TopDigg
-Tags: OpenClaude, AI Agent, Coding Agent, CLI, Ollama, Claude
-
-Deep dive into Gitlawb/openclaude: an open-source coding-agent CLI supporting 20+ model providers including Claude, GPT, Gemini, DeepSeek, and local Ollama
-
-### fireworks-tech-graph：让AI替你画技术图的Agent Skill
-URL: https://topdigg.com/blog/2026-08-30-fireworks-tech-graph | Date: 2026-08-30T00:00:00.000Z | Author: TopDigg
-Tags: AI绘图, Agent Skill, 技术图, SVG生成, Claude Code
-
-fireworks-tech-graph 是一款专为 Codex 和 Claude Code 设计的 Agent Skill，只需用自然语言描述系统，就能得到几何校验安全的 SVG、PNG、语义 GIF 动效与离线交互 HTML。
-
-<<<<<<< HEAD
-### Kage：一次京都深山寺庙的沉浸式夜间漫步
-URL: https://topdigg.com/blog/2026-08-30-kage-analysis | Date: 2026-08-30T00:00:00.000Z | Author: TopDigg
-Tags: Three.js, WebGL, 沉浸式体验, 日本美学, 单文件开发
-
-Kage 是一款用 Three.js 实时渲染的五章节沉浸式夜间漫步体验，穿过虚构的京都深山寺庙，结合分层电影级生成图像。单 HTML 文件，无构建步骤。
-
-### Recuris：长时域Agent的递归经验-工作记忆进化框架
-URL: https://topdigg.com/blog/2026-08-30-recuris-analysis | Date: 2026-08-30T00:00:00.000Z | Author: TopDigg
-Tags: AI Agent, 记忆系统, 递归自我改进, 长时域任务
-
-论文标题：Recursive Experiential–Working Memory Evolution for Long-Horizon Agent Harnesses。Recuris是一个递归经验-工作记忆架构，通过让记忆自我进化来提升长时域Agent性能。
-
-### How Coding Agents Complete Large Software Tasks: Factory AI Research Reveals Key Breakthrough
-URL: https://topdigg.com/blog/2026-08-29-factory-ai-coding-agents | Date: 2026-08-29 | Author: 比特财商
-Tags: AI Agent, Software Engineering, Factory AI, ProgramBench, Research
-
-Factory AI research reveals why coding agents stop early on large software tasks, and how adding an independent validation standard can dramatically improve completion rates from 36% to 90%.
-
-### 代码审查的思维模型：让审查速度提升10倍的「风险导向」法
-URL: https://topdigg.com/blog/2026-08-29-code-review-mental-model | Date: 2026-08-29 | Author: 比特财商
-Tags: 代码审查, 工程效能, 团队协作, 软件工程
-
-代码审查（Code Review）是软件工程中最重要的质量保障环节之一，但同时也是最容易让人感到沮丧的工作。本文分享一种风险导向的代码审查思维模型，让审查速度从30分钟缩短到10分钟。
-
-### FrontierAgent：开源Agent运行时如何让AI真正替你完成复杂工作
-URL: https://topdigg.com/blog/2026-08-29-frontieragent-analysis | Date: 2026-08-29 | Author: 比特财商
-Tags: AI Agent, 开源框架, 工程实践, Apodex
-
-FrontierAgent是ApodexAI开源的Agent运行时、终端产品和评测套件，支持长周期研究类和基于文件的工作。它提供ReAct单Agent和Agent Team多智能体双工作流，是当前开源Agent框架中工程化程度最高的项目之一。
-
-### Pluely：一款「无感」的AI助手，让AI真正融入你的每一次对话
-URL: https://topdigg.com/blog/2026-08-29-pluely-analysis | Date: 2026-08-29 | Author: 比特财商
-Tags: AI工具, 产品设计, 效率工具, Tauri
-
-Pluely是一款跨平台桌面应用，通过悬浮层让AI在任何场景下即时可用。它解决了传统AI助手「需要主动去找」的核心痛点，让AI真正成为随时待命的第二大脑。
-
-### tw93/Waza: Turning Engineering Habits into AI Agent Executable Skills
-URL: https://topdigg.com/blog/2026-08-28-waza-analysis | Date: 2026-08-28 | Author: TopDigg Research Team
-Tags: Waza, tw93, AI Agent, Slash Commands, Claude Code, Codex, Engineering Habits, Prompt Engineering, Agent Skills, Open Source
-
-A comprehensive analysis of tw93/Waza — the AI Agent skills framework that distills years of engineering discipline into 8 executable slash commands (/think, /hunt, /check, /ui, /learn, /read, /write, /health). Waza's core philosophy: constraints enable freedom. Covers design philosophy, all 8 skill
-
-### WeMM-Embedding: Tencent WeChat Vision Team's Universal Multimodal Embedding Model Family
-URL: https://topdigg.com/blog/2026-08-28-wemm-embedding-analysis | Date: 2026-08-28 | Author: TopDigg
-Tags: multimodal embedding, vision-language model, WeMM-Embedding, Tencent WeChat, universal multimodal representation, MMEB, Matryoshka Representation Learning
-
-A comprehensive technical deep-dive into WeMM-Embedding, Tencent WeChat Vision team's universal multimodal embedding model supporting text/images/videos/visual documents/interleaved multimodal inputs. The 2B model surpasses 8B baseline on MMEB-v2, while the 9B achieves SOTA 80.6. This article covers
-
-=======
->>>>>>> 0c4352b (feat(blog): add VoiceStudio analysis article in 5 languages)
 ## AI Product Analyses (latest 5)
+
+### UpLinked B.V. Analysis: How a LinkedIn Content Strategy Tool Achieves $4K MRR
+URL: https://topdigg.com/ai-products/uplinked-b-v | Date: 2026-09-03 | Author: TopDigg
+Product:  | Category: 
+
+UpLinked B.V. is an AI LinkedIn content strategy tool for B2B coaches, consultants and agencies, generating ~$4K MRR. This article analyzes its business model, user value, product strategy and monetization mechanism.
 
 ### $0 ARR Immersive Entertainment Platform: Deep Dive into OUT23 Digital Escape Room
 URL: https://topdigg.com/ai-products/2026-08-29-out23 | Date: 2026-08-29 | Author: ERIC
@@ -168,13 +116,6 @@ Product: Aera Browser | Category: AI Browser Automation
 Revenue: $343 MRR (2026-08, Stripe-verified) · $3,635 lifetime
 
 Aera Browser is a local-first Chromium automation browser launched Dec 2025. Describe a recurring job in plain English and Aera runs it on a schedule in your signed-in browser. Stripe-verified $343 MRR / 9 subscriptions / ~1,700 users. This report dissects its monetization ladder, pricing tiers, des
-
-### Cursor Deep Dive: From Zero to $1B ARR — The AI Editor's Monetization Path
-URL: https://topdigg.com/ai-products/2026-08-26-cursor | Date: 2026-08-26 | Author: ERIC
-Product: Cursor | Category: AI编程工具
-Revenue: $1B+ ARR (2026 公开估算)
-
-Cursor is the benchmark product of the AI-native IDE category. This report breaks down its revenue trajectory, pricing mechanics, growth engine, and replicable monetization elements — answering one core question: how did a $20/month subscription create one of the fastest SaaS growth curves ever?
 
 ## Twitter Analysis Reports
 
@@ -205,8 +146,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-<<<<<<< HEAD
-End of llms.txt | 162 blog posts | 4 Twitter analyses | 6 AI products
-=======
-End of llms.txt | 170 blog posts | 4 Twitter analyses | 7 AI products
->>>>>>> 0c4352b (feat(blog): add VoiceStudio analysis article in 5 languages)
+End of llms.txt | 173 blog posts | 4 Twitter analyses | 7 AI products

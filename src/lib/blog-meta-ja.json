@@ -1,6 +1,95 @@
 {
   "posts": [
     {
+      "slug": "autohedge-analysis",
+      "date": "2026-09-07",
+      "author": "TopDigg",
+      "tags": [
+        "AutoHedge",
+        "Multi-Agent",
+        "AI Agent",
+        "Hedge Fund",
+        "Trading",
+        "Swarms",
+        "Solana",
+        "Risk Management",
+        "Quantitative Trading",
+        "LLM"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "AutoHedge：マルチエージェント自律型ヘッジファンドのアーキテクチャ解説と実践チュートリアル",
+      "description": "swarms フレームワークベースのマルチエージェント自律型ヘッジファンド AutoHedge を深掘り解析。Director／Quant／Risk／Execution／Sentiment の5つの専任エージェントによるパイプライン構造、リスク優先の設計哲学、Solana 実行経路（Jupiter Ultra API）、インストール・設定チュートリアル、Python API と CLI の使い方、プロジェクトの強み・限界・適用場面のまとめを網羅。"
+    },
+    {
+      "slug": "2026-09-06-gamefactory-3a-analysis",
+      "date": "2026-09-06",
+      "author": "TopDigg",
+      "tags": [
+        "GameFactory-3A",
+        "AI游戏生成",
+        "AI编码代理",
+        "3D资产生成",
+        "游戏引擎",
+        "Unity",
+        "UE5",
+        "Godot",
+        "OpenDCAI"
+      ],
+      "categories": [
+        "AI工具",
+        "游戏开发",
+        "开源项目"
+      ],
+      "title": "GameFactory-3A：用AI编码代理从需求生成3A级游戏",
+      "description": "GameFactory-3A是一个开源的3A游戏生成技能与资产框架，覆盖图像/3D资产/动作/音频/CG视频生成，支持Unity/UE5/Blender/Godot/third.js五大引擎。用AI编码代理驱动完整生成管线，把游戏需求变成可运行的游戏成品。"
+    },
+    {
+      "slug": "2026-09-05-fermats-last-theorem-formalization",
+      "date": "2026-09-05",
+      "author": "TopDigg",
+      "tags": [
+        "费马大定理",
+        "Lean",
+        "形式化证明",
+        "Anthropic",
+        "Claude",
+        "数学",
+        "AI",
+        "证明助手",
+        "Prove2Me"
+      ],
+      "categories": [
+        "AI",
+        "数学",
+        "技术深度"
+      ],
+      "title": "AI完成费马大定理形式化证明：Claude用11天干完了数学家几年的活",
+      "description": "2025年8月18日，Anthropic宣布Claude完成了人类历史上第一个端到端、计算机可验证的费马大定理形式化证明。整个过程仅用了11天，写下了1300万行Lean代码，证明了29,500个中间定理。本文详细分析了这个项目的技术架构、设计哲学、验证体系和里程碑意义。"
+    },
+    {
+      "slug": "2026-09-05-smallcode-analysis",
+      "date": "2026-09-05",
+      "author": "TopDigg",
+      "tags": [
+        "SmallCode",
+        "AI编程代理",
+        "本地模型",
+        "小模型优化",
+        "终端工具",
+        "Claude",
+        "编程助手"
+      ],
+      "categories": [
+        "AI工具",
+        "编程助手",
+        "开源项目"
+      ],
+      "title": "SmallCode：让8B模型跑出比肩前沿模型的编程能力",
+      "description": "SmallCode是一个终端原生的AI编程代理，专门为本地运行的小型LLM（8B-35B参数）优化设计。它在87%的基准测试中达到了与前沿模型相当的表现。本文详解其核心功能、安装教程、设计哲学和技术架构。"
+    },
+    {
       "slug": "2026-09-03-keploy-analysis",
       "date": "2026-09-03",
       "author": "TopDigg",

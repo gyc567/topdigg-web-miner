@@ -1,6 +1,30 @@
 {
   "products": [
     {
+      "slug": "uplinked-b-v",
+      "date": "2026-09-03",
+      "author": "TopDigg",
+      "tags": [
+        "UpLinked",
+        "LinkedIn",
+        "Content Strategy",
+        "B2B",
+        "SaaS",
+        "Monetization"
+      ],
+      "categories": [
+        "AI Product Analysis",
+        "SaaS",
+        "B2B"
+      ],
+      "product": null,
+      "pricing": null,
+      "metrics": null,
+      "sources": null,
+      "title": "UpLinked B.V. 產品分析：LinkedIn內容策略工具如何實現月收入4000美元",
+      "description": "UpLinked B.V. 是一款面向B2B教練、顧問和機構的LinkedIn內容策略工具，月收入約4000美元。本文深入分析其商業模式、用戶價值、產品策略和變現機制。"
+    },
+    {
       "slug": "2026-08-29-out23",
       "date": "2026-08-29",
       "author": "ERIC",

@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "slug": "uplinked-b-v",
+      "title": {
+        "en": "UpLinked B.V. Analysis: How a LinkedIn Content Strategy Tool Achieves $4K MRR",
+        "ja": "UpLinked B.V. 分析：LinkedInコンテンツ戦略ツールが月4000ドルの収益を実現する方法",
+        "vi": "Phân Tích UpLinked B.V.: Công Cụ Chiến Lược Nội Dung LinkedIn Đạt Doanh Thu 4.000 USD/Tháng Như Thế Nào",
+        "zh-Hans": "UpLinked B.V. 产品分析：LinkedIn内容策略工具如何实现月收入4000美元",
+        "zh-Hant": "UpLinked B.V. 產品分析：LinkedIn內容策略工具如何實現月收入4000美元"
+      },
+      "description": {
+        "en": "UpLinked B.V. is an AI LinkedIn content strategy tool for B2B coaches, consultants and agencies, generating ~$4K MRR. This article analyzes its business model, user value, product strategy and monetization mechanism.",
+        "ja": "UpLinked B.V. はB2B教练、コンサルタント、機関向けLinkedInコンテンツ戦略ツールで、月収約4000ドル。本稿ではそのビジネスモデル、ユーザー価値、製品戦略、収益化メカニズムを深く分析します。",
+        "vi": "UpLinked B.V. là công cụ chiến lược nội dung LinkedIn AI cho huấn luyện viên, chuyên gia tư vấn và đại lý B2B, đạt ~$4K MRR. Bài viết này phân tích sâu mô hình kinh doanh, giá trị người dùng, chiến lược sản phẩm và cơ chế kiếm tiền.",
+        "zh-Hans": "UpLinked B.V. 是一款面向B2B教练、顾问和机构的LinkedIn内容策略工具，月收入约4000美元。本文深入分析其商业模式、用户价值、产品策略和变现机制。",
+        "zh-Hant": "UpLinked B.V. 是一款面向B2B教練、顧問和機構的LinkedIn內容策略工具，月收入約4000美元。本文深入分析其商業模式、用戶價值、產品策略和變現機制。"
+      },
+      "date": "2026-09-03",
+      "author": "TopDigg",
+      "tags": [
+        "UpLinked",
+        "LinkedIn",
+        "Content Strategy",
+        "B2B",
+        "SaaS",
+        "Monetization"
+      ],
+      "categories": [
+        "AI Product Analysis",
+        "SaaS",
+        "B2B"
+      ],
+      "product": null,
+      "pricing": null,
+      "metrics": null,
+      "sources": null
+    },
+    {
       "slug": "2026-08-29-out23",
       "title": {
         "en": "$0 ARR Immersive Entertainment Platform: Deep Dive into OUT23 Digital Escape Room",

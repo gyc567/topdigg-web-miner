@@ -1,6 +1,30 @@
 {
   "products": [
     {
+      "slug": "uplinked-b-v",
+      "date": "2026-09-03",
+      "author": "TopDigg",
+      "tags": [
+        "UpLinked",
+        "LinkedIn",
+        "Content Strategy",
+        "B2B",
+        "SaaS",
+        "Monetization"
+      ],
+      "categories": [
+        "AI Product Analysis",
+        "SaaS",
+        "B2B"
+      ],
+      "product": null,
+      "pricing": null,
+      "metrics": null,
+      "sources": null,
+      "title": "UpLinked B.V. 分析：LinkedInコンテンツ戦略ツールが月4000ドルの収益を実現する方法",
+      "description": "UpLinked B.V. はB2B教练、コンサルタント、機関向けLinkedInコンテンツ戦略ツールで、月収約4000ドル。本稿ではそのビジネスモデル、ユーザー価値、製品戦略、収益化メカニズムを深く分析します。"
+    },
+    {
       "slug": "2026-08-29-out23",
       "date": "2026-08-29",
       "author": "ERIC",
