@@ -28,11 +28,10 @@ jobs:
           PRERENDER_POOL_SIZE: '2'
 
       - name: Deploy to Vercel
-        uses: vercel/action@0.6.1
+        uses: vercel/vercel-action@0.6.1
         with:
           vercel_token: ${{ secrets.VERCEL_TOKEN }}
           vercel_org_id: ${{ secrets.VERCEL_ORG_ID }}
           vercel_project_id: ${{ secrets.VERCEL_PROJECT_ID }}
-          # Point at the pre-built dist/ from the Build step above.
           vercel_args: '--prod'
           working_directory: .
