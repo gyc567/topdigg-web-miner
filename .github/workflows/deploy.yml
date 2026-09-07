@@ -30,7 +30,9 @@ jobs:
       - name: Deploy to Vercel
         run: |
           rm -rf .vercel
-          npx vercel@latest deploy --prod --yes --token "$VERCEL_TOKEN"
+          npx vercel@latest deploy --prod --yes \
+            --token "$VERCEL_TOKEN" \
+            --project "$VERCEL_PROJECT_ID"
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
