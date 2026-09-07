@@ -28,10 +28,8 @@ jobs:
           PRERENDER_POOL_SIZE: '2'
 
       - name: Deploy to Vercel
-        uses: vercel/vercel-action@0.6.1
-        with:
-          vercel_token: ${{ secrets.VERCEL_TOKEN }}
-          vercel_org_id: ${{ secrets.VERCEL_ORG_ID }}
-          vercel_project_id: ${{ secrets.VERCEL_PROJECT_ID }}
-          vercel_args: '--prod'
-          working_directory: .
+        run: npx vercel@latest deploy --prod --yes
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
