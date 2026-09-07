@@ -28,9 +28,8 @@ jobs:
           PRERENDER_POOL_SIZE: '2'
 
       - name: Deploy to Vercel
-        uses: amondnet/vercel-action@v42.3.0
+        uses: vercel/deploy-action@latest
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
-          vercel-args: '--prod'
