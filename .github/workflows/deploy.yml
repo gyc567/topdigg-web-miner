@@ -24,6 +24,7 @@ jobs:
         run: npm run build
         env:
           NODE_ENV: production
+          PRERENDER_SKIP_ARCHIVE: '1'
 
       - name: Deploy to Vercel
         run: |
