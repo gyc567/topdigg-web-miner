@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-09-07-ai-daily",
+      "title": {
+        "en": "OpenAI Research Acceleration Report: Automated Research Intern Goal Achieved, AI Researcher Target Set for March 2028",
+        "ja": "OpenAI 社内研究加速レポートを発表：自動化研究<minimax:tool_call>生の目標を達成、2028年3月に自動化AI研究者の開発を計画",
+        "vi": "OpenAI cong bo bao cao tang toc nghien cuu noi bo: Dat duoc muc tieu thuc tap sinh nghien cuu tu dong, tien do toi thang 3/2028",
+        "zh-Hans": "OpenAI 发布内部研究加速报告：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员",
+        "zh-Hant": "OpenAI 發布內部研究加速報告：已達成自動化研究實習生目標，推進 2028 年 3 月自動化 AI 研究員"
+      },
+      "description": {
+        "en": "OpenAI published its research acceleration report, announcing it has achieved the automated research intern goal set last fall, with plans to build an automated AI researcher by March 2028.",
+        "ja": "OpenAIは自動化研究进展レポートを発表し、昨秋に設定した今年9月の自動化研究<minimax:tool_call>（人間の指導の下で数日間明确な研究タスクを完了可能）の目標を達成したことを発表。2028年3月までに自動化AI研究者を開発する計画を明らかにした。",
+        "vi": "OpenAI da cong bo bao cao tien do nghien cuu tu dong, thong bao da dat duoc muc tieu thuc tap sinh nghien cuu tu dong (co the hoan thanh cac nhiem vu nghien cuu xac dinh keo dai nhieu ngay duoi su huong dan cua con nguoi) va co ke hoach xay dung nha nghien cuu AI tu dong vao thang 3/2028.",
+        "zh-Hans": "OpenAI 发文披露自动化研究进展，宣布已达成去年秋天设定的今年 9 月拥有自动化研究实习生的目标，并计划在 2028 年 3 月前造出自动化 AI 研究员。",
+        "zh-Hant": "OpenAI 發文披露自動化研究進展，宣佈已達成去年秋天設定的今年 9 月擁有自動化研究實習生的目標，並計劃在 2028 年 3 月前造出自動化 AI 研究員。"
+      },
+      "date": "2026-09-07",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": {
+            "en": "Bit Finance",
+            "ja": "ビットファイナンス",
+            "vi": "Bit Finance",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特財商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-09-05-ai-daily",
       "title": {
         "en": "OpenAI Launches GPT-6 Astra, Anthropic Targets $2T IPO Valuation",
