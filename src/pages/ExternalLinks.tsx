@@ -205,16 +205,18 @@ const ExternalLinks = () => {
     <>
       <SEO
         title={localizeText({
-          "zh-Hans": "外链导航 - TopDigg",
-          "zh-Hant": "外鏈導航 - TopDigg", 
-          "en": "External Links - TopDigg",
-          "ja": "外部リンク - TopDigg"
+          "zh-Hans": "外链导航",
+          "zh-Hant": "外鏈導航",
+          "en": "External Links",
+          "ja": "外部リンク",
+          "vi": "Liên kết ngoài",
         }, currentLocale)}
         description={localizeText({
           "zh-Hans": "精选外链资源导航，涵盖AI工具、开发工具、设计资源等各个领域。",
           "zh-Hant": "精選外鏈資源導航，涵蓋AI工具、開發工具、設計資源等各個領域。",
           "en": "Curated external link navigation covering AI tools, development tools, design resources and more.",
-          "ja": "AIツール、開発ツール、デザインリソースなど、厳選された外部リンクナビゲーション。"
+          "ja": "AIツール、開発ツール、デザインリソースなど、厳選された外部リンクナビゲーション。",
+          "vi": "Điều hướng liên kết ngoài chất lượng cao bao gồm công cụ AI, công cụ phát triển, tài nguyên thiết kế và hơn thế nữa。",
         }, currentLocale)}
       />
       <div className="container py-8">
@@ -226,17 +228,19 @@ const ExternalLinks = () => {
                 "zh-Hans": "外链导航",
                 "zh-Hant": "外鏈導航",
                 "en": "External Links",
-                "ja": "外部リンク"
+                "ja": "外部リンク",
+                "vi": "Liên kết ngoài",
               }, currentLocale)}
             </h1>
           </div>
-          
+
           <p className="text-muted-foreground mb-8 text-lg">
             {localizeText({
               "zh-Hans": "精选优质外链资源，助力你的工作和学习。",
               "zh-Hant": "精選優質外鏈資源，助力你的工作和學習。",
               "en": "Curated quality external resources to boost your work and learning.",
-              "ja": "厳選された高品質な外部リソースで、あなたの仕事と学習をサポートします。"
+              "ja": "厳選された高品質な外部リソースで、あなたの仕事と学習をサポートします。",
+              "vi": "Tài nguyên bên ngoài chất lượng cao để hỗ trợ công việc và học tập của bạn。",
             }, currentLocale)}
           </p>
 

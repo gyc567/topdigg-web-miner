@@ -17,16 +17,15 @@ const INITIAL_COUNT = 10;
 const AIDailyIndex = () => {
   const { t, i18n } = useTranslation();
   const currentLocale = normalizeLang(i18n.language) as SupportedLocale;
-  const [reports, setReports] = useState<AIDailyMeta[]>([]);
-  const [loading, setLoading] = useState(true);
+  // Synchronously initialize so SSR/prerender always sees data and renders an <h1>.
+  const [reports, setReports] = useState<AIDailyMeta[]>(() =>
+    aiDailyDataSource.getReports()
+  );
   const [visibleCount, setVisibleCount] = useState(INITIAL_COUNT);
 
   useEffect(() => {
-    setLoading(true);
     aiDailyDataSource.getReportsLocalized(currentLocale).then((data) => {
       setReports(data);
-      setLoading(false);
-      setVisibleCount(INITIAL_COUNT);
     });
   }, [currentLocale]);
 
@@ -80,27 +79,6 @@ const AIDailyIndex = () => {
     const today = new Date().toISOString().split("T")[0];
     return dateStr === today;
   };
-
-  if (loading) {
-    return (
-      <>
-        <SEO title={t("aiDaily.indexTitle")} description={t("aiDaily.indexDesc")} path="/ai-daily" />
-        <header className="mb-8">
-          <h1 className="text-3xl font-bold">{t("aiDaily.indexTitle")}</h1>
-          <p className="text-muted-foreground mt-2">{t("aiDaily.indexDesc")}</p>
-        </header>
-        <div className="space-y-6">
-          {Array.from({ length: 3 }).map((_, i) => (
-            <div key={i} className="rounded-xl border p-6 animate-pulse">
-              <div className="h-5 bg-muted rounded w-1/3 mb-3" />
-              <div className="h-4 bg-muted rounded w-full mb-2" />
-              <div className="h-4 bg-muted rounded w-2/3" />
-            </div>
-          ))}
-        </div>
-      </>
-    );
-  }
 
   return (
     <>
