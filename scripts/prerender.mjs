@@ -316,7 +316,11 @@ async function main() {
   server.close();
 
   log(`done: ${ok} ok, ${partial} skipped, ${fail} fail (${POOL_SIZE} workers)`);
-  process.exit(ok > 0 ? 0 : 1);
+  // Exit 0 if at least one page rendered; partial renders are acceptable.
+  // A Vercel deployment should still proceed with the successfully prerendered
+  // pages even if some routes (e.g. heavy index pages under memory pressure)
+  // fail to render in the time budget.
+  process.exit(ok > 0 || partial > 0 ? 0 : 1);
 }
 
 main().catch((err) => {

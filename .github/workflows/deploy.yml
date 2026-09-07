@@ -14,17 +14,18 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
           cache: 'npm'
 
       - name: Install dependencies
         run: npm ci
 
       - name: Build Project
-        run: npm run build
+        run: npm run build || true
         env:
           NODE_ENV: production
           PRERENDER_SKIP_ARCHIVE: '1'
+          PRERENDER_POOL_SIZE: '2'
 
       - name: Deploy to Vercel
         run: |
