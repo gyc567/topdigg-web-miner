@@ -27,8 +27,8 @@ jobs:
 
       - name: Deploy to Vercel
         run: |
-          # --wait=false: CLI returns immediately after triggering deploy.
-          # Vercel continues building; monitor via API or Vercel dashboard.
-          npx vercel@latest deploy --prod --yes --wait=false
+          # --no-wait: CLI returns immediately after triggering deploy.
+          # Vercel continues building asynchronously on the server.
+          npx vercel@latest deploy --prod --yes --no-wait
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
