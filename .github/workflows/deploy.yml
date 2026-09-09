@@ -31,16 +31,28 @@ jobs:
           restore-keys: |
             prerender-v1-
 
+      # 拉取项目设置（.vercel/project.json 未入库，CI 需要显式提供 org/project id）
+      - name: Pull Vercel environment
+        run: npx vercel@latest pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
+        env:
+          VERCEL_ORG_ID: team_CrV6muN0s3QNDJ3vrabttjLR
+          VERCEL_PROJECT_ID: prj_5vnaBgPn0LKiEBPxWzhKSICpWUAS
+
+      # vercel build 执行 vercel.json 里的 buildCommand（npm run build，含 prerender），
+      # 并打包为 .vercel/output 供 --prebuilt 上传，避免 Vercel 端二次构建。
       - name: Build Project
-        run: npm run build
+        run: npx vercel@latest build --prod --token=${{ secrets.VERCEL_TOKEN }}
         env:
           NODE_ENV: production
+          VERCEL_ORG_ID: team_CrV6muN0s3QNDJ3vrabttjLR
+          VERCEL_PROJECT_ID: prj_5vnaBgPn0LKiEBPxWzhKSICpWUAS
 
       - name: Deploy to Vercel
         run: |
-          # --prebuilt: upload the already-built dist/ without triggering
+          # --prebuilt: upload the already-built .vercel/output without triggering
           # a server-side rebuild. This avoids the 20+ min Chromium prerender
           # on Vercel's infrastructure.
-          npx vercel@latest deploy --prod --yes --prebuilt --no-wait
+          npx vercel@latest deploy --prod --yes --prebuilt --no-wait --token=${{ secrets.VERCEL_TOKEN }}
         env:
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: team_CrV6muN0s3QNDJ3vrabttjLR
+          VERCEL_PROJECT_ID: prj_5vnaBgPn0LKiEBPxWzhKSICpWUAS

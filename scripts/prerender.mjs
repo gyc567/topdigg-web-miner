@@ -251,8 +251,10 @@ async function main() {
   try {
     browser = await loadBrowser();
   } catch (err) {
-    log(`WARN: chromium launch failed (${err.message?.slice(0, 100)}); prerender skipped.`);
-    process.exit(0);
+    // 必须失败 loudly：静默跳过会让线上全是 CSR 空壳（SEO 灾难），
+    // 比构建失败代价大得多。本地 mac 用普通 puppeteer，CI 用 sparticuz。
+    log(`ERROR: chromium launch failed (${err.message?.slice(0, 120)}); aborting build.`);
+    process.exit(1);
   }
   log(`chromium launched${IS_VERCEL ? " (sparticuz)" : ""}`);
 
