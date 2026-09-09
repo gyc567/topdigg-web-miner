@@ -55,4 +55,11 @@
 | 本地二次构建（热缓存） | 7m18s | 4.2s |
 | 本地增量（改 1 篇文章） | 7m18s | 5.9s |
 | 预渲染失败路由 | 7 skipped | 0 skipped |
-| CI build（GitHub Actions） | ~7.5min | 预期 ~1min（缓存命中时） |
+| CI 总耗时（GitHub Actions） | ~8.5min | **1m38s**（冷缓存，2026-09-09 实测） |
+| CI build 步骤 | ~7.5min | **47s**（冷缓存；sparticuz chromium 213 路由全成功） |
+| Vercel 部署构建时长 | 20min（远端构建） | 12s（--prebuilt 上传） |
+
+CI 部署链路：`vercel pull` → `vercel build`（执行 vercel.json 的 buildCommand，
+打包 `.vercel/output`）→ `vercel deploy --prebuilt --no-wait`。
+注意：`vercel build` 在本地 mac 会因 sparticuz/chromium 报 ENOEXEC 而 prerender 失败（loudly），
+这是预期行为——预渲染验证以 CI（Linux）为准。
