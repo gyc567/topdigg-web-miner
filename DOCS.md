@@ -12,6 +12,7 @@
 
 ## 优化方案
 
+- [构建速度优化记录](docs/build-speed-optimization.md) — 构建 7m18s→1min；prerender 增量缓存设计；ai-products frontmatter 必填教训
 - [TopDigg 优化方案（审计修订版）](docs/optimization-plan.md) — 项目整体优化方案 v2 审计
 - [删除首页"联系"菜单方案](docs/delete-contact-nav-plan.md) — 删除导航菜单中的"联系"链接
 - [SEO + GEO 优化方案 v3](docs/seo-geo-optimization-plan.md) — 完整 SEO/GEO 优化方案（融合版）

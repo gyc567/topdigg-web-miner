@@ -92,13 +92,15 @@ const AIProductsIndex = () => {
                   </p>
 
                   {/* Product info strip — small, sets context */}
-                  <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-muted-foreground mb-3">
-                    <span className="font-medium text-foreground">{post.product.name}</span>
-                    <span aria-hidden="true">·</span>
-                    <span>{post.product.category}</span>
-                    <span aria-hidden="true">·</span>
-                    <span className="tabular-nums">{post.product.launch_date}</span>
-                  </div>
+                  {post.product && (
+                    <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-muted-foreground mb-3">
+                      <span className="font-medium text-foreground">{post.product.name}</span>
+                      <span aria-hidden="true">·</span>
+                      <span>{post.product.category}</span>
+                      <span aria-hidden="true">·</span>
+                      <span className="tabular-nums">{post.product.launch_date}</span>
+                    </div>
+                  )}
 
                   <div className="flex flex-wrap items-center gap-2 text-xs text-muted-foreground">
                     <time dateTime={post.date} className="tabular-nums">{post.date}</time>

@@ -78,7 +78,7 @@ const TwitterPost = () => {
       />
       
       <div className="container mx-auto px-4 py-8">
-        <div className="max-w-4xl mx-auto">
+        <article className="max-w-4xl mx-auto">
           <div className="mb-6">
             <Link to="/twitter">
               <Button variant="ghost" className="mb-4">
@@ -235,7 +235,7 @@ const TwitterPost = () => {
               <div className="text-lg text-muted-foreground">无法加载分析报告内容</div>
             </div>
           )}
-        </div>
+        </article>
       </div>
     </>
   );

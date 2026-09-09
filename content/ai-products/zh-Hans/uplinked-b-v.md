@@ -14,6 +14,14 @@ categories:
   - AI产品分析
   - SaaS
   - B2B
+product:
+  name: "UpLinked B.V."
+  url: "https://trustmrr.com/startup/uplinked-b-v?ref=eric-kwok-b654e8"
+  category: "AI LinkedIn 内容策略工具"
+  launch_date: "2024-07"
+  revenue: "$3,999 MRR（Stripe 验证）· 累计 $196,549"
+  users: "62 个付费订阅"
+  pricing_model: "14 天免费试用 + 个人版 $59/月 + 团队版量大优惠"
 ---
 
 **产品链接：** [https://trustmrr.com/startup/uplinked-b-v?ref=eric-kwok-b654e8](https://trustmrr.com/startup/uplinked-b-v?ref=eric-kwok-b654e8)

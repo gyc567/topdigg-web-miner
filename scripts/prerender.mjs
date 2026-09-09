@@ -7,6 +7,13 @@
  *   3) 用 puppeteer 访问每个路由
  *   4) 等待 React hydration + react-helmet-async 完成
  *   5) 抓取最终 HTML，按路由写入 dist/<route>/index.html
+ *
+ * 加速手段：
+ *   - worker 复用 page（路由间直接 goto，不重建）
+ *   - 请求拦截：跳过图片/字体/媒体（只要 HTML）
+ *   - 增量缓存（scripts/lib/prerender-cache.mjs）：
+ *     代码没变、内容没变的路由直接复用上次渲染结果。
+ *     PRERENDER_CACHE=0 禁用；PRERENDER_CACHE_DIR 改缓存目录。
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -22,12 +29,25 @@ const DIST = path.join(projectRoot, "dist");
 const SERVER_PORT = 4173;
 const SERVER_HOST = "127.0.0.1";
 const BASE_URL = `http://${SERVER_HOST}:${SERVER_PORT}`;
-const READY_WAIT_MS = 500;
+const READY_WAIT_MS = 150;
 const DETAIL_ROUTE_RE = /^\/(blog|twitter|ai-daily)\/[^/]+\/?$/;
 const POOL_SIZE = Math.max(
   2,
-  Math.min(Number(process.env.PRERENDER_POOL_SIZE) || 4, os.cpus().length),
+  Math.min(Number(process.env.PRERENDER_POOL_SIZE) || 8, os.cpus().length),
 );
+
+// 增量缓存：命中则跳过渲染。PRERENDER_CACHE=0 可禁用（用于强制全量验证）。
+const CACHE_ENABLED = process.env.PRERENDER_CACHE !== "0";
+const CACHE_DIR =
+  process.env.PRERENDER_CACHE_DIR || path.join(projectRoot, ".prerender-cache");
+
+const {
+  computeChromeHash,
+  computeDataHash,
+  cacheKeyForRoute,
+  readCache,
+  writeCache,
+} = await import("./lib/prerender-cache.mjs");
 
 function isDetailRoute(route) {
   return DETAIL_ROUTE_RE.test(route);
@@ -36,7 +56,7 @@ const IS_VERCEL = process.env.VERCEL === "1";
 const DETAIL_WAIT_TIMEOUT_MS = Number(process.env.PRERENDER_DETAIL_TIMEOUT_MS)
   || (IS_VERCEL ? 120_000 : 60_000);
 const INDEX_WAIT_TIMEOUT_MS = Number(process.env.PRERENDER_INDEX_TIMEOUT_MS)
-  || (IS_VERCEL ? 60_000 : 60_000);
+  || 30_000;
 
 async function loadBrowser() {
   if (IS_VERCEL) {
@@ -61,6 +81,27 @@ const { prerenderRoutes } = await import("./build-routes.mjs");
 
 function log(...args) {
   console.log(`[prerender]`, ...args);
+}
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+/**
+ * 拦截无关资源：prerender 只关心最终 HTML，图片/字体/媒体全部跳过。
+ * 同时开启浏览器缓存，让共享 JS/JSON chunk 跨路由复用。
+ */
+async function preparePage(page) {
+  try {
+    await page.setCacheEnabled(true);
+  } catch { /* older puppeteer */ }
+  await page.setRequestInterception(true);
+  page.on("request", (req) => {
+    const type = req.resourceType();
+    if (type === "image" || type === "media" || type === "font") {
+      req.abort().catch(() => {});
+      return;
+    }
+    req.continue().catch(() => {});
+  });
 }
 
 function serveStatic() {
@@ -142,6 +183,13 @@ function routeToOutputPath(route) {
   return [parts.join("/"), "index.html"];
 }
 
+function writeRouteHtml(route, html) {
+  const [dir, file] = routeToOutputPath(route);
+  const outDir = path.join(DIST, dir);
+  fs.mkdirSync(outDir, { recursive: true });
+  fs.writeFileSync(path.join(outDir, file), html);
+}
+
 /**
  * Render a route and return { html, detail, timedOut }.
  * - timedOut: true if waitForFunction timed out.
@@ -165,7 +213,7 @@ async function renderRoute(page, route) {
       { timeout: waitTimeout },
       detail
     );
-    await new Promise((r) => setTimeout(r, READY_WAIT_MS));
+    await sleep(READY_WAIT_MS);
     html = await page.content();
   } catch (err) {
     timedOut = true;
@@ -177,6 +225,20 @@ async function renderRoute(page, route) {
     }
   }
   return { html, detail, timedOut };
+}
+
+/** body 去标签后的文本长度 <100 视为空壳（JS render 失败）。 */
+function isEmptyShellHtml(html) {
+  const bodyMatch = html.match(/<body[^>]*>(.*)<\/body>/s);
+  const bodyText = bodyMatch
+    ? bodyMatch[1]
+        .replace(/<script[^>]*>.*?<\/script>/gs, "")
+        .replace(/<style[^>]*>.*?<\/style>/gs, "")
+        .replace(/<[^>]+>/g, " ")
+        .replace(/\s+/g, " ")
+        .trim()
+    : "";
+  return bodyText.length < 100;
 }
 
 async function main() {
@@ -197,36 +259,58 @@ async function main() {
   const server = await serveStatic();
   log(`static server: ${BASE_URL}`);
 
+  const hashes = CACHE_ENABLED
+    ? { chrome: computeChromeHash(projectRoot), data: computeDataHash(projectRoot) }
+    : null;
+  if (CACHE_ENABLED) log(`cache: ${CACHE_DIR}`);
+
   const queue = prerenderRoutes.slice();
   const total = queue.length;
   let nextIdx = 0;
-  let ok = 0, partial = 0, fail = 0;
+  let ok = 0, fromCache = 0, partial = 0, fail = 0;
 
   async function worker(workerId) {
+    // worker 全程复用一个 page：路由间直接 goto，省掉每路由 newPage/close 开销。
+    let page = await browser.newPage();
+    await preparePage(page);
+
+    async function freshPage() {
+      try { await page.close(); } catch { /* ignore */ }
+      page = await browser.newPage();
+      await preparePage(page);
+    }
+
     while (true) {
       const idx = nextIdx++;
       if (idx >= total) break;
       const route = queue[idx];
-      let page;
+
+      // 增量缓存：命中则直接写产物，跳过渲染。
+      let cacheKey = null;
+      if (CACHE_ENABLED) {
+        cacheKey = cacheKeyForRoute(projectRoot, route, hashes);
+        const cachedHtml = readCache(CACHE_DIR, cacheKey);
+        if (cachedHtml !== null) {
+          writeRouteHtml(route, cachedHtml);
+          fromCache++;
+          log(`  ⚡ [w${workerId}] ${route} (cache)`);
+          continue;
+        }
+      }
+
       let rendered = null;
 
       // Retry loop: up to 3 attempts per route.
       // - renderRoute timeout: page may recover with fresh page; retry
-      // - detached Frame / connection closed: skip immediately (partial)
+      // - detached Frame / connection closed: replace the page (it may be dead)
       // - other errors: fail
       for (let attempt = 1; attempt <= 3; attempt++) {
         let isRetryable = false;
         try {
-          page = await browser.newPage();
-          try {
-            await page.setCacheEnabled(true);
-          } catch { /* older puppeteer */ }
-
           const result = await renderRoute(page, route);
           rendered = result;
 
-          try { await page.close(); } catch { /* ignore */ }
-          await new Promise((r) => setTimeout(r, 50));
+          await sleep(50);
 
           // No error: check if we should stop
           if (!result.timedOut || attempt === 3) break;
@@ -238,8 +322,8 @@ async function main() {
           const isDetached = msg.includes("detached Frame") || msg.includes("Frame at");
           const isConnClosed = msg.includes("Connection closed") || msg.includes("ConnectionClosedError");
 
-          try { await page.close(); } catch { /* ignore */ }
-          await new Promise((r) => setTimeout(r, 50));
+          await freshPage();
+          await sleep(50);
 
           if (isDetached) {
             // Detached frame = page is stuck; skip immediately.
@@ -271,23 +355,8 @@ async function main() {
       if (!rendered) continue;
 
       const { html, detail } = rendered;
-      const [dir, file] = routeToOutputPath(route);
-      const outDir = path.join(DIST, dir);
-      const outFile = path.join(outDir, file);
 
-      // Detect empty SPA-shell fallback: body text is mostly whitespace.
-      const bodyMatch = html.match(/<body[^>]*>(.*)<\/body>/s);
-      const bodyText = bodyMatch
-        ? bodyMatch[1]
-            .replace(/<script[^>]*>.*?<\/script>/gs, "")
-            .replace(/<style[^>]*>.*?<\/style>/gs, "")
-            .replace(/<[^>]+>/g, " ")
-            .replace(/\s+/g, " ")
-            .trim()
-        : "";
-      const isEmptyShell = bodyText.length < 100;
-
-      if (isEmptyShell) {
+      if (isEmptyShellHtml(html)) {
         partial++;
         log(`  ⚠ [w${workerId}] ${route} → skipped (empty shell — JS render failed)`);
         continue;
@@ -299,12 +368,14 @@ async function main() {
         partial++;
         log(`  ⚠ [w${workerId}] ${route} → skipped (${stillLoading ? "still loading" : "missing <article>"})`);
       } else {
-        fs.mkdirSync(outDir, { recursive: true });
-        fs.writeFileSync(outFile, html);
+        writeRouteHtml(route, html);
+        if (cacheKey) writeCache(CACHE_DIR, cacheKey, html);
         ok++;
-        log(`  ✓ [w${workerId}] ${route} → ${path.relative(DIST, outFile)} (${html.length} bytes)`);
+        log(`  ✓ [w${workerId}] ${route} → ${path.relative(DIST, path.join(DIST, routeToOutputPath(route).join("/")))} (${html.length} bytes)`);
       }
     }
+
+    try { await page.close(); } catch { /* ignore */ }
   }
 
   log(`worker pool: ${POOL_SIZE} pages (set PRERENDER_POOL_SIZE to override)`);
@@ -315,12 +386,12 @@ async function main() {
   await browser.close();
   server.close();
 
-  log(`done: ${ok} ok, ${partial} skipped, ${fail} fail (${POOL_SIZE} workers)`);
+  log(`done: ${ok} rendered, ${fromCache} cached, ${partial} skipped, ${fail} fail (${POOL_SIZE} workers)`);
   // Exit 0 if at least one page rendered; partial renders are acceptable.
   // A Vercel deployment should still proceed with the successfully prerendered
   // pages even if some routes (e.g. heavy index pages under memory pressure)
   // fail to render in the time budget.
-  process.exit(ok > 0 || partial > 0 ? 0 : 1);
+  process.exit(ok > 0 || partial > 0 || fromCache > 0 ? 0 : 1);
 }
 
 main().catch((err) => {

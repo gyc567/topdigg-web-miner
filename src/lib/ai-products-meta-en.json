@@ -17,7 +17,15 @@
         "SaaS",
         "B2B"
       ],
-      "product": null,
+      "product": {
+        "name": "UpLinked B.V.",
+        "url": "https://trustmrr.com/startup/uplinked-b-v?ref=eric-kwok-b654e8",
+        "category": "AI LinkedIn Content Strategy",
+        "launch_date": "2024-07",
+        "revenue": "$3,999 MRR (Stripe-verified) · $196,549 lifetime",
+        "users": "62 active subscriptions",
+        "pricing_model": "14-day free trial + Individual $59/mo + Team volume pricing"
+      },
       "pricing": null,
       "metrics": null,
       "sources": null,

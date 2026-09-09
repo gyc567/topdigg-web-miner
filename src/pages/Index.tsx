@@ -97,13 +97,15 @@ const Index = () => {
                     </Link>
                   </h3>
                   <p className="text-sm text-muted-foreground mt-2 line-clamp-3">{resolved.description}</p>
-                  <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-muted-foreground">
-                    <span className="font-medium text-foreground">{post.product.name}</span>
-                    <span aria-hidden="true">·</span>
-                    <span>{post.product.category}</span>
-                    <span aria-hidden="true">·</span>
-                    <time dateTime={post.date} className="tabular-nums">{post.date}</time>
-                  </div>
+                  {post.product && (
+                    <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-muted-foreground">
+                      <span className="font-medium text-foreground">{post.product.name}</span>
+                      <span aria-hidden="true">·</span>
+                      <span>{post.product.category}</span>
+                      <span aria-hidden="true">·</span>
+                      <time dateTime={post.date} className="tabular-nums">{post.date}</time>
+                    </div>
+                  )}
                 </article>
               );
             })}

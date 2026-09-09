@@ -4,7 +4,7 @@
 
 ## Active Plans
 
-_(无 — 全部施工中计划见 [Completed Plans](#completed-plans))_
+- [构建速度优化（prerender 提速 + CI 增量缓存）](plans/build-speed-optimization.md) — 本地构建 7m18s → 目标 ≤2min；修复首页/twitter 预渲染失败
 
 ## Completed Plans
 

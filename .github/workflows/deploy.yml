@@ -20,6 +20,17 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # 增量 prerender 缓存：key 用 run_id 保证每次都上传；
+      # restore-keys 前缀匹配上一次运行的缓存。路由级失效由
+      # scripts/lib/prerender-cache.mjs 的 hash 决定，与 actions/cache 的 key 无关。
+      - name: Restore prerender cache
+        uses: actions/cache@v4
+        with:
+          path: .prerender-cache
+          key: prerender-v1-${{ github.run_id }}
+          restore-keys: |
+            prerender-v1-
+
       - name: Build Project
         run: npm run build
         env:
@@ -27,8 +38,9 @@ jobs:
 
       - name: Deploy to Vercel
         run: |
-          # --no-wait: CLI returns immediately after triggering deploy.
-          # Vercel continues building asynchronously on the server.
-          npx vercel@latest deploy --prod --yes --no-wait
+          # --prebuilt: upload the already-built dist/ without triggering
+          # a server-side rebuild. This avoids the 20+ min Chromium prerender
+          # on Vercel's infrastructure.
+          npx vercel@latest deploy --prod --yes --prebuilt --no-wait
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}

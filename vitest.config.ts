@@ -8,6 +8,11 @@ export default defineConfig({
     environment: "jsdom",
     globals: true,
     setupFiles: ["./src/test/setup.ts"],
+    // 构建脚本（scripts/）的纯 Node 测试；jsdom 环境下 Node API 同样可用
+    include: [
+      "src/**/*.{test,spec}.{ts,tsx}",
+      "scripts/**/*.test.mjs",
+    ],
     coverage: {
       provider: "v8",
       reporter: ["text", "json", "html"],

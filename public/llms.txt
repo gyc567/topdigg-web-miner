@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-09-07T13:38:48.456Z
+Generated: 2026-09-09T00:51:52.776Z
 
 ## Site Overview
 
@@ -85,7 +85,8 @@ Tags: AI Agent, 本地优先, llama.cpp, Atomic Agent, 工程实践
 
 ### UpLinked B.V. Analysis: How a LinkedIn Content Strategy Tool Achieves $4K MRR
 URL: https://topdigg.com/ai-products/uplinked-b-v | Date: 2026-09-03 | Author: TopDigg
-Product:  | Category: 
+Product: UpLinked B.V. | Category: AI LinkedIn Content Strategy
+Revenue: $3,999 MRR (Stripe-verified) · $196,549 lifetime
 
 UpLinked B.V. is an AI LinkedIn content strategy tool for B2B coaches, consultants and agencies, generating ~$4K MRR. This article analyzes its business model, user value, product strategy and monetization mechanism.
 

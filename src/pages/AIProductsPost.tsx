@@ -145,18 +145,23 @@ const AIProductsPost = () => {
     { name: titleStr, url: `${siteConfig.baseUrl}${postPath}` },
   ]);
 
+  const product = fullPost.product;
   const faqSchema = makeFAQPageSchema({
     mainEntity: [
-      {
-        question: `What is ${fullPost.product.name}?`,
-        answer: `${fullPost.product.name} is a ${fullPost.product.category} launched ${fullPost.product.launch_date}. ${descStr}`,
-      },
-      {
-        question: `How does ${fullPost.product.name} make money?`,
-        answer: fullPost.product.revenue
-          ? `${fullPost.product.name} reports ${fullPost.product.revenue}. ${fullPost.product.pricing_model ?? ""}`
-          : fullPost.product.pricing_model ?? "",
-      },
+      ...(product
+        ? [
+            {
+              question: `What is ${product.name}?`,
+              answer: `${product.name} is a ${product.category} launched ${product.launch_date}. ${descStr}`,
+            },
+            {
+              question: `How does ${product.name} make money?`,
+              answer: product.revenue
+                ? `${product.name} reports ${product.revenue}. ${product.pricing_model ?? ""}`
+                : product.pricing_model ?? "",
+            },
+          ]
+        : []),
       {
         question: "How often is content on TopDigg updated?",
         answer: "AI Products analyses are added regularly as new products reach monetization milestones.",
@@ -165,13 +170,13 @@ const AIProductsPost = () => {
   });
 
   const hasPricingArray = Array.isArray(fullPost.pricing) && fullPost.pricing.length > 0;
-  const productSchema = hasPricingArray
+  const productSchema = product && hasPricingArray
     ? makeProductSchema({
-        name: fullPost.product.name,
+        name: product.name,
         description: descStr,
         url: postPath,
-        category: fullPost.product.category,
-        brand: fullPost.product.name,
+        category: product.category,
+        brand: product.name,
         offers: fullPost.pricing!.map((p) => ({
           price: p.price ?? 0,
           priceCurrency: p.currency,
@@ -213,12 +218,12 @@ const AIProductsPost = () => {
         </header>
 
         {/* Product at-a-glance card */}
-        <ProductCard
-          product={fullPost.product}
+        {product && <ProductCard
+          product={product}
           pricing={fullPost.pricing ?? undefined}
           metrics={fullPost.metrics ?? undefined}
           sources={fullPost.sources ?? undefined}
-        />
+        />}
 
         <MarkdownContent content={contentStr} className="mb-8" />
 
