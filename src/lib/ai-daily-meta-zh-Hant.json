@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-09-09-ai-daily",
+      "date": "2026-09-09",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "OpenAI 發布 ChatGPT Images 2.5 圖像模型",
+      "description": "OpenAI 發布 ChatGPT Images 2.5 圖像模型，生成延遲比 Images 2.0 降低最多 50%，細節、編輯精度、參考照片保真度和多輪編輯一致性均有提升。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "比特財商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-09-07-ai-daily",
       "date": "2026-09-07",
       "author": "比特财商",
