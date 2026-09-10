@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-09-10T12:59:00.087Z
+Generated: 2026-09-10T13:29:35.572Z
 
 ## Site Overview
 
@@ -120,6 +120,14 @@ Revenue: $343 MRR (2026-08, Stripe-verified) · $3,635 lifetime
 Aera Browser is a local-first Chromium automation browser launched Dec 2025. Describe a recurring job in plain English and Aera runs it on a schedule in your signed-in browser. Stripe-verified $343 MRR / 9 subscriptions / ~1,700 users. This report dissects its monetization ladder, pricing tiers, des
 
 ## Zero-Barrier Money Lab (latest 5)
+
+### AI Image Selling: A Complete Guide to $300-$3000/mo Side Income
+URL: https://topdigg.com/money-lab/ai-image-selling-2026 | Date: 2026-09-10 | Categories: 技能变现
+Earnings: 月入 $300-$3000
+Difficulty: 简单
+Time: 每天 1-2 小时
+
+Generate images with AI tools and sell on international stock platforms. No design background needed. $300-$3000/mo实战指南。
 
 ### PPT Design: From Side Gig to $4000/mo
 URL: https://topdigg.com/money-lab/ppt-earning-2026 | Date: 2026-09-05 | Categories: 技能变现

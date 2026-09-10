@@ -1,6 +1,27 @@
 {
   "posts": [
     {
+      "slug": "ai-image-selling-2026",
+      "date": "2026-09-10",
+      "author": "TopDigg",
+      "tags": [
+        "AI图片",
+        "副业",
+        "图库销售",
+        "被动收入",
+        "技能变现"
+      ],
+      "categories": [
+        "技能变现"
+      ],
+      "coverImage": "/images/money-lab/ai-image-cover.jpg",
+      "earnings": "月入 $300-$3000",
+      "difficulty": "简单",
+      "timeRequired": "每天 1-2 小时",
+      "title": "Bán Ảnh AI: Hướng Dẫn Hoàn Chỉnh Thu Nhập $300-$3000/Tháng",
+      "description": "Tạo ảnh bằng AI và bán trên các nền tảng stock quốc tế. Không cần nền tảng thiết kế. Thu nhập $300-$3000/tháng."
+    },
+    {
       "slug": "ppt-earning-2026",
       "date": "2026-09-05",
       "author": "TopDigg",

@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "slug": "ai-image-selling-2026",
+      "title": {
+        "en": "AI Image Selling: A Complete Guide to $300-$3000/mo Side Income",
+        "ja": "AI画像販売：普通人向け副業月収$300-$3000完全ガイド",
+        "vi": "Bán Ảnh AI: Hướng Dẫn Hoàn Chỉnh Thu Nhập $300-$3000/Tháng",
+        "zh-Hans": "AI图片销售：普通人副业月入$300-$3000的完整指南",
+        "zh-Hant": "AI圖片銷售：普通人副業月入$300-$3000的完整指南"
+      },
+      "description": {
+        "en": "Generate images with AI tools and sell on international stock platforms. No design background needed. $300-$3000/mo实战指南。",
+        "ja": "AIツールで画像を生成し、海外ストックプラットフォームで販売。デザイン不要、月収$300-$3000。",
+        "vi": "Tạo ảnh bằng AI và bán trên các nền tảng stock quốc tế. Không cần nền tảng thiết kế. Thu nhập $300-$3000/tháng.",
+        "zh-Hans": "通过AI工具生成图片，在国外图库平台销售，无需设计基础，月入$300-$3000的实战指南。",
+        "zh-Hant": "通過AI工具生成圖片，在國外圖庫平台銷售，無需設計基礎，月入$300-$3000的實戰指南。"
+      },
+      "date": "2026-09-10",
+      "author": "TopDigg",
+      "tags": [
+        "AI图片",
+        "副业",
+        "图库销售",
+        "被动收入",
+        "技能变现"
+      ],
+      "categories": [
+        "技能变现"
+      ],
+      "coverImage": "/images/money-lab/ai-image-cover.jpg",
+      "earnings": "月入 $300-$3000",
+      "difficulty": "简单",
+      "timeRequired": "每天 1-2 小时"
+    },
+    {
       "slug": "ppt-earning-2026",
       "title": {
         "en": "PPT Design: From Side Gig to $4000/mo",
