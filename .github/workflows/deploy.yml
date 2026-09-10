@@ -52,7 +52,27 @@ jobs:
           # --prebuilt: upload the already-built .vercel/output without triggering
           # a server-side rebuild. This avoids the 20+ min Chromium prerender
           # on Vercel's infrastructure.
-          npx vercel@latest deploy --prod --yes --prebuilt --no-wait --token=${{ secrets.VERCEL_TOKEN }}
+          # NOTE: do NOT use --no-wait; it masks deploy failures causing CI to report
+          # success while Vercel serves stale content from its edge cache.
+          DEPLOYMENT_URL=$(npx vercel@latest deploy --prod --yes --prebuilt --token=${{ secrets.VERCEL_TOKEN }})
+          echo "Deployment URL: $DEPLOYMENT_URL"
+
+          # Poll until deployment is ready (up to 5 minutes)
+          for i in $(seq 1 30); do
+            STATUS=$(npx vercel@latest inspect "$DEPLOYMENT_URL" --token=${{ secrets.VERCEL_TOKEN }} | grep -E '"state"|"ready"|"error"' | head -1)
+            echo "Check $i: $STATUS"
+            if echo "$STATUS" | grep -q "READY"; then
+              echo "✅ Deployment is live"
+              break
+            elif echo "$STATUS" | grep -q "ERROR"; then
+              echo "❌ Deployment failed"
+              exit 1
+            fi
+            sleep 10
+          done
+
+          # Verify money-lab is in the deployed index.html
+          curl -s "$DEPLOYMENT_URL/" | grep -q "money-lab" && echo "✅ money-lab nav verified in deployment" || { echo "❌ money-lab nav NOT found in deployment"; exit 1; }
         env:
           VERCEL_ORG_ID: team_CrV6muN0s3QNDJ3vrabttjLR
           VERCEL_PROJECT_ID: prj_5vnaBgPn0LKiEBPxWzhKSICpWUAS
