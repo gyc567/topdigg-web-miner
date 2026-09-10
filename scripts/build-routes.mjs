@@ -26,6 +26,7 @@ const STATIC_PATHS = [
   "/blog",
   "/ai-products",
   "/ai-daily",
+  "/money-lab",
   "/twitter",
   "/columns/twitter",
   "/external-links",
@@ -77,6 +78,17 @@ function readAiProductsSlugs() {
   }
 }
 
+function readMoneyLabSlugs() {
+  const p = path.join(projectRoot, "src/lib/money-lab-meta.json");
+  if (!fs.existsSync(p)) return [];
+  try {
+    const data = JSON.parse(fs.readFileSync(p, "utf8"));
+    return (data.posts || []).map((r) => r.slug).filter(Boolean);
+  } catch {
+    return [];
+  }
+}
+
 function readTwitterSlugs() {
   const p = path.join(projectRoot, "src/config/site.ts");
   if (!fs.existsSync(p)) return [];
@@ -111,6 +123,7 @@ export function buildRoutes(options = {}) {
   const twitterSlugs = readTwitterSlugs();
   const aiDailySlugs = readAiDailySlugs();
   const aiProductsSlugs = readAiProductsSlugs();
+  const moneyLabSlugs = readMoneyLabSlugs();
 
   const cutoff = Date.now() - archiveAfterDays * 24 * 60 * 60 * 1000;
   const recentBlogSlugs = skipArchive
@@ -122,6 +135,7 @@ export function buildRoutes(options = {}) {
     ...twitterSlugs.map((s) => `/twitter/${s}`),
     ...aiDailySlugs.map((s) => `/ai-daily/${s}`),
     ...aiProductsSlugs.map((s) => `/ai-products/${s}`),
+    ...moneyLabSlugs.map((s) => `/money-lab/${s}`),
   ];
 
   return [...STATIC_PATHS, ...detailPaths];

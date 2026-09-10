@@ -158,5 +158,16 @@
         "sources": "情報源"
       }
     }
+  },
+  "moneyLab": {
+    "indexTitle": "ゼロバリアメージぇ研究所",
+    "indexDesc": " реальные способы заработка без门槛",
+    "searchPlaceholder": "ケースを検索...",
+    "resultsCount": "{{count}} 件のケースが見つかりました",
+    "noResults": "ケースが見つかりませんでした",
+    "noResultsHint": "別のキーワードを試すか、フィルターをクリアしてください",
+    "clearAll": "すべてのフィルターをクリア",
+    "allCategories": "すべてのカテゴリ",
+    "pageOf": "{{page}} / {{total}} ページ"
   }
 }

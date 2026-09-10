@@ -164,6 +164,7 @@ function buildLlmsTxt() {
   const meta = readJson(path.join(PROJECT_ROOT, "src/lib/blog-meta.json"));
   const twitterAnalyses = readTwitterAnalyses();
   const aiProducts = readAIProductsMeta();
+  const moneyLabMeta = readJson(path.join(PROJECT_ROOT, "src/lib/money-lab-meta.json"));
   const BASE = "https://topdigg.com";
 
   const lines = [
@@ -188,6 +189,7 @@ function buildLlmsTxt() {
           "/blog": "All articles",
           "/ai-products": "Deep analyses of profitable AI products",
           "/ai-daily": "Daily AI industry news digest",
+          "/money-lab": "Zero-barrier money-making case studies",
           "/twitter": "In-depth Twitter account analysis reports",
           "/columns/twitter": "Curated Twitter growth accounts",
           "/external-links": "Curated external resources",
@@ -225,6 +227,23 @@ function buildLlmsTxt() {
     lines.push(`URL: ${BASE}/ai-products/${product.slug} | Date: ${product.date} | Author: ${product.author}`);
     lines.push(`Product: ${product.product?.name || ""} | Category: ${product.product?.category || ""}`);
     if (product.product?.revenue) lines.push(`Revenue: ${product.product.revenue}`);
+    lines.push("");
+    if (desc) lines.push(desc.slice(0, 300));
+    lines.push("");
+  }
+
+  // Money Lab case studies (latest 5)
+  lines.push("## Zero-Barrier Money Lab (latest 5)");
+  lines.push("");
+  const sortedMoneyLab = [...(moneyLabMeta.posts || [])].sort((a, b) => new Date(b.date) - new Date(a.date));
+  for (const post of sortedMoneyLab.slice(0, 5)) {
+    const title = post.title?.en || post.title?.["zh-Hans"] || Object.values(post.title || {})[0] || post.slug;
+    const desc = post.description?.en || post.description?.["zh-Hans"] || Object.values(post.description || {})[0] || "";
+    lines.push(`### ${title}`);
+    lines.push(`URL: ${BASE}/money-lab/${post.slug} | Date: ${post.date} | Categories: ${(post.categories || []).join(", ")}`);
+    if (post.earnings) lines.push(`Earnings: ${post.earnings}`);
+    if (post.difficulty) lines.push(`Difficulty: ${post.difficulty}`);
+    if (post.timeRequired) lines.push(`Time: ${post.timeRequired}`);
     lines.push("");
     if (desc) lines.push(desc.slice(0, 300));
     lines.push("");

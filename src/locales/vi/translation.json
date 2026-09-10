@@ -158,5 +158,16 @@
         "sources": "Nguồn dữ liệu"
       }
     }
+  },
+  "moneyLab": {
+    "indexTitle": "Phòng thí nghiệm kiếm tiền",
+    "indexDesc": "Chia sẻ các trường hợp kiếm tiền thực tế, không cần vốn",
+    "searchPlaceholder": "Tìm kiếm trường hợp...",
+    "resultsCount": "Tìm thấy {{count}} trường hợp",
+    "noResults": "Không tìm thấy trường hợp nào",
+    "noResultsHint": "Thử từ khóa khác hoặc xóa bộ lọc",
+    "clearAll": "Xóa tất cả bộ lọc",
+    "allCategories": "Tất cả danh mục",
+    "pageOf": "Trang {{page}} / {{total}}"
   }
 }

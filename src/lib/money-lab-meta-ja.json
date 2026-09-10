@@ -1,0 +1,44 @@
+{
+  "posts": [
+    {
+      "slug": "ppt-earning-2026",
+      "date": "2026-09-05",
+      "author": "TopDigg",
+      "tags": [
+        "技能变现",
+        "PPT设计",
+        "副业",
+        "设计师"
+      ],
+      "categories": [
+        "技能变现"
+      ],
+      "coverImage": "/images/money-lab/ppt-cover.jpg",
+      "earnings": "月入 5000-30000 元",
+      "difficulty": "中等",
+      "timeRequired": "每天 2-3 小时",
+      "title": "PPTデザイン：副業から月収3万元へ",
+      "description": "PPTが作れれば赚钱できる。"
+    },
+    {
+      "slug": "xiaohongshu-daihuo-2026",
+      "date": "2026-09-01",
+      "author": "TopDigg",
+      "tags": [
+        "电商带货",
+        "小红书",
+        "副业",
+        "新手入门"
+      ],
+      "categories": [
+        "电商带货"
+      ],
+      "coverImage": "/images/money-lab/xiaohongshu-cover.jpg",
+      "earnings": "月入 5000-15000 元",
+      "difficulty": "简单",
+      "timeRequired": "每天 1-2 小时",
+      "title": "小红书アラフォー：普通人から月収1万元へ",
+      "description": "フォロワー不要。スマホ一つで始められるアフィリエイト。"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "posts": [
+    {
+      "slug": "ppt-earning-2026",
+      "date": "2026-09-05",
+      "author": "TopDigg",
+      "tags": [
+        "技能变现",
+        "PPT设计",
+        "副业",
+        "设计师"
+      ],
+      "categories": [
+        "技能变现"
+      ],
+      "coverImage": "/images/money-lab/ppt-cover.jpg",
+      "earnings": "月入 5000-30000 元",
+      "difficulty": "中等",
+      "timeRequired": "每天 2-3 小时",
+      "title": "Thiết kế PPT: Từ việc phụ đến thu nhập 40 triệu/tháng",
+      "description": "Nếu bạn làm được PPT, bạn có thể kiếm tiền."
+    },
+    {
+      "slug": "xiaohongshu-daihuo-2026",
+      "date": "2026-09-01",
+      "author": "TopDigg",
+      "tags": [
+        "电商带货",
+        "小红书",
+        "副业",
+        "新手入门"
+      ],
+      "categories": [
+        "电商带货"
+      ],
+      "coverImage": "/images/money-lab/xiaohongshu-cover.jpg",
+      "earnings": "月入 5000-15000 元",
+      "difficulty": "简单",
+      "timeRequired": "每天 1-2 小时",
+      "title": "Kiếm tiền trên Xiaohongshu: Từ số 0 đến thu nhập 15 triệu/tháng",
+      "description": "Không cần follower. Bắt đầu kiếm tiền chỉ với điện thoại."
+    }
+  ]
+}

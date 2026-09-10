@@ -19,6 +19,8 @@ const AIDailyIndex = lazy(() => import("./pages/AIDailyIndex"));
 const AIDailyPost = lazy(() => import("./pages/AIDailyPost"));
 const AIProductsIndex = lazy(() => import("./pages/AIProductsIndex"));
 const AIProductsPost = lazy(() => import("./pages/AIProductsPost"));
+const MoneyLabIndex = lazy(() => import("./pages/MoneyLabIndex"));
+const MoneyLabPost = lazy(() => import("./pages/MoneyLabPost"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 const App = () => (
@@ -36,6 +38,8 @@ const App = () => (
               <Route path="/ai-daily/:slug" element={<AIDailyPost />} />
           <Route path="/ai-products" element={<AIProductsIndex />} />
           <Route path="/ai-products/:slug" element={<AIProductsPost />} />
+              <Route path="/money-lab" element={<MoneyLabIndex />} />
+              <Route path="/money-lab/:slug" element={<MoneyLabPost />} />
               <Route path="/twitter" element={<TwitterIndex />} />
               <Route path="/twitter/:slug" element={<TwitterPost />} />
               <Route path="/columns/:id" element={<ColumnPage />} />

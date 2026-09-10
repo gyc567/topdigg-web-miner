@@ -158,5 +158,16 @@
         "sources": "Sources"
       }
     }
+  },
+  "moneyLab": {
+    "indexTitle": "Zero-Barrier Money Lab",
+    "indexDesc": "Real, replicable money-making case studies",
+    "searchPlaceholder": "Search cases...",
+    "resultsCount": "Found {{count}} cases",
+    "noResults": "No cases found",
+    "noResultsHint": "Try different keywords or clear filters",
+    "clearAll": "Clear all filters",
+    "allCategories": "All categories",
+    "pageOf": "Page {{page}} of {{total}}"
   }
 }

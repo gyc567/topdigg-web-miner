@@ -93,6 +93,21 @@ export type AIProduct = {
   sources?: Array<{ label: string; url: string }>;
 };
 
+export type MoneyLabPost = {
+  slug: string;
+  title: LocalizedText;
+  description: LocalizedText;
+  date: string; // ISO date
+  author: string;
+  tags: string[];
+  categories: string[]; // "电商带货" | "技能变现" | "工具推荐" | "信息差"
+  content: LocalizedText;
+  coverImage?: string;
+  earnings?: string; // e.g. "$500/月"
+  difficulty?: string; // "简单" | "中等" | "困难"
+  timeRequired?: string; // e.g. "每天2小时"
+};
+
 export const siteConfig = {
   siteName: "TopDigg",
   baseUrl: "https://www.topdigg.com",
@@ -148,6 +163,16 @@ export const siteConfig = {
           "vi": "Phân tích Twitter"
         }, 
         href: "/twitter" 
+      },
+      {
+        label: {
+          "zh-Hans": "赚钱实验室",
+          "zh-Hant": "賺錢實驗室",
+          "en": "Money Lab",
+          "ja": "マネーラボ",
+          "vi": "Phòng thí nghiệm tiền"
+        },
+        href: "/money-lab"
       },
       {
         label: {

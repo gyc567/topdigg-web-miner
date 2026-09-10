@@ -1,4 +1,4 @@
-// 生成 public/sitemap.xml：静态路由 + 博客文章 + Twitter 分析 + AI 日报 + AI 产品分析
+// 生成 public/sitemap.xml：静态路由 + 博客文章 + Twitter 分析 + AI 日报 + AI 产品分析 + 赚钱实验室
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -13,6 +13,7 @@ const staticRoutes = [
   { loc: '/blog', priority: '0.9' },
   { loc: '/ai-products', priority: '0.9' },
   { loc: '/ai-daily', priority: '0.8' },
+  { loc: '/money-lab', priority: '0.8' },
   { loc: '/twitter', priority: '0.8' },
   { loc: '/columns/twitter', priority: '0.7' },
   { loc: '/external-links', priority: '0.5' },
@@ -49,6 +50,16 @@ if (fs.existsSync(aiProductsMetaPath)) {
   } catch {}
 }
 
+// 赚钱实验室：从 meta JSON 取 slug（构建产物）
+let moneyLabPosts = [];
+const moneyLabMetaPath = path.join(root, 'src/lib/money-lab-meta.json');
+if (fs.existsSync(moneyLabMetaPath)) {
+  try {
+    const data = JSON.parse(fs.readFileSync(moneyLabMetaPath, 'utf-8'));
+    moneyLabPosts = data.posts || [];
+  } catch {}
+}
+
 const urls = [
   ...staticRoutes.map((r) => ({ loc: `${BASE}${r.loc}`, priority: r.priority })),
   ...blogData.posts.map((p) => ({
@@ -63,6 +74,11 @@ const urls = [
   })),
   ...(aiProductsData.products || []).map((p) => ({
     loc: `${BASE}/ai-products/${p.slug}`,
+    lastmod: p.date,
+    priority: '0.8',
+  })),
+  ...moneyLabPosts.map((p) => ({
+    loc: `${BASE}/money-lab/${p.slug}`,
     lastmod: p.date,
     priority: '0.8',
   })),
@@ -83,4 +99,4 @@ ${urls
 
 const out = path.join(root, 'public/sitemap.xml');
 fs.writeFileSync(out, xml);
-console.log(`✅ Generated sitemap with ${urls.length} urls (${(aiProductsData.products || []).length} AI products, ${aiDailySlugs.length} AI daily reports)`);
+console.log(`✅ Generated sitemap with ${urls.length} urls (${(aiProductsData.products || []).length} AI products, ${aiDailySlugs.length} AI daily reports, ${moneyLabPosts.length} money lab posts)`);

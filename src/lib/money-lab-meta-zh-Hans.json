@@ -1,0 +1,44 @@
+{
+  "posts": [
+    {
+      "slug": "ppt-earning-2026",
+      "date": "2026-09-05",
+      "author": "TopDigg",
+      "tags": [
+        "技能变现",
+        "PPT设计",
+        "副业",
+        "设计师"
+      ],
+      "categories": [
+        "技能变现"
+      ],
+      "coverImage": "/images/money-lab/ppt-cover.jpg",
+      "earnings": "月入 5000-30000 元",
+      "difficulty": "中等",
+      "timeRequired": "每天 2-3 小时",
+      "title": "PPT定制：设计师从兼职到月入3万的变现之路",
+      "description": "会做PPT就能赚钱。不需要是专业设计师，只要审美过关、肯学肯做。"
+    },
+    {
+      "slug": "xiaohongshu-daihuo-2026",
+      "date": "2026-09-01",
+      "author": "TopDigg",
+      "tags": [
+        "电商带货",
+        "小红书",
+        "副业",
+        "新手入门"
+      ],
+      "categories": [
+        "电商带货"
+      ],
+      "coverImage": "/images/money-lab/xiaohongshu-cover.jpg",
+      "earnings": "月入 5000-15000 元",
+      "difficulty": "简单",
+      "timeRequired": "每天 1-2 小时",
+      "title": "小红书带货：普通人从0到月入过万",
+      "description": "无需粉丝基础，一部手机就能开始的带货之路。分享真实案例和具体操作步骤。"
+    }
+  ]
+}

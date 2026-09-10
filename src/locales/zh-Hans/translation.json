@@ -158,5 +158,16 @@
         "sources": "数据来源"
       }
     }
+  },
+  "moneyLab": {
+    "indexTitle": "零门槛赚钱实验室",
+    "indexDesc": "分享真实可复制的零门槛赚钱案例",
+    "searchPlaceholder": "搜索案例...",
+    "resultsCount": "找到 {{count}} 个案例",
+    "noResults": "未找到案例",
+    "noResultsHint": "尝试其他关键词或清除筛选条件",
+    "clearAll": "清除所有筛选",
+    "allCategories": "全部分类",
+    "pageOf": "第 {{page}} / {{total}} 页"
   }
 }

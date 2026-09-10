@@ -5,12 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run build:blog && npm run build:ai-products && npm run build:sitemap && npm run build:llms && npm run build:vite && npm run build:prerender",
+    "build": "npm run build:blog && npm run build:money-lab && npm run build:ai-products && npm run build:sitemap && npm run build:llms && npm run build:vite && npm run build:prerender",
     "build:fast": "node scripts/build-fast.js",
     "build:full": "npm run build",
     "build:vite": "vite build",
-    "build:dev": "npm run build:blog && npm run build:ai-products && npm run build:sitemap && npm run build:llms && vite build --mode development",
+    "build:dev": "npm run build:blog && npm run build:money-lab && npm run build:ai-products && npm run build:sitemap && npm run build:llms && vite build --mode development",
     "build:blog": "node scripts/build-blog.js",
+    "build:money-lab": "node scripts/build-money-lab.js",
     "build:ai-products": "node scripts/build-ai-products.js",
     "build:sitemap": "node scripts/build-sitemap.js",
     "build:llms": "node scripts/build-llms.mjs",
@@ -46,6 +47,7 @@
     "react-helmet-async": "^2.0.5",
     "react-i18next": "^13.5.0",
     "react-router-dom": "^6.30.1",
+    "react-use": "^17.6.1",
     "sonner": "^1.7.4",
     "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7"

@@ -1,0 +1,68 @@
+{
+  "posts": [
+    {
+      "slug": "ppt-earning-2026",
+      "title": {
+        "en": "PPT Design: From Side Gig to $4000/mo",
+        "ja": "PPTデザイン：副業から月収3万元へ",
+        "vi": "Thiết kế PPT: Từ việc phụ đến thu nhập 40 triệu/tháng",
+        "zh-Hans": "PPT定制：设计师从兼职到月入3万的变现之路",
+        "zh-Hant": "PPT定制：設計師從兼職到月入3萬的變現之路"
+      },
+      "description": {
+        "en": "If you can make PPTs, you can earn. No need to be a professional designer.",
+        "ja": "PPTが作れれば赚钱できる。",
+        "vi": "Nếu bạn làm được PPT, bạn có thể kiếm tiền.",
+        "zh-Hans": "会做PPT就能赚钱。不需要是专业设计师，只要审美过关、肯学肯做。",
+        "zh-Hant": "會做PPT就能賺錢。不需要是專業設計師，只要審美過關、肯學肯做。"
+      },
+      "date": "2026-09-05",
+      "author": "TopDigg",
+      "tags": [
+        "技能变现",
+        "PPT设计",
+        "副业",
+        "设计师"
+      ],
+      "categories": [
+        "技能变现"
+      ],
+      "coverImage": "/images/money-lab/ppt-cover.jpg",
+      "earnings": "月入 5000-30000 元",
+      "difficulty": "中等",
+      "timeRequired": "每天 2-3 小时"
+    },
+    {
+      "slug": "xiaohongshu-daihuo-2026",
+      "title": {
+        "en": "Xiaohongshu Affiliate: From Zero to $1500/mo",
+        "ja": "小红书アラフォー：普通人から月収1万元へ",
+        "vi": "Kiếm tiền trên Xiaohongshu: Từ số 0 đến thu nhập 15 triệu/tháng",
+        "zh-Hans": "小红书带货：普通人从0到月入过万",
+        "zh-Hant": "小紅書帶貨：普通人從0到月入過萬"
+      },
+      "description": {
+        "en": "No follower base needed. Start affiliate marketing with just a phone. Real case study with step-by-step guide.",
+        "ja": "フォロワー不要。スマホ一つで始められるアフィリエイト。",
+        "vi": "Không cần follower. Bắt đầu kiếm tiền chỉ với điện thoại.",
+        "zh-Hans": "无需粉丝基础，一部手机就能开始的带货之路。分享真实案例和具体操作步骤。",
+        "zh-Hant": "無需粉絲基礎，一部手機就能開始的帶貨之路。分享真實案例和具體操作步驟。"
+      },
+      "date": "2026-09-01",
+      "author": "TopDigg",
+      "tags": [
+        "电商带货",
+        "小红书",
+        "副业",
+        "新手入门"
+      ],
+      "categories": [
+        "电商带货"
+      ],
+      "coverImage": "/images/money-lab/xiaohongshu-cover.jpg",
+      "earnings": "月入 5000-15000 元",
+      "difficulty": "简单",
+      "timeRequired": "每天 1-2 小时"
+    }
+  ]
+}

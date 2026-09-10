@@ -158,5 +158,16 @@
         "sources": "數據來源"
       }
     }
+  },
+  "moneyLab": {
+    "indexTitle": "零門檻賺錢實驗室",
+    "indexDesc": "分享真實可複製的零門檻賺錢案例",
+    "searchPlaceholder": "搜尋案例...",
+    "resultsCount": "找到 {{count}} 個案例",
+    "noResults": "未找到案例",
+    "noResultsHint": "嘗試其他關鍵詞或清除篩選條件",
+    "clearAll": "清除所有篩選",
+    "allCategories": "全部分類",
+    "pageOf": "第 {{page}} / {{total}} 頁"
   }
 }
