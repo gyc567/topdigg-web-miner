@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-09-10-ai-daily",
+      "date": "2026-09-10",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "OpenAI Releases GPT-6 Astra for Professional Work Scenarios",
+      "description": "OpenAI releases GPT-6 Astra, now available on ChatGPT Work, Codex, and API, priced at $10 per million input tokens and $50 per million output tokens.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-09-09-ai-daily",
       "date": "2026-09-09",
       "author": "比特财商",

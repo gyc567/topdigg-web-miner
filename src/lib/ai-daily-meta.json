@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-09-10-ai-daily",
+      "title": {
+        "en": "OpenAI Releases GPT-6 Astra for Professional Work Scenarios",
+        "ja": "OpenAIがGPT-6 Astraを発表、プロフェッショナルワークシナリオ向け",
+        "vi": "OpenAI phát hành GPT-6 Astra cho các kịch bản công việc chuyên nghiệp",
+        "zh-Hans": "OpenAI 发布 GPT-6 Astra，面向专业工作场景",
+        "zh-Hant": "OpenAI 發布 GPT-6 Astra，面向專業工作場景"
+      },
+      "description": {
+        "en": "OpenAI releases GPT-6 Astra, now available on ChatGPT Work, Codex, and API, priced at $10 per million input tokens and $50 per million output tokens.",
+        "ja": "OpenAIはGPT-6 Astraを発表。ChatGPT Work、Codex、APIで提供開始しており、価格は入力1Mトークンあたり$10、出力1Mトークンあたり$50。",
+        "vi": "OpenAI phát hành GPT-6 Astra, hiện đã có trên ChatGPT Work, Codex và API, với giá $10/m triệu token đầu vào và $50/m triệu token đầu ra.",
+        "zh-Hans": "OpenAI 发布 GPT-6 Astra，已在 ChatGPT Work、Codex 和 API 提供，定价为每百万输入 token $10、输出 token $50。",
+        "zh-Hant": "OpenAI 發布 GPT-6 Astra，已在 ChatGPT Work、Codex 和 API 提供，定價為每百萬輸入 token $10、輸出 token $50。"
+      },
+      "date": "2026-09-10",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": {
+            "en": "比特财商",
+            "ja": "比特财商",
+            "vi": "比特财商",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特財商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-09-09-ai-daily",
       "title": {
         "en": "OpenAI Releases ChatGPT Images 2.5 Image Model",
