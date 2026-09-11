@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-09-11-ai-daily",
+      "date": "2026-09-11",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "DeepSeek 發布 V4.1-Flash，API 價格同步下調",
+      "description": "DeepSeek 發布全新模型結構系列中最小尺寸的模型 V4.1-Flash，具備原生多模態視覺理解能力，評測表現優異，API 價格同步下調。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "比特財商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-09-10-ai-daily",
       "date": "2026-09-10",
       "author": "比特财商",

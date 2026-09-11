@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-09-11-ai-daily",
+      "title": {
+        "en": "DeepSeek Releases V4.1-Flash with Simultaneous API Price Reduction",
+        "ja": "DeepSeek が V4.1-Flash をリリース、API 価格も同時に引き下げ",
+        "vi": "DeepSeek Phát Hành V4.1-Flash, Giá API Đồng Thời Giảm",
+        "zh-Hans": "DeepSeek 发布 V4.1-Flash，API 价格同步下调",
+        "zh-Hant": "DeepSeek 發布 V4.1-Flash，API 價格同步下調"
+      },
+      "description": {
+        "en": "DeepSeek releases DeepSeek-V4.1-Flash, the smallest model in the new model architecture series, featuring native multimodal visual understanding with excellent benchmark performance and synchronized API price cuts.",
+        "ja": "DeepSeek が新モデルアーキテクチャシリーズで最も小型のモデル V4.1-Flash をリリースしました。ネイティブマルチモーダル視覚理解能力を備え、ベンチマークでは優れた性能を示し、API 価格も同時に引き下げられました。",
+        "vi": "DeepSeek phát hành DeepSeek-V4.1-Flash, model nhỏ nhất trong series cấu trúc model mới, có khả năng hiểu hình ảnh đa chế độ native, hiệu suất benchmark xuất sắc, giá API đồng thời được điều chỉnh giảm.",
+        "zh-Hans": "DeepSeek 发布全新模型结构系列中最小尺寸的模型 V4.1-Flash，具备原生多模态视觉理解能力，评测表现优异，API 价格同步下调。",
+        "zh-Hant": "DeepSeek 發布全新模型結構系列中最小尺寸的模型 V4.1-Flash，具備原生多模態視覺理解能力，評測表現優異，API 價格同步下調。"
+      },
+      "date": "2026-09-11",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": {
+            "en": "比特财商",
+            "ja": "比特财商",
+            "vi": "比特财商",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特財商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-09-10-ai-daily",
       "title": {
         "en": "OpenAI Releases GPT-6 Astra for Professional Work Scenarios",
