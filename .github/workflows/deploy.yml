@@ -47,6 +47,15 @@ jobs:
           VERCEL_ORG_ID: team_CrV6muN0s3QNDJ3vrabttjLR
           VERCEL_PROJECT_ID: prj_5vnaBgPn0LKiEBPxWzhKSICpWUAS
 
+      # Fix target mismatch: vercel build generates target:preview but deploy uses --prod.
+      # Patching builds.json allows --prebuilt to work correctly.
+      - name: Fix builds.json target
+        run: |
+          if [ -f .vercel/output/builds.json ]; then
+            sed -i 's/"target": "preview"/"target": "production"/g' .vercel/output/builds.json
+            echo "✅ Fixed builds.json target to production"
+          fi
+
       - name: Deploy to Vercel
         run: |
           # --prebuilt: upload the already-built .vercel/output without triggering

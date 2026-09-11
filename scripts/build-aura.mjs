@@ -35,11 +35,11 @@ function normalizeDescription(body, locale) {
   const firstPara = lines.find(l => l.length > 20) || "";
   // Simple multilingual summary based on locale
   const summaries = {
-    "zh-Hans": "首个 Aura 品牌正式构建（macOS Apple Silicon / Intel + Windows x64）。注意：未签名构建，仅供测试，不可对外分发。",
-    "zh-Hant": "首個 Aura 品牌正式構建（macOS Apple Silicon / Intel + Windows x64）。注意：未簽名構建，僅供測試，不可對外分發。",
-    "en": "First official Aura-branded build (macOS Apple Silicon / Intel + Windows x64). Note: Unsigned build, testing only, not for distribution.",
-    "ja": "首个Auraブランド正式ビルド（macOS Apple Silicon / Intel + Windows x64）。注意：未署名ビルド、テストのみ。",
-    "vi": "Bản chính thức đầu tiên mang thương hiệu Aura (macOS Apple Silicon / Intel + Windows x64). Lưu ý: Bản chưa ký, chỉ để thử nghiệm.",
+    "zh-Hans": "首个 Aura 品牌正式构建（macOS Apple Silicon / Intel + Windows x64）。",
+    "zh-Hant": "首個 Aura 品牌正式構建（macOS Apple Silicon / Intel + Windows x64）。",
+    "en": "First official Aura-branded build (macOS Apple Silicon / Intel + Windows x64).",
+    "ja": "首个Auraブランド正式ビルド（macOS Apple Silicon / Intel + Windows x64）。",
+    "vi": "Bản chính thức đầu tiên mang thương hiệu Aura (macOS Apple Silicon / Intel + Windows x64).",
   };
   return summaries[locale] || summaries["en"];
 }
