@@ -184,6 +184,16 @@ export const siteConfig = {
         },
         href: "/external-links"
       },
+      {
+        label: {
+          "zh-Hans": "Aura智能工作台",
+          "zh-Hant": "Aura智能工作台",
+          "en": "Aura Workbench",
+          "ja": "Auraワークベンチ",
+          "vi": "Aura Workbench"
+        },
+        href: "/aura-workbench"
+      },
     ] as NavLink[],
     mySites: [
       { 

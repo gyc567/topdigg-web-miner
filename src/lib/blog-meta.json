@@ -1,6 +1,94 @@
 {
   "posts": [
     {
+      "slug": "2026-09-11-tencent-teamai-cli-analysis",
+      "title": {
+        "zh-Hans": "腾讯 TeamAI CLI 深度解读：让每个团队真正实现 AI Native"
+      },
+      "description": {
+        "zh-Hans": "腾讯开源的 TeamAI CLI 是 AI Agent 团队协作框架，通过 Git 工作流实现团队 AI 能力的统一管理和持续积累。深入解析其三层闭环设计哲学、安装配置及核心功能。"
+      },
+      "date": "2026-09-11",
+      "author": "TopDigg",
+      "tags": [
+        "AI",
+        "团队协作",
+        "Claude",
+        "Cursor",
+        "工具"
+      ],
+      "categories": [
+        "AI工具",
+        "技术深度"
+      ]
+    },
+    {
+      "slug": "2026-09-09-metarsi-rsi-harness-analysis",
+      "title": {
+        "en": "MetaRSI/RSI-Harness Deep Analysis: An AI Tool That Builds Its Own Tools",
+        "ja": "MetaRSI/RSI-Harness 深層解析：自分でツールを作れるAIツール",
+        "vi": "MetaRSI/RSI-Harness Phân tích sâu: Công cụ AI có thể tự chế tạo công cụ của mình",
+        "zh-Hans": "MetaRSI/RSI-Harness 深度解析：一个能自己造工具的 AI 工具",
+        "zh-Hant": "MetaRSI/RSI-Harness 深度解析：一個能自己造工具的 AI 工具"
+      },
+      "description": {
+        "en": "Deep analysis of CosmosMind-ai/RSI-Harness: Meta-Recursive Self-Improving System. Genome turns AI harness configuration into a versionable, shareable, auto-generable directory; harness-rsi is a meta-tool built with its own capabilities that reads your history to generate personalized Genomes.",
+        "ja": "CosmosMind-ai/RSI-Harnessの深層解析：Meta-Recursive Self-Improving System。GenomeはAIのharness設定をバージョン化管理・共有・自動生成可能なディレクトリに変換する。harness-rsiは自らの能力で構築された、ユーザーの履歴を読んでパーソナライズされたGenomeを生成するメタツール。",
+        "vi": "Phân tích sâu RSI-Harness của CosmosMind-ai: Hệ thống Tự Cải Thiện Đệ Quy Siêu Cấp (Meta-Recursive Self-Improving System). Genome biến cấu hình harness của AI thành thư mục có thể versioning, chia sẻ và tạo tự động; harness-rsi là một meta-tool được xây dựng từ chính năng lực của nó, đọc lịch sử của bạn để tạo Genome cá nhân hóa.",
+        "zh-Hans": "深度解析 CosmosMind-ai/RSI-Harness：Meta-Recursive Self-Improving System。Genome 把 AI 的 harness 配置变成可版本化、可分享、可自动生成的目录；harness-rsi 则是一个用自身能力构建出来的、能读你历史记录生成个性化 Genome 的元工具。",
+        "zh-Hant": "深度解析 CosmosMind-ai/RSI-Harness：Meta-Recursive Self-Improving System。Genome 把 AI 的 harness 組態變成可版本化、可分享、可自動生成的目錄；harness-rsi 是一個用自身能力建構出來的、能讀你歷史記錄生成個性化 Genome 的元工具。"
+      },
+      "date": "2026-09-09",
+      "author": "TopDigg",
+      "tags": [
+        "RSI-Harness",
+        "MetaRSI",
+        "Genome",
+        "Recursive Self-Improving",
+        "Pi Coding Agent",
+        "AI Agent",
+        "Prompt Engineering",
+        "Open Source"
+      ],
+      "categories": [
+        "Deep Analysis",
+        "AI Tools",
+        "Open Source",
+        "Recursive Self-Improving"
+      ]
+    },
+    {
+      "slug": "2026-09-09-workbuddy-desktop-workbench",
+      "title": {
+        "en": "How to Build a Personal Desktop Workspace with WorkBuddy (Complete Beginner Guide)",
+        "ja": "WorkBuddyで個人デスクトップワークベンチを作る（ゼロからの完全入門ガイド）",
+        "vi": "Dựng Personal Desktop Workbench với WorkBuddy（Hướng dẫn từ Zero）",
+        "zh-Hans": "用 WorkBuddy 打造个人桌面工作台（零基础入门指南）",
+        "zh-Hant": "用 WorkBuddy 打造個人桌面工作台（零基礎入門指南）"
+      },
+      "description": {
+        "en": "A detailed guide on building a personal desktop workspace from scratch using WorkBuddy, including a complete 5-step tutorial, model selection strategy, prompt templates, design philosophy, and mobile deployment methods.",
+        "ja": "WorkBuddyを使ってゼロから個人用デスクトップワークベンチを作る方法を詳しく解説。5ステップ完全チュートリアル、モデル選択戦略、プロンプトテンプレート、デザイン哲学、モバイル展開方法を 포함。",
+        "vi": "Hướng dẫn chi tiết cách dựng personal desktop workbench từ đầu với WorkBuddy, bao gồm 5 bước hoàn chỉnh, chiến lược chọn model, prompt template, triết lý thiết kế và cách deploy lên mobile.",
+        "zh-Hans": "详细介绍如何用 WorkBuddy 从零打造个人桌面工作台，包含 5 个步骤的完整教程、模型选择策略、提示词模板、设计哲学和移动端部署方法。",
+        "zh-Hant": "詳細介紹如何用 WorkBuddy 從零打造個人桌面工作台，包含 5 個步驟的完整教程、模型選擇策略、提示詞模板、設計哲學和移動端部署方法。"
+      },
+      "date": "2026-09-09",
+      "author": "TopDigg",
+      "tags": [
+        "WorkBuddy",
+        "Personal Productivity",
+        "AI Workspace",
+        "Prompt Engineering",
+        "Workflow Automation"
+      ],
+      "categories": [
+        "Getting Started",
+        "AI Tools",
+        "Productivity"
+      ]
+    },
+    {
       "slug": "autohedge-analysis",
       "title": {
         "en": "AutoHedge: Architecture Analysis and Hands-On Tutorial of a Multi-Agent Autonomous Hedge Fund",

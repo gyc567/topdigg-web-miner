@@ -159,6 +159,12 @@
       }
     }
   },
+  "auraWorkbench": {
+    "indexTitle": "Aura ワークベンチ",
+    "downloadTitle": "ダウンロード",
+    "contact": "連絡先",
+    "wechat": "WeChat"
+  },
   "moneyLab": {
     "indexTitle": "ゼロから始める赚钱ラボ",
     "indexDesc": "実例で実証可能なゼロコスト赚钱術を共有",

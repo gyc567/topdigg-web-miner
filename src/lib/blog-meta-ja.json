@@ -1,6 +1,66 @@
 {
   "posts": [
     {
+      "slug": "2026-09-11-tencent-teamai-cli-analysis",
+      "date": "2026-09-11",
+      "author": "TopDigg",
+      "tags": [
+        "AI",
+        "团队协作",
+        "Claude",
+        "Cursor",
+        "工具"
+      ],
+      "categories": [
+        "AI工具",
+        "技术深度"
+      ],
+      "title": "腾讯 TeamAI CLI 深度解读：让每个团队真正实现 AI Native",
+      "description": "腾讯开源的 TeamAI CLI 是 AI Agent 团队协作框架，通过 Git 工作流实现团队 AI 能力的统一管理和持续积累。深入解析其三层闭环设计哲学、安装配置及核心功能。"
+    },
+    {
+      "slug": "2026-09-09-metarsi-rsi-harness-analysis",
+      "date": "2026-09-09",
+      "author": "TopDigg",
+      "tags": [
+        "RSI-Harness",
+        "MetaRSI",
+        "Genome",
+        "Recursive Self-Improving",
+        "Pi Coding Agent",
+        "AI Agent",
+        "Prompt Engineering",
+        "Open Source"
+      ],
+      "categories": [
+        "Deep Analysis",
+        "AI Tools",
+        "Open Source",
+        "Recursive Self-Improving"
+      ],
+      "title": "MetaRSI/RSI-Harness 深層解析：自分でツールを作れるAIツール",
+      "description": "CosmosMind-ai/RSI-Harnessの深層解析：Meta-Recursive Self-Improving System。GenomeはAIのharness設定をバージョン化管理・共有・自動生成可能なディレクトリに変換する。harness-rsiは自らの能力で構築された、ユーザーの履歴を読んでパーソナライズされたGenomeを生成するメタツール。"
+    },
+    {
+      "slug": "2026-09-09-workbuddy-desktop-workbench",
+      "date": "2026-09-09",
+      "author": "TopDigg",
+      "tags": [
+        "WorkBuddy",
+        "Personal Productivity",
+        "AI Workspace",
+        "Prompt Engineering",
+        "Workflow Automation"
+      ],
+      "categories": [
+        "Getting Started",
+        "AI Tools",
+        "Productivity"
+      ],
+      "title": "WorkBuddyで個人デスクトップワークベンチを作る（ゼロからの完全入門ガイド）",
+      "description": "WorkBuddyを使ってゼロから個人用デスクトップワークベンチを作る方法を詳しく解説。5ステップ完全チュートリアル、モデル選択戦略、プロンプトテンプレート、デザイン哲学、モバイル展開方法を 포함。"
+    },
+    {
       "slug": "autohedge-analysis",
       "date": "2026-09-07",
       "author": "TopDigg",

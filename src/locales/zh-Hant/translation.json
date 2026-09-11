@@ -159,6 +159,12 @@
       }
     }
   },
+  "auraWorkbench": {
+    "indexTitle": "Aura 智能工作台",
+    "downloadTitle": "下載安裝包",
+    "contact": "聯繫方式",
+    "wechat": "微信"
+  },
   "moneyLab": {
     "indexTitle": "零門檻賺錢實驗室",
     "indexDesc": "分享真實可複製的零門檻賺錢案例",

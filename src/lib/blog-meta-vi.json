@@ -1,6 +1,66 @@
 {
   "posts": [
     {
+      "slug": "2026-09-11-tencent-teamai-cli-analysis",
+      "date": "2026-09-11",
+      "author": "TopDigg",
+      "tags": [
+        "AI",
+        "团队协作",
+        "Claude",
+        "Cursor",
+        "工具"
+      ],
+      "categories": [
+        "AI工具",
+        "技术深度"
+      ],
+      "title": "腾讯 TeamAI CLI 深度解读：让每个团队真正实现 AI Native",
+      "description": "腾讯开源的 TeamAI CLI 是 AI Agent 团队协作框架，通过 Git 工作流实现团队 AI 能力的统一管理和持续积累。深入解析其三层闭环设计哲学、安装配置及核心功能。"
+    },
+    {
+      "slug": "2026-09-09-metarsi-rsi-harness-analysis",
+      "date": "2026-09-09",
+      "author": "TopDigg",
+      "tags": [
+        "RSI-Harness",
+        "MetaRSI",
+        "Genome",
+        "Recursive Self-Improving",
+        "Pi Coding Agent",
+        "AI Agent",
+        "Prompt Engineering",
+        "Open Source"
+      ],
+      "categories": [
+        "Deep Analysis",
+        "AI Tools",
+        "Open Source",
+        "Recursive Self-Improving"
+      ],
+      "title": "MetaRSI/RSI-Harness Phân tích sâu: Công cụ AI có thể tự chế tạo công cụ của mình",
+      "description": "Phân tích sâu RSI-Harness của CosmosMind-ai: Hệ thống Tự Cải Thiện Đệ Quy Siêu Cấp (Meta-Recursive Self-Improving System). Genome biến cấu hình harness của AI thành thư mục có thể versioning, chia sẻ và tạo tự động; harness-rsi là một meta-tool được xây dựng từ chính năng lực của nó, đọc lịch sử của bạn để tạo Genome cá nhân hóa."
+    },
+    {
+      "slug": "2026-09-09-workbuddy-desktop-workbench",
+      "date": "2026-09-09",
+      "author": "TopDigg",
+      "tags": [
+        "WorkBuddy",
+        "Personal Productivity",
+        "AI Workspace",
+        "Prompt Engineering",
+        "Workflow Automation"
+      ],
+      "categories": [
+        "Getting Started",
+        "AI Tools",
+        "Productivity"
+      ],
+      "title": "Dựng Personal Desktop Workbench với WorkBuddy（Hướng dẫn từ Zero）",
+      "description": "Hướng dẫn chi tiết cách dựng personal desktop workbench từ đầu với WorkBuddy, bao gồm 5 bước hoàn chỉnh, chiến lược chọn model, prompt template, triết lý thiết kế và cách deploy lên mobile."
+    },
+    {
       "slug": "autohedge-analysis",
       "date": "2026-09-07",
       "author": "TopDigg",

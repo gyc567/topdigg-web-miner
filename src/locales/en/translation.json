@@ -159,6 +159,12 @@
       }
     }
   },
+  "auraWorkbench": {
+    "indexTitle": "Aura Workbench",
+    "downloadTitle": "Download Installers",
+    "contact": "Contact",
+    "wechat": "WeChat"
+  },
   "moneyLab": {
     "indexTitle": "Zero-Barrier Money Lab",
     "indexDesc": "Real, replicable money-making case studies",

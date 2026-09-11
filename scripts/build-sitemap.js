@@ -14,6 +14,7 @@ const staticRoutes = [
   { loc: '/ai-products', priority: '0.9' },
   { loc: '/ai-daily', priority: '0.8' },
   { loc: '/money-lab', priority: '0.8' },
+  { loc: '/aura-workbench', priority: '0.8' },
   { loc: '/twitter', priority: '0.8' },
   { loc: '/columns/twitter', priority: '0.7' },
   { loc: '/external-links', priority: '0.5' },

@@ -30,6 +30,7 @@ const STATIC_PATHS = [
   "/twitter",
   "/columns/twitter",
   "/external-links",
+  "/aura-workbench",
   "/about",
   "/contact",
   "/privacy",

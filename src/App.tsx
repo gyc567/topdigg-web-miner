@@ -21,6 +21,7 @@ const AIProductsIndex = lazy(() => import("./pages/AIProductsIndex"));
 const AIProductsPost = lazy(() => import("./pages/AIProductsPost"));
 const MoneyLabIndex = lazy(() => import("./pages/MoneyLabIndex"));
 const MoneyLabPost = lazy(() => import("./pages/MoneyLabPost"));
+const AuraWorkbench = lazy(() => import("./pages/AuraWorkbench"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 const App = () => (
@@ -44,6 +45,7 @@ const App = () => (
               <Route path="/twitter/:slug" element={<TwitterPost />} />
               <Route path="/columns/:id" element={<ColumnPage />} />
               <Route path="/external-links" element={<ExternalLinks />} />
+              <Route path="/aura-workbench" element={<AuraWorkbench />} />
               <Route path="/about" element={<About />} />
               <Route path="/privacy" element={<Privacy />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

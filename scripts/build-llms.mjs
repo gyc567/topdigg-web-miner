@@ -190,6 +190,7 @@ function buildLlmsTxt() {
           "/ai-products": "Deep analyses of profitable AI products",
           "/ai-daily": "Daily AI industry news digest",
           "/money-lab": "Zero-barrier money-making case studies",
+          "/aura-workbench": "Desktop productivity workbench for Windows & macOS",
           "/twitter": "In-depth Twitter account analysis reports",
           "/columns/twitter": "Curated Twitter growth accounts",
           "/external-links": "Curated external resources",

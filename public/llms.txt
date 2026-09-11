@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-09-10T13:48:05.501Z
+Generated: 2026-09-11T10:35:05.290Z
 
 ## Site Overview
 
@@ -19,8 +19,15 @@ We deliver in-depth Twitter analytics and trend tracking for content creators an
 | Twitter Analytics | https://topdigg.com/twitter | In-depth Twitter account analysis reports |
 | Money Lab | https://topdigg.com/money-lab | Zero-barrier money-making case studies |
 | External Links | https://topdigg.com/external-links | Curated external resources |
+| Aura Workbench | https://topdigg.com/aura-workbench | Desktop productivity workbench for Windows & macOS |
 
 ## Latest Blog Posts (10 most recent)
+
+### 腾讯 TeamAI CLI 深度解读：让每个团队真正实现 AI Native
+URL: https://topdigg.com/blog/2026-09-11-tencent-teamai-cli-analysis | Date: 2026-09-11 | Author: TopDigg
+Tags: AI, 团队协作, Claude, Cursor, 工具
+
+腾讯开源的 TeamAI CLI 是 AI Agent 团队协作框架，通过 Git 工作流实现团队 AI 能力的统一管理和持续积累。深入解析其三层闭环设计哲学、安装配置及核心功能。
 
 ### MetaRSI/RSI-Harness Deep Analysis: An AI Tool That Builds Its Own Tools
 URL: https://topdigg.com/blog/2026-09-09-metarsi-rsi-harness-analysis | Date: 2026-09-09 | Author: TopDigg
@@ -75,12 +82,6 @@ URL: https://topdigg.com/blog/academic-research-skills-for-claude-code | Date: 2
 Tags: Claude Code, Academic Research, AI Assistant, Research Workflow, Paper Writing
 
 Academic Research Skills (ARS) is a comprehensive suite of Claude Code skills covering the full academic research pipeline. This article provides an in-depth analysis of its design philosophy, architecture, core features, and how to leverage AI for academic research.
-
-### Video Shotcraft: The AI Product Video Revolution - From 157 Shot Recipe Cards to Cinematic Marketing Videos
-URL: https://topdigg.com/blog/video-shotcraft | Date: 2026-09-03 | Author: TopDigg
-Tags: Video Shotcraft, AI Video Production, Remotion, Product Video, Motion Design, Claude Code
-
-Video Shotcraft is an AI agent skill that transforms Claude Code or Codex into a motion-design studio. This article provides an in-depth analysis of its design philosophy, 8-stage production pipeline, 157 shot recipe cards, and how to automatically generate cinematic product videos with AI.
 
 ## AI Product Analyses (latest 5)
 
@@ -174,4 +175,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 175 blog posts | 4 Twitter analyses | 7 AI products
+End of llms.txt | 176 blog posts | 4 Twitter analyses | 7 AI products
