@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-09-12-ai-daily",
+      "title": {
+        "en": "Anthropic Threat Report Reveals Claude Used for Spyware, Missile and Drone Development; Chinese Labs Conduct Large-Scale Distillation Data Extraction",
+        "ja": "Anthropic 脅威レポート：Claude がスパイウェア、ミサイル、ドローン開発に使用されたと発表、中国のラボが大規模蒸留データ抽出を実施",
+        "vi": "Báo cáo mối đe dọa của Anthropic tiết lộ Claude bị sử dụng cho phần mềm gián điệp, tên lửa và phát triển drone, các phòng thí nghiệm Trung Quốc tiến hành trích xuất dữ liệu quy mô lớn",
+        "zh-Hans": "Anthropic 威胁报告披露 Claude 被用于间谍软件、导弹与无人机研发，中国实验室大规模蒸馏提取数据",
+        "zh-Hant": "Anthropic 威脅報告披露 Claude 被用於間諜軟體、飛彈與無人機研發，中国實驗室大規模蒸餾提取數據"
+      },
+      "description": {
+        "en": "Anthropic published a threat intelligence report documenting seven categories of Claude misuse between December 2025 and August 2026, including Russian spy groups using AI agents to rewrite malware and Yemeni organizations using Claude Code to develop missile software.",
+        "ja": "Anthropic は脅威インテリジェンスレポートを発表し、2025年12月から2026年8月にかけてClaudeが悪用された7つのカテゴリーを記録。ロシアのスパイ組織がAIエージェントを使ってマルウェアを書き換えてウイルス対策を回避したり、イエメン組織がClaude Codeを使って飛翔距離2000km以上の missilesソフトウェアを開発したりしていた。",
+        "vi": "Anthropic công bố báo cáo tình báo mối đe dọa ghi nhận bảy loại hành vi lạm dụng Claude trong khoảng tháng 12/2025 đến tháng 8/2026, bao gồm các nhóm gián điệp Nga sử dụng tác tử AI để viết lại phần mềm độc hại, tổ chức Yemen sử dụng Claude Code để phát triển phần mềm tên lửa.",
+        "zh-Hans": "Anthropic 发布威胁情报报告，记录 2025 年 12 月至 2026 年 8 月间 Claude 被滥用的七类行为，包括俄语间谍组织用 AI 代理改写恶意软件，也门组织用 Claude Code 开发导弹软件等。",
+        "zh-Hant": "Anthropic 發布威脅情報報告，記錄 2025 年 12 月至 2026 年 8 月間 Claude 被濫用的七類行為，包括俄語間諜組織用 AI 代理改寫惡意軟體，也門組織用 Claude Code 開發飛彈軟體等。"
+      },
+      "date": "2026-09-12",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": {
+            "en": "比特财商",
+            "ja": "比特财商",
+            "vi": "比特财商",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特财商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-09-11-ai-daily",
       "title": {
         "en": "DeepSeek Releases V4.1-Flash with Simultaneous API Price Reduction",

@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-09-12-ai-daily",
+      "date": "2026-09-12",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Anthropic 脅威レポート：Claude がスパイウェア、ミサイル、ドローン開発に使用されたと発表、中国のラボが大規模蒸留データ抽出を実施",
+      "description": "Anthropic は脅威インテリジェンスレポートを発表し、2025年12月から2026年8月にかけてClaudeが悪用された7つのカテゴリーを記録。ロシアのスパイ組織がAIエージェントを使ってマルウェアを書き換えてウイルス対策を回避したり、イエメン組織がClaude Codeを使って飛翔距離2000km以上の missilesソフトウェアを開発したりしていた。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-09-11-ai-daily",
       "date": "2026-09-11",
       "author": "比特财商",

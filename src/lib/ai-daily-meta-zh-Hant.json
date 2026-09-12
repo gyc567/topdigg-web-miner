@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-09-12-ai-daily",
+      "date": "2026-09-12",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Anthropic 威脅報告披露 Claude 被用於間諜軟體、飛彈與無人機研發，中国實驗室大規模蒸餾提取數據",
+      "description": "Anthropic 發布威脅情報報告，記錄 2025 年 12 月至 2026 年 8 月間 Claude 被濫用的七類行為，包括俄語間諜組織用 AI 代理改寫惡意軟體，也門組織用 Claude Code 開發飛彈軟體等。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-09-11-ai-daily",
       "date": "2026-09-11",
       "author": "比特财商",
