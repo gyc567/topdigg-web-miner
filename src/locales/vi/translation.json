@@ -163,7 +163,33 @@
     "indexTitle": "Aura Workbench",
     "downloadTitle": "Tải xuống",
     "contact": "Liên hệ",
-    "wechat": "WeChat"
+    "wechat": "WeChat",
+    "features": {
+      "f1": {
+        "title": " không gian làm việc AI riêng tư",
+        "desc": "Chạy cục bộ — dữ liệu không bao giờ rời khỏi thiết bị của bạn. Không có lo ngại bảo mật đám mây."
+      },
+      "f2": {
+        "title": "Cấu hình mô hình AI linh hoạt",
+        "desc": "Chuyển đổi giữa DeepSeek, Ollama, OpenAI và hơn thế nữa — so sánh kết quả giữa các nhà cung cấp."
+      },
+      "f3": {
+        "title": "Mẫu Preset tùy chỉnh",
+        "desc": "Đóng gói prompt và quy trình thành tệp .dshpreset di động — nhập và chia sẻ chỉ bằng một lần nhấp."
+      },
+      "f4": {
+        "title": "Tạo PPT chỉ một lần nhấp",
+        "desc": "16 mẫu chuyên nghiệp, 192 bố cục — mô tả nội dung và nhận PPTX có thể chỉnh sửa ngay lập tức."
+      },
+      "f5": {
+        "title": "Đồng bộ liền mạch đa thiết bị",
+        "desc": "Ghép nối điện thoại qua mã QR và tiếp tục tác vụ Agent khi đang di chuyển — qua đường hầm Cloudflare."
+      },
+      "f6": {
+        "title": "Chế độ cách ly an toàn",
+        "desc": "Sự cố plugin của bên thứ ba được tự động cách ly — phiên cốt lõi được giữ nguyên, phục hồi bằng một lần nhấp."
+      }
+    }
   },
   "moneyLab": {
     "indexTitle": "Phòng thí nghiệm kiếm tiền",

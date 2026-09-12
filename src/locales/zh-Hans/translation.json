@@ -163,7 +163,33 @@
     "indexTitle": "Aura 智能工作台",
     "downloadTitle": "下载安装包",
     "contact": "联系方式",
-    "wechat": "微信"
+    "wechat": "微信",
+    "features": {
+      "f1": {
+        "title": "私有 AI 工作台",
+        "desc": "本地运行，数据不出本机，告别云端隐私焦虑"
+      },
+      "f2": {
+        "title": "自由配置 AI 模型",
+        "desc": "按需切换 DeepSeek / Ollama / OpenAI，多模型对比使用"
+      },
+      "f3": {
+        "title": "可定制预设模板",
+        "desc": "将提示词、工作流打包为 .dshpreset，便携分发一键导入"
+      },
+      "f4": {
+        "title": "一键生成 PPT",
+        "desc": "16 种专业模板，192 种版式，输入内容直接输出可编辑 PPTX"
+      },
+      "f5": {
+        "title": "跨设备无缝衔接",
+        "desc": "手机扫码配对，外出也能继续 Agent 任务，Cloudflare 隧道直连"
+      },
+      "f6": {
+        "title": "安全隔离模式",
+        "desc": "第三方插件故障自动隔离，核心数据不丢失，一键恢复"
+      }
+    }
   },
   "moneyLab": {
     "indexTitle": "零门槛赚钱实验室",

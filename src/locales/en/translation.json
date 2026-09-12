@@ -163,7 +163,33 @@
     "indexTitle": "Aura Workbench",
     "downloadTitle": "Download Installers",
     "contact": "Contact",
-    "wechat": "WeChat"
+    "wechat": "WeChat",
+    "features": {
+      "f1": {
+        "title": "Private AI Workbench",
+        "desc": "Runs locally — your data never leaves your device. No cloud privacy concerns."
+      },
+      "f2": {
+        "title": "Flexible Model Configuration",
+        "desc": "Switch between DeepSeek, Ollama, OpenAI and more — compare outputs across providers."
+      },
+      "f3": {
+        "title": "Customizable Preset Templates",
+        "desc": "Package prompts and workflows as portable .dshpreset files — import and share with one click."
+      },
+      "f4": {
+        "title": "One-Click PPT Generation",
+        "desc": "16 professional templates, 192 layouts — describe your deck and get an editable PPTX instantly."
+      },
+      "f5": {
+        "title": "Seamless Cross-Device Sync",
+        "desc": "Pair your phone via QR code and continue Agent tasks on the go — powered by Cloudflare tunnel."
+      },
+      "f6": {
+        "title": "Safe Mode Isolation",
+        "desc": "Third-party plugin failures are automatically isolated — core sessions stay intact, one-click recovery."
+      }
+    }
   },
   "moneyLab": {
     "indexTitle": "Zero-Barrier Money Lab",
