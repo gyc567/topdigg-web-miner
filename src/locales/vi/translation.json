@@ -160,34 +160,34 @@
     }
   },
   "auraWorkbench": {
-    "indexTitle": "Aura Workbench",
+    "indexTitle": "Aura Workbench Cho Lãnh Đạo",
     "downloadTitle": "Tải xuống",
     "contact": "Liên hệ",
     "wechat": "WeChat",
     "features": {
       "f1": {
-        "title": " không gian làm việc AI riêng tư",
-        "desc": "Chạy cục bộ — dữ liệu không bao giờ rời khỏi thiết bị của bạn. Không có lo ngại bảo mật đám mây."
+        "title": "Két Data Cá Nhân",
+        "desc": "Hợp đồng, báo cáo tài chính, ghi chép cuộc họp — xử lý cục bộ, dữ liệu không bao giờ rời khỏi thiết bị của bạn."
       },
       "f2": {
-        "title": "Cấu hình mô hình AI linh hoạt",
-        "desc": "Chuyển đổi giữa DeepSeek, Ollama, OpenAI và hơn thế nữa — so sánh kết quả giữa các nhà cung cấp."
+        "title": "Một Lệnh, Mọi Mô Hình",
+        "desc": "DeepSeek, OpenAI, hay mô hình riêng — chuyển đổi tức thì, so sánh kết quả ngay."
       },
       "f3": {
-        "title": "Mẫu Preset tùy chỉnh",
-        "desc": "Đóng gói prompt và quy trình thành tệp .dshpreset di động — nhập và chia sẻ chỉ bằng một lần nhấp."
+        "title": "Bộ Template Đội Nhóm",
+        "desc": "Đóng gói quy trình thành template có thể tái sử dụng — chia sẻ với team chỉ trong một lần nhấp."
       },
       "f4": {
-        "title": "Tạo PPT chỉ một lần nhấp",
-        "desc": "16 mẫu chuyên nghiệp, 192 bố cục — mô tả nội dung và nhận PPTX có thể chỉnh sửa ngay lập tức."
+        "title": "Nói Là Xong",
+        "desc": "Mô tả nội dung, nhận ngay PPT chỉnh sửa được — 16 template chuyên nghiệp."
       },
       "f5": {
-        "title": "Đồng bộ liền mạch đa thiết bị",
-        "desc": "Ghép nối điện thoại qua mã QR và tiếp tục tác vụ Agent khi đang di chuyển — qua đường hầm Cloudflare."
+        "title": "Quyết Định Không Chờ",
+        "desc": "Ghép nối điện thoại qua mã QR, tiếp tục điều hành dù đang trên đường — kết nối mã hóa trực tiếp."
       },
       "f6": {
-        "title": "Chế độ cách ly an toàn",
-        "desc": "Sự cố plugin của bên thứ ba được tự động cách ly — phiên cốt lõi được giữ nguyên, phục hồi bằng một lần nhấp."
+        "title": "Ổn Định Là Số Một",
+        "desc": "Lỗi plugin được cách ly tự động — dữ liệu dự án và ghi chép cuộc họp an toàn tuyệt đối, khôi phục trong một lần nhấp."
       }
     }
   },

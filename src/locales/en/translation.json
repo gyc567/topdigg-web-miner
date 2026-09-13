@@ -160,34 +160,34 @@
     }
   },
   "auraWorkbench": {
-    "indexTitle": "Aura Workbench",
+    "indexTitle": "Aura Executive Workbench",
     "downloadTitle": "Download Installers",
     "contact": "Contact",
     "wechat": "WeChat",
     "features": {
       "f1": {
-        "title": "Private AI Workbench",
-        "desc": "Runs locally — your data never leaves your device. No cloud privacy concerns."
+        "title": "Your Data, Your Server",
+        "desc": "Contracts, financials, board notes — processed locally, never sent to the cloud."
       },
       "f2": {
-        "title": "Flexible Model Configuration",
-        "desc": "Switch between DeepSeek, Ollama, OpenAI and more — compare outputs across providers."
+        "title": "One Command, Any Model",
+        "desc": "DeepSeek, OpenAI, or your private model — switch instantly and compare outputs side by side."
       },
       "f3": {
-        "title": "Customizable Preset Templates",
-        "desc": "Package prompts and workflows as portable .dshpreset files — import and share with one click."
+        "title": "Your Playbook, On Demand",
+        "desc": "Package winning prompts into reusable templates — share with your team in one click."
       },
       "f4": {
-        "title": "One-Click PPT Generation",
-        "desc": "16 professional templates, 192 layouts — describe your deck and get an editable PPTX instantly."
+        "title": "Dictate. Done.",
+        "desc": "16 templates — describe your deck and get an editable PPTX in seconds."
       },
       "f5": {
-        "title": "Seamless Cross-Device Sync",
-        "desc": "Pair your phone via QR code and continue Agent tasks on the go — powered by Cloudflare tunnel."
+        "title": "Your Boardroom, Everywhere",
+        "desc": "Pair your phone in seconds — keep decisions moving whether you're in the office or on the road."
       },
       "f6": {
-        "title": "Safe Mode Isolation",
-        "desc": "Third-party plugin failures are automatically isolated — core sessions stay intact, one-click recovery."
+        "title": "Failure-Proof, Always",
+        "desc": "Plugin crashes are contained — your board notes and project data stay intact, recovery in one click."
       }
     }
   },
