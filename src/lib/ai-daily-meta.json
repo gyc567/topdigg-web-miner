@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-09-13-ai-daily",
+      "title": {
+        "en": "Suno Releases v6 Music Model with v6, v6-wild, and v6-mini Versions",
+        "ja": "Sunoがv6音楽モデルを発表、v6・v6-wild・v6-miniの3バージョンを展開",
+        "vi": "Suno phát hành mô hình âm nhạc v6 với ba phiên bản v6, v6-wild và v6-mini",
+        "zh-Hans": "Suno 发布 v6 音乐模型，推出 v6、v6-wild、v6-mini 三个版本",
+        "zh-Hant": "Suno 發布 v6 音樂模型，推出 v6、v6-wild、v6-mini 三個版本"
+      },
+      "description": {
+        "en": "Suno has released its next-generation music model v6, developed in partnership with Warner Music Group, BMG, and Believe. The model comes in three versions: flagship v6 and exploration-oriented v6-wild for Pro and Premier subscribers, and the faster v6-mini available to everyone.",
+        "ja": "SunoはWarner Music Group、BMG、Believe等行业パートナーと共同開発した次世代音楽モデルv6を発表，今后は旧モデルを全面的に置き換える。v6は3バージョン構成：主力のv6と探索向けのv6-wildはProとPremier契約者向け、より高速なv6-miniは全員に利用可能。",
+        "vi": "Suno đã phát hành mô hình âm nhạc thế hệ tiếp theo v6, được phát triển cùng với Warner Music Group, BMG và Believe. Mô hình sẽ thay thế hoàn toàn các mô hình cũ. v6 gồm ba phiên bản: flagship v6 và v6-wild hướng tới người dùng Pro và Premier, còn v6-mini nhanh hơn dành cho tất cả mọi người.",
+        "zh-Hans": "Suno 发布新一代音乐模型 v6，与 Warner Music Group、BMG、Believe 等行业伙伴合作开发，后续将全面替换旧模型。v6 分为三个版本：旗舰 v6 和探索向的 v6-wild 面向 Pro 与 Premier 订阅用户，更快的 v6-mini 向所有人开放。",
+        "zh-Hant": "Suno 發布新一代音樂模型 v6，與 Warner Music Group、BMG、Believe 等行業夥伴合作開發，後續將全面替換舊模型。v6 分為三個版本：旗艦 v6 和探索向的 v6-wild 面向 Pro 與 Premier 訂閱用戶，更快的 v6-mini 向所有人開放。"
+      },
+      "date": "2026-09-13",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": {
+            "en": "比特财商",
+            "ja": "比特财商",
+            "vi": "比特财商",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特財商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-09-12-ai-daily",
       "title": {
         "en": "Anthropic Threat Report Reveals Claude Used for Spyware, Missile and Drone Development; Chinese Labs Conduct Large-Scale Distillation Data Extraction",

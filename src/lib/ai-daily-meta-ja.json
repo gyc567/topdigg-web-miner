@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-09-13-ai-daily",
+      "date": "2026-09-13",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Sunoがv6音楽モデルを発表、v6・v6-wild・v6-miniの3バージョンを展開",
+      "description": "SunoはWarner Music Group、BMG、Believe等行业パートナーと共同開発した次世代音楽モデルv6を発表，今后は旧モデルを全面的に置き換える。v6は3バージョン構成：主力のv6と探索向けのv6-wildはProとPremier契約者向け、より高速なv6-miniは全員に利用可能。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-09-12-ai-daily",
       "date": "2026-09-12",
       "author": "比特财商",

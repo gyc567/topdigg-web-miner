@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-09-13-ai-daily",
+      "date": "2026-09-13",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Suno phát hành mô hình âm nhạc v6 với ba phiên bản v6, v6-wild và v6-mini",
+      "description": "Suno đã phát hành mô hình âm nhạc thế hệ tiếp theo v6, được phát triển cùng với Warner Music Group, BMG và Believe. Mô hình sẽ thay thế hoàn toàn các mô hình cũ. v6 gồm ba phiên bản: flagship v6 và v6-wild hướng tới người dùng Pro và Premier, còn v6-mini nhanh hơn dành cho tất cả mọi người.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-09-12-ai-daily",
       "date": "2026-09-12",
       "author": "比特财商",
