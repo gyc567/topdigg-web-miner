@@ -4,8 +4,9 @@
 import { useTranslation } from "react-i18next";
 import { useEffect, useState } from "react";
 import { useAuth, useAccess } from "@/lib/auth";
+import { openCustomerPortal } from "@/lib/paddle";
 import { Button } from "@/components/ui/button";
-import { CheckCircle2, ExternalLink, X } from "lucide-react";
+import { CheckCircle2, ExternalLink, LogOut } from "lucide-react";
 
 export function Account() {
   const { t } = useTranslation();
@@ -36,9 +37,13 @@ export function Account() {
     );
   }
 
-  const handleCancel = () => {
-    // Paddle manages subscriptions server-side; user can cancel via Paddle Customer Portal
-    window.open("https://checkout.paddle.com/subscription/" + (subscription?.paddle_subscription_id ?? ""), "_blank");
+  const handleManageBilling = async () => {
+    if (!subscription?.paddle_subscription_id) return;
+    try {
+      await openCustomerPortal(subscription.paddle_subscription_id);
+    } catch (e) {
+      console.error("Failed to open customer portal", e);
+    }
   };
 
   return (
@@ -73,12 +78,12 @@ export function Account() {
               <p className="text-sm text-amber-600 mt-1">{t("moneyLab.account.cancelPending", "已设置到期不续费")}</p>
             )}
             <div className="flex gap-2 mt-4">
-              <Button onClick={handleCancel} variant="outline" className="gap-2">
+              <Button onClick={handleManageBilling} variant="outline" className="gap-2">
                 <ExternalLink className="w-4 h-4" />
                 {t("moneyLab.account.manageBilling", "管理订阅")}
               </Button>
               <Button onClick={signOut} variant="ghost" className="gap-2">
-                <X className="w-4 h-4" />
+                <LogOut className="w-4 h-4" />
                 {t("account.signOut", "退出登录")}
               </Button>
             </div>

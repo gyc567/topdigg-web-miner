@@ -243,6 +243,12 @@
       "noSubscription": "Chưa có gói đăng ký",
       "purchaseSuccess": "Thanh toán thành công! Đã kích hoạt thành viên.",
       "signInRequired": "Vui lòng đăng nhập"
+    },
+    "success": {
+      "processing": "Đang xử lý thanh toán...",
+      "title": "Thanh toán thành công!",
+      "desc": "Tư cách thành viên đã được kích hoạt, đang mở khóa tất cả case...",
+      "cta": "Trở về case"
     }
   }
 }

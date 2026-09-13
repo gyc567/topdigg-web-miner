@@ -243,6 +243,12 @@
       "noSubscription": "暫無會員訂閱",
       "purchaseSuccess": "支付成功！會員已啟用",
       "signInRequired": "請先登入"
+    },
+    "success": {
+      "processing": "支付處理中...",
+      "title": "支付成功！",
+      "desc": "您的會員已啟用，正在為您解鎖全部案例...",
+      "cta": "返回案例"
     }
   }
 }

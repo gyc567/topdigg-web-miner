@@ -1,10 +1,10 @@
 /**
- * CheckoutButton — opens Paddle Checkout overlay with lazy load.
- * Returns user to original slug after success.
+ * CheckoutButton — opens Paddle v2 Overlay Checkout with lazy load.
+ * Listens to paddle:checkout:completed event for instant feedback.
  */
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Button, type ButtonProps } from "@/components/ui/button";
-import { openCheckout, getPriceId } from "@/lib/paddle";
+import { openCheckout, getPriceId, onPaddleEvent } from "@/lib/paddle";
 import type { PriceKind } from "@/lib/paddle-config";
 
 type CheckoutButtonProps = ButtonProps & {
@@ -22,6 +22,23 @@ export function CheckoutButton({
 }: CheckoutButtonProps) {
   const [loading, setLoading] = useState(false);
 
+  useEffect(() => {
+    const offCompleted = onPaddleEvent("paddle:checkout:completed", () => {
+      setLoading(false);
+    });
+    const offClose = onPaddleEvent("paddle:checkout:close", () => {
+      setLoading(false);
+    });
+    const offError = onPaddleEvent("paddle:checkout:error", () => {
+      setLoading(false);
+    });
+    return () => {
+      offCompleted();
+      offClose();
+      offError();
+    };
+  }, []);
+
   const handleClick = async () => {
     if (!userEmail) {
       alert("请先登录");
@@ -35,13 +52,12 @@ export function CheckoutButton({
       await openCheckout({
         items: [{ priceId: getPriceId(priceKind), quantity: 1 }],
         customer: { email: userEmail },
-        customData: postSlug ? { post_slug: postSlug } : {},
+        customData: postSlug ? { post_slug: postSlug } : { user_email: userEmail },
         successUrl,
       });
     } catch (e) {
       console.error("Checkout failed", e);
       alert("结账初始化失败，请稍后重试");
-    } finally {
       setLoading(false);
     }
   };

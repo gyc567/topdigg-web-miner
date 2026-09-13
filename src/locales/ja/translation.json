@@ -243,6 +243,12 @@
       "noSubscription": "有効なサブスクなし",
       "purchaseSuccess": "支払い完了！会員が有効化されました",
       "signInRequired": "ログインしてください"
+    },
+    "success": {
+      "processing": "支払い処理中...",
+      "title": "支払い完了！",
+      "desc": "会員が有効化されました。全ケースをアンロックしています...",
+      "cta": "ケースに戻る"
     }
   }
 }

@@ -243,6 +243,12 @@
       "noSubscription": "No active subscription",
       "purchaseSuccess": "Payment successful! Membership activated.",
       "signInRequired": "Please sign in"
+    },
+    "success": {
+      "processing": "Processing payment...",
+      "title": "Payment successful!",
+      "desc": "Your membership is activated, unlocking all cases...",
+      "cta": "Back to cases"
     }
   }
 }

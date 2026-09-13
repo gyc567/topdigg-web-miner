@@ -1,6 +1,6 @@
 /**
- * Paddle.js v2 — lazy loaded wrapper. Only injects the script on first checkout call.
- * Reference: https://developer.paddle.com/build/checkout/build-overlay-checkout
+ * Paddle.js v2 — complete wrapper per https://developer.paddle.com/build/checkout/build-overlay-checkout
+ * Lazy loaded: inject script on first checkout call.
  */
 import { PADDLE_CONFIG, type PriceKind } from "@/lib/paddle-config";
 
@@ -10,7 +10,9 @@ declare global {
       Initialize: (opts: { token: string; environment: "production" | "sandbox" }) => void;
       Checkout: {
         open: (opts: Record<string, unknown>) => void;
+        close: () => void;
       };
+      Update: (opts: { items: Array<{ priceId: string; quantity: number }>; customer?: { email?: string } }) => void;
       Environment?: { set: (env: "production" | "sandbox") => void };
     };
   }
@@ -18,8 +20,9 @@ declare global {
 
 let scriptLoaded = false;
 let paddleInitialized = false;
+const eventListeners = new Map<string, Set<(e: unknown) => void>>();
 
-export async function loadPaddle(): Promise<void> {
+async function loadPaddle(): Promise<void> {
   if (scriptLoaded) return;
   if (!window.Paddle) {
     await new Promise<void>((resolve, reject) => {
@@ -38,19 +41,39 @@ export async function loadPaddle(): Promise<void> {
       environment: PADDLE_CONFIG.environment,
     });
     paddleInitialized = true;
+    // Bridge native DOM events to our listener API
+    const eventNames = [
+      "paddle:checkout:open",
+      "paddle:checkout:close",
+      "paddle:checkout:payment-method-selected",
+      "paddle:checkout:checkout-data-submit",
+      "paddle:checkout:checkout-data-success",
+      "paddle:checkout:completed",
+      "paddle:checkout:error",
+    ];
+    for (const evt of eventNames) {
+      window.addEventListener(evt, (e) => {
+        const listeners = eventListeners.get(evt);
+        if (listeners) for (const fn of listeners) fn(e);
+      });
+    }
   }
 }
 
-export type CheckoutItem = {
-  priceId: string;
-  quantity?: number;
-};
+export function onPaddleEvent(eventName: string, handler: (e: unknown) => void): () => void {
+  if (!eventListeners.has(eventName)) eventListeners.set(eventName, new Set());
+  eventListeners.get(eventName)!.add(handler);
+  return () => eventListeners.get(eventName)?.delete(handler);
+}
+
+export type CheckoutItem = { priceId: string; quantity?: number };
 
 export type CheckoutOptions = {
   items: CheckoutItem[];
   customer?: { email: string };
   customData?: Record<string, string>;
   successUrl?: string;
+  closeUrl?: string;
 };
 
 export async function openCheckout(opts: CheckoutOptions): Promise<void> {
@@ -61,10 +84,18 @@ export async function openCheckout(opts: CheckoutOptions): Promise<void> {
     customer: opts.customer,
     customData: opts.customData,
     successUrl: opts.successUrl ?? `${PADDLE_CONFIG.payDomain}/success`,
+    closeUrl: opts.closeUrl,
     ...(PADDLE_CONFIG.noRefund ? { allowUndo: false } : {}),
   });
 }
 
 export function getPriceId(kind: PriceKind): string {
   return PADDLE_CONFIG.prices[kind];
+}
+
+export async function openCustomerPortal(paddleSubscriptionId: string): Promise<void> {
+  await loadPaddle();
+  if (!window.Paddle) throw new Error("Paddle not loaded");
+  // Customer portal via Paddle.js v2 Update API or direct URL
+  window.open(`https://checkout.paddle.com/subscription/${paddleSubscriptionId}`, "_blank", "noopener");
 }

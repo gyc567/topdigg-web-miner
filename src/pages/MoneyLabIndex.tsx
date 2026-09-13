@@ -209,8 +209,13 @@ const MoneyLabIndex = () => {
             <Link
               key={post.slug}
               to={`/money-lab/${post.slug}`}
-              className="group rounded-xl border p-5 flex flex-col gap-3 hover:shadow-md transition-shadow bg-card"
+              className="relative group rounded-xl border p-5 flex flex-col gap-3 hover:shadow-md transition-shadow bg-card"
             >
+              {post.isPremium && (
+                <span className="absolute top-2 right-2 px-2 py-0.5 rounded-full text-xs font-semibold bg-gradient-to-r from-amber-500 to-orange-500 text-white shadow-sm">
+                  💎 {t("moneyLab.premiumBadge", "会员专享")}
+                </span>
+              )}
               {/* Header: category + difficulty */}
               <div className="flex items-center gap-2 flex-wrap">
                 {post.categories.map((cat) => (
