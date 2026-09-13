@@ -7,11 +7,13 @@ import { localizeText } from "@/lib/locale";
 import MarkdownContent from "@/components/MarkdownContent";
 import { SEO } from "@/components/SEO";
 import { siteConfig } from "@/config/site";
+import { AuthGate } from "@/components/AuthGate";
+import { useAuth, useAccess, onPurchaseCompleted } from "@/lib/auth";
 
 const DIFFICULTY_COLORS: Record<string, string> = {
   "简单": "bg-green-100 text-green-700 dark:bg-green-900 dark:text-green-300",
   "中等": "bg-yellow-100 text-yellow-700 dark:bg-yellow-900 dark:text-yellow-300",
-  "困难": "bg-red-100 text-red-700 dark:bg-red-900 dark:text-red-300",
+  "困难": "bg-red-100 text-red-700 dark:text-red-300",
 };
 
 const MoneyLabPost = () => {
@@ -21,15 +23,28 @@ const MoneyLabPost = () => {
 
   const [fullPost, setFullPost] = useState<ReturnType<typeof moneyLabDataSource.getPostWithContent>>(null);
   const [loading, setLoading] = useState(true);
+  const { user } = useAuth();
+  const { hasSubscription, hasUnlock, refetch } = useAccessWithRefetch(user?.id, slug);
 
   useEffect(() => {
-    if (!slug) { setLoading(false); return; }
+    if (!slug) {
+      setLoading(false);
+      return;
+    }
     setLoading(true);
     moneyLabDataSource.getPostWithContent(slug).then((post) => {
       setFullPost(post ?? null);
       setLoading(false);
     });
   }, [slug]);
+
+  // Cross-tab purchase notification
+  useEffect(() => {
+    if (!slug) return;
+    return onPurchaseCompleted((completedSlug) => {
+      if (completedSlug === slug) refetch();
+    });
+  }, [slug, refetch]);
 
   if (loading) {
     return (
@@ -51,6 +66,8 @@ const MoneyLabPost = () => {
   const postPath = `/money-lab/${fullPost.slug}`;
   const title = localizeText(fullPost.title, currentLocale as SupportedLocale);
   const description = localizeText(fullPost.description, currentLocale as SupportedLocale);
+  const isPremium = !!fullPost.isPremium;
+  const canAccess = !isPremium || hasSubscription || hasUnlock;
 
   const breadcrumbs = [
     { name: "Home", url: `${siteConfig.baseUrl}/` },
@@ -68,6 +85,7 @@ const MoneyLabPost = () => {
         publishedTime={fullPost.date}
         author={fullPost.author}
         breadcrumbs={breadcrumbs}
+        noIndex={isPremium}
       />
 
       {/* Breadcrumbs */}
@@ -89,7 +107,6 @@ const MoneyLabPost = () => {
       </nav>
 
       <article>
-        {/* Header */}
         <header className="mb-8">
           {/* Category & difficulty badges */}
           <div className="flex items-center gap-2 flex-wrap mb-3">
@@ -106,11 +123,16 @@ const MoneyLabPost = () => {
                 {fullPost.difficulty}
               </span>
             )}
+            {isPremium && (
+              <span className="px-3 py-1 rounded-full text-sm font-semibold bg-gradient-to-r from-amber-500 to-orange-500 text-white shadow-sm">
+                💎 {t("moneyLab.premiumBadge", "会员专享")}
+              </span>
+            )}
           </div>
 
           <h1 className="text-3xl md:text-4xl font-bold mb-4">{title}</h1>
 
-          {/* Meta row: earnings + time + author + date */}
+          {/* Meta row */}
           <div className="flex items-center gap-4 text-sm text-muted-foreground flex-wrap">
             {fullPost.earnings && (
               <span className="flex items-center gap-1.5 text-green-600 dark:text-green-400 font-semibold text-base">
@@ -132,22 +154,15 @@ const MoneyLabPost = () => {
             <span>{fullPost.date}</span>
           </div>
 
-          {/* Description */}
           <p className="text-lg text-muted-foreground mt-4">{description}</p>
         </header>
 
-        {/* Cover image */}
         {fullPost.coverImage && (
           <div className="mb-8 rounded-xl overflow-hidden">
-            <img
-              src={fullPost.coverImage}
-              alt={title}
-              className="w-full max-h-96 object-cover"
-            />
+            <img src={fullPost.coverImage} alt={title} className="w-full max-h-96 object-cover" />
           </div>
         )}
 
-        {/* Tags */}
         {fullPost.tags.length > 0 && (
           <div className="flex flex-wrap gap-2 mb-8">
             {fullPost.tags.map((tag) => (
@@ -158,14 +173,24 @@ const MoneyLabPost = () => {
           </div>
         )}
 
-        {/* Content */}
-        <MarkdownContent
-          content={localizeText(fullPost.content, currentLocale as SupportedLocale)}
-          className="mt-6"
-        />
+        {/* Content or paywall */}
+        {canAccess ? (
+          <MarkdownContent
+            content={localizeText(fullPost.content, currentLocale as SupportedLocale)}
+            className="mt-6"
+          />
+        ) : (
+          <AuthGate postSlug={fullPost.slug} postTitle={title} />
+        )}
       </article>
     </>
   );
 };
+
+// Wrapper around useAccess that exposes refetch
+function useAccessWithRefetch(userId: string | undefined, postSlug?: string) {
+  const access = useAccess(userId, postSlug);
+  return { ...access, refetch: () => access.refetch?.() ?? window.location.reload() };
+}
 
 export default MoneyLabPost;

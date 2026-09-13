@@ -106,6 +106,7 @@ export type MoneyLabPost = {
   earnings?: string; // e.g. "$500/月"
   difficulty?: string; // "简单" | "中等" | "困难"
   timeRequired?: string; // e.g. "每天2小时"
+  isPremium?: boolean; // 付费墙开关
 };
 
 export const siteConfig = {
