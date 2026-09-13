@@ -165,6 +165,7 @@
     "contact": "Liên hệ",
     "wechat": "WeChat",
     "features": {
+      "label": "Giới thiệu tính năng",
       "f1": {
         "title": "Két Data Cá Nhân",
         "desc": "Hợp đồng, báo cáo tài chính, ghi chép cuộc họp — xử lý cục bộ, dữ liệu không bao giờ rời khỏi thiết bị của bạn."

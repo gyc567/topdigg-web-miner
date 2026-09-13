@@ -165,6 +165,7 @@
     "contact": "Contact",
     "wechat": "WeChat",
     "features": {
+      "label": "Features",
       "f1": {
         "title": "Your Data, Your Server",
         "desc": "Contracts, financials, board notes — processed locally, never sent to the cloud."

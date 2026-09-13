@@ -14,13 +14,14 @@ import {
   AlertTriangle,
   Monitor,
   Download,
+  Apple,
 } from "lucide-react";
 
 const FEATURE_ICONS = [Shield, Cpu, Layers, Presentation, Smartphone, Lock];
 
-const PLATFORM_COLORS: Record<string, string> = {
-  Windows: "bg-blue-100 text-blue-700 dark:bg-blue-900 dark:text-blue-300",
-  macOS: "bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300",
+const platformIcons: Record<string, React.ElementType> = {
+  Windows: Monitor,
+  macOS: Apple,
 };
 
 const AuraWorkbench = () => {
@@ -37,15 +38,10 @@ const AuraWorkbench = () => {
     { key: "f6", Icon: FEATURE_ICONS[5] },
   ];
 
-  const platformIcons: Record<string, React.ElementType> = {
-    Windows: Monitor,
-    macOS: Monitor,
-  };
-
   return (
     <>
       <SEO
-        title={t("auraWorkbench.indexTitle", "Aura 智能工作台")}
+        title={t("auraWorkbench.indexTitle", "Aura总裁智能工作台")}
         description={localizeText(meta.description, currentLocale)}
         path="/aura-workbench"
       />
@@ -58,14 +54,14 @@ const AuraWorkbench = () => {
             <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-purple-500 to-indigo-600 mb-4">
               <Sparkles className="w-8 h-8 text-white" aria-hidden="true" />
             </div>
-            <h1 className="text-3xl font-bold mb-2">{t("auraWorkbench.indexTitle", "Aura 智能工作台")}</h1>
+            <h1 className="text-3xl font-bold mb-2">{t("auraWorkbench.indexTitle", "Aura总裁智能工作台")}</h1>
             <p className="text-muted-foreground text-lg">
               {localizeText(meta.description, currentLocale)}
             </p>
           </header>
 
           {/* Features */}
-          <section className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10" aria-label={t("auraWorkbench.indexTitle", "Aura 智能工作台")}>
+          <section className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10" aria-label={t("auraWorkbench.features.label", "功能介绍")}>
             {features.map(({ key, Icon }) => (
               <div
                 key={key}
@@ -76,10 +72,10 @@ const AuraWorkbench = () => {
                 </div>
                 <div>
                   <h3 className="font-medium text-sm mb-1">
-                    {t(`auraWorkbench.features.${key}.title`)}
+                    {t(`auraWorkbench.features.${key}.title`, "")}
                   </h3>
                   <p className="text-xs text-muted-foreground leading-relaxed">
-                    {t(`auraWorkbench.features.${key}.desc`)}
+                    {t(`auraWorkbench.features.${key}.desc`, "")}
                   </p>
                 </div>
               </div>
@@ -89,7 +85,7 @@ const AuraWorkbench = () => {
           {/* Version badge */}
           <div className="flex items-center justify-center gap-3 mb-8">
             <span className="px-3 py-1 rounded-full text-sm font-medium bg-purple-100 text-purple-700 dark:bg-purple-900 dark:text-purple-300">
-              v{meta.version.replace("v", "")}
+              {meta.version}
             </span>
             <span className="text-sm text-muted-foreground">{meta.date}</span>
           </div>
