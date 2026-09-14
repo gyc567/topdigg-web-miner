@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-09-14-ai-daily",
+      "title": {
+        "en": "AI Daily 2026-09-14: Anthropic Report Says Houthis Used Claude Code to Develop Missile Guidance Software",
+        "ja": "AIデイリー 2026-09-14：Anthropic がフーシ派がClaude Codeで誘導弾ソフトウェアを開発したと報告",
+        "vi": "AI Daily 2026-09-14: Anthropic Báo Cáo Rằng Houthis Sử Dụng Claude Code Để Phát Triển Phần Mềm Dẫn Đường Tên Lửa",
+        "zh-Hans": "AI日报 2026-09-14：Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件",
+        "zh-Hant": "AI日报 2026-09-14：Anthropic 報告稱胡塞組織用 Claude Code 開發導彈制導軟體"
+      },
+      "description": {
+        "en": "Anthropic's September threat report reveals that a Yemeni group, likely linked to Houthi forces, used Claude Code to develop software for guided rockets, ballistic missiles with ranges exceeding 2,000 km, and the R2000 hypersonic glide vehicle concept.",
+        "ja": "Anthropicの9月脅威報告書は、フーシ派に関連する可能性が高いイエメン그룹が、Claude Codeを使用して誘導ロケット、最大2000km以上の射程を持つ弾道 missile、およびR2000極超音速滑空体の概念に関するソフトウェアを開発していたことを明らかにした。",
+        "vi": "Báo cáo mối đe dọa tháng 9 của Anthropic cho thấy một nhóm Yemen, được đánh giá có khả năng liên kết với lực lượng Houthi, đã sử dụng Claude Code để phát triển phần mềm cho tên lửa dẫn đường, tên lửa đạn đạo có tầm bắn hơn 2.000 km và khái niệm phương tiện lướt siêu thanh R2000.",
+        "zh-Hans": "Anthropic 9 月威胁报告披露，极可能关联胡塞组织的也门小组使用 Claude Code 开发制导火箭、射程超 2,000 公里弹道导弹及高超声速滑翔载具概念的相关软件。",
+        "zh-Hant": "Anthropic 9 月威脅報告披露，極可能關聯胡塞組織的葉門小組使用 Claude Code 開發導引火箭、射程超 2,000 公里彈道飛彈及高超音速滑翔載具概念的相關軟體。"
+      },
+      "date": "2026-09-14",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": {
+            "en": "比特财商",
+            "ja": "比特财商",
+            "vi": "比特财商",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特財商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-09-13-ai-daily",
       "title": {
         "en": "Suno Releases v6 Music Model with v6, v6-wild, and v6-mini Versions",

@@ -1,6 +1,51 @@
 {
   "reports": [
     {
+      "slug": "2026-09-14-ai-daily",
+      "title": {
+        "en": "AI Daily 2026-09-14: Anthropic Report Says Houthis Used Claude Code to Develop Missile Guidance Software",
+        "ja": "AIデイリー 2026-09-14：Anthropic がフーシ派がClaude Codeで誘導弾ソフトウェアを開発したと報告",
+        "vi": "AI Daily 2026-09-14: Anthropic Báo Cáo Rằng Houthis Sử Dụng Claude Code Để Phát Triển Phần Mềm Dẫn Đường Tên Lửa",
+        "zh-Hans": "AI日报 2026-09-14：Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件",
+        "zh-Hant": "AI日报 2026-09-14：Anthropic 報告稱胡塞組織用 Claude Code 開發導彈制導軟體"
+      },
+      "description": {
+        "en": "Anthropic's September threat report reveals that a Yemeni group, likely linked to Houthi forces, used Claude Code to develop software for guided rockets, ballistic missiles with ranges exceeding 2,000 km, and the R2000 hypersonic glide vehicle concept.",
+        "ja": "Anthropicの9月脅威報告書は、フーシ派に関連する可能性が高いイエメン그룹が、Claude Codeを使用して誘導ロケット、最大2000km以上の射程を持つ弾道 missile、およびR2000極超音速滑空体の概念に関するソフトウェアを開発していたことを明らかにした。",
+        "vi": "Báo cáo mối đe dọa tháng 9 của Anthropic cho thấy một nhóm Yemen, được đánh giá có khả năng liên kết với lực lượng Houthi, đã sử dụng Claude Code để phát triển phần mềm cho tên lửa dẫn đường, tên lửa đạn đạo có tầm bắn hơn 2.000 km và khái niệm phương tiện lướt siêu thanh R2000.",
+        "zh-Hans": "Anthropic 9 月威胁报告披露，极可能关联胡塞组织的也门小组使用 Claude Code 开发制导火箭、射程超 2,000 公里弹道导弹及高超声速滑翔载具概念的相关软件。",
+        "zh-Hant": "Anthropic 9 月威脅報告披露，極可能關聯胡塞組織的葉門小組使用 Claude Code 開發導引火箭、射程超 2,000 公里彈道飛彈及高超音速滑翔載具概念的相關軟體。"
+      },
+      "content": {
+        "en": "\n## Industry News\n\n### Anthropic Report Says Houthis Used Claude Code to Develop Missile Guidance Software\n\nAnthropic's September threat report reveals that a Yemeni group, assessed as likely linked to Houthi forces, used Claude Code to develop software for guided rockets, ballistic missiles with ranges exceeding 2,000 km, and the R2000 hypersonic glide vehicle concept.\n\nSource: [Hacker News: AI Hot Posts](https://aihot.news/items/cmu01iavi08reroymepsxnar2) | [Original](https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo)\n\n## Tips & Perspectives\n\n### Agent Long-Horizon Task Context Engineering: Budget Control, Compression, Todo-State, and Memory\n\nAn article analyzing four mechanisms in the Agent harness layer for handling context overflow and goal loss in long-horizon tasks: context budget and offloading, compression, todo-state restatement, and cross-session memory.\n\nSource: [MarkTechPost (RSS)](https://aihot.news/items/cmtzezuk0077wrowyi7a4qy7v) | [Original](https://www.marktechpost.com/2026/09/12/context-engineering-inside-the-harness-4-mechanisms-that-beat-context-overflow-and-goal-loss-on-long-horizon-tasks)\n\n### Gary Marcus on Dario Amodei's Call to Slow AI Development: Three Cheers, Two Skeptisms\n\nGary Marcus analyzes Dario Amodei's article advocating to slow AI development and support transparency, which Sam Altman and Elon Musk quickly endorsed. Marcus acknowledges the transparency commitment but raises multiple concerns: METR's close ties to AI companies, Anthropic using China threats to maintain acceleration, and the proposal possibly being a land grab ahead of real regulation.\n\nSource: [Gary Marcus: The Road to AI We Can Trust (RSS)](https://aihot.news/items/cmu06l0dg09hiroryn5e19xp1) | [Original](https://garymarcus.substack.com/p/two-cheers-out-of-three-for-dario)\n\n---\n\n*Originally published on WeChat Official Account 「比特财商」.*\n",
+        "ja": "\n## 業界ニュース\n\n### Anthropic がフーシ派がClaude Codeで誘導弾ソフトウェアを開発したと報告\n\nAnthropicの9月脅威報告書は、フーシ派に関連する可能性が高いイエメン小组が、Claude Codeを使用して誘導ロケット、最大2000km以上の射程を持つ弾道 missile、およびR2000極超音速滑空体の概念に関するソフトウェアを開発していたことを明らかにした。\n\nソース：[Hacker News：AI 人気ポスト](https://aihot.news/items/cmu01iavi08reroymepsxnar2) | [原文](https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo)\n\n## ヒントと观点\n\n### Agent長距離タスクのコンテキストエンジニアリング：予算制御、圧縮、todo-state、メモリでコンテキストオーバーフローと目標丢失に対抗\n\n长いタスクにおけるコンテキストオーバーフローと目標丢失に対応するためのAgentハーネス層の4つのメカニズムを解析した記事：コンテキスト予算とオフロード、圧縮、todo-state 再説、クロスセッション記憶。\n\nソース：[MarkTechPost (RSS)](https://aihot.news/items/cmtzezuk0077wrowyi7a4qy7v) | [原文](https://www.marktechpost.com/2026/09/12/context-engineering-inside-the-harness-4-mechanisms-that-beat-context-overflow-and-goal-loss-on-long-horizon-tasks)\n\n### Gary MarcusのDario AmodeiのAI開発減速提唱への評価：三つの称賛と二つの疑問\n\nGary Marcusは、Sam AltmanとElon Muskがすぐに同意したAI開発減速と透明性支持を提唱したDario Amodeiの記事を評価。Marcusは透明性への約束を肯定するが、複数の疑問を呈示：METRのAI企業との過度な関係、中国脅威を用いて加速を維持するAnthropic、そして本当の規制に先んじるための提唱である可能性。\n\nソース：[Gary Marcus: The Road to AI We Can Trust (RSS)](https://aihot.news/items/cmu06l0dg09hiroryn5e19xp1) | [原文](https://garymarcus.substack.com/p/two-cheers-out-of-three-for-dario)\n\n---\n\n*微信公式アカウント「比特财商」より首发。*\n",
+        "vi": "\n## Tin Tức Ngành\n\n### Anthropic Báo Cáo Rằng Houthis Sử Dụng Claude Code Để Phát Triển Phần Mềm Dẫn Đường Tên Lửa\n\nBáo cáo mối đe dọa tháng 9 của Anthropic cho thấy một nhóm Yemen, được đánh giá có khả năng liên kết với lực lượng Houthi, đã sử dụng Claude Code để phát triển phần mềm cho tên lửa dẫn đường, tên lửa đạn đạo có tầm bắn hơn 2.000 km và khái niệm phương tiện lướt siêu thanh R2000.\n\nNguồn: [Hacker News: AI Hot Posts](https://aihot.news/items/cmu01iavi08reroymepsxnar2) | [Bài gốc](https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo)\n\n## Mẹo & Quan Điểm\n\n### Kỹ Thuật Ngữ Cảnh cho Tác Vụ Dài Hạn của Agent: Kiểm Soát Ngân Sách, Nén, Todo-State và Bộ Nhớ\n\nBài viết phân tích bốn cơ chế trong lớp harness của Agent để xử lý tràn ngữ cảnh và mất mục tiêu trong các tác vụ dài hạn: ngân sách và dỡ ngữ cảnh, nén, tái diễn đạt todo-state và bộ nhớ xuyên phiên.\n\nNguồn: [MarkTechPost (RSS)](https://aihot.news/items/cmtzezuk0077wrowyi7a4qy7v) | [Bài gốc](https://www.marktechpost.com/2026/09/12/context-engineering-inside-the-harness-4-mechanisms-that-beat-context-overflow-and-goal-loss-on-long-horizon-tasks)\n\n### Gary Marcus Đánh Giá Lời Kêu Gọi Làm Chậm AI Của Dario Amodei: Ba Tiếng Hoan hô, Hai Sự Nghi Ngờ\n\nGary Marcus phân tích bài viết của Dario Amodei ủng hộ làm chậm sự phát triển AI và hỗ trợ tính minh bạch, mà Sam Altman và Elon Musk nhanh chóng đồng ý. Marcus ghi nhận cam kết về tính minh bạch nhưng đưa ra nhiều mối quan ngại: METR có mối quan hệ quá gần với các công ty AI, Anthropic sử dụng mối đe dọa Trung Quốc để duy trì tăng tốc, và đề xuất này có thể nhằm chiếm lĩnh trước các quy định thực sự.\n\nNguồn: [Gary Marcus: The Road to AI We Can Trust (RSS)](https://aihot.news/items/cmu06l0dg09hiroryn5e19xp1) | [Bài gốc](https://garymarcus.substack.com/p/two-cheers-out-of-three-for-dario)\n\n---\n\n*Đăng lần đầu trên WeChat Official Account 「比特财商」.*\n",
+        "zh-Hans": "\n## 行业动态\n\n### Anthropic 报告称胡塞组织用 Claude Code 开发导弹制导软件\n\nAnthropic 9 月威胁报告披露，据评估极可能关联胡塞组织的也门小组使用 Claude Code 开发制导火箭、射程超 2,000 公里弹道导弹及名为 R2000 的高超声速滑翔载具概念的相关软件。\n\n来源：[Hacker News：AI 热帖](https://aihot.news/items/cmu01iavi08reroymepsxnar2) | [原文](https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo)\n\n## 技巧与观点\n\n### Agent 长任务上下文工程解析：用预算控制、压缩、todo-state 和记忆对抗上下文溢出与目标丢失\n\n文章解析 Agent harness 层应对长任务中上下文溢出与目标丢失的四类机制：上下文预算与卸载、压缩、todo-state 复述和跨会话记忆。\n\n来源：[MarkTechPost（RSS）](https://aihot.news/items/cmtzezuk0077wrowyi7a4qy7v) | [原文](https://www.marktechpost.com/2026/09/12/context-engineering-inside-the-harness-4-mechanisms-that-beat-context-overflow-and-goal-loss-on-long-horizon-tasks)\n\n### Gary Marcus 评 Dario Amodei 的放慢 AI 发展提议：三份赞誉加两分怀疑\n\nGary Marcus 评析 Dario Amodei 倡导放慢 AI 发展并支持透明度的文章，Sam Altman 与 Elon Musk 迅速表示认同。Marcus 肯定其透明度承诺，但列举多方质疑：METR 与 AI 公司关系过近、Anthropic 借对华威胁维持加速、以及该提议可能意在抢先于真正的监管。\n\n来源：[Gary Marcus：The Road to AI We Can Trust（RSS）](https://aihot.news/items/cmu06l0dg09hiroryn5e19xp1) | [原文](https://garymarcus.substack.com/p/two-cheers-out-of-three-for-dario)\n\n---\n\n*首发于微信公众号「比特财商」。*\n",
+        "zh-Hant": "\n## 行業動態\n\n### Anthropic 報告稱胡塞組織用 Claude Code 開發導彈制導軟體\n\nAnthropic 9 月威脅報告披露，據評估極可能關聯胡塞組織的葉門小組使用 Claude Code 開發制導火箭、射程超 2,000 公里彈道飛彈及名為 R2000 的高超音速滑翔載具概念的相關軟體。\n\n來源：[Hacker News：AI 熱帖](https://aihot.news/items/cmu01iavi08reroymepsxnar2) | [原文](https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo)\n\n## 技巧與觀點\n\n### Agent 長任務上下文工程解析：用預算控制、壓縮、todo-state 和記憶對抗上下文溢出與目標丟失\n\n文章解析 Agent harness 層應對長任務中上下文溢出與目標丟失的四類機制：上下文預算與卸載、壓縮、todo-state 複述和跨會話記憶。\n\n來源：[MarkTechPost（RSS）](https://aihot.news/items/cmtzezuk0077wrowyi7a4qy7v) | [原文](https://www.marktechpost.com/2026/09/12/context-engineering-inside-the-harness-4-mechanisms-that-beat-context-overflow-and-goal-loss-on-long-horizon-tasks)\n\n### Gary Marcus 評 Dario Amodei 的放慢 AI 發展提議：三份讚譽加兩分懷疑\n\nGary Marcus 評析 Dario Amodei 倡導放慢 AI 發展並支持透明度的文章，Sam Altman 與 Elon Musk 迅速表示認同。Marcus 肯定其透明度承諾，但列舉多方質疑：METR 與 AI 公司關係過近、Anthropic 借對華威脅維持加速、以及該提議可能意在搶先於真正的監管。\n\n來源：[Gary Marcus：The Road to AI We Can Trust（RSS）](https://aihot.news/items/cmu06l0dg09hiroryn5e19xp1) | [原文](https://garymarcus.substack.com/p/two-cheers-out-of-three-for-dario)\n\n---\n\n*首發於微信公眾號「比特財商」。*\n"
+      },
+      "date": "2026-09-14",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": {
+            "en": "比特财商",
+            "ja": "比特财商",
+            "vi": "比特财商",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特財商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-09-13-ai-daily",
       "title": {
         "en": "Suno Releases v6 Music Model with v6, v6-wild, and v6-mini Versions",

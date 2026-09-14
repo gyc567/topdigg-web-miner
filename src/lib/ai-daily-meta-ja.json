@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-09-14-ai-daily",
+      "date": "2026-09-14",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "AIデイリー 2026-09-14：Anthropic がフーシ派がClaude Codeで誘導弾ソフトウェアを開発したと報告",
+      "description": "Anthropicの9月脅威報告書は、フーシ派に関連する可能性が高いイエメン그룹が、Claude Codeを使用して誘導ロケット、最大2000km以上の射程を持つ弾道 missile、およびR2000極超音速滑空体の概念に関するソフトウェアを開発していたことを明らかにした。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-09-13-ai-daily",
       "date": "2026-09-13",
       "author": "比特财商",
