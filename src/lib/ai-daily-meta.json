@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-09-15-ai-daily",
+      "title": {
+        "en": "Xiaohongshu AllSpark Open-Sources Search Agent Model Iris, 35B and 397B Versions Lead at Same Level",
+        "ja": "小红书 AllSparkがSearch AgentモデルIrisをオープンソース化、35Bと397Bバージョンが同レベル成績でリード",
+        "vi": "Xiaohongshu AllSpark Mã Nguồn Mở Search Agent Model Iris, Phiên Bản 35B và 397B Dẫn Đầu Cùng Cấp",
+        "zh-Hans": "小红书 AllSpark 开源 Search Agent 模型 Iris，35B 与 397B 版本同量级成绩领先",
+        "zh-Hant": "小紅書 AllSpark 開源 Search Agent 模型 Iris，35B 與 397B 版本同量級成績領先"
+      },
+      "description": {
+        "en": "Xiaohongshu AllSpark team releases and open-sources Search Agent model Iris, with weights and evaluation code already public, data and training recipes to follow.",
+        "ja": "小红书 AllSparkチームがSearch AgentモデルIrisを公開・オープンソース化。重みと評価コードは既に公開済みで、データとトレーニングレシピは陆续公開予定。",
+        "vi": "Nhóm Xiaohongshu AllSpark phát hành và mã nguồn mở Search Agent model Iris, trọng số và mã đánh giá đã được công khai, dữ liệu và công thức huấn luyện sẽ được công bố lần lượt.",
+        "zh-Hans": "小红书 AllSpark 团队发布并开源 Search Agent 模型 Iris，权重和评测代码已公开，数据与训练配方将陆续公布。",
+        "zh-Hant": "小紅書 AllSpark 團隊發布並開源 Search Agent 模型 Iris，權重和評測代碼已公開，數據與訓練配方將陸續公佈。"
+      },
+      "date": "2026-09-15",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": {
+            "en": "比特财商",
+            "ja": "比特财商",
+            "vi": "比特财商",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特財商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-09-14-ai-daily",
       "title": {
         "en": "AI Daily 2026-09-14: Anthropic Report Says Houthis Used Claude Code to Develop Missile Guidance Software",
