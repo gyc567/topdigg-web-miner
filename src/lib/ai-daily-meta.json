@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-09-16-ai-daily",
+      "title": {
+        "en": "Google DeepMind Releases Gemini 3.8 Live and 3.8 Live Extended Thinking",
+        "ja": "Google DeepMind、Gemini 3.8 Live と 3.8 Live Extended Thinking をリリース",
+        "vi": "Google DeepMind phát hành Gemini 3.8 Live và 3.8 Live Extended Thinking",
+        "zh-Hans": "Google DeepMind 发布 Gemini 3.8 Live 和 3.8 Live Extended Thinking",
+        "zh-Hant": "Google DeepMind 發布 Gemini 3.8 Live 和 3.8 Live Extended Thinking"
+      },
+      "description": {
+        "en": "Google DeepMind releases Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking, two near-realtime voice conversation models focused on voice agents and complex task execution.",
+        "ja": "Google DeepMindがGemini 3.8 LiveとGemini 3.8 Live Extended Thinkingの2つのほぼリアルタイム音声対話モデルを発表。音声エージェントと複雑なタスク実行に特化。",
+        "vi": "Google DeepMind phát hành Gemini 3.8 Live và Gemini 3.8 Live Extended Thinking - hai mô hình đối thoại thoại gần thời gian thực, tập trung vào tác tử thoại và thực thi nhiệm vụ phức tạp.",
+        "zh-Hans": "Google DeepMind 发布 Gemini 3.8 Live 与 Gemini 3.8 Live Extended Thinking 两个近实时语音对话模型，主打语音智能体和复杂任务执行。",
+        "zh-Hant": "Google DeepMind 發布 Gemini 3.8 Live 與 Gemini 3.8 Live Extended Thinking 兩個近即時語音對話模型，主打語音智慧體和複雜任務執行。"
+      },
+      "date": "2026-09-16",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": {
+            "en": "比特财商",
+            "ja": "比特财商",
+            "vi": "比特财商",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特財商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 4,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-09-15-ai-daily",
       "title": {
         "en": "Xiaohongshu AllSpark Open-Sources Search Agent Model Iris, 35B and 397B Versions Lead at Same Level",
