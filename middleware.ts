@@ -27,6 +27,9 @@ const VALID_ROUTES = new Set([
   "/external-links",
   "/about",
   "/privacy",
+  "/creators",
+  "/creators/submit",
+  "/creators/admin",
   // Vercel internals (should never 404)
   "/_vercel",
   "/__next",
