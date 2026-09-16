@@ -91,3 +91,4 @@ npx vercel deploy --prebuilt --prod
 If you only `git push` (no `--prebuilt`), Vercel will run `npm run build` itself and skip prerender. The site will deploy as an SPA fallback (rewrites in `vercel.json`), which is fine for users but loses SEO benefit of static HTML pages.
 
 To enable prerender on Vercel: set `CI_SKIP_PRERENDER=0` in the Vercel build env and remove the `VERCEL` check from `scripts/prerender.mjs`. Then add `@sparticuz/chromium` to the deps and replace `puppeteer.launch` with `@sparticuz/chromium`. See `scripts/prerender.mjs` for inline notes.
+Wed Sep 16 02:46:54 PM CST 2026
