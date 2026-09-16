@@ -5,24 +5,9 @@ import { createCreator, createAccount, createCase } from '@/lib/creators';
 import type { CooperationStatus, Platform, ContentCategory, ContentType, ExclusiveType } from '@/lib/creators';
 
 const PLATFORMS: Platform[] = ['视频号', '小红书', '抖音'];
-const COOPERATION_STATUSES: { value: CooperationStatus; label: string }[] = [
-  { value: '开放合作', label: 'Open for collaboration' },
-  { value: '暂停接单', label: 'Paused' },
-  { value: '已签约', label: 'Signed' },
-];
 const CATEGORIES: ContentCategory[] = [
   '知识干货', '小清新', '接地气', '娱乐搞笑', '测评好物', '生活方式',
   '职场成长', '科技数码', '美食', '旅行', '健身', '美妆', '母婴', '教育',
-];
-const CONTENT_TYPES: { value: ContentType; label: string }[] = [
-  { value: '图文', label: 'Post' },
-  { value: '短视频', label: 'Short Video' },
-  { value: '直播', label: 'Live' },
-  { value: '长期代言', label: 'Long-term Endorsement' },
-];
-const EXCLUSIVE_OPTIONS: { value: ExclusiveType; label: string }[] = [
-  { value: '独家', label: 'Exclusive' },
-  { value: '非独家', label: 'Non-exclusive' },
 ];
 
 interface PlatformForm {
@@ -104,17 +89,17 @@ export default function CreatorSubmit() {
 
   const handleSubmit = async () => {
     if (!name.trim() || !phone.trim()) {
-      setError('Name and phone are required');
+      setError(t('creatorSubmit.namePhoneRequired'));
       return;
     }
     const phoneRegex = /^1[3-9]\d{9}$/;
     if (!phoneRegex.test(phone.trim())) {
-      setError('Invalid phone number');
+      setError(t('creatorSubmit.invalidPhone'));
       return;
     }
     const validAccounts = platformForms.filter(p => p.account_name.trim() && p.account_url.trim());
     if (validAccounts.length === 0) {
-      setError('At least one platform account is required');
+      setError(t('creatorSubmit.atLeastOneAccount'));
       return;
     }
 
@@ -164,7 +149,7 @@ export default function CreatorSubmit() {
 
       setStep(4); // success
     } catch (err: any) {
-      setError(err.message || 'Submission failed. Please try again.');
+      setError(err.message || t('creatorSubmit.submissionFailed'));
     } finally {
       setSubmitting(false);
     }
@@ -176,8 +161,8 @@ export default function CreatorSubmit() {
     return (
       <div className="max-w-2xl mx-auto">
         <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-6 text-yellow-800">
-          <h2 className="text-lg font-semibold mb-2">Setup Required</h2>
-          <p className="text-sm">SQLite backend is ready. No configuration needed.</p>
+          <h2 className="text-lg font-semibold mb-2">{t('creatorSubmit.setupRequired')}</h2>
+          <p className="text-sm">{t('creatorSubmit.sqliteReady')}</p>
         </div>
       </div>
     );
@@ -187,10 +172,10 @@ export default function CreatorSubmit() {
     return (
       <div className="max-w-2xl mx-auto text-center py-16">
         <div className="text-6xl mb-6">✅</div>
-        <h1 className="text-2xl font-bold mb-4">Submission Received!</h1>
-        <p className="text-muted-foreground mb-8">Your creator profile has been submitted successfully. We'll review it shortly.</p>
+        <h1 className="text-2xl font-bold mb-4">{t('creatorSubmit.submissionReceived')}</h1>
+        <p className="text-muted-foreground mb-8">{t('creatorSubmit.submissionSuccessDesc')}</p>
         <button onClick={() => navigate('/creators')} className="px-6 py-2 bg-primary text-primary-foreground rounded-md hover:opacity-90">
-          View All Creators
+          {t('creatorSubmit.viewAllCreators')}
         </button>
       </div>
     );
@@ -204,7 +189,7 @@ export default function CreatorSubmit() {
           <div key={s} className="flex-1">
             <div className={`h-1 rounded-full ${s <= step ? 'bg-primary' : 'bg-muted'}`} />
             <p className="text-xs text-center mt-1 text-muted-foreground">
-              {s === 1 ? 'Basic Info' : s === 2 ? 'Platforms' : 'Cases'}
+              {s === 1 ? t('creatorSubmit.basicInfo') : s === 2 ? t('creatorSubmit.platforms') : t('creatorSubmit.cases')}
             </p>
           </div>
         ))}
@@ -217,28 +202,32 @@ export default function CreatorSubmit() {
       {/* Step 1: Basic Info */}
       {step === 1 && (
         <div className="space-y-6">
-          <h1 className="text-2xl font-bold">Creator Registration</h1>
+          <h1 className="text-2xl font-bold">{t('creatorSubmit.creatorRegistration')}</h1>
           <div className="grid gap-4">
             <div>
-              <label className="block text-sm font-medium mb-1">Name / Nickname *</label>
-              <input value={name} onChange={e => setName(e.target.value)} className="w-full border rounded-md px-3 py-2 bg-background" placeholder="Your name" />
+              <label className="block text-sm font-medium mb-1">{t('creatorSubmit.nameNickname')}</label>
+              <input value={name} onChange={e => setName(e.target.value)} className="w-full border rounded-md px-3 py-2 bg-background" placeholder={t('creatorSubmit.nameNickname')} />
             </div>
             <div>
-              <label className="block text-sm font-medium mb-1">Phone *</label>
+              <label className="block text-sm font-medium mb-1">{t('creatorSubmit.phone')}</label>
               <input value={phone} onChange={e => setPhone(e.target.value)} className="w-full border rounded-md px-3 py-2 bg-background" placeholder="1XXXXXXXXXX" />
             </div>
             <div>
-              <label className="block text-sm font-medium mb-1">Email</label>
-              <input type="email" value={email} onChange={e => setEmail(e.target.value)} className="w-full border rounded-md px-3 py-2 bg-background" placeholder="Optional" />
+              <label className="block text-sm font-medium mb-1">{t('creatorSubmit.email')}</label>
+              <input type="email" value={email} onChange={e => setEmail(e.target.value)} className="w-full border rounded-md px-3 py-2 bg-background" placeholder={t('creatorSubmit.email')} />
             </div>
             <div>
-              <label className="block text-sm font-medium mb-1">MCN Company</label>
-              <input value={company} onChange={e => setCompany(e.target.value)} className="w-full border rounded-md px-3 py-2 bg-background" placeholder="Optional" />
+              <label className="block text-sm font-medium mb-1">{t('creatorSubmit.mcnCompany')}</label>
+              <input value={company} onChange={e => setCompany(e.target.value)} className="w-full border rounded-md px-3 py-2 bg-background" placeholder={t('creatorSubmit.mcnCompany')} />
             </div>
             <div>
-              <label className="block text-sm font-medium mb-1">Cooperation Status *</label>
+              <label className="block text-sm font-medium mb-1">{t('creatorSubmit.cooperationStatus')}</label>
               <div className="flex gap-3">
-                {COOPERATION_STATUSES.map(s => (
+                {[
+                  { value: '开放合作', label: t('creatorSubmit.organic') },
+                  { value: '暂停接单', label: t('creatorSubmit.paused') },
+                  { value: '已签约', label: t('creatorSubmit.signed') },
+                ].map(s => (
                   <label key={s.value} className="flex items-center gap-2 cursor-pointer">
                     <input type="radio" checked={cooperationStatus === s.value} onChange={() => setCooperationStatus(s.value)} />
                     <span className="text-sm">{s.label}</span>
@@ -247,7 +236,7 @@ export default function CreatorSubmit() {
               </div>
             </div>
             <div>
-              <label className="block text-sm font-medium mb-1">Content Categories *</label>
+              <label className="block text-sm font-medium mb-1">{t('creatorSubmit.contentCategories')}</label>
               <div className="flex flex-wrap gap-2">
                 {CATEGORIES.map(cat => (
                   <button key={cat} onClick={() => toggleCategory(cat)}
@@ -258,19 +247,19 @@ export default function CreatorSubmit() {
               </div>
             </div>
             <div>
-              <label className="block text-sm font-medium mb-1">How did you find us?</label>
+              <label className="block text-sm font-medium mb-1">{t('creatorSubmit.howDidYouFindUs')}</label>
               <select value={referralSource} onChange={e => setReferralSource(e.target.value)} className="w-full border rounded-md px-3 py-2 bg-background">
-                <option value="">Select...</option>
-                <option value="自然流量">Organic</option>
-                <option value="朋友推荐">Friend referral</option>
-                <option value="运营邀请">Invitation</option>
-                <option value="其他">Other</option>
+                <option value="">{t('creatorSubmit.select')}</option>
+                <option value="自然流量">{t('creatorSubmit.organic')}</option>
+                <option value="朋友推荐">{t('creatorSubmit.friendReferral')}</option>
+                <option value="运营邀请">{t('creatorSubmit.invitation')}</option>
+                <option value="其他">{t('creatorSubmit.other')}</option>
               </select>
             </div>
           </div>
           <div className="flex justify-end">
             <button onClick={() => setStep(2)} className="px-6 py-2 bg-primary text-primary-foreground rounded-md hover:opacity-90" disabled={!name.trim() || !phone.trim()}>
-              Next: Platform Accounts →
+              {t('creatorSubmit.nextPlatformAccounts')}
             </button>
           </div>
         </div>
@@ -280,8 +269,8 @@ export default function CreatorSubmit() {
       {step === 2 && (
         <div className="space-y-6">
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-bold">Platform Accounts</h1>
-            <button onClick={addPlatform} className="text-sm text-primary hover:underline">+ Add Platform</button>
+            <h1 className="text-2xl font-bold">{t('creatorSubmit.platformAccounts')}</h1>
+            <button onClick={addPlatform} className="text-sm text-primary hover:underline">+ {t('creatorSubmit.addPlatform')}</button>
           </div>
           {platformForms.map((form, idx) => (
             <div key={idx} className="border rounded-lg p-4 space-y-4">
@@ -291,58 +280,58 @@ export default function CreatorSubmit() {
                   {PLATFORMS.map(p => <option key={p} value={p}>{p}</option>)}
                 </select>
                 {platformForms.length > 1 && (
-                  <button onClick={() => removePlatform(idx)} className="text-sm text-red-500 hover:underline">Remove</button>
+                  <button onClick={() => removePlatform(idx)} className="text-sm text-red-500 hover:underline">{t('creatorSubmit.remove')}</button>
                 )}
               </div>
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-sm font-medium mb-1">Account Name *</label>
+                  <label className="block text-sm font-medium mb-1">{t('creatorSubmit.accountName')}</label>
                   <input value={form.account_name} onChange={e => updatePlatform(idx, 'account_name', e.target.value)} className="w-full border rounded-md px-3 py-2 bg-background text-sm" />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium mb-1">Profile URL *</label>
+                  <label className="block text-sm font-medium mb-1">{t('creatorSubmit.profileUrl')}</label>
                   <input value={form.account_url} onChange={e => updatePlatform(idx, 'account_url', e.target.value)} className="w-full border rounded-md px-3 py-2 bg-background text-sm" placeholder="https://..." />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium mb-1">Followers *</label>
+                  <label className="block text-sm font-medium mb-1">{t('creatorSubmit.followers')}</label>
                   <input type="number" value={form.followers} onChange={e => updatePlatform(idx, 'followers', e.target.value)} className="w-full border rounded-md px-3 py-2 bg-background text-sm" />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium mb-1">Avg Views *</label>
-                  <input type="number" value={form.avg_views} onChange={e => updatePlatform(idx, 'avg_views', e.target.value)} className="w-full border rounded-md px-3 py-2 bg-background text-sm" placeholder="Per post" />
+                  <label className="block text-sm font-medium mb-1">{t('creatorSubmit.avgViews')}</label>
+                  <input type="number" value={form.avg_views} onChange={e => updatePlatform(idx, 'avg_views', e.target.value)} className="w-full border rounded-md px-3 py-2 bg-background text-sm" />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium mb-1">Max Views *</label>
+                  <label className="block text-sm font-medium mb-1">{t('creatorSubmit.maxViews')}</label>
                   <input type="number" value={form.max_views} onChange={e => updatePlatform(idx, 'max_views', e.target.value)} className="w-full border rounded-md px-3 py-2 bg-background text-sm" />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium mb-1">Avg Likes</label>
+                  <label className="block text-sm font-medium mb-1">{t('creatorSubmit.avgLikes')}</label>
                   <input type="number" value={form.likes_avg} onChange={e => updatePlatform(idx, 'likes_avg', e.target.value)} className="w-full border rounded-md px-3 py-2 bg-background text-sm" />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium mb-1">Avg Comments</label>
+                  <label className="block text-sm font-medium mb-1">{t('creatorSubmit.avgComments')}</label>
                   <input type="number" value={form.comments_avg} onChange={e => updatePlatform(idx, 'comments_avg', e.target.value)} className="w-full border rounded-md px-3 py-2 bg-background text-sm" />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium mb-1">Verification</label>
+                  <label className="block text-sm font-medium mb-1">{t('creatorSubmit.verification')}</label>
                   <select value={form.is_verified} onChange={e => updatePlatform(idx, 'is_verified', e.target.value)}
                     className="w-full border rounded-md px-3 py-2 bg-background text-sm">
-                    <option value="普通账号">普通账号</option>
-                    <option value="蓝V认证">蓝V认证</option>
+                    <option value="普通账号">{t('creatorSubmit.nonVerified')}</option>
+                    <option value="蓝V认证">{t('creatorSubmit.blueV')}</option>
                   </select>
                 </div>
               </div>
               <div>
-                <label className="block text-sm font-medium mb-1">Rate Card / Pricing</label>
+                <label className="block text-sm font-medium mb-1">{t('creatorSubmit.rateCard')}</label>
                 <textarea value={form.rate_card} onChange={e => updatePlatform(idx, 'rate_card', e.target.value)}
                   className="w-full border rounded-md px-3 py-2 bg-background text-sm" rows={2}
-                  placeholder="e.g. 单条图文3000元，单条视频5000元" />
+                  placeholder={t('creatorSubmit.rateCard')} />
               </div>
             </div>
           ))}
           <div className="flex justify-between">
-            <button onClick={() => setStep(1)} className="px-6 py-2 border rounded-md hover:bg-muted">← Back</button>
-            <button onClick={() => setStep(3)} className="px-6 py-2 bg-primary text-primary-foreground rounded-md hover:opacity-90">Next: Cases →</button>
+            <button onClick={() => setStep(1)} className="px-6 py-2 border rounded-md hover:bg-muted">{t('creatorSubmit.back')}</button>
+            <button onClick={() => setStep(3)} className="px-6 py-2 bg-primary text-primary-foreground rounded-md hover:opacity-90">{t('creatorSubmit.nextCases')}</button>
           </div>
         </div>
       )}
@@ -351,57 +340,65 @@ export default function CreatorSubmit() {
       {step === 3 && (
         <div className="space-y-6">
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-bold">Past Collaboration Cases (Optional)</h1>
-            <button onClick={addCase} className="text-sm text-primary hover:underline">+ Add Case</button>
+            <h1 className="text-2xl font-bold">{t('creatorSubmit.pastCollaborationCases')}</h1>
+            <button onClick={addCase} className="text-sm text-primary hover:underline">+ {t('creatorSubmit.addCase')}</button>
           </div>
           {cases.length === 0 && (
-            <p className="text-sm text-muted-foreground">No cases added yet. This step is optional — click "+ Add Case" if you have past collaborations to showcase.</p>
+            <p className="text-sm text-muted-foreground">{t('creatorSubmit.noCasesYet')}</p>
           )}
           {cases.map((c, idx) => (
             <div key={idx} className="border rounded-lg p-4 space-y-4">
               <div className="flex items-center justify-between">
-                <span className="text-sm font-medium">Case {idx + 1}</span>
-                <button onClick={() => removeCase(idx)} className="text-sm text-red-500 hover:underline">Remove</button>
+                <span className="text-sm font-medium">{t('creatorSubmit.caseN', { idx: idx + 1 })}</span>
+                <button onClick={() => removeCase(idx)} className="text-sm text-red-500 hover:underline">{t('creatorSubmit.remove')}</button>
               </div>
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-sm font-medium mb-1">Brand Name *</label>
+                  <label className="block text-sm font-medium mb-1">{t('creatorSubmit.brandName')}</label>
                   <input value={c.brand_name} onChange={e => updateCase(idx, 'brand_name', e.target.value)} className="w-full border rounded-md px-3 py-2 bg-background text-sm" />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium mb-1">Platform</label>
+                  <label className="block text-sm font-medium mb-1">{t('creatorSubmit.platform')}</label>
                   <select value={c.platform} onChange={e => updateCase(idx, 'platform', e.target.value)} className="w-full border rounded-md px-3 py-2 bg-background text-sm">
                     {PLATFORMS.map(p => <option key={p} value={p}>{p}</option>)}
                   </select>
                 </div>
                 <div>
-                  <label className="block text-sm font-medium mb-1">Content Type</label>
+                  <label className="block text-sm font-medium mb-1">{t('creatorSubmit.contentType')}</label>
                   <select value={c.content_type} onChange={e => updateCase(idx, 'content_type', e.target.value)} className="w-full border rounded-md px-3 py-2 bg-background text-sm">
-                    {CONTENT_TYPES.map(ct => <option key={ct.value} value={ct.value}>{ct.label}</option>)}
+                    {[
+                      { value: '图文', label: '图文' },
+                      { value: '短视频', label: '短视频' },
+                      { value: '直播', label: '直播' },
+                      { value: '长期代言', label: '长期代言' },
+                    ].map(ct => <option key={ct.value} value={ct.value}>{ct.label}</option>)}
                   </select>
                 </div>
                 <div>
-                  <label className="block text-sm font-medium mb-1">Exclusive?</label>
+                  <label className="block text-sm font-medium mb-1">{t('creatorSubmit.exclusive')}</label>
                   <select value={c.is_exclusive} onChange={e => updateCase(idx, 'is_exclusive', e.target.value)} className="w-full border rounded-md px-3 py-2 bg-background text-sm">
-                    {EXCLUSIVE_OPTIONS.map(ex => <option key={ex.value} value={ex.value}>{ex.label}</option>)}
+                    {[
+                      { value: '独家', label: '独家' },
+                      { value: '非独家', label: '非独家' },
+                    ].map(ex => <option key={ex.value} value={ex.value}>{ex.label}</option>)}
                   </select>
                 </div>
                 <div className="col-span-2">
-                  <label className="block text-sm font-medium mb-1">Campaign URL</label>
+                  <label className="block text-sm font-medium mb-1">{t('creatorSubmit.campaignUrl')}</label>
                   <input value={c.campaign_url} onChange={e => updateCase(idx, 'campaign_url', e.target.value)} className="w-full border rounded-md px-3 py-2 bg-background text-sm" placeholder="https://..." />
                 </div>
                 <div className="col-span-2">
-                  <label className="block text-sm font-medium mb-1">Results Description</label>
-                  <textarea value={c.results} onChange={e => updateCase(idx, 'results', e.target.value)} className="w-full border rounded-md px-3 py-2 bg-background text-sm" rows={2} placeholder="e.g. 曝光50万，带来GMV 10万" />
+                  <label className="block text-sm font-medium mb-1">{t('creatorSubmit.resultsDescription')}</label>
+                  <textarea value={c.results} onChange={e => updateCase(idx, 'results', e.target.value)} className="w-full border rounded-md px-3 py-2 bg-background text-sm" rows={2} placeholder={t('creatorSubmit.resultsDescription')} />
                 </div>
               </div>
             </div>
           ))}
           <div className="flex justify-between">
-            <button onClick={() => setStep(2)} className="px-6 py-2 border rounded-md hover:bg-muted">← Back</button>
+            <button onClick={() => setStep(2)} className="px-6 py-2 border rounded-md hover:bg-muted">{t('creatorSubmit.back')}</button>
             <button onClick={handleSubmit} disabled={submitting}
               className="px-6 py-2 bg-primary text-primary-foreground rounded-md hover:opacity-90 disabled:opacity-50">
-              {submitting ? 'Submitting...' : 'Submit Profile'}
+              {submitting ? t('creatorSubmit.submitting') : t('creatorSubmit.submitProfile')}
             </button>
           </div>
         </div>

@@ -4,11 +4,6 @@ import { useParams, Link } from 'react-router-dom';
 import { getCreatorById, listAccountsByCreator, listCasesByCreator, updateCreator, isAdmin, type Creator, type PlatformAccount, type CollaborationCase, type CooperationStatus } from '@/lib/creators';
 
 const ALL_STATUSES: CooperationStatus[] = ['开放合作', '暂停接单', '已签约'];
-const STATUS_LABELS: Record<string, { zh: string; en: string }> = {
-  '开放合作': { zh: '开放合作', en: 'Open' },
-  '暂停接单': { zh: '暂停接单', en: 'Paused' },
-  '已签约': { zh: '已签约', en: 'Signed' },
-};
 const STATUS_COLORS: Record<string, string> = {
   '开放合作': 'bg-green-100 text-green-800',
   '暂停接单': 'bg-yellow-100 text-yellow-800',
@@ -26,12 +21,13 @@ function MetricCard({ label, value }: { label: string; value: string }) {
 
 export default function CreatorDetail() {
   const { id } = useParams<{ id: string }>();
-  const { i18n } = useTranslation();
-  const isEn = i18n.language === 'en';
+  const { t, i18n } = useTranslation();
   const [creator, setCreator] = useState<Creator | null>(null);
   const [accounts, setAccounts] = useState<PlatformAccount[]>([]);
   const [cases, setCases] = useState<CollaborationCase[]>([]);
   const [loading, setLoading] = useState(true);
+
+  const admin = isAdmin();
 
   useEffect(() => {
     if (!id) return;
@@ -47,12 +43,12 @@ export default function CreatorDetail() {
     });
   }, [id]);
 
-  if (loading) return <div className="text-center py-16 text-muted-foreground">Loading...</div>;
+  if (loading) return <div className="text-center py-16 text-muted-foreground">{t('creatorHub.loading')}</div>;
 
   if (!creator) return (
     <div className="text-center py-16">
-      <p className="text-muted-foreground mb-4">Creator not found.</p>
-      <Link to="/creators" className="text-primary hover:underline">← Back to Creator Hub</Link>
+      <p className="text-muted-foreground mb-4">{t('creatorDetail.creatorNotFound')}</p>
+      <Link to="/creators" className="text-primary hover:underline">{t('creatorDetail.backToCreatorHub')}</Link>
     </div>
   );
 
@@ -63,7 +59,7 @@ export default function CreatorDetail() {
 
   return (
     <div className="max-w-4xl mx-auto">
-      <Link to="/creators" className="text-sm text-muted-foreground hover:text-foreground mb-4 inline-block">← Back to Creator Hub</Link>
+      <Link to="/creators" className="text-sm text-muted-foreground hover:text-foreground mb-4 inline-block">{t('creatorDetail.backToCreatorHub')}</Link>
 
       {/* Header */}
       <div className="bg-card border rounded-xl p-6 mb-6">
@@ -83,7 +79,7 @@ export default function CreatorDetail() {
                 </select>
               ) : (
                 <span className={`text-xs px-2 py-0.5 rounded-full ${STATUS_COLORS[creator.cooperation_status]}`}>
-                  {isEn ? STATUS_LABELS[creator.cooperation_status]?.en : STATUS_LABELS[creator.cooperation_status]?.zh}
+                  {creator.cooperation_status}
                 </span>
               )}
               {creator.categories.map(cat => (
@@ -98,22 +94,22 @@ export default function CreatorDetail() {
             </div>
           </div>
           <div className="grid grid-cols-2 gap-3 w-full max-w-xs">
-            <MetricCard label={isEn ? 'Total Followers' : '总粉丝量'} value={formatNum(totalFollowers)} />
-            <MetricCard label={isEn ? 'Avg Engagement' : '平均互动率'} value={avgEngagement + '%'} />
+            <MetricCard label={t('creatorDetail.totalFollowers')} value={formatNum(totalFollowers)} />
+            <MetricCard label={t('creatorDetail.avgEngagement')} value={avgEngagement + '%'} />
           </div>
         </div>
         {creator.admin_notes && (
           <div className="mt-4 p-3 bg-yellow-50 border border-yellow-100 rounded-md text-sm text-yellow-800">
-            <strong>Admin Notes:</strong> {creator.admin_notes}
+            <strong>{t('creatorDetail.adminNotes')}</strong> {creator.admin_notes}
           </div>
         )}
       </div>
 
       {/* Platform Accounts */}
       <section className="mb-8">
-        <h2 className="text-lg font-semibold mb-4">{isEn ? 'Platform Accounts' : '平台账号'}</h2>
+        <h2 className="text-lg font-semibold mb-4">{t('creatorDetail.platformAccounts')}</h2>
         {accounts.length === 0 ? (
-          <p className="text-sm text-muted-foreground">{isEn ? 'No accounts registered.' : '暂无账号数据'}</p>
+          <p className="text-sm text-muted-foreground">{t('creatorDetail.noAccountsRegistered')}</p>
         ) : (
           <div className="space-y-4">
             {accounts.map(acc => (
@@ -135,14 +131,14 @@ export default function CreatorDetail() {
                   </span>
                 </div>
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-                  <MetricCard label={isEn ? 'Followers' : '粉丝量'} value={formatNum(acc.followers)} />
-                  <MetricCard label={isEn ? 'Avg Views' : '均播放'} value={formatNum(acc.avg_views)} />
-                  <MetricCard label={isEn ? 'Max Views' : '最高播放'} value={formatNum(acc.max_views)} />
-                  <MetricCard label={isEn ? 'Eng. Rate' : '互动率'} value={acc.engagement_rate + '%'} />
+                  <MetricCard label={t('creatorDetail.followers')} value={formatNum(acc.followers)} />
+                  <MetricCard label={t('creatorDetail.avgViews')} value={formatNum(acc.avg_views)} />
+                  <MetricCard label={t('creatorDetail.maxViews')} value={formatNum(acc.max_views)} />
+                  <MetricCard label={t('creatorDetail.engRate')} value={acc.engagement_rate + '%'} />
                 </div>
                 {acc.rate_card && (
                   <div className="mt-3 p-3 bg-muted/30 rounded-md text-sm">
-                    <strong>{isEn ? 'Rate Card:' : '报价:'}</strong> {acc.rate_card}
+                    <strong>{t('creatorDetail.rateCard')}</strong> {acc.rate_card}
                   </div>
                 )}
               </div>
@@ -153,9 +149,9 @@ export default function CreatorDetail() {
 
       {/* Collaboration Cases */}
       <section>
-        <h2 className="text-lg font-semibold mb-4">{isEn ? 'Past Collaborations' : '历史合作案例'}</h2>
+        <h2 className="text-lg font-semibold mb-4">{t('creatorDetail.pastCollaborations')}</h2>
         {cases.length === 0 ? (
-          <p className="text-sm text-muted-foreground">{isEn ? 'No past collaborations recorded.' : '暂无合作案例'}</p>
+          <p className="text-sm text-muted-foreground">{t('creatorDetail.noPastCollaborations')}</p>
         ) : (
           <div className="space-y-3">
             {cases.map(c => (
@@ -176,7 +172,7 @@ export default function CreatorDetail() {
                   </div>
                   {c.campaign_url && (
                     <a href={c.campaign_url} target="_blank" rel="noopener noreferrer"
-                      className="text-xs text-primary hover:underline">🔗 View Campaign</a>
+                      className="text-xs text-primary hover:underline">🔗 {t('creatorDetail.viewCampaign')}</a>
                   )}
                 </div>
                 {c.results && (

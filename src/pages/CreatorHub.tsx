@@ -12,7 +12,7 @@ const STATUS_COLORS: Record<CooperationStatus, string> = {
 const ALL_STATUSES: CooperationStatus[] = ['开放合作', '暂停接单', '已签约'];
 
 export default function CreatorHub() {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const navigate = useNavigate();
   const [creators, setCreators] = useState<Creator[]>([]);
   const [accountsMap, setAccountsMap] = useState<Record<string, PlatformAccount[]>>({});
@@ -26,6 +26,9 @@ export default function CreatorHub() {
   const [showExportLock, setShowExportLock] = useState(false);
 
   const admin = isAdmin();
+
+  // Re-render when language changes
+  const lang = i18n.language;
 
   useEffect(() => {
     listCreators().then(async (creators) => {
@@ -55,7 +58,10 @@ export default function CreatorHub() {
 
   const handleExportCSV = () => {
     if (!admin) { setShowExportLock(true); return; }
-    const headers = ['Name', 'Phone', 'Email', 'Company', 'Status', 'Categories', 'Platform', 'Account Name', 'Followers', 'Avg Views', 'Max Views', 'Engagement Rate', 'Verified', 'Rate Card'];
+    const headers = [t('creatorSubmit.nameNickname'), t('creatorSubmit.phone'), t('creatorSubmit.email'), t('creatorSubmit.mcnCompany'), t('creatorDetail.status'),
+      t('creatorSubmit.contentCategories'), t('creatorSubmit.platform'), t('creatorSubmit.accountName'),
+      t('creatorSubmit.followers'), t('creatorSubmit.avgViews'), t('creatorSubmit.maxViews'),
+      t('creatorDetail.engRate'), t('creatorSubmit.verification'), t('creatorSubmit.rateCard')];
     const rows = filtered.flatMap(c => {
       const accounts = accountsMap[c.id] || [];
       if (accounts.length === 0) {
@@ -86,75 +92,75 @@ export default function CreatorHub() {
     <div>
       <div className="flex items-center justify-between mb-6">
         <div>
-          <h1 className="text-2xl font-bold">Creator Hub</h1>
+          <h1 className="text-2xl font-bold">{t('creatorHub.title')}</h1>
           <p className="text-sm text-muted-foreground mt-1">
-            {filtered.length} creators{filtersActive() && ` (filtered from ${creators.length})`}
+            {filtered.length}{filtersActive() ? t('creatorHub.filteredFrom', { count: creators.length }) : t('creatorHub.creatorsCount', { count: '' }).replace('{{count}}', String(filtered.length))}
           </p>
         </div>
         <div className="flex gap-2">
           {showExportLock && (
             <div className="flex items-center gap-2 border rounded-md px-3 py-2 bg-yellow-50 text-sm">
-              <span className="text-yellow-800">🔒 Admin required</span>
+              <span className="text-yellow-800">🔒 {t('creatorHub.adminRequired')}</span>
               <button onClick={() => { setShowExportLock(false); navigate('/creators/admin'); }}
-                className="text-primary underline text-xs">Login</button>
+                className="text-primary underline text-xs">{t('creatorHub.login')}</button>
               <button onClick={() => setShowExportLock(false)} className="text-muted-foreground hover:text-foreground">×</button>
             </div>
           )}
           <button onClick={handleExportCSV}
             className="px-4 py-2 border rounded-md hover:bg-muted text-sm flex items-center gap-1.5 disabled:opacity-50">
-            {admin ? '' : '🔒 '}<span>Export CSV</span>
+            {admin ? '' : '🔒 '}<span>{t('creatorHub.exportCsv')}</span>
           </button>
           <Link to="/creators/submit" className="px-4 py-2 bg-primary text-primary-foreground rounded-md hover:opacity-90 text-sm">
-            + Submit Creator
+            + {t('creatorHub.submitCreator')}
           </Link>
         </div>
       </div>
 
       {/* Filters */}
       <div className="flex flex-wrap gap-3 mb-6 p-4 bg-muted/30 rounded-lg">
-        <input value={search} onChange={e => setSearch(e.target.value)} placeholder="Search name or account..."
+        <input value={search} onChange={e => setSearch(e.target.value)} placeholder={t('creatorHub.searchPlaceholder')}
           className="border rounded-md px-3 py-1.5 text-sm bg-background flex-1 min-w-[200px]" />
         <select value={filterPlatform} onChange={e => setFilterPlatform(e.target.value as Platform | '')}
           className="border rounded-md px-3 py-1.5 text-sm bg-background">
-          <option value="">All Platforms</option>
+          <option value="">{t('creatorHub.allPlatforms')}</option>
           {PLATFORMS.map(p => <option key={p} value={p}>{p}</option>)}
         </select>
         <select value={filterStatus} onChange={e => setFilterStatus(e.target.value as CooperationStatus | '')}
           className="border rounded-md px-3 py-1.5 text-sm bg-background">
-          <option value="">All Status</option>
+          <option value="">{t('creatorHub.allStatus')}</option>
           {ALL_STATUSES.map(s => <option key={s} value={s}>{s}</option>)}
         </select>
         <select value={filterCategory} onChange={e => setFilterCategory(e.target.value)}
           className="border rounded-md px-3 py-1.5 text-sm bg-background">
-          <option value="">All Categories</option>
+          <option value="">{t('creatorHub.allCategories')}</option>
           {['知识干货','小清新','接地气','娱乐搞笑','测评好物','生活方式','职场成长','科技数码','美食','旅行','健身','美妆','母婴','教育'].map(c => <option key={c} value={c}>{c}</option>)}
         </select>
         <select value={filterFollowersMin} onChange={e => setFilterFollowersMin(e.target.value)}
           className="border rounded-md px-3 py-1.5 text-sm bg-background">
-          <option value="">Any Followers</option>
+          <option value="">{t('creatorHub.anyFollowers')}</option>
           <option value="10000">10k+</option>
           <option value="100000">100k+</option>
           <option value="500000">500k+</option>
         </select>
         <select value={filterVerified} onChange={e => setFilterVerified(e.target.value)}
           className="border rounded-md px-3 py-1.5 text-sm bg-background">
-          <option value="">Any Verification</option>
-          <option value="true">蓝V Only</option>
-          <option value="false">Non-verified</option>
+          <option value="">{t('creatorHub.anyVerification')}</option>
+          <option value="true">{t('creatorHub.blueVOnly')}</option>
+          <option value="false">{t('creatorHub.nonVerified')}</option>
         </select>
         {filtersActive() && (
           <button onClick={clearFilters} className="text-xs text-muted-foreground hover:text-foreground underline px-2 py-1.5">
-            Clear filters
+            {t('creatorHub.clearFilters')}
           </button>
         )}
       </div>
 
       {loading ? (
-        <div className="text-center py-16 text-muted-foreground">Loading...</div>
+        <div className="text-center py-16 text-muted-foreground">{t('creatorHub.loading')}</div>
       ) : filtered.length === 0 ? (
         <div className="text-center py-16 text-muted-foreground">
           <p className="text-4xl mb-4">🔍</p>
-          <p>No creators match your filters.</p>
+          <p>{t('creatorHub.noCreatorsMatch')}</p>
         </div>
       ) : (
         <div className="space-y-4">

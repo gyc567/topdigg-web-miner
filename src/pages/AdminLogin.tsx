@@ -1,8 +1,10 @@
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
 import { login, logout, isAdmin } from '@/lib/creators';
 
 export default function AdminLogin() {
+  const { t } = useTranslation();
   const navigate = useNavigate();
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
@@ -10,13 +12,13 @@ export default function AdminLogin() {
 
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!password.trim()) { setError('Please enter password'); return; }
+    if (!password.trim()) { setError(t('adminLogin.pleaseEnterPassword')); return; }
     setLoading(true);
     setError('');
     const ok = await login(password);
     setLoading(false);
     if (ok) { navigate('/creators'); }
-    else { setError('Incorrect password'); setPassword(''); }
+    else { setError(t('adminLogin.incorrectPassword')); setPassword(''); }
   };
 
   const handleLogout = () => {
@@ -30,24 +32,24 @@ export default function AdminLogin() {
 
       {isAdmin() ? (
         <>
-          <h1 className="text-2xl font-bold mb-2">Admin Mode Active</h1>
-          <p className="text-muted-foreground mb-8">You are logged in as administrator.</p>
+          <h1 className="text-2xl font-bold mb-2">{t('adminLogin.adminModeActive')}</h1>
+          <p className="text-muted-foreground mb-8">{t('adminLogin.loggedInAsAdmin')}</p>
           <div className="flex flex-col gap-3">
             <button onClick={() => navigate('/creators')}
               className="px-6 py-2.5 bg-primary text-primary-foreground rounded-md hover:opacity-90 font-medium">
-              Go to Creator Hub
+              {t('adminLogin.goToCreatorHub')}
             </button>
             <button onClick={handleLogout}
               className="px-6 py-2.5 border rounded-md hover:bg-muted text-sm">
-              Logout
+              {t('adminLogin.logout')}
             </button>
           </div>
         </>
       ) : (
         <>
-          <h1 className="text-2xl font-bold mb-2">Admin Login</h1>
+          <h1 className="text-2xl font-bold mb-2">{t('adminLogin.adminLogin')}</h1>
           <p className="text-muted-foreground mb-8 text-sm">
-            Enter the administrator password to unlock export and status editing.
+            {t('adminLogin.adminPasswordDesc')}
           </p>
           <form onSubmit={handleLogin} className="space-y-4">
             <input
@@ -55,7 +57,7 @@ export default function AdminLogin() {
               value={password}
               onChange={e => setPassword(e.target.value)}
               className="w-full border rounded-md px-4 py-2.5 bg-background"
-              placeholder="Enter password"
+              placeholder={t('adminLogin.enterPassword')}
               autoFocus
             />
             {error && (
@@ -63,11 +65,11 @@ export default function AdminLogin() {
             )}
             <button type="submit" disabled={loading}
               className="w-full px-6 py-2.5 bg-primary text-primary-foreground rounded-md hover:opacity-90 disabled:opacity-50 font-medium">
-              {loading ? 'Verifying...' : 'Unlock Admin'}
+              {loading ? t('adminLogin.verifying') : t('adminLogin.unlockAdmin')}
             </button>
           </form>
           <p className="text-xs text-muted-foreground mt-6">
-            Contact administrator if locked out.
+            {t('adminLogin.contactAdmin')}
           </p>
         </>
       )}
