@@ -1,4 +1,18 @@
-# Toonflow：一个让小说「瞬间」变成动画片的项目，GitHub 11.9K+ Star 了
+---
+title: 'Toonflow：一个让小说「瞬间」变成动画片的项目，GitHub 11.9K+ Star 了'
+date: '2026-09-15'
+description: 'Toonflow 是一个将小说一键转化为动画短剧的 AI 开源工具，最近在 GitHub 拿到了 11.9K+ Stars。本文从技术架构到设计哲学、从核心功能到实战教程，全面解析这个赛道冠军。'
+tags:
+  - AI工具
+  - 开源
+  - 视频生成
+categories:
+  - AI工具
+  - 技术解析
+author: 比特财商
+source: ''
+slug: toonflow-ai-shortdrama
+---
 
 **作者：比特财商**
 
