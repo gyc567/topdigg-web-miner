@@ -111,7 +111,7 @@ async function getDb(): Promise<Database> {
 
 async function initDb(): Promise<void> {
   const SQL = await initSqlJs({
-    locateFile: (file: string) => `https://sql.js.org/dist/${file}`,
+    locateFile: (file: string) => `https://cdn.jsdelivr.net/npm/sql.js/dist/${file}`,
   });
 
   // Try to restore from localStorage
