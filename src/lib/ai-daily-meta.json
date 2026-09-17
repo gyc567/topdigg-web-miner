@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-09-17-ai-daily",
+      "title": {
+        "en": "Microsoft AI CEO Warns Against 'Model Welfare' Rhetoric",
+        "ja": "Microsoft AI CEO、「モデル福祉」論調に警告",
+        "vi": "Microsoft AI CEO Cảnh báo về luận điểm 'phúc lợi mô hình'",
+        "zh-Hans": "微软 AI CEO 警告\"模型福利\"论调",
+        "zh-Hant": "微軟 AI CEO 警告「模型福利」論調"
+      },
+      "description": {
+        "en": "Microsoft AI CEO Mustafa Suleyman argues against the 'model welfare' concept, stating that AI has no consciousness, feelings, or pain, and granting it care rights would make alignment and control harder or even impossible.",
+        "ja": "Microsoft AI CEO Mustafa Suleyman씨가「モデル福祉」概念に反対し、AIには意識も感情も痛みもなく、ケア権を与えることは整合とコントロールをより困難に甚至は不可能にすると主張。",
+        "vi": "Microsoft AI CEO Mustafa Suleyman phản đối quan niệm 'phúc lợi mô hình', cho rằng AI không có ý thức, không cảm nhận hay đau đớn, và trao quyền chăm sóc cho nó sẽ khiến việc alignment và kiểm soát khó khăn hơn hoặc thậm chí không thể.",
+        "zh-Hans": "微软 AI CEO Mustafa Suleyman 发文反对\"模型福利\"理念，认为 AI 并无意识、不会感受或痛苦，赋予其受照料权会让对齐与管控更难甚至不可能。",
+        "zh-Hant": "微軟 AI CEO Mustafa Suleyman 發文反對「模型福利」理念，認為 AI 並無意識、不會感受或痛苦，賦予其受照料權會讓對齊與管控更難甚至不可能。"
+      },
+      "date": "2026-09-17",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": {
+            "en": "比特财商",
+            "ja": "比特财商",
+            "vi": "比特财商",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特財商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-09-16-ai-daily",
       "title": {
         "en": "Google DeepMind Releases Gemini 3.8 Live and 3.8 Live Extended Thinking",
