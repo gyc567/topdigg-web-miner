@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
-import { createCreator, createAccount, createCase } from '@/lib/creators';
+import { createCreator, createAccount, createCase, autoApproveCreator } from '@/lib/creators';
 import type { CooperationStatus, Platform, ContentCategory, ContentType, ExclusiveType } from '@/lib/creators';
 
 const PLATFORMS: Platform[] = ['视频号', '小红书', '抖音'];
@@ -148,6 +148,9 @@ export default function CreatorSubmit() {
       }
 
       setStep(4); // success
+
+      // Trigger auto-approval asynchronously (non-blocking)
+      autoApproveCreator(creatorId).catch(() => {});
     } catch (err: any) {
       setError(err.message || t('creatorSubmit.submissionFailed'));
     } finally {

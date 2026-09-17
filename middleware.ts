@@ -28,8 +28,12 @@ const VALID_ROUTES = new Set([
   "/about",
   "/privacy",
   "/creators",
+  "/creators/join",
   "/creators/submit",
+  "/creators/dashboard",
   "/creators/admin",
+  "/advertisers",
+  "/advertisers/dashboard",
   // Vercel internals (should never 404)
   "/_vercel",
   "/__next",

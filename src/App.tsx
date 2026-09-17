@@ -23,9 +23,13 @@ const MoneyLabIndex = lazy(() => import("./pages/MoneyLabIndex"));
 const MoneyLabPost = lazy(() => import("./pages/MoneyLabPost"));
 const AuraWorkbench = lazy(() => import("./pages/AuraWorkbench"));
 const CreatorHub = lazy(() => import("./pages/CreatorHub"));
+const CreatorJoin = lazy(() => import("./pages/CreatorJoin"));
 const CreatorSubmit = lazy(() => import("./pages/CreatorSubmit"));
 const CreatorDetail = lazy(() => import("./pages/CreatorDetail"));
+const CreatorDashboard = lazy(() => import("./pages/CreatorDashboard"));
 const AdminLogin = lazy(() => import("./pages/AdminLogin"));
+const AdvertiserLanding = lazy(() => import("./pages/AdvertiserLanding"));
+const AdvertiserDashboard = lazy(() => import("./pages/AdvertiserDashboard"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 const App = () => (
@@ -51,9 +55,13 @@ const App = () => (
               <Route path="/external-links" element={<ExternalLinks />} />
               <Route path="/aura-workbench" element={<AuraWorkbench />} />
               <Route path="/creators" element={<CreatorHub />} />
+              <Route path="/creators/join" element={<CreatorJoin />} />
               <Route path="/creators/submit" element={<CreatorSubmit />} />
               <Route path="/creators/:id" element={<CreatorDetail />} />
+              <Route path="/creators/dashboard" element={<CreatorDashboard />} />
               <Route path="/creators/admin" element={<AdminLogin />} />
+              <Route path="/advertisers" element={<AdvertiserLanding />} />
+              <Route path="/advertisers/dashboard" element={<AdvertiserDashboard />} />
               <Route path="/about" element={<About />} />
               <Route path="/privacy" element={<Privacy />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
