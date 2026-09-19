@@ -1,6 +1,82 @@
 {
   "reports": [
     {
+      "slug": "2026-09-19-ai-daily",
+      "title": {
+        "en": "Qwen Releases Qwen3.8-LiveTranslate Real-Time Translation Model, LAAL Drops to 2.3 Seconds",
+        "ja": "Qwen、リアルタイム同時翻訳モデルQwen3.8-LiveTranslateを発表 - LAALが2.3秒に",
+        "vi": "Qwen Phát Hành Qwen3.8-LiveTranslate - Độ Trễ Trung Bình Giảm Còn 2.3 Giây",
+        "zh-Hans": "Qwen 发布 Qwen3.8-LiveTranslate 实时同传模型，LAAL 降至 2.3 秒",
+        "zh-Hant": "Qwen 發布 Qwen3.8-LiveTranslate 即時同傳模型，LAAL 降至 2.3 秒"
+      },
+      "description": {
+        "en": "Qwen releases Qwen3.8-LiveTranslate with Interleave architecture and Hybrid-MoE Thinker–Talker design, reducing average latency (LAAL) from 2.8s to 2.3s.",
+        "ja": "Qwenは、InterleaveアーキテクチャとHybrid-MoE Thinker–Talker設計を採用したQwen3.8-LiveTranslateを発表、平均遅延（LAAL）を2.8秒から2.3秒に短縮した。",
+        "vi": "Qwen phát hành Qwen3.8-LiveTranslate với kiến trúc Interleave và thiết kế Hybrid-MoE Thinker–Talker, giảm độ trễ trung bình (LAAL) từ 2.8 giây xuống 2.3 giây.",
+        "zh-Hans": "Qwen 发布 Qwen3.8-LiveTranslate，采用 Interleave 架构与 Hybrid-MoE Thinker–Talker 设计重构实时同声传译，平均滞后从 2.8 秒降至 2.3 秒。",
+        "zh-Hant": "Qwen 發布 Qwen3.8-LiveTranslate，採用 Interleave 架構與 Hybrid-MoE Thinker–Talker 設計重構即時同聲傳譯，平均滯後從 2.8 秒降至 2.3 秒。"
+      },
+      "date": "2026-09-19",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": {
+            "en": "比特财商",
+            "ja": "比特财商",
+            "vi": "比特财商",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特財商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
+      "slug": "2026-09-18-ai-daily",
+      "title": {
+        "en": "Qwen Releases Native Multimodal Model Qwen3.8-Omni-Flash, Focused on Audio/Video Agent Task Delivery",
+        "zh-Hans": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付",
+        "zh-Hant": "Qwen 發布原生全模態模型 Qwen3.8-Omni-Flash，主打影音智慧體任務交付"
+      },
+      "description": {
+        "en": "Qwen releases next-gen native multimodal model Qwen3.8-Omni-Flash, supporting text, image, audio and video input with a 1M token context window, scoring 25%+ higher on average across 29 benchmarks compared to Qwen3.5-Omni-Plus, with audio input costs dropping 98%+ per hour and audio/video input costs dropping 93%+ per hour.",
+        "zh-Hans": "Qwen 发布下一代原生全模态模型 Qwen3.8-Omni-Flash，支持文本、图像、音频和视频输入及 1M token 上下文窗口，29 项评测平均分较 Qwen3.5-Omni-Plus 提升超过 25%，音频输入每小时价格下降超过 98%，音视频输入每小时价格下降超过 93%。",
+        "zh-Hant": "Qwen 發布下一代原生全模態模型 Qwen3.8-Omni-Flash，支援文字、圖像、音訊和影片輸入及 1M token 上下文窗口，29 項評測平均分較 Qwen3.5-Omni-Plus 提升超過 25%，音訊輸入每小時價格下降超過 98%，影音輸入每小時價格下降超過 93%。"
+      },
+      "date": "2026-09-18",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": {
+            "en": "比特财商",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特財商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-09-17-ai-daily",
       "title": {
         "en": "Microsoft AI CEO Warns Against 'Model Welfare' Rhetoric",
