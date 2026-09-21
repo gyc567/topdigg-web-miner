@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-09-21-ai-daily",
+      "title": {
+        "en": "Qwen Open-Sources Qwen-Image-2.1: 7B Unified Generation & Editing with Native Transparent Image Support",
+        "ja": "QwenがQwen-Image-2.1をオープンソース化：7B統一生成・編集とネイティブ透明画像サポート",
+        "vi": "Qwen Open-Source Qwen-Image-2.1: 7B Tạo sinh & Chỉnh sửa Thống nhất với Hỗ trợ Ảnh Trong suốt Native",
+        "zh-Hans": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像",
+        "zh-Hant": "Qwen 開源 Qwen-Image-2.1：7B 統一生成與編輯並原生支援透明圖像"
+      },
+      "description": {
+        "en": "Qwen releases Qwen-Image-2.1, unifying text-to-image and image editing in a single model with a 7B visual generation component and native transparent image support.",
+        "ja": "QwenがQwen-Image-2.1をオープンソース化。テキストから画像生成と画像編集を1つのモデルに統合し、視覚生成コンポーネントは7Bパラメータのみで、ネイティブに透明画像の生成と編集をサポート。",
+        "vi": "Qwen phát hành Qwen-Image-2.1 mã nguồn mở, thống nhất tạo sinh từ văn bản sang ảnh và chỉnh sửa ảnh trong một mô hình duy nhất, với thành phần tạo sinh hình ảnh chỉ 7B tham số và hỗ trợ native ảnh trong suốt.",
+        "zh-Hans": "Qwen 团队开源 Qwen-Image-2.1，将文生图与图像编辑统一到一个模型中，视觉生成组件仅 7B 参数，并原生支持生成和编辑透明图像。",
+        "zh-Hant": "Qwen 團隊開源 Qwen-Image-2.1，將文生圖與圖像編輯統一到一個模型中，視覺生成組件僅 7B 參數，並原生支援生成和編輯透明圖像。"
+      },
+      "date": "2026-09-21",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": {
+            "en": "比特财商",
+            "ja": "比特财商",
+            "vi": "比特财商",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特财商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-09-20-ai-daily",
       "title": {
         "en": "Anthropic Plans to Delay IPO to November, Valuation ~$2 Trillion",
