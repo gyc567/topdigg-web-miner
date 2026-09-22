@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-09-22-ai-daily",
+      "title": {
+        "en": "Qwen Open-Sources Qwen-Image-2.1: 7B Unified Generation & Editing with Native Transparent Image Support",
+        "ja": "QwenがQwen-Image-2.1をオープンソース化：7B統一生成・編集とネイティブ透明画像サポート",
+        "vi": "Qwen mã nguồn mở Qwen-Image-2.1: 7B tạo sinh và chỉnh sửa thống nhất với hỗ trợ ảnh trong suốt native",
+        "zh-Hans": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像",
+        "zh-Hant": "Qwen 開源 Qwen-Image-2.1：7B 統一生成與編輯並原生支援透明圖像"
+      },
+      "description": {
+        "en": "Qwen team open-sources Qwen-Image-2.1, unifying text-to-image and image editing in a single model with a 7B visual generation component, natively supporting transparent image generation and editing.",
+        "ja": "QwenチームがQwen-Image-2.1をオープンソース化。テキストから画像生成と画像編集を1つのモデルで統一し、視覚生成コンポーネントはわずか7Bパラメータで、透明画像の生成と編集をネイティブサポート。",
+        "vi": "Nhóm Qwen mã nguồn mở Qwen-Image-2.1, thống nhất tạo sinh text-to-image và chỉnh sửa ảnh trong một mô hình duy nhất, thành phần tạo sinh thị giác chỉ 7B tham số, hỗ trợ native tạo sinh và chỉnh sửa ảnh trong suốt.",
+        "zh-Hans": "Qwen 团队开源 Qwen-Image-2.1，将文生图与图像编辑统一到一个模型中，视觉生成组件仅 7B 参数，并原生支持生成和编辑透明图像。",
+        "zh-Hant": "Qwen 團隊開源 Qwen-Image-2.1，將文生圖與圖像編輯統一到一個模型中，視覺生成組件僅 7B 參數，並原生支援生成和編輯透明圖像。"
+      },
+      "date": "2026-09-22",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": {
+            "en": "比特财商",
+            "ja": "比特财商",
+            "vi": "比特财商",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特財商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-09-21-ai-daily",
       "title": {
         "en": "Qwen Open-Sources Qwen-Image-2.1: 7B Unified Generation & Editing with Native Transparent Image Support",
