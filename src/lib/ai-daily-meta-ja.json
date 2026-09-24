@@ -1,6 +1,52 @@
 {
   "reports": [
     {
+      "slug": "2026-09-24-ai-daily",
+      "date": "2026-09-24",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Google DeepMind、Gemini 3.8 Flash TTSとFlash-Lite TTS音声生成モデルを発表",
+      "description": "Google DeepMindがGemini 3.8 Flash TTSとGemini 3.8 Flash-Lite TTSの2つのテキスト読み上げモデルを発表。自然言語プロンプトでゼロから声をデザイン、30秒サンプルで声を再現、行単位の演技指導、長時間音声生成、2人会話シーンの構成をサポートし、100以上の言語に対応。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-09-23-ai-daily",
+      "date": "2026-09-23",
+      "author": "比特财商",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Anthropic 发布 Claude Opus 5.5，成本较 Opus 5 降低 40%",
+      "description": "Anthropic 发布 Claude Opus 5.5，为 Claude 5.5 系列首个模型，在多数工作上达到 Fable 5.1 水平，典型负载成本较 Opus 5 低 40%。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-09-22-ai-daily",
       "date": "2026-09-22",
       "author": "比特财商",
@@ -632,28 +678,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "AlibabaがQwen-UI-Agentを発表、Hugging FaceがLFM2.5 DSparkドラフトモデルで推論速度最大3.18倍向上",
       "description": "Alibabaがモバイル・デスクトップ・ウェブ・DeepSearch環境をカバーするGUIエージェント基盤モデルQwen-UI-Agentを発表。Hugging FaceはLFM2.5 DSparkドラフトモデルでGPUスループット最大3.18倍向上を達成。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "ビットファイナンス"
-        }
-      }
-    },
-    {
-      "slug": "2026-08-20-ai-daily",
-      "date": "2026-08-20",
-      "author": "比特财商",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 2,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "GLM-5.3がオープンソース1位、AnthropicがRL訓練を一時停止、Google検索がAI学習ツールを開始",
-      "description": "智譜のGLM-5.3がAAベンチマークで60点を獲得しオープンソース1位となる中、Anthropicはサイバー能力しきい値の懸念からRL訓練を一時停止、OpenRouterがStripeとの合併を発表、FastMetalがMacで30秒の動画生成を実現。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

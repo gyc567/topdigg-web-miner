@@ -1,6 +1,76 @@
 {
   "reports": [
     {
+      "slug": "2026-09-24-ai-daily",
+      "title": {
+        "en": "Google DeepMind Releases Gemini 3.8 Flash TTS and Flash-Lite TTS Voice Generation Models",
+        "ja": "Google DeepMind、Gemini 3.8 Flash TTSとFlash-Lite TTS音声生成モデルを発表",
+        "vi": "Google DeepMind Phát Hành Gemini 3.8 Flash TTS và Flash-Lite TTS - Mô Hình Tạo Giọng Nói",
+        "zh-Hans": "Google DeepMind 发布 Gemini 3.8 Flash TTS 与 Flash-Lite TTS 语音生成模型",
+        "zh-Hant": "Google DeepMind 發布 Gemini 3.8 Flash TTS 與 Flash-Lite TTS 語音生成模型"
+      },
+      "description": {
+        "en": "Google DeepMind releases Gemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS text-to-speech models, supporting natural language prompts to design voices from scratch, 30-second sample voice cloning, line-by-line performance guidance, long-form audio generation, and dual-speaker scene orchestration across 100+ languages.",
+        "ja": "Google DeepMindがGemini 3.8 Flash TTSとGemini 3.8 Flash-Lite TTSの2つのテキスト読み上げモデルを発表。自然言語プロンプトでゼロから声をデザイン、30秒サンプルで声を再現、行単位の演技指導、長時間音声生成、2人会話シーンの構成をサポートし、100以上の言語に対応。",
+        "vi": "Google DeepMind phát hành hai mô hình text-to-speech Gemini 3.8 Flash TTS và Gemini 3.8 Flash-Lite TTS, hỗ trợ thiết kế giọng nói từ đầu bằng prompt ngôn ngữ tự nhiên, sao chép giọng nói từ mẫu 30 giây, hướng dẫn diễn cảnh theo dòng, tạo âm thanh dài và điều phối kịch bản hai người nói, phủ sóng hơn 100 ngôn ngữ.",
+        "zh-Hans": "Google DeepMind 发布 Gemini 3.8 Flash TTS 和 Flash-Lite TTS 两款文本转语音模型，支持用自然语言提示词从零设计声音、30 秒样本复刻声音，并提供逐行表演指导、长时音频生成和双说话人场景编排，覆盖 100 多种语言。",
+        "zh-Hant": "Google DeepMind 發布 Gemini 3.8 Flash TTS 和 Gemini 3.8 Flash-Lite TTS 兩款文字轉語音模型，支援用自然語言提示詞從零設計聲音、30 秒樣本復刻聲音，並提供逐行表演指導、長時音頻生成和雙說話人場景編排，覆蓋 100 多種語言。"
+      },
+      "date": "2026-09-24",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": {
+            "en": "比特财商",
+            "ja": "比特财商",
+            "vi": "比特财商",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特財商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
+      "slug": "2026-09-23-ai-daily",
+      "title": {
+        "zh-Hans": "Anthropic 发布 Claude Opus 5.5，成本较 Opus 5 降低 40%"
+      },
+      "description": {
+        "zh-Hans": "Anthropic 发布 Claude Opus 5.5，为 Claude 5.5 系列首个模型，在多数工作上达到 Fable 5.1 水平，典型负载成本较 Opus 5 低 40%。"
+      },
+      "date": "2026-09-23",
+      "author": "比特财商",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": {
+            "zh-Hans": "比特财商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-09-22-ai-daily",
       "title": {
         "en": "Qwen Open-Sources Qwen-Image-2.1: 7B Unified Generation & Editing with Native Transparent Image Support",
