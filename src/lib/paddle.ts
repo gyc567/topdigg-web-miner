@@ -93,9 +93,20 @@ export function getPriceId(kind: PriceKind): string {
   return PADDLE_CONFIG.prices[kind];
 }
 
+/**
+ * Open Paddle v2's subscription management overlay for an existing subscription.
+ *
+ * Paddle v1 hosted `https://checkout.paddle.com/subscription/{id}` URLs are
+ * deprecated; v2 surfaces the same cancel / change-plan / payment-method
+ * flows in-page via `Paddle.Checkout.open({ subscription_id })`.
+ *
+ * Caller typically passes the value stored in
+ * `subscriptions.paddle_subscription_id` (e.g. "sub_abc123").
+ */
 export async function openCustomerPortal(paddleSubscriptionId: string): Promise<void> {
   await loadPaddle();
   if (!window.Paddle) throw new Error("Paddle not loaded");
-  // Customer portal via Paddle.js v2 Update API or direct URL
-  window.open(`https://checkout.paddle.com/subscription/${paddleSubscriptionId}`, "_blank", "noopener");
+  window.Paddle.Checkout.open({
+    subscription_id: paddleSubscriptionId,
+  });
 }

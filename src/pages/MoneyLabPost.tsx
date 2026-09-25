@@ -24,7 +24,7 @@ const MoneyLabPost = () => {
   const [fullPost, setFullPost] = useState<ReturnType<typeof moneyLabDataSource.getPostWithContent>>(null);
   const [loading, setLoading] = useState(true);
   const { user } = useAuth();
-  const { hasSubscription, hasUnlock, refetch } = useAccessWithRefetch(user?.id, slug);
+  const { hasSubscription, hasUnlock, refetch } = useAccess(user?.id, slug);
 
   useEffect(() => {
     if (!slug) {
@@ -186,11 +186,4 @@ const MoneyLabPost = () => {
     </>
   );
 };
-
-// Wrapper around useAccess that exposes refetch
-function useAccessWithRefetch(userId: string | undefined, postSlug?: string) {
-  const access = useAccess(userId, postSlug);
-  return { ...access, refetch: () => access.refetch?.() ?? window.location.reload() };
-}
-
 export default MoneyLabPost;
