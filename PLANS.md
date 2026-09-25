@@ -4,7 +4,7 @@
 
 ## Active Plans
 
-- [Analytics 三件套 — GA4 + Clarity + GSC 验证](plans/analytics-tag-injection.md)
+_(无)_
 
 ## Completed Plans
 
@@ -36,4 +36,4 @@ _计划文件完工后删除，仅靠 git commit log 留档（不在本文件长
 
 ---
 
-_Last updated: 2026-09-27_
+_Last updated: 2026-09-28_
