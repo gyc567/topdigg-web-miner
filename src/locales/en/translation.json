@@ -249,6 +249,12 @@
       "title": "Payment successful!",
       "desc": "Your membership is activated, unlocking all cases...",
       "cta": "Back to cases"
+    },
+    "checkout": {
+      "signInRequired": "Please sign in",
+      "error": "Could not start checkout. Please try again.",
+      "loading": "Loading...",
+      "buy": "Buy now"
     }
   }
 }

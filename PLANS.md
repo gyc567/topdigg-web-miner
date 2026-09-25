@@ -4,7 +4,7 @@
 
 ## Active Plans
 
-_(无 — 全部施工中计划见 [Completed Plans](#completed-plans)))_
+_(无)_
 
 ## Completed Plans
 
@@ -36,4 +36,4 @@ _计划文件完工后删除，仅靠 git commit log 留档（不在本文件长
 
 ---
 
-_Last updated: 2026-09-07_
+_Last updated: 2026-09-26_

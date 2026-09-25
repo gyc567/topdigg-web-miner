@@ -3,9 +3,11 @@
  * Listens to paddle:checkout:completed event for instant feedback.
  */
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Button, type ButtonProps } from "@/components/ui/button";
 import { openCheckout, getPriceId, onPaddleEvent } from "@/lib/paddle";
 import type { PriceKind } from "@/lib/paddle-config";
+import { useAuth } from "@/lib/auth";
 
 type CheckoutButtonProps = ButtonProps & {
   priceKind: PriceKind;
@@ -20,6 +22,8 @@ export function CheckoutButton({
   children,
   ...buttonProps
 }: CheckoutButtonProps) {
+  const { t } = useTranslation();
+  const { user } = useAuth();
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
@@ -41,7 +45,7 @@ export function CheckoutButton({
 
   const handleClick = async () => {
     if (!userEmail) {
-      alert("请先登录");
+      alert(t("moneyLab.checkout.signInRequired", "请先登录"));
       return;
     }
     setLoading(true);
@@ -52,19 +56,25 @@ export function CheckoutButton({
       await openCheckout({
         items: [{ priceId: getPriceId(priceKind), quantity: 1 }],
         customer: { email: userEmail },
-        customData: postSlug ? { post_slug: postSlug } : { user_email: userEmail },
+        customData: {
+          user_id: user?.id ?? "",
+          user_email: userEmail,
+          ...(postSlug ? { post_slug: postSlug } : {}),
+        },
         successUrl,
       });
     } catch (e) {
       console.error("Checkout failed", e);
-      alert("结账初始化失败，请稍后重试");
+      alert(t("moneyLab.checkout.error", "结账初始化失败，请稍后重试"));
       setLoading(false);
     }
   };
 
   return (
     <Button onClick={handleClick} disabled={loading} {...buttonProps}>
-      {loading ? "加载中..." : children ?? "立即购买"}
+      {loading
+        ? t("moneyLab.checkout.loading", "加载中...")
+        : children ?? t("moneyLab.checkout.buy", "立即购买")}
     </Button>
   );
 }

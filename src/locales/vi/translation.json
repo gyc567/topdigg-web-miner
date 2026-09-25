@@ -249,6 +249,12 @@
       "title": "Thanh toán thành công!",
       "desc": "Tư cách thành viên đã được kích hoạt, đang mở khóa tất cả case...",
       "cta": "Trở về case"
+    },
+    "checkout": {
+      "signInRequired": "Vui lòng đăng nhập",
+      "error": "Khởi tạo thanh toán không thành công. Vui lòng thử lại.",
+      "loading": "Đang tải...",
+      "buy": "Mua ngay"
     }
   }
 }
