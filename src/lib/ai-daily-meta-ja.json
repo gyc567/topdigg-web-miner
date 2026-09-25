@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-09-25-ai-daily",
+      "date": "2026-09-25",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Claude Opus 5.5 が Arena Code Arena: WebDev で 1818 点を獲得し堂々の第1位",
+      "description": "Arena は Claude Opus 5.5 (Max) が Code Arena: WebDev で 1818 点を獲得し、第2位の GPT-6 Astra (Max) を 26 点差で、第5位の Opus 5 (Max) を 126 点差でそれぞれ抑えて第1位になったと発表しました。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-09-24-ai-daily",
       "date": "2026-09-24",
       "author": "比特财商",
@@ -656,28 +679,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "ボットがボルトより速い！第2回世界ヒューマノイドロボット競技大会が記録的開場",
       "description": "第2回世界ヒューマノイドロボット競技大会が北京国家スピードスケーティング場で开幕。666チーム・2056台のロボットが出場。天工Ultraが100mを9.39秒で走りボルトの世界記録を破り、グローリーライトニングが400mを41.95秒で記録した。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "ビットファイナンス"
-        }
-      }
-    },
-    {
-      "slug": "2026-08-21-ai-daily",
-      "date": "2026-08-21",
-      "author": "比特财商",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "AlibabaがQwen-UI-Agentを発表、Hugging FaceがLFM2.5 DSparkドラフトモデルで推論速度最大3.18倍向上",
-      "description": "Alibabaがモバイル・デスクトップ・ウェブ・DeepSearch環境をカバーするGUIエージェント基盤モデルQwen-UI-Agentを発表。Hugging FaceはLFM2.5 DSparkドラフトモデルでGPUスループット最大3.18倍向上を達成。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

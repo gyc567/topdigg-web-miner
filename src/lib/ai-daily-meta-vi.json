@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-09-25-ai-daily",
+      "date": "2026-09-25",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Claude Opus 5.5 Đứng Đầu Arena Code Arena: WebDev Với Điểm Số 1818",
+      "description": "Arena thông báo Claude Opus 5.5 (Max) đứng đầu Code Arena: WebDev với 1818 điểm, hơn GPT-6 Astra (Max) đứng thứ hai 26 điểm và hơn Opus 5 (Max) 126 điểm.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-09-24-ai-daily",
       "date": "2026-09-24",
       "author": "比特财商",
@@ -656,28 +679,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Robot chạy nhanh hơn Bolt! Đại hội Robot hình người thế giới lần 2 khai mạc với kỷ lục phá vỡ",
       "description": "Đại hội Robot hình người thế giới lần 2 khai mạc tại Nhà thi đấu trượt băng tốc độ Bắc Kinh với 666 đội và 2056 robot. TianGong Ultra chạy 100m trong 9.39 giây, phá kỷ lục thế giới của Bolt.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "Bit Finance"
-        }
-      }
-    },
-    {
-      "slug": "2026-08-21-ai-daily",
-      "date": "2026-08-21",
-      "author": "比特财商",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "阿里发布 Qwen-UI-Agent，主打让模型真正\"会用\"每一块屏幕",
-      "description": "阿里巴巴正式推出 Qwen-UI-Agent，覆盖移动端、电脑端、网页端及 DeepSearch 环境；Hugging Face 发布 LFM2.5 系列 DSpark 草稿模型，推理速度最高提升 3.18 倍。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

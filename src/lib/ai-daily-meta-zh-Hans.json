@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-09-25-ai-daily",
+      "date": "2026-09-25",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Claude Opus 5.5 登顶 Arena Code Arena: WebDev 榜首，得 1818 分",
+      "description": "Arena 宣布 Claude Opus 5.5 (Max) 以 1818 分登顶 Code Arena: WebDev，领先第二名 GPT-6 Astra (Max) 26 分，比 Opus 5 (Max) 的 1692 分高出 126 分。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-09-24-ai-daily",
       "date": "2026-09-24",
       "author": "比特财商",
@@ -656,28 +679,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "机器人跑得比博尔特还快！第二届世界人形机器人运动会震撼开幕",
       "description": "第二届世界人形机器人运动会今晚在北京国家速滑馆开幕，666支队伍、2056台机器人参赛，天工Ultra百米跑出9.39秒打破博尔特世界纪录，荣耀闪电400米41.95秒同样破纪录。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "比特财商"
-        }
-      }
-    },
-    {
-      "slug": "2026-08-21-ai-daily",
-      "date": "2026-08-21",
-      "author": "比特财商",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "阿里发布 Qwen-UI-Agent，主打让模型真正\"会用\"每一块屏幕",
-      "description": "阿里巴巴正式推出 Qwen-UI-Agent，覆盖移动端、电脑端、网页端及 DeepSearch 环境；Hugging Face 发布 LFM2.5 系列 DSpark 草稿模型，推理速度最高提升 3.18 倍。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",
