@@ -4,7 +4,7 @@
 
 ## Active Plans
 
-- [Analytics 三件套 — GA4 + Clarity + GSC 验证](plans/analytics-tag-injection.md)
+_(无)_
 
 ## Completed Plans
 
