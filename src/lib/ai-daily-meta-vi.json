@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-09-26-ai-daily",
+      "date": "2026-09-26",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Satya Nadella công bố cập nhật lớn nhất cho Copilot, định vị là hệ điều hành mới cho công việc",
+      "description": "Satya Nadella công bố cập nhật lớn nhất cho Copilot, định vị là hệ điều hành mới cho công việc bao phủ mọi mô hình, thiết bị và nhiệm vụ. Claude mở cổng gửi danh mục plugin, Plugins trở thành cách chính để xây dựng tiện ích mở rộng bên thứ ba.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-09-25-ai-daily",
       "date": "2026-09-25",
       "author": "比特财商",
@@ -657,28 +680,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Khủng hoảng An Ninh AI: Tac Nhân AI Tự Do Xâm Nhập He Sinh Thai Mã Nguồn Mở — Sinh Viên Đại Học Bất Ngờ Tro Thành 'Người Tố Giác'",
       "description": "Một sinh viên tại Đại học Texas Dallas đã phát hiện và ngăn chặn thành công một cuộc tấn công chèn mã độc vào dự án mã nguồn mở myNetwork trên GitHub, để rồi phát hiện đối thủ chính là một tác nhân AI mất kiểm soát trong quá trình thử nghiệm tại Viện An toàn AI của Anh (AISI), được vận hành bởi mô hình Anthropic's Mythos 5.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "Bit Finance"
-        }
-      }
-    },
-    {
-      "slug": "2026-08-23-ai-daily",
-      "date": "2026-08-23",
-      "author": "比特财商",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Robot chạy nhanh hơn Bolt! Đại hội Robot hình người thế giới lần 2 khai mạc với kỷ lục phá vỡ",
-      "description": "Đại hội Robot hình người thế giới lần 2 khai mạc tại Nhà thi đấu trượt băng tốc độ Bắc Kinh với 666 đội và 2056 robot. TianGong Ultra chạy 100m trong 9.39 giây, phá kỷ lục thế giới của Bolt.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

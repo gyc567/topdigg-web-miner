@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-09-26-ai-daily",
+      "title": {
+        "en": "Satya Nadella Announces Copilot's Biggest Update Yet, Positioned as the New OS for Work",
+        "ja": "Satya Nadella、Copilotの史上最大アップデートを発表 ─ 仕事を 위한新しいOSとして位置づけ",
+        "vi": "Satya Nadella công bố cập nhật lớn nhất cho Copilot, định vị là hệ điều hành mới cho công việc",
+        "zh-Hans": "Satya Nadella 宣布 Copilot 迄今最大更新，定位为工作新 OS",
+        "zh-Hant": "Satya Nadella 宣佈 Copilot 迄今最大更新，定位為工作新 OS"
+      },
+      "description": {
+        "en": "Satya Nadella announces Copilot's biggest update yet, positioning it as the new OS for work across every model, device, and task. Claude opens plugin directory submission portal, making Plugins the primary way to build third-party extensions.",
+        "ja": "Satya NadellaがCopilotの史上最大アップデートを発表、すべてのモデル、デバイス、タスクをカバーする仕事を 위한新しいOSとして位置づけた。Claudeがプラグインカタログ提交ポータルを開放、Pluginsがサードパーティ拡張の主要な方法に。",
+        "vi": "Satya Nadella công bố cập nhật lớn nhất cho Copilot, định vị là hệ điều hành mới cho công việc bao phủ mọi mô hình, thiết bị và nhiệm vụ. Claude mở cổng gửi danh mục plugin, Plugins trở thành cách chính để xây dựng tiện ích mở rộng bên thứ ba.",
+        "zh-Hans": "Satya Nadella 宣布 Copilot 迄今最大更新，将其定位为覆盖每个模型、设备和任务的工作新 OS。Claude 开放插件目录提交门户，Plugins 成为第三方扩展的主要方式。",
+        "zh-Hant": "Satya Nadella 宣佈 Copilot 迄今最大更新，將其定位為覆蓋每個模型、設備和任務的工作新 OS。Claude 開放插件目錄提交門戶，Plugins 成為第三方擴展的主要方式。"
+      },
+      "date": "2026-09-26",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": {
+            "en": "比特财商",
+            "ja": "比特财商",
+            "vi": "比特财商",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特财商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-09-25-ai-daily",
       "title": {
         "en": "Claude Opus 5.5 Tops Arena Code Arena: WebDev with Score of 1818",
