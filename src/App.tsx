@@ -4,6 +4,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import Layout from "./components/layout/Layout";
+import { Analytics } from "./components/Analytics";
 import "./i18n";
 
 const Index = lazy(() => import("./pages/Index"));
@@ -34,6 +35,7 @@ const NotFound = lazy(() => import("./pages/NotFound"));
 
 const App = () => (
   <HelmetProvider>
+    <Analytics />
     <TooltipProvider>
       <Sonner />
       <BrowserRouter>

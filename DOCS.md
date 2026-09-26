@@ -18,6 +18,10 @@
 - [SEO + GEO 优化方案 v3](docs/seo-geo-optimization-plan.md) — 完整 SEO/GEO 优化方案（融合版）
 - [SEO + GEO 审计笔记 v2→v3](docs/seo-geo-audit-notes.md) — 方案自审修订记录
 
+## 集成
+
+- [Analytics & Search Console 配置](docs/analytics-setup.md) — GA4 / Clarity / GSC 三件套 env 驱动接入
+
 ## 进度与测试报告
 
 - [SEO/GEO 会话进度（2026-07-28）](docs/seo-progress-2026-07-28.md)
@@ -32,4 +36,4 @@
 - [SEO/GEO 优化规范](docs/guidelines/seo-geo-optimization.md) — 数据反馈迭代
 
 ---
-_Last updated: 2026-08-26_
+_Last updated: 2026-09-27_
