@@ -40,6 +40,8 @@ Vite 在 `npm run build` 时把 `import.meta.env.VITE_*` 静态内联进 `dist/`
 - **Clarity**：Clarity Dashboard → Recordings，过几分钟刷一次，新访客 session 应出现。
 - **GSC**：Search Console → URL Inspection → 粘贴 home URL → "Test Live URL"。验证 meta tag 命中 → "Ownership confirmed"。
 
+> **GSC 状态（2026-09-27）**：verification token 已写入 `index.html` static `<head>`，无需在 Vercel env 配 `VITE_GSC_VERIFICATION_ID`。如果以后 token 轮换，优先更新 `index.html`（静态更可靠），再考虑用 env 路径。
+
 ## 为什么 meta tag 验证而不是 HTML 文件？
 
 - HTML 文件验证要 `public/google<hash>.html`，每个环境一份，commit 噪音

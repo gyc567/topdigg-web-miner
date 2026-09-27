@@ -4,7 +4,7 @@
 
 ## Active Plans
 
-_(无)_
+- [GSC verification meta tag](plans/gsc-verification-meta-2026.md)
 
 ## Completed Plans
 
