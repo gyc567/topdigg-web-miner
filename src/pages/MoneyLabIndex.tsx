@@ -7,6 +7,7 @@ import { normalizeLang, type SupportedLocale } from "@/lib/locale";
 import { moneyLabDataSource, type MoneyLabMeta } from "@/lib/money-lab-data";
 import { localizeText } from "@/lib/locale";
 import { SEO } from "@/components/SEO";
+import { makeCollectionPageSchema } from "@/lib/jsonld";
 
 const POSTS_PER_PAGE = 12;
 
@@ -122,6 +123,24 @@ const MoneyLabIndex = () => {
         title={t("moneyLab.indexTitle", "零门槛赚钱实验室")}
         description={t("moneyLab.indexDesc", "分享真实可复制的零门槛赚钱案例")}
         path="/money-lab"
+        breadcrumbs={[
+          { name: "Home", url: "https://www.topdigg.com/" },
+          { name: t("moneyLab.indexTitle", "零门槛赚钱实验室"), url: "https://www.topdigg.com/money-lab" },
+        ]}
+        jsonLd={
+          posts.length > 0
+            ? makeCollectionPageSchema({
+                title: t("moneyLab.indexTitle", "零门槛赚钱实验室"),
+                description: t("moneyLab.indexDesc", "分享真实可复制的零门槛赚钱案例"),
+                url: "/money-lab",
+                items: posts.map((p, i) => ({
+                  name: localizeText(p.title, currentLocale as SupportedLocale),
+                  url: `https://www.topdigg.com/money-lab/${p.slug}`,
+                  position: i + 1,
+                })),
+              })
+            : undefined
+        }
       />
       <header className="mb-8">
         <h1 className="text-3xl font-bold">{t("moneyLab.indexTitle", "零门槛赚钱实验室")}</h1>

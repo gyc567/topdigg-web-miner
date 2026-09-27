@@ -112,6 +112,12 @@ export const siteConfig = {
   siteName: "TopDigg",
   baseUrl: "https://www.topdigg.com",
   defaultOGImage: "https://www.topdigg.com/og-image.png",
+  // OG / Twitter card metadata for link previews (added 2026-09-27 per SEO audit).
+  // og-image.png is 1200x630 by spec; declared here to avoid relying on crawler inference.
+  ogImageWidth: 1200,
+  ogImageHeight: 630,
+  ogImageAlt: "TopDigg — Web traffic and business opportunity discovery",
+  twitterHandle: "@topdigg_xyz",
   nav: {
     main: [
       {

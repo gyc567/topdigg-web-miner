@@ -28,6 +28,8 @@ type SEOProps = {
   breadcrumbs?: BreadcrumbItem[];
   /** ISO date string for article:published_time meta */
   publishedTime?: string;
+  /** ISO date string for article:modified_time meta (defaults to publishedTime) */
+  modifiedTime?: string;
   /** Author name for article:author meta */
   author?: string;
 };
@@ -41,6 +43,7 @@ export const SEO = ({
   jsonLd,
   breadcrumbs,
   publishedTime,
+  modifiedTime,
   author,
 }: SEOProps) => {
   const { i18n } = useTranslation();
@@ -61,23 +64,32 @@ export const SEO = ({
       <link rel="alternate" hrefLang="x-default" href={withLangParam(baseUrl, "en")} />
       {noIndex && <meta name="robots" content="noindex, nofollow" />}
 
+      <meta property="og:site_name" content={siteConfig.siteName} />
       <meta property="og:type" content={type} />
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description} />
       <meta property="og:url" content={canonical} />
       <meta property="og:locale" content={ogLocaleMap[lang]} />
       <meta property="og:image" content={image ?? siteConfig.defaultOGImage} />
+      <meta property="og:image:width" content={String(siteConfig.ogImageWidth)} />
+      <meta property="og:image:height" content={String(siteConfig.ogImageHeight)} />
+      <meta property="og:image:alt" content={siteConfig.ogImageAlt} />
       {type === "article" && publishedTime && (
         <meta property="article:published_time" content={publishedTime} />
+      )}
+      {type === "article" && (modifiedTime ?? publishedTime) && (
+        <meta property="article:modified_time" content={modifiedTime ?? publishedTime} />
       )}
       {type === "article" && author && (
         <meta property="article:author" content={author} />
       )}
 
       <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:site" content={siteConfig.twitterHandle} />
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image ?? siteConfig.defaultOGImage} />
+      <meta name="twitter:image:alt" content={siteConfig.ogImageAlt} />
 
       {jsonLd && (Array.isArray(jsonLd) ? jsonLd : [jsonLd]).map((schema, i) => (
         <script key={i} type="application/ld+json">{JSON.stringify(schema)}</script>
