@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "slug": "niko-sea-retrospective-2026",
+      "title": {
+        "en": "Going Global: 60 Days from Zero to Consistent Sales — 7 Lessons and 1 Core Thread",
+        "ja": "海外展開の振り返り：60 日で 0 から安定受注へ——Niko の 7 つの教訓と 1 つの主軸",
+        "vi": "Vươn Ra Biển: 60 Ngày Từ 0 Đến Đơn Hàng Ổn Định — 7 Bài Học và 1 Chủ Đề Chính",
+        "zh-Hans": "出海复盘：60 天从 0 到稳定出单——Niko 的 7 个教训与 1 条主线",
+        "zh-Hant": "出海復盤：60 天從 0 到穩定出單——Niko 的 7 個教訓與 1 條主線"
+      },
+      "description": {
+        "en": "5 sites tested, 1 succeeded, max order $600/yr. Full retrospective: 7 lessons, conversion funnel methodology, pricing strategy, information-intensity design philosophy.",
+        "ja": "5 サイト試行、1 サイト成功、最大受注 $600/年。0 から安定受注までの完全振り返り：7 つの教訓、コンバージョンファネル方法論、価格戦略、情報強度設計哲学。",
+        "vi": "5 trang thử, 1 trang thành công, đơn lớn nhất $600/năm. Tổng quan đầy đủ: 7 bài học, phương pháp phễu chuyển đổi, chiến lược giá, triết lý thiết kế cường độ thông tin.",
+        "zh-Hans": "5 个站试水、1 个跑通、最大单 $600 年费。月收入从 0 到稳定出单的完整复盘：7 个具体教训、转化漏斗方法论、定价策略、信息强度设计哲学。",
+        "zh-Hant": "5 個站試水、1 個跑通、最大單 $600 年費。月收入從 0 到穩定出單的完整復盤：7 個具體教訓、轉化漏斗方法論、定價策略、信息強度設計哲學。"
+      },
+      "date": "2026-09-27",
+      "author": "TopDigg",
+      "tags": [
+        "SEA",
+        "SEO",
+        "Conversion",
+        "Retrospective",
+        "SaaS",
+        "Side Income"
+      ],
+      "categories": [
+        "Retrospective"
+      ],
+      "coverImage": "/images/money-lab/niko-sea-cover.jpg",
+      "earnings": "$300-$3000/mo",
+      "difficulty": "Hard",
+      "timeRequired": "2-4h/day × 1 month"
+    },
+    {
       "slug": "ai-image-selling-2026",
       "title": {
         "en": "AI Image Selling: A Complete Guide to $300-$3000/mo Side Income",

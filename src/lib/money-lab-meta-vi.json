@@ -1,6 +1,28 @@
 {
   "posts": [
     {
+      "slug": "niko-sea-retrospective-2026",
+      "date": "2026-09-27",
+      "author": "TopDigg",
+      "tags": [
+        "SEA",
+        "SEO",
+        "Conversion",
+        "Retrospective",
+        "SaaS",
+        "Side Income"
+      ],
+      "categories": [
+        "Retrospective"
+      ],
+      "coverImage": "/images/money-lab/niko-sea-cover.jpg",
+      "earnings": "$300-$3000/mo",
+      "difficulty": "Hard",
+      "timeRequired": "2-4h/day × 1 month",
+      "title": "Vươn Ra Biển: 60 Ngày Từ 0 Đến Đơn Hàng Ổn Định — 7 Bài Học và 1 Chủ Đề Chính",
+      "description": "5 trang thử, 1 trang thành công, đơn lớn nhất $600/năm. Tổng quan đầy đủ: 7 bài học, phương pháp phễu chuyển đổi, chiến lược giá, triết lý thiết kế cường độ thông tin."
+    },
+    {
       "slug": "ai-image-selling-2026",
       "date": "2026-09-10",
       "author": "TopDigg",

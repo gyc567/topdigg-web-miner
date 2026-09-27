@@ -1,6 +1,28 @@
 {
   "posts": [
     {
+      "slug": "niko-sea-retrospective-2026",
+      "date": "2026-09-27",
+      "author": "TopDigg",
+      "tags": [
+        "SEA",
+        "SEO",
+        "Conversion",
+        "Retrospective",
+        "SaaS",
+        "Side Income"
+      ],
+      "categories": [
+        "Retrospective"
+      ],
+      "coverImage": "/images/money-lab/niko-sea-cover.jpg",
+      "earnings": "$300-$3000/mo",
+      "difficulty": "Hard",
+      "timeRequired": "2-4h/day × 1 month",
+      "title": "出海復盤：60 天從 0 到穩定出單——Niko 的 7 個教訓與 1 條主線",
+      "description": "5 個站試水、1 個跑通、最大單 $600 年費。月收入從 0 到穩定出單的完整復盤：7 個具體教訓、轉化漏斗方法論、定價策略、信息強度設計哲學。"
+    },
+    {
       "slug": "ai-image-selling-2026",
       "date": "2026-09-10",
       "author": "TopDigg",

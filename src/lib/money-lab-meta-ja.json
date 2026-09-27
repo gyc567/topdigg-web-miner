@@ -1,6 +1,28 @@
 {
   "posts": [
     {
+      "slug": "niko-sea-retrospective-2026",
+      "date": "2026-09-27",
+      "author": "TopDigg",
+      "tags": [
+        "SEA",
+        "SEO",
+        "Conversion",
+        "Retrospective",
+        "SaaS",
+        "Side Income"
+      ],
+      "categories": [
+        "Retrospective"
+      ],
+      "coverImage": "/images/money-lab/niko-sea-cover.jpg",
+      "earnings": "$300-$3000/mo",
+      "difficulty": "Hard",
+      "timeRequired": "2-4h/day × 1 month",
+      "title": "海外展開の振り返り：60 日で 0 から安定受注へ——Niko の 7 つの教訓と 1 つの主軸",
+      "description": "5 サイト試行、1 サイト成功、最大受注 $600/年。0 から安定受注までの完全振り返り：7 つの教訓、コンバージョンファネル方法論、価格戦略、情報強度設計哲学。"
+    },
+    {
       "slug": "ai-image-selling-2026",
       "date": "2026-09-10",
       "author": "TopDigg",

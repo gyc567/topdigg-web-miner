@@ -1,6 +1,28 @@
 {
   "posts": [
     {
+      "slug": "niko-sea-retrospective-2026",
+      "date": "2026-09-27",
+      "author": "TopDigg",
+      "tags": [
+        "SEA",
+        "SEO",
+        "Conversion",
+        "Retrospective",
+        "SaaS",
+        "Side Income"
+      ],
+      "categories": [
+        "Retrospective"
+      ],
+      "coverImage": "/images/money-lab/niko-sea-cover.jpg",
+      "earnings": "$300-$3000/mo",
+      "difficulty": "Hard",
+      "timeRequired": "2-4h/day × 1 month",
+      "title": "Going Global: 60 Days from Zero to Consistent Sales — 7 Lessons and 1 Core Thread",
+      "description": "5 sites tested, 1 succeeded, max order $600/yr. Full retrospective: 7 lessons, conversion funnel methodology, pricing strategy, information-intensity design philosophy."
+    },
+    {
       "slug": "ai-image-selling-2026",
       "date": "2026-09-10",
       "author": "TopDigg",
