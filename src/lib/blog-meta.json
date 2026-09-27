@@ -1,6 +1,154 @@
 {
   "posts": [
     {
+      "slug": "2026-09-23-multipost-extension-jiedu",
+      "title": {
+        "zh-Hans": "MultiPost-Extension 全面解读——一键发布内容到10+平台的开源神器"
+      },
+      "description": {
+        "zh-Hans": "深入解析 MultiPost-Extension 这款开源浏览器扩展工具，如何实现一次编辑、一键同步发布到知乎、微博、小红书、抖音、B站、微信公众号等10+主流平台，以及其技术架构、设计哲学和完整使用教程。"
+      },
+      "date": "2026-09-23",
+      "author": "TopDigg",
+      "tags": [
+        "开源工具",
+        "浏览器扩展",
+        "内容运营",
+        "多平台发布",
+        "Plasmo",
+        "效率工具"
+      ],
+      "categories": [
+        "工具测评",
+        "内容运营",
+        "开源项目"
+      ]
+    },
+    {
+      "slug": "2026-09-19-jev-ultrafast-browser-agent",
+      "title": {
+        "zh-Hans": "Jev Ultrafast：浏览器Agent的速度革命，7秒完成航班搜索"
+      },
+      "description": {
+        "zh-Hans": "Jev Ultrafast 是 Browser Use 团队推出的浏览器 Agent 项目，通过动态索引动作空间架构，将苏黎世到伦敦的航班搜索压缩到 7.1 秒。"
+      },
+      "date": "2026-09-19",
+      "author": "TopDigg",
+      "tags": [
+        "AI Agent",
+        "浏览器自动化",
+        "Browser Use",
+        "TypeSafe",
+        "LLM",
+        "性能优化"
+      ],
+      "categories": [
+        "AI工具",
+        "开源项目",
+        "浏览器Agent"
+      ]
+    },
+    {
+      "slug": "2026-09-15-toonflow-ai-shortdrama",
+      "title": {
+        "zh-Hans": "Toonflow：一个让小说「瞬间」变成动画片的项目，GitHub 11.9K+ Star 了"
+      },
+      "description": {
+        "zh-Hans": "Toonflow 是一个将小说一键转化为动画短剧的 AI 开源工具，最近在 GitHub 拿到了 11.9K+ Stars。本文从技术架构到设计哲学、从核心功能到实战教程，全面解析这个赛道冠军。"
+      },
+      "date": "2026-09-15",
+      "author": "比特财商",
+      "tags": [
+        "AI工具",
+        "开源",
+        "视频生成"
+      ],
+      "categories": [
+        "AI工具",
+        "技术解析"
+      ]
+    },
+    {
+      "slug": "2026-09-14-gpty-analysis",
+      "title": {
+        "zh-Hans": "gPTY：一个基于 Godot + Rust 的 AI Agent 工作站"
+      },
+      "description": {
+        "zh-Hans": "gPTY 是一个基于 Godot 引擎 + Rust 语言构建的多 PTY 模拟器桌面应用，它不是又一个 AI Agent 框架，而是一个让 AI Agent 自由工作、同时对人类保持透明的工具体验。"
+      },
+      "date": "2026-09-14",
+      "author": "TopDigg",
+      "tags": [
+        "AI Agent",
+        "Godot",
+        "Rust",
+        "终端模拟器",
+        "MCP",
+        "可观测性"
+      ],
+      "categories": [
+        "AI工具",
+        "开源项目"
+      ]
+    },
+    {
+      "slug": "2026-09-14-niwo-render-everything",
+      "title": {
+        "zh-Hans": "Niwo Render Everything：把任意内容变成短视频的 Agent Skill"
+      },
+      "description": {
+        "zh-Hans": "niwo-render-everything 是一个 Agent Skill，能把 PDF、论文、网页链接、Word、聊天记录——任何你能丢进 AI Agent 的内容——自动整理成素材包，上传到 Niwo 视频工作台渲染成片。"
+      },
+      "date": "2026-09-14",
+      "author": "TopDigg",
+      "tags": [
+        "AI视频",
+        "Agent Skill",
+        "内容创作",
+        "Niwo",
+        "短视频工具"
+      ],
+      "categories": [
+        "AI工具",
+        "内容创作",
+        "开源项目"
+      ]
+    },
+    {
+      "slug": "2026-09-13-trace-as-state",
+      "title": {
+        "zh-Hans": "Trace as State：当推理轨迹成为状态——长上下文推理的新范式"
+      },
+      "description": {
+        "zh-Hans": "深入解析 arXiv:2609.02702 论文 Trace as State：如何通过将推理轨迹前置到上下文之前，打破 Transformer 因果注意力的顺序限制。核心发现：在条件状态更新任务中，条件优先 vs 条件后置的内存需求可相差指数级（⌈b⌉ vs ⌈b·2^b⌉ bits）。方法在 3 个模型、3 个数据集上取得 26/27 胜出，GraphWalks Parents 任务上 GLM-5.2 达到 100% 准确率。设计哲学：保持因果处理、添加轮间反馈、文本代理状态、拥抱不完美。"
+      },
+      "date": "2026-09-13",
+      "author": "TopDigg",
+      "tags": [
+        "Trace as State",
+        "长上下文推理",
+        "Transformer",
+        "因果注意力",
+        "条件状态更新",
+        "推理轨迹",
+        "Chain-of-Thought",
+        "DeepSeek",
+        "GLM",
+        "Qwen",
+        "GraphWalks",
+        "MRCR",
+        "设计哲学",
+        "状态代理"
+      ],
+      "categories": [
+        "论文解析",
+        "AI研究",
+        "大语言模型",
+        "长上下文推理",
+        "技术深度"
+      ]
+    },
+    {
       "slug": "2026-09-11-tencent-teamai-cli-analysis",
       "title": {
         "zh-Hans": "腾讯 TeamAI CLI 深度解读：让每个团队真正实现 AI Native"
