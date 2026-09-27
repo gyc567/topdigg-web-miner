@@ -4,7 +4,7 @@
 
 ## Active Plans
 
-- [SEO crawl/indexability audit per @TOMRICH1619 推文](plans/seo-crawl-audit-2026.md)
+_(无)_
 
 ## Completed Plans
 
