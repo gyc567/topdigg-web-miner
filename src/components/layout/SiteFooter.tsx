@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { siteConfig } from "@/config/site";
 import { useTranslation } from "react-i18next";
 import { AuthorBio } from "@/components/AuthorBio";
@@ -13,6 +14,8 @@ export const SiteFooter = () => {
             {t("footer.rights", { year, siteName: siteConfig.siteName })}
           </p>
           <p>
+            <Link to="/" className="hover:text-foreground">{siteConfig.siteName}</Link>
+            {" · "}
             {t("footer.builtBy", { siteName: siteConfig.siteName })}
           </p>
         </div>

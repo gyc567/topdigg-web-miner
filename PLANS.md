@@ -4,7 +4,7 @@
 
 ## Active Plans
 
-_(无)_
+- [SEO Performance Excellence (比推文更深)](plans/seo-perf-excellence-2026.md)
 
 ## Completed Plans
 
