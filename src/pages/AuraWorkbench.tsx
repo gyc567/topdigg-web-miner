@@ -3,6 +3,7 @@ import { normalizeLang } from "@/lib/locale";
 import { localizeText } from "@/lib/locale";
 import auraMeta from "@/lib/aura-meta.json";
 import { SEO } from "@/components/SEO";
+import { makeSoftwareApplicationSchema } from "@/lib/jsonld";
 import {
   Shield,
   Cpu,
@@ -44,6 +45,25 @@ const AuraWorkbench = () => {
         title={t("auraWorkbench.indexTitle", "Aura总裁智能工作台")}
         description={localizeText(meta.description, currentLocale)}
         path="/aura-workbench"
+        type="article"
+        publishedTime={meta.date}
+        author="TopDigg"
+        jsonLd={makeSoftwareApplicationSchema({
+          name: "Aura Workbench",
+          url: "/aura-workbench",
+          description: localizeText(meta.description, currentLocale),
+          version: meta.version,
+          datePublished: meta.date,
+          operatingSystem: "macOS, Windows",
+          applicationCategory: "DeveloperApplication",
+          image: "/images/aura-workbench-cover.jpg",
+          offers: [{ price: 0, priceCurrency: "USD" }],
+          downloadUrls: meta.downloads.map((d) => ({
+            url: d.url,
+            file: d.file,
+            size: d.size,
+          })),
+        })}
       />
 
       <div className="container py-10">

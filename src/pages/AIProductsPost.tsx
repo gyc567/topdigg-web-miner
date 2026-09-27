@@ -130,7 +130,7 @@ const AIProductsPost = () => {
   const contentStr = localizeText(fullPost.content, currentLocale);
 
   // Build JSON-LD: Article + BreadcrumbList + FAQ + (optional) Product offers
-  const articleSchema = makeArticleSchema({
+  const articleSchema = makeTechArticleSchema({
     title: titleStr,
     description: descStr,
     url: postPath,

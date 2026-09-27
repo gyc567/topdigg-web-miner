@@ -6,6 +6,7 @@ import { moneyLabDataSource } from "@/lib/money-lab-data";
 import { localizeText } from "@/lib/locale";
 import MarkdownContent from "@/components/MarkdownContent";
 import { SEO } from "@/components/SEO";
+import { makeBlogPostingSchema } from "@/lib/jsonld";
 import { siteConfig } from "@/config/site";
 
 const DIFFICULTY_COLORS: Record<string, string> = {
@@ -57,6 +58,14 @@ const MoneyLabPost = () => {
     { name: t("moneyLab.indexTitle", "赚钱实验室"), url: `${siteConfig.baseUrl}/money-lab` },
     { name: title, url: `${siteConfig.baseUrl}${postPath}` },
   ];
+  const jsonLd = makeBlogPostingSchema({
+    title,
+    description,
+    url: postPath,
+    datePublished: fullPost.date,
+    authorName: fullPost.author,
+    tags: fullPost.tags,
+  });
 
   return (
     <>
@@ -68,6 +77,7 @@ const MoneyLabPost = () => {
         publishedTime={fullPost.date}
         author={fullPost.author}
         breadcrumbs={breadcrumbs}
+        jsonLd={jsonLd}
       />
 
       {/* Breadcrumbs */}

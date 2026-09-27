@@ -75,6 +75,8 @@ const TwitterPost = () => {
         path={postPath}
         jsonLd={jsonLd}
         breadcrumbs={breadcrumbs}
+        publishedTime={analysis.date}
+        author={analysis.twitterAccount.handle}
       />
       
       <div className="container mx-auto px-4 py-8">

@@ -68,6 +68,11 @@ export default async function middleware(request: Request): Promise<Response> {
     if (ct.startsWith("text/html")) {
       return new Response("Not Found", { status: 404 });
     }
+    // P2 (SEO audit 2026-09-27): forward Last-Modified from Vercel's static
+    // layer so crawlers can use If-Modified-Since for conditional GETs and
+    // skip re-fetching unchanged assets. Cheap crawl-budget win.
+    const lm = res.headers.get("last-modified");
+    if (lm) res.headers.set("last-modified", lm);
     return res;
   }
 

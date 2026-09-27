@@ -106,6 +106,21 @@ export function makeSearchActionSchema() {
 // BlogPost Article + BreadcrumbList (博客详情页)
 // ---------------------------------------------------------------------------
 
+export interface BlogPostingSchemaParams {
+  title: string;
+  description: string;
+  url: string;
+  datePublished: string;
+  dateModified?: string;
+  authorName: string;
+  tags?: string[];
+  image?: string;
+}
+
+/**
+ * @deprecated Use `makeBlogPostingSchema` for blog content.
+ * Kept for back-compat with existing callers; new code should use the typed subtype.
+ */
 export interface ArticleSchemaParams {
   title: string;       // already localised
   description: string; // already localised
@@ -331,3 +346,139 @@ export function makeProductSchema(params: ProductSchemaParams) {
   }
   return schema;
 }
+
+
+// ---------------------------------------------------------------------------
+// BlogPosting (money-lab / blog posts — schema.org subtype of Article)
+// Rich-result eligible for blog content per Google's structured data policy.
+// ---------------------------------------------------------------------------
+
+export interface BlogPostingSchemaParams {
+  title: string;
+  description: string;
+  url: string;
+  datePublished: string;
+  dateModified?: string;
+  authorName: string;
+  tags?: string[];
+  image?: string;
+}
+
+export function makeBlogPostingSchema(params: BlogPostingSchemaParams) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: params.title,
+    description: params.description,
+    url: `${BASE}${params.url}`,
+    datePublished: params.datePublished,
+    dateModified: params.dateModified ?? params.datePublished,
+    author: {
+      "@type": "Person",
+      name: params.authorName,
+      url: AUTHOR_URL,
+      sameAs: AUTHOR_SAME_AS,
+    },
+    publisher: makeOrganization("en"),
+    keywords: params.tags?.join(", "),
+    image: params.image ? `${BASE}${params.image}` : undefined,
+  };
+}
+
+// ---------------------------------------------------------------------------
+// TechArticle (AI products / technical deep-dives — schema.org subtype)
+// ---------------------------------------------------------------------------
+
+export interface TechArticleSchemaParams {
+  title: string;
+  description: string;
+  url: string;
+  datePublished: string;
+  dateModified?: string;
+  authorName: string;
+  tags?: string[];
+  image?: string;
+  proficiencyLevel?: "Beginner" | "Expert" | "Intermediate";
+}
+
+export function makeTechArticleSchema(params: TechArticleSchemaParams) {
+  const { proficiencyLevel, ...rest } = params;
+  return {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    headline: rest.title,
+    description: rest.description,
+    url: `${BASE}${rest.url}`,
+    datePublished: rest.datePublished,
+    dateModified: rest.dateModified ?? rest.datePublished,
+    author: {
+      "@type": "Person",
+      name: rest.authorName,
+      url: AUTHOR_URL,
+      sameAs: AUTHOR_SAME_AS,
+    },
+    publisher: makeOrganization("en"),
+    keywords: rest.tags?.join(", "),
+    image: rest.image ? `${BASE}${rest.image}` : undefined,
+    ...(proficiencyLevel && { proficiencyLevel }),
+  };
+}
+
+// ---------------------------------------------------------------------------
+// SoftwareApplication (Aura Workbench 等下载页 rich result)
+// ---------------------------------------------------------------------------
+
+export interface SoftwareApplicationSchemaParams {
+  name: string;
+  url: string;
+  description: string;
+  version: string;
+  datePublished: string;
+  operatingSystem?: string;
+  applicationCategory?: string;
+  image?: string;
+  /** 价格；0 表示免费 */
+  offers?: Array<{ price: number | string; priceCurrency: string }>;
+  /** 文件下载列表 + size */
+  downloadUrls?: Array<{ url: string; file: string; size?: string }>;
+}
+
+export function makeSoftwareApplicationSchema(params: SoftwareApplicationSchemaParams) {
+  const {
+    name,
+    url,
+    description,
+    version,
+    datePublished,
+    operatingSystem = "macOS, Windows",
+    applicationCategory = "DeveloperApplication",
+    image,
+    offers,
+    downloadUrls,
+  } = params;
+  const schema: Record<string, unknown> = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name,
+    url,
+    description,
+    version,
+    datePublished,
+    operatingSystem,
+    applicationCategory,
+    image: image ? `${BASE}${image}` : undefined,
+  };
+  if (offers && offers.length > 0) {
+    schema.offers = offers.map((o) => ({
+      "@type": "Offer",
+      price: o.price,
+      priceCurrency: o.priceCurrency,
+      url,
+    }));
+  }
+  if (downloadUrls && downloadUrls.length > 0) {
+    schema.downloadUrl = downloadUrls.map((d) => d.url);
+  }
+  return schema;
+}
+

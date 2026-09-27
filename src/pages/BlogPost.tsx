@@ -7,7 +7,7 @@ import { localizeText, normalizeLang } from "@/lib/locale";
 import { blogDataSource } from "@/lib/blog-data";
 import type { BlogMeta } from "@/lib/blog-data";
 import MarkdownContent from "@/components/MarkdownContent";
-import { makeArticleSchema, makeFAQPageSchema } from "@/lib/jsonld";
+import { makeArticleSchema, makeBlogPostingSchema, makeFAQPageSchema } from "@/lib/jsonld";
 import type { BlogPost } from "@/config/site";
 import { AuthorBio } from "@/components/AuthorBio";
 
@@ -105,7 +105,7 @@ const BlogPost = () => {
       },
     ],
   });
-  const jsonLd = [makeArticleSchema({
+  const jsonLd = [makeBlogPostingSchema({
     title: localizeText(fullPost.title, currentLocale),
     description: localizeText(fullPost.description, currentLocale),
     url: postPath,
