@@ -208,7 +208,13 @@ async function renderRoute(page, route) {
         const hasLoading = document.body && document.body.innerText.includes("Loading…");
         if (hasLoading) return false;
         if (isDetail) return document.querySelector("article") !== null;
-        return document.querySelector("h1") !== null;
+        if (!document.querySelector("h1")) return false;
+        // Helmet mutates <title> on every page that uses <SEO>.
+        // Default <title> is from index.html (TopDigg - Discover Web Traffic & Business Opportunities);
+        // once <SEO> runs it overwrites. Wait for non-default title = Helmet has applied.
+        const t = (document.title || "").toLowerCase();
+        if (t.includes("discover web traffic")) return false;
+        return true;
       },
       { timeout: waitTimeout },
       detail

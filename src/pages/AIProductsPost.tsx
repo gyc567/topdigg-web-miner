@@ -23,10 +23,10 @@ import {
 import { aiProductsDataSource, type AIProductMeta } from "@/lib/ai-products-data";
 import type { AIProduct } from "@/config/site";
 import {
-  makeArticleSchema,
   makeBreadcrumbList,
   makeFAQPageSchema,
   makeProductSchema,
+  makeTechArticleSchema,
 } from "@/lib/jsonld";
 
 // Related products: up to 3 sharing at least one tag, excluding current
@@ -129,7 +129,7 @@ const AIProductsPost = () => {
   const descStr = localizeText(fullPost.description, currentLocale);
   const contentStr = localizeText(fullPost.content, currentLocale);
 
-  // Build JSON-LD: Article + BreadcrumbList + FAQ + (optional) Product offers
+  // Build JSON-LD: TechArticle + BreadcrumbList + FAQ + (optional) Product offers
   const articleSchema = makeTechArticleSchema({
     title: titleStr,
     description: descStr,

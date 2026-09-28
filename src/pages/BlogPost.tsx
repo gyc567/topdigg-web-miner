@@ -7,7 +7,7 @@ import { localizeText, normalizeLang } from "@/lib/locale";
 import { blogDataSource } from "@/lib/blog-data";
 import type { BlogMeta } from "@/lib/blog-data";
 import MarkdownContent from "@/components/MarkdownContent";
-import { makeArticleSchema, makeBlogPostingSchema, makeFAQPageSchema } from "@/lib/jsonld";
+import { makeBlogPostingSchema, makeFAQPageSchema } from "@/lib/jsonld";
 import type { BlogPost } from "@/config/site";
 import { AuthorBio } from "@/components/AuthorBio";
 

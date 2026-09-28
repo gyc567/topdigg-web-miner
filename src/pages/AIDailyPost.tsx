@@ -10,7 +10,7 @@ import { normalizeLang, localizeText, type SupportedLocale } from "@/lib/locale"
 import { aiDailyDataSource } from "@/lib/ai-daily-data";
 import type { AIDailyMeta } from "@/lib/ai-daily-data";
 import MarkdownContent from "@/components/MarkdownContent";
-import { makeArticleSchema, makeBlogPostingSchema, makeBreadcrumbList, makeFAQPageSchema } from "@/lib/jsonld";
+import { makeBlogPostingSchema, makeBreadcrumbList, makeFAQPageSchema } from "@/lib/jsonld";
 import { AuthorBio } from "@/components/AuthorBio";
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink as ExternalLinkIcon } from "lucide-react";

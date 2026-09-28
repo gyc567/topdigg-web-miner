@@ -4,7 +4,7 @@
 
 ## Active Plans
 
-_(无)_
+- [审计修复 M1/M2/M3](plans/audit-followup-2026.md)
 
 ## Completed Plans
 
