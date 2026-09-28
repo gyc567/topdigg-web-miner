@@ -61,18 +61,27 @@ function scanDirectory(dir, locale = null) {
  * Frontmatter REQUIRED — same as content/blog/ (fail-fast enforces).
  */
 function scanArticles() {
+  // articles/X/*.md (filename = slug by convention; if mismatch, we still
+  // pick up the first .md file in the directory so upstream mistakes don't
+  // silently kill the article).
   const items = [];
   if (!fs.existsSync(articlesDir)) return items;
   for (const entry of fs.readdirSync(articlesDir)) {
     const subdir = path.join(articlesDir, entry);
     if (!fs.statSync(subdir).isDirectory()) continue;
-    const md = path.join(subdir, `${entry}.md`);
-    if (!fs.existsSync(md)) continue;
+    // Convention: X.md. Fallback: first *.md in dir.
+    let md = path.join(subdir, `${entry}.md`);
+    if (!fs.existsSync(md)) {
+      const mds = fs.readdirSync(subdir).filter((f) => f.endsWith('.md'));
+      if (mds.length === 0) continue;
+      md = path.join(subdir, mds[0]);
+      console.warn(`[build-blog] articles/${entry}/${mds[0]} used (filename ≠ directory)`);
+    }
     const content = fs.readFileSync(md, 'utf-8');
     const { data, content: markdownContent } = matter(content);
     items.push({
-      slug: entry,                                  // e.g. "howtolivebetter"
-      locale: 'zh-Hans',                            // articles/ only ships zh-Hans
+      slug: entry,                                  // slug = directory name
+      locale: 'zh-Hans',
       title: data.title || '',
       description: data.description || '',
       content: markdownContent,
@@ -113,14 +122,20 @@ function generateBlogData() {
 
   const sortedPosts = Object.values(posts).sort((a, b) => new Date(b.date) - new Date(a.date));
 
-  // Fail-fast: catch posts with missing title or description before writing any JSON.
+  // Validate posts: missing title/description in all locales is a hard fail.
+  // (Future-proofing: if upstream ships an articles/ file without frontmatter,
+  // we'd rather fix that locally than skip silently — the file was meant to ship.)
+  const missingFields = [];
   for (const post of sortedPosts) {
     const hasTitle = Object.values(post.title).some(Boolean);
     const hasDesc = Object.values(post.description).some(Boolean);
     if (!hasTitle || !hasDesc) {
-      console.error(`❌ Post "${post.slug}" is missing ${!hasTitle ? 'title' : 'description'} in all locales — fix content/blog/ and re-run.`);
-      process.exit(1);
+      missingFields.push(`"${post.slug}"`);
     }
+  }
+  if (missingFields.length > 0) {
+    console.error(`❌ ${missingFields.length} post(s) missing title/description in all locales: ${missingFields.join(", ")} — add frontmatter and re-run.`);
+    process.exit(1);
   }
 
   const blogData = {
