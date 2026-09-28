@@ -1,3 +1,19 @@
+---
+title: "Scientific Agent Skills: 让AI代理真正读懂科学论文的开源项目"
+date: "2026-09-28"
+description: "深度解读 K-Dense Inc. 的开源项目 Scientific Agent Skills（GitHub 19万 Stars）：通过渐进式披露设计（166 技能常驻仅 7% 上下文）+ 5 大领域 16 学科覆盖，把分散在领域规范、报告指南、工具文档中的'程序性知识'打包成 AI 代理可直接消费的结构化能力。"
+tags:
+  - Scientific Agent Skills
+  - 程序性知识
+  - AI 代理
+  - 渐进式披露
+  - 科研工程
+  - 开源项目
+categories:
+  - AI 科研
+  - 开源项目解读
+---
+
 # Scientific Agent Skills: 让AI代理真正读懂科学论文的开源项目
 
 如果你用过ChatGPT、Claude写过科研论文，一定会遇到这样的尴尬：AI能生成一段看起来很专业的代码，但一跑就报错；能写出一段文献综述，但领域内一看就知道是"外行话"。问题的根源在于——AI缺乏科研领域的"程序性知识"。

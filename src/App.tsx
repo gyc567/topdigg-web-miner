@@ -22,6 +22,8 @@ const AIProductsIndex = lazy(() => import("./pages/AIProductsIndex"));
 const AIProductsPost = lazy(() => import("./pages/AIProductsPost"));
 const MoneyLabIndex = lazy(() => import("./pages/MoneyLabIndex"));
 const MoneyLabPost = lazy(() => import("./pages/MoneyLabPost"));
+const FinanceDailyIndex = lazy(() => import("./pages/FinanceDailyIndex"));
+const FinanceDailyPost = lazy(() => import("./pages/FinanceDailyPost"));
 const AuraWorkbench = lazy(() => import("./pages/AuraWorkbench"));
 const CreatorHub = lazy(() => import("./pages/CreatorHub"));
 const CreatorJoin = lazy(() => import("./pages/CreatorJoin"));
@@ -51,6 +53,8 @@ const App = () => (
           <Route path="/ai-products/:slug" element={<AIProductsPost />} />
               <Route path="/money-lab" element={<MoneyLabIndex />} />
               <Route path="/money-lab/:slug" element={<MoneyLabPost />} />
+              <Route path="/finance-daily" element={<FinanceDailyIndex />} />
+              <Route path="/finance-daily/:slug" element={<FinanceDailyPost />} />
               <Route path="/twitter" element={<TwitterIndex />} />
               <Route path="/twitter/:slug" element={<TwitterPost />} />
               <Route path="/columns/:id" element={<ColumnPage />} />

@@ -104,6 +104,21 @@
     "ja": "日本語",
     "vi": "Tiếng Việt"
   },
+  "financeDaily": {
+    "indexTitle": "每日财经简报",
+    "indexDesc": "每日精选财经市场速读：Fed/ECB 利率决议、宏观价格、外汇与大宗商品。",
+    "source": "来源",
+    "readMore": "阅读全文",
+    "loadMore": "加载更多",
+    "noReports": "暂无财经简报内容",
+    "noReportsHint": "简报将在每天 8 点自动更新，请稍后再来",
+    "resultsCount": "共 {{count}} 期",
+    "today": "今日",
+    "backToList": "返回财经简报列表",
+    "related": "更多财经简报",
+    "originalHint": "扫码关注公众号获取原文",
+    "originalCaption": "原文出处：{{name}}"
+  },
   "aiDaily": {
     "indexTitle": "AI日报",
     "indexDesc": "每日精选AI行业资讯，源自优质信源",

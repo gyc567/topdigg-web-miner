@@ -30,7 +30,7 @@ const SERVER_PORT = 4173;
 const SERVER_HOST = "127.0.0.1";
 const BASE_URL = `http://${SERVER_HOST}:${SERVER_PORT}`;
 const READY_WAIT_MS = 150;
-const DETAIL_ROUTE_RE = /^\/(blog|twitter|ai-daily)\/[^/]+\/?$/;
+const DETAIL_ROUTE_RE = /^\/(blog|twitter|ai-daily|finance-daily)\/[^/]+\/?$/;
 const POOL_SIZE = Math.max(
   2,
   Math.min(Number(process.env.PRERENDER_POOL_SIZE) || 8, os.cpus().length),

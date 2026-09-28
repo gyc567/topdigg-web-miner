@@ -104,6 +104,21 @@
     "ja": "日本語",
     "vi": "Tiếng Việt"
   },
+  "financeDaily": {
+    "indexTitle": "デイリーファイナンスブリーフィング",
+    "indexDesc": "Fed/ECB金利決議、為替、商品など主要マーケットの毎日ダイジェスト。",
+    "source": "出典",
+    "readMore": "全文を読む",
+    "loadMore": "さらに読み込む",
+    "noReports": "ブリーフィングはまだありません",
+    "noReportsHint": "毎日午前 8 時に自動更新",
+    "resultsCount": "全 {{count}} 期",
+    "today": "今日",
+    "backToList": "一覧に戻る",
+    "related": "関連ブリーフィング",
+    "originalHint": "WeChatで原文を読む",
+    "originalCaption": "原文：{{name}}"
+  },
   "aiDaily": {
     "indexTitle": "AIデイリー",
     "indexDesc": "日次AI業界ニュース精选、質を厳選した情報源から",

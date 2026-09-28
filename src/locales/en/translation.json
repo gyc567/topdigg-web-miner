@@ -104,6 +104,21 @@
     "ja": "日本語",
     "vi": "Tiếng Việt"
   },
+  "financeDaily": {
+    "indexTitle": "Daily Finance Briefing",
+    "indexDesc": "Daily curated finance digest: Fed/ECB rate decisions, macro prices, FX and commodities.",
+    "source": "Source",
+    "readMore": "Read full",
+    "loadMore": "Load more",
+    "noReports": "No finance briefings yet",
+    "noReportsHint": "Briefings are published daily at 8 AM",
+    "resultsCount": "{{count}} briefings total",
+    "today": "Today",
+    "backToList": "Back to briefings",
+    "related": "More briefings",
+    "originalHint": "Scan to read original on WeChat",
+    "originalCaption": "Original: {{name}}"
+  },
   "aiDaily": {
     "indexTitle": "AI Daily",
     "indexDesc": "Curated AI industry news daily, sourced from quality outlets",

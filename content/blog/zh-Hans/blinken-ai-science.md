@@ -1,3 +1,19 @@
+---
+title: "AI时代的科研入场券：为什么每个科学家都需要了解Scientific Agent Skills"
+date: "2026-09-28"
+description: "从布林肯在牌桌与菜单上的隐喻切入，深度解读 Scientific Agent Skills 这一开源项目：AI 写得出代码，但写不出'可防御'的科学代码，原因不在能力而在程序性知识缺失，而 166 个经过验证的科研技能正是 AI 代理进入 AI 科研牌桌的最低成本入场券。"
+tags:
+  - Scientific Agent Skills
+  - AI 科研
+  - AI 编程
+  - 程序性知识
+  - 科研工作流
+  - 开源项目
+categories:
+  - AI 科研
+  - 开源项目解读
+---
+
 # AI时代的科研入场券：为什么每个科学家都需要了解Scientific Agent Skills
 
 前美国国务卿布林肯说过一句在国际政治圈流传很广的话：在这个世界上，你要么在牌桌上，要么在菜单上。

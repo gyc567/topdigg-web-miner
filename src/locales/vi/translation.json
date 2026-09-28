@@ -104,6 +104,21 @@
     "ja": "日本語",
     "vi": "Tiếng Việt"
   },
+  "financeDaily": {
+    "indexTitle": "Bản Tin Tài Chính Hàng Ngày",
+    "indexDesc": "Tóm tắt thị trường tài chính mỗi ngày: Fed/ECB, giá cả vĩ mô, ngoại tệ và hàng hóa.",
+    "source": "Nguồn",
+    "readMore": "Đọc toàn bài",
+    "loadMore": "Tải thêm",
+    "noReports": "Chưa có bản tin tài chính",
+    "noReportsHint": "Bản tin được cập nhật mỗi ngày lúc 8 giờ sáng",
+    "resultsCount": "Tổng cộng {{count}} kỳ",
+    "today": "Hôm nay",
+    "backToList": "Về danh sách",
+    "related": "Bản tin liên quan",
+    "originalHint": "Quét mã QR để đọc bản gốc trên WeChat",
+    "originalCaption": "Bản gốc: {{name}}"
+  },
   "aiDaily": {
     "indexTitle": "AI Hàng Ngày",
     "indexDesc": "Tin tức AI hàng ngày, chọn lọc từ các nguồn chất lượng",

@@ -1,6 +1,44 @@
 {
   "posts": [
     {
+      "slug": "blinken-ai-science",
+      "date": "2026-09-28",
+      "author": "TopDigg",
+      "tags": [
+        "Scientific Agent Skills",
+        "AI 科研",
+        "AI 编程",
+        "程序性知识",
+        "科研工作流",
+        "开源项目"
+      ],
+      "categories": [
+        "AI 科研",
+        "开源项目解读"
+      ],
+      "title": "AI时代的科研入场券：为什么每个科学家都需要了解Scientific Agent Skills",
+      "description": "从布林肯在牌桌与菜单上的隐喻切入，深度解读 Scientific Agent Skills 这一开源项目：AI 写得出代码，但写不出'可防御'的科学代码，原因不在能力而在程序性知识缺失，而 166 个经过验证的科研技能正是 AI 代理进入 AI 科研牌桌的最低成本入场券。"
+    },
+    {
+      "slug": "scientific-agent-skills",
+      "date": "2026-09-28",
+      "author": "TopDigg",
+      "tags": [
+        "Scientific Agent Skills",
+        "程序性知识",
+        "AI 代理",
+        "渐进式披露",
+        "科研工程",
+        "开源项目"
+      ],
+      "categories": [
+        "AI 科研",
+        "开源项目解读"
+      ],
+      "title": "Scientific Agent Skills: 让AI代理真正读懂科学论文的开源项目",
+      "description": "深度解读 K-Dense Inc. 的开源项目 Scientific Agent Skills（GitHub 19万 Stars）：通过渐进式披露设计（166 技能常驻仅 7% 上下文）+ 5 大领域 16 学科覆盖，把分散在领域规范、报告指南、工具文档中的'程序性知识'打包成 AI 代理可直接消费的结构化能力。"
+    },
+    {
       "slug": "2026-09-23-multipost-extension-jiedu",
       "date": "2026-09-23",
       "author": "TopDigg",

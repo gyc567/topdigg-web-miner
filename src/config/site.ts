@@ -182,6 +182,16 @@ export const siteConfig = {
       },
       {
         label: {
+          "zh-Hans": "财经简报",
+          "zh-Hant": "財經簡報",
+          "en": "Finance Daily",
+          "ja": "ファイナンスデイリー",
+          "vi": "Tin Tài Chính"
+        },
+        href: "/finance-daily"
+      },
+      {
+        label: {
           "zh-Hans": "外链导航",
           "zh-Hant": "外鏈導航",
           "en": "External Links",

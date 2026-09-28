@@ -26,6 +26,7 @@ const STATIC_PATHS = [
   "/blog",
   "/ai-products",
   "/ai-daily",
+  "/finance-daily",
   "/money-lab",
   "/twitter",
   "/columns/twitter",
@@ -59,6 +60,17 @@ function readBlogSlugs() {
 
 function readAiDailySlugs() {
   const p = path.join(projectRoot, "src/lib/ai-daily-meta.json");
+  if (!fs.existsSync(p)) return [];
+  try {
+    const data = JSON.parse(fs.readFileSync(p, "utf8"));
+    return (data.reports || []).map((r) => r.slug).filter(Boolean);
+  } catch {
+    return [];
+  }
+}
+
+function readFinanceDailySlugs() {
+  const p = path.join(projectRoot, "src/lib/finance-daily-meta.json");
   if (!fs.existsSync(p)) return [];
   try {
     const data = JSON.parse(fs.readFileSync(p, "utf8"));
@@ -125,6 +137,7 @@ export function buildRoutes(options = {}) {
   const aiDailySlugs = readAiDailySlugs();
   const aiProductsSlugs = readAiProductsSlugs();
   const moneyLabSlugs = readMoneyLabSlugs();
+  const financeDailySlugs = readFinanceDailySlugs();
 
   const cutoff = Date.now() - archiveAfterDays * 24 * 60 * 60 * 1000;
   const recentBlogSlugs = skipArchive
@@ -135,6 +148,7 @@ export function buildRoutes(options = {}) {
     ...recentBlogSlugs.map((s) => `/blog/${s}`),
     ...twitterSlugs.map((s) => `/twitter/${s}`),
     ...aiDailySlugs.map((s) => `/ai-daily/${s}`),
+    ...financeDailySlugs.map((s) => `/finance-daily/${s}`),
     ...aiProductsSlugs.map((s) => `/ai-products/${s}`),
     ...moneyLabSlugs.map((s) => `/money-lab/${s}`),
   ];
