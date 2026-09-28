@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-09-28T09:44:21.347Z
+Generated: 2026-09-28T09:49:02.152Z
 
 ## Site Overview
 
@@ -35,6 +35,12 @@ URL: https://topdigg.com/blog/scientific-agent-skills | Date: 2026-09-28 | Autho
 Tags: Scientific Agent Skills, 程序性知识, AI 代理, 渐进式披露, 科研工程, 开源项目
 
 深度解读 K-Dense Inc. 的开源项目 Scientific Agent Skills（GitHub 19万 Stars）：通过渐进式披露设计（166 技能常驻仅 7% 上下文）+ 5 大领域 16 学科覆盖，把分散在领域规范、报告指南、工具文档中的'程序性知识'打包成 AI 代理可直接消费的结构化能力。
+
+### 全球产业链重构背后的数字：G2格局下的财富再分配
+URL: https://topdigg.com/blog/g2-economy | Date: 2026-09-27 | Author: TopDigg
+Tags: 全球产业链, 关税, G2 格局, 财富再分配, 供应链重构
+
+从纯商业和产业链视角，分析2026年秋天全球经贸格局的核心变化、关税调整的实质（成本线重新划定）、预期信号的传导、企业供应链的战略级选择题，以及这些变化对投资、创业和职业选择意味着什么。
 
 ### 614条循证生活建议：一份按性价比排序的人生指南
 URL: https://topdigg.com/blog/howtolivebetter | Date: 2026-09-27 | Author: TopDigg
@@ -77,12 +83,6 @@ URL: https://topdigg.com/blog/2026-09-13-trace-as-state | Date: 2026-09-13 | Aut
 Tags: Trace as State, 长上下文推理, Transformer, 因果注意力, 条件状态更新, 推理轨迹, Chain-of-Thought, DeepSeek, GLM, Qwen, GraphWalks, MRCR, 设计哲学, 状态代理
 
 深入解析 arXiv:2609.02702 论文 Trace as State：如何通过将推理轨迹前置到上下文之前，打破 Transformer 因果注意力的顺序限制。核心发现：在条件状态更新任务中，条件优先 vs 条件后置的内存需求可相差指数级（⌈b⌉ vs ⌈b·2^b⌉ bits）。方法在 3 个模型、3 个数据集上取得 26/27 胜出，GraphWalks Parents 任务上 GLM-5.2 达到 100% 准确率。设计哲学：保持因果处理、添加轮间反馈、文本代理状态、拥抱不完美。
-
-### 腾讯 TeamAI CLI 深度解读：让每个团队真正实现 AI Native
-URL: https://topdigg.com/blog/2026-09-11-tencent-teamai-cli-analysis | Date: 2026-09-11 | Author: TopDigg
-Tags: AI, 团队协作, Claude, Cursor, 工具
-
-腾讯开源的 TeamAI CLI 是 AI Agent 团队协作框架，通过 Git 工作流实现团队 AI 能力的统一管理和持续积累。深入解析其三层闭环设计哲学、安装配置及核心功能。
 
 ## AI Product Analyses (latest 5)
 
@@ -184,4 +184,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 185 blog posts | 4 Twitter analyses | 7 AI products
+End of llms.txt | 186 blog posts | 4 Twitter analyses | 7 AI products
