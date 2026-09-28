@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-09-28-ai-daily",
+      "title": {
+        "en": "Authors Guild v. OpenAI Filing Reveals Executives Knew Mass Pirated Book Training Was Illegal",
+        "ja": "Authors Guild v. OpenAI、幹部が大規模海賊版書籍トレーニングが違法であることを認識していたことを示す文書が明らかに",
+        "vi": "Authors Guild kiện OpenAI - Tài liệu mới cho thấy lãnh đạo biết rõ việc huấn luyện bằng sách vi phạm bản quyền là bất hợp pháp",
+        "zh-Hans": "Authors Guild v. OpenAI 新文件披露高管早已知道大规模盗版书籍训练违法",
+        "zh-Hant": "Authors Guild v. OpenAI 新文件披露高管早已知道大規模盜版書籍訓練違法"
+      },
+      "description": {
+        "en": "New court filings in Authors Guild v. OpenAI reveal that OpenAI and Microsoft executives knowingly used pirated books to train models, aware their products could replace human writers.",
+        "ja": "Authors Guild v. OpenAI訴訟で2026年9月21日に提出された原告のBriefにより、OpenAIとMicrosoftの幹部および従業員が海賊版書籍を意図的にモデルトレーニングに使用し、製品が人間の作家に取って変わる可能性を理解していたことが判明した。",
+        "vi": "Các tài liệu phúc đáp của nguyên đơn trong vụ kiện Authors Guild kiện OpenAI được công bố vào ngày 21/9/2026 cho thấy lãnh đạo và nhân viên của OpenAI và Microsoft cố ý sử dụng sách vi phạm bản quyền để huấn luyện mô hình, đồng thời biết rõ sản phẩm của họ có thể thay thế các nhà văn.",
+        "zh-Hans": "Authors Guild v. OpenAI 诉讼中新文件披露 OpenAI 和 Microsoft 高管及员工有意使用盗版书籍训练模型，并知道其产品可能取代人类作家。",
+        "zh-Hant": "Authors Guild v. OpenAI 訴訟中新文件披露 OpenAI 和 Microsoft 高管及員工有意使用盜版書籍訓練模型，並知道其產品可能取代人類作家。"
+      },
+      "date": "2026-09-28",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": {
+            "en": "比特财商",
+            "ja": "比特财商",
+            "vi": "比特财商",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特財商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-09-27-ai-daily",
       "title": {
         "en": "Claude Opus 5.5 (High) Tops Arena Text Arena with Score of 1509",
