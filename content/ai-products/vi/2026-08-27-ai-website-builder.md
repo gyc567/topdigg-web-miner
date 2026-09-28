@@ -338,4 +338,4 @@ Sản phẩm cùng loại định giá $30-50/tháng, ARPU của công ty này c
 
 *Bài viết đến đây là kết thúc, nếu thấy hay, hãy like, chia sẻ và bình luận để ủng hộ tác giả nhé. Nếu muốn nhận tin tức mới nhất, hãy nhấn theo dõi để nhận thông báo sớm nhất, cảm ơn bạn đã đọc bài viết, hẹn gặp lại lần sau.*
 
-*Đăng tải đầu tiên trên WeChat "比特财商".*
+*Đăng tải đầu tiên trên WeChat "瑞哥观势".*

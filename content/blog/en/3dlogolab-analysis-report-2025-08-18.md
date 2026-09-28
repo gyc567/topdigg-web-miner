@@ -971,7 +971,7 @@ Logo animation capability of a video marketing tool, suited to marketing-oriente
 
 ## 📞 About the Author
 
-**ERIC** — Co-author of "Blockchain Core Technology and Applications", former Head of Huobi Institutional Business Unit | Mining Pool Technology, Founder of 比特财商 | Nxt Venture Capital
+**ERIC** — Co-author of "Blockchain Core Technology and Applications", former Head of Huobi Institutional Business Unit | Mining Pool Technology, Founder of 瑞哥观势 | Nxt Venture Capital
 
 ### 🔗 Contact & Platforms
 
@@ -986,6 +986,6 @@ Logo animation capability of a video marketing tool, suited to marketing-oriente
 ### 🌐 Related Platforms
 
 - **📊 Cryptocurrency Information Aggregation Website**: [https://www.smartwallex.com/](https://www.smartwallex.com/)
-- **📖 Official Account**: 比特财商
+- **📖 Official Account**: 瑞哥观势
 
 *Feel free to follow me across all platforms for the latest AI tool reviews and technical analysis!*

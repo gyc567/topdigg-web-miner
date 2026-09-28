@@ -2,7 +2,7 @@
 title: "zvec-grep深度解析：统一语义检索与词法搜索的本地优先AI开发助手"
 description: "深度解析阿里巴巴开源项目zvec-grep（zg）：融合ripgrep、BM25与向量检索的统一搜索层，连接Codex/Claude Code等AI编程工具，实现本地优先的语义搜索。包含详细安装教程、架构解析、多Agent集成和核心设计哲学。"
 date: "2026-09-03"
-author: "比特财商"
+author: "瑞哥观势"
 tags:
   - zvec-grep
   - zg
@@ -611,4 +611,4 @@ zg server status --check-ready
 
 以上，既然看到这里了，如果觉得不错，随手点个赞、在看、转发三连吧，如果想第一时间收到推送，也可以给我个星标，谢谢你看我的文章，我们，下次再见。
 
-首发于微信公众号「比特财商」。
+首发于微信公众号「瑞哥观势」。

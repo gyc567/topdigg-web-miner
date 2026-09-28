@@ -2,7 +2,7 @@
 title: "UpLinked B.V. 產品分析：LinkedIn內容策略工具如何實現月收入4000美元"
 date: "2026-09-03"
 description: "UpLinked B.V. 是一款面向B2B教練、顧問和機構的LinkedIn內容策略工具，月收入約4000美元。本文深入分析其商業模式、用戶價值、產品策略和變現機制。"
-author: "比特財商"
+author: "瑞哥觀勢"
 tags:
   - UpLinked
   - LinkedIn

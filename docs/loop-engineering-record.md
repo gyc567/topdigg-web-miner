@@ -337,7 +337,7 @@ node -e "const d=require('./src/lib/ai-daily-data.json'); \
 
 前端渲染用到 `report.tags`、`report.source.aggregator` 等顶层字段，这些字段在 schema 里是单值不是 `Record<locale, string>`。
 
-看 `meta-zh-Hant.json`：tags = `["AI Daily"]`，author = `"比特财商"`，source.original.name = `"Bitcai Business"` —— 5 语言 meta 都相同，没按 locale 分桶。
+看 `meta-zh-Hant.json`：tags = `["AI Daily"]`，author = `"瑞哥观势"`，source.original.name = `"Bitcai Business"` —— 5 语言 meta 都相同，没按 locale 分桶。
 
 **测量（measure）**
 
@@ -597,7 +597,7 @@ original: { name: string; url?: string; }
 **测量（measure）**
 
 用户切到 zh-Hant，看 post 页「原文出处」徽章显示 `Bitcai Business` 而不是 `比特財經`。
-schema 4 字段里只有 `name` 是产品级 metadata 需本地化的（「比特财商」/「比特財經」/「ビット財経」是品牌本地化名），其他（`aggregator=AI HOT`、`url`）应保持单一值。
+schema 4 字段里只有 `name` 是产品级 metadata 需本地化的（「瑞哥观势」/「比特財經」/「ビット財経」是品牌本地化名），其他（`aggregator=AI HOT`、`url`）应保持单一值。
 
 **决策（decide）**
 
@@ -632,14 +632,14 @@ schema 4 字段里只有 `name` 是产品级 metadata 需本地化的（「比�
   $ for l in zh-Hans zh-Hant en ja vi; do
       node -e "console.log('$l:', require('./src/lib/ai-daily-meta-$l.json').reports[0].source.original.name)"
     done
-  zh-Hans: 比特财商
+  zh-Hans: 瑞哥观势
   zh-Hant: 比特財經
   en: Bitcai Business
   ja: ビット財経
   vi: Bitcai Business
   ```
 
-- data.json 中 `source.original.name` 现在是 `{ en: 'Bitcai Business', zh-Hans: '比特财商', ... }` record 形式
+- data.json 中 `source.original.name` 现在是 `{ en: 'Bitcai Business', zh-Hans: '瑞哥观势', ... }` record 形式
 
 ---
 

@@ -26,7 +26,7 @@ categories:
 
 # AI Agent搞钱指南：OpenClaw Money Maker全景解析
 
-**作者：比特财商**
+**作者：瑞哥观势**
 
 ---
 
@@ -431,6 +431,6 @@ Franklin、ClawRouter、x402协议，这三个项目构成了AI Agent赚钱生�
 
 ---
 
-*作者：比特财商*
+*作者：瑞哥观势*
 
 *本文首发于微信公众号，如需转载，请联系作者授权。*

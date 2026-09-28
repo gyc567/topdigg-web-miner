@@ -12,10 +12,10 @@ tags:
 categories:
   - 技術深度
 source:
-  aggregator: "比特財商"
+  aggregator: "瑞哥觀勢"
   aggregator_url: "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWlofqxUaRF4H7CkCksIl3VD0gyRIeDsQkZPPl3Ms0hV1"
   original:
-    name: "比特財商"
+    name: "瑞哥觀勢"
     url: "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWlofqxUaRF4H7CkCksIl3VD0gyRIeDsQkZPPl3Ms0hV1"
 ---
 
@@ -419,4 +419,4 @@ Boudra 沒有把鍋甩給 Tauri，也沒有事後諸葛亮地說「我早知道 
 
 ---
 
-*首發於微信公眾號「比特財商」。*
+*首發於微信公眾號「瑞哥觀勢」。*

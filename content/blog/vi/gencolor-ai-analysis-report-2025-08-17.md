@@ -420,6 +420,6 @@ Trong thời đại giáo dục số hóa và giải trí sáng tạo phát tri�
 ### 🌐 Nền tảng liên quan
 
 - **📊 Website tổng hợp thông tin tiền mã hóa**: [https://www.smartwallex.com/](https://www.smartwallex.com/)
-- **📖 Tài khoản chính thức WeChat**: Bitcoin Literacy (比特财商)
+- **📖 Tài khoản chính thức WeChat**: Bitcoin Literacy (瑞哥观势)
 
 *Theo dõi tôi trên các nền tảng để cập nhật đánh giá công cụ AI và phân tích công nghệ mới nhất!*

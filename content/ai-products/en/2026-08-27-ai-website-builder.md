@@ -239,4 +239,4 @@ This is a severely undervalued AI SaaS company:
 
 *If you made it this far and found this useful, feel free to like, share, or follow. If you want to receive updates第一时间推送，也可以给我个星标，谢谢你看我的文章，我们，下次再見。*
 
-*Originally published on WeChat Public Account "比特财商".*
+*Originally published on WeChat Public Account "瑞哥观势".*

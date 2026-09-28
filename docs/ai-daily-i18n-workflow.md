@@ -38,7 +38,7 @@ source:
   aggregator: "AI HOT"
   aggregator_url: "https://aihot.virxact.com"
   original:
-    name: "比特财商"
+    name: "瑞哥观势"
     # url: "https://..."  ← 自 2026-08-26 起已移除，前端不再渲染链接
 hn_count: 5
 hn_keywords: "AI OR GPT OR LLM OR ..."
@@ -160,7 +160,7 @@ i18n key 在 `src/locales/{locale}/translation.json` 的 `aiDaily` 节，5 语�
 | `source.aggregator / aggregator_url` | ⚠️ 单层对象，5 语言共用 |
 | `source.original.name` | ✅ 5 语言按 locale 分桶（`Record<locale, string>`） |
 | ~~`source.original.url`~~ | ✅ **已移除**——QR 图取代链接 Badge |
-| `author` | ⚠️ 单字符串（用 zh-Hans 的"比特财商"），不渲染 |
+| `author` | ⚠️ 单字符串（用 zh-Hans 的"瑞哥观势"），不渲染 |
 | HN 标题快照 | ✅ 随 md 翻译，curl 抓取的 URL 不变 |
 
 **如要严格把 tags/categories/source.aggregator 也按 locale 分桶**，需要扩展 `AIDailyMeta` 类型 + 改造 build 脚本 + 调整 `AIDailyIndex.tsx` 的取数逻辑（单独排期）。

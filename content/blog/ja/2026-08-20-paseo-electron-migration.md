@@ -12,10 +12,10 @@ tags:
 categories:
   - 技術深掘り
 source:
-  aggregator: "比特财商"
+  aggregator: "瑞哥观势"
   aggregator_url: "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWlofqxUaRF4H7CkCksIl3VD0gyRIeDsQkZPPl3Ms0hV1"
   original:
-    name: "比特财商"
+    name: "瑞哥观势"
     url: "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWlofqxUaRF4H7CkCksIl3VD0gyRIeDsQkZPPl3Ms0hV1"
 ---
 
@@ -420,4 +420,4 @@ Tauri vs Electronの議論について、Paseoは相当に説得力のある答�
 
 ---
 
-*首发于微信公众号「比特财商」。*
+*首发于微信公众号「瑞哥观势」。*

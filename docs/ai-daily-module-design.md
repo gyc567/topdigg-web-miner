@@ -90,7 +90,7 @@ source:
   aggregator: "AI HOT"
   aggregator_url: "https://aihot.virxact.com"
   original:
-    name: "比特财商"
+    name: "瑞哥观势"
     url: "https://mp.weixin.qq.com/s/xxxxx"
 hn_count: 5
 ---
@@ -114,7 +114,7 @@ HN 帖子摘要内容...
 
 ---
 
-*首发于微信公众号「比特财商」。*
+*首发于微信公众号「瑞哥观势」。*
 ```
 
 ### 3.2 frontmatter 新增字段

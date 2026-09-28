@@ -2,7 +2,7 @@
 title: "Video Shotcraft：AI時代的產品視頻製作革命 - 從157個鏡頭配方到電影級行銷視頻"
 date: "2026-09-03"
 description: "Video Shotcraft 是一款將 Claude Code 和 Codex 轉變為運動設計工作室的 AI Agent 技能。本文深入分析其設計哲學、八階段製作流水線、157個鏡頭配方，以及如何用AI自動生成電影級產品視頻。"
-author: "比特財商"
+author: "瑞哥觀勢"
 tags:
   - Video Shotcraft
   - AI視頻製作

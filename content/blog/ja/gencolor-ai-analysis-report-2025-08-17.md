@@ -420,7 +420,7 @@ keywords: ["GenColor.aiレビュー", "AI塗り絵ジェネレーター", "ス�
 ### 🌐 関連プラットフォーム
 
 - **📊 暗号通貨情報集約ウェブサイト**: [https://www.smartwallex.com/](https://www.smartwallex.com/)
-- **📖 WeChat公式アカウント**: 比特财商
+- **📖 WeChat公式アカウント**: 瑞哥观势
 
 *各プラットフォームのフォローをお待ちしています、最新のAIツールレビューと技術分析を取得！*
 

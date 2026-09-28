@@ -11,7 +11,7 @@ categories:
   - 財經簡報
 source:
   original:
-    name: "比特財商"
+    name: "瑞哥觀勢"
     url: "https://mp.weixin.qq.com/s/xxxxx"
 ---
 

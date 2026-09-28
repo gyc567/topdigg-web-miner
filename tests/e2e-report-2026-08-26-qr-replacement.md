@@ -12,7 +12,7 @@
 ## 1. 背景
 
 Commit `a41d6d3` 把 AI Daily post 页 header 里的 weixin 链接 Badge
-（"原文出处：比特财商" + `https://mp.weixin.qq.com/s/xxxxx`）
+（"原文出处：瑞哥观势" + `https://mp.weixin.qq.com/s/xxxxx`）
 替换为 `<picture>` 渲染的 QR 图片：
 
 - 主图 `public/qr-scan-follow.webp`（25 KB）

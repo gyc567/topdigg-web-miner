@@ -9,12 +9,12 @@ tags:
 categories:
   - AI工具
   - 技术解析
-author: 比特财商
+author: 瑞哥观势
 source: ''
 slug: toonflow-ai-shortdrama
 ---
 
-**作者：比特财商**
+**作者：瑞哥观势**
 
 ---
 
@@ -356,4 +356,4 @@ GitHub：[https://github.com/HBAI-Ltd/Toonflow-app](https://github.com/HBAI-Ltd/
 
 以上，既然看到这里了，如果觉得不错，随手点个赞、在看、转发三连吧，如果想第一时间收到推送，也可以给我个星标，谢谢你看我的文章，我们，下次再见。
 
-首发于微信公众号「比特财商」。
+首发于微信公众号「瑞哥观势」。

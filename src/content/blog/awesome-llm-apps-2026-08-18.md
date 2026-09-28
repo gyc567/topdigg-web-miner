@@ -1,6 +1,6 @@
 # Awesome LLM Apps：100+ 开源 AI Agent 集合，覆盖从入门到生产级全场景
 
-**作者：比特财商**
+**作者：瑞哥观势**
 
 ---
 
@@ -266,4 +266,4 @@ npx skills add https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/agent_
 
 以上，既然看到这里了，如果觉得不错，随手点个赞、在看、转发三连吧，如果想第一时间收到推送，也可以给我个星标，多谢你看我的文章，我们，下次再见。
 
-首发于微信公众号「比特财商」。
+首发于微信公众号「瑞哥观势」。

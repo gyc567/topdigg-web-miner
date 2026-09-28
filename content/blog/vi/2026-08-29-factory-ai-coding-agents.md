@@ -2,7 +2,7 @@
 title: "Làm thế nào để Coding Agent hoàn thành các tác vụ phần mềm lớn? Nghiên cứu của Factory AI tiết lộ bước ngoặt quan trọng"
 date: "2026-08-29"
 description: "Nghiên cứu của Factory AI tiết lộ lý do tại sao các coding agent dừng sớm trên các tác vụ phần mềm lớn, và việc thêm tiêu chuẩn xác minh độc lập có thể cải thiện đáng kể tỷ lệ hoàn thành từ 36% lên 90%."
-author: "比特财商"
+author: "瑞哥观势"
 tags:
   - AI Agent
   - Software Engineering

@@ -109,7 +109,7 @@ Follow the structure template from `md-template.md`:
 ### 🏆 最终评分
 
 ## 📞 关于作者
-**ERIC** - 《区块链核心技术与应用》作者之一，前火币机构事业部|矿池技术主管，比特财商|Nxt Venture Capital 创始人
+**ERIC** - 《区块链核心技术与应用》作者之一，前火币机构事业部|矿池技术主管，瑞哥观势|Nxt Venture Capital 创始人
 
 ## 📤 分享到社交媒体
 <div style="text-align: center; margin: 30px 0; padding: 20px; background: linear-gradient(135deg, #1DA1F2 0%, #0084b4 100%); border-radius: 15px;">

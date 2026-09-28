@@ -523,7 +523,7 @@ DeepCode 代表了 Coding Agent 领域的一种深刻理念：**代码生成只�
 
 ## 关于作者
 
-**ERIC** — 《区块链核心技术与应用》作者之一，前火币机构事业部/矿池技术主管，比特财商/Nxt Venture Capital 创始人
+**ERIC** — 《区块链核心技术与应用》作者之一，前火币机构事业部/矿池技术主管，瑞哥观势/Nxt Venture Capital 创始人
 
 ---
 

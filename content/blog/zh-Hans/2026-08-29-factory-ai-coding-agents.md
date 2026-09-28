@@ -2,7 +2,7 @@
 title: "编程Agent如何完成大型软件任务？Factory AI研究揭示关键转折点"
 date: "2026-08-29"
 description: "Factory AI研究揭示了为什么编程Agent会在大型软件任务上\"提前停止\"，以及引入独立验证标准如何让同一模型的行为覆盖率从36%跃升至90%。"
-author: "比特财商"
+author: "瑞哥观势"
 tags:
   - AI Agent
   - 软件工程

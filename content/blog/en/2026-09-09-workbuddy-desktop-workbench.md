@@ -219,4 +219,4 @@ Instead of waiting for the perfect solution, build a working version first and s
 
 If you found this article helpful, feel free to like, share, and leave a comment. To receive updates promptly, hit the follow button. See you in the next article.
 
-First published on WeChat Official Account 「比特财商」.
+First published on WeChat Official Account 「瑞哥观势」.

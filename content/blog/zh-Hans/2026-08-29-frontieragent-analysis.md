@@ -2,7 +2,7 @@
 title: "FrontierAgent：开源Agent运行时如何让AI真正替你完成复杂工作"
 date: "2026-08-29"
 description: "FrontierAgent是ApodexAI开源的Agent运行时、终端产品和评测套件，支持长周期研究类和基于文件的工作。它提供ReAct单Agent和Agent Team多智能体双工作流，是当前开源Agent框架中工程化程度最高的项目之一。"
-author: "比特财商"
+author: "瑞哥观势"
 tags:
   - AI Agent
   - 开源框架

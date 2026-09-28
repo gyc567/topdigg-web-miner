@@ -489,7 +489,7 @@ Trong thời đại sáng tạo nội dung số và thương mại điện tử 
 ### 🌐 Các nền tảng liên quan
 
 - **📊 Website tổng hợp thông tin tiền mã hóa**: [https://www.smartwallex.com/](https://www.smartwallex.com/)
-- **📖 Tài khoản chính thức**: 比特财商
+- **📖 Tài khoản chính thức**: 瑞哥观势
 
 *Hoan nghênh bạn theo dõi các nền tảng của tôi để cập nhật những đánh giá công cụ AI và phân tích công nghệ mới nhất!* 
 

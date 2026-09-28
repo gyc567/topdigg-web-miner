@@ -2,7 +2,7 @@
 title: "How Coding Agents Complete Large Software Tasks: Factory AI Research Reveals Key Breakthrough"
 date: "2026-08-29"
 description: "Factory AI research reveals why coding agents stop early on large software tasks, and how adding an independent validation standard can dramatically improve completion rates from 36% to 90%."
-author: "比特财商"
+author: "瑞哥观势"
 tags:
   - AI Agent
   - Software Engineering

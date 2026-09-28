@@ -410,6 +410,6 @@ Open-Sora 2.0 的发布标志着开源视频生成进入了一个新阶段。它
 
 ---
 
-> **作者**：比特财商  
+> **作者**：瑞哥观势  
 > **参考资料**：HPC-AI 团队官方技术报告、Open-Sora GitHub 仓库、VBench 评估结果  
 > **原文链接**：https://github.com/hpcaitech/Open-Sora

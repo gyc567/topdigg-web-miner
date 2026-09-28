@@ -2,7 +2,7 @@
 title: "Academic Research Skills for Claude Code：AI時代學術研究的完整工作流"
 date: "2026-09-03"
 description: "Academic Research Skills (ARS) 是一款專為 Claude Code 設計的學術研究工具包，覆蓋從研究到發表的完整流程。本文深入分析其設計哲學、架構設計、核心功能，以及如何用AI輔助學術研究。"
-author: "比特財商"
+author: "瑞哥觀勢"
 tags:
   - Claude Code
   - 學術研究

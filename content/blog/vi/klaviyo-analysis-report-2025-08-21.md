@@ -583,6 +583,6 @@ Trong thời đại cạnh tranh marketing kỹ thuật số ngày càng khốc 
 ### 🌐 Nền Tảng Liên Quan
 
 - **📊 Trang Tổng Hợp Thông Tin Tiền Mã Hóa**: [https://www.smartwallex.com/](https://www.smartwallex.com/)
-- **📖 Tài Khoản Công Khai**: 比特财商
+- **📖 Tài Khoản Công Khai**: 瑞哥观势
 
 *Hãy theo dõi tôi trên các nền tảng để nhận phân tích nền tảng và thông tin đầu tư mới nhất!*

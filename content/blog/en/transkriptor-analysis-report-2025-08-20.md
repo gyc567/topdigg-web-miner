@@ -476,6 +476,6 @@ In an era of rapid digital office and remote collaboration development, **AI spe
 ### 🌐 Related Platforms
 
 - **📊 Cryptocurrency Information Aggregation Website**: [https://www.smartwallex.com/](https://www.smartwallex.com/)
-- **📖 Official WeChat Account**: 比特财商
+- **📖 Official WeChat Account**: 瑞哥观势
 
 *Welcome to follow my platforms for the latest AI tool reviews and technical analysis!*

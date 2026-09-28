@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import { useState, useEffect, useMemo } from "react";
 import { Link } from "react-router-dom";
 import { ArrowLeft, ExternalLink } from "lucide-react";
+import { qrImageUrlWebp, qrImageUrlJpg } from "@/assets/qr";
 
 import { SEO } from "@/components/SEO";
 import { siteConfig } from "@/config/site";
@@ -151,22 +152,42 @@ const FinanceDailyPost = () => {
           </div>
 
           {/* Source info */}
-          {fullPost.source.original.url && (
-            <div className="flex flex-wrap items-center gap-2 text-sm mb-4">
-              <Badge variant="outline">
-                <span>{t("financeDaily.source", "来源")}：</span>
-                <a
-                  href={fullPost.source.original.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-primary ml-1 underline underline-offset-2 inline-flex items-center gap-0.5"
-                >
-                  {localizeText(fullPost.source.original.name, currentLocale)}
-                  <ExternalLink className="inline h-3 w-3 ml-0.5" />
-                </a>
-              </Badge>
-            </div>
-          )}
+          <div className="flex flex-wrap items-center gap-2 text-sm mb-4">
+            <Badge variant="outline">
+              <span>{t("financeDaily.source", "来源")}：</span>
+              <a
+                href={fullPost.source.original.url ?? "#"}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-primary ml-1 underline underline-offset-2 inline-flex items-center gap-0.5"
+              >
+                {localizeText(fullPost.source.original.name, currentLocale)}
+                <ExternalLink className="inline h-3 w-3 ml-0.5" />
+              </a>
+            </Badge>
+          </div>
+
+          {/* QR code: 扫码关注"瑞哥观势"公众号 */}
+          <figure className="mt-4 mb-6 max-w-sm">
+            <picture>
+              <source srcSet={qrImageUrlWebp} type="image/webp" />
+              <img
+                src={qrImageUrlJpg}
+                alt={t("financeDaily.originalHint", "扫码关注公众号获取原文")}
+                width={430}
+                height={430}
+                loading="eager"
+                fetchpriority="high"
+                decoding="async"
+                className="w-full h-auto rounded-md border bg-card"
+              />
+            </picture>
+            <figcaption className="mt-2 text-xs text-muted-foreground">
+              {t("financeDaily.originalCaption", "原文出处：{{name}}", {
+                name: localizeText(fullPost.source.original.name, currentLocale),
+              })}
+            </figcaption>
+          </figure>
 
           <h1 className="text-3xl font-bold mb-3">{title}</h1>
           <p className="text-muted-foreground mb-4">{description}</p>

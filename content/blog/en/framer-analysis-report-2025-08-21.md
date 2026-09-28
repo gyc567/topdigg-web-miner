@@ -710,6 +710,6 @@ In an era of rapidly evolving no-code website building tools, **Framer** stands 
 ### 🌐 Related Platforms
 
 - **📊 Cryptocurrency Information Aggregation Website**: [https://www.smartwallex.com/](https://www.smartwallex.com/)
-- **📖 WeChat Official Account**: Bitcoin Finance (比特财商)
+- **📖 WeChat Official Account**: Bitcoin Finance (瑞哥观势)
 
 *Welcome to follow me on my various platforms for the latest AI tool reviews and technical analysis!*

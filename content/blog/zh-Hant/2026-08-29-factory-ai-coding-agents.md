@@ -2,7 +2,7 @@
 title: "編程Agent如何完成大型軟體任務？Factory AI研究揭示關鍵轉折點"
 date: "2026-08-29"
 description: "Factory AI研究揭示了為什麼編程Agent會在大型軟體任務上「提前停止」，以及引入獨立驗證標準如何讓同一模型的行為覆蓋率從36%躍升至90%。"
-author: "比特財商"
+author: "瑞哥觀勢"
 tags:
   - AI Agent
   - 軟體工程

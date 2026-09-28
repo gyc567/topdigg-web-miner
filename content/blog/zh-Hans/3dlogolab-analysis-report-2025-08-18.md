@@ -971,7 +971,7 @@ keywords: ["3DLogoLab评测", "3D Logo生成器", "Logo动画制作", "2D转3D�
 
 ## 📞 关于作者
 
-**ERIC** - 《区块链核心技术与应用》作者之一，前火币机构事业部|矿池技术主管，比特财商|Nxt Venture Capital 创始人
+**ERIC** - 《区块链核心技术与应用》作者之一，前火币机构事业部|矿池技术主管，瑞哥观势|Nxt Venture Capital 创始人
 
 ### 🔗 联系方式与平台
 
@@ -986,6 +986,6 @@ keywords: ["3DLogoLab评测", "3D Logo生成器", "Logo动画制作", "2D转3D�
 ### 🌐 相关平台
 
 - **📊 加密货币信息聚合网站**: [https://www.smartwallex.com/](https://www.smartwallex.com/)
-- **📖 公众号**: 比特财商
+- **📖 公众号**: 瑞哥观势
 
 *欢迎关注我的各个平台，获取最新的AI工具评测和技术分析！*

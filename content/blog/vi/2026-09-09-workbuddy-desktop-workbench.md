@@ -217,6 +217,6 @@ Workbench không phải một dự án, mà là một thói quen. Giá trị c�
 
 ---
 
-Trên đây là toàn bộ nội dung bài chia sẻ. Nếu thấy hữu ích, hãy ủng hộ bằng like, share và comment. Để nhận bài viết mới nhất, các bạn có thể theo dõi tài khoản WeChat 「比特财商」.
+Trên đây là toàn bộ nội dung bài chia sẻ. Nếu thấy hữu ích, hãy ủng hộ bằng like, share và comment. Để nhận bài viết mới nhất, các bạn có thể theo dõi tài khoản WeChat 「瑞哥观势」.
 
-Đăng tải đầu tiên trên WeChat Official Account 「比特财商」.
+Đăng tải đầu tiên trên WeChat Official Account 「瑞哥观势」.

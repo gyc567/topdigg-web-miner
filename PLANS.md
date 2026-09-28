@@ -4,7 +4,7 @@
 
 ## Active Plans
 
-_(无)_
+- [公众号「瑞哥观势」→「瑞哥观势」重塑品牌 + QR 图替换](plans/rebrand-biticaifu-to-ruige-2026.md)
 
 ## Completed Plans
 
