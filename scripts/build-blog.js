@@ -7,6 +7,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const contentDir = path.join(__dirname, '../content/blog');
+const articlesDir = path.join(__dirname, '../articles');
 const dataOutputFile = path.join(__dirname, '../src/lib/blog-data.json');
 const metaOutputFile = path.join(__dirname, '../src/lib/blog-meta.json');
 const perSlugDir = path.join(__dirname, '../src/lib/blog-data');
@@ -49,8 +50,46 @@ function scanDirectory(dir, locale = null) {
   return items;
 }
 
+/**
+ * Scan `articles/<slug>/<slug>.md` (nested layout, zh-Hans only).
+ *
+ * Convention: `articles/` is for evergreen / un-dated deep-dives that don't follow
+ * the `content/blog/zh-Hans/YYYY-MM-DD-slug.md` pattern. They still go through the
+ * same blog pipeline (build-blog.js + blog-data.json + blog-meta.json + prerender),
+ * so URL stays `/blog/<slug>/` (same as content/blog/).
+ *
+ * Frontmatter REQUIRED — same as content/blog/ (fail-fast enforces).
+ */
+function scanArticles() {
+  const items = [];
+  if (!fs.existsSync(articlesDir)) return items;
+  for (const entry of fs.readdirSync(articlesDir)) {
+    const subdir = path.join(articlesDir, entry);
+    if (!fs.statSync(subdir).isDirectory()) continue;
+    const md = path.join(subdir, `${entry}.md`);
+    if (!fs.existsSync(md)) continue;
+    const content = fs.readFileSync(md, 'utf-8');
+    const { data, content: markdownContent } = matter(content);
+    items.push({
+      slug: entry,                                  // e.g. "howtolivebetter"
+      locale: 'zh-Hans',                            // articles/ only ships zh-Hans
+      title: data.title || '',
+      description: data.description || '',
+      content: markdownContent,
+      date: data.date || new Date().toISOString(),
+      author: data.author || 'TopDigg',
+      tags: data.tags || [],
+      categories: data.categories || [],
+    });
+  }
+  return items;
+}
+
 function generateBlogData() {
-  const files = scanDirectory(contentDir);
+  const files = [
+    ...scanDirectory(contentDir),
+    ...scanArticles(),
+  ];
   const posts = {};
 
   for (const file of files) {

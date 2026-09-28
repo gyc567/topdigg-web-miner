@@ -47,6 +47,28 @@
       ]
     },
     {
+      "slug": "howtolivebetter",
+      "title": {
+        "zh-Hans": "614条循证生活建议：一份按性价比排序的人生指南"
+      },
+      "description": {
+        "zh-Hans": "深度解读 HowToLiveBetter（614 条循证建议、33 章覆盖健康/效率/财务/法律）：每个建议都标注成本、收益、证据等级，引用只采用 DOI 期刊与 WHO/CDC 等官方机构报告——给普通人一份可执行的、用学术标准写的人生操作手册。"
+      },
+      "date": "2026-09-27",
+      "author": "TopDigg",
+      "tags": [
+        "HowToLiveBetter",
+        "循证生活",
+        "健康建议",
+        "决策指南",
+        "开源项目"
+      ],
+      "categories": [
+        "生活方式",
+        "开源项目解读"
+      ]
+    },
+    {
       "slug": "2026-09-23-multipost-extension-jiedu",
       "title": {
         "zh-Hans": "MultiPost-Extension 全面解读——一键发布内容到10+平台的开源神器"

@@ -4,7 +4,7 @@
 
 ## Active Plans
 
-_(无)_
+- [articles/ 目录根治支持（build-blog.js 自动扫描）](plans/articles-archive-support-2026.md)
 
 ## Completed Plans
 
