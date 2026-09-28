@@ -4,7 +4,7 @@
 
 ## Active Plans
 
-_(无)_
+- [修 chunk hash mismatch (chunk-import 404 错)](plans/chunk-hash-mismatch-fix-2026.md)
 
 ## Completed Plans
 
