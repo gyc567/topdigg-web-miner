@@ -32,8 +32,12 @@ _(无)_
 - [OpenSandbox（阿里开源通用沙箱平台）深度解析博客（5 语言）](plans/opensandbox-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
 - [VoiceStudio 深度解析博客（5 语言）](plans/voicestudio-blog.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
 
+- [Paywall SEO 套件（PR①② + 6 个审计修复 + GSC 验证）— 11 commit](plans/paywall-seo-suite-2026.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
+- [财经简报栏目上线 + articles/ 整合到 content/blog/（C1 + C2）— 2 commit](plans/finance-daily-and-articles-migrate-2026.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
+- [Chunk hash mismatch 修复（auto-reload on hash drift）— 2 commit](plans/chunk-hash-mismatch-fix-2026.md) — 已完成，计划文件已删除，仅靠 git commit log 留档
+
 _计划文件完工后删除，仅靠 git commit log 留档（不在本文件长期保留）。_
 
 ---
 
-_Last updated: 2026-09-07_
+_Last updated: 2026-09-28_
