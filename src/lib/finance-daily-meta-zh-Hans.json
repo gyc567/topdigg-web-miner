@@ -1,0 +1,26 @@
+{
+  "reports": [
+    {
+      "slug": "2026-09-28-finance-daily",
+      "date": "2026-09-28",
+      "author": "比特财商",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomy",
+        "Fed",
+        "ECB"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "每日财经简报 | 2026-09-28",
+      "description": "美联储、欧央行9月同步加息25基点，EUR/USD报1.1380；AAPL大涨1.53%逼近历史高点；黄金小幅回落至$4238/盎司；中国LPR连续16个月按兵不动。",
+      "source": {
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    }
+  ]
+}

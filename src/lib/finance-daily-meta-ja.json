@@ -1,0 +1,26 @@
+{
+  "reports": [
+    {
+      "slug": "2026-09-28-finance-daily",
+      "date": "2026-09-28",
+      "author": "比特财商",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomy",
+        "Fed",
+        "ECB"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "デイリーファイナンスブリーフ | 2026-09-28",
+      "description": "FRB・ECBが9月に25bpの利上げを同步実施；EUR/USDは1.1380；AAPLは1.53%急騰で歴史的高値接近；金的は$4238/オンスに反落；中国LPRは16ヶ月連続で不变。",
+      "source": {
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    }
+  ]
+}
