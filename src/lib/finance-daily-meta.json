@@ -1,6 +1,44 @@
 {
   "reports": [
     {
+      "slug": "2026-09-29-finance-daily",
+      "title": {
+        "en": "Daily Finance Briefing | 2026-09-29",
+        "ja": "デイリー金融ブリーフィング | 2026-09-29",
+        "vi": "Bản Tin Tài Chính Hàng Ngày | 2026-09-29",
+        "zh-Hans": "每日财经简报 | 2026-09-29",
+        "zh-Hant": "每日財經簡報 | 2026-09-29"
+      },
+      "description": {
+        "en": "Overnight US mega-cap tech diverged (AAPL and TSLA pull back, NVDA hits new high); offshore CNH breaks above 6.71; US-China trade truce extended to Jan 2027; Hormuz Strait standoff pushes oil prices.",
+        "ja": "米国メガキャップ決算後：Apple・Tesla は調整、NVIDIA は最高値更新。オフショア人民元は 6.71 を突破、米中貿易休戦は 2027 年 1 月まで延長ホルムズ海峡の緊張で原油は堅調。",
+        "vi": "Chứng khoán Mỹ qua đêm phân hóa (AAPL, TSLA điều chỉnh, NVDA lập đỉnh); CNH ngoài khơi vượt 6,71; thỏa thuận đình chiến thương mại Mỹ-Trung được gia hạn đến tháng 1/2027; căng thẳng eo biển Hormuz đẩy giá dầu.",
+        "zh-Hans": "隔夜美股三大科技股分化（苹果、tesla回调，英伟达创新高），离岸人民币升破6.71，中美贸易休战延长至2027年1月，霍尔木兹海峡对峙推升油价。",
+        "zh-Hant": "隔夜美股三大科技股分化（蘋果、Tesla 回落，NVIDIA 創新高），離岸人民幣升破 6.71，中美貿易休戰延長至 2027 年 1 月，霍爾木茲海峽對峙推升油價。"
+      },
+      "date": "2026-09-29",
+      "author": "比特财商",
+      "tags": [
+        "finance briefing",
+        "macro economy"
+      ],
+      "categories": [
+        "finance briefing"
+      ],
+      "source": {
+        "original": {
+          "name": {
+            "en": "比特财商",
+            "ja": "比特财商",
+            "vi": "比特财商",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特財商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-09-28-finance-daily",
       "title": {
         "en": "Daily Finance Briefing | 2026-09-28",
@@ -17,7 +55,7 @@
         "zh-Hant": "美聯準、歐央行9月同步加息25基點，EUR/USD報1.1380；AAPL大漲1.53%逼近歷史高點；黃金小幅回落至$4238/盎司；中國LPR連續16個月按兵不動。"
       },
       "date": "2026-09-28",
-      "author": "瑞哥观势",
+      "author": "比特财商",
       "tags": [
         "Finance Briefing",
         "Macroeconomy",

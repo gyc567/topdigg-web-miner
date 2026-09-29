@@ -1,9 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-09-29-finance-daily",
+      "date": "2026-09-29",
+      "author": "比特财商",
+      "tags": [
+        "finance briefing",
+        "macro economy"
+      ],
+      "categories": [
+        "finance briefing"
+      ],
+      "title": "Bản Tin Tài Chính Hàng Ngày | 2026-09-29",
+      "description": "Chứng khoán Mỹ qua đêm phân hóa (AAPL, TSLA điều chỉnh, NVDA lập đỉnh); CNH ngoài khơi vượt 6,71; thỏa thuận đình chiến thương mại Mỹ-Trung được gia hạn đến tháng 1/2027; căng thẳng eo biển Hormuz đẩy giá dầu.",
+      "source": {
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-09-28-finance-daily",
       "date": "2026-09-28",
-      "author": "瑞哥观势",
+      "author": "比特财商",
       "tags": [
         "Finance Briefing",
         "Macroeconomy",

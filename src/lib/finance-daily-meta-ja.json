@@ -1,9 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-09-29-finance-daily",
+      "date": "2026-09-29",
+      "author": "比特财商",
+      "tags": [
+        "finance briefing",
+        "macro economy"
+      ],
+      "categories": [
+        "finance briefing"
+      ],
+      "title": "デイリー金融ブリーフィング | 2026-09-29",
+      "description": "米国メガキャップ決算後：Apple・Tesla は調整、NVIDIA は最高値更新。オフショア人民元は 6.71 を突破、米中貿易休戦は 2027 年 1 月まで延長ホルムズ海峡の緊張で原油は堅調。",
+      "source": {
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-09-28-finance-daily",
       "date": "2026-09-28",
-      "author": "瑞哥观势",
+      "author": "比特财商",
       "tags": [
         "Finance Briefing",
         "Macroeconomy",

@@ -1,9 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-09-29-finance-daily",
+      "date": "2026-09-29",
+      "author": "比特财商",
+      "tags": [
+        "finance briefing",
+        "macro economy"
+      ],
+      "categories": [
+        "finance briefing"
+      ],
+      "title": "每日财经简报 | 2026-09-29",
+      "description": "隔夜美股三大科技股分化（苹果、tesla回调，英伟达创新高），离岸人民币升破6.71，中美贸易休战延长至2027年1月，霍尔木兹海峡对峙推升油价。",
+      "source": {
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-09-28-finance-daily",
       "date": "2026-09-28",
-      "author": "瑞哥观势",
+      "author": "比特财商",
       "tags": [
         "Finance Briefing",
         "Macroeconomy",
