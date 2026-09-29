@@ -20,6 +20,7 @@ const VALID_ROUTES = new Set([
   "/blog",
   "/ai-daily",
   "/ai-products",
+  "/finance-daily",
   "/money-lab",
   "/aura-workbench",
   "/twitter",
