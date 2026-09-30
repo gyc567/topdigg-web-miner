@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "slug": "paypal-registration-guide-2026",
+      "title": {
+        "en": "Complete PayPal Registration Guide for Beginners (2026 Latest)",
+        "ja": "PayPal登録完全ガイド：初心者向け手順解説（2026年最新版）",
+        "vi": "Hướng Dẫn Đăng Ký PayPal Chi Tiết: Từ Đầu Cho Người Mới Bắt Đầu (2026)",
+        "zh-Hans": "PayPal注册全流程详解：从零开始的新手指南（2026年最新）",
+        "zh-Hant": "PayPal註冊全流程詳解：從零開始的新手指南（2026年最新）"
+      },
+      "description": {
+        "en": "Step-by-step PayPal registration guide covering account creation, email verification, password setup, and identity verification for complete beginners.",
+        "ja": "PayPalアカウント作成からメール認証、パスワード設定、身元確認まで初心者にもわかりやすく詳しく解説。",
+        "vi": "Hướng dẫn chi tiết đăng ký PayPal từ tạo tài khoản, xác minh email, đặt mật khẩu đến xác minh danh tính, phù hợp cho người mới hoàn toàn.",
+        "zh-Hans": "详细讲解PayPal注册账号、验证邮箱、设置密码、完成身份验证的每一步，适合完全零基础的新手用户。",
+        "zh-Hant": "詳細講解PayPal註冊帳號、驗證郵箱、設定密碼、完成身份驗證的每一步，適合完全零基礎的新手用戶。"
+      },
+      "date": "2026-09-30",
+      "author": "TopDigg",
+      "tags": [
+        "PayPal",
+        "registration guide",
+        "cross-border payment",
+        "beginner tutorial",
+        "account verification"
+      ],
+      "categories": [
+        "Payment Tools"
+      ],
+      "coverImage": "/images/money-lab/paypal-cover.jpg",
+      "earnings": null,
+      "difficulty": "Easy",
+      "timeRequired": "15-30 minutes"
+    },
+    {
       "slug": "niko-sea-retrospective-2026",
       "title": {
         "en": "Going Global: 60 Days from Zero to Consistent Sales — 7 Lessons and 1 Core Thread",

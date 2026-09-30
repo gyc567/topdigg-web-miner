@@ -1,6 +1,27 @@
 {
   "posts": [
     {
+      "slug": "paypal-registration-guide-2026",
+      "date": "2026-09-30",
+      "author": "TopDigg",
+      "tags": [
+        "PayPal",
+        "registration guide",
+        "cross-border payment",
+        "beginner tutorial",
+        "account verification"
+      ],
+      "categories": [
+        "Payment Tools"
+      ],
+      "coverImage": "/images/money-lab/paypal-cover.jpg",
+      "earnings": null,
+      "difficulty": "Easy",
+      "timeRequired": "15-30 minutes",
+      "title": "Hướng Dẫn Đăng Ký PayPal Chi Tiết: Từ Đầu Cho Người Mới Bắt Đầu (2026)",
+      "description": "Hướng dẫn chi tiết đăng ký PayPal từ tạo tài khoản, xác minh email, đặt mật khẩu đến xác minh danh tính, phù hợp cho người mới hoàn toàn."
+    },
+    {
       "slug": "niko-sea-retrospective-2026",
       "date": "2026-09-27",
       "author": "TopDigg",

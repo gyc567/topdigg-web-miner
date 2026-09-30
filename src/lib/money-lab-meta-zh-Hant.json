@@ -1,6 +1,27 @@
 {
   "posts": [
     {
+      "slug": "paypal-registration-guide-2026",
+      "date": "2026-09-30",
+      "author": "TopDigg",
+      "tags": [
+        "PayPal",
+        "registration guide",
+        "cross-border payment",
+        "beginner tutorial",
+        "account verification"
+      ],
+      "categories": [
+        "Payment Tools"
+      ],
+      "coverImage": "/images/money-lab/paypal-cover.jpg",
+      "earnings": null,
+      "difficulty": "Easy",
+      "timeRequired": "15-30 minutes",
+      "title": "PayPal註冊全流程詳解：從零開始的新手指南（2026年最新）",
+      "description": "詳細講解PayPal註冊帳號、驗證郵箱、設定密碼、完成身份驗證的每一步，適合完全零基礎的新手用戶。"
+    },
+    {
       "slug": "niko-sea-retrospective-2026",
       "date": "2026-09-27",
       "author": "TopDigg",

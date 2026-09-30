@@ -1,6 +1,27 @@
 {
   "posts": [
     {
+      "slug": "paypal-registration-guide-2026",
+      "date": "2026-09-30",
+      "author": "TopDigg",
+      "tags": [
+        "PayPal",
+        "registration guide",
+        "cross-border payment",
+        "beginner tutorial",
+        "account verification"
+      ],
+      "categories": [
+        "Payment Tools"
+      ],
+      "coverImage": "/images/money-lab/paypal-cover.jpg",
+      "earnings": null,
+      "difficulty": "Easy",
+      "timeRequired": "15-30 minutes",
+      "title": "PayPal登録完全ガイド：初心者向け手順解説（2026年最新版）",
+      "description": "PayPalアカウント作成からメール認証、パスワード設定、身元確認まで初心者にもわかりやすく詳しく解説。"
+    },
+    {
       "slug": "niko-sea-retrospective-2026",
       "date": "2026-09-27",
       "author": "TopDigg",
