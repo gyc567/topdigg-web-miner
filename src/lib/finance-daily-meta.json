@@ -1,6 +1,34 @@
 {
   "reports": [
     {
+      "slug": "2026-09-30-finance-daily",
+      "title": {
+        "zh-Hans": "每日财经简报 | 2026-09-30"
+      },
+      "description": {
+        "zh-Hans": "美联储9月重启加息25bp至3.75%-4.00%，为2023年来首次；A股上证维持3000点附近。外汇市场EUR/USD跌0.28%至1.1339，黄金大涨1.34%突破$4180/盎司。地缘风险升温，中东局势持续紧张。"
+      },
+      "date": "2026-09-30",
+      "author": "比特财商",
+      "tags": [
+        "财经简报",
+        "宏观经济",
+        "美联储",
+        "黄金"
+      ],
+      "categories": [
+        "财经简报"
+      ],
+      "source": {
+        "original": {
+          "name": {
+            "zh-Hans": "比特财商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-09-29-finance-daily",
       "title": {
         "en": "Daily Finance Briefing | 2026-09-29",
