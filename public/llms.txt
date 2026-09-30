@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-09-28T09:49:02.152Z
+Generated: 2026-09-03T09:18:40.822Z
 
 ## Site Overview
 
@@ -17,81 +17,71 @@ We deliver in-depth Twitter analytics and trend tracking for content creators an
 | Blog | https://topdigg.com/blog | All articles |
 | Twitter Column | https://topdigg.com/columns/twitter | Curated Twitter growth accounts |
 | Twitter Analytics | https://topdigg.com/twitter | In-depth Twitter account analysis reports |
-| Money Lab | https://topdigg.com/money-lab | Zero-barrier money-making case studies |
-| Finance Daily | https://topdigg.com/finance-daily |  |
 | External Links | https://topdigg.com/external-links | Curated external resources |
-| Aura Workbench | https://topdigg.com/aura-workbench | Desktop productivity workbench for Windows & macOS |
 
 ## Latest Blog Posts (10 most recent)
 
-### AI时代的科研入场券：为什么每个科学家都需要了解Scientific Agent Skills
-URL: https://topdigg.com/blog/blinken-ai-science | Date: 2026-09-28 | Author: TopDigg
-Tags: Scientific Agent Skills, AI 科研, AI 编程, 程序性知识, 科研工作流, 开源项目
+### Keploy Deep Dive: eBPF-Driven Zero-Intrusion API Testing Platform — Turning Production Traffic into Test Cases
+URL: https://topdigg.com/blog/2026-09-03-keploy-analysis | Date: 2026-09-03 | Author: TopDigg
+Tags: Keploy, eBPF, API Testing, Record-Replay, Automated Testing, Dependency Virtualization, CI/CD, Open Source
 
-从布林肯在牌桌与菜单上的隐喻切入，深度解读 Scientific Agent Skills 这一开源项目：AI 写得出代码，但写不出'可防御'的科学代码，原因不在能力而在程序性知识缺失，而 166 个经过验证的科研技能正是 AI 代理进入 AI 科研牌桌的最低成本入场券。
+In-depth analysis of the Keploy open-source project: eBPF kernel-level traffic capture, Record-Replay testing paradigm, dependency virtualization, and the 'AI Code Verification' design philosophy. Includes detailed tutorials, architecture analysis, and key insights.
 
-### Scientific Agent Skills: 让AI代理真正读懂科学论文的开源项目
-URL: https://topdigg.com/blog/scientific-agent-skills | Date: 2026-09-28 | Author: TopDigg
-Tags: Scientific Agent Skills, 程序性知识, AI 代理, 渐进式披露, 科研工程, 开源项目
+### zvec-grep Deep Dive: The Local-First AI Development Assistant That Unifies Semantic and Lexical Search
+URL: https://topdigg.com/blog/2026-09-03-zvec-grep-analysis | Date: 2026-09-03 | Author: TopDigg
+Tags: zvec-grep, zg, zvec, semantic search, BM25, vector retrieval, RRF fusion, MCP, AI coding assistant, local-first, ripgrep, open source
 
-深度解读 K-Dense Inc. 的开源项目 Scientific Agent Skills（GitHub 19万 Stars）：通过渐进式披露设计（166 技能常驻仅 7% 上下文）+ 5 大领域 16 学科覆盖，把分散在领域规范、报告指南、工具文档中的'程序性知识'打包成 AI 代理可直接消费的结构化能力。
+In-depth analysis of Alibaba's open-source zvec-grep (zg): a unified search layer combining ripgrep, BM25, and vector retrieval, connected to AI coding tools like Codex and Claude Code via MCP. Includes detailed tutorials, architecture analysis, multi-agent integration, and core design philosophy.
 
-### 全球产业链重构背后的数字：G2格局下的财富再分配
-URL: https://topdigg.com/blog/g2-economy | Date: 2026-09-27 | Author: TopDigg
-Tags: 全球产业链, 关税, G2 格局, 财富再分配, 供应链重构
+### Atomic Agent：本地优先 AI Agent 的工程典范，重新定义 AI 操作系统的边界
+URL: https://topdigg.com/blog/atomic-agent-article | Date: 2026-09-02 | Author: TopDigg
+Tags: AI Agent, 本地优先, llama.cpp, Atomic Agent, 工程实践
 
-从纯商业和产业链视角，分析2026年秋天全球经贸格局的核心变化、关税调整的实质（成本线重新划定）、预期信号的传导、企业供应链的战略级选择题，以及这些变化对投资、创业和职业选择意味着什么。
+深度解析 AtomicBot-ai/atomic-agent 项目：本地优先架构、TURBOQUANT 量化、记忆织物系统、GAIA 基准测试与核心设计哲学
 
-### 614条循证生活建议：一份按性价比排序的人生指南
-URL: https://topdigg.com/blog/howtolivebetter | Date: 2026-09-27 | Author: TopDigg
-Tags: HowToLiveBetter, 循证生活, 健康建议, 决策指南, 开源项目
+### Matt Pocock 代码库架构改进技能：让 AI 深度理解代码的艺术
+URL: https://topdigg.com/blog/mattpocock-codebase-architecture | Date: 2026-09-02 | Author: TopDigg
+Tags: AI, 代码架构, 工程实践, Skill, Matt Pocock
 
-深度解读 HowToLiveBetter（614 条循证建议、33 章覆盖健康/效率/财务/法律）：每个建议都标注成本、收益、证据等级，引用只采用 DOI 期刊与 WHO/CDC 等官方机构报告——给普通人一份可执行的、用学术标准写的人生操作手册。
+深入解析 mattpocock/skills 项目中 improve-codebase-architecture 技能的完整设计哲学、架构词汇、核心理念与实战方法论
 
-### MultiPost-Extension 全面解读——一键发布内容到10+平台的开源神器
-URL: https://topdigg.com/blog/2026-09-23-multipost-extension-jiedu | Date: 2026-09-23 | Author: TopDigg
-Tags: 开源工具, 浏览器扩展, 内容运营, 多平台发布, Plasmo, 效率工具
+### OpenClaude: The Open-Source Cross-Model Coding-Agent CLI - Full Analysis
+URL: https://topdigg.com/blog/2026-09-01-openclaude-deep-dive | Date: 2026-09-01 | Author: TopDigg
+Tags: OpenClaude, AI Agent, Coding Agent, CLI, Ollama, Claude
 
-深入解析 MultiPost-Extension 这款开源浏览器扩展工具，如何实现一次编辑、一键同步发布到知乎、微博、小红书、抖音、B站、微信公众号等10+主流平台，以及其技术架构、设计哲学和完整使用教程。
+Deep dive into Gitlawb/openclaude: an open-source coding-agent CLI supporting 20+ model providers including Claude, GPT, Gemini, DeepSeek, and local Ollama
 
-### Jev Ultrafast：浏览器Agent的速度革命，7秒完成航班搜索
-URL: https://topdigg.com/blog/2026-09-19-jev-ultrafast-browser-agent | Date: 2026-09-19 | Author: TopDigg
-Tags: AI Agent, 浏览器自动化, Browser Use, TypeSafe, LLM, 性能优化
+### fireworks-tech-graph：让AI替你画技术图的Agent Skill
+URL: https://topdigg.com/blog/2026-08-30-fireworks-tech-graph | Date: 2026-08-30T00:00:00.000Z | Author: TopDigg
+Tags: AI绘图, Agent Skill, 技术图, SVG生成, Claude Code
 
-Jev Ultrafast 是 Browser Use 团队推出的浏览器 Agent 项目，通过动态索引动作空间架构，将苏黎世到伦敦的航班搜索压缩到 7.1 秒。
+fireworks-tech-graph 是一款专为 Codex 和 Claude Code 设计的 Agent Skill，只需用自然语言描述系统，就能得到几何校验安全的 SVG、PNG、语义 GIF 动效与离线交互 HTML。
 
-### Toonflow：一个让小说「瞬间」变成动画片的项目，GitHub 11.9K+ Star 了
-URL: https://topdigg.com/blog/2026-09-15-toonflow-ai-shortdrama | Date: 2026-09-15 | Author: 瑞哥观势
-Tags: AI工具, 开源, 视频生成
+### Kage：一次京都深山寺庙的沉浸式夜间漫步
+URL: https://topdigg.com/blog/2026-08-30-kage-analysis | Date: 2026-08-30T00:00:00.000Z | Author: TopDigg
+Tags: Three.js, WebGL, 沉浸式体验, 日本美学, 单文件开发
 
-Toonflow 是一个将小说一键转化为动画短剧的 AI 开源工具，最近在 GitHub 拿到了 11.9K+ Stars。本文从技术架构到设计哲学、从核心功能到实战教程，全面解析这个赛道冠军。
+Kage 是一款用 Three.js 实时渲染的五章节沉浸式夜间漫步体验，穿过虚构的京都深山寺庙，结合分层电影级生成图像。单 HTML 文件，无构建步骤。
 
-### gPTY：一个基于 Godot + Rust 的 AI Agent 工作站
-URL: https://topdigg.com/blog/2026-09-14-gpty-analysis | Date: 2026-09-14 | Author: TopDigg
-Tags: AI Agent, Godot, Rust, 终端模拟器, MCP, 可观测性
+### Recuris：长时域Agent的递归经验-工作记忆进化框架
+URL: https://topdigg.com/blog/2026-08-30-recuris-analysis | Date: 2026-08-30T00:00:00.000Z | Author: TopDigg
+Tags: AI Agent, 记忆系统, 递归自我改进, 长时域任务
 
-gPTY 是一个基于 Godot 引擎 + Rust 语言构建的多 PTY 模拟器桌面应用，它不是又一个 AI Agent 框架，而是一个让 AI Agent 自由工作、同时对人类保持透明的工具体验。
+论文标题：Recursive Experiential–Working Memory Evolution for Long-Horizon Agent Harnesses。Recuris是一个递归经验-工作记忆架构，通过让记忆自我进化来提升长时域Agent性能。
 
-### Niwo Render Everything：把任意内容变成短视频的 Agent Skill
-URL: https://topdigg.com/blog/2026-09-14-niwo-render-everything | Date: 2026-09-14 | Author: TopDigg
-Tags: AI视频, Agent Skill, 内容创作, Niwo, 短视频工具
+### How Coding Agents Complete Large Software Tasks: Factory AI Research Reveals Key Breakthrough
+URL: https://topdigg.com/blog/2026-08-29-factory-ai-coding-agents | Date: 2026-08-29 | Author: 比特财商
+Tags: AI Agent, Software Engineering, Factory AI, ProgramBench, Research
 
-niwo-render-everything 是一个 Agent Skill，能把 PDF、论文、网页链接、Word、聊天记录——任何你能丢进 AI Agent 的内容——自动整理成素材包，上传到 Niwo 视频工作台渲染成片。
+Factory AI research reveals why coding agents stop early on large software tasks, and how adding an independent validation standard can dramatically improve completion rates from 36% to 90%.
 
-### Trace as State：当推理轨迹成为状态——长上下文推理的新范式
-URL: https://topdigg.com/blog/2026-09-13-trace-as-state | Date: 2026-09-13 | Author: TopDigg
-Tags: Trace as State, 长上下文推理, Transformer, 因果注意力, 条件状态更新, 推理轨迹, Chain-of-Thought, DeepSeek, GLM, Qwen, GraphWalks, MRCR, 设计哲学, 状态代理
+### 代码审查的思维模型：让审查速度提升10倍的「风险导向」法
+URL: https://topdigg.com/blog/2026-08-29-code-review-mental-model | Date: 2026-08-29 | Author: 比特财商
+Tags: 代码审查, 工程效能, 团队协作, 软件工程
 
-深入解析 arXiv:2609.02702 论文 Trace as State：如何通过将推理轨迹前置到上下文之前，打破 Transformer 因果注意力的顺序限制。核心发现：在条件状态更新任务中，条件优先 vs 条件后置的内存需求可相差指数级（⌈b⌉ vs ⌈b·2^b⌉ bits）。方法在 3 个模型、3 个数据集上取得 26/27 胜出，GraphWalks Parents 任务上 GLM-5.2 达到 100% 准确率。设计哲学：保持因果处理、添加轮间反馈、文本代理状态、拥抱不完美。
+代码审查（Code Review）是软件工程中最重要的质量保障环节之一，但同时也是最容易让人感到沮丧的工作。本文分享一种风险导向的代码审查思维模型，让审查速度从30分钟缩短到10分钟。
 
 ## AI Product Analyses (latest 5)
-
-### UpLinked B.V. Analysis: How a LinkedIn Content Strategy Tool Achieves $4K MRR
-URL: https://topdigg.com/ai-products/uplinked-b-v | Date: 2026-09-03 | Author: TopDigg
-Product: UpLinked B.V. | Category: AI LinkedIn Content Strategy
-Revenue: $3,999 MRR (Stripe-verified) · $196,549 lifetime
-
-UpLinked B.V. is an AI LinkedIn content strategy tool for B2B coaches, consultants and agencies, generating ~$4K MRR. This article analyzes its business model, user value, product strategy and monetization mechanism.
 
 ### $0 ARR Immersive Entertainment Platform: Deep Dive into OUT23 Digital Escape Room
 URL: https://topdigg.com/ai-products/2026-08-29-out23 | Date: 2026-08-29 | Author: ERIC
@@ -121,39 +111,12 @@ Revenue: $343 MRR (2026-08, Stripe-verified) · $3,635 lifetime
 
 Aera Browser is a local-first Chromium automation browser launched Dec 2025. Describe a recurring job in plain English and Aera runs it on a schedule in your signed-in browser. Stripe-verified $343 MRR / 9 subscriptions / ~1,700 users. This report dissects its monetization ladder, pricing tiers, des
 
-## Zero-Barrier Money Lab (latest 5)
+### Cursor Deep Dive: From Zero to $1B ARR — The AI Editor's Monetization Path
+URL: https://topdigg.com/ai-products/2026-08-26-cursor | Date: 2026-08-26 | Author: ERIC
+Product: Cursor | Category: AI编程工具
+Revenue: $1B+ ARR (2026 公开估算)
 
-### Going Global: 60 Days from Zero to Consistent Sales — 7 Lessons and 1 Core Thread
-URL: https://topdigg.com/money-lab/niko-sea-retrospective-2026 | Date: 2026-09-27 | Categories: Retrospective
-Earnings: $300-$3000/mo
-Difficulty: Hard
-Time: 2-4h/day × 1 month
-
-5 sites tested, 1 succeeded, max order $600/yr. Full retrospective: 7 lessons, conversion funnel methodology, pricing strategy, information-intensity design philosophy.
-
-### AI Image Selling: A Complete Guide to $300-$3000/mo Side Income
-URL: https://topdigg.com/money-lab/ai-image-selling-2026 | Date: 2026-09-10 | Categories: 技能变现
-Earnings: 月入 $300-$3000
-Difficulty: 简单
-Time: 每天 1-2 小时
-
-Generate images with AI tools and sell on international stock platforms. No design background needed. $300-$3000/mo实战指南。
-
-### PPT Design: From Side Gig to $4000/mo
-URL: https://topdigg.com/money-lab/ppt-earning-2026 | Date: 2026-09-05 | Categories: 技能变现
-Earnings: 月入 5000-30000 元
-Difficulty: 中等
-Time: 每天 2-3 小时
-
-If you can make PPTs, you can earn. No need to be a professional designer.
-
-### Xiaohongshu Affiliate: From Zero to $1500/mo
-URL: https://topdigg.com/money-lab/xiaohongshu-daihuo-2026 | Date: 2026-09-01 | Categories: 电商带货
-Earnings: 月入 5000-15000 元
-Difficulty: 简单
-Time: 每天 1-2 小时
-
-No follower base needed. Start affiliate marketing with just a phone. Real case study with step-by-step guide.
+Cursor is the benchmark product of the AI-native IDE category. This report breaks down its revenue trajectory, pricing mechanics, growth engine, and replicable monetization elements — answering one core question: how did a $20/month subscription create one of the fastest SaaS growth curves ever?
 
 ## Twitter Analysis Reports
 
@@ -184,4 +147,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 186 blog posts | 4 Twitter analyses | 7 AI products
+End of llms.txt | 166 blog posts | 4 Twitter analyses | 6 AI products
