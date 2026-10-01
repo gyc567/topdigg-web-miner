@@ -8,6 +8,15 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
+    allowedHosts: [
+      'both-gauntlet-acronym.ngrok-free.dev',  // 开发 tunnel
+      'topdigg.com',                           // 你的生产域名
+      'www.topdigg.com',
+    ],
+    headers: {
+      // Allow Paddle checkout iframe in both sandbox and production
+      'Content-Security-Policy': "frame-ancestors https://sandbox-buy.paddle.com https://sandbox.paddle.com https://buy.paddle.com https://paddle.com",
+    },
   },
   plugins: [
     react(),
