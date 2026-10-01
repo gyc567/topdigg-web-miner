@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-01-finance-daily",
+      "date": "2026-10-01",
+      "author": "比特财商",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics",
+        "Fed",
+        "China-US Trade",
+        "Commodities"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "每日财经简报 | 2026-10-01",
+      "description": "美联储9月加息25bp至3.75-4.00%，为2023年来首次；欧洲央行同步紧缩；中美第8轮经贸磋商建立贸易理事会；黄金回落至$4,142/oz，白银跌超2%。",
+      "source": {
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-09-30-finance-daily",
       "date": "2026-09-30",
       "author": "比特财商",

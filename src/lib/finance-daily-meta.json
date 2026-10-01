@@ -1,6 +1,44 @@
 {
   "reports": [
     {
+      "slug": "2026-10-01-finance-daily",
+      "title": {
+        "en": "Daily Finance Brief | 2026-10-01",
+        "ja": "デイリーファイナンスブリーフ | 2026-10-01",
+        "zh-Hans": "每日财经简报 | 2026-10-01",
+        "zh-Hant": "每日財經快報 | 2026-10-01"
+      },
+      "description": {
+        "en": "Fed raises rates 25bp to 3.75-4.00% in September, first hike since 2023; ECB follows suit; China-US 8th round of trade talks establishes Trade Council; Gold pulls back to $4,142/oz, silver falls 2%+.",
+        "ja": "米FRBが9月に25bp利上げし3.75-4.00%に、2023年以来初の利上げ。ECBも追随。中米第8回貿易協議で貿易理事会設立で合意。金は4,142ドル/オンスに反落、銀は2%以上下落。",
+        "zh-Hans": "美联储9月加息25bp至3.75-4.00%，为2023年来首次；欧洲央行同步紧缩；中美第8轮经贸磋商建立贸易理事会；黄金回落至$4,142/oz，白银跌超2%。",
+        "zh-Hant": "美聯儲9月升息25bp至3.75-4.00%，為2023年以來首次；歐洲央行同步緊縮；中美第8輪經貿磋商建立貿易理事會；黃金回落至$4,142/盎司，白銀跌超2%。"
+      },
+      "date": "2026-10-01",
+      "author": "比特财商",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics",
+        "Fed",
+        "China-US Trade",
+        "Commodities"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "source": {
+        "original": {
+          "name": {
+            "en": "比特财商",
+            "ja": "比特财商",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特財商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-09-30-finance-daily",
       "title": {
         "zh-Hans": "每日财经简报 | 2026-09-30"

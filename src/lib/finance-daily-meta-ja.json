@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-01-finance-daily",
+      "date": "2026-10-01",
+      "author": "比特财商",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics",
+        "Fed",
+        "China-US Trade",
+        "Commodities"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "デイリーファイナンスブリーフ | 2026-10-01",
+      "description": "米FRBが9月に25bp利上げし3.75-4.00%に、2023年以来初の利上げ。ECBも追随。中米第8回貿易協議で貿易理事会設立で合意。金は4,142ドル/オンスに反落、銀は2%以上下落。",
+      "source": {
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-09-30-finance-daily",
       "date": "2026-09-30",
       "author": "比特财商",

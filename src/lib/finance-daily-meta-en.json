@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-01-finance-daily",
+      "date": "2026-10-01",
+      "author": "比特财商",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics",
+        "Fed",
+        "China-US Trade",
+        "Commodities"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "Daily Finance Brief | 2026-10-01",
+      "description": "Fed raises rates 25bp to 3.75-4.00% in September, first hike since 2023; ECB follows suit; China-US 8th round of trade talks establishes Trade Council; Gold pulls back to $4,142/oz, silver falls 2%+.",
+      "source": {
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-09-30-finance-daily",
       "date": "2026-09-30",
       "author": "比特财商",
