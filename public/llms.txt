@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-10-02T11:07:49.403Z
+Generated: 2026-10-02T12:47:33.833Z
 
 ## Site Overview
 
@@ -128,6 +128,11 @@ URL: https://topdigg.com/money-lab/article-replatformer-complete-guide | Date: 2
 
 How to convert long-form content into 200-500 character X posts while preserving core ideas and personal voice. Complete guide with three angle approaches and the Huashu writing style.
 
+### Twitter Account Reverse Analyzer: Crack Competitor Growth Logic
+URL: https://topdigg.com/money-lab/x-account-analyzer-complete-guide | Date: 2026-10-02 | Categories: Skill Monetization, Tool Recommendations
+
+Complete guide to x-account-analyzer skill: 6-step analysis, multi-source data matrix, content classification, follower growth attribution model and 30-day replication plan.
+
 ### 出海SaaS收款神器！Paddle+Payoneer注册全流程详解（2026最新）
 URL: https://topdigg.com/money-lab/paddle-payoneer-full-guide-2026 | Date: 2026-10-01 | Categories: 支付工具
 Difficulty: 中等
@@ -149,14 +154,6 @@ Difficulty: Hard
 Time: 2-4h/day × 1 month
 
 5 sites tested, 1 succeeded, max order $600/yr. Full retrospective: 7 lessons, conversion funnel methodology, pricing strategy, information-intensity design philosophy.
-
-### AI Image Selling: A Complete Guide to $300-$3000/mo Side Income
-URL: https://topdigg.com/money-lab/ai-image-selling-2026 | Date: 2026-09-10 | Categories: 技能变现
-Earnings: 月入 $300-$3000
-Difficulty: 简单
-Time: 每天 1-2 小时
-
-Generate images with AI tools and sell on international stock platforms. No design background needed. $300-$3000/mo实战指南。
 
 ## Twitter Analysis Reports
 

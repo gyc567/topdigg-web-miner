@@ -35,6 +35,40 @@
       "timeRequired": null
     },
     {
+      "slug": "x-account-analyzer-complete-guide",
+      "title": {
+        "en": "Twitter Account Reverse Analyzer: Crack Competitor Growth Logic",
+        "ja": "Twitterアカウント逆分析ツール：競合のフォロワー増加ロジックを解明",
+        "vi": "Cong cu phan tich nguoc tai khoan Twitter: Giai ma cong ty tang follower",
+        "zh-Hans": "Twitter账号逆向分析神器：一键拆解竞品涨粉逻辑",
+        "zh-Hant": "Twitter帳號逆向分析神器：一鍵拆解競品漲粉邏輯"
+      },
+      "description": {
+        "en": "Complete guide to x-account-analyzer skill: 6-step analysis, multi-source data matrix, content classification, follower growth attribution model and 30-day replication plan.",
+        "ja": "x-account-analyzerスキル完全解読：6ステップ分析プロセス、複数データソースマトリックス、コンテンツ分類、フォロワー増加帰属モデル。",
+        "vi": "Huong dan day du ve x-account-analyzer: 6 buoc phan tich, ma tran nguon du lieu, phan loai noi dung, mo hinh quy tan tang follower va ke hoach 30 ngay.",
+        "zh-Hans": "x-account-analyzer技能完整解读：六步分析流程、多数据源矩阵、内容分类、涨粉归因模型及30天复制计划。",
+        "zh-Hant": "x-account-analyzer技能完整解讀：六步分析流程、多數據源矩陣、內容分類、漲粉歸因模型及30天複製計劃。"
+      },
+      "date": "2026-10-02",
+      "author": "TopDigg",
+      "tags": [
+        "Twitter Growth",
+        "Account Analysis",
+        "Follower Strategy",
+        "AI Tools",
+        "Competitor Analysis"
+      ],
+      "categories": [
+        "Skill Monetization",
+        "Tool Recommendations"
+      ],
+      "coverImage": null,
+      "earnings": null,
+      "difficulty": null,
+      "timeRequired": null
+    },
+    {
       "slug": "paddle-payoneer-full-guide-2026",
       "title": {
         "zh-Hans": "出海SaaS收款神器！Paddle+Payoneer注册全流程详解（2026最新）"
