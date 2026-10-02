@@ -1,6 +1,32 @@
 {
   "posts": [
     {
+      "slug": "paddle-payoneer-full-guide-2026",
+      "title": {
+        "zh-Hans": "出海SaaS收款神器！Paddle+Payoneer注册全流程详解（2026最新）"
+      },
+      "description": {
+        "zh-Hans": "从零开始详细讲解Paddle和Payoneer的注册、验证、设置每一步，适合国内个人开发者和小团队。整个流程在家用电脑和手机就能完成，预计3-7天。"
+      },
+      "date": "2026-10-01",
+      "author": "瑞哥观势",
+      "tags": [
+        "Paddle",
+        "Payoneer",
+        "SaaS收款",
+        "跨境支付",
+        "出海",
+        "注册教程"
+      ],
+      "categories": [
+        "支付工具"
+      ],
+      "coverImage": "/images/money-lab/paddle-payoneer-cover.jpg",
+      "earnings": null,
+      "difficulty": "中等",
+      "timeRequired": "约3-7天"
+    },
+    {
       "slug": "paypal-registration-guide-2026",
       "title": {
         "en": "Complete PayPal Registration Guide for Beginners (2026 Latest)",

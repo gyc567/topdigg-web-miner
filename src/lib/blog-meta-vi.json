@@ -1,6 +1,403 @@
 {
   "posts": [
     {
+      "slug": "cua-ai",
+      "date": "2026-10-02",
+      "author": "瑞哥Eric",
+      "tags": [
+        "AI Agent",
+        "计算机操控",
+        "桌面自动化",
+        "开源工具"
+      ],
+      "categories": [
+        "AI",
+        "技术解析"
+      ],
+      "title": "Cua：让 AI 智能体真正「会用电脑」的开放源代码平台",
+      "description": "全面解析 Cua 开源项目：让 AI 智能体真正操控计算机的工具链，涵盖 Cua Fleets、Driver、SDK、CUA-S1、Lume、Cua Bench 六大组件及 Computer-Use 2.0 设计哲学。"
+    },
+    {
+      "slug": "blinken-ai-science",
+      "date": "2026-09-28",
+      "author": "TopDigg",
+      "tags": [
+        "Scientific Agent Skills",
+        "AI 科研",
+        "AI 编程",
+        "程序性知识",
+        "科研工作流",
+        "开源项目"
+      ],
+      "categories": [
+        "AI 科研",
+        "开源项目解读"
+      ],
+      "title": "AI时代的科研入场券：为什么每个科学家都需要了解Scientific Agent Skills",
+      "description": "从布林肯在牌桌与菜单上的隐喻切入，深度解读 Scientific Agent Skills 这一开源项目：AI 写得出代码，但写不出'可防御'的科学代码，原因不在能力而在程序性知识缺失，而 166 个经过验证的科研技能正是 AI 代理进入 AI 科研牌桌的最低成本入场券。"
+    },
+    {
+      "slug": "scientific-agent-skills",
+      "date": "2026-09-28",
+      "author": "TopDigg",
+      "tags": [
+        "Scientific Agent Skills",
+        "程序性知识",
+        "AI 代理",
+        "渐进式披露",
+        "科研工程",
+        "开源项目"
+      ],
+      "categories": [
+        "AI 科研",
+        "开源项目解读"
+      ],
+      "title": "Scientific Agent Skills: 让AI代理真正读懂科学论文的开源项目",
+      "description": "深度解读 K-Dense Inc. 的开源项目 Scientific Agent Skills（GitHub 19万 Stars）：通过渐进式披露设计（166 技能常驻仅 7% 上下文）+ 5 大领域 16 学科覆盖，把分散在领域规范、报告指南、工具文档中的'程序性知识'打包成 AI 代理可直接消费的结构化能力。"
+    },
+    {
+      "slug": "g2-economy",
+      "date": "2026-09-27",
+      "author": "TopDigg",
+      "tags": [
+        "全球产业链",
+        "关税",
+        "G2 格局",
+        "财富再分配",
+        "供应链重构"
+      ],
+      "categories": [
+        "宏观财经",
+        "国际贸易"
+      ],
+      "title": "全球产业链重构背后的数字：G2格局下的财富再分配",
+      "description": "从纯商业和产业链视角，分析2026年秋天全球经贸格局的核心变化、关税调整的实质（成本线重新划定）、预期信号的传导、企业供应链的战略级选择题，以及这些变化对投资、创业和职业选择意味着什么。"
+    },
+    {
+      "slug": "howtolivebetter",
+      "date": "2026-09-27",
+      "author": "TopDigg",
+      "tags": [
+        "HowToLiveBetter",
+        "循证生活",
+        "健康建议",
+        "决策指南",
+        "开源项目"
+      ],
+      "categories": [
+        "生活方式",
+        "开源项目解读"
+      ],
+      "title": "614条循证生活建议：一份按性价比排序的人生指南",
+      "description": "深度解读 HowToLiveBetter（614 条循证建议、33 章覆盖健康/效率/财务/法律）：每个建议都标注成本、收益、证据等级，引用只采用 DOI 期刊与 WHO/CDC 等官方机构报告——给普通人一份可执行的、用学术标准写的人生操作手册。"
+    },
+    {
+      "slug": "2026-09-23-multipost-extension-jiedu",
+      "date": "2026-09-23",
+      "author": "TopDigg",
+      "tags": [
+        "开源工具",
+        "浏览器扩展",
+        "内容运营",
+        "多平台发布",
+        "Plasmo",
+        "效率工具"
+      ],
+      "categories": [
+        "工具测评",
+        "内容运营",
+        "开源项目"
+      ],
+      "title": "MultiPost-Extension 全面解读——一键发布内容到10+平台的开源神器",
+      "description": "深入解析 MultiPost-Extension 这款开源浏览器扩展工具，如何实现一次编辑、一键同步发布到知乎、微博、小红书、抖音、B站、微信公众号等10+主流平台，以及其技术架构、设计哲学和完整使用教程。"
+    },
+    {
+      "slug": "2026-09-19-jev-ultrafast-browser-agent",
+      "date": "2026-09-19",
+      "author": "TopDigg",
+      "tags": [
+        "AI Agent",
+        "浏览器自动化",
+        "Browser Use",
+        "TypeSafe",
+        "LLM",
+        "性能优化"
+      ],
+      "categories": [
+        "AI工具",
+        "开源项目",
+        "浏览器Agent"
+      ],
+      "title": "Jev Ultrafast：浏览器Agent的速度革命，7秒完成航班搜索",
+      "description": "Jev Ultrafast 是 Browser Use 团队推出的浏览器 Agent 项目，通过动态索引动作空间架构，将苏黎世到伦敦的航班搜索压缩到 7.1 秒。"
+    },
+    {
+      "slug": "2026-09-15-toonflow-ai-shortdrama",
+      "date": "2026-09-15",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI工具",
+        "开源",
+        "视频生成"
+      ],
+      "categories": [
+        "AI工具",
+        "技术解析"
+      ],
+      "title": "Toonflow：一个让小说「瞬间」变成动画片的项目，GitHub 11.9K+ Star 了",
+      "description": "Toonflow 是一个将小说一键转化为动画短剧的 AI 开源工具，最近在 GitHub 拿到了 11.9K+ Stars。本文从技术架构到设计哲学、从核心功能到实战教程，全面解析这个赛道冠军。"
+    },
+    {
+      "slug": "global-supply-chain",
+      "date": "2026-09-15",
+      "author": "TopDigg",
+      "tags": [],
+      "categories": [],
+      "title": "全球供应链进入新周期：产业迁移浪潮中的财富逻辑",
+      "description": "分析当前供应链格局的核心变化，以及这些变化背后蕴含的财富重新分配逻辑。"
+    },
+    {
+      "slug": "2026-09-14-gpty-analysis",
+      "date": "2026-09-14",
+      "author": "TopDigg",
+      "tags": [
+        "AI Agent",
+        "Godot",
+        "Rust",
+        "终端模拟器",
+        "MCP",
+        "可观测性"
+      ],
+      "categories": [
+        "AI工具",
+        "开源项目"
+      ],
+      "title": "gPTY：一个基于 Godot + Rust 的 AI Agent 工作站",
+      "description": "gPTY 是一个基于 Godot 引擎 + Rust 语言构建的多 PTY 模拟器桌面应用，它不是又一个 AI Agent 框架，而是一个让 AI Agent 自由工作、同时对人类保持透明的工具体验。"
+    },
+    {
+      "slug": "2026-09-14-niwo-render-everything",
+      "date": "2026-09-14",
+      "author": "TopDigg",
+      "tags": [
+        "AI视频",
+        "Agent Skill",
+        "内容创作",
+        "Niwo",
+        "短视频工具"
+      ],
+      "categories": [
+        "AI工具",
+        "内容创作",
+        "开源项目"
+      ],
+      "title": "Niwo Render Everything：把任意内容变成短视频的 Agent Skill",
+      "description": "niwo-render-everything 是一个 Agent Skill，能把 PDF、论文、网页链接、Word、聊天记录——任何你能丢进 AI Agent 的内容——自动整理成素材包，上传到 Niwo 视频工作台渲染成片。"
+    },
+    {
+      "slug": "2026-09-13-trace-as-state",
+      "date": "2026-09-13",
+      "author": "TopDigg",
+      "tags": [
+        "Trace as State",
+        "长上下文推理",
+        "Transformer",
+        "因果注意力",
+        "条件状态更新",
+        "推理轨迹",
+        "Chain-of-Thought",
+        "DeepSeek",
+        "GLM",
+        "Qwen",
+        "GraphWalks",
+        "MRCR",
+        "设计哲学",
+        "状态代理"
+      ],
+      "categories": [
+        "论文解析",
+        "AI研究",
+        "大语言模型",
+        "长上下文推理",
+        "技术深度"
+      ],
+      "title": "Trace as State：当推理轨迹成为状态——长上下文推理的新范式",
+      "description": "深入解析 arXiv:2609.02702 论文 Trace as State：如何通过将推理轨迹前置到上下文之前，打破 Transformer 因果注意力的顺序限制。核心发现：在条件状态更新任务中，条件优先 vs 条件后置的内存需求可相差指数级（⌈b⌉ vs ⌈b·2^b⌉ bits）。方法在 3 个模型、3 个数据集上取得 26/27 胜出，GraphWalks Parents 任务上 GLM-5.2 达到 100% 准确率。设计哲学：保持因果处理、添加轮间反馈、文本代理状态、拥抱不完美。"
+    },
+    {
+      "slug": "2026-09-11-tencent-teamai-cli-analysis",
+      "date": "2026-09-11",
+      "author": "TopDigg",
+      "tags": [
+        "AI",
+        "团队协作",
+        "Claude",
+        "Cursor",
+        "工具"
+      ],
+      "categories": [
+        "AI工具",
+        "技术深度"
+      ],
+      "title": "腾讯 TeamAI CLI 深度解读：让每个团队真正实现 AI Native",
+      "description": "腾讯开源的 TeamAI CLI 是 AI Agent 团队协作框架，通过 Git 工作流实现团队 AI 能力的统一管理和持续积累。深入解析其三层闭环设计哲学、安装配置及核心功能。"
+    },
+    {
+      "slug": "easy-writing-analysis-report",
+      "date": "2026-09-10",
+      "author": "瑞哥观势",
+      "tags": [
+        "易创",
+        "Easy Writing",
+        "AI写作",
+        "网文创作",
+        "本地优先",
+        "开源",
+        "BYOK",
+        "Tauri",
+        "Vue3"
+      ],
+      "categories": [
+        "AI 工具",
+        "写作工具",
+        "开源项目",
+        "本地优先"
+      ],
+      "title": "易创（Easy Writing）：纯本地 AI 网文写作神器，写作者的数据主权宣言",
+      "description": "深度解析易创 Easy Writing——纯本地开源 AI 网文写作桌面软件：BYOK 模式、提示词全开放、本地 SQLite 数据、80+ 平台榜单风向，含详细教程、设计哲学与归纳总结"
+    },
+    {
+      "slug": "2026-09-09-metarsi-rsi-harness-analysis",
+      "date": "2026-09-09",
+      "author": "TopDigg",
+      "tags": [
+        "RSI-Harness",
+        "MetaRSI",
+        "Genome",
+        "Recursive Self-Improving",
+        "Pi Coding Agent",
+        "AI Agent",
+        "Prompt Engineering",
+        "Open Source"
+      ],
+      "categories": [
+        "Deep Analysis",
+        "AI Tools",
+        "Open Source",
+        "Recursive Self-Improving"
+      ],
+      "title": "MetaRSI/RSI-Harness Phân tích sâu: Công cụ AI có thể tự chế tạo công cụ của mình",
+      "description": "Phân tích sâu RSI-Harness của CosmosMind-ai: Hệ thống Tự Cải Thiện Đệ Quy Siêu Cấp (Meta-Recursive Self-Improving System). Genome biến cấu hình harness của AI thành thư mục có thể versioning, chia sẻ và tạo tự động; harness-rsi là một meta-tool được xây dựng từ chính năng lực của nó, đọc lịch sử của bạn để tạo Genome cá nhân hóa."
+    },
+    {
+      "slug": "2026-09-09-workbuddy-desktop-workbench",
+      "date": "2026-09-09",
+      "author": "TopDigg",
+      "tags": [
+        "WorkBuddy",
+        "Personal Productivity",
+        "AI Workspace",
+        "Prompt Engineering",
+        "Workflow Automation"
+      ],
+      "categories": [
+        "Getting Started",
+        "AI Tools",
+        "Productivity"
+      ],
+      "title": "Dựng Personal Desktop Workbench với WorkBuddy（Hướng dẫn từ Zero）",
+      "description": "Hướng dẫn chi tiết cách dựng personal desktop workbench từ đầu với WorkBuddy, bao gồm 5 bước hoàn chỉnh, chiến lược chọn model, prompt template, triết lý thiết kế và cách deploy lên mobile."
+    },
+    {
+      "slug": "autohedge-analysis",
+      "date": "2026-09-07",
+      "author": "TopDigg",
+      "tags": [
+        "AutoHedge",
+        "Multi-Agent",
+        "AI Agent",
+        "Hedge Fund",
+        "Trading",
+        "Swarms",
+        "Solana",
+        "Risk Management",
+        "Quantitative Trading",
+        "LLM"
+      ],
+      "categories": [
+        "Deep Dive"
+      ],
+      "title": "AutoHedge: Phân tích kiến trúc và hướng dẫn thực hành quỹ đầu cơ đa tác tử tự chủ",
+      "description": "Phân tích chuyên sâu AutoHedge — quỹ đầu cơ đa tác tử tự chủ xây dựng trên framework swarms. Bao gồm: kiến trúc pipeline của 5 tác tử chuyên trách Director/Quant/Risk/Execution/Sentiment, triết lý thiết kế ưu tiên rủi ro, luồng thực thi trên Solana (Jupiter Ultra API), hướng dẫn cài đặt cấu hình chi tiết, cách dùng Python API và CLI, cùng tổng hợp điểm mạnh, hạn chế và bối cảnh áp dụng của dự án."
+    },
+    {
+      "slug": "2026-09-06-gamefactory-3a-analysis",
+      "date": "2026-09-06",
+      "author": "TopDigg",
+      "tags": [
+        "GameFactory-3A",
+        "AI游戏生成",
+        "AI编码代理",
+        "3D资产生成",
+        "游戏引擎",
+        "Unity",
+        "UE5",
+        "Godot",
+        "OpenDCAI"
+      ],
+      "categories": [
+        "AI工具",
+        "游戏开发",
+        "开源项目"
+      ],
+      "title": "GameFactory-3A：用AI编码代理从需求生成3A级游戏",
+      "description": "GameFactory-3A是一个开源的3A游戏生成技能与资产框架，覆盖图像/3D资产/动作/音频/CG视频生成，支持Unity/UE5/Blender/Godot/third.js五大引擎。用AI编码代理驱动完整生成管线，把游戏需求变成可运行的游戏成品。"
+    },
+    {
+      "slug": "2026-09-05-fermats-last-theorem-formalization",
+      "date": "2026-09-05",
+      "author": "TopDigg",
+      "tags": [
+        "费马大定理",
+        "Lean",
+        "形式化证明",
+        "Anthropic",
+        "Claude",
+        "数学",
+        "AI",
+        "证明助手",
+        "Prove2Me"
+      ],
+      "categories": [
+        "AI",
+        "数学",
+        "技术深度"
+      ],
+      "title": "AI完成费马大定理形式化证明：Claude用11天干完了数学家几年的活",
+      "description": "2025年8月18日，Anthropic宣布Claude完成了人类历史上第一个端到端、计算机可验证的费马大定理形式化证明。整个过程仅用了11天，写下了1300万行Lean代码，证明了29,500个中间定理。本文详细分析了这个项目的技术架构、设计哲学、验证体系和里程碑意义。"
+    },
+    {
+      "slug": "2026-09-05-smallcode-analysis",
+      "date": "2026-09-05",
+      "author": "TopDigg",
+      "tags": [
+        "SmallCode",
+        "AI编程代理",
+        "本地模型",
+        "小模型优化",
+        "终端工具",
+        "Claude",
+        "编程助手"
+      ],
+      "categories": [
+        "AI工具",
+        "编程助手",
+        "开源项目"
+      ],
+      "title": "SmallCode：让8B模型跑出比肩前沿模型的编程能力",
+      "description": "SmallCode是一个终端原生的AI编程代理，专门为本地运行的小型LLM（8B-35B参数）优化设计。它在87%的基准测试中达到了与前沿模型相当的表现。本文详解其核心功能、安装教程、设计哲学和技术架构。"
+    },
+    {
       "slug": "2026-09-03-keploy-analysis",
       "date": "2026-09-03",
       "author": "TopDigg",
@@ -47,6 +444,65 @@
       ],
       "title": "zvec-grep - Trợ lý Lập trình AI Ưu tiên Cục bộ: Tìm kiếm Thống nhất Ngữ nghĩa và Từ vựng",
       "description": "Phân tích chuyên sâu dự án mã nguồn mở zvec-grep (zg) của Alibaba: lớp tìm kiếm thống nhất kết hợp ripgrep, BM25 và tìm kiếm vector, kết nối với các công cụ lập trình AI như Codex và Claude Code qua MCP, thực hiện tìm kiếm ngữ nghĩa ưu tiên cục bộ. Bao gồm hướng dẫn cài đặt chi tiết, phân tích kiến trúc, tích hợp đa Agent và triết lý thiết kế cốt lõi."
+    },
+    {
+      "slug": "academic-research-skills-for-claude-code",
+      "date": "2026-09-03",
+      "author": "TopDigg",
+      "tags": [
+        "Claude Code",
+        "Academic Research",
+        "AI Assistant",
+        "Research Workflow",
+        "Paper Writing"
+      ],
+      "categories": [
+        "AI Tools",
+        "Academic Research"
+      ],
+      "title": "Academic Research Skills for Claude Code: Quy Trình Nghiên Cứu Học Thuật Toàn Diện Trong Kỷ Nguyên AI",
+      "description": "Academic Research Skills (ARS) là bộ công cụ nghiên cứu học thuật được thiết kế riêng cho Claude Code, bao phủ toàn bộ quy trình từ nghiên cứu đến công bố. Bài viết này phân tích sâu về triết lý thiết kế, kiến trúc hệ thống, các tính năng cốt lõi và cách sử dụng AI để hỗ trợ nghiên cứu học thuật."
+    },
+    {
+      "slug": "video-shotcraft",
+      "date": "2026-09-03",
+      "author": "TopDigg",
+      "tags": [
+        "Video Shotcraft",
+        "AI Video Production",
+        "Remotion",
+        "Product Video",
+        "Motion Design",
+        "Claude Code"
+      ],
+      "categories": [
+        "AI Tools",
+        "Video Production",
+        "Motion Design"
+      ],
+      "title": "Video Shotcraft: Cách Mạng Sản Xuất Video Sản Phẩm Trong Kỷ Nguyên AI - Từ 157 Thẻ Công Thức Shot Đến Video Marketing Điện Ảnh",
+      "description": "Video Shotcraft là một kỹ năng agent AI biến Claude Code hoặc Codex thành một studio thiết kế chuyển động. Bài viết này phân tích sâu về triết lý thiết kế, quy trình sản xuất 8 giai đoạn, 157 thẻ công thức shot, và cách tạo video sản phẩm điện ảnh tự động bằng AI."
+    },
+    {
+      "slug": "voicestudio-analysis",
+      "date": "2026-09-03",
+      "author": "ERIC",
+      "tags": [
+        "VoiceStudio",
+        "TTS",
+        "Speech Recognition",
+        "Voice Cloning",
+        "Local AI",
+        "Open Source"
+      ],
+      "categories": [
+        "AI Tools",
+        "Speech Synthesis",
+        "Open Source Projects",
+        "Local-First"
+      ],
+      "title": "VoiceStudio: Trạm làm việc giọng nói mã nguồn mở chạy cục bộ — Phân tích kiến trúc và hướng dẫn thực chiến với 16 engine TTS + 11 engine ASR",
+      "description": "Phân tích sâu VoiceStudio — nền tảng giọng nói mã nguồn mở chạy hoàn toàn cục bộ: nhân bản giọng nói zero-shot, lồng tiếng video, tạo văn bản bằng giọng nói, phiên âm và sản xuất sách nói, 646 ngôn ngữ, 16 engine TTS + 11 engine ASR, kèm hướng dẫn thực chiến và triết lý thiết kế cơ chế tiếp nhận engine"
     },
     {
       "slug": "atomic-agent-article",
@@ -160,7 +616,7 @@
     {
       "slug": "2026-08-29-factory-ai-coding-agents",
       "date": "2026-08-29",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Agent",
         "Software Engineering",
@@ -177,7 +633,7 @@
     {
       "slug": "2026-08-29-code-review-mental-model",
       "date": "2026-08-29",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "代码审查",
         "工程效能",
@@ -193,7 +649,7 @@
     {
       "slug": "2026-08-29-frontieragent-analysis",
       "date": "2026-08-29",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Agent",
         "开源框架",
@@ -209,7 +665,7 @@
     {
       "slug": "2026-08-29-pluely-analysis",
       "date": "2026-08-29",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI工具",
         "产品设计",

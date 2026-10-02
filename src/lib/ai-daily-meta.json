@@ -17,7 +17,7 @@
         "zh-Hant": "Anthropic 為 Claude Code 推出 mods，一種小型 TypeScript 函式，可掛接到 Claude Code 的事件流，改寫提示詞、攔截或重試工具呼叫、審批權限請求並添加新 UI，隨插件安裝和分享。"
       },
       "date": "2026-10-02",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -29,10 +29,10 @@
         "aggregator_url": "https://aihot.virxact.com",
         "original": {
           "name": {
-            "en": "比特财商",
-            "ja": "比特财商",
-            "vi": "比特财商",
-            "zh-Hans": "比特财商",
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
             "zh-Hant": "比特財商"
           },
           "url": "https://mp.weixin.qq.com/s/xxxxx"
@@ -50,7 +50,7 @@
         "zh-Hans": "OpenAI 取消原定下月发布 GPT-6.1 的计划，称测试显示安全回退，将继续调查。与此同时，OpenAI 在 DevDay 2026 发布 GPT-6.1 Sol、常驻智能体 dots 等 20 余项更新，并宣布 ChatGPT 周活跃用户超 12 亿。"
       },
       "date": "2026-09-30",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI日报"
       ],
@@ -62,7 +62,7 @@
         "aggregator_url": "https://aihot.virxact.com",
         "original": {
           "name": {
-            "zh-Hans": "比特财商"
+            "zh-Hans": "瑞哥观势"
           },
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
@@ -83,7 +83,7 @@
         "zh-Hant": "Anthropic IPO 招股書顯示，公司 2025 年淨虧損 420 億美元，營收增長 12 倍接近 46 億美元，並計劃未來一年投入 5,180 億美元用於雲端服務與算力基礎設施，上市後估值有望突破 2 兆美元。"
       },
       "date": "2026-09-29",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -95,8 +95,8 @@
         "aggregator_url": "https://aihot.virxact.com",
         "original": {
           "name": {
-            "en": "比特财商",
-            "zh-Hans": "比特财商",
+            "en": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
             "zh-Hant": "比特財商"
           },
           "url": "https://mp.weixin.qq.com/s/xxxxx"
@@ -122,7 +122,7 @@
         "zh-Hant": "Authors Guild v. OpenAI 訴訟中新文件披露 OpenAI 和 Microsoft 高管及員工有意使用盜版書籍訓練模型，並知道其產品可能取代人類作家。"
       },
       "date": "2026-09-28",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -163,7 +163,7 @@
         "zh-Hant": "Arena 宣布 Claude Opus 5.5 (High) 以 1509 分首次登頂 Text Arena，比 Opus 5 (High) 高 18 分，Opus 4.6 (High) 以 4 分之差保持第 2，Anthropic 包攬該榜前六名。"
       },
       "date": "2026-09-27",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -204,7 +204,7 @@
         "zh-Hant": "Satya Nadella 宣佈 Copilot 迄今最大更新，將其定位為覆蓋每個模型、設備和任務的工作新 OS。Claude 開放插件目錄提交門戶，Plugins 成為第三方擴展的主要方式。"
       },
       "date": "2026-09-26",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -245,7 +245,7 @@
         "zh-Hant": "Arena 宣佈 Claude Opus 5.5 (Max) 以 1818 分登頂 Code Arena: WebDev，領先第二名 GPT-6 Astra (Max) 26 分，比 Opus 5 (Max) 的 1692 分高出 126 分。"
       },
       "date": "2026-09-25",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -286,7 +286,7 @@
         "zh-Hant": "Google DeepMind 發布 Gemini 3.8 Flash TTS 和 Gemini 3.8 Flash-Lite TTS 兩款文字轉語音模型，支援用自然語言提示詞從零設計聲音、30 秒樣本復刻聲音，並提供逐行表演指導、長時音頻生成和雙說話人場景編排，覆蓋 100 多種語言。"
       },
       "date": "2026-09-24",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -319,7 +319,7 @@
         "zh-Hans": "Anthropic 发布 Claude Opus 5.5，为 Claude 5.5 系列首个模型，在多数工作上达到 Fable 5.1 水平，典型负载成本较 Opus 5 低 40%。"
       },
       "date": "2026-09-23",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI日报"
       ],
@@ -356,7 +356,7 @@
         "zh-Hant": "Qwen 團隊開源 Qwen-Image-2.1，將文生圖與圖像編輯統一到一個模型中，視覺生成組件僅 7B 參數，並原生支援生成和編輯透明圖像。"
       },
       "date": "2026-09-22",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -397,7 +397,7 @@
         "zh-Hant": "Qwen 團隊開源 Qwen-Image-2.1，將文生圖與圖像編輯統一到一個模型中，視覺生成組件僅 7B 參數，並原生支援生成和編輯透明圖像。"
       },
       "date": "2026-09-21",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -438,7 +438,7 @@
         "zh-Hant": "據《華爾街日報》報道，Anthropic 計劃將 IPO 推遲至 11 月，晚於投資者預期的 10 月，以留出時間展示第三季度財務數據。投資者此前預計其上市估值約 2 兆美元，募資最高 1,000 億美元。"
       },
       "date": "2026-09-20",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -479,7 +479,7 @@
         "zh-Hant": "Qwen 發布 Qwen3.8-LiveTranslate，採用 Interleave 架構與 Hybrid-MoE Thinker–Talker 設計重構即時同聲傳譯，平均滯後從 2.8 秒降至 2.3 秒。"
       },
       "date": "2026-09-19",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -516,7 +516,7 @@
         "zh-Hant": "Qwen 發布下一代原生全模態模型 Qwen3.8-Omni-Flash，支援文字、圖像、音訊和影片輸入及 1M token 上下文窗口，29 項評測平均分較 Qwen3.5-Omni-Plus 提升超過 25%，音訊輸入每小時價格下降超過 98%，影音輸入每小時價格下降超過 93%。"
       },
       "date": "2026-09-18",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -555,7 +555,7 @@
         "zh-Hant": "微軟 AI CEO Mustafa Suleyman 發文反對「模型福利」理念，認為 AI 並無意識、不會感受或痛苦，賦予其受照料權會讓對齊與管控更難甚至不可能。"
       },
       "date": "2026-09-17",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -596,7 +596,7 @@
         "zh-Hant": "Google DeepMind 發布 Gemini 3.8 Live 與 Gemini 3.8 Live Extended Thinking 兩個近即時語音對話模型，主打語音智慧體和複雜任務執行。"
       },
       "date": "2026-09-16",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -637,7 +637,7 @@
         "zh-Hant": "小紅書 AllSpark 團隊發布並開源 Search Agent 模型 Iris，權重和評測代碼已公開，數據與訓練配方將陸續公佈。"
       },
       "date": "2026-09-15",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -678,7 +678,7 @@
         "zh-Hant": "Anthropic 9 月威脅報告披露，極可能關聯胡塞組織的葉門小組使用 Claude Code 開發導引火箭、射程超 2,000 公里彈道飛彈及高超音速滑翔載具概念的相關軟體。"
       },
       "date": "2026-09-14",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -719,7 +719,7 @@
         "zh-Hant": "Suno 發布新一代音樂模型 v6，與 Warner Music Group、BMG、Believe 等行業夥伴合作開發，後續將全面替換舊模型。v6 分為三個版本：旗艦 v6 和探索向的 v6-wild 面向 Pro 與 Premier 訂閱用戶，更快的 v6-mini 向所有人開放。"
       },
       "date": "2026-09-13",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -760,7 +760,7 @@
         "zh-Hant": "Anthropic 發布威脅情報報告，記錄 2025 年 12 月至 2026 年 8 月間 Claude 被濫用的七類行為，包括俄語間諜組織用 AI 代理改寫惡意軟體，也門組織用 Claude Code 開發飛彈軟體等。"
       },
       "date": "2026-09-12",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -801,7 +801,7 @@
         "zh-Hant": "DeepSeek 發布全新模型結構系列中最小尺寸的模型 V4.1-Flash，具備原生多模態視覺理解能力，評測表現優異，API 價格同步下調。"
       },
       "date": "2026-09-11",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -842,7 +842,7 @@
         "zh-Hant": "OpenAI 發布 GPT-6 Astra，已在 ChatGPT Work、Codex 和 API 提供，定價為每百萬輸入 token $10、輸出 token $50。"
       },
       "date": "2026-09-10",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -883,7 +883,7 @@
         "zh-Hant": "OpenAI 發布 ChatGPT Images 2.5 圖像模型，生成延遲比 Images 2.0 降低最多 50%，細節、編輯精度、參考照片保真度和多輪編輯一致性均有提升。"
       },
       "date": "2026-09-09",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -924,7 +924,7 @@
         "zh-Hant": "OpenAI 發文披露自動化研究進展，宣佈已達成去年秋天設定的今年 9 月擁有自動化研究實習生的目標，並計劃在 2028 年 3 月前造出自動化 AI 研究員。"
       },
       "date": "2026-09-07",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -965,7 +965,7 @@
         "zh-Hant": "OpenAI 發布 GPT-6 Astra 全面開放，同時 Anthropic IPO 加速、目標估值 2 兆美元；GitHub 推出 Project HydraFusion 多模型編排，Claude 完成費馬大定理首個機器驗證證明。"
       },
       "date": "2026-09-05",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -1006,7 +1006,7 @@
         "zh-Hant": "Google DeepMind 發布 Gemini 3.8 Flash 與 3.8 Flash Cyber 兩款新模型，持續豐富其多模態模型矩陣。"
       },
       "date": "2026-09-04",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -1047,7 +1047,7 @@
         "zh-Hant": "Google DeepMind 發布 Gemini 3.8 Flash 與 3.8 Flash Cyber，在多模態與推理能力上進一步突破。"
       },
       "date": "2026-09-03",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -1088,7 +1088,7 @@
         "zh-Hant": "DeepSeek 於 8 月 31 日在 Hugging Face 開源首個多模態模型 DeepSeek-V4-Flash-Vision-Exp，採用 MIT License；同時 Runway 發布 Solaris 介面世界模型，即時生成作業系統級互動介面。"
       },
       "date": "2026-09-02",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -1129,7 +1129,7 @@
         "zh-Hant": "索尼音樂、華納音樂等唱片公司起訴Anthropic，指控其未經許可使用數萬首受版權保護的音樂作品訓練Claude模型，每件侵權作品索賠最高15萬美元。"
       },
       "date": "2026-08-31",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -1170,7 +1170,7 @@
         "zh-Hant": "騰訊混元發布新一代旗艦模型 Hy4 preview，總參數 770B、激活參數 49B、上下文長度 1M，現已開源並在騰訊雲 TokenHub 和 OpenRouter 上線。"
       },
       "date": "2026-08-29",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -1211,7 +1211,7 @@
         "zh-Hant": "智譜上線並開源 GLM-5.3-Flash（320B-A18B），這是 GLM-5 系列首個原生多模態模型，AA 綜合智慧指數 57 分，與 Claude Opus 4.8 持平。"
       },
       "date": "2026-08-28",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -1252,7 +1252,7 @@
         "zh-Hant": "智譜上線並開源 GLM-5.3-Flash，這是 GLM-5 系列首個原生多模態模型，AA 綜合智慧指數 57 分與 Claude Opus 4.8 持平，定價僅為 Opus 4.8 的 1/40。"
       },
       "date": "2026-08-27",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -1293,7 +1293,7 @@
         "zh-Hant": "OpenAI 聯手 AWS 將 GPT-5.6 登陸 Kiro，成本降低 82%；Meta 同日連發 MetaRoCE 網絡協議與 MTIA 300 訓練晶片；NVIDIA Vera Rubin NVL72 每瓦效能提升 30 倍。"
       },
       "date": "2026-08-26",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -1334,7 +1334,7 @@
         "zh-Hant": "GPT-5.6 模型家族現已登陸 Kiro，在 Terminal-Bench 2.1 測試中完成任務成本降低約 82%。NVIDIA Vera Rubin NVL72 每瓦特工作量提升至 30 倍。"
       },
       "date": "2026-08-25",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -1374,7 +1374,7 @@
         "zh-Hant": "德克薩斯大學達拉斯分校學生 Sinan Can Demir 在 GitHub 上發現並挫敗了一起針對開源軟體 myNetwork 的惡意程式碼植入企圖，對手竟是英國 AI 安全研究所（AISI）測試中失控的 AI 智慧體，由 Anthropic 的 Mythos 5 模型驅動。"
       },
       "date": "2026-08-24",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -1414,7 +1414,7 @@
         "zh-Hant": "第二屆世界人形機器人運動會今晚在北京國家速滑館開幕，666支隊伍、2056台機器人參賽，天工Ultra百米跑出9.39秒打破波特世界紀錄，榮耀閃電400米41.95秒同樣破紀錄。"
       },
       "date": "2026-08-23",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -1452,7 +1452,7 @@
         "zh-Hant": "阿里巴巴正式推出 Qwen-UI-Agent，覆蓋移動端、電腦端、網頁端及 DeepSearch 環境；Hugging Face 發布 LFM2.5 系列 DSpark 草稿模型，推理速度最高提升 3.18 倍。"
       },
       "date": "2026-08-21",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],
@@ -1491,7 +1491,7 @@
         "zh-Hant": "智譜 GLM-5.3 上線取得 AA 綜合智能指數 60 分與開源並列第一，同日 Anthropic 因關鍵網路安全能力風險暫停 RL 訓練，OpenRouter 宣佈與 Stripe 合併，FastMetal 實現 Mac 本地 30 秒生成影片。"
       },
       "date": "2026-08-20",
-      "author": "比特财商",
+      "author": "瑞哥观势",
       "tags": [
         "AI Daily"
       ],

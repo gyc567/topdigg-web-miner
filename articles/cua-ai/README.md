@@ -1,3 +1,18 @@
+---
+title: "Cua：让 AI 智能体真正「会用电脑」的开放源代码平台"
+date: "2026-10-02"
+description: "全面解析 Cua 开源项目：让 AI 智能体真正操控计算机的工具链，涵盖 Cua Fleets、Driver、SDK、CUA-S1、Lume、Cua Bench 六大组件及 Computer-Use 2.0 设计哲学。"
+tags:
+  - AI Agent
+  - 计算机操控
+  - 桌面自动化
+  - 开源工具
+categories:
+  - AI
+  - 技术解析
+author: "瑞哥Eric"
+---
+
 # Cua：让 AI 智能体真正「会用电脑」的开放源代码平台
 
 ## 项目概述

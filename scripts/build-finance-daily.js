@@ -6,16 +6,14 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const contentDir = path.join(__dirname, '../content/ai-daily');
-const dataOutputFile = path.join(__dirname, '../src/lib/ai-daily-data.json');
-const metaOutputFile = path.join(__dirname, '../src/lib/ai-daily-meta.json');
+const contentDir = path.join(__dirname, '../content/finance-daily');
+const dataOutputFile = path.join(__dirname, '../src/lib/finance-daily-data.json');
+const metaOutputFile = path.join(__dirname, '../src/lib/finance-daily-meta.json');
 
 const LOCALES = ['zh-Hans', 'zh-Hant', 'en', 'ja', 'vi'];
 
-// Normalize title/description: can be string or { locale: string }
 function normalizeLocalized(value, locale) {
   if (!value) return {};
-  // Per-locale md files: a plain string belongs to this file's locale
   if (typeof value === 'string') return { [locale]: value };
   if (typeof value === 'object') return value;
   return {};
@@ -47,16 +45,12 @@ function scanDirectory(dir, locale = null) {
         locale: locale || 'zh-Hans',
         title: normalizeLocalized(data.title, locale || 'zh-Hans'),
         description: normalizeLocalized(data.description, locale || 'zh-Hans'),
-        locale: locale || 'zh-Hans',
-
         content: markdownContent,
         date: data.date || new Date().toISOString().split('T')[0],
         author: data.author || '瑞哥观势',
         tags: data.tags || [],
         categories: data.categories || [],
         source: data.source || null,
-        hn_count: typeof data.hn_count === 'number' ? data.hn_count : 0,
-        hn_keywords: data.hn_keywords || ''
       });
     }
   }
@@ -64,7 +58,7 @@ function scanDirectory(dir, locale = null) {
   return items;
 }
 
-function generateAiDailyData() {
+function generateFinanceDailyData() {
   const files = scanDirectory(contentDir);
   const reports = {};
 
@@ -86,52 +80,43 @@ function generateAiDailyData() {
             name: {},
           },
         },
-        hn_count: file.hn_count,
-        hn_keywords: file.hn_keywords
       };
     }
 
-    // Merge title
     const titleObj = normalizeLocalized(file.title);
     for (const [l, v] of Object.entries(titleObj)) {
       reports[file.slug].title[l] = v;
     }
 
-    // Merge description
     const descObj = normalizeLocalized(file.description);
     for (const [l, v] of Object.entries(descObj)) {
       reports[file.slug].description[l] = v;
     }
 
-    // Merge content
     reports[file.slug].content[file.locale] = file.content;
 
-    // Merge source.original.name as per-locale record
     const nameObj = normalizeLocalized(file.source?.original?.name, file.locale);
     for (const [l, v] of Object.entries(nameObj)) {
       reports[file.slug].source.original.name[l] = v;
     }
   }
 
-  // Sort by date descending
   const sortedReports = Object.values(reports).sort(
     (a, b) => new Date(b.date) - new Date(a.date)
   );
 
-  // Full data (with content)
-  const aiDailyData = {
+  const financeDailyData = {
     reports: sortedReports.map(({ categories, ...report }) => report)
   };
 
-  // Meta only (no content)
-  const aiDailyMeta = {
+  const financeDailyMeta = {
     reports: sortedReports.map(({ content, ...meta }) => meta)
   };
 
-  fs.writeFileSync(dataOutputFile, JSON.stringify(aiDailyData, null, 2));
-  fs.writeFileSync(metaOutputFile, JSON.stringify(aiDailyMeta, null, 2));
+  fs.writeFileSync(dataOutputFile, JSON.stringify(financeDailyData, null, 2));
+  fs.writeFileSync(metaOutputFile, JSON.stringify(financeDailyMeta, null, 2));
   console.log(
-    `✅ Generated ai-daily-data.json (${aiDailyData.reports.length} reports) and ai-daily-meta.json`
+    `Generated finance-daily-data.json (${financeDailyData.reports.length} reports) and finance-daily-meta.json`
   );
 
   // Generate per-locale meta files — only the 30 most recent
@@ -173,20 +158,20 @@ function generateAiDailyData() {
 
     const localeOutputFile = path.join(
       __dirname,
-      `../src/lib/ai-daily-meta-${locale}.json`
+      `../src/lib/finance-daily-meta-${locale}.json`
     );
     fs.writeFileSync(localeOutputFile, JSON.stringify(localizedMeta, null, 2));
     const sizeKB = Math.round(
       Buffer.byteLength(JSON.stringify(localizedMeta), 'utf8') / 1024
     );
     console.log(
-      `✅ Generated ai-daily-meta-${locale}.json (${sizeKB} KB, ${localizedMeta.reports.length} reports)`
+      `Generated finance-daily-meta-${locale}.json (${sizeKB} KB, ${localizedMeta.reports.length} reports)`
     );
   }
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {
-  generateAiDailyData();
+  generateFinanceDailyData();
 }
 
-export { generateAiDailyData };
+export { generateFinanceDailyData };

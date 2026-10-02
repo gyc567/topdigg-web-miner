@@ -9,7 +9,7 @@ categories:
   - finance briefing
 source:
   original:
-    name: "比特财商"
+    name: "瑞哥观势"
     url: "https://mp.weixin.qq.com/s/xxxxx"
 ---
 
