@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-10-02-finance-daily",
+      "date": "2026-10-02",
+      "author": "比特财商",
+      "tags": [
+        "Finance Brief",
+        "Macro Economy"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "Daily Finance Brief | 2026-10-02",
+      "description": "Fed and ECB both hike rates by 25bps in September; China-US establish Trade Council with $30B mutual tariff reduction framework; EU anti-dumping duties on Chinese chemicals up to 192.2%; Iran-Oman new Hormuz strait corridor opens.",
+      "source": {
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-01-finance-daily",
       "date": "2026-10-01",
       "author": "比特财商",

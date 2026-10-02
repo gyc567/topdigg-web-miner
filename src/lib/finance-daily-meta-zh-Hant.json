@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-10-02-finance-daily",
+      "date": "2026-10-02",
+      "author": "比特财商",
+      "tags": [
+        "Finance Brief",
+        "Macro Economy"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "每日財經簡報 | 2026-10-02",
+      "description": "美聯準、歐洲央行9月同步升息25基點；中美建立貿易理事會達成300億對等降稅框架；歐盟對中化工品反傾銷稅率最高192.2%；伊朗荷莫茲海峽新航道啟用。",
+      "source": {
+        "original": {
+          "name": "比特財商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-01-finance-daily",
       "date": "2026-10-01",
       "author": "比特财商",

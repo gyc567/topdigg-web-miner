@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-10-02-finance-daily",
+      "date": "2026-10-02",
+      "author": "比特财商",
+      "tags": [
+        "Finance Brief",
+        "Macro Economy"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "Bản Tin Tài Chính Hàng Ngày | 2026-10-02",
+      "description": "Fed và ECB cùng tăng lãi suất 25bps vào tháng 9; Trung-Mỹ thành lập Hội đồng Thương mại, đạt đồng thuận khung giảm thuế 30 tỷ đô la song phương; EU áp thuế chống bán phá giá lên tới 192.2% đối với hóa chất Trung Quốc; Hành lang eo biển Hormuz mới của Iran-Oman đi vào hoạt động.",
+      "source": {
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-01-finance-daily",
       "date": "2026-10-01",
       "author": "比特财商",
