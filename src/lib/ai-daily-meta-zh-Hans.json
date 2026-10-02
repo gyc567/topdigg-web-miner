@@ -1,9 +1,78 @@
 {
   "reports": [
     {
+      "slug": "2026-10-02-ai-daily",
+      "date": "2026-10-02",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Claude Code 推出 mods，可用 TypeScript 函数改写提示词、替换内置功能",
+      "description": "Anthropic 为 Claude Code 推出 mods，一种小型 TypeScript 函数，可挂接到 Claude Code 的事件流，改写提示词、拦截或重试工具调用、审批权限请求并添加新 UI，随插件安装和分享。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-09-30-ai-daily",
+      "date": "2026-09-30",
+      "author": "比特财商",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "OpenAI 取消 GPT-6.1 发布计划，称安全性未达标",
+      "description": "OpenAI 取消原定下月发布 GPT-6.1 的计划，称测试显示安全回退，将继续调查。与此同时，OpenAI 在 DevDay 2026 发布 GPT-6.1 Sol、常驻智能体 dots 等 20 余项更新，并宣布 ChatGPT 周活跃用户超 12 亿。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-09-29-ai-daily",
+      "date": "2026-09-29",
+      "author": "比特财商",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Anthropic IPO 招股书曝光：2025 年净亏损 420 亿美元",
+      "description": "Anthropic IPO 招股书显示，公司 2025 年净亏损 420 亿美元，营收增长 12 倍接近 46 亿美元，并计划未来一年投入 5,180 亿美元用于云服务与算力基础设施，上市后估值有望突破 2 万亿美元。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-09-28-ai-daily",
       "date": "2026-09-28",
-      "author": "瑞哥观势",
+      "author": "比特财商",
       "tags": [
         "AI Daily"
       ],
@@ -26,7 +95,7 @@
     {
       "slug": "2026-09-27-ai-daily",
       "date": "2026-09-27",
-      "author": "瑞哥观势",
+      "author": "比特财商",
       "tags": [
         "AI Daily"
       ],
@@ -49,7 +118,7 @@
     {
       "slug": "2026-09-26-ai-daily",
       "date": "2026-09-26",
-      "author": "瑞哥观势",
+      "author": "比特财商",
       "tags": [
         "AI Daily"
       ],
@@ -72,7 +141,7 @@
     {
       "slug": "2026-09-25-ai-daily",
       "date": "2026-09-25",
-      "author": "瑞哥观势",
+      "author": "比特财商",
       "tags": [
         "AI Daily"
       ],
@@ -95,7 +164,7 @@
     {
       "slug": "2026-09-24-ai-daily",
       "date": "2026-09-24",
-      "author": "瑞哥观势",
+      "author": "比特财商",
       "tags": [
         "AI Daily"
       ],
@@ -118,7 +187,7 @@
     {
       "slug": "2026-09-23-ai-daily",
       "date": "2026-09-23",
-      "author": "瑞哥观势",
+      "author": "比特财商",
       "tags": [
         "AI日报"
       ],
@@ -141,7 +210,7 @@
     {
       "slug": "2026-09-22-ai-daily",
       "date": "2026-09-22",
-      "author": "瑞哥观势",
+      "author": "比特财商",
       "tags": [
         "AI Daily"
       ],
@@ -164,7 +233,7 @@
     {
       "slug": "2026-09-21-ai-daily",
       "date": "2026-09-21",
-      "author": "瑞哥观势",
+      "author": "比特财商",
       "tags": [
         "AI Daily"
       ],
@@ -187,7 +256,7 @@
     {
       "slug": "2026-09-20-ai-daily",
       "date": "2026-09-20",
-      "author": "瑞哥观势",
+      "author": "比特财商",
       "tags": [
         "AI Daily"
       ],
@@ -210,7 +279,7 @@
     {
       "slug": "2026-09-19-ai-daily",
       "date": "2026-09-19",
-      "author": "瑞哥观势",
+      "author": "比特财商",
       "tags": [
         "AI Daily"
       ],
@@ -233,7 +302,7 @@
     {
       "slug": "2026-09-18-ai-daily",
       "date": "2026-09-18",
-      "author": "瑞哥观势",
+      "author": "比特财商",
       "tags": [
         "AI Daily"
       ],
@@ -256,7 +325,7 @@
     {
       "slug": "2026-09-17-ai-daily",
       "date": "2026-09-17",
-      "author": "瑞哥观势",
+      "author": "比特财商",
       "tags": [
         "AI Daily"
       ],
@@ -279,7 +348,7 @@
     {
       "slug": "2026-09-16-ai-daily",
       "date": "2026-09-16",
-      "author": "瑞哥观势",
+      "author": "比特财商",
       "tags": [
         "AI Daily"
       ],
@@ -302,7 +371,7 @@
     {
       "slug": "2026-09-15-ai-daily",
       "date": "2026-09-15",
-      "author": "瑞哥观势",
+      "author": "比特财商",
       "tags": [
         "AI Daily"
       ],
@@ -325,7 +394,7 @@
     {
       "slug": "2026-09-14-ai-daily",
       "date": "2026-09-14",
-      "author": "瑞哥观势",
+      "author": "比特财商",
       "tags": [
         "AI Daily"
       ],
@@ -348,7 +417,7 @@
     {
       "slug": "2026-09-13-ai-daily",
       "date": "2026-09-13",
-      "author": "瑞哥观势",
+      "author": "比特财商",
       "tags": [
         "AI Daily"
       ],
@@ -371,7 +440,7 @@
     {
       "slug": "2026-09-12-ai-daily",
       "date": "2026-09-12",
-      "author": "瑞哥观势",
+      "author": "比特财商",
       "tags": [
         "AI Daily"
       ],
@@ -394,7 +463,7 @@
     {
       "slug": "2026-09-11-ai-daily",
       "date": "2026-09-11",
-      "author": "瑞哥观势",
+      "author": "比特财商",
       "tags": [
         "AI Daily"
       ],
@@ -417,7 +486,7 @@
     {
       "slug": "2026-09-10-ai-daily",
       "date": "2026-09-10",
-      "author": "瑞哥观势",
+      "author": "比特财商",
       "tags": [
         "AI Daily"
       ],
@@ -440,7 +509,7 @@
     {
       "slug": "2026-09-09-ai-daily",
       "date": "2026-09-09",
-      "author": "瑞哥观势",
+      "author": "比特财商",
       "tags": [
         "AI Daily"
       ],
@@ -463,7 +532,7 @@
     {
       "slug": "2026-09-07-ai-daily",
       "date": "2026-09-07",
-      "author": "瑞哥观势",
+      "author": "比特财商",
       "tags": [
         "AI Daily"
       ],
@@ -486,7 +555,7 @@
     {
       "slug": "2026-09-05-ai-daily",
       "date": "2026-09-05",
-      "author": "瑞哥观势",
+      "author": "比特财商",
       "tags": [
         "AI Daily"
       ],
@@ -509,7 +578,7 @@
     {
       "slug": "2026-09-04-ai-daily",
       "date": "2026-09-04",
-      "author": "瑞哥观势",
+      "author": "比特财商",
       "tags": [
         "AI Daily"
       ],
@@ -532,7 +601,7 @@
     {
       "slug": "2026-09-03-ai-daily",
       "date": "2026-09-03",
-      "author": "瑞哥观势",
+      "author": "比特财商",
       "tags": [
         "AI Daily"
       ],
@@ -555,7 +624,7 @@
     {
       "slug": "2026-09-02-ai-daily",
       "date": "2026-09-02",
-      "author": "瑞哥观势",
+      "author": "比特财商",
       "tags": [
         "AI Daily"
       ],
@@ -578,7 +647,7 @@
     {
       "slug": "2026-08-31-ai-daily",
       "date": "2026-08-31",
-      "author": "瑞哥观势",
+      "author": "比特财商",
       "tags": [
         "AI Daily"
       ],
@@ -601,7 +670,7 @@
     {
       "slug": "2026-08-29-ai-daily",
       "date": "2026-08-29",
-      "author": "瑞哥观势",
+      "author": "比特财商",
       "tags": [
         "AI Daily"
       ],
@@ -612,75 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "腾讯混元发布 Hy4 preview：770B 总参数、1M 上下文，开源上线",
       "description": "腾讯混元发布新一代旗舰模型 Hy4 preview，总参数 770B、激活参数 49B、上下文长度 1M，现已开源并在腾讯云 TokenHub 和 OpenRouter 上线。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-08-28-ai-daily",
-      "date": "2026-08-28",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "GLM-5.3-Flash 开源：320B 总参数、AA 指数 57 分，定价为 Opus 4.8 的 1/40",
-      "description": "智谱上线并开源 GLM-5.3-Flash（320B-A18B），这是 GLM-5 系列首个原生多模态模型，AA 综合智能指数 57 分，与 Claude Opus 4.8 持平。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-08-27-ai-daily",
-      "date": "2026-08-27",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "GLM-5.3-Flash 开源：320B 总参数、AA 指数 57 分，定价为 Opus 4.8 的 1/40",
-      "description": "智谱上线并开源 GLM-5.3-Flash，这是 GLM-5 系列首个原生多模态模型，AA 综合智能指数 57 分与 Claude Opus 4.8 持平，定价仅为 Opus 4.8 的 1/40。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-08-26-ai-daily",
-      "date": "2026-08-26",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "AI日报 · 2026-08-26",
-      "description": "OpenAI 联手 AWS 将 GPT-5.6 登陆 Kiro，成本降低 82%；Meta 同日连发 MetaRoCE 网络协议与 MTIA 300 训练芯片；NVIDIA Vera Rubin NVL72 每瓦性能提升 30 倍。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",
