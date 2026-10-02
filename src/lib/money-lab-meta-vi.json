@@ -1,6 +1,28 @@
 {
   "posts": [
     {
+      "slug": "article-replatformer-complete-guide",
+      "date": "2026-10-02",
+      "author": "TopDigg",
+      "tags": [
+        "Content Creation",
+        "AI Tools",
+        "X Platform",
+        "Social Media",
+        "Productivity"
+      ],
+      "categories": [
+        "Skill Monetization",
+        "Tool Recommendations"
+      ],
+      "coverImage": null,
+      "earnings": null,
+      "difficulty": null,
+      "timeRequired": null,
+      "title": "article-replatformer: Chuyen doi bai viet 3000 tu thanh 300 tu",
+      "description": "Huong dan chi tiet cach chuyen bai viet dai 3000-5000 tu thanh noi dung X platform 200-500 tu, giu lai y kien coi nhat va phong cach ca nhan. Ba goc tieu diem, cau truc chuan, va triet ly thiet ke."
+    },
+    {
       "slug": "paddle-payoneer-full-guide-2026",
       "date": "2026-10-01",
       "author": "瑞哥观势",

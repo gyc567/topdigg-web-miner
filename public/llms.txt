@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-10-02T10:14:18.582Z
+Generated: 2026-10-02T11:07:49.403Z
 
 ## Site Overview
 
@@ -123,6 +123,11 @@ Aera Browser is a local-first Chromium automation browser launched Dec 2025. Des
 
 ## Zero-Barrier Money Lab (latest 5)
 
+### The article-replatformer: Turn 3,000 Words into 300
+URL: https://topdigg.com/money-lab/article-replatformer-complete-guide | Date: 2026-10-02 | Categories: Skill Monetization, Tool Recommendations
+
+How to convert long-form content into 200-500 character X posts while preserving core ideas and personal voice. Complete guide with three angle approaches and the Huashu writing style.
+
 ### 出海SaaS收款神器！Paddle+Payoneer注册全流程详解（2026最新）
 URL: https://topdigg.com/money-lab/paddle-payoneer-full-guide-2026 | Date: 2026-10-01 | Categories: 支付工具
 Difficulty: 中等
@@ -152,14 +157,6 @@ Difficulty: 简单
 Time: 每天 1-2 小时
 
 Generate images with AI tools and sell on international stock platforms. No design background needed. $300-$3000/mo实战指南。
-
-### PPT Design: From Side Gig to $4000/mo
-URL: https://topdigg.com/money-lab/ppt-earning-2026 | Date: 2026-09-05 | Categories: 技能变现
-Earnings: 月入 5000-30000 元
-Difficulty: 中等
-Time: 每天 2-3 小时
-
-If you can make PPTs, you can earn. No need to be a professional designer.
 
 ## Twitter Analysis Reports
 

@@ -1,6 +1,28 @@
 {
   "posts": [
     {
+      "slug": "article-replatformer-complete-guide",
+      "date": "2026-10-02",
+      "author": "TopDigg",
+      "tags": [
+        "Content Creation",
+        "AI Tools",
+        "X Platform",
+        "Social Media",
+        "Productivity"
+      ],
+      "categories": [
+        "Skill Monetization",
+        "Tool Recommendations"
+      ],
+      "coverImage": null,
+      "earnings": null,
+      "difficulty": null,
+      "timeRequired": null,
+      "title": "長文を300字に変える：article-replatformer完全ガイド",
+      "description": "3000文字的长文を200-500文字のXプラットフォーム向けコンテンツに 변환。3つのアプローチ、五段階変換プロセス、花生风格のデザイン哲学を解説。"
+    },
+    {
       "slug": "paddle-payoneer-full-guide-2026",
       "date": "2026-10-01",
       "author": "瑞哥观势",

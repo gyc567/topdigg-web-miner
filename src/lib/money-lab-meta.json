@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "slug": "article-replatformer-complete-guide",
+      "title": {
+        "en": "The article-replatformer: Turn 3,000 Words into 300",
+        "ja": "長文を300字に変える：article-replatformer完全ガイド",
+        "vi": "article-replatformer: Chuyen doi bai viet 3000 tu thanh 300 tu",
+        "zh-Hans": "长文转X神器：article-replatformer完整解读",
+        "zh-Hant": "長文轉X神器：article-replatformer完整解讀"
+      },
+      "description": {
+        "en": "How to convert long-form content into 200-500 character X posts while preserving core ideas and personal voice. Complete guide with three angle approaches and the Huashu writing style.",
+        "ja": "3000文字的长文を200-500文字のXプラットフォーム向けコンテンツに 변환。3つのアプローチ、五段階変換プロセス、花生风格のデザイン哲学を解説。",
+        "vi": "Huong dan chi tiet cach chuyen bai viet dai 3000-5000 tu thanh noi dung X platform 200-500 tu, giu lai y kien coi nhat va phong cach ca nhan. Ba goc tieu diem, cau truc chuan, va triet ly thiet ke.",
+        "zh-Hans": "把3000字长文压缩成300字，保留核心观点和个人风格。详解三种切入角度、标准结构、花生风格设计哲学及五步转换教程。",
+        "zh-Hant": "把3000字長文壓縮成300字，保留核心觀點和個人風格。詳解三種切入角度、標準結構、花生風格設計哲學及五步轉換教程。"
+      },
+      "date": "2026-10-02",
+      "author": "TopDigg",
+      "tags": [
+        "Content Creation",
+        "AI Tools",
+        "X Platform",
+        "Social Media",
+        "Productivity"
+      ],
+      "categories": [
+        "Skill Monetization",
+        "Tool Recommendations"
+      ],
+      "coverImage": null,
+      "earnings": null,
+      "difficulty": null,
+      "timeRequired": null
+    },
+    {
       "slug": "paddle-payoneer-full-guide-2026",
       "title": {
         "zh-Hans": "出海SaaS收款神器！Paddle+Payoneer注册全流程详解（2026最新）"

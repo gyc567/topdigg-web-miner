@@ -1,6 +1,28 @@
 {
   "posts": [
     {
+      "slug": "article-replatformer-complete-guide",
+      "date": "2026-10-02",
+      "author": "TopDigg",
+      "tags": [
+        "Content Creation",
+        "AI Tools",
+        "X Platform",
+        "Social Media",
+        "Productivity"
+      ],
+      "categories": [
+        "Skill Monetization",
+        "Tool Recommendations"
+      ],
+      "coverImage": null,
+      "earnings": null,
+      "difficulty": null,
+      "timeRequired": null,
+      "title": "长文转X神器：article-replatformer完整解读",
+      "description": "把3000字长文压缩成300字，保留核心观点和个人风格。详解三种切入角度、标准结构、花生风格设计哲学及五步转换教程。"
+    },
+    {
       "slug": "paddle-payoneer-full-guide-2026",
       "date": "2026-10-01",
       "author": "瑞哥观势",
