@@ -17,8 +17,8 @@ tags: ["推特", "起号", "流量漏斗", "增长", "图文内容", "社交媒�
 categories: ["方法论"]
 coverImage: "/images/money-lab/twitter-growth-cover.jpg"
 earnings: null
-difficulty: "中等"
-timeRequired: "每天45分钟 × 30天"
+difficulty: 中等
+timeRequired: 每天45分钟 × 30天
 ---
 
 # 推特图文起号·30天行动手册
