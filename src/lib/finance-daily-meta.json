@@ -1,6 +1,37 @@
 {
   "reports": [
     {
+      "slug": "2026-10-03-finance-daily",
+      "title": {
+        "zh-Hans": "每日财经简报 | 2026-10-03",
+        "zh-Hant": "每日財經簡報 | 2026-10-03"
+      },
+      "description": {
+        "zh-Hans": "美联储官员称支持年末再加息一次，但弱就业数据使10月加息概率大降；欧元区通胀超预期升至3.8%；中美首脑会晤后双方列出建议削减关税商品清单，贸易关系现缓和信号。",
+        "zh-Hant": "美聯儲官員稱支持年末再加息一次，但弱就業數據使10月加息概率大降；歐元區通脹超預期升至3.8%；中美首腦會晤後雙方列出建議削減關稅商品清單，貿易關係現緩和信號。"
+      },
+      "date": "2026-10-03",
+      "author": "瑞哥观势",
+      "tags": [
+        "财经简报",
+        "宏观经济",
+        "美联储",
+        "中美贸易"
+      ],
+      "categories": [
+        "财经简报"
+      ],
+      "source": {
+        "original": {
+          "name": {
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特財商"
+          },
+          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWtwHXDoJluazVqUZaOluCvFMYqiPhrmR6N0mlnfr3F77"
+        }
+      }
+    },
+    {
       "slug": "2026-10-02-finance-daily",
       "title": {
         "en": "Daily Finance Brief | 2026-10-02",

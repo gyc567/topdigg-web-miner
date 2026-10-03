@@ -1,6 +1,28 @@
 {
   "reports": [
     {
+      "slug": "2026-10-03-finance-daily",
+      "date": "2026-10-03",
+      "author": "瑞哥观势",
+      "tags": [
+        "财经简报",
+        "宏观经济",
+        "美联储",
+        "中美贸易"
+      ],
+      "categories": [
+        "财经简报"
+      ],
+      "title": "每日財經簡報 | 2026-10-03",
+      "description": "美聯儲官員稱支持年末再加息一次，但弱就業數據使10月加息概率大降；歐元區通脹超預期升至3.8%；中美首腦會晤後雙方列出建議削減關稅商品清單，貿易關係現緩和信號。",
+      "source": {
+        "original": {
+          "name": "比特財商",
+          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWtwHXDoJluazVqUZaOluCvFMYqiPhrmR6N0mlnfr3F77"
+        }
+      }
+    },
+    {
       "slug": "2026-10-02-finance-daily",
       "date": "2026-10-02",
       "author": "瑞哥观势",

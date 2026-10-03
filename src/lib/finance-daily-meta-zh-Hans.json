@@ -1,6 +1,28 @@
 {
   "reports": [
     {
+      "slug": "2026-10-03-finance-daily",
+      "date": "2026-10-03",
+      "author": "瑞哥观势",
+      "tags": [
+        "财经简报",
+        "宏观经济",
+        "美联储",
+        "中美贸易"
+      ],
+      "categories": [
+        "财经简报"
+      ],
+      "title": "每日财经简报 | 2026-10-03",
+      "description": "美联储官员称支持年末再加息一次，但弱就业数据使10月加息概率大降；欧元区通胀超预期升至3.8%；中美首脑会晤后双方列出建议削减关税商品清单，贸易关系现缓和信号。",
+      "source": {
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWtwHXDoJluazVqUZaOluCvFMYqiPhrmR6N0mlnfr3F77"
+        }
+      }
+    },
+    {
       "slug": "2026-10-02-finance-daily",
       "date": "2026-10-02",
       "author": "瑞哥观势",
