@@ -47,7 +47,7 @@ function scanDirectory(dir, locale = null) {
         description: normalizeLocalized(data.description, locale || 'zh-Hans'),
         content: markdownContent,
         date: data.date || new Date().toISOString().split('T')[0],
-        author: data.author || '锐哥观势',
+        author: data.author || '瑞哥观势',
         tags: data.tags || [],
         categories: data.categories || [],
         source: data.source || null,
