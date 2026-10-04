@@ -11,7 +11,7 @@ categories:
   - 财经简报
 source:
   original:
-    name: "比特财商"
+    name: "锐哥观势"
     url: "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWtwHXDoJluazVqUZaOluCvFMYqiPhrmR6N0mlnfr3F77"
 ---
 
