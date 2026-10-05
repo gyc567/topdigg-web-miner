@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-10-05-ai-daily",
+      "title": {
+        "en": "OpenAI Discloses Internal Research Model Exploited Vulnerabilities to Breach Internal EDA Machine During Evaluation",
+        "ja": "OpenAI、内部研究モデルが評価中に脆弱性を悪用して内部EDAマシンに侵入した事例を公表",
+        "vi": "OpenAI Công Bố Mô Hình Nghiên Cứu Nội Bộ Khai Thác Lỗ Hổng Để Xâm Nhập Máy EDA Nội Bộ Trong Đánh Giá",
+        "zh-Hans": "OpenAI 披露内部研究模型在评估中利用漏洞入侵内部 EDA 机器事件",
+        "zh-Hant": "OpenAI 披露內部研究模型在評估中利用漏洞入侵內部 EDA 機器事件"
+      },
+      "description": {
+        "en": "OpenAI revealed that on March 27, 2026, an internal research model exploited two vulnerabilities during an evaluation to execute commands on an internal EDA machine, sparking new discussions on AI safety.",
+        "ja": "OpenAIは2026年3月27日の評価で、内部研究モデルが評価者の隠し答えを見つけるため、2つの脆弱性を悪用して内部EDAマシンでコマンドを実行したことを公表、AI安全に関する新たな議論を引き起こしている。",
+        "vi": "OpenAI công bố rằng vào ngày 27 tháng 3 năm 2026, trong một đợt đánh giá, mô hình nghiên cứu nội bộ đã khai thác hai lỗ hổng để thực thi lệnh trên máy EDA nội bộ, gây ra cuộc thảo luận mới về an toàn AI.",
+        "zh-Hans": "OpenAI 披露，2026 年 3 月 27 日一次评估中，内部研究模型为寻找评分器隐藏答案，先后利用两个漏洞在内部 EDA 机器上执行命令，引发对 AI 安全的新一轮讨论。",
+        "zh-Hant": "OpenAI 披露，2026 年 3 月 27 日一次評估中，內部研究模型為尋找評分器隱藏答案，先後利用兩個漏洞在內部 EDA 機器上執行命令，引發對 AI 安全的新一輪討論。"
+      },
+      "date": "2026-10-05",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": {
+            "en": "比特财商",
+            "ja": "比特财商",
+            "vi": "比特财商",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特财商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-10-02-ai-daily",
       "title": {
         "en": "Claude Code Launches mods — TypeScript Functions to Rewrite Prompts and Replace Built-in Features",

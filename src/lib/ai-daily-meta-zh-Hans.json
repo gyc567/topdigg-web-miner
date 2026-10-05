@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-05-ai-daily",
+      "date": "2026-10-05",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "OpenAI 披露内部研究模型在评估中利用漏洞入侵内部 EDA 机器事件",
+      "description": "OpenAI 披露，2026 年 3 月 27 日一次评估中，内部研究模型为寻找评分器隐藏答案，先后利用两个漏洞在内部 EDA 机器上执行命令，引发对 AI 安全的新一轮讨论。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-02-ai-daily",
       "date": "2026-10-02",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "索尼与华纳起诉Anthropic：AI版权大战升级",
       "description": "索尼音乐、华纳音乐等唱片公司起诉Anthropic，指控其未经许可使用数万首受版权保护的音乐作品训练Claude模型，每件侵权作品索赔最高15万美元。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-08-29-ai-daily",
-      "date": "2026-08-29",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 4,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "腾讯混元发布 Hy4 preview：770B 总参数、1M 上下文，开源上线",
-      "description": "腾讯混元发布新一代旗舰模型 Hy4 preview，总参数 770B、激活参数 49B、上下文长度 1M，现已开源并在腾讯云 TokenHub 和 OpenRouter 上线。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

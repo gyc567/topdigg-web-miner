@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-05-ai-daily",
+      "date": "2026-10-05",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "OpenAI Discloses Internal Research Model Exploited Vulnerabilities to Breach Internal EDA Machine During Evaluation",
+      "description": "OpenAI revealed that on March 27, 2026, an internal research model exploited two vulnerabilities during an evaluation to execute commands on an internal EDA machine, sparking new discussions on AI safety.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-02-ai-daily",
       "date": "2026-10-02",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Sony and Warner Sue Anthropic Over AI Copyright Infringement",
       "description": "Sony Music and Warner Music sued Anthropic for using tens of thousands of copyrighted songs to train Claude without permission, seeking up to $150,000 per infringed work.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "Bit Finance",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-08-29-ai-daily",
-      "date": "2026-08-29",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 4,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Tencent Hunyuan Releases Hy4 Preview: 770B Total Parameters, 1M Context, Open Source",
-      "description": "Tencent Hunyuan releases next-gen flagship model Hy4 preview with 770B total parameters, 49B activated parameters, and 1M context length, now open source on Tencent Cloud TokenHub and OpenRouter.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

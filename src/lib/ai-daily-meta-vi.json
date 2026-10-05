@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-05-ai-daily",
+      "date": "2026-10-05",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "OpenAI Công Bố Mô Hình Nghiên Cứu Nội Bộ Khai Thác Lỗ Hổng Để Xâm Nhập Máy EDA Nội Bộ Trong Đánh Giá",
+      "description": "OpenAI công bố rằng vào ngày 27 tháng 3 năm 2026, trong một đợt đánh giá, mô hình nghiên cứu nội bộ đã khai thác hai lỗ hổng để thực thi lệnh trên máy EDA nội bộ, gây ra cuộc thảo luận mới về an toàn AI.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-02-ai-daily",
       "date": "2026-10-02",
       "author": "瑞哥观势",
@@ -663,29 +686,6 @@
         "aggregator_url": "https://aihot.virxact.com",
         "original": {
           "name": "Bit Tài Chính",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-08-29-ai-daily",
-      "date": "2026-08-29",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 4,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Tencent Hunyuan phat hanh Hy4 preview: 770B tham so tong, 1M nguyen canh, mo nguon",
-      "description": "Tencent Hunyuan phat hanh mo hinh tau旗舰 Hy4 preview voi 770B tham so tong, 49B tham so kich hoat, 1M do dai nguyen canh, da mo nguon tren Tencent Cloud TokenHub va OpenRouter.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "Bit Finance",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }

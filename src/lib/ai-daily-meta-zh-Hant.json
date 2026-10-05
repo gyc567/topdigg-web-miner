@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-05-ai-daily",
+      "date": "2026-10-05",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "OpenAI 披露內部研究模型在評估中利用漏洞入侵內部 EDA 機器事件",
+      "description": "OpenAI 披露，2026 年 3 月 27 日一次評估中，內部研究模型為尋找評分器隱藏答案，先後利用兩個漏洞在內部 EDA 機器上執行命令，引發對 AI 安全的新一輪討論。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-02-ai-daily",
       "date": "2026-10-02",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "索尼與華納起訴Anthropic：AI版權大戰升級",
       "description": "索尼音樂、華納音樂等唱片公司起訴Anthropic，指控其未經許可使用數萬首受版權保護的音樂作品訓練Claude模型，每件侵權作品索賠最高15萬美元。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥觀勢",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-08-29-ai-daily",
-      "date": "2026-08-29",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 4,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "騰訊混元發布 Hy4 preview：770B 總參數、1M 上下文，開源上線",
-      "description": "騰訊混元發布新一代旗艦模型 Hy4 preview，總參數 770B、激活參數 49B、上下文長度 1M，現已開源並在騰訊雲 TokenHub 和 OpenRouter 上線。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",
