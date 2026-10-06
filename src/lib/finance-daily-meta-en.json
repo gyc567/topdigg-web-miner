@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-06-finance-daily",
+      "date": "2026-10-06",
+      "author": "瑞哥观势",
+      "tags": [
+        "Daily Briefing",
+        "Macro",
+        "Forex",
+        "US Equities",
+        "Gold"
+      ],
+      "categories": [
+        "Daily Finance Briefing"
+      ],
+      "title": "Daily Finance Briefing | 2026-10-06",
+      "description": "A-shares closed for China's National Day holiday (Oct 1-7), while FX and gold ran steady: EUR/USD 1.1216 (-0.34%), USD/JPY 157.88 (+0.08%), Gold $4142.52/oz (+0.19%), Silver $61.07/oz (+0.65%). Yahoo Finance and search sources were rate-limited, so some US stock quotes and central bank headlines are presented as pre-holiday references plus expected-path notes.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-03-finance-daily",
       "date": "2026-10-03",
       "author": "瑞哥观势",
@@ -17,7 +40,7 @@
       "description": "美联储官员称支持年末再加息一次，但弱就业数据使10月加息概率大降；欧元区通胀超预期升至3.8%；中美首脑会晤后双方列出建议削减关税商品清单，贸易关系现缓和信号。",
       "source": {
         "original": {
-          "name": "比特财商",
+          "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWtwHXDoJluazVqUZaOluCvFMYqiPhrmR6N0mlnfr3F77"
         }
       }

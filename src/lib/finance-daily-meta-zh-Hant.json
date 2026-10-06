@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-06-finance-daily",
+      "date": "2026-10-06",
+      "author": "瑞哥观势",
+      "tags": [
+        "Daily Briefing",
+        "Macro",
+        "Forex",
+        "US Equities",
+        "Gold"
+      ],
+      "categories": [
+        "Daily Finance Briefing"
+      ],
+      "title": "每日財經簡報 | 2026-10-06",
+      "description": "今日 A 股國慶休市（10/1-10/7），外匯黃金偏穩運行：EUR/USD 1.1216（-0.34%）、USD/JPY 157.88（+0.08%）、黃金 $4142.52/oz（+0.19%）、白銀 $61.07/oz（+0.65%）。受 Yahoo Finance / 搜尋源限流影響，部分美股精確報價與央行最新表態以節前參考 + 預期路徑形式呈現。",
+      "source": {
+        "original": {
+          "name": "瑞哥觀勢",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-03-finance-daily",
       "date": "2026-10-03",
       "author": "瑞哥观势",

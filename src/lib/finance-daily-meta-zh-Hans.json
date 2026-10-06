@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-06-finance-daily",
+      "date": "2026-10-06",
+      "author": "瑞哥观势",
+      "tags": [
+        "Daily Briefing",
+        "Macro",
+        "Forex",
+        "US Equities",
+        "Gold"
+      ],
+      "categories": [
+        "Daily Finance Briefing"
+      ],
+      "title": "每日财经简报 | 2026-10-06",
+      "description": "今日 A 股国庆休市（10/1-10/7），外汇黄金偏稳运行：EUR/USD 1.1216（-0.34%）、USD/JPY 157.88（+0.08%）、黄金 $4142.52/oz（+0.19%）、白银 $61.07/oz（+0.65%）。受 Yahoo Finance / 搜索源限流影响，部分美股精确报价与央行最新表态以节前参考 + 预期路径形式呈现。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-03-finance-daily",
       "date": "2026-10-03",
       "author": "瑞哥观势",
@@ -17,7 +40,7 @@
       "description": "美联储官员称支持年末再加息一次，但弱就业数据使10月加息概率大降；欧元区通胀超预期升至3.8%；中美首脑会晤后双方列出建议削减关税商品清单，贸易关系现缓和信号。",
       "source": {
         "original": {
-          "name": "比特财商",
+          "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWtwHXDoJluazVqUZaOluCvFMYqiPhrmR6N0mlnfr3F77"
         }
       }

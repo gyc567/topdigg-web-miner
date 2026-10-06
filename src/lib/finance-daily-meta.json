@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-10-06-finance-daily",
+      "title": {
+        "en": "Daily Finance Briefing | 2026-10-06",
+        "ja": "每日財経ブリーフィング | 2026-10-06",
+        "vi": "Tóm tắt Tài chính Hằng ngày | 2026-10-06",
+        "zh-Hans": "每日财经简报 | 2026-10-06",
+        "zh-Hant": "每日財經簡報 | 2026-10-06"
+      },
+      "description": {
+        "en": "A-shares closed for China's National Day holiday (Oct 1-7), while FX and gold ran steady: EUR/USD 1.1216 (-0.34%), USD/JPY 157.88 (+0.08%), Gold $4142.52/oz (+0.19%), Silver $61.07/oz (+0.65%). Yahoo Finance and search sources were rate-limited, so some US stock quotes and central bank headlines are presented as pre-holiday references plus expected-path notes.",
+        "ja": "本日 A 株は国慶節休場（10/1-10/7）、為替と金は底堅く推移：EUR/USD 1.1216（-0.34%）、USD/JPY 157.88（+0.08%）、金 $4142.52/oz（+0.19%）、銀 $61.07/oz（+0.65%）。Yahoo Finance と検索ソースがレート制限となり、一部の米国株の正確な値と中央銀行の発表は休前参考値＋予想パスの形で提示。",
+        "vi": "Hôm nay thị trường A-share nghỉ lễ Quốc khánh Trung Quốc (1-7/10), ngoại hối và vàng ổn định: EUR/USD 1,1216 (-0,34%), USD/JPY 157,88 (+0,08%), vàng $4142,52/oz (+0,19%), bạc $61,07/oz (+0,65%). Yahoo Finance và công cụ tìm kiếm bị giới hạn tốc độ, một số báo giá cổ phiếu Mỹ và thông báo ngân hàng trung ương được trình bày dưới dạng tham khảo trước kỳ nghỉ + đường dự kiến.",
+        "zh-Hans": "今日 A 股国庆休市（10/1-10/7），外汇黄金偏稳运行：EUR/USD 1.1216（-0.34%）、USD/JPY 157.88（+0.08%）、黄金 $4142.52/oz（+0.19%）、白银 $61.07/oz（+0.65%）。受 Yahoo Finance / 搜索源限流影响，部分美股精确报价与央行最新表态以节前参考 + 预期路径形式呈现。",
+        "zh-Hant": "今日 A 股國慶休市（10/1-10/7），外匯黃金偏穩運行：EUR/USD 1.1216（-0.34%）、USD/JPY 157.88（+0.08%）、黃金 $4142.52/oz（+0.19%）、白銀 $61.07/oz（+0.65%）。受 Yahoo Finance / 搜尋源限流影響，部分美股精確報價與央行最新表態以節前參考 + 預期路徑形式呈現。"
+      },
+      "date": "2026-10-06",
+      "author": "瑞哥观势",
+      "tags": [
+        "Daily Briefing",
+        "Macro",
+        "Forex",
+        "US Equities",
+        "Gold"
+      ],
+      "categories": [
+        "Daily Finance Briefing"
+      ],
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥観勢",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-03-finance-daily",
       "title": {
         "zh-Hans": "每日财经简报 | 2026-10-03",
@@ -24,7 +65,7 @@
       "source": {
         "original": {
           "name": {
-            "zh-Hans": "比特财商",
+            "zh-Hans": "瑞哥观势",
             "zh-Hant": "比特財商"
           },
           "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWtwHXDoJluazVqUZaOluCvFMYqiPhrmR6N0mlnfr3F77"

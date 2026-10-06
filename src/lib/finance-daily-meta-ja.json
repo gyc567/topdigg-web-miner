@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-06-finance-daily",
+      "date": "2026-10-06",
+      "author": "瑞哥观势",
+      "tags": [
+        "Daily Briefing",
+        "Macro",
+        "Forex",
+        "US Equities",
+        "Gold"
+      ],
+      "categories": [
+        "Daily Finance Briefing"
+      ],
+      "title": "每日財経ブリーフィング | 2026-10-06",
+      "description": "本日 A 株は国慶節休場（10/1-10/7）、為替と金は底堅く推移：EUR/USD 1.1216（-0.34%）、USD/JPY 157.88（+0.08%）、金 $4142.52/oz（+0.19%）、銀 $61.07/oz（+0.65%）。Yahoo Finance と検索ソースがレート制限となり、一部の米国株の正確な値と中央銀行の発表は休前参考値＋予想パスの形で提示。",
+      "source": {
+        "original": {
+          "name": "瑞哥観勢",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-03-finance-daily",
       "date": "2026-10-03",
       "author": "瑞哥观势",
@@ -17,7 +40,7 @@
       "description": "美联储官员称支持年末再加息一次，但弱就业数据使10月加息概率大降；欧元区通胀超预期升至3.8%；中美首脑会晤后双方列出建议削减关税商品清单，贸易关系现缓和信号。",
       "source": {
         "original": {
-          "name": "比特财商",
+          "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWtwHXDoJluazVqUZaOluCvFMYqiPhrmR6N0mlnfr3F77"
         }
       }
