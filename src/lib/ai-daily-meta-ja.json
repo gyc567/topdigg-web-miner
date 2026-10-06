@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-06-ai-daily",
+      "date": "2026-10-06",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "SemiAnalysis 試算：Anthropic サブスクリプションの API 等価価値は OpenAI の 5 倍以上",
+      "description": "SemiAnalysis は使用量テーブル 변화를 项별로 測定して 各サブスクリプション計画の API 等価価値を算出。中間モデル階層では Anthropic の価値が OpenAI の約 5 倍であることが判明。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-05-ai-daily",
       "date": "2026-10-05",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "DeepSeek-V4-Flash-Vision-Expがオープンソース化、推論Agent能力がOpus-4.8に接近",
       "description": "DeepSeekは8月31日、Hugging Faceで首个多モーダルモデルDeepSeek-V4-Flash-Vision-ExpをMITライセンスでオープンソース化。RunwayもOS级别的インターフェースをリアルタイム生成するSolarisを発表。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "ビットファイナンス",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-08-31-ai-daily",
-      "date": "2026-08-31",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "SonyとWarnerがAnthropicを提訴：AI著作権侵害戦争がエスカレート",
-      "description": "Sony MusicとWarner Musicが、許可なく数万曲の著作権で保護された楽曲を使用してClaudeモデルを訓練したとしてAnthropicを提訴。侵害作品一件あたり最大15万ドルの賠償금을請求。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

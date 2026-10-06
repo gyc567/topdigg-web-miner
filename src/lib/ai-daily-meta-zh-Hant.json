@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-06-ai-daily",
+      "date": "2026-10-06",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "SemiAnalysis 測算：Anthropic 訂閱的 API 等價價值約為 OpenAI 的 5 倍以上",
+      "description": "SemiAnalysis 透過逐項測量用量表變化，估算各訂閱計劃的 API 等價價值，結論是在中端模型檔位 Anthropic 訂閱的價值約為 OpenAI 的 5 倍。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "比特財商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-05-ai-daily",
       "date": "2026-10-05",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "DeepSeek-V4-Flash-Vision-Exp 開源，多模態 Agent 能力接近 Opus-4.8",
       "description": "DeepSeek 於 8 月 31 日在 Hugging Face 開源首個多模態模型 DeepSeek-V4-Flash-Vision-Exp，採用 MIT License；同時 Runway 發布 Solaris 介面世界模型，即時生成作業系統級互動介面。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥觀勢",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-08-31-ai-daily",
-      "date": "2026-08-31",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "索尼與華納起訴Anthropic：AI版權大戰升級",
-      "description": "索尼音樂、華納音樂等唱片公司起訴Anthropic，指控其未經許可使用數萬首受版權保護的音樂作品訓練Claude模型，每件侵權作品索賠最高15萬美元。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

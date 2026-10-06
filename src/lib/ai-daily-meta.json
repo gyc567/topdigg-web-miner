@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-10-06-ai-daily",
+      "title": {
+        "en": "SemiAnalysis Estimates: Anthropic Subscription's API Equivalent Value is 5x+ that of OpenAI",
+        "ja": "SemiAnalysis 試算：Anthropic サブスクリプションの API 等価価値は OpenAI の 5 倍以上",
+        "vi": "SemiAnalysis Ước tính: Giá trị tương đương API của gói đăng ký Anthropic cao hơn OpenAI gấp 5 lần",
+        "zh-Hans": "SemiAnalysis 测算：Anthropic 订阅的 API 等价价值约为 OpenAI 的 5 倍以上",
+        "zh-Hant": "SemiAnalysis 測算：Anthropic 訂閱的 API 等價價值約為 OpenAI 的 5 倍以上"
+      },
+      "description": {
+        "en": "SemiAnalysis estimates the API equivalent value of Anthropic subscription plans by measuring usage table changes item by item, concluding that at the mid-tier model level, Anthropic's value is approximately 5 times that of OpenAI.",
+        "ja": "SemiAnalysis は使用量テーブル 변화를 项별로 測定して 各サブスクリプション計画の API 等価価値を算出。中間モデル階層では Anthropic の価値が OpenAI の約 5 倍であることが判明。",
+        "vi": "SemiAnalysis ước tính giá trị tương đương API của các gói đăng ký Anthropic bằng cách đo lường từng thay đổi trong bảng sử dụng, kết luận rằng ở phân khúc model tầm trung, giá trị của Anthropic cao gấp khoảng 5 lần so với OpenAI.",
+        "zh-Hans": "SemiAnalysis 通过逐项测量用量表变化，估算各订阅计划的 API 等价价值，结论是在中端模型档位 Anthropic 订阅的价值约为 OpenAI 的 5 倍。",
+        "zh-Hant": "SemiAnalysis 透過逐項測量用量表變化，估算各訂閱計劃的 API 等價價值，結論是在中端模型檔位 Anthropic 訂閱的價值約為 OpenAI 的 5 倍。"
+      },
+      "date": "2026-10-06",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "比特财商",
+            "ja": "比特财商",
+            "vi": "比特财商",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特財商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-10-05-ai-daily",
       "title": {
         "en": "OpenAI Discloses Internal Research Model Exploited Vulnerabilities to Breach Internal EDA Machine During Evaluation",
