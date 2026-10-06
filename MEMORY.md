@@ -82,6 +82,88 @@ WECHAT_APP_SECRET=8ddee395749ee1f28d9b5c75e5673612
 
 ---
 
+
+## Loop Engineering Log — 2026-10-06
+
+### 任务
+首页置顶推广「推文打分器」（TopDiggX @ x.topdigg.com）— 跨站推广外站工具到 topdigg.com 首屏最显眼位置。
+
+### Observe (现状盘点)
+- topdigg.com 首页结构（src/pages/Index.tsx）：Hero（标题+描述+单 CTA「阅读博客」）→ Twitter 专栏卡（topAccounts 列表）→ 最新博客（2 列网格）→ 最新 AI 产品分析（2 列网格）
+- x.topdigg.com / TopDiggX 是独立的 Next.js 应用：280 字输入区 + 25 个信号（Engagement / Curiosity / Dwell / Risk）+ What-if 优化器 + AI Optimize（按需调用），多语言 UI（EN/中文）
+- 现有首页所有 section 都是「阅读型内容」；TopDiggX 是「工具」（用户主动创作）—— 语义不同，需要独立推广
+- 项目硬约束：5 语言 i18n（zh-Hans/zh-Hant/en/ja/vi）+ i18n-keys.test 强制对齐 + AGENTS.md 北极星指标 + 构建必须全绿 + 8 条工程原则（KISS / 不保留兼容 / 成熟库 / 先看现有依赖等）
+
+### Analyze (盲点)
+v1 计划只覆盖 6 个产品决策（横幅位置 / Twitter 专栏卡去留 / SiteHeader 入口 / 视觉资产 / 5 语言品牌名 / GA4 埋点），但漏了工程化关键维度：
+1. **可测量性**：无 KPI、无 UTM、无 GA4 event schema → 改完不知道有没有效
+2. **视觉冲突**：同 `from-accent` 渐变与 Hero 风格雷同 → 用户视线仍落在 Hero
+3. **LCP 风险**：Banner 在 Hero 之上 → Banner 成新 LCP，但 plan 没提如何保证快速渲染
+4. **Hero CTA 冲突**：两个 CTA 是否互相稀释注意力？
+5. **A11y 缺失**：external link 没有视觉标识、focus ring、aria-label 都没列入
+6. **跨域 SEO**：x.topdigg.com 独立 App，没有 Schema.org `WebApplication` 标记指向
+7. **回滚方案**：没有 kill-switch / feature flag
+8. **i18n key 命名一致性**：现有 `home.heroTitle` 是 flat key，应保持一致而非嵌套
+
+### Optimize (v1 → v2 决策)
+
+| # | 维度 | v1 | v2 |
+|---|------|----|----|
+| 1 | 视觉差异化 | 同 Hero `from-accent` | `from-blue-600 via-indigo-600 to-purple-700` 鲜明品牌色 + CSS-only 9-dot 信号网格预览 |
+| 2 | LCP | 默认 | `fetchPriority="high"` 加在主 CTA（与 logo 一档），零图片 |
+| 3 | 可测量 | 无 | UTM 参数（`utm_source=topdigg&utm_medium=homepage_promo&utm_campaign=topdiggx_2026q4`）+ GA4 `topdiggx_cta_click` 事件（带 `cta_variant` / `language` 维度） |
+| 4 | A11y | 基础 | `aria-label` 全上下文 + `ExternalLinkIcon` + 沿用 `focus-visible` ring |
+| 5 | i18n 一致性 | 嵌套 `home.promo.*` | flat key `home.promoBadge / promoTitle / promoDesc / promoPrimaryCta / promoSecondaryCta`（与 `home.heroTitle` 一致） |
+| 6 | 跨域 SEO | 无 | Schema.org `WebApplication` JSON-LD 指向 https://x.topdigg.com/（inLanguage 跟随当前 locale） |
+| 7 | Hero CTA | 不动 | 保持「阅读博客」（与推文打分器形成「工具 vs 阅读」互补，不互相稀释） |
+| 8 | Twitter 专栏卡 | 保留 | 保留（语义不冲突：专栏=推荐关注的人，打分器=工具） |
+| 9 | SiteHeader.mySites | 加 | 加到首位 `{ external: true }`，5 语言品牌名 |
+| 10 | 回滚 | 无 | 单 commit，git revert 即可；无 DB / 无 flag |
+
+### Implement (实施)
+- 新增 `src/components/TopDiggXPromo.tsx`（152 行）：独立组件，含 i18n hook、桌面 9-dot grid、fetchpriority 主 CTA、aria-label、ExternalLinkIcon、UTM、GA4 event
+- 新增 `src/lib/jsonld.ts` `makeWebApplicationSchema` helper（+61 行）：通用跨域 Web 应用推广 schema，可复用到未来其他外部 Web 工具
+- `src/pages/Index.tsx`：Hero 之前插入 `<TopDiggXPromo />` + SEO jsonLd 追加 WebApplication schema
+- `src/config/site.ts`：`nav.mySites` 首位加「推文打分器」条目（5 语言 + UTM）
+- 5 × `src/locales/*/translation.json`：各加 5 个 flat key（i18n-keys.test 自动覆盖）
+- 提交：`24800b4` (feat) + `b0a8aa8` (chore plans cleanup)
+
+### Verify (验证)
+- `npm run build` 全绿：267 pages prerendered，含首页（带 TopDiggXPromo + WebApplication schema）
+- `npm run test` 138/138 通过（含 i18n-keys.test 5 语言 key parity）
+- `npx eslint src/components/TopDiggXPromo.tsx src/lib/jsonld.ts src/pages/Index.tsx src/config/site.ts` 零 error
+- Puppeteer 实测（1440×900 + 375×667）：
+  - banner 首屏可见（desktop bannerBoxY=105, bannerHeight=320, bannerAboveHero=true）
+  - 移动端（375×667）bannerVisibleAboveFold=true，ctaInViewport=true
+  - 5 语言（?lang=zh-Hans / en / ja）全部正确切换文案 + aria-label
+  - WebApplication JSON-LD 渲染，含 name / url / description / inLanguage
+  - 主 CTA `fetchpriority="high"` + 全 UTM + `target="_blank" rel="noopener noreferrer"`
+  - 桌面 9-dot 信号网格显示，移动端自动隐藏（`hidden md:block`）
+  - 无 console error、无 404
+- 截图存档：`/tmp/home-desktop.png` `/tmp/home-mobile.png` `/tmp/home-zh.png` `/tmp/home-en.png`
+
+### Next Steps (7 天后看 GA4)
+- Banner 点击数 ≥ 100（基于首页流量基线）
+- x.topdigg.com 落地跳出率 ≤ 70%
+- 5 语言点击分布：zh-Hans + en ≥ 70%
+- 若 CTR 偏低 → A/B 测试 CTA 文案 / 位置 / 颜色 / 渐变方向
+- 若 x.topdigg.com 提供 `#signals` 锚点 → 恢复次 CTA「了解 25 个信号」（当前 HAS_SIGNALS_ANCHOR=false 已隐藏）
+
+### Risks Active
+- x.topdigg.com `#signals` 锚点未知 → 次 CTA 已隐藏（V1 静态判断，需后续人工确认）
+- 跨域 cookie / session → `rel="noopener noreferrer"` 已标配；不内嵌 iframe
+- prerender 默认 en fallback → 客户端按 locale 切语言（项目既有行为，非本次引入）
+
+### Lessons (写入 MEMORY 沉淀)
+- **Loop Engineering 盲点扫描模板**：每次做"首页置顶"类改动前，先扫 6 个工程维度（可测量 / 视觉差异化 / LCP / A11y / i18n 一致性 / 跨域 SEO / 回滚）
+- **Hero 风格冲突解法**：横向渐变 vs 纵向渐变（蓝色品牌 vs 软色 accent）→ 用渐变方向 + 色相双重区分，避免视觉混淆
+- **LCP 优先级提示**：`fetchPriority="high"` 对 React 18.3+ 是 first-class prop，可加在主 CTA 上提示浏览器优先抓取
+- **i18n flat key 风格**：项目统一 flat key（`home.heroTitle` 而非 `home.hero.title`），新增 key 时保持一致
+- **跨域推广 Schema**：外部 Web 工具在首页推广时，加 `WebApplication` JSON-LD 比 `WebSite` 更准确，让 Google 可能展示为应用卡片
+- **Puppeteer ?lang=xx 测试模式**：用 query param 模拟 5 语言，验证 client-side hydration 的 locale 切换，比手动改 localStorage 更可靠
+
+---
+
 ## Latest Reflections (2026-05-30)
 
 ### 系统状态
