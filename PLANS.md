@@ -4,8 +4,6 @@
 
 ## Active Plans
 
-- [首页置顶推广「推文打分器」（TopDiggX @ x.topdigg.com）— v2 Loop Engineering](plans/promote-topdiggx-on-homepage.md)
-
 - [公众号「瑞哥观势」→「瑞哥观势」重塑品牌 + QR 图替换](plans/rebrand-biticaifu-to-ruige-2026.md)
 
 ## Completed Plans
