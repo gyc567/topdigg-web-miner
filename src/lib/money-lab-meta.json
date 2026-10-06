@@ -1,6 +1,65 @@
 {
   "posts": [
     {
+      "slug": "ai-money-maker-handbook-2026",
+      "title": {
+        "en": "The Complete Guide to Making Money with AI Side Projects: From Theory to Real Cases",
+        "ja": "AI副業赚钱完全ガイド：方法論から実践ケースまで",
+        "vi": "Hướng Dẫn Toàn Diện Kiếm Tiền Với AI Side Project: Từ Lý Thuyết Đến Case Thực Tế",
+        "zh-Hans": "AI副业赚钱最全攻略：从方法论到实战案例",
+        "zh-Hant": "AI 副業賺錢最全攻略：從方法論到實戰案例"
+      },
+      "description": {
+        "en": "A deep dive into AI side hustle methods, tools and real-world case studies. Covers technical solutions for developers, content creation for influencers, and core design philosophy.",
+        "ja": "AI副業でお金を稼ぐ方法、ツール、实战案例を徹底解説。開発者向け技術方案、自メディアコンテンツ創作、コア設計哲学を含む。",
+        "vi": "Phân tích sâu các phương pháp kiếm tiền với AI, công cụ và case study thực tế. Bao gồm giải pháp kỹ thuật cho lập trình viên, sáng tạo nội dung mạng xã hội và triết lý thiết kế cốt lõi.",
+        "zh-Hans": "深度解析AI副业赚钱的方法、工具与实战案例，包含程序员技术方案、自媒体内容创作、核心设计哲学与详细教程。",
+        "zh-Hant": "深度解析 AI 副業賺錢的方法與實戰案例，包含程式設計師技術方案、自媒體內容創作與核心設計哲學。"
+      },
+      "date": "2026-10-06T00:00:00.000Z",
+      "author": "瑞哥观势",
+      "tags": [],
+      "categories": [],
+      "coverImage": null,
+      "earnings": null,
+      "difficulty": null,
+      "timeRequired": null
+    },
+    {
+      "slug": "twitter-growth-30day-2026",
+      "title": {
+        "en": "Twitter Account Growth · 30-Day Action Handbook",
+        "ja": "Twitter アカウント成長・30日間アクションハンドブック",
+        "vi": "Phát Triển Tài Khoản Twitter · Cẩm Nang Hành Động 30 Ngày",
+        "zh-Hans": "推特图文起号·30天行动手册",
+        "zh-Hant": "推特圖文起號·30天行動手冊"
+      },
+      "description": {
+        "en": "Breaking through the traffic funnel theory on Twitter. A practical guide based on frameworks from Byron Sharp, Seth Godin, and Eugene Wei.",
+        "ja": "Twitterにおけるトラフィックファネル理論の突破口。バイロン・シャープ、セス・ゴディン、ユージン・ウェイの3人の専門家のフレームワークに基づく実践ガイド。",
+        "vi": "Phá vỡ lý thuyết phễu lưu lượng trên Twitter. Hướng dẫn thực chiến dựa trên khung framework của Byron Sharp, Seth Godin và Eugene Wei.",
+        "zh-Hans": "流量漏斗理论在推特场景的破局方法论。基于拜伦·夏普、塞思·高汀、王华三位专家框架的实战指南。",
+        "zh-Hant": "流量漏斗理論在推特場景的破局方法論。基於拜倫·夏普、塞思·高汀、王華三位專家框架的實戰指南。"
+      },
+      "date": "2026-10-03",
+      "author": "TopDigg",
+      "tags": [
+        "Twitter",
+        "Account Growth",
+        "Traffic Funnel",
+        "Growth",
+        "Image Posts",
+        "Social Media"
+      ],
+      "categories": [
+        "Methodology"
+      ],
+      "coverImage": "/images/money-lab/twitter-growth-cover.jpg",
+      "earnings": null,
+      "difficulty": "Intermediate",
+      "timeRequired": "45 minutes/day × 30 days"
+    },
+    {
       "slug": "article-replatformer-complete-guide",
       "title": {
         "en": "The article-replatformer: Turn 3,000 Words into 300",

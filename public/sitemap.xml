@@ -49,6 +49,16 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://topdigg.com/blog/2026-10-04-image-blaster-deep-dive</loc>
+    <lastmod>2026-10-04</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/image-blaster-2026</loc>
+    <lastmod>2026-10-04T00:00:00.000Z</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://topdigg.com/blog/cua-ai</loc>
     <lastmod>2026-10-02</lastmod>
     <priority>0.8</priority>
@@ -1010,6 +1020,14 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://topdigg.com/ai-daily/2026-10-06-ai-daily</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/ai-daily/2026-10-05-ai-daily</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://topdigg.com/ai-daily/2026-10-02-ai-daily</loc>
     <priority>0.6</priority>
   </url>
@@ -1194,6 +1212,16 @@
   <url>
     <loc>https://topdigg.com/ai-products/2026-08-26-gehirn-md</loc>
     <lastmod>2026-08-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/money-lab/ai-money-maker-handbook-2026</loc>
+    <lastmod>2026-10-06T00:00:00.000Z</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/money-lab/twitter-growth-30day-2026</loc>
+    <lastmod>2026-10-03</lastmod>
     <priority>0.8</priority>
   </url>
   <url>

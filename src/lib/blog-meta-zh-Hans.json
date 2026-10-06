@@ -1,6 +1,32 @@
 {
   "posts": [
     {
+      "slug": "2026-10-04-image-blaster-deep-dive",
+      "date": "2026-10-04",
+      "author": "TopDigg",
+      "tags": [
+        "AI",
+        "3D重建",
+        "开源",
+        "Gaussian Splatting",
+        "Claude"
+      ],
+      "categories": [
+        "技术解析"
+      ],
+      "title": "一张图，五分钟，一套能走进去的3D世界：image-blaster深度解析",
+      "description": "一张图片，能裂变出一个完整的3D宇宙吗？image-blaster是MIT协议的开源工具，从单张图片出发，5分钟内生成完整3D世界资产包，包含高斯泼溅环境、3D物体模型和环境音效。本文完整解析其技术架构、Skill体系、设计哲学和使用教程。"
+    },
+    {
+      "slug": "image-blaster-2026",
+      "date": "2026-10-04T00:00:00.000Z",
+      "author": "TopDigg",
+      "tags": [],
+      "categories": [],
+      "title": "image-blaster 使用指南",
+      "description": "image-blaster 开源工具使用指南。"
+    },
+    {
       "slug": "cua-ai",
       "date": "2026-10-02",
       "author": "瑞哥Eric",

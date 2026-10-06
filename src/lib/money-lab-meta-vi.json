@@ -1,6 +1,41 @@
 {
   "posts": [
     {
+      "slug": "ai-money-maker-handbook-2026",
+      "date": "2026-10-06T00:00:00.000Z",
+      "author": "瑞哥观势",
+      "tags": [],
+      "categories": [],
+      "coverImage": null,
+      "earnings": null,
+      "difficulty": null,
+      "timeRequired": null,
+      "title": "Hướng Dẫn Toàn Diện Kiếm Tiền Với AI Side Project: Từ Lý Thuyết Đến Case Thực Tế",
+      "description": "Phân tích sâu các phương pháp kiếm tiền với AI, công cụ và case study thực tế. Bao gồm giải pháp kỹ thuật cho lập trình viên, sáng tạo nội dung mạng xã hội và triết lý thiết kế cốt lõi."
+    },
+    {
+      "slug": "twitter-growth-30day-2026",
+      "date": "2026-10-03",
+      "author": "TopDigg",
+      "tags": [
+        "Twitter",
+        "Account Growth",
+        "Traffic Funnel",
+        "Growth",
+        "Image Posts",
+        "Social Media"
+      ],
+      "categories": [
+        "Methodology"
+      ],
+      "coverImage": "/images/money-lab/twitter-growth-cover.jpg",
+      "earnings": null,
+      "difficulty": "Intermediate",
+      "timeRequired": "45 minutes/day × 30 days",
+      "title": "Phát Triển Tài Khoản Twitter · Cẩm Nang Hành Động 30 Ngày",
+      "description": "Phá vỡ lý thuyết phễu lưu lượng trên Twitter. Hướng dẫn thực chiến dựa trên khung framework của Byron Sharp, Seth Godin và Eugene Wei."
+    },
+    {
       "slug": "article-replatformer-complete-guide",
       "date": "2026-10-02",
       "author": "TopDigg",

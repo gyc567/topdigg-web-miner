@@ -1,6 +1,41 @@
 {
   "posts": [
     {
+      "slug": "ai-money-maker-handbook-2026",
+      "date": "2026-10-06T00:00:00.000Z",
+      "author": "瑞哥观势",
+      "tags": [],
+      "categories": [],
+      "coverImage": null,
+      "earnings": null,
+      "difficulty": null,
+      "timeRequired": null,
+      "title": "AI 副業賺錢最全攻略：從方法論到實戰案例",
+      "description": "深度解析 AI 副業賺錢的方法與實戰案例，包含程式設計師技術方案、自媒體內容創作與核心設計哲學。"
+    },
+    {
+      "slug": "twitter-growth-30day-2026",
+      "date": "2026-10-03",
+      "author": "TopDigg",
+      "tags": [
+        "Twitter",
+        "Account Growth",
+        "Traffic Funnel",
+        "Growth",
+        "Image Posts",
+        "Social Media"
+      ],
+      "categories": [
+        "Methodology"
+      ],
+      "coverImage": "/images/money-lab/twitter-growth-cover.jpg",
+      "earnings": null,
+      "difficulty": "Intermediate",
+      "timeRequired": "45 minutes/day × 30 days",
+      "title": "推特圖文起號·30天行動手冊",
+      "description": "流量漏斗理論在推特場景的破局方法論。基於拜倫·夏普、塞思·高汀、王華三位專家框架的實戰指南。"
+    },
+    {
       "slug": "article-replatformer-complete-guide",
       "date": "2026-10-02",
       "author": "TopDigg",

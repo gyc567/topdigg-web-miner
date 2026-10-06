@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-10-02T12:47:33.833Z
+Generated: 2026-10-06T03:45:54.372Z
 
 ## Site Overview
 
@@ -23,6 +23,18 @@ We deliver in-depth Twitter analytics and trend tracking for content creators an
 | Aura Workbench | https://topdigg.com/aura-workbench | Desktop productivity workbench for Windows & macOS |
 
 ## Latest Blog Posts (10 most recent)
+
+### 一张图，五分钟，一套能走进去的3D世界：image-blaster深度解析
+URL: https://topdigg.com/blog/2026-10-04-image-blaster-deep-dive | Date: 2026-10-04 | Author: TopDigg
+Tags: AI, 3D重建, 开源, Gaussian Splatting, Claude
+
+一张图片，能裂变出一个完整的3D宇宙吗？image-blaster是MIT协议的开源工具，从单张图片出发，5分钟内生成完整3D世界资产包，包含高斯泼溅环境、3D物体模型和环境音效。本文完整解析其技术架构、Skill体系、设计哲学和使用教程。
+
+### image-blaster 使用指南
+URL: https://topdigg.com/blog/image-blaster-2026 | Date: 2026-10-04T00:00:00.000Z | Author: TopDigg
+Tags: 
+
+image-blaster 开源工具使用指南。
 
 ### Cua：让 AI 智能体真正「会用电脑」的开放源代码平台
 URL: https://topdigg.com/blog/cua-ai | Date: 2026-10-02 | Author: 瑞哥Eric
@@ -72,18 +84,6 @@ Tags: AI工具, 开源, 视频生成
 
 Toonflow 是一个将小说一键转化为动画短剧的 AI 开源工具，最近在 GitHub 拿到了 11.9K+ Stars。本文从技术架构到设计哲学、从核心功能到实战教程，全面解析这个赛道冠军。
 
-### 全球供应链进入新周期：产业迁移浪潮中的财富逻辑
-URL: https://topdigg.com/blog/global-supply-chain | Date: 2026-09-15 | Author: TopDigg
-Tags: 
-
-分析当前供应链格局的核心变化，以及这些变化背后蕴含的财富重新分配逻辑。
-
-### gPTY：一个基于 Godot + Rust 的 AI Agent 工作站
-URL: https://topdigg.com/blog/2026-09-14-gpty-analysis | Date: 2026-09-14 | Author: TopDigg
-Tags: AI Agent, Godot, Rust, 终端模拟器, MCP, 可观测性
-
-gPTY 是一个基于 Godot 引擎 + Rust 语言构建的多 PTY 模拟器桌面应用，它不是又一个 AI Agent 框架，而是一个让 AI Agent 自由工作、同时对人类保持透明的工具体验。
-
 ## AI Product Analyses (latest 5)
 
 ### UpLinked B.V. Analysis: How a LinkedIn Content Strategy Tool Achieves $4K MRR
@@ -123,6 +123,18 @@ Aera Browser is a local-first Chromium automation browser launched Dec 2025. Des
 
 ## Zero-Barrier Money Lab (latest 5)
 
+### The Complete Guide to Making Money with AI Side Projects: From Theory to Real Cases
+URL: https://topdigg.com/money-lab/ai-money-maker-handbook-2026 | Date: 2026-10-06T00:00:00.000Z | Categories: 
+
+A deep dive into AI side hustle methods, tools and real-world case studies. Covers technical solutions for developers, content creation for influencers, and core design philosophy.
+
+### Twitter Account Growth · 30-Day Action Handbook
+URL: https://topdigg.com/money-lab/twitter-growth-30day-2026 | Date: 2026-10-03 | Categories: Methodology
+Difficulty: Intermediate
+Time: 45 minutes/day × 30 days
+
+Breaking through the traffic funnel theory on Twitter. A practical guide based on frameworks from Byron Sharp, Seth Godin, and Eugene Wei.
+
 ### The article-replatformer: Turn 3,000 Words into 300
 URL: https://topdigg.com/money-lab/article-replatformer-complete-guide | Date: 2026-10-02 | Categories: Skill Monetization, Tool Recommendations
 
@@ -139,21 +151,6 @@ Difficulty: 中等
 Time: 约3-7天
 
 从零开始详细讲解Paddle和Payoneer的注册、验证、设置每一步，适合国内个人开发者和小团队。整个流程在家用电脑和手机就能完成，预计3-7天。
-
-### Complete PayPal Registration Guide for Beginners (2026 Latest)
-URL: https://topdigg.com/money-lab/paypal-registration-guide-2026 | Date: 2026-09-30 | Categories: Payment Tools
-Difficulty: Easy
-Time: 15-30 minutes
-
-Step-by-step PayPal registration guide covering account creation, email verification, password setup, and identity verification for complete beginners.
-
-### Going Global: 60 Days from Zero to Consistent Sales — 7 Lessons and 1 Core Thread
-URL: https://topdigg.com/money-lab/niko-sea-retrospective-2026 | Date: 2026-09-27 | Categories: Retrospective
-Earnings: $300-$3000/mo
-Difficulty: Hard
-Time: 2-4h/day × 1 month
-
-5 sites tested, 1 succeeded, max order $600/yr. Full retrospective: 7 lessons, conversion funnel methodology, pricing strategy, information-intensity design philosophy.
 
 ## Twitter Analysis Reports
 
@@ -184,4 +181,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 189 blog posts | 4 Twitter analyses | 7 AI products
+End of llms.txt | 191 blog posts | 4 Twitter analyses | 7 AI products
