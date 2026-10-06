@@ -10,7 +10,12 @@
     "heroDesc": "Focus on SEO, channel growth, and product validation. Centered on deep Twitter analytics — tracking top creators and trends.",
     "blogCta": "Read blog",
     "latest": "Latest posts",
-    "latestAIProducts": "Latest AI Products"
+    "latestAIProducts": "Latest AI Products",
+    "promoBadge": "🚀 New Tool",
+    "promoTitle": "Tweet Scorer",
+    "promoDesc": "25 signals × real-time scoring. Validate before posting.",
+    "promoPrimaryCta": "Score now →",
+    "promoSecondaryCta": "See the 25 signals"
   },
   "blog": {
     "indexTitle": "Blog",

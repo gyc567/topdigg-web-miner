@@ -482,3 +482,64 @@ export function makeSoftwareApplicationSchema(params: SoftwareApplicationSchemaP
   return schema;
 }
 
+
+/**
+ * Schema.org WebApplication — 用于跨域推广指向外部 Web 应用（如 TopDiggX @ x.topdigg.com）。
+ * 与 SoftwareApplication 的区别：WebApplication 明确为浏览器中运行的 Web 应用，
+ * 让搜索引擎在 SERP 中可能展示为应用卡片 / 富媒体结果。
+ *
+ * V1 仅在首页 SEO jsonLd 中使用一次。后续若要在 /external-links 等页推广其他 Web 工具，
+ * 直接复用本函数。
+ */
+export interface WebApplicationSchemaParams {
+  name: string;
+  url: string;
+  description: string;
+  applicationCategory?: string;
+  operatingSystem?: string;
+  browserRequirements?: string;
+  inLanguage?: string;
+  offers?: Array<{ price: number | string; priceCurrency: string; url?: string }>;
+  image?: string;
+  datePublished?: string;
+}
+
+export function makeWebApplicationSchema(params: WebApplicationSchemaParams) {
+  const {
+    name,
+    url,
+    description,
+    applicationCategory = "UtilitiesApplication",
+    operatingSystem = "All",
+    browserRequirements = "Requires JavaScript. Requires HTML5.",
+    inLanguage,
+    offers,
+    image,
+    datePublished,
+  } = params;
+  const schema: Record<string, unknown> = {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    name,
+    url,
+    description,
+    applicationCategory,
+    operatingSystem,
+    browserRequirements,
+  };
+  if (inLanguage) schema.inLanguage = inLanguage;
+  if (image) schema.image = image.startsWith("http") ? image : `${BASE}${image}`;
+  if (datePublished) schema.datePublished = datePublished;
+  if (offers && offers.length > 0) {
+    schema.offers = offers.map((o) => {
+      const offer: Record<string, unknown> = {
+        "@type": "Offer",
+        price: o.price,
+        priceCurrency: o.priceCurrency,
+      };
+      if (o.url) offer.url = o.url;
+      return offer;
+    });
+  }
+  return schema;
+}

@@ -1,11 +1,17 @@
 import { Link } from "react-router-dom";
+import { TopDiggXPromo } from "@/components/TopDiggXPromo";
 import { SEO } from "@/components/SEO";
 import { siteConfig } from "@/config/site";
 import { useTranslation } from "react-i18next";
 import { localizeText, normalizeLang } from "@/lib/locale";
 import { blogDataSource } from "@/lib/blog-data";
 import { aiProductsDataSource } from "@/lib/ai-products-data";
-import { makeSearchActionSchema, makeWebsiteSchema, makeOrganization } from "@/lib/jsonld";
+import {
+  makeSearchActionSchema,
+  makeWebsiteSchema,
+  makeOrganization,
+  makeWebApplicationSchema,
+} from "@/lib/jsonld";
 
 const Index = () => {
   // blog-data.json 在构建时已按日期降序排序，直接取前 3 篇，避免原地 sort 修改共享数组
@@ -20,8 +26,22 @@ const Index = () => {
         title={t("home.seoTitle")}
         description={t("home.seoDesc")}
         path="/"
-        jsonLd={[makeWebsiteSchema(currentLocale), makeSearchActionSchema()]}
+        jsonLd={[
+          makeWebsiteSchema(currentLocale),
+          makeSearchActionSchema(),
+          makeWebApplicationSchema({
+            name: "TopDiggX — Tweet Scorer",
+            url: "https://x.topdigg.com/",
+            description:
+              "Real-time on-device tweet scoring across 25 signals (engagement, curiosity, dwell, risk). AI Optimize only on demand.",
+            applicationCategory: "UtilitiesApplication",
+            inLanguage: currentLocale,
+            datePublished: "2026-10-06",
+          }),
+        ]}
       />
+      <TopDiggXPromo />
+
       <section className="relative overflow-hidden rounded-2xl border bg-gradient-to-b from-accent to-background p-10 md:p-16 shadow-sm">
         <h1 className="text-4xl md:text-5xl font-extrabold leading-tight mb-4">
           {t("home.heroTitle")}

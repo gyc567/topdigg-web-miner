@@ -212,7 +212,18 @@ export const siteConfig = {
       },
     ] as NavLink[],
     mySites: [
-      { 
+      {
+        label: {
+          "zh-Hans": "推文打分器",
+          "zh-Hant": "推文打分器",
+          "en": "Tweet Scorer",
+          "ja": "ツイートスコアラー",
+          "vi": "Trình chấm điểm Tweet"
+        },
+        href: "https://x.topdigg.com/?utm_source=topdigg&utm_medium=site_header&utm_campaign=topdiggx_2026q4",
+        external: true
+      },
+      {
         label: {
           "zh-Hans": "KGR工具",
           "zh-Hant": "KGR工具",

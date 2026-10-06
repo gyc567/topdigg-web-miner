@@ -10,7 +10,12 @@
     "heroDesc": "SEO、チャネル成長、プロダクト検証に注力。Twitter 詳細分析を中心に、トップクリエイターとトレンドを継続的に追跡。",
     "blogCta": "ブログを読む",
     "latest": "最新ブログ",
-    "latestAIProducts": "最新 AI 製品分析"
+    "latestAIProducts": "最新 AI 製品分析",
+    "promoBadge": "🚀 新ツール",
+    "promoTitle": "ツイートスコアラ―",
+    "promoDesc": "25シグナル × リアルタイムスコアリング。投稿前にチェック。",
+    "promoPrimaryCta": "今すぐ採点 →",
+    "promoSecondaryCta": "25のシグナルを見る"
   },
   "blog": {
     "indexTitle": "ブログ",

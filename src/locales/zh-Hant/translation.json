@@ -10,7 +10,12 @@
     "heroDesc": "聚焦 SEO、渠道增長與產品驗證，以 Twitter 深度分析為核心，持續追蹤頭部創作者與趨勢。",
     "blogCta": "閱讀博客",
     "latest": "最新博客",
-    "latestAIProducts": "最新 AI 產品分析"
+    "latestAIProducts": "最新 AI 產品分析",
+    "promoBadge": "🚀 新工具",
+    "promoTitle": "推文打分器",
+    "promoDesc": "25 個信號 × 即時打分，發文前先驗一下",
+    "promoPrimaryCta": "立即打分 →",
+    "promoSecondaryCta": "了解 25 個信號"
   },
   "blog": {
     "indexTitle": "博客",
