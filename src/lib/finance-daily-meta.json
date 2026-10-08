@@ -1,6 +1,41 @@
 {
   "reports": [
     {
+      "slug": "2026-10-08-finance-daily",
+      "title": {
+        "en": "Daily Finance Brief | 2026-10-08",
+        "ja": "每日金融ブリーフィング | 2026-10-08",
+        "zh-Hans": "每日财经简报 | 2026-10-08",
+        "zh-Hant": "每日財經簡報 | 2026-10-08"
+      },
+      "description": {
+        "en": "USD index steady; gold and silver pull back from highs. US equities mixed — AAPL leads, NVDA/TSLA ease. Central banks are in a wait-and-see mode; the EU-China EV tariff standoff and Middle East geopolitical risk remain the key swing factors.",
+        "ja": "ドル指数は堅調、金銀は最高値から反落。米国株はまちまちでAAPLが上昇、NVDA/TSLAは小幅調整。中央銀行は様子見モード、EU・中国のEV関税協議と中東の地政学リスクが主な変動要因。",
+        "zh-Hans": "美元指数持稳，金银高位回调；美股分化，AAPL领涨、NVDA/TSLA小幅回调；央行政策面进入静默观察窗口，中欧电动汽车关税博弈与中东地缘风险仍是主要变量。",
+        "zh-Hant": "美元指數持穩，金銀高位回調；美股分化，AAPL領漲、NVDA/TSLA小幅回調；央行政策面進入靜默觀察窗口，中歐電動汽車關稅博弈與中東地緣風險仍是主要變量。"
+      },
+      "date": "2026-10-08",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macro"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-06-finance-daily",
       "title": {
         "en": "Daily Finance Briefing | 2026-10-06",

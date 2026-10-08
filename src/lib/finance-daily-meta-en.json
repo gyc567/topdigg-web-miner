@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-10-08-finance-daily",
+      "date": "2026-10-08",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macro"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "Daily Finance Brief | 2026-10-08",
+      "description": "USD index steady; gold and silver pull back from highs. US equities mixed — AAPL leads, NVDA/TSLA ease. Central banks are in a wait-and-see mode; the EU-China EV tariff standoff and Middle East geopolitical risk remain the key swing factors.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-06-finance-daily",
       "date": "2026-10-06",
       "author": "瑞哥观势",

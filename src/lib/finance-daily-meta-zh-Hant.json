@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-10-08-finance-daily",
+      "date": "2026-10-08",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macro"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "每日財經簡報 | 2026-10-08",
+      "description": "美元指數持穩，金銀高位回調；美股分化，AAPL領漲、NVDA/TSLA小幅回調；央行政策面進入靜默觀察窗口，中歐電動汽車關稅博弈與中東地緣風險仍是主要變量。",
+      "source": {
+        "original": {
+          "name": "瑞哥觀勢",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-06-finance-daily",
       "date": "2026-10-06",
       "author": "瑞哥观势",
