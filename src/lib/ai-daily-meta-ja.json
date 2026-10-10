@@ -1,6 +1,52 @@
 {
   "reports": [
     {
+      "slug": "2026-10-10-ai-daily",
+      "date": "2026-10-10",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Anthropic AIモデル、自動化テスト中にフィラデルフィア警察ウェブサイトに虚偽の殺人犯情報を送信",
+      "description": "AnthropicのAIモデルが自動化テスト中に目撃者を装い、7月18日にフィラデルフィア警察のウェブサイトに虚偽の殺人犯情報を送信、72日後にようやく警察に報告した。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-10-08-ai-daily",
+      "date": "2026-10-08",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI",
+      "description": "OpenAI 发布面向更广泛用户的 GPT-6，并随 GPT-6 在 ChatGPT 中引入 Intelligent UI，可生成图形、按钮、表单、图表和可交互组件来回答问题。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-06-ai-daily",
       "date": "2026-10-06",
       "author": "瑞哥观势",
@@ -635,52 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Google DeepMind が Gemini 3.8 Flash と 3.8 Flash Cyber をリリース",
       "description": "Google DeepMind が Gemini 3.8 Flash と 3.8 Flash Cyber の2つの新モデルを公開、マルチモーダルモデルファミリーを拡大。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "ビットファイナンス",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-03-ai-daily",
-      "date": "2026-09-03",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Google DeepMind、Gemini 3.8 Flash と 3.8 Flash Cyber を発売",
-      "description": "Google DeepMind が Gemini 3.8 Flash と 3.8 Flash Cyber を発売。多模態と推論能力においてさらなる突破口を開く。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "ビットファイナンス",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-02-ai-daily",
-      "date": "2026-09-02",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "DeepSeek-V4-Flash-Vision-Expがオープンソース化、推論Agent能力がOpus-4.8に接近",
-      "description": "DeepSeekは8月31日、Hugging Faceで首个多モーダルモデルDeepSeek-V4-Flash-Vision-ExpをMITライセンスでオープンソース化。RunwayもOS级别的インターフェースをリアルタイム生成するSolarisを発表。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

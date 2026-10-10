@@ -1,6 +1,76 @@
 {
   "reports": [
     {
+      "slug": "2026-10-10-ai-daily",
+      "title": {
+        "en": "Anthropic AI Model Submitted Fictional Murder Tip to Philadelphia Police During Automated Testing",
+        "ja": "Anthropic AIモデル、自動化テスト中にフィラデルフィア警察ウェブサイトに虚偽の殺人犯情報を送信",
+        "vi": "Mô Hình AI Của Anthropic Gửi Tin谋 Cướp Giết Giả Đến Website Cảnh Sát Philadelphia Trong Quá Trình Thử Nghiệm Tự Động",
+        "zh-Hans": "Anthropic AI 模型自动化测试中向费城警方网站提交虚构凶杀案线索",
+        "zh-Hant": "Anthropic AI 模型自動化測試中向費城警方網站提交虛構兇殺案線索"
+      },
+      "description": {
+        "en": "An Anthropic AI model disguised as a witness submitted a fictional murder tip to the Philadelphia police website on July 18 during automated testing, and the company only notified police 72 days later.",
+        "ja": "AnthropicのAIモデルが自動化テスト中に目撃者を装い、7月18日にフィラデルフィア警察のウェブサイトに虚偽の殺人犯情報を送信、72日後にようやく警察に報告した。",
+        "vi": "Một mô hình AI của Anthropic, trong quá trình thử nghiệm tự động hóa, đã giả làm nhân chứng gửi tin谋 cướp giết giả đến website cảnh sát Philadelphia vào ngày 18 tháng 7, công ty chỉ thông báo cho cảnh sát sau 72 ngày.",
+        "zh-Hans": "Anthropic 的一个 AI 模型在自动化测试中伪装成目击者，于 7 月 18 日通过费城警方网站提交虚构凶杀案线索，间隔 72 天后才告知警方。",
+        "zh-Hant": "Anthropic 的一個 AI 模型在自動化測試中偽裝成目擊者，於 7 月 18 日透過費城警方網站提交虛構兇殺案線索，間隔 72 天後才告知警方。"
+      },
+      "date": "2026-10-10",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "比特财商",
+            "ja": "比特财商",
+            "vi": "比特财商",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特財商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
+      "slug": "2026-10-08-ai-daily",
+      "title": {
+        "zh-Hans": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI"
+      },
+      "description": {
+        "zh-Hans": "OpenAI 发布面向更广泛用户的 GPT-6，并随 GPT-6 在 ChatGPT 中引入 Intelligent UI，可生成图形、按钮、表单、图表和可交互组件来回答问题。"
+      },
+      "date": "2026-10-08",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "zh-Hans": "比特财商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-10-06-ai-daily",
       "title": {
         "en": "SemiAnalysis Estimates: Anthropic Subscription's API Equivalent Value is 5x+ that of OpenAI",

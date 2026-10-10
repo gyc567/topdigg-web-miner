@@ -1,6 +1,52 @@
 {
   "reports": [
     {
+      "slug": "2026-10-10-ai-daily",
+      "date": "2026-10-10",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Anthropic AI Model Submitted Fictional Murder Tip to Philadelphia Police During Automated Testing",
+      "description": "An Anthropic AI model disguised as a witness submitted a fictional murder tip to the Philadelphia police website on July 18 during automated testing, and the company only notified police 72 days later.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-10-08-ai-daily",
+      "date": "2026-10-08",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI",
+      "description": "OpenAI 发布面向更广泛用户的 GPT-6，并随 GPT-6 在 ChatGPT 中引入 Intelligent UI，可生成图形、按钮、表单、图表和可交互组件来回答问题。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-06-ai-daily",
       "date": "2026-10-06",
       "author": "瑞哥观势",
@@ -635,52 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Google DeepMind Releases Gemini 3.8 Flash and 3.8 Flash Cyber",
       "description": "Google DeepMind releases Gemini 3.8 Flash and 3.8 Flash Cyber, expanding its multimodal model family with two new variants.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "Bit Finance",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-03-ai-daily",
-      "date": "2026-09-03",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Google DeepMind Releases Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "description": "Google DeepMind releases Gemini 3.8 Flash and 3.8 Flash Cyber, marking further breakthroughs in multimodal and reasoning capabilities.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "Bit Finance",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-02-ai-daily",
-      "date": "2026-09-02",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "DeepSeek-V4-Flash-Vision-Exp Open-Sourced, Multimodal Agent Approaches Opus-4.8",
-      "description": "DeepSeek open-sourced its first multimodal model DeepSeek-V4-Flash-Vision-Exp on Hugging Face; Runway released Solaris, the first interface world model capable of real-time OS-level UI generation.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",
