@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-10-10-finance-daily",
+      "date": "2026-10-10",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomy"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "每日金融ブリティッシュ | 2026年10月10日",
+      "description": "ゴールド4194ドル突破、中東の地政学リスクが急升温。FRBは9月利上げ後に様子見モード入り、ミシガン消費者信頼感指数は近年安値。アップルがiPhone 18受注を削減、科技株に分化。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-08-finance-daily",
       "date": "2026-10-08",
       "author": "瑞哥观势",

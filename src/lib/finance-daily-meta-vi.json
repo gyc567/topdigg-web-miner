@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-10-10-finance-daily",
+      "date": "2026-10-10",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomy"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "Bản Tin Tài Chính Hàng Ngày | 10/10/2026",
+      "description": "Vàng vượt 4194 USD/oz khi rủi ro địa chính trị Trung Đông leo thang; Fed giữ quan điểm chờ đợi sau đợt tăng lãi suất tháng 9; Apple cắt giảm đơn hàng iPhone 18, cổ phiếu công nghệ phân hóa.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-08-finance-daily",
       "date": "2026-10-08",
       "author": "瑞哥观势",

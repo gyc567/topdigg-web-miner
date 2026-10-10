@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-10-10-finance-daily",
+      "date": "2026-10-10",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomy"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "Daily Finance Brief | October 10, 2026",
+      "description": "Gold surges to $4,194/oz on Middle East tensions; Fed holds steady after September hike as consumer confidence hits multi-year low; Apple cuts iPhone 18 orders, tech stocks diverge.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-08-finance-daily",
       "date": "2026-10-08",
       "author": "瑞哥观势",

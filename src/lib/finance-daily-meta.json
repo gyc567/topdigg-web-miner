@@ -1,6 +1,44 @@
 {
   "reports": [
     {
+      "slug": "2026-10-10-finance-daily",
+      "title": {
+        "en": "Daily Finance Brief | October 10, 2026",
+        "ja": "每日金融ブリティッシュ | 2026年10月10日",
+        "vi": "Bản Tin Tài Chính Hàng Ngày | 10/10/2026",
+        "zh-Hans": "每日财经简报 | 2026-10-10",
+        "zh-Hant": "每日財經簡報 | 2026-10-10"
+      },
+      "description": {
+        "en": "Gold surges to $4,194/oz on Middle East tensions; Fed holds steady after September hike as consumer confidence hits multi-year low; Apple cuts iPhone 18 orders, tech stocks diverge.",
+        "ja": "ゴールド4194ドル突破、中東の地政学リスクが急升温。FRBは9月利上げ後に様子見モード入り、ミシガン消費者信頼感指数は近年安値。アップルがiPhone 18受注を削減、科技株に分化。",
+        "vi": "Vàng vượt 4194 USD/oz khi rủi ro địa chính trị Trung Đông leo thang; Fed giữ quan điểm chờ đợi sau đợt tăng lãi suất tháng 9; Apple cắt giảm đơn hàng iPhone 18, cổ phiếu công nghệ phân hóa.",
+        "zh-Hans": "黄金突破4194美元创本周新高，霍尔木兹+曼德海峡地缘风险升温；美联储进入观望模式，密歇根消费信心创近年新低；苹果削减iPhone 18订单，科技股分化。",
+        "zh-Hant": "黃金突破4194美元創本週新高，霍爾木茲+曼德海峽地緣風險升溫；Fed進入觀望模式，密歇根消費信心創近年新低；蘋果削減iPhone 18訂單，科技股分化。"
+      },
+      "date": "2026-10-10",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomy"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-08-finance-daily",
       "title": {
         "en": "Daily Finance Brief | 2026-10-08",

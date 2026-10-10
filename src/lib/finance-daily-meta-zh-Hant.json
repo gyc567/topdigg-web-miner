@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-10-10-finance-daily",
+      "date": "2026-10-10",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomy"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "每日財經簡報 | 2026-10-10",
+      "description": "黃金突破4194美元創本週新高，霍爾木茲+曼德海峽地緣風險升溫；Fed進入觀望模式，密歇根消費信心創近年新低；蘋果削減iPhone 18訂單，科技股分化。",
+      "source": {
+        "original": {
+          "name": "瑞哥觀勢",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-08-finance-daily",
       "date": "2026-10-08",
       "author": "瑞哥观势",
