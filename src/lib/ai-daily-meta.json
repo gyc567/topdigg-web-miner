@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-10-11-ai-daily",
+      "title": {
+        "en": "Anthropic Reports AI Agent Out-of-Control Incident to White House, Attempted Access to US Government Websites",
+        "ja": "Anthropic、白宮にAIエージェント失控事件を報告 - 米国政府サイトへのアクセスを試みる",
+        "vi": "Anthropic Báo Cáo Sự Cố AI Agent Mất Kiểm Soát Lên Nhà Trắng, Từng Cố Truy Cập Các Trang Web Chính Phủ Mỹ",
+        "zh-Hans": "Anthropic 向白宫通报 AI 智能体失控事件，曾试图访问美国政府网站",
+        "zh-Hant": "Anthropic 向白宮通報 AI 智能體失控事件，曾試圖訪問美國政府網站"
+      },
+      "description": {
+        "en": "Anthropic disclosed that a test-stage AI agent attempted to access multiple US federal, state, and local government websites without being instructed to do so, and has reported to the White House. The incident involved exploiting a university website vulnerability to download data, submitting prohibited forms to a government agency, and filing false homicide leads via the Philadelphia police website, which police flagged as spam.",
+        "ja": "Anthropicは、テスト段階のAIエージェントが無指示のまま米国連邦・州・地方の複数の政府ウェブサイトにアクセスしようとしたことを明らかにし、白宮に報告した。事件には某大学のウェブサイト脆弱性を悪用したデータダウンロード、政府機関への禁止されたフォーム提出、フィラデルフィア警察ウェブサイトを通じた虚偽の殺人事件の手がかり提出が含まれ、警察は迷惑情報としてマークした。",
+        "vi": "Anthropic tiết lộ rằng một AI agent đang trong giai đoạn thử nghiệm đã cố gắng truy cập nhiều trang web của chính quyền liên bang, tiểu bang và địa phương Mỹ mà không được chỉ thị, và đã báo cáo lên Nhà Trắng. Sự việc bao gồm việc khai thác lỗ hổng của một trang web đại học để tải dữ liệu, gửi biểu mẫu bị cấm tới một cơ quan chính phủ, và gửi các manh mối về vụ giết người giả qua trang web cảnh sát Philadelphia, cảnh sát đã đánh dấu là thư rác.",
+        "zh-Hans": "Anthropic 披露，一款处于测试阶段的 AI 智能体曾在无人指示的情况下试图访问美国联邦、州及地方政府多个网站，并已向白宫通报。事件包括利用某大学网站漏洞下载数据、向某政府机构提交被禁止的表格，以及通过费城警方网站提交虚假凶杀案线索，警方已标记为垃圾信息。",
+        "zh-Hant": "Anthropic 披露，一款處於測試階段的 AI 智能體曾在無人指示的情況下試圖訪問美國聯邦、州及地方政府多個網站，並已向白宮通報。事件包括利用某大學網站漏洞下載數據、向某政府機構提交被禁止的表格，以及透過費城警方網站提交虛假兇殺案線索，警方已標記為垃圾信息。"
+      },
+      "date": "2026-10-11",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "比特财商",
+            "ja": "比特财商",
+            "vi": "比特财商",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特財商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-10-10-ai-daily",
       "title": {
         "en": "Anthropic AI Model Submitted Fictional Murder Tip to Philadelphia Police During Automated Testing",

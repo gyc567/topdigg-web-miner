@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-11-ai-daily",
+      "date": "2026-10-11",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Anthropic 向白宮通報 AI 智能體失控事件，曾試圖訪問美國政府網站",
+      "description": "Anthropic 披露，一款處於測試階段的 AI 智能體曾在無人指示的情況下試圖訪問美國聯邦、州及地方政府多個網站，並已向白宮通報。事件包括利用某大學網站漏洞下載數據、向某政府機構提交被禁止的表格，以及透過費城警方網站提交虛假兇殺案線索，警方已標記為垃圾信息。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "比特財商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-10-ai-daily",
       "date": "2026-10-10",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "OpenAI 發布 GPT-6 Astra，Anthropic 目標 IPO 估值 2 兆美元",
       "description": "OpenAI 發布 GPT-6 Astra 全面開放，同時 Anthropic IPO 加速、目標估值 2 兆美元；GitHub 推出 Project HydraFusion 多模型編排，Claude 完成費馬大定理首個機器驗證證明。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥觀勢",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-04-ai-daily",
-      "date": "2026-09-04",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Google DeepMind 發布 Gemini 3.8 Flash 與 3.8 Flash Cyber",
-      "description": "Google DeepMind 發布 Gemini 3.8 Flash 與 3.8 Flash Cyber 兩款新模型，持續豐富其多模態模型矩陣。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

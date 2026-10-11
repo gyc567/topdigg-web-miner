@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-11-ai-daily",
+      "date": "2026-10-11",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Anthropic Báo Cáo Sự Cố AI Agent Mất Kiểm Soát Lên Nhà Trắng, Từng Cố Truy Cập Các Trang Web Chính Phủ Mỹ",
+      "description": "Anthropic tiết lộ rằng một AI agent đang trong giai đoạn thử nghiệm đã cố gắng truy cập nhiều trang web của chính quyền liên bang, tiểu bang và địa phương Mỹ mà không được chỉ thị, và đã báo cáo lên Nhà Trắng. Sự việc bao gồm việc khai thác lỗ hổng của một trang web đại học để tải dữ liệu, gửi biểu mẫu bị cấm tới một cơ quan chính phủ, và gửi các manh mối về vụ giết người giả qua trang web cảnh sát Philadelphia, cảnh sát đã đánh dấu là thư rác.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-10-ai-daily",
       "date": "2026-10-10",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "OpenAI Phat hanh GPT-6 Astra, Anthropic Huong toi Đinh gia IPO 2 Trieu Trieu USD",
       "description": "OpenAI phat hanh GPT-6 Astra hoan toan mo rong, dong thoi Anthropic tang toc IPO voi muc tieu dinh gia 2 ngan ty USD; GitHub ra mat Project HydraFusion, Claude hoan thanh chung minh may tinh dau tien cho Đinh ly cuoi Fermat.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "Bit Finance",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-04-ai-daily",
-      "date": "2026-09-04",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Google DeepMind Phát Hành Gemini 3.8 Flash và 3.8 Flash Cyber",
-      "description": "Google DeepMind phát hành Gemini 3.8 Flash và 3.8 Flash Cyber, mở rộng họ mô hình đa phương thức với hai biến thể mới.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

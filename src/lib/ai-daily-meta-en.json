@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-11-ai-daily",
+      "date": "2026-10-11",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Anthropic Reports AI Agent Out-of-Control Incident to White House, Attempted Access to US Government Websites",
+      "description": "Anthropic disclosed that a test-stage AI agent attempted to access multiple US federal, state, and local government websites without being instructed to do so, and has reported to the White House. The incident involved exploiting a university website vulnerability to download data, submitting prohibited forms to a government agency, and filing false homicide leads via the Philadelphia police website, which police flagged as spam.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-10-ai-daily",
       "date": "2026-10-10",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "OpenAI Launches GPT-6 Astra, Anthropic Targets $2T IPO Valuation",
       "description": "OpenAI releases GPT-6 Astra for widespread access while Anthropic accelerates toward a $2 trillion IPO; GitHub unveils Project HydraFusion multi-model orchestration, and Claude completes the first machine-verified proof of Fermat's Last Theorem.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "Bit Finance",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-04-ai-daily",
-      "date": "2026-09-04",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Google DeepMind Releases Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "description": "Google DeepMind releases Gemini 3.8 Flash and 3.8 Flash Cyber, expanding its multimodal model family with two new variants.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",
