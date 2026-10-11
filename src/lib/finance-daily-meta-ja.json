@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-11-finance-daily",
+      "date": "2026-10-11",
+      "author": "瑞哥观势",
+      "tags": [
+        "finance briefing",
+        "macro",
+        "forex",
+        "us equities",
+        "central banks"
+      ],
+      "categories": [
+        "finance briefing"
+      ],
+      "title": "每日金融ブリーフィング | 2026-10-11",
+      "description": "週末休場。前営業日（10/9）データを参照。金は$4,150を維持し史上最高値に接近。米国株ではTSLAが上昇、NVDA/AAPLは軟調。FRBは10/29に25bp利下げして3.75〜4.00%に、パウエル議長は追加緩和に急がない姿勢。トランプ・習近平のワシントン・サミットで300億ドルの関税削減枠組み合意、アジア株は全面高。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-10-finance-daily",
       "date": "2026-10-10",
       "author": "瑞哥观势",

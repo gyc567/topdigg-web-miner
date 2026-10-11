@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-11-finance-daily",
+      "date": "2026-10-11",
+      "author": "瑞哥观势",
+      "tags": [
+        "finance briefing",
+        "macro",
+        "forex",
+        "us equities",
+        "central banks"
+      ],
+      "categories": [
+        "finance briefing"
+      ],
+      "title": "Tin Tài Chính Hàng Ngày | 2026-10-11",
+      "description": "Thị trường nghỉ cuối tuần — tham khảo phiên trước (9/10). Vàng giữ $4.150, gần đỉnh lịch sử; TSLA dẫn đầu chứng khoán Mỹ, NVDA/AAPL điều chỉnh. Fed cắt 25bp vào 29/10 xuống 3,75–4,00%, Powell cho biết không vội nới lỏng thêm. Hội nghị Trump–Xi tại Washington đạt khung giảm thuế $30 tỷ, cổ phiếu châu Á tăng mạnh.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-10-finance-daily",
       "date": "2026-10-10",
       "author": "瑞哥观势",

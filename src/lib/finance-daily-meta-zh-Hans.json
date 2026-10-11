@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-11-finance-daily",
+      "date": "2026-10-11",
+      "author": "瑞哥观势",
+      "tags": [
+        "finance briefing",
+        "macro",
+        "forex",
+        "us equities",
+        "central banks"
+      ],
+      "categories": [
+        "finance briefing"
+      ],
+      "title": "每日财经简报 | 2026-10-11",
+      "description": "周末休市，参考前一交易日（10/9）数据。黄金稳守$4,150逼近历史高点；美股TSLA领涨，NVDA/AAPL承压；美联储10/29再降息25bp，鲍威尔不急于再行动；特习华盛顿峰会达成300亿美元商品关税削减框架，亚股普涨。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-10-finance-daily",
       "date": "2026-10-10",
       "author": "瑞哥观势",

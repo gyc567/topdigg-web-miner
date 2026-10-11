@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-11-finance-daily",
+      "date": "2026-10-11",
+      "author": "瑞哥观势",
+      "tags": [
+        "finance briefing",
+        "macro",
+        "forex",
+        "us equities",
+        "central banks"
+      ],
+      "categories": [
+        "finance briefing"
+      ],
+      "title": "每日財經簡報 | 2026-10-11",
+      "description": "週末休市，參考前一個交易日（10/9）數據。黃金穩守$4,150逼近歷史高點；美股TSLA領漲，NVDA/AAPL承壓；聯準會10/29再降息25bp，鮑爾不急於再行動；川習華盛頓峰會達成300億美元商品關稅削減框架，亞股普漲。",
+      "source": {
+        "original": {
+          "name": "瑞哥觀勢",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-10-finance-daily",
       "date": "2026-10-10",
       "author": "瑞哥观势",

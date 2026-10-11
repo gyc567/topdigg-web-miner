@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-10-11-finance-daily",
+      "title": {
+        "en": "Daily Finance Briefing | 2026-10-11",
+        "ja": "每日金融ブリーフィング | 2026-10-11",
+        "vi": "Tin Tài Chính Hàng Ngày | 2026-10-11",
+        "zh-Hans": "每日财经简报 | 2026-10-11",
+        "zh-Hant": "每日財經簡報 | 2026-10-11"
+      },
+      "description": {
+        "en": "Markets closed for the weekend — referencing prior session (Oct 9). Gold holds $4,150 near record highs; TSLA leads US equities while NVDA/AAPL pull back. The Fed cut 25bp on Oct 29 to 3.75–4.00%, Powell signals no rush to ease further. Trump–Xi Washington summit delivers a $30B tariff-cut framework, lifting Asian equities.",
+        "ja": "週末休場。前営業日（10/9）データを参照。金は$4,150を維持し史上最高値に接近。米国株ではTSLAが上昇、NVDA/AAPLは軟調。FRBは10/29に25bp利下げして3.75〜4.00%に、パウエル議長は追加緩和に急がない姿勢。トランプ・習近平のワシントン・サミットで300億ドルの関税削減枠組み合意、アジア株は全面高。",
+        "vi": "Thị trường nghỉ cuối tuần — tham khảo phiên trước (9/10). Vàng giữ $4.150, gần đỉnh lịch sử; TSLA dẫn đầu chứng khoán Mỹ, NVDA/AAPL điều chỉnh. Fed cắt 25bp vào 29/10 xuống 3,75–4,00%, Powell cho biết không vội nới lỏng thêm. Hội nghị Trump–Xi tại Washington đạt khung giảm thuế $30 tỷ, cổ phiếu châu Á tăng mạnh.",
+        "zh-Hans": "周末休市，参考前一交易日（10/9）数据。黄金稳守$4,150逼近历史高点；美股TSLA领涨，NVDA/AAPL承压；美联储10/29再降息25bp，鲍威尔不急于再行动；特习华盛顿峰会达成300亿美元商品关税削减框架，亚股普涨。",
+        "zh-Hant": "週末休市，參考前一個交易日（10/9）數據。黃金穩守$4,150逼近歷史高點；美股TSLA領漲，NVDA/AAPL承壓；聯準會10/29再降息25bp，鮑爾不急於再行動；川習華盛頓峰會達成300億美元商品關稅削減框架，亞股普漲。"
+      },
+      "date": "2026-10-11",
+      "author": "瑞哥观势",
+      "tags": [
+        "finance briefing",
+        "macro",
+        "forex",
+        "us equities",
+        "central banks"
+      ],
+      "categories": [
+        "finance briefing"
+      ],
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-10-finance-daily",
       "title": {
         "en": "Daily Finance Brief | October 10, 2026",
