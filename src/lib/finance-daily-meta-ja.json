@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-12-finance-daily",
+      "date": "2026-10-12",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics",
+        "Forex",
+        "US Stocks",
+        "Gold"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "日次金融ブリティ | 2026-10-12",
+      "description": "EUR/USDは1.12上台を維持、USD/JPYは158に下落；米株AAPLは-1.11%、TSLAは+2.05%；金は$4,206/ozの高値更新；FRBのタカ派発言で利下げ期待が後退、中国は本日LPR発表へ。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-11-finance-daily",
       "date": "2026-10-11",
       "author": "瑞哥观势",

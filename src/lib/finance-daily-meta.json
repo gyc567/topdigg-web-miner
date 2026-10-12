@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-10-12-finance-daily",
+      "title": {
+        "en": "Daily Finance Brief | 2026-10-12",
+        "ja": "日次金融ブリティ | 2026-10-12",
+        "vi": "Bản Tin Tài Chính Hàng Ngày | 2026-10-12",
+        "zh-Hans": "每日财经简报 | 2026-10-12",
+        "zh-Hant": "每日財經簡報 | 2026-10-12"
+      },
+      "description": {
+        "en": "EUR/USD holds above 1.12; USD/JPY retreats to 158; AAPL down 1.11% while TSLA surges 2.05%; Gold hits new high at $4,206/oz; Fed officials signal hawkish tilt, cooling rate-cut expectations; China to release LPR today.",
+        "ja": "EUR/USDは1.12上台を維持、USD/JPYは158に下落；米株AAPLは-1.11%、TSLAは+2.05%；金は$4,206/ozの高値更新；FRBのタカ派発言で利下げ期待が後退、中国は本日LPR発表へ。",
+        "vi": "EUR/USD giữ trên 1.12; USD/JPY giảm về 158; AAPL -1.11% trong khi TSLA +2.05%; Vàng lập đỉnh mới $4,206/oz; Fed phát tín hiệu diều hâu, kỳ vọng cắt lãi suất giảm nhiệt; Trung Quốc công bố LPR hôm nay.",
+        "zh-Hans": "EUR/USD站上1.12，USD/JPY回落至158；美股AAPL跌1.11%而TSLA涨2.05%；黄金再创新高$4206/oz；美联储鹰派发声降息预期降温，中国今日公布LPR利率。",
+        "zh-Hant": "EUR/USD站上1.12，USD/JPY回落至158；美股AAPL跌1.11%而TSLA漲2.05%；黃金再創新高$4206/oz；美聯儲鷹派發聲降息預期降溫，中國內地今日公布LPR利率。"
+      },
+      "date": "2026-10-12",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics",
+        "Forex",
+        "US Stocks",
+        "Gold"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-11-finance-daily",
       "title": {
         "en": "Daily Finance Briefing | 2026-10-11",

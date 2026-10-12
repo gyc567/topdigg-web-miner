@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-12-finance-daily",
+      "date": "2026-10-12",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics",
+        "Forex",
+        "US Stocks",
+        "Gold"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "Bản Tin Tài Chính Hàng Ngày | 2026-10-12",
+      "description": "EUR/USD giữ trên 1.12; USD/JPY giảm về 158; AAPL -1.11% trong khi TSLA +2.05%; Vàng lập đỉnh mới $4,206/oz; Fed phát tín hiệu diều hâu, kỳ vọng cắt lãi suất giảm nhiệt; Trung Quốc công bố LPR hôm nay.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-11-finance-daily",
       "date": "2026-10-11",
       "author": "瑞哥观势",

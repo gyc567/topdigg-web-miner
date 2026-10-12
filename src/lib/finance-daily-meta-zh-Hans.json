@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-12-finance-daily",
+      "date": "2026-10-12",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics",
+        "Forex",
+        "US Stocks",
+        "Gold"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "每日财经简报 | 2026-10-12",
+      "description": "EUR/USD站上1.12，USD/JPY回落至158；美股AAPL跌1.11%而TSLA涨2.05%；黄金再创新高$4206/oz；美联储鹰派发声降息预期降温，中国今日公布LPR利率。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-11-finance-daily",
       "date": "2026-10-11",
       "author": "瑞哥观势",

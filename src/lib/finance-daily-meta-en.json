@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-12-finance-daily",
+      "date": "2026-10-12",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics",
+        "Forex",
+        "US Stocks",
+        "Gold"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "Daily Finance Brief | 2026-10-12",
+      "description": "EUR/USD holds above 1.12; USD/JPY retreats to 158; AAPL down 1.11% while TSLA surges 2.05%; Gold hits new high at $4,206/oz; Fed officials signal hawkish tilt, cooling rate-cut expectations; China to release LPR today.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-11-finance-daily",
       "date": "2026-10-11",
       "author": "瑞哥观势",
