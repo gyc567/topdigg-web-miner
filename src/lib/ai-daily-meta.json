@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-10-12-ai-daily",
+      "title": {
+        "en": "GPT-6.1 Sol Default Context Length Increased to 500k in Codex and Work",
+        "ja": "GPT-6.1 Sol、CodexとWorkでのデフォルトコンテキスト長が500kに увеличение",
+        "vi": "GPT-6.1 Sol Tăng Độ Dài Ngữ Cảnh Mặc Định Lên 500k trong Codex và Work",
+        "zh-Hans": "GPT-6.1 Sol 在 Codex 与 Work 中默认上下文长度提升至 500k",
+        "zh-Hant": "GPT-6.1 Sol 在 Codex 與 Work 中預設上下文長度提升至 500k"
+      },
+      "description": {
+        "en": "Tibo announces GPT-6.1 Sol's default context length in Codex and Work has increased from 272k to 500k, approximately 80% increase. This reduces compaction occurrences and helps tasks requiring long-term retention of large contexts.",
+        "ja": "TiboはGPT-6.1 SolのCodexとWorkにおけるデフォルトコンテキスト長が272kから500kに увеличение（約80%増）ことを発表。これは圧縮（compaction）の発生を減らし、大量のコンテキストと詳細を長期的に保持する必要があるタスクを支援する。",
+        "vi": "Tibo thông báo GPT-6.1 Sol tăng độ dài ngữ cảnh mặc định trong Codex và Work từ 272k lên 500k, tăng khoảng 80%. Điều này giảm thiểu tình trạng nén (compaction) và hỗ trợ các tác vụ cần giữ lượng lớn ngữ cảnh và chi tiết trong thời gian dài.",
+        "zh-Hans": "Tibo 宣布 GPT-6.1 Sol 在 Codex 与 Work 中的默认上下文长度从 272k 提升到 500k，约增加 80%。此举可减少压缩（compaction）发生，帮助需要长期保留大量上下文和细节的任务。",
+        "zh-Hant": "Tibo 宣佈 GPT-6.1 Sol 在 Codex 與 Work 中的預設上下文長度從 272k 提升到 500k，約增加 80%。此舉可減少壓縮（compaction）發生，幫助需要長期保留大量上下文和細節的任務。"
+      },
+      "date": "2026-10-12",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "比特财商",
+            "ja": "比特财商",
+            "vi": "比特财商",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特財商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-10-11-ai-daily",
       "title": {
         "en": "Anthropic Reports AI Agent Out-of-Control Incident to White House, Attempted Access to US Government Websites",

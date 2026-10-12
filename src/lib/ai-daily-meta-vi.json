@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-12-ai-daily",
+      "date": "2026-10-12",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "GPT-6.1 Sol Tăng Độ Dài Ngữ Cảnh Mặc Định Lên 500k trong Codex và Work",
+      "description": "Tibo thông báo GPT-6.1 Sol tăng độ dài ngữ cảnh mặc định trong Codex và Work từ 272k lên 500k, tăng khoảng 80%. Điều này giảm thiểu tình trạng nén (compaction) và hỗ trợ các tác vụ cần giữ lượng lớn ngữ cảnh và chi tiết trong thời gian dài.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-11-ai-daily",
       "date": "2026-10-11",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "OpenAI cong bo bao cao tang toc nghien cuu noi bo: Dat duoc muc tieu thuc tap sinh nghien cuu tu dong, tien do toi thang 3/2028",
       "description": "OpenAI da cong bo bao cao tien do nghien cuu tu dong, thong bao da dat duoc muc tieu thuc tap sinh nghien cuu tu dong (co the hoan thanh cac nhiem vu nghien cuu xac dinh keo dai nhieu ngay duoi su huong dan cua con nguoi) va co ke hoach xay dung nha nghien cuu AI tu dong vao thang 3/2028.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "Bit Finance",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-05-ai-daily",
-      "date": "2026-09-05",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "OpenAI Phat hanh GPT-6 Astra, Anthropic Huong toi Đinh gia IPO 2 Trieu Trieu USD",
-      "description": "OpenAI phat hanh GPT-6 Astra hoan toan mo rong, dong thoi Anthropic tang toc IPO voi muc tieu dinh gia 2 ngan ty USD; GitHub ra mat Project HydraFusion, Claude hoan thanh chung minh may tinh dau tien cho Đinh ly cuoi Fermat.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

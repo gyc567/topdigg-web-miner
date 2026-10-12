@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-12-ai-daily",
+      "date": "2026-10-12",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "GPT-6.1 Sol 在 Codex 與 Work 中預設上下文長度提升至 500k",
+      "description": "Tibo 宣佈 GPT-6.1 Sol 在 Codex 與 Work 中的預設上下文長度從 272k 提升到 500k，約增加 80%。此舉可減少壓縮（compaction）發生，幫助需要長期保留大量上下文和細節的任務。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "比特財商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-11-ai-daily",
       "date": "2026-10-11",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "OpenAI 發布內部研究加速報告：已達成自動化研究實習生目標，推進 2028 年 3 月自動化 AI 研究員",
       "description": "OpenAI 發文披露自動化研究進展，宣佈已達成去年秋天設定的今年 9 月擁有自動化研究實習生的目標，並計劃在 2028 年 3 月前造出自動化 AI 研究員。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥觀勢",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-05-ai-daily",
-      "date": "2026-09-05",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "OpenAI 發布 GPT-6 Astra，Anthropic 目標 IPO 估值 2 兆美元",
-      "description": "OpenAI 發布 GPT-6 Astra 全面開放，同時 Anthropic IPO 加速、目標估值 2 兆美元；GitHub 推出 Project HydraFusion 多模型編排，Claude 完成費馬大定理首個機器驗證證明。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

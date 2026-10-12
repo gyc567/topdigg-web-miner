@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-12-ai-daily",
+      "date": "2026-10-12",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "GPT-6.1 Sol、CodexとWorkでのデフォルトコンテキスト長が500kに увеличение",
+      "description": "TiboはGPT-6.1 SolのCodexとWorkにおけるデフォルトコンテキスト長が272kから500kに увеличение（約80%増）ことを発表。これは圧縮（compaction）の発生を減らし、大量のコンテキストと詳細を長期的に保持する必要があるタスクを支援する。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-11-ai-daily",
       "date": "2026-10-11",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "OpenAI 社内研究加速レポートを発表：自動化研究<minimax:tool_call>生の目標を達成、2028年3月に自動化AI研究者の開発を計画",
       "description": "OpenAIは自動化研究进展レポートを発表し、昨秋に設定した今年9月の自動化研究<minimax:tool_call>（人間の指導の下で数日間明确な研究タスクを完了可能）の目標を達成したことを発表。2028年3月までに自動化AI研究者を開発する計画を明らかにした。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "ビットファイナンス",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-05-ai-daily",
-      "date": "2026-09-05",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "OpenAIがGPT-6 Astraを発表、AnthropicはIPOで2兆ドルの估值 목표로",
-      "description": "OpenAIがGPT-6 Astraを全面開放、同時にAnthropicのIPOが加速し估值2兆ドルを目指す；GitHubがProject HydraFusionマルチモデルオーケストレーションを発表、Claudeがフェルマーの最終定理の初の大規模機械検証証明を完了。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

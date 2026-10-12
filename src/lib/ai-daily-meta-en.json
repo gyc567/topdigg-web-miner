@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-12-ai-daily",
+      "date": "2026-10-12",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "GPT-6.1 Sol Default Context Length Increased to 500k in Codex and Work",
+      "description": "Tibo announces GPT-6.1 Sol's default context length in Codex and Work has increased from 272k to 500k, approximately 80% increase. This reduces compaction occurrences and helps tasks requiring long-term retention of large contexts.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-11-ai-daily",
       "date": "2026-10-11",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "OpenAI Research Acceleration Report: Automated Research Intern Goal Achieved, AI Researcher Target Set for March 2028",
       "description": "OpenAI published its research acceleration report, announcing it has achieved the automated research intern goal set last fall, with plans to build an automated AI researcher by March 2028.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "Bit Finance",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-05-ai-daily",
-      "date": "2026-09-05",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "OpenAI Launches GPT-6 Astra, Anthropic Targets $2T IPO Valuation",
-      "description": "OpenAI releases GPT-6 Astra for widespread access while Anthropic accelerates toward a $2 trillion IPO; GitHub unveils Project HydraFusion multi-model orchestration, and Claude completes the first machine-verified proof of Fermat's Last Theorem.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",
