@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-10-13-finance-daily",
+      "date": "2026-10-13",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macro Economy"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "每日財經簡報 | 2026-10-13",
+      "description": "外匯市場歐元微跌、黃金回落；A股三大指數集體收跌；Fed 10月維持利率概率82%；中歐達成16點共識但貿易摩擦持續。",
+      "source": {
+        "original": {
+          "name": "瑞哥觀勢",
+          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWpj8p73otP1gSVVMppHYYZTCLFhPPNWVbHHT0a9-EJjC"
+        }
+      }
+    },
+    {
       "slug": "2026-10-12-finance-daily",
       "date": "2026-10-12",
       "author": "瑞哥观势",

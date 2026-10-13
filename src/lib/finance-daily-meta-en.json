@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-10-13-finance-daily",
+      "date": "2026-10-13",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macro Economy"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "Daily Finance Briefing | 2026-10-13",
+      "description": "EUR slips, gold retreats; A-shares fall across the board; Fed holds rate at 82% probability; China-EU reach 16-point consensus but trade tensions persist.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWpj8p73otP1gSVVMppHYYZTCLFhPPNWVbHHT0a9-EJjC"
+        }
+      }
+    },
+    {
       "slug": "2026-10-12-finance-daily",
       "date": "2026-10-12",
       "author": "瑞哥观势",

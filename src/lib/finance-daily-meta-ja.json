@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-10-13-finance-daily",
+      "date": "2026-10-13",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macro Economy"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "デイリーファイナンスブリーフ | 2026-10-13",
+      "description": "EUR小幅下落、金価格下落；A股主要3指数揃って下落；Fed月内利率据え置き確率82%；中EU16項目コンセンサス届くも貿易摩擦続く。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWpj8p73otP1gSVVMppHYYZTCLFhPPNWVbHHT0a9-EJjC"
+        }
+      }
+    },
+    {
       "slug": "2026-10-12-finance-daily",
       "date": "2026-10-12",
       "author": "瑞哥观势",

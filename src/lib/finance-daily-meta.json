@@ -1,6 +1,44 @@
 {
   "reports": [
     {
+      "slug": "2026-10-13-finance-daily",
+      "title": {
+        "en": "Daily Finance Briefing | 2026-10-13",
+        "ja": "デイリーファイナンスブリーフ | 2026-10-13",
+        "vi": "Bản Tin Tài Chính Hàng Ngày | 2026-10-13",
+        "zh-Hans": "每日财经简报 | 2026-10-13",
+        "zh-Hant": "每日財經簡報 | 2026-10-13"
+      },
+      "description": {
+        "en": "EUR slips, gold retreats; A-shares fall across the board; Fed holds rate at 82% probability; China-EU reach 16-point consensus but trade tensions persist.",
+        "ja": "EUR小幅下落、金価格下落；A股主要3指数揃って下落；Fed月内利率据え置き確率82%；中EU16項目コンセンサス届くも貿易摩擦続く。",
+        "vi": "EUR giảm nhẹ, vàng điều chỉnh; A-shares giảm toàn bộ; Fed giữ lãi suất 82% khả năng; Trung-EU đạt 16 điểm đồng thuận nhưng căng thẳng thương mại tiếp diễn.",
+        "zh-Hans": "外汇市场欧元微跌、黄金回落；A股三大指数集体收跌；Fed 10月维持利率概率82%；中欧达成16点共识但贸易摩擦持续。",
+        "zh-Hant": "外匯市場歐元微跌、黃金回落；A股三大指數集體收跌；Fed 10月維持利率概率82%；中歐達成16點共識但貿易摩擦持續。"
+      },
+      "date": "2026-10-13",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macro Economy"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWpj8p73otP1gSVVMppHYYZTCLFhPPNWVbHHT0a9-EJjC"
+        }
+      }
+    },
+    {
       "slug": "2026-10-12-finance-daily",
       "title": {
         "en": "Daily Finance Brief | 2026-10-12",

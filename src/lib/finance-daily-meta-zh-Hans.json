@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-10-13-finance-daily",
+      "date": "2026-10-13",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macro Economy"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "每日财经简报 | 2026-10-13",
+      "description": "外汇市场欧元微跌、黄金回落；A股三大指数集体收跌；Fed 10月维持利率概率82%；中欧达成16点共识但贸易摩擦持续。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWpj8p73otP1gSVVMppHYYZTCLFhPPNWVbHHT0a9-EJjC"
+        }
+      }
+    },
+    {
       "slug": "2026-10-12-finance-daily",
       "date": "2026-10-12",
       "author": "瑞哥观势",

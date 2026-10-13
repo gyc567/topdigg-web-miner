@@ -1,6 +1,48 @@
 {
   "reports": [
     {
+      "slug": "2026-10-13-finance-daily",
+      "title": {
+        "en": "Daily Finance Briefing | 2026-10-13",
+        "ja": "デイリーファイナンスブリーフ | 2026-10-13",
+        "vi": "Bản Tin Tài Chính Hàng Ngày | 2026-10-13",
+        "zh-Hans": "每日财经简报 | 2026-10-13",
+        "zh-Hant": "每日財經簡報 | 2026-10-13"
+      },
+      "description": {
+        "en": "EUR slips, gold retreats; A-shares fall across the board; Fed holds rate at 82% probability; China-EU reach 16-point consensus but trade tensions persist.",
+        "ja": "EUR小幅下落、金価格下落；A股主要3指数揃って下落；Fed月内利率据え置き確率82%；中EU16項目コンセンサス届くも貿易摩擦続く。",
+        "vi": "EUR giảm nhẹ, vàng điều chỉnh; A-shares giảm toàn bộ; Fed giữ lãi suất 82% khả năng; Trung-EU đạt 16 điểm đồng thuận nhưng căng thẳng thương mại tiếp diễn.",
+        "zh-Hans": "外汇市场欧元微跌、黄金回落；A股三大指数集体收跌；Fed 10月维持利率概率82%；中欧达成16点共识但贸易摩擦持续。",
+        "zh-Hant": "外匯市場歐元微跌、黃金回落；A股三大指數集體收跌；Fed 10月維持利率概率82%；中歐達成16點共識但貿易摩擦持續。"
+      },
+      "content": {
+        "en": "\n# 【Daily Finance Briefing】Oct 13, 2026 08:30 (Beijing Time)\n\n## 📊 Forex Markets\n\n| Pair | Price | Change |\n|------|-------|--------|\n| EUR/USD | 1.1156 | -0.43% |\n| USD/JPY | 158.41 | +0.14% |\n| USD/CNH (mid-price) | 6.7313 | — |\n\nEUR edged lower, USD/JPY ticked up, CNH central parity fixed at 6.7313 — market awaits further policy signals.\n\n---\n\n## 📈 US Equities\n\n> US equity data temporarily unavailable due to API rate limiting. Please check Yahoo Finance for real-time quotes.\n\n🍎 **Apple (AAPL)**：$---（API限流）\n🚗 **Tesla (TSLA)**：$---（API限流）\n🔥 **NVIDIA (NVDA)**：$---（API限流）\n\n---\n\n## 🥇 🥈 Commodities\n\n**Gold (XAUUSD)**：$4,161.95/oz（-0.68%）\nSilver (XAGUSD)：$60.08/oz（-1.42%）\n\nGold pulled back modestly, silver down more — elevated volatility persists with safe-haven demand intact.\n\n---\n\n## 🏛 Central Banks & Policy\n\n🦅 **Fed**: Oct 28 FOMC meeting shows 82% probability of hold. Current target range: 3.75%-4.00%. Powell's recent tone leans hawkish, emphasizing data-dependence. Rate cut expectations cooling.\n\n🏰 **ECB**: Oct 29 meeting shows 92% probability of hold. Eurozone inflation remains sticky; Lagarde hints economic resilience supports hawkish stance.\n\n🇨🇳 **PBoC**: CNH mid-price fixed at 6.7313, regulators clearly intent on stability. China-US 8th round trade talks reached consensus on \"300B vs 300B\" mutual tariff reduction framework — trade relations showing marginal improvement.\n\n---\n\n## 🌐 Diplomacy & Major Events\n\n🗺 **China-US Trade Diplomacy**: Following May 2026 Beijing summit establishing an intergovernmental Trade Council, the Sept 20-23 8th round talks agreed on product lists for the tariff reduction framework. Bilateral trade slowly rebuilding amid ongoing博弈.\n\n🌐 **China-EU Trade**: Oct 8-9 talks produced a 16-point consensus on managing differences through dialogue — but simultaneously China launched anti-dumping investigation into EU p-nitrotoluene imports. October deadline passed; tensions unresolved.\n\n---\n\n## ⚠️ Disclaimer\n\nData for reference only, not investment advice.\n",
+        "ja": "\n# 【デイリーファイナンスブリーフ】2026年10月13日 08:30（北京時間）\n\n## 📊 外為市場\n\n| 通貨ペア | 価格 | 変動幅 |\n|------|------|--------|\n| EUR/USD | 1.1156 | -0.43% |\n| USD/JPY | 158.41 | +0.14% |\n| USD/CNH（仲値） | 6.7313 | — |\n\nEURが小幅下落、USD/JPYは小幅上昇、人民元仲値は6.7313で安定。市場はさらなる政策シグナルを待っている。\n\n---\n\n## 📈 米国株\n\n> APIレート制限により米国株データは一時的に取得できません。Yahoo Financeでリアルタイム行情をご確認ください。\n\n🍎 **Apple (AAPL)**：$---（API限流）\n🚗 **Tesla (TSLA)**：$---（API限流）\n🔥 **NVIDIA (NVDA)**：$---（API限流）\n\n---\n\n## 🥇 🥈 商品\n\n**金的（XAUUSD）**：$4,161.95/オンス（-0.68%）\n銀（XAGUSD）：$60.08/オンス（-1.42%）\n\n金が小幅反落、銀は更大な下落。高値保ち合い局面が続き、回避需要は依然として存在。\n\n---\n\n## 🏛 中央銀行と政策\n\n🦅 **FRB**：10月28日FOMC会議で据え置き確率が82%。現在のフェデラルファンド利率目標レンジは3.75%-4.00%。パウエル議長の最近の姿勢はタカ派寄りで、データ依存路線を強調。利下げ期待が後退。\n\n🏰 **ECB**：10月29日の会議で据え置き確率が92%。ユーロ圏のインフレ粘着性が続き、ラガルド理事は経済韧性からタカ派姿勢を維持を示唆。\n\n🇨🇳 **中国人民銀行**：人民元仲値は6.7313で表示、当局の汇率安定意图が明確。中米第8回经贸協議で「300億対300億」相互関税引き下げフレームワークに合意。貿易関係は改善の兆し。\n\n---\n\n## 🌐 外交と主要イベント\n\n🗺 **中米外交**：2026年5月の北京サミットで両国政府間貿易理事会設立で合意。9月20〜23日の第8回協議で関税引き下げ製品リストなどでコンセンサス。両国貿易は博弈の中でゆっくりと修復。\n\n🌐 **中EU貿易**：10月8〜9日の協議で16項目のコンセンサスに達し、対話を通じて经贸対立を管理することを確認。ただし中国は同時にEUからのp-ニトロトルエン輸入に対する反倾销調査を開始。10月の期限は過ぎだが対立は未解決。\n\n---\n\n## ⚠️ 免責事項\n\nデータは参考用であり、投資アドバイスを構成しません。\n",
+        "vi": "\n# 【Bản Tin Tài Chính Hàng Ngày】13/10/2026 08:30 (Giờ Bắc Kinh)\n\n## 📊 Thị Trường Ngoại Hối\n\n| Cặp | Giá | Thay Đổi |\n|------|------|--------|\n| EUR/USD | 1.1156 | -0.43% |\n| USD/JPY | 158.41 | +0.14% |\n| USD/CNH (tỷ giá trung tâm) | 6.7313 | — |\n\nEUR hơi suy yếu, USD/JPY tăng nhẹ, CNH neo ở 6.7313 — thị trường chờ thêm tín hiệu chính sách.\n\n---\n\n## 📈 Chứng Khoán Mỹ\n\n> Dữ liệu chứng khoán Mỹ tạm thời không khả dụng do giới hạn API. Vui lòng kiểm tra Yahoo Finance để biết giá realtime.\n\n🍎 **Apple (AAPL)**：$---（API限流）\n🚗 **Tesla (TSLA)**：$---（API限流）\n🔥 **NVIDIA (NVDA)**：$---（API限流）\n\n---\n\n## 🥇 🥈 Hàng Hóa\n\n**Vàng (XAUUSD)**：$4,161.95/oz（-0.68%）\nBạc (XAGUSD)：$60.08/oz（-1.42%）\n\nVàng điều chỉnh nhẹ, bạc giảm mạnh hơn — duy trì dao động quanh mức cao, nhu cầu trú ẩn vẫn còn.\n\n---\n\n## 🏛 Ngân Hàng Trung Ương & Chính Sách\n\n🦅 **Fed**: Cuộc họp FOMC 28/10 với xác suất giữ nguyên lãi suất 82%. Phạm vi mục tiêu hiện tại: 3.75%-4.00%. Powell gần đây nghiêng về diều hâu, nhấn mạnh lộ trình phụ thuộc dữ liệu. Kỳ vọng cắt giảm lãi suất giảm nhiệt.\n\n🏰 **ECB**: Cuộc họp 29/10 với xác suất giữ nguyên 92%. Lạm phát Eurozone vẫn dính chặt; Lagarde ám chỉ sự kiên cường kinh tế hỗ trợ lập trường diều hâu.\n\n🇨🇳 **PBoC**: Tỷ giá trung tâm CNH ở 6.7313, cơ quan quản lý thể hiện rõ ý định ổn định. Vòng đàm phán thương mại Trung-Mỹ thứ 8 đạt đồng thuận về khung giảm thuế quan \"300 tỷ đối 300 tỷ\" — quan hệ thương mại cải thiện mang tính cạnh.\n\n---\n\n## 🌐 Ngoại Giao & Sự Kiện Lớn\n\n🗺 **Ngoại Giao Trung-Mỹ**: Sau hội nghị thượng đỉnh Bắc Kinh tháng 5/2026 thiết lập Hội đồng Thương mại liên chính phủ, vòng đàm phán thứ 8 (20-23/9) đồng ý về danh sách sản phẩm giảm thuế. Thương mại song phương đang được phục hồi chậm rãi giữa các cuộc đàm phán.\n\n🌐 **Thương Mại Trung-EU**: Đàm phán 8-9/10 đạt 16 điểm đồng thuận về quản lý bất đồng qua đối thoại — nhưng đồng thời Trung Quốc khởi xướng điều tra chống bán phá giá đối với nhập khẩu p-nitrotoluene từ EU. Tháng 10 đã qua nhưng mâu thuẫn chưa được giải quyết.\n\n---\n\n## ⚠️ Tuyên Bố Miễn Trừ Trách Nhiệm\n\nDữ liệu chỉ mang tính tham khảo, không cấu thành lời khuyên đầu tư.\n",
+        "zh-Hans": "\n# 【每日财经简报】2026-10-13 08:30（北京时间）\n\n## 📊 外汇市场\n\n| 品种 | 价格 | 涨跌幅 |\n|------|------|--------|\n| EUR/USD | 1.1156 | -0.43% |\n| USD/JPY | 158.41 | +0.14% |\n| USD/CNH（中间价） | 6.7313 | — |\n\n欧元小幅走弱，美元兑日元微涨，人民币中间价持稳于6.7313，市场等待更多政策信号。\n\n---\n\n## 📈 美股焦点\n\n> 美股数据因API限流暂时获取受阻，以下为近期参考数据，建议登录Yahoo Finance查看实时行情。\n\n🍎 **Apple (AAPL)**：$---（API限流，数据暂缺）\n🚗 **Tesla (TSLA)**：$---（API限流，数据暂缺）\n🔥 **NVIDIA (NVDA)**：$---（API限流，数据暂缺）\n\n---\n\n## 🥇 🥈 大宗商品\n\n**黄金（XAUUSD）**：$4,161.95/盎司（-0.68%）\n白银（XAGUSD）：$60.08/盎司（-1.42%）\n\n黄金小幅回落，白银跌幅更大，整体维持高位震荡格局，避险需求仍在。\n\n---\n\n## 🏛 央行与政策\n\n🦅 **美联储动态**：Fed 10月28日FOMC会议维持利率不变概率达82%，当前联邦基金利率目标区间3.75%-4.00%。鲍威尔近期表态偏鹰，强调数据依赖路径。市场降息预期降温。\n\n🏰 **欧洲央行**：ECB 10月29日会议按兵不动概率高达92%，欧洲通胀粘性仍存，拉加德暗示经济韧性支撑鹰派立场。\n\n🇨🇳 **中国央行**：人民币中间价报6.7313，监管层维稳汇率意图明确。中美第8轮经贸磋商就\"300亿对300亿\"对等降税框架达成共识，贸易关系边际改善。\n\n---\n\n## 🌐 外交与大事件\n\n🗺 **中美元首外交**：2026年5月中美北京会晤后，双方建立政府间贸易理事会；9月20-23日第8轮经贸磋商就降税产品清单等达成共识，双边贸易格局持续博弈中缓慢修复。\n\n🌐 **中欧经贸**：10月8-9日中欧磋商达成16点共识，同意通过对话管控分歧；但中国同时启动对欧盟进口对硝基甲苯反倾销调查，双方博弈持续，10月大限已过但矛盾未解。\n\n---\n\n## ⚠️ 免责声明\n\n数据仅供参考，不构成投资建议。\n",
+        "zh-Hant": "\n# 【每日財經簡報】2026-10-13 08:30（北京時間）\n\n## 📊 外匯市場\n\n| 品種 | 價格 | 漲跌幅 |\n|------|------|--------|\n| EUR/USD | 1.1156 | -0.43% |\n| USD/JPY | 158.41 | +0.14% |\n| USD/CNH（中間價） | 6.7313 | — |\n\n歐元小幅走弱，美元兌日元微漲，人民幣中間價持穩於6.7313，市場等待更多政策信號。\n\n---\n\n## 📈 美股焦點\n\n> 美股數據因API限流暫時獲取受阻，以下為近期參考數據，建議登錄Yahoo Finance查看即時行情。\n\n🍎 **Apple (AAPL)**：$---（API限流，數據暫缺）\n🚗 **Tesla (TSLA)**：$---（API限流，數據暫缺）\n🔥 **NVIDIA (NVDA)**：$---（API限流，數據暫缺）\n\n---\n\n## 🥇 🥈 大宗商品\n\n**黃金（XAUUSD）**：$4,161.95/盎司（-0.68%）\n白銀（XAGUSD）：$60.08/盎司（-1.42%）\n\n黃金小幅回落，白銀跌幅更大，整體維持高位震盪格局，避險需求仍在。\n\n---\n\n## 🏛 央行與政策\n\n🦅 **美聯儲動態**：Fed 10月28日FOMC會議維持利率不變概率達82%，當前聯邦基金利率目標區間3.75%-4.00%。鮑威爾近期表態偏鷹，強調數據依賴路徑。市場降息預期降溫。\n\n🏰 **歐洲央行**：ECB 10月29日會議按兵不動概率高達92%，歐洲通脹粘性仍存，拉加德暗示經濟韌性支撐鷹派立場。\n\n🇨🇳 **中國央行**：人民幣中間價報6.7313，監管層維穩匯率意圖明確。中美第8輪經貿磋商就「300億對300億」對等降稅框架達成共識，貿易關係邊際改善。\n\n---\n\n## 🌐 外交與大事件\n\n🗺 **中美元首外交**：2026年5月中美北京會晤後，雙方建立政府間貿易理事會；9月20-23日第8輪經貿磋商就降稅產品清單等達成共識，雙邊貿易格局持續博弈中緩慢修復。\n\n🌐 **中歐經貿**：10月8-9日中歐磋商達成16點共識，同意通過對話管控分歧；但中國同時啟動對歐盟進口對硝基甲苯反傾銷調查，雙方博弈持續，10月大限已過但矛盾未解。\n\n---\n\n## ⚠️ 免責聲明\n\n數據僅供參考，不構成投資建議。\n"
+      },
+      "date": "2026-10-13",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macro Economy"
+      ],
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWpj8p73otP1gSVVMppHYYZTCLFhPPNWVbHHT0a9-EJjC"
+        }
+      }
+    },
+    {
       "slug": "2026-10-12-finance-daily",
       "title": {
         "en": "Daily Finance Brief | 2026-10-12",
