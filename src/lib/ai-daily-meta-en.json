@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-13-ai-daily",
+      "date": "2026-10-13",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Meta Releases Muse Wonder and Muse Wonder Full, Artificial Analysis Shows Significant Intelligence Gains",
+      "description": "Meta releases Muse Wonder and Muse Wonder Full models, scoring 52 and 56 respectively on the Artificial Analysis Intelligence Index v4.3 (max reasoning effort), marking significant intelligence improvements over previous generations.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-12-ai-daily",
       "date": "2026-10-12",
       "author": "瑞哥观势",
@@ -663,29 +686,6 @@
         "aggregator_url": "https://aihot.virxact.com",
         "original": {
           "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-07-ai-daily",
-      "date": "2026-09-07",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "OpenAI Research Acceleration Report: Automated Research Intern Goal Achieved, AI Researcher Target Set for March 2028",
-      "description": "OpenAI published its research acceleration report, announcing it has achieved the automated research intern goal set last fall, with plans to build an automated AI researcher by March 2028.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "Bit Finance",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }

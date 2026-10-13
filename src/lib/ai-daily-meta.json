@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-10-13-ai-daily",
+      "title": {
+        "en": "Meta Releases Muse Wonder and Muse Wonder Full, Artificial Analysis Shows Significant Intelligence Gains",
+        "ja": "Meta が Muse Wonder と Muse Wonder Full をリリース、Artificial Analysis の実測で前世代から智能が大幅向上",
+        "vi": "Meta Phát Hành Muse Wonder và Muse Wonder Full, Artificial Analysis Đo Mức Trí Tuệ Tăng Vọt So Với Thế Hệ Trước",
+        "zh-Hans": "Meta 发布 Muse Wonder 和 Muse Wonder Full，Artificial Analysis 实测智能水平较前代显著提升",
+        "zh-Hant": "Meta 發布 Muse Wonder 和 Muse Wonder Full，Artificial Analysis 實測智能水平較前代顯著提升"
+      },
+      "description": {
+        "en": "Meta releases Muse Wonder and Muse Wonder Full models, scoring 52 and 56 respectively on the Artificial Analysis Intelligence Index v4.3 (max reasoning effort), marking significant intelligence improvements over previous generations.",
+        "ja": "Meta が Muse Wonder と Muse Wonder Full の2モデルをリリースし、Artificial Analysis Intelligence Index v4.3 でそれぞれ52点と56点（max reasoning effort）を記録。前世代から显著に智能が向上している。",
+        "vi": "Meta phát hành hai mô hình Muse Wonder và Muse Wonder Full, đạt lần lượt 52 và 56 điểm trên Artificial Analysis Intelligence Index v4.3 (max reasoning effort), cho thấy mức trí tuệ tăng vượt trội so với thế hệ trước.",
+        "zh-Hans": "Meta 发布 Muse Wonder 和 Muse Wonder Full 两款模型，在 Artificial Analysis Intelligence Index v4.3 上分别得 52 和 56 分（max reasoning effort），智能水平较前代显著提升。",
+        "zh-Hant": "Meta 發布 Muse Wonder 和 Muse Wonder Full 兩款模型，在 Artificial Analysis Intelligence Index v4.3 上分別得 52 和 56 分（max reasoning effort），智能水平較前代顯著提升。"
+      },
+      "date": "2026-10-13",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": {
+            "en": "比特财商",
+            "ja": "比特财商",
+            "vi": "比特财商",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特财商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-10-12-ai-daily",
       "title": {
         "en": "GPT-6.1 Sol Default Context Length Increased to 500k in Codex and Work",
