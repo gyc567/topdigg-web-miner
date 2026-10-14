@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-10-14-finance-daily",
+      "title": {
+        "en": "Daily Finance Briefing | 2026-10-14",
+        "ja": "デイリー金融ブリーフィング | 2026-10-14",
+        "vi": "Bản Tin Tài Chính Hàng Ngày | 2026-10-14",
+        "zh-Hans": "每日财经简报 | 2026-10-14",
+        "zh-Hant": "每日財經簡報 | 2026-10-14"
+      },
+      "description": {
+        "en": "Global market roundup for Oct 14: USD steady, gold holds highs, AAPL and NVDA push to new highs; ECB inflation jumps, Fed rate-hike expectations rise, China-EU trade frictions escalate, Iran Hormuz standoff continues.",
+        "ja": "10月14日グローバル市場概況：ドルはもみ合い金は高値維持、AAPL・NVDAは最高値圏、ECBインフレ急上昇・Fed利上げ観測、中EU貿易摩擦激化、イラン・ホルムズ海峡対立継続。",
+        "vi": "Tổng quan thị trường toàn cầu ngày 14/10: USD đi ngang, vàng giữ đỉnh, AAPL và NVDA tiến tới đỉnh mới; lạm phát ECB tăng vọt, kỳ vọng Fed tăng lãi suất dâng cao, căng thẳng thương mại Trung-Quốc EU leo thang, bế tắc eo biển Hormuz Iran tiếp diễn.",
+        "zh-Hans": "10月14日全球市场综述：美元震荡、黄金高位企稳，苹果英伟达续创新高；ECB通胀跳升、Fed加息预期升温，中欧贸易摩擦升级，伊朗霍尔木兹海峡僵局持续。",
+        "zh-Hant": "10月14日全球市場綜述：美元震盪、黃金高位企穩，蘋果輝達續創新高；ECB通膨跳升、Fed升息預期升溫，中歐貿易摩擦升級，伊朗荷莫茲海峽僵局持續。"
+      },
+      "date": "2026-10-14",
+      "author": "瑞哥观势",
+      "tags": [
+        "finance briefing",
+        "macro economy",
+        "forex",
+        "US stocks",
+        "central banks"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "source": {
+        "original": {
+          "name": {
+            "en": "Ruige Observer",
+            "ja": "瑞哥観勢",
+            "vi": "Ruige Quan The",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-13-finance-daily",
       "title": {
         "en": "Daily Finance Briefing | 2026-10-13",

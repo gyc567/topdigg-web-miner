@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-14-finance-daily",
+      "date": "2026-10-14",
+      "author": "瑞哥观势",
+      "tags": [
+        "finance briefing",
+        "macro economy",
+        "forex",
+        "US stocks",
+        "central banks"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "每日財經簡報 | 2026-10-14",
+      "description": "10月14日全球市場綜述：美元震盪、黃金高位企穩，蘋果輝達續創新高；ECB通膨跳升、Fed升息預期升溫，中歐貿易摩擦升級，伊朗荷莫茲海峽僵局持續。",
+      "source": {
+        "original": {
+          "name": "瑞哥觀勢",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-13-finance-daily",
       "date": "2026-10-13",
       "author": "瑞哥观势",

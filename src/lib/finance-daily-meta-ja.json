@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-14-finance-daily",
+      "date": "2026-10-14",
+      "author": "瑞哥观势",
+      "tags": [
+        "finance briefing",
+        "macro economy",
+        "forex",
+        "US stocks",
+        "central banks"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "デイリー金融ブリーフィング | 2026-10-14",
+      "description": "10月14日グローバル市場概況：ドルはもみ合い金は高値維持、AAPL・NVDAは最高値圏、ECBインフレ急上昇・Fed利上げ観測、中EU貿易摩擦激化、イラン・ホルムズ海峡対立継続。",
+      "source": {
+        "original": {
+          "name": "瑞哥観勢",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-13-finance-daily",
       "date": "2026-10-13",
       "author": "瑞哥观势",

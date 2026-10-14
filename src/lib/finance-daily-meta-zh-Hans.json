@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-14-finance-daily",
+      "date": "2026-10-14",
+      "author": "瑞哥观势",
+      "tags": [
+        "finance briefing",
+        "macro economy",
+        "forex",
+        "US stocks",
+        "central banks"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "每日财经简报 | 2026-10-14",
+      "description": "10月14日全球市场综述：美元震荡、黄金高位企稳，苹果英伟达续创新高；ECB通胀跳升、Fed加息预期升温，中欧贸易摩擦升级，伊朗霍尔木兹海峡僵局持续。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-13-finance-daily",
       "date": "2026-10-13",
       "author": "瑞哥观势",

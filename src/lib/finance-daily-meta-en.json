@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-14-finance-daily",
+      "date": "2026-10-14",
+      "author": "瑞哥观势",
+      "tags": [
+        "finance briefing",
+        "macro economy",
+        "forex",
+        "US stocks",
+        "central banks"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "Daily Finance Briefing | 2026-10-14",
+      "description": "Global market roundup for Oct 14: USD steady, gold holds highs, AAPL and NVDA push to new highs; ECB inflation jumps, Fed rate-hike expectations rise, China-EU trade frictions escalate, Iran Hormuz standoff continues.",
+      "source": {
+        "original": {
+          "name": "Ruige Observer",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-13-finance-daily",
       "date": "2026-10-13",
       "author": "瑞哥观势",
