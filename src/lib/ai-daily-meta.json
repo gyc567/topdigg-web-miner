@@ -1,6 +1,76 @@
 {
   "reports": [
     {
+      "slug": "2026-10-15-ai-daily",
+      "title": {
+        "en": "Gemini 4 Argon Now Available to Global Google AI Pro and Ultra Subscribers",
+        "ja": "Gemini 4 Argon が世界の Google AI Pro および Ultra  加入者に開放",
+        "vi": "Gemini 4 Argon Mở Cửa Cho Người Đăng Ký Google AI Pro Và Ultra Toàn Cầu",
+        "zh-Hans": "Gemini 4 Argon 向全球 Google AI Pro 和 Ultra 订阅者开放",
+        "zh-Hant": "Gemini 4 Argon 向全球 Google AI Pro 和 Ultra 訂閱者開放"
+      },
+      "description": {
+        "en": "Gemini officially announced Gemini 4 Argon is now available to global Google AI Pro and Ultra subscribers, a frontier model for complex tasks.",
+        "ja": "Gemini は、Gemini 4 Argon が世界の Google AI Pro および Ultra 加入者に開放されたことを正式に発表。複雑なタスクに対応するフロンティアモデルが世界上線。",
+        "vi": "Gemini chính thức thông báo Gemini 4 Argon đã mở cửa cho người đăng ký Google AI Pro và Ultra toàn cầu, model tiên phong xử lý các tác vụ phức tạp.",
+        "zh-Hans": "Gemini 官方宣布 Gemini 4 Argon 已向全球 Google AI Pro 和 Ultra 订阅者开放，处理复杂任务的前沿模型正式全球上线。",
+        "zh-Hant": "Gemini 官方宣布 Gemini 4 Argon 已向全球 Google AI Pro 和 Ultra 訂閱者開放，處理複雜任務的前沿模型正式全球上線。"
+      },
+      "date": "2026-10-15",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "比特财商",
+            "ja": "比特财商",
+            "vi": "比特财商",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特財商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
+      "slug": "2026-10-14-ai-daily",
+      "title": {
+        "zh-Hans": "Google 发布 Gemini 4 Argon：面向复杂工程与科研任务的前沿模型"
+      },
+      "description": {
+        "zh-Hans": "Google 发布 Gemini 4 Argon，面向开发者、企业、科学家和消费者全球开放，可经 Gemini API、AI Studio、Google Antigravity。"
+      },
+      "date": "2026-10-14",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "zh-Hans": "比特财商"
+          },
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247499456&idx=1&sn=03da7aed4dabbd4fca5c89ce88d4a90a"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-10-13-ai-daily",
       "title": {
         "en": "Meta Releases Muse Wonder and Muse Wonder Full, Artificial Analysis Shows Significant Intelligence Gains",

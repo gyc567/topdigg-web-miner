@@ -1,6 +1,52 @@
 {
   "reports": [
     {
+      "slug": "2026-10-15-ai-daily",
+      "date": "2026-10-15",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Gemini 4 Argon Mở Cửa Cho Người Đăng Ký Google AI Pro Và Ultra Toàn Cầu",
+      "description": "Gemini chính thức thông báo Gemini 4 Argon đã mở cửa cho người đăng ký Google AI Pro và Ultra toàn cầu, model tiên phong xử lý các tác vụ phức tạp.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-10-14-ai-daily",
+      "date": "2026-10-14",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Google 发布 Gemini 4 Argon：面向复杂工程与科研任务的前沿模型",
+      "description": "Google 发布 Gemini 4 Argon，面向开发者、企业、科学家和消费者全球开放，可经 Gemini API、AI Studio、Google Antigravity。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247499456&idx=1&sn=03da7aed4dabbd4fca5c89ce88d4a90a"
+        }
+      }
+    },
+    {
       "slug": "2026-10-13-ai-daily",
       "date": "2026-10-13",
       "author": "瑞哥观势",
@@ -635,52 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "DeepSeek Phát Hành V4.1-Flash, Giá API Đồng Thời Giảm",
       "description": "DeepSeek phát hành DeepSeek-V4.1-Flash, model nhỏ nhất trong series cấu trúc model mới, có khả năng hiểu hình ảnh đa chế độ native, hiệu suất benchmark xuất sắc, giá API đồng thời được điều chỉnh giảm.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-10-ai-daily",
-      "date": "2026-09-10",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "OpenAI phát hành GPT-6 Astra cho các kịch bản công việc chuyên nghiệp",
-      "description": "OpenAI phát hành GPT-6 Astra, hiện đã có trên ChatGPT Work, Codex và API, với giá $10/m triệu token đầu vào và $50/m triệu token đầu ra.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-09-ai-daily",
-      "date": "2026-09-09",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "OpenAI Ra Mắt Mô Hình Hình Ảnh ChatGPT Images 2.5",
-      "description": "OpenAI ra mắt ChatGPT Images 2.5 — độ trễ tạo sinh giảm tới 50% so với Images 2.0, cùng cải thiện về chi tiết, độ chính xác chỉnh sửa, độ trung thực ảnh tham chiếu và tính nhất quán qua nhiều vòng.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",
