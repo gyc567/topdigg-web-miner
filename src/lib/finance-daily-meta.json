@@ -1,6 +1,44 @@
 {
   "reports": [
     {
+      "slug": "2026-10-15-finance-daily",
+      "title": {
+        "en": "Daily Finance Brief | 2026-10-15",
+        "ja": "金融日々レポート | 2026-10-15",
+        "vi": "Bản Tin Tài Chính Hàng Ngày | 2026-10-15",
+        "zh-Hans": "每日财经简报 | 2026-10-15",
+        "zh-Hant": "每日財經簡報 | 2026-10-15"
+      },
+      "description": {
+        "en": "FX: EUR/USD 1.1202, USD/JPY 157.79; US Stocks: AAPL +0.49% at $342.96, TSLA -2.15%, NVDA -3.16%; Gold $4,142.70/oz小幅回调；Fed holds rates, China-US leaders call restarts trade talks.",
+        "ja": "外国為替：EUR/USD 1.1202、USD/JPY 157.79；米国株：AAPL +0.49%の$342.96、TSLA -2.15%、NVDA -3.16%；金$4142.70/オンス小幅下落；米FRBは据え置き、中米首脳電話で貿易交渉再開。",
+        "vi": "Ngoại hối: EUR/USD 1.1202, USD/JPY 157.79; Chứng khoán Mỹ: AAPL +0.49% tại $342.96, TSLA -2.15%, NVDA -3.16%; Vàng $4,142.70/oz điều chỉnh nhẹ; Fed giữ lãi suất, lãnh đạo Trung-Mỹ nối lại đàm phán thương mại.",
+        "zh-Hans": "外汇市场：EUR/USD 1.1202，USD/JPY 157.79；美股：苹果微涨0.49%至$342.96，特斯拉跌2.15%，英伟达跌3.16%；黄金$4142.70/盎司小幅回调；美联储按兵不动，中美元首通话重启贸易磋商。",
+        "zh-Hant": "外匯市場：EUR/USD 1.1202，USD/JPY 157.79；美股：蘋果微漲0.49%至$342.96，特斯拉跌2.15%，輝達跌3.16%；黃金$4142.70/盎司小幅回調；美聯儲按兵不動，中美元首通話重啟貿易磋商。"
+      },
+      "date": "2026-10-15",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macro Economy"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWqnaVEA5uuu_cnsgy1djwxUdxyDwyuzL57SWHGEXOuQP"
+        }
+      }
+    },
+    {
       "slug": "2026-10-14-finance-daily",
       "title": {
         "en": "Daily Finance Briefing | 2026-10-14",

@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-10-15-finance-daily",
+      "date": "2026-10-15",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macro Economy"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "金融日々レポート | 2026-10-15",
+      "description": "外国為替：EUR/USD 1.1202、USD/JPY 157.79；米国株：AAPL +0.49%の$342.96、TSLA -2.15%、NVDA -3.16%；金$4142.70/オンス小幅下落；米FRBは据え置き、中米首脳電話で貿易交渉再開。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWqnaVEA5uuu_cnsgy1djwxUdxyDwyuzL57SWHGEXOuQP"
+        }
+      }
+    },
+    {
       "slug": "2026-10-14-finance-daily",
       "date": "2026-10-14",
       "author": "瑞哥观势",

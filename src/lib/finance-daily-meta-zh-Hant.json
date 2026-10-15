@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-10-15-finance-daily",
+      "date": "2026-10-15",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macro Economy"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "每日財經簡報 | 2026-10-15",
+      "description": "外匯市場：EUR/USD 1.1202，USD/JPY 157.79；美股：蘋果微漲0.49%至$342.96，特斯拉跌2.15%，輝達跌3.16%；黃金$4142.70/盎司小幅回調；美聯儲按兵不動，中美元首通話重啟貿易磋商。",
+      "source": {
+        "original": {
+          "name": "瑞哥觀勢",
+          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWqnaVEA5uuu_cnsgy1djwxUdxyDwyuzL57SWHGEXOuQP"
+        }
+      }
+    },
+    {
       "slug": "2026-10-14-finance-daily",
       "date": "2026-10-14",
       "author": "瑞哥观势",
