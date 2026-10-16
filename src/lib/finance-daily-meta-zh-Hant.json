@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-10-16-finance-daily",
+      "date": "2026-10-16",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macro Economy"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "每日財經簡報 | 2026-10-16",
+      "description": "外匯市場美元高檔震盪，EUR/USD報1.1212；美股三大指數回調，NVDA跌1.84%領跌；黃金突破4150美元再創新高；美聯儲按兵不動，年內降息預期降溫；中歐貿易摩擦持續升級。",
+      "source": {
+        "original": {
+          "name": "瑞哥觀勢",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-15-finance-daily",
       "date": "2026-10-15",
       "author": "瑞哥观势",

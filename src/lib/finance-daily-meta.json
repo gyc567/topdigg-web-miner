@@ -1,6 +1,44 @@
 {
   "reports": [
     {
+      "slug": "2026-10-16-finance-daily",
+      "title": {
+        "en": "Daily Finance Briefing | 2026-10-16",
+        "ja": "デイリーフィナンスブリーフ | 2026-10-16",
+        "vi": "Bản Tin Tài Chính Hàng Ngày | 2026-10-16",
+        "zh-Hans": "每日财经简报 | 2026-10-16",
+        "zh-Hant": "每日財經簡報 | 2026-10-16"
+      },
+      "description": {
+        "en": "USD holds firm in forex markets, EUR/USD at 1.1212; US stocks retreat with NVDA down 1.84%; Gold surges past $4,150 to new high; Fed stays on hold with rate-cut expectations cooling; China-EU trade tensions escalate.",
+        "ja": "外国為替市場でドル高継続、EUR/USDは1.1212；米国株はNVDAが1.84%安で下落；金が4150ドル突破で過去最高値更新；FRBは現行水準維持、降息期待が後退；中欧貿易摩擦が深刻化。",
+        "vi": "Đô la Mỹ duy trì cao trên thị trường ngoại hối, EUR/USD ở mức 1.1212; Chứng khoán Mỹ giảm với NVDA dẫn đầu -1.84%; Vàng vượt $4.150 lập đỉnh mới; Fed giữ nguyên lãi suất, kỳ vọng cắt giảm giảm; Ma sát thương mại Trung-EU leo thang.",
+        "zh-Hans": "外汇市场美元高位震荡，EUR/USD报1.1212；美股三大指数回调，NVDA跌1.84%领跌；黄金突破4150美元再创新高；美联储按兵不动，年内降息预期降温；中欧贸易摩擦持续升级。",
+        "zh-Hant": "外匯市場美元高檔震盪，EUR/USD報1.1212；美股三大指數回調，NVDA跌1.84%領跌；黃金突破4150美元再創新高；美聯儲按兵不動，年內降息預期降溫；中歐貿易摩擦持續升級。"
+      },
+      "date": "2026-10-16",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macro Economy"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-15-finance-daily",
       "title": {
         "en": "Daily Finance Brief | 2026-10-15",

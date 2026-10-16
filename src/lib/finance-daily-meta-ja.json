@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-10-16-finance-daily",
+      "date": "2026-10-16",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macro Economy"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "デイリーフィナンスブリーフ | 2026-10-16",
+      "description": "外国為替市場でドル高継続、EUR/USDは1.1212；米国株はNVDAが1.84%安で下落；金が4150ドル突破で過去最高値更新；FRBは現行水準維持、降息期待が後退；中欧貿易摩擦が深刻化。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-15-finance-daily",
       "date": "2026-10-15",
       "author": "瑞哥观势",

@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-10-16-finance-daily",
+      "date": "2026-10-16",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macro Economy"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "Bản Tin Tài Chính Hàng Ngày | 2026-10-16",
+      "description": "Đô la Mỹ duy trì cao trên thị trường ngoại hối, EUR/USD ở mức 1.1212; Chứng khoán Mỹ giảm với NVDA dẫn đầu -1.84%; Vàng vượt $4.150 lập đỉnh mới; Fed giữ nguyên lãi suất, kỳ vọng cắt giảm giảm; Ma sát thương mại Trung-EU leo thang.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-15-finance-daily",
       "date": "2026-10-15",
       "author": "瑞哥观势",

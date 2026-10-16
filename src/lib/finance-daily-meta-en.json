@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-10-16-finance-daily",
+      "date": "2026-10-16",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macro Economy"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "Daily Finance Briefing | 2026-10-16",
+      "description": "USD holds firm in forex markets, EUR/USD at 1.1212; US stocks retreat with NVDA down 1.84%; Gold surges past $4,150 to new high; Fed stays on hold with rate-cut expectations cooling; China-EU trade tensions escalate.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-15-finance-daily",
       "date": "2026-10-15",
       "author": "瑞哥观势",
