@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-16-ai-daily",
+      "date": "2026-10-16",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Meta Phát Hành Mô Hình Open-Weight Muse Spark Open: 816B Tham Số, 1M Context",
+      "description": "Meta phát hành mô hình open-weight Muse Spark Open với 816B tổng tham số, 42B active, 1M token context, hướng đến workflow coding và agent, hỗ trợ đa phương thức native và tăng cường safety post-training.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "比特财商",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-15-ai-daily",
       "date": "2026-10-15",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Báo cáo mối đe dọa của Anthropic tiết lộ Claude bị sử dụng cho phần mềm gián điệp, tên lửa và phát triển drone, các phòng thí nghiệm Trung Quốc tiến hành trích xuất dữ liệu quy mô lớn",
       "description": "Anthropic công bố báo cáo tình báo mối đe dọa ghi nhận bảy loại hành vi lạm dụng Claude trong khoảng tháng 12/2025 đến tháng 8/2026, bao gồm các nhóm gián điệp Nga sử dụng tác tử AI để viết lại phần mềm độc hại, tổ chức Yemen sử dụng Claude Code để phát triển phần mềm tên lửa.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-11-ai-daily",
-      "date": "2026-09-11",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "DeepSeek Phát Hành V4.1-Flash, Giá API Đồng Thời Giảm",
-      "description": "DeepSeek phát hành DeepSeek-V4.1-Flash, model nhỏ nhất trong series cấu trúc model mới, có khả năng hiểu hình ảnh đa chế độ native, hiệu suất benchmark xuất sắc, giá API đồng thời được điều chỉnh giảm.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

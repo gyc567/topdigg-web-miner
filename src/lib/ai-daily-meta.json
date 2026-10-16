@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-10-16-ai-daily",
+      "title": {
+        "en": "Meta Releases Open-Weight Model Muse Spark Open: 816B Parameters, 1M Context",
+        "ja": "Meta、オープンウェイトモデル Muse Spark Open を発表 — 816B パラメータ、1M コンテキスト",
+        "vi": "Meta Phát Hành Mô Hình Open-Weight Muse Spark Open: 816B Tham Số, 1M Context",
+        "zh-Hans": "Meta 发布开源权重模型 Muse Spark Open，816B 参数、1M 上下文",
+        "zh-Hant": "Meta 發布開源權重模型 Muse Spark Open，816B 參數、1M 上下文"
+      },
+      "description": {
+        "en": "Meta releases open-weight model Muse Spark Open with 816B total parameters, 42B active, 1M token context, targeting coding and agent workflows with native multimodal support and enhanced safety post-training.",
+        "ja": "Meta がオープンウェイトモデル Muse Spark Open を発表。816B 総パラメータ、42B アクティブ、1M トークン コンテキストで、コーディングとエージェント ワークフローを対象とし、ネイティブマルチモーダルと安全ポストライニングを強化。",
+        "vi": "Meta phát hành mô hình open-weight Muse Spark Open với 816B tổng tham số, 42B active, 1M token context, hướng đến workflow coding và agent, hỗ trợ đa phương thức native và tăng cường safety post-training.",
+        "zh-Hans": "Meta 发布开源权重模型 Muse Spark Open，816B 参数、1M 上下文、42B 激活参数，面向编码与智能体工作流，原生多模态并增加安全后训练。",
+        "zh-Hant": "Meta 發布開源權重模型 Muse Spark Open，816B 參數、1M 上下文、42B 激活參數，面向編碼與智慧體工作流，原生多模態並增加安全後訓練。"
+      },
+      "date": "2026-10-16",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "比特财商",
+            "ja": "比特财商",
+            "vi": "比特财商",
+            "zh-Hans": "比特财商",
+            "zh-Hant": "比特財商"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-10-15-ai-daily",
       "title": {
         "en": "Gemini 4 Argon Now Available to Global Google AI Pro and Ultra Subscribers",
