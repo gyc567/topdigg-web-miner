@@ -1,6 +1,44 @@
 {
   "reports": [
     {
+      "slug": "2026-10-17-finance-daily",
+      "title": {
+        "en": "Daily Finance Brief | 2026-10-17",
+        "ja": "デイリーファイナンスブリーフ | 2026-10-17",
+        "vi": "Bản Tin Tài Chính Hàng Ngày | 2026-10-17",
+        "zh-Hans": "每日财经简报 | 2026-10-17",
+        "zh-Hant": "每日財經簡報 | 2026-10-17"
+      },
+      "description": {
+        "en": "Euro gains modestly, Gold plunges 1.27% with wild intraday swings; Fed officials signal rates to stay higher for longer, China-US hold informal high-level talks with trade friction management as key focus.",
+        "ja": "ユーロ小幅高、黄金は週末に激しく乱高下し1.27%下落；Fed高官が利率長引きを示唆、中米が非公式高位接触、貿易摩擦管理が焦点に。",
+        "vi": "Euro tăng nhẹ, Vàng lao dốc 1.27% với biến động mạnh trong ngày; quan chức Fed ám chỉ lãi suất duy trì cao lâu hơn, Mỹ-Trung tổ chức tiếp xúc cấp cao không chính thức, quản lý ma sát thương mại là trọng tâm.",
+        "zh-Hans": "欧元小幅走强，黄金周五盘中巨震收跌1.27%；Fed官员密集发声暗示利率维持高位更长时间，中美本周举行非正式高层接触，经贸摩擦管控成为焦点。",
+        "zh-Hant": "歐元小幅走強，黃金週五盤中巨震收跌1.27%；Fed官員密集發聲暗示利率維持高位更長時間，中美本週舉行非正式高層接觸，經貿摩擦管控成為焦點。"
+      },
+      "date": "2026-10-17",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomy"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-16-finance-daily",
       "title": {
         "en": "Daily Finance Briefing | 2026-10-16",

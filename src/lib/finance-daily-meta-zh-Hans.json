@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-10-17-finance-daily",
+      "date": "2026-10-17",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomy"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "每日财经简报 | 2026-10-17",
+      "description": "欧元小幅走强，黄金周五盘中巨震收跌1.27%；Fed官员密集发声暗示利率维持高位更长时间，中美本周举行非正式高层接触，经贸摩擦管控成为焦点。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-16-finance-daily",
       "date": "2026-10-16",
       "author": "瑞哥观势",

@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-10-17-finance-daily",
+      "date": "2026-10-17",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomy"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "每日財經簡報 | 2026-10-17",
+      "description": "歐元小幅走強，黃金週五盤中巨震收跌1.27%；Fed官員密集發聲暗示利率維持高位更長時間，中美本週舉行非正式高層接觸，經貿摩擦管控成為焦點。",
+      "source": {
+        "original": {
+          "name": "瑞哥觀勢",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-16-finance-daily",
       "date": "2026-10-16",
       "author": "瑞哥观势",

@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-10-17-finance-daily",
+      "date": "2026-10-17",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomy"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "デイリーファイナンスブリーフ | 2026-10-17",
+      "description": "ユーロ小幅高、黄金は週末に激しく乱高下し1.27%下落；Fed高官が利率長引きを示唆、中米が非公式高位接触、貿易摩擦管理が焦点に。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-16-finance-daily",
       "date": "2026-10-16",
       "author": "瑞哥观势",

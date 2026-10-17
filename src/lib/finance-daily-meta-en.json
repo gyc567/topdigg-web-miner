@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-10-17-finance-daily",
+      "date": "2026-10-17",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomy"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "Daily Finance Brief | 2026-10-17",
+      "description": "Euro gains modestly, Gold plunges 1.27% with wild intraday swings; Fed officials signal rates to stay higher for longer, China-US hold informal high-level talks with trade friction management as key focus.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-16-finance-daily",
       "date": "2026-10-16",
       "author": "瑞哥观势",

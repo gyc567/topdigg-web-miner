@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-10-17-finance-daily",
+      "date": "2026-10-17",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomy"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "Bản Tin Tài Chính Hàng Ngày | 2026-10-17",
+      "description": "Euro tăng nhẹ, Vàng lao dốc 1.27% với biến động mạnh trong ngày; quan chức Fed ám chỉ lãi suất duy trì cao lâu hơn, Mỹ-Trung tổ chức tiếp xúc cấp cao không chính thức, quản lý ma sát thương mại là trọng tâm.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-16-finance-daily",
       "date": "2026-10-16",
       "author": "瑞哥观势",
