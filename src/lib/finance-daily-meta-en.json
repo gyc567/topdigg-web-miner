@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-18-finance-daily",
+      "date": "2026-10-18",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomy",
+        "US Stocks",
+        "Forex",
+        "Commodities"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "Daily Finance Briefing | 2026-10-18",
+      "description": "Global markets closed for weekend. US stocks mixed on Friday: AAPL +0.43% to $343, TSLA -2.13% to $354, NVDA -1.43% to $214; Gold broke above $4160/oz; China SSE rose 0.24%; Fed officials hawkish, year-end rate cut expectations cooling.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWgulAfP-eEgqflQPA2Wbmv7TK1GqFOetp2NFdf4RgBMG"
+        }
+      }
+    },
+    {
       "slug": "2026-10-17-finance-daily",
       "date": "2026-10-17",
       "author": "瑞哥观势",

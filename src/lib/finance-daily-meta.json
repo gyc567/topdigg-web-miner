@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-10-18-finance-daily",
+      "title": {
+        "en": "Daily Finance Briefing | 2026-10-18",
+        "ja": "デイリーファイナンスブリーフ | 2026-10-18",
+        "vi": "Bản Tin Tài Chính Hàng Ngày | 2026-10-18",
+        "zh-Hans": "每日财经简报 | 2026-10-18",
+        "zh-Hant": "每日財經簡報 | 2026-10-18"
+      },
+      "description": {
+        "en": "Global markets closed for weekend. US stocks mixed on Friday: AAPL +0.43% to $343, TSLA -2.13% to $354, NVDA -1.43% to $214; Gold broke above $4160/oz; China SSE rose 0.24%; Fed officials hawkish, year-end rate cut expectations cooling.",
+        "ja": "週末でグローバル市場が休場。米国株は金曜にまちまち：AAPLが$343（+0.43％）、TSLAが$354（-2.13％）、NVDAが$214（-1.43％）；金価格は$4160/oz突破；中国SSEは0.24％上昇；米FRB高官がタカ派発言、年内の利下げ期待が後退。",
+        "vi": "Thị trường toàn cầu nghỉ cuối tuần. Chứng khoán Mỹ trái chiều thứ 6: AAPL +0.43% lên $343, TSLA -2.13% xuống $354, NVDA -1.43% xuống $214; Vàng vượt $4160/oz; Trung Quốc SSE tăng 0.24%; quan chức Fed phát biểu diều hâu, kỳ vọng cắt giảm lãi suất năm nay giảm nhiệt.",
+        "zh-Hans": "周末全球市场休市，美股周五涨跌互现：AAPL涨0.43%至$343，TSLA跌2.13%至$354，NVDA跌1.43%至$214；黄金突破$4160/oz；A股上证小幅反弹0.24%；美联储官员密集发声，年内降息预期降温。",
+        "zh-Hant": "週末全球市場休市，美股週五漲跌互現：AAPL漲0.43%至$343，TSLA跌2.13%至$354，NVDA跌1.43%至$214；黃金突破$4160/oz；A股上證小幅反彈0.24%；美聯儲官員密集發聲，年內降息預期降溫。"
+      },
+      "date": "2026-10-18",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomy",
+        "US Stocks",
+        "Forex",
+        "Commodities"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWgulAfP-eEgqflQPA2Wbmv7TK1GqFOetp2NFdf4RgBMG"
+        }
+      }
+    },
+    {
       "slug": "2026-10-17-finance-daily",
       "title": {
         "en": "Daily Finance Brief | 2026-10-17",

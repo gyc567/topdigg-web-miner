@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-18-finance-daily",
+      "date": "2026-10-18",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomy",
+        "US Stocks",
+        "Forex",
+        "Commodities"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "Bản Tin Tài Chính Hàng Ngày | 2026-10-18",
+      "description": "Thị trường toàn cầu nghỉ cuối tuần. Chứng khoán Mỹ trái chiều thứ 6: AAPL +0.43% lên $343, TSLA -2.13% xuống $354, NVDA -1.43% xuống $214; Vàng vượt $4160/oz; Trung Quốc SSE tăng 0.24%; quan chức Fed phát biểu diều hâu, kỳ vọng cắt giảm lãi suất năm nay giảm nhiệt.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWgulAfP-eEgqflQPA2Wbmv7TK1GqFOetp2NFdf4RgBMG"
+        }
+      }
+    },
+    {
       "slug": "2026-10-17-finance-daily",
       "date": "2026-10-17",
       "author": "瑞哥观势",

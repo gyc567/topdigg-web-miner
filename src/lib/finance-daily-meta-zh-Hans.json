@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-18-finance-daily",
+      "date": "2026-10-18",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomy",
+        "US Stocks",
+        "Forex",
+        "Commodities"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "每日财经简报 | 2026-10-18",
+      "description": "周末全球市场休市，美股周五涨跌互现：AAPL涨0.43%至$343，TSLA跌2.13%至$354，NVDA跌1.43%至$214；黄金突破$4160/oz；A股上证小幅反弹0.24%；美联储官员密集发声，年内降息预期降温。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWgulAfP-eEgqflQPA2Wbmv7TK1GqFOetp2NFdf4RgBMG"
+        }
+      }
+    },
+    {
       "slug": "2026-10-17-finance-daily",
       "date": "2026-10-17",
       "author": "瑞哥观势",

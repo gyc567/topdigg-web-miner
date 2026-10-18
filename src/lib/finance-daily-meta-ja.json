@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-18-finance-daily",
+      "date": "2026-10-18",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomy",
+        "US Stocks",
+        "Forex",
+        "Commodities"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "デイリーファイナンスブリーフ | 2026-10-18",
+      "description": "週末でグローバル市場が休場。米国株は金曜にまちまち：AAPLが$343（+0.43％）、TSLAが$354（-2.13％）、NVDAが$214（-1.43％）；金価格は$4160/oz突破；中国SSEは0.24％上昇；米FRB高官がタカ派発言、年内の利下げ期待が後退。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWgulAfP-eEgqflQPA2Wbmv7TK1GqFOetp2NFdf4RgBMG"
+        }
+      }
+    },
+    {
       "slug": "2026-10-17-finance-daily",
       "date": "2026-10-17",
       "author": "瑞哥观势",
