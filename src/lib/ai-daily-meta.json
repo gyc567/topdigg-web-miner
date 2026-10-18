@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-10-18-ai-daily",
+      "title": {
+        "en": "DeepSeek-V4.1-Flash-1017 Released with Improved Benchmarks, API Price Unchanged",
+        "ja": "DeepSeek-V4.1-Flash-1017 リリース、複数のベンチマーク成績が向上、API価格は不变",
+        "vi": "DeepSeek-V4.1-Flash-1017 Phát hành, Nâng cao Điểm Chuẩn Đa nền tảng, Giá API Không Đổi",
+        "zh-Hans": "DeepSeek-V4.1-Flash-1017 发布，多基准成绩提升且 API 价格不变",
+        "zh-Hant": "DeepSeek-V4.1-Flash-1017 發布，多基準成績提升且 API 價格不變"
+      },
+      "description": {
+        "en": "DeepSeek upgrades V4.1 Flash to DeepSeek-V4.1-Flash-1017, with web and APP updates synchronized. API call method and price remain unchanged, still accessible via deepseek-flash.",
+        "ja": "DeepSeekはV4.1 FlashをDeepSeek-V4.1-Flash-1017にアップグレードし、Web版とAPPが同時に更新。APIの呼び出し方式と価格は不变で、deepseek-flashでアクセス可能。",
+        "vi": "DeepSeek nâng cấp V4.1 Flash lên DeepSeek-V4.1-Flash-1017, phiên bản web và APP đồng bộ cập nhật, phương thức và giá API gọi không đổi, vẫn truy cập qua deepseek-flash.",
+        "zh-Hans": "DeepSeek 将 V4.1 Flash 升级至 DeepSeek-V4.1-Flash-1017，网页端与 APP 同步更新，API 调用方式与价格不变，仍用 deepseek-flash 访问。",
+        "zh-Hant": "DeepSeek 將 V4.1 Flash 升級至 DeepSeek-V4.1-Flash-1017，網頁端與 APP 同步更新，API 調用方式與價格不變，仍用 deepseek-flash 訪問。"
+      },
+      "date": "2026-10-18",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI-Daily"
+      ],
+      "categories": [
+        "AI-Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-10-16-ai-daily",
       "title": {
         "en": "Meta Releases Open-Weight Model Muse Spark Open: 816B Parameters, 1M Context",
