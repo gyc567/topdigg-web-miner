@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-10-19-finance-daily",
+      "date": "2026-10-19",
+      "author": "瑞哥观势",
+      "tags": [
+        "Financial Brief",
+        "Macro Economy"
+      ],
+      "categories": [
+        "Financial Brief"
+      ],
+      "title": "每日财经简报 | 2026-10-19",
+      "description": "EUR/USD小幅回落至1.1225，美元避险降温；美股AAPL涨0.43%表现抗跌，TSLA跌2.13%回调；黄金维持强势$4,175.8/oz；美联储鹰派表态压制降息预期，中美元首通话释放经贸缓和信号。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-18-finance-daily",
       "date": "2026-10-18",
       "author": "瑞哥观势",

@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-10-19-finance-daily",
+      "date": "2026-10-19",
+      "author": "瑞哥观势",
+      "tags": [
+        "Financial Brief",
+        "Macro Economy"
+      ],
+      "categories": [
+        "Financial Brief"
+      ],
+      "title": "Bản Tin Tài Chính Hàng Ngày | 2026-10-19",
+      "description": "EUR/USD giảm nhẹ về 1.1225 khi đồng đô la giảm nhu cầu trú ẩn; AAPL tăng 0.43% chống chọi tốt, TSLA giảm 2.13%; Vàng duy trì mạnh tại $4,175.8/oz; Lập trường diều hâu của Fed làm giảm kỳ vọng cắt giảm lãi suất; Cuộc gọi Trump-Xi gửi tín hiệu thuế quan dịu xuống.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-18-finance-daily",
       "date": "2026-10-18",
       "author": "瑞哥观势",

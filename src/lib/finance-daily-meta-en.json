@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-10-19-finance-daily",
+      "date": "2026-10-19",
+      "author": "瑞哥观势",
+      "tags": [
+        "Financial Brief",
+        "Macro Economy"
+      ],
+      "categories": [
+        "Financial Brief"
+      ],
+      "title": "Daily Financial Briefing | 2026-10-19",
+      "description": "EUR/USD dipped to 1.1225 as dollar safe-haven demand eased; AAPL rose 0.43% outperforming peers while TSLA fell 2.13%; Gold held firm at $4,175.8/oz; Fed officials' hawkish tone dampened rate-cut expectations; Xi-Biden call signaled trade tension easing.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-18-finance-daily",
       "date": "2026-10-18",
       "author": "瑞哥观势",

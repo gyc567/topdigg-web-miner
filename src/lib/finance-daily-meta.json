@@ -1,6 +1,44 @@
 {
   "reports": [
     {
+      "slug": "2026-10-19-finance-daily",
+      "title": {
+        "en": "Daily Financial Briefing | 2026-10-19",
+        "ja": "每日金融ブレビュー | 2026-10-19",
+        "vi": "Bản Tin Tài Chính Hàng Ngày | 2026-10-19",
+        "zh-Hans": "每日财经简报 | 2026-10-19",
+        "zh-Hant": "每日財經簡報 | 2026-10-19"
+      },
+      "description": {
+        "en": "EUR/USD dipped to 1.1225 as dollar safe-haven demand eased; AAPL rose 0.43% outperforming peers while TSLA fell 2.13%; Gold held firm at $4,175.8/oz; Fed officials' hawkish tone dampened rate-cut expectations; Xi-Biden call signaled trade tension easing.",
+        "ja": "EUR/USDは1.1225に反落、ドルの逃避需要がやや後退；AAPLは0.43%高で底堅く、TSLAは2.13%安；金価格は$4,175.8/オンスで強保ち；FRBのタカ派発言が利下げ期待を圧迫；米中首脳電話ルが貿易緩和のシグナルを送信。",
+        "vi": "EUR/USD giảm nhẹ về 1.1225 khi đồng đô la giảm nhu cầu trú ẩn; AAPL tăng 0.43% chống chọi tốt, TSLA giảm 2.13%; Vàng duy trì mạnh tại $4,175.8/oz; Lập trường diều hâu của Fed làm giảm kỳ vọng cắt giảm lãi suất; Cuộc gọi Trump-Xi gửi tín hiệu thuế quan dịu xuống.",
+        "zh-Hans": "EUR/USD小幅回落至1.1225，美元避险降温；美股AAPL涨0.43%表现抗跌，TSLA跌2.13%回调；黄金维持强势$4,175.8/oz；美联储鹰派表态压制降息预期，中美元首通话释放经贸缓和信号。",
+        "zh-Hant": "EUR/USD小幅回落至1.1225，美元避險降溫；美股AAPL漲0.43%表現抗跌，TSLA跌2.13%回調；黃金維持強勢$4,175.8/盎司；美聯儲鷹派表態壓制降息預期，中美元首通話釋放經貿緩和信號。"
+      },
+      "date": "2026-10-19",
+      "author": "瑞哥观势",
+      "tags": [
+        "Financial Brief",
+        "Macro Economy"
+      ],
+      "categories": [
+        "Financial Brief"
+      ],
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-18-finance-daily",
       "title": {
         "en": "Daily Finance Briefing | 2026-10-18",

@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-10-19-finance-daily",
+      "date": "2026-10-19",
+      "author": "瑞哥观势",
+      "tags": [
+        "Financial Brief",
+        "Macro Economy"
+      ],
+      "categories": [
+        "Financial Brief"
+      ],
+      "title": "每日金融ブレビュー | 2026-10-19",
+      "description": "EUR/USDは1.1225に反落、ドルの逃避需要がやや後退；AAPLは0.43%高で底堅く、TSLAは2.13%安；金価格は$4,175.8/オンスで強保ち；FRBのタカ派発言が利下げ期待を圧迫；米中首脳電話ルが貿易緩和のシグナルを送信。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-18-finance-daily",
       "date": "2026-10-18",
       "author": "瑞哥观势",
