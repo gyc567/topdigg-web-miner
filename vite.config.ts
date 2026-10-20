@@ -55,6 +55,8 @@ export default defineConfig(({ mode }) => ({
           if (id.includes("i18next") || id.includes("react-i18next")) return "vendor-i18n";
           if (id.includes("lucide-react")) return "vendor-icons";
           if (id.includes("@supabase")) return "vendor-supabase";
+          // marked/mermaid/dompurify 这些只在文章页用到，拆出去减少首屏体积
+          if (id.includes("marked") || id.includes("dompurify") || id.includes("mermaid")) return "vendor-parser";
           return "vendor-misc";
         },
       },
