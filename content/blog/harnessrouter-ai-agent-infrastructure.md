@@ -3,7 +3,8 @@ title: "HarnessRouter：一个协议定义未来的 AI Agent 基础设施"
 author: 瑞哥观势
 source: original
 date: 2026-10-10
-digest: 在 AI Agent 的世界里，有一个长期被忽视的工程难题：每推出一个新型 Agent 运行时（Ha...
+description: "HarnessRouter 和 UHP 协议为解决 AI Agent 基础设施碎片化问题提出统一方案，让一个驱动适配所有主流 Agent 运行时。"
+digest: "在 AI Agent 的世界里，有一个长期被忽视的工程难题：每推出一个新型 Agent 运行时（Ha..."
 tags:
   - AI Agent
   - UHP
