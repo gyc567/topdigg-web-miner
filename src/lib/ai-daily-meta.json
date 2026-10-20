@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-10-20-ai-daily",
+      "title": {
+        "en": "US Department of Homeland Security Orders All Federal Civilian Agencies to Remove DeepSeek",
+        "ja": "米国土安全保障省、DeepSeek 以及び同製品ベースの全連邦民事機関への搭載を命令",
+        "vi": "Bộ An Ninh Nội Địa Hoa Kỳ ra lệnh tất cả các cơ quan dân sự liên bang gỡ bỏ DeepSeek",
+        "zh-Hans": "美国国土安全部下令所有联邦文职机构移除 DeepSeek 及基于其开发的产品",
+        "zh-Hant": "美國國土安全部下令所有聯邦文職機構移除 DeepSeek 及基於其開發的產品"
+      },
+      "description": {
+        "en": "The Department of Homeland Security issued Order 2026-01 under the 2018 Supply Chain Act, requiring all federal civilian agencies to immediately stop procuring DeepSeek and its affiliated companies' products and remove them from IT systems, including third-party products developed using DeepSeek.",
+        "ja": "米国土安全保障省手は2018年サプライチェーン法に基づき2026-01号命令を発布、すべての連邦民事機関にDeepSeekおよび関連企業の製品の調達を直ちに停止し、ITシステムから関連製品（DeepSeekで開発された第三方製品・与服务を含む）を削除するよう命じた。",
+        "vi": "Bộ An Ninh Nội Địa Hoa Kỳ ban hành lệnh 2026-01 theo Đạo luật Chuỗi Cung Ứng 2018, yêu cầu tất cả các cơ quan dân sự liên bang ngay lập tức ngừng mua sản phẩm của DeepSeek và các công ty liên kết, đồng thời gỡ bỏ các sản phẩm liên quan khỏi hệ thống CNTT, bao gồm cả sản phẩm và dịch vụ của bên thứ ba được phát triển bằng DeepSeek.",
+        "zh-Hans": "美国国土安全部依据 2018 年供应链法发布 2026-01 号命令，要求所有联邦文职机构立即停止采购 DeepSeek 及其关联公司产品，并从 IT 系统中移除相关产品，包括使用 DeepSeek 实现开发的第三方产品与服务。",
+        "zh-Hant": "美國國土安全部依據 2018 年供應鏈法發布 2026-01 號命令，要求所有聯邦文職機構立即停止採購 DeepSeek 及其關聯公司產品，並從 IT 系統中移除相關產品，包括使用 DeepSeek 實現開發的第三方產品與服務。"
+      },
+      "date": "2026-10-20",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-10-18-ai-daily",
       "title": {
         "en": "DeepSeek-V4.1-Flash-1017 Released with Improved Benchmarks, API Price Unchanged",

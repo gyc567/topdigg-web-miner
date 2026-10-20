@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-20-ai-daily",
+      "date": "2026-10-20",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "US Department of Homeland Security Orders All Federal Civilian Agencies to Remove DeepSeek",
+      "description": "The Department of Homeland Security issued Order 2026-01 under the 2018 Supply Chain Act, requiring all federal civilian agencies to immediately stop procuring DeepSeek and its affiliated companies' products and remove them from IT systems, including third-party products developed using DeepSeek.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-18-ai-daily",
       "date": "2026-10-18",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "AI Daily 2026-09-14: Anthropic Report Says Houthis Used Claude Code to Develop Missile Guidance Software",
       "description": "Anthropic's September threat report reveals that a Yemeni group, likely linked to Houthi forces, used Claude Code to develop software for guided rockets, ballistic missiles with ranges exceeding 2,000 km, and the R2000 hypersonic glide vehicle concept.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-13-ai-daily",
-      "date": "2026-09-13",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Suno Releases v6 Music Model with v6, v6-wild, and v6-mini Versions",
-      "description": "Suno has released its next-generation music model v6, developed in partnership with Warner Music Group, BMG, and Believe. The model comes in three versions: flagship v6 and exploration-oriented v6-wild for Pro and Premier subscribers, and the faster v6-mini available to everyone.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

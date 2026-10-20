@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-20-ai-daily",
+      "date": "2026-10-20",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "米国土安全保障省、DeepSeek 以及び同製品ベースの全連邦民事機関への搭載を命令",
+      "description": "米国土安全保障省手は2018年サプライチェーン法に基づき2026-01号命令を発布、すべての連邦民事機関にDeepSeekおよび関連企業の製品の調達を直ちに停止し、ITシステムから関連製品（DeepSeekで開発された第三方製品・与服务を含む）を削除するよう命じた。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-18-ai-daily",
       "date": "2026-10-18",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "AIデイリー 2026-09-14：Anthropic がフーシ派がClaude Codeで誘導弾ソフトウェアを開発したと報告",
       "description": "Anthropicの9月脅威報告書は、フーシ派に関連する可能性が高いイエメン그룹が、Claude Codeを使用して誘導ロケット、最大2000km以上の射程を持つ弾道 missile、およびR2000極超音速滑空体の概念に関するソフトウェアを開発していたことを明らかにした。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-13-ai-daily",
-      "date": "2026-09-13",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Sunoがv6音楽モデルを発表、v6・v6-wild・v6-miniの3バージョンを展開",
-      "description": "SunoはWarner Music Group、BMG、Believe等行业パートナーと共同開発した次世代音楽モデルv6を発表，今后は旧モデルを全面的に置き換える。v6は3バージョン構成：主力のv6と探索向けのv6-wildはProとPremier契約者向け、より高速なv6-miniは全員に利用可能。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

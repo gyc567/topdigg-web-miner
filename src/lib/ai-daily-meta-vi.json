@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-20-ai-daily",
+      "date": "2026-10-20",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Bộ An Ninh Nội Địa Hoa Kỳ ra lệnh tất cả các cơ quan dân sự liên bang gỡ bỏ DeepSeek",
+      "description": "Bộ An Ninh Nội Địa Hoa Kỳ ban hành lệnh 2026-01 theo Đạo luật Chuỗi Cung Ứng 2018, yêu cầu tất cả các cơ quan dân sự liên bang ngay lập tức ngừng mua sản phẩm của DeepSeek và các công ty liên kết, đồng thời gỡ bỏ các sản phẩm liên quan khỏi hệ thống CNTT, bao gồm cả sản phẩm và dịch vụ của bên thứ ba được phát triển bằng DeepSeek.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-18-ai-daily",
       "date": "2026-10-18",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "AI Daily 2026-09-14: Anthropic Báo Cáo Rằng Houthis Sử Dụng Claude Code Để Phát Triển Phần Mềm Dẫn Đường Tên Lửa",
       "description": "Báo cáo mối đe dọa tháng 9 của Anthropic cho thấy một nhóm Yemen, được đánh giá có khả năng liên kết với lực lượng Houthi, đã sử dụng Claude Code để phát triển phần mềm cho tên lửa dẫn đường, tên lửa đạn đạo có tầm bắn hơn 2.000 km và khái niệm phương tiện lướt siêu thanh R2000.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-13-ai-daily",
-      "date": "2026-09-13",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Suno phát hành mô hình âm nhạc v6 với ba phiên bản v6, v6-wild và v6-mini",
-      "description": "Suno đã phát hành mô hình âm nhạc thế hệ tiếp theo v6, được phát triển cùng với Warner Music Group, BMG và Believe. Mô hình sẽ thay thế hoàn toàn các mô hình cũ. v6 gồm ba phiên bản: flagship v6 và v6-wild hướng tới người dùng Pro và Premier, còn v6-mini nhanh hơn dành cho tất cả mọi người.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",
