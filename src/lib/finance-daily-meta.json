@@ -1,6 +1,46 @@
 {
   "reports": [
     {
+      "slug": "2026-10-20-finance-daily",
+      "title": {
+        "en": "Daily Finance Briefing | 2026-10-20",
+        "ja": "每日金融브리프 | 2026-10-20",
+        "vi": "Bản Tin Tài Chính Hàng Ngày | 2026-10-20",
+        "zh-Hans": "每日财经简报 | 2026-10-20",
+        "zh-Hant": "每日財經簡報 | 2026-10-20"
+      },
+      "description": {
+        "en": "Fed holds rates as Trump Russia sanctions waiver draws bipartisan backlash; Hormuz tankers hit mines, oil jumps; China's STAR50 index plunges 2.17%. EUR/USD down 0.08%, Gold down 1.27% to $4131.",
+        "ja": "米FRBは据え置き、Trump大統領のロシア制裁免除に与野党から非難；ホHormuz海峡でタンカー着雷、油価急騰；科創50が2.17％急落。EUR/USDは0.08％安、金は1.27％安の4131ドル。",
+        "vi": "Fed giữ nguyên lãi suất, Trump miễn trừng trị Nga gây phản đối lưỡng đảng; tàu chở dầu bị mìn ở Hormuz, giá dầu nhảy vọt; Chỉ số STAR50 Trung Quốc giảm mạnh 2.17%. EUR/USD giảm 0.08%, Vàng giảm 1.27% xuống $4131.",
+        "zh-Hans": "美联储按兵不动，Trump豁免俄罗斯制裁引发两党反对；霍尔木兹油轮触雷，油价跳涨；A股科创50大幅调整跌2.17%。EUR/USD跌0.08%，黄金跌1.27%至$4131。",
+        "zh-Hant": "美聯儲按兵不動，Trump豁免俄羅斯制裁引發兩黨反對；霍爾木茲油輪觸雷，油價跳漲；A股科創50大幅調整跌2.17%。EUR/USD跌0.08%，黃金跌1.27%至$4131。"
+      },
+      "date": "2026-10-20",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomics",
+        "Federal Reserve",
+        "Geopolitics"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-19-finance-daily",
       "title": {
         "en": "Daily Financial Briefing | 2026-10-19",

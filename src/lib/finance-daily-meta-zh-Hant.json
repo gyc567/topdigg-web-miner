@@ -1,6 +1,28 @@
 {
   "reports": [
     {
+      "slug": "2026-10-20-finance-daily",
+      "date": "2026-10-20",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomics",
+        "Federal Reserve",
+        "Geopolitics"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "每日財經簡報 | 2026-10-20",
+      "description": "美聯儲按兵不動，Trump豁免俄羅斯制裁引發兩黨反對；霍爾木茲油輪觸雷，油價跳漲；A股科創50大幅調整跌2.17%。EUR/USD跌0.08%，黃金跌1.27%至$4131。",
+      "source": {
+        "original": {
+          "name": "瑞哥觀勢",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-19-finance-daily",
       "date": "2026-10-19",
       "author": "瑞哥观势",

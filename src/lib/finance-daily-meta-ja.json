@@ -1,6 +1,28 @@
 {
   "reports": [
     {
+      "slug": "2026-10-20-finance-daily",
+      "date": "2026-10-20",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomics",
+        "Federal Reserve",
+        "Geopolitics"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "每日金融브리프 | 2026-10-20",
+      "description": "米FRBは据え置き、Trump大統領のロシア制裁免除に与野党から非難；ホHormuz海峡でタンカー着雷、油価急騰；科創50が2.17％急落。EUR/USDは0.08％安、金は1.27％安の4131ドル。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-19-finance-daily",
       "date": "2026-10-19",
       "author": "瑞哥观势",

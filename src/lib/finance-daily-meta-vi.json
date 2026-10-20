@@ -1,6 +1,28 @@
 {
   "reports": [
     {
+      "slug": "2026-10-20-finance-daily",
+      "date": "2026-10-20",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomics",
+        "Federal Reserve",
+        "Geopolitics"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "Bản Tin Tài Chính Hàng Ngày | 2026-10-20",
+      "description": "Fed giữ nguyên lãi suất, Trump miễn trừng trị Nga gây phản đối lưỡng đảng; tàu chở dầu bị mìn ở Hormuz, giá dầu nhảy vọt; Chỉ số STAR50 Trung Quốc giảm mạnh 2.17%. EUR/USD giảm 0.08%, Vàng giảm 1.27% xuống $4131.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-19-finance-daily",
       "date": "2026-10-19",
       "author": "瑞哥观势",
