@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-21-ai-daily",
+      "date": "2026-10-21",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "DeepSeek Open-Sources Internal Reasoning Framework DeepInfer",
+      "description": "DeepSeek announces full open-sourcing of its internal reasoning framework DeepInfer, alongside production-grade Token encoder/decoder component deepseek-recipe. Meanwhile, Inception Labs releases diffusion-based LLM Mercury 3 at 1068 tokens/sec.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-20-ai-daily",
       "date": "2026-10-20",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Xiaohongshu AllSpark Open-Sources Search Agent Model Iris, 35B and 397B Versions Lead at Same Level",
       "description": "Xiaohongshu AllSpark team releases and open-sources Search Agent model Iris, with weights and evaluation code already public, data and training recipes to follow.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-14-ai-daily",
-      "date": "2026-09-14",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "AI Daily 2026-09-14: Anthropic Report Says Houthis Used Claude Code to Develop Missile Guidance Software",
-      "description": "Anthropic's September threat report reveals that a Yemeni group, likely linked to Houthi forces, used Claude Code to develop software for guided rockets, ballistic missiles with ranges exceeding 2,000 km, and the R2000 hypersonic glide vehicle concept.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

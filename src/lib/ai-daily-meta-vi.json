@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-21-ai-daily",
+      "date": "2026-10-21",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "DeepSeek Mã Nguồn Mở Hoàn Toàn Framework DeepInfer - DeepInfer",
+      "description": "DeepSeek thông báo mã nguồn mở hoàn toàn framework suy luận nội bộ DeepInfer, cùng với thành phần mã hóa/giải mã Token cấp sản xuất deepseek-recipe. Đồng thời, Inception Labs phát hành mô hình ngôn ngữ lớn khuyếch tán Mercury 3 với tốc độ 1068 tokens/giây.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-20-ai-daily",
       "date": "2026-10-20",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Xiaohongshu AllSpark Mã Nguồn Mở Search Agent Model Iris, Phiên Bản 35B và 397B Dẫn Đầu Cùng Cấp",
       "description": "Nhóm Xiaohongshu AllSpark phát hành và mã nguồn mở Search Agent model Iris, trọng số và mã đánh giá đã được công khai, dữ liệu và công thức huấn luyện sẽ được công bố lần lượt.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-14-ai-daily",
-      "date": "2026-09-14",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "AI Daily 2026-09-14: Anthropic Báo Cáo Rằng Houthis Sử Dụng Claude Code Để Phát Triển Phần Mềm Dẫn Đường Tên Lửa",
-      "description": "Báo cáo mối đe dọa tháng 9 của Anthropic cho thấy một nhóm Yemen, được đánh giá có khả năng liên kết với lực lượng Houthi, đã sử dụng Claude Code để phát triển phần mềm cho tên lửa dẫn đường, tên lửa đạn đạo có tầm bắn hơn 2.000 km và khái niệm phương tiện lướt siêu thanh R2000.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

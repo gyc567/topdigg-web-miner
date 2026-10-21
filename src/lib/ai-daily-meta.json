@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-10-21-ai-daily",
+      "title": {
+        "en": "DeepSeek Open-Sources Internal Reasoning Framework DeepInfer",
+        "ja": "DeepSeek、内部推論フレームワーク DeepInfer を全面オープンソース化",
+        "vi": "DeepSeek Mã Nguồn Mở Hoàn Toàn Framework DeepInfer - DeepInfer",
+        "zh-Hans": "DeepSeek 全面开源内部推理框架 DeepInfer",
+        "zh-Hant": "DeepSeek 全面開源內部推理框架 DeepInfer"
+      },
+      "description": {
+        "en": "DeepSeek announces full open-sourcing of its internal reasoning framework DeepInfer, alongside production-grade Token encoder/decoder component deepseek-recipe. Meanwhile, Inception Labs releases diffusion-based LLM Mercury 3 at 1068 tokens/sec.",
+        "ja": "DeepSeek は内部推論フレームワーク DeepInfer の全面オープンソース化を発表し、同時にプロダクショングレードの Token エンコーダー/デコーダーコンポーネント deepseek-recipe もオープンソース化了。同時に、Inception Labs が拡散型 LLM Mercury 3 をリリース、速度は 1068 tokens/秒。",
+        "vi": "DeepSeek thông báo mã nguồn mở hoàn toàn framework suy luận nội bộ DeepInfer, cùng với thành phần mã hóa/giải mã Token cấp sản xuất deepseek-recipe. Đồng thời, Inception Labs phát hành mô hình ngôn ngữ lớn khuyếch tán Mercury 3 với tốc độ 1068 tokens/giây.",
+        "zh-Hans": "DeepSeek 宣布将内部推理框架 DeepInfer 全面开源，并同步开源生产级 Token 编解码组件 deepseek-recipe。与此同时，Inception Labs 发布扩散大语言模型 Mercury 3，速度达 1068 tokens/秒。",
+        "zh-Hant": "DeepSeek 宣佈將內部推理框架 DeepInfer 全面開源，並同步開源生產級 Token 編解碼組件 deepseek-recipe。同時，Inception Labs 發布擴散大語言模型 Mercury 3，速度達 1068 tokens/秒。"
+      },
+      "date": "2026-10-21",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥観勢",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-10-20-ai-daily",
       "title": {
         "en": "US Department of Homeland Security Orders All Federal Civilian Agencies to Remove DeepSeek",
