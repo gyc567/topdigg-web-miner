@@ -17,8 +17,8 @@
         "Open Source Project Deep Dive",
         "AI Agent"
       ],
-      "title": "anything2explainer 深度解析：给一个主题，产出一条代码画出来的讲解视频",
-      "description": "深度解析 Vincentwei1021 的开源项目 anything2explainer：这不是一个 CLI，而是一整套让 AI 编程 agent 独立完成科普讲解视频的方法。涵盖项目说明、核心思想、9 阶段完整实操教程、多 agent 分工协议、8 条设计哲学，以及从五部样片的返工记录里提炼出的结论与局限。"
+      "title": "anything2explainer 深度解析：給一個主題，產出一條用程式碼畫出來的講解影片",
+      "description": "深度解析 Vincentwei1021 的開源專案 anything2explainer：這不是一個 CLI，而是一整套讓 AI 程式設計 agent 獨立完成科普講解影片的方法。涵蓋專案說明、核心思想、9 階段完整實作教學、多 agent 分工協議、8 條設計哲學，以及從五部樣片的返工紀錄裡提煉出的結論與局限。"
     },
     {
       "slug": "2026-10-22-deepseek-bot-team-analysis",
