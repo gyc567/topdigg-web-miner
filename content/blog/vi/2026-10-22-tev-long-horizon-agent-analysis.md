@@ -19,7 +19,7 @@ categories:
 # Phân tích chuyên sâu Tev: dùng «latent world» để tạo dữ liệu, dùng phần thưởng mật độ để huấn luyện agent dài hạn
 
 > Bài báo: *Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards*
-> Tác giả: Wenbo Hu、Shraman Pramanick、Krishna Kumar Singh、Nanyun Peng、Kai-Wei Chang、Yong Jae Lee（Adobe Research + UCLA）
+> Tác giả: Wenbo Hu、Shraman Pramanick、Krishna Kumar Singh、Nanyun Peng、Kai-Wei Chang、Yong Jae Lee(Adobe Research + UCLA)
 > Trang bài báo: https://arxiv.org/abs/2610.18868 ｜ Bản HTML: https://arxiv.org/html/2610.18868v1
 > Trang dự án: https://tev-agent.github.io/
 > Trọng số mô hình: https://huggingface.co/gordonhu/Tev-27B ｜ https://huggingface.co/gordonhu/Tev-320B
@@ -28,7 +28,7 @@ categories:
 
 Trong hai năm qua, đường cong năng lực của AI Agent gần như hoàn toàn được vạch bởi «tác vụ dài bao nhiêu».
 
-Tác vụ ngắn và trung bình là vùng ngọt. SWE-Smith có 50 nghìn môi trường, TMAX-15K có 14,6 nghìn, CLI-Gym、SETA、Endless Terminals mỗi cái có từ vài nghìn đến hơn mười nghìn. Các bộ dữ liệu này đủ lớn, quy trình huấn luyện đủ trưởng thành, mô hình quả thực sự tiến bộ.
+Tác vụ ngắn và trung bình là vùng ngọt. SWE-Smith có 5 vạn môi trường, TMAX-15K có 1.46 vạn, CLI-Gym、SETA、Endless Terminals mỗi cái có từ vài nghìn đến hơn mười nghìn. Các bộ dữ liệu này đủ lớn, quy trình huấn luyện đủ trưởng thành, mô hình quả thực sự tiến bộ.
 
 Nhưng khi bạn kéo thang thời gian của tác vụ lên «từ vài giờ đến vài ngày» — các bài toán toán học mở thực sự, nghiên cứu tự động hóa máy học, phân tích nguyên nhân gốc sự cố trong sản xuất — cả lĩnh vực đâm vào một bức tường.
 
@@ -288,7 +288,7 @@ trong đó **$\lambda=0.25$, mọi lần chạy thực nghiệm đều dùng gi�
 
 **Chi tiết một: PPRS cố ý không bảo toàn policy tối ưu.**
 
-PBRS tiêu chuẩn đặt tiềm năng kết thúc bằng 0, nhờ đó bảo toàn policy tối ưu. PPRS giữ lại $\lambda\Phi(s_T)$, **cố ý thay đổi mục tiêu tối ưu**. Đây là một sự lệch tình ý và có rủi ro, và bài báo thành thật thảo luận trong phụ lục về «điều gì được giữ lại, điều gì không được giữ lại».
+PBRS tiêu chuẩn đặt tiềm năng kết thúc bằng không, nhờ đó bảo toàn policy tối ưu. PPRS giữ lại $\lambda\Phi(s_T)$, **cố ý thay đổi mục tiêu tối ưu**. Đây là một sự lệch tình ý và có rủi ro, và bài báo thành thật thảo luận trong phụ lục về «điều gì được giữ lại, điều gì không được giữ lại».
 
 **Chi tiết hai: nộp bài là hành động, không phải trạng thái.**
 
@@ -304,7 +304,7 @@ Vì $\Phi\le 1$, mọi rollout đạt đều nhận $1+\lambda=1.25$, cao hơn c
 
 **Sau khi thế vào GRPO, vấn đề bỏ đói được khắc phục.**
 
-Khi không rollout nào trong một nhóm đạt, phần thưởng trở thành $R_i=\lambda\Phi(s_T^{(i)})$. Chỉ cần các rollout tiến triển ở các độ sâu khác nhau, các phần thưởng này khác nhau, lợi thế trong nhóm khác 0, và **rollout được xếp hạng theo độ sâu tiến triển**.
+Khi không rollout nào trong một nhóm đạt, phần thưởng trở thành $R_i=\lambda\Phi(s_T^{(i)})$. Chỉ cần các rollout tiến triển ở các độ sâu khác nhau, các phần thưởng này khác nhau, lợi thế trong nhóm khác không, và **rollout được xếp hạng theo độ sâu tiến triển**.
 
 Hình 4 của bài báo minh họa trực quan tác dụng này: cùng một môi trường kho, nhóm $G=8$ rollout, chấm điểm theo thời gian thực ở mỗi vòng.
 
@@ -331,11 +331,11 @@ Phần thưởng trong nhóm cuối cùng đã có sự khác biệt, và gradie
 
 | Hạng mục | Cấu hình |
 |------|------|
-| Thuật toán | DPPO（Qi et al., 2026）, phần thưởng theo công thức (4) |
-| Base model | Qwen3.5-9B（dùng tập con 264 tác vụ bậc unit của Tev-Gym）, Qwen3.8-27B（dùng toàn bộ corpus） |
+| Thuật toán | DPPO(Qi et al., 2026), phần thưởng theo công thức (4) |
+| Base model | Qwen3.5-9B(dùng tập con 264 tác vụ bậc unit của Tev-Gym), Qwen3.8-27B(dùng toàn bộ corpus) |
 | Kiểm chứng base model lớn hơn | GLM-5.3-Flash → Tev-320B |
-| Lấy mẫu mỗi bước | 8 tác vụ × 24 rollout（$G=24$） |
-| Ngân sách phản hồi | 65,536 token mỗi rollout（16,384 mỗi lượt） |
+| Lấy mẫu mỗi bước | 8 tác vụ × 24 rollout($G=24$) |
+| Ngân sách phản hồi | 65,536 token mỗi rollout(16,384 mỗi lượt) |
 | Giới hạn gọi công cụ | 64 lần |
 | Sandbox | Chỉ mở một công cụ bash |
 | Tính toán | 27B: 4 node B200 hoặc 8 node A100, khoảng 4 ngày |
@@ -359,10 +359,10 @@ ALE-CM là lát cắt tính toán và toán học của Agents' Last Exam. Các 
 Các điểm số cần đọc:
 
 - **P@5 của Tev-27B là 0.28, ngang bằng GPT-6 Astra (0.28) và Claude Opus 5 (0.28)**, tức là đã bắt kịp các mô hình đóng thương mại tiên phong.
-- So với Qwen3.8-27B trong cùng harness, Pass@5 **tăng 65%**（0.17 → 0.28）.
+- So với Qwen3.8-27B trong cùng harness, Pass@5 **tăng 65%**(0.17 → 0.28).
 - Đạt 85% mức 0.33 của Claude Fable 5, **lấp đầy hơn hai phần ba khoảng cách ban đầu**.
 - Tev-27B vượt Qwen3.8-2.4T-A95B (một MoE với 2.4T tham số) trong cùng harness.
-- Pass@5 của Tev-9B so với Qwen3.5-9B **tăng 83%**（0.06 → 0.11）.
+- Pass@5 của Tev-9B so với Qwen3.5-9B **tăng 83%**(0.06 → 0.11).
 
 Cần lưu ý rằng bảng trên là **dữ liệu do bên bài báo báo cáo**. Kết luận P@5 ngang bằng dựa trên harness của từng bên (Codex / Claude Code / Vanillux2) và thiết lập đánh giá tương ứng; tính so sánh chặt chẽ giữa các harness khác nhau cần người đọc tự đánh giá.
 
@@ -378,7 +378,7 @@ Cần lưu ý rằng bảng trên là **dữ liệu do bên bài báo báo cáo*
 | Gemini 3.7 Flash | 0.07 | 0.09* | — |
 | Claude Opus 4.8 | 0.19 | 0.27 | 0.789 |
 
-（Kết quả có dấu * do bên bài báo tự đánh giá, không phải dữ liệu leaderboard chính thức.）
+(Kết quả có dấu * do bên bài báo tự đánh giá, không phải dữ liệu leaderboard chính thức.)
 
 **Đây là kết quả thuyết phục nhất của toàn bài.** Sau khi huấn luyện trên ALE-CM, khi chuyển zero-shot sang Terminal-Bench 4.0-CM dài hơn, P@1 tăng 150%, và vượt qua GLM 5.2 cũng như Gemini 3.7 Flash. Đồng thời, TB 2.1 tầm trung bình **không suy giảm**, mà còn tăng nhẹ từ 0.764 lên 0.794, đạt cấp độ Claude Opus 4.8 (0.789) — cho thấy quá trình huấn luyện không làm tổn hại năng lực lập trình tổng quát.
 
@@ -422,8 +422,8 @@ S@1 của hai biến thể lần lượt là 0.24 và 0.23, **đều không vư�
 **Điểm đọc hai: phần thưởng mật độ phải «định hình», không thể chỉ «cộng».**
 
 - **Sparse (chỉ kết cục)**: S@1 = 0.25, đồng thời tốn nhiều GPU nhất (16.7).
-- **PPRS, pooled norm.**（chuẩn hóa theo từng rollout）：S@1 = 0.28, có cải thiện nhưng P@1/P@5 không nhúc nhích.
-- **Direct reward (cộng)**（$\gamma=0$, dùng trực tiếp $\Phi(s_t)$ để cộng）：S@1 = 0.29, nhưng P@1 vẫn là 0.06.
+- **PPRS, pooled norm.**(chuẩn hóa theo từng rollout)：S@1 = 0.28, có cải thiện nhưng P@1/P@5 không nhúc nhích.
+- **Direct reward (cộng)**($\gamma=0$, dùng trực tiếp $\Phi(s_t)$ để cộng)：S@1 = 0.29, nhưng P@1 vẫn là 0.06.
 
 PPRS đầy đủ so với phần thưởng thưa **tăng S@1 0.04**, và là **phương án duy nhất** nâng được P@1 từ 0.06 lên 0.07, P@5 từ 0.06 lên 0.11.
 
