@@ -16,8 +16,8 @@
         "Open Source Project Analysis",
         "AI Agent"
       ],
-      "title": "DeepSeek-Bot 深度解析：让 DeepSeek Harness 变成一支有长期记忆的 AI 团队",
-      "description": "深度解析开源项目 DeepSeek-Bot：一支构建在 DeepSeek Harness 上的长期驻留 AI Bot 团队。涵盖项目说明、上下文管家、派活树、三级权限模型、记忆体系设计哲学，以及完整安装部署教程。"
+      "title": "DeepSeek-Bot: Phân tích chuyên sâu — Biến DeepSeek Harness thành một đội AI có ký ức dài hạn",
+      "description": "Phân tích DeepSeek-Bot: đội AI Bot lâu dài trên DeepSeek Harness, cây bàn giao, phân quyền 3 cấp, ký ức dài hạn và hướng dẫn triển khai."
     },
     {
       "slug": "deepinfer-2026-10-21",

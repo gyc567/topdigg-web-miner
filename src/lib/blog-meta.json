@@ -5,12 +5,14 @@
       "title": {
         "en": "DeepSeek-Bot Deep Dive: Turning DeepSeek Harness into an AI Team with Long-Term Memory",
         "ja": "DeepSeek-Bot 徹底解説：DeepSeek Harness を長期記憶を持つ AI チームに変える",
+        "vi": "DeepSeek-Bot: Phân tích chuyên sâu — Biến DeepSeek Harness thành một đội AI có ký ức dài hạn",
         "zh-Hans": "DeepSeek-Bot 深度解析：让 DeepSeek Harness 变成一支有长期记忆的 AI 团队",
         "zh-Hant": "DeepSeek-Bot 深度解析：讓 DeepSeek Harness 變成一支部有長期記憶的 AI 團隊"
       },
       "description": {
         "en": "A deep dive into the open-source DeepSeek-Bot project: a long-running AI Bot team built on DeepSeek Harness. Covers the project overview, context steward, handoff tree, three-tier permission model, memory architecture, and a full install and deployment tutorial.",
         "ja": "オープンソースプロジェクト DeepSeek-Bot を徹底解説。DeepSeek Harness 上に構築された長期常駐 AI Bot チーム。プロジェクト概要、コンテキストスチュワード、引き継ぎツリー、3段階権限モデル、メモリの設計思想、そして完全なインストール＆デプロイ手順を網羅。",
+        "vi": "Phân tích DeepSeek-Bot: đội AI Bot lâu dài trên DeepSeek Harness, cây bàn giao, phân quyền 3 cấp, ký ức dài hạn và hướng dẫn triển khai.",
         "zh-Hans": "深度解析开源项目 DeepSeek-Bot：一支构建在 DeepSeek Harness 上的长期驻留 AI Bot 团队。涵盖项目说明、上下文管家、派活树、三级权限模型、记忆体系设计哲学，以及完整安装部署教程。",
         "zh-Hant": "深度解析開源專案 DeepSeek-Bot：一支建構在 DeepSeek Harness 上的長期駐留 AI Bot 團隊。涵蓋專案說明、上下文管家、派活樹、三級權限模型、記憶系統設計哲學，以及完整安裝部署教學。"
       },
