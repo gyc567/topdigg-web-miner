@@ -11,7 +11,7 @@
       },
       "description": {
         "en": "A deep dive into Vincentwei1021's open-source project anything2explainer: this is not a CLI, but a complete methodology that lets AI coding agents produce explainer videos on their own. Covers the project description, core ideas, a full 9-stage hands-on tutorial, a multi-agent division-of-labor protocol, 8 design principles, and the conclusions and limitations distilled from the rework logs of five sample films.",
-        "ja": "Vincentwei1021 のオープンソースプロジェクト anything2explainer を徹底解説する。これは CLI ではなく、AI コーディング agent が独力で解説動画を完成させるための方法論一式である。プロジェクト説明、コア思想、9 ステージの実演手順、multi agent 分担プロトコル、8 つのデザイン哲学、そして 5 本のサンプル作品の手直し記録から抽出された結論と限界を網羅する。",
+        "ja": "Vincentwei1021 のオープンソースプロジェクト anything2explainer を徹底解説する。これは CLI ではなく、AI コーディング agent が独力で解説動画を完成させるための方法論一式である。プロジェクト説明、コア思想、9 ステージの実演手順、multi agent 分担プロトコル、8 つのデザイン哲学、そして 5 本のサンプル作品の手直し作業記録から抽出された結論と限界を網羅する。",
         "vi": "Phân tích chuyên sâu dự án mã nguồn mở anything2explainer của Vincentwei1021: đây không phải là một CLI, mà là cả một phương pháp giúp AI coding agent tự hoàn thành video giải thích khoa học. Bao gồm giới thiệu dự án, tư tưởng cốt lõi, hướng dẫn thực hành đầy đủ 9 giai đoạn, giao thức phân công multi agent, 8 triết lý thiết kế, cùng kết luận và giới hạn rút ra từ nhật ký làm lại của năm phim mẫu.",
         "zh-Hans": "深度解析 Vincentwei1021 的开源项目 anything2explainer：这不是一个 CLI，而是一整套让 AI 编程 agent 独立完成科普讲解视频的方法。涵盖项目说明、核心思想、9 阶段完整实操教程、多 agent 分工协议、8 条设计哲学，以及从五部样片的返工记录里提炼出的结论与局限。",
         "zh-Hant": "深度解析 Vincentwei1021 的開源專案 anything2explainer：這不是一個 CLI，而是一整套讓 AI 程式設計 agent 獨立完成科普講解影片的方法。涵蓋專案說明、核心思想、9 階段完整實作教學、多 agent 分工協議、8 條設計哲學，以及從五部樣片的返工紀錄裡提煉出的結論與局限。"
