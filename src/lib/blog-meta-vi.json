@@ -36,8 +36,8 @@
         "Deep Paper Analysis",
         "AI Agent"
       ],
-      "title": "Tev 深度解析：用「潜在世界」造数据，用稠密奖励训长程智能体",
-      "description": "Adobe Research 与 UCLA 联合发表的 Tev 论文深度解析：从潜在世界优先的环境合成出发，拆解 1,170 个可验证长跨度任务环境、进度势能奖励整形（PPRS），以及 Tev-27B 如何在 ALE-CM 上追平 GPT-6 Astra 与 Claude Opus 5。附完整方法复现教程与设计哲学分析。"
+      "title": "Phân tích chuyên sâu Tev: dùng «latent world» để tạo dữ liệu, dùng phần thưởng mật độ để huấn luyện agent dài hạn",
+      "description": "Phân tích chuyên sâu bài báo Tev do Adobe Research và UCLA phối hợp công bố: từ tổng hợp môi trường ưu tiên latent world, mổ xẻ 1,170 môi trường tác vụ dài hạn có thể kiểm chứng, định hình phần thưởng theo tiềm năng tiến độ (PPRS), cùng cách Tev-27B bắt kịp GPT-6 Astra và Claude Opus 5 trên ALE-CM. Kèm hướng dẫn tái tạo đầy đủ và phân tích triết lý thiết kế."
     },
     {
       "slug": "deepinfer-2026-10-21",
