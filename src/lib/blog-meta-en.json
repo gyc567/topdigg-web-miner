@@ -1,6 +1,26 @@
 {
   "posts": [
     {
+      "slug": "2026-10-22-anything2explainer-deep-dive",
+      "date": "2026-10-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "anything2explainer",
+        "Remotion",
+        "Multi-Agent",
+        "Video Generation",
+        "Open Source",
+        "Claude Code",
+        "Explainer Video"
+      ],
+      "categories": [
+        "Open Source Project Deep Dive",
+        "AI Agent"
+      ],
+      "title": "anything2explainer Deep Dive: Give It a Topic, Get a Code-Drawn Explainer Video",
+      "description": "A deep dive into Vincentwei1021's open-source project anything2explainer: this is not a CLI, but a complete methodology that lets AI coding agents produce explainer videos on their own. Covers the project description, core ideas, a full 9-stage hands-on tutorial, a multi-agent division-of-labor protocol, 8 design principles, and the conclusions and limitations distilled from the rework logs of five sample films."
+    },
+    {
       "slug": "2026-10-22-deepseek-bot-team-analysis",
       "date": "2026-10-22",
       "author": "瑞哥观势",
@@ -38,26 +58,6 @@
       ],
       "title": "Tev Deep Dive: Manufacturing Data with a latent world, Training Long-Horizon Agents with Dense Rewards",
       "description": "A deep analysis of the Tev paper jointly published by Adobe Research and UCLA: from latent-world-first environment synthesis, to a breakdown of 1,170 verifiable long-horizon task environments, Progress-Potential Reward Shaping (PPRS), and how Tev-27B matches GPT-6 Astra and Claude Opus 5 on ALE-CM. Includes a complete method reproduction tutorial and an analysis of its design philosophy."
-    },
-    {
-      "slug": "2026-10-22-anything2explainer-deep-dive",
-      "date": "2026-10-22",
-      "author": "瑞哥观势",
-      "tags": [
-        "anything2explainer",
-        "Remotion",
-        "多 Agent",
-        "视频生成",
-        "开源项目",
-        "Claude Code",
-        "科普视频"
-      ],
-      "categories": [
-        "开源项目深度解析",
-        "AI Agent"
-      ],
-      "title": "anything2explainer 深度解析：给一个主题，产出一条代码画出来的讲解视频",
-      "description": "深度解析 Vincentwei1021 的开源项目 anything2explainer：这不是一个 CLI，而是一整套让 AI 编程 agent 独立完成科普讲解视频的方法。涵盖项目说明、核心思想、9 阶段完整实操教程、多 agent 分工协议、8 条设计哲学，以及从五部样片的返工记录里提炼出的结论与局限。"
     },
     {
       "slug": "deepinfer-2026-10-21",

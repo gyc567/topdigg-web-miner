@@ -1,6 +1,26 @@
 {
   "posts": [
     {
+      "slug": "2026-10-22-anything2explainer-deep-dive",
+      "date": "2026-10-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "anything2explainer",
+        "Remotion",
+        "Multi-Agent",
+        "Video Generation",
+        "Open Source",
+        "Claude Code",
+        "Explainer Video"
+      ],
+      "categories": [
+        "Open Source Project Deep Dive",
+        "AI Agent"
+      ],
+      "title": "anything2explainer 深度解析：给一个主题，产出一条代码画出来的讲解视频",
+      "description": "深度解析 Vincentwei1021 的开源项目 anything2explainer：这不是一个 CLI，而是一整套让 AI 编程 agent 独立完成科普讲解视频的方法。涵盖项目说明、核心思想、9 阶段完整实操教程、多 agent 分工协议、8 条设计哲学，以及从五部样片的返工记录里提炼出的结论与局限。"
+    },
+    {
       "slug": "2026-10-22-deepseek-bot-team-analysis",
       "date": "2026-10-22",
       "author": "瑞哥观势",
@@ -38,26 +58,6 @@
       ],
       "title": "Phân tích chuyên sâu Tev: dùng «latent world» để tạo dữ liệu, dùng phần thưởng mật độ để huấn luyện agent dài hạn",
       "description": "Phân tích chuyên sâu bài báo Tev do Adobe Research và UCLA phối hợp công bố: từ tổng hợp môi trường ưu tiên latent world, mổ xẻ 1,170 môi trường tác vụ dài hạn có thể kiểm chứng, định hình phần thưởng theo tiềm năng tiến độ (PPRS), cùng cách Tev-27B bắt kịp GPT-6 Astra và Claude Opus 5 trên ALE-CM. Kèm hướng dẫn tái tạo đầy đủ và phân tích triết lý thiết kế."
-    },
-    {
-      "slug": "2026-10-22-anything2explainer-deep-dive",
-      "date": "2026-10-22",
-      "author": "瑞哥观势",
-      "tags": [
-        "anything2explainer",
-        "Remotion",
-        "多 Agent",
-        "视频生成",
-        "开源项目",
-        "Claude Code",
-        "科普视频"
-      ],
-      "categories": [
-        "开源项目深度解析",
-        "AI Agent"
-      ],
-      "title": "anything2explainer 深度解析：给一个主题，产出一条代码画出来的讲解视频",
-      "description": "深度解析 Vincentwei1021 的开源项目 anything2explainer：这不是一个 CLI，而是一整套让 AI 编程 agent 独立完成科普讲解视频的方法。涵盖项目说明、核心思想、9 阶段完整实操教程、多 agent 分工协议、8 条设计哲学，以及从五部样片的返工记录里提炼出的结论与局限。"
     },
     {
       "slug": "deepinfer-2026-10-21",

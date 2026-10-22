@@ -1,6 +1,32 @@
 {
   "posts": [
     {
+      "slug": "2026-10-22-anything2explainer-deep-dive",
+      "title": {
+        "en": "anything2explainer Deep Dive: Give It a Topic, Get a Code-Drawn Explainer Video",
+        "zh-Hans": "anything2explainer 深度解析：给一个主题，产出一条代码画出来的讲解视频"
+      },
+      "description": {
+        "en": "A deep dive into Vincentwei1021's open-source project anything2explainer: this is not a CLI, but a complete methodology that lets AI coding agents produce explainer videos on their own. Covers the project description, core ideas, a full 9-stage hands-on tutorial, a multi-agent division-of-labor protocol, 8 design principles, and the conclusions and limitations distilled from the rework logs of five sample films.",
+        "zh-Hans": "深度解析 Vincentwei1021 的开源项目 anything2explainer：这不是一个 CLI，而是一整套让 AI 编程 agent 独立完成科普讲解视频的方法。涵盖项目说明、核心思想、9 阶段完整实操教程、多 agent 分工协议、8 条设计哲学，以及从五部样片的返工记录里提炼出的结论与局限。"
+      },
+      "date": "2026-10-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "anything2explainer",
+        "Remotion",
+        "Multi-Agent",
+        "Video Generation",
+        "Open Source",
+        "Claude Code",
+        "Explainer Video"
+      ],
+      "categories": [
+        "Open Source Project Deep Dive",
+        "AI Agent"
+      ]
+    },
+    {
       "slug": "2026-10-22-deepseek-bot-team-analysis",
       "title": {
         "en": "DeepSeek-Bot Deep Dive: Turning DeepSeek Harness into an AI Team with Long-Term Memory",
@@ -60,30 +86,6 @@
       ],
       "categories": [
         "Deep Paper Analysis",
-        "AI Agent"
-      ]
-    },
-    {
-      "slug": "2026-10-22-anything2explainer-deep-dive",
-      "title": {
-        "zh-Hans": "anything2explainer 深度解析：给一个主题，产出一条代码画出来的讲解视频"
-      },
-      "description": {
-        "zh-Hans": "深度解析 Vincentwei1021 的开源项目 anything2explainer：这不是一个 CLI，而是一整套让 AI 编程 agent 独立完成科普讲解视频的方法。涵盖项目说明、核心思想、9 阶段完整实操教程、多 agent 分工协议、8 条设计哲学，以及从五部样片的返工记录里提炼出的结论与局限。"
-      },
-      "date": "2026-10-22",
-      "author": "瑞哥观势",
-      "tags": [
-        "anything2explainer",
-        "Remotion",
-        "多 Agent",
-        "视频生成",
-        "开源项目",
-        "Claude Code",
-        "科普视频"
-      ],
-      "categories": [
-        "开源项目深度解析",
         "AI Agent"
       ]
     },
