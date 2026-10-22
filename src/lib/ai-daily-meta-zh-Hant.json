@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-22-ai-daily",
+      "date": "2026-10-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "OpenAI 披露 Patch the Planet 計畫借助 GPT-5.6 Sol 發現 PHP 關鍵漏洞並協調全球修補",
+      "description": "OpenAI 宣布在過去兩個月牽頭維護者、研究者與安全廠商聯盟，修補 PHP 的關鍵漏洞，其中 Calif 用 GPT-5.6 Sol 發現一處嚴重缺陷，Wiz 也獨立發現並報告了這兩個漏洞，PHP 維護者主導修補與發布。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-21-ai-daily",
       "date": "2026-10-21",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Google DeepMind 發布 Gemini 3.8 Live 和 3.8 Live Extended Thinking",
       "description": "Google DeepMind 發布 Gemini 3.8 Live 與 Gemini 3.8 Live Extended Thinking 兩個近即時語音對話模型，主打語音智慧體和複雜任務執行。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥觀勢",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-15-ai-daily",
-      "date": "2026-09-15",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "小紅書 AllSpark 開源 Search Agent 模型 Iris，35B 與 397B 版本同量級成績領先",
-      "description": "小紅書 AllSpark 團隊發布並開源 Search Agent 模型 Iris，權重和評測代碼已公開，數據與訓練配方將陸續公佈。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

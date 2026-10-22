@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-22-ai-daily",
+      "date": "2026-10-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "OpenAI、Patch the Planet 計画で GPT-5.6 Sol を活用し PHP の重大な脆弱性を発見・世界規模で修正",
+      "description": "OpenAI は過去 2 か月間、メンテナンス担当者・研究者・セキュリティベンダーの連合を率い、PHP の重大な脆弱性の修正を指揮したと発表した。Calif が GPT-5.6 Sol で重大な欠陥を発見し、Wiz も 2 件を独立に発見・報告、修正と公開は PHP メンテナンス側が主導した。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "瑞哥観勢",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-21-ai-daily",
       "date": "2026-10-21",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Google DeepMind、Gemini 3.8 Live と 3.8 Live Extended Thinking をリリース",
       "description": "Google DeepMindがGemini 3.8 LiveとGemini 3.8 Live Extended Thinkingの2つのほぼリアルタイム音声対話モデルを発表。音声エージェントと複雑なタスク実行に特化。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-15-ai-daily",
-      "date": "2026-09-15",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "小红书 AllSparkがSearch AgentモデルIrisをオープンソース化、35Bと397Bバージョンが同レベル成績でリード",
-      "description": "小红书 AllSparkチームがSearch AgentモデルIrisを公開・オープンソース化。重みと評価コードは既に公開済みで、データとトレーニングレシピは陆续公開予定。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

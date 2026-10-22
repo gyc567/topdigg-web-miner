@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-22-ai-daily",
+      "date": "2026-10-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "OpenAI Discloses Patch the Planet, Uses GPT-5.6 Sol to Uncover Critical PHP Vulnerabilities and Coordinate Global Fixes",
+      "description": "OpenAI announced that over the past two months it led a coalition of maintainers, researchers and security vendors to fix critical PHP vulnerabilities, with Calif using GPT-5.6 Sol to find a serious flaw while Wiz independently discovered and reported both issues, with PHP maintainers leading the remediation and release.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-21-ai-daily",
       "date": "2026-10-21",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Google DeepMind Releases Gemini 3.8 Live and 3.8 Live Extended Thinking",
       "description": "Google DeepMind releases Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking, two near-realtime voice conversation models focused on voice agents and complex task execution.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-15-ai-daily",
-      "date": "2026-09-15",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Xiaohongshu AllSpark Open-Sources Search Agent Model Iris, 35B and 397B Versions Lead at Same Level",
-      "description": "Xiaohongshu AllSpark team releases and open-sources Search Agent model Iris, with weights and evaluation code already public, data and training recipes to follow.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",
