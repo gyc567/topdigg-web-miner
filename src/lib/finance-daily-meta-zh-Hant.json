@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-22-finance-daily",
+      "date": "2026-10-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomics",
+        "Federal Reserve",
+        "European Central Bank",
+        "Geopolitics"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "每日財經簡報 | 2026-10-22",
+      "description": "10月28日聯準會決議前夜，主席沃什講話令10月升息預期從27%降至15%以下；歐洲央行三年來首次升息至2.50%；黃金站上4116美元，A股縮量整理。EUR/USD漲0.06%至1.1233，NVDA漲2.54%。",
+      "source": {
+        "original": {
+          "name": "瑞哥觀勢",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-20-finance-daily",
       "date": "2026-10-20",
       "author": "瑞哥观势",

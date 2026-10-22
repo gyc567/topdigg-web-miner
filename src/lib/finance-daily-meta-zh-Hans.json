@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-22-finance-daily",
+      "date": "2026-10-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomics",
+        "Federal Reserve",
+        "European Central Bank",
+        "Geopolitics"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "每日财经简报 | 2026-10-22",
+      "description": "10月28日美联储决议前夜，主席沃什讲话令10月加息预期从27%降至15%以下；欧洲央行三年来首次加息至2.50%；黄金站上4116美元，A股缩量调整。EUR/USD涨0.06%至1.1233，NVDA涨2.54%。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-20-finance-daily",
       "date": "2026-10-20",
       "author": "瑞哥观势",

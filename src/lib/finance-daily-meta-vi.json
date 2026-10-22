@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-22-finance-daily",
+      "date": "2026-10-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomics",
+        "Federal Reserve",
+        "European Central Bank",
+        "Geopolitics"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "Bản tin tài chính hàng ngày | 2026-10-22",
+      "description": "Trước thề quyết định FOMC ngày 28/10, bài phát biểu của Chủ tịch Fed Warsh đẩy xác suất tăng lãi suất tháng 10 từ 27% xuống dưới 15%; ECB tăng lãi suất lần đầu sau ba năm lên 2,50%; Vàng giữ trên 4.116 USD, A-share co hẹp. EUR/USD +0,06% ở 1,1233, NVDA +2,54%.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-20-finance-daily",
       "date": "2026-10-20",
       "author": "瑞哥观势",

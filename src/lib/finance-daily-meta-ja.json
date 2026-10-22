@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-22-finance-daily",
+      "date": "2026-10-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomics",
+        "Federal Reserve",
+        "European Central Bank",
+        "Geopolitics"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "デイリー金融ブリーフ | 2026-10-22",
+      "description": "10月28日のFOMCを前にウォルシュ総裁の講演で10月利上げ確率が27%から15%未満へ低下。ECBは3年ぶりに利上げし2.50%へ。金は4,116ドルで堅調、A株は縮小。EUR/USDは1.1233で0.06%高、NVDAは2.54%高。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-20-finance-daily",
       "date": "2026-10-20",
       "author": "瑞哥观势",

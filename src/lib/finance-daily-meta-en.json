@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-22-finance-daily",
+      "date": "2026-10-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomics",
+        "Federal Reserve",
+        "European Central Bank",
+        "Geopolitics"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "Daily Finance Briefing | 2026-10-22",
+      "description": "On the eve of the October 28 Fed decision, Chair Warsh's remarks pushed rate-hike odds for October from 27% below 15%; the ECB hiked for the first time in three years to 2.50%; Gold holds above $4,116 as A-shares shrink on volume. EUR/USD +0.06% at 1.1233, NVDA +2.54%.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-20-finance-daily",
       "date": "2026-10-20",
       "author": "瑞哥观势",

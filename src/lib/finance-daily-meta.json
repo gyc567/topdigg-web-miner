@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-10-22-finance-daily",
+      "title": {
+        "en": "Daily Finance Briefing | 2026-10-22",
+        "ja": "デイリー金融ブリーフ | 2026-10-22",
+        "vi": "Bản tin tài chính hàng ngày | 2026-10-22",
+        "zh-Hans": "每日财经简报 | 2026-10-22",
+        "zh-Hant": "每日財經簡報 | 2026-10-22"
+      },
+      "description": {
+        "en": "On the eve of the October 28 Fed decision, Chair Warsh's remarks pushed rate-hike odds for October from 27% below 15%; the ECB hiked for the first time in three years to 2.50%; Gold holds above $4,116 as A-shares shrink on volume. EUR/USD +0.06% at 1.1233, NVDA +2.54%.",
+        "ja": "10月28日のFOMCを前にウォルシュ総裁の講演で10月利上げ確率が27%から15%未満へ低下。ECBは3年ぶりに利上げし2.50%へ。金は4,116ドルで堅調、A株は縮小。EUR/USDは1.1233で0.06%高、NVDAは2.54%高。",
+        "vi": "Trước thề quyết định FOMC ngày 28/10, bài phát biểu của Chủ tịch Fed Warsh đẩy xác suất tăng lãi suất tháng 10 từ 27% xuống dưới 15%; ECB tăng lãi suất lần đầu sau ba năm lên 2,50%; Vàng giữ trên 4.116 USD, A-share co hẹp. EUR/USD +0,06% ở 1,1233, NVDA +2,54%.",
+        "zh-Hans": "10月28日美联储决议前夜，主席沃什讲话令10月加息预期从27%降至15%以下；欧洲央行三年来首次加息至2.50%；黄金站上4116美元，A股缩量调整。EUR/USD涨0.06%至1.1233，NVDA涨2.54%。",
+        "zh-Hant": "10月28日聯準會決議前夜，主席沃什講話令10月升息預期從27%降至15%以下；歐洲央行三年來首次升息至2.50%；黃金站上4116美元，A股縮量整理。EUR/USD漲0.06%至1.1233，NVDA漲2.54%。"
+      },
+      "date": "2026-10-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomics",
+        "Federal Reserve",
+        "European Central Bank",
+        "Geopolitics"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-20-finance-daily",
       "title": {
         "en": "Daily Finance Briefing | 2026-10-20",
