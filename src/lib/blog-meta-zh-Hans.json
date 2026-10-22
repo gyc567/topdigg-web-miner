@@ -26,14 +26,14 @@
       "tags": [
         "Tev",
         "AI Agent",
-        "强化学习",
-        "长程任务",
-        "稠密奖励",
-        "论文解析",
+        "Reinforcement Learning",
+        "Long-Horizon Tasks",
+        "Dense Rewards",
+        "Paper Analysis",
         "Agentic RL"
       ],
       "categories": [
-        "论文深度解析",
+        "Deep Paper Analysis",
         "AI Agent"
       ],
       "title": "Tev 深度解析：用「潜在世界」造数据，用稠密奖励训长程智能体",

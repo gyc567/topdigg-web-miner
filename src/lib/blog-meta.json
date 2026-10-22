@@ -34,24 +34,28 @@
     {
       "slug": "2026-10-22-tev-long-horizon-agent-analysis",
       "title": {
-        "zh-Hans": "Tev 深度解析：用「潜在世界」造数据，用稠密奖励训长程智能体"
+        "en": "Tev Deep Dive: Manufacturing Data with a latent world, Training Long-Horizon Agents with Dense Rewards",
+        "zh-Hans": "Tev 深度解析：用「潜在世界」造数据，用稠密奖励训长程智能体",
+        "zh-Hant": "Tev 深度解析：用「潜在世界」造資料，用稠密獎勵訓長程智能體"
       },
       "description": {
-        "zh-Hans": "Adobe Research 与 UCLA 联合发表的 Tev 论文深度解析：从潜在世界优先的环境合成出发，拆解 1,170 个可验证长跨度任务环境、进度势能奖励整形（PPRS），以及 Tev-27B 如何在 ALE-CM 上追平 GPT-6 Astra 与 Claude Opus 5。附完整方法复现教程与设计哲学分析。"
+        "en": "A deep analysis of the Tev paper jointly published by Adobe Research and UCLA: from latent-world-first environment synthesis, to a breakdown of 1,170 verifiable long-horizon task environments, Progress-Potential Reward Shaping (PPRS), and how Tev-27B matches GPT-6 Astra and Claude Opus 5 on ALE-CM. Includes a complete method reproduction tutorial and an analysis of its design philosophy.",
+        "zh-Hans": "Adobe Research 与 UCLA 联合发表的 Tev 论文深度解析：从潜在世界优先的环境合成出发，拆解 1,170 个可验证长跨度任务环境、进度势能奖励整形（PPRS），以及 Tev-27B 如何在 ALE-CM 上追平 GPT-6 Astra 与 Claude Opus 5。附完整方法复现教程与设计哲学分析。",
+        "zh-Hant": "Adobe Research 與 UCLA 聯合發表的 Tev 論文深度解析：從潛在世界優先的環境合成出發，拆解 1,170 個可驗證長跨度任務環境、進度勢能獎勵整形（PPRS），以及 Tev-27B 如何在 ALE-CM 上追平 GPT-6 Astra 與 Claude Opus 5。附完整方法復現教程與設計哲學分析。"
       },
       "date": "2026-10-22",
       "author": "瑞哥观势",
       "tags": [
         "Tev",
         "AI Agent",
-        "强化学习",
-        "长程任务",
-        "稠密奖励",
-        "论文解析",
+        "Reinforcement Learning",
+        "Long-Horizon Tasks",
+        "Dense Rewards",
+        "Paper Analysis",
         "Agentic RL"
       ],
       "categories": [
-        "论文深度解析",
+        "Deep Paper Analysis",
         "AI Agent"
       ]
     },
