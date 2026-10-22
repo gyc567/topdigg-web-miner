@@ -1,3 +1,17 @@
+---
+title: "DeepInfer深度解析：DeepSeek的自研推理引擎，藏着什么信号？"
+date: "2026-10-21"
+description: "DeepSeek 开源内部推理引擎 DeepInfer，Apache 2.0 协议。本文拆解其三层架构、KV缓存管理、prefill/decode分离与负载均衡设计，解读这次开源释放的真正信号。"
+author: "瑞哥观势"
+tags:
+  - DeepSeek
+  - 推理引擎
+  - 开源
+  - AI 基础设施
+categories:
+  - 开源项目解析
+---
+
 # DeepInfer深度解析：DeepSeek的自研推理引擎，藏着什么信号？
 
 2026年10月20日，DeepSeek正式开源了它的内部推理引擎**DeepInfer**，代码托管在GitHub，协议Apache 2.0。

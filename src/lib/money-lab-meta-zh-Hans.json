@@ -1,6 +1,19 @@
 {
   "posts": [
     {
+      "slug": "photocraft-rust-photoshop-alternative",
+      "date": "2026-10-07T00:00:00.000Z",
+      "author": "瑞哥观势",
+      "tags": [],
+      "categories": [],
+      "coverImage": null,
+      "earnings": null,
+      "difficulty": null,
+      "timeRequired": null,
+      "title": "PhotoCraft：纯Rust实现的Photoshop开源替代，架构设计与Agent化实践",
+      "description": "深度解析PhotoCraft项目：纯Rust实现的开源Photoshop替代方案，包含架构设计哲学、命令系统、PSD兼容实现、Agent驱动能力，以及详细安装与使用教程。"
+    },
+    {
       "slug": "ai-money-maker-handbook-2026",
       "date": "2026-10-06T00:00:00.000Z",
       "author": "瑞哥观势",

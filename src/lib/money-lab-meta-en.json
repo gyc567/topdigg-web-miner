@@ -1,6 +1,19 @@
 {
   "posts": [
     {
+      "slug": "photocraft-rust-photoshop-alternative",
+      "date": "2026-10-07T00:00:00.000Z",
+      "author": "瑞哥观势",
+      "tags": [],
+      "categories": [],
+      "coverImage": null,
+      "earnings": null,
+      "difficulty": null,
+      "timeRequired": null,
+      "title": "PhotoCraft: A Pure-Rust Open-Source Photoshop Alternative — Architecture & Agent-Driven Design",
+      "description": "An in-depth analysis of PhotoCraft: a clean-room reimplementation of Adobe Photoshop in pure Rust, covering architecture philosophy, command systems, PSD compatibility, agent-driven capabilities, and detailed installation guides."
+    },
+    {
       "slug": "ai-money-maker-handbook-2026",
       "date": "2026-10-06T00:00:00.000Z",
       "author": "瑞哥观势",

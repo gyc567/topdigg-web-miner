@@ -1,6 +1,108 @@
 {
   "posts": [
     {
+      "slug": "2026-10-22-deepseek-bot-team-analysis",
+      "date": "2026-10-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "DeepSeek",
+        "Multi-Agent",
+        "AI Agent",
+        "Open Source",
+        "Context Management",
+        "Long-Term Memory"
+      ],
+      "categories": [
+        "Open Source Project Analysis",
+        "AI Agent"
+      ],
+      "title": "DeepSeek-Bot 深度解析：让 DeepSeek Harness 变成一支有长期记忆的 AI 团队",
+      "description": "深度解析开源项目 DeepSeek-Bot：一支构建在 DeepSeek Harness 上的长期驻留 AI Bot 团队。涵盖项目说明、上下文管家、派活树、三级权限模型、记忆体系设计哲学，以及完整安装部署教程。"
+    },
+    {
+      "slug": "deepinfer-2026-10-21",
+      "date": "2026-10-21",
+      "author": "瑞哥观势",
+      "tags": [
+        "DeepSeek",
+        "推理引擎",
+        "开源",
+        "AI 基础设施"
+      ],
+      "categories": [
+        "开源项目解析"
+      ],
+      "title": "DeepInfer深度解析：DeepSeek的自研推理引擎，藏着什么信号？",
+      "description": "DeepSeek 开源内部推理引擎 DeepInfer，Apache 2.0 协议。本文拆解其三层架构、KV缓存管理、prefill/decode分离与负载均衡设计，解读这次开源释放的真正信号。"
+    },
+    {
+      "slug": "rea-reverse-engineering-tool",
+      "date": "2026-10-13",
+      "author": "瑞哥观势",
+      "tags": [
+        "逆向工程",
+        "AI工具",
+        "MCP",
+        "开源",
+        "开发者工具"
+      ],
+      "categories": [
+        "技术工具",
+        "AI应用"
+      ],
+      "title": "REA：一个让AI替你逆向工程的革命性工具",
+      "description": "深入了解REA：一个基于MCP的逆向工程工具，能让AI Agent直接分析任意程序的实现原理"
+    },
+    {
+      "slug": "rsiagent-recursive-self-improvement",
+      "date": "2026-10-13",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Agent",
+        "递归自我改进",
+        "开源AI",
+        "机器学习",
+        "自主探索"
+      ],
+      "categories": [
+        "AI前沿",
+        "技术研究"
+      ],
+      "title": "RSIAgent：无需训练即可让AI在陌生环境中实现递归自我进化",
+      "description": "深入了解RSIAgent：一个免训练的递归自我改进框架，让开源模型在陌生数字环境中自主探索并超越GPT-6 Astra"
+    },
+    {
+      "slug": "nvidia-pku-phd-salary-2026",
+      "date": "2026-10-12",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI",
+        "Talent",
+        "Salary",
+        "Campus Recruitment"
+      ],
+      "categories": [
+        "Industry Observation"
+      ],
+      "title": "英偉達290萬offer炸裂背後：清北AI博士，正在被全世界瘋搶",
+      "description": "近日一則英偉達給北大應屆博士開出290萬年包的截圖刷屏。現象背後，是一場正在全球上演的AI頂尖人才爭奪戰。"
+    },
+    {
+      "slug": "harnessrouter-ai-agent-infrastructure",
+      "date": "2026-10-10T00:00:00.000Z",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Agent",
+        "UHP",
+        "HarnessRouter",
+        "基础设施",
+        "协议标准"
+      ],
+      "categories": [],
+      "title": "HarnessRouter：一个协议定义未来的 AI Agent 基础设施",
+      "description": "HarnessRouter 和 UHP 协议为解决 AI Agent 基础设施碎片化问题提出统一方案，让一个驱动适配所有主流 Agent 运行时。"
+    },
+    {
       "slug": "2026-10-04-image-blaster-deep-dive",
       "date": "2026-10-04",
       "author": "TopDigg",
