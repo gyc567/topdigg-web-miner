@@ -26,18 +26,17 @@
       "author": "瑞哥观势",
       "tags": [
         "DeepSeek",
-        "Multi-Agent",
         "AI Agent",
-        "Open Source",
-        "Context Management",
-        "Long-Term Memory"
+        "AI Team",
+        "Organizational Change",
+        "Open Source"
       ],
       "categories": [
-        "Open Source Project Analysis",
-        "AI Agent"
+        "产业趋势",
+        "深度观察"
       ],
-      "title": "DeepSeek-Bot 深度解析：让 DeepSeek Harness 变成一支有长期记忆的 AI 团队",
-      "description": "深度解析开源项目 DeepSeek-Bot：一支构建在 DeepSeek Harness 上的长期驻留 AI Bot 团队。涵盖项目说明、上下文管家、派活树、三级权限模型、记忆体系设计哲学，以及完整安装部署教程。"
+      "title": "DeepSeek 开源了一支 AI 团队：老板，你的 AI 同事该有工位了",
+      "description": "DeepSeek 官方开源的 DeepSeek-Bot，不是又一个编程工具，而是一支有岗位、有记忆、有上下文的 AI 团队。它背后指向一个大趋势：AI 从一次性工具变成长期驻留的同事。老板该关心的不是怎么装，而是怎么排兵布阵、怎么重新设计岗位。"
     },
     {
       "slug": "2026-10-22-tev-long-horizon-agent-analysis",

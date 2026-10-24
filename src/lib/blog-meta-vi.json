@@ -26,18 +26,17 @@
       "author": "瑞哥观势",
       "tags": [
         "DeepSeek",
-        "Multi-Agent",
         "AI Agent",
-        "Open Source",
-        "Context Management",
-        "Long-Term Memory"
+        "AI Team",
+        "Organizational Change",
+        "Open Source"
       ],
       "categories": [
-        "Open Source Project Analysis",
-        "AI Agent"
+        "产业趋势",
+        "深度观察"
       ],
-      "title": "DeepSeek-Bot: Phân tích chuyên sâu — Biến DeepSeek Harness thành một đội AI có ký ức dài hạn",
-      "description": "Phân tích DeepSeek-Bot: đội AI Bot lâu dài trên DeepSeek Harness, cây bàn giao, phân quyền 3 cấp, ký ức dài hạn và hướng dẫn triển khai."
+      "title": "DeepSeek mở nguồn một đội AI: Sếp ơi, đồng nghiệp AI của bạn nên có chỗ làm việc rồi",
+      "description": "DeepSeek-Bot được DeepSeek mở nguồn chính thức không phải là thêm một công cụ lập trình nữa, mà là một đội AI có vị trí, có trí nhớ, có ngữ cảnh. Đằng sau nó chỉ ra một xu hướng lớn: AI chuyển từ công cụ dùng một lần thành đồng nghiệp cư trú lâu dài. Điều sếp cần quan tâm không phải là cách cài đặt, mà là cách bố trí nhân sự và cách thiết kế lại vị trí công việc."
     },
     {
       "slug": "2026-10-22-tev-long-horizon-agent-analysis",

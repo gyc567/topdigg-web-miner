@@ -26,18 +26,17 @@
       "author": "瑞哥观势",
       "tags": [
         "DeepSeek",
-        "Multi-Agent",
         "AI Agent",
-        "Open Source",
-        "Context Management",
-        "Long-Term Memory"
+        "AI Team",
+        "Organizational Change",
+        "Open Source"
       ],
       "categories": [
-        "Open Source Project Analysis",
-        "AI Agent"
+        "产业趋势",
+        "深度观察"
       ],
-      "title": "DeepSeek-Bot Deep Dive: Turning DeepSeek Harness into an AI Team with Long-Term Memory",
-      "description": "A deep dive into the open-source DeepSeek-Bot project: a long-running AI Bot team built on DeepSeek Harness. Covers the project overview, context steward, handoff tree, three-tier permission model, memory architecture, and a full install and deployment tutorial."
+      "title": "DeepSeek Open-Sourced an AI Team: Boss, Your AI Coworker Deserves a Desk",
+      "description": "DeepSeek's official open-source DeepSeek-Bot is not just another coding tool, but an AI team with positions, memory, and context. It points to a big trend: AI is turning from a one-off tool into a long-term resident colleague. What a boss should care about is not how to install it, but how to arrange the troops and how to redesign positions."
     },
     {
       "slug": "2026-10-22-tev-long-horizon-agent-analysis",

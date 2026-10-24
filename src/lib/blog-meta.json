@@ -35,32 +35,31 @@
     {
       "slug": "2026-10-22-deepseek-bot-team-analysis",
       "title": {
-        "en": "DeepSeek-Bot Deep Dive: Turning DeepSeek Harness into an AI Team with Long-Term Memory",
-        "ja": "DeepSeek-Bot 徹底解説：DeepSeek Harness を長期記憶を持つ AI チームに変える",
-        "vi": "DeepSeek-Bot: Phân tích chuyên sâu — Biến DeepSeek Harness thành một đội AI có ký ức dài hạn",
-        "zh-Hans": "DeepSeek-Bot 深度解析：让 DeepSeek Harness 变成一支有长期记忆的 AI 团队",
-        "zh-Hant": "DeepSeek-Bot 深度解析：讓 DeepSeek Harness 變成一支部有長期記憶的 AI 團隊"
+        "en": "DeepSeek Open-Sourced an AI Team: Boss, Your AI Coworker Deserves a Desk",
+        "ja": "DeepSeek が AI チームをオープンソース化：ボス、君の AI 同僚にはデスクを用意すべきだ",
+        "vi": "DeepSeek mở nguồn một đội AI: Sếp ơi, đồng nghiệp AI của bạn nên có chỗ làm việc rồi",
+        "zh-Hans": "DeepSeek 开源了一支 AI 团队：老板，你的 AI 同事该有工位了",
+        "zh-Hant": "DeepSeek 開源了一支 AI 團隊：老闆，你的 AI 同事該有工位了"
       },
       "description": {
-        "en": "A deep dive into the open-source DeepSeek-Bot project: a long-running AI Bot team built on DeepSeek Harness. Covers the project overview, context steward, handoff tree, three-tier permission model, memory architecture, and a full install and deployment tutorial.",
-        "ja": "オープンソースプロジェクト DeepSeek-Bot を徹底解説。DeepSeek Harness 上に構築された長期常駐 AI Bot チーム。プロジェクト概要、コンテキストスチュワード、引き継ぎツリー、3段階権限モデル、メモリの設計思想、そして完全なインストール＆デプロイ手順を網羅。",
-        "vi": "Phân tích DeepSeek-Bot: đội AI Bot lâu dài trên DeepSeek Harness, cây bàn giao, phân quyền 3 cấp, ký ức dài hạn và hướng dẫn triển khai.",
-        "zh-Hans": "深度解析开源项目 DeepSeek-Bot：一支构建在 DeepSeek Harness 上的长期驻留 AI Bot 团队。涵盖项目说明、上下文管家、派活树、三级权限模型、记忆体系设计哲学，以及完整安装部署教程。",
-        "zh-Hant": "深度解析開源專案 DeepSeek-Bot：一支建構在 DeepSeek Harness 上的長期駐留 AI Bot 團隊。涵蓋專案說明、上下文管家、派活樹、三級權限模型、記憶系統設計哲學，以及完整安裝部署教學。"
+        "en": "DeepSeek's official open-source DeepSeek-Bot is not just another coding tool, but an AI team with positions, memory, and context. It points to a big trend: AI is turning from a one-off tool into a long-term resident colleague. What a boss should care about is not how to install it, but how to arrange the troops and how to redesign positions.",
+        "ja": "DeepSeek 公式がオープンソース化した DeepSeek-Bot は、もう一つのプログラミングツールではなく、役職・記憶・コンテキストを持つ AI チームだ。その背後にある大きな潮流は、AI が使い捨ての道具から長期駐在の同僚へと変わっていくこと。ボスが見つめるべきは導入方法ではなく、陣の組み方と役職の再設計である。",
+        "vi": "DeepSeek-Bot được DeepSeek mở nguồn chính thức không phải là thêm một công cụ lập trình nữa, mà là một đội AI có vị trí, có trí nhớ, có ngữ cảnh. Đằng sau nó chỉ ra một xu hướng lớn: AI chuyển từ công cụ dùng một lần thành đồng nghiệp cư trú lâu dài. Điều sếp cần quan tâm không phải là cách cài đặt, mà là cách bố trí nhân sự và cách thiết kế lại vị trí công việc.",
+        "zh-Hans": "DeepSeek 官方开源的 DeepSeek-Bot，不是又一个编程工具，而是一支有岗位、有记忆、有上下文的 AI 团队。它背后指向一个大趋势：AI 从一次性工具变成长期驻留的同事。老板该关心的不是怎么装，而是怎么排兵布阵、怎么重新设计岗位。",
+        "zh-Hant": "DeepSeek 官方開源的 DeepSeek-Bot，不是又一個程式設計工具，而是一支有職位、有記憶、有上下文的 AI 團隊。它背後指向一個大趨勢：AI 從一次性工具變成長期駐留的同事。老闆該關心的不是怎麼裝，而是怎麼排兵佈陣、怎麼重新設計職位。"
       },
       "date": "2026-10-22",
       "author": "瑞哥观势",
       "tags": [
         "DeepSeek",
-        "Multi-Agent",
         "AI Agent",
-        "Open Source",
-        "Context Management",
-        "Long-Term Memory"
+        "AI Team",
+        "Organizational Change",
+        "Open Source"
       ],
       "categories": [
-        "Open Source Project Analysis",
-        "AI Agent"
+        "产业趋势",
+        "深度观察"
       ]
     },
     {

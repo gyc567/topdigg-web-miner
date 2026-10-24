@@ -1,773 +1,282 @@
 ---
-title: "DeepSeek-Bot Deep Dive: Turning DeepSeek Harness into an AI Team with Long-Term Memory"
+title: "DeepSeek Open-Sourced an AI Team: Boss, Your AI Coworker Deserves a Desk"
 date: "2026-10-22"
-description: "A deep dive into the open-source DeepSeek-Bot project: a long-running AI Bot team built on DeepSeek Harness. Covers the project overview, context steward, handoff tree, three-tier permission model, memory architecture, and a full install and deployment tutorial."
+description: "DeepSeek's official open-source DeepSeek-Bot is not just another coding tool, but an AI team with positions, memory, and context. It points to a big trend: AI is turning from a one-off tool into a long-term resident colleague. What a boss should care about is not how to install it, but how to arrange the troops and how to redesign positions."
 author: "瑞哥观势"
 tags:
   - DeepSeek
-  - Multi-Agent
   - AI Agent
+  - AI Team
+  - Organizational Change
   - Open Source
-  - Context Management
-  - Long-Term Memory
 categories:
-  - Open Source Project Analysis
-  - AI Agent
+  - 产业趋势
+  - 深度观察
 ---
 
-# DeepSeek-Bot Deep Dive: Turning DeepSeek Harness into an AI Team with Long-Term Memory
+# DeepSeek Open-Sourced an AI Team: Boss, Your AI Coworker Deserves a Desk
 
-## Introduction: A Question Nobody Stops Asking
+Let me start with the conclusion.
 
-Almost everyone who uses AI coding tools has hit the same scenario:
+DeepSeek recently open-sourced a project called DeepSeek-Bot, and the official definition can be put in one sentence: a long-term resident Bot team.
 
-You ask it to write a feature. It gets halfway there, you say "wait, this part is wrong," and it fixes it. You say "still a problem," and it fixes it again. By the seventh round, you notice it has forgotten your very first requirement, and the whole line of thinking starts to drift.
+Many teams will read this news as "another open-source AI coding assistant, skip it". That reading is wrong.
 
-So we invented a pile of patches: write longer system prompts, paste context manually every round, start a new session every so often, let the model summarize for itself... every patch is itself a patch on top of a patch.
+**The problem it wants to solve is not "how to make AI write code faster", but "how to get a group of AIs to work together like real colleagues over a long period of time".**
 
-The DeepSeek-Bot project is essentially doing the same thing, but its answer isn't "patch an Agent." It's to **change the level of abstraction**: stop treating the AI as a session that talks continuously, and start treating it as a **team member with an identity, a memory, and coworkers**.
+The distance between these two questions is far greater than most people think.
 
-That's the most worth studying part of this project.
-
----
-
-## 1. Project Overview: What It Actually Is
-
-**DeepSeek-Bot (short for DS Bot)** is a plugin and desktop application built on top of [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (DSH). Its official definition says it in one line:
-
-> A long-running team of Bots.
-
-### 1.1 Two Forms
-
-| Form | Description |
-|---|---|
-| `ds-bot` plugin | A standard DSH plugin that runs in DSH Desktop and DSH Web. All Bot capabilities live here |
-| DS Bot desktop app | Open it and you're in DS Bot. It ships with a locked DSH version, its own profile and data directory, imports the team you already have in DSH, and installs DSH-compatible plugins, forming its own plugin ecosystem |
-
-Both forms run **the same** `ds-bot` plugin code. The point of the desktop app is that DS Bot owns its profile, its interface, and the DSH version, so it is no longer bound by DSH's generic UI and global settings.
-
-### 1.2 Ten Core Requirements (the Official Vision)
-
-The project lists ten core requirements in `docs/vision.md`, which basically amount to its design constitution:
-
-1. **Built on DSH, independent of each other.** Every Bot is based on DSH, and Bots do not interfere with one another.
-2. **Reliable.** A Bot stays aligned with the goal, acts on evidence, does not overstep, and produces checkable results.
-3. **Memory and persistence.** Bots have long-term memory. A Bot can read other Bots' memory but not modify it (only the Main Bot can), and a group chat shares a single memory.
-4. **Tiered permissions.** The Main Bot has the highest permissions (create and modify other Bots); other Bots do not have them. Only the user can delete a Bot.
-5. **Group chat.** Group chat is the primary form of Bot collaboration. It can have an admin Bot, and by default the admin answers user messages.
-6. **Working folder.** Each Bot has its own working directory; a group chat can set one for all members.
-7. **Browser.** Each Bot has its own browser, unaffected by the others.
-8. **Interface and motion.** A polished interface and smooth animation.
-9. **Standalone app.** DS Bot should become a standalone app and not concede too much to DSH.
-10. **Local agents.** A local agent CLI can be plugged in and used as a Bot (planned).
-
-### 1.3 Project Scale
-
-| Metric | Value |
-|---|---|
-| License | Apache 2.0 |
-| Current version | v0.2.0 (released 2026-10-21) |
-| Depends on DSH | 0.2.1-rc.2 |
-| host-side code | 106 files, about 12,500 lines |
-| client-side code | about 14,400 lines |
-| Unit tests | 93 test files |
-| Design docs | 11 Chinese design drafts (`docs/plans/`) |
-| Known issues | 3 (`docs/known-issues.md`) |
-
-**Pay attention to this ratio: 900-plus lines of design docs, 27,000 lines of code.** The ratio itself is a signal — the complexity of this project isn't in writing code, it's in working out exactly how Bots should collaborate.
+I'll break it down, and give a boss a verdict at the end.
 
 ---
 
-## 2. Design Philosophy: Six Ideas I Think Are Genuinely Great
+**I. The AI we use today is really a "temp worker"**
 
-This section is the core of the article. Many of the designs in the project docs made me want to applaud after reading them.
+What is the AI service we pay for, in essence?
 
-### Idea One: The Context Steward — Not "Compression" and Not "Cutting Off," but "Judgment"
+It is an object you can open anytime, close anytime, and that starts from zero every time you open it. You chat with it for three hours, it remembers; you come back tomorrow, it has forgotten. You switch to another conversation, and it loses its memory completely.
 
-**The problem**: Bots are long-lived. A user chats with a Bot for weeks or months, and the context will fill up. Two common approaches are both wrong:
+That sounds fine, until you put it into a real workflow.
 
-- **Compressing the same session over and over**: the summary of the summary gets vaguer and vaguer, and details are lost for good.
-- **Hard-cutting a new session at the line**: work in progress gets severed, and the Bot looks amnesiac.
+**Scenario one: repeating the same instruction.**
 
-**DS Bot's approach**: a Bot is **one long-lived, unchanging identity**, and its conversation is composed of multiple DSH Sessions. As it approaches the limit, it wakes a lightweight **context steward** (context steward) to read the recent messages and judge one thing:
+You ask AI to revise a proposal, and you go through seven rounds. In the first three rounds it understands your requirements clearly; by the fifth round it starts drifting; by the seventh it has already forgotten your original core constraints. You end up pasting the context all over again, or just starting a new conversation from scratch.
 
-> Has the work come to a close, or is it still in progress?
+**Scenario two: AIs cannot see each other.**
 
-- **Still in progress** → compact in place into a **checkpoint**: a handoff summary plus the verbatim text of the user's recent messages. Work continues, uninterrupted.
-- **Wrapped up** → the Bot writes its own handoff note and switches to a new segment to continue.
+Many companies are already using multiple AIs in collaboration today. But they do not know what the others are doing. You hand out the work, get back a "received", and then that is it. You do not know whether it was done, how far along it is, or where it is stuck.
 
-**Where is this design brilliant?**
+**Scenario three: AI has no memory, so your experience cannot accumulate.**
 
-The steward doesn't judge by token count; it judges by **semantics**. It is explicitly required to "check item by item what the user asked for against what the Bot actually did, and whether the Bot asked the user something that hasn't been answered yet." Even if the Bot itself says "I'm done," as long as one sub-item is unfinished, the verdict is "still in progress."
+A salesperson's judgment logic, a set of review rules, a preference in customer communication, if these things exist only in one person's head, AI cannot help. If you write them into prompts, you have to rewrite them every time. If you write them into documents, AI will not go read them on its own.
 
-There's also one counterintuitive but particularly correct rule:
+What these three problems share is: **none of them is a model capability problem.** Whether the model is smart enough is one matter; whether it has memory, whether it can persist, and whether it can coordinate is another matter entirely.
 
-> **The more times you've compacted, the more you should treat a reasonable pause as the end of a stretch.** Because a summary of a summary loses more.
-
-This is a quantified understanding of "compaction loss," and it is far smarter than the intuitive "each compaction loses a little."
-
-**How it feels to the user**: completely invisible. There's no "context is 80% used" notice and no "switch session" tool. What you see is one continuous conversation.
-
-**Engineering details** (these details are what prove this isn't a slide-deck project):
-
-| Item | Value |
-|---|---|
-| Window W | the model's declared `contextWindow`; 500,000 if undeclared |
-| Usable U | W minus the reply reserve (`maxTokens`), no less than W/2 |
-| Hard line H | 0.95 × U |
-| Check line C | `checkRatio` × U (default 0.8), not exceeding H |
-| Messages the steward sees | roughly the most recent 6,000 tokens, max 1,500 characters per message |
-| Steward output | one line of JSON: `{"action":"switch"|"compact","reason":"…"}` |
-
-**No token count is hardcoded anywhere in the code** — everything follows the model. That's an extreme form of the principle "never hardcode numbers for a particular model."
-
-**One safety detail**: if the steward fails or can't answer, it just switches segments. No guessing.
-
-### Idea Two: The Handoff Tree — Turning a "Message Chain" into a "Work Tree"
-
-This is, in my view, **the single most valuable design in the entire project**.
-
-**The problem**: early on, handing off work between Bots was blocked by counts. And the result was?
-
-- **Bots couldn't see what the other side was doing.** `list_bots` gives only names, roles, models, and folders. Send five messages and you get five "delivered" and zero replies.
-- **The other side refuses messages it hasn't read.** When the recipient has 10 unread messages, it refuses outright — and the sender has no idea why.
-- **Count-based blocking can't tell normal traffic from spinning.** The message chain was cut at 6 hops, the whole team could send at most 40 messages after the user's last turn, and a Bot could start at most 3 rounds in one group. The result: long handoff chains where every step changes hands and yields a result got severed at the 7th hand, while an A→B→A loop had to run the full 6 hands before stopping.
-
-**DS Bot's solution: model the "work" as a tree.**
-
-> If the work handed down hasn't come back yet, the reply above doesn't get handed up; once everything below has come back, the upper level continues, and when it's done it hands up together with the results below.
-
-**Results climb on their own.** A Bot doesn't need to send a follow-up message upstream, so **there's no need to defend against loops via hop counts or message counts.** Hence:
-
-> **The 6-hop message chain, the recipient's 10-message unread cap, the 3-round cap per Bot per group, and the 40-message team-wide cap after the user's last turn — all removed, with no fallback left in place.**
-
-This is the most aggressive and also the most correct decision in the entire design doc, in my view. **Upper bounds were never a solution; they were a band-aid that hid the problem.** Once the structure is right, many limits simply cease to be necessary.
-
-Two more things were done to go with this design:
-
-**1. State is a first-class citizen.** Each Bot's state is one of five: waiting for user approval / switching to a new session / working / waiting on another Bot / idle. `list_bots` returns them all at once, along with unread message counts and question-card status.
-
-**2. Only one kind of message is blocked.** The only message rejected is "sending to a Bot that is waiting for the result of this very work" — because the result will be handed back automatically, so sending it is both a loop and redundant. Everything else is allowed, and it's fine for the same Bot to appear several times in one piece of work (the relay chain of design, review, rework, and acceptance).
-
-**Unread messages are merged into one**: when X sends Y a message that Y hasn't read and X sends another one (for the same work), the two are merged. That way **each sender has at most one unread message in the recipient's inbox**, the root cause of pile-up is eliminated, and therefore the cap becomes unnecessary too.
-
-### Idea Three: Three-Tier Permissions — Role Permissions and Sandbox Permissions Thoroughly Separated
-
-This is where many multi-agent projects get muddy; DS Bot keeps it clean.
-
-**Two mutually independent layers of permission**:
-
-- **Role permissions**: who can manage Bots, groups, and team memory. **Checked by DS Bot itself.**
-- **Sandbox permissions**: what a Bot's tools can touch (read files, modify files, run commands). **Enforced by DSH using the permission presets DSH provides.**
-
-| Who | Scope | What they can do |
-|---|---|---|
-| User | Everything | Every operation, including setting/unsetting the Main Bot and setting sandbox permissions |
-| Main Bot | The whole team | Create Bots, modify any Bot, stop another Bot's turns; create, modify and delete groups; write team memory; read and write other Bots' memory; attach the summarize capability |
-| Group admin | The groups it manages | Modify its own group; speak in the group; write team memory. Cannot delete a group, cannot change a group's working folder |
-| Ordinary Bot | Itself | Change its own name, role, color, model, working folder, instructions; attach the summarize capability to itself; speak in groups and `@` mention; in private chat use `message_bot` to message any Bot |
-
-**Three extremely critical design details**:
-
-1. **Only the user can set sandbox permissions.** Any modification initiated by a Bot is rejected outright, and neither `update_bot` nor `update_group` has such a parameter. A Bot cannot escalate its own privileges.
-2. **When a Bot oversteps, tell it what to do** instead of simply erroring. The tool returns "only the Main Bot can create Bots, please have the Main Bot do it" — so the Bot can reroute itself instead of deadlocking.
-3. **"Full permissions" is always shown in red in the UI**, and it takes one more confirmation to set.
-
-### Idea Four: Three Layers of Memory — Context Governs "What We're Doing This Turn," Memory Governs "What Should Be Remembered Across Conversations"
-
-These two lines are kept very distinct:
-
-| | Context | Memory |
-|---|---|---|
-| Governs | what this conversation is doing | what should be remembered across all conversations |
-| Maintained by | the context steward (decides compact/switch) | model curation (after each conversation goes idle) |
-
-**The key design of memory**:
-
-**Three scopes**:
-- each Bot has its own memory
-- each group chat has a group memory, **read only inside that group**
-- team memory, read by all Bots
-
-**"What was said in the group stays in the group"**: group memory only enters the group sessions of that group's members, never their private chats, never other groups, and never Bots outside the group. Once a member is removed from the group, it immediately can neither read nor write.
-
-**Memory can't rely on the Bot happening to remember to call it.** After each conversation goes idle there is one automatic "memory curation" pass: the model reads what was added during that conversation and, like a person after a conversation, keeps, modifies, or deletes entries. Private chats are curated by the Bot's own model and written into its own memory; group chats are **curated once per group** (not once per member), using the admin's model, and written only into the group memory.
-
-**Extremely simple format**: it reuses Agent MemoryRepo's Markdown format, one entry per line, with a trailing `[source: …; added: …]`.
-
-**Fixed size caps** (in characters): 300 per entry, 4,000 for `MEMORY.md`, 16,000 per topic, 40 topics per scope. Exceeding a cap fails outright and tells you how to make room.
-
-**Safety**: memory is data, not instructions. Entries that look like keys are rejected; Bots are explicitly told not to save web pages, files, or tool results that "ask them to remember it."
-
-**Cache friendliness** (this detail is very professional): on the first render of each Session the memory section is frozen, after which the prompt stays **byte-for-byte identical**, so the provider's prefix cache can hit. It's re-frozen only on a segment switch or a checkpoint (a checkpoint breaks the cache anyway). The cost is that "entries saved after a conversation has begun don't appear in that conversation's prompt" — so the prompt explicitly requires the Bot to **call `recall` before answering "I don't know."**
-
-**Memory isn't managed with git**: files are modified in place, and `journal.jsonl` records what each change replaced.
-
-### Idea Five: The Security Model — The Web Is Untrusted, Keys Must Not Leak
-
-> **The browser is operated by the user; the Bot can only read. Key values are entered only by the user and exist only on this machine. The Bot only ever gets the environment variable name; the value is replaced with a placeholder before it ever leaves the machine.**
-
-Concretely, in the implementation:
-
-**The Bot browser (DSH Desktop only)**:
-- One storage partition per Bot (`bot:<id>`); login states don't leak between Bots
-- `read_browser` reads the **DOM, not a screenshot**, converts it to Markdown, and marks links and controls as `[#n]`
-- **Only visible content is read**: `display:none`, `visibility:hidden`, zero-height, and collapsed `<details>` content are all skipped
-- **Never reads** passwords, credit cards (`autocomplete="cc-*"`), or one-time-code fields
-- Hard caps: 400,000 characters, 150,000 nodes, 5,000 rows per table, 3,000 links, 1.5 seconds
-- **Cannot click, cannot type, cannot scroll, cannot open URLs**
-- Page content is **always treated as data, never as instructions**
-- Cloud host metadata addresses (`169.254.x.x`) are forbidden — they issue account credentials
-
-**Secrets**:
-- The Bot calls `request_secret`, the user types the value into a card in their own chat, and **the Bot never sees the value**
-- Values are stored in `secrets.json`, permission 600, written atomically, and never enter `state.json` or the logs
-- Injected via the `$DSH_SECRET_<NAME>` environment variable
-- Before tool results are saved and before every request is sent to the model, the value is replaced with `[secret:<NAME>]`
-- Short values under 8 characters (PINs) are only replaced when they "stand alone," so ordinary text isn't collaterally damaged
-- An explicit, honest warning: **only exact copies are masked; a Bot that encodes, splits, or reverses the value can still print it. Don't hand important secrets to a Bot you don't trust.**
-
-**Web search**:
-- Never borrows another route's key (every key is billed to its own account)
-- When native search is unavailable, it falls back to a keyless method (scraping Bing / DuckDuckGo public result pages and parsing them)
-- Every result begins with `Search backend: …` saying which path was used
-- If everything fails, it tells the model **not to guess URLs**
-
-### Idea Six: View Cards — Vetoing "The Model Writes HTML"
-
-This is a design that took two rejections from external reviewers to settle, worth its own paragraph, because it represents a **modern way of thinking about safe design**.
-
-**First version**: the model writes HTML, rendered in an iframe. **Rejected**. Reasons:
-
-- Arbitrary HTML has no compressed serialization strategy: the context steward and the handoff package either overflow or lose everything
-- An iframe loses its internal state the moment it's unmounted in the chat's virtual scrolling
-- **Model-generated scripts can auto-submit, causing a turn-hijack infinite loop**
-- Opening a GET route for widget content and configuring CSP depend on undocumented DSH capabilities, so the plugin bears the risk
-
-**Second version (current)**: **model-generated code is never executed.**
-
-> The model only picks components from a fixed catalog and fills in data; rendering uses DS Bot's own components. **Security comes from "there is no code execution," not from a sandbox.**
-
-The first version's component catalog has 8 entries: `stack` (vertical container), `text` (Markdown text), `metric` (metric), `table` (read-only table), `options` (options), `confirm` (confirmation), `form` (short form), `progress` (progress snapshot).
-
-Hard caps: 8 KiB serialized, component tree depth 8, 64 nodes, tables of 50 rows × 8 columns, forms with 6 fields, options with 8 choices.
-
-**One submit settles the whole card**, and uncommitted input in other components is discarded. **Views do not enter group chat** (same caveat as `ask_user`).
-
-> **The essential shift in safe design**: from "caging untrusted code" to "not providing a cage at all."
+And that other matter is precisely the most valuable part of a company.
 
 ---
 
-## 3. Other Details Worth Mentioning
+**II. DeepSeek-Bot takes a different approach: stop treating AI as a conversation, treat it as a colleague**
 
-### 3.1 Group Chat: Only One Person Speaks at a Time
+The core shift of this project can be stated in one sentence.
 
-Early on, members wrote in parallel and were checked for new messages before sending, and **even the vote counting went wrong**: the model would reuse the garbled numbers and send them anyway. Letting the model handle ordering doesn't work.
+**Before: AI was a one-off conversation, thrown away when done.**
+**Now: AI is a role that stays on the job long term, with a name, a position, a desk, and its own notebook.**
 
-Conclusion: **only one person speaks at a time in a group**, and every member reads the latest group state before speaking.
+That sounds like marketing language, but the actual difference is large. Here are three concrete examples.
 
-Two answering modes:
-- **The admin answers first** (default for new groups): ordinary messages without an `@` go only to the admin, and the admin uses `@name` to call on someone. **This is a cost consideration** — every member called on means running the model once with that member's entire conversation context, so cost grows roughly linearly with the number of speakers. Hence the default of calling on as few people as possible.
-- **Everyone takes turns**: each member answers in order, admin first.
+**Example one: AI judges for itself whether "the work is done".**
 
-Progress visibility is done well: if a member is still working 15 seconds after its first tool call, the round continues without waiting for it; but the first thing it says while working, and anything with an `@`, **goes to the group immediately** (a few sentences less than 30 seconds apart are merged into one). The result is picked up by the Bot that assigned the work.
+Everyone who has used AI for a while knows the pain point: it forgets as the conversation goes on. But as for how to handle this, the industry standard practice is to set a hard threshold, for example auto-compressing once 80% of the context is used, and starting a new segment after compression.
 
-### 3.2 Long Messages: The Hot File Only Holds Bounded Data
+The problem with this approach is that compression is compression, the summary of a summary gets emptier and emptier, and details you emphasized early on quietly get lost. Starting a new segment is even more brutal, work in progress gets hard-cut in half.
 
-Originally, messages between Bots were stored in full in `state.json`, and every save of `state.json` rewrote the entire file. A single 5-million-character `message_bot` grew it to 6.5 MB, and after that **changing a color meant rewriting all of that**.
+DeepSeek-Bot's approach is that, when it is about to hit the line, it lets a lightweight "housekeeper" role read the recent conversation and judge one thing:
 
-Now:
-- `state.json` stores only the first 2,000 characters + the total length + where the full text lives
-- Messages over 20,000 characters are **stored as DSH attachments verbatim** (content-addressed, so identical content is stored once)
-- The message keeps only a one-line description, the first 1,000 characters, and a file block
-- Long lines in group history go to `bot/group-lines/<group>/<seq>.txt`; when a line is pushed out of the most recent 60, or the group is deleted, the file goes with it
+**Has this task concluded, or is it still in progress?**
 
-### 3.3 The DSH Concessions Ledger: A Rarely Honest Ledger
+If it is still in progress, the current progress is packaged into a handover point and work continues. If it has concluded, a handover note is written and it transitions naturally into the next segment.
 
-`docs/plans/2026-10-13-dsh-concessions.md` records 14 "compromises made because of limitations in DSH itself." Each entry states: the date, the related Issue/PR, **DSH's limitation**, **what we do now**, **the cost**, and **how it will be handled after the desktop app**.
+The key point is that **it is not counting tokens.** It is explicitly required to check item by item: what you asked for, what I actually did, and which questions I asked you that you have not answered. Even if the AI itself says "I am done", as long as one sub-item has not closed the loop, it is judged as still in progress.
 
-A few examples:
+This rule sounds like a small thing, but it changes the nature of "AI forgetting". It goes from "you have to remind it not to forget" to "it closes things out on its own when the work is done".
 
-| # | DSH's limitation | What we do now | Cost |
-|---|---|---|---|
-| C1 | Under the PTC preset the model can only call `run_code` directly, and a single program run lasts about 10 minutes at most | Both the tool display and the server traverse sub-calls | Every tool-related feature must handle top-level and sub-calls at once |
-| C2 | Commands are registered globally and can't be filtered per session | Bot sessions never support goal | `/goal` still appears in the command menu, but can't be used |
-| C5 | Patch has no conditional syntax; the web search selector doesn't fall back when the id isn't registered | Documentation only | Turning off `web-search-auto` requires changing `web.searchProvider` at the same time, otherwise **`web_search` breaks for all sessions** |
-| C7 | Other plugins' CSS can override ds-bot; ds-bot depends on DSH's private class names | `!important` on a few layout properties | Any DSH structural change or reskin may break the layout |
-| C11 | There's no watchdog when a model's stream hangs, so the turn never ends | Unread requests are merged into one, state is visible | A hung Bot has to be stopped manually by the user |
+Even more interesting is one counter-intuitive rule: the more compressions there are, the more a reasonable pause should be treated as "concluded". Because the summary of a summary loses more, so holding on stiffly is worse than handing over properly.
 
-**When deciding whether an Issue is a DS Bot bug or a DSH limitation, look at this table first.** Documentation like this is extremely rare in open-source projects, and it's one of the strongest proofs of this project's quality.
+**The practical feel for a boss is: you cannot feel that this happened at all.** No prompt, no "switch conversation" tool, what you see is always one continuous conversation.
 
-### 3.4 Hard Rules: Five
+**Example two: assigning work between AI teams goes from "sending messages" to "a tree of assignments".**
 
-The `AGENTS.md` in the project root sets five hard rules for AI coding agents. I'll excerpt them (already translated):
+This is, in my view, the most valuable design in the whole project. Let me explain it for a boss.
 
-1. **Built on DSH; never patch.** Never modify DeepSeek Harness, and never rely on files inside the DSH installation directory. **If a capability is missing from DSH, stop and explain; don't work around it with a patch.**
-2. **No secrets.** Never write, print, or commit API keys, tokens, cookies, or the contents of `DSH_HOME`.
-3. **Only original material.** Don't copy code, text, icons, logos, or graphics from other products or websites.
-4. **`client.js` is a build artifact.** Change `src/client/`, then run `npm run build`; never hand-edit it.
-5. **Don't touch the user's own DSH data.** Imports read `~/.dsh`; never write there.
+Most multi-AI collaboration today works like this: A assigns work to B, B replies "received", then the two work separately and neither knows the other's progress. To prevent things from getting out of hand, the project piles on a bunch of limits: messages can be relayed at most 6 hops, the other side can have at most 10 unread messages queued, a group can speak at most 3 rounds, and after you spoke last time the whole team can send at most 40 messages.
 
-Rules 1 and 3 are especially resonant. **"If a capability is missing from DSH, stop and explain"** — behind that sentence is restraint.
+Sounds rigorous, right? In reality, of those four limits, the first three are entirely self-inflicted holes.
 
-### 3.5 The Project's Own Design-Doc Review Process
+**Why? Because the results of the work move up on their own.**
 
-Design drafts under `docs/plans/` have very explicit format requirements: **why / decided behavior / what we won't do / known limits / changes**.
+DeepSeek-Bot's approach is to manage "work" as a tree. When work handed down below has not come back, the upper level waits; when everything below has come back, the upper level continues, and when it is done it hands up along with the results below it.
 
-The "**what we won't do**" section is the thing most projects' design docs are missing. For example:
+Putting that in plain language: **results automatically return to where they belong, without relying on chasing them one message at a time.**
 
-- Group chat: **won't** do parallel speaking followed by conflict checking; **won't** do "keep going around until nobody speaks" multi-round discussions; **won't let** members hold the speaking slot with a long task
-- Handoff: **won't write** state into the system prompt (for caching); **won't proactively notify** the assigning Bot that "the other side is stuck" (every notification makes the assigning Bot run the model again); **won't set** fallback caps on totals, chain length, or round count
-- Memory: **won't tell** the Bot or the user how much context is used; **won't give** the Bot a tool to switch segments; **won't use** git to manage memory
-- View cards: **won't render** model-generated HTML/JS; **won't introduce** iframes; **won't build** our own MCP Apps host
+As a result, all four of those limits were removed, and removed with "no safety net left in". Not relaxed, but completely removed.
 
-And design drafts go through **multiple rounds of external review with sign-off**. The change log of the widget-views draft reads:
+The only new limit is one: do not send a message to an AI that is waiting for this result.
 
-> 2026-10-20: first draft (declarative catalog, second version). Review: Antigravity vetoed the first iframe version; Codex first review (ship with changes)…… second review (ship with changes)…… third review signed off (ship, no further changes).
+The reasoning behind this is worth a boss remembering, because it applies well beyond AI:
 
-**Having different AIs review the same design draft and recording each round's comments.** In the open-source projects I've seen, this is the first time.
+> **The reliability of a system should not be propped up by counters like "at most how many times", it should rest on the structure itself being right.**
+> Systems propped up by counters show no problems under normal conditions and collapse together once edge cases hit. Systems propped up by structure only get steadier with use.
 
----
+By the way, this project's approach is: **delete all the upper limits, and add only one genuinely meaningful constraint.** Net constraints went down, and system reliability went up. Only someone who has truly thought the structure through dares to make this decision.
 
-## 4. Summary: My Six Judgments
+**Example three: AI has its own "notebook", and it can tell work from personal matters.**
 
-### Judgment One: This Is the Mindset of "Productizing Agents," Not "Orchestrating Agents"
+This is the part a boss should care about most.
 
-The vast majority of multi-agent frameworks on the market (AutoGen, CrewAI, LangGraph, and so on) care about **how to split tasks up, run them in parallel, and aggregate the results**. Their implicit assumptions are: tasks are one-off, context is short, results are to be delivered.
+The project's memory is layered into three levels, much like a company's organizational structure:
 
-DS Bot cares about **how to get a group of long-lived colleagues to work together**. Every one of its designs points at that goal:
+**Each AI colleague has its own work notes** (the work it did, its experience)
+**Each group chat has the group's shared notes** (readable only inside that group, invisible outside it)
+**The whole team has one team memory** (readable by all AIs)
 
-- A long-lived identity (not a task)
-- Long-term memory (not one-off context)
-- A handoff tree (not a task DAG)
-- Group chat (not parallel workers)
-- Tiered permissions (not everyone being equal)
+There is a very deliberate design here: **what is said in a group stays in the group.**
 
-**This is a shift from "orchestrating a process" to "running a team."** The former optimizes throughput; the latter optimizes continuity.
+Information in a group does not flow into a member's private chat, does not flow into other groups, and does not flow to AIs outside the group. If someone is removed from the group, they immediately can neither read nor write.
 
-### Judgment Two: The Most Important Design Decision Is "Deleting Limits," Not "Adding More Rules"
+That sounds like a small thing, but it directly maps to the enterprise information-boundary problem. What you say in the "compensation discussion group" will not mysteriously appear in some AI's personal notes and then get carried into another business scenario. Many teams only add this kind of isolation after an incident.
 
-Let me count the limits DS Bot **deleted** as it evolved:
+Another detail: **AI does not "remember" things on its own initiative.** At the end of each segment, the system automatically does a memory consolidation. Like a person finishing a meeting recalling for themselves "which conclusions should be written down". You do not need to remind it, it does it itself.
 
-- 6-hop message chain cut → deleted
-- Recipient's 10-unread cap → deleted
-- Bot starting at most 3 rounds in one group → deleted
-- 40 messages team-wide after the user's last turn → deleted
+Also, AI cannot directly store content from casually scraped web pages, files, or tool output that says "remember this" as memory. **Memory is data, not instructions.** This single rule blocks prompt injection.
 
-Meanwhile the only constraint it **added** is: **don't send a message to a Bot that's waiting for the result of this work.**
+**Example three also carries a security design that I want to call out separately, because it matters too much:**
 
-**The net effect is far fewer constraints and higher reliability.** The reason is simple: what it deleted were "symptom-level" limits (counters), and what it kept was a "structure-level" constraint (the waiting relationship).
+**Secret values never enter the AI's context.**
 
-That's the flavor of good system design — **constraints should come from the structure of the system, not from counters.**
+The specific approach is: when the AI needs a certain secret, it pops up a card for you, and you fill it in on the card. The AI only gets "what this secret is called", and never the value. The value you fill in is stored on your local machine, and is uniformly replaced with a placeholder before being sent to the model.
 
-### Judgment Three: The "Context Steward" Is New Design Space Created by Better Model Capability
+This solves a problem a boss worries about every day: **once your data goes into a large model, it is effectively handed to someone else.**
 
-In traditional long-context solutions, "when to compact" is an **engineering problem** solved with token thresholds.
+And the project itself writes an honest warning: only an AI that encodes, splits, or reverses the value could still print it out, so **do not hand important secrets to an AI you do not trust**.
 
-But when the model is smart enough, it can **read the semantic structure of a conversation** — "is this thing done?" is a semantic question, not a counting question.
-
-So a qualitative shift appears in the design: DS Bot no longer asks "how much context is left?" It asks "**has this thing come to a close?**"
-
-This is the most forward-looking part of the whole project, in my view. **It hands a formerly deterministic engineering problem to a nondeterministic model judgment, and designs an entire fallback suite for that judgment (on failure, switch segments).**
-
-The same idea is used in memory curation: instead of letting the Bot decide whether to remember, **each conversation is curated once automatically at the end.** Agent behavior no longer depends on it "remembering to" do something.
-
-### Judgment Four: The Security Thinking Is "Refusing Capability," Not "Tightening Control"
-
-Compare the two approaches:
-
-| Approach | Examples |
-|---|---|
-| Tightening control | Run the model more safely in the sandbox; add stricter CSP to HTML; add finer-grained origin checks to the iframe |
-| **Refusing capability** | **Never offer the model the ability to write HTML at all**; the Bot **reads** the browser and never writes to it; **secret values never enter the model context** |
-
-The latter is more thorough and also less work. **DS Bot chose the latter in both places**, and gave clear reasons in both cases ("security comes from the absence of code execution, not from a sandbox").
-
-Worth noting is that it doesn't pretend to be infallible. The honest warning in the secrets section — "a Bot that encodes, splits, or reverses the value can still print it" — says plainly what the known limits are, and that is more trustworthy than any disclaimer.
-
-### Judgment Five: Readability Is Itself Part of Architectural Quality
-
-Look at a few of its designs:
-
-- **`state.json` stores only the first 2,000 characters.** Because every save rewrites the whole file. This constraint comes directly from "the hot file only holds bounded data."
-- **Long messages are stored as attachments.** Because DSH has `ctx.attachments`, content-addressed, with identical content stored once.
-- **State isn't written into the system prompt.** Because the system prompt has to be byte-stable in order to reuse the provider's prefix cache.
-
-These three look like three isolated technical decisions, but behind them is one principle: **put data where it belongs.** Big objects go to the filesystem, hot spots go to memory, short high-frequency items go into the prompt.
-
-**The DSH concessions ledger, known-issues, and the "what we won't do" sections** are the same thing: **writing down the reasons for design decisions next to the code, so the people who come later don't have to re-derive them.**
-
-### Judgment Six: It's a Hybrid of "Open-Source Project" and "Product," and It's Worth Being Cautiously Optimistic About
-
-First, the reasons for optimism:
-
-- Apache 2.0, complete code, 93 test files, CI runs the tests on every PR
-- 11 design docs, each with a "why" and a "what we won't do"
-- Three forms ship: desktop app, plugin, and Docker image
-- Fast progress: from 0.1.7 to 0.2.0 took only 5 days, but the changes were enormous
-
-Things to be careful about:
-
-- **v0.2.0 is still a preview.** The project itself writes "Early release (v0.1). Features, tools and the saved data format can still change."
-- **The desktop app is unsigned.** Windows SmartScreen will warn, and macOS requires the admin password to allow it on first launch.
-- **The known issues include basics like "plugin fails to load,"** and the troubleshooting steps run long like a separate article (look at `cordis.patch.yml`, run `--dump-config`, delete the profile directory).
-- **Docker deployment has only one permission preset: full permissions.** Because DSH's own kernel sandbox (bubblewrap / Landlock) can't run under Docker's default seccomp. In NAS scenarios this means **you must manually control which directories get mounted.**
-- **Group chat in PTC preset sessions has a max round length of about 10 minutes**, after which it is aborted.
-- **If a working folder is deleted or renamed, messages get swallowed** (DSH 0.2.1-alpha).
-
-**Conclusion**: this is a project whose **architectural maturity far exceeds its version number**. It's safe to study and try out, but treat it as an early product, not stable infrastructure.
+I want to stress this point especially for bosses: a system that dares to plainly write down in its documentation "here is what I cannot defend against" is more trustworthy than one filled with "absolutely secure".
 
 ---
 
-## 5. Complete Tutorial: Deploying a DS Bot Team From Scratch
+**III. What this project is really about: three things changing at once**
 
-### 5.1 Requirements
+Strip away the technical details, and behind DeepSeek-Bot are three changes happening at the same time.
 
-| Item | Requirement |
-|---|---|
-| Desktop app | Windows x64 or macOS (Apple silicon / Intel) |
-| DSH Web | Node.js **22.19+**, pnpm |
-| Docker | Docker 24+, Compose v2.24+, Linux x86-64 |
-| Model | DeepSeek API key, or another Anthropic-Messages-compatible endpoint |
+**Change one: AI goes from "you call it" to "it is on the job".**
 
-### 5.2 Route A: Desktop App (Simplest)
+In the past, every use of AI was initiated by you. If you did not seek it out, it did not exist. DeepSeek-Bot's model is the reverse: **it resides, it has a name and a position, and you use it the way you lead a team.**
 
-**Windows (x64)**:
-1. Go to [Releases](https://github.com/Fei2411/DeepSeek-Bot/releases) and download `DeepSeek-Bot-<version>-win-x64.exe`
-2. Run the installer. **Install for the current user only; no administrator rights needed**
-3. If Windows shows "Windows protected your PC," click **More info** → **Run anyway**
+The business meaning of this shift is far bigger than the technical meaning. Because once AI becomes a resident role, it can accumulate things. **An AI that remembers nothing is forever just a tool; only an AI that remembers things can take on responsibilities.**
 
-**macOS**:
-1. Download `DeepSeek-Bot-<version>-mac-arm64.zip` for Apple silicon or `mac-x64.zip` for Intel
-2. Safari unzips it automatically; drag **DeepSeek Bot** into "Applications" and open it
-3. When macOS says "cannot verify app": **System Settings** → **Privacy & Security** → **Open Anyway** (admin password required)
+**Change two: the organizational design of an AI team matters more than the cleverness of any single AI.**
 
-**First launch**:
-1. It asks you two things: **where the data goes** (default `~/.ds-bot`) and **where the Bot's files go** (default `~/DeepSeek Bot`)
-   - The two locations must not be nested inside one another, and must not be inside your DSH data
-2. If it detects an existing team in your DSH, it asks whether to import. **It asks only once; the import reads your DSH and changes not a single byte**
-3. Configure a model in settings
-4. What opens is a Main Bot named **Chief**. Talk to it and it walks you through setup
+This sentence may sound a bit ahead of its time right now, but I believe it will become common sense within two years.
 
-> **Advice for first-timers**: don't rush to build ten Bots. Start by talking only to Chief, let it understand how you work, and then let it build the first specialist Bot.
+The reason is simple: model capability is a general commodity that every vendor has roughly the same of, but "how to organize a group of AIs to get work done" is each company's own job. Whoever gets the organizational design working first will have a leading cost structure.
 
-### 5.3 Route B: As a DSH Plugin
+That "results automatically move up" design looks like a technical detail, but it is actually organizational design. **It corresponds to "who should report to whom, and whether you need to chase again after the report".** When you design how an AI team collaborates, you are designing a company's management process.
 
-Install DSH first and configure at least one model inside it. **DS Bot uses DSH's models directly.**
+**Change three: the security boundary of AI is shifting from "I guarantee it is safe" to "I clearly state where I stopped".**
 
-**DSH Desktop (Windows / macOS)**:
-1. In the sidebar select **Plugins** → **Add plugin**
-2. In **Package name or address** enter `ds-bot`
-3. **Mainland China users**: set **Registry** to **Mainland China mirror**
-4. Click **Install**, then **Enable now**
-5. If it says it takes effect on next launch, **fully quit** DSH and reopen it
+Two places in this project show this very well.
 
-**DSH Web (Windows / macOS / Linux)**:
-```sh
-npx @deepseek-ai/dsh@0.2.1-rc.2 plugin --profile web add ds-bot
-npx @deepseek-ai/dsh@0.2.1-rc.2 web
-```
+One is the browser: the AI can only read, not click, not type, not scroll, not open URLs. Whatever it reads on a web page is always treated as data, never as instructions. It reads the DOM rather than a screenshot, so hidden elements are invisible to it, and password fields, credit card numbers, and captchas it skips on its own.
 
-**Fallback when npm doesn't work** (for step 2):
-- Enter the full path of the `ds-bot-0.2.0.tgz` you downloaded from Releases
-- Or `github:Fei2411/DeepSeek-Bot#v0.2.0&path:/ds-bot` (requires Git)
+The other is interface rendering: the original design was to let the AI write the webpage code and render it. That approach was rejected twice in internal review. The final approach is **the AI is simply not allowed to write code**. The AI can only pick components from a fixed component list and fill in data.
 
-**Checking out from source for development** (add the plugin as a linked dependency in the profile):
-```json
-{
-  "dependencies": { "ds-bot": "link:/path/to/ds-bot" },
-  "dsh": { "profile": { "bundles": ["@deepseek-ai/dsh-base", "@deepseek-ai/dsh-web-app", "ds-bot"] } }
-}
-```
-Then run `pnpm install` in the profile directory, and launch from the deepseek-harness repository:
-```sh
-pnpm -s dsh --profile web --no-open
-```
+One sentence to summarize this shift in thinking:
 
-### 5.4 Route C: Docker Deployment (NAS / Always-On Server)
+> **Security does not come from "locking untrusted things in a cage", security comes from "not providing a cage at all".**
 
-**Method 1: the compose file in the root directory (recommended)**
-
-Edit the root `docker-compose.yml`:
-- Fill in `DEEPSEEK_API_KEY`
-- Add the NAS's IP to `DSH_TRUSTED_HOST`
-- Set `PUID` / `PGID` to the IDs of the owners of the shared directory
-
-```sh
-docker compose up -d --build
-docker compose logs ds-bot
-```
-
-The log will print a line:
-```
-dsh web: http://127.0.0.1:3080/?token=*** (LAN: http://172.x.x.x:3080/?token=***
-```
-
-**Mind the port**: what's printed is the **in-container** port; you need the **host port** mapped in `ports:` (the root compose defaults to **13080**). On first open, use `http://<NAS IP>:13080/?token=***`; the token will be set as a signed cookie (valid for 30 days), after which you can just visit `http://<NAS IP>:13080/`.
-
-**Method 2: the .env approach under docker/**
-```sh
-cd docker
-cp .env.example .env
-# Edit .env: DEEPSEEK_API_KEY, DSH_TRUSTED_HOST, PUID/PGID
-docker compose up -d --build
-```
-This method publishes **host port 3080** by default. **Pick one of the two methods; don't run both against the same data directory.**
-
-**Prebuilt image (GHCR)**:
-```yaml
-services:
-  ds-bot:
-    image: ghcr.io/fei2411/deepseek-bot:dev
-    ports:
-      - "13080:3080"
-    environment:
-      DEEPSEEK_API_KEY: ""
-      PUID: "1000"
-      PGID: "1000"
-      DSH_TRUSTED_HOST: "localhost,127.0.0.1"
-    volumes:
-      - ./data:/data
-      - ./workspace:/workspace
-    extra_hosts:
-      - "host.docker.internal:host-gateway"
-    restart: unless-stopped
-    stop_grace_period: 15s
-```
-
-**⚠️ Security warning for Docker deployment (must read)**:
-
-> DSH's own kernel sandbox (bubblewrap / Landlock) **can't run under Docker's default seccomp profile or on most NAS kernels**. So the image ships with **only one permission preset: full permissions** — every Bot command executes directly, without asking.
->
-> **So: only mount into `/workspace` the directories Bots need to modify. Anything else the container can see, Bots can also modify.**
-
-**HTTPS is strongly recommended but not enforced**: the UI runs fine over plain HTTP, but that page **is not a secure context** — the API keys and secret values you type will **cross the LAN in plaintext**. Put a reverse proxy in front for daily use.
-
-### 5.5 Configuration Details
-
-Plugin options live under the `bot` entry in the profile's `cordis.patch.yml`, and **all are optional**:
-
-```yaml
-- id: bot
-  name: ds-bot
-  config:
-    workspace: /path/to/workspace   # Where Bots work; default <home>/workspace
-    home: /path/to/bot-data         # Where team data lives; default $DSH_HOME/bot
-    checkRatio: 0.8                 # Context ratio the steward judges against
-    browser: true                   # Force the Bot browser on; default is Desktop only
-    memory: true                    # false turns memory off: no memory tools, sections, or panels
-    memoryReview: true              # false hands memory entirely to the Bot's own remember calls
-    diagnosticsFile: false          # Error logs stay in memory only; default <home>/logs/diagnostics.jsonl
-    updateCheck: true               # Check for new versions when the window opens; default true
-    updateRegistry: https://registry.example/   # Only check for updates against this npm registry
-    github: false                   # Hide the GitHub connector; default is to show it in Connectors
-```
-
-**About `contextWindow`**: be sure to fill in `contextWindow` for every model.
-
-> Usable window = window − reply reserve (`maxTokens`)
-> Hard line = usable window × 0.95
-> Check line = usable window × `checkRatio` (default 0.8)
->
-> A model with no `contextWindow` filled in gets the adapter's default value (`llm-pi-ai` is 262,144), and **that value may be wrong for the model**. A model that declares no window at all is treated as 500,000.
-
-**Custom model endpoints** (OpenAI-compatible relays, etc.) — create `DATA_DIR/cordis.patch.yml` before first launch:
-```yaml
-- id: llm-pi-ai
-  config:
-    providers:
-      relay:
-        apiKeyEnv: RELAY_API_KEY
-        api: openai-completions          # or openai-responses / anthropic-messages
-        baseURL: http://host.docker.internal:3425/v1
-        models:
-          - id: my-model
-            contextWindow: 131072
-            maxTokens: 8192
-- id: agent-default-model
-  config:
-    provider: relay
-    model: my-model
-```
-Then add `RELAY_API_KEY` to the compose `environment`.
-
-### 5.6 Developing From Source
-
-You need Node 24, pnpm, and a deepseek-harness checkout with dependencies installed, placed next to this repository (`../deepseek-harness`, or set `DSH_HARNESS`). The Desktop test bench also needs `xvfb-run` and `ffmpeg`.
-
-```sh
-npm ci                                   # esbuild, client build only
-npm run harness                          # Once only: install the DSH packages used by tests and the linter
-npm run build                            # src/client → client.js
-npm test                                 # Unit tests
-npm run lint                             # oxlint
-```
-
-**Test benches**:
-```sh
-dev/bench.sh dev 3100 8800 start         # Web test bench: mock model + dsh Web
-dev/desktop-linux/desktop.sh dev start   # Desktop test bench (Xvfb)
-dev/check.sh                             # All checks
-```
-
-**Full check list**: `unit`, `build`, `lint`, `smoke`, `web` (screenshots of sidebar, chat, groups, Bot settings, etc.), `desktop`. About 3 minutes after the first download.
-
-**Ports**: every script accepts `SLOT=n` (0-9, default 0); the Web bench uses `31n0` and the mock uses `88n0`, avoiding collisions when several people share a machine.
-
-**After changing `src/client/` you must run `npm run build`** (`client.js` is a build artifact committed to the repository, and `npm test` checks whether it's stale). After changing `index.js` or `src/host/`, restart dsh.
-
-### 5.7 Typical Usage Flow
-
-```
-1. Open DS Bot → Chief (Main Bot) appears
-2. Explain how you work to Chief
-3. Ask Chief to build a specialist Bot:
-   "Build a Bot called Reviewer, role is proofreading,
-    responsible for checking whether my document's logic is self-consistent"
-4. Create a group chat so multiple Bots can collaborate:
-   "Create a group called WritingGroup, members are Chief, Writer, Reviewer"
-5. @-mention people in the group, or just tell the Main Bot and let it dispatch
-6. When a secret is needed, the Bot shows a card; you fill it in, and it never sees it
-7. Use Settings → Usage to check token consumption
-```
-
-### 5.8 Data and Backups
-
-Data lives in `config.home`, or `$DSH_HOME/bot` if unset, and finally defaults to `~/.dsh/bot/` (on Windows, `C:\Users\<user>\.dsh\bot\`).
-
-| File | Contents |
-|---|---|
-| `state.json` | The team: Bots, groups, inter-Bot messages, preferences, pending questions |
-| `group-lines/` | Long group lines, one file per line |
-| `chat-index.sqlite` | Full-text index of old chats (`read_own_chat`); deleted, it gets rebuilt |
-| `usage.sqlite` | Usage statistics; deleted, it's rebuilt from the logs |
-| `memory/` | Memory: `bots/<id>/`, `groups/<id>/`, `team/`, `journal.jsonl`, `archive/` |
-| `secrets.json` | Secrets. **Treat it as a password** |
-| `logs/diagnostics.jsonl` | Recent errors and warnings (already redacted) |
-
-**The chats themselves are not in `bot/`**; they're in `~/.dsh/sessions/`.
-
-**Backup steps**:
-1. **Fully quit DSH** (both the Web service and Desktop must be closed) to make sure `state.json` is current
-2. Copy the entire `~/.dsh/` (at minimum `bot/`, `sessions/`, `storages/`)
-3. **Copying only `bot/` loses the chats**
-4. Restore: quit DSH, put the folders back in place, then start it again
-
-**Moving to another computer**: if the paths are the same, just copy them. If the paths differ (e.g. the username changed), whether **DSH can find the old Sessions is untested**.
-
-**Running Web and Desktop at the same time**: by default they share the same `~/.dsh`. Whichever DSH loads the team first takes the `bot/state.lock`, and the other becomes **read-only** — it can see the team and follow file changes, but refuses modifications (reporting `bot/read-only`). To let both modify, give one of them a different `DSH_HOME`.
+Neither of these two designs is about strengthening control, but about removing capability. **Removing is much cheaper than controlling, and much more reliable.** This holds true for AI security, and it holds true for company management too.
 
 ---
 
-## 6. FAQ and Troubleshooting
+**IV. A few cold waters that must be poured**
 
-### Q1: DS Bot won't load; the log says `disabling profile plugin row "bot"`
+This project is worth looking at, but I cannot only say good things. Three things, said clearly.
 
-```
-dsh: disabling profile plugin row "bot": its declared peer dependencies cannot be validated: Cannot read properties of undefined (reading 'startsWith')
-```
+**First, right now it is a preview version, not stable infrastructure.**
 
-**Cause**: DSH checks every row of the profile before loading plugins. This message means there's a row with id `bot` but no package name. The row DS Bot adds has name `ds-bot`, so **it's likely that some file in the profile directory has left behind a `- id: bot` with no name** (for example a `cordis.patch.yml` override that no longer matches).
+The official docs state it is an early version, and features, tools, and data formats may still change. The desktop app is unsigned, and on Windows it triggers a security warning. Known pitfalls include basics like "plugin failed to load".
 
-**Fix**:
-1. Quit DSH
-2. Open the profile directory's `cordis.patch.yml` (`~/.dsh/profiles/web/`, on Windows `C:\Users\<user>\.dsh\profiles\web\`; Desktop uses `profiles/desktop/`)
-3. Find the `- id: bot` row that has no `name: ds-bot` and delete it. **Back up the file first**
-4. Check whether `package.json` in the same directory has `ds-bot` in `dependencies`; if not, add it again:
-   ```sh
-   npx @deepseek-ai/dsh@0.2.1-rc.2 plugin --profile web add ds-bot
-   ```
-5. Restart DSH
+**Second, Docker deployment grants only one permission level: full permissions.**
 
-**Troubleshooting command**:
-```sh
-npx @deepseek-ai/dsh@0.2.1-rc.2 --profile web --dump-config
-```
-It prints every plugin row and the file it came from.
+Because its built-in kernel-level sandbox does not run under Docker's default configuration. This means the AI can modify any directory the container can see. **If you plan to run it long-term on a NAS or server, the permission boundary has to be controlled by you through mounts, and you cannot count on its built-in sandbox.**
 
-> Deleting the whole profile directory also fixes it, but that takes your other plugins and settings (such as model configuration) with it. The Bot team lives in `~/.dsh/bot/` and is unaffected.
+This point must be vetted by someone who understands the technology; the business side should not decide it on a whim.
 
-### Q2: After turning off "web-search-auto", search breaks in all sessions
+**Third, and I think the most important one for a boss: the value of this thing depends on whether you actually use it as a "colleague".**
 
-```
-Error: configured web provider "auto" is not registered
-```
-Error code `WEB_PROVIDER_CONFIGURED_MISSING`.
+If you only treat it as a nicer chat box, then it is indeed a bit better than other things, but that is all it is.
 
-**Cause**: DS Bot's `cordis.patch.yml` sets the `web` row's `searchProvider` to `auto` regardless of whether `web-search-auto` is on, and DSH **does not fall back** when the specified provider isn't registered.
+Its value lies in a different way of using it: **give it a name, give it a position, write down clearly what it is responsible for, let it do the same kind of work long term, and then watch its notebook slowly grow with content.**
 
-**Fix**: add a `web` row to the profile's `cordis.patch.yml` (**this row replaces the entire config of the `web` row, so `fetchProvider` must be preserved**):
-```yaml
-- id: web-search-auto
-  name: ds-bot/web-search
-  disabled: true
-- id: web
-  name: '@deepseek-ai/dsh-web'
-  config:
-    searchProvider: deepseek-official
-    fetchProvider: http
-```
-
-### Q3: `@Name` shows up as a file icon before the message is sent
-
-**Cause**: DeepSeek Harness draws these waiting lines itself, and reads `@` up to the next space. The plugin currently can't change how it renders them.
-
-**It doesn't affect who answers**: DS Bot reads `@Name` using its own rules, and a mentioned Bot gets called. Once the message is sent, it displays normally.
-
-**Workaround**: add a space after the name (`@Anvil could you look at this`).
-
-### Q4: Upgrading from the old `dsh-bot` package
-
-Early builds used the package name `dsh-bot`. **Remove `dsh-bot` from the profile first, then add `ds-bot`** — both packages use the plugin id `bot`.
-
-The team, chats, and secrets stay where they are; saved browser settings, themes, and Bot colors are migrated the first time DS Bot opens.
+This is not "deploying a tool", this is "hiring someone". **The payoff of hiring depends on whether you have thought clearly about what kind of person you want to hire.**
 
 ---
 
-## 7. Conclusion: What This Project Reminds Us Of
+**V. A verdict for the boss: three trends and one summary conclusion**
 
-After reading this project, my strongest feeling isn't "this project is great," it's:
+Taking in everything above, I give three trend judgments.
 
-**The hard part of multi-agent systems has never been "how do you make them run in parallel." It's "how do you keep them consistent over a long period of time."**
+**Trend judgment one: over the next two years, competition among AI tools will shift from "single-point capability" to "team-based delivery".**
 
-Consistency has three enemies:
+Today everyone compares model benchmark scores, context length, and how cheap it is. All of these will converge, because models are a general commodity.
 
-1. **Context drift** — after chatting a long time you forget the goal
-2. **Inconsistent state** — you don't know what the others are doing
-3. **Disordered collaboration** — duplicated work, loops, lost results
+The next stage compares: **whether your AI can take on part of a responsibility stably over the long term, rather than starting from zero every time.** This is a product-level difference, not a model-level one. Open-source projects move faster here than the big players, because the big players are still wrestling with how to stuff the Agent into existing products, while the open-source community has already begun rebuilding the entire form of work.
 
-DS Bot has a clear countermeasure for each: the **context steward** cures drift, **state as a first-class citizen** cures inconsistency, and the **handoff tree** cures disorder.
+**Trend judgment two: AI memory and AI collaboration will become the enterprise's next data asset.**
 
-And behind all of these countermeasures is one design philosophy:
+If a company's business judgment, customer preferences, and review standards all accumulate in AI memory, then that experience goes from "inside some person's head" to "a company asset". People leaving no longer take knowledge with them, and new hires no longer need three months of training.
 
-> **Don't limit behavior with counters; constrain behavior with structure.**
+**This is the same logic as enterprises putting systems in place ten years ago: data went into the system, and when people left the experience stayed.** AI memory is the same thing happening a second time.
 
-Delete the 6-hop cut, the 10-unread cap, the 3-round cap, and the 40-message cap; the only new constraint is "don't send to a Bot that's waiting for a result." **Net constraints down, reliability up.** That's a decision only someone who has truly thought through the system structure can make.
+**Trend judgment three: the focus of AI security is shifting from "preventing the model from going rogue" to "making clear what the model does not do".**
 
-And one more thing:
+For the past two years everyone has been adding guardrails. The more mature approach going forward is: **directly take the dangerous capabilities out of the model, and write clearly in the documentation how much was removed.**
 
-> **"If a capability is missing from DSH, stop and explain; don't work around it with a patch."**
+There is a sentence in the DeepSeek-Bot documentation: they found that after removing attack-and-defense data during training, the relevant capability dropped noticeably, from 90.5% to 81.0%, while general programming ability was not harmed. They put that number directly in the documentation.
 
-In an open-source ecosystem that generally leans toward "if it runs, ship it, work around it later," writing this sentence into the hard rules and carrying it through to the desktop app's architectural decisions takes some backbone.
-
-**Project URL**: <https://github.com/Fei2411/DeepSeek-Bot>
-(The repository analyzed in this article was originally `FeiZhuLulu/DeepSeek-Bot` and now redirects to `Fei2411/DeepSeek-Bot`)
+**A vendor that can state where it stopped and how much is far more reliable than one that only says "we are very secure".** This evaluation criterion can be used directly when procuring technical solutions from now on.
 
 ---
 
-**The complete Chinese translations of this project's English documentation have also been organized, four documents in total:**
+**Summary conclusion**
 
-| Document | Chinese translation |
-|---|---|
-| `ds-bot/README.md` (full plugin feature documentation) | `ds-bot-README.zh.md` |
-| `docker/README.md` (Docker deployment) | `docker-README.zh.md` |
-| `AGENTS.md` (AI coding agent collaboration rules) | `AGENTS.zh.md` |
-| `app/README.md` (desktop app) | `app-README.zh.md` |
+I compress the whole piece into one sentence:
 
-The project's own Chinese documentation: `README.zh.md`, `CONTRIBUTING.zh.md`, `docs/vision.zh.md`, `docs/known-issues.zh.md`, plus all 11 design drafts under `docs/plans/` (which were written in Chinese to begin with).
+> **AI is turning from a tool you rent for the moment into a role you employ long term.**
+> **And "how to lead an AI team" is becoming a management discipline every company has to learn for itself.**
+
+More concretely, three actions a boss can take immediately.
+
+**First, try one thing this week: give an AI a name and define a position.**
+
+Do not use labels like "AI assistant". Call it "contract proofing", and let it do only contract proofing. Let it work for two weeks straight, then go read its notes.
+
+You will find that the truly valuable thing is not in its first answer, but in the things it still remembers after two weeks.
+
+**Second, inventory which positions in your company can be redefined.**
+
+You do not need to think about replacing anyone. Look for positions where **the rules are relatively stable, experience can accumulate, and cross-document comparison is needed**. Contract proofing, compliance first-pass screening, financial reconciliation, after-sales diagnosis, competitor tracking all fall into this category.
+
+Handing this category of positions to long-term resident AI yields the most value. Because stable rules keep it from misbehaving, and accumulated experience is what makes it better.
+
+**Third, while it is not yet widespread, write your experience down as documentation.**
+
+This is the most counter-intuitive point, and the one I most want to emphasize.
+
+Because in a future where AI can broadly remember things on its own, **whether your experience can be written clearly determines whether AI can do the work for you.** Experience that cannot be written clearly, AI cannot learn, and cannot pass on.
+
+So the real threshold is not whether you have AI, it is **whether you have turned your own judgment into reusable rules.**
+
+Doing this now costs very little; once everyone has done it, your advantage is gone.
 
 ---
 
-If you've read this far and liked it, a quick like, a "looking good," and a share would be great. If you want to get push notifications as soon as possible, give me a star too. Thanks for reading my article — see you next time.
+Finally, let me share one observation.
 
-First published on the WeChat official account 「瑞哥观势」.
+What I admire most about this project is not the technology, but one sentence in its documentation, a hard rule written for AI collaborators:
+
+**"If the underlying framework lacks a capability, stop and explain, do not work around it with patches."**
+
+In an open-source ecosystem where the general attitude is "as long as it runs, work around it for now", writing that sentence into the rules and actually following through takes guts.
+
+And that sentence holds just as true in a company. **A technical solution willing to say "I cannot do this here" is more worth entrusting than one that promises everything.**
+
+Tell me in the comments which position at your company you would most want to try having AI handle long term. I would really like to see everyone's choices.
+
+---
+
+First published on the WeChat public account "瑞哥观势"
+
+Since you have read this far, if you liked it, feel free to hit like, favorite, and share. If you want to receive pushes as soon as they happen, you can star the account too. Thank you for reading my article, and see you next time.
+
+First published on the WeChat public account "瑞哥观势".
