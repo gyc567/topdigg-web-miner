@@ -1,6 +1,43 @@
 {
   "posts": [
     {
+      "slug": "2026-10-24-motion2mixamo-rig-analysis",
+      "date": "2026-10-24",
+      "author": "瑞哥观势",
+      "tags": [
+        "Motion Capture",
+        "Motion Retargeting",
+        "Mixamo",
+        "Blender",
+        "GVHMR",
+        "Open Source Project"
+      ],
+      "categories": [
+        "开源项目解析",
+        "深度观察"
+      ],
+      "title": "Motion2MixamoRig 深度解析：把真人视频变成 Mixamo 角色，这个项目做对了什么",
+      "description": "开源项目 Motion2MixamoRig 把视频里的人物动作重定向到 Adobe Mixamo 骨骼的 3D 角色上。本文拆解它的完整流水线、脚下打滑与身体穿模的解法、手指重定向的数学、诊断系统，以及六条贯穿代码的设计哲学。"
+    },
+    {
+      "slug": "2026-10-24-social-insurance-penalty-2026",
+      "date": "2026-10-24",
+      "author": "瑞哥观势",
+      "tags": [
+        "social insurance",
+        "tax compliance",
+        "administrative penalty",
+        "corporate management",
+        "policy interpretation"
+      ],
+      "categories": [
+        "政策解读",
+        "企业合规"
+      ],
+      "title": "11月1日起，社保欠缴最高罚3倍！所有企业老板必读",
+      "description": "国家税务总局公告2026年第20号《全国税务行政处罚裁量基准（2026年版）》11月1日起施行，社保欠缴纳入全国统一处罚标尺。本文讲清三档罚款标准、滞纳金机制、新旧衔接规则，以及老板和财务必须立刻自查的三件事。"
+    },
+    {
       "slug": "2026-10-22-anything2explainer-deep-dive",
       "date": "2026-10-22",
       "author": "瑞哥观势",

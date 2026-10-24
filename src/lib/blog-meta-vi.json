@@ -1,6 +1,43 @@
 {
   "posts": [
     {
+      "slug": "2026-10-24-motion2mixamo-rig-analysis",
+      "date": "2026-10-24",
+      "author": "瑞哥观势",
+      "tags": [
+        "Motion Capture",
+        "Motion Retargeting",
+        "Mixamo",
+        "Blender",
+        "GVHMR",
+        "Open Source Project"
+      ],
+      "categories": [
+        "开源项目解析",
+        "深度观察"
+      ],
+      "title": "Phân tích chuyên sâu Motion2MixamoRig: Biến video người thật thành nhân vật Mixamo, dự án này làm đúng những gì",
+      "description": "Dự án mã nguồn mở Motion2MixamoRig chuyển chuyển động người trong video sang nhân vật 3D có bộ xương Adobe Mixamo. Bài viết phân tích toàn bộ quy trình, cách giải quyết chân trượt và xuyên cơ thể, toán học chuyển động ngón tay, hệ thống chẩn đoán, cùng sáu triết lý thiết kế xuyên suốt mã nguồn."
+    },
+    {
+      "slug": "2026-10-24-social-insurance-penalty-2026",
+      "date": "2026-10-24",
+      "author": "瑞哥观势",
+      "tags": [
+        "social insurance",
+        "tax compliance",
+        "administrative penalty",
+        "corporate management",
+        "policy interpretation"
+      ],
+      "categories": [
+        "政策解读",
+        "企业合规"
+      ],
+      "title": "Từ ngày 1/11, nợ đóng bảo hiểm xã hội phạt tối đa gấp 3 lần! Mọi chủ doanh nghiệp đều phải đọc",
+      "description": "Thông báo số 20 năm 2026 của Cục Thuế nhà nước《Khung cơ sở phán quyết về xử phạt hành chính thuế toàn quốc (bản 2026)》có hiệu lực từ ngày 1/11, đưa việc nợ đóng bảo hiểm xã hội vào thang đo xử phạt thống nhất trên toàn quốc. Bài viết làm rõ ba bậc tiêu chuẩn phạt, cơ chế phạt chậm, quy tắc chuyển giao giữa quy định cũ và mới, cùng ba việc mà chủ doanh nghiệp và kế toán phải tự kiểm tra ngay lập tức."
+    },
+    {
       "slug": "2026-10-22-anything2explainer-deep-dive",
       "date": "2026-10-22",
       "author": "瑞哥观势",

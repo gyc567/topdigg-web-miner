@@ -1,6 +1,43 @@
 {
   "posts": [
     {
+      "slug": "2026-10-24-motion2mixamo-rig-analysis",
+      "date": "2026-10-24",
+      "author": "瑞哥观势",
+      "tags": [
+        "Motion Capture",
+        "Motion Retargeting",
+        "Mixamo",
+        "Blender",
+        "GVHMR",
+        "Open Source Project"
+      ],
+      "categories": [
+        "开源项目解析",
+        "深度观察"
+      ],
+      "title": "Motion2MixamoRig Deep Dive: Turning Real-Person Video into a Mixamo Character, What This Project Got Right",
+      "description": "The open-source project Motion2MixamoRig retargets a person's motion from video onto a 3D character driven by Adobe Mixamo rigs. This article breaks down its complete pipeline, the fixes for foot sliding and body clipping, the math of finger retargeting, the diagnostic system, and six design philosophies that run through the code."
+    },
+    {
+      "slug": "2026-10-24-social-insurance-penalty-2026",
+      "date": "2026-10-24",
+      "author": "瑞哥观势",
+      "tags": [
+        "social insurance",
+        "tax compliance",
+        "administrative penalty",
+        "corporate management",
+        "policy interpretation"
+      ],
+      "categories": [
+        "政策解读",
+        "企业合规"
+      ],
+      "title": "Starting November 1, Unpaid Social Insurance Can Be Fined Up to 3 Times! Must Read for Every Business Owner",
+      "description": "Announcement No. 20 of 2026 by the State Taxation Administration, the National Tax Administrative Penalty Discretion Benchmark (2026 Edition), takes effect on November 1, bringing unpaid social insurance contributions under a nationwide uniform penalty standard. This article explains the three penalty tiers, the late payment surcharge mechanism, the old-to-new transition rules, and the three things business owners and finance teams must check immediately."
+    },
+    {
       "slug": "2026-10-22-anything2explainer-deep-dive",
       "date": "2026-10-22",
       "author": "瑞哥观势",

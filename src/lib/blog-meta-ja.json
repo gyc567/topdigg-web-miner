@@ -1,6 +1,43 @@
 {
   "posts": [
     {
+      "slug": "2026-10-24-motion2mixamo-rig-analysis",
+      "date": "2026-10-24",
+      "author": "瑞哥观势",
+      "tags": [
+        "Motion Capture",
+        "Motion Retargeting",
+        "Mixamo",
+        "Blender",
+        "GVHMR",
+        "Open Source Project"
+      ],
+      "categories": [
+        "开源项目解析",
+        "深度观察"
+      ],
+      "title": "Motion2MixamoRig 徹底解説：実写動画から Mixamo キャラクターを作る、このプロジェクトは何が正しかったのか",
+      "description": "オープンソースプロジェクト Motion2MixamoRig は、動画の中の人物の動作を Adobe Mixamo のスケルトンにリターゲットして 3D キャラクターに取り込む。本稿はその完全なパイプライン、足の滑りと体のめり込みの解法、手指リターゲティングの数学、診断システム、そしてコードの随所に浸透する 6 つのデザイン哲学を分解する。"
+    },
+    {
+      "slug": "2026-10-24-social-insurance-penalty-2026",
+      "date": "2026-10-24",
+      "author": "瑞哥观势",
+      "tags": [
+        "social insurance",
+        "tax compliance",
+        "administrative penalty",
+        "corporate management",
+        "policy interpretation"
+      ],
+      "categories": [
+        "政策解读",
+        "企业合规"
+      ],
+      "title": "11月1日より、社会保険料の未納は最高3倍の罰金！全ての企業経営者に必読",
+      "description": "国家税務総局公告2026年第20号『全国税務行政処分裁量基準（2026年版）』が11月1日より施行され、社会保険料の未納が全国統一の罰金基準に組み込まれます。本稿では3段階の罰金基準、延滞金の仕組み、新旧規定の衔接ルール、そして経営者と経理が直ちに確認すべき3つの項目を解説します。"
+    },
+    {
       "slug": "2026-10-22-anything2explainer-deep-dive",
       "date": "2026-10-22",
       "author": "瑞哥观势",

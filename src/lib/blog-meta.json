@@ -1,6 +1,67 @@
 {
   "posts": [
     {
+      "slug": "2026-10-24-motion2mixamo-rig-analysis",
+      "title": {
+        "en": "Motion2MixamoRig Deep Dive: Turning Real-Person Video into a Mixamo Character, What This Project Got Right",
+        "ja": "Motion2MixamoRig 徹底解説：実写動画から Mixamo キャラクターを作る、このプロジェクトは何が正しかったのか",
+        "vi": "Phân tích chuyên sâu Motion2MixamoRig: Biến video người thật thành nhân vật Mixamo, dự án này làm đúng những gì",
+        "zh-Hans": "Motion2MixamoRig 深度解析：把真人视频变成 Mixamo 角色，这个项目做对了什么",
+        "zh-Hant": "Motion2MixamoRig 深度解析：把真人視頻變成 Mixamo 角色，這個專案做對了什麼"
+      },
+      "description": {
+        "en": "The open-source project Motion2MixamoRig retargets a person's motion from video onto a 3D character driven by Adobe Mixamo rigs. This article breaks down its complete pipeline, the fixes for foot sliding and body clipping, the math of finger retargeting, the diagnostic system, and six design philosophies that run through the code.",
+        "ja": "オープンソースプロジェクト Motion2MixamoRig は、動画の中の人物の動作を Adobe Mixamo のスケルトンにリターゲットして 3D キャラクターに取り込む。本稿はその完全なパイプライン、足の滑りと体のめり込みの解法、手指リターゲティングの数学、診断システム、そしてコードの随所に浸透する 6 つのデザイン哲学を分解する。",
+        "vi": "Dự án mã nguồn mở Motion2MixamoRig chuyển chuyển động người trong video sang nhân vật 3D có bộ xương Adobe Mixamo. Bài viết phân tích toàn bộ quy trình, cách giải quyết chân trượt và xuyên cơ thể, toán học chuyển động ngón tay, hệ thống chẩn đoán, cùng sáu triết lý thiết kế xuyên suốt mã nguồn.",
+        "zh-Hans": "开源项目 Motion2MixamoRig 把视频里的人物动作重定向到 Adobe Mixamo 骨骼的 3D 角色上。本文拆解它的完整流水线、脚下打滑与身体穿模的解法、手指重定向的数学、诊断系统，以及六条贯穿代码的设计哲学。",
+        "zh-Hant": "開源專案 Motion2MixamoRig 把視頻裡的人物動作重定向到 Adobe Mixamo 骨骼的 3D 角色上。本文拆解它的完整流水線、腳下打滑與身體穿模的解法、手指重定向的數學、診斷系統，以及六條貫穿程式碼的設計哲學。"
+      },
+      "date": "2026-10-24",
+      "author": "瑞哥观势",
+      "tags": [
+        "Motion Capture",
+        "Motion Retargeting",
+        "Mixamo",
+        "Blender",
+        "GVHMR",
+        "Open Source Project"
+      ],
+      "categories": [
+        "开源项目解析",
+        "深度观察"
+      ]
+    },
+    {
+      "slug": "2026-10-24-social-insurance-penalty-2026",
+      "title": {
+        "en": "Starting November 1, Unpaid Social Insurance Can Be Fined Up to 3 Times! Must Read for Every Business Owner",
+        "ja": "11月1日より、社会保険料の未納は最高3倍の罰金！全ての企業経営者に必読",
+        "vi": "Từ ngày 1/11, nợ đóng bảo hiểm xã hội phạt tối đa gấp 3 lần! Mọi chủ doanh nghiệp đều phải đọc",
+        "zh-Hans": "11月1日起，社保欠缴最高罚3倍！所有企业老板必读",
+        "zh-Hant": "11月1日起，社保欠繳最高罰3倍！所有企業老闆必讀"
+      },
+      "description": {
+        "en": "Announcement No. 20 of 2026 by the State Taxation Administration, the National Tax Administrative Penalty Discretion Benchmark (2026 Edition), takes effect on November 1, bringing unpaid social insurance contributions under a nationwide uniform penalty standard. This article explains the three penalty tiers, the late payment surcharge mechanism, the old-to-new transition rules, and the three things business owners and finance teams must check immediately.",
+        "ja": "国家税務総局公告2026年第20号『全国税務行政処分裁量基準（2026年版）』が11月1日より施行され、社会保険料の未納が全国統一の罰金基準に組み込まれます。本稿では3段階の罰金基準、延滞金の仕組み、新旧規定の衔接ルール、そして経営者と経理が直ちに確認すべき3つの項目を解説します。",
+        "vi": "Thông báo số 20 năm 2026 của Cục Thuế nhà nước《Khung cơ sở phán quyết về xử phạt hành chính thuế toàn quốc (bản 2026)》có hiệu lực từ ngày 1/11, đưa việc nợ đóng bảo hiểm xã hội vào thang đo xử phạt thống nhất trên toàn quốc. Bài viết làm rõ ba bậc tiêu chuẩn phạt, cơ chế phạt chậm, quy tắc chuyển giao giữa quy định cũ và mới, cùng ba việc mà chủ doanh nghiệp và kế toán phải tự kiểm tra ngay lập tức.",
+        "zh-Hans": "国家税务总局公告2026年第20号《全国税务行政处罚裁量基准（2026年版）》11月1日起施行，社保欠缴纳入全国统一处罚标尺。本文讲清三档罚款标准、滞纳金机制、新旧衔接规则，以及老板和财务必须立刻自查的三件事。",
+        "zh-Hant": "國家稅務總局公告2026年第20號《全國稅務行政處罰裁量基準（2026年版）》11月1日起施行，社保欠繳納入全國統一處罰標尺。本文講清三檔罰款標準、滯納金機制、新舊銜接規則，以及老闆和財務必須立刻自查的三件事。"
+      },
+      "date": "2026-10-24",
+      "author": "瑞哥观势",
+      "tags": [
+        "social insurance",
+        "tax compliance",
+        "administrative penalty",
+        "corporate management",
+        "policy interpretation"
+      ],
+      "categories": [
+        "政策解读",
+        "企业合规"
+      ]
+    },
+    {
       "slug": "2026-10-22-anything2explainer-deep-dive",
       "title": {
         "en": "anything2explainer Deep Dive: Give It a Topic, Get a Code-Drawn Explainer Video",
