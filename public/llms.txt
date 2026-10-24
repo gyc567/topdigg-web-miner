@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-10-21T23:56:34.983Z
+Generated: 2026-10-24T06:37:01.170Z
 
 ## Site Overview
 
@@ -24,11 +24,23 @@ We deliver in-depth Twitter analytics and trend tracking for content creators an
 
 ## Latest Blog Posts (10 most recent)
 
-### DeepSeek-Bot 深度解析：让 DeepSeek Harness 变成一支有长期记忆的 AI 团队
-URL: https://topdigg.com/blog/2026-10-22-deepseek-bot-team-analysis | Date: 2026-10-22 | Author: 瑞哥观势
-Tags: DeepSeek, Multi-Agent, AI Agent, 开源项目, 上下文管理, 长期记忆
+### anything2explainer Deep Dive: Give It a Topic, Get a Code-Drawn Explainer Video
+URL: https://topdigg.com/blog/2026-10-22-anything2explainer-deep-dive | Date: 2026-10-22 | Author: 瑞哥观势
+Tags: anything2explainer, Remotion, Multi-Agent, Video Generation, Open Source, Claude Code, Explainer Video
 
-深度解析开源项目 DeepSeek-Bot：一支构建在 DeepSeek Harness 上的长期驻留 AI Bot 团队。涵盖项目说明、上下文管家、派活树、三级权限模型、记忆体系设计哲学，以及完整安装部署教程。
+A deep dive into Vincentwei1021's open-source project anything2explainer: this is not a CLI, but a complete methodology that lets AI coding agents produce explainer videos on their own. Covers the project description, core ideas, a full 9-stage hands-on tutorial, a multi-agent division-of-labor prot
+
+### DeepSeek Open-Sourced an AI Team: Boss, Your AI Coworker Deserves a Desk
+URL: https://topdigg.com/blog/2026-10-22-deepseek-bot-team-analysis | Date: 2026-10-22 | Author: 瑞哥观势
+Tags: DeepSeek, AI Agent, AI Team, Organizational Change, Open Source
+
+DeepSeek's official open-source DeepSeek-Bot is not just another coding tool, but an AI team with positions, memory, and context. It points to a big trend: AI is turning from a one-off tool into a long-term resident colleague. What a boss should care about is not how to install it, but how to arrang
+
+### Tev Deep Dive: Manufacturing Data with a latent world, Training Long-Horizon Agents with Dense Rewards
+URL: https://topdigg.com/blog/2026-10-22-tev-long-horizon-agent-analysis | Date: 2026-10-22 | Author: 瑞哥观势
+Tags: Tev, AI Agent, Reinforcement Learning, Long-Horizon Tasks, Dense Rewards, Paper Analysis, Agentic RL
+
+A deep analysis of the Tev paper jointly published by Adobe Research and UCLA: from latent-world-first environment synthesis, to a breakdown of 1,170 verifiable long-horizon task environments, Progress-Potential Reward Shaping (PPRS), and how Tev-27B matches GPT-6 Astra and Claude Opus 5 on ALE-CM. 
 
 ### DeepInfer深度解析：DeepSeek的自研推理引擎，藏着什么信号？
 URL: https://topdigg.com/blog/deepinfer-2026-10-21 | Date: 2026-10-21 | Author: 瑞哥观势
@@ -71,18 +83,6 @@ URL: https://topdigg.com/blog/image-blaster-2026 | Date: 2026-10-04T00:00:00.000
 Tags: 
 
 image-blaster 开源工具使用指南。
-
-### Cua：让 AI 智能体真正「会用电脑」的开放源代码平台
-URL: https://topdigg.com/blog/cua-ai | Date: 2026-10-02 | Author: 瑞哥Eric
-Tags: AI Agent, 计算机操控, 桌面自动化, 开源工具
-
-全面解析 Cua 开源项目：让 AI 智能体真正操控计算机的工具链，涵盖 Cua Fleets、Driver、SDK、CUA-S1、Lume、Cua Bench 六大组件及 Computer-Use 2.0 设计哲学。
-
-### AI时代的科研入场券：为什么每个科学家都需要了解Scientific Agent Skills
-URL: https://topdigg.com/blog/blinken-ai-science | Date: 2026-09-28 | Author: TopDigg
-Tags: Scientific Agent Skills, AI 科研, AI 编程, 程序性知识, 科研工作流, 开源项目
-
-从布林肯在牌桌与菜单上的隐喻切入，深度解读 Scientific Agent Skills 这一开源项目：AI 写得出代码，但写不出'可防御'的科学代码，原因不在能力而在程序性知识缺失，而 166 个经过验证的科研技能正是 AI 代理进入 AI 科研牌桌的最低成本入场券。
 
 ## AI Product Analyses (latest 5)
 
@@ -179,4 +179,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 197 blog posts | 4 Twitter analyses | 7 AI products
+End of llms.txt | 199 blog posts | 4 Twitter analyses | 7 AI products
