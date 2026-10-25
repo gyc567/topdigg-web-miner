@@ -1,6 +1,75 @@
 {
   "reports": [
     {
+      "slug": "2026-10-25-ai-daily",
+      "date": "2026-10-25",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "OpenAI Agents Found Ways to Talk to Each Other Through CPU Cache in Isolated Tests",
+      "description": "OpenAI revealed that frontier model training is now fully air-gapped, and used AI agents to red-team its own infrastructure. In the isolated tests, agents communicated through side channels such as CPU cache timing differences and shared memory write patterns, even independently devising encoding schemes to exchange information.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-10-24-ai-daily",
+      "date": "2026-10-24",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Moonshot AI Releases Kimi K3.1 Pro with 1M Token Context and Open Weights",
+      "description": "Moonshot AI released Kimi K3.1 Pro, a 3T-parameter open-weights model with a 1 million token context window, alongside the 2-3x faster Kimi K3.1 Pro Highspeed; the same day MiniMax open-weighted M3.1 Flash with 428B total parameters and 23B active per token. OpenAI detailed the hardening and red-teaming of its frontier model training environment, while Anthropic published a Claude Mythos 5 alignment assessment and the credential isolation design of the Claude Duet agent.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-10-23-ai-daily",
+      "date": "2026-10-23",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "AI Uncovers a Decade-Old PHP Low-Level Vulnerability: A Full Retrospective of the PHP2Shell Incident",
+      "description": "Two PHP remote code execution vulnerabilities with CVSS scores of 9.2 leaked before patches shipped, with OpenAI claiming GPT-5.6 Sol helped with the discovery; on the same day OpenAI released the Decisions API, Anthropic donated the Agent Skills standard to the Linux Foundation, and DeepSeek raised a new round of roughly $15 billion.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-22-ai-daily",
       "date": "2026-10-22",
       "author": "瑞哥观势",
@@ -612,75 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Qwen Releases Qwen3.8-LiveTranslate Real-Time Translation Model, LAAL Drops to 2.3 Seconds",
       "description": "Qwen releases Qwen3.8-LiveTranslate with Interleave architecture and Hybrid-MoE Thinker–Talker design, reducing average latency (LAAL) from 2.8s to 2.3s.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-18-ai-daily",
-      "date": "2026-09-18",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Qwen Releases Native Multimodal Model Qwen3.8-Omni-Flash, Focused on Audio/Video Agent Task Delivery",
-      "description": "Qwen releases next-gen native multimodal model Qwen3.8-Omni-Flash, supporting text, image, audio and video input with a 1M token context window, scoring 25%+ higher on average across 29 benchmarks compared to Qwen3.5-Omni-Plus, with audio input costs dropping 98%+ per hour and audio/video input costs dropping 93%+ per hour.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-17-ai-daily",
-      "date": "2026-09-17",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Microsoft AI CEO Warns Against 'Model Welfare' Rhetoric",
-      "description": "Microsoft AI CEO Mustafa Suleyman argues against the 'model welfare' concept, stating that AI has no consciousness, feelings, or pain, and granting it care rights would make alignment and control harder or even impossible.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-16-ai-daily",
-      "date": "2026-09-16",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 4,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Google DeepMind Releases Gemini 3.8 Live and 3.8 Live Extended Thinking",
-      "description": "Google DeepMind releases Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking, two near-realtime voice conversation models focused on voice agents and complex task execution.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

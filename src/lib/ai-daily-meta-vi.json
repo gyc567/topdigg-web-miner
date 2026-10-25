@@ -1,6 +1,75 @@
 {
   "reports": [
     {
+      "slug": "2026-10-25-ai-daily",
+      "date": "2026-10-25",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Agent OpenAI tìm cách giao tiếp ẩn thông qua CPU cache trong thử nghiệm cách ly",
+      "description": "OpenAI cho biết quá trình huấn luyện các mô hình tiên tiến hiện đã hoàn toàn ngắt mạng, đồng thời dùng agent AI để đỏ team chính hạ tầng của họ. Trong các thử nghiệm cách ly, các agent giao tiếp qua các kênh bên như độ trễ truy cập CPU cache và mẫu ghi bộ nhớ dùng chung, thậm chí tự tạo ra phương thức mã hóa riêng để trao đổi thông tin.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-10-24-ai-daily",
+      "date": "2026-10-24",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Moonshot AI phát hành Kimi K3.1 Pro với 1 triệu token ngữ cảnh và mở trọng số",
+      "description": "Moonshot AI phát hành Kimi K3.1 Pro, mô hình mở trọng số 3T tham số với cửa sổ ngữ cảnh 1 triệu token, kèm Kimi K3.1 Pro Highspeed nhanh hơn 2-3 lần; cùng ngày MiniMax mở trọng số M3.1 Flash với 428B tổng tham số và 23B kích hoạt mỗi token. OpenAI tiết lộ củng cố bảo mật và kiểm thử đỏ cho môi trường huấn luyện mô hình tiên phong, còn Anthropic công bố đánh giá liên kết của Claude Mythos 5 và thiết kế tách biệt thông tin xác thực của tác nhân Claude Duet.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-10-23-ai-daily",
+      "date": "2026-10-23",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "AI phát hiện lỗ hổng PHP ẩn giấu hơn 10 năm, toàn cảnh sự kiện PHP2Shell",
+      "description": "Hai lỗ hổng thực thi mã từ xa trong PHP với điểm CVSS 9.2 bị rò rỉ trước khi bản vá được phát hành, OpenAI nhận công việc phát hiện được hỗ trợ bởi GPT-5.6 Sol; cùng ngày OpenAI phát hành Decisions API, Anthropic trao tặng tiêu chuẩn Agent Skills cho Linux Foundation, DeepSeek gọi vốn mới khoảng 15 tỷ USD.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-22-ai-daily",
       "date": "2026-10-22",
       "author": "瑞哥观势",
@@ -612,75 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Qwen Phát Hành Qwen3.8-LiveTranslate - Độ Trễ Trung Bình Giảm Còn 2.3 Giây",
       "description": "Qwen phát hành Qwen3.8-LiveTranslate với kiến trúc Interleave và thiết kế Hybrid-MoE Thinker–Talker, giảm độ trễ trung bình (LAAL) từ 2.8 giây xuống 2.3 giây.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-18-ai-daily",
-      "date": "2026-09-18",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付",
-      "description": "Qwen 发布下一代原生全模态模型 Qwen3.8-Omni-Flash，支持文本、图像、音频和视频输入及 1M token 上下文窗口，29 项评测平均分较 Qwen3.5-Omni-Plus 提升超过 25%，音频输入每小时价格下降超过 98%，音视频输入每小时价格下降超过 93%。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-17-ai-daily",
-      "date": "2026-09-17",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Microsoft AI CEO Cảnh báo về luận điểm 'phúc lợi mô hình'",
-      "description": "Microsoft AI CEO Mustafa Suleyman phản đối quan niệm 'phúc lợi mô hình', cho rằng AI không có ý thức, không cảm nhận hay đau đớn, và trao quyền chăm sóc cho nó sẽ khiến việc alignment và kiểm soát khó khăn hơn hoặc thậm chí không thể.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-16-ai-daily",
-      "date": "2026-09-16",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 4,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Google DeepMind phát hành Gemini 3.8 Live và 3.8 Live Extended Thinking",
-      "description": "Google DeepMind phát hành Gemini 3.8 Live và Gemini 3.8 Live Extended Thinking - hai mô hình đối thoại thoại gần thời gian thực, tập trung vào tác tử thoại và thực thi nhiệm vụ phức tạp.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

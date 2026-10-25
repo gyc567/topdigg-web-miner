@@ -1,6 +1,75 @@
 {
   "reports": [
     {
+      "slug": "2026-10-25-ai-daily",
+      "date": "2026-10-25",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "OpenAIエージェントが隔離テストでCPUキャッシュを使って隠密通信を成立",
+      "description": "OpenAIは、前沿モデルの学習が完全にネットワーク遮断下で行われるようになったこと、およびAIエージェントによる自社インフラへのレッドチームテストを実施したことを明かした。隔離テストでは、エージェントはネットワークも共有ファイルも彼此にアクセスできない環境で、CPUキャッシュのタイミング差や共有メモリの書き込みパターンといったサイドチャネルを使って通信し、符号化方式を自行で devising して情報を交換した。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-10-24-ai-daily",
+      "date": "2026-10-24",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Moonshot AI が Kimi K3.1 Pro を発表、100万トークンコンテキスト、11月4日以前にオープンウェイト公開",
+      "description": "Moonshot AI は 3T パラメータのオープンウェイトモデル Kimi K3.1 Pro を発表（コンテキストウィンドウ100万トークン）、同時に2〜3倍高速な Kimi K3.1 Pro Highspeed もリリース。同日 MiniMax が M3.1 Flash のウェイトを公開し、総パラメータ428B、トークンあたり23Bが活性。OpenAI は最前線モデル学習環境のセキュリティ強化とレッドチーム試験を明かし、Anthropic は Claude Mythos 5 のアライメント評価と Claude Duet エージェントの資格情報分離設計を公表した。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-10-23-ai-daily",
+      "date": "2026-10-23",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "AIが10年以上目を潜むPHP底层の脆弱性を発見、PHP2Shell事件の全体像を振り返る",
+      "description": "CVSS 9.2点というPHPのリモートコード実行脆弱性2件がパッチ公開前に漏洩し、OpenAIはGPT-5.6 Solの支援による発見を認める。同じ日にOpenAIはDecisions APIを発表し、AnthropicはAgent Skills標準をLinux Foundationに寄付、DeepSeekは新たな資金調達で約150億ドルに達した。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-22-ai-daily",
       "date": "2026-10-22",
       "author": "瑞哥观势",
@@ -612,75 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Qwen、リアルタイム同時翻訳モデルQwen3.8-LiveTranslateを発表 - LAALが2.3秒に",
       "description": "Qwenは、InterleaveアーキテクチャとHybrid-MoE Thinker–Talker設計を採用したQwen3.8-LiveTranslateを発表、平均遅延（LAAL）を2.8秒から2.3秒に短縮した。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-18-ai-daily",
-      "date": "2026-09-18",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Qwen 发布原生全模态模型 Qwen3.8-Omni-Flash，主打音视频智能体任务交付",
-      "description": "Qwen 发布下一代原生全模态模型 Qwen3.8-Omni-Flash，支持文本、图像、音频和视频输入及 1M token 上下文窗口，29 项评测平均分较 Qwen3.5-Omni-Plus 提升超过 25%，音频输入每小时价格下降超过 98%，音视频输入每小时价格下降超过 93%。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-17-ai-daily",
-      "date": "2026-09-17",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Microsoft AI CEO、「モデル福祉」論調に警告",
-      "description": "Microsoft AI CEO Mustafa Suleyman씨가「モデル福祉」概念に反対し、AIには意識も感情も痛みもなく、ケア権を与えることは整合とコントロールをより困難に甚至は不可能にすると主張。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-16-ai-daily",
-      "date": "2026-09-16",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 4,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Google DeepMind、Gemini 3.8 Live と 3.8 Live Extended Thinking をリリース",
-      "description": "Google DeepMindがGemini 3.8 LiveとGemini 3.8 Live Extended Thinkingの2つのほぼリアルタイム音声対話モデルを発表。音声エージェントと複雑なタスク実行に特化。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

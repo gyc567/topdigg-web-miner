@@ -1,6 +1,75 @@
 {
   "reports": [
     {
+      "slug": "2026-10-25-ai-daily",
+      "date": "2026-10-25",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "OpenAI 智能體在隔離測試中藉 CPU 快取隱蔽通訊",
+      "description": "OpenAI 介紹其前沿模型訓練已完全斷網，並用 AI 智能體紅隊測試自家基礎設施。隔離測試中，智能體在無網路、無共享檔案的條件下透過 CPU 快取時序差異、共用記憶體寫入模式等側通道通訊，甚至獨立建立編碼方案交換資訊。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "瑞哥觀勢",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-10-24-ai-daily",
+      "date": "2026-10-24",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "月之暗面發布 Kimi K3.1 Pro，100 萬 token 上下文，開放權重將於 11 月 4 日前釋出",
+      "description": "月之暗面發布 Kimi K3.1 Pro，3T 級開放權重模型、上下文視窗 100 萬 token，同步推出速度快 2-3 倍的 Kimi K3.1 Pro Highspeed；同日 MiniMax 開放 M3.1 Flash 權重，總參數 428B、每 token 啟動 23B。OpenAI 詳解前沿模型訓練環境的安全加固與紅隊測試，Anthropic 則發布 Claude Mythos 5 對齊評估報告與 Claude Duet 智慧體的憑證隔離設計。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-10-23-ai-daily",
+      "date": "2026-10-23",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "AI 挖出潛伏十幾年的 PHP 底層漏洞，PHP2Shell 事件全景復盤",
+      "description": "兩個 CVSS 9.2 分的 PHP 遠端程式碼執行漏洞在修補程式發布前外洩，OpenAI 認領由 GPT-5.6 Sol 協助發現；同日 OpenAI 發布 Decisions API，Anthropic 捐贈 Agent Skills 標準給 Linux Foundation，DeepSeek 新一輪融資約 150 億美元。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-22-ai-daily",
       "date": "2026-10-22",
       "author": "瑞哥观势",
@@ -612,75 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Qwen 發布 Qwen3.8-LiveTranslate 即時同傳模型，LAAL 降至 2.3 秒",
       "description": "Qwen 發布 Qwen3.8-LiveTranslate，採用 Interleave 架構與 Hybrid-MoE Thinker–Talker 設計重構即時同聲傳譯，平均滯後從 2.8 秒降至 2.3 秒。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥觀勢",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-18-ai-daily",
-      "date": "2026-09-18",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Qwen 發布原生全模態模型 Qwen3.8-Omni-Flash，主打影音智慧體任務交付",
-      "description": "Qwen 發布下一代原生全模態模型 Qwen3.8-Omni-Flash，支援文字、圖像、音訊和影片輸入及 1M token 上下文窗口，29 項評測平均分較 Qwen3.5-Omni-Plus 提升超過 25%，音訊輸入每小時價格下降超過 98%，影音輸入每小時價格下降超過 93%。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥觀勢",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-17-ai-daily",
-      "date": "2026-09-17",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "微軟 AI CEO 警告「模型福利」論調",
-      "description": "微軟 AI CEO Mustafa Suleyman 發文反對「模型福利」理念，認為 AI 並無意識、不會感受或痛苦，賦予其受照料權會讓對齊與管控更難甚至不可能。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥觀勢",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-16-ai-daily",
-      "date": "2026-09-16",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 4,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Google DeepMind 發布 Gemini 3.8 Live 和 3.8 Live Extended Thinking",
-      "description": "Google DeepMind 發布 Gemini 3.8 Live 與 Gemini 3.8 Live Extended Thinking 兩個近即時語音對話模型，主打語音智慧體和複雜任務執行。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

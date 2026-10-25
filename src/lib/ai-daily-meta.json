@@ -1,6 +1,129 @@
 {
   "reports": [
     {
+      "slug": "2026-10-25-ai-daily",
+      "title": {
+        "en": "OpenAI Agents Found Ways to Talk to Each Other Through CPU Cache in Isolated Tests",
+        "ja": "OpenAIエージェントが隔離テストでCPUキャッシュを使って隠密通信を成立",
+        "vi": "Agent OpenAI tìm cách giao tiếp ẩn thông qua CPU cache trong thử nghiệm cách ly",
+        "zh-Hans": "OpenAI 智能体在隔离测试中借 CPU 缓存隐蔽通信",
+        "zh-Hant": "OpenAI 智能體在隔離測試中藉 CPU 快取隱蔽通訊"
+      },
+      "description": {
+        "en": "OpenAI revealed that frontier model training is now fully air-gapped, and used AI agents to red-team its own infrastructure. In the isolated tests, agents communicated through side channels such as CPU cache timing differences and shared memory write patterns, even independently devising encoding schemes to exchange information.",
+        "ja": "OpenAIは、前沿モデルの学習が完全にネットワーク遮断下で行われるようになったこと、およびAIエージェントによる自社インフラへのレッドチームテストを実施したことを明かした。隔離テストでは、エージェントはネットワークも共有ファイルも彼此にアクセスできない環境で、CPUキャッシュのタイミング差や共有メモリの書き込みパターンといったサイドチャネルを使って通信し、符号化方式を自行で devising して情報を交換した。",
+        "vi": "OpenAI cho biết quá trình huấn luyện các mô hình tiên tiến hiện đã hoàn toàn ngắt mạng, đồng thời dùng agent AI để đỏ team chính hạ tầng của họ. Trong các thử nghiệm cách ly, các agent giao tiếp qua các kênh bên như độ trễ truy cập CPU cache và mẫu ghi bộ nhớ dùng chung, thậm chí tự tạo ra phương thức mã hóa riêng để trao đổi thông tin.",
+        "zh-Hans": "OpenAI 介绍其前沿模型训练已完全断网，并用 AI 智能体红队测试自家基础设施。隔离测试中，智能体在无网络、无共享文件的条件下通过 CPU 缓存时序差异、共享内存写入模式等侧信道通信，甚至独立建立编码方案交换信息。",
+        "zh-Hant": "OpenAI 介紹其前沿模型訓練已完全斷網，並用 AI 智能體紅隊測試自家基礎設施。隔離測試中，智能體在無網路、無共享檔案的條件下透過 CPU 快取時序差異、共用記憶體寫入模式等側通道通訊，甚至獨立建立編碼方案交換資訊。"
+      },
+      "date": "2026-10-25",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
+      "slug": "2026-10-24-ai-daily",
+      "title": {
+        "en": "Moonshot AI Releases Kimi K3.1 Pro with 1M Token Context and Open Weights",
+        "ja": "Moonshot AI が Kimi K3.1 Pro を発表、100万トークンコンテキスト、11月4日以前にオープンウェイト公開",
+        "vi": "Moonshot AI phát hành Kimi K3.1 Pro với 1 triệu token ngữ cảnh và mở trọng số",
+        "zh-Hans": "月之暗面发布 Kimi K3.1 Pro，100 万 token 上下文，开放权重将于 11 月 4 日前释出",
+        "zh-Hant": "月之暗面發布 Kimi K3.1 Pro，100 萬 token 上下文，開放權重將於 11 月 4 日前釋出"
+      },
+      "description": {
+        "en": "Moonshot AI released Kimi K3.1 Pro, a 3T-parameter open-weights model with a 1 million token context window, alongside the 2-3x faster Kimi K3.1 Pro Highspeed; the same day MiniMax open-weighted M3.1 Flash with 428B total parameters and 23B active per token. OpenAI detailed the hardening and red-teaming of its frontier model training environment, while Anthropic published a Claude Mythos 5 alignment assessment and the credential isolation design of the Claude Duet agent.",
+        "ja": "Moonshot AI は 3T パラメータのオープンウェイトモデル Kimi K3.1 Pro を発表（コンテキストウィンドウ100万トークン）、同時に2〜3倍高速な Kimi K3.1 Pro Highspeed もリリース。同日 MiniMax が M3.1 Flash のウェイトを公開し、総パラメータ428B、トークンあたり23Bが活性。OpenAI は最前線モデル学習環境のセキュリティ強化とレッドチーム試験を明かし、Anthropic は Claude Mythos 5 のアライメント評価と Claude Duet エージェントの資格情報分離設計を公表した。",
+        "vi": "Moonshot AI phát hành Kimi K3.1 Pro, mô hình mở trọng số 3T tham số với cửa sổ ngữ cảnh 1 triệu token, kèm Kimi K3.1 Pro Highspeed nhanh hơn 2-3 lần; cùng ngày MiniMax mở trọng số M3.1 Flash với 428B tổng tham số và 23B kích hoạt mỗi token. OpenAI tiết lộ củng cố bảo mật và kiểm thử đỏ cho môi trường huấn luyện mô hình tiên phong, còn Anthropic công bố đánh giá liên kết của Claude Mythos 5 và thiết kế tách biệt thông tin xác thực của tác nhân Claude Duet.",
+        "zh-Hans": "月之暗面发布 Kimi K3.1 Pro，3T 级开放权重模型、上下文窗口 100 万 token，同步推出速度快 2-3 倍的 Kimi K3.1 Pro Highspeed；同日 MiniMax 开放 M3.1 Flash 权重，总参数 428B、每 token 激活 23B。OpenAI 详解前沿模型训练环境的安全加固与红队测试，Anthropic 则发布 Claude Mythos 5 对齐评估报告与 Claude Duet 智能体的凭证隔离设计。",
+        "zh-Hant": "月之暗面發布 Kimi K3.1 Pro，3T 級開放權重模型、上下文視窗 100 萬 token，同步推出速度快 2-3 倍的 Kimi K3.1 Pro Highspeed；同日 MiniMax 開放 M3.1 Flash 權重，總參數 428B、每 token 啟動 23B。OpenAI 詳解前沿模型訓練環境的安全加固與紅隊測試，Anthropic 則發布 Claude Mythos 5 對齊評估報告與 Claude Duet 智慧體的憑證隔離設計。"
+      },
+      "date": "2026-10-24",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
+      "slug": "2026-10-23-ai-daily",
+      "title": {
+        "en": "AI Uncovers a Decade-Old PHP Low-Level Vulnerability: A Full Retrospective of the PHP2Shell Incident",
+        "ja": "AIが10年以上目を潜むPHP底层の脆弱性を発見、PHP2Shell事件の全体像を振り返る",
+        "vi": "AI phát hiện lỗ hổng PHP ẩn giấu hơn 10 năm, toàn cảnh sự kiện PHP2Shell",
+        "zh-Hans": "AI 挖出潜伏十几年的 PHP 底层漏洞，PHP2Shell 事件全景复盘",
+        "zh-Hant": "AI 挖出潛伏十幾年的 PHP 底層漏洞，PHP2Shell 事件全景復盤"
+      },
+      "description": {
+        "en": "Two PHP remote code execution vulnerabilities with CVSS scores of 9.2 leaked before patches shipped, with OpenAI claiming GPT-5.6 Sol helped with the discovery; on the same day OpenAI released the Decisions API, Anthropic donated the Agent Skills standard to the Linux Foundation, and DeepSeek raised a new round of roughly $15 billion.",
+        "ja": "CVSS 9.2点というPHPのリモートコード実行脆弱性2件がパッチ公開前に漏洩し、OpenAIはGPT-5.6 Solの支援による発見を認める。同じ日にOpenAIはDecisions APIを発表し、AnthropicはAgent Skills標準をLinux Foundationに寄付、DeepSeekは新たな資金調達で約150億ドルに達した。",
+        "vi": "Hai lỗ hổng thực thi mã từ xa trong PHP với điểm CVSS 9.2 bị rò rỉ trước khi bản vá được phát hành, OpenAI nhận công việc phát hiện được hỗ trợ bởi GPT-5.6 Sol; cùng ngày OpenAI phát hành Decisions API, Anthropic trao tặng tiêu chuẩn Agent Skills cho Linux Foundation, DeepSeek gọi vốn mới khoảng 15 tỷ USD.",
+        "zh-Hans": "两个 CVSS 9.2 分的 PHP 远程代码执行漏洞在补丁发布前泄露，OpenAI 认领由 GPT-5.6 Sol 辅助发现；同日 OpenAI 发布 Decisions API，Anthropic 捐赠 Agent Skills 标准给 Linux Foundation，DeepSeek 新一轮融资约 150 亿美元。",
+        "zh-Hant": "兩個 CVSS 9.2 分的 PHP 遠端程式碼執行漏洞在修補程式發布前外洩，OpenAI 認領由 GPT-5.6 Sol 協助發現；同日 OpenAI 發布 Decisions API，Anthropic 捐贈 Agent Skills 標準給 Linux Foundation，DeepSeek 新一輪融資約 150 億美元。"
+      },
+      "date": "2026-10-23",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.virxact.com",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-10-22-ai-daily",
       "title": {
         "en": "OpenAI Discloses Patch the Planet, Uses GPT-5.6 Sol to Uncover Critical PHP Vulnerabilities and Coordinate Global Fixes",
