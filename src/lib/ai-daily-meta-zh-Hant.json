@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-26-ai-daily",
+      "date": "2026-10-26",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "MiniMax 彙整 H3 開源生態進展：社群新增 11 項整合",
+      "description": "MiniMax 官方彙整 H3 影片生成模型的社群生態進展，收錄 11 項新增整合，涵蓋 8 步參考條件影片加音訊生成、4 步蒸餾、稀疏注意力與參考 token 壓縮，並已在 GPU 伺服器、TPU 與 Apple Silicon 等多種硬體上提供服務與工作流程整合。同日 Anthropic 開源 OSS Scanner 漏洞掃描器，11 天回報 77 個危急與 803 個高危發現。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-25-ai-daily",
       "date": "2026-10-25",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Anthropic 計劃將 IPO 推遲至 11 月，估值約 2 兆美元",
       "description": "據《華爾街日報》報道，Anthropic 計劃將 IPO 推遲至 11 月，晚於投資者預期的 10 月，以留出時間展示第三季度財務數據。投資者此前預計其上市估值約 2 兆美元，募資最高 1,000 億美元。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥觀勢",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-19-ai-daily",
-      "date": "2026-09-19",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Qwen 發布 Qwen3.8-LiveTranslate 即時同傳模型，LAAL 降至 2.3 秒",
-      "description": "Qwen 發布 Qwen3.8-LiveTranslate，採用 Interleave 架構與 Hybrid-MoE Thinker–Talker 設計重構即時同聲傳譯，平均滯後從 2.8 秒降至 2.3 秒。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

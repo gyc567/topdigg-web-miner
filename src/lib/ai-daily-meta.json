@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-10-26-ai-daily",
+      "title": {
+        "en": "MiniMax Recaps H3 Open-Source Ecosystem Progress: 11 New Community Integrations",
+        "ja": "MiniMax が H3 オープンソースエコシステムの進展を総括：コミュニティに 11 件の新規統合を追加",
+        "vi": "MiniMax tổng hợp tiến độ hệ sinh thái mã nguồn mở H3: cộng đồng bổ sung 11 tích hợp mới",
+        "zh-Hans": "MiniMax 汇总 H3 开源生态进展：社区新增 11 项集成",
+        "zh-Hant": "MiniMax 彙整 H3 開源生態進展：社群新增 11 項整合"
+      },
+      "description": {
+        "en": "MiniMax recapped the community ecosystem progress of its H3 video generation model, adding 11 new integrations covering 8-step reference-conditioned video-plus-audio generation, 4-step distillation, sparse attention and reference token compression, now serving on GPUs, TPUs and Apple Silicon. The same day Anthropic open-sourced its OSS Scanner vulnerability scanner, reporting 77 critical and 803 high-severity findings in 11 days.",
+        "ja": "MiniMax は H3 動画生成モデルのコミュニティエコシステムの進展を公式に総括し、8ステップ参照条件付き動画＋音声生成、4ステップ蒸留、疎注意、参照トークン圧縮をカバーする 11 件の新規統合を収録した。GPU サーバー、TPU、Apple Silicon などの多様なハードウェアでサービスとワークフロー統合が提供されている。同日 Anthropic が OSS Scanner 脆弱性スキャナーをオープンソース化し、11日で 77 件の致命的および 803 件の高リスク検出を報告した。",
+        "vi": "MiniMax chính thức tổng hợp tiến độ hệ sinh thái cộng đồng của mô hình tạo video H3, ghi nhận 11 tích hợp mới bao gồm tạo video có điều kiện tham chiếu kèm âm thanh 8 bước, distillation 4 bước, attention thưa và nén token tham chiếu, đã có dịch vụ và tích hợp quy trình trên nhiều loại phần cứng như GPU server, TPU và Apple Silicon. Cùng ngày Anthropic mã nguồn mở máy quét lỗ hổng OSS Scanner, báo cáo 77 lỗi nghiêm trọng và 803 lỗi mức cao trong 11 ngày.",
+        "zh-Hans": "MiniMax 官方汇总 H3 视频生成模型的社区生态进展，收录 11 项新增集成，涵盖 8 步参考条件视频加音频生成、4 步蒸馏、稀疏注意力和参考 token 压缩，并已在 GPU 服务器、TPU 和 Apple Silicon 等多种硬件上提供服务与工作流集成。同日 Anthropic 开源 OSS Scanner 漏洞扫描器，11 天报出 77 个危急和 803 个高危发现。",
+        "zh-Hant": "MiniMax 官方彙整 H3 影片生成模型的社群生態進展，收錄 11 項新增整合，涵蓋 8 步參考條件影片加音訊生成、4 步蒸餾、稀疏注意力與參考 token 壓縮，並已在 GPU 伺服器、TPU 與 Apple Silicon 等多種硬體上提供服務與工作流程整合。同日 Anthropic 開源 OSS Scanner 漏洞掃描器，11 天回報 77 個危急與 803 個高危發現。"
+      },
+      "date": "2026-10-26",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-10-25-ai-daily",
       "title": {
         "en": "OpenAI Agents Found Ways to Talk to Each Other Through CPU Cache in Isolated Tests",

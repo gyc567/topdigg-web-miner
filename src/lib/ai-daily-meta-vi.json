@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-26-ai-daily",
+      "date": "2026-10-26",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "MiniMax tổng hợp tiến độ hệ sinh thái mã nguồn mở H3: cộng đồng bổ sung 11 tích hợp mới",
+      "description": "MiniMax chính thức tổng hợp tiến độ hệ sinh thái cộng đồng của mô hình tạo video H3, ghi nhận 11 tích hợp mới bao gồm tạo video có điều kiện tham chiếu kèm âm thanh 8 bước, distillation 4 bước, attention thưa và nén token tham chiếu, đã có dịch vụ và tích hợp quy trình trên nhiều loại phần cứng như GPU server, TPU và Apple Silicon. Cùng ngày Anthropic mã nguồn mở máy quét lỗ hổng OSS Scanner, báo cáo 77 lỗi nghiêm trọng và 803 lỗi mức cao trong 11 ngày.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-25-ai-daily",
       "date": "2026-10-25",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Anthropic Lên Kế Hoạch Trì Hoãn IPO Đến Tháng 11, Định Giá ~2 Nghìn Tỷ USD",
       "description": "Theo Wall Street Journal, Anthropic có kế hoạch trì hoãn IPO sang tháng 11, muộn hơn so với dự kiến của nhà đầu tư vào tháng 10, để có thời gian trình bày dữ liệu tài chính Q3. Nhà đầu tư trước đó dự kiến định giá khoảng 2 nghìn tỷ USD và huy động vốn lên đến 100 tỷ USD.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-19-ai-daily",
-      "date": "2026-09-19",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Qwen Phát Hành Qwen3.8-LiveTranslate - Độ Trễ Trung Bình Giảm Còn 2.3 Giây",
-      "description": "Qwen phát hành Qwen3.8-LiveTranslate với kiến trúc Interleave và thiết kế Hybrid-MoE Thinker–Talker, giảm độ trễ trung bình (LAAL) từ 2.8 giây xuống 2.3 giây.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

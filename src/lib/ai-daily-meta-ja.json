@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-26-ai-daily",
+      "date": "2026-10-26",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "MiniMax が H3 オープンソースエコシステムの進展を総括：コミュニティに 11 件の新規統合を追加",
+      "description": "MiniMax は H3 動画生成モデルのコミュニティエコシステムの進展を公式に総括し、8ステップ参照条件付き動画＋音声生成、4ステップ蒸留、疎注意、参照トークン圧縮をカバーする 11 件の新規統合を収録した。GPU サーバー、TPU、Apple Silicon などの多様なハードウェアでサービスとワークフロー統合が提供されている。同日 Anthropic が OSS Scanner 脆弱性スキャナーをオープンソース化し、11日で 77 件の致命的および 803 件の高リスク検出を報告した。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-25-ai-daily",
       "date": "2026-10-25",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Anthropic、IPOを11月に延期へ　企業価値は約2兆ドル",
       "description": "ウォールストリートジャーナルの報道によると、AnthropicはIPOを11月に延期する計画。これは投資家が期待していた10月より遅く、第3四半期の財務データを示す時間を確保するため。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-19-ai-daily",
-      "date": "2026-09-19",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Qwen、リアルタイム同時翻訳モデルQwen3.8-LiveTranslateを発表 - LAALが2.3秒に",
-      "description": "Qwenは、InterleaveアーキテクチャとHybrid-MoE Thinker–Talker設計を採用したQwen3.8-LiveTranslateを発表、平均遅延（LAAL）を2.8秒から2.3秒に短縮した。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

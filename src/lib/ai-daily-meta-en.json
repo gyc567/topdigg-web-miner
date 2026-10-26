@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-26-ai-daily",
+      "date": "2026-10-26",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "MiniMax Recaps H3 Open-Source Ecosystem Progress: 11 New Community Integrations",
+      "description": "MiniMax recapped the community ecosystem progress of its H3 video generation model, adding 11 new integrations covering 8-step reference-conditioned video-plus-audio generation, 4-step distillation, sparse attention and reference token compression, now serving on GPUs, TPUs and Apple Silicon. The same day Anthropic open-sourced its OSS Scanner vulnerability scanner, reporting 77 critical and 803 high-severity findings in 11 days.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-25-ai-daily",
       "date": "2026-10-25",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Anthropic Plans to Delay IPO to November, Valuation ~$2 Trillion",
       "description": "According to the Wall Street Journal, Anthropic plans to delay its IPO to November, later than investors expected in October, to allow time to present Q3 financial data. Investors previously expected a valuation of approximately $2 trillion and fundraising of up to $100 billion.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-19-ai-daily",
-      "date": "2026-09-19",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Qwen Releases Qwen3.8-LiveTranslate Real-Time Translation Model, LAAL Drops to 2.3 Seconds",
-      "description": "Qwen releases Qwen3.8-LiveTranslate with Interleave architecture and Hybrid-MoE Thinker–Talker design, reducing average latency (LAAL) from 2.8s to 2.3s.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",
