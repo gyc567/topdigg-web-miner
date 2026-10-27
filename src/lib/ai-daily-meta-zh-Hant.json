@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-27-ai-daily",
+      "date": "2026-10-27",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Anthropic 向 SEC 提交 S-1 檔案啟動 IPO，擬以代碼 ANT 登陸納斯達克",
+      "description": "Anthropic 向美國 SEC 提交 S-1 註冊聲明，推進 Class A 普通股的擬議 IPO，計劃在納斯達克全球精選市場以代碼 ANT 上市，發行股數與價格區間尚未確定。同日 Meta 向 SEC 申報擬募資 950 億美元投向 AI 數據中心與超級智能。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-26-ai-daily",
       "date": "2026-10-26",
       "author": "瑞哥观势",
@@ -663,29 +686,6 @@
         "aggregator_url": "https://aihot.virxact.com",
         "original": {
           "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-20-ai-daily",
-      "date": "2026-09-20",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Anthropic 計劃將 IPO 推遲至 11 月，估值約 2 兆美元",
-      "description": "據《華爾街日報》報道，Anthropic 計劃將 IPO 推遲至 11 月，晚於投資者預期的 10 月，以留出時間展示第三季度財務數據。投資者此前預計其上市估值約 2 兆美元，募資最高 1,000 億美元。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥觀勢",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }

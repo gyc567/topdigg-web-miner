@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-10-27-ai-daily",
+      "title": {
+        "en": "Anthropic Files S-1 With the SEC to Launch IPO, Plans to List on Nasdaq Under Ticker ANT",
+        "ja": "Anthropic が SEC に S-1 を提出し IPO を開始、コード ANT でナスダック上場へ",
+        "vi": "Anthropic nộp S-1 tới SEC để khởi động IPO, dự kiến niêm yết Nasdaq với mã ANT",
+        "zh-Hans": "Anthropic 向 SEC 提交 S-1 文件启动 IPO，拟以代码 ANT 登陆纳斯达克",
+        "zh-Hant": "Anthropic 向 SEC 提交 S-1 檔案啟動 IPO，擬以代碼 ANT 登陸納斯達克"
+      },
+      "description": {
+        "en": "Anthropic filed an S-1 registration statement with the US SEC, advancing a proposed IPO of Class A common stock and planning to list on the Nasdaq Global Select Market under the ticker ANT, with share count and price range still undetermined. On the same day Meta disclosed plans to raise $95 billion for AI data centers and superintelligence.",
+        "ja": "Anthropic は米 SEC に S-1 登録申告書を提出し、Class A 普通株式の想定 IPO を推し進め、ナスダック・グローバルセレクトマーケットにコード ANT で上場する計画。発行株式数と価格レンジはまだ未定。同日 Meta も AI データセンターと超级智能向けに 950 億ドルを調達すると SEC に申告した。",
+        "vi": "Anthropic đã nộp đơn đăng ký S-1 tới SEC Hoa Kỳ, đẩy tiến IPO cổ phiếu Class A và dự kiến niêm yết trên Nasdaq Global Select Market với mã ANT, số lượng cổ phiếu và khoảng giá chưa xác định. Cùng ngày Meta khai báo muốn huy động 95 tỷ USD cho trung tâm dữ liệu AI và siêu trí tuệ.",
+        "zh-Hans": "Anthropic 向美国 SEC 提交 S-1 注册声明，推进 Class A 普通股的拟议 IPO，计划在纳斯达克全球精选市场以代码 ANT 上市，发行股数与价格区间尚未确定。同日 Meta 向 SEC 申报拟募资 950 亿美元投向 AI 数据中心与超级智能。",
+        "zh-Hant": "Anthropic 向美國 SEC 提交 S-1 註冊聲明，推進 Class A 普通股的擬議 IPO，計劃在納斯達克全球精選市場以代碼 ANT 上市，發行股數與價格區間尚未確定。同日 Meta 向 SEC 申報擬募資 950 億美元投向 AI 數據中心與超級智能。"
+      },
+      "date": "2026-10-27",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-10-26-ai-daily",
       "title": {
         "en": "MiniMax Recaps H3 Open-Source Ecosystem Progress: 11 New Community Integrations",

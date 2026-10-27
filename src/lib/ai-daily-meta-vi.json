@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-27-ai-daily",
+      "date": "2026-10-27",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Anthropic nộp S-1 tới SEC để khởi động IPO, dự kiến niêm yết Nasdaq với mã ANT",
+      "description": "Anthropic đã nộp đơn đăng ký S-1 tới SEC Hoa Kỳ, đẩy tiến IPO cổ phiếu Class A và dự kiến niêm yết trên Nasdaq Global Select Market với mã ANT, số lượng cổ phiếu và khoảng giá chưa xác định. Cùng ngày Meta khai báo muốn huy động 95 tỷ USD cho trung tâm dữ liệu AI và siêu trí tuệ.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-26-ai-daily",
       "date": "2026-10-26",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Qwen Open-Source Qwen-Image-2.1: 7B Tạo sinh & Chỉnh sửa Thống nhất với Hỗ trợ Ảnh Trong suốt Native",
       "description": "Qwen phát hành Qwen-Image-2.1 mã nguồn mở, thống nhất tạo sinh từ văn bản sang ảnh và chỉnh sửa ảnh trong một mô hình duy nhất, với thành phần tạo sinh hình ảnh chỉ 7B tham số và hỗ trợ native ảnh trong suốt.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-20-ai-daily",
-      "date": "2026-09-20",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Anthropic Lên Kế Hoạch Trì Hoãn IPO Đến Tháng 11, Định Giá ~2 Nghìn Tỷ USD",
-      "description": "Theo Wall Street Journal, Anthropic có kế hoạch trì hoãn IPO sang tháng 11, muộn hơn so với dự kiến của nhà đầu tư vào tháng 10, để có thời gian trình bày dữ liệu tài chính Q3. Nhà đầu tư trước đó dự kiến định giá khoảng 2 nghìn tỷ USD và huy động vốn lên đến 100 tỷ USD.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

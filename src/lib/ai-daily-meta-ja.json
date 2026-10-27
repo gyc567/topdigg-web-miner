@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-27-ai-daily",
+      "date": "2026-10-27",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Anthropic が SEC に S-1 を提出し IPO を開始、コード ANT でナスダック上場へ",
+      "description": "Anthropic は米 SEC に S-1 登録申告書を提出し、Class A 普通株式の想定 IPO を推し進め、ナスダック・グローバルセレクトマーケットにコード ANT で上場する計画。発行株式数と価格レンジはまだ未定。同日 Meta も AI データセンターと超级智能向けに 950 億ドルを調達すると SEC に申告した。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-26-ai-daily",
       "date": "2026-10-26",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "QwenがQwen-Image-2.1をオープンソース化：7B統一生成・編集とネイティブ透明画像サポート",
       "description": "QwenがQwen-Image-2.1をオープンソース化。テキストから画像生成と画像編集を1つのモデルに統合し、視覚生成コンポーネントは7Bパラメータのみで、ネイティブに透明画像の生成と編集をサポート。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-20-ai-daily",
-      "date": "2026-09-20",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Anthropic、IPOを11月に延期へ　企業価値は約2兆ドル",
-      "description": "ウォールストリートジャーナルの報道によると、AnthropicはIPOを11月に延期する計画。これは投資家が期待していた10月より遅く、第3四半期の財務データを示す時間を確保するため。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",
