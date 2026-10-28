@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-28-ai-daily",
+      "date": "2026-10-28",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "AnthropicのS-1 dissect：1000億ドル規模の調達計画に隠された11のディテール",
+      "description": "著者がAnthropicのIPO目論見書の11のディテールを解説します。調達計画は約1000億ドル、推定評価額は1.5兆〜2兆ドル。収入は5四半期で30倍に伸び、第2四半期には営業利益が初めて9.74億ドルと黒字化しましたが、上半期の純損失は807億ドルに達し、主に転換社債の公正価値変動に起因します。調整後純利益は26.71億ドルの黒字です。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-27-ai-daily",
       "date": "2026-10-27",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "QwenがQwen-Image-2.1をオープンソース化：7B統一生成・編集とネイティブ透明画像サポート",
       "description": "QwenチームがQwen-Image-2.1をオープンソース化。テキストから画像生成と画像編集を1つのモデルで統一し、視覚生成コンポーネントはわずか7Bパラメータで、透明画像の生成と編集をネイティブサポート。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-21-ai-daily",
-      "date": "2026-09-21",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "QwenがQwen-Image-2.1をオープンソース化：7B統一生成・編集とネイティブ透明画像サポート",
-      "description": "QwenがQwen-Image-2.1をオープンソース化。テキストから画像生成と画像編集を1つのモデルに統合し、視覚生成コンポーネントは7Bパラメータのみで、ネイティブに透明画像の生成と編集をサポート。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

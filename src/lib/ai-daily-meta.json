@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-10-28-ai-daily",
+      "title": {
+        "en": "Anthropic's S-1 Breakdown: 11 Details Behind a Plan to Raise Roughly $100 Billion in Its IPO",
+        "ja": "AnthropicのS-1 dissect：1000億ドル規模の調達計画に隠された11のディテール",
+        "vi": "Phân tích hồ sơ S-1 của Anthropic: 11 chi tiết đằng sau kế hoạch thu vốn khoảng 100 tỷ USD cho IPO",
+        "zh-Hans": "Anthropic 招股书拆解：IPO 计划募资约 1000 亿美元背后的 11 个细节",
+        "zh-Hant": "Anthropic 招股書拆解：IPO 計畫募資約 1000 億美元背後的 11 個細節"
+      },
+      "description": {
+        "en": "The author breaks down 11 details in Anthropic's IPO prospectus, which plans to raise roughly $100 billion at a valuation of around $1.5 trillion to $2 trillion. Revenue grew 30x in five quarters and operating profit turned positive for the first time at $974 million in Q2, yet the first half still showed a $80.7 billion net loss driven by fair-value changes in convertible notes; adjusted net income was positive at $2.671 billion.",
+        "ja": "著者がAnthropicのIPO目論見書の11のディテールを解説します。調達計画は約1000億ドル、推定評価額は1.5兆〜2兆ドル。収入は5四半期で30倍に伸び、第2四半期には営業利益が初めて9.74億ドルと黒字化しましたが、上半期の純損失は807億ドルに達し、主に転換社債の公正価値変動に起因します。調整後純利益は26.71億ドルの黒字です。",
+        "vi": "Tác giả tổng hợp 11 chi tiết trong hồ sơ IPO của Anthropic, với kế hoạch thu vốn khoảng 100 tỷ USD và định giá có thể đạt 1,5 nghìn tỷ đến 2 nghìn tỷ USD. Doanh thu tăng 30 lần trong năm quý, lợi nhuận hoạt động quý II lần đầu chuyển sang dương ở mức 974 triệu USD, nhưng nửa đầu năm vẫn lỗ ròng 80,7 tỷ USD chủ yếu do biến động giá trị hợp lý của nợ chuyển đổi; lợi nhuận ròng điều chỉnh vẫn dương 2,671 tỷ USD.",
+        "zh-Hans": "作者总结 Anthropic IPO 招股书的 11 个细节，计划募资约 1000 亿美元、估值或达 1.5 万亿～2 万亿。收入五个季度涨 30 倍，今年二季度经营利润首次转正 9.74 亿美元，但上半年净亏 807 亿美元，主要来自可转换票据公允价值变动；调整后净利润为正 26.71 亿美元。",
+        "zh-Hant": "作者總結 Anthropic IPO 招股書的 11 個細節，計畫募資約 1000 億美元、估值或達 1.5 兆～2 兆美元。收入五個季度漲 30 倍，今年第二季經營利潤首次轉正 9.74 億美元，但上半年淨虧 807 億美元，主要來自可轉換票據公允價值變動；調整後淨利潤為正 26.71 億美元。"
+      },
+      "date": "2026-10-28",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-10-27-ai-daily",
       "title": {
         "en": "Anthropic Files S-1 With the SEC to Launch IPO, Plans to List on Nasdaq Under Ticker ANT",

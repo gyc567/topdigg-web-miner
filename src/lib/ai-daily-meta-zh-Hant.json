@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-28-ai-daily",
+      "date": "2026-10-28",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Anthropic 招股書拆解：IPO 計畫募資約 1000 億美元背後的 11 個細節",
+      "description": "作者總結 Anthropic IPO 招股書的 11 個細節，計畫募資約 1000 億美元、估值或達 1.5 兆～2 兆美元。收入五個季度漲 30 倍，今年第二季經營利潤首次轉正 9.74 億美元，但上半年淨虧 807 億美元，主要來自可轉換票據公允價值變動；調整後淨利潤為正 26.71 億美元。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-27-ai-daily",
       "date": "2026-10-27",
       "author": "瑞哥观势",
@@ -663,29 +686,6 @@
         "aggregator_url": "https://aihot.virxact.com",
         "original": {
           "name": "瑞哥觀勢",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-21-ai-daily",
-      "date": "2026-09-21",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Qwen 開源 Qwen-Image-2.1：7B 統一生成與編輯並原生支援透明圖像",
-      "description": "Qwen 團隊開源 Qwen-Image-2.1，將文生圖與圖像編輯統一到一個模型中，視覺生成組件僅 7B 參數，並原生支援生成和編輯透明圖像。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }

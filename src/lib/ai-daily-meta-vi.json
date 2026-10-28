@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-28-ai-daily",
+      "date": "2026-10-28",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Phân tích hồ sơ S-1 của Anthropic: 11 chi tiết đằng sau kế hoạch thu vốn khoảng 100 tỷ USD cho IPO",
+      "description": "Tác giả tổng hợp 11 chi tiết trong hồ sơ IPO của Anthropic, với kế hoạch thu vốn khoảng 100 tỷ USD và định giá có thể đạt 1,5 nghìn tỷ đến 2 nghìn tỷ USD. Doanh thu tăng 30 lần trong năm quý, lợi nhuận hoạt động quý II lần đầu chuyển sang dương ở mức 974 triệu USD, nhưng nửa đầu năm vẫn lỗ ròng 80,7 tỷ USD chủ yếu do biến động giá trị hợp lý của nợ chuyển đổi; lợi nhuận ròng điều chỉnh vẫn dương 2,671 tỷ USD.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-27-ai-daily",
       "date": "2026-10-27",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Qwen mã nguồn mở Qwen-Image-2.1: 7B tạo sinh và chỉnh sửa thống nhất với hỗ trợ ảnh trong suốt native",
       "description": "Nhóm Qwen mã nguồn mở Qwen-Image-2.1, thống nhất tạo sinh text-to-image và chỉnh sửa ảnh trong một mô hình duy nhất, thành phần tạo sinh thị giác chỉ 7B tham số, hỗ trợ native tạo sinh và chỉnh sửa ảnh trong suốt.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-21-ai-daily",
-      "date": "2026-09-21",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Qwen Open-Source Qwen-Image-2.1: 7B Tạo sinh & Chỉnh sửa Thống nhất với Hỗ trợ Ảnh Trong suốt Native",
-      "description": "Qwen phát hành Qwen-Image-2.1 mã nguồn mở, thống nhất tạo sinh từ văn bản sang ảnh và chỉnh sửa ảnh trong một mô hình duy nhất, với thành phần tạo sinh hình ảnh chỉ 7B tham số và hỗ trợ native ảnh trong suốt.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

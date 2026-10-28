@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-28-ai-daily",
+      "date": "2026-10-28",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Anthropic's S-1 Breakdown: 11 Details Behind a Plan to Raise Roughly $100 Billion in Its IPO",
+      "description": "The author breaks down 11 details in Anthropic's IPO prospectus, which plans to raise roughly $100 billion at a valuation of around $1.5 trillion to $2 trillion. Revenue grew 30x in five quarters and operating profit turned positive for the first time at $974 million in Q2, yet the first half still showed a $80.7 billion net loss driven by fair-value changes in convertible notes; adjusted net income was positive at $2.671 billion.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-27-ai-daily",
       "date": "2026-10-27",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Qwen Open-Sources Qwen-Image-2.1: 7B Unified Generation & Editing with Native Transparent Image Support",
       "description": "Qwen team open-sources Qwen-Image-2.1, unifying text-to-image and image editing in a single model with a 7B visual generation component, natively supporting transparent image generation and editing.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-21-ai-daily",
-      "date": "2026-09-21",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Qwen Open-Sources Qwen-Image-2.1: 7B Unified Generation & Editing with Native Transparent Image Support",
-      "description": "Qwen releases Qwen-Image-2.1, unifying text-to-image and image editing in a single model with a 7B visual generation component and native transparent image support.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",
