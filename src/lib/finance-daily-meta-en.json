@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-28-finance-daily",
+      "date": "2026-10-28",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics",
+        "Federal Reserve",
+        "ECB",
+        "Geopolitics"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "Daily Finance Brief | 2026-10-28",
+      "description": "EUR/USD slipped below 1.1130 to 1.1126 after hawkish ECB minutes, while the Fed decision tonight is expected to hold the federal funds target range at 3.75%-4.00% with the December path hinging on Chair Warsh's wording. US tech stocks remain split, with AAPL near its 52-week high on a 39.8x TTM P/E and analyst targets below spot, NVDA offering the best risk-reward at 27.6x, and gold back above $4,000. The most important geopolitical event is the US Senate's 2027 defense bill with over $1 trillion in China-targeted provisions, signaling that the US-China contest is shifting from trade to security.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-22-finance-daily",
       "date": "2026-10-22",
       "author": "瑞哥观势",

@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-28-finance-daily",
+      "date": "2026-10-28",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics",
+        "Federal Reserve",
+        "ECB",
+        "Geopolitics"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "デイリー金融ブリーフ | 2026-10-28",
+      "description": "ユーロが1.1130を割る中、USD/JPYは157.86、USD/CNHは6.6657。FRBは今夜3.75%-4.00%の据え置きが有力で、Warshの記者会見での表現が12月の利上げ判断を左右する。株価はA株の急落と中米の通商・安全保障対立に左右される一方、金は4,062.72ドルへ戻してリスクプレミアムを再評価する局面。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-22-finance-daily",
       "date": "2026-10-22",
       "author": "瑞哥观势",

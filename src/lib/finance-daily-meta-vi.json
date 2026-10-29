@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-28-finance-daily",
+      "date": "2026-10-28",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics",
+        "Federal Reserve",
+        "ECB",
+        "Geopolitics"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "Bản tin tài chính hàng ngày | 2026-10-28",
+      "description": "EUR/USD giảm còn 1.1126 sau phát biểu diều hòa từ biên bản ECB, trong khi Fed tối nay công bố quyết định lãi suất dự kiến giữ nguyên 3.75%-4.00%. Thị trường chứng khoán Mỹ hồi phục nhẹ với AAPL, TSLA, NVDA đều tăng giá, còn A股 chứng kiến đợt bán tháo mạnh với STAR 50 giảm 4.80%. Địa chính trị, Mỹ-Trung đang chuyển từ thương mại sang an ninh và bảo hộ tài sản trí tuệ.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-22-finance-daily",
       "date": "2026-10-22",
       "author": "瑞哥观势",

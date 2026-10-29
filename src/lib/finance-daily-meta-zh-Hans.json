@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-28-finance-daily",
+      "date": "2026-10-28",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics",
+        "Federal Reserve",
+        "ECB",
+        "Geopolitics"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "每日财经简报 | 2026-10-28",
+      "description": "美联储今晚公布利率决议，市场预期维持3.75%-4.00%不变，但9月CPI 3.7%、PPI 6.3%让12月加息预期持续定价。EUR/USD跌0.43%至1.1126，TSLA大涨4.04%，黄金重回4000美元上方涨1.42%。A股科技股重挫，科创50单日跌4.80%。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-22-finance-daily",
       "date": "2026-10-22",
       "author": "瑞哥观势",

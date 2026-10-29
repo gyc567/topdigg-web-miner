@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-10-28-finance-daily",
+      "date": "2026-10-28",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics",
+        "Federal Reserve",
+        "ECB",
+        "Geopolitics"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "每日財經簡報 | 2026-10-28",
+      "description": "美元兌人民幣在 6.66 一線穩定，歐元跌破 1.1130，市場消化 ECB 會議紀要的鷹派訊號；美股三大指標股中 NVDA 估值最合理，TSLA 估值仍離譜。政策面最大看點是今晚 Fed 利率決議，當前聯邦基金利率目標區間預期維持 3.75%-4.00% 不變，而 3.7% 的 CPI 與 6.3% 的 PPI 幾乎沒有為寬鬆留下任何空間。",
+      "source": {
+        "original": {
+          "name": "瑞哥觀勢",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-22-finance-daily",
       "date": "2026-10-22",
       "author": "瑞哥观势",
