@@ -1,6 +1,52 @@
 {
   "reports": [
     {
+      "slug": "2026-10-30-ai-daily",
+      "date": "2026-10-30",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Mistral Large 4（Le Chonk）、Hugging Face に登陆：1TパラメータのMoEマルチモーダル・オープンウェイトモデル",
+      "description": "Hugging Face は Mistral Large 4（Le Chonk）のリリースブログを公開した。マルチモーダル・多言語MoEアーキテクチャで、総パラメータ約1T、アクティブ49B、コンテキストウィンドウ1Mトークン。オープンウェイト、1T規模、100万トークンのコンテキストが1つのモデルに同居した。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-10-29-ai-daily",
+      "date": "2026-10-29",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Google DeepMind 发布 Gemini 4 Carbon 前沿模型",
+      "description": "Google DeepMind 发布 Gemini 4 Carbon，定位为最强前沿模型，主打网络安全与长程智能体能力，在 SEC-bench Pro 88.2%、ExploitGym 54.8%、CWE-bench 71.0% 取得领先，并以 59 分登顶 Artificial Analysis Intelligence Index v5.0。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-28-ai-daily",
       "date": "2026-10-28",
       "author": "瑞哥观势",
@@ -635,52 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Google DeepMind、Gemini 3.8 Flash TTSとFlash-Lite TTS音声生成モデルを発表",
       "description": "Google DeepMindがGemini 3.8 Flash TTSとGemini 3.8 Flash-Lite TTSの2つのテキスト読み上げモデルを発表。自然言語プロンプトでゼロから声をデザイン、30秒サンプルで声を再現、行単位の演技指導、長時間音声生成、2人会話シーンの構成をサポートし、100以上の言語に対応。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-23-ai-daily",
-      "date": "2026-09-23",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI日报"
-      ],
-      "categories": [
-        "AI日报"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Anthropic 发布 Claude Opus 5.5，成本较 Opus 5 降低 40%",
-      "description": "Anthropic 发布 Claude Opus 5.5，为 Claude 5.5 系列首个模型，在多数工作上达到 Fable 5.1 水平，典型负载成本较 Opus 5 低 40%。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-22-ai-daily",
-      "date": "2026-09-22",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "QwenがQwen-Image-2.1をオープンソース化：7B統一生成・編集とネイティブ透明画像サポート",
-      "description": "QwenチームがQwen-Image-2.1をオープンソース化。テキストから画像生成と画像編集を1つのモデルで統一し、視覚生成コンポーネントはわずか7Bパラメータで、透明画像の生成と編集をネイティブサポート。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

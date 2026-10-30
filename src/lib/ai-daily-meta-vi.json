@@ -1,6 +1,52 @@
 {
   "reports": [
     {
+      "slug": "2026-10-30-ai-daily",
+      "date": "2026-10-30",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Mistral Large 4 (Le Chonk) đến với Hugging Face: mô hình MoE đa phương thức 1T tham số với trọng số mở",
+      "description": "Hugging Face công bố bài blog ra mắt của Mistral Large 4 (Le Chonk), mô hình MoE đa phương thức đa ngôn ngữ với khoảng 1T tổng tham số, 49B tham số kích hoạt và cửa sổ ngữ cảnh 1M token. Trọng số mở, quy mô nghìn tỷ tham số và ngữ cảnh triệu token cùng xuất hiện trên một mô hình.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-10-29-ai-daily",
+      "date": "2026-10-29",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Google DeepMind 发布 Gemini 4 Carbon 前沿模型",
+      "description": "Google DeepMind 发布 Gemini 4 Carbon，定位为最强前沿模型，主打网络安全与长程智能体能力，在 SEC-bench Pro 88.2%、ExploitGym 54.8%、CWE-bench 71.0% 取得领先，并以 59 分登顶 Artificial Analysis Intelligence Index v5.0。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-28-ai-daily",
       "date": "2026-10-28",
       "author": "瑞哥观势",
@@ -635,52 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Google DeepMind Phát Hành Gemini 3.8 Flash TTS và Flash-Lite TTS - Mô Hình Tạo Giọng Nói",
       "description": "Google DeepMind phát hành hai mô hình text-to-speech Gemini 3.8 Flash TTS và Gemini 3.8 Flash-Lite TTS, hỗ trợ thiết kế giọng nói từ đầu bằng prompt ngôn ngữ tự nhiên, sao chép giọng nói từ mẫu 30 giây, hướng dẫn diễn cảnh theo dòng, tạo âm thanh dài và điều phối kịch bản hai người nói, phủ sóng hơn 100 ngôn ngữ.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-23-ai-daily",
-      "date": "2026-09-23",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI日报"
-      ],
-      "categories": [
-        "AI日报"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Anthropic 发布 Claude Opus 5.5，成本较 Opus 5 降低 40%",
-      "description": "Anthropic 发布 Claude Opus 5.5，为 Claude 5.5 系列首个模型，在多数工作上达到 Fable 5.1 水平，典型负载成本较 Opus 5 低 40%。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-22-ai-daily",
-      "date": "2026-09-22",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Qwen mã nguồn mở Qwen-Image-2.1: 7B tạo sinh và chỉnh sửa thống nhất với hỗ trợ ảnh trong suốt native",
-      "description": "Nhóm Qwen mã nguồn mở Qwen-Image-2.1, thống nhất tạo sinh text-to-image và chỉnh sửa ảnh trong một mô hình duy nhất, thành phần tạo sinh thị giác chỉ 7B tham số, hỗ trợ native tạo sinh và chỉnh sửa ảnh trong suốt.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

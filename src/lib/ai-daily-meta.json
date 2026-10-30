@@ -1,6 +1,82 @@
 {
   "reports": [
     {
+      "slug": "2026-10-30-ai-daily",
+      "title": {
+        "en": "Mistral Large 4 (Le Chonk) Lands on Hugging Face: A 1T-Parameter MoE Multimodal Open-Weight Model",
+        "ja": "Mistral Large 4（Le Chonk）、Hugging Face に登陆：1TパラメータのMoEマルチモーダル・オープンウェイトモデル",
+        "vi": "Mistral Large 4 (Le Chonk) đến với Hugging Face: mô hình MoE đa phương thức 1T tham số với trọng số mở",
+        "zh-Hans": "Mistral Large 4（Le Chonk）登陆 Hugging Face：1T 参数 MoE 多模态开源权重模型",
+        "zh-Hant": "Mistral Large 4（Le Chonk）登陸 Hugging Face：1T 參數 MoE 多模態開源權重模型"
+      },
+      "description": {
+        "en": "Hugging Face published the launch blog for Mistral Large 4 (Le Chonk), a multimodal, multilingual MoE model with roughly 1T total parameters, 49B active parameters, and a 1M-token context window. Open weights, trillion-parameter scale, and million-token context all landed on a single model.",
+        "ja": "Hugging Face は Mistral Large 4（Le Chonk）のリリースブログを公開した。マルチモーダル・多言語MoEアーキテクチャで、総パラメータ約1T、アクティブ49B、コンテキストウィンドウ1Mトークン。オープンウェイト、1T規模、100万トークンのコンテキストが1つのモデルに同居した。",
+        "vi": "Hugging Face công bố bài blog ra mắt của Mistral Large 4 (Le Chonk), mô hình MoE đa phương thức đa ngôn ngữ với khoảng 1T tổng tham số, 49B tham số kích hoạt và cửa sổ ngữ cảnh 1M token. Trọng số mở, quy mô nghìn tỷ tham số và ngữ cảnh triệu token cùng xuất hiện trên một mô hình.",
+        "zh-Hans": "Hugging Face 发布 Mistral Large 4（Le Chonk）的上线博客，模型为多模态多语言 MoE 架构，总参数约 1T、激活 49B、上下文窗口 1M token。开源权重、1T 规模、百万上下文同时出现在一个模型上。",
+        "zh-Hant": "Hugging Face 發布 Mistral Large 4（Le Chonk）的上線部落格，模型為多模態多語言 MoE 架構，總參數約 1T、啟用 49B、上下文視窗 1M token。開源權重、1T 規模、百萬上下文同時出現在同一個模型上。"
+      },
+      "date": "2026-10-30",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
+      "slug": "2026-10-29-ai-daily",
+      "title": {
+        "en": "Google DeepMind Releases Gemini 4 Carbon, Its New Frontier Model",
+        "zh-Hans": "Google DeepMind 发布 Gemini 4 Carbon 前沿模型",
+        "zh-Hant": "Google DeepMind 發布 Gemini 4 Carbon 前沿模型"
+      },
+      "description": {
+        "en": "Google DeepMind released Gemini 4 Carbon, positioned as its strongest frontier model and focused on cybersecurity and long-horizon agents. It leads on SEC-bench Pro at 88.2%, ExploitGym at 54.8% and CWE-bench at 71.0%, and tops the Artificial Analysis Intelligence Index v5.0 with 59 points.",
+        "zh-Hans": "Google DeepMind 发布 Gemini 4 Carbon，定位为最强前沿模型，主打网络安全与长程智能体能力，在 SEC-bench Pro 88.2%、ExploitGym 54.8%、CWE-bench 71.0% 取得领先，并以 59 分登顶 Artificial Analysis Intelligence Index v5.0。",
+        "zh-Hant": "Google DeepMind 發布 Gemini 4 Carbon，定位為最強前沿模型，主打網路安全與長程智能體能力，在 SEC-bench Pro 88.2%、ExploitGym 54.8%、CWE-bench 71.0% 取得領先，並以 59 分登頂 Artificial Analysis Intelligence Index v5.0。"
+      },
+      "date": "2026-10-29",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-10-28-ai-daily",
       "title": {
         "en": "Anthropic's S-1 Breakdown: 11 Details Behind a Plan to Raise Roughly $100 Billion in Its IPO",

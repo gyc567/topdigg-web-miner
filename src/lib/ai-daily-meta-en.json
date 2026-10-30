@@ -1,6 +1,52 @@
 {
   "reports": [
     {
+      "slug": "2026-10-30-ai-daily",
+      "date": "2026-10-30",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Mistral Large 4 (Le Chonk) Lands on Hugging Face: A 1T-Parameter MoE Multimodal Open-Weight Model",
+      "description": "Hugging Face published the launch blog for Mistral Large 4 (Le Chonk), a multimodal, multilingual MoE model with roughly 1T total parameters, 49B active parameters, and a 1M-token context window. Open weights, trillion-parameter scale, and million-token context all landed on a single model.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-10-29-ai-daily",
+      "date": "2026-10-29",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Google DeepMind Releases Gemini 4 Carbon, Its New Frontier Model",
+      "description": "Google DeepMind released Gemini 4 Carbon, positioned as its strongest frontier model and focused on cybersecurity and long-horizon agents. It leads on SEC-bench Pro at 88.2%, ExploitGym at 54.8% and CWE-bench at 71.0%, and tops the Artificial Analysis Intelligence Index v5.0 with 59 points.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-28-ai-daily",
       "date": "2026-10-28",
       "author": "瑞哥观势",
@@ -635,52 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Google DeepMind Releases Gemini 3.8 Flash TTS and Flash-Lite TTS Voice Generation Models",
       "description": "Google DeepMind releases Gemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS text-to-speech models, supporting natural language prompts to design voices from scratch, 30-second sample voice cloning, line-by-line performance guidance, long-form audio generation, and dual-speaker scene orchestration across 100+ languages.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-23-ai-daily",
-      "date": "2026-09-23",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI日报"
-      ],
-      "categories": [
-        "AI日报"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Anthropic 发布 Claude Opus 5.5，成本较 Opus 5 降低 40%",
-      "description": "Anthropic 发布 Claude Opus 5.5，为 Claude 5.5 系列首个模型，在多数工作上达到 Fable 5.1 水平，典型负载成本较 Opus 5 低 40%。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-22-ai-daily",
-      "date": "2026-09-22",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Qwen Open-Sources Qwen-Image-2.1: 7B Unified Generation & Editing with Native Transparent Image Support",
-      "description": "Qwen team open-sources Qwen-Image-2.1, unifying text-to-image and image editing in a single model with a 7B visual generation component, natively supporting transparent image generation and editing.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",
