@@ -1,6 +1,25 @@
 {
   "posts": [
     {
+      "slug": "2026-10-31-livetalking-engine-analysis",
+      "date": "2026-10-31",
+      "author": "瑞哥观势",
+      "tags": [
+        "LiveTalking",
+        "digital-human",
+        "realtime-audio-video",
+        "WebRTC",
+        "MuseTalk",
+        "Wav2Lip",
+        "open-source-project-analysis"
+      ],
+      "categories": [
+        "open-source-project-analysis"
+      ],
+      "title": "Phân tích chuyên sâu LiveTalking: engine digital human thời gian thực 10k Star, lợi thế cố hữu không nằm ở model mà nằm ở nhịp 20 mili giây",
+      "description": "LiveTalking không phải là model, mà là runtime engine của digital human. Phân tích chuyên sâu chuẩn thời gian 20 mili giây, thiết kế bỏ qua suy luận khi im lặng để giảm chi phí, backpressure giới hạn tốc độ, cơ chế đăng ký plugin, bố trí giao thức chuẩn WHEP, đồng thời chỉ ra 8 khoản nợ tài liệu và bẫy kỹ thuật."
+    },
+    {
       "slug": "2026-10-24-motion2mixamo-rig-analysis",
       "date": "2026-10-24",
       "author": "瑞哥观势",

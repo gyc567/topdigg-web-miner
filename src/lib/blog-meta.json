@@ -1,6 +1,35 @@
 {
   "posts": [
     {
+      "slug": "2026-10-31-livetalking-engine-analysis",
+      "title": {
+        "en": "LiveTalking Deep Dive: The 10k-Star Real-Time Digital Human Engine: Its Moat Is Not the Model, It's the 20-Millisecond Beat",
+        "vi": "Phân tích chuyên sâu LiveTalking: engine digital human thời gian thực 10k Star, lợi thế cố hữu không nằm ở model mà nằm ở nhịp 20 mili giây",
+        "zh-Hans": "LiveTalking 深度拆解：10k Star 的实时数字人引擎，护城河不在模型，在 20 毫秒的节拍里",
+        "zh-Hant": "LiveTalking 深度拆解：10k Star 的即時數位人引擎，護城河不在模型，在 20 毫秒的節拍裡"
+      },
+      "description": {
+        "en": "LiveTalking is not a model, it is a digital human runtime engine. A deep dive into the 20-millisecond time base, silence-skip-inference cost design, backpressure rate limiting, plugin registry mechanism, WHEP standard protocol strategy, plus 8 documentation debts and engineering pitfalls.",
+        "vi": "LiveTalking không phải là model, mà là runtime engine của digital human. Phân tích chuyên sâu chuẩn thời gian 20 mili giây, thiết kế bỏ qua suy luận khi im lặng để giảm chi phí, backpressure giới hạn tốc độ, cơ chế đăng ký plugin, bố trí giao thức chuẩn WHEP, đồng thời chỉ ra 8 khoản nợ tài liệu và bẫy kỹ thuật.",
+        "zh-Hans": "LiveTalking 不是模型，是数字人运行时引擎。深度拆解 20 毫秒时间基准、静音跳推理降本设计、背压限流、插件注册机制、WHEP 标准协议布局，并指出 8 处文档债与工程坑。",
+        "zh-Hant": "LiveTalking 不是模型，是數位人執行時期引擎。深度拆解 20 毫秒時間基準、靜音跳推論降本設計、背壓限流、外掛註冊機制、WHEP 標準協定佈局，並指出 8 處文件債與工程坑。"
+      },
+      "date": "2026-10-31",
+      "author": "瑞哥观势",
+      "tags": [
+        "LiveTalking",
+        "digital-human",
+        "realtime-audio-video",
+        "WebRTC",
+        "MuseTalk",
+        "Wav2Lip",
+        "open-source-project-analysis"
+      ],
+      "categories": [
+        "open-source-project-analysis"
+      ]
+    },
+    {
       "slug": "2026-10-24-motion2mixamo-rig-analysis",
       "title": {
         "en": "Motion2MixamoRig Deep Dive: Turning Real-Person Video into a Mixamo Character, What This Project Got Right",

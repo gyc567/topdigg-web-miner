@@ -1,6 +1,25 @@
 {
   "posts": [
     {
+      "slug": "2026-10-31-livetalking-engine-analysis",
+      "date": "2026-10-31",
+      "author": "瑞哥观势",
+      "tags": [
+        "LiveTalking",
+        "digital-human",
+        "realtime-audio-video",
+        "WebRTC",
+        "MuseTalk",
+        "Wav2Lip",
+        "open-source-project-analysis"
+      ],
+      "categories": [
+        "open-source-project-analysis"
+      ],
+      "title": "LiveTalking Deep Dive: The 10k-Star Real-Time Digital Human Engine: Its Moat Is Not the Model, It's the 20-Millisecond Beat",
+      "description": "LiveTalking is not a model, it is a digital human runtime engine. A deep dive into the 20-millisecond time base, silence-skip-inference cost design, backpressure rate limiting, plugin registry mechanism, WHEP standard protocol strategy, plus 8 documentation debts and engineering pitfalls."
+    },
+    {
       "slug": "2026-10-24-motion2mixamo-rig-analysis",
       "date": "2026-10-24",
       "author": "瑞哥观势",

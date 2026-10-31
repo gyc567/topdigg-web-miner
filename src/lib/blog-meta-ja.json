@@ -1,6 +1,25 @@
 {
   "posts": [
     {
+      "slug": "2026-10-31-livetalking-engine-analysis",
+      "date": "2026-10-31",
+      "author": "瑞哥观势",
+      "tags": [
+        "LiveTalking",
+        "digital-human",
+        "realtime-audio-video",
+        "WebRTC",
+        "MuseTalk",
+        "Wav2Lip",
+        "open-source-project-analysis"
+      ],
+      "categories": [
+        "open-source-project-analysis"
+      ],
+      "title": "LiveTalking 深度拆解：10k Star 的实时数字人引擎，护城河不在模型，在 20 毫秒的节拍里",
+      "description": "LiveTalking 不是模型，是数字人运行时引擎。深度拆解 20 毫秒时间基准、静音跳推理降本设计、背压限流、插件注册机制、WHEP 标准协议布局，并指出 8 处文档债与工程坑。"
+    },
+    {
       "slug": "2026-10-24-motion2mixamo-rig-analysis",
       "date": "2026-10-24",
       "author": "瑞哥观势",

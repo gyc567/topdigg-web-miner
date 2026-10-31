@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-10-24T06:37:01.170Z
+Generated: 2026-10-31T07:16:37.671Z
 
 ## Site Overview
 
@@ -23,6 +23,24 @@ We deliver in-depth Twitter analytics and trend tracking for content creators an
 | Aura Workbench | https://topdigg.com/aura-workbench | Desktop productivity workbench for Windows & macOS |
 
 ## Latest Blog Posts (10 most recent)
+
+### LiveTalking Deep Dive: The 10k-Star Real-Time Digital Human Engine: Its Moat Is Not the Model, It's the 20-Millisecond Beat
+URL: https://topdigg.com/blog/2026-10-31-livetalking-engine-analysis | Date: 2026-10-31 | Author: 瑞哥观势
+Tags: LiveTalking, digital-human, realtime-audio-video, WebRTC, MuseTalk, Wav2Lip, open-source-project-analysis
+
+LiveTalking is not a model, it is a digital human runtime engine. A deep dive into the 20-millisecond time base, silence-skip-inference cost design, backpressure rate limiting, plugin registry mechanism, WHEP standard protocol strategy, plus 8 documentation debts and engineering pitfalls.
+
+### Motion2MixamoRig Deep Dive: Turning Real-Person Video into a Mixamo Character, What This Project Got Right
+URL: https://topdigg.com/blog/2026-10-24-motion2mixamo-rig-analysis | Date: 2026-10-24 | Author: 瑞哥观势
+Tags: Motion Capture, Motion Retargeting, Mixamo, Blender, GVHMR, Open Source Project
+
+The open-source project Motion2MixamoRig retargets a person's motion from video onto a 3D character driven by Adobe Mixamo rigs. This article breaks down its complete pipeline, the fixes for foot sliding and body clipping, the math of finger retargeting, the diagnostic system, and six design philoso
+
+### Starting November 1, Unpaid Social Insurance Can Be Fined Up to 3 Times! Must Read for Every Business Owner
+URL: https://topdigg.com/blog/2026-10-24-social-insurance-penalty-2026 | Date: 2026-10-24 | Author: 瑞哥观势
+Tags: social insurance, tax compliance, administrative penalty, corporate management, policy interpretation
+
+Announcement No. 20 of 2026 by the State Taxation Administration, the National Tax Administrative Penalty Discretion Benchmark (2026 Edition), takes effect on November 1, bringing unpaid social insurance contributions under a nationwide uniform penalty standard. This article explains the three penal
 
 ### anything2explainer Deep Dive: Give It a Topic, Get a Code-Drawn Explainer Video
 URL: https://topdigg.com/blog/2026-10-22-anything2explainer-deep-dive | Date: 2026-10-22 | Author: 瑞哥观势
@@ -65,24 +83,6 @@ URL: https://topdigg.com/blog/nvidia-pku-phd-salary-2026 | Date: 2026-10-12 | Au
 Tags: AI, Talent, Salary, Campus Recruitment
 
 近日一則英偉達給北大應屆博士開出290萬年包的截圖刷屏。現象背後，是一場正在全球上演的AI頂尖人才爭奪戰。
-
-### HarnessRouter：一个协议定义未来的 AI Agent 基础设施
-URL: https://topdigg.com/blog/harnessrouter-ai-agent-infrastructure | Date: 2026-10-10T00:00:00.000Z | Author: 瑞哥观势
-Tags: AI Agent, UHP, HarnessRouter, 基础设施, 协议标准
-
-HarnessRouter 和 UHP 协议为解决 AI Agent 基础设施碎片化问题提出统一方案，让一个驱动适配所有主流 Agent 运行时。
-
-### 一张图，五分钟，一套能走进去的3D世界：image-blaster深度解析
-URL: https://topdigg.com/blog/2026-10-04-image-blaster-deep-dive | Date: 2026-10-04 | Author: TopDigg
-Tags: AI, 3D重建, 开源, Gaussian Splatting, Claude
-
-一张图片，能裂变出一个完整的3D宇宙吗？image-blaster是MIT协议的开源工具，从单张图片出发，5分钟内生成完整3D世界资产包，包含高斯泼溅环境、3D物体模型和环境音效。本文完整解析其技术架构、Skill体系、设计哲学和使用教程。
-
-### image-blaster 使用指南
-URL: https://topdigg.com/blog/image-blaster-2026 | Date: 2026-10-04T00:00:00.000Z | Author: TopDigg
-Tags: 
-
-image-blaster 开源工具使用指南。
 
 ## AI Product Analyses (latest 5)
 
@@ -179,4 +179,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 199 blog posts | 4 Twitter analyses | 7 AI products
+End of llms.txt | 202 blog posts | 4 Twitter analyses | 7 AI products

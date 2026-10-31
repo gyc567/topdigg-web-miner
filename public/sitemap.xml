@@ -49,6 +49,21 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://topdigg.com/blog/2026-10-31-livetalking-engine-analysis</loc>
+    <lastmod>2026-10-31</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/2026-10-24-motion2mixamo-rig-analysis</loc>
+    <lastmod>2026-10-24</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/2026-10-24-social-insurance-penalty-2026</loc>
+    <lastmod>2026-10-24</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://topdigg.com/blog/2026-10-22-anything2explainer-deep-dive</loc>
     <lastmod>2026-10-22</lastmod>
     <priority>0.8</priority>
@@ -1058,6 +1073,38 @@
   <url>
     <loc>https://topdigg.com/twitter/yangyi-twitter-analysis-2026-04-16</loc>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/ai-daily/2026-10-30-ai-daily</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/ai-daily/2026-10-29-ai-daily</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/ai-daily/2026-10-28-ai-daily</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/ai-daily/2026-10-27-ai-daily</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/ai-daily/2026-10-26-ai-daily</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/ai-daily/2026-10-25-ai-daily</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/ai-daily/2026-10-24-ai-daily</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/ai-daily/2026-10-23-ai-daily</loc>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://topdigg.com/ai-daily/2026-10-22-ai-daily</loc>
