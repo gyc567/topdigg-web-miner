@@ -105,7 +105,7 @@ Từng chữ trong sơ đồ này đều có thật, vì code viết đúng như
 
 **Ở đây có một chi tiết tuân thủ đáng chú ý: bản thân Apache 2.0 không yêu cầu bạn đóng watermark lên sản phẩm cuối.** Yêu cầu này là tác giả ghi thêm trong README; lịch sử dự án từng có tranh luận về nó (cộng đồng từng yêu cầu tác giả xoá câu này để đúng với tinh thần của Apache 2.0). **Nếu bạn định dùng nó làm sản phẩm thương mại mà không muốn có watermark, hãy trao đổi trước với tác giả, đừng tự ý coi "Apache 2.0 tức là dùng thoải mái".**
 
-Ngoài ra dự án phân biệt bản mã nguồn mở và bản thương mại: bản thương mại được định vị là "tăng tốc hiệu năng, hành động thích ứng, tương tác giọng nói thời gian thực"; bản mã nguồn mở được định vị là "trải nghiệm nhanh, phát triển thứ cấp, học tập và nghiên cứu". **Nói cách khác, trần của tối ưu kỹ thuật nằm ở phía trả phí — đó là thiết kế mô hình kinh doanh của dự án này.**
+Ngoài ra dự án phân biệt bản mã nguồn mở và bản thương mại: bản thương mại được định vị là "tăng tốc hiệu năng, hành động thích ứng, tương tác giọng nói thời gian thực"; bản mã nguồn mở được định vị là "trải nghiệm nhanh, phát triển thứ cấp, học tập và nghiên cứu". **Nói cách khác, trần của tối ưu kỹ thuật nằm ở phía trả phí, đó là thiết kế mô hình kinh doanh của dự án này.**
 
 ---
 
@@ -165,7 +165,7 @@ Sau đó:
 avatar_session = registry.create("avatar", opt.model, opt=opt_this, model=model, avatar=avatar_this)
 ```
 
-`model` được chia sẻ toàn cục (trọng số GPU chỉ nạp một lần), `avatar` lấy từ cache `global_avatars` (cùng một avatar_id không nạp lại). **Tái sử dụng trọng số + cô lập cấu hình + cache hình ảnh** — đây mới là hình dáng đúng đắn của một dịch vụ GPU.
+`model` được chia sẻ toàn cục (trọng số GPU chỉ nạp một lần), `avatar` lấy từ cache `global_avatars` (cùng một avatar_id không nạp lại). **Tái sử dụng trọng số + cô lập cấu hình + cache hình ảnh**, đây mới là hình dáng đúng đắn của một dịch vụ GPU.
 
 ### 2.3 Bước ba: văn bản đi vào
 
@@ -219,7 +219,7 @@ for i, char in enumerate(msg):
 
 **Kết quả là: LLM vừa sinh vừa bị cắt thành các đoạn nhỏ đổ vào TTS, thời điểm người dùng nghe được chữ đầu tiên giảm mạnh.** Đây là cách duy nhất để truyền lợi thế TTFT của LLM xuống độ trễ end-to-end.
 
-Đồng thời lưu ý: logic cắt câu này có rủi ro BUG — điều kiện `len(result) > 10` chỉ được thực thi khi gặp dấu câu, nếu LLM trả về một đoạn dài không có dấu câu nào, đoạn đó sẽ nằm mãi trong `result` mà không được gửi. Xác suất trong tình huống thực tế không cao, nhưng không phải bằng không.
+Đồng thời lưu ý: logic cắt câu này có rủi ro BUG: điều kiện `len(result) > 10` chỉ được thực thi khi gặp dấu câu, nếu LLM trả về một đoạn dài không có dấu câu nào, đoạn đó sẽ nằm mãi trong `result` mà không được gửi. Xác suất trong tình huống thực tế không cao, nhưng không phải bằng không.
 
 ### 2.5 Bước năm: TTS tổng hợp
 
@@ -910,7 +910,7 @@ Khi tính sổ cho sếp, có thể tách như sau:
 
 ## Tám, Những bẫy và nợ tài liệu tôi phát hiện khi đọc code
 
-Đây là phần tôi cho là hữu ích nhất với sếp — **nói cho bạn biết chỗ nào sẽ hỏng, còn hữu ích hơn nói chỗ nào dùng tốt.**
+Đây là phần tôi cho là hữu ích nhất với sếp. **Nói cho bạn biết chỗ nào sẽ hỏng, còn hữu ích hơn nói chỗ nào dùng tốt.**
 
 ### Bẫy một: ernerf mà README quảng cáo đã không còn tồn tại
 

@@ -16,8 +16,8 @@
       "categories": [
         "open-source-project-analysis"
       ],
-      "title": "LiveTalking 深度拆解：10k Star 的实时数字人引擎，护城河不在模型，在 20 毫秒的节拍里",
-      "description": "LiveTalking 不是模型，是数字人运行时引擎。深度拆解 20 毫秒时间基准、静音跳推理降本设计、背压限流、插件注册机制、WHEP 标准协议布局，并指出 8 处文档债与工程坑。"
+      "title": "LiveTalking 徹底解剖：10k Star のリアルタイムデジタルヒューマン・エンジン、堀はモデルではなく 20 ミリ秒のリズムにある",
+      "description": "LiveTalking はモデルではなく、デジタルヒューマンのランタイム・エンジンである。20 ミリ秒の時間基準、無音時の推論スキップによるコスト設計、背圧による流量制御、プラグイン登録機構、WHEP 標準プロトコルの配置を深く分解し、8 箇所のドキュメント負債とエンジニアリング上の落とし穴を指摘する。"
     },
     {
       "slug": "2026-10-24-motion2mixamo-rig-analysis",
