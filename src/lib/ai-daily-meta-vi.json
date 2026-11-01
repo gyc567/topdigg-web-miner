@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-01-ai-daily",
+      "date": "2026-11-01",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Figma ra mắt nền tảng Weave: quy trình sáng tạo dạng nút cho phép tái sử dụng",
+      "description": "Figma giới thiệu Figma Weave cho các nhóm sáng tạo có nhu cầu đầu ra liên tục, dùng các nút kết nối để xử lý việc tạo và chỉnh sửa ảnh, video, hỗ trợ rẽ nhánh khám phá, so sánh nhiều mô hình, hiệu chỉnh màu, ghép nối, và đóng gói quy trình thành Weave tool để cả nhóm chạy bằng một cú nhấp.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-30-ai-daily",
       "date": "2026-10-30",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Claude Opus 5.5 Đứng Đầu Arena Code Arena: WebDev Với Điểm Số 1818",
       "description": "Arena thông báo Claude Opus 5.5 (Max) đứng đầu Code Arena: WebDev với 1818 điểm, hơn GPT-6 Astra (Max) đứng thứ hai 26 điểm và hơn Opus 5 (Max) 126 điểm.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-24-ai-daily",
-      "date": "2026-09-24",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Google DeepMind Phát Hành Gemini 3.8 Flash TTS và Flash-Lite TTS - Mô Hình Tạo Giọng Nói",
-      "description": "Google DeepMind phát hành hai mô hình text-to-speech Gemini 3.8 Flash TTS và Gemini 3.8 Flash-Lite TTS, hỗ trợ thiết kế giọng nói từ đầu bằng prompt ngôn ngữ tự nhiên, sao chép giọng nói từ mẫu 30 giây, hướng dẫn diễn cảnh theo dòng, tạo âm thanh dài và điều phối kịch bản hai người nói, phủ sóng hơn 100 ngôn ngữ.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-11-01-ai-daily",
+      "title": {
+        "en": "Figma Ships Weave, a Creation Platform Where Node-Based Workflows Make Creative Pipelines Reusable",
+        "ja": "Figma、Weave 創作プラットフォームを発表。ノード型ワークフローでクリエイティブ工程を再利用",
+        "vi": "Figma ra mắt nền tảng Weave: quy trình sáng tạo dạng nút cho phép tái sử dụng",
+        "zh-Hans": "Figma 发布 Weave 创作平台，用节点化工作流让创意流程可复用",
+        "zh-Hant": "Figma 發布 Weave 創作平台，用節點化工作流讓創意流程可複用"
+      },
+      "description": {
+        "en": "Figma introduces Figma Weave for creative teams with continuous output needs, using connected nodes to drive image and video generation and editing, with support for branching exploration, multi-model comparison, color correction, compositing, and packaging workflows into one-click Weave tools.",
+        "ja": "Figma が継続的なアウトプットを求めるクリエイティブチーム向けに Figma Weave を発表。接続されたノードで画像・動画の生成と編集を行い、分岐探索、マルチモデル比較、色補正、合成などのノードに対応し、ワークフローを Weave tool にパッケージしてチームでワンクリック実行できる。",
+        "vi": "Figma giới thiệu Figma Weave cho các nhóm sáng tạo có nhu cầu đầu ra liên tục, dùng các nút kết nối để xử lý việc tạo và chỉnh sửa ảnh, video, hỗ trợ rẽ nhánh khám phá, so sánh nhiều mô hình, hiệu chỉnh màu, ghép nối, và đóng gói quy trình thành Weave tool để cả nhóm chạy bằng một cú nhấp.",
+        "zh-Hans": "Figma 推出面向持续产出型创意团队的 Figma Weave，用连接的节点承载图像与视频的生成与编辑，支持分支探索、多模型对比、色彩校正、合成等节点，并能把工作流打包成 Weave tool 给团队一键运行。",
+        "zh-Hant": "Figma 推出面向持續產出型創意團隊的 Figma Weave，用連接的節點承載圖像與影片的生成與編輯，支援分支探索、多模型對比、色彩校正、合成等節點，並能把工作流打包成 Weave tool 給團隊一鍵執行。"
+      },
+      "date": "2026-11-01",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-10-30-ai-daily",
       "title": {
         "en": "Mistral Large 4 (Le Chonk) Lands on Hugging Face: A 1T-Parameter MoE Multimodal Open-Weight Model",

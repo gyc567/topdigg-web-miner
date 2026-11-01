@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-01-ai-daily",
+      "date": "2026-11-01",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Figma Ships Weave, a Creation Platform Where Node-Based Workflows Make Creative Pipelines Reusable",
+      "description": "Figma introduces Figma Weave for creative teams with continuous output needs, using connected nodes to drive image and video generation and editing, with support for branching exploration, multi-model comparison, color correction, compositing, and packaging workflows into one-click Weave tools.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-30-ai-daily",
       "date": "2026-10-30",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Claude Opus 5.5 Tops Arena Code Arena: WebDev with Score of 1818",
       "description": "Arena announces Claude Opus 5.5 (Max) tops Code Arena: WebDev with 1818 points, beating the second-place GPT-6 Astra (Max) by 26 points and Opus 5 (Max) by 126 points.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-24-ai-daily",
-      "date": "2026-09-24",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Google DeepMind Releases Gemini 3.8 Flash TTS and Flash-Lite TTS Voice Generation Models",
-      "description": "Google DeepMind releases Gemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS text-to-speech models, supporting natural language prompts to design voices from scratch, 30-second sample voice cloning, line-by-line performance guidance, long-form audio generation, and dual-speaker scene orchestration across 100+ languages.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

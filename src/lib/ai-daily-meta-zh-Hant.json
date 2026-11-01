@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-01-ai-daily",
+      "date": "2026-11-01",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Figma 發布 Weave 創作平台，用節點化工作流讓創意流程可複用",
+      "description": "Figma 推出面向持續產出型創意團隊的 Figma Weave，用連接的節點承載圖像與影片的生成與編輯，支援分支探索、多模型對比、色彩校正、合成等節點，並能把工作流打包成 Weave tool 給團隊一鍵執行。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-30-ai-daily",
       "date": "2026-10-30",
       "author": "瑞哥观势",
@@ -663,29 +686,6 @@
         "aggregator_url": "https://aihot.virxact.com",
         "original": {
           "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-24-ai-daily",
-      "date": "2026-09-24",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Google DeepMind 發布 Gemini 3.8 Flash TTS 與 Flash-Lite TTS 語音生成模型",
-      "description": "Google DeepMind 發布 Gemini 3.8 Flash TTS 和 Gemini 3.8 Flash-Lite TTS 兩款文字轉語音模型，支援用自然語言提示詞從零設計聲音、30 秒樣本復刻聲音，並提供逐行表演指導、長時音頻生成和雙說話人場景編排，覆蓋 100 多種語言。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥觀勢",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }

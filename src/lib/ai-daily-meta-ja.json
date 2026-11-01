@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-01-ai-daily",
+      "date": "2026-11-01",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Figma、Weave 創作プラットフォームを発表。ノード型ワークフローでクリエイティブ工程を再利用",
+      "description": "Figma が継続的なアウトプットを求めるクリエイティブチーム向けに Figma Weave を発表。接続されたノードで画像・動画の生成と編集を行い、分岐探索、マルチモデル比較、色補正、合成などのノードに対応し、ワークフローを Weave tool にパッケージしてチームでワンクリック実行できる。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-30-ai-daily",
       "date": "2026-10-30",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Claude Opus 5.5 が Arena Code Arena: WebDev で 1818 点を獲得し堂々の第1位",
       "description": "Arena は Claude Opus 5.5 (Max) が Code Arena: WebDev で 1818 点を獲得し、第2位の GPT-6 Astra (Max) を 26 点差で、第5位の Opus 5 (Max) を 126 点差でそれぞれ抑えて第1位になったと発表しました。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-24-ai-daily",
-      "date": "2026-09-24",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Google DeepMind、Gemini 3.8 Flash TTSとFlash-Lite TTS音声生成モデルを発表",
-      "description": "Google DeepMindがGemini 3.8 Flash TTSとGemini 3.8 Flash-Lite TTSの2つのテキスト読み上げモデルを発表。自然言語プロンプトでゼロから声をデザイン、30秒サンプルで声を再現、行単位の演技指導、長時間音声生成、2人会話シーンの構成をサポートし、100以上の言語に対応。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",
