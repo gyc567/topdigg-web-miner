@@ -1,6 +1,36 @@
 {
   "posts": [
     {
+      "slug": "2026-11-01-dsh-superagent-attention-economy",
+      "title": {
+        "en": "DeepSeek's Open-Source Superagent: Engineering the Art of Not Interrupting",
+        "ja": "DeepSeek オープンソーススーパーエージェント：人を邪魔しない設計をコードに落とす",
+        "vi": "Superagent mã nguồn mở của DeepSeek: Đưa việc không làm phiền con người vào trong kiến trúc",
+        "zh-Hans": "DeepSeek 开源超级智能体：把\"少打扰人\"写进架构",
+        "zh-Hant": "DeepSeek 開源超級智能體：把「少打擾人」寫進架構"
+      },
+      "description": {
+        "en": "A full teardown of DeepSeek's open-source dsh-superagent: it treats human attention as the only budget, and enforces that from the domain model, authorization layer and execution pipeline all the way to the panel UI. Includes a complete setup tutorial and six transferable design principles.",
+        "ja": "DeepSeek が公開した dsh-superagent を徹底解説。人の注意力を唯一の予算として、ドメインモデル、認可層、実行パイプライン、パネル UI まで一貫して強制する。その手法と導入手順、六つの移植可能な設計原則。",
+        "vi": "Phân tích toàn diện dsh-superagent mã nguồn mở của DeepSeek: coi sự chú ý của con người là ngân sách duy nhất, rồi siết nó từ mô hình miền, lớp phân quyền, quy trình thực thi cho tới UI bảng điều khiển. Kèm hướng dẫn cài đặt đầy đủ và sáu nguyên tắc thiết kế có thể mang đi.",
+        "zh-Hans": "DeepSeek 开源 dsh-superagent 全线拆解：它把\"人的注意力\"当成唯一预算，从领域模型、授权系统、执行流程到面板 UI 全部焊死。附完整安装配置教程与六条可迁移的设计原则。",
+        "zh-Hant": "DeepSeek 開源 dsh-superagent 全線拆解：它把「人的注意力」當成唯一預算，從領域模型、授權系統、執行流程到面板 UI 全部焊死。附完整安裝設定教學與六條可遷移的設計原則。"
+      },
+      "date": "2026-11-01",
+      "author": "瑞哥观势",
+      "tags": [
+        "DeepSeek",
+        "AI Agent",
+        "Open Source Project Analysis",
+        "Agent Architecture",
+        "Prompt Engineering",
+        "Team Collaboration"
+      ],
+      "categories": [
+        "Open Source Project Analysis"
+      ]
+    },
+    {
       "slug": "2026-10-31-livetalking-engine-analysis",
       "title": {
         "en": "LiveTalking Deep Dive: The 10k-Star Real-Time Digital Human Engine: Its Moat Is Not the Model, It's the 20-Millisecond Beat",

@@ -1,6 +1,24 @@
 {
   "posts": [
     {
+      "slug": "2026-11-01-dsh-superagent-attention-economy",
+      "date": "2026-11-01",
+      "author": "瑞哥观势",
+      "tags": [
+        "DeepSeek",
+        "AI Agent",
+        "Open Source Project Analysis",
+        "Agent Architecture",
+        "Prompt Engineering",
+        "Team Collaboration"
+      ],
+      "categories": [
+        "Open Source Project Analysis"
+      ],
+      "title": "Superagent mã nguồn mở của DeepSeek: Đưa việc không làm phiền con người vào trong kiến trúc",
+      "description": "Phân tích toàn diện dsh-superagent mã nguồn mở của DeepSeek: coi sự chú ý của con người là ngân sách duy nhất, rồi siết nó từ mô hình miền, lớp phân quyền, quy trình thực thi cho tới UI bảng điều khiển. Kèm hướng dẫn cài đặt đầy đủ và sáu nguyên tắc thiết kế có thể mang đi."
+    },
+    {
       "slug": "2026-10-31-livetalking-engine-analysis",
       "date": "2026-10-31",
       "author": "瑞哥观势",

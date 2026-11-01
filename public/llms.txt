@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-10-31T07:26:19.672Z
+Generated: 2026-11-01T08:23:03.609Z
 
 ## Site Overview
 
@@ -23,6 +23,12 @@ We deliver in-depth Twitter analytics and trend tracking for content creators an
 | Aura Workbench | https://topdigg.com/aura-workbench | Desktop productivity workbench for Windows & macOS |
 
 ## Latest Blog Posts (10 most recent)
+
+### DeepSeek's Open-Source Superagent: Engineering the Art of Not Interrupting
+URL: https://topdigg.com/blog/2026-11-01-dsh-superagent-attention-economy | Date: 2026-11-01 | Author: 瑞哥观势
+Tags: DeepSeek, AI Agent, Open Source Project Analysis, Agent Architecture, Prompt Engineering, Team Collaboration
+
+A full teardown of DeepSeek's open-source dsh-superagent: it treats human attention as the only budget, and enforces that from the domain model, authorization layer and execution pipeline all the way to the panel UI. Includes a complete setup tutorial and six transferable design principles.
 
 ### LiveTalking Deep Dive: The 10k-Star Real-Time Digital Human Engine: Its Moat Is Not the Model, It's the 20-Millisecond Beat
 URL: https://topdigg.com/blog/2026-10-31-livetalking-engine-analysis | Date: 2026-10-31 | Author: 瑞哥观势
@@ -77,12 +83,6 @@ URL: https://topdigg.com/blog/rsiagent-recursive-self-improvement | Date: 2026-1
 Tags: AI Agent, 递归自我改进, 开源AI, 机器学习, 自主探索
 
 深入了解RSIAgent：一个免训练的递归自我改进框架，让开源模型在陌生数字环境中自主探索并超越GPT-6 Astra
-
-### 英偉達290萬offer炸裂背後：清北AI博士，正在被全世界瘋搶
-URL: https://topdigg.com/blog/nvidia-pku-phd-salary-2026 | Date: 2026-10-12 | Author: 瑞哥观势
-Tags: AI, Talent, Salary, Campus Recruitment
-
-近日一則英偉達給北大應屆博士開出290萬年包的截圖刷屏。現象背後，是一場正在全球上演的AI頂尖人才爭奪戰。
 
 ## AI Product Analyses (latest 5)
 
@@ -179,4 +179,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 202 blog posts | 4 Twitter analyses | 7 AI products
+End of llms.txt | 203 blog posts | 4 Twitter analyses | 7 AI products

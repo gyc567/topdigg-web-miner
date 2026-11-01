@@ -1,6 +1,24 @@
 {
   "posts": [
     {
+      "slug": "2026-11-01-dsh-superagent-attention-economy",
+      "date": "2026-11-01",
+      "author": "瑞哥观势",
+      "tags": [
+        "DeepSeek",
+        "AI Agent",
+        "Open Source Project Analysis",
+        "Agent Architecture",
+        "Prompt Engineering",
+        "Team Collaboration"
+      ],
+      "categories": [
+        "Open Source Project Analysis"
+      ],
+      "title": "DeepSeek 开源超级智能体：把\"少打扰人\"写进架构",
+      "description": "DeepSeek 开源 dsh-superagent 全线拆解：它把\"人的注意力\"当成唯一预算，从领域模型、授权系统、执行流程到面板 UI 全部焊死。附完整安装配置教程与六条可迁移的设计原则。"
+    },
+    {
       "slug": "2026-10-31-livetalking-engine-analysis",
       "date": "2026-10-31",
       "author": "瑞哥观势",
