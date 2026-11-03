@@ -1,6 +1,51 @@
 {
   "reports": [
     {
+      "slug": "2026-11-03-ai-daily",
+      "date": "2026-11-03",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "OpenAI が Grid Protectors プログラムを発表、Georgia キャンパスから電力のピーク抑制へ",
+      "description": "OpenAI は Grid Protectors プログラムを発表し、電力会社・規制当局・政策立案者と連携し、系統が逼迫した際に将来の計算キャンパスの電力需要を下げるため Effingham County キャンパスで運用を開始する予定。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-02-ai-daily",
+      "date": "2026-11-02",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 0,
+      "hn_keywords": "",
+      "title": "OpenAI 12月起将ChatGPT与Codex合并为统一Token额度",
+      "description": "OpenAI 宣布 12 月起将 ChatGPT 聊天与 Codex 用量合并为同一 Token 额度；OpenRouter 发布用 Responses API 在 Linux 沙箱验证 bug 的 AI 代码审查脚本；Claude Code ultrathink 技巧回归。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": ""
+        }
+      }
+    },
+    {
       "slug": "2026-11-01-ai-daily",
       "date": "2026-11-01",
       "author": "瑞哥观势",
@@ -635,52 +680,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Claude Opus 5.5 (High) が Arena Text Arena で1509点を獲得し首位に",
       "description": "ArenaはClaude Opus 5.5 (High)가1509点でText Arenaに初搭載し、Opus 5 (High)より18点高い成绩を収めたと发表した。Opus 4.6 (High)は4点差で2位を維持し、Anthropicがトップ6を独占している。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-26-ai-daily",
-      "date": "2026-09-26",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Satya Nadella、Copilotの史上最大アップデートを発表 ─ 仕事を 위한新しいOSとして位置づけ",
-      "description": "Satya NadellaがCopilotの史上最大アップデートを発表、すべてのモデル、デバイス、タスクをカバーする仕事を 위한新しいOSとして位置づけた。Claudeがプラグインカタログ提交ポータルを開放、Pluginsがサードパーティ拡張の主要な方法に。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-25-ai-daily",
-      "date": "2026-09-25",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Claude Opus 5.5 が Arena Code Arena: WebDev で 1818 点を獲得し堂々の第1位",
-      "description": "Arena は Claude Opus 5.5 (Max) が Code Arena: WebDev で 1818 点を獲得し、第2位の GPT-6 Astra (Max) を 26 点差で、第5位の Opus 5 (Max) を 126 点差でそれぞれ抑えて第1位になったと発表しました。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

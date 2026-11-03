@@ -1,6 +1,51 @@
 {
   "reports": [
     {
+      "slug": "2026-11-03-ai-daily",
+      "date": "2026-11-03",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "OpenAI Launches the Grid Protectors Program, Starting with a Georgia Campus",
+      "description": "OpenAI launches the Grid Protectors program, working with utilities, regulators, and policymakers so future compute campuses can reduce power draw when the grid is tight, with the first site at the Effingham County campus.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-02-ai-daily",
+      "date": "2026-11-02",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 0,
+      "hn_keywords": "",
+      "title": "OpenAI 12月起将ChatGPT与Codex合并为统一Token额度",
+      "description": "OpenAI 宣布 12 月起将 ChatGPT 聊天与 Codex 用量合并为同一 Token 额度；OpenRouter 发布用 Responses API 在 Linux 沙箱验证 bug 的 AI 代码审查脚本；Claude Code ultrathink 技巧回归。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": ""
+        }
+      }
+    },
+    {
       "slug": "2026-11-01-ai-daily",
       "date": "2026-11-01",
       "author": "瑞哥观势",
@@ -635,52 +680,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Claude Opus 5.5 (High) Tops Arena Text Arena with Score of 1509",
       "description": "Arena announces Claude Opus 5.5 (High) topped Text Arena with 1509 points, 18 points ahead of Opus 5 (High). Opus 4.6 (High) holds 2nd place with a 4-point margin, with Anthropic occupying the entire top six.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-26-ai-daily",
-      "date": "2026-09-26",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Satya Nadella Announces Copilot's Biggest Update Yet, Positioned as the New OS for Work",
-      "description": "Satya Nadella announces Copilot's biggest update yet, positioning it as the new OS for work across every model, device, and task. Claude opens plugin directory submission portal, making Plugins the primary way to build third-party extensions.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-25-ai-daily",
-      "date": "2026-09-25",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Claude Opus 5.5 Tops Arena Code Arena: WebDev with Score of 1818",
-      "description": "Arena announces Claude Opus 5.5 (Max) tops Code Arena: WebDev with 1818 points, beating the second-place GPT-6 Astra (Max) by 26 points and Opus 5 (Max) by 126 points.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

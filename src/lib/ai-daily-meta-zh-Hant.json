@@ -1,6 +1,51 @@
 {
   "reports": [
     {
+      "slug": "2026-11-03-ai-daily",
+      "date": "2026-11-03",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "OpenAI 推出 Grid Protectors 計畫，從 Georgia 校園開始支援電網削峰",
+      "description": "OpenAI 推出 Grid Protectors 計畫，與電力公司、監管機構和政策制定者合作，讓未來算力校園在電網緊張時降低用電需求，首站為 Effingham County 校園。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-02-ai-daily",
+      "date": "2026-11-02",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 0,
+      "hn_keywords": "",
+      "title": "OpenAI 12月起将ChatGPT与Codex合并为统一Token额度",
+      "description": "OpenAI 宣布 12 月起将 ChatGPT 聊天与 Codex 用量合并为同一 Token 额度；OpenRouter 发布用 Responses API 在 Linux 沙箱验证 bug 的 AI 代码审查脚本；Claude Code ultrathink 技巧回归。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": ""
+        }
+      }
+    },
+    {
       "slug": "2026-11-01-ai-daily",
       "date": "2026-11-01",
       "author": "瑞哥观势",
@@ -640,52 +685,6 @@
         "aggregator_url": "https://aihot.virxact.com",
         "original": {
           "name": "瑞哥觀勢",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-26-ai-daily",
-      "date": "2026-09-26",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Satya Nadella 宣佈 Copilot 迄今最大更新，定位為工作新 OS",
-      "description": "Satya Nadella 宣佈 Copilot 迄今最大更新，將其定位為覆蓋每個模型、設備和任務的工作新 OS。Claude 開放插件目錄提交門戶，Plugins 成為第三方擴展的主要方式。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-25-ai-daily",
-      "date": "2026-09-25",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Claude Opus 5.5 登頂 Arena Code Arena: WebDev 榜首，得 1818 分",
-      "description": "Arena 宣佈 Claude Opus 5.5 (Max) 以 1818 分登頂 Code Arena: WebDev，領先第二名 GPT-6 Astra (Max) 26 分，比 Opus 5 (Max) 的 1692 分高出 126 分。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
