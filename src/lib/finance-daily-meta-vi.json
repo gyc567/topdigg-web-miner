@@ -1,6 +1,52 @@
 {
   "reports": [
     {
+      "slug": "2026-11-04-finance-daily",
+      "date": "2026-11-04",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics",
+        "Federal Reserve",
+        "ECB",
+        "Geopolitics"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "Bản tin tài chính hàng ngày | 2026-11-04",
+      "description": "Fed giữ nguyên lãi suất 3,75%-4,00% ngày 28/10, chủ tịch mới Warsh nghiêng về hawkish và báo hiệu khả năng tăng lãi suất. PPI tháng 9 của Mỹ tăng 6,3% so với cùng kỳ, mức tăng lớn nhất kể từ 2022. EUR/USD ở 1,1221, NVDA tăng 2,29% lên 206,69 USD, chỉ số STAR 50 của A-share giảm 3,81%. Quân đội Mỹ tấn công mục tiêu Iran ở eo Hormuz, dầu giảm phiên thứ hai liên tiếp.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-03-finance-daily",
+      "date": "2026-11-03",
+      "author": "瑞哥观势",
+      "tags": [
+        "Financial Briefing",
+        "Macroeconomics",
+        "Federal Reserve",
+        "European Central Bank",
+        "Geopolitics"
+      ],
+      "categories": [
+        "Financial Briefing"
+      ],
+      "title": "Bản tin tài chính hàng ngày | 2026-11-03",
+      "description": "Fed giữ nguyên lãi suất 3.75%-4.00% ngày 28/10, ECB tạm dừng sau hai lần tăng, dầu thảm trên 5.05% về 96.23 USD. EUR/USD ở 1.1195, NVDA giảm về 202.06 USD với RSI chỉ 26.9, STAR 50 của Trung Quốc giảm mạnh 4.35%. Mỹ và Trung Quốc đạt thỏa thuận giảm thuế đối ứng 30 tỷ USD.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-28-finance-daily",
       "date": "2026-10-28",
       "author": "瑞哥观势",

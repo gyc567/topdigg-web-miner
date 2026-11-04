@@ -1,6 +1,52 @@
 {
   "reports": [
     {
+      "slug": "2026-11-04-finance-daily",
+      "date": "2026-11-04",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics",
+        "Federal Reserve",
+        "ECB",
+        "Geopolitics"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "デイリー金融ブリーフ | 2026-11-04",
+      "description": "FRBは10月28日に3.75%-4.00%で据え置き。新たな議長のWarshはハト派に傾き、利上げの可能性を示唆。米国9月PPIは前年比6.3%上昇と2022年以来最大の伸び。EUR/USDは1.1221、NVDAは2.29%高の206.69ドルと逆行、A株のSTAR50は3.81%急落。米軍はホルムズ海峡のイラン目標を攻撃し、原油は2日連続で下落。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-03-finance-daily",
+      "date": "2026-11-03",
+      "author": "瑞哥观势",
+      "tags": [
+        "Financial Briefing",
+        "Macroeconomics",
+        "Federal Reserve",
+        "European Central Bank",
+        "Geopolitics"
+      ],
+      "categories": [
+        "Financial Briefing"
+      ],
+      "title": "デイリー金融ブリーフィング | 2026-11-03",
+      "description": "FRBは10月28日に3.75%-4.00%で据え置き、ECBは2回の利上げ後に初の停止、原油は5.05%急落して96.23ドル。EUR/USDは1.1195、NVDAは202.06ドルに下落しRSIは26.9のみ、中国のSTAR 50は4.35%急落。米中は300億ドルの対等関税減税で合意。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-28-finance-daily",
       "date": "2026-10-28",
       "author": "瑞哥观势",

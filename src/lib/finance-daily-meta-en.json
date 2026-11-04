@@ -1,6 +1,52 @@
 {
   "reports": [
     {
+      "slug": "2026-11-04-finance-daily",
+      "date": "2026-11-04",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics",
+        "Federal Reserve",
+        "ECB",
+        "Geopolitics"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "Daily Finance Brief | 2026-11-04",
+      "description": "The Fed held rates at 3.75%-4.00% on October 28, with new chair Warsh leaning hawkish and signaling hikes may come. US September PPI jumped 6.3% year-on-year, the biggest gain since 2022. EUR/USD stands at 1.1221, NVDA bucked the trend to gain 2.29% to $206.69, and the STAR 50 index in China slumped 3.81%. US forces struck Iranian targets in the Strait of Hormuz, pushing oil lower for a second straight day.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-03-finance-daily",
+      "date": "2026-11-03",
+      "author": "瑞哥观势",
+      "tags": [
+        "Financial Briefing",
+        "Macroeconomics",
+        "Federal Reserve",
+        "European Central Bank",
+        "Geopolitics"
+      ],
+      "categories": [
+        "Financial Briefing"
+      ],
+      "title": "Daily Financial Briefing | 2026-11-03",
+      "description": "The Fed held rates at 3.75%-4.00% on Oct 28, the ECB paused after two hikes, and crude oil plunged 5.05% to $96.23. EUR/USD sits at 1.1195, NVDA slipped to $202.06 with RSI at just 26.9, and China's STAR 50 tumbled 4.35%. The US and China reached a $30 billion reciprocal tariff arrangement.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-28-finance-daily",
       "date": "2026-10-28",
       "author": "瑞哥观势",

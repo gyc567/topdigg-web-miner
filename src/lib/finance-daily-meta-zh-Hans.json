@@ -1,6 +1,52 @@
 {
   "reports": [
     {
+      "slug": "2026-11-04-finance-daily",
+      "date": "2026-11-04",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics",
+        "Federal Reserve",
+        "ECB",
+        "Geopolitics"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "每日财经简报 | 2026-11-04",
+      "description": "美联储10月28日维持3.75%-4.00%不变，新主席Warsh偏鹰暗示加息在路，美国9月PPI同比涨6.3%创2022年以来最大涨幅。EUR/USD报1.1221，NVDA逆势涨2.29%至206.69美元，A股科创50重挫3.81%。美军空袭霍尔木兹海峡目标，油价连续第二日回落。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-03-finance-daily",
+      "date": "2026-11-03",
+      "author": "瑞哥观势",
+      "tags": [
+        "Financial Briefing",
+        "Macroeconomics",
+        "Federal Reserve",
+        "European Central Bank",
+        "Geopolitics"
+      ],
+      "categories": [
+        "Financial Briefing"
+      ],
+      "title": "每日财经简报 | 2026-11-03",
+      "description": "美联储10月28日维持3.75%-4.00%不变，欧洲央行加息后首次暂停，原油单日暴跌5.05%至96.23美元。EUR/USD报1.1195，NVDA跌至202.06美元但RSI仅26.9，A股科创50重挫4.35%。中美达成300亿美元对等降税安排。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-28-finance-daily",
       "date": "2026-10-28",
       "author": "瑞哥观势",

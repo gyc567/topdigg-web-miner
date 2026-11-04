@@ -1,6 +1,88 @@
 {
   "reports": [
     {
+      "slug": "2026-11-04-finance-daily",
+      "title": {
+        "en": "Daily Finance Brief | 2026-11-04",
+        "ja": "デイリー金融ブリーフ | 2026-11-04",
+        "vi": "Bản tin tài chính hàng ngày | 2026-11-04",
+        "zh-Hans": "每日财经简报 | 2026-11-04",
+        "zh-Hant": "每日財經簡報 | 2026-11-04"
+      },
+      "description": {
+        "en": "The Fed held rates at 3.75%-4.00% on October 28, with new chair Warsh leaning hawkish and signaling hikes may come. US September PPI jumped 6.3% year-on-year, the biggest gain since 2022. EUR/USD stands at 1.1221, NVDA bucked the trend to gain 2.29% to $206.69, and the STAR 50 index in China slumped 3.81%. US forces struck Iranian targets in the Strait of Hormuz, pushing oil lower for a second straight day.",
+        "ja": "FRBは10月28日に3.75%-4.00%で据え置き。新たな議長のWarshはハト派に傾き、利上げの可能性を示唆。米国9月PPIは前年比6.3%上昇と2022年以来最大の伸び。EUR/USDは1.1221、NVDAは2.29%高の206.69ドルと逆行、A株のSTAR50は3.81%急落。米軍はホルムズ海峡のイラン目標を攻撃し、原油は2日連続で下落。",
+        "vi": "Fed giữ nguyên lãi suất 3,75%-4,00% ngày 28/10, chủ tịch mới Warsh nghiêng về hawkish và báo hiệu khả năng tăng lãi suất. PPI tháng 9 của Mỹ tăng 6,3% so với cùng kỳ, mức tăng lớn nhất kể từ 2022. EUR/USD ở 1,1221, NVDA tăng 2,29% lên 206,69 USD, chỉ số STAR 50 của A-share giảm 3,81%. Quân đội Mỹ tấn công mục tiêu Iran ở eo Hormuz, dầu giảm phiên thứ hai liên tiếp.",
+        "zh-Hans": "美联储10月28日维持3.75%-4.00%不变，新主席Warsh偏鹰暗示加息在路，美国9月PPI同比涨6.3%创2022年以来最大涨幅。EUR/USD报1.1221，NVDA逆势涨2.29%至206.69美元，A股科创50重挫3.81%。美军空袭霍尔木兹海峡目标，油价连续第二日回落。",
+        "zh-Hant": "美聯儲10月28日維持3.75%-4.00%不變，新主席Warsh偏鷹暗示加息在路，美國9月PPI同比漲6.3%創2022年以來最大漲幅。EUR/USD報1.1221，NVDA逆勢漲2.29%至206.69美元，A股科創50重挫3.81%。美軍空襲荷姆茲海峽目標，油價連續第二日回落。"
+      },
+      "date": "2026-11-04",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics",
+        "Federal Reserve",
+        "ECB",
+        "Geopolitics"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-03-finance-daily",
+      "title": {
+        "en": "Daily Financial Briefing | 2026-11-03",
+        "ja": "デイリー金融ブリーフィング | 2026-11-03",
+        "vi": "Bản tin tài chính hàng ngày | 2026-11-03",
+        "zh-Hans": "每日财经简报 | 2026-11-03",
+        "zh-Hant": "每日財經簡報 | 2026-11-03"
+      },
+      "description": {
+        "en": "The Fed held rates at 3.75%-4.00% on Oct 28, the ECB paused after two hikes, and crude oil plunged 5.05% to $96.23. EUR/USD sits at 1.1195, NVDA slipped to $202.06 with RSI at just 26.9, and China's STAR 50 tumbled 4.35%. The US and China reached a $30 billion reciprocal tariff arrangement.",
+        "ja": "FRBは10月28日に3.75%-4.00%で据え置き、ECBは2回の利上げ後に初の停止、原油は5.05%急落して96.23ドル。EUR/USDは1.1195、NVDAは202.06ドルに下落しRSIは26.9のみ、中国のSTAR 50は4.35%急落。米中は300億ドルの対等関税減税で合意。",
+        "vi": "Fed giữ nguyên lãi suất 3.75%-4.00% ngày 28/10, ECB tạm dừng sau hai lần tăng, dầu thảm trên 5.05% về 96.23 USD. EUR/USD ở 1.1195, NVDA giảm về 202.06 USD với RSI chỉ 26.9, STAR 50 của Trung Quốc giảm mạnh 4.35%. Mỹ và Trung Quốc đạt thỏa thuận giảm thuế đối ứng 30 tỷ USD.",
+        "zh-Hans": "美联储10月28日维持3.75%-4.00%不变，欧洲央行加息后首次暂停，原油单日暴跌5.05%至96.23美元。EUR/USD报1.1195，NVDA跌至202.06美元但RSI仅26.9，A股科创50重挫4.35%。中美达成300亿美元对等降税安排。",
+        "zh-Hant": "美聯儲10月28日維持3.75%-4.00%不變，歐洲央行加息後首次暫停，原油單日暴跌5.05%至96.23美元。EUR/USD報1.1195，NVDA跌至202.06美元但RSI僅26.9，A股科創50重挫4.35%。中美達成300億美元對等降稅安排。"
+      },
+      "date": "2026-11-03",
+      "author": "瑞哥观势",
+      "tags": [
+        "Financial Briefing",
+        "Macroeconomics",
+        "Federal Reserve",
+        "European Central Bank",
+        "Geopolitics"
+      ],
+      "categories": [
+        "Financial Briefing"
+      ],
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-10-28-finance-daily",
       "title": {
         "en": "Daily Finance Brief | 2026-10-28",
