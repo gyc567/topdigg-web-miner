@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-11-04-ai-daily",
+      "title": {
+        "en": "AMD Reports Q3 2026 Earnings, Projects Over 80% Revenue Growth in 2027",
+        "ja": "AMD、2026年第3四半期決算を発表、2027年の売上成長率は80%超の見込み",
+        "vi": "AMD công bố kết quả kinh doanh quý 3/2026, dự báo tăng trưởng doanh thu trên 80% trong năm 2027",
+        "zh-Hans": "AMD 发布 2026 年三季度财报，预计 2027 年营收增长超 80%",
+        "zh-Hant": "AMD 發布 2026 年第三季財報，預計 2027 年營收成長超過 80%"
+      },
+      "description": {
+        "en": "AMD reported Q3 2026 results and expects revenue growth above 80% in 2027, beating the 77% analysts modeled, with CEO Lisa Su saying data center chips will make up 80% of next year's sales. Mistral Large 4 is released with open weights plus a technical report.",
+        "ja": "AMDは2026年第3四半期決算を発表し、2027年の売上成長率が80%超（アナリストの予想77%を上回る）と見通し。Lisa Su CEOはデータセンター向けチップが翌年売上の80%を占めると述べた。",
+        "vi": "AMD công bố kết quả quý 3/2026 và dự báo doanh thu tăng trên 80% trong năm 2027, vượt mức 77% mà các chuyên gia phân tích dự báo. CEO Lisa Su cho biết chip trung tâm dữ liệu sẽ chiếm 80% doanh thu trong năm tới. Mistral Large 4 được phát hành với trọng số mở kèm báo cáo kỹ thuật.",
+        "zh-Hans": "AMD 公布 2026 年三季度财报，预计 2027 年营收增长超 80%，高于分析师建模的 77%，CEO Lisa Su 称数据中心芯片将占明年销售额的 80%。Mistral Large 4 以开放权重发布并附技术报告。",
+        "zh-Hant": "AMD 公布 2026 年第三季財報，預計 2027 年營收成長超過 80%，高於分析師建模的 77%，CEO Lisa Su 表示資料中心晶片將占明年銷售額的 80%。Mistral Large 4 以開放權重發布並附上技術報告。"
+      },
+      "date": "2026-11-04",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-11-03-ai-daily",
       "title": {
         "en": "OpenAI Launches the Grid Protectors Program, Starting with a Georgia Campus",

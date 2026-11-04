@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-04-ai-daily",
+      "date": "2026-11-04",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "AMD công bố kết quả kinh doanh quý 3/2026, dự báo tăng trưởng doanh thu trên 80% trong năm 2027",
+      "description": "AMD công bố kết quả quý 3/2026 và dự báo doanh thu tăng trên 80% trong năm 2027, vượt mức 77% mà các chuyên gia phân tích dự báo. CEO Lisa Su cho biết chip trung tâm dữ liệu sẽ chiếm 80% doanh thu trong năm tới. Mistral Large 4 được phát hành với trọng số mở kèm báo cáo kỹ thuật.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-03-ai-daily",
       "date": "2026-11-03",
       "author": "瑞哥观势",
@@ -657,29 +680,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Authors Guild kiện OpenAI - Tài liệu mới cho thấy lãnh đạo biết rõ việc huấn luyện bằng sách vi phạm bản quyền là bất hợp pháp",
       "description": "Các tài liệu phúc đáp của nguyên đơn trong vụ kiện Authors Guild kiện OpenAI được công bố vào ngày 21/9/2026 cho thấy lãnh đạo và nhân viên của OpenAI và Microsoft cố ý sử dụng sách vi phạm bản quyền để huấn luyện mô hình, đồng thời biết rõ sản phẩm của họ có thể thay thế các nhà văn.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-27-ai-daily",
-      "date": "2026-09-27",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Claude Opus 5.5 (High) Đạt 1509 Điểm Đứng Đầu Arena Text Arena",
-      "description": "Arena thông báo Claude Opus 5.5 (High) đạt 1509 điểm lần đầu tiên đứng đầu Text Arena, cao hơn Opus 5 (High) 18 điểm. Opus 4.6 (High) giữ vững vị trí thứ 2 với chênh lệch 4 điểm, Anthropic chiếm trọn sáu vị trí đầu bảng.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

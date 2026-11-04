@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-04-ai-daily",
+      "date": "2026-11-04",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "AMD 發布 2026 年第三季財報，預計 2027 年營收成長超過 80%",
+      "description": "AMD 公布 2026 年第三季財報，預計 2027 年營收成長超過 80%，高於分析師建模的 77%，CEO Lisa Su 表示資料中心晶片將占明年銷售額的 80%。Mistral Large 4 以開放權重發布並附上技術報告。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-03-ai-daily",
       "date": "2026-11-03",
       "author": "瑞哥观势",
@@ -657,29 +680,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Authors Guild v. OpenAI 新文件披露高管早已知道大規模盜版書籍訓練違法",
       "description": "Authors Guild v. OpenAI 訴訟中新文件披露 OpenAI 和 Microsoft 高管及員工有意使用盜版書籍訓練模型，並知道其產品可能取代人類作家。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥觀勢",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-27-ai-daily",
-      "date": "2026-09-27",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Claude Opus 5.5 (High) 以 1509 分登頂 Arena Text Arena 榜首",
-      "description": "Arena 宣布 Claude Opus 5.5 (High) 以 1509 分首次登頂 Text Arena，比 Opus 5 (High) 高 18 分，Opus 4.6 (High) 以 4 分之差保持第 2，Anthropic 包攬該榜前六名。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

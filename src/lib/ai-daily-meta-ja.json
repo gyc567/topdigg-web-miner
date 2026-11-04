@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-04-ai-daily",
+      "date": "2026-11-04",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "AMD、2026年第3四半期決算を発表、2027年の売上成長率は80%超の見込み",
+      "description": "AMDは2026年第3四半期決算を発表し、2027年の売上成長率が80%超（アナリストの予想77%を上回る）と見通し。Lisa Su CEOはデータセンター向けチップが翌年売上の80%を占めると述べた。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-03-ai-daily",
       "date": "2026-11-03",
       "author": "瑞哥观势",
@@ -657,29 +680,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Authors Guild v. OpenAI、幹部が大規模海賊版書籍トレーニングが違法であることを認識していたことを示す文書が明らかに",
       "description": "Authors Guild v. OpenAI訴訟で2026年9月21日に提出された原告のBriefにより、OpenAIとMicrosoftの幹部および従業員が海賊版書籍を意図的にモデルトレーニングに使用し、製品が人間の作家に取って変わる可能性を理解していたことが判明した。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-27-ai-daily",
-      "date": "2026-09-27",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Claude Opus 5.5 (High) が Arena Text Arena で1509点を獲得し首位に",
-      "description": "ArenaはClaude Opus 5.5 (High)가1509点でText Arenaに初搭載し、Opus 5 (High)より18点高い成绩を収めたと发表した。Opus 4.6 (High)は4点差で2位を維持し、Anthropicがトップ6を独占している。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

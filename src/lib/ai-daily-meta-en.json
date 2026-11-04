@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-04-ai-daily",
+      "date": "2026-11-04",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "AMD Reports Q3 2026 Earnings, Projects Over 80% Revenue Growth in 2027",
+      "description": "AMD reported Q3 2026 results and expects revenue growth above 80% in 2027, beating the 77% analysts modeled, with CEO Lisa Su saying data center chips will make up 80% of next year's sales. Mistral Large 4 is released with open weights plus a technical report.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-03-ai-daily",
       "date": "2026-11-03",
       "author": "瑞哥观势",
@@ -657,29 +680,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Authors Guild v. OpenAI Filing Reveals Executives Knew Mass Pirated Book Training Was Illegal",
       "description": "New court filings in Authors Guild v. OpenAI reveal that OpenAI and Microsoft executives knowingly used pirated books to train models, aware their products could replace human writers.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-27-ai-daily",
-      "date": "2026-09-27",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Claude Opus 5.5 (High) Tops Arena Text Arena with Score of 1509",
-      "description": "Arena announces Claude Opus 5.5 (High) topped Text Arena with 1509 points, 18 points ahead of Opus 5 (High). Opus 4.6 (High) holds 2nd place with a 4-point margin, with Anthropic occupying the entire top six.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",
