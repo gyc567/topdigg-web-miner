@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-11-05-ai-daily",
+      "title": {
+        "en": "Tencent Hunyuan Hy4 Officially Released, Adding Vision and Computer Use for the First Time",
+        "ja": "Tencent Hunyuan Hy4正式発表、初の視覚・PC操作対応",
+        "vi": "Tencent Hunyuan Hy4 chính thức ra mắt, lần đầu bổ sung khả năng thị giác và điều khiển máy tính",
+        "zh-Hans": "腾讯混元 Hy4 正式发布，首次引入视觉与电脑操作能力",
+        "zh-Hant": "騰訊混元 Hy4 正式發布，首次引入視覺與電腦操作能力"
+      },
+      "description": {
+        "en": "Tencent Hunyuan released the official Hy4, expanding pretraining and post-training scale compared with the Hy4 preview, introducing vision capabilities and computer use support for the first time, with GameDev and GameLogic scores up 19.1% and 9.8%. Moonshot AI open-sourced the 2.8T-parameter Kimi K3.1 Pro weights on HuggingFace.",
+        "ja": "Tencent HunyuanはHy4正式版を発表。Hy4 previewと比べて事前学習・後学習の規模を拡大し、初めて視覚機能とPC操作サポートを導入、GameDevとGameLogicの評価でそれぞれ19.1%と9.8%向上。Moonshot AIもHuggingFaceで2.8TパラメータのKimi K3.1 Pro_weightsを公開。",
+        "vi": "Tencent Hunyuan phát hành bản chính thức của Hy4, mở rộng quy mô huấn luyện trước và sau so với Hy4 preview, lần đầu đưa vào khả năng thị giác và hỗ trợ thao tác máy tính, điểm GameDev và GameLogic tăng lần lượt 19,1% và 9,8%. Moonshot AI công bố trọng số Kimi K3.1 Pro 2.8T tham số trên HuggingFace.",
+        "zh-Hans": "腾讯混元发布 Hy4 正式版，相比 Hy4 preview 扩展预训练与后训练规模，首次引入视觉能力和电脑操作支持，GameDev 与 GameLogic 评测分别提升 19.1% 和 9.8%。Moonshot AI 在 HuggingFace 开放 2.8T 参数 Kimi K3.1 Pro 权重。",
+        "zh-Hant": "騰訊混元發布 Hy4 正式版，相比 Hy4 preview 擴展預訓練與後訓練規模，首次引入視覺能力和電腦操作支持，GameDev 與 GameLogic 評測分別提升 19.1% 和 9.8%。Moonshot AI 在 HuggingFace 開放 2.8T 參數 Kimi K3.1 Pro 權重。"
+      },
+      "date": "2026-11-05",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-11-04-ai-daily",
       "title": {
         "en": "AMD Reports Q3 2026 Earnings, Projects Over 80% Revenue Growth in 2027",

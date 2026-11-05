@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-05-ai-daily",
+      "date": "2026-11-05",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Tencent Hunyuan Hy4 chính thức ra mắt, lần đầu bổ sung khả năng thị giác và điều khiển máy tính",
+      "description": "Tencent Hunyuan phát hành bản chính thức của Hy4, mở rộng quy mô huấn luyện trước và sau so với Hy4 preview, lần đầu đưa vào khả năng thị giác và hỗ trợ thao tác máy tính, điểm GameDev và GameLogic tăng lần lượt 19,1% và 9,8%. Moonshot AI công bố trọng số Kimi K3.1 Pro 2.8T tham số trên HuggingFace.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-04-ai-daily",
       "date": "2026-11-04",
       "author": "瑞哥观势",
@@ -657,29 +680,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Anthropic IPO 招股书曝光：2025 年净亏损 420 亿美元",
       "description": "Anthropic IPO 招股书显示，公司 2025 年净亏损 420 亿美元，营收增长 12 倍接近 46 亿美元，并计划未来一年投入 5,180 亿美元用于云服务与算力基础设施，上市后估值有望突破 2 万亿美元。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-28-ai-daily",
-      "date": "2026-09-28",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Authors Guild kiện OpenAI - Tài liệu mới cho thấy lãnh đạo biết rõ việc huấn luyện bằng sách vi phạm bản quyền là bất hợp pháp",
-      "description": "Các tài liệu phúc đáp của nguyên đơn trong vụ kiện Authors Guild kiện OpenAI được công bố vào ngày 21/9/2026 cho thấy lãnh đạo và nhân viên của OpenAI và Microsoft cố ý sử dụng sách vi phạm bản quyền để huấn luyện mô hình, đồng thời biết rõ sản phẩm của họ có thể thay thế các nhà văn.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

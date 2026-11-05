@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-05-ai-daily",
+      "date": "2026-11-05",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Tencent Hunyuan Hy4 Officially Released, Adding Vision and Computer Use for the First Time",
+      "description": "Tencent Hunyuan released the official Hy4, expanding pretraining and post-training scale compared with the Hy4 preview, introducing vision capabilities and computer use support for the first time, with GameDev and GameLogic scores up 19.1% and 9.8%. Moonshot AI open-sourced the 2.8T-parameter Kimi K3.1 Pro weights on HuggingFace.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-04-ai-daily",
       "date": "2026-11-04",
       "author": "瑞哥观势",
@@ -657,29 +680,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Anthropic IPO Prospectus Leaked: $42B Net Loss in 2025, Valuation Could Exceed $2 Trillion",
       "description": "Anthropic's IPO prospectus reveals $42 billion net loss in 2025 with 12x revenue growth to nearly $4.6 billion, and plans to invest $518 billion in cloud services and computing infrastructure over the next year, with post-IPO valuation expected to exceed $2 trillion.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-28-ai-daily",
-      "date": "2026-09-28",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Authors Guild v. OpenAI Filing Reveals Executives Knew Mass Pirated Book Training Was Illegal",
-      "description": "New court filings in Authors Guild v. OpenAI reveal that OpenAI and Microsoft executives knowingly used pirated books to train models, aware their products could replace human writers.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",

@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-05-ai-daily",
+      "date": "2026-11-05",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Tencent Hunyuan Hy4正式発表、初の視覚・PC操作対応",
+      "description": "Tencent HunyuanはHy4正式版を発表。Hy4 previewと比べて事前学習・後学習の規模を拡大し、初めて視覚機能とPC操作サポートを導入、GameDevとGameLogicの評価でそれぞれ19.1%と9.8%向上。Moonshot AIもHuggingFaceで2.8TパラメータのKimi K3.1 Pro_weightsを公開。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-04-ai-daily",
       "date": "2026-11-04",
       "author": "瑞哥观势",
@@ -657,29 +680,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Anthropic IPO 招股书曝光：2025 年净亏损 420 亿美元",
       "description": "Anthropic IPO 招股书显示，公司 2025 年净亏损 420 亿美元，营收增长 12 倍接近 46 亿美元，并计划未来一年投入 5,180 亿美元用于云服务与算力基础设施，上市后估值有望突破 2 万亿美元。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-28-ai-daily",
-      "date": "2026-09-28",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Authors Guild v. OpenAI、幹部が大規模海賊版書籍トレーニングが違法であることを認識していたことを示す文書が明らかに",
-      "description": "Authors Guild v. OpenAI訴訟で2026年9月21日に提出された原告のBriefにより、OpenAIとMicrosoftの幹部および従業員が海賊版書籍を意図的にモデルトレーニングに使用し、製品が人間の作家に取って変わる可能性を理解していたことが判明した。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",
