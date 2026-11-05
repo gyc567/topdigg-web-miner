@@ -1,6 +1,44 @@
 {
   "reports": [
     {
+      "slug": "2026-11-05-finance-daily",
+      "title": {
+        "en": "Daily Finance Brief | 2026-11-05",
+        "ja": "デイリー金融ブリーフ | 2026-11-05",
+        "vi": "Bản tin tài chính hằng ngày | 2026-11-05",
+        "zh-Hans": "每日财经简报 | 2026-11-05",
+        "zh-Hant": "每日財經簡報 | 2026-11-05"
+      },
+      "description": {
+        "en": "The dollar softened as gold jumped 3.9% to $4,091/oz and silver rallied 5.3%, a clear risk-off signal. The Fed held rates 10-2 on Oct 28, with new chair Warsh laying the groundwork for a cut this year. Democrats swept both chambers of Congress in the US midterms, slowing the pace of China-US tariff changes, while A-shares surged with the STAR 50 up nearly 10%.",
+        "ja": "ドルは軟調に、金は1日で3.9%上昇して4091ドル、白銀は5.3%上昇とリスク回避が鮮明。FRBは10月28日に10:2の票で金利据え置き、新議長のワッシュが年内の利下げへの布石。米国中間選挙で民主党が両院を制し、中米関税の変貌ペースは鈍化。A株も急騰し科創50は10%近く上昇。",
+        "vi": "Đô la nhẹ yếu, vàng tăng 3,9% lên 4.091 USD/oz và bạc tăng 5,3%, tín hiệu chạy tránh rủi ro rõ rệt. Fed giữ nguyên lãi suất với tỷ lệ 10:2 ngày 28/10, chủ tịch mới Warsh đang mở đường cho một đợt hạ lãi trong năm. Dân chủ chiếm cả hai viện Quốc hội Mỹ trong bầu cử giữa kỳ, làm tốc độ thay đổi thuế Mỹ-Trung có thể chậm lại; A-share cũng bật tăng mạnh với STAR 50 tăng gần 10%.",
+        "zh-Hans": "美元温和走弱、黄金单日暴涨 3.9% 站上 4091 美元，白银涨 5.3%，避险情绪明显升温。美联储 10 月 28 日以 10:2 维持利率不变，新主席沃什为年内降息铺路。美国中期选举民主党横扫国会两院，中美关税边际变化速度有望放缓，A 股同步暴涨，科创50 涨近 10%。",
+        "zh-Hant": "美元溫和走弱、黃金單日暴漲 3.9% 站上 4091 美元，白銀漲 5.3%，避險情緒明顯升溫。美國聯準會 10 月 28 日以 10:2 維持利率不變，新主席沃許為年內降息鋪路。美國中期選舉民主黨橫掃國會兩院，中美關稅邊際變化速度有望放緩，A 股同步大漲，科創50 漲近 10%。"
+      },
+      "date": "2026-11-05",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-04-finance-daily",
       "title": {
         "en": "Daily Finance Brief | 2026-11-04",

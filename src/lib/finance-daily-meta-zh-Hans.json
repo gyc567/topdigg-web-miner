@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-05-finance-daily",
+      "date": "2026-11-05",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "每日财经简报 | 2026-11-05",
+      "description": "美元温和走弱、黄金单日暴涨 3.9% 站上 4091 美元，白银涨 5.3%，避险情绪明显升温。美联储 10 月 28 日以 10:2 维持利率不变，新主席沃什为年内降息铺路。美国中期选举民主党横扫国会两院，中美关税边际变化速度有望放缓，A 股同步暴涨，科创50 涨近 10%。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-04-finance-daily",
       "date": "2026-11-04",
       "author": "瑞哥观势",

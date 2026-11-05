@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-05-finance-daily",
+      "date": "2026-11-05",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "每日財經簡報 | 2026-11-05",
+      "description": "美元溫和走弱、黃金單日暴漲 3.9% 站上 4091 美元，白銀漲 5.3%，避險情緒明顯升溫。美國聯準會 10 月 28 日以 10:2 維持利率不變，新主席沃許為年內降息鋪路。美國中期選舉民主黨橫掃國會兩院，中美關稅邊際變化速度有望放緩，A 股同步大漲，科創50 漲近 10%。",
+      "source": {
+        "original": {
+          "name": "瑞哥觀勢",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-04-finance-daily",
       "date": "2026-11-04",
       "author": "瑞哥观势",

@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-05-finance-daily",
+      "date": "2026-11-05",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "Daily Finance Brief | 2026-11-05",
+      "description": "The dollar softened as gold jumped 3.9% to $4,091/oz and silver rallied 5.3%, a clear risk-off signal. The Fed held rates 10-2 on Oct 28, with new chair Warsh laying the groundwork for a cut this year. Democrats swept both chambers of Congress in the US midterms, slowing the pace of China-US tariff changes, while A-shares surged with the STAR 50 up nearly 10%.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-04-finance-daily",
       "date": "2026-11-04",
       "author": "瑞哥观势",

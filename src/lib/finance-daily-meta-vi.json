@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-05-finance-daily",
+      "date": "2026-11-05",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "Bản tin tài chính hằng ngày | 2026-11-05",
+      "description": "Đô la nhẹ yếu, vàng tăng 3,9% lên 4.091 USD/oz và bạc tăng 5,3%, tín hiệu chạy tránh rủi ro rõ rệt. Fed giữ nguyên lãi suất với tỷ lệ 10:2 ngày 28/10, chủ tịch mới Warsh đang mở đường cho một đợt hạ lãi trong năm. Dân chủ chiếm cả hai viện Quốc hội Mỹ trong bầu cử giữa kỳ, làm tốc độ thay đổi thuế Mỹ-Trung có thể chậm lại; A-share cũng bật tăng mạnh với STAR 50 tăng gần 10%.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-04-finance-daily",
       "date": "2026-11-04",
       "author": "瑞哥观势",

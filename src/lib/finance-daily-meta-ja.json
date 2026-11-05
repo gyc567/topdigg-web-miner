@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-05-finance-daily",
+      "date": "2026-11-05",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "デイリー金融ブリーフ | 2026-11-05",
+      "description": "ドルは軟調に、金は1日で3.9%上昇して4091ドル、白銀は5.3%上昇とリスク回避が鮮明。FRBは10月28日に10:2の票で金利据え置き、新議長のワッシュが年内の利下げへの布石。米国中間選挙で民主党が両院を制し、中米関税の変貌ペースは鈍化。A株も急騰し科創50は10%近く上昇。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-04-finance-daily",
       "date": "2026-11-04",
       "author": "瑞哥观势",
