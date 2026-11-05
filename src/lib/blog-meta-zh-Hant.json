@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "slug": "2026-11-05-nvzhuang-virtual-tryon-open-source",
+      "date": "2026-11-05",
+      "author": "瑞哥观势",
+      "tags": [
+        "open source project analysis",
+        "AI clothing try-on",
+        "virtual try-on",
+        "GoFrame",
+        "ComfyUI",
+        "multi-model adaptation",
+        "security design"
+      ],
+      "categories": [
+        "open source project analysis"
+      ],
+      "title": "有人把 1407 張 AI 服裝圖做成網站，還接了虛擬試穿：拍片哥女裝項目完整拆解",
+      "description": "深度拆解 paipiange/nvzhuang：一個零建置純靜態服裝圖庫 + GoFrame AI 換裝後端。附完整部署教學、多模型接入配置、介面安全設計解析與六大設計哲學。"
+    },
+    {
+      "slug": "2026-11-03-heyputer-everything-53-apps",
+      "date": "2026-11-03",
+      "author": "瑞哥观势",
+      "tags": [
+        "open source project analysis",
+        "open source software",
+        "HeyPuter",
+        "Everything Project",
+        "monorepo",
+        "framework-free frontend"
+      ],
+      "categories": [
+        "project analysis",
+        "developer tools",
+        "software architecture"
+      ],
+      "title": "有人把 Excel、Slack、PS 全部重寫了一遍：HeyPuter 的 53 個世界級軟體",
+      "description": "深度拆解 HeyPuter/everything 單倉庫專案：51 個應用、224 萬行程式碼、8711 個測試檔案、零前端框架。附完整本地執行教程、Amplify 部署配置解析、六大設計哲學與八個可遷移觀點。"
+    },
+    {
       "slug": "2026-11-01-dsh-superagent-attention-economy",
       "date": "2026-11-01",
       "author": "瑞哥观势",

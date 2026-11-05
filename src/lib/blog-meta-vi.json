@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "slug": "2026-11-05-nvzhuang-virtual-tryon-open-source",
+      "date": "2026-11-05",
+      "author": "瑞哥观势",
+      "tags": [
+        "open source project analysis",
+        "AI clothing try-on",
+        "virtual try-on",
+        "GoFrame",
+        "ComfyUI",
+        "multi-model adaptation",
+        "security design"
+      ],
+      "categories": [
+        "open source project analysis"
+      ],
+      "title": "Có người biến 1407 ảnh trang phục AI thành một website, thậm chí còn tích hợp cả thử đồ ảo: Phân tích toàn diện dự án trang phục nữ của anh chàng chụp ảnh",
+      "description": "Phân tích chuyên sâu paipiange/nvzhuang: một thư viện ảnh trang phục tĩnh thuần, không cần build, kèm backend AI thay đồ viết bằng GoFrame. Bao gồm hướng dẫn triển khai đầy đủ, cấu hình tích hợp đa mô hình, phân tích thiết kế bảo mật API và sáu triết lý thiết kế."
+    },
+    {
+      "slug": "2026-11-03-heyputer-everything-53-apps",
+      "date": "2026-11-03",
+      "author": "瑞哥观势",
+      "tags": [
+        "open source project analysis",
+        "open source software",
+        "HeyPuter",
+        "Everything Project",
+        "monorepo",
+        "framework-free frontend"
+      ],
+      "categories": [
+        "project analysis",
+        "developer tools",
+        "software architecture"
+      ],
+      "title": "有人把 Excel、Slack、PS 全部重写了一遍：HeyPuter 的 53 个世界级软件",
+      "description": "深度拆解 HeyPuter/everything 单仓库项目：51 个应用、224 万行代码、8711 个测试文件、零前端框架。附完整本地运行教程、Amplify 部署配置解析、六大设计哲学与八个可迁移观点。"
+    },
+    {
       "slug": "2026-11-01-dsh-superagent-attention-economy",
       "date": "2026-11-01",
       "author": "瑞哥观势",

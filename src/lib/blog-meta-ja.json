@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "slug": "2026-11-05-nvzhuang-virtual-tryon-open-source",
+      "date": "2026-11-05",
+      "author": "瑞哥观势",
+      "tags": [
+        "open source project analysis",
+        "AI clothing try-on",
+        "virtual try-on",
+        "GoFrame",
+        "ComfyUI",
+        "multi-model adaptation",
+        "security design"
+      ],
+      "categories": [
+        "open source project analysis"
+      ],
+      "title": "誰か1407枚のAI衣装画像をサイトにし、バーチャル試着までつなげた：写真撮りの兄貴の女性衣装プロジェクト完全分解",
+      "description": "paipiange/nvzhuangを深掘り：ビルド不要の純静的衣装画像ライブラリ + GoFrame製AI着替えバックエンド。完全なデプロイ手順、マルチモデル連携設定、APIセキュリティ設計の解析、6つのデザイン哲学を収録。"
+    },
+    {
+      "slug": "2026-11-03-heyputer-everything-53-apps",
+      "date": "2026-11-03",
+      "author": "瑞哥观势",
+      "tags": [
+        "open source project analysis",
+        "open source software",
+        "HeyPuter",
+        "Everything Project",
+        "monorepo",
+        "framework-free frontend"
+      ],
+      "categories": [
+        "project analysis",
+        "developer tools",
+        "software architecture"
+      ],
+      "title": "Excel、Slack、Photoshop を作り直した男：HeyPuter の 53 個のワールドクラスのソフト",
+      "description": "HeyPuter/everything を徹底分析。51 アプリ、224 万行、8,711 個のテストファイル、フロントエンドフレームワークはゼロ。ローカル実行チュートリアル、デプロイ設定解説、6 つのデザイン哲学、8 つの移行可能な学びを詳述。"
+    },
+    {
       "slug": "2026-11-01-dsh-superagent-attention-economy",
       "date": "2026-11-01",
       "author": "瑞哥观势",
