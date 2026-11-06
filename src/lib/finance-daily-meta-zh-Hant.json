@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-06-finance-daily",
+      "date": "2026-11-06",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "每日財經簡報 | 2026-11-06",
+      "description": "納斯達克暴跌逾5.5%跌入修正區間，費半重挫12%，韓國KOSPI兩度熔斷：民主黨中期選舉勝出疊加「超級AI禁令」提案，把監管變數首次塞進AI估值模型，引發全球AI產業鏈大清算。美股方面NVDA -9.26%、TSLA -10.77%、AAPL -1.53%，黃金逆勢站上4100美元。央行方面美聯準10月28日以10:2維持利率不變、ECB維持2.5%不變、中國人民銀行11月2日起政策利率換錨。荷莫茲海峽仍未重開，伊朗經卡塔爾向美遞交核協議提案。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-05-finance-daily",
       "date": "2026-11-05",
       "author": "瑞哥观势",

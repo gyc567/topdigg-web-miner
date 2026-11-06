@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-06-finance-daily",
+      "date": "2026-11-06",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "デイリー金融ブリーフ | 2026-11-06",
+      "description": "ナスダックは5.5%超の大落下で調整局面に入り、SOXは12%急落してKOSPIは2度サーキットブレーカー発動。民主党の中間選挙勝利と「スーパーAI禁止」提案が、初めて規制リスクをAIのバリュエーションに埋め込み、AIサプライチェーンの世界的な清算を招いた。NVDA -9.26%、TSLA -10.77%、AAPL -1.53%、金は4,100ドル圏で底堅く。中央銀行はFRBが10月28日に10:2の票で据え置き、ECBは2.5%据え置き、PBOCは11月2日に政策金利のアンカー移行を実施。ホルムズ海峡は依然閉鎖で、イランはカタール経由で核合意案を米国に提出。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-05-finance-daily",
       "date": "2026-11-05",
       "author": "瑞哥观势",

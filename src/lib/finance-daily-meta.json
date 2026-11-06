@@ -1,6 +1,44 @@
 {
   "reports": [
     {
+      "slug": "2026-11-06-finance-daily",
+      "title": {
+        "en": "Daily Finance Brief | 2026-11-06",
+        "ja": "デイリー金融ブリーフ | 2026-11-06",
+        "vi": "Báo cáo tài chính hàng ngày | 2026-11-06",
+        "zh-Hans": "每日财经简报 | 2026-11-06",
+        "zh-Hant": "每日財經簡報 | 2026-11-06"
+      },
+      "description": {
+        "en": "The Nasdaq plunged over 5.5% into correction territory and the Philadelphia Semiconductor Index tumbled 12%, triggering two circuit breakers in South Korea: the Democratic midterm victory combined with the proposed \"super AI ban\" pushed regulatory risk into AI valuations for the first time, triggering a global liquidation of the AI supply chain. NVDA fell 9.26%, TSLA 10.77% and AAPL 1.53%, while gold held above $4,100. On central banks, the Fed held rates at a 10-2 vote on Oct 28, the ECB kept its policy rate at 2.5%, and the PBoC shifted its policy rate anchor on Nov 2. The Strait of Hormuz remains closed, with Iran submitting a nuclear deal proposal to Washington via Qatar.",
+        "ja": "ナスダックは5.5%超の大落下で調整局面に入り、SOXは12%急落してKOSPIは2度サーキットブレーカー発動。民主党の中間選挙勝利と「スーパーAI禁止」提案が、初めて規制リスクをAIのバリュエーションに埋め込み、AIサプライチェーンの世界的な清算を招いた。NVDA -9.26%、TSLA -10.77%、AAPL -1.53%、金は4,100ドル圏で底堅く。中央銀行はFRBが10月28日に10:2の票で据え置き、ECBは2.5%据え置き、PBOCは11月2日に政策金利のアンカー移行を実施。ホルムズ海峡は依然閉鎖で、イランはカタール経由で核合意案を米国に提出。",
+        "vi": "Nasdaq giảm hơn 5,5% rơi vào vùng điều chỉnh, chỉ số bán dẫn Philadelphia mất 12%, KOSPI Hàn Quốc hai lần kích hoạt sàn giao dịch: chiến thắng của Đảng Dân chủ trong bầu cử giữa kỳ cộng với đề xuất \"lệnh cấm AI siêu cấp\" lần đầu đưa rủi ro pháp lý vào định giá AI, gây ra đợt thanh lý toàn cầu của chuỗi cung ứng AI. NVDA -9,26%, TSLA -10,77%, AAPL -1,53%, vàng vững trên 4.100 USD. Về chính sách, Fed giữ nguyên lãi suất với phiếu 10-2 ngày 28/10, ECB giữ ở 2,5%, PBOC chuyển đổi trục lãi suất chính sách từ ngày 2/11. Eo Hormuz vẫn chưa mở, Iran đã chuyển đề xuất thỏa thuận hạt nhân tới Mỹ qua Qatar.",
+        "zh-Hans": "纳指暴跌超5.5%跌入修正区间，费半重挫12%，韩国KOSPI两度熔断：民主党中期选举胜利叠加\"超级AI禁令\"提案，把监管变量首次塞进AI估值模型，引发全球AI产业链大清算。美股方面NVDA -9.26%、TSLA -10.77%、AAPL -1.53%，黄金逆势站上4100美元。央行方面美联储10月28日以10:2维持利率不变、ECB维持2.5%不变、中国央行11月2日起政策利率换锚。霍尔木兹海峡仍未重开，伊朗经卡塔尔向美递交核协议提案。",
+        "zh-Hant": "納斯達克暴跌逾5.5%跌入修正區間，費半重挫12%，韓國KOSPI兩度熔斷：民主黨中期選舉勝出疊加「超級AI禁令」提案，把監管變數首次塞進AI估值模型，引發全球AI產業鏈大清算。美股方面NVDA -9.26%、TSLA -10.77%、AAPL -1.53%，黃金逆勢站上4100美元。央行方面美聯準10月28日以10:2維持利率不變、ECB維持2.5%不變、中國人民銀行11月2日起政策利率換錨。荷莫茲海峽仍未重開，伊朗經卡塔爾向美遞交核協議提案。"
+      },
+      "date": "2026-11-06",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-05-finance-daily",
       "title": {
         "en": "Daily Finance Brief | 2026-11-05",

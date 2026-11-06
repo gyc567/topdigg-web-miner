@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-06-finance-daily",
+      "date": "2026-11-06",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "Báo cáo tài chính hàng ngày | 2026-11-06",
+      "description": "Nasdaq giảm hơn 5,5% rơi vào vùng điều chỉnh, chỉ số bán dẫn Philadelphia mất 12%, KOSPI Hàn Quốc hai lần kích hoạt sàn giao dịch: chiến thắng của Đảng Dân chủ trong bầu cử giữa kỳ cộng với đề xuất \"lệnh cấm AI siêu cấp\" lần đầu đưa rủi ro pháp lý vào định giá AI, gây ra đợt thanh lý toàn cầu của chuỗi cung ứng AI. NVDA -9,26%, TSLA -10,77%, AAPL -1,53%, vàng vững trên 4.100 USD. Về chính sách, Fed giữ nguyên lãi suất với phiếu 10-2 ngày 28/10, ECB giữ ở 2,5%, PBOC chuyển đổi trục lãi suất chính sách từ ngày 2/11. Eo Hormuz vẫn chưa mở, Iran đã chuyển đề xuất thỏa thuận hạt nhân tới Mỹ qua Qatar.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-05-finance-daily",
       "date": "2026-11-05",
       "author": "瑞哥观势",

@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-06-finance-daily",
+      "date": "2026-11-06",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "Daily Finance Brief | 2026-11-06",
+      "description": "The Nasdaq plunged over 5.5% into correction territory and the Philadelphia Semiconductor Index tumbled 12%, triggering two circuit breakers in South Korea: the Democratic midterm victory combined with the proposed \"super AI ban\" pushed regulatory risk into AI valuations for the first time, triggering a global liquidation of the AI supply chain. NVDA fell 9.26%, TSLA 10.77% and AAPL 1.53%, while gold held above $4,100. On central banks, the Fed held rates at a 10-2 vote on Oct 28, the ECB kept its policy rate at 2.5%, and the PBoC shifted its policy rate anchor on Nov 2. The Strait of Hormuz remains closed, with Iran submitting a nuclear deal proposal to Washington via Qatar.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-05-finance-daily",
       "date": "2026-11-05",
       "author": "瑞哥观势",

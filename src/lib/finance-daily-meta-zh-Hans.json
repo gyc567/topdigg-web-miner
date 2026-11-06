@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-06-finance-daily",
+      "date": "2026-11-06",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "每日财经简报 | 2026-11-06",
+      "description": "纳指暴跌超5.5%跌入修正区间，费半重挫12%，韩国KOSPI两度熔断：民主党中期选举胜利叠加\"超级AI禁令\"提案，把监管变量首次塞进AI估值模型，引发全球AI产业链大清算。美股方面NVDA -9.26%、TSLA -10.77%、AAPL -1.53%，黄金逆势站上4100美元。央行方面美联储10月28日以10:2维持利率不变、ECB维持2.5%不变、中国央行11月2日起政策利率换锚。霍尔木兹海峡仍未重开，伊朗经卡塔尔向美递交核协议提案。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-05-finance-daily",
       "date": "2026-11-05",
       "author": "瑞哥观势",
