@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-11-06-ai-daily",
+      "title": {
+        "en": "OpenAI Releases GPT-6 Cyber Security Model",
+        "ja": "OpenAI が GPT-6 Cyber セキュリティモデルを発表",
+        "vi": "OpenAI ra mắt mô hình an ninh mạng GPT-6 Cyber",
+        "zh-Hans": "OpenAI 发布 GPT-6 Cyber 网络安全模型",
+        "zh-Hant": "OpenAI 發布 GPT-6 Cyber 網路安全模型"
+      },
+      "description": {
+        "en": "OpenAI releases the GPT-6 Cyber security model, trained for vulnerability discovery, validation and remediation, and opened to approved security teams through the Daybreak Red/Blue platform. Thinking Machines Lab ships Inkling 2 Small, a 594B-parameter MoE model, with Apache 2.0 weights next week.",
+        "ja": "OpenAI は脆弱性の発見・検証・修正のために訓練されたセキュリティモデル GPT-6 Cyber を発表し、Daybreak Red/Blue プラットフォームを通じて審査を通過したセキュリティチームに提供した。Thinking Machines Lab は 594B パラメータの MoE モデル Inkling 2 Small を発表し、来週 Apache 2.0 ウェイトを公開予定。",
+        "vi": "OpenAI ra mắt mô hình an ninh mạng GPT-6 Cyber, được huấn luyện cho việc phát hiện, xác minh và vá lỗ hổng, mở cho các đội ngũ bảo mật đã qua duyệt qua nền tảng Daybreak Red/Blue. Thinking Machines Lab phát hành mô hình MoE 594B tham số Inkling 2 Small, tuần sau mở trọng số Apache 2.0.",
+        "zh-Hans": "OpenAI 发布网络安全模型 GPT-6 Cyber，针对漏洞发现、验证与修复训练，并通过 Daybreak Red/Blue 平台向审核通过的安全团队开放。Thinking Machines Lab 发布 594B 参数 MoE 模型 Inkling 2 Small，下周开放 Apache 2.0 权重。",
+        "zh-Hant": "OpenAI 發布網路安全模型 GPT-6 Cyber，針對漏洞發現、驗證與修補訓練，並透過 Daybreak Red/Blue 平台向審核通過的安全團隊開放。Thinking Machines Lab 發布 594B 參數 MoE 模型 Inkling 2 Small，下週開放 Apache 2.0 權重。"
+      },
+      "date": "2026-11-06",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-11-05-ai-daily",
       "title": {
         "en": "Tencent Hunyuan Hy4 Officially Released, Adding Vision and Computer Use for the First Time",

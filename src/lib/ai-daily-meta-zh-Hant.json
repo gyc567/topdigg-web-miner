@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-06-ai-daily",
+      "date": "2026-11-06",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "OpenAI 發布 GPT-6 Cyber 網路安全模型",
+      "description": "OpenAI 發布網路安全模型 GPT-6 Cyber，針對漏洞發現、驗證與修補訓練，並透過 Daybreak Red/Blue 平台向審核通過的安全團隊開放。Thinking Machines Lab 發布 594B 參數 MoE 模型 Inkling 2 Small，下週開放 Apache 2.0 權重。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-05-ai-daily",
       "date": "2026-11-05",
       "author": "瑞哥观势",
@@ -662,29 +685,6 @@
         "aggregator_url": "https://aihot.virxact.com",
         "original": {
           "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-29-ai-daily",
-      "date": "2026-09-29",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Anthropic IPO 招股書曝光：2025 年淨虧損 420 億美元",
-      "description": "Anthropic IPO 招股書顯示，公司 2025 年淨虧損 420 億美元，營收增長 12 倍接近 46 億美元，並計劃未來一年投入 5,180 億美元用於雲端服務與算力基礎設施，上市後估值有望突破 2 兆美元。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "比特財商",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
