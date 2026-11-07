@@ -1,6 +1,44 @@
 {
   "reports": [
     {
+      "slug": "2026-11-07-finance-daily",
+      "title": {
+        "en": "Daily Financial Brief | 2026-11-07",
+        "ja": "デイリー金融ブリーフ | 2026-11-07",
+        "vi": "Bản tin tài chính hàng ngày | 2026-11-07",
+        "zh-Hans": "每日财经简报 | 2026-11-07",
+        "zh-Hant": "每日財經簡報 | 2026-11-07"
+      },
+      "description": {
+        "en": "Gold at $4,071 and silver at $51.98, with crude down 12% for the week: the US-Iran nuclear deal window is open but the terms of exchange have no near-term solution, and vessel attacks in the Strait of Hormuz are running near record highs. In US equities NVDA closed at $186.64 (+2.78%, RSI 30.76), TSLA at $358.22 (+4.23%), and AAPL at $342.37 (-0.52%), now trading above the sell-side average target of $332.68. Chinese equities fell broadly on Friday, with the Shanghai Composite at 3,649.18 (-1.10%) and the ChiNext Index down 3.96%. On the policy side, the Fed held at 3.75%-4.00% though two officials voted to hike, the ECB stayed put with Lagarde possibly stepping down early, and the PBOC left the LPR unchanged for a 17th straight month while moving to re-anchor the policy rate to the 7-day reverse repo. After the Democratic blue sweep in the US midterms, the \"super AI ban\" now has a legislative path, and that is the real source of damage to the AI supply chain.",
+        "ja": "ゴールド$4,071、シルバー$51.98、原油は週間12%急落：米イラン核合意の交渉窓口は開いたものの交換条件に短期的な解はなく、ホルムズ海峡での船舶攻撃件数も過去最高水準に近づいている。米国株式はNVDA $186.64（+2.78%、RSI 30.76）、TSLA $358.22（+4.23%）、AAPL $342.37（-0.52%、売方の平均目標株価$332.68を上回る水準）。中国株は金曜日、全面安で上海Composite 3,649.18（-1.10%）、創業板指数は3.96%安。政策面ではFRBは3.75%-4.00%据え置きだが2名が利上げを要求、ECBは据え置きでラグハール総裁の早期退任の可能性、中国人民銀行はLPRを17カ月連続で据え置き政策金利を7日物の逆レポへ組み替える方針を示した。米国中間選挙で民主党が青的经济的優勢を確立したことで「スーパーAI禁止法案」が立法経路に入ったことが、AIサプライチェーンへの真の打撃源である。",
+        "vi": "Vàng $4,071, bạc $51.98, dầu thô giảm 12% trong tuần: cửa sổ đàm phán thỏa thuận hạt nhân Mỹ-Iran đã mở nhưng điều kiện trao đổi không có lối thoát trong ngắn hạn, số vụ tấn công tàu thuyền ở eo Hormuz đang ở gần mức kỷ lục. Chứng khoán Mỹ: NVDA $186.64 (+2.78%, RSI 30.76), TSLA $358.22 (+4.23%), AAPL $342.37 (-0.52%, đã cao hơn giá mục tiêu trung bình của bên bán $332.68). Chứng khoán Trung Quốc giảm đồng loạt thứ Sáu, Shanghai Composite 3,649.18 (-1.10%), ChiNext giảm 3.96%. Về chính sách: Fed giữ nguyên 3.75%-4.00% dù hai quan chức bỏ phiếu tăng lãi suất, ECB đi ngang và bà Lagarde có thể từ chức sớm, PBoC giữ LPR lần thứ 17 liên tiếp và chuyển trục chính sách sang lãi suất repo 7 ngày. Sau khi Đảng Dân chộc thắng áp đảo trong bầu cử giữa kỳ Mỹ, \"lệnh cấm AI siêu lớn\" đã có lộ trình lập pháp, và đó mới là nguồn tổn thương thực sự của chuỗi cung ứng AI.",
+        "zh-Hans": "黄金$4,071、白银$51.98，油价一周暴跌12%：美伊核协议谈判窗口打开但交换条件短期无解，霍尔木兹海峡船只遇袭频率接近历史高位。美股方面NVDA $186.64（+2.78%，RSI 30.76）、TSLA $358.22（+4.23%）、AAPL $342.37（-0.52%，已高于卖方均值目标价$332.68）。A股周五普跌，上证3649.18（-1.10%）、创业板指跌3.96%。央行方面美联储维持3.75%-4.00%不变但两位委员要求加息，ECB按兵不动且拉加德或提前辞任，中国央行LPR连续17个月不动并推动政策利率换锚至7天期逆回购。美国中期选举民主党蓝色横扫后，\"超级AI禁令\"进入立法路径，才是AI产业链真正的杀伤来源。",
+        "zh-Hant": "黃金$4,071、白銀$51.98，油價一週暴跌12%：美伊核協議談判窗口打開但交換條件短期無解，霍爾木茲海峽船隻遇襲頻率接近歷史高位。美股方面NVDA $186.64（+2.78%，RSI 30.76）、TSLA $358.22（+4.23%）、AAPL $342.37（-0.52%，已高於賣方均值目標價$332.68）。A股週五普跌，上證3649.18（-1.10%）、創業板指跌3.96%。央行方面美聯儲維持3.75%-4.00%不變但兩位委員要求加息，ECB按兵不動且拉加德或提前辭任，中國央行LPR連續17個月不動並推動政策利率換錨至7天期逆回購。美國中期選舉民主黨藍色橫掃後，\"超級AI禁令\"進入立法路徑，才是AI產業鏈真正的殺傷來源。"
+      },
+      "date": "2026-11-07",
+      "author": "瑞哥观势",
+      "tags": [
+        "Financial Brief",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Financial Brief"
+      ],
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-06-finance-daily",
       "title": {
         "en": "Daily Finance Brief | 2026-11-06",

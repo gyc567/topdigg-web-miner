@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-07-finance-daily",
+      "date": "2026-11-07",
+      "author": "瑞哥观势",
+      "tags": [
+        "Financial Brief",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Financial Brief"
+      ],
+      "title": "Bản tin tài chính hàng ngày | 2026-11-07",
+      "description": "Vàng $4,071, bạc $51.98, dầu thô giảm 12% trong tuần: cửa sổ đàm phán thỏa thuận hạt nhân Mỹ-Iran đã mở nhưng điều kiện trao đổi không có lối thoát trong ngắn hạn, số vụ tấn công tàu thuyền ở eo Hormuz đang ở gần mức kỷ lục. Chứng khoán Mỹ: NVDA $186.64 (+2.78%, RSI 30.76), TSLA $358.22 (+4.23%), AAPL $342.37 (-0.52%, đã cao hơn giá mục tiêu trung bình của bên bán $332.68). Chứng khoán Trung Quốc giảm đồng loạt thứ Sáu, Shanghai Composite 3,649.18 (-1.10%), ChiNext giảm 3.96%. Về chính sách: Fed giữ nguyên 3.75%-4.00% dù hai quan chức bỏ phiếu tăng lãi suất, ECB đi ngang và bà Lagarde có thể từ chức sớm, PBoC giữ LPR lần thứ 17 liên tiếp và chuyển trục chính sách sang lãi suất repo 7 ngày. Sau khi Đảng Dân chộc thắng áp đảo trong bầu cử giữa kỳ Mỹ, \"lệnh cấm AI siêu lớn\" đã có lộ trình lập pháp, và đó mới là nguồn tổn thương thực sự của chuỗi cung ứng AI.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-06-finance-daily",
       "date": "2026-11-06",
       "author": "瑞哥观势",

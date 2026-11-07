@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-07-finance-daily",
+      "date": "2026-11-07",
+      "author": "瑞哥观势",
+      "tags": [
+        "Financial Brief",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Financial Brief"
+      ],
+      "title": "Daily Financial Brief | 2026-11-07",
+      "description": "Gold at $4,071 and silver at $51.98, with crude down 12% for the week: the US-Iran nuclear deal window is open but the terms of exchange have no near-term solution, and vessel attacks in the Strait of Hormuz are running near record highs. In US equities NVDA closed at $186.64 (+2.78%, RSI 30.76), TSLA at $358.22 (+4.23%), and AAPL at $342.37 (-0.52%), now trading above the sell-side average target of $332.68. Chinese equities fell broadly on Friday, with the Shanghai Composite at 3,649.18 (-1.10%) and the ChiNext Index down 3.96%. On the policy side, the Fed held at 3.75%-4.00% though two officials voted to hike, the ECB stayed put with Lagarde possibly stepping down early, and the PBOC left the LPR unchanged for a 17th straight month while moving to re-anchor the policy rate to the 7-day reverse repo. After the Democratic blue sweep in the US midterms, the \"super AI ban\" now has a legislative path, and that is the real source of damage to the AI supply chain.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-06-finance-daily",
       "date": "2026-11-06",
       "author": "瑞哥观势",
