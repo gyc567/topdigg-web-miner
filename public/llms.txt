@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-11-05T00:29:20.064Z
+Generated: 2026-11-07T01:55:32.560Z
 
 ## Site Overview
 
@@ -23,6 +23,12 @@ We deliver in-depth Twitter analytics and trend tracking for content creators an
 | Aura Workbench | https://topdigg.com/aura-workbench | Desktop productivity workbench for Windows & macOS |
 
 ## Latest Blog Posts (10 most recent)
+
+### Claude code/Codex+Seedance AI视频：从一个想法到成片的全流程
+URL: https://topdigg.com/blog/2026-11-07-eian-seedance-ai-video | Date: 2026-11-07 | Author: Eian（@EianLu）
+Tags: AI视频, Seedance, Claude Code, Codex, 提示词工程, 工作流, 转载
+
+Eian 的 AI 视频全流程实战原文转载：Claude code 当总导演、Codex 出图、Seedance 出片。覆盖剧情构思、分镜构图、首尾帧控抽卡率、七段式视频提示词与四线程 agent 工作模式，附完整可复制提示词与成本对比。
 
 ### Someone Turned 1,407 AI Clothing Images Into a Website and Wired Up Virtual Try-On: A Complete Teardown of the Photo-Shoot Bro's Women's Clothing Project
 URL: https://topdigg.com/blog/2026-11-05-nvzhuang-virtual-tryon-open-source | Date: 2026-11-05 | Author: 瑞哥观势
@@ -77,12 +83,6 @@ URL: https://topdigg.com/blog/2026-10-22-tev-long-horizon-agent-analysis | Date:
 Tags: Tev, AI Agent, Reinforcement Learning, Long-Horizon Tasks, Dense Rewards, Paper Analysis, Agentic RL
 
 A deep analysis of the Tev paper jointly published by Adobe Research and UCLA: from latent-world-first environment synthesis, to a breakdown of 1,170 verifiable long-horizon task environments, Progress-Potential Reward Shaping (PPRS), and how Tev-27B matches GPT-6 Astra and Claude Opus 5 on ALE-CM. 
-
-### DeepInfer深度解析：DeepSeek的自研推理引擎，藏着什么信号？
-URL: https://topdigg.com/blog/deepinfer-2026-10-21 | Date: 2026-10-21 | Author: 瑞哥观势
-Tags: DeepSeek, 推理引擎, 开源, AI 基础设施
-
-DeepSeek 开源内部推理引擎 DeepInfer，Apache 2.0 协议。本文拆解其三层架构、KV缓存管理、prefill/decode分离与负载均衡设计，解读这次开源释放的真正信号。
 
 ## AI Product Analyses (latest 5)
 
@@ -179,4 +179,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 205 blog posts | 4 Twitter analyses | 7 AI products
+End of llms.txt | 206 blog posts | 4 Twitter analyses | 7 AI products

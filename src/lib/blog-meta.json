@@ -1,6 +1,29 @@
 {
   "posts": [
     {
+      "slug": "2026-11-07-eian-seedance-ai-video",
+      "title": {
+        "zh-Hans": "Claude code/Codex+Seedance AI视频：从一个想法到成片的全流程"
+      },
+      "description": {
+        "zh-Hans": "Eian 的 AI 视频全流程实战原文转载：Claude code 当总导演、Codex 出图、Seedance 出片。覆盖剧情构思、分镜构图、首尾帧控抽卡率、七段式视频提示词与四线程 agent 工作模式，附完整可复制提示词与成本对比。"
+      },
+      "date": "2026-11-07",
+      "author": "Eian（@EianLu）",
+      "tags": [
+        "AI视频",
+        "Seedance",
+        "Claude Code",
+        "Codex",
+        "提示词工程",
+        "工作流",
+        "转载"
+      ],
+      "categories": [
+        "转载"
+      ]
+    },
+    {
       "slug": "2026-11-05-nvzhuang-virtual-tryon-open-source",
       "title": {
         "en": "Someone Turned 1,407 AI Clothing Images Into a Website and Wired Up Virtual Try-On: A Complete Teardown of the Photo-Shoot Bro's Women's Clothing Project",
