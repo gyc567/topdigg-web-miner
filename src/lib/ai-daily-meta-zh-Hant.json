@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-07-ai-daily",
+      "date": "2026-11-07",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "百度發布 ERNIE-5.5-Flash-Base 開源 Base 模型，280B 總參數每 token 啟動 14B",
+      "description": "百度文心團隊發布 ERNIE-5.5-Flash-Base，在 Hugging Face 開放預訓練終點 Base 權重，提供 FP8 與 BF16 兩種 safetensors。螞蟻百靈發布原生多模態模型 Ling-3.2-flash，總參數 560B、單步啟動 25B，支援 1M 原生長上下文。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-06-ai-daily",
       "date": "2026-11-06",
       "author": "瑞哥观势",
@@ -662,29 +685,6 @@
         "aggregator_url": "https://aihot.virxact.com",
         "original": {
           "name": "比特財商",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-30-ai-daily",
-      "date": "2026-09-30",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI日报"
-      ],
-      "categories": [
-        "AI日报"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "OpenAI 取消 GPT-6.1 发布计划，称安全性未达标",
-      "description": "OpenAI 取消原定下月发布 GPT-6.1 的计划，称测试显示安全回退，将继续调查。与此同时，OpenAI 在 DevDay 2026 发布 GPT-6.1 Sol、常驻智能体 dots 等 20 余项更新，并宣布 ChatGPT 周活跃用户超 12 亿。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }

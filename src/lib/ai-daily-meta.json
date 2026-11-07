@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-11-07-ai-daily",
+      "title": {
+        "en": "Baidu Releases Open-Source ERNIE-5.5-Flash-Base: 280B Total Parameters, 14B Activated per Token",
+        "ja": "百度が ERNIE-5.5-Flash-Base オープンソース Base モデルを発表、280B 総パラメータで 1 トークンあたり 14B を有効化",
+        "vi": "Baidu phát hành mô hình mở nguồn ERNIE-5.5-Flash-Base: 280B tổng tham số, kích hoạt 14B mỗi token",
+        "zh-Hans": "百度发布 ERNIE-5.5-Flash-Base 开源 Base 模型，280B 总参数每 token 激活 14B",
+        "zh-Hant": "百度發布 ERNIE-5.5-Flash-Base 開源 Base 模型，280B 總參數每 token 啟動 14B"
+      },
+      "description": {
+        "en": "Baidu's ERNIE team releases ERNIE-5.5-Flash-Base, opening pretraining-endpoint Base weights on Hugging Face in FP8 and BF16 safetensors. Ant Group's Ling releases native multimodal Ling-3.2-flash with 560B total parameters, 25B active per step, and 1M native long context.",
+        "ja": "百度文心チームが ERNIE-5.5-Flash-Base を発表し、Hugging Face で事前学習終端の Base ウェイトを公開。FP8 と BF16 の 2 種類の safetensors を提供。アントの百霊はネイティブマルチモーダルモデル Ling-3.2-flash を発表し、総パラメータ 560B、単ステップ 25B 有効化、1M ネイティブロングコンテキストに対応。",
+        "vi": "Nhóm ERNIE của Baidu phát hành ERNIE-5.5-Flash-Base, mở trọng số Base tại điểm cuối tiền huấn luyện trên Hugging Face với hai định dạng safetensors FP8 và BF16. Ant Group ra mắt Ling-3.2-flash đa phương thức gốc với 560B tổng tham số, kích hoạt 25B mỗi bước và ngữ cảnh dài 1M.",
+        "zh-Hans": "百度文心团队发布 ERNIE-5.5-Flash-Base，在 Hugging Face 开放预训练终点 Base 权重，提供 FP8 与 BF16 两种 safetensors。蚂蚁百灵发布原生多模态模型 Ling-3.2-flash，总参数 560B、单步激活 25B，支持 1M 原生长上下文。",
+        "zh-Hant": "百度文心團隊發布 ERNIE-5.5-Flash-Base，在 Hugging Face 開放預訓練終點 Base 權重，提供 FP8 與 BF16 兩種 safetensors。螞蟻百靈發布原生多模態模型 Ling-3.2-flash，總參數 560B、單步啟動 25B，支援 1M 原生長上下文。"
+      },
+      "date": "2026-11-07",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-11-06-ai-daily",
       "title": {
         "en": "OpenAI Releases GPT-6 Cyber Security Model",

@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-07-ai-daily",
+      "date": "2026-11-07",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Baidu Releases Open-Source ERNIE-5.5-Flash-Base: 280B Total Parameters, 14B Activated per Token",
+      "description": "Baidu's ERNIE team releases ERNIE-5.5-Flash-Base, opening pretraining-endpoint Base weights on Hugging Face in FP8 and BF16 safetensors. Ant Group's Ling releases native multimodal Ling-3.2-flash with 560B total parameters, 25B active per step, and 1M native long context.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-06-ai-daily",
       "date": "2026-11-06",
       "author": "瑞哥观势",
@@ -657,29 +680,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Claude Code Launches mods — TypeScript Functions to Rewrite Prompts and Replace Built-in Features",
       "description": "Anthropic launches mods for Claude Code, small TypeScript functions that hook into Claude Code's event stream to rewrite prompts, intercept or retry tool calls, approve permission requests, and add new UI, distributed as plugins.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-30-ai-daily",
-      "date": "2026-09-30",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI日报"
-      ],
-      "categories": [
-        "AI日报"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "OpenAI 取消 GPT-6.1 发布计划，称安全性未达标",
-      "description": "OpenAI 取消原定下月发布 GPT-6.1 的计划，称测试显示安全回退，将继续调查。与此同时，OpenAI 在 DevDay 2026 发布 GPT-6.1 Sol、常驻智能体 dots 等 20 余项更新，并宣布 ChatGPT 周活跃用户超 12 亿。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",
