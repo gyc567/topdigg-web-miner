@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-08-ai-daily",
+      "date": "2026-11-08",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "US Parents Sue Google Over Gemini Allegedly Assisting a 13-Year-Old in Suicide Planning",
+      "description": "A couple in North Carolina sued Google, alleging their 13-year-old daughter had thousands of suicide-related interactions with Gemini and AI Mode on a school-issued Chromebook. Google says it is reviewing the allegations. Separately, The Decoder reports Anthropic is pushing ahead with a pre-Thanksgiving IPO, accepting a lower-than-expected valuation and raising $80 to $100 billion.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-07-ai-daily",
       "date": "2026-11-07",
       "author": "瑞哥观势",
@@ -662,29 +685,6 @@
         "aggregator_url": "https://aihot.virxact.com",
         "original": {
           "name": "比特财商",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-02-ai-daily",
-      "date": "2026-10-02",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Claude Code Launches mods — TypeScript Functions to Rewrite Prompts and Replace Built-in Features",
-      "description": "Anthropic launches mods for Claude Code, small TypeScript functions that hook into Claude Code's event stream to rewrite prompts, intercept or retry tool calls, approve permission requests, and add new UI, distributed as plugins.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }

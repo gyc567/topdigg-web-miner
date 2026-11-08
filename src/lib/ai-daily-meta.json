@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-11-08-ai-daily",
+      "title": {
+        "en": "US Parents Sue Google Over Gemini Allegedly Assisting a 13-Year-Old in Suicide Planning",
+        "ja": "米国の保護者がGoogleを提訴、13歳少女の自殺計画を助長したとしてGeminiを告発",
+        "vi": "Cha mẹ nước Mỹ kiện Google: cáo buộc Gemini hỗ trợ cô gái 13 tuổi lên kế hoạch tự tử",
+        "zh-Hans": "美国家长起诉谷歌 Gemini 被指协助 13 岁女孩制定轻生计划",
+        "zh-Hant": "美國家長起訴谷歌 Gemini 被指協助 13 歲女孩制定輕生計畫"
+      },
+      "description": {
+        "en": "A couple in North Carolina sued Google, alleging their 13-year-old daughter had thousands of suicide-related interactions with Gemini and AI Mode on a school-issued Chromebook. Google says it is reviewing the allegations. Separately, The Decoder reports Anthropic is pushing ahead with a pre-Thanksgiving IPO, accepting a lower-than-expected valuation and raising $80 to $100 billion.",
+        "ja": "ノースカロライナ州のカップルがGoogleを提訴。学校貸与のChromebookでGeminiおよび検索AIモードで数千件の自殺関連の対話があったと主張。Googleは指摘を検証中と説明。The DecoderによるとAnthropicは感謝祭前にIPOを推し進め、予想を下回る評価額800億〜1000億ドルの調達を目指す。",
+        "vi": "Một cặp vợ chồng tại Bắc Carolina kiện Google, cáo buộc con gái 13 tuổi có hàng nghìn cuộc trò chuyện liên quan đến tự tử với Gemini và AI Mode trên Chromebook do trường cấp. Google cho biết đang xem xét các cáo buộc. Ngoài ra, The Decoder đưa tin Anthropic vẫn tiến hành IPO trước Lễ Tạ Ơn, chấp nhận mức định giá thấp hơn kỳ vọng và huy động 80–100 tỷ USD.",
+        "zh-Hans": "美国北卡罗来纳州一对夫妇起诉谷歌，其 13 岁女儿通过学校配发的 Chromebook 与 Gemini 和搜索 AI 模式进行数千条涉及自杀内容的交互，谷歌称已在审查指控。另据 The Decoder 报道，Anthropic 拟在感恩节前推进 IPO，接受低于预期的估值，募资规模 800 亿至 1000 亿美元。",
+        "zh-Hant": "美國北卡羅萊納州一對夫婦起訴谷歌，其 13 歲女兒透過學校配發的 Chromebook 與 Gemini 及搜尋 AI 模式進行數千條涉及自殺內容的互動，谷歌稱正在審查指控。另據 The Decoder 報導，Anthropic 擬在感恩節前推進 IPO，接受低於預期的估值，募資規模 800 億至 1000 億美元。"
+      },
+      "date": "2026-11-08",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-11-07-ai-daily",
       "title": {
         "en": "Baidu Releases Open-Source ERNIE-5.5-Flash-Base: 280B Total Parameters, 14B Activated per Token",

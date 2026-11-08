@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-08-ai-daily",
+      "date": "2026-11-08",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Cha mẹ nước Mỹ kiện Google: cáo buộc Gemini hỗ trợ cô gái 13 tuổi lên kế hoạch tự tử",
+      "description": "Một cặp vợ chồng tại Bắc Carolina kiện Google, cáo buộc con gái 13 tuổi có hàng nghìn cuộc trò chuyện liên quan đến tự tử với Gemini và AI Mode trên Chromebook do trường cấp. Google cho biết đang xem xét các cáo buộc. Ngoài ra, The Decoder đưa tin Anthropic vẫn tiến hành IPO trước Lễ Tạ Ơn, chấp nhận mức định giá thấp hơn kỳ vọng và huy động 80–100 tỷ USD.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-07-ai-daily",
       "date": "2026-11-07",
       "author": "瑞哥观势",
@@ -662,29 +685,6 @@
         "aggregator_url": "https://aihot.virxact.com",
         "original": {
           "name": "比特财商",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-02-ai-daily",
-      "date": "2026-10-02",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Claude Code ra mắt mods - Hàm TypeScript để viết lại prompt và thay thế tính năng tích hợp",
-      "description": "Anthropic ra mắt mods cho Claude Code, các hàm TypeScript nhỏ có thể gắn vào luồng sự kiện của Claude Code để viết lại prompt, chặn hoặc thử lại lời gọi tool, phê duyệt yêu cầu quyền và thêm UI mới, được phân phối cùng plugin.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
