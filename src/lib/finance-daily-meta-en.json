@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-08-finance-daily",
+      "date": "2026-11-08",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics",
+        "Federal Reserve",
+        "US-China Relations",
+        "Commodities"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "Daily Finance Brief | 2026-11-08",
+      "description": "The Fed held rates at 3.75%-4.00% on Oct 28 in a 10-2 vote with two dissents calling for a hike, eurozone inflation hit 4.0% (a three-year high), and China's LPR stayed flat for a 12th straight month. Democrats swept the midterms, about 600,000 NVIDIA H200 chips are stuck in Hong Kong, and the S&P 500 lost a record $2.9T in one session.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-07-finance-daily",
       "date": "2026-11-07",
       "author": "瑞哥观势",

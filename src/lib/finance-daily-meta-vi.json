@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-08-finance-daily",
+      "date": "2026-11-08",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics",
+        "Federal Reserve",
+        "US-China Relations",
+        "Commodities"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "Bản tin tài chính hàng ngày | 2026-11-08",
+      "description": "Fed giữ nguyên lãi suất 3,75%-4,00% với phiếu 10-2, trong đó hai thành viên thậm chí còn đề nghị tăng lãi suất. Lạm phát Eurozone lên 4,0%, cao nhất 3 năm. LPR Trung Quốc giữ nguyên 12 tháng liên tiếp. Đảng Dân chủ thắng cả hai viện Quốc hội, khoảng 600.000 chip NVIDIA H200 mắc kẹt tại Hong Kong, và S&P 500 mất 2,9 nghìn tỷ USD trong một phiên, mức lớn nhất từ trước đến nay.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-07-finance-daily",
       "date": "2026-11-07",
       "author": "瑞哥观势",

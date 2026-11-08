@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-08-finance-daily",
+      "date": "2026-11-08",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics",
+        "Federal Reserve",
+        "US-China Relations",
+        "Commodities"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "デイリー金融ブリーフ | 2026-11-08",
+      "description": "FRBは10月28日に10対2の多数決で3.75%-4.00%を据え置き、2名が利上げを主張する異例の反対票となった。ユーロ圏インフレは4.0%で3年ぶり高、中国のLPRは12か月連続で据え置き。民主党が中間選挙で圧勝し、NVIDIA H200約60万個が香港で足止め、S&P500は史上最大となる単日2.9兆ドルの消滅を記録した。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-07-finance-daily",
       "date": "2026-11-07",
       "author": "瑞哥观势",

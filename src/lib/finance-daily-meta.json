@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-11-08-finance-daily",
+      "title": {
+        "en": "Daily Finance Brief | 2026-11-08",
+        "ja": "デイリー金融ブリーフ | 2026-11-08",
+        "vi": "Bản tin tài chính hàng ngày | 2026-11-08",
+        "zh-Hans": "每日财经简报 | 2026-11-08",
+        "zh-Hant": "每日財經快報 | 2026-11-08"
+      },
+      "description": {
+        "en": "The Fed held rates at 3.75%-4.00% on Oct 28 in a 10-2 vote with two dissents calling for a hike, eurozone inflation hit 4.0% (a three-year high), and China's LPR stayed flat for a 12th straight month. Democrats swept the midterms, about 600,000 NVIDIA H200 chips are stuck in Hong Kong, and the S&P 500 lost a record $2.9T in one session.",
+        "ja": "FRBは10月28日に10対2の多数決で3.75%-4.00%を据え置き、2名が利上げを主張する異例の反対票となった。ユーロ圏インフレは4.0%で3年ぶり高、中国のLPRは12か月連続で据え置き。民主党が中間選挙で圧勝し、NVIDIA H200約60万個が香港で足止め、S&P500は史上最大となる単日2.9兆ドルの消滅を記録した。",
+        "vi": "Fed giữ nguyên lãi suất 3,75%-4,00% với phiếu 10-2, trong đó hai thành viên thậm chí còn đề nghị tăng lãi suất. Lạm phát Eurozone lên 4,0%, cao nhất 3 năm. LPR Trung Quốc giữ nguyên 12 tháng liên tiếp. Đảng Dân chủ thắng cả hai viện Quốc hội, khoảng 600.000 chip NVIDIA H200 mắc kẹt tại Hong Kong, và S&P 500 mất 2,9 nghìn tỷ USD trong một phiên, mức lớn nhất từ trước đến nay.",
+        "zh-Hans": "美联储10月以10:2维持利率3.75%-4.00%并出现两票主张加息，欧元区通胀升至4.0%创三年新高，中国LPR连续12个月不变。民主党中期选举横扫国会，约60万颗NVIDIA H200芯片滞留香港，标普单日蒸发2.9万亿美元创历史纪录。",
+        "zh-Hant": "美聯儲10月以10:2維持利率3.75%-4.00%並出現兩票主張加息，歐元區通脹升至4.0%創三年新高，中國LPR連續12個月不變。民主黨中期選舉橫掃國會，約60萬顆NVIDIA H200晶片滯留香港，標普單日蒸發2.9萬億美元創歷史紀錄。"
+      },
+      "date": "2026-11-08",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics",
+        "Federal Reserve",
+        "US-China Relations",
+        "Commodities"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-07-finance-daily",
       "title": {
         "en": "Daily Financial Brief | 2026-11-07",

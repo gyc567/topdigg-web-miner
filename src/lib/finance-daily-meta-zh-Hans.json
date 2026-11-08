@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-08-finance-daily",
+      "date": "2026-11-08",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics",
+        "Federal Reserve",
+        "US-China Relations",
+        "Commodities"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "每日财经简报 | 2026-11-08",
+      "description": "美联储10月以10:2维持利率3.75%-4.00%并出现两票主张加息，欧元区通胀升至4.0%创三年新高，中国LPR连续12个月不变。民主党中期选举横扫国会，约60万颗NVIDIA H200芯片滞留香港，标普单日蒸发2.9万亿美元创历史纪录。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-07-finance-daily",
       "date": "2026-11-07",
       "author": "瑞哥观势",
