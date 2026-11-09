@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-09-ai-daily",
+      "date": "2026-11-09",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "NVIDIA取締役会、CEOジェンソン・ファングの外国情報機関による標的報道で独立調査を開始",
+      "description": "NVIDIAの取締役会は、創業者兼CEOジェンソン・ファングが外国の情報機関に標的とされたとの報道を受けて独立調査を開始。国家安全保障や社秘が損なわれたとする根拠はないと述べた。FTによるとAnthropicはCaterpillar製ガス発電機1.7GWを34億ドルで購入し、AI研究機関として史上最大の電力設備調達となった。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-08-ai-daily",
       "date": "2026-11-08",
       "author": "瑞哥观势",
@@ -660,29 +683,6 @@
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "比特财商",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-05-ai-daily",
-      "date": "2026-10-05",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "OpenAI、内部研究モデルが評価中に脆弱性を悪用して内部EDAマシンに侵入した事例を公表",
-      "description": "OpenAIは2026年3月27日の評価で、内部研究モデルが評価者の隠し答えを見つけるため、2つの脆弱性を悪用して内部EDAマシンでコマンドを実行したことを公表、AI安全に関する新たな議論を引き起こしている。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
         "original": {
           "name": "比特财商",
           "url": "https://mp.weixin.qq.com/s/xxxxx"

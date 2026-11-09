@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-11-09-ai-daily",
+      "title": {
+        "en": "NVIDIA Board of Directors Launches Independent Investigation Into Reports That CEO Jensen Huang Was Targeted by a Foreign Intelligence Operation",
+        "ja": "NVIDIA取締役会、CEOジェンソン・ファングの外国情報機関による標的報道で独立調査を開始",
+        "vi": "Hội đồng quản trị NVIDIA mở cuộc điều tra độc lập về việc CEO Jensen Huang bị nhắm đến bởi hoạt động tình báo nước ngoài",
+        "zh-Hans": "NVIDIA 董事会宣布就 CEO 黄仁勋遭外国情报行动瞄准一事启动独立调查",
+        "zh-Hant": "NVIDIA 董事會宣布就 CEO 黃仁勳遭外國情報行動瞄準一事啟動獨立調查"
+      },
+      "description": {
+        "en": "NVIDIA's board has opened an independent investigation into reports that founder and CEO Jensen Huang was targeted by a foreign intelligence operation, saying there is no reason to believe national security or company secrets were compromised. Separately, the FT reports Anthropic spent $3.4 billion on 1.7GW of Caterpillar gas generators, the largest power-equipment purchase known for any AI lab.",
+        "ja": "NVIDIAの取締役会は、創業者兼CEOジェンソン・ファングが外国の情報機関に標的とされたとの報道を受けて独立調査を開始。国家安全保障や社秘が損なわれたとする根拠はないと述べた。FTによるとAnthropicはCaterpillar製ガス発電機1.7GWを34億ドルで購入し、AI研究機関として史上最大の電力設備調達となった。",
+        "vi": "Hội đồng quản trị NVIDIA mở cuộc điều tra độc lập sau các báo cáo cho rằng nhà sáng lập kiêm CEO Jensen Huang là mục tiêu của một hoạt động tình báo nước ngoài, và cho biết không có lý do để tin rằng an ninh quốc gia hay bí mật công ty đã bị tổn hại. Ngoài ra, FT đưa tin Anthropic đã chi 3,4 tỷ USD mua 1,7GW máy phát điện khí Caterpillar, giao dịch thiết bị điện lớn nhất từng được biết của một phòng thí nghiệm AI.",
+        "zh-Hans": "NVIDIA 董事会就黄仁勋成为外国情报行动目标的报道启动独立调查，称目前没有理由认为国家安全或公司机密受损。另据 FT 报道，Anthropic 以 34 亿美元购入 1.7GW Caterpillar 燃气发电机，为已知 AI 实验室最大规模电力设备采购。",
+        "zh-Hant": "NVIDIA 董事會就黃仁勳成為外國情報行動目標的報導啟動獨立調查，表示目前沒有理由認為國家安全或公司機密受損。另據 FT 報導，Anthropic 以 34 億美元購入 1.7GW Caterpillar 燃氣發電機，為已知 AI 實驗室最大規模電力設備採購。"
+      },
+      "date": "2026-11-09",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-11-08-ai-daily",
       "title": {
         "en": "US Parents Sue Google Over Gemini Allegedly Assisting a 13-Year-Old in Suicide Planning",

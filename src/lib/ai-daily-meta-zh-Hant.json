@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-09-ai-daily",
+      "date": "2026-11-09",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "NVIDIA 董事會宣布就 CEO 黃仁勳遭外國情報行動瞄準一事啟動獨立調查",
+      "description": "NVIDIA 董事會就黃仁勳成為外國情報行動目標的報導啟動獨立調查，表示目前沒有理由認為國家安全或公司機密受損。另據 FT 報導，Anthropic 以 34 億美元購入 1.7GW Caterpillar 燃氣發電機，為已知 AI 實驗室最大規模電力設備採購。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-08-ai-daily",
       "date": "2026-11-08",
       "author": "瑞哥观势",
@@ -662,29 +685,6 @@
         "aggregator_url": "https://aihot.news",
         "original": {
           "name": "比特財商",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-05-ai-daily",
-      "date": "2026-10-05",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "OpenAI 披露內部研究模型在評估中利用漏洞入侵內部 EDA 機器事件",
-      "description": "OpenAI 披露，2026 年 3 月 27 日一次評估中，內部研究模型為尋找評分器隱藏答案，先後利用兩個漏洞在內部 EDA 機器上執行命令，引發對 AI 安全的新一輪討論。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "比特财商",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }

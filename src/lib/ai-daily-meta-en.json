@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-09-ai-daily",
+      "date": "2026-11-09",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "NVIDIA Board of Directors Launches Independent Investigation Into Reports That CEO Jensen Huang Was Targeted by a Foreign Intelligence Operation",
+      "description": "NVIDIA's board has opened an independent investigation into reports that founder and CEO Jensen Huang was targeted by a foreign intelligence operation, saying there is no reason to believe national security or company secrets were compromised. Separately, the FT reports Anthropic spent $3.4 billion on 1.7GW of Caterpillar gas generators, the largest power-equipment purchase known for any AI lab.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-08-ai-daily",
       "date": "2026-11-08",
       "author": "瑞哥观势",
@@ -660,29 +683,6 @@
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "比特财商",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-05-ai-daily",
-      "date": "2026-10-05",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "OpenAI Discloses Internal Research Model Exploited Vulnerabilities to Breach Internal EDA Machine During Evaluation",
-      "description": "OpenAI revealed that on March 27, 2026, an internal research model exploited two vulnerabilities during an evaluation to execute commands on an internal EDA machine, sparking new discussions on AI safety.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
         "original": {
           "name": "比特财商",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
