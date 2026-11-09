@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-09-finance-daily",
+      "date": "2026-11-09",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics",
+        "Federal Reserve",
+        "US-China Relations",
+        "Commodities"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "Daily Finance Brief | 2026-11-09",
+      "description": "The Fed held the federal funds rate at 3.75%-4.00% on Oct 28 in a 10-2 vote, two weeks after a 25bp hike, and Chair Warsh killed forward guidance. The ECB kept the deposit rate at 2.50% after debating a hike, while Lagarde announced her early departure. China's LPR stayed flat for a 17th straight month with Q3 GDP at 4.5%. NVDA rose 2.78% but RSI sits at just 30.76 ahead of the Nov 17 earnings, and the US-Iran conflict has entered its eighth month with Hormuz and Qeshm already hit.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-08-finance-daily",
       "date": "2026-11-08",
       "author": "瑞哥观势",

@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-09-finance-daily",
+      "date": "2026-11-09",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics",
+        "Federal Reserve",
+        "US-China Relations",
+        "Commodities"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "Bản tin Tài chính Hàng ngày | 2026-11-09",
+      "description": "Fed giữ nguyên lãi suất 3,75%-4,00% trong phiên họp tháng 10 với tỷ lệ 10:2, chỉ hai tuần sau đợt tăng 25 điểm cơ bản, và Chủ tịch Warsh đã loại bỏ định hướng trước. ECB giữ tỷ lệ tiền gửi ở 2,50% sau khi bàn về khả năng tăng, còn Lagarde thông báo sớm rời ghế. LPR Trung Quốc đi ngang lần thứ 17 liên tiếp với GDP quý III đạt 4,5%. NVDA tăng 2,78% nhưng RSI chỉ 30,76 trước báo cáo lợi nhuận ngày 17/11. Xung đột Mỹ-Iran đã bước vào tháng thứ tám, Hormuz và Qeshm đều đã bị tấn công.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-08-finance-daily",
       "date": "2026-11-08",
       "author": "瑞哥观势",

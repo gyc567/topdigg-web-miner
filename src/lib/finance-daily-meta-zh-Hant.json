@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-09-finance-daily",
+      "date": "2026-11-09",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics",
+        "Federal Reserve",
+        "US-China Relations",
+        "Commodities"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "每日財經簡報 | 2026-11-09",
+      "description": "Fed於10月以10:2維持聯邦基金利率3.75%-4.00%不變，9月剛加息25個基點，主席沃什取消前瞻指引；ECB維持存款利率2.50%但會上討論過加息，拉加德宣布將提前卸任；中國央行LPR連續17個月不變，三季度GDP 4.5%超預期。NVDA單日漲2.78%但RSI僅30.76，11月17日財報臨近；美伊衝突進入第八個月，霍爾木茲與格什姆島已遭打擊。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-08-finance-daily",
       "date": "2026-11-08",
       "author": "瑞哥观势",

@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-09-finance-daily",
+      "date": "2026-11-09",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics",
+        "Federal Reserve",
+        "US-China Relations",
+        "Commodities"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "デイリー財務ブリーフ | 2026-11-09",
+      "description": "Fedは10月に10対2の投票で联邦基金金利3.75%-4.00%を維持し、9月の25bp利上げから2週間後。議長ウォッシュが前瞻的ガイダンスを撤回。ECBは預金金利2.50%据え置きながら利上げを協議し、ラガardeは早期退任を発表。中国人民銀行はLPRを17か月連続据え置き、四半期GDPは4.5%と予想超過。NVDAは2.78%上昇だがRSIは30.76と低位、11月17日の決算が近い。米イラン衝突は8か月目に突入し、ホルムズ海峡とグESHム島が既に攻撃されている。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-08-finance-daily",
       "date": "2026-11-08",
       "author": "瑞哥观势",

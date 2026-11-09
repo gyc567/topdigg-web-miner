@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-11-09-finance-daily",
+      "title": {
+        "en": "Daily Finance Brief | 2026-11-09",
+        "ja": "デイリー財務ブリーフ | 2026-11-09",
+        "vi": "Bản tin Tài chính Hàng ngày | 2026-11-09",
+        "zh-Hans": "每日财经简报 | 2026-11-09",
+        "zh-Hant": "每日財經簡報 | 2026-11-09"
+      },
+      "description": {
+        "en": "The Fed held the federal funds rate at 3.75%-4.00% on Oct 28 in a 10-2 vote, two weeks after a 25bp hike, and Chair Warsh killed forward guidance. The ECB kept the deposit rate at 2.50% after debating a hike, while Lagarde announced her early departure. China's LPR stayed flat for a 17th straight month with Q3 GDP at 4.5%. NVDA rose 2.78% but RSI sits at just 30.76 ahead of the Nov 17 earnings, and the US-Iran conflict has entered its eighth month with Hormuz and Qeshm already hit.",
+        "ja": "Fedは10月に10対2の投票で联邦基金金利3.75%-4.00%を維持し、9月の25bp利上げから2週間後。議長ウォッシュが前瞻的ガイダンスを撤回。ECBは預金金利2.50%据え置きながら利上げを協議し、ラガardeは早期退任を発表。中国人民銀行はLPRを17か月連続据え置き、四半期GDPは4.5%と予想超過。NVDAは2.78%上昇だがRSIは30.76と低位、11月17日の決算が近い。米イラン衝突は8か月目に突入し、ホルムズ海峡とグESHム島が既に攻撃されている。",
+        "vi": "Fed giữ nguyên lãi suất 3,75%-4,00% trong phiên họp tháng 10 với tỷ lệ 10:2, chỉ hai tuần sau đợt tăng 25 điểm cơ bản, và Chủ tịch Warsh đã loại bỏ định hướng trước. ECB giữ tỷ lệ tiền gửi ở 2,50% sau khi bàn về khả năng tăng, còn Lagarde thông báo sớm rời ghế. LPR Trung Quốc đi ngang lần thứ 17 liên tiếp với GDP quý III đạt 4,5%. NVDA tăng 2,78% nhưng RSI chỉ 30,76 trước báo cáo lợi nhuận ngày 17/11. Xung đột Mỹ-Iran đã bước vào tháng thứ tám, Hormuz và Qeshm đều đã bị tấn công.",
+        "zh-Hans": "美联储10月以10:2维持联邦基金利率3.75%-4.00%不变，9月刚加息25个基点，主席沃什取消前瞻指引；欧洲央行维持存款利率2.50%但会上讨论过加息，拉加德宣布将提前卸任；中国央行LPR连续17个月不变，三季度GDP 4.5%超预期。NVDA单日涨2.78%但RSI仅30.76，11月17日财报临近；美伊冲突进入第八个月，霍尔木兹与格什姆岛已遭打击。",
+        "zh-Hant": "Fed於10月以10:2維持聯邦基金利率3.75%-4.00%不變，9月剛加息25個基點，主席沃什取消前瞻指引；ECB維持存款利率2.50%但會上討論過加息，拉加德宣布將提前卸任；中國央行LPR連續17個月不變，三季度GDP 4.5%超預期。NVDA單日漲2.78%但RSI僅30.76，11月17日財報臨近；美伊衝突進入第八個月，霍爾木茲與格什姆島已遭打擊。"
+      },
+      "date": "2026-11-09",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics",
+        "Federal Reserve",
+        "US-China Relations",
+        "Commodities"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-08-finance-daily",
       "title": {
         "en": "Daily Finance Brief | 2026-11-08",
