@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-10-ai-daily",
+      "date": "2026-11-10",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Anthropic 發佈 Claude Fable 5.2 與 Claude Mythos 5.2",
+      "description": "Anthropic 發佈 Claude Fable 5.2 和 Claude Mythos 5.2，兩者為同一底層模型，Mythos 需透過 Cyber 或 Life Sciences Verification Program 申請存取。同日 Meta 發佈主打智能體高頻任務的最小最高效模型 Muse Ember，位元組 Seedream 5.5 支援 100 輪連續編輯與原生 RGBA 透明輸出。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-09-ai-daily",
       "date": "2026-11-09",
       "author": "瑞哥观势",
@@ -662,29 +685,6 @@
         "aggregator_url": "https://aihot.news",
         "original": {
           "name": "比特财商",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-06-ai-daily",
-      "date": "2026-10-06",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "SemiAnalysis 測算：Anthropic 訂閱的 API 等價價值約為 OpenAI 的 5 倍以上",
-      "description": "SemiAnalysis 透過逐項測量用量表變化，估算各訂閱計劃的 API 等價價值，結論是在中端模型檔位 Anthropic 訂閱的價值約為 OpenAI 的 5 倍。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "比特財商",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }

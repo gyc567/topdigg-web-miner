@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-10-ai-daily",
+      "date": "2026-11-10",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Anthropic Releases Claude Fable 5.2 and Claude Mythos 5.2",
+      "description": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2, which are the same underlying model, with Mythos requiring application through the Cyber or Life Sciences Verification Program. On the same day Meta shipped Muse Ember, its smallest and most efficient model for high-frequency agent tasks, while ByteDance's Seedream 5.5 added 100-round continuous editing and native RGBA transparent output.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-09-ai-daily",
       "date": "2026-11-09",
       "author": "瑞哥观势",
@@ -657,29 +680,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI",
       "description": "OpenAI 发布面向更广泛用户的 GPT-6，并随 GPT-6 在 ChatGPT 中引入 Intelligent UI，可生成图形、按钮、表单、图表和可交互组件来回答问题。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "比特财商",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-06-ai-daily",
-      "date": "2026-10-06",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "SemiAnalysis Estimates: Anthropic Subscription's API Equivalent Value is 5x+ that of OpenAI",
-      "description": "SemiAnalysis estimates the API equivalent value of Anthropic subscription plans by measuring usage table changes item by item, concluding that at the mid-tier model level, Anthropic's value is approximately 5 times that of OpenAI.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

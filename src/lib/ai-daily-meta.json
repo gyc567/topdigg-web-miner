@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-11-10-ai-daily",
+      "title": {
+        "en": "Anthropic Releases Claude Fable 5.2 and Claude Mythos 5.2",
+        "ja": "Anthropic、Claude Fable 5.2 と Claude Mythos 5.2 を発表",
+        "vi": "Anthropic phát hành Claude Fable 5.2 và Claude Mythos 5.2",
+        "zh-Hans": "Anthropic 发布 Claude Fable 5.2 与 Claude Mythos 5.2",
+        "zh-Hant": "Anthropic 發佈 Claude Fable 5.2 與 Claude Mythos 5.2"
+      },
+      "description": {
+        "en": "Anthropic released Claude Fable 5.2 and Claude Mythos 5.2, which are the same underlying model, with Mythos requiring application through the Cyber or Life Sciences Verification Program. On the same day Meta shipped Muse Ember, its smallest and most efficient model for high-frequency agent tasks, while ByteDance's Seedream 5.5 added 100-round continuous editing and native RGBA transparent output.",
+        "ja": "Anthropic が Claude Fable 5.2 と Claude Mythos 5.2 を発表した。両者は同一の基盤モデルで、Mythos は Cyber または Life Sciences Verification Program への申請が必要。同じ日に Meta はエージェントの高頻度タスク向け最小・最高効率モデル Muse Ember を、ByteDance は 100 回の連続編集とネイティブ RGBA 透明出力に対応した Seedream 5.5 をリリースした。",
+        "vi": "Anthropic phát hành Claude Fable 5.2 và Claude Mythos 5.2, cả hai dùng chung một mô hình nền, với Mythos phải đăng ký qua Chương trình Xác minh Cyber hoặc Life Sciences. Cùng ngày, Meta tung Muse Ember, mô hình nhỏ gọn hiệu quả nhất cho các tác vụ lặp lại của agent, còn Seedream 5.5 của ByteDance hỗ trợ 100 lượt chỉnh sửa liên tiếp và xuất RGBA trong suốt gốc.",
+        "zh-Hans": "Anthropic 发布 Claude Fable 5.2 和 Claude Mythos 5.2，两者为同一底层模型，Mythos 需通过 Cyber 或 Life Sciences Verification Program 申请访问。同日 Meta 发布主打智能体高频任务的最小最高效模型 Muse Ember，字节 Seedream 5.5 支持 100 轮连续编辑与原生 RGBA 透明输出。",
+        "zh-Hant": "Anthropic 發佈 Claude Fable 5.2 和 Claude Mythos 5.2，兩者為同一底層模型，Mythos 需透過 Cyber 或 Life Sciences Verification Program 申請存取。同日 Meta 發佈主打智能體高頻任務的最小最高效模型 Muse Ember，位元組 Seedream 5.5 支援 100 輪連續編輯與原生 RGBA 透明輸出。"
+      },
+      "date": "2026-11-10",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-11-09-ai-daily",
       "title": {
         "en": "NVIDIA Board of Directors Launches Independent Investigation Into Reports That CEO Jensen Huang Was Targeted by a Foreign Intelligence Operation",

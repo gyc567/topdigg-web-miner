@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-10-ai-daily",
+      "date": "2026-11-10",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Anthropic、Claude Fable 5.2 と Claude Mythos 5.2 を発表",
+      "description": "Anthropic が Claude Fable 5.2 と Claude Mythos 5.2 を発表した。両者は同一の基盤モデルで、Mythos は Cyber または Life Sciences Verification Program への申請が必要。同じ日に Meta はエージェントの高頻度タスク向け最小・最高効率モデル Muse Ember を、ByteDance は 100 回の連続編集とネイティブ RGBA 透明出力に対応した Seedream 5.5 をリリースした。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-09-ai-daily",
       "date": "2026-11-09",
       "author": "瑞哥观势",
@@ -657,29 +680,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI",
       "description": "OpenAI 发布面向更广泛用户的 GPT-6，并随 GPT-6 在 ChatGPT 中引入 Intelligent UI，可生成图形、按钮、表单、图表和可交互组件来回答问题。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "比特财商",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-06-ai-daily",
-      "date": "2026-10-06",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "SemiAnalysis 試算：Anthropic サブスクリプションの API 等価価値は OpenAI の 5 倍以上",
-      "description": "SemiAnalysis は使用量テーブル 변화를 项별로 測定して 各サブスクリプション計画の API 等価価値を算出。中間モデル階層では Anthropic の価値が OpenAI の約 5 倍であることが判明。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",
