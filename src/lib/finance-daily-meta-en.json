@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-11-finance-daily",
+      "date": "2026-11-11",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomics",
+        "Fed",
+        "Gold",
+        "Geopolitics"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "Daily Finance Briefing | 2026-11-11",
+      "description": "US October CPI came in at +0.4% m/m, above expectations, and Fed Governor Waller flagged a possible 50bp hike in December, with CME pricing a 25bp December move at 95.6%. Gold slumped 2.41% to $4039/oz and silver fell 3.45%, while NVDA dropped 5.54% with RSI at just 19.3, deep in oversold territory. Houthi strikes on Saudi oil facilities and tanker explosions in the Strait of Hormuz pushed Brent briefly below $90 as the market priced in de-escalation.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-10-finance-daily",
       "date": "2026-11-10",
       "author": "瑞哥观势",

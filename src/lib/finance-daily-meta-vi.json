@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-11-finance-daily",
+      "date": "2026-11-11",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomics",
+        "Fed",
+        "Gold",
+        "Geopolitics"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "Bản tin tài chính hằng ngày | 2026-11-11",
+      "description": "CPI tháng 10 của Mỹ tăng 0,4% so với dự kiến, thống đốc Fed Waller tuyên bố có thể cần tăng lãi suất 50bp vào tháng 12, CME định giá xác suất tăng 25bp đạt 95,6%. Vàng giảm 2,41% về $4039/oz, bạc giảm 3,45%. NVDA giảm 5,54% với RSI chỉ 19,3, ở vùng quá bán. Houthis tấn công các cơ sở dầu Ả Rập Saudi, ba tàu chở dầu nổ trong eo Hormuz, trong khi Brent từng xuống dưới 90 USD vì thị trường đánh cược căng thẳng Iran hạ nhiệt.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-10-finance-daily",
       "date": "2026-11-10",
       "author": "瑞哥观势",

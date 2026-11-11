@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-11-11-finance-daily",
+      "title": {
+        "en": "Daily Finance Briefing | 2026-11-11",
+        "ja": "デイリー金融ブリーフィング | 2026-11-11",
+        "vi": "Bản tin tài chính hằng ngày | 2026-11-11",
+        "zh-Hans": "每日财经简报 | 2026-11-11",
+        "zh-Hant": "每日財經簡報 | 2026-11-11"
+      },
+      "description": {
+        "en": "US October CPI came in at +0.4% m/m, above expectations, and Fed Governor Waller flagged a possible 50bp hike in December, with CME pricing a 25bp December move at 95.6%. Gold slumped 2.41% to $4039/oz and silver fell 3.45%, while NVDA dropped 5.54% with RSI at just 19.3, deep in oversold territory. Houthi strikes on Saudi oil facilities and tanker explosions in the Strait of Hormuz pushed Brent briefly below $90 as the market priced in de-escalation.",
+        "ja": "米国10月CPIは市場予想を上回る+0.4%となり、Fed理事ウォラーが12月の50bp利上げに言及、CMEでは12月25bp利上げの確率が95.6%まで上昇。金は2.41%安の$4039/oz、銀は3.45%安。NVDAは5.54%急落しRSIは19.3とoversold圏に。フーシ派がサウジ石油設備を攻撃しホルムズ海峡でタンカー3隻が爆発する一方、ブレント原油は一時90ドル割れとなり市場がイラン情勢の緩和を織り込んだ。",
+        "vi": "CPI tháng 10 của Mỹ tăng 0,4% so với dự kiến, thống đốc Fed Waller tuyên bố có thể cần tăng lãi suất 50bp vào tháng 12, CME định giá xác suất tăng 25bp đạt 95,6%. Vàng giảm 2,41% về $4039/oz, bạc giảm 3,45%. NVDA giảm 5,54% với RSI chỉ 19,3, ở vùng quá bán. Houthis tấn công các cơ sở dầu Ả Rập Saudi, ba tàu chở dầu nổ trong eo Hormuz, trong khi Brent từng xuống dưới 90 USD vì thị trường đánh cược căng thẳng Iran hạ nhiệt.",
+        "zh-Hans": "美国10月CPI环比+0.4%超预期，美联储理事沃勒喊出12月或加息50个基点，CME显示12月加息25bp概率升至95.6%，全球资产估值锚上移。黄金暴跌2.41%至$4039/oz、白银跌3.45%，NVDA单日重挫5.54%且RSI仅19.3进入超卖区。胡塞武装袭击沙特石油设施、三艘油轮在霍尔木兹海峡爆炸，但布伦特一度跌破90美元，市场押注伊朗局势降温。",
+        "zh-Hant": "美國10月CPI月增+0.4%優於預期，聯準會理事沃勒喊出12月可能升息50個基點，CME顯示12月升息25bp機率升至95.6%，全球資產估值錨上移。黃金暴跌2.41%至$4039/oz、白銀跌3.45%，NVDA單日重挫5.54%且RSI僅19.3進入超賣區。胡塞武裝襲擊沙烏地石油設施、三艘油輪在荷姆茲海峽爆炸，但布倫特一度跌破90美元，市場押注伊朗局勢降溫。"
+      },
+      "date": "2026-11-11",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomics",
+        "Fed",
+        "Gold",
+        "Geopolitics"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-10-finance-daily",
       "title": {
         "zh-Hans": "每日财经简报 | 2026-11-10",

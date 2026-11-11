@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-11-finance-daily",
+      "date": "2026-11-11",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomics",
+        "Fed",
+        "Gold",
+        "Geopolitics"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "デイリー金融ブリーフィング | 2026-11-11",
+      "description": "米国10月CPIは市場予想を上回る+0.4%となり、Fed理事ウォラーが12月の50bp利上げに言及、CMEでは12月25bp利上げの確率が95.6%まで上昇。金は2.41%安の$4039/oz、銀は3.45%安。NVDAは5.54%急落しRSIは19.3とoversold圏に。フーシ派がサウジ石油設備を攻撃しホルムズ海峡でタンカー3隻が爆発する一方、ブレント原油は一時90ドル割れとなり市場がイラン情勢の緩和を織り込んだ。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-10-finance-daily",
       "date": "2026-11-10",
       "author": "瑞哥观势",

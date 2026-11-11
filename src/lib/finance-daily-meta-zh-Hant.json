@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-11-finance-daily",
+      "date": "2026-11-11",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomics",
+        "Fed",
+        "Gold",
+        "Geopolitics"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "每日財經簡報 | 2026-11-11",
+      "description": "美國10月CPI月增+0.4%優於預期，聯準會理事沃勒喊出12月可能升息50個基點，CME顯示12月升息25bp機率升至95.6%，全球資產估值錨上移。黃金暴跌2.41%至$4039/oz、白銀跌3.45%，NVDA單日重挫5.54%且RSI僅19.3進入超賣區。胡塞武裝襲擊沙烏地石油設施、三艘油輪在荷姆茲海峽爆炸，但布倫特一度跌破90美元，市場押注伊朗局勢降溫。",
+      "source": {
+        "original": {
+          "name": "瑞哥觀勢",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-10-finance-daily",
       "date": "2026-11-10",
       "author": "瑞哥观势",
