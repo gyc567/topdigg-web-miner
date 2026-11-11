@@ -44,28 +44,37 @@
     {
       "slug": "2026-11-10-finance-daily",
       "title": {
+        "en": "Daily Finance Brief | 2026-11-10",
+        "ja": "デイリー市場ブリーフ | 2026-11-10",
+        "vi": "Bản tin Tài chính Hàng ngày | 2026-11-10",
         "zh-Hans": "每日财经简报 | 2026-11-10",
         "zh-Hant": "每日財經簡報 | 2026-11-10"
       },
       "description": {
+        "en": "Brent crude plunged 6.78% in a single day after Trump said the Iran war is 'effectively over' and that he is willing to negotiate with Tehran, with security in the Strait of Hormuz expected to recover and global risk appetite warming fast; the Nikkei rose 3% back above 60,000 and the KOSPI jumped 5.1%, triggering a circuit breaker. Gold rose against the trend by 1.68% to $4123.84, while NVDA fell 4.27% but with RSI at just 27.4 in oversold territory and the Nov 17 earnings report approaching. The Fed held 3.75%-4.00% unchanged and scrapped forward guidance, while China's October PPI rose 5.7% year on year against CPI of only +0.7%, leaving the room for policy easing locked.",
+        "ja": "トランプ大統領がイラン戦争は「事実上終わった」と述べ、テヘランとの交渉に応じる意向を示し、ホルムズ海峡の安全回復の見込みから世界のリスク選好が急速に回暖。日経平均は3%上昇して6万ポイントを回復、KOSPIは5.1%上昇で値動き制限が発動。金はトレンドに逆行して1.68%高の4123.84ドル、NVDAは4.27%安だがRSIは27.4と売り過ぎ水準で11月17日の決算が近い。Fedは3.75%-4.00%を据え置き前瞻的ガイダンスを撤回、中国は10月PPIが前年比+5.7%に対してCPIは+0.7%にとどまり、緩和余地は封じ込められている。",
+        "vi": "Dầu Brent sụt 6.78% trong một ngày sau khi Trump nói cuộc chiến với Iran 'thực tế đã kết thúc' và sẵn sàng đàm phán với Tehran, an ninh ở eo Hormuz có thể hồi phục, tâm lý rủi ro toàn cầu ấm nhanh; Nikkei tăng 3% lấy lại 60000 điểm, KOSPI tăng 5.1% kích hoạt giới hạn biến động. Vàng tăng 1.68% lên $4123.84, NVDA giảm 4.27% nhưng RSI chỉ 27.4 đã vào vùng quá bán, báo cáo lợi nhuận ngày 17/11 đang đến gần. Fed giữ nguyên 3.75%-4.00% và hủy bỏ định hướng trước, PPI tháng 10 của Trung Quốc tăng 5.7% so với cùng kỳ trong khi CPI chỉ +0.7%, không gian nới lỏng vẫn bị khóa.",
         "zh-Hans": "布伦特原油单日暴跌6.78%，因特朗普称伊朗战事'事实上结束'并愿与德黑兰谈判，霍尔木兹海峡安全有望恢复，全球风险偏好迅速回暖，日经涨3%站上60000点、KOSPI涨5.1%触发熔断。黄金逆势涨1.68%至4123.84美元，NVDA跌4.27%但RSI仅27.4进入超卖区、11月17日财报临近。美联储维持3.75%-4.00%不变且取消前瞻指引，中国10月PPI同比+5.7%而CPI仅+0.7%，政策宽松空间仍被锁住。",
         "zh-Hant": "布蘭特原油單日暴跌6.78%，因川普稱伊朗戰事「事實上結束」並願與德黑蘭談判，霍爾木茲海峽安全有望恢復，全球風險偏好迅速回暖，日經漲3%站上60000點、KOSPI漲5.1%觸發熔斷。黃金逆勢漲1.68%至4123.84美元，NVDA跌4.27%但RSI僅27.4進入超賣區、11月17日財報臨近。Fed維持3.75%-4.00%不變且取消前瞻指引，中國10月PPI同比+5.7%而CPI僅+0.7%，政策寬鬆空間仍被鎖住。"
       },
       "date": "2026-11-10",
       "author": "瑞哥观势",
       "tags": [
-        "财经简报",
-        "宏观经济",
-        "原油",
-        "地缘政治",
-        "美联储"
+        "Finance Brief",
+        "Macroeconomics",
+        "Crude Oil",
+        "Geopolitics",
+        "Federal Reserve"
       ],
       "categories": [
-        "财经简报"
+        "Finance Brief"
       ],
       "source": {
         "original": {
           "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
             "zh-Hans": "瑞哥观势",
             "zh-Hant": "瑞哥观势"
           },
