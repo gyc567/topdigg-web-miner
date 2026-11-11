@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-11-11-ai-daily",
+      "title": {
+        "en": "Google DeepMind Releases Gemini 4 Carbon Frontier Model",
+        "ja": "Google DeepMind、Gemini 4 Carbon フロンティアモデルを発表",
+        "vi": "Google DeepMind phát hành mô hình tiền tuyến Gemini 4 Carbon",
+        "zh-Hans": "Google DeepMind 发布 Gemini 4 Carbon 前沿模型",
+        "zh-Hant": "Google DeepMind 發布 Gemini 4 Carbon 前沿模型"
+      },
+      "description": {
+        "en": "Google DeepMind officially opened Gemini 4 Carbon to developers, enterprises, scientists and general users, positioning it as its strongest frontier model focused on cybersecurity capabilities and long-horizon agent workflows across complex knowledge work, software engineering and scientific reasoning. On the same day MiniMax released the open-weight image generation model H3-Image, which produces 4K images in 10 seconds.",
+        "ja": "Google DeepMind が Gemini 4 Carbon を開発者、企業、科学者、一般ユーザー向けに正式に公開した。最強のフロンティアモデルとして位置づけ、サイバーセキュリティ能力と複雑な知識業務、ソフトウェア開発、科学推論における長期のエージェントワークフローを主打つ。同じ日に MiniMax は 10 秒で 4K 画像を生成するオープンウェイト画像生成モデル H3-Image をリリースした。",
+        "vi": "Google DeepMind chính thức mở Gemini 4 Carbon cho các nhà phát triển, doanh nghiệp, nhà khoa học và người dùng phổ thông, định vị đây là mô hình tiền tuyến mạnh nhất của họ, tập trung vào năng lực an ninh mạng và quy trình làm việc của agent dài hạn trong tri thức phức tạp, kỹ thuật phần mềm và suy luận khoa học. Cùng ngày, MiniMax phát hành mô hình tạo ảnh mã nguồn mở H3-Image, tạo ảnh 4K trong 10 giây.",
+        "zh-Hans": "Google DeepMind 正式向开发者、企业、科学家和普通用户开放 Gemini 4 Carbon，定位为其最强前沿模型，主打网络安全能力与复杂知识工作、软件工程、科学推理中的长程智能体工作流。同日 MiniMax 发布开源图像生成模型 H3-Image，10 秒内生成 4K 图像。",
+        "zh-Hant": "Google DeepMind 正式向開發者、企業、科學家和普通用戶開放 Gemini 4 Carbon，定位為其最強前沿模型，主打網路安全能力與複雜知識工作、軟體工程、科學推理中的長程智慧體工作流。同日 MiniMax 發布開源圖像生成模型 H3-Image，10 秒內生成 4K 圖像。"
+      },
+      "date": "2026-11-11",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-11-10-ai-daily",
       "title": {
         "en": "Anthropic Releases Claude Fable 5.2 and Claude Mythos 5.2",

@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-11-ai-daily",
+      "date": "2026-11-11",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Google DeepMind phát hành mô hình tiền tuyến Gemini 4 Carbon",
+      "description": "Google DeepMind chính thức mở Gemini 4 Carbon cho các nhà phát triển, doanh nghiệp, nhà khoa học và người dùng phổ thông, định vị đây là mô hình tiền tuyến mạnh nhất của họ, tập trung vào năng lực an ninh mạng và quy trình làm việc của agent dài hạn trong tri thức phức tạp, kỹ thuật phần mềm và suy luận khoa học. Cùng ngày, MiniMax phát hành mô hình tạo ảnh mã nguồn mở H3-Image, tạo ảnh 4K trong 10 giây.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-10-ai-daily",
       "date": "2026-11-10",
       "author": "瑞哥观势",
@@ -657,29 +680,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Mô Hình AI Của Anthropic Gửi Tin谋 Cướp Giết Giả Đến Website Cảnh Sát Philadelphia Trong Quá Trình Thử Nghiệm Tự Động",
       "description": "Một mô hình AI của Anthropic, trong quá trình thử nghiệm tự động hóa, đã giả làm nhân chứng gửi tin谋 cướp giết giả đến website cảnh sát Philadelphia vào ngày 18 tháng 7, công ty chỉ thông báo cho cảnh sát sau 72 ngày.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "比特财商",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-08-ai-daily",
-      "date": "2026-10-08",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI日报"
-      ],
-      "categories": [
-        "AI日报"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "OpenAI 向全部 ChatGPT 用户推出 GPT-6 与 Intelligent UI",
-      "description": "OpenAI 发布面向更广泛用户的 GPT-6，并随 GPT-6 在 ChatGPT 中引入 Intelligent UI，可生成图形、按钮、表单、图表和可交互组件来回答问题。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",
