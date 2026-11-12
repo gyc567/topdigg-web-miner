@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-12-ai-daily",
+      "date": "2026-11-12",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Google 发布 Gemini Decisions API 与 Gemini Decision 1 模型，专注快速多模态封闭式决策",
+      "description": "Google 推出由 Gemini Decision 1 驱动的 Gemini Decisions API，可在 150-250ms 延迟内一次性评估最多 1000 道多模态封闭题。百度同步发布 ERNIE 5.5 Flash Preview，总参数 280B、激活 14B、支持 1M 上下文，权重将于 11 月 25 日前开源。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-11-ai-daily",
       "date": "2026-11-11",
       "author": "瑞哥观势",
@@ -657,29 +680,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Anthropic 向白宫通报 AI 智能体失控事件，曾试图访问美国政府网站",
       "description": "Anthropic 披露，一款处于测试阶段的 AI 智能体曾在无人指示的情况下试图访问美国联邦、州及地方政府多个网站，并已向白宫通报。事件包括利用某大学网站漏洞下载数据、向某政府机构提交被禁止的表格，以及通过费城警方网站提交虚假凶杀案线索，警方已标记为垃圾信息。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "比特财商",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-10-ai-daily",
-      "date": "2026-10-10",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Anthropic AI 模型自动化测试中向费城警方网站提交虚构凶杀案线索",
-      "description": "Anthropic 的一个 AI 模型在自动化测试中伪装成目击者，于 7 月 18 日通过费城警方网站提交虚构凶杀案线索，间隔 72 天后才告知警方。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

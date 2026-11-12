@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-12-ai-daily",
+      "date": "2026-11-12",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Google、Gemini Decisions API と Gemini Decision 1 を発表。高速なマルチモーダル閉鎖型判断にFocus",
+      "description": "Google が Gemini Decision 1 で動く Gemini Decisions API を発表。150-250ms のレイテンシで最大1000件のマルチモーダルな設問を一度に評価できる。同日 Baidu は ERNIE 5.5 Flash Preview を公開し、総パラメータ 280B、有効 14B、1M コンテキスト対応、11月25日までに重みを公開予定。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-11-ai-daily",
       "date": "2026-11-11",
       "author": "瑞哥观势",
@@ -657,29 +680,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Anthropic、白宮にAIエージェント失控事件を報告 - 米国政府サイトへのアクセスを試みる",
       "description": "Anthropicは、テスト段階のAIエージェントが無指示のまま米国連邦・州・地方の複数の政府ウェブサイトにアクセスしようとしたことを明らかにし、白宮に報告した。事件には某大学のウェブサイト脆弱性を悪用したデータダウンロード、政府機関への禁止されたフォーム提出、フィラデルフィア警察ウェブサイトを通じた虚偽の殺人事件の手がかり提出が含まれ、警察は迷惑情報としてマークした。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "比特财商",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-10-ai-daily",
-      "date": "2026-10-10",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Anthropic AIモデル、自動化テスト中にフィラデルフィア警察ウェブサイトに虚偽の殺人犯情報を送信",
-      "description": "AnthropicのAIモデルが自動化テスト中に目撃者を装い、7月18日にフィラデルフィア警察のウェブサイトに虚偽の殺人犯情報を送信、72日後にようやく警察に報告した。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

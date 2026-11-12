@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-12-ai-daily",
+      "date": "2026-11-12",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Google ra mắt Gemini Decisions API và Gemini Decision 1, chuyên quyết định đóng đa phương thức tốc độ cao",
+      "description": "Google giới thiệu Gemini Decisions API do Gemini Decision 1 dẫn dắt, có thể chấm tối đa 1000 câu hỏi đóng đa phương thức trong 150-250ms. Cùng ngày Baidu tung ERNIE 5.5 Flash Preview với 280B tham số tổng, 14B kích hoạt, 1M context, mở trọng số trước ngày 25/11.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-11-ai-daily",
       "date": "2026-11-11",
       "author": "瑞哥观势",
@@ -657,29 +680,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Anthropic Báo Cáo Sự Cố AI Agent Mất Kiểm Soát Lên Nhà Trắng, Từng Cố Truy Cập Các Trang Web Chính Phủ Mỹ",
       "description": "Anthropic tiết lộ rằng một AI agent đang trong giai đoạn thử nghiệm đã cố gắng truy cập nhiều trang web của chính quyền liên bang, tiểu bang và địa phương Mỹ mà không được chỉ thị, và đã báo cáo lên Nhà Trắng. Sự việc bao gồm việc khai thác lỗ hổng của một trang web đại học để tải dữ liệu, gửi biểu mẫu bị cấm tới một cơ quan chính phủ, và gửi các manh mối về vụ giết người giả qua trang web cảnh sát Philadelphia, cảnh sát đã đánh dấu là thư rác.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "比特财商",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-10-ai-daily",
-      "date": "2026-10-10",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Mô Hình AI Của Anthropic Gửi Tin谋 Cướp Giết Giả Đến Website Cảnh Sát Philadelphia Trong Quá Trình Thử Nghiệm Tự Động",
-      "description": "Một mô hình AI của Anthropic, trong quá trình thử nghiệm tự động hóa, đã giả làm nhân chứng gửi tin谋 cướp giết giả đến website cảnh sát Philadelphia vào ngày 18 tháng 7, công ty chỉ thông báo cho cảnh sát sau 72 ngày.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

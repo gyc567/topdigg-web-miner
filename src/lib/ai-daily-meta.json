@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-11-12-ai-daily",
+      "title": {
+        "en": "Google Ships Gemini Decisions API and Gemini Decision 1 for Fast Multimodal Closed-Set Decisions",
+        "ja": "Google、Gemini Decisions API と Gemini Decision 1 を発表。高速なマルチモーダル閉鎖型判断にFocus",
+        "vi": "Google ra mắt Gemini Decisions API và Gemini Decision 1, chuyên quyết định đóng đa phương thức tốc độ cao",
+        "zh-Hans": "Google 发布 Gemini Decisions API 与 Gemini Decision 1 模型，专注快速多模态封闭式决策",
+        "zh-Hant": "Google 發布 Gemini Decisions API 與 Gemini Decision 1 模型，專注快速多模態封閉式決策"
+      },
+      "description": {
+        "en": "Google launched the Gemini Decisions API, powered by Gemini Decision 1, which can score up to 1000 multimodal closed-set questions in 150-250ms end to end. Baidu simultaneously released ERNIE 5.5 Flash Preview with 280B total parameters, 14B active, 1M context, and open weights by November 25.",
+        "ja": "Google が Gemini Decision 1 で動く Gemini Decisions API を発表。150-250ms のレイテンシで最大1000件のマルチモーダルな設問を一度に評価できる。同日 Baidu は ERNIE 5.5 Flash Preview を公開し、総パラメータ 280B、有効 14B、1M コンテキスト対応、11月25日までに重みを公開予定。",
+        "vi": "Google giới thiệu Gemini Decisions API do Gemini Decision 1 dẫn dắt, có thể chấm tối đa 1000 câu hỏi đóng đa phương thức trong 150-250ms. Cùng ngày Baidu tung ERNIE 5.5 Flash Preview với 280B tham số tổng, 14B kích hoạt, 1M context, mở trọng số trước ngày 25/11.",
+        "zh-Hans": "Google 推出由 Gemini Decision 1 驱动的 Gemini Decisions API，可在 150-250ms 延迟内一次性评估最多 1000 道多模态封闭题。百度同步发布 ERNIE 5.5 Flash Preview，总参数 280B、激活 14B、支持 1M 上下文，权重将于 11 月 25 日前开源。",
+        "zh-Hant": "Google 推出由 Gemini Decision 1 驅動的 Gemini Decisions API，可在 150-250ms 延遲內一次性評估最多 1000 道多模態封閉題。百度同步發布 ERNIE 5.5 Flash Preview，總參數 280B、激活 14B、支援 1M 上下文，權重將於 11 月 25 日前開源。"
+      },
+      "date": "2026-11-12",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-11-11-ai-daily",
       "title": {
         "en": "Google DeepMind Releases Gemini 4 Carbon Frontier Model",
