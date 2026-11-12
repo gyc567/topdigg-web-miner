@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-12-finance-daily",
+      "date": "2026-11-12",
+      "author": "瑞哥观势",
+      "tags": [
+        "财经简报",
+        "宏观经济"
+      ],
+      "categories": [
+        "财经简报"
+      ],
+      "title": "每日財經簡報 | 2026-11-12",
+      "description": "美元加息預期把 EUR/USD 壓回 1.11 下方，黃金在 4000 美元上方承壓，而霍爾木茲海峽連出事成為今日最大變量。同時《華爾街日報》曝出 NVIDIA 董事會準備罷免黃仁勳，治理風險與 11 月 17 日財報同時定價。",
+      "source": {
+        "original": {
+          "name": "瑞哥觀勢",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-11-finance-daily",
       "date": "2026-11-11",
       "author": "瑞哥观势",
@@ -624,28 +644,6 @@
       "source": {
         "original": {
           "name": "比特財商",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-28-finance-daily",
-      "date": "2026-09-28",
-      "author": "瑞哥观势",
-      "tags": [
-        "Finance Briefing",
-        "Macroeconomy",
-        "Fed",
-        "ECB"
-      ],
-      "categories": [
-        "Finance Briefing"
-      ],
-      "title": "每日財經簡報 | 2026-09-28",
-      "description": "美聯準、歐央行9月同步加息25基點，EUR/USD報1.1380；AAPL大漲1.53%逼近歷史高點；黃金小幅回落至$4238/盎司；中國LPR連續16個月按兵不動。",
-      "source": {
-        "original": {
-          "name": "瑞哥觀勢",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }

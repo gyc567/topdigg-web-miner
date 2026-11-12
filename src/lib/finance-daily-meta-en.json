@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-12-finance-daily",
+      "date": "2026-11-12",
+      "author": "瑞哥观势",
+      "tags": [
+        "财经简报",
+        "宏观经济"
+      ],
+      "categories": [
+        "财经简报"
+      ],
+      "title": "每日财经简报 | 2026-11-12",
+      "description": "美元加息预期把 EUR/USD 压回 1.11 下方，黄金在 4000 美元上方承压，而霍尔木兹海峡连续出事成为今日最大变量。同时《华尔街日报》曝出 NVIDIA 董事会准备罢免黄仁勋，治理风险与 11 月 17 日财报同时定价。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-11-finance-daily",
       "date": "2026-11-11",
       "author": "瑞哥观势",
@@ -621,28 +641,6 @@
       ],
       "title": "Daily Finance Briefing | 2026-09-29",
       "description": "Overnight US mega-cap tech diverged (AAPL and TSLA pull back, NVDA hits new high); offshore CNH breaks above 6.71; US-China trade truce extended to Jan 2027; Hormuz Strait standoff pushes oil prices.",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-28-finance-daily",
-      "date": "2026-09-28",
-      "author": "瑞哥观势",
-      "tags": [
-        "Finance Briefing",
-        "Macroeconomy",
-        "Fed",
-        "ECB"
-      ],
-      "categories": [
-        "Finance Briefing"
-      ],
-      "title": "Daily Finance Briefing | 2026-09-28",
-      "description": "Fed and ECB both hike 25bps in September; EUR/USD at 1.1380; AAPL surges 1.53% near all-time high; Gold pulls back to $4,238/oz; China LPR unchanged for 16 straight months.",
       "source": {
         "original": {
           "name": "瑞哥观势",

@@ -1,6 +1,35 @@
 {
   "reports": [
     {
+      "slug": "2026-11-12-finance-daily",
+      "title": {
+        "zh-Hans": "每日财经简报 | 2026-11-12",
+        "zh-Hant": "每日財經簡報 | 2026-11-12"
+      },
+      "description": {
+        "zh-Hans": "美元加息预期把 EUR/USD 压回 1.11 下方，黄金在 4000 美元上方承压，而霍尔木兹海峡连续出事成为今日最大变量。同时《华尔街日报》曝出 NVIDIA 董事会准备罢免黄仁勋，治理风险与 11 月 17 日财报同时定价。",
+        "zh-Hant": "美元加息預期把 EUR/USD 壓回 1.11 下方，黃金在 4000 美元上方承壓，而霍爾木茲海峽連出事成為今日最大變量。同時《華爾街日報》曝出 NVIDIA 董事會準備罷免黃仁勳，治理風險與 11 月 17 日財報同時定價。"
+      },
+      "date": "2026-11-12",
+      "author": "瑞哥观势",
+      "tags": [
+        "财经简报",
+        "宏观经济"
+      ],
+      "categories": [
+        "财经简报"
+      ],
+      "source": {
+        "original": {
+          "name": {
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-11-finance-daily",
       "title": {
         "en": "Daily Finance Briefing | 2026-11-11",

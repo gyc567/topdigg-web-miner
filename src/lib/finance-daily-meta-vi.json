@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-12-finance-daily",
+      "date": "2026-11-12",
+      "author": "瑞哥观势",
+      "tags": [
+        "财经简报",
+        "宏观经济"
+      ],
+      "categories": [
+        "财经简报"
+      ],
+      "title": "每日财经简报 | 2026-11-12",
+      "description": "美元加息预期把 EUR/USD 压回 1.11 下方，黄金在 4000 美元上方承压，而霍尔木兹海峡连续出事成为今日最大变量。同时《华尔街日报》曝出 NVIDIA 董事会准备罢免黄仁勋，治理风险与 11 月 17 日财报同时定价。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-11-finance-daily",
       "date": "2026-11-11",
       "author": "瑞哥观势",
@@ -621,28 +641,6 @@
       ],
       "title": "Bản Tin Tài Chính Hàng Ngày | 2026-09-29",
       "description": "Chứng khoán Mỹ qua đêm phân hóa (AAPL, TSLA điều chỉnh, NVDA lập đỉnh); CNH ngoài khơi vượt 6,71; thỏa thuận đình chiến thương mại Mỹ-Trung được gia hạn đến tháng 1/2027; căng thẳng eo biển Hormuz đẩy giá dầu.",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-28-finance-daily",
-      "date": "2026-09-28",
-      "author": "瑞哥观势",
-      "tags": [
-        "Finance Briefing",
-        "Macroeconomy",
-        "Fed",
-        "ECB"
-      ],
-      "categories": [
-        "Finance Briefing"
-      ],
-      "title": "Bản Tin Tài Chính Hàng Ngày | 2026-09-28",
-      "description": "Fed và ECB cùng tăng lãi suất 25bps vào tháng 9; EUR/USD ở mức 1.1380; AAPL tăng mạnh 1.53% tiến sát đỉnh lịch sử; Vàng giảm nhẹ về $4,238/oz; LPR Trung Quốc giữ nguyên 16 tháng liên tiếp.",
       "source": {
         "original": {
           "name": "瑞哥观势",
