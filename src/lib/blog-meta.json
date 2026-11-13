@@ -1,6 +1,28 @@
 {
   "posts": [
     {
+      "slug": "2026-11-13-cinecode-code-film",
+      "title": {
+        "zh-Hans": "代码拍电影：2313星项目 cinecode 的5条反AI铁律"
+      },
+      "description": {
+        "zh-Hans": "cinecode 不用生成模型，而是用代码渲染每一帧。拆解它的5条反AI铁律、4条设计哲学、6步实操教程，以及6条可以直接搬进自己公司的观点。"
+      },
+      "date": "2026-11-13",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI视频",
+        "代码生成视频",
+        "Agent Skill",
+        "three.js",
+        "工作流",
+        "内容生产"
+      ],
+      "categories": [
+        "AI应用"
+      ]
+    },
+    {
       "slug": "2026-11-07-eian-seedance-ai-video",
       "title": {
         "zh-Hans": "Claude code/Codex+Seedance AI视频：从一个想法到成片的全流程"
