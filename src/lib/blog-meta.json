@@ -1,6 +1,27 @@
 {
   "posts": [
     {
+      "slug": "2026-11-13-b2a-economy",
+      "title": {
+        "zh-Hans": "验证码正在失效，你的客户正在变成 AI"
+      },
+      "description": {
+        "zh-Hans": "a16z 合伙人 Olivia Moore 与 Justine Moore 的《Welcome to the B2A Economy》深度拆解：AI Agent 已是互联网多数流量，AI 导流转化率高出近 50%。附全部数字一手来源核对与三个立刻可做的动作。"
+      },
+      "date": "2026-11-13",
+      "author": "瑞哥观势",
+      "tags": [
+        "B2A",
+        "AI Agent",
+        "电商",
+        "商业模式",
+        "Agent基础设施"
+      ],
+      "categories": [
+        "AI应用"
+      ]
+    },
+    {
       "slug": "2026-11-13-cinecode-code-film",
       "title": {
         "zh-Hans": "代码拍电影：2313星项目 cinecode 的5条反AI铁律"
