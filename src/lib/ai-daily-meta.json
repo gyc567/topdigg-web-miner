@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-11-13-ai-daily",
+      "title": {
+        "en": "NVIDIA Changes Course: Jensen Huang Steps Down as CEO, CFO Takes Over",
+        "ja": "NVIDIA 突然の陣容交代：ジェンセン・ファングが CEO を退任、CFO が代行",
+        "vi": "NVIDIA đổi hướng: Jensen Huang từ chức CEO, CFO tiếp quản",
+        "zh-Hans": "NVIDIA 突然换帅：黄仁勋辞任 CEO，CFO 临时接任",
+        "zh-Hant": "NVIDIA 突然換帥：黃仁勳辭任 CEO，CFO 臨時接任"
+      },
+      "description": {
+        "en": "NVIDIA's board announced that Jensen Huang immediately resigned as president, CEO and director, with CFO Colette Kress named interim CEO while a successor search begins. On the same day Anthropic announced its IPO and Google DeepMind released Gemini 4 Hydrogen.",
+        "ja": "NVIDIA 取締役会はジェンセン・ファングが即日、社長兼CEO 兼取締役を退任し、CFO のコレット・クレスが後任指名の手続きを開始する形で interim CEO に就任したと発表しました。同じ日に Anthropic が IPO を発表し、Google DeepMind は Gemini 4 Hydrogen をリリースしました。",
+        "vi": "Hội đồng quản trị NVIDIA thông báo Jensen Huang lập tức từ chức chủ tịch, CEO và thành viên HĐQT, CFO Colette Kress được bổ nhiệm làm CEO tạm thời trong khi cuộc tìm người kế nhiệm bắt đầu. Cùng ngày đó, Anthropic công bố IPO và Google DeepMind phát hành Gemini 4 Hydrogen.",
+        "zh-Hans": "NVIDIA 董事会宣布黄仁勋即刻辞去总裁、CEO 及董事职务，CFO Colette Kress 出任临时 CEO 并启动继任遴选。同日 Anthropic 官宣 IPO，Google DeepMind 发布 Gemini 4 Hydrogen，AI 巨头的人事与资本动作在同一窗口叠加。",
+        "zh-Hant": "NVIDIA 董事會宣布黃仁勳即刻辭去總裁、CEO 及董事職務，CFO Colette Kress 出任臨時 CEO 並啟動繼任遴選。同日 Anthropic 官宣 IPO，Google DeepMind 發布 Gemini 4 Hydrogen，AI 巨頭的人事與資本動作在同一窗口疊加。"
+      },
+      "date": "2026-11-13",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-11-12-ai-daily",
       "title": {
         "en": "Google Ships Gemini Decisions API and Gemini Decision 1 for Fast Multimodal Closed-Set Decisions",

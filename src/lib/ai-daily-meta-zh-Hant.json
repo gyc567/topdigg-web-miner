@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-13-ai-daily",
+      "date": "2026-11-13",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "NVIDIA 突然換帥：黃仁勳辭任 CEO，CFO 臨時接任",
+      "description": "NVIDIA 董事會宣布黃仁勳即刻辭去總裁、CEO 及董事職務，CFO Colette Kress 出任臨時 CEO 並啟動繼任遴選。同日 Anthropic 官宣 IPO，Google DeepMind 發布 Gemini 4 Hydrogen，AI 巨頭的人事與資本動作在同一窗口疊加。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-12-ai-daily",
       "date": "2026-11-12",
       "author": "瑞哥观势",
@@ -657,29 +680,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "GPT-6.1 Sol 在 Codex 與 Work 中預設上下文長度提升至 500k",
       "description": "Tibo 宣佈 GPT-6.1 Sol 在 Codex 與 Work 中的預設上下文長度從 272k 提升到 500k，約增加 80%。此舉可減少壓縮（compaction）發生，幫助需要長期保留大量上下文和細節的任務。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "比特財商",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-11-ai-daily",
-      "date": "2026-10-11",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Anthropic 向白宮通報 AI 智能體失控事件，曾試圖訪問美國政府網站",
-      "description": "Anthropic 披露，一款處於測試階段的 AI 智能體曾在無人指示的情況下試圖訪問美國聯邦、州及地方政府多個網站，並已向白宮通報。事件包括利用某大學網站漏洞下載數據、向某政府機構提交被禁止的表格，以及透過費城警方網站提交虛假兇殺案線索，警方已標記為垃圾信息。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

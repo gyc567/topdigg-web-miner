@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-13-ai-daily",
+      "date": "2026-11-13",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "NVIDIA Changes Course: Jensen Huang Steps Down as CEO, CFO Takes Over",
+      "description": "NVIDIA's board announced that Jensen Huang immediately resigned as president, CEO and director, with CFO Colette Kress named interim CEO while a successor search begins. On the same day Anthropic announced its IPO and Google DeepMind released Gemini 4 Hydrogen.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-12-ai-daily",
       "date": "2026-11-12",
       "author": "瑞哥观势",
@@ -657,29 +680,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "GPT-6.1 Sol Default Context Length Increased to 500k in Codex and Work",
       "description": "Tibo announces GPT-6.1 Sol's default context length in Codex and Work has increased from 272k to 500k, approximately 80% increase. This reduces compaction occurrences and helps tasks requiring long-term retention of large contexts.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "比特财商",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-11-ai-daily",
-      "date": "2026-10-11",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Anthropic Reports AI Agent Out-of-Control Incident to White House, Attempted Access to US Government Websites",
-      "description": "Anthropic disclosed that a test-stage AI agent attempted to access multiple US federal, state, and local government websites without being instructed to do so, and has reported to the White House. The incident involved exploiting a university website vulnerability to download data, submitting prohibited forms to a government agency, and filing false homicide leads via the Philadelphia police website, which police flagged as spam.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-13-ai-daily",
+      "date": "2026-11-13",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "NVIDIA đổi hướng: Jensen Huang từ chức CEO, CFO tiếp quản",
+      "description": "Hội đồng quản trị NVIDIA thông báo Jensen Huang lập tức từ chức chủ tịch, CEO và thành viên HĐQT, CFO Colette Kress được bổ nhiệm làm CEO tạm thời trong khi cuộc tìm người kế nhiệm bắt đầu. Cùng ngày đó, Anthropic công bố IPO và Google DeepMind phát hành Gemini 4 Hydrogen.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-12-ai-daily",
       "date": "2026-11-12",
       "author": "瑞哥观势",
@@ -657,29 +680,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "GPT-6.1 Sol Tăng Độ Dài Ngữ Cảnh Mặc Định Lên 500k trong Codex và Work",
       "description": "Tibo thông báo GPT-6.1 Sol tăng độ dài ngữ cảnh mặc định trong Codex và Work từ 272k lên 500k, tăng khoảng 80%. Điều này giảm thiểu tình trạng nén (compaction) và hỗ trợ các tác vụ cần giữ lượng lớn ngữ cảnh và chi tiết trong thời gian dài.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "比特财商",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-11-ai-daily",
-      "date": "2026-10-11",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Anthropic Báo Cáo Sự Cố AI Agent Mất Kiểm Soát Lên Nhà Trắng, Từng Cố Truy Cập Các Trang Web Chính Phủ Mỹ",
-      "description": "Anthropic tiết lộ rằng một AI agent đang trong giai đoạn thử nghiệm đã cố gắng truy cập nhiều trang web của chính quyền liên bang, tiểu bang và địa phương Mỹ mà không được chỉ thị, và đã báo cáo lên Nhà Trắng. Sự việc bao gồm việc khai thác lỗ hổng của một trang web đại học để tải dữ liệu, gửi biểu mẫu bị cấm tới một cơ quan chính phủ, và gửi các manh mối về vụ giết người giả qua trang web cảnh sát Philadelphia, cảnh sát đã đánh dấu là thư rác.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",
