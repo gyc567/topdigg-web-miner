@@ -1,6 +1,32 @@
 {
   "reports": [
     {
+      "slug": "2026-11-13-finance-daily",
+      "title": {
+        "zh-Hans": "每日财经简报 | 2026-11-13"
+      },
+      "description": {
+        "zh-Hans": "黄仁勋辞任英伟达CEO成为今日全球最大变量，NVDA单日跌4.34%、RSI跌至26超卖，但分析师目标价均值仍高出71.7%。美元兑日元159.83，威廉姆斯连发鹰派表态把两年期美债收益率推至4.892%，黄金回落至3884美元。"
+      },
+      "date": "2026-11-13",
+      "author": "瑞哥观势",
+      "tags": [
+        "财经简报",
+        "宏观经济"
+      ],
+      "categories": [
+        "财经简报"
+      ],
+      "source": {
+        "original": {
+          "name": {
+            "zh-Hans": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-12-finance-daily",
       "title": {
         "zh-Hans": "每日财经简报 | 2026-11-12",

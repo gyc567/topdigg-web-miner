@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-13-finance-daily",
+      "date": "2026-11-13",
+      "author": "瑞哥观势",
+      "tags": [
+        "财经简报",
+        "宏观经济"
+      ],
+      "categories": [
+        "财经简报"
+      ],
+      "title": "每日财经简报 | 2026-11-13",
+      "description": "黄仁勋辞任英伟达CEO成为今日全球最大变量，NVDA单日跌4.34%、RSI跌至26超卖，但分析师目标价均值仍高出71.7%。美元兑日元159.83，威廉姆斯连发鹰派表态把两年期美债收益率推至4.892%，黄金回落至3884美元。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-12-finance-daily",
       "date": "2026-11-12",
       "author": "瑞哥观势",
@@ -621,26 +641,6 @@
       ],
       "title": "每日财经简报 | 2026-09-30",
       "description": "美联储9月重启加息25bp至3.75%-4.00%，为2023年来首次；A股上证维持3000点附近。外汇市场EUR/USD跌0.28%至1.1339，黄金大涨1.34%突破$4180/盎司。地缘风险升温，中东局势持续紧张。",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-09-29-finance-daily",
-      "date": "2026-09-29",
-      "author": "瑞哥观势",
-      "tags": [
-        "finance briefing",
-        "macro economy"
-      ],
-      "categories": [
-        "finance briefing"
-      ],
-      "title": "Bản Tin Tài Chính Hàng Ngày | 2026-09-29",
-      "description": "Chứng khoán Mỹ qua đêm phân hóa (AAPL, TSLA điều chỉnh, NVDA lập đỉnh); CNH ngoài khơi vượt 6,71; thỏa thuận đình chiến thương mại Mỹ-Trung được gia hạn đến tháng 1/2027; căng thẳng eo biển Hormuz đẩy giá dầu.",
       "source": {
         "original": {
           "name": "瑞哥观势",
