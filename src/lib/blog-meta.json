@@ -44,6 +44,27 @@
       ]
     },
     {
+      "slug": "2026-11-13-sea-asia-compute-grey-channel",
+      "title": {
+        "zh-Hans": "东南亚算力灰通道被堵死了：老板该看清哪条路还能走"
+      },
+      "description": {
+        "zh-Hans": "马来西亚MITI联手海关彻查数据中心租户SpeedMatrix转口AI芯片，新加坡起诉第5名涉案人，美国参议院定下12月作证。拆解这条灰通道怎么被封死，以及老板该自查的三件事。"
+      },
+      "date": "2026-11-13",
+      "author": "瑞哥观势",
+      "tags": [
+        "出口管制",
+        "AI芯片",
+        "数据中心",
+        "东南亚",
+        "合规"
+      ],
+      "categories": [
+        "AI应用"
+      ]
+    },
+    {
       "slug": "2026-11-07-eian-seedance-ai-video",
       "title": {
         "zh-Hans": "Claude code/Codex+Seedance AI视频：从一个想法到成片的全流程"

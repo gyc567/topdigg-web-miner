@@ -36,6 +36,23 @@
       "description": "cinecode 不用生成模型，而是用代码渲染每一帧。拆解它的5条反AI铁律、4条设计哲学、6步实操教程，以及6条可以直接搬进自己公司的观点。"
     },
     {
+      "slug": "2026-11-13-sea-asia-compute-grey-channel",
+      "date": "2026-11-13",
+      "author": "瑞哥观势",
+      "tags": [
+        "出口管制",
+        "AI芯片",
+        "数据中心",
+        "东南亚",
+        "合规"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "东南亚算力灰通道被堵死了：老板该看清哪条路还能走",
+      "description": "马来西亚MITI联手海关彻查数据中心租户SpeedMatrix转口AI芯片，新加坡起诉第5名涉案人，美国参议院定下12月作证。拆解这条灰通道怎么被封死，以及老板该自查的三件事。"
+    },
+    {
       "slug": "2026-11-07-eian-seedance-ai-video",
       "date": "2026-11-07",
       "author": "Eian（@EianLu）",
