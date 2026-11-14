@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-11-14-ai-daily",
+      "title": {
+        "en": "Nvidia Turmoil Unsettled: Israeli Investors Start Backing Challengers",
+        "ja": "黄仁勳退任の余波：イスラエルの投資家が挑戦者に賭け始める",
+        "vi": "Hậu quả sau khi Huang từ chức: Nhà đầu tư Israel bắt đầu đặt cược vào những kẻ thách thức",
+        "zh-Hans": "黄仁勋离任余震未平：以色列投资人开始押注挑战者",
+        "zh-Hant": "Nvidia 動盪未平：以色列投資人開始押注挑戰者"
+      },
+      "description": {
+        "en": "After Jensen Huang stepped down as NVIDIA CEO, Israeli investors and regulators are repricing the landscape: some see a slowdown opening room for AI chip and inference software challengers, while a US research group used weight fingerprints to show China's strongest models still depend on export-banned Blackwell chips.",
+        "ja": "黄仁勳が NVIDIA の CEO を退任した後、イスラエルの投資家と規制当局が状況，重新評価を始めています。意思決定の鈍化は AI チップと推論ソフトウェアの挑戦者に隙を与えると見る一方、米国の研究機関は重みの指紋を用いて，中国最強のモデルも輸出禁止された Blackwell チップに依存していることを示しました。",
+        "vi": "Sau khi Jensen Huang từ chức CEO của NVIDIA, các nhà đầu tư và cơ quan quản lý Israel bắt đầu tính toán lại: một số cho rằng việc ra quyết định chậm lại sẽ mở ra cơ hội cho các đối thủ trong lĩnh vực chip AI và phần mềm suy luận, trong khi một nhóm nghiên cứu Mỹ dùng dấu vân tay trọng số để chứng minh các mô hình mạnh nhất của Trung Quốc vẫn phụ thuộc vào chip Blackwell bị cấm xuất khẩu.",
+        "zh-Hans": "黄仁勋辞任 NVIDIA CEO 后，以色列投资人与监管者开始重新算账：一方面他们认为决策放缓会为 AI 芯片与推理软件竞争者腾出空间，另一方面美国研究机构用权重指纹反证中国最强模型仍依赖被禁出口的 Blackwell 芯片。",
+        "zh-Hant": "黃仁勳辭任 NVIDIA CEO 後，以色列投資人與監管者重新算帳：一方面認為決策放緩會為 AI 晶片與推理軟體競爭者騰出空間，另一方面美國研究機構用權重指紋反證中國最強模型仍依賴被禁出口的 Blackwell 晶片。"
+      },
+      "date": "2026-11-14",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-11-13-ai-daily",
       "title": {
         "en": "NVIDIA Changes Course: Jensen Huang Steps Down as CEO, CFO Takes Over",

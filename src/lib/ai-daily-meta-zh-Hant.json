@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-14-ai-daily",
+      "date": "2026-11-14",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Nvidia 動盪未平：以色列投資人開始押注挑戰者",
+      "description": "黃仁勳辭任 NVIDIA CEO 後，以色列投資人與監管者重新算帳：一方面認為決策放緩會為 AI 晶片與推理軟體競爭者騰出空間，另一方面美國研究機構用權重指紋反證中國最強模型仍依賴被禁出口的 Blackwell 晶片。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-13-ai-daily",
       "date": "2026-11-13",
       "author": "瑞哥观势",
@@ -662,29 +685,6 @@
         "aggregator_url": "https://aihot.virxact.com",
         "original": {
           "name": "比特财商",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-12-ai-daily",
-      "date": "2026-10-12",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "GPT-6.1 Sol 在 Codex 與 Work 中預設上下文長度提升至 500k",
-      "description": "Tibo 宣佈 GPT-6.1 Sol 在 Codex 與 Work 中的預設上下文長度從 272k 提升到 500k，約增加 80%。此舉可減少壓縮（compaction）發生，幫助需要長期保留大量上下文和細節的任務。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "比特財商",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }

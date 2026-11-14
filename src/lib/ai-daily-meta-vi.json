@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-14-ai-daily",
+      "date": "2026-11-14",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Hậu quả sau khi Huang từ chức: Nhà đầu tư Israel bắt đầu đặt cược vào những kẻ thách thức",
+      "description": "Sau khi Jensen Huang từ chức CEO của NVIDIA, các nhà đầu tư và cơ quan quản lý Israel bắt đầu tính toán lại: một số cho rằng việc ra quyết định chậm lại sẽ mở ra cơ hội cho các đối thủ trong lĩnh vực chip AI và phần mềm suy luận, trong khi một nhóm nghiên cứu Mỹ dùng dấu vân tay trọng số để chứng minh các mô hình mạnh nhất của Trung Quốc vẫn phụ thuộc vào chip Blackwell bị cấm xuất khẩu.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-13-ai-daily",
       "date": "2026-11-13",
       "author": "瑞哥观势",
@@ -660,29 +683,6 @@
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "比特财商",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-12-ai-daily",
-      "date": "2026-10-12",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "GPT-6.1 Sol Tăng Độ Dài Ngữ Cảnh Mặc Định Lên 500k trong Codex và Work",
-      "description": "Tibo thông báo GPT-6.1 Sol tăng độ dài ngữ cảnh mặc định trong Codex và Work từ 272k lên 500k, tăng khoảng 80%. Điều này giảm thiểu tình trạng nén (compaction) và hỗ trợ các tác vụ cần giữ lượng lớn ngữ cảnh và chi tiết trong thời gian dài.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
         "original": {
           "name": "比特财商",
           "url": "https://mp.weixin.qq.com/s/xxxxx"

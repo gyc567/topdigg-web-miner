@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-14-ai-daily",
+      "date": "2026-11-14",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "黄仁勳退任の余波：イスラエルの投資家が挑戦者に賭け始める",
+      "description": "黄仁勳が NVIDIA の CEO を退任した後、イスラエルの投資家と規制当局が状況，重新評価を始めています。意思決定の鈍化は AI チップと推論ソフトウェアの挑戦者に隙を与えると見る一方、米国の研究機関は重みの指紋を用いて，中国最強のモデルも輸出禁止された Blackwell チップに依存していることを示しました。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-13-ai-daily",
       "date": "2026-11-13",
       "author": "瑞哥观势",
@@ -660,29 +683,6 @@
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "比特财商",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-12-ai-daily",
-      "date": "2026-10-12",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "GPT-6.1 Sol、CodexとWorkでのデフォルトコンテキスト長が500kに увеличение",
-      "description": "TiboはGPT-6.1 SolのCodexとWorkにおけるデフォルトコンテキスト長が272kから500kに увеличение（約80%増）ことを発表。これは圧縮（compaction）の発生を減らし、大量のコンテキストと詳細を長期的に保持する必要があるタスクを支援する。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
         "original": {
           "name": "比特财商",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
