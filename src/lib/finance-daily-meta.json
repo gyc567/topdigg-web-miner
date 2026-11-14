@@ -1,14 +1,16 @@
 {
   "reports": [
     {
-      "slug": "2026-11-13-finance-daily",
+      "slug": "2026-11-14-finance-daily",
       "title": {
-        "zh-Hans": "每日财经简报 | 2026-11-13"
+        "zh-Hans": "每日财经简报 | 2026-11-14",
+        "zh-Hant": "每日財經簡報 | 2026-11-14"
       },
       "description": {
-        "zh-Hans": "黄仁勋辞任英伟达CEO成为今日全球最大变量，NVDA单日跌4.34%、RSI跌至26超卖，但分析师目标价均值仍高出71.7%。美元兑日元159.83，威廉姆斯连发鹰派表态把两年期美债收益率推至4.892%，黄金回落至3884美元。"
+        "zh-Hans": "A股港股同步杀跌，创业板指跌超3%，黄金白银同步重挫，原油逆势涨3%。英伟达RSI跌至24.9超卖、目标价均值仍高出74%，11月17日盘后财报是关键窗口。美联储10月按兵不动但有两票要求加息，中美下周会面或触发芯片管制与稀土出口的重新定价。",
+        "zh-Hant": "A股與港股同步殺跌，創業板指跌超3%，黃金白銀同步重挫，原油逆勢漲3%。英偉達RSI跌至24.9超賣、目標價均值仍高出74%，11月17日盤後財報是關鍵窗口。聯準會10月按兵不動但有兩票要求加息，中美下週會面或觸發晶片管制與稀土出口的重新定價。"
       },
-      "date": "2026-11-13",
+      "date": "2026-11-14",
       "author": "瑞哥观势",
       "tags": [
         "财经简报",
@@ -20,7 +22,46 @@
       "source": {
         "original": {
           "name": {
-            "zh-Hans": "瑞哥观势"
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-13-finance-daily",
+      "title": {
+        "en": "Daily Finance Briefing | 2026-11-13",
+        "ja": "デイリー财经簡報 | 2026-11-13",
+        "vi": "Bản tin tài chính hằng ngày | 2026-11-13",
+        "zh-Hans": "每日财经简报 | 2026-11-13",
+        "zh-Hant": "每日財經簡報 | 2026-11-13"
+      },
+      "description": {
+        "en": "Jensen Huang's resignation as Nvidia CEO is the biggest variable in global markets today. NVDA fell 4.34% with RSI at 26 (oversold), yet the analyst consensus target still sits 71.7% above spot. USD/JPY at 159.83, NY Fed President Williams' hawkish remarks pushed the 2-year Treasury yield to 4.892%, and gold retreated to $3,884/oz.",
+        "ja": "ジェンセン・ファングのNVIDIA CEO退任が本日のグローバル市場最大の変数。NVDAは4.34%下落しRSIは26の売過ぎ水準。一方アナリスト平均目標株価は現値より71.7%高い水準にある。USD/JPYは159.83、ウィリアムズFRB総裁のタカ派発言で2年債利回りは4.892%へ上昇、金は3,884ドルまで回落した。",
+        "vi": "Việc Jensen Huang từ chức CEO Nvidia là biến số lớn nhất của thị trường toàn cầu hôm nay. NVDA giảm 4,34%, RSI rơi về 26 (quá bán), nhưng giá mục tiêu trung bình của analyst vẫn cao hơn giá thị trường 71,7%. USD/JPY ở 159,83, phát biểu diều hành khiêm tốn của Chủ tịch Fed New York Williams đẩy lợi suất trái phiếu 2 năm lên 4,892%, vàng giảm về 3.884 USD/oz.",
+        "zh-Hans": "黄仁勋辞任英伟达CEO成为今日全球最大变量，NVDA单日跌4.34%、RSI跌至26超卖，但分析师目标价均值仍高出71.7%。美元兑日元159.83，威廉姆斯连发鹰派表态把两年期美债收益率推至4.892%，黄金回落至3884美元。",
+        "zh-Hant": "黃仁勳辭任英偉達CEO成為今日全球最大變數，NVDA單日跌4.34%、RSI跌至26超賣，但分析師目標價均值仍高出71.7%。美元兌日圓159.83，威廉姆斯連發鷹派表態把兩年期美債收益率推至4.892%，黃金回落至3884美元。"
+      },
+      "date": "2026-11-13",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
           },
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
