@@ -1,18 +1,38 @@
 {
   "reports": [
     {
+      "slug": "2026-11-15-finance-daily",
+      "date": "2026-11-15",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "Bản tin tài chính hàng ngày | 2026-11-15",
+      "description": "Ba sự kiện lớn chồng lên nhau trong cuối tuần: lúc rạng sáng ngày 14/11, hai tàu chở dầu nổ trong eo Hormuz, trong khi giá dầu thứ Sáu gần như không nhúc nhích; NVIDIA cho tới nay vẫn chưa có CEO chính thức, tối 17/11 phải công bố báo cáo tài chính; Trump bay tới Thâm Quyến ngày 18/11 dự hội nghị APEC, phía Trung Quốc đã tạm dừng thuế đánh thêm 24% lên hàng Mỹ trong hai tháng. Vàng giảm 2,40%, bạc giảm 4,97%, euro chạm đáy 52 tuần.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-14-finance-daily",
       "date": "2026-11-14",
       "author": "瑞哥观势",
       "tags": [
-        "财经简报",
-        "宏观经济"
+        "Finance Briefing",
+        "Macroeconomics"
       ],
       "categories": [
-        "财经简报"
+        "Finance Briefing"
       ],
-      "title": "每日财经简报 | 2026-11-14",
-      "description": "A股港股同步杀跌，创业板指跌超3%，黄金白银同步重挫，原油逆势涨3%。英伟达RSI跌至24.9超卖、目标价均值仍高出74%，11月17日盘后财报是关键窗口。美联储10月按兵不动但有两票要求加息，中美下周会面或触发芯片管制与稀土出口的重新定价。",
+      "title": "Bản tin tài chính hàng ngày | 2026-11-14",
+      "description": "A-share và H-share cùng lao dốc, ChiNext giảm hơn 3%, vàng bạc đồng loạt điêu đứng, dầu thơn ngược lại tăng 3%. RSI của NVIDIA rơi về 24.9 (quá bán) trong khi giá mục tiêu trung bình vẫn cao hơn giá hiện tại 74%, báo cáo lợi nhuận sau giờ giao dịch ngày 11/17 là cửa sổ then chốt. Fed giữ nguyên lãi suất trong tháng 10 nhưng có hai phiếu đòi tăng, cuộc gặp lãnh đạo Mỹ - Trung Quốc tuần tới có thể mở ra đợt định giá lại về kiểm soát chip và xuất khẩu đất hiếm.",
       "source": {
         "original": {
           "name": "瑞哥观势",
@@ -616,29 +636,6 @@
       ],
       "title": "Bản Tin Tài Chính Hàng Ngày | 2026-10-02",
       "description": "Fed và ECB cùng tăng lãi suất 25bps vào tháng 9; Trung-Mỹ thành lập Hội đồng Thương mại, đạt đồng thuận khung giảm thuế 30 tỷ đô la song phương; EU áp thuế chống bán phá giá lên tới 192.2% đối với hóa chất Trung Quốc; Hành lang eo biển Hormuz mới của Iran-Oman đi vào hoạt động.",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-01-finance-daily",
-      "date": "2026-10-01",
-      "author": "瑞哥观势",
-      "tags": [
-        "Finance Brief",
-        "Macroeconomics",
-        "Fed",
-        "China-US Trade",
-        "Commodities"
-      ],
-      "categories": [
-        "Finance Brief"
-      ],
-      "title": "每日财经简报 | 2026-10-01",
-      "description": "美联储9月加息25bp至3.75-4.00%，为2023年来首次；欧洲央行同步紧缩；中美第8轮经贸磋商建立贸易理事会；黄金回落至$4,142/oz，白银跌超2%。",
       "source": {
         "original": {
           "name": "瑞哥观势",

@@ -1,15 +1,35 @@
 {
   "reports": [
     {
+      "slug": "2026-11-15-finance-daily",
+      "date": "2026-11-15",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "每日財經簡報 | 2026-11-15",
+      "description": "週末三大事件疊加：11月14日凌晨兩艘油輪在霍爾木茲海峽爆炸，而週五油價幾乎未動；NVIDIA至今沒有正式CEO，11月17日盤後就要交財報；特朗普18日飛深圳出席APEC峰會，中方已暫停24%對美加徵關稅兩個月。黃金跌2.40%、白銀跌4.97%，歐元觸及52週低點。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-14-finance-daily",
       "date": "2026-11-14",
       "author": "瑞哥观势",
       "tags": [
-        "财经简报",
-        "宏观经济"
+        "Finance Briefing",
+        "Macroeconomics"
       ],
       "categories": [
-        "财经简报"
+        "Finance Briefing"
       ],
       "title": "每日財經簡報 | 2026-11-14",
       "description": "A股與港股同步殺跌，創業板指跌超3%，黃金白銀同步重挫，原油逆勢漲3%。英偉達RSI跌至24.9超賣、目標價均值仍高出74%，11月17日盤後財報是關鍵窗口。聯準會10月按兵不動但有兩票要求加息，中美下週會面或觸發晶片管制與稀土出口的重新定價。",
@@ -616,29 +636,6 @@
       ],
       "title": "每日財經簡報 | 2026-10-02",
       "description": "美聯準、歐洲央行9月同步升息25基點；中美建立貿易理事會達成300億對等降稅框架；歐盟對中化工品反傾銷稅率最高192.2%；伊朗荷莫茲海峽新航道啟用。",
-      "source": {
-        "original": {
-          "name": "比特財商",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-01-finance-daily",
-      "date": "2026-10-01",
-      "author": "瑞哥观势",
-      "tags": [
-        "Finance Brief",
-        "Macroeconomics",
-        "Fed",
-        "China-US Trade",
-        "Commodities"
-      ],
-      "categories": [
-        "Finance Brief"
-      ],
-      "title": "每日財經快報 | 2026-10-01",
-      "description": "美聯儲9月升息25bp至3.75-4.00%，為2023年以來首次；歐洲央行同步緊縮；中美第8輪經貿磋商建立貿易理事會；黃金回落至$4,142/盎司，白銀跌超2%。",
       "source": {
         "original": {
           "name": "比特財商",

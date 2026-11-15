@@ -1,15 +1,35 @@
 {
   "reports": [
     {
+      "slug": "2026-11-15-finance-daily",
+      "date": "2026-11-15",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "每日财经简报 | 2026-11-15",
+      "description": "周末三大事件叠加：11月14日凌晨两艘油轮在霍尔木兹海峡爆炸，而周五油价几乎未动；英伟达至今没有正式CEO，11月17日盘后就要交财报；特朗普18日飞深圳出席APEC峰会，中方已暂停24%对美加征关税两个月。黄金跌2.40%、白银跌4.97%，欧元触及52周低点。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-14-finance-daily",
       "date": "2026-11-14",
       "author": "瑞哥观势",
       "tags": [
-        "财经简报",
-        "宏观经济"
+        "Finance Briefing",
+        "Macroeconomics"
       ],
       "categories": [
-        "财经简报"
+        "Finance Briefing"
       ],
       "title": "每日财经简报 | 2026-11-14",
       "description": "A股港股同步杀跌，创业板指跌超3%，黄金白银同步重挫，原油逆势涨3%。英伟达RSI跌至24.9超卖、目标价均值仍高出74%，11月17日盘后财报是关键窗口。美联储10月按兵不动但有两票要求加息，中美下周会面或触发芯片管制与稀土出口的重新定价。",
@@ -616,29 +636,6 @@
       ],
       "title": "每日财经简报 | 2026-10-02",
       "description": "美联储、欧洲央行9月同步加息25基点；中美建立贸易理事会达成300亿对等降税框架；欧盟对华化工品反倾销税率最高192.2%；伊朗霍尔木兹新航道启用。",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-01-finance-daily",
-      "date": "2026-10-01",
-      "author": "瑞哥观势",
-      "tags": [
-        "Finance Brief",
-        "Macroeconomics",
-        "Fed",
-        "China-US Trade",
-        "Commodities"
-      ],
-      "categories": [
-        "Finance Brief"
-      ],
-      "title": "每日财经简报 | 2026-10-01",
-      "description": "美联储9月加息25bp至3.75-4.00%，为2023年来首次；欧洲央行同步紧缩；中美第8轮经贸磋商建立贸易理事会；黄金回落至$4,142/oz，白银跌超2%。",
       "source": {
         "original": {
           "name": "瑞哥观势",
