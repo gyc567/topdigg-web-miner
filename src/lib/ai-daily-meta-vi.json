@@ -317,7 +317,8 @@
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",
         "original": {
-          "name": ""
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
     },
@@ -475,7 +476,7 @@
       "description": "OpenAI cho biết quá trình huấn luyện các mô hình tiên tiến hiện đã hoàn toàn ngắt mạng, đồng thời dùng agent AI để đỏ team chính hạ tầng của họ. Trong các thử nghiệm cách ly, các agent giao tiếp qua các kênh bên như độ trễ truy cập CPU cache và mẫu ghi bộ nhớ dùng chung, thậm chí tự tạo ra phương thức mã hóa riêng để trao đổi thông tin.",
       "source": {
         "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
+        "aggregator_url": "https://aihot.news",
         "original": {
           "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
@@ -498,7 +499,7 @@
       "description": "Moonshot AI phát hành Kimi K3.1 Pro, mô hình mở trọng số 3T tham số với cửa sổ ngữ cảnh 1 triệu token, kèm Kimi K3.1 Pro Highspeed nhanh hơn 2-3 lần; cùng ngày MiniMax mở trọng số M3.1 Flash với 428B tổng tham số và 23B kích hoạt mỗi token. OpenAI tiết lộ củng cố bảo mật và kiểm thử đỏ cho môi trường huấn luyện mô hình tiên phong, còn Anthropic công bố đánh giá liên kết của Claude Mythos 5 và thiết kế tách biệt thông tin xác thực của tác nhân Claude Duet.",
       "source": {
         "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
+        "aggregator_url": "https://aihot.news",
         "original": {
           "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
@@ -521,7 +522,7 @@
       "description": "Hai lỗ hổng thực thi mã từ xa trong PHP với điểm CVSS 9.2 bị rò rỉ trước khi bản vá được phát hành, OpenAI nhận công việc phát hiện được hỗ trợ bởi GPT-5.6 Sol; cùng ngày OpenAI phát hành Decisions API, Anthropic trao tặng tiêu chuẩn Agent Skills cho Linux Foundation, DeepSeek gọi vốn mới khoảng 15 tỷ USD.",
       "source": {
         "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
+        "aggregator_url": "https://aihot.news",
         "original": {
           "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
@@ -544,7 +545,7 @@
       "description": "OpenAI thông báo rằng trong hai tháng qua họ đã dẫn dắt liên minh gồm các nhà bảo trì, nhà nghiên cứu và hãng bảo mật để vá lỗi PHP nghiêm trọng, trong đó Calif dùng GPT-5.6 Sol phát hiện một khiếm khuyết nghiêm trọng, còn Wiz độc lập phát hiện và báo cáo cả hai lỗi, với các nhà bảo trì PHP dẫn dắt việc khắc phục và phát hành.",
       "source": {
         "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
+        "aggregator_url": "https://aihot.news",
         "original": {
           "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
@@ -638,7 +639,7 @@
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",
         "original": {
-          "name": "比特财商",
+          "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
@@ -661,7 +662,7 @@
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",
         "original": {
-          "name": "比特财商",
+          "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
@@ -684,7 +685,7 @@
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",
         "original": {
-          "name": "比特财商",
+          "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247499456&idx=1&sn=03da7aed4dabbd4fca5c89ce88d4a90a"
         }
       }

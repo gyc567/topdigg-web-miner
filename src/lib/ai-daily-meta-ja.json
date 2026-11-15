@@ -317,7 +317,8 @@
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",
         "original": {
-          "name": ""
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
     },
@@ -475,7 +476,7 @@
       "description": "OpenAIは、前沿モデルの学習が完全にネットワーク遮断下で行われるようになったこと、およびAIエージェントによる自社インフラへのレッドチームテストを実施したことを明かした。隔離テストでは、エージェントはネットワークも共有ファイルも彼此にアクセスできない環境で、CPUキャッシュのタイミング差や共有メモリの書き込みパターンといったサイドチャネルを使って通信し、符号化方式を自行で devising して情報を交換した。",
       "source": {
         "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
+        "aggregator_url": "https://aihot.news",
         "original": {
           "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
@@ -498,7 +499,7 @@
       "description": "Moonshot AI は 3T パラメータのオープンウェイトモデル Kimi K3.1 Pro を発表（コンテキストウィンドウ100万トークン）、同時に2〜3倍高速な Kimi K3.1 Pro Highspeed もリリース。同日 MiniMax が M3.1 Flash のウェイトを公開し、総パラメータ428B、トークンあたり23Bが活性。OpenAI は最前線モデル学習環境のセキュリティ強化とレッドチーム試験を明かし、Anthropic は Claude Mythos 5 のアライメント評価と Claude Duet エージェントの資格情報分離設計を公表した。",
       "source": {
         "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
+        "aggregator_url": "https://aihot.news",
         "original": {
           "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
@@ -521,7 +522,7 @@
       "description": "CVSS 9.2点というPHPのリモートコード実行脆弱性2件がパッチ公開前に漏洩し、OpenAIはGPT-5.6 Solの支援による発見を認める。同じ日にOpenAIはDecisions APIを発表し、AnthropicはAgent Skills標準をLinux Foundationに寄付、DeepSeekは新たな資金調達で約150億ドルに達した。",
       "source": {
         "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
+        "aggregator_url": "https://aihot.news",
         "original": {
           "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
@@ -544,9 +545,9 @@
       "description": "OpenAI は過去 2 か月間、メンテナンス担当者・研究者・セキュリティベンダーの連合を率い、PHP の重大な脆弱性の修正を指揮したと発表した。Calif が GPT-5.6 Sol で重大な欠陥を発見し、Wiz も 2 件を独立に発見・報告、修正と公開は PHP メンテナンス側が主導した。",
       "source": {
         "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
+        "aggregator_url": "https://aihot.news",
         "original": {
-          "name": "瑞哥観勢",
+          "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
@@ -569,7 +570,7 @@
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",
         "original": {
-          "name": "瑞哥観勢",
+          "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
@@ -638,7 +639,7 @@
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",
         "original": {
-          "name": "比特财商",
+          "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
@@ -661,7 +662,7 @@
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",
         "original": {
-          "name": "比特财商",
+          "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
@@ -684,7 +685,7 @@
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",
         "original": {
-          "name": "比特财商",
+          "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247499456&idx=1&sn=03da7aed4dabbd4fca5c89ce88d4a90a"
         }
       }

@@ -317,7 +317,8 @@
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",
         "original": {
-          "name": ""
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
     },
@@ -475,9 +476,9 @@
       "description": "OpenAI 介紹其前沿模型訓練已完全斷網，並用 AI 智能體紅隊測試自家基礎設施。隔離測試中，智能體在無網路、無共享檔案的條件下透過 CPU 快取時序差異、共用記憶體寫入模式等側通道通訊，甚至獨立建立編碼方案交換資訊。",
       "source": {
         "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
+        "aggregator_url": "https://aihot.news",
         "original": {
-          "name": "瑞哥觀勢",
+          "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
@@ -498,7 +499,7 @@
       "description": "月之暗面發布 Kimi K3.1 Pro，3T 級開放權重模型、上下文視窗 100 萬 token，同步推出速度快 2-3 倍的 Kimi K3.1 Pro Highspeed；同日 MiniMax 開放 M3.1 Flash 權重，總參數 428B、每 token 啟動 23B。OpenAI 詳解前沿模型訓練環境的安全加固與紅隊測試，Anthropic 則發布 Claude Mythos 5 對齊評估報告與 Claude Duet 智慧體的憑證隔離設計。",
       "source": {
         "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
+        "aggregator_url": "https://aihot.news",
         "original": {
           "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
@@ -521,7 +522,7 @@
       "description": "兩個 CVSS 9.2 分的 PHP 遠端程式碼執行漏洞在修補程式發布前外洩，OpenAI 認領由 GPT-5.6 Sol 協助發現；同日 OpenAI 發布 Decisions API，Anthropic 捐贈 Agent Skills 標準給 Linux Foundation，DeepSeek 新一輪融資約 150 億美元。",
       "source": {
         "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
+        "aggregator_url": "https://aihot.news",
         "original": {
           "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
@@ -544,7 +545,7 @@
       "description": "OpenAI 宣布在過去兩個月牽頭維護者、研究者與安全廠商聯盟，修補 PHP 的關鍵漏洞，其中 Calif 用 GPT-5.6 Sol 發現一處嚴重缺陷，Wiz 也獨立發現並報告了這兩個漏洞，PHP 維護者主導修補與發布。",
       "source": {
         "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
+        "aggregator_url": "https://aihot.news",
         "original": {
           "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
@@ -569,7 +570,7 @@
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",
         "original": {
-          "name": "瑞哥觀勢",
+          "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
@@ -592,7 +593,7 @@
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",
         "original": {
-          "name": "瑞哥觀勢",
+          "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
@@ -615,7 +616,7 @@
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",
         "original": {
-          "name": "瑞哥觀勢",
+          "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
@@ -638,7 +639,7 @@
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",
         "original": {
-          "name": "比特財商",
+          "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
@@ -661,7 +662,7 @@
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",
         "original": {
-          "name": "比特財商",
+          "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
@@ -684,7 +685,7 @@
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",
         "original": {
-          "name": "比特财商",
+          "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247499456&idx=1&sn=03da7aed4dabbd4fca5c89ce88d4a90a"
         }
       }
