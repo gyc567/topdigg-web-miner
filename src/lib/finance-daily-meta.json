@@ -18,13 +18,45 @@
       },
       "date": "2026-11-15",
       "author": "瑞哥观势",
-      "tags": [
-        "Finance Briefing",
-        "Macroeconomics"
-      ],
-      "categories": [
-        "Finance Briefing"
-      ],
+      "tags": {
+        "en": [
+          "Finance Briefing",
+          "Macroeconomics"
+        ],
+        "ja": [
+          "ファイナンス ブリーフィング",
+          "マクロエコノミー"
+        ],
+        "vi": [
+          "Bản tin tài chính",
+          "Kinh tế vĩ mô"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "宏觀經濟"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Briefing"
+        ],
+        "ja": [
+          "ファイナンス ブリーフィング"
+        ],
+        "vi": [
+          "Bản tin tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
       "source": {
         "original": {
           "name": {
@@ -56,13 +88,45 @@
       },
       "date": "2026-11-14",
       "author": "瑞哥观势",
-      "tags": [
-        "Finance Briefing",
-        "Macroeconomics"
-      ],
-      "categories": [
-        "Finance Briefing"
-      ],
+      "tags": {
+        "en": [
+          "Finance Briefing",
+          "Macroeconomics"
+        ],
+        "ja": [
+          "ファイナンスブリーフ",
+          "マクロ経済"
+        ],
+        "vi": [
+          "Bản tin tài chính",
+          "Kinh tế vĩ mô"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "宏觀經濟"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Briefing"
+        ],
+        "ja": [
+          "ファイナンスブリーフ"
+        ],
+        "vi": [
+          "Bản tin tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
       "source": {
         "original": {
           "name": {
@@ -94,13 +158,45 @@
       },
       "date": "2026-11-13",
       "author": "瑞哥观势",
-      "tags": [
-        "Finance Briefing",
-        "Macroeconomics"
-      ],
-      "categories": [
-        "Finance Briefing"
-      ],
+      "tags": {
+        "en": [
+          "Finance Briefing",
+          "Macroeconomics"
+        ],
+        "ja": [
+          "ファイナンスブリーフ",
+          "マクロ経済"
+        ],
+        "vi": [
+          "Bản tin tài chính",
+          "Kinh tế vĩ mô"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "宏觀經濟"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Briefing"
+        ],
+        "ja": [
+          "ファイナンスブリーフ"
+        ],
+        "vi": [
+          "Bản tin tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
       "source": {
         "original": {
           "name": {
@@ -132,13 +228,45 @@
       },
       "date": "2026-11-12",
       "author": "瑞哥观势",
-      "tags": [
-        "Finance Briefing",
-        "Macroeconomics"
-      ],
-      "categories": [
-        "Finance Briefing"
-      ],
+      "tags": {
+        "en": [
+          "Finance Briefing",
+          "Macroeconomics"
+        ],
+        "ja": [
+          "金融ブリーフ",
+          "マクロ経済"
+        ],
+        "vi": [
+          "Bản tin tài chính",
+          "Kinh tế vĩ mô"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "宏觀經濟"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Briefing"
+        ],
+        "ja": [
+          "金融ブリーフ"
+        ],
+        "vi": [
+          "Bản tin tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
       "source": {
         "original": {
           "name": {
@@ -170,16 +298,60 @@
       },
       "date": "2026-11-11",
       "author": "瑞哥观势",
-      "tags": [
-        "Finance Briefing",
-        "Macroeconomics",
-        "Fed",
-        "Gold",
-        "Geopolitics"
-      ],
-      "categories": [
-        "Finance Briefing"
-      ],
+      "tags": {
+        "en": [
+          "Finance Briefing",
+          "Macroeconomics",
+          "Fed",
+          "Gold",
+          "Geopolitics"
+        ],
+        "ja": [
+          "金融ブリーフィング",
+          "マクロ経済",
+          "Fed",
+          "金",
+          "地政学"
+        ],
+        "vi": [
+          "Bản tin tài chính",
+          "Kinh tế vĩ mô",
+          "Fed",
+          "Vàng",
+          "Địa chính trị"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济",
+          "美联储",
+          "黄金",
+          "地缘政治"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "總體經濟",
+          "聯準會",
+          "黃金",
+          "地緣政治"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Briefing"
+        ],
+        "ja": [
+          "金融ブリーフィング"
+        ],
+        "vi": [
+          "Bản tin tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
       "source": {
         "original": {
           "name": {
@@ -211,16 +383,60 @@
       },
       "date": "2026-11-10",
       "author": "瑞哥观势",
-      "tags": [
-        "Finance Brief",
-        "Macroeconomics",
-        "Crude Oil",
-        "Geopolitics",
-        "Federal Reserve"
-      ],
-      "categories": [
-        "Finance Brief"
-      ],
+      "tags": {
+        "en": [
+          "Finance Brief",
+          "Macroeconomics",
+          "Crude Oil",
+          "Geopolitics",
+          "Federal Reserve"
+        ],
+        "ja": [
+          "財務ブリーフ",
+          "マクロ経済",
+          "原油",
+          "地政学",
+          "連邦準備制度"
+        ],
+        "vi": [
+          "Bản tin Tài chính",
+          "Kinh tế vĩ mô",
+          "Dầu thô",
+          "Địa chính trị",
+          "Cục Dự trữ Liên bang"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济",
+          "原油",
+          "地缘政治",
+          "美联储"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "宏觀經濟",
+          "原油",
+          "地緣政治",
+          "美聯準"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Brief"
+        ],
+        "ja": [
+          "財務ブリーフ"
+        ],
+        "vi": [
+          "Bản tin Tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
       "source": {
         "original": {
           "name": {
@@ -252,16 +468,60 @@
       },
       "date": "2026-11-09",
       "author": "瑞哥观势",
-      "tags": [
-        "Finance Brief",
-        "Macroeconomics",
-        "Federal Reserve",
-        "US-China Relations",
-        "Commodities"
-      ],
-      "categories": [
-        "Finance Brief"
-      ],
+      "tags": {
+        "en": [
+          "Finance Brief",
+          "Macroeconomics",
+          "Federal Reserve",
+          "US-China Relations",
+          "Commodities"
+        ],
+        "ja": [
+          "財務ブリーフ",
+          "マクロ経済",
+          "連邦準備制度",
+          "米中関係",
+          "大宗商品"
+        ],
+        "vi": [
+          "Bản tin Tài chính",
+          "Kinh tế vĩ mô",
+          "Cục Dự trữ Liên bang",
+          "Quan hệ Mỹ-Trung",
+          "Hàng hóa"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济",
+          "美联储",
+          "中美关系",
+          "大宗商品"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "宏觀經濟",
+          "美聯儲",
+          "中美關係",
+          "大宗商品"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Brief"
+        ],
+        "ja": [
+          "財務ブリーフ"
+        ],
+        "vi": [
+          "Bản tin Tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
       "source": {
         "original": {
           "name": {
@@ -293,16 +553,60 @@
       },
       "date": "2026-11-08",
       "author": "瑞哥观势",
-      "tags": [
-        "Finance Brief",
-        "Macroeconomics",
-        "Federal Reserve",
-        "US-China Relations",
-        "Commodities"
-      ],
-      "categories": [
-        "Finance Brief"
-      ],
+      "tags": {
+        "en": [
+          "Finance Brief",
+          "Macroeconomics",
+          "Federal Reserve",
+          "US-China Relations",
+          "Commodities"
+        ],
+        "ja": [
+          "金融ブリーフ",
+          "マクロ経済",
+          "Federal Reserve",
+          "米中関係",
+          "大宗商品"
+        ],
+        "vi": [
+          "Bản tin tài chính",
+          "Kinh tế vĩ mô",
+          "Federal Reserve",
+          "Quan hệ Mỹ-Trung",
+          "Hàng hóa cơ bản"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济",
+          "美联储",
+          "中美关系",
+          "大宗商品"
+        ],
+        "zh-Hant": [
+          "財經快報",
+          "巨觀經濟",
+          "美聯儲",
+          "中美關係",
+          "大宗商品"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Brief"
+        ],
+        "ja": [
+          "金融ブリーフ"
+        ],
+        "vi": [
+          "Bản tin tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經快報"
+        ]
+      },
       "source": {
         "original": {
           "name": {
@@ -334,13 +638,45 @@
       },
       "date": "2026-11-07",
       "author": "瑞哥观势",
-      "tags": [
-        "Financial Brief",
-        "Macroeconomics"
-      ],
-      "categories": [
-        "Financial Brief"
-      ],
+      "tags": {
+        "en": [
+          "Financial Brief",
+          "Macroeconomics"
+        ],
+        "ja": [
+          "金融ブリーフ",
+          "マクロ経済"
+        ],
+        "vi": [
+          "Bản tin tài chính",
+          "Kinh tế vĩ mô"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "宏觀經濟"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Financial Brief"
+        ],
+        "ja": [
+          "金融ブリーフ"
+        ],
+        "vi": [
+          "Bản tin tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
       "source": {
         "original": {
           "name": {
@@ -372,13 +708,45 @@
       },
       "date": "2026-11-06",
       "author": "瑞哥观势",
-      "tags": [
-        "Finance Brief",
-        "Macroeconomics"
-      ],
-      "categories": [
-        "Finance Brief"
-      ],
+      "tags": {
+        "en": [
+          "Finance Brief",
+          "Macroeconomics"
+        ],
+        "ja": [
+          "金融ブリーフ",
+          "マクロ経済"
+        ],
+        "vi": [
+          "Báo cáo tài chính",
+          "Kinh tế vĩ mô"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "宏觀經濟"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Brief"
+        ],
+        "ja": [
+          "金融ブリーフ"
+        ],
+        "vi": [
+          "Báo cáo tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
       "source": {
         "original": {
           "name": {
@@ -410,13 +778,45 @@
       },
       "date": "2026-11-05",
       "author": "瑞哥观势",
-      "tags": [
-        "Finance Brief",
-        "Macroeconomics"
-      ],
-      "categories": [
-        "Finance Brief"
-      ],
+      "tags": {
+        "en": [
+          "Finance Brief",
+          "Macroeconomics"
+        ],
+        "ja": [
+          "金融ブリーフ",
+          "マクロ経済"
+        ],
+        "vi": [
+          "Bản tin tài chính",
+          "Kinh tế vĩ mô"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "宏觀經濟"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Brief"
+        ],
+        "ja": [
+          "金融ブリーフ"
+        ],
+        "vi": [
+          "Bản tin tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
       "source": {
         "original": {
           "name": {
@@ -448,16 +848,60 @@
       },
       "date": "2026-11-04",
       "author": "瑞哥观势",
-      "tags": [
-        "Finance Brief",
-        "Macroeconomics",
-        "Federal Reserve",
-        "ECB",
-        "Geopolitics"
-      ],
-      "categories": [
-        "Finance Brief"
-      ],
+      "tags": {
+        "en": [
+          "Finance Brief",
+          "Macroeconomics",
+          "Federal Reserve",
+          "ECB",
+          "Geopolitics"
+        ],
+        "ja": [
+          "金融ブリーフ",
+          "マクロ経済",
+          "FRB",
+          "ECB",
+          "地政学"
+        ],
+        "vi": [
+          "Bản tin tài chính",
+          "Kinh tế vĩ mô",
+          "Fed",
+          "ECB",
+          "Địa chính trị"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济",
+          "美联储",
+          "欧洲央行",
+          "地缘政治"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "宏觀經濟",
+          "美聯儲",
+          "歐洲央行",
+          "地緣政治"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Brief"
+        ],
+        "ja": [
+          "金融ブリーフ"
+        ],
+        "vi": [
+          "Bản tin tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
       "source": {
         "original": {
           "name": {
@@ -489,16 +933,60 @@
       },
       "date": "2026-11-03",
       "author": "瑞哥观势",
-      "tags": [
-        "Financial Briefing",
-        "Macroeconomics",
-        "Federal Reserve",
-        "European Central Bank",
-        "Geopolitics"
-      ],
-      "categories": [
-        "Financial Briefing"
-      ],
+      "tags": {
+        "en": [
+          "Financial Briefing",
+          "Macroeconomics",
+          "Federal Reserve",
+          "European Central Bank",
+          "Geopolitics"
+        ],
+        "ja": [
+          "金融ブリーフィング",
+          "マクロ経済",
+          "Federal Reserve",
+          "欧州中央銀行",
+          "地政学"
+        ],
+        "vi": [
+          "Bản tin tài chính",
+          "Kinh tế vĩ mô",
+          "Federal Reserve",
+          "Ngân hàng Trung ương châu Âu",
+          "Địa chính trị"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济",
+          "美联储",
+          "欧洲央行",
+          "地缘政治"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "宏觀經濟",
+          "美聯儲",
+          "歐洲央行",
+          "地緣政治"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Financial Briefing"
+        ],
+        "ja": [
+          "金融ブリーフィング"
+        ],
+        "vi": [
+          "Bản tin tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
       "source": {
         "original": {
           "name": {
@@ -530,16 +1018,60 @@
       },
       "date": "2026-10-28",
       "author": "瑞哥观势",
-      "tags": [
-        "Finance Brief",
-        "Macroeconomics",
-        "Federal Reserve",
-        "ECB",
-        "Geopolitics"
-      ],
-      "categories": [
-        "Finance Brief"
-      ],
+      "tags": {
+        "en": [
+          "Finance Brief",
+          "Macroeconomics",
+          "Federal Reserve",
+          "ECB",
+          "Geopolitics"
+        ],
+        "ja": [
+          "金融ブリーフ",
+          "マクロ経済",
+          "FRB",
+          "ECB",
+          "地政学"
+        ],
+        "vi": [
+          "Bản tin tài chính",
+          "Kinh tế vĩ mô",
+          "Fed",
+          "ECB",
+          "Địa chính trị"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济",
+          "美联储",
+          "欧洲央行",
+          "地缘政治"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "宏觀經濟",
+          "美聯儲",
+          "歐洲央行",
+          "地緣政治"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Brief"
+        ],
+        "ja": [
+          "金融ブリーフ"
+        ],
+        "vi": [
+          "Bản tin tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
       "source": {
         "original": {
           "name": {
@@ -571,16 +1103,60 @@
       },
       "date": "2026-10-22",
       "author": "瑞哥观势",
-      "tags": [
-        "Finance Briefing",
-        "Macroeconomics",
-        "Federal Reserve",
-        "European Central Bank",
-        "Geopolitics"
-      ],
-      "categories": [
-        "Finance Briefing"
-      ],
+      "tags": {
+        "en": [
+          "Finance Briefing",
+          "Macroeconomics",
+          "Federal Reserve",
+          "European Central Bank",
+          "Geopolitics"
+        ],
+        "ja": [
+          "金融ブリーフ",
+          "マクロ経済",
+          "連邦準備理事会",
+          "欧州中央銀行",
+          "地政学"
+        ],
+        "vi": [
+          "Bản tin tài chính",
+          "Kinh tế vĩ mô",
+          "Fed",
+          "ECB",
+          "Địa chính trị"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济",
+          "美联储",
+          "欧洲央行",
+          "地缘政治"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "宏觀經濟",
+          "聯準會",
+          "歐洲央行",
+          "地緣政治"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Briefing"
+        ],
+        "ja": [
+          "金融ブリーフ"
+        ],
+        "vi": [
+          "Bản tin tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
       "source": {
         "original": {
           "name": {
@@ -612,15 +1188,55 @@
       },
       "date": "2026-10-20",
       "author": "瑞哥观势",
-      "tags": [
-        "Finance Briefing",
-        "Macroeconomics",
-        "Federal Reserve",
-        "Geopolitics"
-      ],
-      "categories": [
-        "Finance Briefing"
-      ],
+      "tags": {
+        "en": [
+          "Finance Briefing",
+          "Macroeconomics",
+          "Federal Reserve",
+          "Geopolitics"
+        ],
+        "ja": [
+          "金融ブリーフ",
+          "マクロ経済",
+          "FRB",
+          "地政学"
+        ],
+        "vi": [
+          "Bản Tin Tài Chính",
+          "Kinh Tế Vĩ Mô",
+          "Fed",
+          "Địa Chính Trị"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济",
+          "美联储",
+          "地缘政治"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "巨集觀經濟",
+          "美聯儲",
+          "地緣政治"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Briefing"
+        ],
+        "ja": [
+          "金融ブリーフ"
+        ],
+        "vi": [
+          "Bản Tin Tài Chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
       "source": {
         "original": {
           "name": {
@@ -652,13 +1268,45 @@
       },
       "date": "2026-10-19",
       "author": "瑞哥观势",
-      "tags": [
-        "Financial Brief",
-        "Macro Economy"
-      ],
-      "categories": [
-        "Financial Brief"
-      ],
+      "tags": {
+        "en": [
+          "Financial Brief",
+          "Macro Economy"
+        ],
+        "ja": [
+          "金融レビュー",
+          "・マクロ経済"
+        ],
+        "vi": [
+          "Bản Tin Tài Chính",
+          "Kinh Tế Vĩ Mô"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "巨集經濟"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Financial Brief"
+        ],
+        "ja": [
+          "金融レビュー"
+        ],
+        "vi": [
+          "Bản Tin Tài Chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
       "source": {
         "original": {
           "name": {
@@ -690,16 +1338,60 @@
       },
       "date": "2026-10-18",
       "author": "瑞哥观势",
-      "tags": [
-        "Finance Briefing",
-        "Macroeconomy",
-        "US Stocks",
-        "Forex",
-        "Commodities"
-      ],
-      "categories": [
-        "Finance Briefing"
-      ],
+      "tags": {
+        "en": [
+          "Finance Briefing",
+          "Macroeconomy",
+          "US Stocks",
+          "Forex",
+          "Commodities"
+        ],
+        "ja": [
+          "ファイナンスブリーフ",
+          "マクロ経済",
+          "米国株",
+          "外国為替",
+          "商品"
+        ],
+        "vi": [
+          "Bản Tin Tài Chính",
+          "Kinh Tế Vĩ Mô",
+          "Chứng Khoán Mỹ",
+          "Ngoại Hối",
+          "Hàng Hóa"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济",
+          "美股",
+          "外汇",
+          "大宗商品"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "巨觀經濟",
+          "美股",
+          "外匯",
+          "大宗商品"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Briefing"
+        ],
+        "ja": [
+          "ファイナンスブリーフ"
+        ],
+        "vi": [
+          "Bản Tin Tài Chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
       "source": {
         "original": {
           "name": {
@@ -731,13 +1423,45 @@
       },
       "date": "2026-10-17",
       "author": "瑞哥观势",
-      "tags": [
-        "Finance Brief",
-        "Macroeconomy"
-      ],
-      "categories": [
-        "Finance Brief"
-      ],
+      "tags": {
+        "en": [
+          "Finance Brief",
+          "Macroeconomy"
+        ],
+        "ja": [
+          "ファイナンスブリーフ",
+          "・マクロ経済"
+        ],
+        "vi": [
+          "Bản Tin Tài Chính",
+          "Kinh Tế Vĩ Mô"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "巨觀經濟"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Brief"
+        ],
+        "ja": [
+          "ファイナンスブリーフ"
+        ],
+        "vi": [
+          "Bản Tin Tài Chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
       "source": {
         "original": {
           "name": {
@@ -769,13 +1493,45 @@
       },
       "date": "2026-10-16",
       "author": "瑞哥观势",
-      "tags": [
-        "Finance Briefing",
-        "Macro Economy"
-      ],
-      "categories": [
-        "Finance Briefing"
-      ],
+      "tags": {
+        "en": [
+          "Finance Briefing",
+          "Macro Economy"
+        ],
+        "ja": [
+          "ファイナンスブリーフ",
+          "マクロ経済"
+        ],
+        "vi": [
+          "Bản Tin Tài Chính",
+          "Kinh Tế Vĩ Mô"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "巨集經濟"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Briefing"
+        ],
+        "ja": [
+          "ファイナンスブリーフ"
+        ],
+        "vi": [
+          "Bản Tin Tài Chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
       "source": {
         "original": {
           "name": {
@@ -807,13 +1563,45 @@
       },
       "date": "2026-10-15",
       "author": "瑞哥观势",
-      "tags": [
-        "Finance Brief",
-        "Macro Economy"
-      ],
-      "categories": [
-        "Finance Brief"
-      ],
+      "tags": {
+        "en": [
+          "Finance Brief",
+          "Macro Economy"
+        ],
+        "ja": [
+          "金融レポート",
+          "マクロ経済"
+        ],
+        "vi": [
+          "Bản Tin Tài Chính",
+          "Kinh Tế Vĩ Mô"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "巨觀經濟"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Brief"
+        ],
+        "ja": [
+          "金融レポート"
+        ],
+        "vi": [
+          "Bản Tin Tài Chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
       "source": {
         "original": {
           "name": {
@@ -845,16 +1633,60 @@
       },
       "date": "2026-10-14",
       "author": "瑞哥观势",
-      "tags": [
-        "finance briefing",
-        "macro economy",
-        "forex",
-        "US stocks",
-        "central banks"
-      ],
-      "categories": [
-        "Finance Briefing"
-      ],
+      "tags": {
+        "en": [
+          "finance briefing",
+          "macro economy",
+          "forex",
+          "US stocks",
+          "central banks"
+        ],
+        "ja": [
+          "金融ブリーフィング",
+          "マクロ経済",
+          "為替",
+          "米国株",
+          "中央銀行"
+        ],
+        "vi": [
+          "bản tin tài chính",
+          "kinh tế vĩ mô",
+          "ngoại hối",
+          "chứng khoán Mỹ",
+          "ngân hàng trung ương"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济",
+          "外汇",
+          "美股",
+          "央行"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "宏觀經濟",
+          "外匯",
+          "美股",
+          "央行"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Briefing"
+        ],
+        "ja": [
+          "金融ブリーフィング"
+        ],
+        "vi": [
+          "Bản Tin Tài Chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
       "source": {
         "original": {
           "name": {
@@ -886,13 +1718,45 @@
       },
       "date": "2026-10-13",
       "author": "瑞哥观势",
-      "tags": [
-        "Finance Briefing",
-        "Macro Economy"
-      ],
-      "categories": [
-        "Finance Briefing"
-      ],
+      "tags": {
+        "en": [
+          "Finance Briefing",
+          "Macro Economy"
+        ],
+        "ja": [
+          "ファイナンスブリーフ",
+          "マクロ経済"
+        ],
+        "vi": [
+          "Bản Tin Tài Chính",
+          "Kinh Tế Vĩ Mô"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "巨觀經濟"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Briefing"
+        ],
+        "ja": [
+          "ファイナンスブリーフ"
+        ],
+        "vi": [
+          "Bản Tin Tài Chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
       "source": {
         "original": {
           "name": {
@@ -924,16 +1788,60 @@
       },
       "date": "2026-10-12",
       "author": "瑞哥观势",
-      "tags": [
-        "Finance Brief",
-        "Macroeconomics",
-        "Forex",
-        "US Stocks",
-        "Gold"
-      ],
-      "categories": [
-        "Finance Brief"
-      ],
+      "tags": {
+        "en": [
+          "Finance Brief",
+          "Macroeconomics",
+          "Forex",
+          "US Stocks",
+          "Gold"
+        ],
+        "ja": [
+          "金融ブリティ",
+          "マクロ経済",
+          "外国為替",
+          "米国株",
+          "金"
+        ],
+        "vi": [
+          "Bản Tin Tài Chính",
+          "Kinh Tế Vĩ Mô",
+          "Ngoại Hối",
+          "Chứng Khoán Mỹ",
+          "Vàng"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济",
+          "外汇",
+          "美股",
+          "黄金"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "巨集經濟",
+          "外匯",
+          "美股",
+          "黃金"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Brief"
+        ],
+        "ja": [
+          "金融ブリティ"
+        ],
+        "vi": [
+          "Bản Tin Tài Chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
       "source": {
         "original": {
           "name": {
@@ -965,16 +1873,60 @@
       },
       "date": "2026-10-11",
       "author": "瑞哥观势",
-      "tags": [
-        "finance briefing",
-        "macro",
-        "forex",
-        "us equities",
-        "central banks"
-      ],
-      "categories": [
-        "finance briefing"
-      ],
+      "tags": {
+        "en": [
+          "finance briefing",
+          "macro",
+          "forex",
+          "us equities",
+          "central banks"
+        ],
+        "ja": [
+          "金融ブリーフィング",
+          "マクロ経済",
+          "為替",
+          "米国株",
+          "中央銀行政策"
+        ],
+        "vi": [
+          "tin tài chính",
+          "kinh tế vĩ mô",
+          "ngoại hối",
+          "chứng khoán Mỹ",
+          "chính sách ngân hàng trung ương"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济",
+          "外汇",
+          "美股",
+          "央行政策"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "宏觀經濟",
+          "外匯",
+          "美股",
+          "央行政策"
+        ]
+      },
+      "categories": {
+        "en": [
+          "finance briefing"
+        ],
+        "ja": [
+          "金融ブリーフィング"
+        ],
+        "vi": [
+          "tin tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
       "source": {
         "original": {
           "name": {
@@ -1006,13 +1958,45 @@
       },
       "date": "2026-10-10",
       "author": "瑞哥观势",
-      "tags": [
-        "Finance Brief",
-        "Macroeconomy"
-      ],
-      "categories": [
-        "Finance Brief"
-      ],
+      "tags": {
+        "en": [
+          "Finance Brief",
+          "Macroeconomy"
+        ],
+        "ja": [
+          "金融ブリティッシュ",
+          "マクロ経済"
+        ],
+        "vi": [
+          "Bản tin tài chính",
+          "Kinh tế vĩ mô"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "巨集經濟"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Brief"
+        ],
+        "ja": [
+          "金融ブリティッシュ"
+        ],
+        "vi": [
+          "Bản tin tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
       "source": {
         "original": {
           "name": {
@@ -1044,13 +2028,45 @@
       },
       "date": "2026-10-08",
       "author": "瑞哥观势",
-      "tags": [
-        "Finance Brief",
-        "Macro"
-      ],
-      "categories": [
-        "Finance Brief"
-      ],
+      "tags": {
+        "en": [
+          "Finance Brief",
+          "Macro"
+        ],
+        "ja": [
+          "金融ブリーフィング",
+          "マクロ経済"
+        ],
+        "vi": [
+          "Bản tin tài chính",
+          "Kinh tế vĩ mô"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "宏觀經濟"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Brief"
+        ],
+        "ja": [
+          "金融ブリーフィング"
+        ],
+        "vi": [
+          "Bản tin tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
       "source": {
         "original": {
           "name": {
@@ -1082,16 +2098,60 @@
       },
       "date": "2026-10-06",
       "author": "瑞哥观势",
-      "tags": [
-        "Daily Briefing",
-        "Macro",
-        "Forex",
-        "US Equities",
-        "Gold"
-      ],
-      "categories": [
-        "Daily Finance Briefing"
-      ],
+      "tags": {
+        "en": [
+          "Daily Briefing",
+          "Macro",
+          "Forex",
+          "US Equities",
+          "Gold"
+        ],
+        "ja": [
+          "財経ブリーフィング",
+          "マクロ経済",
+          "為替市場",
+          "米国株",
+          "金"
+        ],
+        "vi": [
+          "Tóm tắt Tài chính",
+          "Kinh tế Vĩ mô",
+          "Thị trường Ngoại hối",
+          "Cổ phiếu Mỹ",
+          "Vàng"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济",
+          "外汇市场",
+          "美股",
+          "黄金"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "宏觀經濟",
+          "外匯市場",
+          "美股",
+          "黃金"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Daily Finance Briefing"
+        ],
+        "ja": [
+          "財経ブリーフィング"
+        ],
+        "vi": [
+          "Tóm tắt Tài chính Hằng ngày"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
       "source": {
         "original": {
           "name": {
@@ -1123,15 +2183,55 @@
       },
       "date": "2026-10-03",
       "author": "瑞哥观势",
-      "tags": [
-        "Finance Briefing",
-        "Macroeconomy",
-        "Fed",
-        "China-US Trade"
-      ],
-      "categories": [
-        "Finance Briefing"
-      ],
+      "tags": {
+        "en": [
+          "Finance Briefing",
+          "Macroeconomy",
+          "Fed",
+          "China-US Trade"
+        ],
+        "ja": [
+          "ファイナンスブリーフ",
+          "マクロ経済",
+          "FRB",
+          "中米貿易"
+        ],
+        "vi": [
+          "Bản Tin Tài Chính",
+          "Kinh Tế Vĩ Mô",
+          "Fed",
+          "Thương Mại Trung-Mỹ"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济",
+          "美联储",
+          "中美贸易"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "巨集觀經濟",
+          "美聯儲",
+          "中美貿易"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Briefing"
+        ],
+        "ja": [
+          "ファイナンスブリーフ"
+        ],
+        "vi": [
+          "Bản Tin Tài Chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
       "source": {
         "original": {
           "name": {
@@ -1163,13 +2263,45 @@
       },
       "date": "2026-10-02",
       "author": "瑞哥观势",
-      "tags": [
-        "Finance Brief",
-        "Macro Economy"
-      ],
-      "categories": [
-        "Finance Brief"
-      ],
+      "tags": {
+        "en": [
+          "Finance Brief",
+          "Macro Economy"
+        ],
+        "ja": [
+          "ファイナンスブリーフ",
+          "マクロ経済"
+        ],
+        "vi": [
+          "Bản Tin Tài Chính",
+          "Kinh Tế Vĩ Mô"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "巨觀經濟"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Brief"
+        ],
+        "ja": [
+          "ファイナンスブリーフ"
+        ],
+        "vi": [
+          "Bản Tin Tài Chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
       "source": {
         "original": {
           "name": {
@@ -1201,16 +2333,57 @@
       },
       "date": "2026-10-01",
       "author": "瑞哥观势",
-      "tags": [
-        "Finance Brief",
-        "Macroeconomics",
-        "Fed",
-        "China-US Trade",
-        "Commodities"
-      ],
-      "categories": [
-        "Finance Brief"
-      ],
+      "tags": {
+        "en": [
+          "Finance Brief",
+          "Macroeconomics",
+          "Fed",
+          "China-US Trade",
+          "Commodities"
+        ],
+        "ja": [
+          "ファイナンスブリーフ",
+          "マクロ経済",
+          "FRB",
+          "中米貿易",
+          "商品"
+        ],
+        "vi": [
+          "Bản tin tài chính",
+          "Kinh tế vĩ mô"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济",
+          "美联储",
+          "中美贸易",
+          "大宗商品"
+        ],
+        "zh-Hant": [
+          "財經快報",
+          "巨觀經濟",
+          "美聯儲",
+          "中美貿易",
+          "大宗商品"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Brief"
+        ],
+        "ja": [
+          "ファイナンスブリーフ"
+        ],
+        "vi": [
+          "Bản tin tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經快報"
+        ]
+      },
       "source": {
         "original": {
           "name": {
@@ -1242,15 +2415,55 @@
       },
       "date": "2026-09-30",
       "author": "瑞哥观势",
-      "tags": [
-        "Finance Briefing",
-        "Macroeconomy",
-        "Fed",
-        "Gold"
-      ],
-      "categories": [
-        "Finance Briefing"
-      ],
+      "tags": {
+        "en": [
+          "Finance Briefing",
+          "Macroeconomy",
+          "Fed",
+          "Gold"
+        ],
+        "ja": [
+          "ファイナンスブリーフ",
+          "マクロ経済",
+          "FRB",
+          "金"
+        ],
+        "vi": [
+          "Bản Tin Tài Chính",
+          "Kinh Tế Vĩ Mô",
+          "Fed",
+          "Vàng"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济",
+          "美联储",
+          "黄金"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "宏觀經濟",
+          "美聯儲",
+          "黃金"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Briefing"
+        ],
+        "ja": [
+          "ファイナンスブリーフ"
+        ],
+        "vi": [
+          "Bản Tin Tài Chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
       "source": {
         "original": {
           "name": {
@@ -1282,13 +2495,45 @@
       },
       "date": "2026-09-29",
       "author": "瑞哥观势",
-      "tags": [
-        "finance briefing",
-        "macro economy"
-      ],
-      "categories": [
-        "finance briefing"
-      ],
+      "tags": {
+        "en": [
+          "finance briefing",
+          "macro economy"
+        ],
+        "ja": [
+          "金融ブリーフィング",
+          "マクロ経済"
+        ],
+        "vi": [
+          "bản tin tài chính",
+          "kinh tế vĩ mô"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "宏觀經濟"
+        ]
+      },
+      "categories": {
+        "en": [
+          "finance briefing"
+        ],
+        "ja": [
+          "金融ブリーフィング"
+        ],
+        "vi": [
+          "bản tin tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
       "source": {
         "original": {
           "name": {
@@ -1320,15 +2565,55 @@
       },
       "date": "2026-09-28",
       "author": "瑞哥观势",
-      "tags": [
-        "Finance Briefing",
-        "Macroeconomy",
-        "Fed",
-        "ECB"
-      ],
-      "categories": [
-        "Finance Briefing"
-      ],
+      "tags": {
+        "en": [
+          "Finance Briefing",
+          "Macroeconomy",
+          "Fed",
+          "ECB"
+        ],
+        "ja": [
+          "ファイナンスブリーフ",
+          "宏観経済",
+          "FRB",
+          "ECB"
+        ],
+        "vi": [
+          "Bản Tin Tài Chính",
+          "Kinh Tế Vĩ Mô",
+          "Fed",
+          "ECB"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济",
+          "美联储",
+          "欧洲央行"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "巨觀經濟",
+          "美聯準",
+          "歐洲央行"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Briefing"
+        ],
+        "ja": [
+          "ファイナンスブリーフ"
+        ],
+        "vi": [
+          "Bản Tin Tài Chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
       "source": {
         "original": {
           "name": {

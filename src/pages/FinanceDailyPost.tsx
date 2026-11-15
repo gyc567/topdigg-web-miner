@@ -8,7 +8,7 @@ import { SEO } from "@/components/SEO";
 import { siteConfig } from "@/config/site";
 import { useTranslation } from "react-i18next";
 import { normalizeLang, localizeText, type SupportedLocale } from "@/lib/locale";
-import { financeDailyDataSource, type FinanceDailyPost } from "@/lib/finance-daily-data";
+import { financeDailyDataSource, resolveListTags, type FinanceDailyPost } from "@/lib/finance-daily-data";
 import MarkdownContent from "@/components/MarkdownContent";
 import { Badge } from "@/components/ui/badge";
 import { makeBlogPostingSchema, makeBreadcrumbList } from "@/lib/jsonld";
@@ -33,6 +33,7 @@ function RelatedReports({ currentSlug, tags }: { currentSlug: string; tags: stri
 
   const related = useMemo(() => {
     return allReports
+      .map((r) => ({ ...r, tags: resolveListTags(r.tags, currentLocale) }))
       .filter((r) => r.slug !== currentSlug && r.tags.some((tag) => tags.includes(tag)))
       .sort((a, b) => {
         const aMatch = a.tags.filter((t) => tags.includes(t)).length;
@@ -40,7 +41,7 @@ function RelatedReports({ currentSlug, tags }: { currentSlug: string; tags: stri
         return bMatch - aMatch;
       })
       .slice(0, 3);
-  }, [allReports, currentSlug, tags]);
+  }, [allReports, currentSlug, tags, currentLocale]);
 
   if (related.length === 0) return null;
 
@@ -105,6 +106,8 @@ const FinanceDailyPost = () => {
   const postPath = `/finance-daily/${fullPost.slug}`;
   const title = localizeText(fullPost.title, currentLocale);
   const description = localizeText(fullPost.description, currentLocale);
+  // 2026-11-15: tags 改为 per-locale，按当前 locale 解析为扁平数组
+  const tags = resolveListTags(fullPost.tags, currentLocale);
 
   const jsonLd = makeBlogPostingSchema({
     title,
@@ -112,7 +115,7 @@ const FinanceDailyPost = () => {
     url: postPath,
     datePublished: fullPost.date,
     authorName: fullPost.author,
-    tags: fullPost.tags,
+    tags,
   });
 
   const breadcrumbs = [
@@ -193,7 +196,7 @@ const FinanceDailyPost = () => {
           <p className="text-muted-foreground mb-4">{description}</p>
 
           <div className="flex flex-wrap gap-1.5">
-            {fullPost.tags.map((tag) => (
+            {tags.map((tag) => (
               <Badge key={tag} variant="secondary" className="text-xs">
                 {tag}
               </Badge>
@@ -203,7 +206,7 @@ const FinanceDailyPost = () => {
 
         <MarkdownContent content={localizeText(fullPost.content || "", currentLocale)} className="mb-8" />
 
-        <RelatedReports currentSlug={fullPost.slug} tags={fullPost.tags} />
+        <RelatedReports currentSlug={fullPost.slug} tags={tags} />
 
         <AuthorBio />
       </article>

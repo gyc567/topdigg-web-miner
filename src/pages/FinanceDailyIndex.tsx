@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { siteConfig } from "@/config/site";
 import { normalizeLang, localizeText, type SupportedLocale } from "@/lib/locale";
-import { financeDailyDataSource } from "@/lib/finance-daily-data";
+import { financeDailyDataSource, resolveListTags } from "@/lib/finance-daily-data";
 import { makeCollectionPageSchema } from "@/lib/jsonld";
 import type { FinanceDailyMeta } from "@/lib/finance-daily-data";
 
@@ -133,7 +133,7 @@ const FinanceDailyIndex = () => {
                     </p>
                     <div className="flex flex-wrap items-center justify-between gap-2 text-xs">
                       <div className="flex flex-wrap gap-1.5">
-                        {report.tags.slice(0, 3).map((tag) => (
+                        {resolveListTags(report.tags, currentLocale).slice(0, 3).map((tag) => (
                           <Badge key={tag} variant="secondary" className="text-xs">
                             {tag}
                           </Badge>

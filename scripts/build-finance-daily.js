@@ -19,6 +19,23 @@ function normalizeLocalized(value, locale) {
   return {};
 }
 
+// 2026-11-15: tags/categories 由全局改为 per-locale（{locale: [...]}），
+// 这里把它按目标 locale 解析成扁平数组。
+function resolveList(value, locale) {
+  if (!value) return [];
+  if (Array.isArray(value)) return value;
+  if (typeof value === 'object') {
+    return (
+      value[locale] ||
+      value['zh-Hans'] ||
+      value.en ||
+      Object.values(value).find((v) => Array.isArray(v) && v.length) ||
+      []
+    );
+  }
+  return [];
+}
+
 function scanDirectory(dir, locale = null) {
   const items = [];
 
@@ -71,8 +88,10 @@ function generateFinanceDailyData() {
         content: {},
         date: file.date,
         author: file.author,
-        tags: file.tags,
-        categories: file.categories,
+        // 2026-11-15: tags/categories 改为 per-locale（原为全局，取首个被扫描
+        // locale 的值，导致 zh-Hans 页面显示英文标签）
+        tags: {},
+        categories: {},
         source: {
           ...file.source,
           original: {
@@ -94,6 +113,13 @@ function generateFinanceDailyData() {
     }
 
     reports[file.slug].content[file.locale] = file.content;
+
+    if (file.tags && file.tags.length) {
+      reports[file.slug].tags[file.locale] = file.tags;
+    }
+    if (file.categories && file.categories.length) {
+      reports[file.slug].categories[file.locale] = file.categories;
+    }
 
     const nameObj = normalizeLocalized(file.source?.original?.name, file.locale);
     for (const [l, v] of Object.entries(nameObj)) {
@@ -124,7 +150,7 @@ function generateFinanceDailyData() {
 
   for (const locale of LOCALES) {
     const localizedMeta = {
-      reports: recent30.map(({ content, title, description, source, ...meta }) => {
+      reports: recent30.map(({ content, title, description, source, tags, categories, ...meta }) => {
         const localizedName =
           (typeof source?.original?.name === 'object' &&
             (source.original.name[locale] ||
@@ -133,6 +159,8 @@ function generateFinanceDailyData() {
           '';
         return {
           ...meta,
+          tags: resolveList(tags, locale),
+          categories: resolveList(categories, locale),
           title:
             title[locale] ||
             title['zh-Hans'] ||

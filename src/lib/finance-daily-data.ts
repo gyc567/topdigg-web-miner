@@ -32,8 +32,10 @@ export type FinanceDailyMeta = {
   description: string | Record<string, string>;
   date: string;
   author: string;
-  tags: string[];
-  categories: string[];
+  // 2026-11-15: tags/categories 由全局数组改为 per-locale（{locale: [...]}）。
+  // 页面渲染前一律通过 resolveListTags 解析为当前 locale 的扁平数组。
+  tags: string[] | Record<string, string[]>;
+  categories: string[] | Record<string, string[]>;
   source: FinanceDailySource;
 };
 
@@ -72,6 +74,28 @@ function resolveText(
     Object.values(value).find(Boolean) ||
     ""
   );
+}
+
+/**
+ * 2026-11-15: 解析 per-locale 的 tags/categories。
+ * 数据可能是旧格式（扁平数组）或新格式（{locale: [...]}）。
+ */
+export function resolveListTags(
+  value: string[] | Record<string, string[]> | undefined,
+  lang: SupportedLocale
+): string[] {
+  if (!value) return [];
+  if (Array.isArray(value)) return value;
+  if (typeof value === "object") {
+    return (
+      value[lang] ||
+      value["zh-Hans"] ||
+      value.en ||
+      Object.values(value).find((v) => Array.isArray(v) && v.length) ||
+      []
+    );
+  }
+  return [];
 }
 
 // ---------------------------------------------------------------------------
@@ -157,6 +181,8 @@ export class FinanceDailyDataSource {
       ...meta,
       title: resolveText(meta.title, normalized),
       description: resolveText(meta.description, normalized),
+      tags: resolveListTags(meta.tags, normalized),
+      categories: resolveListTags(meta.categories, normalized),
       content: "content" in meta ? resolveText(meta.content, normalized) : undefined,
       source: {
         ...meta.source,
