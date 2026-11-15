@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-15-ai-daily",
+      "date": "2026-11-15",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "黄仁勳退去後、オープンソースモデルの資金が最初に枯れた",
+      "description": "Nathan Lambert は黄仁勳の退任後に：美国オープンソースモデル・エコシステムにおける空白を分析し、Nvidia のオープンソースモデルへの資金供給も黄仁勳の離任とともに枯れる可能性が高いと論じています。一方、Musk らによる 11.5 万人の署名で黄仁勳復職を求める請願書が出ており、アジア各国政府も Nvidia の動向に反応しています。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-14-ai-daily",
       "date": "2026-11-14",
       "author": "瑞哥观势",
@@ -663,29 +686,6 @@
         "original": {
           "name": "比特财商",
           "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247499456&idx=1&sn=03da7aed4dabbd4fca5c89ce88d4a90a"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-13-ai-daily",
-      "date": "2026-10-13",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Meta が Muse Wonder と Muse Wonder Full をリリース、Artificial Analysis の実測で前世代から智能が大幅向上",
-      "description": "Meta が Muse Wonder と Muse Wonder Full の2モデルをリリースし、Artificial Analysis Intelligence Index v4.3 でそれぞれ52点と56点（max reasoning effort）を記録。前世代から显著に智能が向上している。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "比特财商",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
     }

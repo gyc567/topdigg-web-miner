@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-15-ai-daily",
+      "date": "2026-11-15",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "黄仁勋走了之后，开源模型的钱袋子先空了",
+      "description": "Nathan Lambert 撰文分析黄仁勋辞职后美国开源模型生态的真空，认为 Nvidia 对开源模型的资金支持很可能随黄仁勋的离开而干涸。同时马斯克等 11.5 万人联署请愿要求恢复黄仁勋职务，亚洲多国政府则忙着回应 Nvidia 的去留。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-14-ai-daily",
       "date": "2026-11-14",
       "author": "瑞哥观势",
@@ -663,29 +686,6 @@
         "original": {
           "name": "比特财商",
           "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247499456&idx=1&sn=03da7aed4dabbd4fca5c89ce88d4a90a"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-13-ai-daily",
-      "date": "2026-10-13",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Meta 发布 Muse Wonder 和 Muse Wonder Full，Artificial Analysis 实测智能水平较前代显著提升",
-      "description": "Meta 发布 Muse Wonder 和 Muse Wonder Full 两款模型，在 Artificial Analysis Intelligence Index v4.3 上分别得 52 和 56 分（max reasoning effort），智能水平较前代显著提升。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "比特财商",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
     }

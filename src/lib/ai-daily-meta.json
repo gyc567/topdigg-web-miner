@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-11-15-ai-daily",
+      "title": {
+        "en": "After Jensen Huang Left, the Open-Source Money Went First",
+        "ja": "黄仁勳退去後、オープンソースモデルの資金が最初に枯れた",
+        "vi": "Sau khi Huang rời đi, túi tiền của mô hình mã nguồn mở cạn trước tiên",
+        "zh-Hans": "黄仁勋走了之后，开源模型的钱袋子先空了",
+        "zh-Hant": "黃仁勳走了之後，開源模型的錢袋子先空了"
+      },
+      "description": {
+        "en": "Nathan Lambert analyzes the vacuum in the US open-source model ecosystem after Jensen Huang's resignation, arguing Nvidia's funding for open-source models may dry up with his departure. Meanwhile 115,000 signatories led by Musk petition to reinstate him, and Asian governments rush to respond.",
+        "ja": "Nathan Lambert は黄仁勳の退任後に：美国オープンソースモデル・エコシステムにおける空白を分析し、Nvidia のオープンソースモデルへの資金供給も黄仁勳の離任とともに枯れる可能性が高いと論じています。一方、Musk らによる 11.5 万人の署名で黄仁勳復職を求める請願書が出ており、アジア各国政府も Nvidia の動向に反応しています。",
+        "vi": "Nathan Lambert phân tích khoảng trống trong hệ sinh thái mô hình mã nguồn mở của Mỹ sau khi Jensen Huang từ chức, cho rằng nguồn tài trợ của Nvidia cho mô hình mã nguồn mở nhiều khả năng cùng cạn kiệt với sự ra đi của ông. Trong khi đó, 115 nghìn chữ ký do Musk dẫn đầu kêu gọi yêu cầu ông trở lại, và các chính phủ châu Á đang tích cực phản ứng.",
+        "zh-Hans": "Nathan Lambert 撰文分析黄仁勋辞职后美国开源模型生态的真空，认为 Nvidia 对开源模型的资金支持很可能随黄仁勋的离开而干涸。同时马斯克等 11.5 万人联署请愿要求恢复黄仁勋职务，亚洲多国政府则忙着回应 Nvidia 的去留。",
+        "zh-Hant": "Nathan Lambert 撰文分析黃仁勳辭職後美國開源模型生態的真空，認為 Nvidia 對開源模型的資金支持很可能隨黃仁勳的離開而乾涸。同時馬斯克等 11.5 萬人聯署請願要求恢復黃仁勳職務，亞洲多國政府則忙著回應 Nvidia 的去留。"
+      },
+      "date": "2026-11-15",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-11-14-ai-daily",
       "title": {
         "en": "Nvidia Turmoil Unsettled: Israeli Investors Start Backing Challengers",

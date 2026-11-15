@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-15-ai-daily",
+      "date": "2026-11-15",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "After Jensen Huang Left, the Open-Source Money Went First",
+      "description": "Nathan Lambert analyzes the vacuum in the US open-source model ecosystem after Jensen Huang's resignation, arguing Nvidia's funding for open-source models may dry up with his departure. Meanwhile 115,000 signatories led by Musk petition to reinstate him, and Asian governments rush to respond.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-14-ai-daily",
       "date": "2026-11-14",
       "author": "瑞哥观势",
@@ -663,29 +686,6 @@
         "original": {
           "name": "比特财商",
           "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247499456&idx=1&sn=03da7aed4dabbd4fca5c89ce88d4a90a"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-13-ai-daily",
-      "date": "2026-10-13",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Meta Releases Muse Wonder and Muse Wonder Full, Artificial Analysis Shows Significant Intelligence Gains",
-      "description": "Meta releases Muse Wonder and Muse Wonder Full models, scoring 52 and 56 respectively on the Artificial Analysis Intelligence Index v4.3 (max reasoning effort), marking significant intelligence improvements over previous generations.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "比特财商",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
     }

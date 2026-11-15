@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-15-ai-daily",
+      "date": "2026-11-15",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Sau khi Huang rời đi, túi tiền của mô hình mã nguồn mở cạn trước tiên",
+      "description": "Nathan Lambert phân tích khoảng trống trong hệ sinh thái mô hình mã nguồn mở của Mỹ sau khi Jensen Huang từ chức, cho rằng nguồn tài trợ của Nvidia cho mô hình mã nguồn mở nhiều khả năng cùng cạn kiệt với sự ra đi của ông. Trong khi đó, 115 nghìn chữ ký do Musk dẫn đầu kêu gọi yêu cầu ông trở lại, và các chính phủ châu Á đang tích cực phản ứng.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-14-ai-daily",
       "date": "2026-11-14",
       "author": "瑞哥观势",
@@ -663,29 +686,6 @@
         "original": {
           "name": "比特财商",
           "url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247499456&idx=1&sn=03da7aed4dabbd4fca5c89ce88d4a90a"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-13-ai-daily",
-      "date": "2026-10-13",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Meta Phát Hành Muse Wonder và Muse Wonder Full, Artificial Analysis Đo Mức Trí Tuệ Tăng Vọt So Với Thế Hệ Trước",
-      "description": "Meta phát hành hai mô hình Muse Wonder và Muse Wonder Full, đạt lần lượt 52 và 56 điểm trên Artificial Analysis Intelligence Index v4.3 (max reasoning effort), cho thấy mức trí tuệ tăng vượt trội so với thế hệ trước.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.virxact.com",
-        "original": {
-          "name": "比特财商",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
     }
