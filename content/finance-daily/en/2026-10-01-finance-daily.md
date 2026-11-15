@@ -60,7 +60,7 @@ Industrial demand weighing on silver; gold/silver ratio widening toward 68. Phys
 
 🦅 **Fed**: September FOMC voted to raise rates 25bp to 3.75-4.00% — the first hike since 2023. Rationale: resilient spending and strong productivity growth. Dot plot signals another hike this year likely; markets repricing 2026 rate-cut expectations.
 
-🏰 **ECB**: September同步加息25bp, deposit facility rate raised to 2.50%. Growth forecasts slightly upgraded (2026: 0.9%, 2027: 1.4%, 2028: 1.5%), sticky inflation forcing continued tightening. Next meeting: October 29.
+🏰 **ECB**: September synchronized 25bp hike, deposit facility rate raised to 2.50%. Growth forecasts slightly upgraded (2026: 0.9%, 2027: 1.4%, 2028: 1.5%), sticky inflation forcing continued tightening. Next meeting: October 29.
 
 🇨🇳 **PBoC**: September LPR unchanged — 1Y at 3.00%, 5Y+ at 3.60% — flat for 16 consecutive months. September RRR cut expectations missed; analysts still forecast rate cuts this year, timing dependent on Fed path and CNY.
 

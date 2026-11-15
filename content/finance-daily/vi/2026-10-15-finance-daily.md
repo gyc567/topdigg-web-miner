@@ -78,4 +78,4 @@ Nhận định: Bạc biến động mạnh, giảm nhiều hơn vàng. Nhu cầ
 
 ## ⚠️ Tuyên Bố Miễn Trừ Trách Nhiệm
 
-Dữ liệu tính đến phiên sáng 15/10/2026. Một phần dữ liệu từ nền tảng quốc tế, có thể có độ trễ. Chỉ mang tính tham khảo, không构成投资建议。
+Dữ liệu tính đến phiên sáng 15/10/2026. Một phần dữ liệu từ nền tảng quốc tế, có thể có độ trễ. Chỉ mang tính tham khảo, không phải là lời khuyên đầu tư。

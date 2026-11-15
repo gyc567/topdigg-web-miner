@@ -95,4 +95,4 @@ Căng thẳng Trung Đông tiếp tục leo thang khi Israel xung đột với c
 ---
 
 ## ⚠️ Tuyên Bố Miễn Trừ Trách Nhiệm
-Dữ liệu tính đến ngày 17/10/2026 (thứ 6) đóng cửa. Thị trường nghỉ cuối tuần, không có cập nhật thời gian thực. Dữ liệu chỉ mang tính tham khảo, không构成投资建议. Đầu tư có rủi ro.
+Dữ liệu tính đến ngày 17/10/2026 (thứ 6) đóng cửa. Thị trường nghỉ cuối tuần, không có cập nhật thời gian thực. Dữ liệu chỉ mang tính tham khảo, không phải là lời khuyên đầu tư. Đầu tư có rủi ro.

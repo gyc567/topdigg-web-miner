@@ -31,9 +31,9 @@ EUR hơi suy yếu, USD/JPY tăng nhẹ, CNH neo ở 6.7313 — thị trường 
 
 > Dữ liệu chứng khoán Mỹ tạm thời không khả dụng do giới hạn API. Vui lòng kiểm tra Yahoo Finance để biết giá realtime.
 
-🍎 **Apple (AAPL)**：$---（API限流）
-🚗 **Tesla (TSLA)**：$---（API限流）
-🔥 **NVIDIA (NVDA)**：$---（API限流）
+🍎 **Apple (AAPL)**：$---(API bị giới hạn tần suất)
+🚗 **Tesla (TSLA)**：$---(API bị giới hạn tần suất)
+🔥 **NVIDIA (NVDA)**：$---(API bị giới hạn tần suất)
 
 ---
 

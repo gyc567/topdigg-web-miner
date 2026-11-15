@@ -72,4 +72,4 @@ source:
 
 ## ⚠️ Tuyên Bố Miễn Trừ Trách Nhiệm
 
-Dữ liệu từ nguồn thông tin thị trường công khai; chỉ mang tính tham khảo, không构成投资建议。Thị trường tài chính có rủi ro, cần thận trọng khi đầu tư.
+Dữ liệu từ nguồn thông tin thị trường công khai; chỉ mang tính tham khảo, không phải là lời khuyên đầu tư。Thị trường tài chính có rủi ro, cần thận trọng khi đầu tư.

@@ -87,4 +87,4 @@ Căng thẳng Trung Đông và xung đột Nga-Ukraine tiếp tục ảnh hưở
 
 ## ⚠️ Tuyên Bố Miễn Trừ Trách Nhiệm
 
-Dữ liệu từ báo giá thị trường công khai, tính đến sáng ngày 28 tháng 9 năm 2026 (Giờ Bắc Kinh). Nội dung trên chỉ mang tính tham khảo, không构成任何投资建议。投资有风险。
+Dữ liệu từ báo giá thị trường công khai, tính đến sáng ngày 28 tháng 9 năm 2026 (Giờ Bắc Kinh). Nội dung trên chỉ mang tính tham khảo, không phải là lời khuyên đầu tư。Đầu tư có rủi ro.

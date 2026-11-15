@@ -59,17 +59,17 @@ Euro xuống dưới 1.1130, là cây nến giảm sạch nhất trong đợt su
 **Dầu thô Brent**: $109.65/thùng (-0.73%)
 - Hồi nhẹ từ vùng cao. Bộ Tư lệnh Trung ương Hoa Kỳ (CENTCOM) thông báo đã hỗ trợ các nước vùng Vịnh xuất 1.5 tỷ thùng dầu thô, hơn 3.000 tàu thương mại lướt qua an toàn qua eo biển Hormuz, kỳ vọng căng thẳng ở phía cung đã giảm bớt, nhưng mức giá 109 USD vốn dĩ cho thấy tỷ phí rủi ro vẫn còn nằm trong tài khoản.
 
-## 📉 A股 tham khảo (đóng cửa ngày 27 tháng 10)
+## 📉 cổ phiếu A tham khảo (đóng cửa ngày 27 tháng 10)
 
 | Chỉ số | Đóng cửa | Biến động |
 |------|------|------|
-| Chỉ số Shanghai (上证指数) | 3648.30 | -1.33% |
-| Chỉ số Shenzhen (深证成指) | 11245.73 | -2.50% |
-| Chỉ số ChiNext (创业板指) | 2548.15 | -3.41% |
-| STAR 50 (科创50) | 1252.28 | -4.80% |
-| CSI 300 (沪深300) | 4049.55 | -1.32% |
+| Chỉ số Shanghai | 3648.30 | -1.33% |
+| Chỉ số Shenzhen | 11245.73 | -2.50% |
+| Chỉ số ChiNext | 2548.15 | -3.41% |
+| STAR 50 | 1252.28 | -4.80% |
+| CSI 300 | 4049.55 | -1.32% |
 
-Bán tháo cổ phiếu công nghệ là chủ đạo, STAR 50 giảm mạnh 4.80% trong một ngày, ChiNext giảm 3.41%, dẫn đầu giảm là Cambricon -5.68%, SMIC -2.70%, Hygon Information -5.54%, Zhongji Innolight -2.94%, NAURA -5.51%, Eoptolink -5.60%. Chỉ số Hang Seng của Hong Kong giảm 0.73%, Hang Seng Tech giảm 1.48%, mức giảm nhỏ hơn A股, cho thấy đợt bán tháo lần này trúng vào chính cơ cấu cổ phiếu của A股. Về mặt vĩ mô, lợi nhuận của các doanh nghiệp công nghiệp quy mô trên với tăng 15.5% so với cùng kỳ trong ba quý đầu, đạt 6.03 nghìn tỷ USD, chỉ giảm nhẹ so với mức 15.7% của giai đoạn 1-8 tháng, nền tảng cơ bản không ủng hộ mức giảm này.
+Bán tháo cổ phiếu công nghệ là chủ đạo, STAR 50 giảm mạnh 4.80% trong một ngày, ChiNext giảm 3.41%, dẫn đầu giảm là Cambricon -5.68%, SMIC -2.70%, Hygon Information -5.54%, Zhongji Innolight -2.94%, NAURA -5.51%, Eoptolink -5.60%. Chỉ số Hang Seng giảm 0.73%, Hang Seng Tech giảm 1.48%, mức giảm nhỏ hơn cổ phiếu A, cho thấy đợt bán tháo lần này trúng vào chính cơ cấu cổ phiếu của thị trường A. Về mặt vĩ mô, lợi nhuận của các doanh nghiệp công nghiệp quy mô trên với tăng 15.5% so với cùng kỳ trong ba quý đầu, đạt 6.03 nghìn tỷ USD, chỉ giảm nhẹ so với mức 15.7% của giai đoạn 1-8 tháng, nền tảng cơ bản không ủng hộ mức giảm này.
 
 ## 🏛 Ngân hàng trung ương và chính sách
 
@@ -96,7 +96,7 @@ Bán tháo cổ phiếu công nghệ là chủ đạo, STAR 50 giảm mạnh 4.8
 
 Dữ liệu chỉ mang tính tham khảo, không tạo thành lời khuyên đầu tư.
 
-*Đăng lần đầu trên WeChat公众号「瑞哥观势」*
+*Đăng lần đầu trên kênh WeChat「瑞哥观势」*
 *Tác giả: 瑞哥观势*
 *Thế là đây, nếu bạn đã đọc đến đây và thấy hay, tiện tay bấm một nút thích, một nút "in" và một nút chuyển tiếp nhé, nếu muốn nhận thông báo sớm nhất thì cũng có thể tặng mình một ngôi sao, cảm ơn bạn đã đọc bài của mình, hẹn gặp lại bạn lần sau.*
-*Đăng lần đầu trên WeChat公众号「瑞哥观势」。*
+*Đăng lần đầu trên kênh WeChat「瑞哥观势」。*

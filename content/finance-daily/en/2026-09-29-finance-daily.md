@@ -62,7 +62,7 @@ source:
 - **Comment**: Analysts broadly view this as "a two-month temporary sandbag" — no progress on AI, Taiwan, or Iran sanctions — structurally unresolved.
 
 🇪🇺🇨🇳 **China-EU Trade**: The EU extended EV countervailing duties on China; price-undertaking talks with Beijing continue.
-- **Comment**: Divisions inside the European Commission plus US election uncertainty push the relationship into a "contested but not失控" phase.
+- **Comment**: Divisions inside the European Commission plus US election uncertainty push the relationship into a "contested but not unmanageable" phase.
 
 🌍 **Geopolitics**: Hormuz Strait tensions escalate again — Trump rejected Iran's "7-day ceasefire + reopen the Strait" plan; IRGC keeps seizing passing vessels; FM Araghchi says Iran is "ready for a doomsday war".
 - **Comment**: Strait disruption keeps the global crude-transport premium; international oil prices remain volatile at highs; the US claims it has helped move over 1 billion barrels of crude out of the Gulf.

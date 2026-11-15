@@ -61,4 +61,4 @@ Bạc giảm sau khi vàng tăng. Đặc tính công nghiệp gây áp lực. T�
 **Địa chính trị**: Đàm phán hạt nhân Iran đình trệ. Hoạt động làm giàu uranium tiếp tục mở rộng. Eo biển Hormuz chứng kiến nhiều vụ bắt giữ tàu chở dầu. Phí bảo hiểm rủi ro nguồn cung dầu tăng. Trung Đông vẫn là biến số lớn nhất cho thị trường năng lượng toàn cầu năm 2026.
 
 ## ⚠️ Tuyên Bố Miễn Trừ
-Dữ liệu tính đến ngày 16 tháng 10 năm 2026. Chỉ mang tính tham khảo, không构成投资建议。Thị trường có rủi ro, hãy đầu tư cẩn thận.
+Dữ liệu tính đến ngày 16 tháng 10 năm 2026. Chỉ mang tính tham khảo, không phải là lời khuyên đầu tư。Thị trường có rủi ro, hãy đầu tư cẩn thận.

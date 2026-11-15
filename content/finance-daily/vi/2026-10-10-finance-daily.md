@@ -68,4 +68,4 @@ Ma sát thương mại Trung-EU tiếp diễn; EU liên tục điều tra chốn
 ---
 
 ## ⚠️ Miễn Trừ Trách Nhiệm
-Dữ liệu từ thông tin thị trường công khai, tính đến 10/10/2026. Dữ liệu ngoại hối là giá tham chiếu đóng cửa thứ 6 (cuối tuần nghỉ), cổ phiếu Mỹ là giá đóng cửa thứ 6 tuần trước. Chỉ mang tính tham khảo, không构成投资建议。Đầu tư có rủi ro, hãy tự quyết định.
+Dữ liệu từ thông tin thị trường công khai, tính đến 10/10/2026. Dữ liệu ngoại hối là giá tham chiếu đóng cửa thứ 6 (cuối tuần nghỉ), cổ phiếu Mỹ là giá đóng cửa thứ 6 tuần trước. Chỉ mang tính tham khảo, không phải là lời khuyên đầu tư。Đầu tư có rủi ro, hãy tự quyết định.

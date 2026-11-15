@@ -76,4 +76,4 @@ STAR50 điều chỉnh mạnh, cổ phiếu công nghệ chịu áp lực rõ r�
 
 ## ⚠️ Tuyên Bố Miễn Trừ Trách Nhiệm
 
-Dữ liệu chỉ mang tính tham khảo, không构成投资建议。
+Dữ liệu chỉ mang tính tham khảo, không phải là lời khuyên đầu tư。

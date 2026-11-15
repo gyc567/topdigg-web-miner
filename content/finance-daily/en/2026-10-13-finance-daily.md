@@ -31,9 +31,9 @@ EUR edged lower, USD/JPY ticked up, CNH central parity fixed at 6.7313 — marke
 
 > US equity data temporarily unavailable due to API rate limiting. Please check Yahoo Finance for real-time quotes.
 
-🍎 **Apple (AAPL)**：$---（API限流）
-🚗 **Tesla (TSLA)**：$---（API限流）
-🔥 **NVIDIA (NVDA)**：$---（API限流）
+🍎 **Apple (AAPL)**：$---(API rate-limited)
+🚗 **Tesla (TSLA)**：$---(API rate-limited)
+🔥 **NVIDIA (NVDA)**：$---(API rate-limited)
 
 ---
 
@@ -58,7 +58,7 @@ Gold pulled back modestly, silver down more — elevated volatility persists wit
 
 ## 🌐 Diplomacy & Major Events
 
-🗺 **China-US Trade Diplomacy**: Following May 2026 Beijing summit establishing an intergovernmental Trade Council, the Sept 20-23 8th round talks agreed on product lists for the tariff reduction framework. Bilateral trade slowly rebuilding amid ongoing博弈.
+🗺 **China-US Trade Diplomacy**: Following May 2026 Beijing summit establishing an intergovernmental Trade Council, the Sept 20-23 8th round talks agreed on product lists for the tariff reduction framework. Bilateral trade slowly rebuilding amid ongoing rivalry.
 
 🌐 **China-EU Trade**: Oct 8-9 talks produced a 16-point consensus on managing differences through dialogue — but simultaneously China launched anti-dumping investigation into EU p-nitrotoluene imports. October deadline passed; tensions unresolved.
 

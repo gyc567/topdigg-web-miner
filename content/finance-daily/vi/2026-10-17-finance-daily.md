@@ -73,4 +73,4 @@ Bạc tăng theo vàng, hoạt động tốt hơn nhờ kỳ vọng nhu cầu c�
 
 ## ⚠️ Tuyên Bố Miễn Trách Nhiệm
 
-Dữ liệu từ thông tin thị trường công khai, tính đến ngày 17 tháng 10 năm 2026. Chỉ mang tính tham khảo, không构成投资建议。Ngoại hối, hàng hóa và chứng khoán biến động mạnh, đầu tư có rủi ro.
+Dữ liệu từ thông tin thị trường công khai, tính đến ngày 17 tháng 10 năm 2026. Chỉ mang tính tham khảo, không phải là lời khuyên đầu tư。Ngoại hối, hàng hóa và chứng khoán biến động mạnh, đầu tư có rủi ro.

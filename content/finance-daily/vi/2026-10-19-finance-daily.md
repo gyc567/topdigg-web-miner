@@ -55,4 +55,4 @@ Euro giảm nhẹ khi nhu cầu trú ẩn đồng đô la giảm bớt; Yên y�
 
 ## ⚠️ Tuyên Bố Miễn Trừ Trách Nhiệm
 
-Dữ liệu chỉ mang tính tham khảo, không构成投资建议。
+Dữ liệu chỉ mang tính tham khảo, không phải là lời khuyên đầu tư。
