@@ -1,7 +1,7 @@
 ---
 title: "Bản tin tài chính hàng ngày | 2026-10-28"
 date: "2026-10-28"
-description: "EUR/USD giảm còn 1.1126 sau phát biểu diều hòa từ biên bản ECB, trong khi Fed tối nay công bố quyết định lãi suất dự kiến giữ nguyên 3.75%-4.00%. Thị trường chứng khoán Mỹ hồi phục nhẹ với AAPL, TSLA, NVDA đều tăng giá, còn A股 chứng kiến đợt bán tháo mạnh với STAR 50 giảm 4.80%. Địa chính trị, Mỹ-Trung đang chuyển từ thương mại sang an ninh và bảo hộ tài sản trí tuệ."
+description: "EUR/USD giảm còn 1.1126 sau phát biểu diều hòa từ biên bản ECB, trong khi Fed tối nay công bố quyết định lãi suất dự kiến giữ nguyên 3.75%-4.00%. Thị trường chứng khoán Mỹ hồi phục nhẹ với AAPL, TSLA, NVDA đều tăng giá, còn cổ phiếu A chứng kiến đợt bán tháo mạnh với STAR 50 giảm 4.80%. Địa chính trị, Mỹ-Trung đang chuyển từ thương mại sang an ninh và bảo hộ tài sản trí tuệ."
 tags:
   - Bản tin tài chính
   - Kinh tế vĩ mô

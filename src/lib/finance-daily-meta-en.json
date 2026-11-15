@@ -65,14 +65,14 @@
       "date": "2026-11-12",
       "author": "瑞哥观势",
       "tags": [
-        "财经简报",
-        "宏观经济"
+        "Finance Briefing",
+        "Macroeconomics"
       ],
       "categories": [
-        "财经简报"
+        "Finance Briefing"
       ],
-      "title": "每日财经简报 | 2026-11-12",
-      "description": "美元加息预期把 EUR/USD 压回 1.11 下方，黄金在 4000 美元上方承压，而霍尔木兹海峡连续出事成为今日最大变量。同时《华尔街日报》曝出 NVIDIA 董事会准备罢免黄仁勋，治理风险与 11 月 17 日财报同时定价。",
+      "title": "Daily Finance Briefing | 2026-11-12",
+      "description": "Rate hike expectations pushed EUR/USD back below 1.11 and left gold under pressure above $4000, while repeated incidents in the Strait of Hormuz became the biggest variable of the day. The Wall Street Journal also reported that NVIDIA's board is preparing to remove Jensen Huang, so governance risk and the 11/17 earnings are being priced at the same time.",
       "source": {
         "original": {
           "name": "瑞哥观势",
@@ -441,7 +441,7 @@
         "Finance Brief"
       ],
       "title": "Daily Finance Brief | 2026-10-15",
-      "description": "FX: EUR/USD 1.1202, USD/JPY 157.79; US Stocks: AAPL +0.49% at $342.96, TSLA -2.15%, NVDA -3.16%; Gold $4,142.70/oz小幅回调；Fed holds rates, China-US leaders call restarts trade talks.",
+      "description": "FX: EUR/USD 1.1202, USD/JPY 157.79; US Stocks: AAPL +0.49% at $342.96, TSLA -2.15%, NVDA -3.16%; Gold $4,142.70/oz, down slightly; Fed holds rates, China-US leaders call restarts trade talks.",
       "source": {
         "original": {
           "name": "瑞哥观势",
@@ -606,16 +606,16 @@
       "date": "2026-10-03",
       "author": "瑞哥观势",
       "tags": [
-        "财经简报",
-        "宏观经济",
-        "美联储",
-        "中美贸易"
+        "Finance Briefing",
+        "Macroeconomy",
+        "Fed",
+        "China-US Trade"
       ],
       "categories": [
-        "财经简报"
+        "Finance Briefing"
       ],
-      "title": "每日财经简报 | 2026-10-03",
-      "description": "美联储官员称支持年末再加息一次，但弱就业数据使10月加息概率大降；欧元区通胀超预期升至3.8%；中美首脑会晤后双方列出建议削减关税商品清单，贸易关系现缓和信号。",
+      "title": "Daily Finance Briefing | 2026-10-03",
+      "description": "Fed officials back one more rate hike by year-end, but weak employment data has sharply lowered the odds of an October hike; eurozone inflation unexpectedly rises to 3.8%; after the China-US leaders meeting, both sides listed goods proposed for tariff cuts, showing signs of easing in the trade relationship.",
       "source": {
         "original": {
           "name": "瑞哥观势",

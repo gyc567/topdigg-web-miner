@@ -42,7 +42,7 @@
       "slug": "2026-11-14-finance-daily",
       "title": {
         "en": "Daily Finance Briefing | 2026-11-14",
-        "ja": "デイリー财经簡報 | 2026-11-14",
+        "ja": "デイリーファイナンスブリーフ | 2026-11-14",
         "vi": "Bản tin tài chính hàng ngày | 2026-11-14",
         "zh-Hans": "每日财经简报 | 2026-11-14",
         "zh-Hant": "每日財經簡報 | 2026-11-14"
@@ -80,7 +80,7 @@
       "slug": "2026-11-13-finance-daily",
       "title": {
         "en": "Daily Finance Briefing | 2026-11-13",
-        "ja": "デイリー财经簡報 | 2026-11-13",
+        "ja": "デイリーファイナンスブリーフ | 2026-11-13",
         "vi": "Bản tin tài chính hằng ngày | 2026-11-13",
         "zh-Hans": "每日财经简报 | 2026-11-13",
         "zh-Hant": "每日財經簡報 | 2026-11-13"
@@ -117,25 +117,34 @@
     {
       "slug": "2026-11-12-finance-daily",
       "title": {
+        "en": "Daily Finance Briefing | 2026-11-12",
+        "ja": "デイリー金融ブリーフ | 2026-11-12",
+        "vi": "Bản tin tài chính hằng ngày | 2026-11-12",
         "zh-Hans": "每日财经简报 | 2026-11-12",
         "zh-Hant": "每日財經簡報 | 2026-11-12"
       },
       "description": {
+        "en": "Rate hike expectations pushed EUR/USD back below 1.11 and left gold under pressure above $4000, while repeated incidents in the Strait of Hormuz became the biggest variable of the day. The Wall Street Journal also reported that NVIDIA's board is preparing to remove Jensen Huang, so governance risk and the 11/17 earnings are being priced at the same time.",
+        "ja": "米利上げ観測がEUR/USDを1.11割れに押し戻す一方、金は4000ドル超で売り圧摆在く。ホルムズ海峡の連続事案が本日の最大の変数となる。同時にWall Street JournalはNVIDIA取締役会が黄仁勲解任の準備を進めていると報じた。ガバナンスリスクと11月17日の決算が同時に織り込まれる局面。",
+        "vi": "Kỳ vọng tăng lãi suất đẩy EUR/USD trở lại dưới 1.11, vàng chịu áp lực trên vùng 4000 USD, trong khi các sự cố liên tiếp ở eo Hormuz trở thành biến số lớn nhất hôm nay. Đồng thời Wall Street Journal đưa tin hội đồng quản trị NVIDIA đang chuẩn bị bãi nhiệm Jensen Huang, nên rủi ro quản trị và kết quả kinh doanh ngày 17/11 được định giá cùng lúc.",
         "zh-Hans": "美元加息预期把 EUR/USD 压回 1.11 下方，黄金在 4000 美元上方承压，而霍尔木兹海峡连续出事成为今日最大变量。同时《华尔街日报》曝出 NVIDIA 董事会准备罢免黄仁勋，治理风险与 11 月 17 日财报同时定价。",
         "zh-Hant": "美元加息預期把 EUR/USD 壓回 1.11 下方，黃金在 4000 美元上方承壓，而霍爾木茲海峽連出事成為今日最大變量。同時《華爾街日報》曝出 NVIDIA 董事會準備罷免黃仁勳，治理風險與 11 月 17 日財報同時定價。"
       },
       "date": "2026-11-12",
       "author": "瑞哥观势",
       "tags": [
-        "财经简报",
-        "宏观经济"
+        "Finance Briefing",
+        "Macroeconomics"
       ],
       "categories": [
-        "财经简报"
+        "Finance Briefing"
       ],
       "source": {
         "original": {
           "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
             "zh-Hans": "瑞哥观势",
             "zh-Hant": "瑞哥觀勢"
           },
@@ -515,7 +524,7 @@
       "description": {
         "en": "EUR/USD slipped below 1.1130 to 1.1126 after hawkish ECB minutes, while the Fed decision tonight is expected to hold the federal funds target range at 3.75%-4.00% with the December path hinging on Chair Warsh's wording. US tech stocks remain split, with AAPL near its 52-week high on a 39.8x TTM P/E and analyst targets below spot, NVDA offering the best risk-reward at 27.6x, and gold back above $4,000. The most important geopolitical event is the US Senate's 2027 defense bill with over $1 trillion in China-targeted provisions, signaling that the US-China contest is shifting from trade to security.",
         "ja": "ユーロが1.1130を割る中、USD/JPYは157.86、USD/CNHは6.6657。FRBは今夜3.75%-4.00%の据え置きが有力で、Warshの記者会見での表現が12月の利上げ判断を左右する。株価はA株の急落と中米の通商・安全保障対立に左右される一方、金は4,062.72ドルへ戻してリスクプレミアムを再評価する局面。",
-        "vi": "EUR/USD giảm còn 1.1126 sau phát biểu diều hòa từ biên bản ECB, trong khi Fed tối nay công bố quyết định lãi suất dự kiến giữ nguyên 3.75%-4.00%. Thị trường chứng khoán Mỹ hồi phục nhẹ với AAPL, TSLA, NVDA đều tăng giá, còn A股 chứng kiến đợt bán tháo mạnh với STAR 50 giảm 4.80%. Địa chính trị, Mỹ-Trung đang chuyển từ thương mại sang an ninh và bảo hộ tài sản trí tuệ.",
+        "vi": "EUR/USD giảm còn 1.1126 sau phát biểu diều hòa từ biên bản ECB, trong khi Fed tối nay công bố quyết định lãi suất dự kiến giữ nguyên 3.75%-4.00%. Thị trường chứng khoán Mỹ hồi phục nhẹ với AAPL, TSLA, NVDA đều tăng giá, còn cổ phiếu A chứng kiến đợt bán tháo mạnh với STAR 50 giảm 4.80%. Địa chính trị, Mỹ-Trung đang chuyển từ thương mại sang an ninh và bảo hộ tài sản trí tuệ.",
         "zh-Hans": "美联储今晚公布利率决议，市场预期维持3.75%-4.00%不变，但9月CPI 3.7%、PPI 6.3%让12月加息预期持续定价。EUR/USD跌0.43%至1.1126，TSLA大涨4.04%，黄金重回4000美元上方涨1.42%。A股科技股重挫，科创50单日跌4.80%。",
         "zh-Hant": "美元兌人民幣在 6.66 一線穩定，歐元跌破 1.1130，市場消化 ECB 會議紀要的鷹派訊號；美股三大指標股中 NVDA 估值最合理，TSLA 估值仍離譜。政策面最大看點是今晚 Fed 利率決議，當前聯邦基金利率目標區間預期維持 3.75%-4.00% 不變，而 3.7% 的 CPI 與 6.3% 的 PPI 幾乎沒有為寬鬆留下任何空間。"
       },
@@ -589,7 +598,7 @@
       "slug": "2026-10-20-finance-daily",
       "title": {
         "en": "Daily Finance Briefing | 2026-10-20",
-        "ja": "每日金融브리프 | 2026-10-20",
+        "ja": "デイリー ファイナンス ブリーフィング | 2026-10-20",
         "vi": "Bản Tin Tài Chính Hàng Ngày | 2026-10-20",
         "zh-Hans": "每日财经简报 | 2026-10-20",
         "zh-Hant": "每日財經簡報 | 2026-10-20"
@@ -753,7 +762,7 @@
       },
       "description": {
         "en": "USD holds firm in forex markets, EUR/USD at 1.1212; US stocks retreat with NVDA down 1.84%; Gold surges past $4,150 to new high; Fed stays on hold with rate-cut expectations cooling; China-EU trade tensions escalate.",
-        "ja": "外国為替市場でドル高継続、EUR/USDは1.1212；米国株はNVDAが1.84%安で下落；金が4150ドル突破で過去最高値更新；FRBは現行水準維持、降息期待が後退；中欧貿易摩擦が深刻化。",
+        "ja": "外国為替市場でドル高継続、EUR/USDは1.1212；米国株はNVDAが1.84%安で下落；金が4150ドル突破で過去最高値更新；FRBは現行水準維持、利下げ期待が後退；中欧貿易摩擦が深刻化。",
         "vi": "Đô la Mỹ duy trì cao trên thị trường ngoại hối, EUR/USD ở mức 1.1212; Chứng khoán Mỹ giảm với NVDA dẫn đầu -1.84%; Vàng vượt $4.150 lập đỉnh mới; Fed giữ nguyên lãi suất, kỳ vọng cắt giảm giảm; Ma sát thương mại Trung-EU leo thang.",
         "zh-Hans": "外汇市场美元高位震荡，EUR/USD报1.1212；美股三大指数回调，NVDA跌1.84%领跌；黄金突破4150美元再创新高；美联储按兵不动，年内降息预期降温；中欧贸易摩擦持续升级。",
         "zh-Hant": "外匯市場美元高檔震盪，EUR/USD報1.1212；美股三大指數回調，NVDA跌1.84%領跌；黃金突破4150美元再創新高；美聯儲按兵不動，年內降息預期降溫；中歐貿易摩擦持續升級。"
@@ -790,7 +799,7 @@
         "zh-Hant": "每日財經簡報 | 2026-10-15"
       },
       "description": {
-        "en": "FX: EUR/USD 1.1202, USD/JPY 157.79; US Stocks: AAPL +0.49% at $342.96, TSLA -2.15%, NVDA -3.16%; Gold $4,142.70/oz小幅回调；Fed holds rates, China-US leaders call restarts trade talks.",
+        "en": "FX: EUR/USD 1.1202, USD/JPY 157.79; US Stocks: AAPL +0.49% at $342.96, TSLA -2.15%, NVDA -3.16%; Gold $4,142.70/oz, down slightly; Fed holds rates, China-US leaders call restarts trade talks.",
         "ja": "外国為替：EUR/USD 1.1202、USD/JPY 157.79；米国株：AAPL +0.49%の$342.96、TSLA -2.15%、NVDA -3.16%；金$4142.70/オンス小幅下落；米FRBは据え置き、中米首脳電話で貿易交渉再開。",
         "vi": "Ngoại hối: EUR/USD 1.1202, USD/JPY 157.79; Chứng khoán Mỹ: AAPL +0.49% tại $342.96, TSLA -2.15%, NVDA -3.16%; Vàng $4,142.70/oz điều chỉnh nhẹ; Fed giữ lãi suất, lãnh đạo Trung-Mỹ nối lại đàm phán thương mại.",
         "zh-Hans": "外汇市场：EUR/USD 1.1202，USD/JPY 157.79；美股：苹果微涨0.49%至$342.96，特斯拉跌2.15%，英伟达跌3.16%；黄金$4142.70/盎司小幅回调；美联储按兵不动，中美元首通话重启贸易磋商。",
@@ -1022,12 +1031,14 @@
       "title": {
         "en": "Daily Finance Brief | 2026-10-08",
         "ja": "每日金融ブリーフィング | 2026-10-08",
+        "vi": "Bản tin tài chính hằng ngày | 2026-10-08",
         "zh-Hans": "每日财经简报 | 2026-10-08",
         "zh-Hant": "每日財經簡報 | 2026-10-08"
       },
       "description": {
         "en": "USD index steady; gold and silver pull back from highs. US equities mixed — AAPL leads, NVDA/TSLA ease. Central banks are in a wait-and-see mode; the EU-China EV tariff standoff and Middle East geopolitical risk remain the key swing factors.",
         "ja": "ドル指数は堅調、金銀は最高値から反落。米国株はまちまちでAAPLが上昇、NVDA/TSLAは小幅調整。中央銀行は様子見モード、EU・中国のEV関税協議と中東の地政学リスクが主な変動要因。",
+        "vi": "Chỉ số USD giữ nguyên, vàng bạc điều chỉnh từ vùng cao; chứng khoán Mỹ phân hóa, AAPL dẫn đầu tăng giá, NVDA/TSLA giảm nhẹ; chính sách ngân hàng trung ương bước vào giai đoạn quan sát lặng lẽ, đấu tranh thuế xe điện Trung-EU và rủi ro địa chính trị Trung Đông vẫn là các biến số chính.",
         "zh-Hans": "美元指数持稳，金银高位回调；美股分化，AAPL领涨、NVDA/TSLA小幅回调；央行政策面进入静默观察窗口，中欧电动汽车关税博弈与中东地缘风险仍是主要变量。",
         "zh-Hant": "美元指數持穩，金銀高位回調；美股分化，AAPL領漲、NVDA/TSLA小幅回調；央行政策面進入靜默觀察窗口，中歐電動汽車關稅博弈與中東地緣風險仍是主要變量。"
       },
@@ -1045,6 +1056,7 @@
           "name": {
             "en": "瑞哥观势",
             "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
             "zh-Hans": "瑞哥观势",
             "zh-Hant": "瑞哥觀勢"
           },
@@ -1096,27 +1108,36 @@
     {
       "slug": "2026-10-03-finance-daily",
       "title": {
+        "en": "Daily Finance Briefing | 2026-10-03",
+        "ja": "デイリーファイナンスブリーフ | 2026-10-03",
+        "vi": "Bản Tin Tài Chính Hàng Ngày | 2026-10-03",
         "zh-Hans": "每日财经简报 | 2026-10-03",
         "zh-Hant": "每日財經簡報 | 2026-10-03"
       },
       "description": {
+        "en": "Fed officials back one more rate hike by year-end, but weak employment data has sharply lowered the odds of an October hike; eurozone inflation unexpectedly rises to 3.8%; after the China-US leaders meeting, both sides listed goods proposed for tariff cuts, showing signs of easing in the trade relationship.",
+        "ja": "米FRB高官は年末に1回の追加利上げを支持と表明したものの、弱い雇用統計が10月利上げの確率を大きく引き下げた。ユーロ圏のインフレは市場予想を上回り3.8%へ上昇。中米首脳会談後に両国が削減候補の関税品目リストを公開し、通商関係に緩和の兆し。",
+        "vi": "Quan chức Fed cho biết ủng hộ một lần tăng lãi suất thêm vào cuối năm, nhưng dữ liệu việc làm yếu khiến xác suất tăng lãi suất tháng 10 giảm mạnh; lạm phát khu vực euro vượt dự báo lên 3.8%; sau cuộc gặp lãnh đạo Trung-Mỹ, cả hai bên đều liệt kê danh mục hàng đề xuất giảm thuế, cho thấy dấu hiệu giảm căng thẳng trong quan hệ thương mại.",
         "zh-Hans": "美联储官员称支持年末再加息一次，但弱就业数据使10月加息概率大降；欧元区通胀超预期升至3.8%；中美首脑会晤后双方列出建议削减关税商品清单，贸易关系现缓和信号。",
         "zh-Hant": "美聯儲官員稱支持年末再加息一次，但弱就業數據使10月加息概率大降；歐元區通脹超預期升至3.8%；中美首腦會晤後雙方列出建議削減關稅商品清單，貿易關係現緩和信號。"
       },
       "date": "2026-10-03",
       "author": "瑞哥观势",
       "tags": [
-        "财经简报",
-        "宏观经济",
-        "美联储",
-        "中美贸易"
+        "Finance Briefing",
+        "Macroeconomy",
+        "Fed",
+        "China-US Trade"
       ],
       "categories": [
-        "财经简报"
+        "Finance Briefing"
       ],
       "source": {
         "original": {
           "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
             "zh-Hans": "瑞哥观势",
             "zh-Hant": "比特財商"
           },
@@ -1167,12 +1188,14 @@
       "title": {
         "en": "Daily Finance Brief | 2026-10-01",
         "ja": "デイリーファイナンスブリーフ | 2026-10-01",
+        "vi": "Bản tin tài chính hằng ngày | 2026-10-01",
         "zh-Hans": "每日财经简报 | 2026-10-01",
         "zh-Hant": "每日財經快報 | 2026-10-01"
       },
       "description": {
         "en": "Fed raises rates 25bp to 3.75-4.00% in September, first hike since 2023; ECB follows suit; China-US 8th round of trade talks establishes Trade Council; Gold pulls back to $4,142/oz, silver falls 2%+.",
         "ja": "米FRBが9月に25bp利上げし3.75-4.00%に、2023年以来初の利上げ。ECBも追随。中米第8回貿易協議で貿易理事会設立で合意。金は4,142ドル/オンスに反落、銀は2%以上下落。",
+        "vi": "Fed tăng lãi suất 25bp trong tháng 9 lên 3.75-4.00%, lần đầu tiên kể từ năm 2023; ECB siết chặt đồng thời; vòng đàm phán thương mại Trung-Mỹ thứ 8 lập Hội đồng Thương mại; vàng lùi về $4,142/oz, bạc giảm hơn 2%.",
         "zh-Hans": "美联储9月加息25bp至3.75-4.00%，为2023年来首次；欧洲央行同步紧缩；中美第8轮经贸磋商建立贸易理事会；黄金回落至$4,142/oz，白银跌超2%。",
         "zh-Hant": "美聯儲9月升息25bp至3.75-4.00%，為2023年以來首次；歐洲央行同步緊縮；中美第8輪經貿磋商建立貿易理事會；黃金回落至$4,142/盎司，白銀跌超2%。"
       },
@@ -1193,6 +1216,7 @@
           "name": {
             "en": "瑞哥观势",
             "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
             "zh-Hans": "瑞哥观势",
             "zh-Hant": "比特財商"
           },
@@ -1203,26 +1227,38 @@
     {
       "slug": "2026-09-30-finance-daily",
       "title": {
-        "zh-Hans": "每日财经简报 | 2026-09-30"
+        "en": "Daily Finance Briefing | 2026-09-30",
+        "ja": "デイリーファイナンスブリーフ | 2026-09-30",
+        "vi": "Bản Tin Tài Chính Hàng Ngày | 2026-09-30",
+        "zh-Hans": "每日财经简报 | 2026-09-30",
+        "zh-Hant": "每日財經簡報 | 2026-09-30"
       },
       "description": {
-        "zh-Hans": "美联储9月重启加息25bp至3.75%-4.00%，为2023年来首次；A股上证维持3000点附近。外汇市场EUR/USD跌0.28%至1.1339，黄金大涨1.34%突破$4180/盎司。地缘风险升温，中东局势持续紧张。"
+        "en": "Fed restarts rate hikes in September with a 25bp increase to 3.75%-4.00%, the first hike since 2023; the Shanghai Composite holds near 3000. EUR/USD falls 0.28% to 1.1339 and gold jumps 1.34%, breaking above $4180/oz. Geopolitical risks heat up as the Middle East situation stays tense.",
+        "ja": "米FRBが9月に25bpの利上げを再開し3.75%-4.00%に、2023年以来初。中国A株の上証指数は3000近辺を維持。EUR/USDは0.28%安の1.1339、金は1.34%高で$4180/オンスを突破。地政学リスクが高まり中東情勢は緊張続く。",
+        "vi": "Fed khởi động lại việc tăng lãi suất trong tháng 9 với mức tăng 25bp lên 3.75%-4.00%, lần đầu tiên kể từ 2023; chỉ số Thượng Hải giữ quanh 3000 điểm. EUR/USD giảm 0.28% xuống 1.1339, vàng tăng 1.34% phá vỡ mốc $4180/oz. Rủi ro địa chính trị nóng lên khi tình hình Trung Đông tiếp tục căng thẳng.",
+        "zh-Hans": "美联储9月重启加息25bp至3.75%-4.00%，为2023年来首次；A股上证维持3000点附近。外汇市场EUR/USD跌0.28%至1.1339，黄金大涨1.34%突破$4180/盎司。地缘风险升温，中东局势持续紧张。",
+        "zh-Hant": "美聯儲9月重啟加息25bp至3.75%-4.00%，為2023年來首次；A股上證維持3000點附近。外匯市場EUR/USD跌0.28%至1.1339，黃金大漲1.34%突破$4180/盎司。地緣風險升溫，中東局勢持續緊張。"
       },
       "date": "2026-09-30",
       "author": "瑞哥观势",
       "tags": [
-        "财经简报",
-        "宏观经济",
-        "美联储",
-        "黄金"
+        "Finance Briefing",
+        "Macroeconomy",
+        "Fed",
+        "Gold"
       ],
       "categories": [
-        "财经简报"
+        "Finance Briefing"
       ],
       "source": {
         "original": {
           "name": {
-            "zh-Hans": "瑞哥观势"
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
           },
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }

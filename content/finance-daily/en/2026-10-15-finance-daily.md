@@ -1,7 +1,7 @@
 ---
 title: "Daily Finance Brief | 2026-10-15"
 date: "2026-10-15"
-description: "FX: EUR/USD 1.1202, USD/JPY 157.79; US Stocks: AAPL +0.49% at $342.96, TSLA -2.15%, NVDA -3.16%; Gold $4,142.70/oz小幅回调；Fed holds rates, China-US leaders call restarts trade talks."
+description: "FX: EUR/USD 1.1202, USD/JPY 157.79; US Stocks: AAPL +0.49% at $342.96, TSLA -2.15%, NVDA -3.16%; Gold $4,142.70/oz, down slightly; Fed holds rates, China-US leaders call restarts trade talks."
 tags:
   - Finance Brief
   - Macro Economy
