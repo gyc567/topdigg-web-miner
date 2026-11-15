@@ -1,0 +1,43 @@
+name: DIAG Vercel Auth
+
+on:
+  workflow_dispatch:
+
+jobs:
+  diag:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probe Vercel API with CI token
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+        run: |
+          echo "== secret presence =="
+          echo "token set: $([ -n "$VERCEL_TOKEN" ] && echo yes || echo no) len=${#VERCEL_TOKEN}"
+          echo "org secret : ${VERCEL_ORG_ID:-<empty>} len=${#VERCEL_ORG_ID}"
+          echo "proj secret: ${VERCEL_PROJECT_ID:-<empty>} len=${#VERCEL_PROJECT_ID}"
+          echo
+          echo "== GET /v2/user =="
+          curl -s -o /tmp/user.json -w "http=%{http_code}\n" \
+            -H "Authorization: Bearer $VERCEL_TOKEN" \
+            https://api.vercel.com/v2/user
+          head -c 600 /tmp/user.json; echo
+          echo
+          echo "== GET /v9/projects/\$VERCEL_PROJECT_ID (CI secret value) =="
+          curl -s -o /tmp/proj.json -w "http=%{http_code}\n" \
+            -H "Authorization: Bearer $VERCEL_TOKEN" \
+            "https://api.vercel.com/v9/projects/$VERCEL_PROJECT_ID"
+          head -c 600 /tmp/proj.json; echo
+          echo
+          echo "== GET /v9/projects/<hardcoded workflow value> =="
+          curl -s -o /tmp/proj2.json -w "http=%{http_code}\n" \
+            -H "Authorization: Bearer $VERCEL_TOKEN" \
+            "https://api.vercel.com/v9/projects/prj_5vnaBgPn0LKiEBPxWzhKSICpWUAS"
+          head -c 600 /tmp/proj2.json; echo
+          echo
+          echo "== GET /v2/teams (list teams token can access) =="
+          curl -s -o /tmp/teams.json -w "http=%{http_code}\n" \
+            -H "Authorization: Bearer $VERCEL_TOKEN" \
+            "https://api.vercel.com/v2/teams?limit=20"
+          head -c 1200 /tmp/teams.json; echo
