@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-16-finance-daily",
+      "date": "2026-11-16",
+      "author": "瑞哥观势",
+      "tags": [
+        "Bản tin tài chính",
+        "Kinh tế vĩ mô"
+      ],
+      "categories": [
+        "Bản tin tài chính"
+      ],
+      "title": "Bản tin tài chính hàng ngày | 2026-11-16",
+      "description": "Trục định giá toàn cầu đang chuyển từ niềm tin vào phần cứng AI sang định giá ứng dụng AI: Bộ trưởng Tài chính Hoa Kỳ Bessent công khai đòi Nvidia thực hiện 「cải tổ đột phá」 và đề nghị một CEO bên ngoài, NVDA giảm 2,01% với RSI chỉ còn 19,1, cùng tuần Anthropic thực hiện IPO. Fed giữ nguyên 3,75%-4,00% với tỷ lệ 10:2 và hai thành viên đòi nâng lãi suất, ECB giữ tiền gửi ở 2,50% và cảnh báo cú sốc năng lượng. Vàng ở 3885,6 USD/ounce, nhân dân tị giá ổn định quanh 6,67, chỉ số ChiNext giảm 3,32% trong phiên thứ Sáu tuần trước.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-15-finance-daily",
       "date": "2026-11-15",
       "author": "瑞哥观势",
@@ -620,26 +640,6 @@
         "original": {
           "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWtwHXDoJluazVqUZaOluCvFMYqiPhrmR6N0mlnfr3F77"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-02-finance-daily",
-      "date": "2026-10-02",
-      "author": "瑞哥观势",
-      "tags": [
-        "Bản Tin Tài Chính",
-        "Kinh Tế Vĩ Mô"
-      ],
-      "categories": [
-        "Bản Tin Tài Chính"
-      ],
-      "title": "Bản Tin Tài Chính Hàng Ngày | 2026-10-02",
-      "description": "Fed và ECB cùng tăng lãi suất 25bps vào tháng 9; Trung-Mỹ thành lập Hội đồng Thương mại, đạt đồng thuận khung giảm thuế 30 tỷ đô la song phương; EU áp thuế chống bán phá giá lên tới 192.2% đối với hóa chất Trung Quốc; Hành lang eo biển Hormuz mới của Iran-Oman đi vào hoạt động.",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
     }

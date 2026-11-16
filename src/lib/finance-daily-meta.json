@@ -1,6 +1,76 @@
 {
   "reports": [
     {
+      "slug": "2026-11-16-finance-daily",
+      "title": {
+        "en": "Daily Finance Briefing | 2026-11-16",
+        "ja": "デイリー ファイナンス ブリーフィング | 2026-11-16",
+        "vi": "Bản tin tài chính hàng ngày | 2026-11-16",
+        "zh-Hans": "每日财经简报 | 2026-11-16",
+        "zh-Hant": "每日財經簡報 | 2026-11-16"
+      },
+      "description": {
+        "en": "The global pricing narrative is shifting from AI hardware conviction to AI application pricing: US Treasury Secretary Bessent publicly demanded a \"dramatic shakeup\" at Nvidia and urged an outside CEO, NVDA fell 2.01% with RSI at just 19.1, and Anthropic's IPO landed the same week. Fed held 3.75%-4.00% on a 10-2 vote with two dissenters wanting a hike, ECB kept the deposit rate at 2.50% while flagging the energy shock. Gold at 3885.6 USD/oz, offshore yuan steady at 6.67, and the ChiNext index dropped 3.32% last Friday.",
+        "ja": "世界の値付けの軸が「AI ハードウェアへの信仰」から「AI アプリケーションへの評価」へ移っている。米財務長官ベッセントが NVIDIA に「劇的な刷新」を要求し外部の最高経営責任者を招くよう促したのに対し、NVDA は 2.01% 下落して RSI は 19.1 まで低下し、同じ週に Anthropic の新規株式公開が実行された。FRB は 10 対 2 で 3.75%-4.00% を維持し 2 名の議決権者が利上げを要求、ECB は預金金利 2.50% を据え置きエネルギーショックを警告。ゴールドは 3885.6 ドル/オンス、離岸人民元は 6.67 で安定、前週金曜の創業板指数は 3.32% 下落。",
+        "vi": "Trục định giá toàn cầu đang chuyển từ niềm tin vào phần cứng AI sang định giá ứng dụng AI: Bộ trưởng Tài chính Hoa Kỳ Bessent công khai đòi Nvidia thực hiện 「cải tổ đột phá」 và đề nghị một CEO bên ngoài, NVDA giảm 2,01% với RSI chỉ còn 19,1, cùng tuần Anthropic thực hiện IPO. Fed giữ nguyên 3,75%-4,00% với tỷ lệ 10:2 và hai thành viên đòi nâng lãi suất, ECB giữ tiền gửi ở 2,50% và cảnh báo cú sốc năng lượng. Vàng ở 3885,6 USD/ounce, nhân dân tị giá ổn định quanh 6,67, chỉ số ChiNext giảm 3,32% trong phiên thứ Sáu tuần trước.",
+        "zh-Hans": "全球定价主线正从AI硬件信仰切换到AI应用定价：美国财长贝森特公开要求Nvidia「剧烈改组」并请外部CEO接手，NVDA跌2.01%、RSI仅19.1，同周Anthropic的IPO落地。Fed以10:2维持3.75%-4.00%且两位票委要求加息，ECB存款利率2.50%并警示能源冲击。黄金3885.6美元/盎司，离岸人民币稳在6.67，上周五创业板指跌3.32%。",
+        "zh-Hant": "全球定價主線正從AI硬體信仰切換到AI應用定價：美國財長貝森特公開要求Nvidia「劇烈改組」並請外部CEO接手，NVDA跌2.01%、RSI僅19.1，同週Anthropic的IPO落地。Fed以10:2維持3.75%-4.00%且兩位票委要求加息，ECB存款利率2.50%並警示能源衝擊。黃金3885.6美元/盎司，離岸人民幣穩在6.67，上週五創業板指跌3.32%。"
+      },
+      "date": "2026-11-16",
+      "author": "瑞哥观势",
+      "tags": {
+        "en": [
+          "Finance Briefing",
+          "Macroeconomics"
+        ],
+        "ja": [
+          "ファイナンス ブリーフィング",
+          "マクロエコノミー"
+        ],
+        "vi": [
+          "Bản tin tài chính",
+          "Kinh tế vĩ mô"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "宏觀經濟"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Briefing"
+        ],
+        "ja": [
+          "ファイナンス ブリーフィング"
+        ],
+        "vi": [
+          "Bản tin tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-15-finance-daily",
       "title": {
         "en": "Daily Finance Briefing | 2026-11-15",

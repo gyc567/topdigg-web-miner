@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-16-finance-daily",
+      "date": "2026-11-16",
+      "author": "瑞哥观势",
+      "tags": [
+        "財經簡報",
+        "宏觀經濟"
+      ],
+      "categories": [
+        "財經簡報"
+      ],
+      "title": "每日財經簡報 | 2026-11-16",
+      "description": "全球定價主線正從AI硬體信仰切換到AI應用定價：美國財長貝森特公開要求Nvidia「劇烈改組」並請外部CEO接手，NVDA跌2.01%、RSI僅19.1，同週Anthropic的IPO落地。Fed以10:2維持3.75%-4.00%且兩位票委要求加息，ECB存款利率2.50%並警示能源衝擊。黃金3885.6美元/盎司，離岸人民幣穩在6.67，上週五創業板指跌3.32%。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-15-finance-daily",
       "date": "2026-11-15",
       "author": "瑞哥观势",
@@ -620,26 +640,6 @@
         "original": {
           "name": "比特財商",
           "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWtwHXDoJluazVqUZaOluCvFMYqiPhrmR6N0mlnfr3F77"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-02-finance-daily",
-      "date": "2026-10-02",
-      "author": "瑞哥观势",
-      "tags": [
-        "財經簡報",
-        "巨觀經濟"
-      ],
-      "categories": [
-        "財經簡報"
-      ],
-      "title": "每日財經簡報 | 2026-10-02",
-      "description": "美聯準、歐洲央行9月同步升息25基點；中美建立貿易理事會達成300億對等降稅框架；歐盟對中化工品反傾銷稅率最高192.2%；伊朗荷莫茲海峽新航道啟用。",
-      "source": {
-        "original": {
-          "name": "比特財商",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
     }

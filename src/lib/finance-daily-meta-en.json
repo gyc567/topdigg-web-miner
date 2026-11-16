@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-16-finance-daily",
+      "date": "2026-11-16",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "Daily Finance Briefing | 2026-11-16",
+      "description": "The global pricing narrative is shifting from AI hardware conviction to AI application pricing: US Treasury Secretary Bessent publicly demanded a \"dramatic shakeup\" at Nvidia and urged an outside CEO, NVDA fell 2.01% with RSI at just 19.1, and Anthropic's IPO landed the same week. Fed held 3.75%-4.00% on a 10-2 vote with two dissenters wanting a hike, ECB kept the deposit rate at 2.50% while flagging the energy shock. Gold at 3885.6 USD/oz, offshore yuan steady at 6.67, and the ChiNext index dropped 3.32% last Friday.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-15-finance-daily",
       "date": "2026-11-15",
       "author": "瑞哥观势",
@@ -620,26 +640,6 @@
         "original": {
           "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWtwHXDoJluazVqUZaOluCvFMYqiPhrmR6N0mlnfr3F77"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-02-finance-daily",
-      "date": "2026-10-02",
-      "author": "瑞哥观势",
-      "tags": [
-        "Finance Brief",
-        "Macro Economy"
-      ],
-      "categories": [
-        "Finance Brief"
-      ],
-      "title": "Daily Finance Brief | 2026-10-02",
-      "description": "Fed and ECB both hike rates by 25bps in September; China-US establish Trade Council with $30B mutual tariff reduction framework; EU anti-dumping duties on Chinese chemicals up to 192.2%; Iran-Oman new Hormuz strait corridor opens.",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
     }

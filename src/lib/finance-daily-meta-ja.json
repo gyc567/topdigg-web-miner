@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-16-finance-daily",
+      "date": "2026-11-16",
+      "author": "瑞哥观势",
+      "tags": [
+        "ファイナンス ブリーフィング",
+        "マクロエコノミー"
+      ],
+      "categories": [
+        "ファイナンス ブリーフィング"
+      ],
+      "title": "デイリー ファイナンス ブリーフィング | 2026-11-16",
+      "description": "世界の値付けの軸が「AI ハードウェアへの信仰」から「AI アプリケーションへの評価」へ移っている。米財務長官ベッセントが NVIDIA に「劇的な刷新」を要求し外部の最高経営責任者を招くよう促したのに対し、NVDA は 2.01% 下落して RSI は 19.1 まで低下し、同じ週に Anthropic の新規株式公開が実行された。FRB は 10 対 2 で 3.75%-4.00% を維持し 2 名の議決権者が利上げを要求、ECB は預金金利 2.50% を据え置きエネルギーショックを警告。ゴールドは 3885.6 ドル/オンス、離岸人民元は 6.67 で安定、前週金曜の創業板指数は 3.32% 下落。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-15-finance-daily",
       "date": "2026-11-15",
       "author": "瑞哥观势",
@@ -620,26 +640,6 @@
         "original": {
           "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWtwHXDoJluazVqUZaOluCvFMYqiPhrmR6N0mlnfr3F77"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-02-finance-daily",
-      "date": "2026-10-02",
-      "author": "瑞哥观势",
-      "tags": [
-        "ファイナンスブリーフ",
-        "マクロ経済"
-      ],
-      "categories": [
-        "ファイナンスブリーフ"
-      ],
-      "title": "デイリーファイナンスブリーフ | 2026-10-02",
-      "description": "米FRB・ECBが9月に共に25bp利上げ；中美貿易理事会設立・300億ドルの相互関税削減枠組みで合意；EUの中国化工品反ダンピング関税が最大192.2%；イラン・オマーン新ホルムズ海峡航道が稼働。",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
     }
