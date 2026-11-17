@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-17-finance-daily",
+      "date": "2026-11-17",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "Daily Finance Briefing | 2026-11-17",
+      "description": "The dollar hit a 19-month high as the market repriced from rate cuts to rate hikes: US equities sold off hard with the Nasdaq down 2.49% and NVDA down 4.12% on just 19.7x earnings and an RSI of 24.8; China's Shanghai Composite fell 0.87% and ChiNext 4.37%; gold slipped 1.06% and silver 3.91%; China confirmed an upcoming summit with the US and Russia.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-16-finance-daily",
       "date": "2026-11-16",
       "author": "瑞哥观势",
@@ -618,28 +638,6 @@
         "original": {
           "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-03-finance-daily",
-      "date": "2026-10-03",
-      "author": "瑞哥观势",
-      "tags": [
-        "Finance Briefing",
-        "Macroeconomy",
-        "Fed",
-        "China-US Trade"
-      ],
-      "categories": [
-        "Finance Briefing"
-      ],
-      "title": "Daily Finance Briefing | 2026-10-03",
-      "description": "Fed officials back one more rate hike by year-end, but weak employment data has sharply lowered the odds of an October hike; eurozone inflation unexpectedly rises to 3.8%; after the China-US leaders meeting, both sides listed goods proposed for tariff cuts, showing signs of easing in the trade relationship.",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWtwHXDoJluazVqUZaOluCvFMYqiPhrmR6N0mlnfr3F77"
         }
       }
     }

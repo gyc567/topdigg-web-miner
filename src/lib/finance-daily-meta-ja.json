@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-17-finance-daily",
+      "date": "2026-11-17",
+      "author": "瑞哥观势",
+      "tags": [
+        "ファイナンス ブリーフィング",
+        "マクロエコノミー"
+      ],
+      "categories": [
+        "ファイナンス ブリーフィング"
+      ],
+      "title": "デイリー ファイナンス ブリーフィング | 2026-11-17",
+      "description": "ドルが19か月高となり「利下げ」の前提が「利上げ」に書き換わった。米株式は全面安でナスダックは2.49%安、NVDAは4.12%安だがPERは19.7倍でRSIは24.8。中国市場では上海総合指数0.87%安、創業板4.37%安。金は1.06%安、銀は3.91%安。中国が米露首脳会談の開催を確認した。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-16-finance-daily",
       "date": "2026-11-16",
       "author": "瑞哥观势",
@@ -618,28 +638,6 @@
         "original": {
           "name": "瑞哥観勢",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-03-finance-daily",
-      "date": "2026-10-03",
-      "author": "瑞哥观势",
-      "tags": [
-        "ファイナンスブリーフ",
-        "マクロ経済",
-        "FRB",
-        "中米貿易"
-      ],
-      "categories": [
-        "ファイナンスブリーフ"
-      ],
-      "title": "デイリーファイナンスブリーフ | 2026-10-03",
-      "description": "米FRB高官は年末に1回の追加利上げを支持と表明したものの、弱い雇用統計が10月利上げの確率を大きく引き下げた。ユーロ圏のインフレは市場予想を上回り3.8%へ上昇。中米首脳会談後に両国が削減候補の関税品目リストを公開し、通商関係に緩和の兆し。",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWtwHXDoJluazVqUZaOluCvFMYqiPhrmR6N0mlnfr3F77"
         }
       }
     }

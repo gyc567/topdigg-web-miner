@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-17-finance-daily",
+      "date": "2026-11-17",
+      "author": "瑞哥观势",
+      "tags": [
+        "财经简报",
+        "宏观经济"
+      ],
+      "categories": [
+        "财经简报"
+      ],
+      "title": "每日财经简报 | 2026-11-17",
+      "description": "美元创19个月新高，市场开始定价加息而非降息：美股三大指数重挫，纳指跌2.49%，NVDA跌4.12%但市盈率仅19.7倍、RSI 24.8；A股上证跌0.87%、创业板跌4.37%；黄金跌1.06%白银跌3.91%；中国确认将举行中美元首峰会。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-16-finance-daily",
       "date": "2026-11-16",
       "author": "瑞哥观势",
@@ -618,28 +638,6 @@
         "original": {
           "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-03-finance-daily",
-      "date": "2026-10-03",
-      "author": "瑞哥观势",
-      "tags": [
-        "财经简报",
-        "宏观经济",
-        "美联储",
-        "中美贸易"
-      ],
-      "categories": [
-        "财经简报"
-      ],
-      "title": "每日财经简报 | 2026-10-03",
-      "description": "美联储官员称支持年末再加息一次，但弱就业数据使10月加息概率大降；欧元区通胀超预期升至3.8%；中美首脑会晤后双方列出建议削减关税商品清单，贸易关系现缓和信号。",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWtwHXDoJluazVqUZaOluCvFMYqiPhrmR6N0mlnfr3F77"
         }
       }
     }

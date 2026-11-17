@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-17-finance-daily",
+      "date": "2026-11-17",
+      "author": "瑞哥观势",
+      "tags": [
+        "Bản tin tài chính",
+        "Kinh tế vĩ mô"
+      ],
+      "categories": [
+        "Bản tin tài chính"
+      ],
+      "title": "Bản tin tài chính hàng ngày | 2026-11-17",
+      "description": "Đô la chạm đỉnh 19 tháng khi thị trường định giá lại từ cắt lãi suất sang tăng lãi suất: chứng khoán Mỹ bán tháo mạnh với Nasdaq giảm 2,49%, NVDA giảm 4,12% trong khi PER chỉ 19,7 lần và RSI 24,8. Thị trường Trung Quốc giảm với Thượng Hải 0,87% và ChiNext 4,37%. Vàng giảm 1,06%, bạc giảm 3,91%. Trung Quốc xác nhận sẽ tổ chức hội nghị cấp cao với Mỹ và Nga.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-16-finance-daily",
       "date": "2026-11-16",
       "author": "瑞哥观势",
@@ -618,28 +638,6 @@
         "original": {
           "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-03-finance-daily",
-      "date": "2026-10-03",
-      "author": "瑞哥观势",
-      "tags": [
-        "Bản Tin Tài Chính",
-        "Kinh Tế Vĩ Mô",
-        "Fed",
-        "Thương Mại Trung-Mỹ"
-      ],
-      "categories": [
-        "Bản Tin Tài Chính"
-      ],
-      "title": "Bản Tin Tài Chính Hàng Ngày | 2026-10-03",
-      "description": "Quan chức Fed cho biết ủng hộ một lần tăng lãi suất thêm vào cuối năm, nhưng dữ liệu việc làm yếu khiến xác suất tăng lãi suất tháng 10 giảm mạnh; lạm phát khu vực euro vượt dự báo lên 3.8%; sau cuộc gặp lãnh đạo Trung-Mỹ, cả hai bên đều liệt kê danh mục hàng đề xuất giảm thuế, cho thấy dấu hiệu giảm căng thẳng trong quan hệ thương mại.",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWtwHXDoJluazVqUZaOluCvFMYqiPhrmR6N0mlnfr3F77"
         }
       }
     }
