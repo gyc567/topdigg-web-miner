@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-17-ai-daily",
+      "date": "2026-11-17",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Qwen ra mắt Qwen4-Max: 2.4T tham số nền, 1 triệu token ngữ cảnh và năng lực agent dài hạn",
+      "description": "Nhóm Qwen công bố Qwen4-Max trên kiến trúc Qwen4 mới với 2.4T tham số nền, 71B tham số kích hoạt mỗi token, 328B tham số N-gram Embedding, khả năng thị giác gốc và cửa sổ ngữ cảnh 1 triệu token. Cùng ngày, Tencent Hunyuan ra mắt Hy4 flash với 224B tổng tham số, 12B kích hoạt, ngữ cảnh 1M và giá 0.5 tệ cho mỗi triệu token đầu vào.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-16-ai-daily",
       "date": "2026-11-16",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Meta Phát Hành Mô Hình Open-Weight Muse Spark Open: 816B Tham Số, 1M Context",
       "description": "Meta phát hành mô hình open-weight Muse Spark Open với 816B tổng tham số, 42B active, 1M token context, hướng đến workflow coding và agent, hỗ trợ đa phương thức native và tăng cường safety post-training.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-15-ai-daily",
-      "date": "2026-10-15",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Gemini 4 Argon Mở Cửa Cho Người Đăng Ký Google AI Pro Và Ultra Toàn Cầu",
-      "description": "Gemini chính thức thông báo Gemini 4 Argon đã mở cửa cho người đăng ký Google AI Pro và Ultra toàn cầu, model tiên phong xử lý các tác vụ phức tạp.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

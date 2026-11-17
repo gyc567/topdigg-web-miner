@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-11-17-ai-daily",
+      "title": {
+        "en": "Qwen Ships Qwen4-Max: 2.4T Backbone, Million-Token Context and Long-Horizon Agents",
+        "ja": "Qwen が Qwen4-Max を発表：2.4T パラメータのバックボーン、100 万トークンのコンテキスト、長期間のエージェント能力",
+        "vi": "Qwen ra mắt Qwen4-Max: 2.4T tham số nền, 1 triệu token ngữ cảnh và năng lực agent dài hạn",
+        "zh-Hans": "Qwen 发布 Qwen4-Max：2.4T 参数骨干、百万 token 上下文与长程智能体能力",
+        "zh-Hant": "Qwen 發佈 Qwen4-Max：2.4T 參數骨干、百萬 token 上下文與長程智能體能力"
+      },
+      "description": {
+        "en": "The Qwen team released Qwen4-Max on the new Qwen4 architecture with a 2.4T backbone, 71B active parameters per token, 328B N-gram Embedding parameters, native vision and a 1M token context window. Tencent Hunyuan launched Hy4 flash the same day with 224B total parameters, 12B active and 1M context at 0.5 yuan per million input tokens.",
+        "ja": "Qwen チームが新しい Qwen4 アーキテクチャに基づく Qwen4-Max をリリースした。バックボーン 2.4T、トークンあたり 71B の活性パラメータ、328B の N-gram Embedding パラメータ、ネイティブの視覚機能、100 万トークンのコンテキストウィンドウを持つ。同じ日、Tencent Hunyuan は総パラメータ 224B、活性 12B、1M コンテキスト、入力 100 万トークンあたり 0.5 元の Hy4 flash を発表した。",
+        "vi": "Nhóm Qwen công bố Qwen4-Max trên kiến trúc Qwen4 mới với 2.4T tham số nền, 71B tham số kích hoạt mỗi token, 328B tham số N-gram Embedding, khả năng thị giác gốc và cửa sổ ngữ cảnh 1 triệu token. Cùng ngày, Tencent Hunyuan ra mắt Hy4 flash với 224B tổng tham số, 12B kích hoạt, ngữ cảnh 1M và giá 0.5 tệ cho mỗi triệu token đầu vào.",
+        "zh-Hans": "Qwen 团队发布 Qwen4-Max，基于新 Qwen4 架构，拥有 2.4T 骨干参数、每 token 激活 71B、328B N-gram Embedding 参数，具备原生视觉能力和 100 万 token 上下文窗口。腾讯混元同日推出 Hy4 flash，总参数 224B、激活 12B、1M 上下文，输入每百万 tokens 仅 0.5 元。",
+        "zh-Hant": "Qwen 團隊發佈 Qwen4-Max，基於新的 Qwen4 架構，擁有 2.4T 骨干參數、每 token 活化 71B、328B N-gram Embedding 參數，具備原生視覺能力與 100 萬 token 上下文視窗。騰訊混元同日推出 Hy4 flash，總參數 224B、活化 12B、1M 上下文，輸入每百萬 tokens 僅 0.5 元。"
+      },
+      "date": "2026-11-17",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-11-16-ai-daily",
       "title": {
         "en": "A Quiet Day with Nothing Major to Report",

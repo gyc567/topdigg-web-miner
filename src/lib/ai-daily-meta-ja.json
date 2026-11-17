@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-17-ai-daily",
+      "date": "2026-11-17",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Qwen が Qwen4-Max を発表：2.4T パラメータのバックボーン、100 万トークンのコンテキスト、長期間のエージェント能力",
+      "description": "Qwen チームが新しい Qwen4 アーキテクチャに基づく Qwen4-Max をリリースした。バックボーン 2.4T、トークンあたり 71B の活性パラメータ、328B の N-gram Embedding パラメータ、ネイティブの視覚機能、100 万トークンのコンテキストウィンドウを持つ。同じ日、Tencent Hunyuan は総パラメータ 224B、活性 12B、1M コンテキスト、入力 100 万トークンあたり 0.5 元の Hy4 flash を発表した。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-16-ai-daily",
       "date": "2026-11-16",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Meta、オープンウェイトモデル Muse Spark Open を発表 — 816B パラメータ、1M コンテキスト",
       "description": "Meta がオープンウェイトモデル Muse Spark Open を発表。816B 総パラメータ、42B アクティブ、1M トークン コンテキストで、コーディングとエージェント ワークフローを対象とし、ネイティブマルチモーダルと安全ポストライニングを強化。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-15-ai-daily",
-      "date": "2026-10-15",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Gemini 4 Argon が世界の Google AI Pro および Ultra  加入者に開放",
-      "description": "Gemini は、Gemini 4 Argon が世界の Google AI Pro および Ultra 加入者に開放されたことを正式に発表。複雑なタスクに対応するフロンティアモデルが世界上線。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

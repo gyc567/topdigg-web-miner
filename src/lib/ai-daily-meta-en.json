@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-17-ai-daily",
+      "date": "2026-11-17",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Qwen Ships Qwen4-Max: 2.4T Backbone, Million-Token Context and Long-Horizon Agents",
+      "description": "The Qwen team released Qwen4-Max on the new Qwen4 architecture with a 2.4T backbone, 71B active parameters per token, 328B N-gram Embedding parameters, native vision and a 1M token context window. Tencent Hunyuan launched Hy4 flash the same day with 224B total parameters, 12B active and 1M context at 0.5 yuan per million input tokens.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-16-ai-daily",
       "date": "2026-11-16",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Meta Releases Open-Weight Model Muse Spark Open: 816B Parameters, 1M Context",
       "description": "Meta releases open-weight model Muse Spark Open with 816B total parameters, 42B active, 1M token context, targeting coding and agent workflows with native multimodal support and enhanced safety post-training.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-15-ai-daily",
-      "date": "2026-10-15",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Gemini 4 Argon Now Available to Global Google AI Pro and Ultra Subscribers",
-      "description": "Gemini officially announced Gemini 4 Argon is now available to global Google AI Pro and Ultra subscribers, a frontier model for complex tasks.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",
