@@ -327,5 +327,30 @@
     "pastCollaborations": "過去の協力事例",
     "noPastCollaborations": "記録された協力事例はありません",
     "viewCampaign": "キャンペーンを見る"
+  },
+  "auth": {
+    "login": "ログイン",
+    "register": "登録",
+    "email": "メール",
+    "password": "パスワード",
+    "name": "名前",
+    "logout": "ログアウト",
+    "account": "アカウント",
+    "noAccount": "アカウント未作成？",
+    "haveAccount": "アカウントをお持ちですか？",
+    "loggingIn": "ログイン中…",
+    "loginBtn": "ログイン",
+    "registerBtn": "登録",
+    "welcome": "おかえりなさい",
+    "createAccount": "アカウント作成",
+    "authFailed": "メールまたはパスワードが正しくありません",
+    "emailExists": "このメールは既に登録済みです",
+    "fillAll": "すべての項目を入力してください",
+    "membership": "会員ステータス",
+    "credits": "ポイント残高",
+    "noMembership": "まだ会員ではありません",
+    "billingHistory": "請求履歴",
+    "customerPortal": "サブスクリプション管理",
+    "sessionExpired": "セッションの有効期限が切れました。再度ログインしてください"
   }
 }

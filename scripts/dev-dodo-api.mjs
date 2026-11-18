@@ -40,12 +40,45 @@ for (const file of [".env.local", ".env"]) {
 
 const { default: checkoutHandler } = await import("../api/checkout.ts");
 const { handleWebhook } = await import("../api/webhooks/dodo.ts");
+const { default: authHandler } = await import("../api/auth/[...all].ts");
+const { default: accountHandler } = await import("../api/account.ts");
+
+function vresOf(res) {
+  return {
+    statusCode: 200,
+    status(code) { this.statusCode = code; return this; },
+    json(p) { res.writeHead(this.statusCode, { "Content-Type": "application/json" }); res.end(JSON.stringify(p)); },
+    send(p) { res.writeHead(this.statusCode, { "Content-Type": "text/plain" }); res.end(String(p)); },
+    setHeader(k, v) { res.setHeader(k, v); },
+  };
+}
 
 const server = http.createServer(async (req, res) => {
   const chunks = [];
   for await (const chunk of req) chunks.push(chunk);
   const raw = Buffer.concat(chunks).toString("utf8");
   const url = (req.url ?? "").split("?")[0];
+
+  // --- Better Auth (all /api/auth/*) ---
+  if (url.startsWith("/api/auth")) {
+    if (req.method === "POST") {
+      try { req.body = raw ? JSON.parse(raw) : {}; } catch { req.body = raw; }
+    }
+    try {
+      await authHandler(req, res);
+    } catch (err) {
+      console.error("[dev-auth]", err);
+      if (!res.headersSent) res.writeHead(500, { "Content-Type": "application/json" });
+      res.end(JSON.stringify({ error: String(err?.message ?? err) }));
+    }
+    return;
+  }
+
+  // --- Account aggregation ---
+  if (url.startsWith("/api/account")) {
+    try { await accountHandler(req, vresOf(res)); } catch (e) { console.error(e); if(!res.headersSent){res.writeHead(500,{"Content-Type":"application/json"});} res.end(JSON.stringify({error:String(e?.message??e)})); }
+    return;
+  }
 
   // --- Dodo webhook (raw body, signature verified over the exact bytes) ---
   if (url.startsWith("/api/webhooks/dodo")) {
@@ -65,7 +98,7 @@ const server = http.createServer(async (req, res) => {
   }
 
   // --- Checkout session ---
-  if (req.method === "POST") {
+  if (url.startsWith("/api/checkout") && req.method === "POST") {
     try {
       req.body = raw ? JSON.parse(raw) : {};
     } catch {

@@ -3,6 +3,33 @@ import { siteConfig } from "@/config/site";
 import { LanguageSwitcher } from "../LanguageSwitcher";
 import { localizeText, normalizeLang } from "@/lib/locale";
 import { useTranslation } from "react-i18next";
+import { useSession, authClient } from "@/lib/auth-client";
+
+function AuthNav() {
+  const { t } = useTranslation();
+  const { data: session, isPending } = useSession();
+  if (isPending) return null;
+  if (!session?.user) {
+    return (
+      <NavLink to="/login" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+        {t("auth.login")}
+      </NavLink>
+    );
+  }
+  return (
+    <>
+      <NavLink to="/account" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+        {t("auth.account")}
+      </NavLink>
+      <button
+        onClick={() => authClient.signOut().then(() => location.assign("/"))}
+        className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+      >
+        {t("auth.logout")}
+      </button>
+    </>
+  );
+}
 
 export const SiteHeader = () => {
   const { i18n } = useTranslation();
@@ -40,6 +67,7 @@ export const SiteHeader = () => {
               {localizeText(item.label, currentLocale)}
             </a>
           ))}
+          <AuthNav />
           <LanguageSwitcher />
         </nav>
       </div>

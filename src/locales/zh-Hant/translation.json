@@ -327,5 +327,30 @@
     "pastCollaborations": "歷史合作案例",
     "noPastCollaborations": "暫無合作案例",
     "viewCampaign": "查看活動"
+  },
+  "auth": {
+    "login": "登入",
+    "register": "註冊",
+    "email": "郵箱",
+    "password": "密碼",
+    "name": "暱稱",
+    "logout": "退出登入",
+    "account": "賬戶中心",
+    "noAccount": "還沒有賬號？",
+    "haveAccount": "已有賬號？",
+    "loggingIn": "登入中…",
+    "loginBtn": "登入",
+    "registerBtn": "註冊",
+    "welcome": "歡迎回來",
+    "createAccount": "創建賬戶",
+    "authFailed": "郵箱或密碼不正確",
+    "emailExists": "該郵箱已註冊",
+    "fillAll": "請填寫所有欄位",
+    "membership": "會員狀態",
+    "credits": "積分餘額",
+    "noMembership": "還不是會員",
+    "billingHistory": "賬單歷史",
+    "customerPortal": "管理訂閱",
+    "sessionExpired": "登入狀態已失效，請重新登入"
   }
 }

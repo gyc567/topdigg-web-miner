@@ -24,6 +24,13 @@ const HANDLED_TYPES = new Set([
   "subscription.cancelled",
   "subscription.past_due",
   "subscription.expired",
+  // Credits: keep the cached balance in sync (see docs/membership-system-plan.md §7.5)
+  "credit.added",
+  "credit.deducted",
+  "credit.manual_adjustment",
+  "credit.expired",
+  "credit.rolled_over",
+  "credit.balance_low",
 ]);
 
 /**
@@ -82,6 +89,21 @@ function fulfil(event: any): void {
     case "subscription.past_due":
       console.log(
         `[dodo-webhook] subscription.past_due — mark past due for ${customerEmail} (subscription ${data.subscription_id})`,
+      );
+      break;
+    case "credit.added":
+    case "credit.deducted":
+    case "credit.manual_adjustment":
+    case "credit.expired":
+    case "credit.rolled_over":
+      console.log(
+        `[dodo-webhook] ${event.type} — balance for ${customerEmail} now ${data?.balance_after ?? "?"} (entry ${data?.id ?? "?"})`,
+      );
+      // TODO: refresh credit_balance_cache here once the table lands (Phase 3 follow-up).
+      break;
+    case "credit.balance_low":
+      console.log(
+        `[dodo-webhook] credit.balance_low — ${customerEmail} at ${data?.available_balance ?? "?"}; offer a top-up checkout`,
       );
       break;
     case "payment.failed":

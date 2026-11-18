@@ -37,6 +37,10 @@ const VALID_ROUTES = new Set([
   "/advertisers/dashboard",
   // Checkout (Dodo Payments) — /checkout and /checkout/success
   "/checkout",
+  // Auth & account
+  "/login",
+  "/register",
+  "/account",
   // Vercel internals (should never 404)
   "/_vercel",
   "/__next",

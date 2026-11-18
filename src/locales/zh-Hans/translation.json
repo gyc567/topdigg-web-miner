@@ -327,5 +327,30 @@
     "pastCollaborations": "历史合作案例",
     "noPastCollaborations": "暂无合作案例",
     "viewCampaign": "查看活动"
+  },
+  "auth": {
+    "login": "登录",
+    "register": "注册",
+    "email": "邮箱",
+    "password": "密码",
+    "name": "昵称",
+    "logout": "退出登录",
+    "account": "账户中心",
+    "noAccount": "还没有账号？",
+    "haveAccount": "已有账号？",
+    "loggingIn": "登录中…",
+    "loginBtn": "登录",
+    "registerBtn": "注册",
+    "welcome": "欢迎回来",
+    "createAccount": "创建账户",
+    "authFailed": "邮箱或密码不正确",
+    "emailExists": "该邮箱已注册",
+    "fillAll": "请填写所有字段",
+    "membership": "会员状态",
+    "credits": "积分余额",
+    "noMembership": "还不是会员",
+    "billingHistory": "账单历史",
+    "customerPortal": "管理订阅",
+    "sessionExpired": "登录状态已失效，请重新登录"
   }
 }

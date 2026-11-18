@@ -327,5 +327,30 @@
     "pastCollaborations": "Past Collaborations",
     "noPastCollaborations": "No past collaborations recorded.",
     "viewCampaign": "View Campaign"
+  },
+  "auth": {
+    "login": "Sign in",
+    "register": "Sign up",
+    "email": "Email",
+    "password": "Password",
+    "name": "Name",
+    "logout": "Sign out",
+    "account": "Account",
+    "noAccount": "No account yet?",
+    "haveAccount": "Already have an account?",
+    "loggingIn": "Signing in…",
+    "loginBtn": "Sign in",
+    "registerBtn": "Sign up",
+    "welcome": "Welcome back",
+    "createAccount": "Create account",
+    "authFailed": "Incorrect email or password",
+    "emailExists": "This email is already registered",
+    "fillAll": "Please fill in all fields",
+    "membership": "Membership",
+    "credits": "Credits",
+    "noMembership": "Not a member yet",
+    "billingHistory": "Billing history",
+    "customerPortal": "Manage subscription",
+    "sessionExpired": "Session expired, please sign in again"
   }
 }
