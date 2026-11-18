@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-18-ai-daily",
+      "date": "2026-11-18",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "OpenAI phát hành GPT-6.2 Astra và GPT-6.2 Sol",
+      "description": "OpenAI phát hành GPT-6.2 Astra cho công việc chuyên môn phức tạp và GPT-6.2 Sol cho công việc hằng ngày, cả hai đều cho kết quả tốt hơn với số token đầu ra ít hơn. Microsoft MAI cũng tung bảy mô hình mới tại Ignite 2026, với MAI Code 2 đạt 98% hiệu năng của GPT-6.1 Sol ở khoảng 40% chi phí.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-17-ai-daily",
       "date": "2026-11-17",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "DeepSeek-V4.1-Flash-1017 Phát hành, Nâng cao Điểm Chuẩn Đa nền tảng, Giá API Không Đổi",
       "description": "DeepSeek nâng cấp V4.1 Flash lên DeepSeek-V4.1-Flash-1017, phiên bản web và APP đồng bộ cập nhật, phương thức và giá API gọi không đổi, vẫn truy cập qua deepseek-flash.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-16-ai-daily",
-      "date": "2026-10-16",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Meta Phát Hành Mô Hình Open-Weight Muse Spark Open: 816B Tham Số, 1M Context",
-      "description": "Meta phát hành mô hình open-weight Muse Spark Open với 816B tổng tham số, 42B active, 1M token context, hướng đến workflow coding và agent, hỗ trợ đa phương thức native và tăng cường safety post-training.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

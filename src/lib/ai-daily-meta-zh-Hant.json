@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-18-ai-daily",
+      "date": "2026-11-18",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "OpenAI 發布 GPT-6.2 Astra 與 GPT-6.2 Sol",
+      "description": "OpenAI 發布面向複雜專業工作的 GPT-6.2 Astra 與面向日常工作的 GPT-6.2 Sol，兩者在更少輸出 token 下取得更好結果。同日 Microsoft MAI 在 Ignite 2026 發布七款新模型，MAI Code 2 以約 40% 的成本達到 GPT-6.1 Sol 98% 的效能。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-17-ai-daily",
       "date": "2026-11-17",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "DeepSeek-V4.1-Flash-1017 發布，多基準成績提升且 API 價格不變",
       "description": "DeepSeek 將 V4.1 Flash 升級至 DeepSeek-V4.1-Flash-1017，網頁端與 APP 同步更新，API 調用方式與價格不變，仍用 deepseek-flash 訪問。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-16-ai-daily",
-      "date": "2026-10-16",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Meta 發布開源權重模型 Muse Spark Open，816B 參數、1M 上下文",
-      "description": "Meta 發布開源權重模型 Muse Spark Open，816B 參數、1M 上下文、42B 激活參數，面向編碼與智慧體工作流，原生多模態並增加安全後訓練。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",
