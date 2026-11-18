@@ -1,6 +1,76 @@
 {
   "reports": [
     {
+      "slug": "2026-11-18-finance-daily",
+      "title": {
+        "en": "Daily Finance Briefing | 2026-11-18",
+        "ja": "デイリー ファイナンス ブリーフィング | 2026-11-18",
+        "vi": "Bản tin tài chính hàng ngày | 2026-11-18",
+        "zh-Hans": "每日财经简报 | 2026-11-18",
+        "zh-Hant": "每日財經簡報 | 2026-11-18"
+      },
+      "description": {
+        "en": "Foreign exchange went nowhere: EUR/USD at 1.0989, USD/JPY at 159.50, offshore yuan at 6.6689, with everyone waiting for the Fed's final 2026 meeting on December 8-9. NVDA fell to $155.46 with an RSI of 22 on just 19.41 times earnings against 83 percent revenue growth; China's Shanghai Composite lost 0.50 percent and ChiNext 1.20 percent; gold slipped 0.98 percent and silver 0.31 percent; the China-US trade council held its first meeting on November 13.",
+        "ja": "為替はすべて横ばい。EUR/USDは1.0989、USD/JPYは159.50、オフショア人民元は6.6689で、全員が12月8日から9日の米連邦の年内最後の会合を待っている。NVDAは155.46ドルまで下落しRSIは22、PERは19.41倍にとどまる一方、売上成長は83%。中国市場では上海総合指数0.50%安、創業板1.20%安。金は0.98%安、銀は0.31%安。11月13日に米中貿易協議機構の貿易理事会が初会合を開いた。",
+        "vi": "Ngoại hối đi ngang toàn diện: EUR/USD 1,0989, USD/JPY 159,50, nhân dân tị ngoại 6,6689, thị trường đang chờ cuộc họp cuối năm của Fed vào ngày 8-9 tháng 12. NVDA giảm về 155,46 USD với RSI chỉ 22, PER 19,41 lần trong khi doanh thu tăng 83%; chứng khoán Trung Quốc giảm với Thượng Hải 0,50% và ChiNext 1,20%; vàng giảm 0,98%, bạc giảm 0,31%; hội đồng thương mại Trung Quốc Mỹ họp phiên đầu tiên ngày 13 tháng 11.",
+        "zh-Hans": "外汇全线横盘：EUR/USD 1.0989、USD/JPY 159.50、离岸人民币 6.6689，市场在等12月8-9日的美联储年内最后一次议息。NVDA跌到155.46美元、RSI仅22，19.41倍市盈率却对应83%的营收增长；A股上证跌0.50%、创业板跌1.20%；黄金跌0.98%、白银跌0.31%；中美经贸磋商机制项下贸易理事会11月13日首次开会。",
+        "zh-Hant": "外匯全線橫盤：EUR/USD 1.0989、USD/JPY 159.50、離岸人民幣 6.6689，市場在等12月8-9日的美聯準年內最後一次議息。NVDA跌到155.46美元、RSI僅22，19.41倍本益比卻對應83%的營收成長；A股上證跌0.50%、創業板跌1.20%；黃金跌0.98%、白銀跌0.31%；中美經貿磋商機制項下貿易理事會11月13日首次開會。"
+      },
+      "date": "2026-11-18",
+      "author": "瑞哥观势",
+      "tags": {
+        "en": [
+          "Finance Briefing",
+          "Macroeconomics"
+        ],
+        "ja": [
+          "ファイナンス ブリーフィング",
+          "マクロエコノミー"
+        ],
+        "vi": [
+          "Bản tin tài chính",
+          "Kinh tế vĩ mô"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "宏觀經濟"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Briefing"
+        ],
+        "ja": [
+          "ファイナンス ブリーフィング"
+        ],
+        "vi": [
+          "Bản tin tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-17-finance-daily",
       "title": {
         "en": "Daily Finance Briefing | 2026-11-17",

@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-18-finance-daily",
+      "date": "2026-11-18",
+      "author": "瑞哥观势",
+      "tags": [
+        "Bản tin tài chính",
+        "Kinh tế vĩ mô"
+      ],
+      "categories": [
+        "Bản tin tài chính"
+      ],
+      "title": "Bản tin tài chính hàng ngày | 2026-11-18",
+      "description": "Ngoại hối đi ngang toàn diện: EUR/USD 1,0989, USD/JPY 159,50, nhân dân tị ngoại 6,6689, thị trường đang chờ cuộc họp cuối năm của Fed vào ngày 8-9 tháng 12. NVDA giảm về 155,46 USD với RSI chỉ 22, PER 19,41 lần trong khi doanh thu tăng 83%; chứng khoán Trung Quốc giảm với Thượng Hải 0,50% và ChiNext 1,20%; vàng giảm 0,98%, bạc giảm 0,31%; hội đồng thương mại Trung Quốc Mỹ họp phiên đầu tiên ngày 13 tháng 11.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-17-finance-daily",
       "date": "2026-11-17",
       "author": "瑞哥观势",
@@ -611,29 +631,6 @@
       ],
       "title": "Bản tin tài chính hằng ngày | 2026-10-08",
       "description": "Chỉ số USD giữ nguyên, vàng bạc điều chỉnh từ vùng cao; chứng khoán Mỹ phân hóa, AAPL dẫn đầu tăng giá, NVDA/TSLA giảm nhẹ; chính sách ngân hàng trung ương bước vào giai đoạn quan sát lặng lẽ, đấu tranh thuế xe điện Trung-EU và rủi ro địa chính trị Trung Đông vẫn là các biến số chính.",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-06-finance-daily",
-      "date": "2026-10-06",
-      "author": "瑞哥观势",
-      "tags": [
-        "Tóm tắt Tài chính",
-        "Kinh tế Vĩ mô",
-        "Thị trường Ngoại hối",
-        "Cổ phiếu Mỹ",
-        "Vàng"
-      ],
-      "categories": [
-        "Tóm tắt Tài chính Hằng ngày"
-      ],
-      "title": "Tóm tắt Tài chính Hằng ngày | 2026-10-06",
-      "description": "Hôm nay thị trường A-share nghỉ lễ Quốc khánh Trung Quốc (1-7/10), ngoại hối và vàng ổn định: EUR/USD 1,1216 (-0,34%), USD/JPY 157,88 (+0,08%), vàng $4142,52/oz (+0,19%), bạc $61,07/oz (+0,65%). Yahoo Finance và công cụ tìm kiếm bị giới hạn tốc độ, một số báo giá cổ phiếu Mỹ và thông báo ngân hàng trung ương được trình bày dưới dạng tham khảo trước kỳ nghỉ + đường dự kiến.",
       "source": {
         "original": {
           "name": "瑞哥观势",

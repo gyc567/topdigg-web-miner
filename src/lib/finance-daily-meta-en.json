@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-18-finance-daily",
+      "date": "2026-11-18",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "Daily Finance Briefing | 2026-11-18",
+      "description": "Foreign exchange went nowhere: EUR/USD at 1.0989, USD/JPY at 159.50, offshore yuan at 6.6689, with everyone waiting for the Fed's final 2026 meeting on December 8-9. NVDA fell to $155.46 with an RSI of 22 on just 19.41 times earnings against 83 percent revenue growth; China's Shanghai Composite lost 0.50 percent and ChiNext 1.20 percent; gold slipped 0.98 percent and silver 0.31 percent; the China-US trade council held its first meeting on November 13.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-17-finance-daily",
       "date": "2026-11-17",
       "author": "瑞哥观势",
@@ -611,29 +631,6 @@
       ],
       "title": "Daily Finance Brief | 2026-10-08",
       "description": "USD index steady; gold and silver pull back from highs. US equities mixed — AAPL leads, NVDA/TSLA ease. Central banks are in a wait-and-see mode; the EU-China EV tariff standoff and Middle East geopolitical risk remain the key swing factors.",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-06-finance-daily",
-      "date": "2026-10-06",
-      "author": "瑞哥观势",
-      "tags": [
-        "Daily Briefing",
-        "Macro",
-        "Forex",
-        "US Equities",
-        "Gold"
-      ],
-      "categories": [
-        "Daily Finance Briefing"
-      ],
-      "title": "Daily Finance Briefing | 2026-10-06",
-      "description": "A-shares closed for China's National Day holiday (Oct 1-7), while FX and gold ran steady: EUR/USD 1.1216 (-0.34%), USD/JPY 157.88 (+0.08%), Gold $4142.52/oz (+0.19%), Silver $61.07/oz (+0.65%). Yahoo Finance and search sources were rate-limited, so some US stock quotes and central bank headlines are presented as pre-holiday references plus expected-path notes.",
       "source": {
         "original": {
           "name": "瑞哥观势",
