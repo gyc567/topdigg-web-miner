@@ -1,7 +1,7 @@
 ---
 title: "article2media With 435 Stars: What It Is Actually Worth Is Not That AI Can Write, But That It Turns 'Something Feels Off' Into Metrics a Script Can Block"
 date: "2026-11-18"
-description: "article2media is an open source project with 435 stars and 65 forks that turns one article or one video into Xiaohongshu image posts, magazine long images, WeChat official account layouts and AI voiceover videos. The real value is not its 10 capabilities but its acceptance discipline, which turns vague feedback like 'too rushed' into machine-checkable numbers such as 4.5 characters per second."
+description: "article2media is an open source project with 435 stars and 65 forks that turns one article or one video into Xiaohongshu image posts, magazine long images, WeChat layouts and AI voiceover videos. Its real value is not the 10 capabilities but the acceptance discipline turning vague feedback like 'too rushed' into machine-checkable numbers."
 author: "瑞哥观势"
 tags:
   - open source project analysis

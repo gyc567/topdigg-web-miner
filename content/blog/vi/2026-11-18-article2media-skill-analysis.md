@@ -1,7 +1,7 @@
 ---
 title: "article2media với 435 sao: thứ đáng giá không phải là AI viết bài, mà là biến cảm giác 'có gì đó sai' thành những chỉ số mà script có thể chặn"
 date: "2026-11-18"
-description: "article2media là dự án mã nguồn mở với 435 sao và 65 lượt fork, biến một bài viết hoặc một video thành ảnh bài đăng Xiaohongshu, ảnh dài kiểu tạp chí, bố cục WeChat chính thức và video lồng tiếng AI chỉ với một cú click. Giá trị thật không nằm ở 10 năng lực mà ở kỷ luật nghiệm thu, biến phản hồi mơ hồ như 'quá gấp' thành 4.5 chữ/giây, con số mà máy kiểm được."
+description: "article2media là dự án mã nguồn mở với 435 sao và 65 lượt fork, biến một bài viết hoặc một video thành ảnh bài đăng Xiaohongshu, ảnh dài kiểu tạp chí, bố cục WeChat và video lồng tiếng AI. Giá trị thật không nằm ở 10 năng lực mà ở kỷ luật nghiệm thu: biến phản hồi mơ hồ như 'quá gấp' thành 4.5 chữ/giây."
 author: "瑞哥观势"
 tags:
   - phân tích dự án mã nguồn mở

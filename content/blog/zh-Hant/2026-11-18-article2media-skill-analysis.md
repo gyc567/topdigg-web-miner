@@ -9,7 +9,7 @@ tags:
   - Claude Code Skill
   - 自動化驗收
 categories:
-  - AI应用
+  - AI應用
 keywords:
   - article2media
   - Claude Code 插件
