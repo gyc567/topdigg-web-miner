@@ -35,6 +35,11 @@ const VALID_ROUTES = new Set([
   "/creators/admin",
   "/advertisers",
   "/advertisers/dashboard",
+  // Checkout (Dodo Payments) — /checkout and /checkout/success
+  "/checkout",
+  // Serverless functions (api/checkout.ts). Without this the middleware
+  // would 404 every API call before it reaches the function.
+  "/api",
   // Vercel internals (should never 404)
   "/_vercel",
   "/__next",
