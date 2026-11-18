@@ -1,6 +1,22 @@
 {
   "posts": [
     {
+      "slug": "2026-11-19-shuohao-skills-analysis",
+      "date": "2026-11-19",
+      "author": "瑞哥观势",
+      "tags": [
+        "Open Source Project Analysis",
+        "AI Video",
+        "Agent Skill",
+        "Automated Acceptance"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "6800 星的 shuohao-skills：AI 短剧真正的门槛不是生成，是谁敢把质量门写成代码",
+      "description": "6800 星的开源项目 shuohao-skills，把一本小说变成能直接下单的 AI 短剧投产包：7 个 skill、60 道质量门、1600 多项自测断言。真正值钱的是它把检查清单从提示词里赶出去，写成了确定性代码。"
+    },
+    {
       "slug": "2026-11-18-article2media-skill-analysis",
       "date": "2026-11-18",
       "author": "瑞哥观势",

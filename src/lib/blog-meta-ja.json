@@ -1,6 +1,22 @@
 {
   "posts": [
     {
+      "slug": "2026-11-19-shuohao-skills-analysis",
+      "date": "2026-11-19",
+      "author": "瑞哥观势",
+      "tags": [
+        "Open Source Project Analysis",
+        "AI Video",
+        "Agent Skill",
+        "Automated Acceptance"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "スター6800のshuohao-skills：AIショートドラマの真の敷居は生成ではなく、誰が品質ゲートをコードとして書けるか",
+      "description": "スター6800のオープンソースプロジェクトshuohao-skillsは、小説1冊をそのまま動画モデルに発注できるAIショートドラマの量産パッケージに変えます。7つのスキル、60本の品質ゲート、1600を超えるセルフテストのアサーション。価値があるのは、チェックリストをプロンプトから追い出し、決定論的なコードとして書き切ったことです。"
+    },
+    {
       "slug": "2026-11-18-article2media-skill-analysis",
       "date": "2026-11-18",
       "author": "瑞哥观势",
@@ -14,7 +30,7 @@
         "AI应用"
       ],
       "title": "スター435のarticle2media：価値があるのはAIが記事を書くことではなく、「何かが変だ」を機械が止められる指標に翻訳すること",
-      "description": "GitHubにはスター435、フォーク65のオープンソースプロジェクトarticle2mediaがあり、記事1本や動画1本を一発でXiaohongshu用の画像投稿、マガジン調のロングイメージ、WeChat公式アカウントのレイアウト、AIナレーション動画に変換する。本当の価値は10個の機能ではなく、「急ぎすぎ」という曖昧なフィードバックを4.5字/秒のような機械で検証できる指標に翻訳する検収規律（acceptance discipline）にある。"
+      "description": "article2mediaはスター435、フォーク65のオープンソースプロジェクトで、記事や動画を一発でXiaohongshu画像投稿、マガジン調ロングイメージ、WeChat公式アカウントレイアウト、AIナレーション動画に変換する。価値は10個の機能ではなく、「急ぎすぎ」という曖昧なフィードバックを4.5字/秒という検証可能な指標に翻訳する検収規律にある。"
     },
     {
       "slug": "2026-11-13-b2a-economy",

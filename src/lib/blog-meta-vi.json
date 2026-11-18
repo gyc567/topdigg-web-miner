@@ -1,6 +1,22 @@
 {
   "posts": [
     {
+      "slug": "2026-11-19-shuohao-skills-analysis",
+      "date": "2026-11-19",
+      "author": "瑞哥观势",
+      "tags": [
+        "Open Source Project Analysis",
+        "AI Video",
+        "Agent Skill",
+        "Automated Acceptance"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "shuohao-skills với 6800 sao: ngưỡng thật của AI short drama không phải là khả năng tạo, mà là ai dám viết quality gate thành code",
+      "description": "Dự án mã nguồn mở shuohao-skills với 6800 sao biến một cuốn tiểu thuyết thành gói sản xuất AI short drama đặt hàng được: 7 skill, 60 quality gate, hơn 1600 assertion tự kiểm tra. Giá trị thật nằm ở việc đuổi checklist ra khỏi prompt và viết nó thành code tất định."
+    },
+    {
       "slug": "2026-11-18-article2media-skill-analysis",
       "date": "2026-11-18",
       "author": "瑞哥观势",
@@ -14,7 +30,7 @@
         "AI应用"
       ],
       "title": "article2media với 435 sao: thứ đáng giá không phải là AI viết bài, mà là biến cảm giác 'có gì đó sai' thành những chỉ số mà script có thể chặn",
-      "description": "article2media là dự án mã nguồn mở với 435 sao và 65 lượt fork, biến một bài viết hoặc một video thành ảnh bài đăng Xiaohongshu, ảnh dài kiểu tạp chí, bố cục WeChat chính thức và video lồng tiếng AI chỉ với một cú click. Giá trị thật không nằm ở 10 năng lực mà ở kỷ luật nghiệm thu, biến phản hồi mơ hồ như 'quá gấp' thành 4,5 chữ/giây, con số mà máy kiểm được."
+      "description": "article2media là dự án mã nguồn mở với 435 sao và 65 lượt fork, biến một bài viết hoặc một video thành ảnh bài đăng Xiaohongshu, ảnh dài kiểu tạp chí, bố cục WeChat và video lồng tiếng AI. Giá trị thật không nằm ở 10 năng lực mà ở kỷ luật nghiệm thu: biến phản hồi mơ hồ như 'quá gấp' thành 4.5 chữ/giây."
     },
     {
       "slug": "2026-11-13-b2a-economy",

@@ -1,6 +1,22 @@
 {
   "posts": [
     {
+      "slug": "2026-11-19-shuohao-skills-analysis",
+      "date": "2026-11-19",
+      "author": "瑞哥观势",
+      "tags": [
+        "Open Source Project Analysis",
+        "AI Video",
+        "Agent Skill",
+        "Automated Acceptance"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "6800 星的 shuohao-skills：AI 短劇真正的門檻不是生成，是誰敢把品質門寫成程式碼",
+      "description": "6800 星的開源專案 shuohao-skills，把一本小說變成能直接下單的 AI 短劇投產包：7 個 skill、60 道品質門、1600 多項自測斷言。真正值錢的是它把檢查清單從提示詞裡趕出去，寫成了確定性程式碼。"
+    },
+    {
       "slug": "2026-11-18-article2media-skill-analysis",
       "date": "2026-11-18",
       "author": "瑞哥观势",
@@ -14,7 +30,7 @@
         "AI应用"
       ],
       "title": "435 星的 article2media：真正值錢的不是 AI 會寫稿，是它把「感覺不對」翻譯成腳本能攔的指標",
-      "description": "GitHub 上有個 435 星、65 個 fork 的開源專案 article2media，把一篇文章或一條影片一鍵變成小紅書圖文、雜誌長圖、公眾號排版與 AI 配音的口播影片。真正值錢的不是那 10 個能力，而是它的驗收紀律：把「太急了」翻譯成 4.5 字/秒這種機器能卡的指標。"
+      "description": "GitHub 上有個 435 星、65 個 fork 的開源專案 article2media，把文章或影片一鍵變成小紅書圖文、雜誌長圖、公眾號排版與 AI 配音口播影片。真正值錢的不是那 10 個能力，而是它的驗收紀律：把「太急了」翻譯成 4.5 字/秒這種機器能卡的指標。"
     },
     {
       "slug": "2026-11-13-b2a-economy",
