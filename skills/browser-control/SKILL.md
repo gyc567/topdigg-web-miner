@@ -1,3 +1,8 @@
+---
+name: browser-control
+description: 使用内置 browser 工具做浏览器自动化：status/start/open/snapshot/navigate/act click/act type 等。当用户要求打开网页、截图、点击、填表、抓取页面内容或批量操作浏览器时使用。
+---
+
 # Browser Control Skill
 
 使用 browser 工具控制浏览器自动化。
