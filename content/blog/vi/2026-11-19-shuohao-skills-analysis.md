@@ -555,7 +555,7 @@ Nếu bạn đang tìm công cụ AI cho ngắn phim, đừng vội xem nó có 
 
 ---
 
-**Eric|瑞哥**
+Eric|瑞哥
 广东 深圳
 
 ✅前IBM架构师｜区块链书《区块链核心技术与应用》合著作者
@@ -581,7 +581,7 @@ Nếu bạn đang tìm công cụ AI cho ngắn phim, đừng vội xem nó có 
 
 🔹 组织建设：企业核心团队搭建、高管寻访
 
-## 【我的线下局】
+**【我的线下局】**
 
 不办大会，只办"小会"。
 
@@ -591,7 +591,7 @@ Nếu bạn đang tìm công cụ AI cho ngắn phim, đừng vội xem nó có 
 
 ✅ 行业沙龙：聚焦具体赛道，促成实质合作
 
-## 筛选标准：
+**筛选标准：**
 
 只欢迎有结果、有边界感、有长期主义心态的创始人/合伙人。
 
