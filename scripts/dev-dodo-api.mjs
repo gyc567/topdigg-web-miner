@@ -1,14 +1,14 @@
 /**
- * Local dev server for the Dodo Payments API function.
+ * Local dev server for the Dodo Payments API functions.
  *
  * `vercel dev` needs a logged-in project link, which this repo doesn't have.
- * This runs the exact same handler as `api/checkout.ts` (the Vercel Node
- * function) behind a plain http server, so the checkout flow can be
- * exercised locally without Vercel.
+ * This runs the exact same handlers as `api/checkout.ts` and
+ * `api/webhooks/dodo.ts` (the Vercel functions) behind a plain http server,
+ * so both flows can be exercised locally without Vercel.
  *
  * Usage:
- *   node scripts/dev-dodo-api.mjs            # listens on 127.0.0.1:3001
- *   PORT=4000 node scripts/dev-dodo-api.mjs
+ *   npm run dev:api                          # listens on 127.0.0.1:3001
+ *   PORT=4000 npm run dev:api
  *
  * Vite proxies /api → this server (see vite.config.ts).
  */
@@ -38,13 +38,33 @@ for (const file of [".env.local", ".env"]) {
   }
 }
 
-const { default: handler } = await import("../api/checkout.ts");
+const { default: checkoutHandler } = await import("../api/checkout.ts");
+const { handleWebhook } = await import("../api/webhooks/dodo.ts");
 
 const server = http.createServer(async (req, res) => {
   const chunks = [];
   for await (const chunk of req) chunks.push(chunk);
   const raw = Buffer.concat(chunks).toString("utf8");
+  const url = (req.url ?? "").split("?")[0];
 
+  // --- Dodo webhook (raw body, signature verified over the exact bytes) ---
+  if (url.startsWith("/api/webhooks/dodo")) {
+    if (req.method !== "POST") {
+      res.writeHead(405, { "Content-Type": "application/json" });
+      res.end(JSON.stringify({ error: "Method not allowed" }));
+      return;
+    }
+    const result = handleWebhook(raw, {
+      "webhook-id": req.headers["webhook-id"] ?? "",
+      "webhook-signature": req.headers["webhook-signature"] ?? "",
+      "webhook-timestamp": req.headers["webhook-timestamp"] ?? "",
+    });
+    res.writeHead(result.status, { "Content-Type": "application/json" });
+    res.end(JSON.stringify(result.body));
+    return;
+  }
+
+  // --- Checkout session ---
   if (req.method === "POST") {
     try {
       req.body = raw ? JSON.parse(raw) : {};
@@ -74,7 +94,7 @@ const server = http.createServer(async (req, res) => {
   };
 
   try {
-    await handler(req, vres);
+    await checkoutHandler(req, vres);
   } catch (err) {
     console.error("[dev-dodo-api]", err);
     if (!res.headersSent) {
@@ -86,5 +106,6 @@ const server = http.createServer(async (req, res) => {
 
 server.listen(PORT, "127.0.0.1", () => {
   console.log(`[dev-dodo-api] listening on http://127.0.0.1:${PORT}/api/checkout`);
+  console.log(`[dev-dodo-api] webhook  → http://127.0.0.1:${PORT}/api/webhooks/dodo`);
   console.log(`[dev-dodo-api] environment=${process.env.DODO_PAYMENTS_ENVIRONMENT ?? "(unset)"}`);
 });
