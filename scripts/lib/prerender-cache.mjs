@@ -67,7 +67,15 @@ export function computeChromeHash(projectRoot) {
     if (rel.startsWith(`lib${path.sep}`) && f.endsWith(".json")) return false;
     return true;
   });
-  for (const extra of ["vite.config.ts", "package-lock.json", "index.html"]) {
+  // scripts/prerender.mjs 必须计入 chromeHash：预渲染逻辑本身变了
+  // （等待条件、CDP 注入等），旧的缓存 HTML 就不该被复用。
+  // 否则修好 bug 后缓存仍会回放坏产物（默认 title、无 meta description）。
+  for (const extra of [
+    "vite.config.ts",
+    "package-lock.json",
+    "index.html",
+    "scripts/prerender.mjs",
+  ]) {
     const p = path.join(projectRoot, extra);
     if (fs.existsSync(p)) files.push(p);
   }
