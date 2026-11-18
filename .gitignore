@@ -42,3 +42,4 @@ graft/
 
 # TypeScript incremental build info
 *.tsbuildinfo
+.neon
