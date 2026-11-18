@@ -1,6 +1,34 @@
 {
   "posts": [
     {
+      "slug": "2026-11-18-article2media-skill-analysis",
+      "title": {
+        "en": "article2media With 435 Stars: What It Is Actually Worth Is Not That AI Can Write, But That It Turns 'Something Feels Off' Into Metrics a Script Can Block",
+        "ja": "スター435のarticle2media：価値があるのはAIが記事を書くことではなく、「何かが変だ」を機械が止められる指標に翻訳すること",
+        "vi": "article2media với 435 sao: thứ đáng giá không phải là AI viết bài, mà là biến cảm giác 'có gì đó sai' thành những chỉ số mà script có thể chặn",
+        "zh-Hans": "435星的article2media：真正值钱的是把感觉不对变成脚本能拦的指标",
+        "zh-Hant": "435 星的 article2media：真正值錢的不是 AI 會寫稿，是它把「感覺不對」翻譯成腳本能攔的指標"
+      },
+      "description": {
+        "en": "article2media is an open source project with 435 stars and 65 forks that turns one article or one video into Xiaohongshu image posts, magazine long images, WeChat official account layouts and AI voiceover videos. The real value is not its 10 capabilities but its acceptance discipline, which turns vague feedback like 'too rushed' into machine-checkable numbers such as 4.5 characters per second.",
+        "ja": "GitHubにはスター435、フォーク65のオープンソースプロジェクトarticle2mediaがあり、記事1本や動画1本を一発でXiaohongshu用の画像投稿、マガジン調のロングイメージ、WeChat公式アカウントのレイアウト、AIナレーション動画に変換する。本当の価値は10個の機能ではなく、「急ぎすぎ」という曖昧なフィードバックを4.5字/秒のような機械で検証できる指標に翻訳する検収規律（acceptance discipline）にある。",
+        "vi": "article2media là dự án mã nguồn mở với 435 sao và 65 lượt fork, biến một bài viết hoặc một video thành ảnh bài đăng Xiaohongshu, ảnh dài kiểu tạp chí, bố cục WeChat chính thức và video lồng tiếng AI chỉ với một cú click. Giá trị thật không nằm ở 10 năng lực mà ở kỷ luật nghiệm thu, biến phản hồi mơ hồ như 'quá gấp' thành 4,5 chữ/giây, con số mà máy kiểm được.",
+        "zh-Hans": "435星的开源项目，把一篇文章或一条视频变成小红书图文、杂志长图、公众号排版和AI配音视频。十个能力只是皮，验收纪律才是骨：4.5字每秒、零处闪断、版面零错误。",
+        "zh-Hant": "GitHub 上有個 435 星、65 個 fork 的開源專案 article2media，把一篇文章或一條影片一鍵變成小紅書圖文、雜誌長圖、公眾號排版與 AI 配音的口播影片。真正值錢的不是那 10 個能力，而是它的驗收紀律：把「太急了」翻譯成 4.5 字/秒這種機器能卡的指標。"
+      },
+      "date": "2026-11-18",
+      "author": "瑞哥观势",
+      "tags": [
+        "open source project analysis",
+        "AI content production",
+        "Claude Code Skill",
+        "automated acceptance"
+      ],
+      "categories": [
+        "AI应用"
+      ]
+    },
+    {
       "slug": "2026-11-13-b2a-economy",
       "title": {
         "zh-Hans": "验证码正在失效，你的客户正在变成 AI"

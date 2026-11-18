@@ -1,6 +1,22 @@
 {
   "posts": [
     {
+      "slug": "2026-11-18-article2media-skill-analysis",
+      "date": "2026-11-18",
+      "author": "瑞哥观势",
+      "tags": [
+        "open source project analysis",
+        "AI content production",
+        "Claude Code Skill",
+        "automated acceptance"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "スター435のarticle2media：価値があるのはAIが記事を書くことではなく、「何かが変だ」を機械が止められる指標に翻訳すること",
+      "description": "GitHubにはスター435、フォーク65のオープンソースプロジェクトarticle2mediaがあり、記事1本や動画1本を一発でXiaohongshu用の画像投稿、マガジン調のロングイメージ、WeChat公式アカウントのレイアウト、AIナレーション動画に変換する。本当の価値は10個の機能ではなく、「急ぎすぎ」という曖昧なフィードバックを4.5字/秒のような機械で検証できる指標に翻訳する検収規律（acceptance discipline）にある。"
+    },
+    {
       "slug": "2026-11-13-b2a-economy",
       "date": "2026-11-13",
       "author": "瑞哥观势",

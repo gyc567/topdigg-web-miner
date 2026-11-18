@@ -1,6 +1,22 @@
 {
   "posts": [
     {
+      "slug": "2026-11-18-article2media-skill-analysis",
+      "date": "2026-11-18",
+      "author": "瑞哥观势",
+      "tags": [
+        "open source project analysis",
+        "AI content production",
+        "Claude Code Skill",
+        "automated acceptance"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "435 星的 article2media：真正值錢的不是 AI 會寫稿，是它把「感覺不對」翻譯成腳本能攔的指標",
+      "description": "GitHub 上有個 435 星、65 個 fork 的開源專案 article2media，把一篇文章或一條影片一鍵變成小紅書圖文、雜誌長圖、公眾號排版與 AI 配音的口播影片。真正值錢的不是那 10 個能力，而是它的驗收紀律：把「太急了」翻譯成 4.5 字/秒這種機器能卡的指標。"
+    },
+    {
       "slug": "2026-11-13-b2a-economy",
       "date": "2026-11-13",
       "author": "瑞哥观势",

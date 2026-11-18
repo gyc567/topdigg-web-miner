@@ -1,6 +1,22 @@
 {
   "posts": [
     {
+      "slug": "2026-11-18-article2media-skill-analysis",
+      "date": "2026-11-18",
+      "author": "瑞哥观势",
+      "tags": [
+        "open source project analysis",
+        "AI content production",
+        "Claude Code Skill",
+        "automated acceptance"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "435星的article2media：真正值钱的是把感觉不对变成脚本能拦的指标",
+      "description": "435星的开源项目，把一篇文章或一条视频变成小红书图文、杂志长图、公众号排版和AI配音视频。十个能力只是皮，验收纪律才是骨：4.5字每秒、零处闪断、版面零错误。"
+    },
+    {
       "slug": "2026-11-13-b2a-economy",
       "date": "2026-11-13",
       "author": "瑞哥观势",

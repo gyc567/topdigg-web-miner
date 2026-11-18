@@ -1,6 +1,22 @@
 {
   "posts": [
     {
+      "slug": "2026-11-18-article2media-skill-analysis",
+      "date": "2026-11-18",
+      "author": "瑞哥观势",
+      "tags": [
+        "open source project analysis",
+        "AI content production",
+        "Claude Code Skill",
+        "automated acceptance"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "article2media với 435 sao: thứ đáng giá không phải là AI viết bài, mà là biến cảm giác 'có gì đó sai' thành những chỉ số mà script có thể chặn",
+      "description": "article2media là dự án mã nguồn mở với 435 sao và 65 lượt fork, biến một bài viết hoặc một video thành ảnh bài đăng Xiaohongshu, ảnh dài kiểu tạp chí, bố cục WeChat chính thức và video lồng tiếng AI chỉ với một cú click. Giá trị thật không nằm ở 10 năng lực mà ở kỷ luật nghiệm thu, biến phản hồi mơ hồ như 'quá gấp' thành 4,5 chữ/giây, con số mà máy kiểm được."
+    },
+    {
       "slug": "2026-11-13-b2a-economy",
       "date": "2026-11-13",
       "author": "瑞哥观势",
