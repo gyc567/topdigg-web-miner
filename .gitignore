@@ -39,3 +39,6 @@ graft/
 
 # prerender incremental cache — regenerable build artifact
 .prerender-cache/
+
+# TypeScript incremental build info
+*.tsbuildinfo
