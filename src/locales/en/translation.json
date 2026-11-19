@@ -356,6 +356,10 @@
   "paywall": {
     "teaser": "This article is for members. Sign in and subscribe to read the full story.",
     "login": "Sign in",
-    "subscribe": "Subscribe"
+    "subscribe": "Subscribe",
+    "unlock": "Unlock with {{cost}} credits",
+    "insufficient": "Not enough credits — earn or top up first",
+    "redeemFailed": "Redemption failed, please retry",
+    "orSubscribe": "Or subscribe for unlimited access"
   }
 }

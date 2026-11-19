@@ -356,6 +356,10 @@
   "paywall": {
     "teaser": "この記事は会員限定です。ログインして購読すると全文を読めます。",
     "login": "ログイン",
-    "subscribe": "購読する"
+    "subscribe": "購読する",
+    "unlock": "{{cost}} ポイントで解锁",
+    "insufficient": "ポイントが不足しています",
+    "redeemFailed": "兌換に失敗しました。再試行してください",
+    "orSubscribe": "または購読してすべて読み放題"
   }
 }

@@ -8,6 +8,8 @@ import { siteConfig } from "@/config/site";
 import { useTranslation } from "react-i18next";
 import { normalizeLang, localizeText, type SupportedLocale } from "@/lib/locale";
 import { aiDailyDataSource } from "@/lib/ai-daily-data";
+import { useSession } from "@/lib/auth-client";
+import { ARTICLE_UNLOCK_CREDITS } from "@/config/paywall";
 import type { AIDailyMeta } from "@/lib/ai-daily-data";
 import MarkdownContent from "@/components/MarkdownContent";
 import { makeBlogPostingSchema, makeBreadcrumbList, makeFAQPageSchema } from "@/lib/jsonld";
@@ -65,6 +67,9 @@ const AIDailyPost = () => {
   const { i18n, t } = useTranslation();
   const currentLocale = normalizeLang(i18n.language) as SupportedLocale;
 
+  const { data: session } = useSession();
+  const [redeeming, setRedeeming] = useState(false);
+  const [redeemError, setRedeemError] = useState("");
   const meta = useMemo(
     () => (slug ? aiDailyDataSource.getReportBySlug(slug) : undefined),
     [slug]
@@ -107,6 +112,34 @@ const AIDailyPost = () => {
 
   const post = fullPost ?? meta;
   const denied = !fullPost;
+
+  async function handleUnlock() {
+    if (!slug) return;
+    setRedeeming(true);
+    setRedeemError("");
+    try {
+      const res = await fetch("/api/credits/redeem", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ slug, section: "ai-daily" }),
+      });
+      if (res.ok) {
+        const post = await aiDailyDataSource.getReportWithContent(slug);
+        if (post) {
+          setFullPost(post);
+          return;
+        }
+      }
+      const err = await res.json().catch(() => ({}));
+      setRedeemError(
+        err?.error === "Insufficient credits" ? t("paywall.insufficient") : t("paywall.redeemFailed")
+      );
+    } catch {
+      setRedeemError(t("paywall.redeemFailed"));
+    } finally {
+      setRedeeming(false);
+    }
+  }
   const resolved = aiDailyDataSource.resolve(post, currentLocale);
   const postPath = `/ai-daily/${post.slug}`;
 
@@ -223,14 +256,31 @@ const AIDailyPost = () => {
             className="my-8 rounded-xl border border-dashed p-8 text-center"
           >
             <p className="text-muted-foreground mb-4">{t("paywall.teaser")}</p>
-            <div className="flex flex-wrap justify-center gap-3">
-              <Link to="/login">
-                <Button variant="outline">{t("paywall.login")}</Button>
-              </Link>
-              <Link to="/checkout">
-                <Button>{t("paywall.subscribe")}</Button>
-              </Link>
-            </div>
+            {session?.user ? (
+              <div className="flex flex-col items-center gap-3">
+                <Button onClick={handleUnlock} disabled={redeeming}>
+                  {redeeming
+                    ? "…"
+                    : t("paywall.unlock", { cost: ARTICLE_UNLOCK_CREDITS })}
+                </Button>
+                {redeemError && (
+                  <p className="text-sm text-destructive">{redeemError}</p>
+                )}
+                <p className="text-xs text-muted-foreground">{t("paywall.orSubscribe")}</p>
+                <Link to="/checkout">
+                  <Button variant="outline">{t("paywall.subscribe")}</Button>
+                </Link>
+              </div>
+            ) : (
+              <div className="flex flex-wrap justify-center gap-3">
+                <Link to="/login">
+                  <Button variant="outline">{t("paywall.login")}</Button>
+                </Link>
+                <Link to="/checkout">
+                  <Button>{t("paywall.subscribe")}</Button>
+                </Link>
+              </div>
+            )}
           </div>
         ) : (
           <MarkdownContent content={resolved.content || ""} className="mb-8" />

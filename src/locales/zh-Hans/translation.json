@@ -356,6 +356,10 @@
   "paywall": {
     "teaser": "本文是会员内容，登录并订阅后即可阅读全文。",
     "login": "登录",
-    "subscribe": "订阅会员"
+    "subscribe": "订阅会员",
+    "unlock": "用 {{cost}} 积分解锁本文",
+    "insufficient": "积分不足，先去赚取或购买积分吧",
+    "redeemFailed": "兑换失败，请稍后重试",
+    "orSubscribe": "或者订阅会员，畅读全部内容"
   }
 }

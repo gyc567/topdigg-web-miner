@@ -27,3 +27,6 @@ export type PaywallSection = keyof typeof PAYWALL_SECTIONS;
 export function isPaywalled(section: string): boolean {
   return (PAYWALL_SECTIONS as Record<string, boolean>)[section] === true;
 }
+
+/** Credits charged to unlock one gated article. */
+export const ARTICLE_UNLOCK_CREDITS = 20;

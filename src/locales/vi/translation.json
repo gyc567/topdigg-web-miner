@@ -356,6 +356,10 @@
   "paywall": {
     "teaser": "Bài viết dành cho hội viên. Đăng nhập và đăng ký để đọc toàn bộ.",
     "login": "Đăng nhập",
-    "subscribe": "Đăng ký"
+    "subscribe": "Đăng ký",
+    "unlock": "Mở khóa với {{cost}} điểm",
+    "insufficient": "Không đủ điểm — hãy tích lũy thêm",
+    "redeemFailed": "Đổi thưởng thất bại, vui lòng thử lại",
+    "orSubscribe": "Hoặc đăng ký để đọc không giới hạn"
   }
 }

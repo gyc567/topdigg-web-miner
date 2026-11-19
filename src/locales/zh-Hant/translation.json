@@ -356,6 +356,10 @@
   "paywall": {
     "teaser": "本文是會員內容，登入並訂閱後即可閱讀全文。",
     "login": "登入",
-    "subscribe": "訂閱會員"
+    "subscribe": "訂閱會員",
+    "unlock": "用 {{cost}} 積分解鎖本文",
+    "insufficient": "積分不足，先去賺取或購買積分吧",
+    "redeemFailed": "兌換失敗，請稍後重試",
+    "orSubscribe": "或者訂閱會員，暢讀全部內容"
   }
 }
