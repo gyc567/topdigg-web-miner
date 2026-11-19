@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-19-finance-daily",
+      "date": "2026-11-19",
+      "author": "瑞哥观势",
+      "tags": [
+        "Bản tin tài chính",
+        "Kinh tế vĩ mô"
+      ],
+      "categories": [
+        "Bản tin tài chính"
+      ],
+      "title": "Bản tin tài chính hàng ngày | 2026-11-19",
+      "description": "Kim loại quý sụp đổ trước kỳ vọng tăng lãi suất: vàng giao ngay giảm 2,73% về 3.743,88 USD, bạc giảm 3,94% về 45,61 USD, NVDA rơi xuống dưới 151 USD với RSI chỉ 20,8. Nguyên nhân là biên bản cuộc họp tháng 10 của Fed công bố ngày 18/11 cho thấy gần như mọi thành viên đều cho rằng tăng lãi suất thêm là phù hợp, đẩy xác suất tăng 25 điểm cơ bản tại cuộc họp ngày 9/12 theo CME FedWatch lên khoảng 95%.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-18-finance-daily",
       "date": "2026-11-18",
       "author": "瑞哥观势",
@@ -611,26 +631,6 @@
       ],
       "title": "Bản Tin Tài Chính Hàng Ngày | 10/10/2026",
       "description": "Vàng vượt 4194 USD/oz khi rủi ro địa chính trị Trung Đông leo thang; Fed giữ quan điểm chờ đợi sau đợt tăng lãi suất tháng 9; Apple cắt giảm đơn hàng iPhone 18, cổ phiếu công nghệ phân hóa.",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-08-finance-daily",
-      "date": "2026-10-08",
-      "author": "瑞哥观势",
-      "tags": [
-        "Bản tin tài chính",
-        "Kinh tế vĩ mô"
-      ],
-      "categories": [
-        "Bản tin tài chính"
-      ],
-      "title": "Bản tin tài chính hằng ngày | 2026-10-08",
-      "description": "Chỉ số USD giữ nguyên, vàng bạc điều chỉnh từ vùng cao; chứng khoán Mỹ phân hóa, AAPL dẫn đầu tăng giá, NVDA/TSLA giảm nhẹ; chính sách ngân hàng trung ương bước vào giai đoạn quan sát lặng lẽ, đấu tranh thuế xe điện Trung-EU và rủi ro địa chính trị Trung Đông vẫn là các biến số chính.",
       "source": {
         "original": {
           "name": "瑞哥观势",

@@ -1,6 +1,76 @@
 {
   "reports": [
     {
+      "slug": "2026-11-19-finance-daily",
+      "title": {
+        "en": "Daily Finance Briefing | 2026-11-19",
+        "ja": "デイリー ファイナンス ブリーフィング | 2026-11-19",
+        "vi": "Bản tin tài chính hàng ngày | 2026-11-19",
+        "zh-Hans": "每日财经简报 | 2026-11-19",
+        "zh-Hant": "每日財經簡報 | 2026-11-19"
+      },
+      "description": {
+        "en": "Precious metals simply collapsed on rate hike expectations: spot gold fell 2.73 percent to $3,743.88 and silver dropped 3.94 percent to $45.61, while NVDA slipped below $151 with an RSI of just 20.8. The trigger was the October Fed minutes released on November 18, which showed almost all participants judging a further hike likely appropriate, pushing CME FedWatch odds of a 25 basis point hike on December 9 to roughly 95 percent.",
+        "ja": "貴金属が利上げ観測の前に一気に崩落した。スポット金は2.73%安の3,743.88ドル、スポット銀は3.94%安の45.61ドル、NVDAは151ドルを割って終値150.96ドル、RSIはわずか20.8。原因は11月18日に公表された10月のFOMC議事録で「ほぼすべての参加者が追加利上げが適切である可能性が高い」と判断され、CME FedWatchが12月9日の25bp利上げ確率を約95%まで押し上げたことにある。",
+        "vi": "Kim loại quý sụp đổ trước kỳ vọng tăng lãi suất: vàng giao ngay giảm 2,73% về 3.743,88 USD, bạc giảm 3,94% về 45,61 USD, NVDA rơi xuống dưới 151 USD với RSI chỉ 20,8. Nguyên nhân là biên bản cuộc họp tháng 10 của Fed công bố ngày 18/11 cho thấy gần như mọi thành viên đều cho rằng tăng lãi suất thêm là phù hợp, đẩy xác suất tăng 25 điểm cơ bản tại cuộc họp ngày 9/12 theo CME FedWatch lên khoảng 95%.",
+        "zh-Hans": "贵金属在加息预期面前直接崩了：现货黄金跌2.73%至3743.88美元，现货白银跌3.94%至45.61美元，NVDA跌破151美元、RSI仅20.8。原因是11月18日美联储10月会议纪要显示几乎所有与会者认为进一步加息很可能合适，CME FedWatch显示12月9日加息25个基点概率跳升至约95%。",
+        "zh-Hant": "貴金屬在加息預期面前直接崩了：現貨黃金跌2.73%至3743.88美元，現貨白銀跌3.94%至45.61美元，NVDA跌破151美元、RSI僅20.8。原因是11月18日美聯儲10月會議紀要顯示幾乎所有與會者認爲進一步加息很可能合適，CME FedWatch顯示12月9日加息25個基點概率跳升至約95%。"
+      },
+      "date": "2026-11-19",
+      "author": "瑞哥观势",
+      "tags": {
+        "en": [
+          "Finance Briefing",
+          "Macroeconomics"
+        ],
+        "ja": [
+          "ファイナンス ブリーフィング",
+          "マクロエコノミー"
+        ],
+        "vi": [
+          "Bản tin tài chính",
+          "Kinh tế vĩ mô"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "宏觀經濟"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Briefing"
+        ],
+        "ja": [
+          "ファイナンス ブリーフィング"
+        ],
+        "vi": [
+          "Bản tin tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-18-finance-daily",
       "title": {
         "en": "Daily Finance Briefing | 2026-11-18",

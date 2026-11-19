@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-19-finance-daily",
+      "date": "2026-11-19",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "Daily Finance Briefing | 2026-11-19",
+      "description": "Precious metals simply collapsed on rate hike expectations: spot gold fell 2.73 percent to $3,743.88 and silver dropped 3.94 percent to $45.61, while NVDA slipped below $151 with an RSI of just 20.8. The trigger was the October Fed minutes released on November 18, which showed almost all participants judging a further hike likely appropriate, pushing CME FedWatch odds of a 25 basis point hike on December 9 to roughly 95 percent.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-18-finance-daily",
       "date": "2026-11-18",
       "author": "瑞哥观势",
@@ -611,26 +631,6 @@
       ],
       "title": "Daily Finance Brief | October 10, 2026",
       "description": "Gold surges to $4,194/oz on Middle East tensions; Fed holds steady after September hike as consumer confidence hits multi-year low; Apple cuts iPhone 18 orders, tech stocks diverge.",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-08-finance-daily",
-      "date": "2026-10-08",
-      "author": "瑞哥观势",
-      "tags": [
-        "Finance Brief",
-        "Macro"
-      ],
-      "categories": [
-        "Finance Brief"
-      ],
-      "title": "Daily Finance Brief | 2026-10-08",
-      "description": "USD index steady; gold and silver pull back from highs. US equities mixed — AAPL leads, NVDA/TSLA ease. Central banks are in a wait-and-see mode; the EU-China EV tariff standoff and Middle East geopolitical risk remain the key swing factors.",
       "source": {
         "original": {
           "name": "瑞哥观势",

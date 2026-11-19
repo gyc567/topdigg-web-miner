@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-19-finance-daily",
+      "date": "2026-11-19",
+      "author": "瑞哥观势",
+      "tags": [
+        "財經簡報",
+        "宏觀經濟"
+      ],
+      "categories": [
+        "財經簡報"
+      ],
+      "title": "每日財經簡報 | 2026-11-19",
+      "description": "貴金屬在加息預期面前直接崩了：現貨黃金跌2.73%至3743.88美元，現貨白銀跌3.94%至45.61美元，NVDA跌破151美元、RSI僅20.8。原因是11月18日美聯儲10月會議紀要顯示幾乎所有與會者認爲進一步加息很可能合適，CME FedWatch顯示12月9日加息25個基點概率跳升至約95%。",
+      "source": {
+        "original": {
+          "name": "瑞哥觀勢",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-18-finance-daily",
       "date": "2026-11-18",
       "author": "瑞哥观势",
@@ -611,26 +631,6 @@
       ],
       "title": "每日財經簡報 | 2026-10-10",
       "description": "黃金突破4194美元創本週新高，霍爾木茲+曼德海峽地緣風險升溫；Fed進入觀望模式，密歇根消費信心創近年新低；蘋果削減iPhone 18訂單，科技股分化。",
-      "source": {
-        "original": {
-          "name": "瑞哥觀勢",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-08-finance-daily",
-      "date": "2026-10-08",
-      "author": "瑞哥观势",
-      "tags": [
-        "財經簡報",
-        "宏觀經濟"
-      ],
-      "categories": [
-        "財經簡報"
-      ],
-      "title": "每日財經簡報 | 2026-10-08",
-      "description": "美元指數持穩，金銀高位回調；美股分化，AAPL領漲、NVDA/TSLA小幅回調；央行政策面進入靜默觀察窗口，中歐電動汽車關稅博弈與中東地緣風險仍是主要變量。",
       "source": {
         "original": {
           "name": "瑞哥觀勢",
