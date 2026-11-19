@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-11-19-ai-daily",
+      "title": {
+        "en": "Google DeepMind Ships Gemini 4 Neon",
+        "ja": "Google DeepMind が Gemini 4 Neon を発表",
+        "vi": "Google DeepMind phát hành Gemini 4 Neon",
+        "zh-Hans": "Google DeepMind 发布 Gemini 4 Neon",
+        "zh-Hant": "Google DeepMind 發布 Gemini 4 Neon"
+      },
+      "description": {
+        "en": "Google DeepMind released Gemini 4 Neon, scoring 61 on the Artificial Analysis Intelligence Index for third place and 1336 on the Agent Arena Index for second worldwide. The same day, Latent Space summarized OpenAI's GPT-6.2 Astra and Sol, noting the new Astra takes second place on the Intelligence Index with 62 points, just behind Fable 5.2 at 65.",
+        "ja": "Google DeepMind は Gemini 4 Neon を発表し、Artificial Analysis Intelligence Index で 61 点の 3 位、Agent Arena Index で 1336 点の世界 2 位となった。同じ日 Latent Space が OpenAI の GPT-6.2 Astra と Sol をまとめ、新しい Astra は Intelligence Index 62 点の 2 位で Fable 5.2 の 65 点に僅差するにとどまると報じた。",
+        "vi": "Google DeepMind phát hành Gemini 4 Neon, đạt 61 điểm trên Artificial Analysis Intelligence Index (hạng 3) và 1336 điểm trên Agent Arena Index (hạng 2 thế giới). Cùng ngày, Latent Space tổng hợp GPT-6.2 Astra và Sol của OpenAI, cho biết Astra mới đứng thứ hai với 62 điểm, chỉ sau Fable 5.2 với 65 điểm.",
+        "zh-Hans": "Google DeepMind 发布 Gemini 4 Neon，在 Artificial Analysis Intelligence Index 得 61 分排第 3，Agent Arena Index 以 1336 分全球第 2。同日 Latent Space 汇总 OpenAI 的 GPT-6.2 Astra 与 Sol，称新 Astra 以 62 分位居 Intelligence Index 第二，仅次于 Fable 5.2 的 65 分。",
+        "zh-Hant": "Google DeepMind 發布 Gemini 4 Neon，在 Artificial Analysis Intelligence Index 得分 61 排名第 3，Agent Arena Index 以 1336 分全球第 2。同日 Latent Space 匯總 OpenAI 的 GPT-6.2 Astra 與 Sol，稱新 Astra 以 62 分位居 Intelligence Index 第二，僅次於 Fable 5.2 的 65 分。"
+      },
+      "date": "2026-11-19",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-11-18-ai-daily",
       "title": {
         "en": "OpenAI Ships GPT-6.2 Astra and GPT-6.2 Sol",

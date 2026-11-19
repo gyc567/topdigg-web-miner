@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-19-ai-daily",
+      "date": "2026-11-19",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Google DeepMind phát hành Gemini 4 Neon",
+      "description": "Google DeepMind phát hành Gemini 4 Neon, đạt 61 điểm trên Artificial Analysis Intelligence Index (hạng 3) và 1336 điểm trên Agent Arena Index (hạng 2 thế giới). Cùng ngày, Latent Space tổng hợp GPT-6.2 Astra và Sol của OpenAI, cho biết Astra mới đứng thứ hai với 62 điểm, chỉ sau Fable 5.2 với 65 điểm.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-18-ai-daily",
       "date": "2026-11-18",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Bộ An Ninh Nội Địa Hoa Kỳ ra lệnh tất cả các cơ quan dân sự liên bang gỡ bỏ DeepSeek",
       "description": "Bộ An Ninh Nội Địa Hoa Kỳ ban hành lệnh 2026-01 theo Đạo luật Chuỗi Cung Ứng 2018, yêu cầu tất cả các cơ quan dân sự liên bang ngay lập tức ngừng mua sản phẩm của DeepSeek và các công ty liên kết, đồng thời gỡ bỏ các sản phẩm liên quan khỏi hệ thống CNTT, bao gồm cả sản phẩm và dịch vụ của bên thứ ba được phát triển bằng DeepSeek.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-18-ai-daily",
-      "date": "2026-10-18",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI-Daily"
-      ],
-      "categories": [
-        "AI-Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "DeepSeek-V4.1-Flash-1017 Phát hành, Nâng cao Điểm Chuẩn Đa nền tảng, Giá API Không Đổi",
-      "description": "DeepSeek nâng cấp V4.1 Flash lên DeepSeek-V4.1-Flash-1017, phiên bản web và APP đồng bộ cập nhật, phương thức và giá API gọi không đổi, vẫn truy cập qua deepseek-flash.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

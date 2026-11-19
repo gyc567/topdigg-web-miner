@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-19-ai-daily",
+      "date": "2026-11-19",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Google DeepMind 發布 Gemini 4 Neon",
+      "description": "Google DeepMind 發布 Gemini 4 Neon，在 Artificial Analysis Intelligence Index 得分 61 排名第 3，Agent Arena Index 以 1336 分全球第 2。同日 Latent Space 匯總 OpenAI 的 GPT-6.2 Astra 與 Sol，稱新 Astra 以 62 分位居 Intelligence Index 第二，僅次於 Fable 5.2 的 65 分。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-18-ai-daily",
       "date": "2026-11-18",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "美國國土安全部下令所有聯邦文職機構移除 DeepSeek 及基於其開發的產品",
       "description": "美國國土安全部依據 2018 年供應鏈法發布 2026-01 號命令，要求所有聯邦文職機構立即停止採購 DeepSeek 及其關聯公司產品，並從 IT 系統中移除相關產品，包括使用 DeepSeek 實現開發的第三方產品與服務。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-18-ai-daily",
-      "date": "2026-10-18",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI-Daily"
-      ],
-      "categories": [
-        "AI-Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "DeepSeek-V4.1-Flash-1017 發布，多基準成績提升且 API 價格不變",
-      "description": "DeepSeek 將 V4.1 Flash 升級至 DeepSeek-V4.1-Flash-1017，網頁端與 APP 同步更新，API 調用方式與價格不變，仍用 deepseek-flash 訪問。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

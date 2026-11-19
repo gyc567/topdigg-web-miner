@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-19-ai-daily",
+      "date": "2026-11-19",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Google DeepMind Ships Gemini 4 Neon",
+      "description": "Google DeepMind released Gemini 4 Neon, scoring 61 on the Artificial Analysis Intelligence Index for third place and 1336 on the Agent Arena Index for second worldwide. The same day, Latent Space summarized OpenAI's GPT-6.2 Astra and Sol, noting the new Astra takes second place on the Intelligence Index with 62 points, just behind Fable 5.2 at 65.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-18-ai-daily",
       "date": "2026-11-18",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "US Department of Homeland Security Orders All Federal Civilian Agencies to Remove DeepSeek",
       "description": "The Department of Homeland Security issued Order 2026-01 under the 2018 Supply Chain Act, requiring all federal civilian agencies to immediately stop procuring DeepSeek and its affiliated companies' products and remove them from IT systems, including third-party products developed using DeepSeek.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-18-ai-daily",
-      "date": "2026-10-18",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI-Daily"
-      ],
-      "categories": [
-        "AI-Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "DeepSeek-V4.1-Flash-1017 Released with Improved Benchmarks, API Price Unchanged",
-      "description": "DeepSeek upgrades V4.1 Flash to DeepSeek-V4.1-Flash-1017, with web and APP updates synchronized. API call method and price remain unchanged, still accessible via deepseek-flash.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",
