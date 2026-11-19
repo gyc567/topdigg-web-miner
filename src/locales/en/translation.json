@@ -352,5 +352,10 @@
     "billingHistory": "Billing history",
     "customerPortal": "Manage subscription",
     "sessionExpired": "Session expired, please sign in again"
+  },
+  "paywall": {
+    "teaser": "This article is for members. Sign in and subscribe to read the full story.",
+    "login": "Sign in",
+    "subscribe": "Subscribe"
   }
 }

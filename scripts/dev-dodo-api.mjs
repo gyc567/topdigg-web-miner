@@ -42,6 +42,7 @@ const { default: checkoutHandler } = await import("../api/checkout.ts");
 const { handleWebhook } = await import("../api/webhooks/dodo.ts");
 const { default: authHandler } = await import("../api/auth/[...all].ts");
 const { default: accountHandler } = await import("../api/account.ts");
+const { default: contentHandler } = await import("../api/content/ai-daily/[slug].ts");
 
 function vresOf(res) {
   return {
@@ -71,6 +72,14 @@ const server = http.createServer(async (req, res) => {
       if (!res.headersSent) res.writeHead(500, { "Content-Type": "application/json" });
       res.end(JSON.stringify({ error: String(err?.message ?? err) }));
     }
+    return;
+  }
+
+  // --- Gated content (paywall) ---
+  if (url.startsWith("/api/content/")) {
+    req.query = { slug: decodeURIComponent(url.split("/").pop() ?? "") };
+    try { await contentHandler(req, vresOf(res)); }
+    catch (e) { console.error("[dev-content]", e); if (!res.headersSent) res.writeHead(500, { "Content-Type": "application/json" }); res.end(JSON.stringify({ error: String(e?.message ?? e) })); }
     return;
   }
 

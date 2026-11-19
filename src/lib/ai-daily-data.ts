@@ -4,7 +4,6 @@
  * 模式与 BlogDataSource 完全一致：
  *   - src/lib/ai-daily-meta.json     → 全语言元数据（用于slug查找 + build-routes）
  *   - src/lib/ai-daily-meta-{locale}.json → per-locale元数据（~10KB，按需加载）
- *   - src/lib/ai-daily-data.json     → 全量内容（含Markdown，懒加载）
  *
  * 单日多篇过滤：同一自然日只保留一篇（slug字典序最大 = 最新）
  */
@@ -16,7 +15,6 @@ import metaDataAll from "./ai-daily-meta.json";
 // is AIDailyMeta (metadata-only) or AIDailyPost (full content). Declaring it
 // here keeps the JSON imports typed without per-call `as any` casts.
 type MetaManifest = { reports: import("./ai-daily-data").AIDailyMeta[] };
-type ContentManifest = { reports: import("./ai-daily-data").AIDailyPost[] };
 
 // ---------------------------------------------------------------------------
 // Types
@@ -141,15 +139,21 @@ export class AIDailyDataSource {
     return this._allBySlug.get(slug);
   }
 
-  /** Async: load full content (includes Markdown) lazily. */
+  /**
+   * Async: full content for a report.
+   *
+   * 付费栏目：全文不在客户端 bundle 里，由校验过权限的 API 返回
+   * （api/content/ai-daily/[slug].ts）。slug 不存在（404）或无权限（401/403）
+   * 都返回 undefined——页面据此区分 404 与"teaser + CTA"。
+   */
   async getReportWithContent(slug: string): Promise<AIDailyPost | undefined> {
     const meta = this._allBySlug.get(slug);
     if (!meta) return undefined;
 
     try {
-      const { default: fullData } = await import("./ai-daily-data.json");
-      const all: AIDailyPost[] = (fullData as ContentManifest).reports ?? [];
-      return all.find((r) => r.slug === slug);
+      const res = await fetch(`/api/content/ai-daily/${encodeURIComponent(slug)}`);
+      if (!res.ok) return undefined;
+      return (await res.json()) as AIDailyPost;
     } catch {
       return undefined;
     }

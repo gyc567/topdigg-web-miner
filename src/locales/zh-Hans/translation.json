@@ -352,5 +352,10 @@
     "billingHistory": "账单历史",
     "customerPortal": "管理订阅",
     "sessionExpired": "登录状态已失效，请重新登录"
+  },
+  "paywall": {
+    "teaser": "本文是会员内容，登录并订阅后即可阅读全文。",
+    "login": "登录",
+    "subscribe": "订阅会员"
   }
 }

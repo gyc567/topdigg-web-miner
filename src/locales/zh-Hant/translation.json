@@ -352,5 +352,10 @@
     "billingHistory": "賬單歷史",
     "customerPortal": "管理訂閱",
     "sessionExpired": "登入狀態已失效，請重新登入"
+  },
+  "paywall": {
+    "teaser": "本文是會員內容，登入並訂閱後即可閱讀全文。",
+    "login": "登入",
+    "subscribe": "訂閱會員"
   }
 }

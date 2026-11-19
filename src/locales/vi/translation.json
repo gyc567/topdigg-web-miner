@@ -352,5 +352,10 @@
     "billingHistory": "Lịch sử thanh toán",
     "customerPortal": "Quản lý gói thuê bao",
     "sessionExpired": "Phiên đăng nhập đã hết hạn, vui lòng đăng nhập lại"
+  },
+  "paywall": {
+    "teaser": "Bài viết dành cho hội viên. Đăng nhập và đăng ký để đọc toàn bộ.",
+    "login": "Đăng nhập",
+    "subscribe": "Đăng ký"
   }
 }
