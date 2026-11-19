@@ -2,12 +2,18 @@
  * Drizzle client for the app's own Postgres (user/session via Better Auth,
  * plus our entitlement/webhook tables).
  *
- * Uses node-postgres (TCP) — works locally and with Neon's pooler connection
- * string in production. The @neondatabase/serverless HTTP driver is only
- * needed if a function runs on the Edge runtime; the auth handler is Node.
+ * Driver choice follows the Neon agent skills:
+ *   - App runtime on Vercel → node-postgres (`pg`) with the POOLED connection
+ *     string. Pooling matters in serverless runtimes with bursty concurrency.
+ *   - Migrations (drizzle-kit) → the DIRECT connection string, see
+ *     drizzle.config.ts. PgBouncer transaction mode has no session state.
+ *
+ * @neondatabase/serverless is only needed on Edge runtimes; the auth handler
+ * runs on Node, so `pg` is the right choice here.
  */
 import { drizzle } from "drizzle-orm/node-postgres";
 import pg from "pg";
+import { attachDatabasePool } from "@vercel/functions/db-connections";
 import * as schema from "../db/schema.ts";
 
 const connectionString = process.env.DATABASE_URL;
@@ -15,7 +21,17 @@ if (!connectionString) {
   throw new Error("DATABASE_URL is not set");
 }
 
-const pool = new pg.Pool({ connectionString });
+export const pool = new pg.Pool({ connectionString });
+
+// Keep the function instance alive long enough for idle connections to be
+// reaped (Vercel Fluid compute). No-op outside Vercel.
+if (process.env.VERCEL) {
+  try {
+    attachDatabasePool(pool);
+  } catch {
+    // Older @vercel/functions without the export — pooling still works.
+  }
+}
 
 export const db = drizzle(pool, { schema });
 export { schema };
