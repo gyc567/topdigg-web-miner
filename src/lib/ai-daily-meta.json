@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-11-20-ai-daily",
+      "title": {
+        "en": "Anthropic Lists on Nasdaq, Opening at $111, 33% Above the IPO Price",
+        "ja": "Anthropic、ナスダック上場。始値111ドル、発行価格から33%高",
+        "vi": "Anthropic niêm yết trên Nasdaq, mở cửa 111 USD, cao hơn 33% giá chào bán",
+        "zh-Hans": "Anthropic 登陆纳斯达克，开盘价 111 美元较发行价高出 33%",
+        "zh-Hant": "Anthropic 登陸納斯達克，開盤價 111 美元較發行價高出 33%"
+      },
+      "description": {
+        "en": "Anthropic completed its IPO on Nasdaq, opening at $111.50 within minutes, 33% above its $83 offering price and raising more than $81 billion, with cash reserves projected at $220 billion and a market cap above $2 trillion. Meanwhile Chinese tech firms took a double hit from chip shipment halts and the closure of overseas cloud access.",
+        "ja": "AnthropicがナスダックでIPOを完了。始値111.50ドルで発行価格83ドルを33%上回り、調達額は810億ドル超、現金保有額は2200億ドル、始値ベースの時価額は2兆ドル超。中国のテック企業にはチップ供給停止と海外クラウド遮断の二重打撃。",
+        "vi": "Anthropic hoàn tất IPO trên Nasdaq, mở cửa tại 111,50 USD, cao hơn 33% so với giá chào bán 83 USD, thu vốn hơn 81 tỷ USD, tiền mặt dự kiến đạt 220 tỷ USD và vốn hóa vượt 2 nghìn tỷ USD. Song song, các công ty công nghệ Trung Quốc chịu đòn kép từ việc chip bị chặn và đường dẫn cloud nước ngoài bị đóng.",
+        "zh-Hans": "Anthropic 在纳斯达克完成 IPO，开盘几分钟内股价达 111.50 美元，较 83 美元发行价高出 33%，募资超 810 亿美元，现金储备预计达 2200 亿美元，开盘市值超 2 万亿美元。同日中国科技公司遭遇芯片停运与海外云通道关闭的双重冲击。",
+        "zh-Hant": "Anthropic 在納斯達克完成 IPO，開盤幾分鐘內股價達 111.50 美元，較 83 美元發行價高出 33%，募資超 810 億美元，現金儲備預計達 2200 億美元，開盤市值超 2 兆美元。同日中國科技公司遭遇晶片停運與海外雲通道關閉的雙重衝擊。"
+      },
+      "date": "2026-11-20",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-11-19-ai-daily",
       "title": {
         "en": "Google DeepMind Ships Gemini 4 Neon",

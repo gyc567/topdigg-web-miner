@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-20-ai-daily",
+      "date": "2026-11-20",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Anthropic、ナスダック上場。始値111ドル、発行価格から33%高",
+      "description": "AnthropicがナスダックでIPOを完了。始値111.50ドルで発行価格83ドルを33%上回り、調達額は810億ドル超、現金保有額は2200億ドル、始値ベースの時価額は2兆ドル超。中国のテック企業にはチップ供給停止と海外クラウド遮断の二重打撃。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-19-ai-daily",
       "date": "2026-11-19",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "DeepSeek、内部推論フレームワーク DeepInfer を全面オープンソース化",
       "description": "DeepSeek は内部推論フレームワーク DeepInfer の全面オープンソース化を発表し、同時にプロダクショングレードの Token エンコーダー/デコーダーコンポーネント deepseek-recipe もオープンソース化了。同時に、Inception Labs が拡散型 LLM Mercury 3 をリリース、速度は 1068 tokens/秒。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-20-ai-daily",
-      "date": "2026-10-20",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "米国土安全保障省、DeepSeek 以及び同製品ベースの全連邦民事機関への搭載を命令",
-      "description": "米国土安全保障省手は2018年サプライチェーン法に基づき2026-01号命令を発布、すべての連邦民事機関にDeepSeekおよび関連企業の製品の調達を直ちに停止し、ITシステムから関連製品（DeepSeekで開発された第三方製品・与服务を含む）を削除するよう命じた。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

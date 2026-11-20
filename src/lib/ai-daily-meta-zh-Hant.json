@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-20-ai-daily",
+      "date": "2026-11-20",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Anthropic 登陸納斯達克，開盤價 111 美元較發行價高出 33%",
+      "description": "Anthropic 在納斯達克完成 IPO，開盤幾分鐘內股價達 111.50 美元，較 83 美元發行價高出 33%，募資超 810 億美元，現金儲備預計達 2200 億美元，開盤市值超 2 兆美元。同日中國科技公司遭遇晶片停運與海外雲通道關閉的雙重衝擊。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-19-ai-daily",
       "date": "2026-11-19",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "DeepSeek 全面開源內部推理框架 DeepInfer",
       "description": "DeepSeek 宣佈將內部推理框架 DeepInfer 全面開源，並同步開源生產級 Token 編解碼組件 deepseek-recipe。同時，Inception Labs 發布擴散大語言模型 Mercury 3，速度達 1068 tokens/秒。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-20-ai-daily",
-      "date": "2026-10-20",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "美國國土安全部下令所有聯邦文職機構移除 DeepSeek 及基於其開發的產品",
-      "description": "美國國土安全部依據 2018 年供應鏈法發布 2026-01 號命令，要求所有聯邦文職機構立即停止採購 DeepSeek 及其關聯公司產品，並從 IT 系統中移除相關產品，包括使用 DeepSeek 實現開發的第三方產品與服務。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

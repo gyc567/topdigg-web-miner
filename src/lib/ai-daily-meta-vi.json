@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-20-ai-daily",
+      "date": "2026-11-20",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Anthropic niêm yết trên Nasdaq, mở cửa 111 USD, cao hơn 33% giá chào bán",
+      "description": "Anthropic hoàn tất IPO trên Nasdaq, mở cửa tại 111,50 USD, cao hơn 33% so với giá chào bán 83 USD, thu vốn hơn 81 tỷ USD, tiền mặt dự kiến đạt 220 tỷ USD và vốn hóa vượt 2 nghìn tỷ USD. Song song, các công ty công nghệ Trung Quốc chịu đòn kép từ việc chip bị chặn và đường dẫn cloud nước ngoài bị đóng.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-19-ai-daily",
       "date": "2026-11-19",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "DeepSeek Mã Nguồn Mở Hoàn Toàn Framework DeepInfer - DeepInfer",
       "description": "DeepSeek thông báo mã nguồn mở hoàn toàn framework suy luận nội bộ DeepInfer, cùng với thành phần mã hóa/giải mã Token cấp sản xuất deepseek-recipe. Đồng thời, Inception Labs phát hành mô hình ngôn ngữ lớn khuyếch tán Mercury 3 với tốc độ 1068 tokens/giây.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-20-ai-daily",
-      "date": "2026-10-20",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Bộ An Ninh Nội Địa Hoa Kỳ ra lệnh tất cả các cơ quan dân sự liên bang gỡ bỏ DeepSeek",
-      "description": "Bộ An Ninh Nội Địa Hoa Kỳ ban hành lệnh 2026-01 theo Đạo luật Chuỗi Cung Ứng 2018, yêu cầu tất cả các cơ quan dân sự liên bang ngay lập tức ngừng mua sản phẩm của DeepSeek và các công ty liên kết, đồng thời gỡ bỏ các sản phẩm liên quan khỏi hệ thống CNTT, bao gồm cả sản phẩm và dịch vụ của bên thứ ba được phát triển bằng DeepSeek.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",
