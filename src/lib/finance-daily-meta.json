@@ -1,6 +1,76 @@
 {
   "reports": [
     {
+      "slug": "2026-11-20-finance-daily",
+      "title": {
+        "en": "Daily Finance Briefing | 2026-11-20",
+        "ja": "デイリー ファイナンス ブリーフィング | 2026-11-20",
+        "vi": "Bản tin tài chính hàng ngày | 2026-11-20",
+        "zh-Hans": "每日财经简报 | 2026-11-20",
+        "zh-Hant": "每日財經簡報 | 2026-11-20"
+      },
+      "description": {
+        "en": "Precious metals fell harder and an AI leader fell despite record results: spot gold dropped 3.48 percent to 3,609.92 dollars, silver fell 5.98 percent to 42.76 dollars, and NVDA closed at 145.98 dollars with an RSI of just 19.64 even as revenue grew 93 percent year on year. The trigger was the October Fed minutes published on November 18, which showed almost all participants judging a further hike likely appropriate, with Waller calling for a 50 basis point move and JPMorgan expecting three consecutive hikes. US stocks fell even on the record 2 trillion dollar Anthropic IPO debut, and the trilateral peace declaration left Ukraine and Iran unmentioned.",
+        "ja": "貴金属の下落がさらに深くなり、AI大手が好業績を出しながら株価を下落させた。スポット金は3.48%安の3,609.92ドル、スポット銀は5.98%安の42.76ドル、NVDAは145.98ドルで終え、RSIはわずか19.64であった。原因は11月18日に公表された10月の議事録で「ほぼすべての参加者が追加利上げが適切である可能性が高い」と判断されたことにある。Wallerは50bpの利上げを示唆し、JP Morganは3会合連続の利上げを予測した。Anthropicの過去最大規模の2兆ドル上場当日は米株が下落し、三国の平和共同宣言はウクライナとイランに言及しなかった。",
+        "vi": "Kim loại quý tiếp tục lao xuống và trùng dẫn AI tăng trưởng nhưng cổ phiếu vẫn giảm: vàng giao ngay giảm 3,73% về 3.609,92 USD, bạc giảm 5,98% về 42,76 USD, NVDA đóng cửa ở 145,98 USD với chỉ số sức mạnh tương đối chỉ còn 19,64 trong khi doanh thu tăng 93% so với cùng kỳ. Nguyên nhân là biên bản cuộc họp tháng 10 của Fed công bố ngày 18/11 cho thấy gần như mọi thành viên đều cho rằng tăng lãi suất thêm là phù hợp, Waller đề xuất nâng 50 điểm cơ bản và JP Morgan dự báo ba cuộc họp tăng liên tiếp. Cổ phiếu Mỹ vẫn giảm trong ngày Anthropic chào sàn với quy mô kỷ lục 2 nghìn tỷ USD, còn tuyên bố chung hòa bình ba nước không nhắc tới Ukraine và Iran.",
+        "zh-Hans": "贵金属崩得更深、AI 龙头出现业绩越好股价越跌：现货黄金跌3.48%至3609.92美元，现货白银跌5.98%至42.76美元，NVDA收145.98美元、RSI仅19.64但营收同比+93%。原因是11月18日美联储10月会议纪要显示几乎所有与会者认为进一步加息很可能合适，Waller提出50基点，摩根大通预计连续三次加息。Anthropic创纪录2万亿美元IPO当日美股仍大跌，三方和平联合声明未提乌克兰与伊朗。",
+        "zh-Hant": "貴金屬崩得更深、AI 龍頭出現業績越好股價越跌：現貨黃金跌3.48%至3609.92美元，現貨白銀跌5.98%至42.76美元，NVDA收145.98美元、RSI僅19.64但營收同比+93%。原因是11月18日美聯儲10月會議紀要顯示幾乎所有與會者認爲進一步加息很可能合適，Waller提出50基點，摩根大通預計連續三次加息。Anthropic創紀錄2萬億美元IPO當日美股仍大跌，三方和平聯合聲明未提烏克蘭與伊朗。"
+      },
+      "date": "2026-11-20",
+      "author": "瑞哥观势",
+      "tags": {
+        "en": [
+          "Finance Briefing",
+          "Macroeconomics"
+        ],
+        "ja": [
+          "ファイナンス ブリーフィング",
+          "マクロエコノミー"
+        ],
+        "vi": [
+          "Bản tin tài chính",
+          "Kinh tế vĩ mô"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "宏觀經濟"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Briefing"
+        ],
+        "ja": [
+          "ファイナンス ブリーフィング"
+        ],
+        "vi": [
+          "Bản tin tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-19-finance-daily",
       "title": {
         "en": "Daily Finance Briefing | 2026-11-19",

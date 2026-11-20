@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-20-finance-daily",
+      "date": "2026-11-20",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "Daily Finance Briefing | 2026-11-20",
+      "description": "Precious metals fell harder and an AI leader fell despite record results: spot gold dropped 3.48 percent to 3,609.92 dollars, silver fell 5.98 percent to 42.76 dollars, and NVDA closed at 145.98 dollars with an RSI of just 19.64 even as revenue grew 93 percent year on year. The trigger was the October Fed minutes published on November 18, which showed almost all participants judging a further hike likely appropriate, with Waller calling for a 50 basis point move and JPMorgan expecting three consecutive hikes. US stocks fell even on the record 2 trillion dollar Anthropic IPO debut, and the trilateral peace declaration left Ukraine and Iran unmentioned.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-19-finance-daily",
       "date": "2026-11-19",
       "author": "瑞哥观势",
@@ -611,26 +631,6 @@
       ],
       "title": "Daily Finance Briefing | 2026-10-11",
       "description": "Markets closed for the weekend — referencing prior session (Oct 9). Gold holds $4,150 near record highs; TSLA leads US equities while NVDA/AAPL pull back. The Fed cut 25bp on Oct 29 to 3.75–4.00%, Powell signals no rush to ease further. Trump–Xi Washington summit delivers a $30B tariff-cut framework, lifting Asian equities.",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-10-finance-daily",
-      "date": "2026-10-10",
-      "author": "瑞哥观势",
-      "tags": [
-        "Finance Brief",
-        "Macroeconomy"
-      ],
-      "categories": [
-        "Finance Brief"
-      ],
-      "title": "Daily Finance Brief | October 10, 2026",
-      "description": "Gold surges to $4,194/oz on Middle East tensions; Fed holds steady after September hike as consumer confidence hits multi-year low; Apple cuts iPhone 18 orders, tech stocks diverge.",
       "source": {
         "original": {
           "name": "瑞哥观势",

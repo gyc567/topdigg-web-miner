@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-20-finance-daily",
+      "date": "2026-11-20",
+      "author": "瑞哥观势",
+      "tags": [
+        "Bản tin tài chính",
+        "Kinh tế vĩ mô"
+      ],
+      "categories": [
+        "Bản tin tài chính"
+      ],
+      "title": "Bản tin tài chính hàng ngày | 2026-11-20",
+      "description": "Kim loại quý tiếp tục lao xuống và trùng dẫn AI tăng trưởng nhưng cổ phiếu vẫn giảm: vàng giao ngay giảm 3,73% về 3.609,92 USD, bạc giảm 5,98% về 42,76 USD, NVDA đóng cửa ở 145,98 USD với chỉ số sức mạnh tương đối chỉ còn 19,64 trong khi doanh thu tăng 93% so với cùng kỳ. Nguyên nhân là biên bản cuộc họp tháng 10 của Fed công bố ngày 18/11 cho thấy gần như mọi thành viên đều cho rằng tăng lãi suất thêm là phù hợp, Waller đề xuất nâng 50 điểm cơ bản và JP Morgan dự báo ba cuộc họp tăng liên tiếp. Cổ phiếu Mỹ vẫn giảm trong ngày Anthropic chào sàn với quy mô kỷ lục 2 nghìn tỷ USD, còn tuyên bố chung hòa bình ba nước không nhắc tới Ukraine và Iran.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-19-finance-daily",
       "date": "2026-11-19",
       "author": "瑞哥观势",
@@ -611,26 +631,6 @@
       ],
       "title": "Tin Tài Chính Hàng Ngày | 2026-10-11",
       "description": "Thị trường nghỉ cuối tuần — tham khảo phiên trước (9/10). Vàng giữ $4.150, gần đỉnh lịch sử; TSLA dẫn đầu chứng khoán Mỹ, NVDA/AAPL điều chỉnh. Fed cắt 25bp vào 29/10 xuống 3,75–4,00%, Powell cho biết không vội nới lỏng thêm. Hội nghị Trump–Xi tại Washington đạt khung giảm thuế $30 tỷ, cổ phiếu châu Á tăng mạnh.",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-10-finance-daily",
-      "date": "2026-10-10",
-      "author": "瑞哥观势",
-      "tags": [
-        "Bản tin tài chính",
-        "Kinh tế vĩ mô"
-      ],
-      "categories": [
-        "Bản tin tài chính"
-      ],
-      "title": "Bản Tin Tài Chính Hàng Ngày | 10/10/2026",
-      "description": "Vàng vượt 4194 USD/oz khi rủi ro địa chính trị Trung Đông leo thang; Fed giữ quan điểm chờ đợi sau đợt tăng lãi suất tháng 9; Apple cắt giảm đơn hàng iPhone 18, cổ phiếu công nghệ phân hóa.",
       "source": {
         "original": {
           "name": "瑞哥观势",
