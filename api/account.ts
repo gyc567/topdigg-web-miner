@@ -8,11 +8,23 @@
 import { auth } from "../src/lib/auth.ts";
 import { fromNodeHeaders } from "better-auth/node";
 import { dodo, DODO_ENVIRONMENT } from "../src/lib/dodo.ts";
+import { db } from "../src/lib/db.ts";
+import { contentUnlock } from "../src/db/app-schema.ts";
+import { desc, eq } from "drizzle-orm";
 
-async function getSessionUser(req: any) {
+/** The Dodo plugin adds dodoCustomerId to the user row at runtime. */
+type SessionUser = {
+  id: string;
+  email: string;
+  name: string;
+  emailVerified?: boolean;
+  dodoCustomerId?: string | null;
+};
+
+async function getSessionUser(req: any): Promise<SessionUser | null> {
   const headers = fromNodeHeaders(req.headers ?? {});
   const session = await auth.api.getSession({ headers });
-  return session?.user ?? null;
+  return (session?.user as SessionUser | undefined) ?? null;
 }
 
 export default async function handler(req: any, res: any) {
@@ -28,11 +40,44 @@ export default async function handler(req: any, res: any) {
   }
 
   const result: any = {
-    user: { id: user.id, email: user.email, name: user.name, dodoCustomerId: user.dodoCustomerId },
+    user: {
+      id: user.id,
+      email: user.email,
+      name: user.name,
+      emailVerified: user.emailVerified ?? false,
+      dodoCustomerId: user.dodoCustomerId,
+    },
     environment: DODO_ENVIRONMENT,
     subscriptions: [],
     credits: [],
+    unlocks: [],
   };
+
+  // Unlocked content (purchase or credit redemption).
+  try {
+    const rows = await db
+      .select({
+        id: contentUnlock.id,
+        section: contentUnlock.section,
+        contentSlug: contentUnlock.contentSlug,
+        source: contentUnlock.source,
+        creditsSpent: contentUnlock.creditsSpent,
+        createdAt: contentUnlock.createdAt,
+      })
+      .from(contentUnlock)
+      .where(eq(contentUnlock.userId, user.id))
+      .orderBy(desc(contentUnlock.createdAt));
+    result.unlocks = rows.map((r: any) => ({
+      id: r.id,
+      section: r.section,
+      contentSlug: r.contentSlug,
+      source: r.source,
+      creditsSpent: r.creditsSpent,
+      createdAt: r.createdAt,
+    }));
+  } catch (err: any) {
+    console.error("[api/account] unlocks failed:", err?.message ?? err);
+  }
 
   if (user.dodoCustomerId) {
     // Subscriptions → membership status. Fail soft: empty list, not an error.

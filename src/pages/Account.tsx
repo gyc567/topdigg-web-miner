@@ -7,9 +7,10 @@ import { useTranslation } from "react-i18next";
 import { useSession, authClient } from "@/lib/auth-client";
 
 type AccountData = {
-  user: { email: string; name: string; dodoCustomerId: string | null };
+  user: { email: string; name: string; dodoCustomerId: string | null; emailVerified?: boolean };
   subscriptions: Array<{ subscriptionId: string; status: string; nextBillingDate?: string; amount?: number; currency?: string }>;
   credits: Array<{ creditEntitlementId: string; name?: string; balance?: string }>;
+  unlocks: Array<{ id: string; section: string; contentSlug: string; source: string; creditsSpent: number; createdAt: string }>;
   creditsStale?: boolean;
 };
 
@@ -18,6 +19,22 @@ export default function Account() {
   const { data: session, isPending } = useSession();
   const [data, setData] = useState<AccountData | null>(null);
   const [loading, setLoading] = useState(false);
+  const [portalLoading, setPortalLoading] = useState(false);
+
+  async function openPortal() {
+    setPortalLoading(true);
+    try {
+      const res = await fetch("/api/auth/dodopayments/customer/portal", { credentials: "include" });
+      const payload = await res.json().catch(() => null);
+      if (res.ok && payload?.url) {
+        window.location.href = payload.url;
+        return;
+      }
+    } catch {
+      /* fall through */
+    }
+    setPortalLoading(false);
+  }
 
   useEffect(() => {
     if (!session?.user) return;
@@ -52,6 +69,20 @@ export default function Account() {
       <p className="text-muted-foreground mb-8">
         {session.user.name} · {session.user.email}
       </p>
+
+      {data && data.user.emailVerified === false && (
+        <div className="mb-6 p-3 border border-amber-300 dark:border-amber-800 bg-amber-50 dark:bg-amber-950/40 rounded-lg text-sm">
+          {t("auth.emailNotVerified")}{" "}
+          <button
+            onClick={async () => {
+              await authClient.sendVerificationEmail({ email: session.user.email, callbackURL: `${window.location.origin}/account` });
+            }}
+            className="text-primary hover:underline"
+          >
+            {t("auth.resendVerification")}
+          </button>
+        </div>
+      )}
 
       <div className="grid gap-4 md:grid-cols-2 mb-8">
         <div className="p-4 border rounded-lg">
@@ -92,12 +123,40 @@ export default function Account() {
         </div>
       </div>
 
+      {data?.unlocks && data.unlocks.length > 0 && (
+        <div className="mb-8 p-4 border rounded-lg">
+          <div className="text-sm text-muted-foreground mb-2">{t("auth.unlockedItems")}</div>
+          <ul className="space-y-1 text-sm">
+            {data.unlocks.map((u) => (
+              <li key={u.id} className="flex items-center gap-2">
+                <Link
+                  to={`/${u.section}/${u.contentSlug}`}
+                  className="text-primary hover:underline truncate"
+                >
+                  {u.contentSlug}
+                </Link>
+                <span className="text-xs text-muted-foreground">
+                  {u.source === "credit" ? t("auth.unlockedByCredits", { cost: u.creditsSpent }) : t("auth.unlockedByPurchase")}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
       <div className="flex flex-wrap gap-3">
         {!activeSub && (
           <Link to="/checkout" className="px-5 py-2.5 bg-primary text-primary-foreground rounded-lg text-sm font-medium">
-            {t("auth.register") === "注册" ? "开通会员" : "Subscribe"}
+            {t("auth.subscribeNow")}
           </Link>
         )}
+        <button
+          onClick={openPortal}
+          disabled={portalLoading}
+          className="px-5 py-2.5 border rounded-lg text-sm disabled:opacity-50"
+        >
+          {portalLoading ? "…" : t("auth.customerPortal")}
+        </button>
         <button
           onClick={() => authClient.signOut().then(() => location.assign("/"))}
           className="px-5 py-2.5 border rounded-lg text-sm"

@@ -41,6 +41,8 @@ const VALID_ROUTES = new Set([
   "/login",
   "/register",
   "/account",
+  "/forgot-password",
+  "/reset-password",
   // Vercel internals (should never 404)
   "/_vercel",
   "/__next",

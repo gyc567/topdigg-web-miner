@@ -10,6 +10,7 @@ import { drizzleAdapter } from "@better-auth/drizzle-adapter";
 import { checkout, dodopayments, portal } from "@dodopayments/better-auth";
 import { db } from "./db.ts";
 import { dodo as dodoPayments } from "./dodo.ts";
+import { sendAuthResetPasswordEmail, sendAuthVerificationEmail } from "./email-templates.ts";
 
 const baseURL = process.env.BETTER_AUTH_URL ?? "http://localhost:8080";
 
@@ -25,9 +26,24 @@ export const auth = betterAuth({
   database: drizzleAdapter(db, { provider: "pg" }),
   emailAndPassword: {
     enabled: true,
-    // TODO(production): 邮件服务接入后改为 true，强制邮箱验证。
-    // 当前开发期跳过验证，注册即可登录。
-    requireEmailVerification: false,
+    // 强制邮箱验证：默认关闭（开发期免验证）。打开后：
+    //   - 生产：验证信经 Resend 送达
+    //   - 开发：验证信落到 .dev-emails/，从文件里点链接即可完成验证
+    requireEmailVerification: process.env.EMAIL_REQUIRE_VERIFICATION === "true",
+    sendResetPassword: async (data, request) => {
+      await sendAuthResetPasswordEmail(data, request);
+    },
+    resetPasswordTokenExpiresIn: 3600,
+    minPasswordLength: 8,
+    maxPasswordLength: 128,
+  },
+  emailVerification: {
+    sendOnSignUp: true,
+    autoSignInAfterVerification: true,
+    expiresIn: 3600,
+    sendVerificationEmail: async (data, request) => {
+      await sendAuthVerificationEmail(data, request);
+    },
   },
   trustedOrigins,
   plugins: [
