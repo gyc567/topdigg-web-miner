@@ -424,7 +424,7 @@ export const PAYWALL = {
 | # | 凭据 | 去哪拿 | 用途 |
 |---|---|---|---|
 | 1 | **Dodo live API key**（`dodo_live_...`） | Dodo dashboard → Developer → API Keys → 选 live 模式新建 | 我跑 setup-dodo-live.mjs 建商品/积分/webhook |
-| 2 | **Resend API key** | resend.com 注册 → API Keys → 新建 | 真邮件（先用 onboarding@resend.dev 测试发信；生产再验证 topdigg.com 域名） |
+| 2 | ~~**Resend API key**~~ | ✅ 已接入并实测：验证邮件真实送达 gyc567@126.com | ⚠️ 生产前需在 resend.com/domains 验证 topdigg.com，把 EMAIL_FROM 换成 noreply@topdigg.com（现在 onboarding@resend.dev 只能发到你自己的邮箱） |
 | 3 | **Vercel 访问**（三选一） | ① 你终端跑 `vercel login` ② vercel.com/account/settings/tokens 建 token 给我 ③ 你自己在 dashboard 粘 env（列表在下面） | 设生产环境变量 |
 
 ### Vercel 生产环境变量（拿到 1、2 后我补全值）
