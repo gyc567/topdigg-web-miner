@@ -49,3 +49,6 @@ api/_gated/
 
 # Dev-mode captured emails
 .dev-emails/
+
+# 生产环境变量（含密钥，勿提交）
+vercel-env-production.txt
