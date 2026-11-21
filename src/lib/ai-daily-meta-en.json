@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-21-ai-daily",
+      "date": "2026-11-21",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Thinking Machines Lab Releases Inkling 2 Mini, an Open-Weight Model That Runs on a Laptop",
+      "description": "Thinking Machines Lab released Inkling 2 Mini, an open-weight model with a recurrent Transformer architecture, 26.4B total parameters, 3.4B active, runnable locally on a Mac with 32GB of memory. Tencent Hunyuan opened the weights for Hy4, a 770B-parameter native multimodal MoE with 1M context.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-20-ai-daily",
       "date": "2026-11-20",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "OpenAI Discloses Patch the Planet, Uses GPT-5.6 Sol to Uncover Critical PHP Vulnerabilities and Coordinate Global Fixes",
       "description": "OpenAI announced that over the past two months it led a coalition of maintainers, researchers and security vendors to fix critical PHP vulnerabilities, with Calif using GPT-5.6 Sol to find a serious flaw while Wiz independently discovered and reported both issues, with PHP maintainers leading the remediation and release.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-21-ai-daily",
-      "date": "2026-10-21",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "DeepSeek Open-Sources Internal Reasoning Framework DeepInfer",
-      "description": "DeepSeek announces full open-sourcing of its internal reasoning framework DeepInfer, alongside production-grade Token encoder/decoder component deepseek-recipe. Meanwhile, Inception Labs releases diffusion-based LLM Mercury 3 at 1068 tokens/sec.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

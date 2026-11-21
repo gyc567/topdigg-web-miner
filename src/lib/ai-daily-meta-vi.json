@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-21-ai-daily",
+      "date": "2026-11-21",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Thinking Machines Lab ra mắt Inkling 2 Mini, mô hình mở trọng số chạy được trên laptop",
+      "description": "Thinking Machines Lab công bố Inkling 2 Mini, mô hình mở trọng số dùng kiến trúc Transformer tuần hoàn, tổng 26,4B tham số, kích hoạt 3,4B, chạy cục bộ trên Mac có hơn 32GB bộ nhớ. Tencent Hunyuan đồng thời mở trọng số Hy4, mô hình MoE đa phương thức gốc 770B tham số với ngữ cảnh 1M.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-20-ai-daily",
       "date": "2026-11-20",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "OpenAI Công Bố Kế Hoạch Patch the Planet, Dùng GPT-5.6 Sol Phát Hiện Lỗ Hổng PHP Nghiêm Trọng Và Điều Phối Sửa Chữa Toàn Cầu",
       "description": "OpenAI thông báo rằng trong hai tháng qua họ đã dẫn dắt liên minh gồm các nhà bảo trì, nhà nghiên cứu và hãng bảo mật để vá lỗi PHP nghiêm trọng, trong đó Calif dùng GPT-5.6 Sol phát hiện một khiếm khuyết nghiêm trọng, còn Wiz độc lập phát hiện và báo cáo cả hai lỗi, với các nhà bảo trì PHP dẫn dắt việc khắc phục và phát hành.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-21-ai-daily",
-      "date": "2026-10-21",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "DeepSeek Mã Nguồn Mở Hoàn Toàn Framework DeepInfer - DeepInfer",
-      "description": "DeepSeek thông báo mã nguồn mở hoàn toàn framework suy luận nội bộ DeepInfer, cùng với thành phần mã hóa/giải mã Token cấp sản xuất deepseek-recipe. Đồng thời, Inception Labs phát hành mô hình ngôn ngữ lớn khuyếch tán Mercury 3 với tốc độ 1068 tokens/giây.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

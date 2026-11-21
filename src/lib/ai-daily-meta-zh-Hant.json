@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-21-ai-daily",
+      "date": "2026-11-21",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Thinking Machines Lab 發布可跑在筆電上的開源權重模型 Inkling 2 Mini",
+      "description": "Thinking Machines Lab 發布開源權重模型 Inkling 2 Mini，循環 Transformer 架構，總參數 26.4B、啟用 3.4B，可在 32GB 記憶體以上的 Mac 本地執行。騰訊混元同步開放 Hy4 權重，770B 總參數、支援 1M 上下文。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-20-ai-daily",
       "date": "2026-11-20",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "OpenAI 披露 Patch the Planet 計畫借助 GPT-5.6 Sol 發現 PHP 關鍵漏洞並協調全球修補",
       "description": "OpenAI 宣布在過去兩個月牽頭維護者、研究者與安全廠商聯盟，修補 PHP 的關鍵漏洞，其中 Calif 用 GPT-5.6 Sol 發現一處嚴重缺陷，Wiz 也獨立發現並報告了這兩個漏洞，PHP 維護者主導修補與發布。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-21-ai-daily",
-      "date": "2026-10-21",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "DeepSeek 全面開源內部推理框架 DeepInfer",
-      "description": "DeepSeek 宣佈將內部推理框架 DeepInfer 全面開源，並同步開源生產級 Token 編解碼組件 deepseek-recipe。同時，Inception Labs 發布擴散大語言模型 Mercury 3，速度達 1068 tokens/秒。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

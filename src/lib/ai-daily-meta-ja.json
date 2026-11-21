@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-21-ai-daily",
+      "date": "2026-11-21",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Thinking Machines Lab、ノートPCで動くオープンウェイトモデル Inkling 2 Mini を発表",
+      "description": "Thinking Machines Labは再帰型Transformerアーキテクチャ採用のオープンウェイトモデルInkling 2 Miniを発表。総パラメータ26.4B、活性3.4Bで、32GB以上のメモリを積んだMacでローカル実行できる。Tencent Hunyuanは総パラメータ770B、1Mコンテキスト対応のネイティブマルチモーダルMoEとなるHy4のウェイトを公開した。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-20-ai-daily",
       "date": "2026-11-20",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "OpenAI、Patch the Planet 計画で GPT-5.6 Sol を活用し PHP の重大な脆弱性を発見・世界規模で修正",
       "description": "OpenAI は過去 2 か月間、メンテナンス担当者・研究者・セキュリティベンダーの連合を率い、PHP の重大な脆弱性の修正を指揮したと発表した。Calif が GPT-5.6 Sol で重大な欠陥を発見し、Wiz も 2 件を独立に発見・報告、修正と公開は PHP メンテナンス側が主導した。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-21-ai-daily",
-      "date": "2026-10-21",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "DeepSeek、内部推論フレームワーク DeepInfer を全面オープンソース化",
-      "description": "DeepSeek は内部推論フレームワーク DeepInfer の全面オープンソース化を発表し、同時にプロダクショングレードの Token エンコーダー/デコーダーコンポーネント deepseek-recipe もオープンソース化了。同時に、Inception Labs が拡散型 LLM Mercury 3 をリリース、速度は 1068 tokens/秒。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

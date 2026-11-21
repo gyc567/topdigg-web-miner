@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-11-21-ai-daily",
+      "title": {
+        "en": "Thinking Machines Lab Releases Inkling 2 Mini, an Open-Weight Model That Runs on a Laptop",
+        "ja": "Thinking Machines Lab、ノートPCで動くオープンウェイトモデル Inkling 2 Mini を発表",
+        "vi": "Thinking Machines Lab ra mắt Inkling 2 Mini, mô hình mở trọng số chạy được trên laptop",
+        "zh-Hans": "Thinking Machines Lab 发布可跑在笔记本上的开源权重模型 Inkling 2 Mini",
+        "zh-Hant": "Thinking Machines Lab 發布可跑在筆電上的開源權重模型 Inkling 2 Mini"
+      },
+      "description": {
+        "en": "Thinking Machines Lab released Inkling 2 Mini, an open-weight model with a recurrent Transformer architecture, 26.4B total parameters, 3.4B active, runnable locally on a Mac with 32GB of memory. Tencent Hunyuan opened the weights for Hy4, a 770B-parameter native multimodal MoE with 1M context.",
+        "ja": "Thinking Machines Labは再帰型Transformerアーキテクチャ採用のオープンウェイトモデルInkling 2 Miniを発表。総パラメータ26.4B、活性3.4Bで、32GB以上のメモリを積んだMacでローカル実行できる。Tencent Hunyuanは総パラメータ770B、1Mコンテキスト対応のネイティブマルチモーダルMoEとなるHy4のウェイトを公開した。",
+        "vi": "Thinking Machines Lab công bố Inkling 2 Mini, mô hình mở trọng số dùng kiến trúc Transformer tuần hoàn, tổng 26,4B tham số, kích hoạt 3,4B, chạy cục bộ trên Mac có hơn 32GB bộ nhớ. Tencent Hunyuan đồng thời mở trọng số Hy4, mô hình MoE đa phương thức gốc 770B tham số với ngữ cảnh 1M.",
+        "zh-Hans": "Thinking Machines Lab 发布开源权重模型 Inkling 2 Mini，循环 Transformer 架构，总参数 26.4B、激活 3.4B，可在 32GB 内存以上的 Mac 本地运行。腾讯混元同步开放 Hy4 权重，770B 总参数、支持 1M 上下文。",
+        "zh-Hant": "Thinking Machines Lab 發布開源權重模型 Inkling 2 Mini，循環 Transformer 架構，總參數 26.4B、啟用 3.4B，可在 32GB 記憶體以上的 Mac 本地執行。騰訊混元同步開放 Hy4 權重，770B 總參數、支援 1M 上下文。"
+      },
+      "date": "2026-11-21",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-11-20-ai-daily",
       "title": {
         "en": "Anthropic Lists on Nasdaq, Opening at $111, 33% Above the IPO Price",
