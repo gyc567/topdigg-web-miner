@@ -1,6 +1,76 @@
 {
   "reports": [
     {
+      "slug": "2026-11-21-finance-daily",
+      "title": {
+        "en": "Daily Financial Brief | 2026-11-21",
+        "ja": "デイリー金融ブリーフ | 2026-11-21",
+        "vi": "Bản tin tài chính hàng ngày | 2026-11-21",
+        "zh-Hans": "每日财经简报 | 2026-11-21",
+        "zh-Hant": "每日財經簡報 | 2026-11-21"
+      },
+      "description": {
+        "en": "The SEC opened an accounting probe into NVIDIA, sending NVDA down 14.01% to $125.53 and wiping out roughly $400B in market value as the Nasdaq fell 5.28%. Spot gold dropped 5.38% to $3,539/oz, losing nearly 9% in a week. The probability of a 25bp December Fed hike has climbed to 92.7%, while China's LPR has been frozen for 18 straight months as the PBOC moves toward DR001-linked floating-rate lending.",
+        "ja": "SECがNVIDIAの会計処理を調査し、NVDAは14.01%安の125.53ドルまで急落、時価総額は約4000億ドル減少、ナスダックは5.28%下跌。現物ゴールドは5.38%安の3539ドル/オンスで、週間では約9%安。12月の25bp利上げ確率は92.7%へ上昇し、中国のLPRは18か月連続で据え置き、PBOCはDR001連動の変動金利融資を進めている。",
+        "vi": "SEC mở cuộc điều tra kế toán của NVIDIA, khiến NVDA giảm 14,01% còn 125,53 USD và bay mất khoảng 400 tỷ USD vốn hóa trong một phiên, Nasdaq mất 5,28%. Vàng giao ngay rớt 5,38% về 3.539 USD/oz, mất gần 9% trong một tuần. Xác suất Fed tăng lãi suất 25 điểm cơ bản vào tháng 12 đã lên 92,7%, còn LPR của Trung Quốc đi ngang 18 tháng liên tiếp khi PBOC thúc đẩy cho vay lãi suất thả nổi gắn với DR001.",
+        "zh-Hans": "SEC 调查英伟达会计作业，NVDA 单日暴跌 14.01% 至 125.53 美元，市值蒸发约 4000 亿美元，纳指重挫 5.28%；现货黄金跌 5.38% 至 3539 美元，一周累计跌近 9%。12 月加息 25 基点概率升至 92.7%，中国 LPR 连续 18 个月不变、央行推进挂钩 DR001 的浮动利率贷款。",
+        "zh-Hant": "SEC 調查英偉達會計作業，NVDA 單日暴跌 14.01% 至 125.53 美元，市值蒸發約 4000 億美元，納指重挫 5.28%；現貨黃金跌 5.38% 至 3539 美元，一週累計跌近 9%。12 月升息 25 基點機率升至 92.7%，中國 LPR 連續 18 個月不變、央行推進掛鉤 DR001 的浮動利率貸款。"
+      },
+      "date": "2026-11-21",
+      "author": "瑞哥观势",
+      "tags": {
+        "en": [
+          "Financial Brief",
+          "Macroeconomics"
+        ],
+        "ja": [
+          "金融ブリーフ",
+          "マクロエコノミクス"
+        ],
+        "vi": [
+          "Bản tin tài chính",
+          "Kinh tế vĩ mô"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "宏觀經濟"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Financial Brief"
+        ],
+        "ja": [
+          "金融ブリーフ"
+        ],
+        "vi": [
+          "Bản tin tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-20-finance-daily",
       "title": {
         "en": "Daily Finance Briefing | 2026-11-20",

@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-21-finance-daily",
+      "date": "2026-11-21",
+      "author": "瑞哥观势",
+      "tags": [
+        "Financial Brief",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Financial Brief"
+      ],
+      "title": "Daily Financial Brief | 2026-11-21",
+      "description": "The SEC opened an accounting probe into NVIDIA, sending NVDA down 14.01% to $125.53 and wiping out roughly $400B in market value as the Nasdaq fell 5.28%. Spot gold dropped 5.38% to $3,539/oz, losing nearly 9% in a week. The probability of a 25bp December Fed hike has climbed to 92.7%, while China's LPR has been frozen for 18 straight months as the PBOC moves toward DR001-linked floating-rate lending.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-20-finance-daily",
       "date": "2026-11-20",
       "author": "瑞哥观势",
@@ -608,29 +628,6 @@
       ],
       "title": "Daily Finance Brief | 2026-10-12",
       "description": "EUR/USD holds above 1.12; USD/JPY retreats to 158; AAPL down 1.11% while TSLA surges 2.05%; Gold hits new high at $4,206/oz; Fed officials signal hawkish tilt, cooling rate-cut expectations; China to release LPR today.",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-11-finance-daily",
-      "date": "2026-10-11",
-      "author": "瑞哥观势",
-      "tags": [
-        "finance briefing",
-        "macro",
-        "forex",
-        "us equities",
-        "central banks"
-      ],
-      "categories": [
-        "finance briefing"
-      ],
-      "title": "Daily Finance Briefing | 2026-10-11",
-      "description": "Markets closed for the weekend — referencing prior session (Oct 9). Gold holds $4,150 near record highs; TSLA leads US equities while NVDA/AAPL pull back. The Fed cut 25bp on Oct 29 to 3.75–4.00%, Powell signals no rush to ease further. Trump–Xi Washington summit delivers a $30B tariff-cut framework, lifting Asian equities.",
       "source": {
         "original": {
           "name": "瑞哥观势",

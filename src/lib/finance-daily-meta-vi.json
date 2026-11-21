@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-21-finance-daily",
+      "date": "2026-11-21",
+      "author": "瑞哥观势",
+      "tags": [
+        "Bản tin tài chính",
+        "Kinh tế vĩ mô"
+      ],
+      "categories": [
+        "Bản tin tài chính"
+      ],
+      "title": "Bản tin tài chính hàng ngày | 2026-11-21",
+      "description": "SEC mở cuộc điều tra kế toán của NVIDIA, khiến NVDA giảm 14,01% còn 125,53 USD và bay mất khoảng 400 tỷ USD vốn hóa trong một phiên, Nasdaq mất 5,28%. Vàng giao ngay rớt 5,38% về 3.539 USD/oz, mất gần 9% trong một tuần. Xác suất Fed tăng lãi suất 25 điểm cơ bản vào tháng 12 đã lên 92,7%, còn LPR của Trung Quốc đi ngang 18 tháng liên tiếp khi PBOC thúc đẩy cho vay lãi suất thả nổi gắn với DR001.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-20-finance-daily",
       "date": "2026-11-20",
       "author": "瑞哥观势",
@@ -608,29 +628,6 @@
       ],
       "title": "Bản Tin Tài Chính Hàng Ngày | 2026-10-12",
       "description": "EUR/USD giữ trên 1.12; USD/JPY giảm về 158; AAPL -1.11% trong khi TSLA +2.05%; Vàng lập đỉnh mới $4,206/oz; Fed phát tín hiệu diều hâu, kỳ vọng cắt lãi suất giảm nhiệt; Trung Quốc công bố LPR hôm nay.",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-11-finance-daily",
-      "date": "2026-10-11",
-      "author": "瑞哥观势",
-      "tags": [
-        "tin tài chính",
-        "kinh tế vĩ mô",
-        "ngoại hối",
-        "chứng khoán Mỹ",
-        "chính sách ngân hàng trung ương"
-      ],
-      "categories": [
-        "tin tài chính"
-      ],
-      "title": "Tin Tài Chính Hàng Ngày | 2026-10-11",
-      "description": "Thị trường nghỉ cuối tuần — tham khảo phiên trước (9/10). Vàng giữ $4.150, gần đỉnh lịch sử; TSLA dẫn đầu chứng khoán Mỹ, NVDA/AAPL điều chỉnh. Fed cắt 25bp vào 29/10 xuống 3,75–4,00%, Powell cho biết không vội nới lỏng thêm. Hội nghị Trump–Xi tại Washington đạt khung giảm thuế $30 tỷ, cổ phiếu châu Á tăng mạnh.",
       "source": {
         "original": {
           "name": "瑞哥观势",
