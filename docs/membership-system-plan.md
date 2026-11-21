@@ -423,7 +423,7 @@ export const PAYWALL = {
 
 | # | 凭据 | 去哪拿 | 用途 |
 |---|---|---|---|
-| 1 | **Dodo live API key**（`dodo_live_...`） | Dodo dashboard → Developer → API Keys → 选 live 模式新建 | 我跑 setup-dodo-live.mjs 建商品/积分/webhook |
+| 1 | ~~**Dodo live API key**~~ ✅ | 已拿到并跑完 setup-dodo-live.mjs：3 个 live 商品 + 积分 entitlement + 挂载 + webhook 端点 + 签名密钥全部就绪 | ⚠️ **live 收款被 `MERCHANT_NOT_LIVE` 挡住：需先在 Dodo dashboard 完成 KYC/企业认证并等审核通过** |
 | 2 | ~~**Resend API key**~~ | ✅ 已接入并实测：验证邮件真实送达 gyc567@126.com | ⚠️ 生产前需在 resend.com/domains 验证 topdigg.com，把 EMAIL_FROM 换成 noreply@topdigg.com（现在 onboarding@resend.dev 只能发到你自己的邮箱） |
 | 3 | **Vercel 访问**（三选一） | ① 你终端跑 `vercel login` ② vercel.com/account/settings/tokens 建 token 给我 ③ 你自己在 dashboard 粘 env（列表在下面） | 设生产环境变量 |
 
@@ -451,7 +451,9 @@ EMAIL_FROM                    = TopDigg <noreply@topdigg.com>（域名验证后�
 
 ### 上线顺序
 
-1. 拿到 3 样凭据 → 跑 setup-dodo-live.mjs → 本地用 live env 验证 checkout session 创建（**不刷真实支付**）
+1. ~~拿到 3 样凭据 → 跑 setup-dodo-live.mjs~~ ✅ 已完成（live 商品/积分/webhook 全就绪）。
+   **当前唯一硬阻塞：Dodo dashboard 完成 KYC/企业认证 → live 收款启用**。
+   本地 live checkout session 验证（不刷真实支付）待 KYC 通过后补做
 2. Resend 测试发信成功 → EMAIL_REQUIRE_VERIFICATION=true
 3. 设 Vercel env → 合并分支到 main → Vercel 自动部署
 4. 上线后验证：注册→验证邮件→登录→订阅流程→webhook 落库

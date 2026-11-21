@@ -11,9 +11,22 @@
  *   4. webhook endpoint https://www.topdigg.com/api/webhooks/dodo
  *      (+ prints the signing key for DODO_PAYMENTS_WEBHOOK_KEY)
  */
+// Load .env.local (values never overwrite real env).
+import fs from "node:fs";
+for (const file of [".env.local", ".env"]) {
+  if (!fs.existsSync(file)) continue;
+  for (const line of fs.readFileSync(file, "utf8").split("\n")) {
+    const m = line.match(/^\s*([A-Za-z_][A-Za-z0-9_]*)\s*=\s*(.*?)\s*$/);
+    if (!m) continue;
+    let v = m[2];
+    if ((v.startsWith('"') && v.endsWith('"')) || (v.startsWith("'") && v.endsWith("'"))) v = v.slice(1, -1);
+    if (process.env[m[1]] === undefined) process.env[m[1]] = v;
+  }
+}
+
 const KEY = process.env.DODO_LIVE_API_KEY;
 if (!KEY) {
-  console.error("Set DODO_LIVE_API_KEY=dodo_live_... first.");
+  console.error("Set DODO_LIVE_API_KEY=dodo_live_... first (in .env.local or env).");
   process.exit(1);
 }
 const BASE = "https://live.dodopayments.com";
