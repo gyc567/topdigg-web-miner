@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-22-ai-daily",
+      "date": "2026-11-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Anthropic Mathematician Says Claude Completed a Proof of the Riemann Hypothesis; Stanford Releases an All-Human Competing Draft Hours Later",
+      "description": "Anthropic mathematician Levent Alpöge announced a proof of the Riemann Hypothesis and the generalized Riemann Hypothesis made with Claude, released as 14 Lean data packages that would print to over 250,000 pages. Together AI disclosed a prompt leakage incident across its serverless inference services in June and July 2026.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-21-ai-daily",
       "date": "2026-11-21",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "AI Uncovers a Decade-Old PHP Low-Level Vulnerability: A Full Retrospective of the PHP2Shell Incident",
       "description": "Two PHP remote code execution vulnerabilities with CVSS scores of 9.2 leaked before patches shipped, with OpenAI claiming GPT-5.6 Sol helped with the discovery; on the same day OpenAI released the Decisions API, Anthropic donated the Agent Skills standard to the Linux Foundation, and DeepSeek raised a new round of roughly $15 billion.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-22-ai-daily",
-      "date": "2026-10-22",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "OpenAI Discloses Patch the Planet, Uses GPT-5.6 Sol to Uncover Critical PHP Vulnerabilities and Coordinate Global Fixes",
-      "description": "OpenAI announced that over the past two months it led a coalition of maintainers, researchers and security vendors to fix critical PHP vulnerabilities, with Calif using GPT-5.6 Sol to find a serious flaw while Wiz independently discovered and reported both issues, with PHP maintainers leading the remediation and release.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

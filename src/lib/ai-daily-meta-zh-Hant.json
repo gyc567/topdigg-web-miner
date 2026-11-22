@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-22-ai-daily",
+      "date": "2026-11-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Anthropic 數學家稱與 Claude 完成黎曼猜想證明，斯坦福數小時後發布純人類競爭草稿",
+      "description": "Anthropic 數學家 Levent Alpöge 宣布與 Claude 合作完成黎曼猜想及廣義黎曼猜想的證明，證明以 Lean 語言分 14 個資料包發布，列印將超過 25 萬頁。Together AI 通報 2026 年 6-7 月 serverless 推理服務提示詞洩露事件。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-21-ai-daily",
       "date": "2026-11-21",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "AI 挖出潛伏十幾年的 PHP 底層漏洞，PHP2Shell 事件全景復盤",
       "description": "兩個 CVSS 9.2 分的 PHP 遠端程式碼執行漏洞在修補程式發布前外洩，OpenAI 認領由 GPT-5.6 Sol 協助發現；同日 OpenAI 發布 Decisions API，Anthropic 捐贈 Agent Skills 標準給 Linux Foundation，DeepSeek 新一輪融資約 150 億美元。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-22-ai-daily",
-      "date": "2026-10-22",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "OpenAI 披露 Patch the Planet 計畫借助 GPT-5.6 Sol 發現 PHP 關鍵漏洞並協調全球修補",
-      "description": "OpenAI 宣布在過去兩個月牽頭維護者、研究者與安全廠商聯盟，修補 PHP 的關鍵漏洞，其中 Calif 用 GPT-5.6 Sol 發現一處嚴重缺陷，Wiz 也獨立發現並報告了這兩個漏洞，PHP 維護者主導修補與發布。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

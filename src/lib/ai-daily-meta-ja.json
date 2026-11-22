@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-22-ai-daily",
+      "date": "2026-11-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Anthropicの数学者がClaudeとの合作的によるリーマン予想の証明を発表、数時間後にスタンフォードが純人間の競合ドラフトを公開",
+      "description": "Anthropicの数学者Levent AlpögeはClaudeと共同でリーマン予想および広義リーマン予想の証明を完成したと発表した。証明は14個のLean形式化データパッケージとして公開され、印刷すると25万ページ超になる。Together AIは2026年6月から7月にかけてのサーバーレス推論サービスのプロンプト漏洩事件を報告した。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-21-ai-daily",
       "date": "2026-11-21",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "AIが10年以上目を潜むPHP底层の脆弱性を発見、PHP2Shell事件の全体像を振り返る",
       "description": "CVSS 9.2点というPHPのリモートコード実行脆弱性2件がパッチ公開前に漏洩し、OpenAIはGPT-5.6 Solの支援による発見を認める。同じ日にOpenAIはDecisions APIを発表し、AnthropicはAgent Skills標準をLinux Foundationに寄付、DeepSeekは新たな資金調達で約150億ドルに達した。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-22-ai-daily",
-      "date": "2026-10-22",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "OpenAI、Patch the Planet 計画で GPT-5.6 Sol を活用し PHP の重大な脆弱性を発見・世界規模で修正",
-      "description": "OpenAI は過去 2 か月間、メンテナンス担当者・研究者・セキュリティベンダーの連合を率い、PHP の重大な脆弱性の修正を指揮したと発表した。Calif が GPT-5.6 Sol で重大な欠陥を発見し、Wiz も 2 件を独立に発見・報告、修正と公開は PHP メンテナンス側が主導した。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

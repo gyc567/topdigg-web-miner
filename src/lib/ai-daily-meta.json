@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-11-22-ai-daily",
+      "title": {
+        "en": "Anthropic Mathematician Says Claude Completed a Proof of the Riemann Hypothesis; Stanford Releases an All-Human Competing Draft Hours Later",
+        "ja": "Anthropicの数学者がClaudeとの合作的によるリーマン予想の証明を発表、数時間後にスタンフォードが純人間の競合ドラフトを公開",
+        "vi": "Nhà toán học của Anthropic nói Claude đã hoàn thành chứng minh giả thuyết Riemann; Stanford vài giờ sau công bố bản nhápp cạnh tranh hoàn toàn do con người viết",
+        "zh-Hans": "Anthropic 数学家称与 Claude 完成黎曼猜想证明，斯坦福数小时后发布纯人类竞争草稿",
+        "zh-Hant": "Anthropic 數學家稱與 Claude 完成黎曼猜想證明，斯坦福數小時後發布純人類競爭草稿"
+      },
+      "description": {
+        "en": "Anthropic mathematician Levent Alpöge announced a proof of the Riemann Hypothesis and the generalized Riemann Hypothesis made with Claude, released as 14 Lean data packages that would print to over 250,000 pages. Together AI disclosed a prompt leakage incident across its serverless inference services in June and July 2026.",
+        "ja": "Anthropicの数学者Levent AlpögeはClaudeと共同でリーマン予想および広義リーマン予想の証明を完成したと発表した。証明は14個のLean形式化データパッケージとして公開され、印刷すると25万ページ超になる。Together AIは2026年6月から7月にかけてのサーバーレス推論サービスのプロンプト漏洩事件を報告した。",
+        "vi": "Nhà toán học Levent Alpöge của Anthropic thông báo đã cùng Claude hoàn thành chứng minh giả thuyết Riemann và giả thuyết Riemann tổng quát, được phát hành dưới dạng 14 gói dữ liệu Lean, in ra hơn 250.000 trang. Together AI công bố sự cố rò rỉ prompt trên dịch vụ suy luận serverless trong giai đoạn tháng 6 và tháng 7 năm 2026.",
+        "zh-Hans": "Anthropic 数学家 Levent Alpöge 宣布与 Claude 合作完成黎曼猜想及广义黎曼猜想的证明，证明以 Lean 语言分 14 个数据包发布，打印将超 25 万页。Together AI 通报 2026 年 6-7 月 serverless 推理服务提示词泄露事件。",
+        "zh-Hant": "Anthropic 數學家 Levent Alpöge 宣布與 Claude 合作完成黎曼猜想及廣義黎曼猜想的證明，證明以 Lean 語言分 14 個資料包發布，列印將超過 25 萬頁。Together AI 通報 2026 年 6-7 月 serverless 推理服務提示詞洩露事件。"
+      },
+      "date": "2026-11-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-11-21-ai-daily",
       "title": {
         "en": "Thinking Machines Lab Releases Inkling 2 Mini, an Open-Weight Model That Runs on a Laptop",
