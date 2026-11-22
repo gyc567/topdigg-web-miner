@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-22-finance-daily",
+      "date": "2026-11-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "金融ブリーフ",
+        "マクロ経済"
+      ],
+      "categories": [
+        "金融ブリーフ"
+      ],
+      "title": "デイリー金融ブリーフ | 2026-11-22",
+      "description": "週末休市のため、11月20日の金曜終値を基準に、オンショア人民元は0.40%高の6.6942、オフショア人民元は6.6748。中国A株は三大指数が急落し、騰落比は313対5236となった。NVIDIAは1週間で222ドルから125.53ドルへ下落し、降幅は43%超。ゴールドは3600を含む4つの整数の壁を連破し、シルバーは一日で9.32%安となった。FRBの議事録は次回の利上げが25bpを超える可能性を示唆し、LPRは18か月連続で据え置き。EUは中国製EVに価格承諾方式を適用し、イランとオマンはホルムズ海峡の新たな航路座標について合意した。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-21-finance-daily",
       "date": "2026-11-21",
       "author": "瑞哥观势",
@@ -609,29 +629,6 @@
         "original": {
           "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWpj8p73otP1gSVVMppHYYZTCLFhPPNWVbHHT0a9-EJjC"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-12-finance-daily",
-      "date": "2026-10-12",
-      "author": "瑞哥观势",
-      "tags": [
-        "金融ブリティ",
-        "マクロ経済",
-        "外国為替",
-        "米国株",
-        "金"
-      ],
-      "categories": [
-        "金融ブリティ"
-      ],
-      "title": "日次金融ブリティ | 2026-10-12",
-      "description": "EUR/USDは1.12上台を維持、USD/JPYは158に下落；米株AAPLは-1.11%、TSLAは+2.05%；金は$4,206/ozの高値更新；FRBのタカ派発言で利下げ期待が後退、中国は本日LPR発表へ。",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
     }

@@ -1,6 +1,76 @@
 {
   "reports": [
     {
+      "slug": "2026-11-22-finance-daily",
+      "title": {
+        "en": "Daily Financial Brief | 2026-11-22",
+        "ja": "デイリー金融ブリーフ | 2026-11-22",
+        "vi": "Bản tin tài chính hàng ngày | 2026-11-22",
+        "zh-Hans": "每日财经简报 | 2026-11-22",
+        "zh-Hant": "每日財經簡報 | 2026-11-22"
+      },
+      "description": {
+        "en": "Markets are closed for the weekend, with prices at Friday Nov 20 closes: the onshore yuan rose 0.40% to 6.6942 and the offshore yuan to 6.6748; China's three main indices sold off hard on heavy volume with a 313-to-5236 advance-decline ratio; NVIDIA fell more than 43% in a week from $222 to $125.53; gold broke through four round-number levels while silver fell 9.32% in a day; Fed minutes hint the next hike could exceed 25bp; China's LPR has been frozen for 18 months; the EU has switched its EV case to a price-undertaking mechanism; and Iran and Oman have agreed on new Hormuz shipping coordinates.",
+        "ja": "週末休市のため、11月20日の金曜終値を基準に、オンショア人民元は0.40%高の6.6942、オフショア人民元は6.6748。中国A株は三大指数が急落し、騰落比は313対5236となった。NVIDIAは1週間で222ドルから125.53ドルへ下落し、降幅は43%超。ゴールドは3600を含む4つの整数の壁を連破し、シルバーは一日で9.32%安となった。FRBの議事録は次回の利上げが25bpを超える可能性を示唆し、LPRは18か月連続で据え置き。EUは中国製EVに価格承諾方式を適用し、イランとオマンはホルムズ海峡の新たな航路座標について合意した。",
+        "vi": "Cuối tuần đóng cửa, số liệu là giá đóng cửa thứ Sáu ngày 20/11: nhân dân tệ trong nước tăng 0.40% lên 6.6942, nhân dân tệ ngoại hối ở 6.6748; ba chỉ số A-share giảm mạnh trên sàn thanh khoản, tỷ lệ tăng/giảm là 313 trên 5236; NVIDIA mất hơn 43% trong một tuần, từ 222 USD xuống 125.53 USD, vàng phá vỡ liên tiếp bốn mốc tròn 3600, bạc giảm 9.32% trong một phiên; biên bản Fed cho thấy lần tăng tiếp theo có thể vượt 25 điểm cơ bản, LPR giữ nguyên 18 tháng liên tiếp, EU chuyển sang cơ chế cam kết giá cho xe điện Trung Quốc, Iran và Oman thống nhất tuyến hàng hải mới tại eo Hormuz.",
+        "zh-Hans": "周末休市，行情为 11 月 20 日周五收盘：人民币在岸价涨 0.40% 至 6.6942，离岸 6.6748；A 股三大指数放量杀跌，涨跌比 313 比 5236；英伟达一周从 222 美元跌到 125.53 美元、跌幅超 43%，黄金连破 3600 等四道整数关、白银单日跌 9.32%；美联储纪要暗示下次可能加超 25 个基点，LPR 连续 18 个月不变，欧盟对华电动车改用价格承诺机制，伊朗与阿曼就霍尔木兹海峡新航线达成一致。",
+        "zh-Hant": "週末休市，行情為 11 月 20 日週五收盤：人民幣在岸價漲 0.40% 至 6.6942，離岸 6.6748；A 股三大指數放量殺跌，漲跌比 313 比 5236；英偉達一週從 222 美元跌到 125.53 美元、跌幅超 43%，黃金連破 3600 等四道整數關、白銀單日跌 9.32%；聯準會紀要暗示下次可能加超 25 個基點，LPR 連續 18 個月不變，歐盟對華電動車改用價格承諾機制，伊朗與阿曼就荷姆茲海峽新航線達成一致。"
+      },
+      "date": "2026-11-22",
+      "author": "瑞哥观势",
+      "tags": {
+        "en": [
+          "Financial Brief",
+          "Macroeconomics"
+        ],
+        "ja": [
+          "金融ブリーフ",
+          "マクロ経済"
+        ],
+        "vi": [
+          "Bản tin tài chính",
+          "Kinh tế vĩ mô"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "宏觀經濟"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Financial Brief"
+        ],
+        "ja": [
+          "金融ブリーフ"
+        ],
+        "vi": [
+          "Bản tin tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-21-finance-daily",
       "title": {
         "en": "Daily Financial Brief | 2026-11-21",

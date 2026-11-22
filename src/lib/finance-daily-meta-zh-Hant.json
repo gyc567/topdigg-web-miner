@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-22-finance-daily",
+      "date": "2026-11-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "財經簡報",
+        "宏觀經濟"
+      ],
+      "categories": [
+        "財經簡報"
+      ],
+      "title": "每日財經簡報 | 2026-11-22",
+      "description": "週末休市，行情為 11 月 20 日週五收盤：人民幣在岸價漲 0.40% 至 6.6942，離岸 6.6748；A 股三大指數放量殺跌，漲跌比 313 比 5236；英偉達一週從 222 美元跌到 125.53 美元、跌幅超 43%，黃金連破 3600 等四道整數關、白銀單日跌 9.32%；聯準會紀要暗示下次可能加超 25 個基點，LPR 連續 18 個月不變，歐盟對華電動車改用價格承諾機制，伊朗與阿曼就荷姆茲海峽新航線達成一致。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-21-finance-daily",
       "date": "2026-11-21",
       "author": "瑞哥观势",
@@ -609,29 +629,6 @@
         "original": {
           "name": "瑞哥觀勢",
           "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWpj8p73otP1gSVVMppHYYZTCLFhPPNWVbHHT0a9-EJjC"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-12-finance-daily",
-      "date": "2026-10-12",
-      "author": "瑞哥观势",
-      "tags": [
-        "財經簡報",
-        "巨集經濟",
-        "外匯",
-        "美股",
-        "黃金"
-      ],
-      "categories": [
-        "財經簡報"
-      ],
-      "title": "每日財經簡報 | 2026-10-12",
-      "description": "EUR/USD站上1.12，USD/JPY回落至158；美股AAPL跌1.11%而TSLA漲2.05%；黃金再創新高$4206/oz；美聯儲鷹派發聲降息預期降溫，中國內地今日公布LPR利率。",
-      "source": {
-        "original": {
-          "name": "瑞哥觀勢",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
     }

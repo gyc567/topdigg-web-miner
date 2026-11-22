@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-22-finance-daily",
+      "date": "2026-11-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "Financial Brief",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Financial Brief"
+      ],
+      "title": "Daily Financial Brief | 2026-11-22",
+      "description": "Markets are closed for the weekend, with prices at Friday Nov 20 closes: the onshore yuan rose 0.40% to 6.6942 and the offshore yuan to 6.6748; China's three main indices sold off hard on heavy volume with a 313-to-5236 advance-decline ratio; NVIDIA fell more than 43% in a week from $222 to $125.53; gold broke through four round-number levels while silver fell 9.32% in a day; Fed minutes hint the next hike could exceed 25bp; China's LPR has been frozen for 18 months; the EU has switched its EV case to a price-undertaking mechanism; and Iran and Oman have agreed on new Hormuz shipping coordinates.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-21-finance-daily",
       "date": "2026-11-21",
       "author": "瑞哥观势",
@@ -609,29 +629,6 @@
         "original": {
           "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWpj8p73otP1gSVVMppHYYZTCLFhPPNWVbHHT0a9-EJjC"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-12-finance-daily",
-      "date": "2026-10-12",
-      "author": "瑞哥观势",
-      "tags": [
-        "Finance Brief",
-        "Macroeconomics",
-        "Forex",
-        "US Stocks",
-        "Gold"
-      ],
-      "categories": [
-        "Finance Brief"
-      ],
-      "title": "Daily Finance Brief | 2026-10-12",
-      "description": "EUR/USD holds above 1.12; USD/JPY retreats to 158; AAPL down 1.11% while TSLA surges 2.05%; Gold hits new high at $4,206/oz; Fed officials signal hawkish tilt, cooling rate-cut expectations; China to release LPR today.",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
     }
