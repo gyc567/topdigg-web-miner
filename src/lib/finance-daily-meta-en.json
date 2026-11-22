@@ -1,6 +1,86 @@
 {
   "reports": [
     {
+      "slug": "2026-11-21-finance-daily",
+      "date": "2026-11-21",
+      "author": "瑞哥观势",
+      "tags": [
+        "Financial Brief",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Financial Brief"
+      ],
+      "title": "Daily Financial Brief | 2026-11-21",
+      "description": "The SEC opened an accounting probe into NVIDIA, sending NVDA down 14.01% to $125.53 and wiping out roughly $400B in market value as the Nasdaq fell 5.28%. Spot gold dropped 5.38% to $3,539/oz, losing nearly 9% in a week. The probability of a 25bp December Fed hike has climbed to 92.7%, while China's LPR has been frozen for 18 straight months as the PBOC moves toward DR001-linked floating-rate lending.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-20-finance-daily",
+      "date": "2026-11-20",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "Daily Finance Briefing | 2026-11-20",
+      "description": "Precious metals fell harder and an AI leader fell despite record results: spot gold dropped 3.48 percent to 3,609.92 dollars, silver fell 5.98 percent to 42.76 dollars, and NVDA closed at 145.98 dollars with an RSI of just 19.64 even as revenue grew 93 percent year on year. The trigger was the October Fed minutes published on November 18, which showed almost all participants judging a further hike likely appropriate, with Waller calling for a 50 basis point move and JPMorgan expecting three consecutive hikes. US stocks fell even on the record 2 trillion dollar Anthropic IPO debut, and the trilateral peace declaration left Ukraine and Iran unmentioned.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-19-finance-daily",
+      "date": "2026-11-19",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "Daily Finance Briefing | 2026-11-19",
+      "description": "Precious metals simply collapsed on rate hike expectations: spot gold fell 2.73 percent to $3,743.88 and silver dropped 3.94 percent to $45.61, while NVDA slipped below $151 with an RSI of just 20.8. The trigger was the October Fed minutes released on November 18, which showed almost all participants judging a further hike likely appropriate, pushing CME FedWatch odds of a 25 basis point hike on December 9 to roughly 95 percent.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-18-finance-daily",
+      "date": "2026-11-18",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Briefing",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Finance Briefing"
+      ],
+      "title": "Daily Finance Briefing | 2026-11-18",
+      "description": "Foreign exchange went nowhere: EUR/USD at 1.0989, USD/JPY at 159.50, offshore yuan at 6.6689, with everyone waiting for the Fed's final 2026 meeting on December 8-9. NVDA fell to $155.46 with an RSI of 22 on just 19.41 times earnings against 83 percent revenue growth; China's Shanghai Composite lost 0.50 percent and ChiNext 1.20 percent; gold slipped 0.98 percent and silver 0.31 percent; the China-US trade council held its first meeting on November 13.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-17-finance-daily",
       "date": "2026-11-17",
       "author": "瑞哥观势",
@@ -548,92 +628,6 @@
       ],
       "title": "Daily Finance Brief | 2026-10-12",
       "description": "EUR/USD holds above 1.12; USD/JPY retreats to 158; AAPL down 1.11% while TSLA surges 2.05%; Gold hits new high at $4,206/oz; Fed officials signal hawkish tilt, cooling rate-cut expectations; China to release LPR today.",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-11-finance-daily",
-      "date": "2026-10-11",
-      "author": "瑞哥观势",
-      "tags": [
-        "finance briefing",
-        "macro",
-        "forex",
-        "us equities",
-        "central banks"
-      ],
-      "categories": [
-        "finance briefing"
-      ],
-      "title": "Daily Finance Briefing | 2026-10-11",
-      "description": "Markets closed for the weekend — referencing prior session (Oct 9). Gold holds $4,150 near record highs; TSLA leads US equities while NVDA/AAPL pull back. The Fed cut 25bp on Oct 29 to 3.75–4.00%, Powell signals no rush to ease further. Trump–Xi Washington summit delivers a $30B tariff-cut framework, lifting Asian equities.",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-10-finance-daily",
-      "date": "2026-10-10",
-      "author": "瑞哥观势",
-      "tags": [
-        "Finance Brief",
-        "Macroeconomy"
-      ],
-      "categories": [
-        "Finance Brief"
-      ],
-      "title": "Daily Finance Brief | October 10, 2026",
-      "description": "Gold surges to $4,194/oz on Middle East tensions; Fed holds steady after September hike as consumer confidence hits multi-year low; Apple cuts iPhone 18 orders, tech stocks diverge.",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-08-finance-daily",
-      "date": "2026-10-08",
-      "author": "瑞哥观势",
-      "tags": [
-        "Finance Brief",
-        "Macro"
-      ],
-      "categories": [
-        "Finance Brief"
-      ],
-      "title": "Daily Finance Brief | 2026-10-08",
-      "description": "USD index steady; gold and silver pull back from highs. US equities mixed — AAPL leads, NVDA/TSLA ease. Central banks are in a wait-and-see mode; the EU-China EV tariff standoff and Middle East geopolitical risk remain the key swing factors.",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-06-finance-daily",
-      "date": "2026-10-06",
-      "author": "瑞哥观势",
-      "tags": [
-        "Daily Briefing",
-        "Macro",
-        "Forex",
-        "US Equities",
-        "Gold"
-      ],
-      "categories": [
-        "Daily Finance Briefing"
-      ],
-      "title": "Daily Finance Briefing | 2026-10-06",
-      "description": "A-shares closed for China's National Day holiday (Oct 1-7), while FX and gold ran steady: EUR/USD 1.1216 (-0.34%), USD/JPY 157.88 (+0.08%), Gold $4142.52/oz (+0.19%), Silver $61.07/oz (+0.65%). Yahoo Finance and search sources were rate-limited, so some US stock quotes and central bank headlines are presented as pre-holiday references plus expected-path notes.",
       "source": {
         "original": {
           "name": "瑞哥观势",

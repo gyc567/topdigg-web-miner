@@ -1,6 +1,121 @@
 {
   "reports": [
     {
+      "slug": "2026-11-22-ai-daily",
+      "date": "2026-11-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Nhà toán học của Anthropic nói Claude đã hoàn thành chứng minh giả thuyết Riemann; Stanford vài giờ sau công bố bản nhápp cạnh tranh hoàn toàn do con người viết",
+      "description": "Nhà toán học Levent Alpöge của Anthropic thông báo đã cùng Claude hoàn thành chứng minh giả thuyết Riemann và giả thuyết Riemann tổng quát, được phát hành dưới dạng 14 gói dữ liệu Lean, in ra hơn 250.000 trang. Together AI công bố sự cố rò rỉ prompt trên dịch vụ suy luận serverless trong giai đoạn tháng 6 và tháng 7 năm 2026.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-21-ai-daily",
+      "date": "2026-11-21",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Thinking Machines Lab ra mắt Inkling 2 Mini, mô hình mở trọng số chạy được trên laptop",
+      "description": "Thinking Machines Lab công bố Inkling 2 Mini, mô hình mở trọng số dùng kiến trúc Transformer tuần hoàn, tổng 26,4B tham số, kích hoạt 3,4B, chạy cục bộ trên Mac có hơn 32GB bộ nhớ. Tencent Hunyuan đồng thời mở trọng số Hy4, mô hình MoE đa phương thức gốc 770B tham số với ngữ cảnh 1M.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-20-ai-daily",
+      "date": "2026-11-20",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Anthropic niêm yết trên Nasdaq, mở cửa 111 USD, cao hơn 33% giá chào bán",
+      "description": "Anthropic hoàn tất IPO trên Nasdaq, mở cửa tại 111,50 USD, cao hơn 33% so với giá chào bán 83 USD, thu vốn hơn 81 tỷ USD, tiền mặt dự kiến đạt 220 tỷ USD và vốn hóa vượt 2 nghìn tỷ USD. Song song, các công ty công nghệ Trung Quốc chịu đòn kép từ việc chip bị chặn và đường dẫn cloud nước ngoài bị đóng.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-19-ai-daily",
+      "date": "2026-11-19",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Google DeepMind phát hành Gemini 4 Neon",
+      "description": "Google DeepMind phát hành Gemini 4 Neon, đạt 61 điểm trên Artificial Analysis Intelligence Index (hạng 3) và 1336 điểm trên Agent Arena Index (hạng 2 thế giới). Cùng ngày, Latent Space tổng hợp GPT-6.2 Astra và Sol của OpenAI, cho biết Astra mới đứng thứ hai với 62 điểm, chỉ sau Fable 5.2 với 65 điểm.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-18-ai-daily",
+      "date": "2026-11-18",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "OpenAI phát hành GPT-6.2 Astra và GPT-6.2 Sol",
+      "description": "OpenAI phát hành GPT-6.2 Astra cho công việc chuyên môn phức tạp và GPT-6.2 Sol cho công việc hằng ngày, cả hai đều cho kết quả tốt hơn với số token đầu ra ít hơn. Microsoft MAI cũng tung bảy mô hình mới tại Ignite 2026, với MAI Code 2 đạt 98% hiệu năng của GPT-6.1 Sol ở khoảng 40% chi phí.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-17-ai-daily",
       "date": "2026-11-17",
       "author": "瑞哥观势",
@@ -566,121 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "AI phát hiện lỗ hổng PHP ẩn giấu hơn 10 năm, toàn cảnh sự kiện PHP2Shell",
       "description": "Hai lỗ hổng thực thi mã từ xa trong PHP với điểm CVSS 9.2 bị rò rỉ trước khi bản vá được phát hành, OpenAI nhận công việc phát hiện được hỗ trợ bởi GPT-5.6 Sol; cùng ngày OpenAI phát hành Decisions API, Anthropic trao tặng tiêu chuẩn Agent Skills cho Linux Foundation, DeepSeek gọi vốn mới khoảng 15 tỷ USD.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-22-ai-daily",
-      "date": "2026-10-22",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "OpenAI Công Bố Kế Hoạch Patch the Planet, Dùng GPT-5.6 Sol Phát Hiện Lỗ Hổng PHP Nghiêm Trọng Và Điều Phối Sửa Chữa Toàn Cầu",
-      "description": "OpenAI thông báo rằng trong hai tháng qua họ đã dẫn dắt liên minh gồm các nhà bảo trì, nhà nghiên cứu và hãng bảo mật để vá lỗi PHP nghiêm trọng, trong đó Calif dùng GPT-5.6 Sol phát hiện một khiếm khuyết nghiêm trọng, còn Wiz độc lập phát hiện và báo cáo cả hai lỗi, với các nhà bảo trì PHP dẫn dắt việc khắc phục và phát hành.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-21-ai-daily",
-      "date": "2026-10-21",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "DeepSeek Mã Nguồn Mở Hoàn Toàn Framework DeepInfer - DeepInfer",
-      "description": "DeepSeek thông báo mã nguồn mở hoàn toàn framework suy luận nội bộ DeepInfer, cùng với thành phần mã hóa/giải mã Token cấp sản xuất deepseek-recipe. Đồng thời, Inception Labs phát hành mô hình ngôn ngữ lớn khuyếch tán Mercury 3 với tốc độ 1068 tokens/giây.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-20-ai-daily",
-      "date": "2026-10-20",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Bộ An Ninh Nội Địa Hoa Kỳ ra lệnh tất cả các cơ quan dân sự liên bang gỡ bỏ DeepSeek",
-      "description": "Bộ An Ninh Nội Địa Hoa Kỳ ban hành lệnh 2026-01 theo Đạo luật Chuỗi Cung Ứng 2018, yêu cầu tất cả các cơ quan dân sự liên bang ngay lập tức ngừng mua sản phẩm của DeepSeek và các công ty liên kết, đồng thời gỡ bỏ các sản phẩm liên quan khỏi hệ thống CNTT, bao gồm cả sản phẩm và dịch vụ của bên thứ ba được phát triển bằng DeepSeek.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-18-ai-daily",
-      "date": "2026-10-18",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI-Daily"
-      ],
-      "categories": [
-        "AI-Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "DeepSeek-V4.1-Flash-1017 Phát hành, Nâng cao Điểm Chuẩn Đa nền tảng, Giá API Không Đổi",
-      "description": "DeepSeek nâng cấp V4.1 Flash lên DeepSeek-V4.1-Flash-1017, phiên bản web và APP đồng bộ cập nhật, phương thức và giá API gọi không đổi, vẫn truy cập qua deepseek-flash.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-16-ai-daily",
-      "date": "2026-10-16",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Meta Phát Hành Mô Hình Open-Weight Muse Spark Open: 816B Tham Số, 1M Context",
-      "description": "Meta phát hành mô hình open-weight Muse Spark Open với 816B tổng tham số, 42B active, 1M token context, hướng đến workflow coding và agent, hỗ trợ đa phương thức native và tăng cường safety post-training.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

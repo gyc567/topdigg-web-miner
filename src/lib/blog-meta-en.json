@@ -1,6 +1,55 @@
 {
   "posts": [
     {
+      "slug": "2026-11-22-pr-agent-analysis",
+      "date": "2026-11-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "open-source-project-analysis",
+        "ai-coding",
+        "code-review",
+        "engineering",
+        "ai-governance"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "16500 Stars, One Iron Rule: The More AI Writes Your Code, the More You Should Worry About Who Signs Off",
+      "description": "PR-Agent turned AI code review into a regression-testable, auditable, deny-by-default system. The real value: models can veto, never approve."
+    },
+    {
+      "slug": "2026-11-19-shuohao-skills-analysis",
+      "date": "2026-11-19",
+      "author": "瑞哥观势",
+      "tags": [
+        "Open Source Project Analysis",
+        "AI Video",
+        "Agent Skill",
+        "Automated Acceptance"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "shuohao-skills with 6800 Stars: The Real Barrier to AI Short Dramas Is Not Generation, but Who Dares to Write Quality Gates as Code",
+      "description": "shuohao-skills, an open-source project with 6800 stars, turns a novel into an AI short-drama production pack that can be ordered directly: 7 skills, 60 quality gates, and more than 1600 self-test assertions. Its real value lies in driving the checklist out of the prompt and into deterministic code."
+    },
+    {
+      "slug": "2026-11-18-article2media-skill-analysis",
+      "date": "2026-11-18",
+      "author": "瑞哥观势",
+      "tags": [
+        "open source project analysis",
+        "AI content production",
+        "Claude Code Skill",
+        "automated acceptance"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "article2media With 435 Stars: What It Is Actually Worth Is Not That AI Can Write, But That It Turns 'Something Feels Off' Into Metrics a Script Can Block",
+      "description": "article2media is an open source project with 435 stars and 65 forks that turns one article or one video into Xiaohongshu image posts, magazine long images, WeChat layouts and AI voiceover videos. Its real value is not the 10 capabilities but the acceptance discipline turning vague feedback like 'too rushed' into machine-checkable numbers."
+    },
+    {
       "slug": "2026-11-13-b2a-economy",
       "date": "2026-11-13",
       "author": "瑞哥观势",

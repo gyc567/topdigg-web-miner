@@ -1,6 +1,86 @@
 {
   "reports": [
     {
+      "slug": "2026-11-21-finance-daily",
+      "date": "2026-11-21",
+      "author": "瑞哥观势",
+      "tags": [
+        "Bản tin tài chính",
+        "Kinh tế vĩ mô"
+      ],
+      "categories": [
+        "Bản tin tài chính"
+      ],
+      "title": "Bản tin tài chính hàng ngày | 2026-11-21",
+      "description": "SEC mở cuộc điều tra kế toán của NVIDIA, khiến NVDA giảm 14,01% còn 125,53 USD và bay mất khoảng 400 tỷ USD vốn hóa trong một phiên, Nasdaq mất 5,28%. Vàng giao ngay rớt 5,38% về 3.539 USD/oz, mất gần 9% trong một tuần. Xác suất Fed tăng lãi suất 25 điểm cơ bản vào tháng 12 đã lên 92,7%, còn LPR của Trung Quốc đi ngang 18 tháng liên tiếp khi PBOC thúc đẩy cho vay lãi suất thả nổi gắn với DR001.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-20-finance-daily",
+      "date": "2026-11-20",
+      "author": "瑞哥观势",
+      "tags": [
+        "Bản tin tài chính",
+        "Kinh tế vĩ mô"
+      ],
+      "categories": [
+        "Bản tin tài chính"
+      ],
+      "title": "Bản tin tài chính hàng ngày | 2026-11-20",
+      "description": "Kim loại quý tiếp tục lao xuống và trùng dẫn AI tăng trưởng nhưng cổ phiếu vẫn giảm: vàng giao ngay giảm 3,73% về 3.609,92 USD, bạc giảm 5,98% về 42,76 USD, NVDA đóng cửa ở 145,98 USD với chỉ số sức mạnh tương đối chỉ còn 19,64 trong khi doanh thu tăng 93% so với cùng kỳ. Nguyên nhân là biên bản cuộc họp tháng 10 của Fed công bố ngày 18/11 cho thấy gần như mọi thành viên đều cho rằng tăng lãi suất thêm là phù hợp, Waller đề xuất nâng 50 điểm cơ bản và JP Morgan dự báo ba cuộc họp tăng liên tiếp. Cổ phiếu Mỹ vẫn giảm trong ngày Anthropic chào sàn với quy mô kỷ lục 2 nghìn tỷ USD, còn tuyên bố chung hòa bình ba nước không nhắc tới Ukraine và Iran.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-19-finance-daily",
+      "date": "2026-11-19",
+      "author": "瑞哥观势",
+      "tags": [
+        "Bản tin tài chính",
+        "Kinh tế vĩ mô"
+      ],
+      "categories": [
+        "Bản tin tài chính"
+      ],
+      "title": "Bản tin tài chính hàng ngày | 2026-11-19",
+      "description": "Kim loại quý sụp đổ trước kỳ vọng tăng lãi suất: vàng giao ngay giảm 2,73% về 3.743,88 USD, bạc giảm 3,94% về 45,61 USD, NVDA rơi xuống dưới 151 USD với RSI chỉ 20,8. Nguyên nhân là biên bản cuộc họp tháng 10 của Fed công bố ngày 18/11 cho thấy gần như mọi thành viên đều cho rằng tăng lãi suất thêm là phù hợp, đẩy xác suất tăng 25 điểm cơ bản tại cuộc họp ngày 9/12 theo CME FedWatch lên khoảng 95%.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-18-finance-daily",
+      "date": "2026-11-18",
+      "author": "瑞哥观势",
+      "tags": [
+        "Bản tin tài chính",
+        "Kinh tế vĩ mô"
+      ],
+      "categories": [
+        "Bản tin tài chính"
+      ],
+      "title": "Bản tin tài chính hàng ngày | 2026-11-18",
+      "description": "Ngoại hối đi ngang toàn diện: EUR/USD 1,0989, USD/JPY 159,50, nhân dân tị ngoại 6,6689, thị trường đang chờ cuộc họp cuối năm của Fed vào ngày 8-9 tháng 12. NVDA giảm về 155,46 USD với RSI chỉ 22, PER 19,41 lần trong khi doanh thu tăng 83%; chứng khoán Trung Quốc giảm với Thượng Hải 0,50% và ChiNext 1,20%; vàng giảm 0,98%, bạc giảm 0,31%; hội đồng thương mại Trung Quốc Mỹ họp phiên đầu tiên ngày 13 tháng 11.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-17-finance-daily",
       "date": "2026-11-17",
       "author": "瑞哥观势",
@@ -548,92 +628,6 @@
       ],
       "title": "Bản Tin Tài Chính Hàng Ngày | 2026-10-12",
       "description": "EUR/USD giữ trên 1.12; USD/JPY giảm về 158; AAPL -1.11% trong khi TSLA +2.05%; Vàng lập đỉnh mới $4,206/oz; Fed phát tín hiệu diều hâu, kỳ vọng cắt lãi suất giảm nhiệt; Trung Quốc công bố LPR hôm nay.",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-11-finance-daily",
-      "date": "2026-10-11",
-      "author": "瑞哥观势",
-      "tags": [
-        "tin tài chính",
-        "kinh tế vĩ mô",
-        "ngoại hối",
-        "chứng khoán Mỹ",
-        "chính sách ngân hàng trung ương"
-      ],
-      "categories": [
-        "tin tài chính"
-      ],
-      "title": "Tin Tài Chính Hàng Ngày | 2026-10-11",
-      "description": "Thị trường nghỉ cuối tuần — tham khảo phiên trước (9/10). Vàng giữ $4.150, gần đỉnh lịch sử; TSLA dẫn đầu chứng khoán Mỹ, NVDA/AAPL điều chỉnh. Fed cắt 25bp vào 29/10 xuống 3,75–4,00%, Powell cho biết không vội nới lỏng thêm. Hội nghị Trump–Xi tại Washington đạt khung giảm thuế $30 tỷ, cổ phiếu châu Á tăng mạnh.",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-10-finance-daily",
-      "date": "2026-10-10",
-      "author": "瑞哥观势",
-      "tags": [
-        "Bản tin tài chính",
-        "Kinh tế vĩ mô"
-      ],
-      "categories": [
-        "Bản tin tài chính"
-      ],
-      "title": "Bản Tin Tài Chính Hàng Ngày | 10/10/2026",
-      "description": "Vàng vượt 4194 USD/oz khi rủi ro địa chính trị Trung Đông leo thang; Fed giữ quan điểm chờ đợi sau đợt tăng lãi suất tháng 9; Apple cắt giảm đơn hàng iPhone 18, cổ phiếu công nghệ phân hóa.",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-08-finance-daily",
-      "date": "2026-10-08",
-      "author": "瑞哥观势",
-      "tags": [
-        "Bản tin tài chính",
-        "Kinh tế vĩ mô"
-      ],
-      "categories": [
-        "Bản tin tài chính"
-      ],
-      "title": "Bản tin tài chính hằng ngày | 2026-10-08",
-      "description": "Chỉ số USD giữ nguyên, vàng bạc điều chỉnh từ vùng cao; chứng khoán Mỹ phân hóa, AAPL dẫn đầu tăng giá, NVDA/TSLA giảm nhẹ; chính sách ngân hàng trung ương bước vào giai đoạn quan sát lặng lẽ, đấu tranh thuế xe điện Trung-EU và rủi ro địa chính trị Trung Đông vẫn là các biến số chính.",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-06-finance-daily",
-      "date": "2026-10-06",
-      "author": "瑞哥观势",
-      "tags": [
-        "Tóm tắt Tài chính",
-        "Kinh tế Vĩ mô",
-        "Thị trường Ngoại hối",
-        "Cổ phiếu Mỹ",
-        "Vàng"
-      ],
-      "categories": [
-        "Tóm tắt Tài chính Hằng ngày"
-      ],
-      "title": "Tóm tắt Tài chính Hằng ngày | 2026-10-06",
-      "description": "Hôm nay thị trường A-share nghỉ lễ Quốc khánh Trung Quốc (1-7/10), ngoại hối và vàng ổn định: EUR/USD 1,1216 (-0,34%), USD/JPY 157,88 (+0,08%), vàng $4142,52/oz (+0,19%), bạc $61,07/oz (+0,65%). Yahoo Finance và công cụ tìm kiếm bị giới hạn tốc độ, một số báo giá cổ phiếu Mỹ và thông báo ngân hàng trung ương được trình bày dưới dạng tham khảo trước kỳ nghỉ + đường dự kiến.",
       "source": {
         "original": {
           "name": "瑞哥观势",

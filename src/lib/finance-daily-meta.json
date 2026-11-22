@@ -1,6 +1,286 @@
 {
   "reports": [
     {
+      "slug": "2026-11-21-finance-daily",
+      "title": {
+        "en": "Daily Financial Brief | 2026-11-21",
+        "ja": "デイリー金融ブリーフ | 2026-11-21",
+        "vi": "Bản tin tài chính hàng ngày | 2026-11-21",
+        "zh-Hans": "每日财经简报 | 2026-11-21",
+        "zh-Hant": "每日財經簡報 | 2026-11-21"
+      },
+      "description": {
+        "en": "The SEC opened an accounting probe into NVIDIA, sending NVDA down 14.01% to $125.53 and wiping out roughly $400B in market value as the Nasdaq fell 5.28%. Spot gold dropped 5.38% to $3,539/oz, losing nearly 9% in a week. The probability of a 25bp December Fed hike has climbed to 92.7%, while China's LPR has been frozen for 18 straight months as the PBOC moves toward DR001-linked floating-rate lending.",
+        "ja": "SECがNVIDIAの会計処理を調査し、NVDAは14.01%安の125.53ドルまで急落、時価総額は約4000億ドル減少、ナスダックは5.28%下跌。現物ゴールドは5.38%安の3539ドル/オンスで、週間では約9%安。12月の25bp利上げ確率は92.7%へ上昇し、中国のLPRは18か月連続で据え置き、PBOCはDR001連動の変動金利融資を進めている。",
+        "vi": "SEC mở cuộc điều tra kế toán của NVIDIA, khiến NVDA giảm 14,01% còn 125,53 USD và bay mất khoảng 400 tỷ USD vốn hóa trong một phiên, Nasdaq mất 5,28%. Vàng giao ngay rớt 5,38% về 3.539 USD/oz, mất gần 9% trong một tuần. Xác suất Fed tăng lãi suất 25 điểm cơ bản vào tháng 12 đã lên 92,7%, còn LPR của Trung Quốc đi ngang 18 tháng liên tiếp khi PBOC thúc đẩy cho vay lãi suất thả nổi gắn với DR001.",
+        "zh-Hans": "SEC 调查英伟达会计作业，NVDA 单日暴跌 14.01% 至 125.53 美元，市值蒸发约 4000 亿美元，纳指重挫 5.28%；现货黄金跌 5.38% 至 3539 美元，一周累计跌近 9%。12 月加息 25 基点概率升至 92.7%，中国 LPR 连续 18 个月不变、央行推进挂钩 DR001 的浮动利率贷款。",
+        "zh-Hant": "SEC 調查英偉達會計作業，NVDA 單日暴跌 14.01% 至 125.53 美元，市值蒸發約 4000 億美元，納指重挫 5.28%；現貨黃金跌 5.38% 至 3539 美元，一週累計跌近 9%。12 月升息 25 基點機率升至 92.7%，中國 LPR 連續 18 個月不變、央行推進掛鉤 DR001 的浮動利率貸款。"
+      },
+      "date": "2026-11-21",
+      "author": "瑞哥观势",
+      "tags": {
+        "en": [
+          "Financial Brief",
+          "Macroeconomics"
+        ],
+        "ja": [
+          "金融ブリーフ",
+          "マクロエコノミクス"
+        ],
+        "vi": [
+          "Bản tin tài chính",
+          "Kinh tế vĩ mô"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "宏觀經濟"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Financial Brief"
+        ],
+        "ja": [
+          "金融ブリーフ"
+        ],
+        "vi": [
+          "Bản tin tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-20-finance-daily",
+      "title": {
+        "en": "Daily Finance Briefing | 2026-11-20",
+        "ja": "デイリー ファイナンス ブリーフィング | 2026-11-20",
+        "vi": "Bản tin tài chính hàng ngày | 2026-11-20",
+        "zh-Hans": "每日财经简报 | 2026-11-20",
+        "zh-Hant": "每日財經簡報 | 2026-11-20"
+      },
+      "description": {
+        "en": "Precious metals fell harder and an AI leader fell despite record results: spot gold dropped 3.48 percent to 3,609.92 dollars, silver fell 5.98 percent to 42.76 dollars, and NVDA closed at 145.98 dollars with an RSI of just 19.64 even as revenue grew 93 percent year on year. The trigger was the October Fed minutes published on November 18, which showed almost all participants judging a further hike likely appropriate, with Waller calling for a 50 basis point move and JPMorgan expecting three consecutive hikes. US stocks fell even on the record 2 trillion dollar Anthropic IPO debut, and the trilateral peace declaration left Ukraine and Iran unmentioned.",
+        "ja": "貴金属の下落がさらに深くなり、AI大手が好業績を出しながら株価を下落させた。スポット金は3.48%安の3,609.92ドル、スポット銀は5.98%安の42.76ドル、NVDAは145.98ドルで終え、RSIはわずか19.64であった。原因は11月18日に公表された10月の議事録で「ほぼすべての参加者が追加利上げが適切である可能性が高い」と判断されたことにある。Wallerは50bpの利上げを示唆し、JP Morganは3会合連続の利上げを予測した。Anthropicの過去最大規模の2兆ドル上場当日は米株が下落し、三国の平和共同宣言はウクライナとイランに言及しなかった。",
+        "vi": "Kim loại quý tiếp tục lao xuống và trùng dẫn AI tăng trưởng nhưng cổ phiếu vẫn giảm: vàng giao ngay giảm 3,73% về 3.609,92 USD, bạc giảm 5,98% về 42,76 USD, NVDA đóng cửa ở 145,98 USD với chỉ số sức mạnh tương đối chỉ còn 19,64 trong khi doanh thu tăng 93% so với cùng kỳ. Nguyên nhân là biên bản cuộc họp tháng 10 của Fed công bố ngày 18/11 cho thấy gần như mọi thành viên đều cho rằng tăng lãi suất thêm là phù hợp, Waller đề xuất nâng 50 điểm cơ bản và JP Morgan dự báo ba cuộc họp tăng liên tiếp. Cổ phiếu Mỹ vẫn giảm trong ngày Anthropic chào sàn với quy mô kỷ lục 2 nghìn tỷ USD, còn tuyên bố chung hòa bình ba nước không nhắc tới Ukraine và Iran.",
+        "zh-Hans": "贵金属崩得更深、AI 龙头出现业绩越好股价越跌：现货黄金跌3.48%至3609.92美元，现货白银跌5.98%至42.76美元，NVDA收145.98美元、RSI仅19.64但营收同比+93%。原因是11月18日美联储10月会议纪要显示几乎所有与会者认为进一步加息很可能合适，Waller提出50基点，摩根大通预计连续三次加息。Anthropic创纪录2万亿美元IPO当日美股仍大跌，三方和平联合声明未提乌克兰与伊朗。",
+        "zh-Hant": "貴金屬崩得更深、AI 龍頭出現業績越好股價越跌：現貨黃金跌3.48%至3609.92美元，現貨白銀跌5.98%至42.76美元，NVDA收145.98美元、RSI僅19.64但營收同比+93%。原因是11月18日美聯儲10月會議紀要顯示幾乎所有與會者認爲進一步加息很可能合適，Waller提出50基點，摩根大通預計連續三次加息。Anthropic創紀錄2萬億美元IPO當日美股仍大跌，三方和平聯合聲明未提烏克蘭與伊朗。"
+      },
+      "date": "2026-11-20",
+      "author": "瑞哥观势",
+      "tags": {
+        "en": [
+          "Finance Briefing",
+          "Macroeconomics"
+        ],
+        "ja": [
+          "ファイナンス ブリーフィング",
+          "マクロエコノミー"
+        ],
+        "vi": [
+          "Bản tin tài chính",
+          "Kinh tế vĩ mô"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "宏觀經濟"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Briefing"
+        ],
+        "ja": [
+          "ファイナンス ブリーフィング"
+        ],
+        "vi": [
+          "Bản tin tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-19-finance-daily",
+      "title": {
+        "en": "Daily Finance Briefing | 2026-11-19",
+        "ja": "デイリー ファイナンス ブリーフィング | 2026-11-19",
+        "vi": "Bản tin tài chính hàng ngày | 2026-11-19",
+        "zh-Hans": "每日财经简报 | 2026-11-19",
+        "zh-Hant": "每日財經簡報 | 2026-11-19"
+      },
+      "description": {
+        "en": "Precious metals simply collapsed on rate hike expectations: spot gold fell 2.73 percent to $3,743.88 and silver dropped 3.94 percent to $45.61, while NVDA slipped below $151 with an RSI of just 20.8. The trigger was the October Fed minutes released on November 18, which showed almost all participants judging a further hike likely appropriate, pushing CME FedWatch odds of a 25 basis point hike on December 9 to roughly 95 percent.",
+        "ja": "貴金属が利上げ観測の前に一気に崩落した。スポット金は2.73%安の3,743.88ドル、スポット銀は3.94%安の45.61ドル、NVDAは151ドルを割って終値150.96ドル、RSIはわずか20.8。原因は11月18日に公表された10月のFOMC議事録で「ほぼすべての参加者が追加利上げが適切である可能性が高い」と判断され、CME FedWatchが12月9日の25bp利上げ確率を約95%まで押し上げたことにある。",
+        "vi": "Kim loại quý sụp đổ trước kỳ vọng tăng lãi suất: vàng giao ngay giảm 2,73% về 3.743,88 USD, bạc giảm 3,94% về 45,61 USD, NVDA rơi xuống dưới 151 USD với RSI chỉ 20,8. Nguyên nhân là biên bản cuộc họp tháng 10 của Fed công bố ngày 18/11 cho thấy gần như mọi thành viên đều cho rằng tăng lãi suất thêm là phù hợp, đẩy xác suất tăng 25 điểm cơ bản tại cuộc họp ngày 9/12 theo CME FedWatch lên khoảng 95%.",
+        "zh-Hans": "贵金属在加息预期面前直接崩了：现货黄金跌2.73%至3743.88美元，现货白银跌3.94%至45.61美元，NVDA跌破151美元、RSI仅20.8。原因是11月18日美联储10月会议纪要显示几乎所有与会者认为进一步加息很可能合适，CME FedWatch显示12月9日加息25个基点概率跳升至约95%。",
+        "zh-Hant": "貴金屬在加息預期面前直接崩了：現貨黃金跌2.73%至3743.88美元，現貨白銀跌3.94%至45.61美元，NVDA跌破151美元、RSI僅20.8。原因是11月18日美聯儲10月會議紀要顯示幾乎所有與會者認爲進一步加息很可能合適，CME FedWatch顯示12月9日加息25個基點概率跳升至約95%。"
+      },
+      "date": "2026-11-19",
+      "author": "瑞哥观势",
+      "tags": {
+        "en": [
+          "Finance Briefing",
+          "Macroeconomics"
+        ],
+        "ja": [
+          "ファイナンス ブリーフィング",
+          "マクロエコノミー"
+        ],
+        "vi": [
+          "Bản tin tài chính",
+          "Kinh tế vĩ mô"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "宏觀經濟"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Briefing"
+        ],
+        "ja": [
+          "ファイナンス ブリーフィング"
+        ],
+        "vi": [
+          "Bản tin tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-18-finance-daily",
+      "title": {
+        "en": "Daily Finance Briefing | 2026-11-18",
+        "ja": "デイリー ファイナンス ブリーフィング | 2026-11-18",
+        "vi": "Bản tin tài chính hàng ngày | 2026-11-18",
+        "zh-Hans": "每日财经简报 | 2026-11-18",
+        "zh-Hant": "每日財經簡報 | 2026-11-18"
+      },
+      "description": {
+        "en": "Foreign exchange went nowhere: EUR/USD at 1.0989, USD/JPY at 159.50, offshore yuan at 6.6689, with everyone waiting for the Fed's final 2026 meeting on December 8-9. NVDA fell to $155.46 with an RSI of 22 on just 19.41 times earnings against 83 percent revenue growth; China's Shanghai Composite lost 0.50 percent and ChiNext 1.20 percent; gold slipped 0.98 percent and silver 0.31 percent; the China-US trade council held its first meeting on November 13.",
+        "ja": "為替はすべて横ばい。EUR/USDは1.0989、USD/JPYは159.50、オフショア人民元は6.6689で、全員が12月8日から9日の米連邦の年内最後の会合を待っている。NVDAは155.46ドルまで下落しRSIは22、PERは19.41倍にとどまる一方、売上成長は83%。中国市場では上海総合指数0.50%安、創業板1.20%安。金は0.98%安、銀は0.31%安。11月13日に米中貿易協議機構の貿易理事会が初会合を開いた。",
+        "vi": "Ngoại hối đi ngang toàn diện: EUR/USD 1,0989, USD/JPY 159,50, nhân dân tị ngoại 6,6689, thị trường đang chờ cuộc họp cuối năm của Fed vào ngày 8-9 tháng 12. NVDA giảm về 155,46 USD với RSI chỉ 22, PER 19,41 lần trong khi doanh thu tăng 83%; chứng khoán Trung Quốc giảm với Thượng Hải 0,50% và ChiNext 1,20%; vàng giảm 0,98%, bạc giảm 0,31%; hội đồng thương mại Trung Quốc Mỹ họp phiên đầu tiên ngày 13 tháng 11.",
+        "zh-Hans": "外汇全线横盘：EUR/USD 1.0989、USD/JPY 159.50、离岸人民币 6.6689，市场在等12月8-9日的美联储年内最后一次议息。NVDA跌到155.46美元、RSI仅22，19.41倍市盈率却对应83%的营收增长；A股上证跌0.50%、创业板跌1.20%；黄金跌0.98%、白银跌0.31%；中美经贸磋商机制项下贸易理事会11月13日首次开会。",
+        "zh-Hant": "外匯全線橫盤：EUR/USD 1.0989、USD/JPY 159.50、離岸人民幣 6.6689，市場在等12月8-9日的美聯準年內最後一次議息。NVDA跌到155.46美元、RSI僅22，19.41倍本益比卻對應83%的營收成長；A股上證跌0.50%、創業板跌1.20%；黃金跌0.98%、白銀跌0.31%；中美經貿磋商機制項下貿易理事會11月13日首次開會。"
+      },
+      "date": "2026-11-18",
+      "author": "瑞哥观势",
+      "tags": {
+        "en": [
+          "Finance Briefing",
+          "Macroeconomics"
+        ],
+        "ja": [
+          "ファイナンス ブリーフィング",
+          "マクロエコノミー"
+        ],
+        "vi": [
+          "Bản tin tài chính",
+          "Kinh tế vĩ mô"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "宏觀經濟"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Briefing"
+        ],
+        "ja": [
+          "ファイナンス ブリーフィング"
+        ],
+        "vi": [
+          "Bản tin tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-17-finance-daily",
       "title": {
         "en": "Daily Finance Briefing | 2026-11-17",

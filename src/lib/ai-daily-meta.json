@@ -1,6 +1,211 @@
 {
   "reports": [
     {
+      "slug": "2026-11-22-ai-daily",
+      "title": {
+        "en": "Anthropic Mathematician Says Claude Completed a Proof of the Riemann Hypothesis; Stanford Releases an All-Human Competing Draft Hours Later",
+        "ja": "Anthropicの数学者がClaudeとの合作的によるリーマン予想の証明を発表、数時間後にスタンフォードが純人間の競合ドラフトを公開",
+        "vi": "Nhà toán học của Anthropic nói Claude đã hoàn thành chứng minh giả thuyết Riemann; Stanford vài giờ sau công bố bản nhápp cạnh tranh hoàn toàn do con người viết",
+        "zh-Hans": "Anthropic 数学家称与 Claude 完成黎曼猜想证明，斯坦福数小时后发布纯人类竞争草稿",
+        "zh-Hant": "Anthropic 數學家稱與 Claude 完成黎曼猜想證明，斯坦福數小時後發布純人類競爭草稿"
+      },
+      "description": {
+        "en": "Anthropic mathematician Levent Alpöge announced a proof of the Riemann Hypothesis and the generalized Riemann Hypothesis made with Claude, released as 14 Lean data packages that would print to over 250,000 pages. Together AI disclosed a prompt leakage incident across its serverless inference services in June and July 2026.",
+        "ja": "Anthropicの数学者Levent AlpögeはClaudeと共同でリーマン予想および広義リーマン予想の証明を完成したと発表した。証明は14個のLean形式化データパッケージとして公開され、印刷すると25万ページ超になる。Together AIは2026年6月から7月にかけてのサーバーレス推論サービスのプロンプト漏洩事件を報告した。",
+        "vi": "Nhà toán học Levent Alpöge của Anthropic thông báo đã cùng Claude hoàn thành chứng minh giả thuyết Riemann và giả thuyết Riemann tổng quát, được phát hành dưới dạng 14 gói dữ liệu Lean, in ra hơn 250.000 trang. Together AI công bố sự cố rò rỉ prompt trên dịch vụ suy luận serverless trong giai đoạn tháng 6 và tháng 7 năm 2026.",
+        "zh-Hans": "Anthropic 数学家 Levent Alpöge 宣布与 Claude 合作完成黎曼猜想及广义黎曼猜想的证明，证明以 Lean 语言分 14 个数据包发布，打印将超 25 万页。Together AI 通报 2026 年 6-7 月 serverless 推理服务提示词泄露事件。",
+        "zh-Hant": "Anthropic 數學家 Levent Alpöge 宣布與 Claude 合作完成黎曼猜想及廣義黎曼猜想的證明，證明以 Lean 語言分 14 個資料包發布，列印將超過 25 萬頁。Together AI 通報 2026 年 6-7 月 serverless 推理服務提示詞洩露事件。"
+      },
+      "date": "2026-11-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
+      "slug": "2026-11-21-ai-daily",
+      "title": {
+        "en": "Thinking Machines Lab Releases Inkling 2 Mini, an Open-Weight Model That Runs on a Laptop",
+        "ja": "Thinking Machines Lab、ノートPCで動くオープンウェイトモデル Inkling 2 Mini を発表",
+        "vi": "Thinking Machines Lab ra mắt Inkling 2 Mini, mô hình mở trọng số chạy được trên laptop",
+        "zh-Hans": "Thinking Machines Lab 发布可跑在笔记本上的开源权重模型 Inkling 2 Mini",
+        "zh-Hant": "Thinking Machines Lab 發布可跑在筆電上的開源權重模型 Inkling 2 Mini"
+      },
+      "description": {
+        "en": "Thinking Machines Lab released Inkling 2 Mini, an open-weight model with a recurrent Transformer architecture, 26.4B total parameters, 3.4B active, runnable locally on a Mac with 32GB of memory. Tencent Hunyuan opened the weights for Hy4, a 770B-parameter native multimodal MoE with 1M context.",
+        "ja": "Thinking Machines Labは再帰型Transformerアーキテクチャ採用のオープンウェイトモデルInkling 2 Miniを発表。総パラメータ26.4B、活性3.4Bで、32GB以上のメモリを積んだMacでローカル実行できる。Tencent Hunyuanは総パラメータ770B、1Mコンテキスト対応のネイティブマルチモーダルMoEとなるHy4のウェイトを公開した。",
+        "vi": "Thinking Machines Lab công bố Inkling 2 Mini, mô hình mở trọng số dùng kiến trúc Transformer tuần hoàn, tổng 26,4B tham số, kích hoạt 3,4B, chạy cục bộ trên Mac có hơn 32GB bộ nhớ. Tencent Hunyuan đồng thời mở trọng số Hy4, mô hình MoE đa phương thức gốc 770B tham số với ngữ cảnh 1M.",
+        "zh-Hans": "Thinking Machines Lab 发布开源权重模型 Inkling 2 Mini，循环 Transformer 架构，总参数 26.4B、激活 3.4B，可在 32GB 内存以上的 Mac 本地运行。腾讯混元同步开放 Hy4 权重，770B 总参数、支持 1M 上下文。",
+        "zh-Hant": "Thinking Machines Lab 發布開源權重模型 Inkling 2 Mini，循環 Transformer 架構，總參數 26.4B、啟用 3.4B，可在 32GB 記憶體以上的 Mac 本地執行。騰訊混元同步開放 Hy4 權重，770B 總參數、支援 1M 上下文。"
+      },
+      "date": "2026-11-21",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
+      "slug": "2026-11-20-ai-daily",
+      "title": {
+        "en": "Anthropic Lists on Nasdaq, Opening at $111, 33% Above the IPO Price",
+        "ja": "Anthropic、ナスダック上場。始値111ドル、発行価格から33%高",
+        "vi": "Anthropic niêm yết trên Nasdaq, mở cửa 111 USD, cao hơn 33% giá chào bán",
+        "zh-Hans": "Anthropic 登陆纳斯达克，开盘价 111 美元较发行价高出 33%",
+        "zh-Hant": "Anthropic 登陸納斯達克，開盤價 111 美元較發行價高出 33%"
+      },
+      "description": {
+        "en": "Anthropic completed its IPO on Nasdaq, opening at $111.50 within minutes, 33% above its $83 offering price and raising more than $81 billion, with cash reserves projected at $220 billion and a market cap above $2 trillion. Meanwhile Chinese tech firms took a double hit from chip shipment halts and the closure of overseas cloud access.",
+        "ja": "AnthropicがナスダックでIPOを完了。始値111.50ドルで発行価格83ドルを33%上回り、調達額は810億ドル超、現金保有額は2200億ドル、始値ベースの時価額は2兆ドル超。中国のテック企業にはチップ供給停止と海外クラウド遮断の二重打撃。",
+        "vi": "Anthropic hoàn tất IPO trên Nasdaq, mở cửa tại 111,50 USD, cao hơn 33% so với giá chào bán 83 USD, thu vốn hơn 81 tỷ USD, tiền mặt dự kiến đạt 220 tỷ USD và vốn hóa vượt 2 nghìn tỷ USD. Song song, các công ty công nghệ Trung Quốc chịu đòn kép từ việc chip bị chặn và đường dẫn cloud nước ngoài bị đóng.",
+        "zh-Hans": "Anthropic 在纳斯达克完成 IPO，开盘几分钟内股价达 111.50 美元，较 83 美元发行价高出 33%，募资超 810 亿美元，现金储备预计达 2200 亿美元，开盘市值超 2 万亿美元。同日中国科技公司遭遇芯片停运与海外云通道关闭的双重冲击。",
+        "zh-Hant": "Anthropic 在納斯達克完成 IPO，開盤幾分鐘內股價達 111.50 美元，較 83 美元發行價高出 33%，募資超 810 億美元，現金儲備預計達 2200 億美元，開盤市值超 2 兆美元。同日中國科技公司遭遇晶片停運與海外雲通道關閉的雙重衝擊。"
+      },
+      "date": "2026-11-20",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
+      "slug": "2026-11-19-ai-daily",
+      "title": {
+        "en": "Google DeepMind Ships Gemini 4 Neon",
+        "ja": "Google DeepMind が Gemini 4 Neon を発表",
+        "vi": "Google DeepMind phát hành Gemini 4 Neon",
+        "zh-Hans": "Google DeepMind 发布 Gemini 4 Neon",
+        "zh-Hant": "Google DeepMind 發布 Gemini 4 Neon"
+      },
+      "description": {
+        "en": "Google DeepMind released Gemini 4 Neon, scoring 61 on the Artificial Analysis Intelligence Index for third place and 1336 on the Agent Arena Index for second worldwide. The same day, Latent Space summarized OpenAI's GPT-6.2 Astra and Sol, noting the new Astra takes second place on the Intelligence Index with 62 points, just behind Fable 5.2 at 65.",
+        "ja": "Google DeepMind は Gemini 4 Neon を発表し、Artificial Analysis Intelligence Index で 61 点の 3 位、Agent Arena Index で 1336 点の世界 2 位となった。同じ日 Latent Space が OpenAI の GPT-6.2 Astra と Sol をまとめ、新しい Astra は Intelligence Index 62 点の 2 位で Fable 5.2 の 65 点に僅差するにとどまると報じた。",
+        "vi": "Google DeepMind phát hành Gemini 4 Neon, đạt 61 điểm trên Artificial Analysis Intelligence Index (hạng 3) và 1336 điểm trên Agent Arena Index (hạng 2 thế giới). Cùng ngày, Latent Space tổng hợp GPT-6.2 Astra và Sol của OpenAI, cho biết Astra mới đứng thứ hai với 62 điểm, chỉ sau Fable 5.2 với 65 điểm.",
+        "zh-Hans": "Google DeepMind 发布 Gemini 4 Neon，在 Artificial Analysis Intelligence Index 得 61 分排第 3，Agent Arena Index 以 1336 分全球第 2。同日 Latent Space 汇总 OpenAI 的 GPT-6.2 Astra 与 Sol，称新 Astra 以 62 分位居 Intelligence Index 第二，仅次于 Fable 5.2 的 65 分。",
+        "zh-Hant": "Google DeepMind 發布 Gemini 4 Neon，在 Artificial Analysis Intelligence Index 得分 61 排名第 3，Agent Arena Index 以 1336 分全球第 2。同日 Latent Space 匯總 OpenAI 的 GPT-6.2 Astra 與 Sol，稱新 Astra 以 62 分位居 Intelligence Index 第二，僅次於 Fable 5.2 的 65 分。"
+      },
+      "date": "2026-11-19",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
+      "slug": "2026-11-18-ai-daily",
+      "title": {
+        "en": "OpenAI Ships GPT-6.2 Astra and GPT-6.2 Sol",
+        "ja": "OpenAI が GPT-6.2 Astra と GPT-6.2 Sol を発表",
+        "vi": "OpenAI phát hành GPT-6.2 Astra và GPT-6.2 Sol",
+        "zh-Hans": "OpenAI 发布 GPT-6.2 Astra 与 GPT-6.2 Sol",
+        "zh-Hant": "OpenAI 發布 GPT-6.2 Astra 與 GPT-6.2 Sol"
+      },
+      "description": {
+        "en": "OpenAI released GPT-6.2 Astra for complex professional work and GPT-6.2 Sol for everyday work, both achieving better results with fewer output tokens. Microsoft MAI also shipped seven new models at Ignite 2026, with MAI Code 2 reaching 98% of GPT-6.1 Sol performance at roughly 40% of the cost.",
+        "ja": "OpenAI は複雑な専門業務向けの GPT-6.2 Astra と日常業務向けの GPT-6.2 Sol をリリースし、どちらも出力 token を減らしながらより良い結果を得た。Microsoft MAI も Ignite 2026 で新モデル 7 款を同時公開し、MAI Code 2 は約 40 パーセントのコストで GPT-6.1 Sol の 98 パーセントの性能を達成した。",
+        "vi": "OpenAI phát hành GPT-6.2 Astra cho công việc chuyên môn phức tạp và GPT-6.2 Sol cho công việc hằng ngày, cả hai đều cho kết quả tốt hơn với số token đầu ra ít hơn. Microsoft MAI cũng tung bảy mô hình mới tại Ignite 2026, với MAI Code 2 đạt 98% hiệu năng của GPT-6.1 Sol ở khoảng 40% chi phí.",
+        "zh-Hans": "OpenAI 发布面向复杂专业工作的 GPT-6.2 Astra 和面向日常工作的 GPT-6.2 Sol，两者在更少输出 token 下取得更好结果。同日 Microsoft MAI 在 Ignite 2026 放出七款新模型，MAI Code 2 以约 40% 的成本做到 GPT-6.1 Sol 98% 的性能。",
+        "zh-Hant": "OpenAI 發布面向複雜專業工作的 GPT-6.2 Astra 與面向日常工作的 GPT-6.2 Sol，兩者在更少輸出 token 下取得更好結果。同日 Microsoft MAI 在 Ignite 2026 發布七款新模型，MAI Code 2 以約 40% 的成本達到 GPT-6.1 Sol 98% 的效能。"
+      },
+      "date": "2026-11-18",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-11-17-ai-daily",
       "title": {
         "en": "Qwen Ships Qwen4-Max: 2.4T Backbone, Million-Token Context and Long-Horizon Agents",

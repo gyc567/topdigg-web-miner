@@ -1,6 +1,91 @@
 {
   "posts": [
     {
+      "slug": "2026-11-22-pr-agent-analysis",
+      "title": {
+        "en": "16500 Stars, One Iron Rule: The More AI Writes Your Code, the More You Should Worry About Who Signs Off",
+        "ja": "スター16500のPR-Agent：AIが速くコードを書くほど、経営者が心配すべきは「書けるか」ではなく「誰が受け入れるか」",
+        "vi": "PR-Agent 16.500 sao: AI viết code càng mạnh, thứ chủ tịnh nên lo không phải 'có viết được không', mà là 'ai là người duyệt'",
+        "zh-Hans": "16500 星的 PR-Agent：AI 写代码越猛，老板越该担心的不是「能不能写」，是「谁来验收」",
+        "zh-Hant": "16500 星的 PR-Agent：AI 寫代碼越猛，老闆越該擔心的不是「能不能寫」，是「誰來驗收」"
+      },
+      "description": {
+        "en": "PR-Agent turned AI code review into a regression-testable, auditable, deny-by-default system. The real value: models can veto, never approve.",
+        "ja": "スター16536のPR-AgentはAIコードレビューを再帰可能で監査可能、デフォルト拒否のエンジニアリングシステムに変えた。核心は一点、モデルは拒否のみ、承認はできない。",
+        "vi": "PR-Agent 16.536 sao biến việc AI review code thành hệ thống kỹ thuật có thể hồi quy, kiểm toán được, mặc định từ chối. Bảo lưu quý nhất: mô hình chỉ được phủ quyết, không được phê duyệt.",
+        "zh-Hans": "16536 星的 PR-Agent 把 AI 代码审查做成了可回归、可审计、默认拒绝的工程系统。真正值钱的是它定下了一条铁律：模型只能否决，不能批准。干净通过必须由模型看不到的确定性事实背书。",
+        "zh-Hant": "16536 星的 PR-Agent 把 AI 代碼審查做成了可迴歸、可審計、默認拒絕的工程系統。真正值錢的是它定下的一條鐵律：模型只能否決，不能批准，乾淨通過必須由模型看不到的確定性事實背書。"
+      },
+      "date": "2026-11-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "open-source-project-analysis",
+        "ai-coding",
+        "code-review",
+        "engineering",
+        "ai-governance"
+      ],
+      "categories": [
+        "AI应用"
+      ]
+    },
+    {
+      "slug": "2026-11-19-shuohao-skills-analysis",
+      "title": {
+        "en": "shuohao-skills with 6800 Stars: The Real Barrier to AI Short Dramas Is Not Generation, but Who Dares to Write Quality Gates as Code",
+        "ja": "スター6800のshuohao-skills：AIショートドラマの真の敷居は生成ではなく、誰が品質ゲートをコードとして書けるか",
+        "vi": "shuohao-skills với 6800 sao: ngưỡng thật của AI short drama không phải là khả năng tạo, mà là ai dám viết quality gate thành code",
+        "zh-Hans": "6800 星的 shuohao-skills：AI 短剧真正的门槛不是生成，是谁敢把质量门写成代码",
+        "zh-Hant": "6800 星的 shuohao-skills：AI 短劇真正的門檻不是生成，是誰敢把品質門寫成程式碼"
+      },
+      "description": {
+        "en": "shuohao-skills, an open-source project with 6800 stars, turns a novel into an AI short-drama production pack that can be ordered directly: 7 skills, 60 quality gates, and more than 1600 self-test assertions. Its real value lies in driving the checklist out of the prompt and into deterministic code.",
+        "ja": "スター6800のオープンソースプロジェクトshuohao-skillsは、小説1冊をそのまま動画モデルに発注できるAIショートドラマの量産パッケージに変えます。7つのスキル、60本の品質ゲート、1600を超えるセルフテストのアサーション。価値があるのは、チェックリストをプロンプトから追い出し、決定論的なコードとして書き切ったことです。",
+        "vi": "Dự án mã nguồn mở shuohao-skills với 6800 sao biến một cuốn tiểu thuyết thành gói sản xuất AI short drama đặt hàng được: 7 skill, 60 quality gate, hơn 1600 assertion tự kiểm tra. Giá trị thật nằm ở việc đuổi checklist ra khỏi prompt và viết nó thành code tất định.",
+        "zh-Hans": "6800 星的开源项目 shuohao-skills，把一本小说变成能直接下单的 AI 短剧投产包：7 个 skill、60 道质量门、1600 多项自测断言。真正值钱的是它把检查清单从提示词里赶出去，写成了确定性代码。",
+        "zh-Hant": "6800 星的開源專案 shuohao-skills，把一本小說變成能直接下單的 AI 短劇投產包：7 個 skill、60 道品質門、1600 多項自測斷言。真正值錢的是它把檢查清單從提示詞裡趕出去，寫成了確定性程式碼。"
+      },
+      "date": "2026-11-19",
+      "author": "瑞哥观势",
+      "tags": [
+        "Open Source Project Analysis",
+        "AI Video",
+        "Agent Skill",
+        "Automated Acceptance"
+      ],
+      "categories": [
+        "AI应用"
+      ]
+    },
+    {
+      "slug": "2026-11-18-article2media-skill-analysis",
+      "title": {
+        "en": "article2media With 435 Stars: What It Is Actually Worth Is Not That AI Can Write, But That It Turns 'Something Feels Off' Into Metrics a Script Can Block",
+        "ja": "スター435のarticle2media：価値があるのはAIが記事を書くことではなく、「何かが変だ」を機械が止められる指標に翻訳すること",
+        "vi": "article2media với 435 sao: thứ đáng giá không phải là AI viết bài, mà là biến cảm giác 'có gì đó sai' thành những chỉ số mà script có thể chặn",
+        "zh-Hans": "435星的article2media：真正值钱的是把感觉不对变成脚本能拦的指标",
+        "zh-Hant": "435 星的 article2media：真正值錢的不是 AI 會寫稿，是它把「感覺不對」翻譯成腳本能攔的指標"
+      },
+      "description": {
+        "en": "article2media is an open source project with 435 stars and 65 forks that turns one article or one video into Xiaohongshu image posts, magazine long images, WeChat layouts and AI voiceover videos. Its real value is not the 10 capabilities but the acceptance discipline turning vague feedback like 'too rushed' into machine-checkable numbers.",
+        "ja": "article2mediaはスター435、フォーク65のオープンソースプロジェクトで、記事や動画を一発でXiaohongshu画像投稿、マガジン調ロングイメージ、WeChat公式アカウントレイアウト、AIナレーション動画に変換する。価値は10個の機能ではなく、「急ぎすぎ」という曖昧なフィードバックを4.5字/秒という検証可能な指標に翻訳する検収規律にある。",
+        "vi": "article2media là dự án mã nguồn mở với 435 sao và 65 lượt fork, biến một bài viết hoặc một video thành ảnh bài đăng Xiaohongshu, ảnh dài kiểu tạp chí, bố cục WeChat và video lồng tiếng AI. Giá trị thật không nằm ở 10 năng lực mà ở kỷ luật nghiệm thu: biến phản hồi mơ hồ như 'quá gấp' thành 4.5 chữ/giây.",
+        "zh-Hans": "435星的开源项目，把一篇文章或一条视频变成小红书图文、杂志长图、公众号排版和AI配音视频。十个能力只是皮，验收纪律才是骨：4.5字每秒、零处闪断、版面零错误。",
+        "zh-Hant": "GitHub 上有個 435 星、65 個 fork 的開源專案 article2media，把文章或影片一鍵變成小紅書圖文、雜誌長圖、公眾號排版與 AI 配音口播影片。真正值錢的不是那 10 個能力，而是它的驗收紀律：把「太急了」翻譯成 4.5 字/秒這種機器能卡的指標。"
+      },
+      "date": "2026-11-18",
+      "author": "瑞哥观势",
+      "tags": [
+        "open source project analysis",
+        "AI content production",
+        "Claude Code Skill",
+        "automated acceptance"
+      ],
+      "categories": [
+        "AI应用"
+      ]
+    },
+    {
       "slug": "2026-11-13-b2a-economy",
       "title": {
         "zh-Hans": "验证码正在失效，你的客户正在变成 AI"

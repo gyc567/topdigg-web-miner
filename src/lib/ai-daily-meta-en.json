@@ -1,6 +1,121 @@
 {
   "reports": [
     {
+      "slug": "2026-11-22-ai-daily",
+      "date": "2026-11-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Anthropic Mathematician Says Claude Completed a Proof of the Riemann Hypothesis; Stanford Releases an All-Human Competing Draft Hours Later",
+      "description": "Anthropic mathematician Levent Alpöge announced a proof of the Riemann Hypothesis and the generalized Riemann Hypothesis made with Claude, released as 14 Lean data packages that would print to over 250,000 pages. Together AI disclosed a prompt leakage incident across its serverless inference services in June and July 2026.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-21-ai-daily",
+      "date": "2026-11-21",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Thinking Machines Lab Releases Inkling 2 Mini, an Open-Weight Model That Runs on a Laptop",
+      "description": "Thinking Machines Lab released Inkling 2 Mini, an open-weight model with a recurrent Transformer architecture, 26.4B total parameters, 3.4B active, runnable locally on a Mac with 32GB of memory. Tencent Hunyuan opened the weights for Hy4, a 770B-parameter native multimodal MoE with 1M context.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-20-ai-daily",
+      "date": "2026-11-20",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Anthropic Lists on Nasdaq, Opening at $111, 33% Above the IPO Price",
+      "description": "Anthropic completed its IPO on Nasdaq, opening at $111.50 within minutes, 33% above its $83 offering price and raising more than $81 billion, with cash reserves projected at $220 billion and a market cap above $2 trillion. Meanwhile Chinese tech firms took a double hit from chip shipment halts and the closure of overseas cloud access.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-19-ai-daily",
+      "date": "2026-11-19",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Google DeepMind Ships Gemini 4 Neon",
+      "description": "Google DeepMind released Gemini 4 Neon, scoring 61 on the Artificial Analysis Intelligence Index for third place and 1336 on the Agent Arena Index for second worldwide. The same day, Latent Space summarized OpenAI's GPT-6.2 Astra and Sol, noting the new Astra takes second place on the Intelligence Index with 62 points, just behind Fable 5.2 at 65.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-18-ai-daily",
+      "date": "2026-11-18",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "OpenAI Ships GPT-6.2 Astra and GPT-6.2 Sol",
+      "description": "OpenAI released GPT-6.2 Astra for complex professional work and GPT-6.2 Sol for everyday work, both achieving better results with fewer output tokens. Microsoft MAI also shipped seven new models at Ignite 2026, with MAI Code 2 reaching 98% of GPT-6.1 Sol performance at roughly 40% of the cost.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-17-ai-daily",
       "date": "2026-11-17",
       "author": "瑞哥观势",
@@ -566,121 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "AI Uncovers a Decade-Old PHP Low-Level Vulnerability: A Full Retrospective of the PHP2Shell Incident",
       "description": "Two PHP remote code execution vulnerabilities with CVSS scores of 9.2 leaked before patches shipped, with OpenAI claiming GPT-5.6 Sol helped with the discovery; on the same day OpenAI released the Decisions API, Anthropic donated the Agent Skills standard to the Linux Foundation, and DeepSeek raised a new round of roughly $15 billion.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-22-ai-daily",
-      "date": "2026-10-22",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "OpenAI Discloses Patch the Planet, Uses GPT-5.6 Sol to Uncover Critical PHP Vulnerabilities and Coordinate Global Fixes",
-      "description": "OpenAI announced that over the past two months it led a coalition of maintainers, researchers and security vendors to fix critical PHP vulnerabilities, with Calif using GPT-5.6 Sol to find a serious flaw while Wiz independently discovered and reported both issues, with PHP maintainers leading the remediation and release.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-21-ai-daily",
-      "date": "2026-10-21",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "DeepSeek Open-Sources Internal Reasoning Framework DeepInfer",
-      "description": "DeepSeek announces full open-sourcing of its internal reasoning framework DeepInfer, alongside production-grade Token encoder/decoder component deepseek-recipe. Meanwhile, Inception Labs releases diffusion-based LLM Mercury 3 at 1068 tokens/sec.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-20-ai-daily",
-      "date": "2026-10-20",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "US Department of Homeland Security Orders All Federal Civilian Agencies to Remove DeepSeek",
-      "description": "The Department of Homeland Security issued Order 2026-01 under the 2018 Supply Chain Act, requiring all federal civilian agencies to immediately stop procuring DeepSeek and its affiliated companies' products and remove them from IT systems, including third-party products developed using DeepSeek.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-18-ai-daily",
-      "date": "2026-10-18",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI-Daily"
-      ],
-      "categories": [
-        "AI-Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "DeepSeek-V4.1-Flash-1017 Released with Improved Benchmarks, API Price Unchanged",
-      "description": "DeepSeek upgrades V4.1 Flash to DeepSeek-V4.1-Flash-1017, with web and APP updates synchronized. API call method and price remain unchanged, still accessible via deepseek-flash.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-16-ai-daily",
-      "date": "2026-10-16",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Meta Releases Open-Weight Model Muse Spark Open: 816B Parameters, 1M Context",
-      "description": "Meta releases open-weight model Muse Spark Open with 816B total parameters, 42B active, 1M token context, targeting coding and agent workflows with native multimodal support and enhanced safety post-training.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

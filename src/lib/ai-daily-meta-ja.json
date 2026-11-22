@@ -1,6 +1,121 @@
 {
   "reports": [
     {
+      "slug": "2026-11-22-ai-daily",
+      "date": "2026-11-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Anthropicの数学者がClaudeとの合作的によるリーマン予想の証明を発表、数時間後にスタンフォードが純人間の競合ドラフトを公開",
+      "description": "Anthropicの数学者Levent AlpögeはClaudeと共同でリーマン予想および広義リーマン予想の証明を完成したと発表した。証明は14個のLean形式化データパッケージとして公開され、印刷すると25万ページ超になる。Together AIは2026年6月から7月にかけてのサーバーレス推論サービスのプロンプト漏洩事件を報告した。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-21-ai-daily",
+      "date": "2026-11-21",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Thinking Machines Lab、ノートPCで動くオープンウェイトモデル Inkling 2 Mini を発表",
+      "description": "Thinking Machines Labは再帰型Transformerアーキテクチャ採用のオープンウェイトモデルInkling 2 Miniを発表。総パラメータ26.4B、活性3.4Bで、32GB以上のメモリを積んだMacでローカル実行できる。Tencent Hunyuanは総パラメータ770B、1Mコンテキスト対応のネイティブマルチモーダルMoEとなるHy4のウェイトを公開した。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-20-ai-daily",
+      "date": "2026-11-20",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Anthropic、ナスダック上場。始値111ドル、発行価格から33%高",
+      "description": "AnthropicがナスダックでIPOを完了。始値111.50ドルで発行価格83ドルを33%上回り、調達額は810億ドル超、現金保有額は2200億ドル、始値ベースの時価額は2兆ドル超。中国のテック企業にはチップ供給停止と海外クラウド遮断の二重打撃。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-19-ai-daily",
+      "date": "2026-11-19",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Google DeepMind が Gemini 4 Neon を発表",
+      "description": "Google DeepMind は Gemini 4 Neon を発表し、Artificial Analysis Intelligence Index で 61 点の 3 位、Agent Arena Index で 1336 点の世界 2 位となった。同じ日 Latent Space が OpenAI の GPT-6.2 Astra と Sol をまとめ、新しい Astra は Intelligence Index 62 点の 2 位で Fable 5.2 の 65 点に僅差するにとどまると報じた。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-18-ai-daily",
+      "date": "2026-11-18",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "OpenAI が GPT-6.2 Astra と GPT-6.2 Sol を発表",
+      "description": "OpenAI は複雑な専門業務向けの GPT-6.2 Astra と日常業務向けの GPT-6.2 Sol をリリースし、どちらも出力 token を減らしながらより良い結果を得た。Microsoft MAI も Ignite 2026 で新モデル 7 款を同時公開し、MAI Code 2 は約 40 パーセントのコストで GPT-6.1 Sol の 98 パーセントの性能を達成した。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-17-ai-daily",
       "date": "2026-11-17",
       "author": "瑞哥观势",
@@ -566,121 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "AIが10年以上目を潜むPHP底层の脆弱性を発見、PHP2Shell事件の全体像を振り返る",
       "description": "CVSS 9.2点というPHPのリモートコード実行脆弱性2件がパッチ公開前に漏洩し、OpenAIはGPT-5.6 Solの支援による発見を認める。同じ日にOpenAIはDecisions APIを発表し、AnthropicはAgent Skills標準をLinux Foundationに寄付、DeepSeekは新たな資金調達で約150億ドルに達した。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-22-ai-daily",
-      "date": "2026-10-22",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "OpenAI、Patch the Planet 計画で GPT-5.6 Sol を活用し PHP の重大な脆弱性を発見・世界規模で修正",
-      "description": "OpenAI は過去 2 か月間、メンテナンス担当者・研究者・セキュリティベンダーの連合を率い、PHP の重大な脆弱性の修正を指揮したと発表した。Calif が GPT-5.6 Sol で重大な欠陥を発見し、Wiz も 2 件を独立に発見・報告、修正と公開は PHP メンテナンス側が主導した。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-21-ai-daily",
-      "date": "2026-10-21",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "DeepSeek、内部推論フレームワーク DeepInfer を全面オープンソース化",
-      "description": "DeepSeek は内部推論フレームワーク DeepInfer の全面オープンソース化を発表し、同時にプロダクショングレードの Token エンコーダー/デコーダーコンポーネント deepseek-recipe もオープンソース化了。同時に、Inception Labs が拡散型 LLM Mercury 3 をリリース、速度は 1068 tokens/秒。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-20-ai-daily",
-      "date": "2026-10-20",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "米国土安全保障省、DeepSeek 以及び同製品ベースの全連邦民事機関への搭載を命令",
-      "description": "米国土安全保障省手は2018年サプライチェーン法に基づき2026-01号命令を発布、すべての連邦民事機関にDeepSeekおよび関連企業の製品の調達を直ちに停止し、ITシステムから関連製品（DeepSeekで開発された第三方製品・与服务を含む）を削除するよう命じた。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-18-ai-daily",
-      "date": "2026-10-18",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI-Daily"
-      ],
-      "categories": [
-        "AI-Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "DeepSeek-V4.1-Flash-1017 リリース、複数のベンチマーク成績が向上、API価格は不变",
-      "description": "DeepSeekはV4.1 FlashをDeepSeek-V4.1-Flash-1017にアップグレードし、Web版とAPPが同時に更新。APIの呼び出し方式と価格は不变で、deepseek-flashでアクセス可能。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-16-ai-daily",
-      "date": "2026-10-16",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Meta、オープンウェイトモデル Muse Spark Open を発表 — 816B パラメータ、1M コンテキスト",
-      "description": "Meta がオープンウェイトモデル Muse Spark Open を発表。816B 総パラメータ、42B アクティブ、1M トークン コンテキストで、コーディングとエージェント ワークフローを対象とし、ネイティブマルチモーダルと安全ポストライニングを強化。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

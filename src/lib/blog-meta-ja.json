@@ -1,6 +1,55 @@
 {
   "posts": [
     {
+      "slug": "2026-11-22-pr-agent-analysis",
+      "date": "2026-11-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "open-source-project-analysis",
+        "ai-coding",
+        "code-review",
+        "engineering",
+        "ai-governance"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "スター16500のPR-Agent：AIが速くコードを書くほど、経営者が心配すべきは「書けるか」ではなく「誰が受け入れるか」",
+      "description": "スター16536のPR-AgentはAIコードレビューを再帰可能で監査可能、デフォルト拒否のエンジニアリングシステムに変えた。核心は一点、モデルは拒否のみ、承認はできない。"
+    },
+    {
+      "slug": "2026-11-19-shuohao-skills-analysis",
+      "date": "2026-11-19",
+      "author": "瑞哥观势",
+      "tags": [
+        "Open Source Project Analysis",
+        "AI Video",
+        "Agent Skill",
+        "Automated Acceptance"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "スター6800のshuohao-skills：AIショートドラマの真の敷居は生成ではなく、誰が品質ゲートをコードとして書けるか",
+      "description": "スター6800のオープンソースプロジェクトshuohao-skillsは、小説1冊をそのまま動画モデルに発注できるAIショートドラマの量産パッケージに変えます。7つのスキル、60本の品質ゲート、1600を超えるセルフテストのアサーション。価値があるのは、チェックリストをプロンプトから追い出し、決定論的なコードとして書き切ったことです。"
+    },
+    {
+      "slug": "2026-11-18-article2media-skill-analysis",
+      "date": "2026-11-18",
+      "author": "瑞哥观势",
+      "tags": [
+        "open source project analysis",
+        "AI content production",
+        "Claude Code Skill",
+        "automated acceptance"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "スター435のarticle2media：価値があるのはAIが記事を書くことではなく、「何かが変だ」を機械が止められる指標に翻訳すること",
+      "description": "article2mediaはスター435、フォーク65のオープンソースプロジェクトで、記事や動画を一発でXiaohongshu画像投稿、マガジン調ロングイメージ、WeChat公式アカウントレイアウト、AIナレーション動画に変換する。価値は10個の機能ではなく、「急ぎすぎ」という曖昧なフィードバックを4.5字/秒という検証可能な指標に翻訳する検収規律にある。"
+    },
+    {
       "slug": "2026-11-13-b2a-economy",
       "date": "2026-11-13",
       "author": "瑞哥观势",

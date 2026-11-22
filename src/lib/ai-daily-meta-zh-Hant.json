@@ -1,6 +1,121 @@
 {
   "reports": [
     {
+      "slug": "2026-11-22-ai-daily",
+      "date": "2026-11-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Anthropic 數學家稱與 Claude 完成黎曼猜想證明，斯坦福數小時後發布純人類競爭草稿",
+      "description": "Anthropic 數學家 Levent Alpöge 宣布與 Claude 合作完成黎曼猜想及廣義黎曼猜想的證明，證明以 Lean 語言分 14 個資料包發布，列印將超過 25 萬頁。Together AI 通報 2026 年 6-7 月 serverless 推理服務提示詞洩露事件。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-21-ai-daily",
+      "date": "2026-11-21",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Thinking Machines Lab 發布可跑在筆電上的開源權重模型 Inkling 2 Mini",
+      "description": "Thinking Machines Lab 發布開源權重模型 Inkling 2 Mini，循環 Transformer 架構，總參數 26.4B、啟用 3.4B，可在 32GB 記憶體以上的 Mac 本地執行。騰訊混元同步開放 Hy4 權重，770B 總參數、支援 1M 上下文。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-20-ai-daily",
+      "date": "2026-11-20",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Anthropic 登陸納斯達克，開盤價 111 美元較發行價高出 33%",
+      "description": "Anthropic 在納斯達克完成 IPO，開盤幾分鐘內股價達 111.50 美元，較 83 美元發行價高出 33%，募資超 810 億美元，現金儲備預計達 2200 億美元，開盤市值超 2 兆美元。同日中國科技公司遭遇晶片停運與海外雲通道關閉的雙重衝擊。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-19-ai-daily",
+      "date": "2026-11-19",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Google DeepMind 發布 Gemini 4 Neon",
+      "description": "Google DeepMind 發布 Gemini 4 Neon，在 Artificial Analysis Intelligence Index 得分 61 排名第 3，Agent Arena Index 以 1336 分全球第 2。同日 Latent Space 匯總 OpenAI 的 GPT-6.2 Astra 與 Sol，稱新 Astra 以 62 分位居 Intelligence Index 第二，僅次於 Fable 5.2 的 65 分。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-18-ai-daily",
+      "date": "2026-11-18",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "OpenAI 發布 GPT-6.2 Astra 與 GPT-6.2 Sol",
+      "description": "OpenAI 發布面向複雜專業工作的 GPT-6.2 Astra 與面向日常工作的 GPT-6.2 Sol，兩者在更少輸出 token 下取得更好結果。同日 Microsoft MAI 在 Ignite 2026 發布七款新模型，MAI Code 2 以約 40% 的成本達到 GPT-6.1 Sol 98% 的效能。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-17-ai-daily",
       "date": "2026-11-17",
       "author": "瑞哥观势",
@@ -566,121 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "AI 挖出潛伏十幾年的 PHP 底層漏洞，PHP2Shell 事件全景復盤",
       "description": "兩個 CVSS 9.2 分的 PHP 遠端程式碼執行漏洞在修補程式發布前外洩，OpenAI 認領由 GPT-5.6 Sol 協助發現；同日 OpenAI 發布 Decisions API，Anthropic 捐贈 Agent Skills 標準給 Linux Foundation，DeepSeek 新一輪融資約 150 億美元。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-22-ai-daily",
-      "date": "2026-10-22",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "OpenAI 披露 Patch the Planet 計畫借助 GPT-5.6 Sol 發現 PHP 關鍵漏洞並協調全球修補",
-      "description": "OpenAI 宣布在過去兩個月牽頭維護者、研究者與安全廠商聯盟，修補 PHP 的關鍵漏洞，其中 Calif 用 GPT-5.6 Sol 發現一處嚴重缺陷，Wiz 也獨立發現並報告了這兩個漏洞，PHP 維護者主導修補與發布。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-21-ai-daily",
-      "date": "2026-10-21",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "DeepSeek 全面開源內部推理框架 DeepInfer",
-      "description": "DeepSeek 宣佈將內部推理框架 DeepInfer 全面開源，並同步開源生產級 Token 編解碼組件 deepseek-recipe。同時，Inception Labs 發布擴散大語言模型 Mercury 3，速度達 1068 tokens/秒。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-20-ai-daily",
-      "date": "2026-10-20",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "美國國土安全部下令所有聯邦文職機構移除 DeepSeek 及基於其開發的產品",
-      "description": "美國國土安全部依據 2018 年供應鏈法發布 2026-01 號命令，要求所有聯邦文職機構立即停止採購 DeepSeek 及其關聯公司產品，並從 IT 系統中移除相關產品，包括使用 DeepSeek 實現開發的第三方產品與服務。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-18-ai-daily",
-      "date": "2026-10-18",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI-Daily"
-      ],
-      "categories": [
-        "AI-Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "DeepSeek-V4.1-Flash-1017 發布，多基準成績提升且 API 價格不變",
-      "description": "DeepSeek 將 V4.1 Flash 升級至 DeepSeek-V4.1-Flash-1017，網頁端與 APP 同步更新，API 調用方式與價格不變，仍用 deepseek-flash 訪問。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-16-ai-daily",
-      "date": "2026-10-16",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 0,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Meta 發布開源權重模型 Muse Spark Open，816B 參數、1M 上下文",
-      "description": "Meta 發布開源權重模型 Muse Spark Open，816B 參數、1M 上下文、42B 激活參數，面向編碼與智慧體工作流，原生多模態並增加安全後訓練。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",
