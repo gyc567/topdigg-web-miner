@@ -1,6 +1,35 @@
 {
   "posts": [
     {
+      "slug": "2026-11-22-pr-agent-analysis",
+      "title": {
+        "en": "16500 Stars, One Iron Rule: The More AI Writes Your Code, the More You Should Worry About Who Signs Off",
+        "ja": "スター16500のPR-Agent：AIが速くコードを書くほど、経営者が心配すべきは「書けるか」ではなく「誰が受け入れるか」",
+        "vi": "PR-Agent 16.500 sao: AI viết code càng mạnh, thứ chủ tịnh nên lo không phải 'có viết được không', mà là 'ai là người duyệt'",
+        "zh-Hans": "16500 星的 PR-Agent：AI 写代码越猛，老板越该担心的不是「能不能写」，是「谁来验收」",
+        "zh-Hant": "16500 星的 PR-Agent：AI 寫代碼越猛，老闆越該擔心的不是「能不能寫」，是「誰來驗收」"
+      },
+      "description": {
+        "en": "PR-Agent turned AI code review into a regression-testable, auditable, deny-by-default system. The real value: models can veto, never approve.",
+        "ja": "スター16536のPR-AgentはAIコードレビューを再帰可能で監査可能、デフォルト拒否のエンジニアリングシステムに変えた。核心は一点、モデルは拒否のみ、承認はできない。",
+        "vi": "PR-Agent 16.536 sao biến việc AI review code thành hệ thống kỹ thuật có thể hồi quy, kiểm toán được, mặc định từ chối. Bảo lưu quý nhất: mô hình chỉ được phủ quyết, không được phê duyệt.",
+        "zh-Hans": "16536 星的 PR-Agent 把 AI 代码审查做成了可回归、可审计、默认拒绝的工程系统。真正值钱的是它定下了一条铁律：模型只能否决，不能批准。干净通过必须由模型看不到的确定性事实背书。",
+        "zh-Hant": "16536 星的 PR-Agent 把 AI 代碼審查做成了可迴歸、可審計、默認拒絕的工程系統。真正值錢的是它定下的一條鐵律：模型只能否決，不能批准，乾淨通過必須由模型看不到的確定性事實背書。"
+      },
+      "date": "2026-11-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "open-source-project-analysis",
+        "ai-coding",
+        "code-review",
+        "engineering",
+        "ai-governance"
+      ],
+      "categories": [
+        "AI应用"
+      ]
+    },
+    {
       "slug": "2026-11-19-shuohao-skills-analysis",
       "title": {
         "en": "shuohao-skills with 6800 Stars: The Real Barrier to AI Short Dramas Is Not Generation, but Who Dares to Write Quality Gates as Code",

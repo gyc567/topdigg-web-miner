@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "slug": "2026-11-22-pr-agent-analysis",
+      "date": "2026-11-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "open-source-project-analysis",
+        "ai-coding",
+        "code-review",
+        "engineering",
+        "ai-governance"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "PR-Agent 16.500 sao: AI viết code càng mạnh, thứ chủ tịnh nên lo không phải 'có viết được không', mà là 'ai là người duyệt'",
+      "description": "PR-Agent 16.536 sao biến việc AI review code thành hệ thống kỹ thuật có thể hồi quy, kiểm toán được, mặc định từ chối. Bảo lưu quý nhất: mô hình chỉ được phủ quyết, không được phê duyệt."
+    },
+    {
       "slug": "2026-11-19-shuohao-skills-analysis",
       "date": "2026-11-19",
       "author": "瑞哥观势",

@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "slug": "2026-11-22-pr-agent-analysis",
+      "date": "2026-11-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "open-source-project-analysis",
+        "ai-coding",
+        "code-review",
+        "engineering",
+        "ai-governance"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "16500 Stars, One Iron Rule: The More AI Writes Your Code, the More You Should Worry About Who Signs Off",
+      "description": "PR-Agent turned AI code review into a regression-testable, auditable, deny-by-default system. The real value: models can veto, never approve."
+    },
+    {
       "slug": "2026-11-19-shuohao-skills-analysis",
       "date": "2026-11-19",
       "author": "瑞哥观势",

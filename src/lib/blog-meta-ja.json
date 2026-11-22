@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "slug": "2026-11-22-pr-agent-analysis",
+      "date": "2026-11-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "open-source-project-analysis",
+        "ai-coding",
+        "code-review",
+        "engineering",
+        "ai-governance"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "スター16500のPR-Agent：AIが速くコードを書くほど、経営者が心配すべきは「書けるか」ではなく「誰が受け入れるか」",
+      "description": "スター16536のPR-AgentはAIコードレビューを再帰可能で監査可能、デフォルト拒否のエンジニアリングシステムに変えた。核心は一点、モデルは拒否のみ、承認はできない。"
+    },
+    {
       "slug": "2026-11-19-shuohao-skills-analysis",
       "date": "2026-11-19",
       "author": "瑞哥观势",

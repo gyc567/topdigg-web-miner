@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "slug": "2026-11-22-pr-agent-analysis",
+      "date": "2026-11-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "open-source-project-analysis",
+        "ai-coding",
+        "code-review",
+        "engineering",
+        "ai-governance"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "16500 星的 PR-Agent：AI 写代码越猛，老板越该担心的不是「能不能写」，是「谁来验收」",
+      "description": "16536 星的 PR-Agent 把 AI 代码审查做成了可回归、可审计、默认拒绝的工程系统。真正值钱的是它定下了一条铁律：模型只能否决，不能批准。干净通过必须由模型看不到的确定性事实背书。"
+    },
+    {
       "slug": "2026-11-19-shuohao-skills-analysis",
       "date": "2026-11-19",
       "author": "瑞哥观势",
