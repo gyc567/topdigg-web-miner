@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "slug": "2026-11-23-chatgpt-beginner-guide",
+      "date": "2026-11-23",
+      "author": "瑞哥观势",
+      "tags": [
+        "ai-tools",
+        "tutorial",
+        "cost-optimization",
+        "enterprise-ai",
+        "account-management"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "ChatGPT Beginner's Guide: Don't Rush to Pay, Boss, Learn the Free Tier First",
+      "description": "The free ChatGPT tier now supports web search, file analysis, image generation and GPTs. Here are signup steps, real free-tier limits, whether Plus is worth it, and three ways to subscribe from China."
+    },
+    {
+      "slug": "2026-11-23-magpie-beginner-guide",
+      "date": "2026-11-23",
+      "author": "瑞哥观势",
+      "tags": [
+        "open-source-project-analysis",
+        "ai-tools",
+        "model-gateway",
+        "cost-optimization",
+        "tutorial"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "40,000-star magpie: Stop Configuring API Keys Tool by Tool, This Gateway Connects Every Model to Every AI Tool",
+      "description": "magpie gathers scattered API keys, subscriptions and local models into one list, then writes it into any AI tool via a unified gateway."
+    },
+    {
       "slug": "2026-11-22-pr-agent-analysis",
       "date": "2026-11-22",
       "author": "瑞哥观势",

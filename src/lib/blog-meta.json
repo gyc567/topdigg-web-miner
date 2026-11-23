@@ -1,6 +1,64 @@
 {
   "posts": [
     {
+      "slug": "2026-11-23-chatgpt-beginner-guide",
+      "title": {
+        "en": "ChatGPT Beginner's Guide: Don't Rush to Pay, Boss, Learn the Free Tier First",
+        "ja": "ChatGPT 初心者向け完全ガイド：まずは決済を急がず、無料枠を使いこなそう",
+        "vi": "Hướng dẫn ChatGPT từ A đến Z: Đừng vội nạp tiền, ông chủ hãy dùng hết hạn mức miễn phí đã",
+        "zh-Hans": "ChatGPT 保姆级教程：先别急着充值，老板你先把这免费额度用明白",
+        "zh-Hant": "ChatGPT 保姆級教程：先別急着充值，老闆你先把這免費額度用明白"
+      },
+      "description": {
+        "en": "The free ChatGPT tier now supports web search, file analysis, image generation and GPTs. Here are signup steps, real free-tier limits, whether Plus is worth it, and three ways to subscribe from China.",
+        "ja": "ChatGPT 無料版はすでにウェブ検索、ファイル解析、画像生成、GPTs に対応。登録の全手順、無料版の使える範囲、Plus の採否、国内からの契約3経路、1つのアカウントを会社のAI資産にする方法まで解説。",
+        "vi": "ChatGPT bản miễn phí nay đã tìm kiếm web, đọc tệp, tạo ảnh, dùng GPTs. Hướng dẫn đăng ký, quyền lợi bản miễn phí, 3 cách nâng Plus và cách biến tài khoản thành tài sản AI của công ty.",
+        "zh-Hans": "ChatGPT 免费版今天已经能联网搜索、读文件、生成图片、用 GPTs，老板不该急着充 Plus。这一篇讲清注册全流程、免费版真实能力、Plus 值不值、国内开通三条路，以及怎么把一个账号变成公司可控的 AI 资产。",
+        "zh-Hant": "ChatGPT 免費版今天已經能聯網搜索、讀文件、生成圖片、用 GPTs，老闆不該急着充 Plus。這一篇講清註冊全流程、免費版真實能力、Plus 值不值、國內開通三條路，以及怎麼把一個賬號變成公司可控的 AI 資產。"
+      },
+      "date": "2026-11-23",
+      "author": "瑞哥观势",
+      "tags": [
+        "ai-tools",
+        "tutorial",
+        "cost-optimization",
+        "enterprise-ai",
+        "account-management"
+      ],
+      "categories": [
+        "AI应用"
+      ]
+    },
+    {
+      "slug": "2026-11-23-magpie-beginner-guide",
+      "title": {
+        "en": "40,000-star magpie: Stop Configuring API Keys Tool by Tool, This Gateway Connects Every Model to Every AI Tool",
+        "ja": "スター 40000 の Magpie：もうツールごとに API Key を設定しなくていい、このゲートウェイがすべてのモデルをすべての AI ツールに接続する",
+        "vi": "magpie 40000 sao: đừng cấu hình API Key từng công cụ một nữa, cổng kết nối này đưa mọi mô hình vào mọi công cụ AI",
+        "zh-Hans": "40000 星的 magpie：别再一个工具一个工具配 API Key 了，这个网关把所有模型接进所有 AI 工具",
+        "zh-Hant": "40000 星的 magpie：別再一個工具一個工具配 API Key 了，這個網關把所有模型接進所有 AI 工具"
+      },
+      "description": {
+        "en": "magpie gathers scattered API keys, subscriptions and local models into one list, then writes it into any AI tool via a unified gateway.",
+        "ja": "Magpie は散らばった API Key、ログイン済みのサブスクリプション、ローカルモデルを 1 つのリストにまとめ、どの AI ツールにも設定を書き込み、ローカルに統一ゲートウェイを起動します。初心者向けの完全解説。",
+        "vi": "magpie gom API Key, gói đăng nhập và mô hình cục bộ thành một danh sách, ghi vào mọi công cụ AI, chạy cổng kết nối chung. Hướng dẫn từ A đến Z.",
+        "zh-Hans": "magpie 把散落的 API Key、已登录的订阅和本地模型收成一份清单，一键写进任何 AI 工具的配置，并在本机跑一个统一网关。这一篇是零基础老板的保姆级教程：安装、加模型来源、选模型、路由组、隐私遮罩、常见问题全包。",
+        "zh-Hant": "magpie 把散落的 API Key、已登錄的訂閱和本地模型收成一份清單，一鍵寫進任何 AI 工具的配置，並在本機跑一個統一網關。這一篇是零基礎老闆的保姆級教程：安裝、加模型來源、選模型、路由組、隱私遮罩、常見問題全包。"
+      },
+      "date": "2026-11-23",
+      "author": "瑞哥观势",
+      "tags": [
+        "open-source-project-analysis",
+        "ai-tools",
+        "model-gateway",
+        "cost-optimization",
+        "tutorial"
+      ],
+      "categories": [
+        "AI应用"
+      ]
+    },
+    {
       "slug": "2026-11-22-pr-agent-analysis",
       "title": {
         "en": "16500 Stars, One Iron Rule: The More AI Writes Your Code, the More You Should Worry About Who Signs Off",

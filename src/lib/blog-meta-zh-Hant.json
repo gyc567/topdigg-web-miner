@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "slug": "2026-11-23-chatgpt-beginner-guide",
+      "date": "2026-11-23",
+      "author": "瑞哥观势",
+      "tags": [
+        "ai-tools",
+        "tutorial",
+        "cost-optimization",
+        "enterprise-ai",
+        "account-management"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "ChatGPT 保姆級教程：先別急着充值，老闆你先把這免費額度用明白",
+      "description": "ChatGPT 免費版今天已經能聯網搜索、讀文件、生成圖片、用 GPTs，老闆不該急着充 Plus。這一篇講清註冊全流程、免費版真實能力、Plus 值不值、國內開通三條路，以及怎麼把一個賬號變成公司可控的 AI 資產。"
+    },
+    {
+      "slug": "2026-11-23-magpie-beginner-guide",
+      "date": "2026-11-23",
+      "author": "瑞哥观势",
+      "tags": [
+        "open-source-project-analysis",
+        "ai-tools",
+        "model-gateway",
+        "cost-optimization",
+        "tutorial"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "40000 星的 magpie：別再一個工具一個工具配 API Key 了，這個網關把所有模型接進所有 AI 工具",
+      "description": "magpie 把散落的 API Key、已登錄的訂閱和本地模型收成一份清單，一鍵寫進任何 AI 工具的配置，並在本機跑一個統一網關。這一篇是零基礎老闆的保姆級教程：安裝、加模型來源、選模型、路由組、隱私遮罩、常見問題全包。"
+    },
+    {
       "slug": "2026-11-22-pr-agent-analysis",
       "date": "2026-11-22",
       "author": "瑞哥观势",

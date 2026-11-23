@@ -1,7 +1,7 @@
 # TopDigg — AI-Crawler Index
 
 Source: https://topdigg.com
-Generated: 2026-11-18T14:24:17.101Z
+Generated: 2026-11-23T02:13:52.923Z
 
 ## Site Overview
 
@@ -24,11 +24,35 @@ We deliver in-depth Twitter analytics and trend tracking for content creators an
 
 ## Latest Blog Posts (10 most recent)
 
+### ChatGPT Beginner's Guide: Don't Rush to Pay, Boss, Learn the Free Tier First
+URL: https://topdigg.com/blog/2026-11-23-chatgpt-beginner-guide | Date: 2026-11-23 | Author: 瑞哥观势
+Tags: ai-tools, tutorial, cost-optimization, enterprise-ai, account-management
+
+The free ChatGPT tier now supports web search, file analysis, image generation and GPTs. Here are signup steps, real free-tier limits, whether Plus is worth it, and three ways to subscribe from China.
+
+### 40,000-star magpie: Stop Configuring API Keys Tool by Tool, This Gateway Connects Every Model to Every AI Tool
+URL: https://topdigg.com/blog/2026-11-23-magpie-beginner-guide | Date: 2026-11-23 | Author: 瑞哥观势
+Tags: open-source-project-analysis, ai-tools, model-gateway, cost-optimization, tutorial
+
+magpie gathers scattered API keys, subscriptions and local models into one list, then writes it into any AI tool via a unified gateway.
+
+### 16500 Stars, One Iron Rule: The More AI Writes Your Code, the More You Should Worry About Who Signs Off
+URL: https://topdigg.com/blog/2026-11-22-pr-agent-analysis | Date: 2026-11-22 | Author: 瑞哥观势
+Tags: open-source-project-analysis, ai-coding, code-review, engineering, ai-governance
+
+PR-Agent turned AI code review into a regression-testable, auditable, deny-by-default system. The real value: models can veto, never approve.
+
+### shuohao-skills with 6800 Stars: The Real Barrier to AI Short Dramas Is Not Generation, but Who Dares to Write Quality Gates as Code
+URL: https://topdigg.com/blog/2026-11-19-shuohao-skills-analysis | Date: 2026-11-19 | Author: 瑞哥观势
+Tags: Open Source Project Analysis, AI Video, Agent Skill, Automated Acceptance
+
+shuohao-skills, an open-source project with 6800 stars, turns a novel into an AI short-drama production pack that can be ordered directly: 7 skills, 60 quality gates, and more than 1600 self-test assertions. Its real value lies in driving the checklist out of the prompt and into deterministic code.
+
 ### article2media With 435 Stars: What It Is Actually Worth Is Not That AI Can Write, But That It Turns 'Something Feels Off' Into Metrics a Script Can Block
 URL: https://topdigg.com/blog/2026-11-18-article2media-skill-analysis | Date: 2026-11-18 | Author: 瑞哥观势
 Tags: open source project analysis, AI content production, Claude Code Skill, automated acceptance
 
-article2media is an open source project with 435 stars and 65 forks that turns one article or one video into Xiaohongshu image posts, magazine long images, WeChat official account layouts and AI voiceover videos. The real value is not its 10 capabilities but its acceptance discipline, which turns va
+article2media is an open source project with 435 stars and 65 forks that turns one article or one video into Xiaohongshu image posts, magazine long images, WeChat layouts and AI voiceover videos. Its real value is not the 10 capabilities but the acceptance discipline turning vague feedback like 'too
 
 ### 验证码正在失效，你的客户正在变成 AI
 URL: https://topdigg.com/blog/2026-11-13-b2a-economy | Date: 2026-11-13 | Author: 瑞哥观势
@@ -59,30 +83,6 @@ URL: https://topdigg.com/blog/2026-11-05-nvzhuang-virtual-tryon-open-source | Da
 Tags: open source project analysis, AI clothing try-on, virtual try-on, GoFrame, ComfyUI, multi-model adaptation, security design
 
 A deep teardown of paipiange/nvzhuang: a zero-build, purely static clothing image library plus a GoFrame AI try-on backend. Includes a complete deployment tutorial, multi-model integration config, an analysis of the API security design, and six design philosophies.
-
-### Someone Rewrote Excel, Slack, and Photoshop From Scratch: 53 World-Class Apps in HeyPuter
-URL: https://topdigg.com/blog/2026-11-03-heyputer-everything-53-apps | Date: 2026-11-03 | Author: 瑞哥观势
-Tags: open source project analysis, open source software, HeyPuter, Everything Project, monorepo, framework-free frontend
-
-A deep dive into HeyPuter/everything: 51 apps, 2.24M lines of code, 8,711 test files, zero frontend frameworks. Full local setup guide, deployment config, six design philosophies, and eight transferable lessons.
-
-### DeepSeek's Open-Source Superagent: Engineering the Art of Not Interrupting
-URL: https://topdigg.com/blog/2026-11-01-dsh-superagent-attention-economy | Date: 2026-11-01 | Author: 瑞哥观势
-Tags: DeepSeek, AI Agent, Open Source Project Analysis, Agent Architecture, Prompt Engineering, Team Collaboration
-
-A full teardown of DeepSeek's open-source dsh-superagent: it treats human attention as the only budget, and enforces that from the domain model, authorization layer and execution pipeline all the way to the panel UI. Includes a complete setup tutorial and six transferable design principles.
-
-### LiveTalking Deep Dive: The 10k-Star Real-Time Digital Human Engine: Its Moat Is Not the Model, It's the 20-Millisecond Beat
-URL: https://topdigg.com/blog/2026-10-31-livetalking-engine-analysis | Date: 2026-10-31 | Author: 瑞哥观势
-Tags: LiveTalking, digital-human, realtime-audio-video, WebRTC, MuseTalk, Wav2Lip, open-source-project-analysis
-
-LiveTalking is not a model, it is a digital human runtime engine. A deep dive into the 20-millisecond time base, silence-skip-inference cost design, backpressure rate limiting, plugin registry mechanism, WHEP standard protocol strategy, plus 8 documentation debts and engineering pitfalls.
-
-### Motion2MixamoRig Deep Dive: Turning Real-Person Video into a Mixamo Character, What This Project Got Right
-URL: https://topdigg.com/blog/2026-10-24-motion2mixamo-rig-analysis | Date: 2026-10-24 | Author: 瑞哥观势
-Tags: Motion Capture, Motion Retargeting, Mixamo, Blender, GVHMR, Open Source Project
-
-The open-source project Motion2MixamoRig retargets a person's motion from video onto a 3D character driven by Adobe Mixamo rigs. This article breaks down its complete pipeline, the fixes for foot sliding and body clipping, the math of finger retargeting, the diagnostic system, and six design philoso
 
 ## AI Product Analyses (latest 5)
 
@@ -179,4 +179,4 @@ Top Twitter accounts for growth and entrepreneurship:
 - Andrew Chen (@andrewchen): https://x.com/andrewchen
 
 ---
-End of llms.txt | 210 blog posts | 4 Twitter analyses | 7 AI products
+End of llms.txt | 214 blog posts | 4 Twitter analyses | 7 AI products
