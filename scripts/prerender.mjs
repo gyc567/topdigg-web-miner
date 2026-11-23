@@ -71,10 +71,32 @@ async function loadBrowser() {
     });
   }
   const puppeteer = (await import("puppeteer")).default;
-  return puppeteer.launch({
+  const launchArgs = {
     headless: true,
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
-  });
+  };
+  // 本机 puppeteer 自带的 Chrome 目录常为空（未下载成功），
+  // launch() 会报 "Could not find Chrome (ver. xxx)"。
+  // 按优先级探测可用 Chromium，找不到再回落到 puppeteer 默认解析。
+  const candidates = [
+    process.env.PRERENDER_CHROME_PATH,
+    process.env.PUPPETEER_EXECUTABLE_PATH,
+    "/home/admin/.cache/ms-playwright/chromium-1243/chrome-linux64/chrome",
+    "/snap/bin/chromium",
+    "/usr/bin/chromium-browser",
+    "/usr/bin/chromium",
+    "/usr/bin/google-chrome",
+  ].filter(Boolean);
+  for (const executablePath of candidates) {
+    if (!fs.existsSync(executablePath)) continue;
+    try {
+      log(`using chromium: ${executablePath}`);
+      return await puppeteer.launch({ ...launchArgs, executablePath });
+    } catch (err) {
+      log(`WARN  chromium launch failed for ${executablePath}: ${err.message?.slice(0, 100)}`);
+    }
+  }
+  return puppeteer.launch(launchArgs);
 }
 
 const { prerenderRoutes } = await import("./build-routes.mjs");
