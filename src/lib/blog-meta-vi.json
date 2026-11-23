@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "slug": "2026-11-23-chatgpt-beginner-guide",
+      "date": "2026-11-23",
+      "author": "瑞哥观势",
+      "tags": [
+        "ai-tools",
+        "tutorial",
+        "cost-optimization",
+        "enterprise-ai",
+        "account-management"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "Hướng dẫn ChatGPT từ A đến Z: Đừng vội nạp tiền, ông chủ hãy dùng hết hạn mức miễn phí đã",
+      "description": "ChatGPT bản miễn phí nay đã tìm kiếm web, đọc tệp, tạo ảnh, dùng GPTs. Hướng dẫn đăng ký, quyền lợi bản miễn phí, 3 cách nâng Plus và cách biến tài khoản thành tài sản AI của công ty."
+    },
+    {
+      "slug": "2026-11-23-magpie-beginner-guide",
+      "date": "2026-11-23",
+      "author": "瑞哥观势",
+      "tags": [
+        "open-source-project-analysis",
+        "ai-tools",
+        "model-gateway",
+        "cost-optimization",
+        "tutorial"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "magpie 40000 sao: đừng cấu hình API Key từng công cụ một nữa, cổng kết nối này đưa mọi mô hình vào mọi công cụ AI",
+      "description": "magpie gom API Key, gói đăng nhập và mô hình cục bộ thành một danh sách, ghi vào mọi công cụ AI, chạy cổng kết nối chung. Hướng dẫn từ A đến Z."
+    },
+    {
       "slug": "2026-11-22-pr-agent-analysis",
       "date": "2026-11-22",
       "author": "瑞哥观势",

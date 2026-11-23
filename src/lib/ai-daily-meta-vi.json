@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-23-ai-daily",
+      "date": "2026-11-23",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "OpenAI đề xuất perplexity làm chỉ số chung của ngành và công bố số liệu đo trong huấn luyện tiền xử lý",
+      "description": "OpenAI công bố bài viết đề xuất thiết lập perplexity (cross-entropy loss) làm chỉ số chung để so sánh mô hình và làm chuẩn an toàn, đồng thời công khai số liệu đo nội bộ trong huấn luyện tiền xử lý. Cùng ngày, mô hình nhỏ chạy trên thiết bị đã bỏ xa cuộc đua số tham số: bản 8B trở thành mô hình quốc gia của Lào, còn bản 2B hoàn tất phân tích báo cáo khám sức khỏe ngay trên Mac.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-22-ai-daily",
       "date": "2026-11-22",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Moonshot AI phát hành Kimi K3.1 Pro với 1 triệu token ngữ cảnh và mở trọng số",
       "description": "Moonshot AI phát hành Kimi K3.1 Pro, mô hình mở trọng số 3T tham số với cửa sổ ngữ cảnh 1 triệu token, kèm Kimi K3.1 Pro Highspeed nhanh hơn 2-3 lần; cùng ngày MiniMax mở trọng số M3.1 Flash với 428B tổng tham số và 23B kích hoạt mỗi token. OpenAI tiết lộ củng cố bảo mật và kiểm thử đỏ cho môi trường huấn luyện mô hình tiên phong, còn Anthropic công bố đánh giá liên kết của Claude Mythos 5 và thiết kế tách biệt thông tin xác thực của tác nhân Claude Duet.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-23-ai-daily",
-      "date": "2026-10-23",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "AI phát hiện lỗ hổng PHP ẩn giấu hơn 10 năm, toàn cảnh sự kiện PHP2Shell",
-      "description": "Hai lỗ hổng thực thi mã từ xa trong PHP với điểm CVSS 9.2 bị rò rỉ trước khi bản vá được phát hành, OpenAI nhận công việc phát hiện được hỗ trợ bởi GPT-5.6 Sol; cùng ngày OpenAI phát hành Decisions API, Anthropic trao tặng tiêu chuẩn Agent Skills cho Linux Foundation, DeepSeek gọi vốn mới khoảng 15 tỷ USD.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

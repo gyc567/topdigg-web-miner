@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-23-ai-daily",
+      "date": "2026-11-23",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "OpenAI 提议以困惑度作为行业共享指标并公开内部预训练测量数据",
+      "description": "OpenAI 撰文提议把 perplexity（交叉熵损失）确立为跨模型比较与安全标准的共享指标，并公开内部预训练测量数据。同日，端侧小模型 MiniCPM 的落地速度开始跑赢参数规模：8B 版本成为老挝国家模型，2B 版本在 Mac 上跑通了体检报告解析。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-22-ai-daily",
       "date": "2026-11-22",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "月之暗面发布 Kimi K3.1 Pro，100 万 token 上下文，开放权重将于 11 月 4 日前释出",
       "description": "月之暗面发布 Kimi K3.1 Pro，3T 级开放权重模型、上下文窗口 100 万 token，同步推出速度快 2-3 倍的 Kimi K3.1 Pro Highspeed；同日 MiniMax 开放 M3.1 Flash 权重，总参数 428B、每 token 激活 23B。OpenAI 详解前沿模型训练环境的安全加固与红队测试，Anthropic 则发布 Claude Mythos 5 对齐评估报告与 Claude Duet 智能体的凭证隔离设计。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-23-ai-daily",
-      "date": "2026-10-23",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "AI 挖出潜伏十几年的 PHP 底层漏洞，PHP2Shell 事件全景复盘",
-      "description": "两个 CVSS 9.2 分的 PHP 远程代码执行漏洞在补丁发布前泄露，OpenAI 认领由 GPT-5.6 Sol 辅助发现；同日 OpenAI 发布 Decisions API，Anthropic 捐赠 Agent Skills 标准给 Linux Foundation，DeepSeek 新一轮融资约 150 亿美元。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

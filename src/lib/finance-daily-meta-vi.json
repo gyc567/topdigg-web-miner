@@ -1,6 +1,46 @@
 {
   "reports": [
     {
+      "slug": "2026-11-23-finance-daily",
+      "date": "2026-11-23",
+      "author": "瑞哥观势",
+      "tags": [
+        "Bản tin tài chính",
+        "Kinh tế vĩ mô"
+      ],
+      "categories": [
+        "Bản tin tài chính"
+      ],
+      "title": "Bản tin tài chính hằng ngày | 2026-11-23",
+      "description": "Vàng và bạc lập đỉnh mới trong khi cổ phiếu công nghệ Mỹ sụp đổ: NVDA giảm 14,01% và TSLA giảm 7,64% trong một phiên. Biên bản FOMC tháng 10 cho thấy gần như toàn bộ ủy viên nghiêng về tiếp tục tăng lãi suất, bà Lagarde của ECB tuyên bố sẽ từ chức sớm, và Hội đồng Thương mại Trung-Mỹ đã họp video lần đầu ngày 13/11 để thúc đẩy khoản giảm thuế đối ứng 300 tỷ USD. Thị trường đang đánh cược lạm phát và lãi suất tăng, không phải cứu hộ.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-22-finance-daily",
+      "date": "2026-11-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "Bản tin tài chính",
+        "Kinh tế vĩ mô"
+      ],
+      "categories": [
+        "Bản tin tài chính"
+      ],
+      "title": "Bản tin tài chính hàng ngày | 2026-11-22",
+      "description": "Cuối tuần đóng cửa, số liệu là giá đóng cửa thứ Sáu ngày 20/11: nhân dân tệ trong nước tăng 0.40% lên 6.6942, nhân dân tệ ngoại hối ở 6.6748; ba chỉ số A-share giảm mạnh trên sàn thanh khoản, tỷ lệ tăng/giảm là 313 trên 5236; NVIDIA mất hơn 43% trong một tuần, từ 222 USD xuống 125.53 USD, vàng phá vỡ liên tiếp bốn mốc tròn 3600, bạc giảm 9.32% trong một phiên; biên bản Fed cho thấy lần tăng tiếp theo có thể vượt 25 điểm cơ bản, LPR giữ nguyên 18 tháng liên tiếp, EU chuyển sang cơ chế cam kết giá cho xe điện Trung Quốc, Iran và Oman thống nhất tuyến hàng hải mới tại eo Hormuz.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-21-finance-daily",
       "date": "2026-11-21",
       "author": "瑞哥观势",
@@ -588,49 +628,6 @@
       "source": {
         "original": {
           "name": "Ruige Quan The",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-13-finance-daily",
-      "date": "2026-10-13",
-      "author": "瑞哥观势",
-      "tags": [
-        "Bản Tin Tài Chính",
-        "Kinh Tế Vĩ Mô"
-      ],
-      "categories": [
-        "Bản Tin Tài Chính"
-      ],
-      "title": "Bản Tin Tài Chính Hàng Ngày | 2026-10-13",
-      "description": "EUR giảm nhẹ, vàng điều chỉnh; A-shares giảm toàn bộ; Fed giữ lãi suất 82% khả năng; Trung-EU đạt 16 điểm đồng thuận nhưng căng thẳng thương mại tiếp diễn.",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWpj8p73otP1gSVVMppHYYZTCLFhPPNWVbHHT0a9-EJjC"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-12-finance-daily",
-      "date": "2026-10-12",
-      "author": "瑞哥观势",
-      "tags": [
-        "Bản Tin Tài Chính",
-        "Kinh Tế Vĩ Mô",
-        "Ngoại Hối",
-        "Chứng Khoán Mỹ",
-        "Vàng"
-      ],
-      "categories": [
-        "Bản Tin Tài Chính"
-      ],
-      "title": "Bản Tin Tài Chính Hàng Ngày | 2026-10-12",
-      "description": "EUR/USD giữ trên 1.12; USD/JPY giảm về 158; AAPL -1.11% trong khi TSLA +2.05%; Vàng lập đỉnh mới $4,206/oz; Fed phát tín hiệu diều hâu, kỳ vọng cắt lãi suất giảm nhiệt; Trung Quốc công bố LPR hôm nay.",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }

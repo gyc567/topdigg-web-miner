@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "slug": "2026-11-23-chatgpt-beginner-guide",
+      "date": "2026-11-23",
+      "author": "瑞哥观势",
+      "tags": [
+        "ai-tools",
+        "tutorial",
+        "cost-optimization",
+        "enterprise-ai",
+        "account-management"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "ChatGPT 初心者向け完全ガイド：まずは決済を急がず、無料枠を使いこなそう",
+      "description": "ChatGPT 無料版はすでにウェブ検索、ファイル解析、画像生成、GPTs に対応。登録の全手順、無料版の使える範囲、Plus の採否、国内からの契約3経路、1つのアカウントを会社のAI資産にする方法まで解説。"
+    },
+    {
+      "slug": "2026-11-23-magpie-beginner-guide",
+      "date": "2026-11-23",
+      "author": "瑞哥观势",
+      "tags": [
+        "open-source-project-analysis",
+        "ai-tools",
+        "model-gateway",
+        "cost-optimization",
+        "tutorial"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "スター 40000 の Magpie：もうツールごとに API Key を設定しなくていい、このゲートウェイがすべてのモデルをすべての AI ツールに接続する",
+      "description": "Magpie は散らばった API Key、ログイン済みのサブスクリプション、ローカルモデルを 1 つのリストにまとめ、どの AI ツールにも設定を書き込み、ローカルに統一ゲートウェイを起動します。初心者向けの完全解説。"
+    },
+    {
       "slug": "2026-11-22-pr-agent-analysis",
       "date": "2026-11-22",
       "author": "瑞哥观势",

@@ -49,6 +49,26 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://topdigg.com/blog/2026-11-23-chatgpt-beginner-guide</loc>
+    <lastmod>2026-11-23</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/2026-11-23-magpie-beginner-guide</loc>
+    <lastmod>2026-11-23</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/2026-11-22-pr-agent-analysis</loc>
+    <lastmod>2026-11-22</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/blog/2026-11-19-shuohao-skills-analysis</loc>
+    <lastmod>2026-11-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://topdigg.com/blog/2026-11-18-article2media-skill-analysis</loc>
     <lastmod>2026-11-18</lastmod>
     <priority>0.8</priority>
@@ -1113,6 +1133,26 @@
   <url>
     <loc>https://topdigg.com/twitter/yangyi-twitter-analysis-2026-04-16</loc>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/ai-daily/2026-11-23-ai-daily</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/ai-daily/2026-11-22-ai-daily</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/ai-daily/2026-11-21-ai-daily</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/ai-daily/2026-11-20-ai-daily</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://topdigg.com/ai-daily/2026-11-19-ai-daily</loc>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://topdigg.com/ai-daily/2026-11-18-ai-daily</loc>

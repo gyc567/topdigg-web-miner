@@ -1,6 +1,46 @@
 {
   "reports": [
     {
+      "slug": "2026-11-23-finance-daily",
+      "date": "2026-11-23",
+      "author": "瑞哥观势",
+      "tags": [
+        "财经简报",
+        "宏观经济"
+      ],
+      "categories": [
+        "财经简报"
+      ],
+      "title": "每日财经简报 | 2026-11-23",
+      "description": "黄金白银创新高而美股科技股崩塌：NVDA 单日跌 14.01%、TSLA 跌 7.64%，美联储 10 月纪要显示几乎所有官员倾向继续加息，ECB 拉加德提前卸任，中美贸易理事会 11 月 13 日首次视频会谈推进 300 亿对 300 亿对等降税安排。市场在交易通胀与加息，而不是降息救市。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
+      "slug": "2026-11-22-finance-daily",
+      "date": "2026-11-22",
+      "author": "瑞哥观势",
+      "tags": [
+        "财经简报",
+        "宏观经济"
+      ],
+      "categories": [
+        "财经简报"
+      ],
+      "title": "每日财经简报 | 2026-11-22",
+      "description": "周末休市，行情为 11 月 20 日周五收盘：人民币在岸价涨 0.40% 至 6.6942，离岸 6.6748；A 股三大指数放量杀跌，涨跌比 313 比 5236；英伟达一周从 222 美元跌到 125.53 美元、跌幅超 43%，黄金连破 3600 等四道整数关、白银单日跌 9.32%；美联储纪要暗示下次可能加超 25 个基点，LPR 连续 18 个月不变，欧盟对华电动车改用价格承诺机制，伊朗与阿曼就霍尔木兹海峡新航线达成一致。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-21-finance-daily",
       "date": "2026-11-21",
       "author": "瑞哥观势",
@@ -585,49 +625,6 @@
       ],
       "title": "每日财经简报 | 2026-10-14",
       "description": "10月14日全球市场综述：美元震荡、黄金高位企稳，苹果英伟达续创新高；ECB通胀跳升、Fed加息预期升温，中欧贸易摩擦升级，伊朗霍尔木兹海峡僵局持续。",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-13-finance-daily",
-      "date": "2026-10-13",
-      "author": "瑞哥观势",
-      "tags": [
-        "财经简报",
-        "宏观经济"
-      ],
-      "categories": [
-        "财经简报"
-      ],
-      "title": "每日财经简报 | 2026-10-13",
-      "description": "外汇市场欧元微跌、黄金回落；A股三大指数集体收跌；Fed 10月维持利率概率82%；中欧达成16点共识但贸易摩擦持续。",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWpj8p73otP1gSVVMppHYYZTCLFhPPNWVbHHT0a9-EJjC"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-12-finance-daily",
-      "date": "2026-10-12",
-      "author": "瑞哥观势",
-      "tags": [
-        "财经简报",
-        "宏观经济",
-        "外汇",
-        "美股",
-        "黄金"
-      ],
-      "categories": [
-        "财经简报"
-      ],
-      "title": "每日财经简报 | 2026-10-12",
-      "description": "EUR/USD站上1.12，USD/JPY回落至158；美股AAPL跌1.11%而TSLA涨2.05%；黄金再创新高$4206/oz；美联储鹰派发声降息预期降温，中国今日公布LPR利率。",
       "source": {
         "original": {
           "name": "瑞哥观势",

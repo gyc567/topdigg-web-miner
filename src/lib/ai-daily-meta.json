@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-11-23-ai-daily",
+      "title": {
+        "en": "OpenAI Proposes Perplexity as a Shared Industry Metric and Publishes Internal Pretraining Measurements",
+        "ja": "OpenAI、perplexityを業界共通の指標として提案し、事前学習の計測値を公開",
+        "vi": "OpenAI đề xuất perplexity làm chỉ số chung của ngành và công bố số liệu đo trong huấn luyện tiền xử lý",
+        "zh-Hans": "OpenAI 提议以困惑度作为行业共享指标并公开内部预训练测量数据",
+        "zh-Hant": "OpenAI 提議以困惑度作為業界共享指標並公開內部預訓練量測數據"
+      },
+      "description": {
+        "en": "OpenAI published an argument for adopting perplexity as a shared metric for comparing models and for safety standards, and released its internal pretraining measurements. On the same day, on-device small models started outrunning parameter count: the 8B version became the national model of Laos, and the 2B version ran full health-report parsing on a Mac.",
+        "ja": "OpenAIがperplexity（交差エントロピー損失）をモデル比較と安全基準の共通指標として確立する提案を公開し、併せて事前学習の計測値も開示した。同日、エッジ実行の小型モデルはパラメータ数の競争を追い越した。8B版はラオス国家モデルとなり、2B版はMac上で健康診断報告の解析を完走した。",
+        "vi": "OpenAI công bố bài viết đề xuất thiết lập perplexity (cross-entropy loss) làm chỉ số chung để so sánh mô hình và làm chuẩn an toàn, đồng thời công khai số liệu đo nội bộ trong huấn luyện tiền xử lý. Cùng ngày, mô hình nhỏ chạy trên thiết bị đã bỏ xa cuộc đua số tham số: bản 8B trở thành mô hình quốc gia của Lào, còn bản 2B hoàn tất phân tích báo cáo khám sức khỏe ngay trên Mac.",
+        "zh-Hans": "OpenAI 撰文提议把 perplexity（交叉熵损失）确立为跨模型比较与安全标准的共享指标，并公开内部预训练测量数据。同日，端侧小模型 MiniCPM 的落地速度开始跑赢参数规模：8B 版本成为老挝国家模型，2B 版本在 Mac 上跑通了体检报告解析。",
+        "zh-Hant": "OpenAI 撰文提議把 perplexity（交叉熵損失）確立為跨模型比較與安全標準的共享指標，並公開內部預訓練量測數據。同日，端側小模型 MiniCPM 的落地速度開始跑贏參數規模：8B 版本成為寮國國家模型，2B 版本在 Mac 上跑通了健檢報告解析。"
+      },
+      "date": "2026-11-23",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-11-22-ai-daily",
       "title": {
         "en": "Anthropic Mathematician Says Claude Completed a Proof of the Riemann Hypothesis; Stanford Releases an All-Human Competing Draft Hours Later",
