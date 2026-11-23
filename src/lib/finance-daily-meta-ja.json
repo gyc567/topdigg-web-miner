@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-23-finance-daily",
+      "date": "2026-11-23",
+      "author": "瑞哥观势",
+      "tags": [
+        "金融ブリーフ",
+        "マクロ経済"
+      ],
+      "categories": [
+        "金融ブリーフ"
+      ],
+      "title": "デイリー金融ブリーフ | 2026-11-23",
+      "description": "金と銀が最高値を更新する一方、米国テック株は急落した。NVDAは一日で14.01%下落、TSLAは7.64%下落した。FOMCの10月議事録ではほぼ全ての委員が利上げ継続を支持し、ECBのラガールド総裁は早期退任を表明した。中国と米国は11月13日に貿易理事会の初のビデオ会議を開いた。市場は金融緩和ではなく、インフレと利上げを織り込んでいる。",
+      "source": {
+        "original": {
+          "name": "瑞哥観勢",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-22-finance-daily",
       "date": "2026-11-22",
       "author": "瑞哥观势",
@@ -609,26 +629,6 @@
         "original": {
           "name": "瑞哥観勢",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-13-finance-daily",
-      "date": "2026-10-13",
-      "author": "瑞哥观势",
-      "tags": [
-        "ファイナンスブリーフ",
-        "マクロ経済"
-      ],
-      "categories": [
-        "ファイナンスブリーフ"
-      ],
-      "title": "デイリーファイナンスブリーフ | 2026-10-13",
-      "description": "EUR小幅下落、金価格下落；A股主要3指数揃って下落；Fed月内利率据え置き確率82%；中EU16項目コンセンサス届くも貿易摩擦続く。",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWpj8p73otP1gSVVMppHYYZTCLFhPPNWVbHHT0a9-EJjC"
         }
       }
     }

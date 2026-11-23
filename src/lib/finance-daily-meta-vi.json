@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-23-finance-daily",
+      "date": "2026-11-23",
+      "author": "瑞哥观势",
+      "tags": [
+        "Bản tin tài chính",
+        "Kinh tế vĩ mô"
+      ],
+      "categories": [
+        "Bản tin tài chính"
+      ],
+      "title": "Bản tin tài chính hằng ngày | 2026-11-23",
+      "description": "Vàng và bạc lập đỉnh mới trong khi cổ phiếu công nghệ Mỹ sụp đổ: NVDA giảm 14,01% và TSLA giảm 7,64% trong một phiên. Biên bản FOMC tháng 10 cho thấy gần như toàn bộ ủy viên nghiêng về tiếp tục tăng lãi suất, bà Lagarde của ECB tuyên bố sẽ từ chức sớm, và Hội đồng Thương mại Trung-Mỹ đã họp video lần đầu ngày 13/11 để thúc đẩy khoản giảm thuế đối ứng 300 tỷ USD. Thị trường đang đánh cược lạm phát và lãi suất tăng, không phải cứu hộ.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-22-finance-daily",
       "date": "2026-11-22",
       "author": "瑞哥观势",
@@ -609,26 +629,6 @@
         "original": {
           "name": "Ruige Quan The",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-13-finance-daily",
-      "date": "2026-10-13",
-      "author": "瑞哥观势",
-      "tags": [
-        "Bản Tin Tài Chính",
-        "Kinh Tế Vĩ Mô"
-      ],
-      "categories": [
-        "Bản Tin Tài Chính"
-      ],
-      "title": "Bản Tin Tài Chính Hàng Ngày | 2026-10-13",
-      "description": "EUR giảm nhẹ, vàng điều chỉnh; A-shares giảm toàn bộ; Fed giữ lãi suất 82% khả năng; Trung-EU đạt 16 điểm đồng thuận nhưng căng thẳng thương mại tiếp diễn.",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWpj8p73otP1gSVVMppHYYZTCLFhPPNWVbHHT0a9-EJjC"
         }
       }
     }

@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-23-finance-daily",
+      "date": "2026-11-23",
+      "author": "瑞哥观势",
+      "tags": [
+        "财经简报",
+        "宏观经济"
+      ],
+      "categories": [
+        "财经简报"
+      ],
+      "title": "每日财经简报 | 2026-11-23",
+      "description": "黄金白银创新高而美股科技股崩塌：NVDA 单日跌 14.01%、TSLA 跌 7.64%，美联储 10 月纪要显示几乎所有官员倾向继续加息，ECB 拉加德提前卸任，中美贸易理事会 11 月 13 日首次视频会谈推进 300 亿对 300 亿对等降税安排。市场在交易通胀与加息，而不是降息救市。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-22-finance-daily",
       "date": "2026-11-22",
       "author": "瑞哥观势",
@@ -609,26 +629,6 @@
         "original": {
           "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-13-finance-daily",
-      "date": "2026-10-13",
-      "author": "瑞哥观势",
-      "tags": [
-        "财经简报",
-        "宏观经济"
-      ],
-      "categories": [
-        "财经简报"
-      ],
-      "title": "每日财经简报 | 2026-10-13",
-      "description": "外汇市场欧元微跌、黄金回落；A股三大指数集体收跌；Fed 10月维持利率概率82%；中欧达成16点共识但贸易摩擦持续。",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWpj8p73otP1gSVVMppHYYZTCLFhPPNWVbHHT0a9-EJjC"
         }
       }
     }

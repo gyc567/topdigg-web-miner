@@ -1,6 +1,76 @@
 {
   "reports": [
     {
+      "slug": "2026-11-23-finance-daily",
+      "title": {
+        "en": "Daily Finance Brief | 2026-11-23",
+        "ja": "デイリー金融ブリーフ | 2026-11-23",
+        "vi": "Bản tin tài chính hằng ngày | 2026-11-23",
+        "zh-Hans": "每日财经简报 | 2026-11-23",
+        "zh-Hant": "每日財經簡報 | 2026-11-23"
+      },
+      "description": {
+        "en": "Gold and silver hit new highs while US tech stocks collapsed: NVDA fell 14.01% and TSLA 7.64% in one session. Fed October minutes show nearly all officials leaning toward further rate hikes, ECB's Lagarde announced early departure, and the China-US Trade Council held its first video meeting on Nov 13 to advance the 30-billion-for-30-billion reciprocal tariff cut. Markets are trading inflation and rate hikes, not a bail-out.",
+        "ja": "金と銀が最高値を更新する一方、米国テック株は急落した。NVDAは一日で14.01%下落、TSLAは7.64%下落した。FOMCの10月議事録ではほぼ全ての委員が利上げ継続を支持し、ECBのラガールド総裁は早期退任を表明した。中国と米国は11月13日に貿易理事会の初のビデオ会議を開いた。市場は金融緩和ではなく、インフレと利上げを織り込んでいる。",
+        "vi": "Vàng và bạc lập đỉnh mới trong khi cổ phiếu công nghệ Mỹ sụp đổ: NVDA giảm 14,01% và TSLA giảm 7,64% trong một phiên. Biên bản FOMC tháng 10 cho thấy gần như toàn bộ ủy viên nghiêng về tiếp tục tăng lãi suất, bà Lagarde của ECB tuyên bố sẽ từ chức sớm, và Hội đồng Thương mại Trung-Mỹ đã họp video lần đầu ngày 13/11 để thúc đẩy khoản giảm thuế đối ứng 300 tỷ USD. Thị trường đang đánh cược lạm phát và lãi suất tăng, không phải cứu hộ.",
+        "zh-Hans": "黄金白银创新高而美股科技股崩塌：NVDA 单日跌 14.01%、TSLA 跌 7.64%，美联储 10 月纪要显示几乎所有官员倾向继续加息，ECB 拉加德提前卸任，中美贸易理事会 11 月 13 日首次视频会谈推进 300 亿对 300 亿对等降税安排。市场在交易通胀与加息，而不是降息救市。",
+        "zh-Hant": "黃金白銀創新高而美股科技股崩塌：NVDA 單日跌 14.01%、TSLA 跌 7.64%，聯準會 10 月紀要顯示幾乎所有官員傾向繼續加息，ECB 拉加德提前卸任，中美貿易理事會 11 月 13 日首次視訊會談推進 300 億對 300 億對等降稅安排。市場在交易通膨與升息，而不是降息救市。"
+      },
+      "date": "2026-11-23",
+      "author": "瑞哥观势",
+      "tags": {
+        "en": [
+          "Finance Brief",
+          "Macroeconomics"
+        ],
+        "ja": [
+          "金融ブリーフ",
+          "マクロ経済"
+        ],
+        "vi": [
+          "Bản tin tài chính",
+          "Kinh tế vĩ mô"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "總體經濟"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Brief"
+        ],
+        "ja": [
+          "金融ブリーフ"
+        ],
+        "vi": [
+          "Bản tin tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥観勢",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-22-finance-daily",
       "title": {
         "en": "Daily Financial Brief | 2026-11-22",

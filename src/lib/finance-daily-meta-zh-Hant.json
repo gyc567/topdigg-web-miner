@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-23-finance-daily",
+      "date": "2026-11-23",
+      "author": "瑞哥观势",
+      "tags": [
+        "財經簡報",
+        "總體經濟"
+      ],
+      "categories": [
+        "財經簡報"
+      ],
+      "title": "每日財經簡報 | 2026-11-23",
+      "description": "黃金白銀創新高而美股科技股崩塌：NVDA 單日跌 14.01%、TSLA 跌 7.64%，聯準會 10 月紀要顯示幾乎所有官員傾向繼續加息，ECB 拉加德提前卸任，中美貿易理事會 11 月 13 日首次視訊會談推進 300 億對 300 億對等降稅安排。市場在交易通膨與升息，而不是降息救市。",
+      "source": {
+        "original": {
+          "name": "瑞哥觀勢",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-22-finance-daily",
       "date": "2026-11-22",
       "author": "瑞哥观势",
@@ -609,26 +629,6 @@
         "original": {
           "name": "瑞哥觀勢",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-13-finance-daily",
-      "date": "2026-10-13",
-      "author": "瑞哥观势",
-      "tags": [
-        "財經簡報",
-        "巨觀經濟"
-      ],
-      "categories": [
-        "財經簡報"
-      ],
-      "title": "每日財經簡報 | 2026-10-13",
-      "description": "外匯市場歐元微跌、黃金回落；A股三大指數集體收跌；Fed 10月維持利率概率82%；中歐達成16點共識但貿易摩擦持續。",
-      "source": {
-        "original": {
-          "name": "瑞哥觀勢",
-          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWpj8p73otP1gSVVMppHYYZTCLFhPPNWVbHHT0a9-EJjC"
         }
       }
     }

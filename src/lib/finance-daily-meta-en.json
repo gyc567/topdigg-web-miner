@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-23-finance-daily",
+      "date": "2026-11-23",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "Daily Finance Brief | 2026-11-23",
+      "description": "Gold and silver hit new highs while US tech stocks collapsed: NVDA fell 14.01% and TSLA 7.64% in one session. Fed October minutes show nearly all officials leaning toward further rate hikes, ECB's Lagarde announced early departure, and the China-US Trade Council held its first video meeting on Nov 13 to advance the 30-billion-for-30-billion reciprocal tariff cut. Markets are trading inflation and rate hikes, not a bail-out.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-22-finance-daily",
       "date": "2026-11-22",
       "author": "瑞哥观势",
@@ -609,26 +629,6 @@
         "original": {
           "name": "Ruige Observer",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-13-finance-daily",
-      "date": "2026-10-13",
-      "author": "瑞哥观势",
-      "tags": [
-        "Finance Briefing",
-        "Macro Economy"
-      ],
-      "categories": [
-        "Finance Briefing"
-      ],
-      "title": "Daily Finance Briefing | 2026-10-13",
-      "description": "EUR slips, gold retreats; A-shares fall across the board; Fed holds rate at 82% probability; China-EU reach 16-point consensus but trade tensions persist.",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWpj8p73otP1gSVVMppHYYZTCLFhPPNWVbHHT0a9-EJjC"
         }
       }
     }
