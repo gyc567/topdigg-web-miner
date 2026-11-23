@@ -1,6 +1,6 @@
 ---
 name: auto-x-marketing
-description: Complete X/Twitter automated marketing AI employee. Use when planning X/Twitter content strategy, writing viral posts, analyzing audience growth, scheduling content calendar, or managing X Ads campaigns. Triggers: "帮我运营X账号", "写推文", "分析粉丝", "内容日历", "X Ads优化", "涨粉策略", "twitter marketing", "X campaign".
+description: 'Complete X/Twitter automated marketing AI employee. Use when planning X/Twitter content strategy, writing viral posts, analyzing audience growth, scheduling content calendar, or managing X Ads campaigns. Triggers: "帮我运营X账号", "写推文", "分析粉丝", "内容日历", "X Ads优化", "涨粉策略", "twitter marketing", "X campaign".'
 license: MIT
 compatibility: Works with Claude Code, OpenCode, and other skills-compatible agents. Requires network access for X API.
 metadata:

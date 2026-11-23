@@ -1,3 +1,8 @@
+---
+name: medium-writer
+description: 为 Medium Partner Program 撰写与发布可变现文章：选题、SEO、结构、发布流程、收益模型与变现策略。当用户要求写 Medium 文章、投稿 Medium、做 Medium 赚稿费或 Partner Program 时使用。
+---
+
 # Medium Writer
 
 Writing and publishing articles for the Medium Partner Program. Creating monetizable articles.

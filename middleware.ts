@@ -35,6 +35,14 @@ const VALID_ROUTES = new Set([
   "/creators/admin",
   "/advertisers",
   "/advertisers/dashboard",
+  // Checkout (Dodo Payments) — /checkout and /checkout/success
+  "/checkout",
+  // Auth & account
+  "/login",
+  "/register",
+  "/account",
+  "/forgot-password",
+  "/reset-password",
   // Vercel internals (should never 404)
   "/_vercel",
   "/__next",
@@ -96,7 +104,13 @@ export const config = {
      * - _next/image  (Next.js image optimization)
      * - favicon.ico
      * - public/      (files served directly from public/)
+     * - api/         (serverless functions)
+     *
+     * `api/` is excluded on purpose: the middleware answers unknown routes
+     * with a 404, and its pass-through `fetch(request)` would put the request
+     * body through an extra hop. The Dodo webhook endpoint must receive the
+     * exact raw bytes Dodo sent — the signature covers them.
      */
-    "/((?!_next/static|_next/image|favicon.ico|public/).*)",
+    "/((?!_next/static|_next/image|favicon.ico|public/|api/).*)",
   ],
 };

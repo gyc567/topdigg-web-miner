@@ -13,9 +13,18 @@ export default defineConfig(({ mode }) => ({
       'topdigg.com',                           // 你的生产域名
       'www.topdigg.com',
     ],
+    proxy: {
+      // Dodo Payments checkout session API — see scripts/dev-dodo-api.mjs
+      "/api": {
+        target: "http://127.0.0.1:3001",
+        changeOrigin: false,
+      },
+    },
     headers: {
-      // Allow Paddle checkout iframe in both sandbox and production
-      'Content-Security-Policy': "frame-ancestors https://sandbox-buy.paddle.com https://sandbox.paddle.com https://buy.paddle.com https://paddle.com",
+      // Dev-server CSP. Production (vercel.json) sends no CSP, so the Dodo
+      // overlay is unaffected there. frame-ancestors controls who may embed
+      // *this* page; the overlay embedding Dodo is governed by frame-src.
+      'Content-Security-Policy': "frame-ancestors 'self' https://checkout.dodopayments.com https://test.checkout.dodopayments.com",
     },
   },
   plugins: [

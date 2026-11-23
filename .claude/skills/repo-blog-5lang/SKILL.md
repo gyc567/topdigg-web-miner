@@ -1,6 +1,7 @@
 ---
 name: repo-blog-5lang
-description: 把一个 GitHub 仓库/项目/文章深度解析成 5 语言博客（zh-Hans 主稿 + en/zh-Hant/ja/vi），
+description: >-
+  把一个 GitHub 仓库/项目/文章深度解析成 5 语言博客（zh-Hans 主稿 + en/zh-Hant/ja/vi），
   经双重验证、本地 build 零错误后 commit + push 到 topdigg-web-miner 远程仓库。
   Trigger: 用户丢来一个仓库链接并要求"分析这个项目/内容""翻译成中文""归纳观点和结论"
   "生成详细易懂的文章 md 格式""要有详细教程/项目说明/设计哲学""中文版放 content/blog/zh-Hans，

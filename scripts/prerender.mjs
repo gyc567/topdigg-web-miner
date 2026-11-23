@@ -112,6 +112,15 @@ const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
  * 同时开启浏览器缓存，让共享 JS/JSON chunk 跨路由复用。
  */
 async function preparePage(page) {
+  // 关键：react-helmet-async 是用 requestAnimationFrame 往 <head> 写标签的。
+  // headless Chrome 会冻结非活动标签页的 rAF，而本脚本开多个并发 worker，
+  // 只有 1 个 page 处于激活状态 → 其余 page 的 Helmet 永远不生效，
+  // 产物会缺失 title/meta description/canonical（SEO 事故）。
+  // Emulation.setFocusEmulationEnabled 让每个 page 都视为聚焦，解冻其 rAF。
+  try {
+    const cdp = await page.createCDPSession();
+    await cdp.send("Emulation.setFocusEmulationEnabled", { enabled: true });
+  } catch { /* 不支持时退化为旧行为 */ }
   try {
     await page.setCacheEnabled(true);
   } catch { /* older puppeteer */ }
@@ -234,8 +243,13 @@ async function renderRoute(page, route) {
         // Helmet mutates <title> on every page that uses <SEO>.
         // Default <title> is from index.html (TopDigg - Discover Web Traffic & Business Opportunities);
         // once <SEO> runs it overwrites. Wait for non-default title = Helmet has applied.
+        //
+        // 必须精确匹配默认标题，不能用 includes("discover web traffic")：
+        // 首页 /about /privacy 等页面的真实 SEO 标题本身就含这串字
+        // （"Discover Web Traffic & Business Opportunities | TopDigg"），
+        // 用 includes 会让它们永远等不到条件成立 → 每次必超时 30s。
         const t = (document.title || "").toLowerCase();
-        if (t.includes("discover web traffic")) return false;
+        if (t === "topdigg - discover web traffic & business opportunities") return false;
         return true;
       },
       { timeout: waitTimeout },

@@ -2,12 +2,19 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { fileURLToPath } from 'url';
+import { isPaywalled } from '../src/config/paywall.ts';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// Paywall: when the section is gated, full content goes to api/_gated/ — bundled
+// ONLY into the entitlement-checked API function, never into the client bundle.
+// The client keeps metadata (lists, SEO) and fetches content at runtime.
+const GATED = isPaywalled('ai-daily');
 const contentDir = path.join(__dirname, '../content/ai-daily');
-const dataOutputFile = path.join(__dirname, '../src/lib/ai-daily-data.json');
+const dataOutputFile = GATED
+  ? path.join(__dirname, '../api/_gated/ai-daily-data.json')
+  : path.join(__dirname, '../src/lib/ai-daily-data.json');
 const metaOutputFile = path.join(__dirname, '../src/lib/ai-daily-meta.json');
 
 const LOCALES = ['zh-Hans', 'zh-Hant', 'en', 'ja', 'vi'];
@@ -128,11 +135,26 @@ function generateAiDailyData() {
     reports: sortedReports.map(({ content, ...meta }) => meta)
   };
 
+  if (GATED) {
+    fs.mkdirSync(path.dirname(dataOutputFile), { recursive: true });
+  }
   fs.writeFileSync(dataOutputFile, JSON.stringify(aiDailyData, null, 2));
   fs.writeFileSync(metaOutputFile, JSON.stringify(aiDailyMeta, null, 2));
-  console.log(
-    `✅ Generated ai-daily-data.json (${aiDailyData.reports.length} reports) and ai-daily-meta.json`
-  );
+  if (GATED) {
+    // Remove the stale client-bundle copy so the full text cannot leak into the JS.
+    const staleClientFile = path.join(__dirname, '../src/lib/ai-daily-data.json');
+    if (fs.existsSync(staleClientFile)) {
+      fs.rmSync(staleClientFile);
+      console.log('🚫 removed src/lib/ai-daily-data.json (gated — full content now lives in api/_gated/)');
+    }
+    console.log(
+      `🔒 GATED ai-daily: wrote api/_gated/ai-daily-data.json (${aiDailyData.reports.length} reports, ${Math.round(Buffer.byteLength(JSON.stringify(aiDailyData),'utf8')/1024)} KB) — not in client bundle`
+    );
+  } else {
+    console.log(
+      `✅ Generated ai-daily-data.json (${aiDailyData.reports.length} reports) and ai-daily-meta.json`
+    );
+  }
 
   // Generate per-locale meta files — only the 30 most recent
   const recent30 = sortedReports.slice(0, 30);

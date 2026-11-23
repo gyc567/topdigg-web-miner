@@ -1,6 +1,6 @@
 ---
 name: browser
-description: Automate web browser interactions via CLI. Use when user asks to: browse websites, navigate pages, extract data, take screenshots, fill forms, click buttons, or interact with web applications. Supports Chrome/Brave/Edge via agent-browser CLI.
+description: 'Automate web browser interactions via CLI. Use when user asks to: browse websites, navigate pages, extract data, take screenshots, fill forms, click buttons, or interact with web applications. Supports Chrome/Brave/Edge via agent-browser CLI.'
 ---
 
 # Browser Automation

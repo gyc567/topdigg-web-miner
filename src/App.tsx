@@ -35,7 +35,12 @@ const AdvertiserLanding = lazy(() => import("./pages/AdvertiserLanding"));
 const AdvertiserDashboard = lazy(() => import("./pages/AdvertiserDashboard"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
-const PaddleCheckout = lazy(() => import("./pages/PaddleCheckout"));
+const DodoCheckout = lazy(() => import("./pages/DodoCheckout"));
+const Login = lazy(() => import("./pages/Login"));
+const Register = lazy(() => import("./pages/Register"));
+const Account = lazy(() => import("./pages/Account"));
+const ForgotPassword = lazy(() => import("./pages/ForgotPassword"));
+const ResetPassword = lazy(() => import("./pages/ResetPassword"));
 
 const App = () => (
   <HelmetProvider>
@@ -70,7 +75,12 @@ const App = () => (
               <Route path="/creators/admin" element={<AdminLogin />} />
               <Route path="/advertisers" element={<AdvertiserLanding />} />
               <Route path="/advertisers/dashboard" element={<AdvertiserDashboard />} />
-              <Route path="/checkout" element={<PaddleCheckout />} />
+              <Route path="/checkout" element={<DodoCheckout />} />
+              <Route path="/login" element={<Login />} />
+              <Route path="/register" element={<Register />} />
+              <Route path="/account" element={<Account />} />
+              <Route path="/forgot-password" element={<ForgotPassword />} />
+              <Route path="/reset-password" element={<ResetPassword />} />
               <Route path="/about" element={<About />} />
               <Route path="/privacy" element={<Privacy />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

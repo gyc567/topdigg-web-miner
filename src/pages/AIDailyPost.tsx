@@ -8,6 +8,8 @@ import { siteConfig } from "@/config/site";
 import { useTranslation } from "react-i18next";
 import { normalizeLang, localizeText, type SupportedLocale } from "@/lib/locale";
 import { aiDailyDataSource } from "@/lib/ai-daily-data";
+import { useSession } from "@/lib/auth-client";
+import { ARTICLE_UNLOCK_CREDITS } from "@/config/paywall";
 import type { AIDailyMeta } from "@/lib/ai-daily-data";
 import MarkdownContent from "@/components/MarkdownContent";
 import { makeBlogPostingSchema, makeBreadcrumbList, makeFAQPageSchema } from "@/lib/jsonld";
@@ -65,20 +67,31 @@ const AIDailyPost = () => {
   const { i18n, t } = useTranslation();
   const currentLocale = normalizeLang(i18n.language) as SupportedLocale;
 
+  const { data: session } = useSession();
+  const [redeeming, setRedeeming] = useState(false);
+  const [redeemError, setRedeemError] = useState("");
+  const meta = useMemo(
+    () => (slug ? aiDailyDataSource.getReportBySlug(slug) : undefined),
+    [slug]
+  );
   const [fullPost, setFullPost] = useState<AIDailyPost | null>(null);
   const [loading, setLoading] = useState(true);
+  const [notFound, setNotFound] = useState(false);
 
   useEffect(() => {
-    if (!slug) {
+    if (!slug || !meta) {
       setLoading(false);
+      setNotFound(true);
       return;
     }
     setLoading(true);
+    setNotFound(false);
+    // 付费栏目：全文由校验过权限的 API 返回；401/403 时保持 null → 下方 teaser + CTA。
     aiDailyDataSource.getReportWithContent(slug).then((post) => {
       setFullPost(post ?? null);
       setLoading(false);
     });
-  }, [slug]);
+  }, [slug, meta]);
 
   if (loading) {
     return (
@@ -88,7 +101,7 @@ const AIDailyPost = () => {
     );
   }
 
-  if (!fullPost) {
+  if (notFound || !meta) {
     return (
       <>
         <SEO title={t("post.notFoundTitle")} description={t("post.notFoundDesc")} path={`/ai-daily/${slug}`} noIndex />
@@ -97,16 +110,46 @@ const AIDailyPost = () => {
     );
   }
 
-  const resolved = aiDailyDataSource.resolve(fullPost, currentLocale);
-  const postPath = `/ai-daily/${fullPost.slug}`;
+  const post = fullPost ?? meta;
+  const denied = !fullPost;
+
+  async function handleUnlock() {
+    if (!slug) return;
+    setRedeeming(true);
+    setRedeemError("");
+    try {
+      const res = await fetch("/api/credits/redeem", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ slug, section: "ai-daily" }),
+      });
+      if (res.ok) {
+        const post = await aiDailyDataSource.getReportWithContent(slug);
+        if (post) {
+          setFullPost(post);
+          return;
+        }
+      }
+      const err = await res.json().catch(() => ({}));
+      setRedeemError(
+        err?.error === "Insufficient credits" ? t("paywall.insufficient") : t("paywall.redeemFailed")
+      );
+    } catch {
+      setRedeemError(t("paywall.redeemFailed"));
+    } finally {
+      setRedeeming(false);
+    }
+  }
+  const resolved = aiDailyDataSource.resolve(post, currentLocale);
+  const postPath = `/ai-daily/${post.slug}`;
 
   const jsonLd = makeBlogPostingSchema({
     title: resolved.title,
     description: resolved.description,
     url: postPath,
-    datePublished: fullPost.date,
-    authorName: fullPost.author,
-    tags: fullPost.tags,
+    datePublished: post.date,
+    authorName: post.author,
+    tags: post.tags,
   });
 
   const breadcrumbs = [
@@ -142,8 +185,8 @@ const AIDailyPost = () => {
         type="article"
         jsonLd={[jsonLd, breadcrumbSchema, faqSchema]}
         breadcrumbs={breadcrumbs}
-        publishedTime={fullPost.date}
-        author={fullPost.author}
+        publishedTime={post.date}
+        author={post.author}
       />
 
       <article className="max-w-none">
@@ -152,25 +195,25 @@ const AIDailyPost = () => {
           <div className="flex items-center gap-2 text-sm text-muted-foreground mb-3">
             <span className="text-primary font-medium">{t("aiDaily.indexTitle")}</span>
             <span>·</span>
-            <time dateTime={fullPost.date}>{formatDate(fullPost.date)}</time>
+            <time dateTime={post.date}>{formatDate(post.date)}</time>
           </div>
 
           {/* Source info */}
           <div className="flex flex-wrap items-center gap-2 text-sm mb-4">
             <Badge variant="outline">
               {t("aiDaily.aggregator")}：
-              {fullPost.source.aggregator_url ? (
+              {post.source.aggregator_url ? (
                 <a
-                  href={fullPost.source.aggregator_url}
+                  href={post.source.aggregator_url}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-primary ml-1 underline underline-offset-2"
                 >
-                  {fullPost.source.aggregator}
+                  {post.source.aggregator}
                   <ExternalLinkIcon className="inline h-3 w-3 ml-0.5" />
                 </a>
               ) : (
-                <span className="ml-1">{fullPost.source.aggregator}</span>
+                <span className="ml-1">{post.source.aggregator}</span>
               )}
             </Badge>
             {resolved.source.original.name && resolved.source.original.name !== resolved.source.aggregator && (
@@ -199,7 +242,7 @@ const AIDailyPost = () => {
           <p className="text-muted-foreground mb-4">{resolved.description}</p>
 
           <div className="flex flex-wrap gap-1.5">
-            {fullPost.tags.map((tag) => (
+            {post.tags.map((tag) => (
               <Badge key={tag} variant="secondary" className="text-xs">
                 {tag}
               </Badge>
@@ -207,7 +250,41 @@ const AIDailyPost = () => {
           </div>
         </header>
 
-        <MarkdownContent content={resolved.content || ""} className="mb-8" />
+        {denied ? (
+          <div
+            data-paywall-locked
+            className="my-8 rounded-xl border border-dashed p-8 text-center"
+          >
+            <p className="text-muted-foreground mb-4">{t("paywall.teaser")}</p>
+            {session?.user ? (
+              <div className="flex flex-col items-center gap-3">
+                <Button onClick={handleUnlock} disabled={redeeming}>
+                  {redeeming
+                    ? "…"
+                    : t("paywall.unlock", { cost: ARTICLE_UNLOCK_CREDITS })}
+                </Button>
+                {redeemError && (
+                  <p className="text-sm text-destructive">{redeemError}</p>
+                )}
+                <p className="text-xs text-muted-foreground">{t("paywall.orSubscribe")}</p>
+                <Link to="/checkout">
+                  <Button variant="outline">{t("paywall.subscribe")}</Button>
+                </Link>
+              </div>
+            ) : (
+              <div className="flex flex-wrap justify-center gap-3">
+                <Link to="/login">
+                  <Button variant="outline">{t("paywall.login")}</Button>
+                </Link>
+                <Link to="/checkout">
+                  <Button>{t("paywall.subscribe")}</Button>
+                </Link>
+              </div>
+            )}
+          </div>
+        ) : (
+          <MarkdownContent content={resolved.content || ""} className="mb-8" />
+        )}
         <div className="mt-8 pt-6 border-t">
           <Link to="/ai-daily">
             <Button variant="ghost" className="pl-0 hover:pl-2 transition-all">
@@ -217,7 +294,7 @@ const AIDailyPost = () => {
           </Link>
         </div>
         <AuthorBio />
-        <RelatedReports currentSlug={fullPost.slug} tags={fullPost.tags} />
+        <RelatedReports currentSlug={post.slug} tags={post.tags} />
       </article>
     </>
   );
