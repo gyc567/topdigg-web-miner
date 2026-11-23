@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-23-ai-daily",
+      "date": "2026-11-23",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "OpenAI Proposes Perplexity as a Shared Industry Metric and Publishes Internal Pretraining Measurements",
+      "description": "OpenAI published an argument for adopting perplexity as a shared metric for comparing models and for safety standards, and released its internal pretraining measurements. On the same day, on-device small models started outrunning parameter count: the 8B version became the national model of Laos, and the 2B version ran full health-report parsing on a Mac.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-22-ai-daily",
       "date": "2026-11-22",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Moonshot AI Releases Kimi K3.1 Pro with 1M Token Context and Open Weights",
       "description": "Moonshot AI released Kimi K3.1 Pro, a 3T-parameter open-weights model with a 1 million token context window, alongside the 2-3x faster Kimi K3.1 Pro Highspeed; the same day MiniMax open-weighted M3.1 Flash with 428B total parameters and 23B active per token. OpenAI detailed the hardening and red-teaming of its frontier model training environment, while Anthropic published a Claude Mythos 5 alignment assessment and the credential isolation design of the Claude Duet agent.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-23-ai-daily",
-      "date": "2026-10-23",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "AI Uncovers a Decade-Old PHP Low-Level Vulnerability: A Full Retrospective of the PHP2Shell Incident",
-      "description": "Two PHP remote code execution vulnerabilities with CVSS scores of 9.2 leaked before patches shipped, with OpenAI claiming GPT-5.6 Sol helped with the discovery; on the same day OpenAI released the Decisions API, Anthropic donated the Agent Skills standard to the Linux Foundation, and DeepSeek raised a new round of roughly $15 billion.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

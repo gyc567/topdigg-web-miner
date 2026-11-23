@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-23-ai-daily",
+      "date": "2026-11-23",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "OpenAI、perplexityを業界共通の指標として提案し、事前学習の計測値を公開",
+      "description": "OpenAIがperplexity（交差エントロピー損失）をモデル比較と安全基準の共通指標として確立する提案を公開し、併せて事前学習の計測値も開示した。同日、エッジ実行の小型モデルはパラメータ数の競争を追い越した。8B版はラオス国家モデルとなり、2B版はMac上で健康診断報告の解析を完走した。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-22-ai-daily",
       "date": "2026-11-22",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Moonshot AI が Kimi K3.1 Pro を発表、100万トークンコンテキスト、11月4日以前にオープンウェイト公開",
       "description": "Moonshot AI は 3T パラメータのオープンウェイトモデル Kimi K3.1 Pro を発表（コンテキストウィンドウ100万トークン）、同時に2〜3倍高速な Kimi K3.1 Pro Highspeed もリリース。同日 MiniMax が M3.1 Flash のウェイトを公開し、総パラメータ428B、トークンあたり23Bが活性。OpenAI は最前線モデル学習環境のセキュリティ強化とレッドチーム試験を明かし、Anthropic は Claude Mythos 5 のアライメント評価と Claude Duet エージェントの資格情報分離設計を公表した。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-23-ai-daily",
-      "date": "2026-10-23",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "AIが10年以上目を潜むPHP底层の脆弱性を発見、PHP2Shell事件の全体像を振り返る",
-      "description": "CVSS 9.2点というPHPのリモートコード実行脆弱性2件がパッチ公開前に漏洩し、OpenAIはGPT-5.6 Solの支援による発見を認める。同じ日にOpenAIはDecisions APIを発表し、AnthropicはAgent Skills標準をLinux Foundationに寄付、DeepSeekは新たな資金調達で約150億ドルに達した。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",
