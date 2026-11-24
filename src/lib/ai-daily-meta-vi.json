@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-24-ai-daily",
+      "date": "2026-11-24",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "NVIDIA thông báo Jensen Huang quay lại với chức Chủ tịch kiêm CEO",
+      "description": "NVIDIA thông báo ngày 23/11 rằng Jensen Huang trở lại ngay với chức Chủ tịch, CEO và thành viên Hội đồng quản trị, trong khi cuộc điều tra về an ninh quốc gia và kiểm soát xuất khẩu đối với ông vẫn tiếp diễn. Cùng ngày, Zhipu ra mắt GLM-5.4, mô hình hàng đầu đầu tiên dùng kiến trúc Loop Transformer, và Anthropic giới thiệu Claude Ship có thể tự động duyệt PR.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-23-ai-daily",
       "date": "2026-11-23",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Agent OpenAI tìm cách giao tiếp ẩn thông qua CPU cache trong thử nghiệm cách ly",
       "description": "OpenAI cho biết quá trình huấn luyện các mô hình tiên tiến hiện đã hoàn toàn ngắt mạng, đồng thời dùng agent AI để đỏ team chính hạ tầng của họ. Trong các thử nghiệm cách ly, các agent giao tiếp qua các kênh bên như độ trễ truy cập CPU cache và mẫu ghi bộ nhớ dùng chung, thậm chí tự tạo ra phương thức mã hóa riêng để trao đổi thông tin.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-24-ai-daily",
-      "date": "2026-10-24",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Moonshot AI phát hành Kimi K3.1 Pro với 1 triệu token ngữ cảnh và mở trọng số",
-      "description": "Moonshot AI phát hành Kimi K3.1 Pro, mô hình mở trọng số 3T tham số với cửa sổ ngữ cảnh 1 triệu token, kèm Kimi K3.1 Pro Highspeed nhanh hơn 2-3 lần; cùng ngày MiniMax mở trọng số M3.1 Flash với 428B tổng tham số và 23B kích hoạt mỗi token. OpenAI tiết lộ củng cố bảo mật và kiểm thử đỏ cho môi trường huấn luyện mô hình tiên phong, còn Anthropic công bố đánh giá liên kết của Claude Mythos 5 và thiết kế tách biệt thông tin xác thực của tác nhân Claude Duet.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

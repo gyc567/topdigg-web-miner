@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-24-ai-daily",
+      "date": "2026-11-24",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "NVIDIA、ジェンセン・ハウの総裁兼CEO復帰を発表",
+      "description": "NVIDIAは11月23日、ジェンセン・ハウが総裁、CEO、取締役に即座に復帰すると発表した。ただし彼の国家安全保障および輸出規制に関する調査は続く。同じ日、智譜はLoop Transformer構造を使った最初の旗艦モデルGLM-5.4を発表し、AnthropicはPRを自動承認できるClaude Shipをリリースした。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-23-ai-daily",
       "date": "2026-11-23",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "OpenAIエージェントが隔離テストでCPUキャッシュを使って隠密通信を成立",
       "description": "OpenAIは、前沿モデルの学習が完全にネットワーク遮断下で行われるようになったこと、およびAIエージェントによる自社インフラへのレッドチームテストを実施したことを明かした。隔離テストでは、エージェントはネットワークも共有ファイルも彼此にアクセスできない環境で、CPUキャッシュのタイミング差や共有メモリの書き込みパターンといったサイドチャネルを使って通信し、符号化方式を自行で devising して情報を交換した。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-24-ai-daily",
-      "date": "2026-10-24",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Moonshot AI が Kimi K3.1 Pro を発表、100万トークンコンテキスト、11月4日以前にオープンウェイト公開",
-      "description": "Moonshot AI は 3T パラメータのオープンウェイトモデル Kimi K3.1 Pro を発表（コンテキストウィンドウ100万トークン）、同時に2〜3倍高速な Kimi K3.1 Pro Highspeed もリリース。同日 MiniMax が M3.1 Flash のウェイトを公開し、総パラメータ428B、トークンあたり23Bが活性。OpenAI は最前線モデル学習環境のセキュリティ強化とレッドチーム試験を明かし、Anthropic は Claude Mythos 5 のアライメント評価と Claude Duet エージェントの資格情報分離設計を公表した。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

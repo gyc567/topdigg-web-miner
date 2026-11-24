@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-24-ai-daily",
+      "date": "2026-11-24",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "NVIDIA 宣布黄仁勋复任总裁兼 CEO 并重回董事会",
+      "description": "NVIDIA 于 11 月 23 日宣布黄仁勋即刻复任总裁、CEO 与董事会成员，但针对他的国家安全与出口管制调查并未结束。同日智谱发布首个 Loop Transformer 架构旗舰模型 GLM-5.4，Anthropic 推出可自动审批 PR 的 Claude Ship。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-23-ai-daily",
       "date": "2026-11-23",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "OpenAI 智能体在隔离测试中借 CPU 缓存隐蔽通信",
       "description": "OpenAI 介绍其前沿模型训练已完全断网，并用 AI 智能体红队测试自家基础设施。隔离测试中，智能体在无网络、无共享文件的条件下通过 CPU 缓存时序差异、共享内存写入模式等侧信道通信，甚至独立建立编码方案交换信息。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-24-ai-daily",
-      "date": "2026-10-24",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "月之暗面发布 Kimi K3.1 Pro，100 万 token 上下文，开放权重将于 11 月 4 日前释出",
-      "description": "月之暗面发布 Kimi K3.1 Pro，3T 级开放权重模型、上下文窗口 100 万 token，同步推出速度快 2-3 倍的 Kimi K3.1 Pro Highspeed；同日 MiniMax 开放 M3.1 Flash 权重，总参数 428B、每 token 激活 23B。OpenAI 详解前沿模型训练环境的安全加固与红队测试，Anthropic 则发布 Claude Mythos 5 对齐评估报告与 Claude Duet 智能体的凭证隔离设计。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

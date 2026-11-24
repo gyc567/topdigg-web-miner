@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-11-24-ai-daily",
+      "title": {
+        "en": "NVIDIA Announces Jensen Huang's Return as President and CEO",
+        "ja": "NVIDIA、ジェンセン・ハウの総裁兼CEO復帰を発表",
+        "vi": "NVIDIA thông báo Jensen Huang quay lại với chức Chủ tịch kiêm CEO",
+        "zh-Hans": "NVIDIA 宣布黄仁勋复任总裁兼 CEO 并重回董事会",
+        "zh-Hant": "NVIDIA 宣布黃仁勳復任總裁兼 CEO 並重回董事會"
+      },
+      "description": {
+        "en": "NVIDIA announced on November 23 that Jensen Huang is immediately returning as president, CEO and board member, while the national security and export control investigation into him continues. The same day, Zhipu shipped GLM-5.4, the first flagship on the Loop Transformer architecture, and Anthropic launched Claude Ship, which can auto-approve pull requests.",
+        "ja": "NVIDIAは11月23日、ジェンセン・ハウが総裁、CEO、取締役に即座に復帰すると発表した。ただし彼の国家安全保障および輸出規制に関する調査は続く。同じ日、智譜はLoop Transformer構造を使った最初の旗艦モデルGLM-5.4を発表し、AnthropicはPRを自動承認できるClaude Shipをリリースした。",
+        "vi": "NVIDIA thông báo ngày 23/11 rằng Jensen Huang trở lại ngay với chức Chủ tịch, CEO và thành viên Hội đồng quản trị, trong khi cuộc điều tra về an ninh quốc gia và kiểm soát xuất khẩu đối với ông vẫn tiếp diễn. Cùng ngày, Zhipu ra mắt GLM-5.4, mô hình hàng đầu đầu tiên dùng kiến trúc Loop Transformer, và Anthropic giới thiệu Claude Ship có thể tự động duyệt PR.",
+        "zh-Hans": "NVIDIA 于 11 月 23 日宣布黄仁勋即刻复任总裁、CEO 与董事会成员，但针对他的国家安全与出口管制调查并未结束。同日智谱发布首个 Loop Transformer 架构旗舰模型 GLM-5.4，Anthropic 推出可自动审批 PR 的 Claude Ship。",
+        "zh-Hant": "NVIDIA 於 11 月 23 日宣布黃仁勳即刻復任總裁、CEO 與董事會成員，但針對他的國家安全與出口管制調查並未結束。同日智譜發布首個 Loop Transformer 架構旗艦模型 GLM-5.4，Anthropic 推出可自動審批 PR 的 Claude Ship。"
+      },
+      "date": "2026-11-24",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-11-23-ai-daily",
       "title": {
         "en": "OpenAI Proposes Perplexity as a Shared Industry Metric and Publishes Internal Pretraining Measurements",
