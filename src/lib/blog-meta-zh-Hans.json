@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "slug": "2026-11-24-ai-agent-2027-shifts",
+      "date": "2026-11-24",
+      "author": "瑞哥观势",
+      "tags": [
+        "ai-applications",
+        "enterprise-ai",
+        "ai-agents",
+        "cost-optimization",
+        "management-methods"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "别再用AI更快干蠢事：一位AI公司CEO讲透2027年的5个转变",
+      "description": "Every 联合创始人 Dan Shipper 的 9 分钟访谈讲了五个思维转变：先找唯一制约因素、你加AI胜过团队加AI、角色设计胜过提示词工程、数据权益才是护城河、没有学习循环就不叫智能体。"
+    },
+    {
       "slug": "2026-11-23-chatgpt-beginner-guide",
       "date": "2026-11-23",
       "author": "瑞哥观势",

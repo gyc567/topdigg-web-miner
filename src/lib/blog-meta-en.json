@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "slug": "2026-11-24-ai-agent-2027-shifts",
+      "date": "2026-11-24",
+      "author": "瑞哥观势",
+      "tags": [
+        "ai-applications",
+        "enterprise-ai",
+        "ai-agents",
+        "cost-optimization",
+        "management-methods"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "Stop Using AI to Do Stupid Things Faster: An AI Company CEO Breaks Down the 5 Shifts for 2027",
+      "description": "In a 9-minute interview, Every cofounder Dan Shipper walks through five shifts in thinking: find the single constraint, you plus AI beats your team plus AI, role design beats prompt engineering, data equity is the real moat, and no learning loop means it is not an agent."
+    },
+    {
       "slug": "2026-11-23-chatgpt-beginner-guide",
       "date": "2026-11-23",
       "author": "瑞哥观势",

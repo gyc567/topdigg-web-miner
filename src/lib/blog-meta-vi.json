@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "slug": "2026-11-24-ai-agent-2027-shifts",
+      "date": "2026-11-24",
+      "author": "瑞哥观势",
+      "tags": [
+        "ai-applications",
+        "enterprise-ai",
+        "ai-agents",
+        "cost-optimization",
+        "management-methods"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "Đừng dùng AI để nhanh hơn trong việc làm điều ngu: Một CEO công ty AI bóc sẻ 5 chuyển đổi của năm 2027",
+      "description": "Bài phỏng vấn 9 phút của Dan Shipper, đồng sáng lập Every, nói về 5 chuyển đổi tư duy: tìm nút thắt duy nhất, bạn dùng AI tốt hơn cả đội ngũ, thiết kế vai trò thay cho prompt engineering, quyền lợi dữ liệu mới là pháo đài, và không có vòng lặp học thì không gọi là agent."
+    },
+    {
       "slug": "2026-11-23-chatgpt-beginner-guide",
       "date": "2026-11-23",
       "author": "瑞哥观势",

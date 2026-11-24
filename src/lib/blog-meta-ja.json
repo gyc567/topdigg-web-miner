@@ -1,6 +1,23 @@
 {
   "posts": [
     {
+      "slug": "2026-11-24-ai-agent-2027-shifts",
+      "date": "2026-11-24",
+      "author": "瑞哥观势",
+      "tags": [
+        "ai-applications",
+        "enterprise-ai",
+        "ai-agents",
+        "cost-optimization",
+        "management-methods"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "AIで速く馬鹿なことをするのをやめよう：あるAI企業のCEOが語る2027年の5つの転換",
+      "description": "Every の共同創業者 Dan Shipper 氏の9分インタビューで語られた5つの思考の転換。唯一の制約要因を特定すること、自分の成長がチームの成長より先であること、ロール設計はプロンプトエンジニアリングより価値が高いこと、データ資産が堀の本体、フィードバックループがなければエージェントは単なる自動化であること。"
+    },
+    {
       "slug": "2026-11-23-chatgpt-beginner-guide",
       "date": "2026-11-23",
       "author": "瑞哥观势",

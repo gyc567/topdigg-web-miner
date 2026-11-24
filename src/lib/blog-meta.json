@@ -1,6 +1,35 @@
 {
   "posts": [
     {
+      "slug": "2026-11-24-ai-agent-2027-shifts",
+      "title": {
+        "en": "Stop Using AI to Do Stupid Things Faster: An AI Company CEO Breaks Down the 5 Shifts for 2027",
+        "ja": "AIで速く馬鹿なことをするのをやめよう：あるAI企業のCEOが語る2027年の5つの転換",
+        "vi": "Đừng dùng AI để nhanh hơn trong việc làm điều ngu: Một CEO công ty AI bóc sẻ 5 chuyển đổi của năm 2027",
+        "zh-Hans": "别再用AI更快干蠢事：一位AI公司CEO讲透2027年的5个转变",
+        "zh-Hant": "別再用AI更快幹蠢事：一位AI公司CEO講透2027年的5個轉變"
+      },
+      "description": {
+        "en": "In a 9-minute interview, Every cofounder Dan Shipper walks through five shifts in thinking: find the single constraint, you plus AI beats your team plus AI, role design beats prompt engineering, data equity is the real moat, and no learning loop means it is not an agent.",
+        "ja": "Every の共同創業者 Dan Shipper 氏の9分インタビューで語られた5つの思考の転換。唯一の制約要因を特定すること、自分の成長がチームの成長より先であること、ロール設計はプロンプトエンジニアリングより価値が高いこと、データ資産が堀の本体、フィードバックループがなければエージェントは単なる自動化であること。",
+        "vi": "Bài phỏng vấn 9 phút của Dan Shipper, đồng sáng lập Every, nói về 5 chuyển đổi tư duy: tìm nút thắt duy nhất, bạn dùng AI tốt hơn cả đội ngũ, thiết kế vai trò thay cho prompt engineering, quyền lợi dữ liệu mới là pháo đài, và không có vòng lặp học thì không gọi là agent.",
+        "zh-Hans": "Every 联合创始人 Dan Shipper 的 9 分钟访谈讲了五个思维转变：先找唯一制约因素、你加AI胜过团队加AI、角色设计胜过提示词工程、数据权益才是护城河、没有学习循环就不叫智能体。",
+        "zh-Hant": "Every 聯合創辦人 Dan Shipper 的 9 分鐘訪談講了五個思維轉變：先找唯一制約因素、你加AI勝過團隊加AI、角色設計勝過提示詞工程、資料權益才是護城河、沒有學習循環就不叫智慧體。"
+      },
+      "date": "2026-11-24",
+      "author": "瑞哥观势",
+      "tags": [
+        "ai-applications",
+        "enterprise-ai",
+        "ai-agents",
+        "cost-optimization",
+        "management-methods"
+      ],
+      "categories": [
+        "AI应用"
+      ]
+    },
+    {
       "slug": "2026-11-23-chatgpt-beginner-guide",
       "title": {
         "en": "ChatGPT Beginner's Guide: Don't Rush to Pay, Boss, Learn the Free Tier First",
