@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-24-finance-daily",
+      "date": "2026-11-24",
+      "author": "瑞哥观势",
+      "tags": [
+        "Financial Brief",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Financial Brief"
+      ],
+      "title": "Daily Financial Brief | 2026-11-24",
+      "description": "Nvidia's board unanimously reinstated Jensen Huang as CEO, eleven days after his resignation. NVDA closed up 31.48% and the Nasdaq surged 6.51%. But RSI at 42.9 with the stock still below its 20-day and 50-day moving averages makes this an oversold repair, not a trend reversal. Meanwhile the Fed's October minutes point to further rate hikes while Treasury Secretary Bessent warns that over-tightening endangers the US economy.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-23-finance-daily",
       "date": "2026-11-23",
       "author": "瑞哥观势",
@@ -606,29 +626,6 @@
         "original": {
           "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWqnaVEA5uuu_cnsgy1djwxUdxyDwyuzL57SWHGEXOuQP"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-14-finance-daily",
-      "date": "2026-10-14",
-      "author": "瑞哥观势",
-      "tags": [
-        "finance briefing",
-        "macro economy",
-        "forex",
-        "US stocks",
-        "central banks"
-      ],
-      "categories": [
-        "Finance Briefing"
-      ],
-      "title": "Daily Finance Briefing | 2026-10-14",
-      "description": "Global market roundup for Oct 14: USD steady, gold holds highs, AAPL and NVDA push to new highs; ECB inflation jumps, Fed rate-hike expectations rise, China-EU trade frictions escalate, Iran Hormuz standoff continues.",
-      "source": {
-        "original": {
-          "name": "Ruige Observer",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
     }

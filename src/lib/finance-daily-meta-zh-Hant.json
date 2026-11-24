@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-24-finance-daily",
+      "date": "2026-11-24",
+      "author": "瑞哥观势",
+      "tags": [
+        "財經簡報",
+        "宏觀經濟"
+      ],
+      "categories": [
+        "財經簡報"
+      ],
+      "title": "每日財經簡報 | 2026-11-24",
+      "description": "輝達董事會一致表決恢復黃仁勳 CEO 職務，辭職到復職僅 11 天，NVDA 收漲 31.48%，那斯達克指數暴漲 6.51%。但 RSI 僅 42.9 且股價仍壓在 20/50 日均線下方，是超賣修復而非趨勢反轉。聯準會 10 月紀要顯示幾乎所有官員認為需繼續升息，財長貝森特卻警告過度緊縮危及美國經濟，12 月會議成關鍵節點。",
+      "source": {
+        "original": {
+          "name": "瑞哥觀勢",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-23-finance-daily",
       "date": "2026-11-23",
       "author": "瑞哥观势",
@@ -606,29 +626,6 @@
         "original": {
           "name": "瑞哥觀勢",
           "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWqnaVEA5uuu_cnsgy1djwxUdxyDwyuzL57SWHGEXOuQP"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-14-finance-daily",
-      "date": "2026-10-14",
-      "author": "瑞哥观势",
-      "tags": [
-        "財經簡報",
-        "宏觀經濟",
-        "外匯",
-        "美股",
-        "央行"
-      ],
-      "categories": [
-        "財經簡報"
-      ],
-      "title": "每日財經簡報 | 2026-10-14",
-      "description": "10月14日全球市場綜述：美元震盪、黃金高位企穩，蘋果輝達續創新高；ECB通膨跳升、Fed升息預期升溫，中歐貿易摩擦升級，伊朗荷莫茲海峽僵局持續。",
-      "source": {
-        "original": {
-          "name": "瑞哥觀勢",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
     }

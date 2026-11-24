@@ -1,6 +1,76 @@
 {
   "reports": [
     {
+      "slug": "2026-11-24-finance-daily",
+      "title": {
+        "en": "Daily Financial Brief | 2026-11-24",
+        "ja": "デイリー金融ブリーフ | 2026-11-24",
+        "vi": "Bản tin tài chính hằng ngày | 2026-11-24",
+        "zh-Hans": "每日财经简报 | 2026-11-24",
+        "zh-Hant": "每日財經簡報 | 2026-11-24"
+      },
+      "description": {
+        "en": "Nvidia's board unanimously reinstated Jensen Huang as CEO, eleven days after his resignation. NVDA closed up 31.48% and the Nasdaq surged 6.51%. But RSI at 42.9 with the stock still below its 20-day and 50-day moving averages makes this an oversold repair, not a trend reversal. Meanwhile the Fed's October minutes point to further rate hikes while Treasury Secretary Bessent warns that over-tightening endangers the US economy.",
+        "ja": "エヌビディア取締役会は黄仁勲のCEO復職を全会一致で承認しました。辞任からわずか11日。NVDAは31.48%上昇、ナスダックは6.51%高。ただしRSIは42.9で、株価は20日線と50日線を下回っています。トレンド転換ではなく売られ過ぎからの修復局面です。FRBの10月議事録は追加の利上げを示唆する一方、財務長官ベッセントは過剰な引き締めが経済を脅かすと警告しています。",
+        "vi": "Hội đồng quản trị Nvidia nhất trí bầu lại Jensen Huang vào vị trí CEO chỉ 11 ngày sau khi ông từ chức, NVDA tăng 31.48% và Nasdaq bật 6.51%. Nhưng RSI chỉ 42.9 và giá vẫn nằm dưới đường trung bình 20/50 ngày, nên đây là nhịp hồi phục sau bán quá độ chứ không phải đảo chiều xu hướng. Biên bản tháng 10 của Fed cho thấy gần như toàn bộ ủy viên cho rằng cần tiếp tục tăng lãi suất, trong khi Bộ trưởng Tài chính Bessent cảnh báo việc siết quá mức có thể đe dọa nền kinh tế Mỹ, khiến cuộc họp tháng 12 trở thành mốc then chốt.",
+        "zh-Hans": "英伟达董事会一致表决恢复黄仁勋 CEO 职务，辞职到复职仅 11 天，NVDA 收涨 31.48%，纳指暴涨 6.51%。但 RSI 仅 42.9 且股价仍压在 20/50 日均线下方，是超卖修复而非趋势反转。美联储 10 月纪要显示几乎所有官员认为需继续加息，财长贝森特却警告过度紧缩危及美国经济，12 月会议成关键节点。",
+        "zh-Hant": "輝達董事會一致表決恢復黃仁勳 CEO 職務，辭職到復職僅 11 天，NVDA 收漲 31.48%，那斯達克指數暴漲 6.51%。但 RSI 僅 42.9 且股價仍壓在 20/50 日均線下方，是超賣修復而非趨勢反轉。聯準會 10 月紀要顯示幾乎所有官員認為需繼續升息，財長貝森特卻警告過度緊縮危及美國經濟，12 月會議成關鍵節點。"
+      },
+      "date": "2026-11-24",
+      "author": "瑞哥观势",
+      "tags": {
+        "en": [
+          "Financial Brief",
+          "Macroeconomics"
+        ],
+        "ja": [
+          "金融ブリーフ",
+          "マクロ経済"
+        ],
+        "vi": [
+          "Bản tin tài chính",
+          "Kinh tế vĩ mô"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "宏觀經濟"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Financial Brief"
+        ],
+        "ja": [
+          "金融ブリーフ"
+        ],
+        "vi": [
+          "Bản tin tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-23-finance-daily",
       "title": {
         "en": "Daily Finance Brief | 2026-11-23",

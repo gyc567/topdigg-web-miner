@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-24-finance-daily",
+      "date": "2026-11-24",
+      "author": "瑞哥观势",
+      "tags": [
+        "金融ブリーフ",
+        "マクロ経済"
+      ],
+      "categories": [
+        "金融ブリーフ"
+      ],
+      "title": "デイリー金融ブリーフ | 2026-11-24",
+      "description": "エヌビディア取締役会は黄仁勲のCEO復職を全会一致で承認しました。辞任からわずか11日。NVDAは31.48%上昇、ナスダックは6.51%高。ただしRSIは42.9で、株価は20日線と50日線を下回っています。トレンド転換ではなく売られ過ぎからの修復局面です。FRBの10月議事録は追加の利上げを示唆する一方、財務長官ベッセントは過剰な引き締めが経済を脅かすと警告しています。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-23-finance-daily",
       "date": "2026-11-23",
       "author": "瑞哥观势",
@@ -606,29 +626,6 @@
         "original": {
           "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWqnaVEA5uuu_cnsgy1djwxUdxyDwyuzL57SWHGEXOuQP"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-14-finance-daily",
-      "date": "2026-10-14",
-      "author": "瑞哥观势",
-      "tags": [
-        "金融ブリーフィング",
-        "マクロ経済",
-        "為替",
-        "米国株",
-        "中央銀行"
-      ],
-      "categories": [
-        "金融ブリーフィング"
-      ],
-      "title": "デイリー金融ブリーフィング | 2026-10-14",
-      "description": "10月14日グローバル市場概況：ドルはもみ合い金は高値維持、AAPL・NVDAは最高値圏、ECBインフレ急上昇・Fed利上げ観測、中EU貿易摩擦激化、イラン・ホルムズ海峡対立継続。",
-      "source": {
-        "original": {
-          "name": "瑞哥観勢",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
     }

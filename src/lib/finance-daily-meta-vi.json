@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-24-finance-daily",
+      "date": "2026-11-24",
+      "author": "瑞哥观势",
+      "tags": [
+        "Bản tin tài chính",
+        "Kinh tế vĩ mô"
+      ],
+      "categories": [
+        "Bản tin tài chính"
+      ],
+      "title": "Bản tin tài chính hằng ngày | 2026-11-24",
+      "description": "Hội đồng quản trị Nvidia nhất trí bầu lại Jensen Huang vào vị trí CEO chỉ 11 ngày sau khi ông từ chức, NVDA tăng 31.48% và Nasdaq bật 6.51%. Nhưng RSI chỉ 42.9 và giá vẫn nằm dưới đường trung bình 20/50 ngày, nên đây là nhịp hồi phục sau bán quá độ chứ không phải đảo chiều xu hướng. Biên bản tháng 10 của Fed cho thấy gần như toàn bộ ủy viên cho rằng cần tiếp tục tăng lãi suất, trong khi Bộ trưởng Tài chính Bessent cảnh báo việc siết quá mức có thể đe dọa nền kinh tế Mỹ, khiến cuộc họp tháng 12 trở thành mốc then chốt.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-23-finance-daily",
       "date": "2026-11-23",
       "author": "瑞哥观势",
@@ -606,29 +626,6 @@
         "original": {
           "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWqnaVEA5uuu_cnsgy1djwxUdxyDwyuzL57SWHGEXOuQP"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-14-finance-daily",
-      "date": "2026-10-14",
-      "author": "瑞哥观势",
-      "tags": [
-        "bản tin tài chính",
-        "kinh tế vĩ mô",
-        "ngoại hối",
-        "chứng khoán Mỹ",
-        "ngân hàng trung ương"
-      ],
-      "categories": [
-        "Bản Tin Tài Chính"
-      ],
-      "title": "Bản Tin Tài Chính Hàng Ngày | 2026-10-14",
-      "description": "Tổng quan thị trường toàn cầu ngày 14/10: USD đi ngang, vàng giữ đỉnh, AAPL và NVDA tiến tới đỉnh mới; lạm phát ECB tăng vọt, kỳ vọng Fed tăng lãi suất dâng cao, căng thẳng thương mại Trung-Quốc EU leo thang, bế tắc eo biển Hormuz Iran tiếp diễn.",
-      "source": {
-        "original": {
-          "name": "Ruige Quan The",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
     }

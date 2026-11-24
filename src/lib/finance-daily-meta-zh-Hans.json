@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-24-finance-daily",
+      "date": "2026-11-24",
+      "author": "瑞哥观势",
+      "tags": [
+        "财经简报",
+        "宏观经济"
+      ],
+      "categories": [
+        "财经简报"
+      ],
+      "title": "每日财经简报 | 2026-11-24",
+      "description": "英伟达董事会一致表决恢复黄仁勋 CEO 职务，辞职到复职仅 11 天，NVDA 收涨 31.48%，纳指暴涨 6.51%。但 RSI 仅 42.9 且股价仍压在 20/50 日均线下方，是超卖修复而非趋势反转。美联储 10 月纪要显示几乎所有官员认为需继续加息，财长贝森特却警告过度紧缩危及美国经济，12 月会议成关键节点。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-23-finance-daily",
       "date": "2026-11-23",
       "author": "瑞哥观势",
@@ -606,29 +626,6 @@
         "original": {
           "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWqnaVEA5uuu_cnsgy1djwxUdxyDwyuzL57SWHGEXOuQP"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-14-finance-daily",
-      "date": "2026-10-14",
-      "author": "瑞哥观势",
-      "tags": [
-        "财经简报",
-        "宏观经济",
-        "外汇",
-        "美股",
-        "央行"
-      ],
-      "categories": [
-        "财经简报"
-      ],
-      "title": "每日财经简报 | 2026-10-14",
-      "description": "10月14日全球市场综述：美元震荡、黄金高位企稳，苹果英伟达续创新高；ECB通胀跳升、Fed加息预期升温，中欧贸易摩擦升级，伊朗霍尔木兹海峡僵局持续。",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
     }
