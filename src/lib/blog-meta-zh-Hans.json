@@ -18,6 +18,23 @@
       "description": "Every 联合创始人 Dan Shipper 的 9 分钟访谈讲了五个思维转变：先找唯一制约因素、你加AI胜过团队加AI、角色设计胜过提示词工程、数据权益才是护城河、没有学习循环就不叫智能体。"
     },
     {
+      "slug": "2026-11-24-wallstreet-explainer",
+      "date": "2026-11-24",
+      "author": "瑞哥观势",
+      "tags": [
+        "open-source-project-analysis",
+        "ai-tools",
+        "video-production",
+        "content-production",
+        "cost-optimization"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "1157星的AI视频工厂：老板抄哪三件事",
+      "description": "wallstreet-explainer 是一个 1157 星的开源项目，把「把一笔复杂账目讲成 30 秒到 3 分钟的财经短视频」做成了一条可复现的流水线。这一篇拆开它的渲染外壳，指出真正值钱的三样东西：每一镜必须写清观众多懂了什么、能被机器验的规则就不写成人肉纪律、每条片都要留出处清单。它真正的价值是降低信任成本，不是生产成本。同时提醒一个坑：它自己的样片数据已经过期了。"
+    },
+    {
       "slug": "2026-11-23-chatgpt-beginner-guide",
       "date": "2026-11-23",
       "author": "瑞哥观势",

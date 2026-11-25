@@ -18,6 +18,23 @@
       "description": "In a 9-minute interview, Every cofounder Dan Shipper walks through five shifts in thinking: find the single constraint, you plus AI beats your team plus AI, role design beats prompt engineering, data equity is the real moat, and no learning loop means it is not an agent."
     },
     {
+      "slug": "2026-11-24-wallstreet-explainer",
+      "date": "2026-11-24",
+      "author": "瑞哥观势",
+      "tags": [
+        "open-source-project-analysis",
+        "ai-tools",
+        "video-production",
+        "content-production",
+        "cost-optimization"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "The 1157-Star AI Video Factory: Three Things a Boss Should Copy",
+      "description": "wallstreet-explainer is a 1157-star open source project that turned \"explaining one complicated financial story as a 30-second to 3-minute video\" into a reproducible pipeline. This piece strips away the rendering shell and names the three things that actually matter: write what the viewer understands in every shot, never turn machine-checkable rules into human discipline, and keep a source list on every piece. Its real payoff is lower trust cost, not lower production cost. Plus one warning: its own sample videos are already out of date."
+    },
+    {
       "slug": "2026-11-23-chatgpt-beginner-guide",
       "date": "2026-11-23",
       "author": "瑞哥观势",

@@ -18,6 +18,23 @@
       "description": "Bài phỏng vấn 9 phút của Dan Shipper, đồng sáng lập Every, nói về 5 chuyển đổi tư duy: tìm nút thắt duy nhất, bạn dùng AI tốt hơn cả đội ngũ, thiết kế vai trò thay cho prompt engineering, quyền lợi dữ liệu mới là pháo đài, và không có vòng lặp học thì không gọi là agent."
     },
     {
+      "slug": "2026-11-24-wallstreet-explainer",
+      "date": "2026-11-24",
+      "author": "瑞哥观势",
+      "tags": [
+        "open-source-project-analysis",
+        "ai-tools",
+        "video-production",
+        "content-production",
+        "cost-optimization"
+      ],
+      "categories": [
+        "AI应用"
+      ],
+      "title": "Xưởng làm video AI 1157 sao: ba điều ông chủ nên chép lại",
+      "description": "wallstreet-explainer là một dự án mã nguồn mở 1157 sao, biến việc \"kể một bản số phức tạp thành video tài chính dài từ 30 giây đến 3 phút\" thành một quy trình có thể lặp lại. Bài viết bóc lớp vỏ render và chỉ ra ba thứ thực sự đáng giá: với mỗi cảnh phải viết rõ khán giả hiểu thêm điều gì, quy tắc máy kiểm tra được thì đừng biến thành kỷ luật của con người, và mỗi bản phát hành đều phải giữ danh sách nguồn. Giá trị thật của nó là giảm chi phí tin cậy, không phải giảm chi phí sản xuất. Và một cảnh báo: dữ liệu trong chính các video mẫu của nó đã lỗi thời."
+    },
+    {
       "slug": "2026-11-23-chatgpt-beginner-guide",
       "date": "2026-11-23",
       "author": "瑞哥观势",

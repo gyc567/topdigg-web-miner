@@ -30,6 +30,35 @@
       ]
     },
     {
+      "slug": "2026-11-24-wallstreet-explainer",
+      "title": {
+        "en": "The 1157-Star AI Video Factory: Three Things a Boss Should Copy",
+        "ja": "1157スターのAI動画工場：社長が真似すべき3つのこと",
+        "vi": "Xưởng làm video AI 1157 sao: ba điều ông chủ nên chép lại",
+        "zh-Hans": "1157星的AI视频工厂：老板抄哪三件事",
+        "zh-Hant": "1157星的AI影片工廠：老闆該抄哪三件事"
+      },
+      "description": {
+        "en": "wallstreet-explainer is a 1157-star open source project that turned \"explaining one complicated financial story as a 30-second to 3-minute video\" into a reproducible pipeline. This piece strips away the rendering shell and names the three things that actually matter: write what the viewer understands in every shot, never turn machine-checkable rules into human discipline, and keep a source list on every piece. Its real payoff is lower trust cost, not lower production cost. Plus one warning: its own sample videos are already out of date.",
+        "ja": "wallstreet-explainer は 1157 スターのオープンソースプロジェクトで、「複雑な金融の数字を1つ、30秒から3分のショート動画として語る」を再現可能なパイプラインに落とし込みました。この本はレンダリングの外殻を剥がして、本当に価値がある3つを指摘します。カットごとに「観客の理解がどれだけ深まったか」を書く、機械で検証できるルールを人手的規律にしない、公開する1件ごとに出典リストを残す。本当に安いのは生産コストではなく信頼コスト。さらに注意点が1つ。そのサンプル映像のデータはすでに陳腐化しています。",
+        "vi": "wallstreet-explainer là một dự án mã nguồn mở 1157 sao, biến việc \"kể một bản số phức tạp thành video tài chính dài từ 30 giây đến 3 phút\" thành một quy trình có thể lặp lại. Bài viết bóc lớp vỏ render và chỉ ra ba thứ thực sự đáng giá: với mỗi cảnh phải viết rõ khán giả hiểu thêm điều gì, quy tắc máy kiểm tra được thì đừng biến thành kỷ luật của con người, và mỗi bản phát hành đều phải giữ danh sách nguồn. Giá trị thật của nó là giảm chi phí tin cậy, không phải giảm chi phí sản xuất. Và một cảnh báo: dữ liệu trong chính các video mẫu của nó đã lỗi thời.",
+        "zh-Hans": "wallstreet-explainer 是一个 1157 星的开源项目，把「把一笔复杂账目讲成 30 秒到 3 分钟的财经短视频」做成了一条可复现的流水线。这一篇拆开它的渲染外壳，指出真正值钱的三样东西：每一镜必须写清观众多懂了什么、能被机器验的规则就不写成人肉纪律、每条片都要留出处清单。它真正的价值是降低信任成本，不是生产成本。同时提醒一个坑：它自己的样片数据已经过期了。",
+        "zh-Hant": "wallstreet-explainer 是一個 1157 星的開源專案，把「把一筆複雜帳目講成 30 秒到 3 分鐘的財經短影片」做成了一條可重現的流水線。這一篇拆開它的渲染外殼，指出真正值錢的三樣東西：每一鏡必須寫清觀眾多懂了什麼、能被機器驗的規則就不寫成人肉紀律、每條片都要留出處清單。它真正的價值是降低信任成本，不是生產成本。同時提醒一個坑：它自己的樣片數據已經過期了。"
+      },
+      "date": "2026-11-24",
+      "author": "瑞哥观势",
+      "tags": [
+        "open-source-project-analysis",
+        "ai-tools",
+        "video-production",
+        "content-production",
+        "cost-optimization"
+      ],
+      "categories": [
+        "AI应用"
+      ]
+    },
+    {
       "slug": "2026-11-23-chatgpt-beginner-guide",
       "title": {
         "en": "ChatGPT Beginner's Guide: Don't Rush to Pay, Boss, Learn the Free Tier First",
