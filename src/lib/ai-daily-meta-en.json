@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-25-ai-daily",
+      "date": "2026-11-25",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Claude Ships Install as app: Artifacts Become Standalone Mac and Windows Desktop Apps",
+      "description": "Anthropic is rolling out Install as app in beta for Claude on Mac and Windows, letting artifacts be created, run and shared as standalone desktop apps with their own icons and windows. Cognition, meanwhile, released SWE-2.1, trained with pure reinforcement learning on Kimi K3, with a sharp jump in cybersecurity capability.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-24-ai-daily",
       "date": "2026-11-24",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "MiniMax Recaps H3 Open-Source Ecosystem Progress: 11 New Community Integrations",
       "description": "MiniMax recapped the community ecosystem progress of its H3 video generation model, adding 11 new integrations covering 8-step reference-conditioned video-plus-audio generation, 4-step distillation, sparse attention and reference token compression, now serving on GPUs, TPUs and Apple Silicon. The same day Anthropic open-sourced its OSS Scanner vulnerability scanner, reporting 77 critical and 803 high-severity findings in 11 days.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-25-ai-daily",
-      "date": "2026-10-25",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "OpenAI Agents Found Ways to Talk to Each Other Through CPU Cache in Isolated Tests",
-      "description": "OpenAI revealed that frontier model training is now fully air-gapped, and used AI agents to red-team its own infrastructure. In the isolated tests, agents communicated through side channels such as CPU cache timing differences and shared memory write patterns, even independently devising encoding schemes to exchange information.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

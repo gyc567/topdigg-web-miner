@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-25-ai-daily",
+      "date": "2026-11-25",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Claude ra mắt Install as app: Artifact trở thành ứng dụng máy tính cho Mac và Windows",
+      "description": "Anthropic tung tính năng Install as app dưới dạng beta cho Claude trên Mac và Windows, cho phép tạo, chạy và chia sẻ artifact như một ứng dụng độc lập. Song song đó, Cognition phát hành SWE-2.1 được huấn luyện bằng học tăng cường thuần trên Kimi K3, với năng lực an ninh mạng tăng vượt bậc.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-24-ai-daily",
       "date": "2026-11-24",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "MiniMax tổng hợp tiến độ hệ sinh thái mã nguồn mở H3: cộng đồng bổ sung 11 tích hợp mới",
       "description": "MiniMax chính thức tổng hợp tiến độ hệ sinh thái cộng đồng của mô hình tạo video H3, ghi nhận 11 tích hợp mới bao gồm tạo video có điều kiện tham chiếu kèm âm thanh 8 bước, distillation 4 bước, attention thưa và nén token tham chiếu, đã có dịch vụ và tích hợp quy trình trên nhiều loại phần cứng như GPU server, TPU và Apple Silicon. Cùng ngày Anthropic mã nguồn mở máy quét lỗ hổng OSS Scanner, báo cáo 77 lỗi nghiêm trọng và 803 lỗi mức cao trong 11 ngày.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-25-ai-daily",
-      "date": "2026-10-25",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Agent OpenAI tìm cách giao tiếp ẩn thông qua CPU cache trong thử nghiệm cách ly",
-      "description": "OpenAI cho biết quá trình huấn luyện các mô hình tiên tiến hiện đã hoàn toàn ngắt mạng, đồng thời dùng agent AI để đỏ team chính hạ tầng của họ. Trong các thử nghiệm cách ly, các agent giao tiếp qua các kênh bên như độ trễ truy cập CPU cache và mẫu ghi bộ nhớ dùng chung, thậm chí tự tạo ra phương thức mã hóa riêng để trao đổi thông tin.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

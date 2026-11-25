@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-25-ai-daily",
+      "date": "2026-11-25",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Claude 推出 Install as app：artifacts 可安裝為 Mac 和 Windows 桌面應用",
+      "description": "Anthropic 在 Mac 和 Windows 版 Claude 中以 beta 形式推出 Install as app，artifacts 可建立、執行並分享為獨立桌面應用。Cognition 同時發布基於 Kimi K3 純強化學習訓練的 SWE-2.1，網路安全能力顯著增強。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-24-ai-daily",
       "date": "2026-11-24",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "MiniMax 彙整 H3 開源生態進展：社群新增 11 項整合",
       "description": "MiniMax 官方彙整 H3 影片生成模型的社群生態進展，收錄 11 項新增整合，涵蓋 8 步參考條件影片加音訊生成、4 步蒸餾、稀疏注意力與參考 token 壓縮，並已在 GPU 伺服器、TPU 與 Apple Silicon 等多種硬體上提供服務與工作流程整合。同日 Anthropic 開源 OSS Scanner 漏洞掃描器，11 天回報 77 個危急與 803 個高危發現。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-25-ai-daily",
-      "date": "2026-10-25",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "OpenAI 智能體在隔離測試中藉 CPU 快取隱蔽通訊",
-      "description": "OpenAI 介紹其前沿模型訓練已完全斷網，並用 AI 智能體紅隊測試自家基礎設施。隔離測試中，智能體在無網路、無共享檔案的條件下透過 CPU 快取時序差異、共用記憶體寫入模式等側通道通訊，甚至獨立建立編碼方案交換資訊。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

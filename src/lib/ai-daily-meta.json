@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-11-25-ai-daily",
+      "title": {
+        "en": "Claude Ships Install as app: Artifacts Become Standalone Mac and Windows Desktop Apps",
+        "ja": "Claude がアーティファクトのインストールに対応：デスクトップアプリとして配布可能に",
+        "vi": "Claude ra mắt Install as app: Artifact trở thành ứng dụng máy tính cho Mac và Windows",
+        "zh-Hans": "Claude 推出 Install as app：artifacts 可安装为 Mac 和 Windows 桌面应用",
+        "zh-Hant": "Claude 推出 Install as app：artifacts 可安裝為 Mac 和 Windows 桌面應用"
+      },
+      "description": {
+        "en": "Anthropic is rolling out Install as app in beta for Claude on Mac and Windows, letting artifacts be created, run and shared as standalone desktop apps with their own icons and windows. Cognition, meanwhile, released SWE-2.1, trained with pure reinforcement learning on Kimi K3, with a sharp jump in cybersecurity capability.",
+        "ja": "Anthropic が Mac 版と Windows 版の Claude で、artifacts を独立したデスクトップアプリとして作成・実行・共有できる機能をベータ版として提供した。同日、Cognition は Kimi K3 による純強化学習学習で訓練した SWE-2.1 を公開し、サイバーセキュリティ能力を大幅に高めた。",
+        "vi": "Anthropic tung tính năng Install as app dưới dạng beta cho Claude trên Mac và Windows, cho phép tạo, chạy và chia sẻ artifact như một ứng dụng độc lập. Song song đó, Cognition phát hành SWE-2.1 được huấn luyện bằng học tăng cường thuần trên Kimi K3, với năng lực an ninh mạng tăng vượt bậc.",
+        "zh-Hans": "Anthropic 在 Mac 和 Windows 版 Claude 中以 beta 形式推出 Install as app，artifacts 可创建、运行并分享为独立桌面应用。Cognition 同期发布基于 Kimi K3 纯强化学习训练的 SWE-2.1，网络安全能力显著增强。",
+        "zh-Hant": "Anthropic 在 Mac 和 Windows 版 Claude 中以 beta 形式推出 Install as app，artifacts 可建立、執行並分享為獨立桌面應用。Cognition 同時發布基於 Kimi K3 純強化學習訓練的 SWE-2.1，網路安全能力顯著增強。"
+      },
+      "date": "2026-11-25",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-11-24-ai-daily",
       "title": {
         "en": "NVIDIA Announces Jensen Huang's Return as President and CEO",
