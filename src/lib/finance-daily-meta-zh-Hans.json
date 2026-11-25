@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-25-finance-daily",
+      "date": "2026-11-25",
+      "author": "瑞哥观势",
+      "tags": [
+        "财经简报",
+        "宏观经济"
+      ],
+      "categories": [
+        "财经简报"
+      ],
+      "title": "每日财经简报 | 2026-11-25",
+      "description": "美债10年期收益率突破5%、创2007年以来新高，贴现率锚在上行：NVDA单日重挫5.86%至155.38美元，金银齐跌，白银-5.19%；美联储加息周期已走25个基点，中国11月LPR连续18个月按兵不动，霍尔木兹海峡美伊对抗升级。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-24-finance-daily",
       "date": "2026-11-24",
       "author": "瑞哥观势",
@@ -606,26 +626,6 @@
         "original": {
           "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-15-finance-daily",
-      "date": "2026-10-15",
-      "author": "瑞哥观势",
-      "tags": [
-        "财经简报",
-        "宏观经济"
-      ],
-      "categories": [
-        "财经简报"
-      ],
-      "title": "每日财经简报 | 2026-10-15",
-      "description": "外汇市场：EUR/USD 1.1202，USD/JPY 157.79；美股：苹果微涨0.49%至$342.96，特斯拉跌2.15%，英伟达跌3.16%；黄金$4142.70/盎司小幅回调；美联储按兵不动，中美元首通话重启贸易磋商。",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWqnaVEA5uuu_cnsgy1djwxUdxyDwyuzL57SWHGEXOuQP"
         }
       }
     }

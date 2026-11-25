@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-25-finance-daily",
+      "date": "2026-11-25",
+      "author": "瑞哥观势",
+      "tags": [
+        "Bản tin tài chính",
+        "Kinh tế vĩ mô"
+      ],
+      "categories": [
+        "Bản tin tài chính"
+      ],
+      "title": "Bản tin tài chính hằng ngày | 2026-11-25",
+      "description": "Lợi suất trái phiếu Mỹ 10 năm phá vỡ mốc 5%, cao nhất kể từ năm 2007, kéo tỷ lệ chiết khấu của mọi tài sản đi lên: NVDA giảm mạnh 5.86% còn 155.38 USD, vàng bạc cùng giảm với bạc mất 5.19%. Chu kỳ siết tiền tệ của Fed đã đi hết 25 điểm cơ bản, LPR Trung Quốc giữ nguyên tháng thứ 18 liên tiếp, và căng thẳng Mỹ - Iran quanh eo Hormuz tiếp tục leo thang.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-24-finance-daily",
       "date": "2026-11-24",
       "author": "瑞哥观势",
@@ -606,26 +626,6 @@
         "original": {
           "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-15-finance-daily",
-      "date": "2026-10-15",
-      "author": "瑞哥观势",
-      "tags": [
-        "Bản Tin Tài Chính",
-        "Kinh Tế Vĩ Mô"
-      ],
-      "categories": [
-        "Bản Tin Tài Chính"
-      ],
-      "title": "Bản Tin Tài Chính Hàng Ngày | 2026-10-15",
-      "description": "Ngoại hối: EUR/USD 1.1202, USD/JPY 157.79; Chứng khoán Mỹ: AAPL +0.49% tại $342.96, TSLA -2.15%, NVDA -3.16%; Vàng $4,142.70/oz điều chỉnh nhẹ; Fed giữ lãi suất, lãnh đạo Trung-Mỹ nối lại đàm phán thương mại.",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWqnaVEA5uuu_cnsgy1djwxUdxyDwyuzL57SWHGEXOuQP"
         }
       }
     }

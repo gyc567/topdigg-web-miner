@@ -1,6 +1,76 @@
 {
   "reports": [
     {
+      "slug": "2026-11-25-finance-daily",
+      "title": {
+        "en": "Daily Financial Brief | 2026-11-25",
+        "ja": "デイリー財務ブリーフ | 2026-11-25",
+        "vi": "Bản tin tài chính hằng ngày | 2026-11-25",
+        "zh-Hans": "每日财经简报 | 2026-11-25",
+        "zh-Hant": "每日財經簡報 | 2026-11-25"
+      },
+      "description": {
+        "en": "The 10-year Treasury yield broke above 5%, the highest since 2007, pushing the discount rate anchor higher: NVDA slumped 5.86% to $155.38, gold and silver fell together with silver down 5.19%. The Fed tightening cycle has delivered 25 basis points, China's LPR stayed flat for an 18th month, and US-Iran tensions around the Strait of Hormuz escalated.",
+        "ja": "米国10年債の利回りが5%を突破し、2007年以来の最高水準となりました。割引率の基準が上振れし、NVDAは前日比5.86%安の155.38ドル、金銀はそろって下落して銀は5.19%安となりました。FRBの利上げ局面は25ベーシスポイント進行。中国のLPRは18カ月連続で据え置き。ホルムズ海峡周辺で米イラン対立が激化しています。",
+        "vi": "Lợi suất trái phiếu Mỹ 10 năm phá vỡ mốc 5%, cao nhất kể từ năm 2007, kéo tỷ lệ chiết khấu của mọi tài sản đi lên: NVDA giảm mạnh 5.86% còn 155.38 USD, vàng bạc cùng giảm với bạc mất 5.19%. Chu kỳ siết tiền tệ của Fed đã đi hết 25 điểm cơ bản, LPR Trung Quốc giữ nguyên tháng thứ 18 liên tiếp, và căng thẳng Mỹ - Iran quanh eo Hormuz tiếp tục leo thang.",
+        "zh-Hans": "美债10年期收益率突破5%、创2007年以来新高，贴现率锚在上行：NVDA单日重挫5.86%至155.38美元，金银齐跌，白银-5.19%；美联储加息周期已走25个基点，中国11月LPR连续18个月按兵不动，霍尔木兹海峡美伊对抗升级。",
+        "zh-Hant": "美債10年期殖利率突破5%、創2007年以來新高，貼現率錨在上行：NVDA單日重挫5.86%至155.38美元，金銀齊跌，白銀-5.19%；聯準會升息週期已走25個基點，中國11月LPR連續18個月按兵不動，霍爾木茲海峽美伊對抗升級。"
+      },
+      "date": "2026-11-25",
+      "author": "瑞哥观势",
+      "tags": {
+        "en": [
+          "Financial Brief",
+          "Macroeconomics"
+        ],
+        "ja": [
+          "財務ブリーフ",
+          "マクロ経済"
+        ],
+        "vi": [
+          "Bản tin tài chính",
+          "Kinh tế vĩ mô"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "總體經濟"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Financial Brief"
+        ],
+        "ja": [
+          "財務ブリーフ"
+        ],
+        "vi": [
+          "Bản tin tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-24-finance-daily",
       "title": {
         "en": "Daily Financial Brief | 2026-11-24",

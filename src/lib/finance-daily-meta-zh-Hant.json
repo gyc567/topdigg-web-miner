@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-25-finance-daily",
+      "date": "2026-11-25",
+      "author": "瑞哥观势",
+      "tags": [
+        "財經簡報",
+        "總體經濟"
+      ],
+      "categories": [
+        "財經簡報"
+      ],
+      "title": "每日財經簡報 | 2026-11-25",
+      "description": "美債10年期殖利率突破5%、創2007年以來新高，貼現率錨在上行：NVDA單日重挫5.86%至155.38美元，金銀齊跌，白銀-5.19%；聯準會升息週期已走25個基點，中國11月LPR連續18個月按兵不動，霍爾木茲海峽美伊對抗升級。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-24-finance-daily",
       "date": "2026-11-24",
       "author": "瑞哥观势",
@@ -606,26 +626,6 @@
         "original": {
           "name": "瑞哥觀勢",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-15-finance-daily",
-      "date": "2026-10-15",
-      "author": "瑞哥观势",
-      "tags": [
-        "財經簡報",
-        "巨觀經濟"
-      ],
-      "categories": [
-        "財經簡報"
-      ],
-      "title": "每日財經簡報 | 2026-10-15",
-      "description": "外匯市場：EUR/USD 1.1202，USD/JPY 157.79；美股：蘋果微漲0.49%至$342.96，特斯拉跌2.15%，輝達跌3.16%；黃金$4142.70/盎司小幅回調；美聯儲按兵不動，中美元首通話重啟貿易磋商。",
-      "source": {
-        "original": {
-          "name": "瑞哥觀勢",
-          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWqnaVEA5uuu_cnsgy1djwxUdxyDwyuzL57SWHGEXOuQP"
         }
       }
     }
