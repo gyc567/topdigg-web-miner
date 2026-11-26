@@ -52,3 +52,4 @@ api/_gated/
 
 # 生产环境变量（含密钥，勿提交）
 vercel-env-production.txt
+.alma-snapshots
