@@ -1,7 +1,7 @@
 /**
  * Better Auth instance — the single source of truth for authentication.
  *
- * Runs on the Node runtime (api/auth/[...all].ts) with a Postgres backend.
+ * Runs on the Node runtime (api/auth/index.ts) with a Postgres backend.
  * The @dodopayments/better-auth plugin wires Dodo in: automatic customer
  * creation on signup, authenticated checkout, and the customer portal.
  */

@@ -47,7 +47,7 @@ const checkoutHandler = interop(await import("../api/checkout.ts"));
 const webhookModule = await import("../api/webhooks/dodo.ts");
 const handleWebhook =
   webhookModule.handleWebhook ?? webhookModule.default?.handleWebhook;
-const authHandler = interop(await import("../api/auth/[...all].ts"));
+const authHandler = interop(await import("../api/auth/index.ts"));
 const accountHandler = interop(await import("../api/account.ts"));
 const contentHandler = interop(await import("../api/content/ai-daily/[slug].ts"));
 const redeemHandler = interop(await import("../api/credits/redeem.ts"));

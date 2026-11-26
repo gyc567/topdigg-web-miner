@@ -3,6 +3,10 @@
   "outputDirectory": "dist",
   "rewrites": [
     {
+      "source": "/api/auth/:path*",
+      "destination": "/api/auth?__auth_path=:path*"
+    },
+    {
       "source": "/((?!api/.*|.*\\.[a-zA-Z0-9]{2,5}$).*)",
       "destination": "/index.html"
     }
