@@ -4,7 +4,7 @@
  * The locale is derived from the request's Accept-Language header, so a user
  * receives the mail in the language their browser is set to.
  */
-import { sendEmail } from "./email";
+import { sendEmail } from "./email.js";
 
 type Locale = "zh-Hans" | "zh-Hant" | "en" | "ja" | "vi";
 

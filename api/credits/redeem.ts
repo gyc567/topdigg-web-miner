@@ -13,13 +13,13 @@
  *
  * Responses: 401 / 400 / 402 / 200 { unlocked, alreadyUnlocked, creditsSpent }
  */
-import { auth } from "../../src/lib/auth";
+import { auth } from "../../src/lib/auth.js";
 import { fromNodeHeaders } from "better-auth/node";
-import { dodo } from "../../src/lib/dodo";
-import { db } from "../../src/lib/db";
-import { contentUnlock } from "../../src/db/app-schema";
+import { dodo } from "../../src/lib/dodo.js";
+import { db } from "../../src/lib/db.js";
+import { contentUnlock } from "../../src/db/app-schema.js";
 import { and, eq } from "drizzle-orm";
-import { ARTICLE_UNLOCK_CREDITS } from "../../src/config/paywall";
+import { ARTICLE_UNLOCK_CREDITS } from "../../src/config/paywall.js";
 import { randomUUID } from "node:crypto";
 
 const CREDIT_ENTITLEMENT_ID = process.env.DODO_CREDIT_ENTITLEMENT_ID ?? "";
