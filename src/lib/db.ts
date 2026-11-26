@@ -21,7 +21,24 @@ if (!connectionString) {
   throw new Error("DATABASE_URL is not set");
 }
 
-export const pool = new pg.Pool({ connectionString });
+// Neon (and any remote Postgres) rejects plaintext connections with
+// "connection is insecure (try using `sslmode=require`)". The production
+// DATABASE_URL carries no sslmode param, so turn TLS on explicitly unless the
+// URL is local or already states an sslmode (pg honours that one itself).
+export function needsSsl(url: string): boolean {
+  try {
+    const u = new URL(url);
+    if (u.searchParams.get("sslmode")) return false;
+    return !["localhost", "127.0.0.1", "::1", "[::1]"].includes(u.hostname);
+  } catch {
+    return false;
+  }
+}
+
+export const pool = new pg.Pool({
+  connectionString,
+  ...(needsSsl(connectionString) ? { ssl: { rejectUnauthorized: true } } : {}),
+});
 
 // Keep the function instance alive long enough for idle connections to be
 // reaped (Vercel Fluid compute). No-op outside Vercel.
