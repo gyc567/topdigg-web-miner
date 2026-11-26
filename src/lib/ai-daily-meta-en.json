@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-26-ai-daily",
+      "date": "2026-11-26",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Anthropic Explains How It Validated the Migration of the Messages API from Python to Rust",
+      "description": "Anthropic details how it moved the Messages API from Python to Rust and used the production system itself as the validator, cutting per-request CPU by about 70 percent. Meanwhile Sand.ai released the 480B video model MAGI-2 and Tencent's open-source Hy4 Flash landed on Fireworks serverless.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-25-ai-daily",
       "date": "2026-11-25",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Anthropic Files S-1 With the SEC to Launch IPO, Plans to List on Nasdaq Under Ticker ANT",
       "description": "Anthropic filed an S-1 registration statement with the US SEC, advancing a proposed IPO of Class A common stock and planning to list on the Nasdaq Global Select Market under the ticker ANT, with share count and price range still undetermined. On the same day Meta disclosed plans to raise $95 billion for AI data centers and superintelligence.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-26-ai-daily",
-      "date": "2026-10-26",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "MiniMax Recaps H3 Open-Source Ecosystem Progress: 11 New Community Integrations",
-      "description": "MiniMax recapped the community ecosystem progress of its H3 video generation model, adding 11 new integrations covering 8-step reference-conditioned video-plus-audio generation, 4-step distillation, sparse attention and reference token compression, now serving on GPUs, TPUs and Apple Silicon. The same day Anthropic open-sourced its OSS Scanner vulnerability scanner, reporting 77 critical and 803 high-severity findings in 11 days.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

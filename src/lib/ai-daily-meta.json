@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-11-26-ai-daily",
+      "title": {
+        "en": "Anthropic Explains How It Validated the Migration of the Messages API from Python to Rust",
+        "ja": "Anthropic が Messages API の Python から Rust への移行を検証した方法を解説",
+        "vi": "Anthropic chia sẻ cách kiểm chứng khi chuyển Messages API từ Python sang Rust",
+        "zh-Hans": "Anthropic 复盘 Messages API 从 Python 迁移到 Rust 的校验方法",
+        "zh-Hant": "Anthropic 復盤 Messages API 從 Python 遷移到 Rust 的校驗方法"
+      },
+      "description": {
+        "en": "Anthropic details how it moved the Messages API from Python to Rust and used the production system itself as the validator, cutting per-request CPU by about 70 percent. Meanwhile Sand.ai released the 480B video model MAGI-2 and Tencent's open-source Hy4 Flash landed on Fireworks serverless.",
+        "ja": "Anthropic が Messages API を Python から Rust へ移行し、本番システムそのものを検証装置として使う方法を紹介。移行後はリクエストあたりの CPU 使用率が約 70 パーセント低下した。同時に Sand.ai が 480B 動画モデル MAGI-2 を発表し、Tencent のオープンソースモデル Hy4 Flash が Fireworks サーバーレスに追加された。",
+        "vi": "Anthropic giải thích cách chuyển Messages API từ Python sang Rust và dùng chính hệ thống production làm bộ kiểm chứng, giúp giảm ~70% CPU mỗi request sau khi chuyển đổi. Song song, Sand.ai ra mắt mô hình video 480B MAGI-2, còn model mã nguồn mở Hy4 Flash của Tencent ra mắt trên Fireworks serverless.",
+        "zh-Hans": "Anthropic 介绍如何把 Messages API 从 Python 迁移到 Rust，并把生产系统本身当作校验器，迁移后每请求 CPU 降低约 70%。同时 Sand.ai 发布 480B 视频模型 MAGI-2，腾讯开源模型 Hy4 Flash 上线 Fireworks serverless。",
+        "zh-Hant": "Anthropic 介紹如何把 Messages API 從 Python 遷移到 Rust，並把生產系統本身當作校驗器，遷移後每請求 CPU 降低約 70%。同時 Sand.ai 發表 480B 影片模型 MAGI-2，騰訊開源模型 Hy4 Flash 上線 Fireworks serverless。"
+      },
+      "date": "2026-11-26",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-11-25-ai-daily",
       "title": {
         "en": "Claude Ships Install as app: Artifacts Become Standalone Mac and Windows Desktop Apps",

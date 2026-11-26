@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-26-ai-daily",
+      "date": "2026-11-26",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Anthropic が Messages API の Python から Rust への移行を検証した方法を解説",
+      "description": "Anthropic が Messages API を Python から Rust へ移行し、本番システムそのものを検証装置として使う方法を紹介。移行後はリクエストあたりの CPU 使用率が約 70 パーセント低下した。同時に Sand.ai が 480B 動画モデル MAGI-2 を発表し、Tencent のオープンソースモデル Hy4 Flash が Fireworks サーバーレスに追加された。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-25-ai-daily",
       "date": "2026-11-25",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Anthropic が SEC に S-1 を提出し IPO を開始、コード ANT でナスダック上場へ",
       "description": "Anthropic は米 SEC に S-1 登録申告書を提出し、Class A 普通株式の想定 IPO を推し進め、ナスダック・グローバルセレクトマーケットにコード ANT で上場する計画。発行株式数と価格レンジはまだ未定。同日 Meta も AI データセンターと超级智能向けに 950 億ドルを調達すると SEC に申告した。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-26-ai-daily",
-      "date": "2026-10-26",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "MiniMax が H3 オープンソースエコシステムの進展を総括：コミュニティに 11 件の新規統合を追加",
-      "description": "MiniMax は H3 動画生成モデルのコミュニティエコシステムの進展を公式に総括し、8ステップ参照条件付き動画＋音声生成、4ステップ蒸留、疎注意、参照トークン圧縮をカバーする 11 件の新規統合を収録した。GPU サーバー、TPU、Apple Silicon などの多様なハードウェアでサービスとワークフロー統合が提供されている。同日 Anthropic が OSS Scanner 脆弱性スキャナーをオープンソース化し、11日で 77 件の致命的および 803 件の高リスク検出を報告した。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

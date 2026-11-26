@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-26-ai-daily",
+      "date": "2026-11-26",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Anthropic 复盘 Messages API 从 Python 迁移到 Rust 的校验方法",
+      "description": "Anthropic 介绍如何把 Messages API 从 Python 迁移到 Rust，并把生产系统本身当作校验器，迁移后每请求 CPU 降低约 70%。同时 Sand.ai 发布 480B 视频模型 MAGI-2，腾讯开源模型 Hy4 Flash 上线 Fireworks serverless。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-25-ai-daily",
       "date": "2026-11-25",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Anthropic 向 SEC 提交 S-1 文件启动 IPO，拟以代码 ANT 登陆纳斯达克",
       "description": "Anthropic 向美国 SEC 提交 S-1 注册声明，推进 Class A 普通股的拟议 IPO，计划在纳斯达克全球精选市场以代码 ANT 上市，发行股数与价格区间尚未确定。同日 Meta 向 SEC 申报拟募资 950 亿美元投向 AI 数据中心与超级智能。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-26-ai-daily",
-      "date": "2026-10-26",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "MiniMax 汇总 H3 开源生态进展：社区新增 11 项集成",
-      "description": "MiniMax 官方汇总 H3 视频生成模型的社区生态进展，收录 11 项新增集成，涵盖 8 步参考条件视频加音频生成、4 步蒸馏、稀疏注意力和参考 token 压缩，并已在 GPU 服务器、TPU 和 Apple Silicon 等多种硬件上提供服务与工作流集成。同日 Anthropic 开源 OSS Scanner 漏洞扫描器，11 天报出 77 个危急和 803 个高危发现。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",
