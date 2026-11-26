@@ -8,13 +8,13 @@
  *
  * Responses: 401 anonymous · 403 no active subscription · 404 unknown slug · 200 post JSON
  */
-import { auth } from "../../../src/lib/auth.ts";
+import { auth } from "../../../src/lib/auth";
 import { fromNodeHeaders } from "better-auth/node";
-import { dodo } from "../../../src/lib/dodo.ts";
-import { db } from "../../../src/lib/db.ts";
-import { contentUnlock } from "../../../src/db/app-schema.ts";
+import { dodo } from "../../../src/lib/dodo";
+import { db } from "../../../src/lib/db";
+import { contentUnlock } from "../../../src/db/app-schema";
 import { and, eq } from "drizzle-orm";
-import gatedData from "../../_gated/ai-daily-data.json" with { type: "json" };
+import gatedData from "../../_gated/ai-daily-data";
 
 type GatedManifest = { reports: Array<Record<string, unknown> & { slug: string }> };
 

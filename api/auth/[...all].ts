@@ -3,6 +3,6 @@
  * routes (/api/auth/dodopayments/*) under /api/auth.
  */
 import { toNodeHandler } from "better-auth/node";
-import { auth } from "../../src/lib/auth.ts";
+import { auth } from "../../src/lib/auth";
 
 export default toNodeHandler(auth.handler);

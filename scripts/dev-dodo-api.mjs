@@ -38,12 +38,19 @@ for (const file of [".env.local", ".env"]) {
   }
 }
 
-const { default: checkoutHandler } = await import("../api/checkout.ts");
-const { handleWebhook } = await import("../api/webhooks/dodo.ts");
-const { default: authHandler } = await import("../api/auth/[...all].ts");
-const { default: accountHandler } = await import("../api/account.ts");
-const { default: contentHandler } = await import("../api/content/ai-daily/[slug].ts");
-const { default: redeemHandler } = await import("../api/credits/redeem.ts");
+// The api/ functions are CommonJS on Vercel (api/package.json pins
+// "type": "commonjs"), so a dynamic import hands back the CJS exports object
+// as `default`. Unwrap both shapes so the dev server works either way.
+const interop = (mod) => mod?.default?.default ?? mod?.default ?? mod;
+
+const checkoutHandler = interop(await import("../api/checkout.ts"));
+const webhookModule = await import("../api/webhooks/dodo.ts");
+const handleWebhook =
+  webhookModule.handleWebhook ?? webhookModule.default?.handleWebhook;
+const authHandler = interop(await import("../api/auth/[...all].ts"));
+const accountHandler = interop(await import("../api/account.ts"));
+const contentHandler = interop(await import("../api/content/ai-daily/[slug].ts"));
+const redeemHandler = interop(await import("../api/credits/redeem.ts"));
 
 function vresOf(res) {
   return {

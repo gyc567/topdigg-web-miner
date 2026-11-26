@@ -13,7 +13,7 @@
  * Docs: https://docs.dodopayments.com/developer-resources/checkout-session
  */
 import DodoPayments from "dodopayments";
-import { isDodoPlan, type DodoPlan } from "../src/lib/dodo-plans.ts";
+import { isDodoPlan, type DodoPlan } from "../src/lib/dodo-plans";
 
 /** plan slug → Dodo product id. Server-side allowlist, never client input. */
 const PRODUCT_IDS: Readonly<Record<DodoPlan, string>> = {

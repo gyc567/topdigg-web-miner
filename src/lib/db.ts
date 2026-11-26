@@ -14,7 +14,7 @@
 import { drizzle } from "drizzle-orm/node-postgres";
 import pg from "pg";
 import { attachDatabasePool } from "@vercel/functions/db-connections";
-import * as schema from "../db/schema.ts";
+import * as schema from "../db/schema";
 
 const connectionString = process.env.DATABASE_URL;
 if (!connectionString) {

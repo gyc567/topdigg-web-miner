@@ -2,7 +2,7 @@
  * App-owned tables (Better Auth manages its own — see auth-schema.ts).
  */
 import { pgTable, text, timestamp, integer, uniqueIndex } from "drizzle-orm/pg-core";
-import { user } from "./auth-schema.ts";
+import { user } from "./auth-schema";
 
 /** Content unlocked by purchase or credit redemption. */
 export const contentUnlock = pgTable(

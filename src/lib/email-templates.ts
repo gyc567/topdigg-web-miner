@@ -4,7 +4,7 @@
  * The locale is derived from the request's Accept-Language header, so a user
  * receives the mail in the language their browser is set to.
  */
-import { sendEmail } from "./email.ts";
+import { sendEmail } from "./email";
 
 type Locale = "zh-Hans" | "zh-Hant" | "en" | "ja" | "vi";
 
@@ -57,24 +57,34 @@ function localeOf(request: unknown): Locale {
 }
 
 export async function sendAuthVerificationEmail(
-  data: { user: { email: string }; url: string },
+  data: { user: { email?: string | null; name?: string | null }; url: string },
   request?: unknown
 ): Promise<void> {
+  const to = data.user.email;
+  if (!to) {
+    console.warn("[email] verification email skipped — user has no email address");
+    return;
+  }
   const copy = COPY[localeOf(request)];
   await sendEmail({
-    to: data.user.email,
+    to,
     subject: copy.verifySubject,
     text: copy.verifyBody(data.url),
   });
 }
 
 export async function sendAuthResetPasswordEmail(
-  data: { user: { email: string }; url: string },
+  data: { user: { email?: string | null; name?: string | null }; url: string },
   request?: unknown
 ): Promise<void> {
+  const to = data.user.email;
+  if (!to) {
+    console.warn("[email] password-reset email skipped — user has no email address");
+    return;
+  }
   const copy = COPY[localeOf(request)];
   await sendEmail({
-    to: data.user.email,
+    to,
     subject: copy.resetSubject,
     text: copy.resetBody(data.url),
   });

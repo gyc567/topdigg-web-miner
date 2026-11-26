@@ -5,11 +5,11 @@
  * subscriptions (membership status) and credit balances. Falls back to cached
  * balances when Dodo is unreachable, marked with `stale: true`.
  */
-import { auth } from "../src/lib/auth.ts";
+import { auth } from "../src/lib/auth";
 import { fromNodeHeaders } from "better-auth/node";
-import { dodo, DODO_ENVIRONMENT } from "../src/lib/dodo.ts";
-import { db } from "../src/lib/db.ts";
-import { contentUnlock } from "../src/db/app-schema.ts";
+import { dodo, DODO_ENVIRONMENT } from "../src/lib/dodo";
+import { db } from "../src/lib/db";
+import { contentUnlock } from "../src/db/app-schema";
 import { desc, eq } from "drizzle-orm";
 
 /** The Dodo plugin adds dodoCustomerId to the user row at runtime. */

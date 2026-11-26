@@ -8,9 +8,9 @@
 import { betterAuth } from "better-auth";
 import { drizzleAdapter } from "@better-auth/drizzle-adapter";
 import { checkout, dodopayments, portal } from "@dodopayments/better-auth";
-import { db } from "./db.ts";
-import { dodo as dodoPayments } from "./dodo.ts";
-import { sendAuthResetPasswordEmail, sendAuthVerificationEmail } from "./email-templates.ts";
+import { db } from "./db";
+import { dodo as dodoPayments } from "./dodo";
+import { sendAuthResetPasswordEmail, sendAuthVerificationEmail } from "./email-templates";
 
 const baseURL = process.env.BETTER_AUTH_URL ?? "http://localhost:8080";
 
