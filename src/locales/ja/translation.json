@@ -370,7 +370,12 @@
     "unlockedByPurchase": "購入で解除",
     "subscribeNow": "購読する",
     "emailNotVerified": "メールアドレス未検証です。顧客ポータルには検証が必要です。",
-    "resendVerification": "確認メールを再送信"
+    "resendVerification": "確認メールを再送信",
+    "checkInbox": "確認メールをご確認ください",
+    "verifyEmailSent": "登録が完了しました。{{email}} に確認メールを送信しました。メール内のリンクをクリックすると確認とログインが完了します（1時間有効）。届かない場合は迷惑メールフォルダもご確認ください。",
+    "loginNotVerified": "{{email}} はまだ確認されていません。確認メールを再送信しました。メール内のリンクをクリックすると確認とログインが完了します。",
+    "verificationResent": "{{email}} に確認メールを再送信しました。",
+    "resending": "送信中…"
   },
   "paywall": {
     "teaser": "この記事は会員限定です。ログインして購読すると全文を読めます。",

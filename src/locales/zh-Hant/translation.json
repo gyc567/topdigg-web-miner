@@ -370,7 +370,12 @@
     "unlockedByPurchase": "購買解鎖",
     "subscribeNow": "開通會員",
     "emailNotVerified": "你的郵箱尚未驗證，驗證後才能使用客戶門戶。",
-    "resendVerification": "重新發送驗證郵件"
+    "resendVerification": "重新發送驗證郵件",
+    "checkInbox": "請查收驗證郵件",
+    "verifyEmailSent": "註冊成功！驗證郵件已發到 {{email}}，點擊郵件裡的連結即可完成驗證並自動登入（1 小時內有效）。沒收到請看看垃圾郵件。",
+    "loginNotVerified": "{{email}} 還沒完成郵箱驗證。我們剛重新發了一封驗證郵件，點擊郵件裡的連結即可完成驗證並自動登入。",
+    "verificationResent": "驗證郵件已重新發送到 {{email}}，請查收。",
+    "resending": "發送中…"
   },
   "paywall": {
     "teaser": "本文是會員內容，登入並訂閱後即可閱讀全文。",

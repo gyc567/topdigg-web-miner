@@ -14,6 +14,8 @@ export default function Register() {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
+  // 开启强制邮箱验证时注册不会返回会话 token：改为提示查收验证邮件
+  const [sentTo, setSentTo] = useState("");
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -21,9 +23,11 @@ export default function Register() {
     if (!email || !password || !name) { setError(t("auth.fillAll")); return; }
     setLoading(true);
     try {
-      const res = await authClient.signUp.email({ name, email, password });
+      const res = await authClient.signUp.email({ name, email, password, callbackURL: "/account" });
       if (res.error) {
         setError(res.error.message ?? t("auth.authFailed"));
+      } else if (!res.data?.token) {
+        setSentTo(email);
       } else {
         navigate("/account");
       }
@@ -32,6 +36,16 @@ export default function Register() {
     } finally {
       setLoading(false);
     }
+  }
+
+  if (sentTo) {
+    return (
+      <div className="container mx-auto max-w-md px-4 py-16">
+        <h1 className="text-2xl font-bold mb-2">{t("auth.checkInbox")}</h1>
+        <div data-testid="register-sent" className="mb-6 p-3 bg-primary/10 border border-primary/30 rounded-lg text-sm">{t("auth.verifyEmailSent", { email: sentTo })}</div>
+        <Link to="/login" className="text-primary hover:underline text-sm">{t("auth.login")}</Link>
+      </div>
+    );
   }
 
   return (

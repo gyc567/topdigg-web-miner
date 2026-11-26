@@ -370,7 +370,12 @@
     "unlockedByPurchase": "Purchased",
     "subscribeNow": "Subscribe",
     "emailNotVerified": "Your email is not verified yet — the customer portal requires it.",
-    "resendVerification": "Resend the verification email"
+    "resendVerification": "Resend the verification email",
+    "checkInbox": "Check your inbox",
+    "verifyEmailSent": "You're signed up! We sent a verification email to {{email}}. Click the link inside to verify and sign in (valid for 1 hour). Can't find it? Check your spam folder.",
+    "loginNotVerified": "{{email}} hasn't been verified yet. We just sent a new verification email — click the link inside to verify and sign in.",
+    "verificationResent": "Verification email sent again to {{email}}.",
+    "resending": "Sending…"
   },
   "paywall": {
     "teaser": "This article is for members. Sign in and subscribe to read the full story.",

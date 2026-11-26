@@ -370,7 +370,12 @@
     "unlockedByPurchase": "购买解锁",
     "subscribeNow": "开通会员",
     "emailNotVerified": "你的邮箱尚未验证，验证后才能使用客户门户。",
-    "resendVerification": "重新发送验证邮件"
+    "resendVerification": "重新发送验证邮件",
+    "checkInbox": "请查收验证邮件",
+    "verifyEmailSent": "注册成功！验证邮件已发到 {{email}}，点击邮件里的链接即可完成验证并自动登录（1 小时内有效）。没收到请看看垃圾邮件。",
+    "loginNotVerified": "{{email}} 还没完成邮箱验证。我们刚重新发了一封验证邮件，点击邮件里的链接即可完成验证并自动登录。",
+    "verificationResent": "验证邮件已重新发送到 {{email}}，请查收。",
+    "resending": "发送中…"
   },
   "paywall": {
     "teaser": "本文是会员内容，登录并订阅后即可阅读全文。",

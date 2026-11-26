@@ -370,7 +370,12 @@
     "unlockedByPurchase": "Đã mua",
     "subscribeNow": "Đăng ký thành viên",
     "emailNotVerified": "Email của bạn chưa được xác minh — cổng khách hàng yêu cầu xác minh.",
-    "resendVerification": "Gửi lại email xác minh"
+    "resendVerification": "Gửi lại email xác minh",
+    "checkInbox": "Kiểm tra hộp thư của bạn",
+    "verifyEmailSent": "Đăng ký thành công! Chúng tôi đã gửi email xác minh tới {{email}}. Nhấp vào liên kết trong email để xác minh và đăng nhập (hiệu lực 1 giờ). Không thấy? Hãy kiểm tra thư mục spam.",
+    "loginNotVerified": "{{email}} chưa được xác minh. Chúng tôi vừa gửi lại email xác minh — nhấp vào liên kết trong email để xác minh và đăng nhập.",
+    "verificationResent": "Đã gửi lại email xác minh tới {{email}}.",
+    "resending": "Đang gửi…"
   },
   "paywall": {
     "teaser": "Bài viết dành cho hội viên. Đăng nhập và đăng ký để đọc toàn bộ.",

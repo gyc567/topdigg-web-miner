@@ -39,6 +39,8 @@ export const auth = betterAuth({
   },
   emailVerification: {
     sendOnSignUp: true,
+    // 未验证用户登录时自动重发一封验证信（登录仍返回 EMAIL_NOT_VERIFIED）
+    sendOnSignIn: true,
     autoSignInAfterVerification: true,
     expiresIn: 3600,
     sendVerificationEmail: async (data, request) => {
