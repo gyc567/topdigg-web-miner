@@ -1,6 +1,76 @@
 {
   "reports": [
     {
+      "slug": "2026-11-26-finance-daily",
+      "title": {
+        "en": "Daily Financial Brief | 2026-11-26",
+        "ja": "デイリー財務ブリーフ | 2026-11-26",
+        "vi": "Bản tin tài chính hằng ngày | 2026-11-26",
+        "zh-Hans": "每日财经简报 | 2026-11-26",
+        "zh-Hant": "每日財經簡報 | 2026-11-26"
+      },
+      "description": {
+        "en": "Currencies and precious metals drifted in narrow ranges: EUR/USD at 1.0972 (+0.09%), gold at $3572.40 (+0.60%), silver outperforming at +1.32%. Chinese A-shares fell sharply on higher turnover, with the Shanghai Composite down 2.03% and small caps hit hardest while main funds saw roughly RMB 49 billion of outflows. The Fed holds 3.75%-4.00%, the ECB hiked its deposit rate to 2.50% in September, and China's LPR has been unchanged for 18 straight months.",
+        "ja": "通貨と貴金属は狭幅の保ち合いに入りました。EUR/USD は 1.0972（+0.09%）、金は 3572.40 ドル（+0.60%）、銀は 1.32% 上昇して金を上回りました。中国の A 株は売買代金を拡大したまま大きく売り、Shanghai Composite は 2.03% 安、小型株の跌幅が最大で、主力資金は 490 億元流出。FRB は 3.75%-4.00% を維持、ECB は 9 月に預金金利を 2.50% まで引き上げ、中国の LPR は 18 カ月連続で据え置きです。",
+        "vi": "Tiền tệ và kim loại quý dao động trong biên hẹp: EUR/USD ở 1.0972 (+0.09%), vàng ở 3572.40 USD (+0.60%), bạc vượt trội với mức tăng 1.32%. A-share Trung Quốc giảm mạnh trong phiên tăng thanh khoản, Shanghai Composite mất 2.03%, cổ phiếu vốn hóa nhỏ chịu giảm nặng nhất và dòng tiền chính ròng rỉ khoảng 49 tỷ tệ. Fed giữ nguyên 3.75%-4.00%, ECB đã tăng lãi suất tiền gửi lên 2.50% trong tháng 9, LPR của Trung Quốc giữ nguyên 18 tháng liên tiếp.",
+        "zh-Hans": "外汇与贵金属同步窄幅整理：EUR/USD 报 1.0972（+0.09%），黄金 3572.40 美元（+0.60%），白银涨 1.32% 跑赢。国内 A 股放量普跌，上证指数跌 2.03%，小微盘重挫、主力净流出约 490 亿元；美联储利率维持 3.75%-4.00%，ECB 9 月加息至存款利率 2.50%，中国 LPR 连续 18 个月不变。",
+        "zh-Hant": "外匯與貴金屬同步窄幅整理：EUR/USD 報 1.0972（+0.09%），黃金 3572.40 美元（+0.60%），白銀漲 1.32% 跑贏。國內 A 股放量普跌，上證指數跌 2.03%，小微盤重挫、主淨流出約 490 億元；聯準會利率維持 3.75%-4.00%，ECB 9 月加息至存款利率 2.50%，中國 LPR 連續 18 個月不變。"
+      },
+      "date": "2026-11-26",
+      "author": "瑞哥观势",
+      "tags": {
+        "en": [
+          "Financial Brief",
+          "Macroeconomics"
+        ],
+        "ja": [
+          "財務ブリーフ",
+          "マクロ経済"
+        ],
+        "vi": [
+          "Bản tin tài chính",
+          "Kinh tế vĩ mô"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "總體經濟"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Financial Brief"
+        ],
+        "ja": [
+          "財務ブリーフ"
+        ],
+        "vi": [
+          "Bản tin tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-25-finance-daily",
       "title": {
         "en": "Daily Financial Brief | 2026-11-25",

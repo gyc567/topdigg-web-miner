@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-26-finance-daily",
+      "date": "2026-11-26",
+      "author": "瑞哥观势",
+      "tags": [
+        "Financial Brief",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Financial Brief"
+      ],
+      "title": "Daily Financial Brief | 2026-11-26",
+      "description": "Currencies and precious metals drifted in narrow ranges: EUR/USD at 1.0972 (+0.09%), gold at $3572.40 (+0.60%), silver outperforming at +1.32%. Chinese A-shares fell sharply on higher turnover, with the Shanghai Composite down 2.03% and small caps hit hardest while main funds saw roughly RMB 49 billion of outflows. The Fed holds 3.75%-4.00%, the ECB hiked its deposit rate to 2.50% in September, and China's LPR has been unchanged for 18 straight months.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-25-finance-daily",
       "date": "2026-11-25",
       "author": "瑞哥观势",
@@ -602,26 +622,6 @@
       ],
       "title": "Daily Finance Brief | 2026-10-17",
       "description": "Euro gains modestly, Gold plunges 1.27% with wild intraday swings; Fed officials signal rates to stay higher for longer, China-US hold informal high-level talks with trade friction management as key focus.",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-16-finance-daily",
-      "date": "2026-10-16",
-      "author": "瑞哥观势",
-      "tags": [
-        "Finance Briefing",
-        "Macro Economy"
-      ],
-      "categories": [
-        "Finance Briefing"
-      ],
-      "title": "Daily Finance Briefing | 2026-10-16",
-      "description": "USD holds firm in forex markets, EUR/USD at 1.1212; US stocks retreat with NVDA down 1.84%; Gold surges past $4,150 to new high; Fed stays on hold with rate-cut expectations cooling; China-EU trade tensions escalate.",
       "source": {
         "original": {
           "name": "瑞哥观势",
