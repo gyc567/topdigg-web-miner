@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-27-finance-daily",
+      "date": "2026-11-27",
+      "author": "瑞哥观势",
+      "tags": [
+        "財務ブリーフ",
+        "マクロ経済"
+      ],
+      "categories": [
+        "財務ブリーフ"
+      ],
+      "title": "デイリー財務ブリーフ | 2026-11-27",
+      "description": "通貨と貴金属は全面的に保ち合いに入りました。EUR/USD は 1.0962（-0.07%）、金は 3558.95 ドル（-0.49%）、銀は 41.40 ドル。米国株は個別に動き、NVIDIA は 3.91% 下げて 149.30 ドルとなりましたが、PER は 16.04 倍と低く、アナリストの目標株価は 62% 上です。中国市場では 11 月 26 日、主要 4 指数が取引中に 52 週安値を更新したものの、終値では持ち返し、Shanghai Composite は 0.01% 高、売買代金は 1.32 兆元まで縮小しました。FRB は 3.75% から 4.00% を維持、12 月 8 日から 9 日の年内最後の議息が近づいています。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-26-finance-daily",
       "date": "2026-11-26",
       "author": "瑞哥观势",
@@ -606,26 +626,6 @@
         "original": {
           "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWgulAfP-eEgqflQPA2Wbmv7TK1GqFOetp2NFdf4RgBMG"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-17-finance-daily",
-      "date": "2026-10-17",
-      "author": "瑞哥观势",
-      "tags": [
-        "ファイナンスブリーフ",
-        "・マクロ経済"
-      ],
-      "categories": [
-        "ファイナンスブリーフ"
-      ],
-      "title": "デイリーファイナンスブリーフ | 2026-10-17",
-      "description": "ユーロ小幅高、黄金は週末に激しく乱高下し1.27%下落；Fed高官が利率長引きを示唆、中米が非公式高位接触、貿易摩擦管理が焦点に。",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
     }

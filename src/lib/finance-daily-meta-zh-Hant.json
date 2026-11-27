@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-27-finance-daily",
+      "date": "2026-11-27",
+      "author": "瑞哥观势",
+      "tags": [
+        "財經簡報",
+        "宏觀經濟"
+      ],
+      "categories": [
+        "財經簡報"
+      ],
+      "title": "每日財經簡報 | 2026-11-27",
+      "description": "外匯與貴金屬全線走平：EUR/USD 報 1.0962（-0.07%），黃金 3558.95 美元（-0.49%），白銀 41.40 美元。隔夜美股分化，NVIDIA 單日跌 3.91% 至 149.30 美元，但本益比僅 16.04 倍、分析師目標價高出 62%；A 股 11 月 26 日四檔指數盤中再刷 52 週新低後尾盤拉回，上證微漲 0.01%，成交 1.32 兆元繼續萎縮。聯準會利率維持 3.75%-4.00%，12 月 8-9 日年內最末一次議息鄰近。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-26-finance-daily",
       "date": "2026-11-26",
       "author": "瑞哥观势",
@@ -606,26 +626,6 @@
         "original": {
           "name": "瑞哥觀勢",
           "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWgulAfP-eEgqflQPA2Wbmv7TK1GqFOetp2NFdf4RgBMG"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-17-finance-daily",
-      "date": "2026-10-17",
-      "author": "瑞哥观势",
-      "tags": [
-        "財經簡報",
-        "巨觀經濟"
-      ],
-      "categories": [
-        "財經簡報"
-      ],
-      "title": "每日財經簡報 | 2026-10-17",
-      "description": "歐元小幅走強，黃金週五盤中巨震收跌1.27%；Fed官員密集發聲暗示利率維持高位更長時間，中美本週舉行非正式高層接觸，經貿摩擦管控成為焦點。",
-      "source": {
-        "original": {
-          "name": "瑞哥觀勢",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
     }

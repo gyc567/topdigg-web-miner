@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-27-finance-daily",
+      "date": "2026-11-27",
+      "author": "瑞哥观势",
+      "tags": [
+        "财经简报",
+        "宏观经济"
+      ],
+      "categories": [
+        "财经简报"
+      ],
+      "title": "每日财经简报 | 2026-11-27",
+      "description": "外汇与贵金属全线走平：EUR/USD 报 1.0962（-0.07%），黄金 3558.95 美元（-0.49%），白银 41.40 美元。隔夜美股分化，NVIDIA 单日跌 3.91% 至 149.30 美元，但市盈率仅 16.04 倍、分析师目标价高出 62%；A 股 11 月 26 日四只指数盘中再刷 52 周新低后尾盘拉回，上证微涨 0.01%，成交 1.32 万亿继续萎缩。美联储利率维持 3.75%-4.00%，12 月 8-9 日年内最后一次议息临近。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-26-finance-daily",
       "date": "2026-11-26",
       "author": "瑞哥观势",
@@ -606,26 +626,6 @@
         "original": {
           "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWgulAfP-eEgqflQPA2Wbmv7TK1GqFOetp2NFdf4RgBMG"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-17-finance-daily",
-      "date": "2026-10-17",
-      "author": "瑞哥观势",
-      "tags": [
-        "财经简报",
-        "宏观经济"
-      ],
-      "categories": [
-        "财经简报"
-      ],
-      "title": "每日财经简报 | 2026-10-17",
-      "description": "欧元小幅走强，黄金周五盘中巨震收跌1.27%；Fed官员密集发声暗示利率维持高位更长时间，中美本周举行非正式高层接触，经贸摩擦管控成为焦点。",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
     }

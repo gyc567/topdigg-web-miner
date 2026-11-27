@@ -1,6 +1,76 @@
 {
   "reports": [
     {
+      "slug": "2026-11-27-finance-daily",
+      "title": {
+        "en": "Daily Finance Brief | 2026-11-27",
+        "ja": "デイリー財務ブリーフ | 2026-11-27",
+        "vi": "Bản tin tài chính hằng ngày | 2026-11-27",
+        "zh-Hans": "每日财经简报 | 2026-11-27",
+        "zh-Hant": "每日財經簡報 | 2026-11-27"
+      },
+      "description": {
+        "en": "Currencies and precious metals traded flat: EUR/USD at 1.0962 (-0.07%), gold at $3558.95/oz (-0.49%), silver at $41.40. US equities diverged overnight with NVIDIA down 3.91% to $149.30, yet its P/E is only 16.04 and the analyst target sits 62% above spot. In China, four major indexes printed fresh 52-week lows intraday on Nov 26 before recovering into the close, Shanghai Composite up 0.01% with turnover shrinking to 1.32 trillion yuan. The Fed holds at 3.75%-4.00% ahead of the final 2026 FOMC meeting on Dec 8-9.",
+        "ja": "通貨と貴金属は全面的に保ち合いに入りました。EUR/USD は 1.0962（-0.07%）、金は 3558.95 ドル（-0.49%）、銀は 41.40 ドル。米国株は個別に動き、NVIDIA は 3.91% 下げて 149.30 ドルとなりましたが、PER は 16.04 倍と低く、アナリストの目標株価は 62% 上です。中国市場では 11 月 26 日、主要 4 指数が取引中に 52 週安値を更新したものの、終値では持ち返し、Shanghai Composite は 0.01% 高、売買代金は 1.32 兆元まで縮小しました。FRB は 3.75% から 4.00% を維持、12 月 8 日から 9 日の年内最後の議息が近づいています。",
+        "vi": "Ngoại hệ và kim loại quý đi ngang: EUR/USD ở 1.0962 (-0.07%), vàng 3558.95 USD/oz (-0.49%), bạc 41.40 USD. Chứng khoán Mỹ phân hóa, NVIDIA giảm 3.91% còn 149.30 USD dù P/E chỉ 16.04 và giá mục tiêu phân tích cao hơn 62%. Thị trường A ngày 26/11 có bốn chỉ số chạm đáy 52 tuần trong phiên rồi hồi lại lúc đóng cửa, Shanghain Composite tăng 0.01%, thanh khoản co tiếp còn 1.32 nghìn tỷ. Fed giữ nguyên 3.75%-4.00%, cuộc họp FOMC cuối năm 8-9 tháng 12 đang đến gần.",
+        "zh-Hans": "外汇与贵金属全线走平：EUR/USD 报 1.0962（-0.07%），黄金 3558.95 美元（-0.49%），白银 41.40 美元。隔夜美股分化，NVIDIA 单日跌 3.91% 至 149.30 美元，但市盈率仅 16.04 倍、分析师目标价高出 62%；A 股 11 月 26 日四只指数盘中再刷 52 周新低后尾盘拉回，上证微涨 0.01%，成交 1.32 万亿继续萎缩。美联储利率维持 3.75%-4.00%，12 月 8-9 日年内最后一次议息临近。",
+        "zh-Hant": "外匯與貴金屬全線走平：EUR/USD 報 1.0962（-0.07%），黃金 3558.95 美元（-0.49%），白銀 41.40 美元。隔夜美股分化，NVIDIA 單日跌 3.91% 至 149.30 美元，但本益比僅 16.04 倍、分析師目標價高出 62%；A 股 11 月 26 日四檔指數盤中再刷 52 週新低後尾盤拉回，上證微漲 0.01%，成交 1.32 兆元繼續萎縮。聯準會利率維持 3.75%-4.00%，12 月 8-9 日年內最末一次議息鄰近。"
+      },
+      "date": "2026-11-27",
+      "author": "瑞哥观势",
+      "tags": {
+        "en": [
+          "Finance Brief",
+          "Macroeconomics"
+        ],
+        "ja": [
+          "財務ブリーフ",
+          "マクロ経済"
+        ],
+        "vi": [
+          "Bản tin tài chính",
+          "Kinh tế vĩ mô"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "宏觀經濟"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Brief"
+        ],
+        "ja": [
+          "財務ブリーフ"
+        ],
+        "vi": [
+          "Bản tin tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-26-finance-daily",
       "title": {
         "en": "Daily Financial Brief | 2026-11-26",

@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-27-finance-daily",
+      "date": "2026-11-27",
+      "author": "瑞哥观势",
+      "tags": [
+        "Bản tin tài chính",
+        "Kinh tế vĩ mô"
+      ],
+      "categories": [
+        "Bản tin tài chính"
+      ],
+      "title": "Bản tin tài chính hằng ngày | 2026-11-27",
+      "description": "Ngoại hệ và kim loại quý đi ngang: EUR/USD ở 1.0962 (-0.07%), vàng 3558.95 USD/oz (-0.49%), bạc 41.40 USD. Chứng khoán Mỹ phân hóa, NVIDIA giảm 3.91% còn 149.30 USD dù P/E chỉ 16.04 và giá mục tiêu phân tích cao hơn 62%. Thị trường A ngày 26/11 có bốn chỉ số chạm đáy 52 tuần trong phiên rồi hồi lại lúc đóng cửa, Shanghain Composite tăng 0.01%, thanh khoản co tiếp còn 1.32 nghìn tỷ. Fed giữ nguyên 3.75%-4.00%, cuộc họp FOMC cuối năm 8-9 tháng 12 đang đến gần.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-26-finance-daily",
       "date": "2026-11-26",
       "author": "瑞哥观势",
@@ -606,26 +626,6 @@
         "original": {
           "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWgulAfP-eEgqflQPA2Wbmv7TK1GqFOetp2NFdf4RgBMG"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-17-finance-daily",
-      "date": "2026-10-17",
-      "author": "瑞哥观势",
-      "tags": [
-        "Bản Tin Tài Chính",
-        "Kinh Tế Vĩ Mô"
-      ],
-      "categories": [
-        "Bản Tin Tài Chính"
-      ],
-      "title": "Bản Tin Tài Chính Hàng Ngày | 2026-10-17",
-      "description": "Euro tăng nhẹ, Vàng lao dốc 1.27% với biến động mạnh trong ngày; quan chức Fed ám chỉ lãi suất duy trì cao lâu hơn, Mỹ-Trung tổ chức tiếp xúc cấp cao không chính thức, quản lý ma sát thương mại là trọng tâm.",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
         }
       }
     }
