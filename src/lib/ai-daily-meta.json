@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-11-27-ai-daily",
+      "title": {
+        "en": "FT Reports Nvidia Suspends Server Shipments to Four Southeast Asian Countries",
+        "ja": "FT 報道、Nvidia が東南アジア 4 カ国へのサーバー出荷を停止",
+        "vi": "FT đưa tin Nvidia tạm dừng giao máy chủ tới bốn nước Đông Nam Á",
+        "zh-Hans": "FT 报道 Nvidia 暂停向东南亚四国发运服务器",
+        "zh-Hant": "FT 報導 Nvidia 暫停向東南亞四國發運伺服器"
+      },
+      "description": {
+        "en": "Nvidia told Dell, Supermicro and other manufacturing partners to stop shipping servers to Malaysia, Singapore, Thailand and Indonesia, as advanced AI chip exports now require a license. Ant's inclusionAI open-sourced the Ming-Image-0.2-Design image generation model on Hugging Face, and OpenAI began testing private inference.",
+        "ja": "Nvidia が Dell、Supermicro に対し、マレーシア、シンガポール、タイ、インドへのサーバー出荷停止を通知。先端 AI チップの輸出は許可制へ。Ant の InclusionAI は Hugging Face で画像生成モデル Ming-Image-0.2-Design をオープンソース公開し、OpenAI はプライベート推論のテストを始めた。",
+        "vi": "Nvidia đã thông báo cho Dell, Supermicro dừng giao máy chủ tới Malaysia, Singapore, Thái Lan và Indonesia, trong khi xuất khẩu chip AI tiên tiến chuyển sang chế độ cấp phép. Ant inclusionAI mở mã nguồn mô hình tạo ảnh Ming-Image-0.2-Design trên Hugging Face, OpenAI bắt đầu thử nghiệm tính năng suy luận riêng tư.",
+        "zh-Hans": "Nvidia 通知 Dell、Supermicro 停止向马来西亚、新加坡、泰国和印尼发运服务器，先进 AI 芯片出口改为许可制。蚂蚁 inclusionAI 在 Hugging Face 开源 Ming-Image-0.2-Design 图像生成模型，OpenAI 开始测试私有推理功能。",
+        "zh-Hant": "Nvidia 通知 Dell、Supermicro 停止向馬來西亞、新加坡、泰國和印尼發運伺服器，先進 AI 晶片出口改為許可制。螞蟻 inclusionAI 在 Hugging Face 開源 Ming-Image-0.2-Design 圖像生成模型，OpenAI 開始測試私有推理功能。"
+      },
+      "date": "2026-11-27",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-11-26-ai-daily",
       "title": {
         "en": "Anthropic Explains How It Validated the Migration of the Messages API from Python to Rust",

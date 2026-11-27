@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-27-ai-daily",
+      "date": "2026-11-27",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "FT Reports Nvidia Suspends Server Shipments to Four Southeast Asian Countries",
+      "description": "Nvidia told Dell, Supermicro and other manufacturing partners to stop shipping servers to Malaysia, Singapore, Thailand and Indonesia, as advanced AI chip exports now require a license. Ant's inclusionAI open-sourced the Ming-Image-0.2-Design image generation model on Hugging Face, and OpenAI began testing private inference.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-26-ai-daily",
       "date": "2026-11-26",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Anthropic's S-1 Breakdown: 11 Details Behind a Plan to Raise Roughly $100 Billion in Its IPO",
       "description": "The author breaks down 11 details in Anthropic's IPO prospectus, which plans to raise roughly $100 billion at a valuation of around $1.5 trillion to $2 trillion. Revenue grew 30x in five quarters and operating profit turned positive for the first time at $974 million in Q2, yet the first half still showed a $80.7 billion net loss driven by fair-value changes in convertible notes; adjusted net income was positive at $2.671 billion.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-27-ai-daily",
-      "date": "2026-10-27",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Anthropic Files S-1 With the SEC to Launch IPO, Plans to List on Nasdaq Under Ticker ANT",
-      "description": "Anthropic filed an S-1 registration statement with the US SEC, advancing a proposed IPO of Class A common stock and planning to list on the Nasdaq Global Select Market under the ticker ANT, with share count and price range still undetermined. On the same day Meta disclosed plans to raise $95 billion for AI data centers and superintelligence.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

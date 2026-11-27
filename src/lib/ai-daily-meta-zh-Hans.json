@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-27-ai-daily",
+      "date": "2026-11-27",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "FT 报道 Nvidia 暂停向东南亚四国发运服务器",
+      "description": "Nvidia 通知 Dell、Supermicro 停止向马来西亚、新加坡、泰国和印尼发运服务器，先进 AI 芯片出口改为许可制。蚂蚁 inclusionAI 在 Hugging Face 开源 Ming-Image-0.2-Design 图像生成模型，OpenAI 开始测试私有推理功能。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-26-ai-daily",
       "date": "2026-11-26",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Anthropic 招股书拆解：IPO 计划募资约 1000 亿美元背后的 11 个细节",
       "description": "作者总结 Anthropic IPO 招股书的 11 个细节，计划募资约 1000 亿美元、估值或达 1.5 万亿～2 万亿。收入五个季度涨 30 倍，今年二季度经营利润首次转正 9.74 亿美元，但上半年净亏 807 亿美元，主要来自可转换票据公允价值变动；调整后净利润为正 26.71 亿美元。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-27-ai-daily",
-      "date": "2026-10-27",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Anthropic 向 SEC 提交 S-1 文件启动 IPO，拟以代码 ANT 登陆纳斯达克",
-      "description": "Anthropic 向美国 SEC 提交 S-1 注册声明，推进 Class A 普通股的拟议 IPO，计划在纳斯达克全球精选市场以代码 ANT 上市，发行股数与价格区间尚未确定。同日 Meta 向 SEC 申报拟募资 950 亿美元投向 AI 数据中心与超级智能。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

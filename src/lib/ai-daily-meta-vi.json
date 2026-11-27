@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-27-ai-daily",
+      "date": "2026-11-27",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI日报"
+      ],
+      "categories": [
+        "AI日报"
+      ],
+      "hn_count": 5,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "FT đưa tin Nvidia tạm dừng giao máy chủ tới bốn nước Đông Nam Á",
+      "description": "Nvidia đã thông báo cho Dell, Supermicro dừng giao máy chủ tới Malaysia, Singapore, Thái Lan và Indonesia, trong khi xuất khẩu chip AI tiên tiến chuyển sang chế độ cấp phép. Ant inclusionAI mở mã nguồn mô hình tạo ảnh Ming-Image-0.2-Design trên Hugging Face, OpenAI bắt đầu thử nghiệm tính năng suy luận riêng tư.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-26-ai-daily",
       "date": "2026-11-26",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Phân tích hồ sơ S-1 của Anthropic: 11 chi tiết đằng sau kế hoạch thu vốn khoảng 100 tỷ USD cho IPO",
       "description": "Tác giả tổng hợp 11 chi tiết trong hồ sơ IPO của Anthropic, với kế hoạch thu vốn khoảng 100 tỷ USD và định giá có thể đạt 1,5 nghìn tỷ đến 2 nghìn tỷ USD. Doanh thu tăng 30 lần trong năm quý, lợi nhuận hoạt động quý II lần đầu chuyển sang dương ở mức 974 triệu USD, nhưng nửa đầu năm vẫn lỗ ròng 80,7 tỷ USD chủ yếu do biến động giá trị hợp lý của nợ chuyển đổi; lợi nhuận ròng điều chỉnh vẫn dương 2,671 tỷ USD.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-27-ai-daily",
-      "date": "2026-10-27",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Anthropic nộp S-1 tới SEC để khởi động IPO, dự kiến niêm yết Nasdaq với mã ANT",
-      "description": "Anthropic đã nộp đơn đăng ký S-1 tới SEC Hoa Kỳ, đẩy tiến IPO cổ phiếu Class A và dự kiến niêm yết trên Nasdaq Global Select Market với mã ANT, số lượng cổ phiếu và khoảng giá chưa xác định. Cùng ngày Meta khai báo muốn huy động 95 tỷ USD cho trung tâm dữ liệu AI và siêu trí tuệ.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",
