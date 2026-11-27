@@ -978,6 +978,15 @@ keywords: ["3DLogoLab评测", "3D Logo生成器", "Logo动画制作", "2D转3D�
 - **📧 邮箱**: [gyc567@gmail.com](mailto:gyc567@gmail.com)
 - **🐦 Twitter**: [@EricBlock2100](https://twitter.com/EricBlock2100)
 - **💬 微信**: 360369487
+
+**🏢 企业 AI 落地：KumoAI 企业知识库定制化开发**
+
+我把企业 AI 的落地做成了自己的产品：**KumoAI 企业级 AI 办公中台**。
+
+企业的知识、业务数据、客户数据，留在自己本地，私有化部署，数据不出门。它不是一个聊天工具，而是一套随业务规模不停进化和优化的数字员工系统：文档放进去就能被检索、被调用；用得越多，AI 越懂这家公司的口径和打法；经验从「躺在某个人的脑子里」变成「长在系统里」。
+
+官网：kumolabsai.com
+
 - **📱 Telegram**: [https://t.me/fatoshi_block](https://t.me/fatoshi_block)
 - **📢 Telegram频道**: [https://t.me/cryptochanneleric](https://t.me/cryptochanneleric)
 - **👥 加密情报TG群**: [https://t.me/btcgogopen](https://t.me/btcgogopen)

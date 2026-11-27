@@ -214,6 +214,17 @@ Eric|瑞哥
 
 ---
 
+**🏢 Enterprise AI: KumoAI, a custom knowledge base for your company**
+
+I turned enterprise AI rollout into a product of my own: **KumoAI, the enterprise-grade AI work hub**.
+
+Your knowledge, business data and customer data stay on your own hardware, deployed privately, so nothing ever leaves the building. It is not another chat tool, but a system of digital employees that keeps evolving and improving as your business scales: documents become searchable and callable, the more it is used the better it understands your company's own definitions and playbook, and know-how stops sitting in one person's head and starts living in the system.
+
+Website: kumolabsai.com
+
+---
+
+
 在这个快节奏的时代，我依然相信面对面、小范围、高浓度的链接力量。
 
 我致力于搭建一个"去泡沫化"的老板圈子，重点关注：

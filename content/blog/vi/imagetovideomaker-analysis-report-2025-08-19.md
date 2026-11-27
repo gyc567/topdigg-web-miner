@@ -485,6 +485,15 @@ Trong kỷ nguyên phát triển nhanh chóng của công nghệ tạo video AI,
 - **📧 Email**: [gyc567@gmail.com](mailto:gyc567@gmail.com)
 - **🐦 Twitter**: [@EricBlock2100](https://twitter.com/EricBlock2100)
 - **💬 WeChat**: 360369487
+
+**🏢 AI cho doanh nghiệp: KumoAI, triển khai kho tri thức theo yêu cầu**
+
+Tôi đã biến việc triển khai AI cho doanh nghiệp thành một sản phẩm thật: **KumoAI, trung tâm làm việc AI cấp doanh nghiệp**.
+
+Kiến thức, dữ liệu nghiệp vụ và dữ liệu khách hàng của doanh nghiệp nằm ngay tại chỗ, triển khai riêng tư, dữ liệu không rời khỏi doanh nghiệp. Đây không phải một công cụ chat, mà là hệ thống nhân số số hóa tiếp tục tiến hóa và tối ưu theo quy mô kinh doanh: tài liệu đặt vào là tìm kiếm và gọi được, dùng càng nhiều AI càng hiểu đúng tiêu chuẩn và cách làm của doanh nghiệp, kinh nghiệm không còn nằm trong đầu một người mà trở thành năng lực của cả tổ chức.
+
+Website: kumolabsai.com
+
 - **📱 Telegram**: [https://t.me/fatoshi_block](https://t.me/fatoshi_block)
 - **📢 Kênh Telegram**: [https://t.me/cryptochanneleric](https://t.me/cryptochanneleric)
 - **👥 Nhóm tin tức tiền mã hóa Telegram**: [https://t.me/btcgogopen](https://t.me/btcgogopen)

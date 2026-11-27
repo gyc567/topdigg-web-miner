@@ -720,6 +720,15 @@ With the creator economy booming, **Beacons.ai** stands out through its unique o
 - **📧 Email**: [gyc567@gmail.com](mailto:gyc567@gmail.com)
 - **🐦 Twitter**: [@EricBlock2100](https://twitter.com/EricBlock2100)
 - **💬 WeChat**: 360369487
+
+**🏢 Enterprise AI: KumoAI, a custom knowledge base for your company**
+
+I turned enterprise AI rollout into a product of my own: **KumoAI, the enterprise-grade AI work hub**.
+
+Your knowledge, business data and customer data stay on your own hardware, deployed privately, so nothing ever leaves the building. It is not another chat tool, but a system of digital employees that keeps evolving and improving as your business scales: documents become searchable and callable, the more it is used the better it understands your company's own definitions and playbook, and know-how stops sitting in one person's head and starts living in the system.
+
+Website: kumolabsai.com
+
 - **📱 Telegram**: [https://t.me/fatoshi_block](https://t.me/fatoshi_block)
 - **📢 Telegram Channel**: [https://t.me/cryptochanneleric](https://t.me/cryptochanneleric)
 - **👥 Crypto Intel TG Group**: [https://t.me/btcgogopen](https://t.me/btcgogopen)

@@ -698,3 +698,12 @@ Eric|瑞哥
 💎聚焦在:创富和守富
 🎯专注老板群体：用AI 降本增效
 微信:360369487
+
+**🏢 Enterprise AI: KumoAI, a custom knowledge base for your company**
+
+I turned enterprise AI rollout into a product of my own: **KumoAI, the enterprise-grade AI work hub**.
+
+Your knowledge, business data and customer data stay on your own hardware, deployed privately, so nothing ever leaves the building. It is not another chat tool, but a system of digital employees that keeps evolving and improving as your business scales: documents become searchable and callable, the more it is used the better it understands your company's own definitions and playbook, and know-how stops sitting in one person's head and starts living in the system.
+
+Website: kumolabsai.com
+

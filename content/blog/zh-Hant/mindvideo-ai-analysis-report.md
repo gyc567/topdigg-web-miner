@@ -447,6 +447,15 @@ MindVideo AI作為免費平台，具備快速獲取用戶的優勢，但需要�
 - **📧 郵箱**: [gyc567@gmail.com](mailto:gyc567@gmail.com)
 - **🐦 Twitter**: [@EricBlock2100](https://twitter.com/EricBlock2100)
 - **💬 微信**: 360369487
+
+**🏢 企業 AI 落地：KumoAI 企業知識庫客製化開發**
+
+我把企業 AI 的落地做成了自己的產品：**KumoAI 企業級 AI 辦公中台**。
+
+企業的知識、業務數據、客戶數據，留在自己本地，私有化部署，數據不出門。它不是一個聊天工具，而是一套隨業務規模不停進化和最佳化的數字員工系統：文件放進去就能被檢索、被調用；用得越多，AI 越懂這家公司的口徑和打法；經驗從「躺在某個人的腦子裡」變成「長在系統裡」。
+
+官網：kumolabsai.com
+
 - **📱 Telegram**: [https://t.me/fatoshi_block](https://t.me/fatoshi_block)
 - **📢 Telegram頻道**: [https://t.me/cryptochanneleric](https://t.me/cryptochanneleric)
 - **👥 加密情報TG群**: [https://t.me/btcgogopen](https://t.me/btcgogopen)
