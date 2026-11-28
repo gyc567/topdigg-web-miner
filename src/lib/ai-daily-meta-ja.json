@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-28-ai-daily",
+      "date": "2026-11-28",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Alipay SkillPay を試す：Skill を売り物にする手順",
+      "description": "Alipay の SkillPay プラットフォームを試した。Skill は買い取り方式とサブスクリプション方式の両方をサポートし、買い取りは 0.01 元から 50 元、サブスクリプションは上限 50 元、無料トライアルは最低 5 回。OpenBMB が InternLM のオープンソース完全二重音声映像モデル Sage-Interaction を評価。Microsoft は 60000 名の従業員に自主退職プランを提示した。",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-27-ai-daily",
       "date": "2026-11-27",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Google DeepMind 发布 Gemini 4 Carbon 前沿模型",
       "description": "Google DeepMind 发布 Gemini 4 Carbon，定位为最强前沿模型，主打网络安全与长程智能体能力，在 SEC-bench Pro 88.2%、ExploitGym 54.8%、CWE-bench 71.0% 取得领先，并以 59 分登顶 Artificial Analysis Intelligence Index v5.0。",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-28-ai-daily",
-      "date": "2026-10-28",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "AnthropicのS-1 dissect：1000億ドル規模の調達計画に隠された11のディテール",
-      "description": "著者がAnthropicのIPO目論見書の11のディテールを解説します。調達計画は約1000億ドル、推定評価額は1.5兆〜2兆ドル。収入は5四半期で30倍に伸び、第2四半期には営業利益が初めて9.74億ドルと黒字化しましたが、上半期の純損失は807億ドルに達し、主に転換社債の公正価値変動に起因します。調整後純利益は26.71億ドルの黒字です。",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",

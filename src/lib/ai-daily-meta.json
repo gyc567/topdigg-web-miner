@@ -1,6 +1,47 @@
 {
   "reports": [
     {
+      "slug": "2026-11-28-ai-daily",
+      "title": {
+        "en": "Alipay SkillPay Hands-On: How to Put Your Skill Up for Sale",
+        "ja": "Alipay SkillPay を試す：Skill を売り物にする手順",
+        "vi": "Thử nghiệm SkillPay của Alipay: cách đưa Skill lên bán",
+        "zh-Hans": "实测支付宝 SkillPay：手把手教你怎么把 Skill 挂上去卖钱",
+        "zh-Hant": "實測支付寶 SkillPay：手把手教你怎麼把 Skill 掛上去賣錢"
+      },
+      "description": {
+        "en": "A hands-on test of Alipay's SkillPay platform: Skills support both outright purchase and subscription sales, with one-time pricing from 0.01 to 50 yuan and subscription capped at 50 yuan, plus a minimum of 5 free trial runs. OpenBMB reviews InternLM's open-source full-duplex speech and video model Sage-Interaction, and Microsoft offers a voluntary resignation plan to 60000 employees.",
+        "ja": "Alipay の SkillPay プラットフォームを試した。Skill は買い取り方式とサブスクリプション方式の両方をサポートし、買い取りは 0.01 元から 50 元、サブスクリプションは上限 50 元、無料トライアルは最低 5 回。OpenBMB が InternLM のオープンソース完全二重音声映像モデル Sage-Interaction を評価。Microsoft は 60000 名の従業員に自主退職プランを提示した。",
+        "vi": "Thử nghiệm nền tảng SkillPay của Alipay: Skill hỗ trợ cả hai mô hình bán theo bản quyền và theo thuê bao, giá mua đứt từ 0,01 đến 50 tệ, thuê bao trần 50 tệ, dùng thử miễn phí tối thiểu 5 lượt. OpenBMB đánh giá mô hình âm thanh và hình ảnh toàn phát nguồn mở Sage-Interaction của InternLM, Microsoft đề nghị chương trình từ chức tự nguyện cho 60000 nhân viên.",
+        "zh-Hans": "支付宝 SkillPay 平台实测：Skill 支持买断与订阅两种售卖模式，买断 0.01-50 元、订阅上限 50 元，免费试用最低 5 次。OpenBMB 点评 InternLM 开源全双工语音视频模型 Sage-Interaction，Microsoft 向 60000 名员工提供自愿离职计划。",
+        "zh-Hant": "支付寶 SkillPay 平台實測：Skill 支援買斷與訂閱兩種售賣模式，買斷 0.01-50 元、訂閱上限 50 元，免費試用最低 5 次。OpenBMB 點評 InternLM 開源全雙工語音影片模型 Sage-Interaction，Microsoft 向 60000 名員工提供自願離職計畫。"
+      },
+      "date": "2026-11-28",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥观势"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      },
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer"
+    },
+    {
       "slug": "2026-11-27-ai-daily",
       "title": {
         "en": "FT Reports Nvidia Suspends Server Shipments to Four Southeast Asian Countries",

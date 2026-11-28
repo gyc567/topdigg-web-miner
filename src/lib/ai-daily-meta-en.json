@@ -1,6 +1,29 @@
 {
   "reports": [
     {
+      "slug": "2026-11-28-ai-daily",
+      "date": "2026-11-28",
+      "author": "瑞哥观势",
+      "tags": [
+        "AI Daily"
+      ],
+      "categories": [
+        "AI Daily"
+      ],
+      "hn_count": 0,
+      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
+      "title": "Alipay SkillPay Hands-On: How to Put Your Skill Up for Sale",
+      "description": "A hands-on test of Alipay's SkillPay platform: Skills support both outright purchase and subscription sales, with one-time pricing from 0.01 to 50 yuan and subscription capped at 50 yuan, plus a minimum of 5 free trial runs. OpenBMB reviews InternLM's open-source full-duplex speech and video model Sage-Interaction, and Microsoft offers a voluntary resignation plan to 60000 employees.",
+      "source": {
+        "aggregator": "AI HOT",
+        "aggregator_url": "https://aihot.news",
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-27-ai-daily",
       "date": "2026-11-27",
       "author": "瑞哥观势",
@@ -658,29 +681,6 @@
       "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
       "title": "Google DeepMind Releases Gemini 4 Carbon, Its New Frontier Model",
       "description": "Google DeepMind released Gemini 4 Carbon, positioned as its strongest frontier model and focused on cybersecurity and long-horizon agents. It leads on SEC-bench Pro at 88.2%, ExploitGym at 54.8% and CWE-bench at 71.0%, and tops the Artificial Analysis Intelligence Index v5.0 with 59 points.",
-      "source": {
-        "aggregator": "AI HOT",
-        "aggregator_url": "https://aihot.news",
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-28-ai-daily",
-      "date": "2026-10-28",
-      "author": "瑞哥观势",
-      "tags": [
-        "AI Daily"
-      ],
-      "categories": [
-        "AI Daily"
-      ],
-      "hn_count": 5,
-      "hn_keywords": "AI OR GPT OR LLM OR Claude OR OpenAI OR \"machine learning\" OR \"large language model\" OR AGI OR \"generative AI\" OR AI agent OR RAG OR diffusion OR transformer",
-      "title": "Anthropic's S-1 Breakdown: 11 Details Behind a Plan to Raise Roughly $100 Billion in Its IPO",
-      "description": "The author breaks down 11 details in Anthropic's IPO prospectus, which plans to raise roughly $100 billion at a valuation of around $1.5 trillion to $2 trillion. Revenue grew 30x in five quarters and operating profit turned positive for the first time at $974 million in Q2, yet the first half still showed a $80.7 billion net loss driven by fair-value changes in convertible notes; adjusted net income was positive at $2.671 billion.",
       "source": {
         "aggregator": "AI HOT",
         "aggregator_url": "https://aihot.news",
