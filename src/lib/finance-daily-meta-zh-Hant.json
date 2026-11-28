@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-28-finance-daily",
+      "date": "2026-11-28",
+      "author": "瑞哥观势",
+      "tags": [
+        "財經簡報",
+        "總體經濟"
+      ],
+      "categories": [
+        "財經簡報"
+      ],
+      "title": "每日財經簡報 | 2026-11-28",
+      "description": "A股在國常會「國家隊」穩市訊號下全面重估，創業板指漲逾11%、科創50漲逾15%，逾5200檔個股上漲。黃金反彈2.4%至3653美元，白銀漲5.24%。聯準會維持3.75%-4.00%利率，市場開始定價升息尾端風險；荷姆茲海峽封鎖持續，航運通道仍未恢復。",
+      "source": {
+        "original": {
+          "name": "瑞哥觀勢",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-27-finance-daily",
       "date": "2026-11-27",
       "author": "瑞哥观势",
@@ -603,29 +623,6 @@
         "original": {
           "name": "瑞哥觀勢",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-18-finance-daily",
-      "date": "2026-10-18",
-      "author": "瑞哥观势",
-      "tags": [
-        "財經簡報",
-        "巨觀經濟",
-        "美股",
-        "外匯",
-        "大宗商品"
-      ],
-      "categories": [
-        "財經簡報"
-      ],
-      "title": "每日財經簡報 | 2026-10-18",
-      "description": "週末全球市場休市，美股週五漲跌互現：AAPL漲0.43%至$343，TSLA跌2.13%至$354，NVDA跌1.43%至$214；黃金突破$4160/oz；A股上證小幅反彈0.24%；美聯儲官員密集發聲，年內降息預期降溫。",
-      "source": {
-        "original": {
-          "name": "瑞哥觀勢",
-          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWgulAfP-eEgqflQPA2Wbmv7TK1GqFOetp2NFdf4RgBMG"
         }
       }
     }

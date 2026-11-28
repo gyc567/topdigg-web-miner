@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-28-finance-daily",
+      "date": "2026-11-28",
+      "author": "瑞哥观势",
+      "tags": [
+        "Finance Brief",
+        "Macroeconomics"
+      ],
+      "categories": [
+        "Finance Brief"
+      ],
+      "title": "Daily Finance Brief | 2026-11-28",
+      "description": "China's A-shares were repriced after the State Council named the national team for market support, with the ChiNext index up more than 11% and the STAR 50 up more than 15%. Gold rebounded 2.4% to $3,653 and silver gained 5.24%. The Fed holds at 3.75%-4.00% as hike tail risks get priced in, and the Strait of Hormuz remains blocked.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-27-finance-daily",
       "date": "2026-11-27",
       "author": "瑞哥观势",
@@ -603,29 +623,6 @@
         "original": {
           "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-18-finance-daily",
-      "date": "2026-10-18",
-      "author": "瑞哥观势",
-      "tags": [
-        "Finance Briefing",
-        "Macroeconomy",
-        "US Stocks",
-        "Forex",
-        "Commodities"
-      ],
-      "categories": [
-        "Finance Briefing"
-      ],
-      "title": "Daily Finance Briefing | 2026-10-18",
-      "description": "Global markets closed for weekend. US stocks mixed on Friday: AAPL +0.43% to $343, TSLA -2.13% to $354, NVDA -1.43% to $214; Gold broke above $4160/oz; China SSE rose 0.24%; Fed officials hawkish, year-end rate cut expectations cooling.",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWgulAfP-eEgqflQPA2Wbmv7TK1GqFOetp2NFdf4RgBMG"
         }
       }
     }

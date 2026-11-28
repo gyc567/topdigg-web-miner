@@ -1,6 +1,76 @@
 {
   "reports": [
     {
+      "slug": "2026-11-28-finance-daily",
+      "title": {
+        "en": "Daily Finance Brief | 2026-11-28",
+        "ja": "デイリー金融ブリーフ | 2026-11-28",
+        "vi": "Bản tin tài chính hằng ngày | 2026-11-28",
+        "zh-Hans": "每日财经简报 | 2026-11-28",
+        "zh-Hant": "每日財經簡報 | 2026-11-28"
+      },
+      "description": {
+        "en": "China's A-shares were repriced after the State Council named the national team for market support, with the ChiNext index up more than 11% and the STAR 50 up more than 15%. Gold rebounded 2.4% to $3,653 and silver gained 5.24%. The Fed holds at 3.75%-4.00% as hike tail risks get priced in, and the Strait of Hormuz remains blocked.",
+        "ja": "国務院の会議で国家チームが市場支援に名乗りを上げたことで、中国の株式市場が全面的に再評価された。創業板指数は11%超、科創50は15%超上昇し、5,200銘柄以上が値上がり。金は2.4%高の3,653ドル、銀は5.24%高。Fedは3.75%-4.00%を維持し、利上げの余剰リスクの織り込みが進む。ホルムズ海峡の封鎖は続き、航路は依然として復旧していない。",
+        "vi": "Thị trường cổ phiếu Trung Quốc được định giá lại sau khi Quốc vụ điểm lần đầu nhắc tới đội quốc gia hỗ trợ thị trường, với chỉ số ChiNext tăng hơn 11% và STAR 50 tăng hơn 15%. Vàng tăng 2,4% lên 3.653 USD, bạc tăng 5,24%. Fed giữ nguyên lãi suất 3,75%-4,00% trong khi rủi ro tăng lãi suất được thị trường đánh giá, và eo Hormuz vẫn bị phong tỏa nên tuyến hàng hải chưa được khôi phục.",
+        "zh-Hans": "A股在国常会「国家队」稳市信号下全线重估，创业板指涨超11%、科创50涨超15%，超5200只个股上涨。黄金反弹2.4%至3653美元，白银涨5.24%。美联储维持3.75%-4.00%并进入加息尾部风险定价，霍尔木兹海峡封锁持续，航运通道仍未恢复。",
+        "zh-Hant": "A股在國常會「國家隊」穩市訊號下全面重估，創業板指漲逾11%、科創50漲逾15%，逾5200檔個股上漲。黃金反彈2.4%至3653美元，白銀漲5.24%。聯準會維持3.75%-4.00%利率，市場開始定價升息尾端風險；荷姆茲海峽封鎖持續，航運通道仍未恢復。"
+      },
+      "date": "2026-11-28",
+      "author": "瑞哥观势",
+      "tags": {
+        "en": [
+          "Finance Brief",
+          "Macroeconomics"
+        ],
+        "ja": [
+          "金融ブリーフ",
+          "マクロ経済"
+        ],
+        "vi": [
+          "Bản tin tài chính",
+          "Kinh tế vĩ mô"
+        ],
+        "zh-Hans": [
+          "财经简报",
+          "宏观经济"
+        ],
+        "zh-Hant": [
+          "財經簡報",
+          "總體經濟"
+        ]
+      },
+      "categories": {
+        "en": [
+          "Finance Brief"
+        ],
+        "ja": [
+          "金融ブリーフ"
+        ],
+        "vi": [
+          "Bản tin tài chính"
+        ],
+        "zh-Hans": [
+          "财经简报"
+        ],
+        "zh-Hant": [
+          "財經簡報"
+        ]
+      },
+      "source": {
+        "original": {
+          "name": {
+            "en": "瑞哥观势",
+            "ja": "瑞哥观势",
+            "vi": "瑞哥观势",
+            "zh-Hans": "瑞哥观势",
+            "zh-Hant": "瑞哥觀勢"
+          },
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-27-finance-daily",
       "title": {
         "en": "Daily Finance Brief | 2026-11-27",

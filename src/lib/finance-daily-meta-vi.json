@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-28-finance-daily",
+      "date": "2026-11-28",
+      "author": "瑞哥观势",
+      "tags": [
+        "Bản tin tài chính",
+        "Kinh tế vĩ mô"
+      ],
+      "categories": [
+        "Bản tin tài chính"
+      ],
+      "title": "Bản tin tài chính hằng ngày | 2026-11-28",
+      "description": "Thị trường cổ phiếu Trung Quốc được định giá lại sau khi Quốc vụ điểm lần đầu nhắc tới đội quốc gia hỗ trợ thị trường, với chỉ số ChiNext tăng hơn 11% và STAR 50 tăng hơn 15%. Vàng tăng 2,4% lên 3.653 USD, bạc tăng 5,24%. Fed giữ nguyên lãi suất 3,75%-4,00% trong khi rủi ro tăng lãi suất được thị trường đánh giá, và eo Hormuz vẫn bị phong tỏa nên tuyến hàng hải chưa được khôi phục.",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-27-finance-daily",
       "date": "2026-11-27",
       "author": "瑞哥观势",
@@ -603,29 +623,6 @@
         "original": {
           "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-18-finance-daily",
-      "date": "2026-10-18",
-      "author": "瑞哥观势",
-      "tags": [
-        "Bản Tin Tài Chính",
-        "Kinh Tế Vĩ Mô",
-        "Chứng Khoán Mỹ",
-        "Ngoại Hối",
-        "Hàng Hóa"
-      ],
-      "categories": [
-        "Bản Tin Tài Chính"
-      ],
-      "title": "Bản Tin Tài Chính Hàng Ngày | 2026-10-18",
-      "description": "Thị trường toàn cầu nghỉ cuối tuần. Chứng khoán Mỹ trái chiều thứ 6: AAPL +0.43% lên $343, TSLA -2.13% xuống $354, NVDA -1.43% xuống $214; Vàng vượt $4160/oz; Trung Quốc SSE tăng 0.24%; quan chức Fed phát biểu diều hâu, kỳ vọng cắt giảm lãi suất năm nay giảm nhiệt.",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWgulAfP-eEgqflQPA2Wbmv7TK1GqFOetp2NFdf4RgBMG"
         }
       }
     }

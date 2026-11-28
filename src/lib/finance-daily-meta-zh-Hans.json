@@ -1,6 +1,26 @@
 {
   "reports": [
     {
+      "slug": "2026-11-28-finance-daily",
+      "date": "2026-11-28",
+      "author": "瑞哥观势",
+      "tags": [
+        "财经简报",
+        "宏观经济"
+      ],
+      "categories": [
+        "财经简报"
+      ],
+      "title": "每日财经简报 | 2026-11-28",
+      "description": "A股在国常会「国家队」稳市信号下全线重估，创业板指涨超11%、科创50涨超15%，超5200只个股上涨。黄金反弹2.4%至3653美元，白银涨5.24%。美联储维持3.75%-4.00%并进入加息尾部风险定价，霍尔木兹海峡封锁持续，航运通道仍未恢复。",
+      "source": {
+        "original": {
+          "name": "瑞哥观势",
+          "url": "https://mp.weixin.qq.com/s/xxxxx"
+        }
+      }
+    },
+    {
       "slug": "2026-11-27-finance-daily",
       "date": "2026-11-27",
       "author": "瑞哥观势",
@@ -603,29 +623,6 @@
         "original": {
           "name": "瑞哥观势",
           "url": "https://mp.weixin.qq.com/s/xxxxx"
-        }
-      }
-    },
-    {
-      "slug": "2026-10-18-finance-daily",
-      "date": "2026-10-18",
-      "author": "瑞哥观势",
-      "tags": [
-        "财经简报",
-        "宏观经济",
-        "美股",
-        "外汇",
-        "大宗商品"
-      ],
-      "categories": [
-        "财经简报"
-      ],
-      "title": "每日财经简报 | 2026-10-18",
-      "description": "周末全球市场休市，美股周五涨跌互现：AAPL涨0.43%至$343，TSLA跌2.13%至$354，NVDA跌1.43%至$214；黄金突破$4160/oz；A股上证小幅反弹0.24%；美联储官员密集发声，年内降息预期降温。",
-      "source": {
-        "original": {
-          "name": "瑞哥观势",
-          "url": "https://mp.weixin.qq.com/s/Q-SOuDzIX69B_KE4pIAwWgulAfP-eEgqflQPA2Wbmv7TK1GqFOetp2NFdf4RgBMG"
         }
       }
     }
